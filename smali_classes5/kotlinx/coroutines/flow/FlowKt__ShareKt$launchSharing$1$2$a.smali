@@ -1,4 +1,4 @@
-.class public final synthetic Lkotlinx/coroutines/flow/FlowKt__ShareKt$launchSharing$1$2$a;
+.class public abstract synthetic Lkotlinx/coroutines/flow/FlowKt__ShareKt$launchSharing$1$2$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

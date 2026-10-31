@@ -141,6 +141,7 @@
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -297,20 +298,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private diff(FF)Z
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "a",
-            "b"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p1}, Ljava/lang/Float;->isNaN(F)Z
@@ -418,17 +411,6 @@
 # virtual methods
 .method public addValues(Ljava/util/HashMap;I)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "splines",
-            "mFramePosition"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2606,14 +2588,6 @@
 
 .method public applyParameters(Landroid/view/View;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "view"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Landroid/view/View;->getVisibility()I
@@ -2728,14 +2702,6 @@
 
 .method public applyParameters(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "c"
-        }
-    .end annotation
 
     .line 15
     iget-object v0, p1, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->propertySet:Landroidx/constraintlayout/widget/ConstraintSet$PropertySet;
@@ -2916,14 +2882,6 @@
 
 .method public compareTo(Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 2
     iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->position:F
@@ -2939,14 +2897,6 @@
 
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;
@@ -2960,17 +2910,6 @@
 
 .method public different(Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;Ljava/util/HashSet;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "points",
-            "keySet"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -3258,18 +3197,6 @@
 
 .method public different(Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;[Z[Ljava/lang/String;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "points",
-            "mask",
-            "custom"
-        }
-    .end annotation
 
     const/4 p3, 0x0
 
@@ -3361,16 +3288,6 @@
 
 .method public fillStandard([D[I)V
     .locals 22
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "data",
-            "toUse"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v0, p0
@@ -3759,22 +3676,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getCustomData(Ljava/lang/String;[DI)I
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "name",
-            "value",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->attributes:Ljava/util/LinkedHashMap;
@@ -3945,18 +3853,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getCustomDataCount(Ljava/lang/String;)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "name"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->attributes:Ljava/util/LinkedHashMap;
@@ -4000,14 +3903,6 @@
 
 .method public hasCustomData(Ljava/lang/String;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "name"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->attributes:Ljava/util/LinkedHashMap;
@@ -4045,20 +3940,6 @@
 
 .method public setBounds(FFFF)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "x",
-            "y",
-            "w",
-            "h"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->x:F
@@ -4299,24 +4180,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setState(Landroid/graphics/Rect;Landroid/view/View;IF)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "rect",
-            "view",
-            "rotation",
-            "prevous"
-        }
-    .end annotation
 
     .line 3
     iget v0, p1, Landroid/graphics/Rect;->left:I
@@ -4383,20 +4256,6 @@
 
 .method public setState(Landroid/graphics/Rect;Landroidx/constraintlayout/widget/ConstraintSet;II)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "cw",
-            "constraintSet",
-            "rotation",
-            "viewId"
-        }
-    .end annotation
 
     .line 9
     iget v0, p1, Landroid/graphics/Rect;->left:I
@@ -4486,14 +4345,6 @@
 
 .method public setState(Landroid/view/View;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "view"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Landroid/view/View;->getX()F

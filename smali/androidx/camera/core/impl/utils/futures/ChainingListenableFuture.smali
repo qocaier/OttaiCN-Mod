@@ -38,14 +38,13 @@
     .end annotation
 .end field
 
-.field private mInputFuture:Lub/u0;
+.field private mInputFuture:Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "+TI;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -62,27 +61,26 @@
 
 .field private final mOutputCreated:Ljava/util/concurrent/CountDownLatch;
 
-.field volatile mOutputFuture:Lub/u0;
+.field volatile mOutputFuture:Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "+TO;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Landroidx/camera/core/impl/utils/futures/AsyncFunction;Lub/u0;)V
+.method public constructor <init>(Landroidx/camera/core/impl/utils/futures/AsyncFunction;Lcom/google/common/util/concurrent/t;)V
     .locals 2
     .param p1    # Landroidx/camera/core/impl/utils/futures/AsyncFunction;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .param p2    # Lub/u0;
+    .param p2    # Lcom/google/common/util/concurrent/t;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
@@ -91,8 +89,8 @@
             "(",
             "Landroidx/camera/core/impl/utils/futures/AsyncFunction<",
             "-TI;+TO;>;",
-            "Lub/u0<",
-            "+TI;>;)V"
+            "Lcom/google/common/util/concurrent/t;",
+            ")V"
         }
     .end annotation
 
@@ -155,11 +153,11 @@
     move-result-object p1
 
     .line 31
-    check-cast p1, Lub/u0;
+    check-cast p1, Lcom/google/common/util/concurrent/t;
 
     .line 32
     .line 33
-    iput-object p1, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lcom/google/common/util/concurrent/t;
 
     .line 34
     .line 35
@@ -444,6 +442,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -468,12 +467,12 @@
     invoke-direct {p0, v0, v1}, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->putUninterruptibly(Ljava/util/concurrent/BlockingQueue;Ljava/lang/Object;)V
 
     .line 3
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lcom/google/common/util/concurrent/t;
 
     invoke-direct {p0, v0, p1}, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->cancel(Ljava/util/concurrent/Future;Z)V
 
     .line 4
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lcom/google/common/util/concurrent/t;
 
     invoke-direct {p0, v0, p1}, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->cancel(Ljava/util/concurrent/Future;Z)V
 
@@ -513,7 +512,7 @@
     if-nez v0, :cond_1
 
     .line 2
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lcom/google/common/util/concurrent/t;
 
     if-eqz v0, :cond_0
 
@@ -527,7 +526,7 @@
     invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->await()V
 
     .line 5
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lcom/google/common/util/concurrent/t;
 
     if-eqz v0, :cond_1
 
@@ -589,7 +588,7 @@
 
     .line 11
     :cond_0
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lcom/google/common/util/concurrent/t;
 
     const-wide/16 v1, 0x0
 
@@ -645,7 +644,7 @@
     sub-long/2addr p1, v0
 
     .line 18
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lcom/google/common/util/concurrent/t;
 
     if-eqz v0, :cond_3
 
@@ -680,7 +679,7 @@
 
     .line 2
     :try_start_0
-    iget-object v1, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lcom/google/common/util/concurrent/t;
 
     .line 3
     .line 4
@@ -704,7 +703,7 @@
 
     .line 9
     .line 10
-    invoke-interface {v2, v1}, Landroidx/camera/core/impl/utils/futures/AsyncFunction;->apply(Ljava/lang/Object;)Lub/u0;
+    invoke-interface {v2, v1}, Landroidx/camera/core/impl/utils/futures/AsyncFunction;->apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 11
     .line 12
@@ -712,7 +711,7 @@
     move-result-object v1
 
     .line 14
-    iput-object v1, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lub/u0;
+    iput-object v1, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lcom/google/common/util/concurrent/t;
 
     .line 15
     .line 16
@@ -757,7 +756,7 @@
     .line 35
     .line 36
     .line 37
-    iput-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lub/u0;
+    iput-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lcom/google/common/util/concurrent/t;
     :try_end_1
     .catch Ljava/lang/reflect/UndeclaredThrowableException; {:try_start_1 .. :try_end_1} :catch_2
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
@@ -771,7 +770,7 @@
 
     .line 40
     .line 41
-    iput-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lub/u0;
+    iput-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lcom/google/common/util/concurrent/t;
 
     .line 42
     .line 43
@@ -821,7 +820,7 @@
 
     .line 58
     .line 59
-    invoke-direct {v2, p0, v1}, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture$1;-><init>(Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;Lub/u0;)V
+    invoke-direct {v2, p0, v1}, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture$1;-><init>(Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;Lcom/google/common/util/concurrent/t;)V
 
     .line 60
     .line 61
@@ -834,7 +833,7 @@
     move-result-object v3
 
     .line 66
-    invoke-interface {v1, v2, v3}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v1, v2, v3}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 67
     .line 68
@@ -893,7 +892,7 @@
 
     .line 88
     .line 89
-    iput-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lub/u0;
+    iput-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lcom/google/common/util/concurrent/t;
 
     .line 90
     .line 91
@@ -947,7 +946,7 @@
 
     .line 111
     .line 112
-    iput-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lub/u0;
+    iput-object v0, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mInputFuture:Lcom/google/common/util/concurrent/t;
 
     .line 113
     .line 114
@@ -1220,4 +1219,56 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method

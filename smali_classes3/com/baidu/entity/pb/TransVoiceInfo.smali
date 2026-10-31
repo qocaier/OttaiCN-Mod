@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/entity/pb/TransVoiceInfo;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -24,9 +24,9 @@
 # instance fields
 .field private cachedSize:I
 
-.field private contentBeg_:Ljc/a;
+.field private contentBeg_:Ll4/a;
 
-.field private contentEnd_:Ljc/a;
+.field private contentEnd_:Ll4/a;
 
 .field private distance_:I
 
@@ -61,7 +61,7 @@
 .method public constructor <init>()V
     .locals 3
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
     const/4 v0, 0x0
 
@@ -75,11 +75,11 @@
 
     iput v0, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->minBroadcastDist_:I
 
-    sget-object v2, Ljc/a;->c:Ljc/a;
+    sget-object v2, Ll4/a;->c:Ll4/a;
 
-    iput-object v2, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentBeg_:Ljc/a;
+    iput-object v2, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentBeg_:Ll4/a;
 
-    iput-object v2, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentEnd_:Ljc/a;
+    iput-object v2, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentEnd_:Ll4/a;
 
     iput v0, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->distance_:I
 
@@ -92,7 +92,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/entity/pb/TransVoiceInfo;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/entity/pb/TransVoiceInfo;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -105,7 +105,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TransVoiceInfo;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/TransVoiceInfo;
+    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/TransVoiceInfo;
 
     move-result-object p0
 
@@ -125,7 +125,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TransVoiceInfo;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -169,9 +169,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->hasContentBeg:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentBeg_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentBeg_:Ll4/a;
 
     return-object p0
 .end method
@@ -183,9 +183,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->hasContentEnd:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentEnd_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentEnd_:Ll4/a;
 
     return-object p0
 .end method
@@ -281,11 +281,11 @@
     return v0
 .end method
 
-.method public getContentBeg()Ljc/a;
+.method public getContentBeg()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentBeg_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentBeg_:Ll4/a;
 
     .line 2
     .line 3
@@ -309,14 +309,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getContentEnd()Ljc/a;
+.method public getContentEnd()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentEnd_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentEnd_:Ll4/a;
 
     .line 2
     .line 3
@@ -340,7 +339,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDistance()I
@@ -406,7 +404,7 @@
 
     move-result v1
 
-    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v0
 
@@ -428,7 +426,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -447,7 +445,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v1
 
@@ -466,7 +464,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -481,11 +479,11 @@
 
     const/4 v1, 0x5
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->getContentBeg()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->getContentBeg()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -500,11 +498,11 @@
 
     const/4 v1, 0x6
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->getContentEnd()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->getContentEnd()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -523,7 +521,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -542,7 +540,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v1
 
@@ -666,7 +664,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/TransVoiceInfo;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/TransVoiceInfo;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -677,7 +675,7 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
@@ -715,7 +713,7 @@
 
     if-eq v0, v1, :cond_1
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -728,14 +726,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TransPanelPoint;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TransVoiceInfo;->setEndPoint(Lcom/baidu/entity/pb/TransPanelPoint;)Lcom/baidu/entity/pb/TransVoiceInfo;
 
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -744,25 +742,25 @@
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TransVoiceInfo;->setContentEnd(Ljc/a;)Lcom/baidu/entity/pb/TransVoiceInfo;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TransVoiceInfo;->setContentEnd(Ll4/a;)Lcom/baidu/entity/pb/TransVoiceInfo;
 
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TransVoiceInfo;->setContentBeg(Ljc/a;)Lcom/baidu/entity/pb/TransVoiceInfo;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TransVoiceInfo;->setContentBeg(Ll4/a;)Lcom/baidu/entity/pb/TransVoiceInfo;
 
     goto :goto_0
 
     :cond_5
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -775,14 +773,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TransPanelPoint;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TransVoiceInfo;->setPoint(Lcom/baidu/entity/pb/TransPanelPoint;)Lcom/baidu/entity/pb/TransVoiceInfo;
 
     goto :goto_0
 
     :cond_7
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -791,7 +789,7 @@
     goto :goto_0
 
     :cond_8
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -804,7 +802,7 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -813,14 +811,14 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/TransVoiceInfo;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/TransVoiceInfo;
+    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/TransVoiceInfo;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/TransVoiceInfo;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public setContentBeg(Ljc/a;)Lcom/baidu/entity/pb/TransVoiceInfo;
+.method public setContentBeg(Ll4/a;)Lcom/baidu/entity/pb/TransVoiceInfo;
     .locals 1
 
     .line 1
@@ -831,7 +829,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentBeg_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentBeg_:Ll4/a;
 
     .line 5
     .line 6
@@ -854,10 +852,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setContentEnd(Ljc/a;)Lcom/baidu/entity/pb/TransVoiceInfo;
+.method public setContentEnd(Ll4/a;)Lcom/baidu/entity/pb/TransVoiceInfo;
     .locals 1
 
     .line 1
@@ -868,7 +865,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentEnd_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/TransVoiceInfo;->contentEnd_:Ll4/a;
 
     .line 5
     .line 6
@@ -891,7 +888,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDistance(I)Lcom/baidu/entity/pb/TransVoiceInfo;
@@ -1004,7 +1000,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->hasLinkIdx()Z
@@ -1019,7 +1015,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->hasPoint()Z
@@ -1034,7 +1030,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->hasMinBroadcastDist()Z
@@ -1049,7 +1045,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->hasContentBeg()Z
@@ -1060,11 +1056,11 @@
 
     const/4 v0, 0x5
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->getContentBeg()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->getContentBeg()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_4
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->hasContentEnd()Z
@@ -1075,11 +1071,11 @@
 
     const/4 v0, 0x6
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->getContentEnd()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->getContentEnd()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_5
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->hasDistance()Z
@@ -1094,7 +1090,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_6
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransVoiceInfo;->hasEndPoint()Z
@@ -1109,7 +1105,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_7
     return-void

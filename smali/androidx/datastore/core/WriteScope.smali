@@ -20,22 +20,13 @@
 
 
 # virtual methods
-.method public abstract writeData(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract writeData(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method

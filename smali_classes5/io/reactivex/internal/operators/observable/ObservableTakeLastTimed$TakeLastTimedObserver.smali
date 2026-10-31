@@ -3,29 +3,19 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ldk/g0;
-.implements Lfk/b;
+.implements Lb8/o;
+.implements Lio/reactivex/disposables/b;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "TakeLastTimedObserver"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T:",
         "Ljava/lang/Object;",
         ">",
         "Ljava/util/concurrent/atomic/AtomicBoolean;",
-        "Ldk/g0<",
-        "TT;>;",
-        "Lfk/b;"
+        "Lb8/o;",
+        "Lio/reactivex/disposables/b;"
     }
 .end annotation
 
@@ -41,46 +31,43 @@
 
 .field final delayError:Z
 
-.field final downstream:Ldk/g0;
+.field final downstream:Lb8/o;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ldk/g0<",
-            "-TT;>;"
+            "Lb8/o;"
         }
     .end annotation
 .end field
 
 .field error:Ljava/lang/Throwable;
 
-.field final queue:Luk/a;
+.field final queue:Lio/reactivex/internal/queue/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Luk/a<",
-            "Ljava/lang/Object;",
-            ">;"
+            "Lio/reactivex/internal/queue/a;"
         }
     .end annotation
 .end field
 
-.field final scheduler:Ldk/h0;
+.field final scheduler:Lb8/p;
 
 .field final time:J
 
 .field final unit:Ljava/util/concurrent/TimeUnit;
 
-.field upstream:Lfk/b;
+.field upstream:Lio/reactivex/disposables/b;
 
 
 # direct methods
-.method public constructor <init>(Ldk/g0;JJLjava/util/concurrent/TimeUnit;Ldk/h0;IZ)V
+.method public constructor <init>(Lb8/o;JJLjava/util/concurrent/TimeUnit;Lb8/p;IZ)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ldk/g0<",
-            "-TT;>;JJ",
+            "Lb8/o;",
+            "JJ",
             "Ljava/util/concurrent/TimeUnit;",
-            "Ldk/h0;",
+            "Lb8/p;",
             "IZ)V"
         }
     .end annotation
@@ -91,7 +78,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->downstream:Ldk/g0;
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->downstream:Lb8/o;
 
     .line 5
     .line 6
@@ -107,28 +94,26 @@
 
     .line 11
     .line 12
-    iput-object p7, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->scheduler:Ldk/h0;
+    new-instance p1, Lio/reactivex/internal/queue/a;
 
     .line 13
     .line 14
-    new-instance p1, Luk/a;
+    invoke-direct {p1, p8}, Lio/reactivex/internal/queue/a;-><init>(I)V
 
     .line 15
     .line 16
-    invoke-direct {p1, p8}, Luk/a;-><init>(I)V
-
     .line 17
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->queue:Lio/reactivex/internal/queue/a;
+
     .line 18
     .line 19
-    iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->queue:Luk/a;
+    iput-boolean p9, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->delayError:Z
 
     .line 20
     .line 21
-    iput-boolean p9, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->delayError:Z
-
+    return-void
     .line 22
     .line 23
-    return-void
     .line 24
     .line 25
     .line 26
@@ -597,11 +582,11 @@
 
     .line 7
     .line 8
-    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->upstream:Lfk/b;
+    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 9
     .line 10
-    invoke-interface {v1}, Lfk/b;->dispose()V
+    invoke-interface {v1}, Lio/reactivex/disposables/b;->dispose()V
 
     .line 11
     .line 12
@@ -621,11 +606,11 @@
 
     .line 19
     .line 20
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->queue:Luk/a;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->queue:Lio/reactivex/internal/queue/a;
 
     .line 21
     .line 22
-    invoke-virtual {v0}, Luk/a;->clear()V
+    invoke-virtual {v0}, Lio/reactivex/internal/queue/a;->clear()V
 
     .line 23
     .line 24
@@ -657,60 +642,10 @@
     .line 48
     .line 49
     .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
 .end method
 
 .method public drain()V
-    .locals 9
+    .locals 2
 
     .line 1
     const/4 v0, 0x0
@@ -735,177 +670,49 @@
 
     .line 10
     :cond_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->downstream:Ldk/g0;
+    const/4 v0, 0x0
 
     .line 11
+    throw v0
     .line 12
-    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->queue:Luk/a;
-
     .line 13
     .line 14
-    iget-boolean v2, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->delayError:Z
-
     .line 15
     .line 16
-    iget-object v3, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->scheduler:Ldk/h0;
-
     .line 17
     .line 18
-    iget-object v4, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->unit:Ljava/util/concurrent/TimeUnit;
-
     .line 19
     .line 20
-    invoke-virtual {v3, v4}, Ldk/h0;->d(Ljava/util/concurrent/TimeUnit;)J
-
     .line 21
     .line 22
     .line 23
-    move-result-wide v3
-
     .line 24
-    iget-wide v5, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->time:J
-
     .line 25
     .line 26
-    sub-long/2addr v3, v5
-
     .line 27
-    :goto_0
-    iget-boolean v5, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->cancelled:Z
-
     .line 28
     .line 29
-    if-eqz v5, :cond_1
-
     .line 30
     .line 31
-    invoke-virtual {v1}, Luk/a;->clear()V
-
     .line 32
     .line 33
     .line 34
-    return-void
-
     .line 35
-    :cond_1
-    if-nez v2, :cond_2
-
     .line 36
     .line 37
-    iget-object v5, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->error:Ljava/lang/Throwable;
-
     .line 38
     .line 39
-    if-eqz v5, :cond_2
-
     .line 40
     .line 41
-    invoke-virtual {v1}, Luk/a;->clear()V
-
     .line 42
     .line 43
     .line 44
-    invoke-interface {v0, v5}, Ldk/g0;->onError(Ljava/lang/Throwable;)V
-
     .line 45
     .line 46
     .line 47
-    return-void
-
     .line 48
-    :cond_2
-    invoke-virtual {v1}, Luk/a;->poll()Ljava/lang/Object;
-
     .line 49
     .line 50
-    .line 51
-    move-result-object v5
-
-    .line 52
-    if-nez v5, :cond_4
-
-    .line 53
-    .line 54
-    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->error:Ljava/lang/Throwable;
-
-    .line 55
-    .line 56
-    if-eqz v1, :cond_3
-
-    .line 57
-    .line 58
-    invoke-interface {v0, v1}, Ldk/g0;->onError(Ljava/lang/Throwable;)V
-
-    .line 59
-    .line 60
-    .line 61
-    return-void
-
-    .line 62
-    :cond_3
-    invoke-interface {v0}, Ldk/g0;->onComplete()V
-
-    .line 63
-    .line 64
-    .line 65
-    return-void
-
-    .line 66
-    :cond_4
-    invoke-virtual {v1}, Luk/a;->poll()Ljava/lang/Object;
-
-    .line 67
-    .line 68
-    .line 69
-    move-result-object v6
-
-    .line 70
-    check-cast v5, Ljava/lang/Long;
-
-    .line 71
-    .line 72
-    invoke-virtual {v5}, Ljava/lang/Long;->longValue()J
-
-    .line 73
-    .line 74
-    .line 75
-    move-result-wide v7
-
-    .line 76
-    cmp-long v5, v7, v3
-
-    .line 77
-    .line 78
-    if-gez v5, :cond_5
-
-    .line 79
-    .line 80
-    goto :goto_0
-
-    .line 81
-    :cond_5
-    invoke-interface {v0, v6}, Ldk/g0;->onNext(Ljava/lang/Object;)V
-
-    .line 82
-    .line 83
-    .line 84
-    goto :goto_0
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
 .end method
 
 .method public isDisposed()Z
@@ -937,6 +744,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onComplete()V
@@ -968,6 +802,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onError(Ljava/lang/Throwable;)V
@@ -1002,10 +863,43 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public onNext(Ljava/lang/Object;)V
-    .locals 13
+    .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)V"
@@ -1013,174 +907,76 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->queue:Luk/a;
+    const/4 p1, 0x0
 
     .line 2
+    throw p1
     .line 3
-    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->scheduler:Ldk/h0;
-
     .line 4
     .line 5
-    iget-object v2, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->unit:Ljava/util/concurrent/TimeUnit;
-
     .line 6
     .line 7
-    invoke-virtual {v1, v2}, Ldk/h0;->d(Ljava/util/concurrent/TimeUnit;)J
-
     .line 8
     .line 9
     .line 10
-    move-result-wide v1
-
     .line 11
-    iget-wide v3, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->time:J
-
     .line 12
     .line 13
-    iget-wide v5, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->count:J
-
     .line 14
     .line 15
-    const-wide v7, 0x7fffffffffffffffL
-
     .line 16
     .line 17
     .line 18
     .line 19
     .line 20
-    cmp-long v7, v5, v7
-
     .line 21
     .line 22
-    const/4 v8, 0x1
-
     .line 23
-    if-nez v7, :cond_0
-
     .line 24
     .line 25
-    move v7, v8
-
     .line 26
-    goto :goto_0
-
     .line 27
-    :cond_0
-    const/4 v7, 0x0
-
     .line 28
-    :goto_0
-    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
-
     .line 29
     .line 30
     .line 31
-    move-result-object v9
-
     .line 32
-    invoke-virtual {v0, v9, p1}, Luk/a;->offer(Ljava/lang/Object;Ljava/lang/Object;)Z
-
     .line 33
     .line 34
     .line 35
-    :goto_1
-    invoke-virtual {v0}, Luk/a;->isEmpty()Z
-
     .line 36
     .line 37
     .line 38
-    move-result p1
-
     .line 39
-    if-nez p1, :cond_2
-
     .line 40
     .line 41
-    invoke-virtual {v0}, Luk/a;->peek()Ljava/lang/Object;
-
     .line 42
     .line 43
     .line 44
-    move-result-object p1
-
     .line 45
-    check-cast p1, Ljava/lang/Long;
-
     .line 46
     .line 47
-    invoke-virtual {p1}, Ljava/lang/Long;->longValue()J
-
     .line 48
     .line 49
     .line 50
-    move-result-wide v9
-
     .line 51
-    sub-long v11, v1, v3
-
     .line 52
     .line 53
-    cmp-long p1, v9, v11
-
     .line 54
     .line 55
-    if-lez p1, :cond_1
-
     .line 56
     .line 57
-    if-nez v7, :cond_2
-
-    .line 58
-    .line 59
-    invoke-virtual {v0}, Luk/a;->m()I
-
-    .line 60
-    .line 61
-    .line 62
-    move-result p1
-
-    .line 63
-    shr-int/2addr p1, v8
-
-    .line 64
-    int-to-long v9, p1
-
-    .line 65
-    cmp-long p1, v9, v5
-
-    .line 66
-    .line 67
-    if-lez p1, :cond_2
-
-    .line 68
-    .line 69
-    :cond_1
-    invoke-virtual {v0}, Luk/a;->poll()Ljava/lang/Object;
-
-    .line 70
-    .line 71
-    .line 72
-    invoke-virtual {v0}, Luk/a;->poll()Ljava/lang/Object;
-
-    .line 73
-    .line 74
-    .line 75
-    goto :goto_1
-
-    .line 76
-    :cond_2
-    return-void
 .end method
 
-.method public onSubscribe(Lfk/b;)V
+.method public onSubscribe(Lio/reactivex/disposables/b;)V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->upstream:Lfk/b;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->validate(Lfk/b;Lfk/b;)Z
+    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->validate(Lio/reactivex/disposables/b;Lio/reactivex/disposables/b;)Z
 
     .line 4
     .line 5
@@ -1192,15 +988,15 @@
 
     .line 8
     .line 9
-    iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->upstream:Lfk/b;
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 10
     .line 11
-    iget-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->downstream:Ldk/g0;
+    iget-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeLastTimed$TakeLastTimedObserver;->downstream:Lb8/o;
 
     .line 12
     .line 13
-    invoke-interface {p1, p0}, Ldk/g0;->onSubscribe(Lfk/b;)V
+    invoke-interface {p1, p0}, Lb8/o;->onSubscribe(Lio/reactivex/disposables/b;)V
 
     .line 14
     .line 15
@@ -1215,4 +1011,37 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method

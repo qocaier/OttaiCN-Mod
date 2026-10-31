@@ -41,22 +41,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public setProperty(Landroid/view/View;F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "view",
-            "t"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;->get(F)F

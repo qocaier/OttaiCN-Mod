@@ -278,6 +278,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public canBypassDnd()Z
@@ -306,6 +307,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public canShowBadge()Z
@@ -334,6 +336,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAudioAttributes()Landroid/media/AudioAttributes;
@@ -362,6 +365,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getConversationId()Ljava/lang/String;
@@ -390,6 +394,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDescription()Ljava/lang/String;
@@ -418,6 +423,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getGroup()Ljava/lang/String;
@@ -446,6 +452,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getId()Ljava/lang/String;
@@ -474,6 +481,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImportance()I
@@ -502,6 +510,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLightColor()I
@@ -530,6 +539,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLockscreenVisibility()I
@@ -558,6 +568,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getName()Ljava/lang/CharSequence;
@@ -586,6 +597,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNotificationChannel()Landroid/app/NotificationChannel;
@@ -746,6 +758,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getParentChannelId()Ljava/lang/String;
@@ -774,6 +788,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSound()Landroid/net/Uri;
@@ -802,6 +817,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVibrationPattern()[J
@@ -830,6 +846,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isImportantConversation()Z
@@ -858,6 +875,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public shouldShowLights()Z
@@ -886,6 +904,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public shouldVibrate()Z
@@ -914,6 +933,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toBuilder()Landroidx/core/app/NotificationChannelCompat$Builder;
@@ -1076,4 +1096,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

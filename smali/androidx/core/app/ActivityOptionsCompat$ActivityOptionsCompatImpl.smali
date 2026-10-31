@@ -86,6 +86,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLaunchDisplayId()I
@@ -108,7 +109,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, Lp0/c;->a(Landroid/app/ActivityOptions;)I
+    invoke-static {v0}, Landroidx/core/app/d;->a(Landroid/app/ActivityOptions;)I
 
     .line 10
     .line 11
@@ -129,6 +130,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public requestUsageTimeReport(Landroid/app/PendingIntent;)V
@@ -227,7 +229,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, p1}, Lp0/d;->a(Landroid/app/ActivityOptions;I)Landroid/app/ActivityOptions;
+    invoke-static {v0, p1}, Landroidx/core/app/e;->a(Landroid/app/ActivityOptions;I)Landroid/app/ActivityOptions;
 
     .line 10
     .line 11
@@ -274,7 +276,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, p1}, Lp0/e;->a(Landroid/app/ActivityOptions;I)Landroid/app/ActivityOptions;
+    invoke-static {v0, p1}, Landroidx/core/app/f;->a(Landroid/app/ActivityOptions;I)Landroid/app/ActivityOptions;
 
     .line 10
     .line 11
@@ -313,7 +315,7 @@
 
     .line 24
     .line 25
-    invoke-static {v0, p1}, Lp0/f;->a(Landroid/app/ActivityOptions;Z)V
+    invoke-static {v0, p1}, Landroidx/core/app/g;->a(Landroid/app/ActivityOptions;Z)V
 
     .line 26
     .line 27
@@ -370,6 +372,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setShareIdentityEnabled(Z)Landroidx/core/app/ActivityOptionsCompat;
@@ -400,7 +403,7 @@
 
     .line 11
     .line 12
-    invoke-static {v1, p1}, Lp0/b;->a(Landroid/app/ActivityOptions;Z)Landroid/app/ActivityOptions;
+    invoke-static {v1, p1}, Landroidx/core/app/c;->a(Landroid/app/ActivityOptions;Z)Landroid/app/ActivityOptions;
 
     .line 13
     .line 14
@@ -452,6 +455,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public update(Landroidx/core/app/ActivityOptionsCompat;)V

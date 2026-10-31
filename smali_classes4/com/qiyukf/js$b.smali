@@ -241,6 +241,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public c(Ljava/lang/CharSequence;)Lcom/qiyukf/js$b;
@@ -278,6 +280,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public d(Ljava/lang/CharSequence;)Lcom/qiyukf/js$b;
@@ -317,4 +321,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

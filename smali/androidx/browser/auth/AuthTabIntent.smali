@@ -290,6 +290,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPendingSession()Landroidx/browser/auth/AuthTabSession$PendingSession;
@@ -320,6 +321,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSession()Landroidx/browser/auth/AuthTabSession;
@@ -348,6 +350,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEphemeralBrowsingEnabled()Z
@@ -384,6 +387,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public launch(Landroidx/activity/result/ActivityResultLauncher;Landroid/net/Uri;Ljava/lang/String;)V

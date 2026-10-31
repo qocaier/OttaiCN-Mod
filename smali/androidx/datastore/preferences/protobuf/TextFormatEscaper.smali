@@ -38,18 +38,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static escapeBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Ljava/lang/String;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "input"
-        }
-    .end annotation
 
     .line 20
     new-instance v0, Landroidx/datastore/preferences/protobuf/TextFormatEscaper$1;
@@ -65,14 +58,6 @@
 
 .method public static escapeBytes(Landroidx/datastore/preferences/protobuf/TextFormatEscaper$ByteSequence;)Ljava/lang/String;
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "input"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -269,14 +254,6 @@
 
 .method public static escapeBytes([B)Ljava/lang/String;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "input"
-        }
-    .end annotation
 
     .line 21
     new-instance v0, Landroidx/datastore/preferences/protobuf/TextFormatEscaper$2;
@@ -292,14 +269,6 @@
 
 .method public static escapeDoubleQuotesAndBackslashes(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "input"
-        }
-    .end annotation
 
     .line 1
     const-string v0, "\\"
@@ -347,14 +316,6 @@
 
 .method public static escapeText(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "input"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ByteString;

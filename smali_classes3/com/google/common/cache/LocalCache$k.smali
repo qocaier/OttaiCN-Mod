@@ -16,40 +16,13 @@
     name = "k"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/google/common/cache/LocalCache$s<",
-        "TK;TV;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public volatile a:Lcom/google/common/cache/LocalCache$s;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;"
-        }
-    .end annotation
-.end field
 
-.field public final b:Lcom/google/common/util/concurrent/s;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/common/util/concurrent/s<",
-            "TV;>;"
-        }
-    .end annotation
-.end field
+.field public final b:Lcom/google/common/util/concurrent/a0;
 
-.field public final c:Lgb/z;
+.field public final c:Lcom/google/common/base/q;
 
 
 # direct methods
@@ -57,7 +30,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lcom/google/common/cache/LocalCache;->S()Lcom/google/common/cache/LocalCache$s;
+    invoke-static {}, Lcom/google/common/cache/LocalCache;->I()Lcom/google/common/cache/LocalCache$s;
 
     move-result-object v0
 
@@ -68,39 +41,23 @@
 
 .method public constructor <init>(Lcom/google/common/cache/LocalCache$s;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "oldValue"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;)V"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    invoke-static {}, Lcom/google/common/util/concurrent/s;->F()Lcom/google/common/util/concurrent/s;
+    invoke-static {}, Lcom/google/common/util/concurrent/a0;->F()Lcom/google/common/util/concurrent/a0;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/s;
+    iput-object v0, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/a0;
 
     .line 4
-    invoke-static {}, Lgb/z;->e()Lgb/z;
+    invoke-static {}, Lcom/google/common/base/q;->d()Lcom/google/common/base/q;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/google/common/cache/LocalCache$k;->c:Lgb/z;
+    iput-object v0, p0, Lcom/google/common/cache/LocalCache$k;->c:Lcom/google/common/base/q;
 
     .line 5
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$k;->a:Lcom/google/common/cache/LocalCache$s;
@@ -174,24 +131,12 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
-.method public a()Lcom/google/common/cache/d;
+.method public a()Lcom/google/common/cache/k;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -201,24 +146,6 @@
 
 .method public b(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "newValue"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TV;)V"
-        }
-    .end annotation
 
     .line 1
     if-eqz p1, :cond_0
@@ -234,7 +161,7 @@
 
     .line 7
     :cond_0
-    invoke-static {}, Lcom/google/common/cache/LocalCache;->S()Lcom/google/common/cache/LocalCache$s;
+    invoke-static {}, Lcom/google/common/cache/LocalCache;->I()Lcom/google/common/cache/LocalCache$s;
 
     .line 8
     .line 9
@@ -258,7 +185,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public c()I
@@ -293,7 +219,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public d()Z
@@ -305,36 +230,8 @@
     return v0
 .end method
 
-.method public e(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/d;)Lcom/google/common/cache/LocalCache$s;
+.method public e(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/k;)Lcom/google/common/cache/LocalCache$s;
     .locals 0
-    .param p2    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "queue",
-            "value",
-            "entry"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/ref/ReferenceQueue<",
-            "TV;>;TV;",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)",
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;"
-        }
-    .end annotation
 
     .line 1
     return-object p0
@@ -342,24 +239,13 @@
 
 .method public f()Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TV;"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/util/concurrent/ExecutionException;
-        }
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/s;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/a0;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lub/r1;->f(Ljava/util/concurrent/Future;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/google/common/util/concurrent/c0;->a(Ljava/util/concurrent/Future;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -383,16 +269,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public get()Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TV;"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->a:Lcom/google/common/cache/LocalCache$s;
@@ -423,14 +303,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public h()J
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->c:Lgb/z;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->c:Lcom/google/common/base/q;
 
     .line 2
     .line 3
@@ -438,7 +317,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Lgb/z;->g(Ljava/util/concurrent/TimeUnit;)J
+    invoke-virtual {v0, v1}, Lcom/google/common/base/q;->e(Ljava/util/concurrent/TimeUnit;)J
 
     .line 6
     .line 7
@@ -460,32 +339,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public final i(Ljava/lang/Throwable;)Lub/u0;
+.method public final i(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "t"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/Throwable;",
-            ")",
-            "Lub/u0<",
-            "TV;>;"
-        }
-    .end annotation
 
     .line 1
-    invoke-static {p1}, Lcom/google/common/util/concurrent/l;->n(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Lcom/google/common/util/concurrent/k;->c(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -513,7 +373,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isActive()Z
@@ -548,18 +407,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public j()Lcom/google/common/cache/LocalCache$s;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->a:Lcom/google/common/cache/LocalCache$s;
@@ -586,39 +437,18 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public k(Ljava/lang/Object;Lcom/google/common/cache/CacheLoader;)Lub/u0;
+.method public k(Ljava/lang/Object;Lcom/google/common/cache/CacheLoader;)Lcom/google/common/util/concurrent/t;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "key",
-            "loader"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TK;",
-            "Lcom/google/common/cache/CacheLoader<",
-            "-TK;TV;>;)",
-            "Lub/u0<",
-            "TV;>;"
-        }
-    .end annotation
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->c:Lgb/z;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->c:Lcom/google/common/base/q;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lgb/z;->k()Lgb/z;
+    invoke-virtual {v0}, Lcom/google/common/base/q;->g()Lcom/google/common/base/q;
 
     .line 4
     .line 5
@@ -659,7 +489,7 @@
 
     .line 23
     .line 24
-    iget-object p1, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/s;
+    iget-object p1, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/a0;
 
     .line 25
     .line 26
@@ -674,7 +504,7 @@
 
     .line 29
     :cond_0
-    invoke-static {p1}, Lcom/google/common/util/concurrent/l;->o(Ljava/lang/Object;)Lub/u0;
+    invoke-static {p1}, Lcom/google/common/util/concurrent/k;->d(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 30
     .line 31
@@ -686,7 +516,7 @@
 
     .line 34
     :cond_1
-    invoke-virtual {p2, p1, v0}, Lcom/google/common/cache/CacheLoader;->reload(Ljava/lang/Object;Ljava/lang/Object;)Lub/u0;
+    invoke-virtual {p2, p1, v0}, Lcom/google/common/cache/CacheLoader;->reload(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 35
     .line 36
@@ -701,7 +531,7 @@
     const/4 p1, 0x0
 
     .line 41
-    invoke-static {p1}, Lcom/google/common/util/concurrent/l;->o(Ljava/lang/Object;)Lub/u0;
+    invoke-static {p1}, Lcom/google/common/util/concurrent/k;->d(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 42
     .line 43
@@ -713,16 +543,16 @@
 
     .line 46
     :cond_2
-    new-instance p2, Lib/i;
+    new-instance p2, Lcom/google/common/cache/h;
 
     .line 47
     .line 48
-    invoke-direct {p2, p0}, Lib/i;-><init>(Lcom/google/common/cache/LocalCache$k;)V
+    invoke-direct {p2, p0}, Lcom/google/common/cache/h;-><init>(Lcom/google/common/cache/LocalCache$k;)V
 
     .line 49
     .line 50
     .line 51
-    invoke-static {}, Lcom/google/common/util/concurrent/p;->c()Ljava/util/concurrent/Executor;
+    invoke-static {}, Lcom/google/common/util/concurrent/v;->a()Ljava/util/concurrent/Executor;
 
     .line 52
     .line 53
@@ -730,7 +560,7 @@
     move-result-object v0
 
     .line 55
-    invoke-static {p1, p2, v0}, Lcom/google/common/util/concurrent/l;->z(Lub/u0;Lgb/n;Ljava/util/concurrent/Executor;)Lub/u0;
+    invoke-static {p1, p2, v0}, Lcom/google/common/util/concurrent/k;->e(Lcom/google/common/util/concurrent/t;Lcom/google/common/base/g;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/t;
 
     .line 56
     .line 57
@@ -756,7 +586,7 @@
 
     .line 65
     .line 66
-    iget-object p2, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/s;
+    iget-object p2, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/a0;
 
     .line 67
     .line 68
@@ -764,7 +594,7 @@
 
     .line 69
     :cond_3
-    invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache$k;->i(Ljava/lang/Throwable;)Lub/u0;
+    invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache$k;->i(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 70
     .line 71
@@ -1043,86 +873,17 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public l(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "newValue"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TV;)Z"
-        }
-    .end annotation
-
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/s;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/a0;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/google/common/util/concurrent/s;->B(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Lcom/google/common/util/concurrent/a0;->B(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -1148,29 +909,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public m(Ljava/lang/Throwable;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "t"
-        }
-    .end annotation
-
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/s;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$k;->b:Lcom/google/common/util/concurrent/a0;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/google/common/util/concurrent/s;->C(Ljava/lang/Throwable;)Z
+    invoke-virtual {v0, p1}, Lcom/google/common/util/concurrent/a0;->C(Ljava/lang/Throwable;)Z
 
     .line 4
     .line 5
@@ -1196,5 +945,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

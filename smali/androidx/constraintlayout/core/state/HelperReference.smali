@@ -162,6 +162,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHelperWidget()Landroidx/constraintlayout/core/widgets/HelperWidget;
@@ -190,6 +191,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getType()Landroidx/constraintlayout/core/state/State$Helper;
@@ -218,6 +220,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setHelperWidget(Landroidx/constraintlayout/core/widgets/HelperWidget;)V

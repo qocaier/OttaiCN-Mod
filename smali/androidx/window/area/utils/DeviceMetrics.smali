@@ -11,43 +11,22 @@
 
 # instance fields
 .field private final manufacturer:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final model:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final rearDisplayMetrics:Landroid/util/DisplayMetrics;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Landroid/util/DisplayMetrics;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroid/util/DisplayMetrics;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "manufacturer"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -56,7 +35,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -65,7 +44,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -176,16 +155,15 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     instance-of v0, p1, Landroidx/window/area/utils/DeviceMetrics;
@@ -208,7 +186,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -228,7 +206,7 @@
 
     .line 20
     .line 21
-    invoke-static {v0, v1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 22
     .line 23
@@ -309,12 +287,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getManufacturer()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/area/utils/DeviceMetrics;->manufacturer:Ljava/lang/String;
@@ -339,12 +316,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getModel()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/area/utils/DeviceMetrics;->model:Ljava/lang/String;
@@ -369,12 +345,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getRearDisplayMetrics()Landroid/util/DisplayMetrics;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/area/utils/DeviceMetrics;->rearDisplayMetrics:Landroid/util/DisplayMetrics;
@@ -399,6 +374,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -515,12 +491,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -643,4 +619,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

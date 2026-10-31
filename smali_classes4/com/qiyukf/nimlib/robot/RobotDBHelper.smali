@@ -34,6 +34,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static clearAll()V
@@ -78,6 +80,8 @@
     .line 19
     .line 20
     return-void
+    .line 21
+    .line 22
 .end method
 
 .method private static database()Lcom/qiyukf/kk;
@@ -112,6 +116,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static isRobot(Ljava/lang/String;)Z
@@ -264,6 +270,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static queryAllRobotInfo(Z)Ljava/util/List;
@@ -426,6 +434,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static queryRobotInfo(Ljava/lang/String;)Lcom/qiyukf/dr;
@@ -981,27 +991,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method private static robotInfoColumnStr()Ljava/lang/String;
@@ -1030,6 +1019,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static saveRobotInfo(Ljava/util/List;)V
@@ -1528,25 +1519,4 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method

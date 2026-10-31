@@ -70,12 +70,10 @@
 
 .field private final mResolution:Landroid/util/Size;
 
-.field private final mSessionStatusFuture:Lub/u0;
+.field private final mSessionStatusFuture:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -90,12 +88,10 @@
     .end annotation
 .end field
 
-.field final mSurfaceFuture:Lub/u0;
+.field final mSurfaceFuture:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Landroid/view/Surface;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -170,6 +166,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/util/Size;Landroidx/camera/core/impl/CameraInternal;Landroidx/camera/core/DynamicRange;Landroid/util/Range;Ljava/lang/Runnable;)V
@@ -274,12 +271,12 @@
     invoke-direct {p3, p4}, Ljava/util/concurrent/atomic/AtomicReference;-><init>(Ljava/lang/Object;)V
 
     .line 11
-    new-instance v0, Ls/c0;
+    new-instance v0, Landroidx/camera/core/p0;
 
-    invoke-direct {v0, p3, p2}, Ls/c0;-><init>(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;)V
+    invoke-direct {v0, p3, p2}, Landroidx/camera/core/p0;-><init>(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;)V
 
     .line 12
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     move-result-object v0
 
@@ -305,20 +302,20 @@
     invoke-direct {v1, p4}, Ljava/util/concurrent/atomic/AtomicReference;-><init>(Ljava/lang/Object;)V
 
     .line 16
-    new-instance v2, Ls/d0;
+    new-instance v2, Landroidx/camera/core/q0;
 
-    invoke-direct {v2, v1, p2}, Ls/d0;-><init>(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;)V
+    invoke-direct {v2, v1, p2}, Landroidx/camera/core/q0;-><init>(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;)V
 
-    invoke-static {v2}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v2}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     move-result-object v2
 
-    iput-object v2, p0, Landroidx/camera/core/SurfaceRequest;->mSessionStatusFuture:Lub/u0;
+    iput-object v2, p0, Landroidx/camera/core/SurfaceRequest;->mSessionStatusFuture:Lcom/google/common/util/concurrent/t;
 
     .line 17
     new-instance v3, Landroidx/camera/core/SurfaceRequest$1;
 
-    invoke-direct {v3, p0, p3, v0}, Landroidx/camera/core/SurfaceRequest$1;-><init>(Landroidx/camera/core/SurfaceRequest;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Lub/u0;)V
+    invoke-direct {v3, p0, p3, v0}, Landroidx/camera/core/SurfaceRequest$1;-><init>(Landroidx/camera/core/SurfaceRequest;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Lcom/google/common/util/concurrent/t;)V
 
     .line 18
     invoke-static {}, Landroidx/camera/core/impl/utils/executor/CameraXExecutors;->directExecutor()Ljava/util/concurrent/Executor;
@@ -326,7 +323,7 @@
     move-result-object p3
 
     .line 19
-    invoke-static {v2, v3, p3}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {v2, v3, p3}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 20
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
@@ -347,15 +344,15 @@
     invoke-direct {v0, p4}, Ljava/util/concurrent/atomic/AtomicReference;-><init>(Ljava/lang/Object;)V
 
     .line 22
-    new-instance p4, Ls/e0;
+    new-instance p4, Landroidx/camera/core/r0;
 
-    invoke-direct {p4, v0, p2}, Ls/e0;-><init>(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;)V
+    invoke-direct {p4, v0, p2}, Landroidx/camera/core/r0;-><init>(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;)V
 
-    invoke-static {p4}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {p4}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     move-result-object p4
 
-    iput-object p4, p0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lub/u0;
+    iput-object p4, p0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lcom/google/common/util/concurrent/t;
 
     .line 23
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
@@ -382,14 +379,14 @@
     iput-object v0, p0, Landroidx/camera/core/SurfaceRequest;->mInternalDeferrableSurface:Landroidx/camera/core/impl/DeferrableSurface;
 
     .line 25
-    invoke-virtual {v0}, Landroidx/camera/core/impl/DeferrableSurface;->getTerminationFuture()Lub/u0;
+    invoke-virtual {v0}, Landroidx/camera/core/impl/DeferrableSurface;->getTerminationFuture()Lcom/google/common/util/concurrent/t;
 
     move-result-object p1
 
     .line 26
     new-instance v0, Landroidx/camera/core/SurfaceRequest$3;
 
-    invoke-direct {v0, p0, p1, p3, p2}, Landroidx/camera/core/SurfaceRequest$3;-><init>(Landroidx/camera/core/SurfaceRequest;Lub/u0;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1, p3, p2}, Landroidx/camera/core/SurfaceRequest$3;-><init>(Landroidx/camera/core/SurfaceRequest;Lcom/google/common/util/concurrent/t;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/lang/String;)V
 
     .line 27
     invoke-static {}, Landroidx/camera/core/impl/utils/executor/CameraXExecutors;->directExecutor()Ljava/util/concurrent/Executor;
@@ -397,12 +394,12 @@
     move-result-object p2
 
     .line 28
-    invoke-static {p4, v0, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {p4, v0, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 29
-    new-instance p2, Ls/f0;
+    new-instance p2, Landroidx/camera/core/s0;
 
-    invoke-direct {p2, p0}, Ls/f0;-><init>(Landroidx/camera/core/SurfaceRequest;)V
+    invoke-direct {p2, p0}, Landroidx/camera/core/s0;-><init>(Landroidx/camera/core/SurfaceRequest;)V
 
     .line 30
     invoke-static {}, Landroidx/camera/core/impl/utils/executor/CameraXExecutors;->directExecutor()Ljava/util/concurrent/Executor;
@@ -410,7 +407,7 @@
     move-result-object p3
 
     .line 31
-    invoke-interface {p1, p2, p3}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {p1, p2, p3}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 32
     invoke-static {}, Landroidx/camera/core/impl/utils/executor/CameraXExecutors;->directExecutor()Ljava/util/concurrent/Executor;
@@ -654,6 +651,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic c(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -789,13 +789,16 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic d(Landroidx/camera/core/SurfaceRequest;)V
     .locals 1
 
     .line 1
-    iget-object p0, p0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lub/u0;
+    iget-object p0, p0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -1095,6 +1098,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic h(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/String;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -1230,6 +1236,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic i(Landroidx/camera/core/SurfaceRequest$TransformationInfoListener;Landroidx/camera/core/SurfaceRequest$TransformationInfo;)V
@@ -1323,16 +1332,16 @@
     .line 5
     .line 6
     .line 7
-    new-instance v1, Ls/g0;
+    new-instance v1, Landroidx/camera/core/t0;
 
     .line 8
     .line 9
-    invoke-direct {v1, p0, v0}, Ls/g0;-><init>(Landroidx/camera/core/SurfaceRequest;Ljava/util/concurrent/atomic/AtomicReference;)V
+    invoke-direct {v1, p0, v0}, Landroidx/camera/core/t0;-><init>(Landroidx/camera/core/SurfaceRequest;Ljava/util/concurrent/atomic/AtomicReference;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-static {v1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 13
     .line 14
@@ -1349,7 +1358,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {v1, v2, p1}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {v1, v2, p1}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 22
     .line 23
@@ -1512,6 +1521,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCamera()Landroidx/camera/core/impl/CameraInternal;
@@ -1548,6 +1558,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDeferrableSurface()Landroidx/camera/core/impl/DeferrableSurface;
@@ -1584,6 +1595,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDynamicRange()Landroidx/camera/core/DynamicRange;
@@ -1614,6 +1626,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExpectedFrameRate()Landroid/util/Range;
@@ -1659,6 +1672,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getResolution()Landroid/util/Size;
@@ -1689,6 +1703,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invalidate()Z
@@ -1725,6 +1740,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isServiced()Z
@@ -1736,7 +1752,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -1762,6 +1778,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public provideSurface(Landroid/view/Surface;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
@@ -1806,7 +1823,7 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lcom/google/common/util/concurrent/t;
 
     .line 10
     .line 11
@@ -1826,7 +1843,7 @@
 
     .line 18
     :cond_0
-    iget-object v0, p0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lcom/google/common/util/concurrent/t;
 
     .line 19
     .line 20
@@ -1844,7 +1861,7 @@
     .line 26
     .line 27
     :try_start_0
-    iget-object v0, p0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lcom/google/common/util/concurrent/t;
 
     .line 28
     .line 29
@@ -1853,11 +1870,11 @@
     .line 30
     .line 31
     .line 32
-    new-instance v0, Ls/a0;
+    new-instance v0, Landroidx/camera/core/n0;
 
     .line 33
     .line 34
-    invoke-direct {v0, p3, p1}, Ls/a0;-><init>(Landroidx/core/util/Consumer;Landroid/view/Surface;)V
+    invoke-direct {v0, p3, p1}, Landroidx/camera/core/n0;-><init>(Landroidx/core/util/Consumer;Landroid/view/Surface;)V
 
     .line 35
     .line 36
@@ -1874,11 +1891,11 @@
 
     .line 41
     :catch_0
-    new-instance v0, Ls/b0;
+    new-instance v0, Landroidx/camera/core/o0;
 
     .line 42
     .line 43
-    invoke-direct {v0, p3, p1}, Ls/b0;-><init>(Landroidx/core/util/Consumer;Landroid/view/Surface;)V
+    invoke-direct {v0, p3, p1}, Landroidx/camera/core/o0;-><init>(Landroidx/core/util/Consumer;Landroid/view/Surface;)V
 
     .line 44
     .line 45
@@ -1893,7 +1910,7 @@
     .line 50
     :cond_1
     :goto_0
-    iget-object v0, p0, Landroidx/camera/core/SurfaceRequest;->mSessionStatusFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/SurfaceRequest;->mSessionStatusFuture:Lcom/google/common/util/concurrent/t;
 
     .line 51
     .line 52
@@ -1906,7 +1923,7 @@
     .line 55
     .line 56
     .line 57
-    invoke-static {v0, v1, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {v0, v1, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 58
     .line 59
@@ -1965,6 +1982,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public setTransformationInfoListener(Ljava/util/concurrent/Executor;Landroidx/camera/core/SurfaceRequest$TransformationInfoListener;)V
@@ -2008,11 +2028,11 @@
 
     .line 12
     .line 13
-    new-instance v0, Ls/z;
+    new-instance v0, Landroidx/camera/core/m0;
 
     .line 14
     .line 15
-    invoke-direct {v0, p2, v1}, Ls/z;-><init>(Landroidx/camera/core/SurfaceRequest$TransformationInfoListener;Landroidx/camera/core/SurfaceRequest$TransformationInfo;)V
+    invoke-direct {v0, p2, v1}, Landroidx/camera/core/m0;-><init>(Landroidx/camera/core/SurfaceRequest$TransformationInfoListener;Landroidx/camera/core/SurfaceRequest$TransformationInfo;)V
 
     .line 16
     .line 17
@@ -2109,11 +2129,11 @@
 
     .line 14
     .line 15
-    new-instance v0, Ls/y;
+    new-instance v0, Landroidx/camera/core/l0;
 
     .line 16
     .line 17
-    invoke-direct {v0, v1, p1}, Ls/y;-><init>(Landroidx/camera/core/SurfaceRequest$TransformationInfoListener;Landroidx/camera/core/SurfaceRequest$TransformationInfo;)V
+    invoke-direct {v0, v1, p1}, Landroidx/camera/core/l0;-><init>(Landroidx/camera/core/SurfaceRequest$TransformationInfoListener;Landroidx/camera/core/SurfaceRequest$TransformationInfo;)V
 
     .line 18
     .line 19
@@ -2190,6 +2210,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public willNotProvideSurface()Z
@@ -2228,4 +2249,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

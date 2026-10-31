@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/p;
+.implements Lq8/p;
 
 
 # annotations
@@ -19,27 +19,17 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Ljm/p<",
-        "Lfn/i0;",
-        "Lul/c<",
-        "-",
-        "Ljl/e2;",
-        ">;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lq8/p;"
     }
 .end annotation
 
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "androidx.lifecycle.BlockRunner$cancel$1"
     f = "CoroutineLiveData.kt"
-    i = {}
     l = {
         0xbc
     }
     m = "invokeSuspend"
-    n = {}
-    s = {}
 .end annotation
 
 
@@ -57,194 +47,85 @@
 
 
 # direct methods
-.method public constructor <init>(Landroidx/lifecycle/BlockRunner;Lul/c;)V
+.method public constructor <init>(Landroidx/lifecycle/BlockRunner;Lkotlin/coroutines/e;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/lifecycle/BlockRunner<",
             "TT;>;",
-            "Lul/c<",
-            "-",
-            "Landroidx/lifecycle/BlockRunner$cancel$1;",
-            ">;)V"
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
-    .line 2
-    .line 3
     const/4 p1, 0x2
 
-    .line 4
-    invoke-direct {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILul/c;)V
+    invoke-direct {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/e;)V
 
-    .line 5
-    .line 6
-    .line 7
     return-void
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lul/c;)Lul/c;
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lul/c<",
-            "*>;)",
-            "Lul/c<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlin/coroutines/e;",
+            ")",
+            "Lkotlin/coroutines/e;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
     new-instance p1, Landroidx/lifecycle/BlockRunner$cancel$1;
 
-    .line 2
-    .line 3
     iget-object v0, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
-    .line 4
-    .line 5
-    invoke-direct {p1, v0, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;-><init>(Landroidx/lifecycle/BlockRunner;Lul/c;)V
+    invoke-direct {p1, v0, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;-><init>(Landroidx/lifecycle/BlockRunner;Lkotlin/coroutines/e;)V
 
-    .line 6
-    .line 7
-    .line 8
     return-object p1
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
 .end method
 
-.method public final invoke(Lfn/i0;Lul/c;)Ljava/lang/Object;
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .param p1    # Lfn/i0;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
+
+    .line 1
+    check-cast p1, Lkotlinx/coroutines/l0;
+
+    check-cast p2, Lkotlin/coroutines/e;
+
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;->invoke(Lkotlinx/coroutines/l0;Lkotlin/coroutines/e;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invoke(Lkotlinx/coroutines/l0;Lkotlin/coroutines/e;)Ljava/lang/Object;
+    .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lfn/i0;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlinx/coroutines/l0;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;->create(Ljava/lang/Object;Lul/c;)Lul/c;
+    .line 2
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;->create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
 
     move-result-object p1
 
     check-cast p1, Landroidx/lifecycle/BlockRunner$cancel$1;
 
-    sget-object p2, Ljl/e2;->a:Ljl/e2;
+    sget-object p2, Lkotlin/j;->a:Lkotlin/j;
 
     invoke-virtual {p1, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -253,32 +134,11 @@
     return-object p1
 .end method
 
-.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
-
-    .line 2
-    check-cast p1, Lfn/i0;
-
-    check-cast p2, Lul/c;
-
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;->invoke(Lfn/i0;Lul/c;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 5
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -301,7 +161,7 @@
 
     .line 11
     .line 12
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 13
     .line 14
@@ -327,7 +187,7 @@
 
     .line 24
     :cond_1
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 25
     .line 26
@@ -348,7 +208,7 @@
 
     .line 34
     .line 35
-    invoke-static {v3, v4, p0}, Lkotlinx/coroutines/DelayKt;->b(JLul/c;)Ljava/lang/Object;
+    invoke-static {v3, v4, p0}, Lkotlinx/coroutines/DelayKt;->b(JLkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -393,7 +253,7 @@
 
     .line 55
     .line 56
-    invoke-static {p1}, Landroidx/lifecycle/BlockRunner;->access$getRunningJob$p(Landroidx/lifecycle/BlockRunner;)Lkotlinx/coroutines/l;
+    invoke-static {p1}, Landroidx/lifecycle/BlockRunner;->access$getRunningJob$p(Landroidx/lifecycle/BlockRunner;)Lkotlinx/coroutines/s1;
 
     .line 57
     .line 58
@@ -408,7 +268,7 @@
 
     .line 62
     .line 63
-    invoke-static {p1, v0, v2, v0}, Lkotlinx/coroutines/l$a;->b(Lkotlinx/coroutines/l;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
+    invoke-static {p1, v0, v2, v0}, Lkotlinx/coroutines/s1$a;->a(Lkotlinx/coroutines/s1;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
     .line 64
     .line 65
@@ -418,13 +278,13 @@
 
     .line 67
     .line 68
-    invoke-static {p1, v0}, Landroidx/lifecycle/BlockRunner;->access$setRunningJob$p(Landroidx/lifecycle/BlockRunner;Lkotlinx/coroutines/l;)V
+    invoke-static {p1, v0}, Landroidx/lifecycle/BlockRunner;->access$setRunningJob$p(Landroidx/lifecycle/BlockRunner;Lkotlinx/coroutines/s1;)V
 
     .line 69
     .line 70
     .line 71
     :cond_4
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 72
     .line 73
@@ -434,4 +294,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -22,34 +22,22 @@
 
 # static fields
 .field public static final Companion:Lio/flutter/plugins/webviewflutter/ResultCompat$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field private final exception:Ljava/lang/Throwable;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final isFailure:Z
 
 .field private final isSuccess:Z
 
 .field private final result:Ljava/lang/Object;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final value:Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "TT;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end field
 
@@ -62,7 +50,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lio/flutter/plugins/webviewflutter/ResultCompat$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Lio/flutter/plugins/webviewflutter/ResultCompat$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Lio/flutter/plugins/webviewflutter/ResultCompat;->Companion:Lio/flutter/plugins/webviewflutter/ResultCompat$Companion;
 
@@ -71,10 +59,6 @@
 
 .method public constructor <init>(Ljava/lang/Object;)V
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -172,62 +156,25 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public static final asCompatCallback(Ljm/l;)Ljm/l;
+.method public static final asCompatCallback(Lq8/l;)Lq8/l;
     .locals 1
-    .param p0    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Ljm/l<",
-            "-",
-            "Lio/flutter/plugins/webviewflutter/ResultCompat<",
-            "TT;>;",
-            "Ljl/e2;",
-            ">;)",
-            "Ljm/l<",
-            "Lkotlin/Result<",
-            "+TT;>;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;",
+            ")",
+            "Lq8/l;"
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
     sget-object v0, Lio/flutter/plugins/webviewflutter/ResultCompat;->Companion:Lio/flutter/plugins/webviewflutter/ResultCompat$Companion;
 
-    invoke-virtual {v0, p0}, Lio/flutter/plugins/webviewflutter/ResultCompat$Companion;->asCompatCallback(Ljm/l;)Ljm/l;
+    invoke-virtual {v0, p0}, Lio/flutter/plugins/webviewflutter/ResultCompat$Companion;->asCompatCallback(Lq8/l;)Lq8/l;
 
     move-result-object p0
 
@@ -236,10 +183,6 @@
 
 .method public static final success(Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -248,9 +191,6 @@
             "Ljava/lang/Object;",
             ")V"
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
     .end annotation
 
     sget-object v0, Lio/flutter/plugins/webviewflutter/ResultCompat;->Companion:Lio/flutter/plugins/webviewflutter/ResultCompat$Companion;
@@ -264,8 +204,6 @@
 # virtual methods
 .method public final exceptionOrNull()Ljava/lang/Throwable;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lio/flutter/plugins/webviewflutter/ResultCompat;->exception:Ljava/lang/Throwable;
@@ -293,6 +231,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final getOrNull()Ljava/lang/Object;
@@ -301,9 +266,6 @@
         value = {
             "()TT;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -332,12 +294,37 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final getResult-d1pmJ48()Ljava/lang/Object;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lio/flutter/plugins/webviewflutter/ResultCompat;->result:Ljava/lang/Object;
@@ -365,6 +352,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final isFailure()Z
@@ -396,6 +410,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final isSuccess()Z
@@ -427,4 +468,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

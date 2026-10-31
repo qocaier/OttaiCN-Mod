@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljn/f;
+.implements Lkotlinx/coroutines/flow/d;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__ErrorsKt;->b(Ljn/e;Ljn/f;Lul/c;)Ljava/lang/Object;
+    value = Lkotlinx/coroutines/flow/FlowKt__ErrorsKt;->a(Lkotlinx/coroutines/flow/c;Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/e;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,116 +16,30 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljn/f;"
-    }
-.end annotation
-
 
 # instance fields
-.field public final synthetic a:Ljn/f;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljn/f<",
-            "TT;>;"
-        }
-    .end annotation
-.end field
+.field public final synthetic a:Lkotlinx/coroutines/flow/d;
 
 .field public final synthetic b:Lkotlin/jvm/internal/Ref$ObjectRef;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lkotlin/jvm/internal/Ref$ObjectRef<",
-            "Ljava/lang/Throwable;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 
 # direct methods
-.method public constructor <init>(Ljn/f;Lkotlin/jvm/internal/Ref$ObjectRef;)V
+.method public constructor <init>(Lkotlinx/coroutines/flow/d;Lkotlin/jvm/internal/Ref$ObjectRef;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljn/f<",
-            "-TT;>;",
-            "Lkotlin/jvm/internal/Ref$ObjectRef<",
-            "Ljava/lang/Throwable;",
-            ">;)V"
-        }
-    .end annotation
 
-    .line 1
-    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$catchImpl$2;->a:Ljn/f;
+    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$catchImpl$2;->a:Lkotlinx/coroutines/flow/d;
 
-    .line 2
-    .line 3
     iput-object p2, p0, Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$catchImpl$2;->b:Lkotlin/jvm/internal/Ref$ObjectRef;
 
-    .line 4
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
-    .line 7
-    .line 8
     return-void
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
 .end method
 
 
 # virtual methods
-.method public final emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public final emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p2, Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$catchImpl$2$emit$1;
@@ -174,7 +88,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$catchImpl$2$emit$1;-><init>(Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$catchImpl$2;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$catchImpl$2$emit$1;-><init>(Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$catchImpl$2;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -184,7 +98,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -216,7 +130,7 @@
     .line 41
     .line 42
     :try_start_0
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -251,13 +165,13 @@
 
     .line 56
     :cond_2
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 57
     .line 58
     .line 59
     :try_start_1
-    iget-object p2, p0, Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$catchImpl$2;->a:Ljn/f;
+    iget-object p2, p0, Lkotlinx/coroutines/flow/FlowKt__ErrorsKt$catchImpl$2;->a:Lkotlinx/coroutines/flow/d;
 
     .line 60
     .line 61
@@ -269,7 +183,7 @@
 
     .line 64
     .line 65
-    invoke-interface {p2, p1, v0}, Ljn/f;->emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p2, p1, v0}, Lkotlinx/coroutines/flow/d;->emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 66
     .line 67
@@ -288,7 +202,7 @@
     .line 72
     :cond_3
     :goto_1
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 73
     .line 74
@@ -339,4 +253,20 @@
     .line 106
     .line 107
     .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method

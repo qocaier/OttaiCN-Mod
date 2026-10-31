@@ -222,15 +222,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -303,11 +294,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public anchor(FF)Lcom/baidu/mapapi/map/TextOptions;
@@ -403,11 +389,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public bgColor(I)Lcom/baidu/mapapi/map/TextOptions;
@@ -440,7 +421,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public extraInfo(Landroid/os/Bundle;)Lcom/baidu/mapapi/map/TextOptions;
@@ -473,7 +453,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public fixedScreenPosition(Landroid/graphics/Point;)Lcom/baidu/mapapi/map/TextOptions;
@@ -510,7 +489,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public fontColor(I)Lcom/baidu/mapapi/map/TextOptions;
@@ -543,7 +521,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public fontSize(I)Lcom/baidu/mapapi/map/TextOptions;
@@ -576,7 +553,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getAlignX()F
@@ -609,7 +585,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAlignY()F
@@ -642,7 +617,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBgColor()I
@@ -673,7 +647,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExtraInfo()Landroid/os/Bundle;
@@ -704,7 +677,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFontColor()I
@@ -735,7 +707,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFontSize()I
@@ -766,7 +737,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOverlay()Lcom/baidu/mapapi/map/Overlay;
@@ -972,15 +942,6 @@
     .line 100
     :cond_0
     return-object v0
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getPosition()Lcom/baidu/mapapi/model/LatLng;
@@ -1011,7 +972,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPriority()I
@@ -1042,7 +1002,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRotate()F
@@ -1073,7 +1032,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getText()Ljava/lang/String;
@@ -1104,7 +1062,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTypeface()Landroid/graphics/Typeface;
@@ -1135,7 +1092,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getZIndex()I
@@ -1166,7 +1122,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isPerspective()Z
@@ -1197,7 +1152,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isVisible()Z
@@ -1228,7 +1182,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public perspective(Z)Lcom/baidu/mapapi/map/TextOptions;
@@ -1261,7 +1214,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public position(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/map/TextOptions;
@@ -1305,7 +1257,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public priority(I)Lcom/baidu/mapapi/map/TextOptions;
@@ -1338,7 +1289,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public rotate(F)Lcom/baidu/mapapi/map/TextOptions;
@@ -1371,7 +1321,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public scaleX(F)Lcom/baidu/mapapi/map/TextOptions;
@@ -1413,7 +1362,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public scaleY(F)Lcom/baidu/mapapi/map/TextOptions;
@@ -1455,7 +1403,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setClickable(Z)Lcom/baidu/mapapi/map/TextOptions;
@@ -1488,7 +1435,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public text(Ljava/lang/String;)Lcom/baidu/mapapi/map/TextOptions;
@@ -1540,7 +1486,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public typeface(Landroid/graphics/Typeface;)Lcom/baidu/mapapi/map/TextOptions;
@@ -1573,7 +1518,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public visible(Z)Lcom/baidu/mapapi/map/TextOptions;
@@ -1606,7 +1550,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public xOffset(I)Lcom/baidu/mapapi/map/TextOptions;
@@ -1639,7 +1582,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public yOffset(I)Lcom/baidu/mapapi/map/TextOptions;
@@ -1672,7 +1614,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public zIndex(I)Lcom/baidu/mapapi/map/TextOptions;
@@ -1705,5 +1646,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

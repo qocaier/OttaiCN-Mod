@@ -36,6 +36,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static exeDelete(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)I
@@ -257,11 +259,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static exeSQL(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;)V
@@ -615,6 +612,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public static insert(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
@@ -959,6 +986,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public static final isSQLiteDatabaseLockedException(Landroid/database/sqlite/SQLiteException;)Z
@@ -1015,6 +1065,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static isTableExists(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;)Z
@@ -1127,6 +1179,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static final rawQuery(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;)Landroid/database/Cursor;
@@ -1481,6 +1543,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public static replace(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
@@ -1825,4 +1917,27 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method

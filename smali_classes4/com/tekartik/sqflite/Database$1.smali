@@ -24,14 +24,6 @@
 # direct methods
 .method public constructor <init>(Lcom/tekartik/sqflite/Database;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/tekartik/sqflite/Database$1;->this$0:Lcom/tekartik/sqflite/Database;
@@ -63,6 +55,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 

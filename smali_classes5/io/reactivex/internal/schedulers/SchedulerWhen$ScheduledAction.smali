@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lfk/b;
+.implements Lio/reactivex/disposables/b;
 
 
 # annotations
@@ -19,9 +19,9 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/util/concurrent/atomic/AtomicReference<",
-        "Lfk/b;",
+        "Lio/reactivex/disposables/b;",
         ">;",
-        "Lfk/b;"
+        "Lio/reactivex/disposables/b;"
     }
 .end annotation
 
@@ -31,7 +31,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lio/reactivex/internal/schedulers/SchedulerWhen;->e:Lfk/b;
+    sget-object v0, Lio/reactivex/internal/schedulers/SchedulerWhen;->b:Lio/reactivex/disposables/b;
 
     .line 2
     .line 3
@@ -58,11 +58,38 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
-.method public call(Ldk/h0$c;Ldk/d;)V
+.method public call(Lb8/p$a;Lb8/b;)V
     .locals 2
 
     .line 1
@@ -74,11 +101,11 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Lfk/b;
+    check-cast v0, Lio/reactivex/disposables/b;
 
     .line 6
     .line 7
-    sget-object v1, Lio/reactivex/internal/schedulers/SchedulerWhen;->f:Lfk/b;
+    sget-object v1, Lio/reactivex/internal/schedulers/SchedulerWhen;->c:Lio/reactivex/disposables/b;
 
     .line 8
     .line 9
@@ -90,7 +117,7 @@
 
     .line 12
     :cond_0
-    sget-object v1, Lio/reactivex/internal/schedulers/SchedulerWhen;->e:Lfk/b;
+    sget-object v1, Lio/reactivex/internal/schedulers/SchedulerWhen;->b:Lio/reactivex/disposables/b;
 
     .line 13
     .line 14
@@ -102,7 +129,7 @@
 
     .line 17
     :cond_1
-    invoke-virtual {p0, p1, p2}, Lio/reactivex/internal/schedulers/SchedulerWhen$ScheduledAction;->callActual(Ldk/h0$c;Ldk/d;)Lfk/b;
+    invoke-virtual {p0, p1, p2}, Lio/reactivex/internal/schedulers/SchedulerWhen$ScheduledAction;->callActual(Lb8/p$a;Lb8/b;)Lio/reactivex/disposables/b;
 
     .line 18
     .line 19
@@ -122,7 +149,7 @@
 
     .line 26
     .line 27
-    invoke-interface {p1}, Lfk/b;->dispose()V
+    invoke-interface {p1}, Lio/reactivex/disposables/b;->dispose()V
 
     .line 28
     .line 29
@@ -130,86 +157,6 @@
     :cond_2
     :goto_0
     return-void
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-.end method
-
-.method public abstract callActual(Ldk/h0$c;Ldk/d;)Lfk/b;
-.end method
-
-.method public dispose()V
-    .locals 3
-
-    .line 1
-    sget-object v0, Lio/reactivex/internal/schedulers/SchedulerWhen;->f:Lfk/b;
-
-    .line 2
-    .line 3
-    :cond_0
-    invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
-
-    .line 4
-    .line 5
-    .line 6
-    move-result-object v1
-
-    .line 7
-    check-cast v1, Lfk/b;
-
-    .line 8
-    .line 9
-    sget-object v2, Lio/reactivex/internal/schedulers/SchedulerWhen;->f:Lfk/b;
-
-    .line 10
-    .line 11
-    if-ne v1, v2, :cond_1
-
-    .line 12
-    .line 13
-    goto :goto_0
-
-    .line 14
-    :cond_1
-    invoke-virtual {p0, v1, v0}, Ljava/util/concurrent/atomic/AtomicReference;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    .line 15
-    .line 16
-    .line 17
-    move-result v2
-
-    .line 18
-    if-eqz v2, :cond_0
-
-    .line 19
-    .line 20
-    sget-object v0, Lio/reactivex/internal/schedulers/SchedulerWhen;->e:Lfk/b;
-
-    .line 21
-    .line 22
-    if-eq v1, v0, :cond_2
-
-    .line 23
-    .line 24
-    invoke-interface {v1}, Lfk/b;->dispose()V
-
-    .line 25
-    .line 26
-    .line 27
-    :cond_2
-    :goto_0
-    return-void
-    .line 28
-    .line 29
-    .line 30
     .line 31
     .line 32
     .line 33
@@ -280,6 +227,119 @@
     .line 98
     .line 99
     .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+.end method
+
+.method public abstract callActual(Lb8/p$a;Lb8/b;)Lio/reactivex/disposables/b;
+.end method
+
+.method public dispose()V
+    .locals 3
+
+    .line 1
+    sget-object v0, Lio/reactivex/internal/schedulers/SchedulerWhen;->c:Lio/reactivex/disposables/b;
+
+    .line 2
+    .line 3
+    :cond_0
+    invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v1
+
+    .line 7
+    check-cast v1, Lio/reactivex/disposables/b;
+
+    .line 8
+    .line 9
+    sget-object v2, Lio/reactivex/internal/schedulers/SchedulerWhen;->c:Lio/reactivex/disposables/b;
+
+    .line 10
+    .line 11
+    if-ne v1, v2, :cond_1
+
+    .line 12
+    .line 13
+    goto :goto_0
+
+    .line 14
+    :cond_1
+    invoke-virtual {p0, v1, v0}, Ljava/util/concurrent/atomic/AtomicReference;->compareAndSet(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 15
+    .line 16
+    .line 17
+    move-result v2
+
+    .line 18
+    if-eqz v2, :cond_0
+
+    .line 19
+    .line 20
+    sget-object v0, Lio/reactivex/internal/schedulers/SchedulerWhen;->b:Lio/reactivex/disposables/b;
+
+    .line 21
+    .line 22
+    if-eq v1, v0, :cond_2
+
+    .line 23
+    .line 24
+    invoke-interface {v1}, Lio/reactivex/disposables/b;->dispose()V
+
+    .line 25
+    .line 26
+    .line 27
+    :cond_2
+    :goto_0
+    return-void
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public isDisposed()Z
@@ -294,11 +354,11 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Lfk/b;
+    check-cast v0, Lio/reactivex/disposables/b;
 
     .line 6
     .line 7
-    invoke-interface {v0}, Lfk/b;->isDisposed()Z
+    invoke-interface {v0}, Lio/reactivex/disposables/b;->isDisposed()Z
 
     .line 8
     .line 9
@@ -319,4 +379,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

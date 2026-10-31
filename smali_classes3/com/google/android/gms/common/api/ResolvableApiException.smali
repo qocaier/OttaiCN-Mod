@@ -38,7 +38,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -57,7 +56,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;->t()Landroid/app/PendingIntent;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;->e()Landroid/app/PendingIntent;
 
     .line 6
     .line 7
@@ -79,7 +78,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public startResolutionForResult(Landroid/app/Activity;I)V
@@ -103,7 +101,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/common/api/Status;->F(Landroid/app/Activity;I)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/common/api/Status;->j(Landroid/app/Activity;I)V
 
     .line 6
     .line 7
@@ -161,9 +159,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

@@ -224,6 +224,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()Ljava/lang/String;
@@ -252,6 +254,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionType()Lcom/qiyukf/nimlib/sdk/msg/constant/SessionTypeEnum;
@@ -280,6 +284,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTime()J
@@ -308,6 +314,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -354,20 +362,20 @@
     move-result-object v0
 
     .line 21
-    const-string v1, "{sessionId: %s, sessionType: %s, time: %s, serverId: %s}"
+    const-string/jumbo v1, "{sessionId: %s, sessionType: %s, time: %s, serverId: %s}"
 
     .line 22
     .line 23
+    .line 24
     invoke-static {v1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 24
     .line 25
     .line 26
+    .line 27
     move-result-object v0
 
-    .line 27
-    return-object v0
     .line 28
+    return-object v0
     .line 29
     .line 30
     .line 31
@@ -424,4 +432,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

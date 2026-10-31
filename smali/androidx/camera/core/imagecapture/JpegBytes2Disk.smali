@@ -67,6 +67,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static copyFileToFile(Ljava/io/File;Ljava/io/File;)Landroid/net/Uri;
@@ -367,6 +368,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static copyFileToMediaStore(Ljava/io/File;Landroidx/camera/core/ImageCapture$OutputFileOptions;)Landroid/net/Uri;
@@ -758,6 +762,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static copyFileToOutputStream(Ljava/io/File;Ljava/io/OutputStream;)V
@@ -1070,6 +1077,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static createTempFile(Landroidx/camera/core/ImageCapture$OutputFileOptions;)Ljava/io/File;
@@ -1236,6 +1246,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getFileExtensionWithDot(Ljava/io/File;)Ljava/lang/String;
@@ -1767,6 +1778,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static setContentValuePendingFlag(Landroid/content/ContentValues;I)V
@@ -2163,6 +2177,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static updateUriPendingStatus(Landroid/net/Uri;Landroid/content/ContentResolver;I)V
@@ -2307,6 +2327,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static writeBytesToFile(Ljava/io/File;[B)V

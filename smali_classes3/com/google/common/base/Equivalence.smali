@@ -13,21 +13,6 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
-
-.annotation build Lfb/b;
-.end annotation
-
-.annotation runtime Lgb/g;
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -58,7 +43,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static equals()Lcom/google/common/base/Equivalence;
@@ -66,9 +50,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/google/common/base/Equivalence<",
-            "Ljava/lang/Object;",
-            ">;"
+            "Lcom/google/common/base/Equivalence;"
         }
     .end annotation
 
@@ -97,7 +79,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static identity()Lcom/google/common/base/Equivalence;
@@ -105,9 +86,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/google/common/base/Equivalence<",
-            "Ljava/lang/Object;",
-            ">;"
+            "Lcom/google/common/base/Equivalence;"
         }
     .end annotation
 
@@ -136,77 +115,24 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public abstract doEquivalent(Ljava/lang/Object;Ljava/lang/Object;)Z
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "a",
-            "b"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;TT;)Z"
-        }
-    .end annotation
-
-    .annotation build Lxb/g;
-    .end annotation
 .end method
 
 .method public abstract doHash(Ljava/lang/Object;)I
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "t"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;)I"
-        }
-    .end annotation
-
-    .annotation build Lxb/g;
-    .end annotation
 .end method
 
 .method public final equivalent(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "a",
-            "b"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(TT;TT;)Z"
+            "(",
+            "Ljava/lang/Object;",
+            "Ljava/lang/Object;",
+            ")Z"
         }
     .end annotation
 
@@ -295,33 +221,16 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public final equivalentTo(Ljava/lang/Object;)Lgb/x;
+.method public final equivalentTo(Ljava/lang/Object;)Lcom/google/common/base/p;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "target"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(TT;)",
-            "Lgb/x<",
-            "TT;>;"
+            "(",
+            "Ljava/lang/Object;",
+            ")",
+            "Lcom/google/common/base/p;"
         }
     .end annotation
 
@@ -354,27 +263,15 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final hash(Ljava/lang/Object;)I
     .locals 0
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "t"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(TT;)I"
+            "(",
+            "Ljava/lang/Object;",
+            ")I"
         }
     .end annotation
 
@@ -414,29 +311,18 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public final onResultOf(Lgb/n;)Lcom/google/common/base/Equivalence;
+.method public final onResultOf(Lcom/google/common/base/g;)Lcom/google/common/base/Equivalence;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "function"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<F:",
             "Ljava/lang/Object;",
             ">(",
-            "Lgb/n<",
-            "-TF;+TT;>;)",
-            "Lcom/google/common/base/Equivalence<",
-            "TF;>;"
+            "Lcom/google/common/base/g;",
+            ")",
+            "Lcom/google/common/base/Equivalence;"
         }
     .end annotation
 
@@ -445,7 +331,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p0}, Lcom/google/common/base/FunctionalEquivalence;-><init>(Lgb/n;Lcom/google/common/base/Equivalence;)V
+    invoke-direct {v0, p1, p0}, Lcom/google/common/base/FunctionalEquivalence;-><init>(Lcom/google/common/base/g;Lcom/google/common/base/Equivalence;)V
 
     .line 4
     .line 5
@@ -469,22 +355,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final pairwise()Lcom/google/common/base/Equivalence;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "<S:TT;>()",
-            "Lcom/google/common/base/Equivalence<",
-            "Ljava/lang/Iterable<",
-            "TS;>;>;"
+            "<S:",
+            "Ljava/lang/Object;",
+            ">()",
+            "Lcom/google/common/base/Equivalence;"
         }
-    .end annotation
-
-    .annotation build Lfb/b;
-        serializable = true
     .end annotation
 
     .line 1
@@ -514,27 +395,15 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final wrap(Ljava/lang/Object;)Lcom/google/common/base/Equivalence$Wrapper;
     .locals 2
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgb/u;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "reference"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "<S:TT;>(TS;)",
+            "<S:",
+            "Ljava/lang/Object;",
+            ">(TS;)",
             "Lcom/google/common/base/Equivalence$Wrapper<",
             "TS;>;"
         }
@@ -571,5 +440,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

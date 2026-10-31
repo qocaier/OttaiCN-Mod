@@ -1,98 +1,136 @@
-.class public final enum Lj$/time/chrono/H;
-.super Ljava/lang/Enum;
+.class abstract synthetic Lj$/time/chrono/H;
+.super Ljava/lang/Object;
 .source "SourceFile"
-
-# interfaces
-.implements Lj$/time/chrono/k;
 
 
 # static fields
-.field public static final enum BE:Lj$/time/chrono/H;
-
-.field public static final enum BEFORE_BE:Lj$/time/chrono/H;
-
-.field private static final synthetic a:[Lj$/time/chrono/H;
+.field static final synthetic a:[I
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 4
+    .locals 3
 
-    .line 119
-    new-instance v0, Lj$/time/chrono/H;
-
-    .line 113
-    const-string v1, "BEFORE_BE"
-
-    const/4 v2, 0x0
-
-    invoke-direct {v0, v1, v2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    .line 119
-    sput-object v0, Lj$/time/chrono/H;->BEFORE_BE:Lj$/time/chrono/H;
-
-    .line 124
-    new-instance v1, Lj$/time/chrono/H;
-
-    .line 113
-    const-string v2, "BE"
-
-    const/4 v3, 0x1
-
-    invoke-direct {v1, v2, v3}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    .line 124
-    sput-object v1, Lj$/time/chrono/H;->BE:Lj$/time/chrono/H;
-
-    .line 113
-    filled-new-array {v0, v1}, [Lj$/time/chrono/H;
+    .line 263
+    invoke-static {}, Lj$/time/temporal/a;->values()[Lj$/time/temporal/a;
 
     move-result-object v0
 
-    sput-object v0, Lj$/time/chrono/H;->a:[Lj$/time/chrono/H;
+    array-length v0, v0
 
+    new-array v0, v0, [I
+
+    sput-object v0, Lj$/time/chrono/H;->a:[I
+
+    :try_start_0
+    sget-object v1, Lj$/time/temporal/a;->DAY_OF_MONTH:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v2, 0x1
+
+    aput v2, v0, v1
+    :try_end_0
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    :try_start_1
+    sget-object v0, Lj$/time/chrono/H;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->DAY_OF_YEAR:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v2, 0x2
+
+    aput v2, v0, v1
+    :try_end_1
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_1 .. :try_end_1} :catch_1
+
+    :catch_1
+    :try_start_2
+    sget-object v0, Lj$/time/chrono/H;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->ALIGNED_WEEK_OF_MONTH:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v2, 0x3
+
+    aput v2, v0, v1
+    :try_end_2
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_2 .. :try_end_2} :catch_2
+
+    :catch_2
+    :try_start_3
+    sget-object v0, Lj$/time/chrono/H;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->YEAR_OF_ERA:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v2, 0x4
+
+    aput v2, v0, v1
+    :try_end_3
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_3 .. :try_end_3} :catch_3
+
+    :catch_3
+    :try_start_4
+    sget-object v0, Lj$/time/chrono/H;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->PROLEPTIC_MONTH:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v2, 0x5
+
+    aput v2, v0, v1
+    :try_end_4
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_4 .. :try_end_4} :catch_4
+
+    :catch_4
+    :try_start_5
+    sget-object v0, Lj$/time/chrono/H;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->YEAR:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v2, 0x6
+
+    aput v2, v0, v1
+    :try_end_5
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_5 .. :try_end_5} :catch_5
+
+    :catch_5
+    :try_start_6
+    sget-object v0, Lj$/time/chrono/H;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->ERA:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/4 v2, 0x7
+
+    aput v2, v0, v1
+    :try_end_6
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_6 .. :try_end_6} :catch_6
+
+    :catch_6
     return-void
-.end method
-
-.method public static valueOf(Ljava/lang/String;)Lj$/time/chrono/H;
-    .locals 1
-
-    .line 113
-    const-class v0, Lj$/time/chrono/H;
-
-    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
-
-    move-result-object p0
-
-    check-cast p0, Lj$/time/chrono/H;
-
-    return-object p0
-.end method
-
-.method public static values()[Lj$/time/chrono/H;
-    .locals 1
-
-    .line 113
-    sget-object v0, Lj$/time/chrono/H;->a:[Lj$/time/chrono/H;
-
-    invoke-virtual {v0}, [Lj$/time/chrono/H;->clone()Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, [Lj$/time/chrono/H;
-
-    return-object v0
-.end method
-
-
-# virtual methods
-.method public final p()I
-    .locals 1
-
-    .line 158
-    invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v0
-
-    return v0
 .end method

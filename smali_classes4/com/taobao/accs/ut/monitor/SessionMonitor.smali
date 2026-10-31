@@ -219,6 +219,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -249,6 +250,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getConCloseDate()J
@@ -277,6 +280,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getConStopDate()J
@@ -305,6 +310,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRet()Z
@@ -333,6 +340,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onCloseConnect()V
@@ -365,6 +374,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onConnectStop()V
@@ -397,6 +408,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onPingCBReceive()V
@@ -429,6 +442,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onSendPing()V
@@ -461,6 +476,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onStartConnect()V
@@ -493,6 +510,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setCloseReason(Ljava/lang/String;)V
@@ -526,6 +545,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCloseType(I)V
@@ -559,6 +580,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setConnectType(Ljava/lang/String;)V
@@ -592,6 +615,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFailReason(I)V
@@ -625,6 +650,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRet(Z)V
@@ -658,6 +685,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRetryTimes(I)V
@@ -691,4 +720,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

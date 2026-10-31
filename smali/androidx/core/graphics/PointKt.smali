@@ -3,25 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nPoint.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Point.kt\nandroidx/core/graphics/PointKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,151:1\n1#2:152\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nPoint.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Point.kt\nandroidx/core/graphics/PointKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,151:1\n1#2:152\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final component1(Landroid/graphics/PointF;)F
     .locals 0
-    .param p0    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 2
     iget p0, p0, Landroid/graphics/PointF;->x:F
@@ -31,10 +15,6 @@
 
 .method public static final component1(Landroid/graphics/Point;)I
     .locals 0
-    .param p0    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     iget p0, p0, Landroid/graphics/Point;->x:I
@@ -44,10 +24,6 @@
 
 .method public static final component2(Landroid/graphics/PointF;)F
     .locals 0
-    .param p0    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 2
     iget p0, p0, Landroid/graphics/PointF;->y:F
@@ -57,10 +33,6 @@
 
 .method public static final component2(Landroid/graphics/Point;)I
     .locals 0
-    .param p0    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     iget p0, p0, Landroid/graphics/Point;->y:I
@@ -70,12 +42,6 @@
 
 .method public static final div(Landroid/graphics/Point;F)Landroid/graphics/Point;
     .locals 2
-    .param p0    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Point;
@@ -107,12 +73,6 @@
 
 .method public static final div(Landroid/graphics/PointF;F)Landroid/graphics/PointF;
     .locals 2
-    .param p0    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroid/graphics/PointF;
@@ -132,12 +92,6 @@
 
 .method public static final minus(Landroid/graphics/Point;I)Landroid/graphics/Point;
     .locals 2
-    .param p0    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 3
     new-instance v0, Landroid/graphics/Point;
@@ -157,16 +111,6 @@
 
 .method public static final minus(Landroid/graphics/Point;Landroid/graphics/Point;)Landroid/graphics/Point;
     .locals 2
-    .param p0    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Point;
@@ -192,12 +136,6 @@
 
 .method public static final minus(Landroid/graphics/PointF;F)Landroid/graphics/PointF;
     .locals 2
-    .param p0    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     new-instance v0, Landroid/graphics/PointF;
@@ -217,16 +155,6 @@
 
 .method public static final minus(Landroid/graphics/PointF;Landroid/graphics/PointF;)Landroid/graphics/PointF;
     .locals 2
-    .param p0    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroid/graphics/PointF;
@@ -252,12 +180,6 @@
 
 .method public static final plus(Landroid/graphics/Point;I)Landroid/graphics/Point;
     .locals 2
-    .param p0    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 3
     new-instance v0, Landroid/graphics/Point;
@@ -275,16 +197,6 @@
 
 .method public static final plus(Landroid/graphics/Point;Landroid/graphics/Point;)Landroid/graphics/Point;
     .locals 2
-    .param p0    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Point;
@@ -306,12 +218,6 @@
 
 .method public static final plus(Landroid/graphics/PointF;F)Landroid/graphics/PointF;
     .locals 2
-    .param p0    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     new-instance v0, Landroid/graphics/PointF;
@@ -329,16 +235,6 @@
 
 .method public static final plus(Landroid/graphics/PointF;Landroid/graphics/PointF;)Landroid/graphics/PointF;
     .locals 2
-    .param p0    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroid/graphics/PointF;
@@ -360,12 +256,6 @@
 
 .method public static final times(Landroid/graphics/Point;F)Landroid/graphics/Point;
     .locals 2
-    .param p0    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Point;
@@ -397,12 +287,6 @@
 
 .method public static final times(Landroid/graphics/PointF;F)Landroid/graphics/PointF;
     .locals 2
-    .param p0    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroid/graphics/PointF;
@@ -422,12 +306,6 @@
 
 .method public static final toPoint(Landroid/graphics/PointF;)Landroid/graphics/Point;
     .locals 2
-    .param p0    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Point;
@@ -471,12 +349,6 @@
 
 .method public static final toPointF(Landroid/graphics/Point;)Landroid/graphics/PointF;
     .locals 1
-    .param p0    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/PointF;
@@ -512,12 +384,6 @@
 
 .method public static final unaryMinus(Landroid/graphics/Point;)Landroid/graphics/Point;
     .locals 2
-    .param p0    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Point;
@@ -537,12 +403,6 @@
 
 .method public static final unaryMinus(Landroid/graphics/PointF;)Landroid/graphics/PointF;
     .locals 2
-    .param p0    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroid/graphics/PointF;

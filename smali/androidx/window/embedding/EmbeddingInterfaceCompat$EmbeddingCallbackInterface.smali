@@ -16,10 +16,6 @@
 
 # virtual methods
 .method public abstract onSplitInfoChanged(Ljava/util/List;)V
-    .param p1    # Ljava/util/List;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

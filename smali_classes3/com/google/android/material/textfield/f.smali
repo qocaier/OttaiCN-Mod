@@ -1,36 +1,16 @@
-.class public final synthetic Lcom/google/android/material/textfield/f;
+.class public abstract synthetic Lcom/google/android/material/textfield/f;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Landroid/animation/ValueAnimator$AnimatorUpdateListener;
-
-
-# instance fields
-.field public final synthetic a:Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;
-
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
+.method public static bridge synthetic a(Landroid/graphics/Canvas;Landroid/graphics/RectF;)Z
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;->clipOutRect(Landroid/graphics/RectF;)Z
 
-    iput-object p1, p0, Lcom/google/android/material/textfield/f;->a:Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;
+    move-result p0
 
-    return-void
-.end method
-
-
-# virtual methods
-.method public final onAnimationUpdate(Landroid/animation/ValueAnimator;)V
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/material/textfield/f;->a:Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;
-
-    invoke-static {v0, p1}, Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;->c(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;Landroid/animation/ValueAnimator;)V
-
-    return-void
+    return p0
 .end method

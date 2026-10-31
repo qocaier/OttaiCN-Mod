@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static build(Landroid/media/MediaDescription$Builder;)Landroid/media/MediaDescription;
@@ -114,6 +115,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getDescription(Landroid/media/MediaDescription;)Ljava/lang/CharSequence;

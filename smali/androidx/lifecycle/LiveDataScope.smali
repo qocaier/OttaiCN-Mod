@@ -15,49 +15,27 @@
 
 
 # virtual methods
-.method public abstract emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end method
 
-.method public abstract emitSource(Landroidx/lifecycle/LiveData;Lul/c;)Ljava/lang/Object;
-    .param p1    # Landroidx/lifecycle/LiveData;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract emitSource(Landroidx/lifecycle/LiveData;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/lifecycle/LiveData<",
             "TT;>;",
-            "Lul/c<",
-            "-",
-            "Lfn/w0;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method
 
@@ -66,8 +44,5 @@
         value = {
             "()TT;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method

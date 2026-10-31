@@ -16,69 +16,18 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Landroidx/lifecycle/Observer<",
-        "Ljava/lang/Object;",
-        ">;"
-    }
-.end annotation
-
 
 # instance fields
 .field final synthetic $result:Landroidx/lifecycle/MediatorLiveData;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Landroidx/lifecycle/MediatorLiveData<",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 .field final synthetic $switchMapFunction:Landroidx/arch/core/util/Function;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Landroidx/arch/core/util/Function<",
-            "Ljava/lang/Object;",
-            "Landroidx/lifecycle/LiveData<",
-            "Ljava/lang/Object;",
-            ">;>;"
-        }
-    .end annotation
-.end field
 
 .field private liveData:Landroidx/lifecycle/LiveData;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Landroidx/lifecycle/LiveData<",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/arch/core/util/Function;Landroidx/lifecycle/MediatorLiveData;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroidx/arch/core/util/Function<",
-            "Ljava/lang/Object;",
-            "Landroidx/lifecycle/LiveData<",
-            "Ljava/lang/Object;",
-            ">;>;",
-            "Landroidx/lifecycle/MediatorLiveData<",
-            "Ljava/lang/Object;",
-            ">;)V"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/lifecycle/Transformations$switchMap$2;->$switchMapFunction:Landroidx/arch/core/util/Function;
@@ -141,17 +90,6 @@
 # virtual methods
 .method public final getLiveData()Landroidx/lifecycle/LiveData;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Landroidx/lifecycle/LiveData<",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/Transformations$switchMap$2;->liveData:Landroidx/lifecycle/LiveData;
@@ -176,17 +114,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onChanged(Ljava/lang/Object;)V
     .locals 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/Object;",
-            ")V"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/Transformations$switchMap$2;->$switchMapFunction:Landroidx/arch/core/util/Function;
@@ -225,7 +157,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 19
     .line 20
@@ -248,7 +180,7 @@
 
     .line 29
     .line 30
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 31
     .line 32
@@ -270,7 +202,7 @@
 
     .line 41
     .line 42
-    invoke-direct {v2, v1}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;-><init>(Ljm/l;)V
+    invoke-direct {v2, v1}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;-><init>(Lq8/l;)V
 
     .line 43
     .line 44
@@ -313,22 +245,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final setLiveData(Landroidx/lifecycle/LiveData;)V
     .locals 0
-    .param p1    # Landroidx/lifecycle/LiveData;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroidx/lifecycle/LiveData<",
-            "Ljava/lang/Object;",
-            ">;)V"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/lifecycle/Transformations$switchMap$2;->liveData:Landroidx/lifecycle/LiveData;

@@ -3,18 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFloatList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FloatList.kt\nandroidx/collection/MutableFloatList\n+ 2 FloatList.kt\nandroidx/collection/FloatList\n+ 3 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,969:1\n549#1:970\n70#2:971\n253#2,6:974\n70#2:980\n70#2:981\n70#2:982\n70#2:989\n70#2:990\n13614#3,2:972\n1687#3,6:983\n*S KotlinDebug\n*F\n+ 1 FloatList.kt\nandroidx/collection/MutableFloatList\n*L\n692#1:970\n753#1:971\n772#1:974,6\n783#1:980\n787#1:981\n834#1:982\n850#1:989\n869#1:990\n763#1:972,2\n836#1:983,6\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nFloatList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FloatList.kt\nandroidx/collection/MutableFloatList\n+ 2 FloatList.kt\nandroidx/collection/FloatList\n+ 3 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,969:1\n549#1:970\n70#2:971\n253#2,6:974\n70#2:980\n70#2:981\n70#2:982\n70#2:989\n70#2:990\n13614#3,2:972\n1687#3,6:983\n*S KotlinDebug\n*F\n+ 1 FloatList.kt\nandroidx/collection/MutableFloatList\n*L\n692#1:970\n753#1:971\n772#1:974,6\n783#1:980\n787#1:981\n834#1:982\n850#1:989\n869#1:990\n763#1:972,2\n836#1:983,6\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public constructor <init>()V
     .locals 3
@@ -26,7 +14,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableFloatList;-><init>(IILkm/v;)V
+    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableFloatList;-><init>(IILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
@@ -37,12 +25,12 @@
     const/4 v0, 0x0
 
     .line 3
-    invoke-direct {p0, p1, v0}, Landroidx/collection/FloatList;-><init>(ILkm/v;)V
+    invoke-direct {p0, p1, v0}, Landroidx/collection/FloatList;-><init>(ILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(IILkm/v;)V
+.method public synthetic constructor <init>(IILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p2, p2, 0x1
@@ -301,6 +289,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -336,7 +330,7 @@
     add-int/lit8 v2, p1, 0x1
 
     .line 8
-    invoke-static {v0, v0, v2, p1, v1}, Lll/q;->y0([F[FIII)[F
+    invoke-static {v0, v0, v2, p1, v1}, Lkotlin/collections/l;->e([F[FIII)[F
 
     .line 9
     :cond_0
@@ -416,14 +410,10 @@
             from = 0x0L
         .end annotation
     .end param
-    .param p2    # Landroidx/collection/FloatList;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-ltz p1, :cond_2
 
@@ -467,7 +457,7 @@
     add-int/2addr v3, p1
 
     .line 17
-    invoke-static {v0, v0, v3, p1, v2}, Lll/q;->y0([F[FIII)[F
+    invoke-static {v0, v0, v3, p1, v2}, Lkotlin/collections/l;->e([F[FIII)[F
 
     .line 18
     :cond_1
@@ -477,7 +467,7 @@
     iget v3, p2, Landroidx/collection/FloatList;->_size:I
 
     .line 20
-    invoke-static {v2, v0, p1, v1, v3}, Lll/q;->y0([F[FIII)[F
+    invoke-static {v2, v0, p1, v1, v3}, Lkotlin/collections/l;->e([F[FIII)[F
 
     .line 21
     iget p1, p0, Landroidx/collection/FloatList;->_size:I
@@ -530,14 +520,10 @@
             from = 0x0L
         .end annotation
     .end param
-    .param p2    # [F
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-ltz p1, :cond_2
 
@@ -577,7 +563,7 @@
     add-int/2addr v1, p1
 
     .line 7
-    invoke-static {v2, v2, v1, p1, v0}, Lll/q;->y0([F[FIII)[F
+    invoke-static {v2, v2, v1, p1, v0}, Lkotlin/collections/l;->e([F[FIII)[F
 
     :cond_1
     const/16 v6, 0xc
@@ -593,7 +579,7 @@
     move-object v1, p2
 
     .line 8
-    invoke-static/range {v1 .. v7}, Lll/q;->H0([F[FIIIILjava/lang/Object;)[F
+    invoke-static/range {v1 .. v7}, Lkotlin/collections/l;->j([F[FIIIILjava/lang/Object;)[F
 
     .line 9
     iget p1, p0, Landroidx/collection/FloatList;->_size:I
@@ -643,14 +629,10 @@
 
 .method public final addAll(Landroidx/collection/FloatList;)Z
     .locals 1
-    .param p1    # Landroidx/collection/FloatList;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     iget v0, p0, Landroidx/collection/FloatList;->_size:I
@@ -664,14 +646,10 @@
 
 .method public final addAll([F)Z
     .locals 1
-    .param p1    # [F
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 24
     iget v0, p0, Landroidx/collection/FloatList;->_size:I
@@ -711,6 +689,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final ensureCapacity(I)V
@@ -759,7 +738,7 @@
 
     .line 20
     .line 21
-    invoke-static {p1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -822,6 +801,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getCapacity()I
@@ -852,6 +832,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final minusAssign(F)V
@@ -865,14 +846,10 @@
 
 .method public final minusAssign(Landroidx/collection/FloatList;)V
     .locals 3
-    .param p1    # Landroidx/collection/FloatList;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     iget-object v0, p1, Landroidx/collection/FloatList;->content:[F
@@ -901,14 +878,10 @@
 
 .method public final minusAssign([F)V
     .locals 3
-    .param p1    # [F
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     array-length v0, p1
@@ -942,14 +915,10 @@
 
 .method public final plusAssign(Landroidx/collection/FloatList;)V
     .locals 1
-    .param p1    # Landroidx/collection/FloatList;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget v0, p0, Landroidx/collection/FloatList;->_size:I
@@ -961,14 +930,10 @@
 
 .method public final plusAssign([F)V
     .locals 1
-    .param p1    # [F
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget v0, p0, Landroidx/collection/FloatList;->_size:I
@@ -1026,14 +991,10 @@
 
 .method public final removeAll(Landroidx/collection/FloatList;)Z
     .locals 6
-    .param p1    # Landroidx/collection/FloatList;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     iget v0, p0, Landroidx/collection/FloatList;->_size:I
@@ -1079,14 +1040,10 @@
 
 .method public final removeAll([F)Z
     .locals 5
-    .param p1    # [F
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget v0, p0, Landroidx/collection/FloatList;->_size:I
@@ -1165,7 +1122,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v1, p1, v3, v0}, Lll/q;->y0([F[FIII)[F
+    invoke-static {v1, v1, p1, v3, v0}, Lkotlin/collections/l;->e([F[FIII)[F
 
     .line 18
     .line 19
@@ -1267,6 +1224,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final removeRange(II)V
@@ -1323,7 +1281,7 @@
 
     .line 20
     .line 21
-    invoke-static {v0, v0, p1, p2, v1}, Lll/q;->y0([F[FIII)[F
+    invoke-static {v0, v0, p1, p2, v1}, Lkotlin/collections/l;->e([F[FIII)[F
 
     .line 22
     .line 23
@@ -1610,18 +1568,17 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public final retainAll(Landroidx/collection/FloatList;)Z
     .locals 4
-    .param p1    # Landroidx/collection/FloatList;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     iget v0, p0, Landroidx/collection/FloatList;->_size:I
@@ -1672,14 +1629,10 @@
 
 .method public final retainAll([F)Z
     .locals 8
-    .param p1    # [F
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget v0, p0, Landroidx/collection/FloatList;->_size:I
@@ -1864,7 +1817,7 @@
 
     .line 5
     .line 6
-    invoke-static {v0, v1, v2}, Lll/q;->N3([FII)V
+    invoke-static {v0, v1, v2}, Lkotlin/collections/l;->w([FII)V
 
     .line 7
     .line 8
@@ -1881,6 +1834,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final sortDescending()V
@@ -1898,7 +1852,7 @@
 
     .line 5
     .line 6
-    invoke-static {v0, v1, v2}, Lll/a0;->Qu([FII)V
+    invoke-static {v0, v1, v2}, Lkotlin/collections/m;->b0([FII)V
 
     .line 7
     .line 8
@@ -1915,6 +1869,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final trim(I)V
@@ -1956,7 +1911,7 @@
 
     .line 17
     .line 18
-    invoke-static {p1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20

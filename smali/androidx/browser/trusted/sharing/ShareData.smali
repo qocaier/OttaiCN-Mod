@@ -163,6 +163,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static fromBundle(Landroid/os/Bundle;)Landroidx/browser/trusted/sharing/ShareData;
@@ -339,4 +342,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

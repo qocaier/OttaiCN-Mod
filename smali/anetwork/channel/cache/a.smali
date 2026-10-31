@@ -1,4 +1,4 @@
-.class public Lanetwork/channel/cache/a;
+.class public abstract Lanetwork/channel/cache/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,14 +7,6 @@
 .field public static final a:Ljava/util/TimeZone;
 
 .field public static final b:Ljava/lang/ThreadLocal;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/lang/ThreadLocal<",
-            "Ljava/text/SimpleDateFormat;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 
 # direct methods
@@ -56,34 +48,7 @@
     .line 18
     .line 19
     .line 20
-.end method
-
-.method public constructor <init>()V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
+    .line 21
 .end method
 
 .method public static a(Ljava/lang/String;)J
@@ -214,21 +179,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static b(Ljava/util/Map;)Lanetwork/channel/cache/Cache$Entry;
     .locals 15
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;>;)",
-            "Lanetwork/channel/cache/Cache$Entry;"
-        }
-    .end annotation
 
     .line 1
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -685,6 +640,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static c(J)Ljava/lang/String;
@@ -843,4 +803,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

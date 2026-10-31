@@ -194,7 +194,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public overlook(F)Lcom/baidu/mapapi/map/MapStatus$Builder;
@@ -227,7 +226,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public rotate(F)Lcom/baidu/mapapi/map/MapStatus$Builder;
@@ -260,7 +258,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public target(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/map/MapStatus$Builder;
@@ -293,7 +290,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public targetScreen(Landroid/graphics/Point;)Lcom/baidu/mapapi/map/MapStatus$Builder;
@@ -326,7 +322,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public zoom(F)Lcom/baidu/mapapi/map/MapStatus$Builder;
@@ -359,5 +354,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

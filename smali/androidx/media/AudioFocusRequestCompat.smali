@@ -72,6 +72,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(ILandroid/media/AudioManager$OnAudioFocusChangeListener;Landroid/os/Handler;Landroidx/media/AudioAttributesCompat;Z)V
@@ -809,6 +810,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getAudioAttributes()Landroid/media/AudioAttributes;
@@ -853,6 +855,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAudioAttributesCompat()Landroidx/media/AudioAttributesCompat;
@@ -883,6 +886,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAudioFocusRequest()Landroid/media/AudioFocusRequest;
@@ -896,7 +900,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lq1/b;->a(Ljava/lang/Object;)Landroid/media/AudioFocusRequest;
+    invoke-static {v0}, Landroidx/media/b;->a(Ljava/lang/Object;)Landroid/media/AudioFocusRequest;
 
     .line 4
     .line 5
@@ -918,6 +922,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFocusChangeHandler()Landroid/os/Handler;
@@ -948,6 +953,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFocusGain()I
@@ -976,6 +982,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOnAudioFocusChangeListener()Landroid/media/AudioManager$OnAudioFocusChangeListener;
@@ -1006,6 +1013,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -1122,6 +1130,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public willPauseWhenDucked()Z
@@ -1150,4 +1160,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

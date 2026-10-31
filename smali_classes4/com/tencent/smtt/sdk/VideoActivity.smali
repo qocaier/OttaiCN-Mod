@@ -79,7 +79,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p1, v1, v0, v1}, Lcom/tencent/smtt/sdk/p;->a(Ljava/lang/String;Landroid/os/Bundle;Lii/b;)Z
+    invoke-virtual {p1, v1, v0, v1}, Lcom/tencent/smtt/sdk/p;->a(Ljava/lang/String;Landroid/os/Bundle;Lh7/b;)Z
 
     :cond_1
     return-void

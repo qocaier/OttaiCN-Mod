@@ -13,16 +13,6 @@
     name = "c"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/AbstractSet<",
-        "TT;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final synthetic a:Lcom/google/common/cache/LocalCache;
@@ -31,14 +21,6 @@
 # direct methods
 .method public constructor <init>(Lcom/google/common/cache/LocalCache;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$c;->a:Lcom/google/common/cache/LocalCache;
@@ -69,7 +51,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -104,7 +85,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isEmpty()Z
@@ -139,7 +119,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public size()I
@@ -174,5 +153,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

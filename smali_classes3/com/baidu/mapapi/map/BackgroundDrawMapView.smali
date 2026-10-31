@@ -160,7 +160,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$300(Lcom/baidu/mapapi/map/BackgroundDrawMapView;)Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -193,7 +192,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$400(Lcom/baidu/mapapi/map/BackgroundDrawMapView;)Lcom/baidu/platform/comapi/map/MapController;
@@ -226,7 +224,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$500(Lcom/baidu/mapapi/map/BackgroundDrawMapView;)Ljava/util/List;
@@ -259,7 +256,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$600(Lcom/baidu/mapapi/map/BackgroundDrawMapView;)I
@@ -292,7 +288,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setController(Lcom/baidu/platform/comapi/map/MapController;)V
@@ -486,8 +481,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -670,8 +663,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public bindView(Lcom/baidu/platform/comapi/map/MapSurfaceView;)V
@@ -884,15 +875,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getBaseRouteLayer()Lcom/baidu/mapapi/map/IBackgroundDrawBaseRouteLayer;
@@ -1029,15 +1011,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onSurfaceTextureAvailable(Landroid/graphics/SurfaceTexture;II)V
@@ -1240,11 +1213,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onSurfaceTextureDestroyed(Landroid/graphics/SurfaceTexture;)Z
@@ -1391,8 +1359,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onSurfaceTextureSizeChanged(Landroid/graphics/SurfaceTexture;II)V
@@ -1570,11 +1536,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onSurfaceTextureUpdated(Landroid/graphics/SurfaceTexture;)V
@@ -1629,7 +1590,6 @@
     :cond_0
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public openBackgroundMap()Z
@@ -1780,15 +1740,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public removeLayer(Lcom/baidu/mapapi/map/BaseBackgroundDrawLayer;)V
@@ -1840,7 +1791,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFps(I)V
@@ -1885,5 +1835,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

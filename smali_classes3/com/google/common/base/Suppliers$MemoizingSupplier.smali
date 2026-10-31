@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lgb/b0;
+.implements Lcom/google/common/base/s;
 .implements Ljava/io/Serializable;
 
 
@@ -23,13 +23,9 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lgb/b0<",
-        "TT;>;",
+        "Lcom/google/common/base/s;",
         "Ljava/io/Serializable;"
     }
-.end annotation
-
-.annotation build Lfb/e;
 .end annotation
 
 
@@ -38,11 +34,10 @@
 
 
 # instance fields
-.field final delegate:Lgb/b0;
+.field final delegate:Lcom/google/common/base/s;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lgb/b0<",
-            "TT;>;"
+            "Lcom/google/common/base/s;"
         }
     .end annotation
 .end field
@@ -55,29 +50,17 @@
             "TT;"
         }
     .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lgb/b0;)V
+.method public constructor <init>(Lcom/google/common/base/s;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "delegate"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lgb/b0<",
-            "TT;>;)V"
+            "Lcom/google/common/base/s;",
+            ")V"
         }
     .end annotation
 
@@ -87,7 +70,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -95,11 +78,11 @@
     move-result-object p1
 
     .line 8
-    check-cast p1, Lgb/b0;
+    check-cast p1, Lcom/google/common/base/s;
 
     .line 9
     .line 10
-    iput-object p1, p0, Lcom/google/common/base/Suppliers$MemoizingSupplier;->delegate:Lgb/b0;
+    iput-object p1, p0, Lcom/google/common/base/Suppliers$MemoizingSupplier;->delegate:Lcom/google/common/base/s;
 
     .line 11
     .line 12
@@ -116,7 +99,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -127,9 +109,6 @@
         value = {
             "()TT;"
         }
-    .end annotation
-
-    .annotation runtime Lgb/u;
     .end annotation
 
     .line 1
@@ -153,11 +132,11 @@
 
     .line 9
     .line 10
-    iget-object v0, p0, Lcom/google/common/base/Suppliers$MemoizingSupplier;->delegate:Lgb/b0;
+    iget-object v0, p0, Lcom/google/common/base/Suppliers$MemoizingSupplier;->delegate:Lcom/google/common/base/s;
 
     .line 11
     .line 12
-    invoke-interface {v0}, Lgb/b0;->get()Ljava/lang/Object;
+    invoke-interface {v0}, Lcom/google/common/base/s;->get()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -211,7 +190,7 @@
 
     .line 30
     .line 31
-    invoke-static {v0}, Lgb/s;->a(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/google/common/base/k;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -285,15 +264,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -374,7 +344,7 @@
 
     .line 40
     :cond_0
-    iget-object v1, p0, Lcom/google/common/base/Suppliers$MemoizingSupplier;->delegate:Lgb/b0;
+    iget-object v1, p0, Lcom/google/common/base/Suppliers$MemoizingSupplier;->delegate:Lcom/google/common/base/s;
 
     .line 41
     .line 42
@@ -448,13 +418,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

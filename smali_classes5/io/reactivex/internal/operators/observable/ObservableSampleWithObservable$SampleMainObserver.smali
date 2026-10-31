@@ -3,20 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ldk/g0;
-.implements Lfk/b;
+.implements Lb8/o;
+.implements Lio/reactivex/disposables/b;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x409
-    name = "SampleMainObserver"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T:",
@@ -24,9 +15,8 @@
         ">",
         "Ljava/util/concurrent/atomic/AtomicReference<",
         "TT;>;",
-        "Ldk/g0<",
-        "TT;>;",
-        "Lfk/b;"
+        "Lb8/o;",
+        "Lio/reactivex/disposables/b;"
     }
 .end annotation
 
@@ -36,11 +26,10 @@
 
 
 # instance fields
-.field final downstream:Ldk/g0;
+.field final downstream:Lb8/o;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ldk/g0<",
-            "-TT;>;"
+            "Lb8/o;"
         }
     .end annotation
 .end field
@@ -49,34 +38,32 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/concurrent/atomic/AtomicReference<",
-            "Lfk/b;",
+            "Lio/reactivex/disposables/b;",
             ">;"
         }
     .end annotation
 .end field
 
-.field final sampler:Ldk/e0;
+.field final sampler:Lb8/n;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ldk/e0<",
-            "*>;"
+            "Lb8/n;"
         }
     .end annotation
 .end field
 
-.field upstream:Lfk/b;
+.field upstream:Lio/reactivex/disposables/b;
 
 
 # direct methods
-.method public constructor <init>(Ldk/g0;Ldk/e0;)V
+.method public constructor <init>(Lb8/o;Lb8/n;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ldk/g0<",
-            "-TT;>;",
-            "Ldk/e0<",
-            "*>;)V"
+            "Lb8/o;",
+            "Lb8/n;",
+            ")V"
         }
     .end annotation
 
@@ -99,11 +86,11 @@
 
     .line 10
     .line 11
-    iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->downstream:Ldk/g0;
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->downstream:Lb8/o;
 
     .line 12
     .line 13
-    iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->sampler:Ldk/e0;
+    iput-object p2, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->sampler:Lb8/n;
 
     .line 14
     .line 15
@@ -134,6 +121,89 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
 
@@ -142,11 +212,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->upstream:Lfk/b;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lfk/b;->dispose()V
+    invoke-interface {v0}, Lio/reactivex/disposables/b;->dispose()V
 
     .line 4
     .line 5
@@ -171,6 +241,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public abstract completion()V
@@ -189,11 +286,11 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->upstream:Lfk/b;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 7
     .line 8
-    invoke-interface {v0}, Lfk/b;->dispose()V
+    invoke-interface {v0}, Lio/reactivex/disposables/b;->dispose()V
 
     .line 9
     .line 10
@@ -211,6 +308,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public emit()V
@@ -232,11 +356,11 @@
 
     .line 7
     .line 8
-    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->downstream:Ldk/g0;
+    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->downstream:Lb8/o;
 
     .line 9
     .line 10
-    invoke-interface {v1, v0}, Ldk/g0;->onNext(Ljava/lang/Object;)V
+    invoke-interface {v1, v0}, Lb8/o;->onNext(Ljava/lang/Object;)V
 
     .line 11
     .line 12
@@ -253,26 +377,53 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public error(Ljava/lang/Throwable;)V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->upstream:Lfk/b;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lfk/b;->dispose()V
+    invoke-interface {v0}, Lio/reactivex/disposables/b;->dispose()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->downstream:Ldk/g0;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->downstream:Lb8/o;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ldk/g0;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, p1}, Lb8/o;->onError(Ljava/lang/Throwable;)V
 
     .line 9
     .line 10
@@ -291,6 +442,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public isDisposed()Z
@@ -337,6 +521,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onComplete()V
@@ -372,6 +583,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onError(Ljava/lang/Throwable;)V
@@ -387,11 +625,11 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->downstream:Ldk/g0;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->downstream:Lb8/o;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ldk/g0;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, p1}, Lb8/o;->onError(Ljava/lang/Throwable;)V
 
     .line 9
     .line 10
@@ -410,6 +648,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public onNext(Ljava/lang/Object;)V
@@ -447,17 +718,50 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public onSubscribe(Lfk/b;)V
+.method public onSubscribe(Lio/reactivex/disposables/b;)V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->upstream:Lfk/b;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->validate(Lfk/b;Lfk/b;)Z
+    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->validate(Lio/reactivex/disposables/b;Lio/reactivex/disposables/b;)Z
 
     .line 4
     .line 5
@@ -469,15 +773,15 @@
 
     .line 8
     .line 9
-    iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->upstream:Lfk/b;
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 10
     .line 11
-    iget-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->downstream:Ldk/g0;
+    iget-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->downstream:Lb8/o;
 
     .line 12
     .line 13
-    invoke-interface {p1, p0}, Ldk/g0;->onSubscribe(Lfk/b;)V
+    invoke-interface {p1, p0}, Lb8/o;->onSubscribe(Lio/reactivex/disposables/b;)V
 
     .line 14
     .line 15
@@ -498,20 +802,20 @@
 
     .line 23
     .line 24
-    iget-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->sampler:Ldk/e0;
+    iget-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;->sampler:Lb8/n;
 
     .line 25
     .line 26
-    new-instance v0, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$a;
+    new-instance v0, Lio/reactivex/internal/operators/observable/h;
 
     .line 27
     .line 28
-    invoke-direct {v0, p0}, Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$a;-><init>(Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;)V
+    invoke-direct {v0, p0}, Lio/reactivex/internal/operators/observable/h;-><init>(Lio/reactivex/internal/operators/observable/ObservableSampleWithObservable$SampleMainObserver;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-interface {p1, v0}, Ldk/e0;->subscribe(Ldk/g0;)V
+    invoke-interface {p1, v0}, Lb8/n;->subscribe(Lb8/o;)V
 
     .line 32
     .line 33
@@ -541,31 +845,12 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
 .method public abstract run()V
 .end method
 
-.method public setOther(Lfk/b;)Z
+.method public setOther(Lio/reactivex/disposables/b;)Z
     .locals 1
 
     .line 1
@@ -573,7 +858,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Lfk/b;)Z
+    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Lio/reactivex/disposables/b;)Z
 
     .line 4
     .line 5
@@ -599,4 +884,37 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method

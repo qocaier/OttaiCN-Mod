@@ -1,4 +1,4 @@
-.class public synthetic Lcom/google/common/base/Predicates$a;
+.class public abstract synthetic Lcom/google/common/base/Predicates$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Ljava/math/BigInteger;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 

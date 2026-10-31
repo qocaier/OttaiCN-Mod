@@ -21,14 +21,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/core/app/NotificationCompatSideChannelService;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
@@ -214,6 +206,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public cancelAll(Ljava/lang/String;)V
@@ -326,6 +321,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public notify(Ljava/lang/String;ILjava/lang/String;Landroid/app/Notification;)V
@@ -595,4 +591,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

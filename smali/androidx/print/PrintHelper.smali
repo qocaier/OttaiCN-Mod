@@ -92,6 +92,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -439,6 +440,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static copyAttributes(Landroid/print/PrintAttributes;)Landroid/print/PrintAttributes$Builder;
@@ -580,6 +584,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getMatrix(IILandroid/graphics/RectF;I)Landroid/graphics/Matrix;
@@ -888,6 +893,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static isPortrait(Landroid/graphics/Bitmap;)Z
@@ -1263,6 +1274,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static systemSupportsPrint()Z
@@ -1301,6 +1315,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOrientation()I
@@ -1334,6 +1349,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getScaleMode()I
@@ -1362,6 +1378,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public loadConstrainedBitmap(Landroid/net/Uri;)Landroid/graphics/Bitmap;
@@ -1764,6 +1781,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public printBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;)V

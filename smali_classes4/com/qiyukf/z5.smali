@@ -73,9 +73,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lvg/z1;
+    new-instance v1, Lcom/qiyukf/kh0;
 
-    invoke-direct {v1, p0, p1, p2}, Lvg/z1;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/qiyukf/f;)V
+    invoke-direct {v1, p0, p1, p2}, Lcom/qiyukf/kh0;-><init>(Landroid/content/Context;Ljava/lang/String;Lcom/qiyukf/f;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

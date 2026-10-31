@@ -206,6 +206,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -414,6 +416,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public clampViewPositionVertical(Landroid/view/View;II)I
@@ -537,6 +542,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getViewHorizontalDragRange(Landroid/view/View;)I
@@ -906,6 +914,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onViewPositionChanged(Landroid/view/View;IIII)V
@@ -1682,6 +1691,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public tryCaptureView(Landroid/view/View;I)Z

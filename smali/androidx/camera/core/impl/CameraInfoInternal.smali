@@ -318,6 +318,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -358,11 +361,11 @@
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lu/d;
+    new-instance v1, Landroidx/camera/core/impl/d;
 
     .line 7
     .line 8
-    invoke-direct {v1, p0}, Lu/d;-><init>(Landroidx/camera/core/impl/CameraInfoInternal;)V
+    invoke-direct {v1, p0}, Landroidx/camera/core/impl/d;-><init>(Landroidx/camera/core/impl/CameraInfoInternal;)V
 
     .line 9
     .line 10
@@ -461,6 +464,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public abstract getEncoderProfilesProvider()Landroidx/camera/core/impl/EncoderProfilesProvider;

@@ -3,79 +3,21 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nTransition.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Transition.kt\nandroidx/core/transition/TransitionKt\n*L\n1#1,69:1\n47#1,9:70\n66#1,2:79\n47#1,9:81\n66#1,2:90\n47#1,9:92\n66#1,2:101\n47#1,9:103\n66#1,2:112\n47#1,9:114\n66#1,2:123\n*S KotlinDebug\n*F\n+ 1 Transition.kt\nandroidx/core/transition/TransitionKt\n*L\n24#1:70,9\n24#1:79,2\n29#1:81,9\n29#1:90,2\n34#1:92,9\n34#1:101,2\n39#1:103,9\n39#1:112,2\n44#1:114,9\n44#1:123,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nTransition.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Transition.kt\nandroidx/core/transition/TransitionKt\n*L\n1#1,69:1\n47#1,9:70\n66#1,2:79\n47#1,9:81\n66#1,2:90\n47#1,9:92\n66#1,2:101\n47#1,9:103\n66#1,2:112\n47#1,9:114\n66#1,2:123\n*S KotlinDebug\n*F\n+ 1 Transition.kt\nandroidx/core/transition/TransitionKt\n*L\n24#1:70,9\n24#1:79,2\n29#1:81,9\n29#1:90,2\n34#1:92,9\n34#1:101,2\n39#1:103,9\n39#1:112,2\n44#1:114,9\n44#1:123,2\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
-.method public static final addListener(Landroid/transition/Transition;Ljm/l;Ljm/l;Ljm/l;Ljm/l;Ljm/l;)Landroid/transition/Transition$TransitionListener;
+.method public static final addListener(Landroid/transition/Transition;Lq8/l;Lq8/l;Lq8/l;Lq8/l;Lq8/l;)Landroid/transition/Transition$TransitionListener;
     .locals 6
-    .param p0    # Landroid/transition/Transition;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/transition/Transition;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            "Lq8/l;",
+            "Lq8/l;",
+            "Lq8/l;",
+            "Lq8/l;",
+            ")",
             "Landroid/transition/Transition$TransitionListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -98,7 +40,7 @@
     move-object v3, p5
 
     .line 8
-    invoke-direct/range {v0 .. v5}, Landroidx/core/transition/TransitionKt$addListener$listener$1;-><init>(Ljm/l;Ljm/l;Ljm/l;Ljm/l;Ljm/l;)V
+    invoke-direct/range {v0 .. v5}, Landroidx/core/transition/TransitionKt$addListener$listener$1;-><init>(Lq8/l;Lq8/l;Lq8/l;Lq8/l;Lq8/l;)V
 
     .line 9
     .line 10
@@ -1105,7 +1047,7 @@
     .line 1008
 .end method
 
-.method public static synthetic addListener$default(Landroid/transition/Transition;Ljm/l;Ljm/l;Ljm/l;Ljm/l;Ljm/l;ILjava/lang/Object;)Landroid/transition/Transition$TransitionListener;
+.method public static synthetic addListener$default(Landroid/transition/Transition;Lq8/l;Lq8/l;Lq8/l;Lq8/l;Lq8/l;ILjava/lang/Object;)Landroid/transition/Transition$TransitionListener;
     .locals 0
 
     .line 1
@@ -1187,7 +1129,7 @@
     move-object p3, p1
 
     .line 36
-    invoke-direct/range {p2 .. p7}, Landroidx/core/transition/TransitionKt$addListener$listener$1;-><init>(Ljm/l;Ljm/l;Ljm/l;Ljm/l;Ljm/l;)V
+    invoke-direct/range {p2 .. p7}, Landroidx/core/transition/TransitionKt$addListener$listener$1;-><init>(Lq8/l;Lq8/l;Lq8/l;Lq8/l;Lq8/l;)V
 
     .line 37
     .line 38
@@ -1762,30 +1704,16 @@
     .line 604
 .end method
 
-.method public static final doOnCancel(Landroid/transition/Transition;Ljm/l;)Landroid/transition/Transition$TransitionListener;
+.method public static final doOnCancel(Landroid/transition/Transition;Lq8/l;)Landroid/transition/Transition$TransitionListener;
     .locals 1
-    .param p0    # Landroid/transition/Transition;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/transition/Transition;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/transition/Transition$TransitionListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1793,7 +1721,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnCancel$$inlined$addListener$default$1;-><init>(Ljm/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnCancel$$inlined$addListener$default$1;-><init>(Lq8/l;)V
 
     .line 4
     .line 5
@@ -1845,30 +1773,16 @@
     .line 48
 .end method
 
-.method public static final doOnEnd(Landroid/transition/Transition;Ljm/l;)Landroid/transition/Transition$TransitionListener;
+.method public static final doOnEnd(Landroid/transition/Transition;Lq8/l;)Landroid/transition/Transition$TransitionListener;
     .locals 1
-    .param p0    # Landroid/transition/Transition;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/transition/Transition;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/transition/Transition$TransitionListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1876,7 +1790,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnEnd$$inlined$addListener$default$1;-><init>(Ljm/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnEnd$$inlined$addListener$default$1;-><init>(Lq8/l;)V
 
     .line 4
     .line 5
@@ -1928,30 +1842,16 @@
     .line 48
 .end method
 
-.method public static final doOnPause(Landroid/transition/Transition;Ljm/l;)Landroid/transition/Transition$TransitionListener;
+.method public static final doOnPause(Landroid/transition/Transition;Lq8/l;)Landroid/transition/Transition$TransitionListener;
     .locals 1
-    .param p0    # Landroid/transition/Transition;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/transition/Transition;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/transition/Transition$TransitionListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1959,7 +1859,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnPause$$inlined$addListener$default$1;-><init>(Ljm/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnPause$$inlined$addListener$default$1;-><init>(Lq8/l;)V
 
     .line 4
     .line 5
@@ -2011,30 +1911,16 @@
     .line 48
 .end method
 
-.method public static final doOnResume(Landroid/transition/Transition;Ljm/l;)Landroid/transition/Transition$TransitionListener;
+.method public static final doOnResume(Landroid/transition/Transition;Lq8/l;)Landroid/transition/Transition$TransitionListener;
     .locals 1
-    .param p0    # Landroid/transition/Transition;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/transition/Transition;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/transition/Transition$TransitionListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -2042,7 +1928,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnResume$$inlined$addListener$default$1;-><init>(Ljm/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnResume$$inlined$addListener$default$1;-><init>(Lq8/l;)V
 
     .line 4
     .line 5
@@ -2094,30 +1980,16 @@
     .line 48
 .end method
 
-.method public static final doOnStart(Landroid/transition/Transition;Ljm/l;)Landroid/transition/Transition$TransitionListener;
+.method public static final doOnStart(Landroid/transition/Transition;Lq8/l;)Landroid/transition/Transition$TransitionListener;
     .locals 1
-    .param p0    # Landroid/transition/Transition;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/transition/Transition;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/transition/Transition$TransitionListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -2125,7 +1997,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnStart$$inlined$addListener$default$1;-><init>(Ljm/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/transition/TransitionKt$doOnStart$$inlined$addListener$default$1;-><init>(Lq8/l;)V
 
     .line 4
     .line 5

@@ -15,60 +15,35 @@
 
 
 # virtual methods
-.method public abstract cleanUp(Lul/c;)Ljava/lang/Object;
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract cleanUp(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method
 
-.method public abstract migrate(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract migrate(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method
 
-.method public abstract shouldMigrate(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract shouldMigrate(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Boolean;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method

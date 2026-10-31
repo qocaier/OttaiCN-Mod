@@ -52,7 +52,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private constructor <init>()V
@@ -83,7 +82,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic a(Landroidx/drawerlayout/widget/DrawerLayout;Landroid/animation/ValueAnimator;)V
@@ -170,11 +168,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static getScrimCloseAnimatorListener(Landroidx/drawerlayout/widget/DrawerLayout;Landroid/view/View;)Landroid/animation/Animator$AnimatorListener;
@@ -255,11 +248,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static getScrimCloseAnimatorUpdateListener(Landroidx/drawerlayout/widget/DrawerLayout;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
@@ -272,11 +260,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lwa/a;
+    new-instance v0, Lcom/google/android/material/navigation/a;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lwa/a;-><init>(Landroidx/drawerlayout/widget/DrawerLayout;)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/navigation/a;-><init>(Landroidx/drawerlayout/widget/DrawerLayout;)V
 
     .line 4
     .line 5
@@ -300,5 +288,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

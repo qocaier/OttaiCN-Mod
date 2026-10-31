@@ -3,19 +3,10 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ldk/o;
+.implements Lb8/g;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "BackpressureBufferSubscriber"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T:",
@@ -23,8 +14,7 @@
         ">",
         "Lio/reactivex/internal/subscriptions/BasicIntQueueSubscription<",
         "TT;>;",
-        "Ldk/o<",
-        "TT;>;"
+        "Lb8/g;"
     }
 .end annotation
 
@@ -40,44 +30,42 @@
 
 .field volatile done:Z
 
-.field final downstream:Luq/d;
+.field final downstream:Laa/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Luq/d<",
-            "-TT;>;"
+            "Laa/c;"
         }
     .end annotation
 .end field
 
 .field error:Ljava/lang/Throwable;
 
-.field final onOverflow:Lik/a;
+.field final onOverflow:Ld8/a;
 
 .field outputFused:Z
 
-.field final queue:Llk/n;
+.field final queue:Lf8/e;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Llk/n<",
-            "TT;>;"
+            "Lf8/e;"
         }
     .end annotation
 .end field
 
 .field final requested:Ljava/util/concurrent/atomic/AtomicLong;
 
-.field upstream:Luq/e;
+.field upstream:Laa/d;
 
 
 # direct methods
-.method public constructor <init>(Luq/d;IZZLik/a;)V
+.method public constructor <init>(Laa/c;IZZLd8/a;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Luq/d<",
-            "-TT;>;IZZ",
-            "Lik/a;",
+            "Laa/c;",
+            "IZZ",
+            "Ld8/a;",
             ")V"
         }
     .end annotation
@@ -101,11 +89,11 @@
 
     .line 10
     .line 11
-    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->downstream:Luq/d;
+    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->downstream:Laa/c;
 
     .line 12
     .line 13
-    iput-object p5, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->onOverflow:Lik/a;
+    iput-object p5, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->onOverflow:Ld8/a;
 
     .line 14
     .line 15
@@ -117,11 +105,11 @@
 
     .line 18
     .line 19
-    new-instance p1, Luk/a;
+    new-instance p1, Lio/reactivex/internal/queue/a;
 
     .line 20
     .line 21
-    invoke-direct {p1, p2}, Luk/a;-><init>(I)V
+    invoke-direct {p1, p2}, Lio/reactivex/internal/queue/a;-><init>(I)V
 
     .line 22
     .line 23
@@ -140,7 +128,7 @@
     .line 29
     .line 30
     :goto_0
-    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Llk/n;
+    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Lf8/e;
 
     .line 31
     .line 32
@@ -386,65 +374,6 @@
     .line 271
     .line 272
     .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
 .end method
 
 
@@ -468,11 +397,11 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->upstream:Luq/e;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->upstream:Laa/d;
 
     .line 9
     .line 10
-    invoke-interface {v0}, Luq/e;->cancel()V
+    invoke-interface {v0}, Laa/d;->cancel()V
 
     .line 11
     .line 12
@@ -497,11 +426,11 @@
 
     .line 22
     .line 23
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Llk/n;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Lf8/e;
 
     .line 24
     .line 25
-    invoke-interface {v0}, Llk/o;->clear()V
+    invoke-interface {v0}, Lf8/f;->clear()V
 
     .line 26
     .line 27
@@ -530,8 +459,129 @@
     .line 48
     .line 49
     .line 50
+.end method
+
+.method public checkTerminated(ZZLaa/c;)Z
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(ZZ",
+            "Laa/c;",
+            ")Z"
+        }
+    .end annotation
+
+    .line 1
+    iget-boolean v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->cancelled:Z
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    .line 6
+    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Lf8/e;
+
+    .line 7
+    .line 8
+    invoke-interface {p1}, Lf8/f;->clear()V
+
+    .line 9
+    .line 10
+    .line 11
+    return v1
+
+    .line 12
+    :cond_0
+    if-eqz p1, :cond_4
+
+    .line 13
+    .line 14
+    iget-boolean p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->delayError:Z
+
+    .line 15
+    .line 16
+    if-eqz p1, :cond_2
+
+    .line 17
+    .line 18
+    if-eqz p2, :cond_4
+
+    .line 19
+    .line 20
+    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->error:Ljava/lang/Throwable;
+
+    .line 21
+    .line 22
+    if-eqz p1, :cond_1
+
+    .line 23
+    .line 24
+    invoke-interface {p3, p1}, Laa/c;->onError(Ljava/lang/Throwable;)V
+
+    .line 25
+    .line 26
+    .line 27
+    goto :goto_0
+
+    .line 28
+    :cond_1
+    invoke-interface {p3}, Laa/c;->onComplete()V
+
+    .line 29
+    .line 30
+    .line 31
+    :goto_0
+    return v1
+
+    .line 32
+    :cond_2
+    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->error:Ljava/lang/Throwable;
+
+    .line 33
+    .line 34
+    if-eqz p1, :cond_3
+
+    .line 35
+    .line 36
+    iget-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Lf8/e;
+
+    .line 37
+    .line 38
+    invoke-interface {p2}, Lf8/f;->clear()V
+
+    .line 39
+    .line 40
+    .line 41
+    invoke-interface {p3, p1}, Laa/c;->onError(Ljava/lang/Throwable;)V
+
+    .line 42
+    .line 43
+    .line 44
+    return v1
+
+    .line 45
+    :cond_3
+    if-eqz p2, :cond_4
+
+    .line 46
+    .line 47
+    invoke-interface {p3}, Laa/c;->onComplete()V
+
+    .line 48
+    .line 49
+    .line 50
+    return v1
+
     .line 51
+    :cond_4
+    const/4 p1, 0x0
+
     .line 52
+    return p1
     .line 53
     .line 54
     .line 55
@@ -580,166 +630,154 @@
     .line 98
     .line 99
     .line 100
-.end method
-
-.method public checkTerminated(ZZLuq/d;)Z
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(ZZ",
-            "Luq/d<",
-            "-TT;>;)Z"
-        }
-    .end annotation
-
-    .line 1
-    iget-boolean v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->cancelled:Z
-
-    .line 2
-    .line 3
-    const/4 v1, 0x1
-
-    .line 4
-    if-eqz v0, :cond_0
-
-    .line 5
-    .line 6
-    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Llk/n;
-
-    .line 7
-    .line 8
-    invoke-interface {p1}, Llk/o;->clear()V
-
-    .line 9
-    .line 10
-    .line 11
-    return v1
-
-    .line 12
-    :cond_0
-    if-eqz p1, :cond_4
-
-    .line 13
-    .line 14
-    iget-boolean p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->delayError:Z
-
-    .line 15
-    .line 16
-    if-eqz p1, :cond_2
-
-    .line 17
-    .line 18
-    if-eqz p2, :cond_4
-
-    .line 19
-    .line 20
-    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->error:Ljava/lang/Throwable;
-
-    .line 21
-    .line 22
-    if-eqz p1, :cond_1
-
-    .line 23
-    .line 24
-    invoke-interface {p3, p1}, Luq/d;->onError(Ljava/lang/Throwable;)V
-
-    .line 25
-    .line 26
-    .line 27
-    goto :goto_0
-
-    .line 28
-    :cond_1
-    invoke-interface {p3}, Luq/d;->onComplete()V
-
-    .line 29
-    .line 30
-    .line 31
-    :goto_0
-    return v1
-
-    .line 32
-    :cond_2
-    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->error:Ljava/lang/Throwable;
-
-    .line 33
-    .line 34
-    if-eqz p1, :cond_3
-
-    .line 35
-    .line 36
-    iget-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Llk/n;
-
-    .line 37
-    .line 38
-    invoke-interface {p2}, Llk/o;->clear()V
-
-    .line 39
-    .line 40
-    .line 41
-    invoke-interface {p3, p1}, Luq/d;->onError(Ljava/lang/Throwable;)V
-
-    .line 42
-    .line 43
-    .line 44
-    return v1
-
-    .line 45
-    :cond_3
-    if-eqz p2, :cond_4
-
-    .line 46
-    .line 47
-    invoke-interface {p3}, Luq/d;->onComplete()V
-
-    .line 48
-    .line 49
-    .line 50
-    return v1
-
-    .line 51
-    :cond_4
-    const/4 p1, 0x0
-
-    .line 52
-    return p1
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
 .end method
 
 .method public clear()V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Llk/n;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Lf8/e;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Llk/o;->clear()V
+    invoke-interface {v0}, Lf8/f;->clear()V
 
     .line 4
     .line 5
@@ -762,6 +800,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public drain()V
@@ -780,11 +845,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Llk/n;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Lf8/e;
 
     .line 8
     .line 9
-    iget-object v1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->downstream:Luq/d;
+    iget-object v1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->downstream:Laa/c;
 
     .line 10
     .line 11
@@ -799,7 +864,7 @@
 
     .line 14
     .line 15
-    invoke-interface {v0}, Llk/o;->isEmpty()Z
+    invoke-interface {v0}, Lf8/f;->isEmpty()Z
 
     .line 16
     .line 17
@@ -807,7 +872,7 @@
     move-result v5
 
     .line 19
-    invoke-virtual {p0, v4, v5, v1}, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->checkTerminated(ZZLuq/d;)Z
+    invoke-virtual {p0, v4, v5, v1}, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->checkTerminated(ZZLaa/c;)Z
 
     .line 20
     .line 21
@@ -855,7 +920,7 @@
 
     .line 40
     .line 41
-    invoke-interface {v0}, Llk/n;->poll()Ljava/lang/Object;
+    invoke-interface {v0}, Lf8/e;->poll()Ljava/lang/Object;
 
     .line 42
     .line 43
@@ -878,7 +943,7 @@
 
     .line 50
     :goto_1
-    invoke-virtual {p0, v11, v13, v1}, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->checkTerminated(ZZLuq/d;)Z
+    invoke-virtual {p0, v11, v13, v1}, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->checkTerminated(ZZLaa/c;)Z
 
     .line 51
     .line 52
@@ -902,7 +967,7 @@
 
     .line 60
     :cond_4
-    invoke-interface {v1, v12}, Luq/d;->onNext(Ljava/lang/Object;)V
+    invoke-interface {v1, v12}, Laa/c;->onNext(Ljava/lang/Object;)V
 
     .line 61
     .line 62
@@ -927,7 +992,7 @@
 
     .line 70
     .line 71
-    invoke-interface {v0}, Llk/o;->isEmpty()Z
+    invoke-interface {v0}, Lf8/f;->isEmpty()Z
 
     .line 72
     .line 73
@@ -935,7 +1000,7 @@
     move-result v11
 
     .line 75
-    invoke-virtual {p0, v10, v11, v1}, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->checkTerminated(ZZLuq/d;)Z
+    invoke-virtual {p0, v10, v11, v1}, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->checkTerminated(ZZLaa/c;)Z
 
     .line 76
     .line 77
@@ -1369,92 +1434,17 @@
     .line 470
     .line 471
     .line 472
-    .line 473
-    .line 474
-    .line 475
-    .line 476
-    .line 477
-    .line 478
-    .line 479
-    .line 480
-    .line 481
-    .line 482
-    .line 483
-    .line 484
-    .line 485
-    .line 486
-    .line 487
-    .line 488
-    .line 489
-    .line 490
-    .line 491
-    .line 492
-    .line 493
-    .line 494
-    .line 495
-    .line 496
-    .line 497
-    .line 498
-    .line 499
-    .line 500
-    .line 501
-    .line 502
-    .line 503
-    .line 504
-    .line 505
-    .line 506
-    .line 507
-    .line 508
-    .line 509
-    .line 510
-    .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
 .end method
 
 .method public isEmpty()Z
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Llk/n;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Lf8/e;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Llk/o;->isEmpty()Z
+    invoke-interface {v0}, Lf8/f;->isEmpty()Z
 
     .line 4
     .line 5
@@ -1479,6 +1469,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onComplete()V
@@ -1500,11 +1517,11 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->downstream:Laa/c;
 
     .line 9
     .line 10
-    invoke-interface {v0}, Luq/d;->onComplete()V
+    invoke-interface {v0}, Laa/c;->onComplete()V
 
     .line 11
     .line 12
@@ -1525,6 +1542,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onError(Ljava/lang/Throwable;)V
@@ -1550,11 +1594,11 @@
 
     .line 9
     .line 10
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->downstream:Laa/c;
 
     .line 11
     .line 12
-    invoke-interface {v0, p1}, Luq/d;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, p1}, Laa/c;->onError(Ljava/lang/Throwable;)V
 
     .line 13
     .line 14
@@ -1574,6 +1618,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public onNext(Ljava/lang/Object;)V
@@ -1585,11 +1662,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Llk/n;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Lf8/e;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Llk/o;->offer(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Lf8/f;->offer(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -1601,11 +1678,11 @@
 
     .line 8
     .line 9
-    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->upstream:Luq/e;
+    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->upstream:Laa/d;
 
     .line 10
     .line 11
-    invoke-interface {p1}, Luq/e;->cancel()V
+    invoke-interface {p1}, Laa/d;->cancel()V
 
     .line 12
     .line 13
@@ -1624,11 +1701,11 @@
     .line 20
     .line 21
     :try_start_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->onOverflow:Lik/a;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->onOverflow:Ld8/a;
 
     .line 22
     .line 23
-    invoke-interface {v0}, Lik/a;->run()V
+    invoke-interface {v0}, Ld8/a;->run()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1642,7 +1719,7 @@
     move-exception v0
 
     .line 28
-    invoke-static {v0}, Lgk/a;->b(Ljava/lang/Throwable;)V
+    invoke-static {v0}, Lio/reactivex/exceptions/a;->a(Ljava/lang/Throwable;)V
 
     .line 29
     .line 30
@@ -1670,14 +1747,14 @@
 
     .line 41
     .line 42
-    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->downstream:Luq/d;
+    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->downstream:Laa/c;
 
     .line 43
     .line 44
     const/4 v0, 0x0
 
     .line 45
-    invoke-interface {p1, v0}, Luq/d;->onNext(Ljava/lang/Object;)V
+    invoke-interface {p1, v0}, Laa/c;->onNext(Ljava/lang/Object;)V
 
     .line 46
     .line 47
@@ -1697,36 +1774,17 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public onSubscribe(Luq/e;)V
+.method public onSubscribe(Laa/d;)V
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->upstream:Luq/e;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->upstream:Laa/d;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lio/reactivex/internal/subscriptions/SubscriptionHelper;->validate(Luq/e;Luq/e;)Z
+    invoke-static {v0, p1}, Lio/reactivex/internal/subscriptions/SubscriptionHelper;->validate(Laa/d;Laa/d;)Z
 
     .line 4
     .line 5
@@ -1738,15 +1796,15 @@
 
     .line 8
     .line 9
-    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->upstream:Luq/e;
+    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->upstream:Laa/d;
 
     .line 10
     .line 11
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->downstream:Laa/c;
 
     .line 12
     .line 13
-    invoke-interface {v0, p0}, Luq/d;->onSubscribe(Luq/e;)V
+    invoke-interface {v0, p0}, Laa/c;->onSubscribe(Laa/d;)V
 
     .line 14
     .line 15
@@ -1758,13 +1816,46 @@
     .line 19
     .line 20
     .line 21
-    invoke-interface {p1, v0, v1}, Luq/e;->request(J)V
+    invoke-interface {p1, v0, v1}, Laa/d;->request(J)V
 
     .line 22
     .line 23
     .line 24
     :cond_0
     return-void
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public poll()Ljava/lang/Object;
@@ -1781,15 +1872,12 @@
         }
     .end annotation
 
-    .annotation build Lek/f;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Llk/n;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableOnBackpressureBuffer$BackpressureBufferSubscriber;->queue:Lf8/e;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Llk/n;->poll()Ljava/lang/Object;
+    invoke-interface {v0}, Lf8/e;->poll()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1814,6 +1902,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public request(J)V
@@ -1844,7 +1959,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0, p1, p2}, Lxk/b;->a(Ljava/util/concurrent/atomic/AtomicLong;J)J
+    invoke-static {v0, p1, p2}, Lio/reactivex/internal/util/b;->a(Ljava/util/concurrent/atomic/AtomicLong;J)J
 
     .line 14
     .line 15
@@ -1861,6 +1976,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public requestFusion(I)I
@@ -1906,4 +2054,37 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method

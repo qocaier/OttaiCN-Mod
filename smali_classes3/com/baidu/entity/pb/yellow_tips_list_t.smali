@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/entity/pb/yellow_tips_list_t;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -108,13 +108,13 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Ljc/a;",
+            "Ll4/a;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private assistInfo_:Ljc/a;
+.field private assistInfo_:Ll4/a;
 
 .field private backColorId_:I
 
@@ -122,15 +122,15 @@
 
 .field private cachedSize:I
 
-.field private carlimitInfoId_:Ljc/a;
+.field private carlimitInfoId_:Ll4/a;
 
-.field private cityId_:Ljc/a;
+.field private cityId_:Ll4/a;
 
 .field private copyWritings_:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Ljc/a;",
+            "Ll4/a;",
             ">;"
         }
     .end annotation
@@ -140,7 +140,7 @@
 
 .field private duTipId_:I
 
-.field private duTitle_:Ljc/a;
+.field private duTitle_:Ll4/a;
 
 .field private endBtn_:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -164,17 +164,17 @@
     .end annotation
 .end field
 
-.field private expalnTitle_:Ljc/a;
+.field private expalnTitle_:Ll4/a;
 
 .field private explainBubble_:Lcom/baidu/entity/pb/explain_bubble_t;
 
-.field private explainSubTitle_:Ljc/a;
+.field private explainSubTitle_:Ll4/a;
 
-.field private firstLine_:Ljc/a;
+.field private firstLine_:Ll4/a;
 
-.field private gifUrlDark_:Ljc/a;
+.field private gifUrlDark_:Ll4/a;
 
-.field private gifUrl_:Ljc/a;
+.field private gifUrl_:Ll4/a;
 
 .field private groupId_:I
 
@@ -268,7 +268,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Ljc/a;",
+            "Ll4/a;",
             ">;"
         }
     .end annotation
@@ -290,15 +290,15 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Ljc/a;",
+            "Ll4/a;",
             ">;"
         }
     .end annotation
 .end field
 
-.field private permitInfoId_:Ljc/a;
+.field private permitInfoId_:Ll4/a;
 
-.field private roadName_:Ljc/a;
+.field private roadName_:Ll4/a;
 
 .field private roadNo_:I
 
@@ -310,7 +310,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Ljc/a;",
+            "Ll4/a;",
             ">;"
         }
     .end annotation
@@ -318,29 +318,29 @@
 
 .field private showPanel_:Z
 
-.field private subTitle_:Ljc/a;
+.field private subTitle_:Ll4/a;
 
-.field private tagInfo_:Ljc/a;
+.field private tagInfo_:Ll4/a;
 
-.field private tag_:Ljc/a;
+.field private tag_:Ll4/a;
 
 .field private timeS_:I
 
 .field private tipId_:I
 
-.field private tipsBroadcast_:Ljc/a;
+.field private tipsBroadcast_:Ll4/a;
 
-.field private tipsCopy_:Ljc/a;
+.field private tipsCopy_:Ll4/a;
 
 .field private tipsType_:I
 
-.field private title_:Ljc/a;
+.field private title_:Ll4/a;
 
 .field private trafficLimitInfoId_:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Ljc/a;",
+            "Ll4/a;",
             ">;"
         }
     .end annotation
@@ -355,15 +355,15 @@
 .method public constructor <init>()V
     .locals 5
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->title_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->title_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->subTitle_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->subTitle_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->assistInfo_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->assistInfo_:Ll4/a;
 
     const/4 v1, 0x0
 
@@ -377,19 +377,19 @@
 
     iput-object v2, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->endBtn_:Ljava/util/List;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsCopy_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsCopy_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsBroadcast_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsBroadcast_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->expalnTitle_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->expalnTitle_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->roadName_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->roadName_:Ll4/a;
 
     iput v1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->length_:I
 
     iput v1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->type_:I
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->permitInfoId_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->permitInfoId_:Ll4/a;
 
     iput v1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->roadNo_:I
 
@@ -409,7 +409,7 @@
 
     iput-boolean v1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->newPattern_:Z
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->explainSubTitle_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->explainSubTitle_:Ll4/a;
 
     const/4 v3, 0x0
 
@@ -419,11 +419,11 @@
 
     iput v1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsType_:I
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tag_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tag_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tagInfo_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tagInfo_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->firstLine_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->firstLine_:Ll4/a;
 
     iput-object v2, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->secondLine_:Ljava/util/List;
 
@@ -433,7 +433,7 @@
 
     iput-boolean v1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->routeTagOff_:Z
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->cityId_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->cityId_:Ll4/a;
 
     iput-object v3, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->buttonAction_:Lcom/baidu/entity/pb/action_t;
 
@@ -441,21 +441,21 @@
 
     iput-object v3, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->mainAction_:Lcom/baidu/entity/pb/action_t;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->carlimitInfoId_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->carlimitInfoId_:Ll4/a;
 
     iput-object v2, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->trafficLimitInfoId_:Ljava/util/List;
 
     iput v1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->idssCardId_:I
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrl_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrl_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrlDark_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrlDark_:Ll4/a;
 
     iput v1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->uiType_:I
 
     iput v1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->duTipId_:I
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->duTitle_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->duTitle_:Ll4/a;
 
     iput-boolean v1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->showPanel_:Z
 
@@ -472,7 +472,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -485,7 +485,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     move-result-object p0
 
@@ -505,7 +505,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -516,7 +516,7 @@
 
 
 # virtual methods
-.method public addAllPassId(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public addAllPassId(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -565,10 +565,9 @@
     .line 23
     .line 24
     return-object p0
-    .line 25
 .end method
 
-.method public addCopyWritings(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public addCopyWritings(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -617,7 +616,6 @@
     .line 23
     .line 24
     return-object p0
-    .line 25
 .end method
 
 .method public addEndBtn(Lcom/baidu/entity/pb/end_button_info;)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -679,7 +677,7 @@
     return-object p0
 .end method
 
-.method public addImageUrl(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public addImageUrl(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -728,10 +726,9 @@
     .line 23
     .line 24
     return-object p0
-    .line 25
 .end method
 
-.method public addPassId(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public addPassId(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -780,10 +777,9 @@
     .line 23
     .line 24
     return-object p0
-    .line 25
 .end method
 
-.method public addSecondLine(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public addSecondLine(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -832,10 +828,9 @@
     .line 23
     .line 24
     return-object p0
-    .line 25
 .end method
 
-.method public addTrafficLimitInfoId(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public addTrafficLimitInfoId(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -884,7 +879,6 @@
     .line 23
     .line 24
     return-object p0
-    .line 25
 .end method
 
 .method public final clear()Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -1012,9 +1006,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasAssistInfo:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->assistInfo_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->assistInfo_:Ll4/a;
 
     return-object p0
 .end method
@@ -1052,9 +1046,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasCarlimitInfoId:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->carlimitInfoId_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->carlimitInfoId_:Ll4/a;
 
     return-object p0
 .end method
@@ -1066,9 +1060,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasCityId:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->cityId_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->cityId_:Ll4/a;
 
     return-object p0
 .end method
@@ -1114,9 +1108,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasDuTitle:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->duTitle_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->duTitle_:Ll4/a;
 
     return-object p0
 .end method
@@ -1162,9 +1156,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasExpalnTitle:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->expalnTitle_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->expalnTitle_:Ll4/a;
 
     return-object p0
 .end method
@@ -1190,9 +1184,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasExplainSubTitle:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->explainSubTitle_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->explainSubTitle_:Ll4/a;
 
     return-object p0
 .end method
@@ -1204,9 +1198,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasFirstLine:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->firstLine_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->firstLine_:Ll4/a;
 
     return-object p0
 .end method
@@ -1218,9 +1212,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasGifUrl:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrl_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrl_:Ll4/a;
 
     return-object p0
 .end method
@@ -1232,9 +1226,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasGifUrlDark:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrlDark_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrlDark_:Ll4/a;
 
     return-object p0
 .end method
@@ -1378,9 +1372,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasPermitInfoId:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->permitInfoId_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->permitInfoId_:Ll4/a;
 
     return-object p0
 .end method
@@ -1392,9 +1386,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasRoadName:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->roadName_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->roadName_:Ll4/a;
 
     return-object p0
 .end method
@@ -1464,9 +1458,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasSubTitle:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->subTitle_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->subTitle_:Ll4/a;
 
     return-object p0
 .end method
@@ -1478,9 +1472,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasTag:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tag_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tag_:Ll4/a;
 
     return-object p0
 .end method
@@ -1492,9 +1486,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasTagInfo:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tagInfo_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tagInfo_:Ll4/a;
 
     return-object p0
 .end method
@@ -1530,9 +1524,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasTipsBroadcast:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsBroadcast_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsBroadcast_:Ll4/a;
 
     return-object p0
 .end method
@@ -1544,9 +1538,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasTipsCopy:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsCopy_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsCopy_:Ll4/a;
 
     return-object p0
 .end method
@@ -1570,9 +1564,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasTitle:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->title_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->title_:Ll4/a;
 
     return-object p0
 .end method
@@ -1611,7 +1605,7 @@
     return-object p0
 .end method
 
-.method public getAllPassId(I)Ljc/a;
+.method public getAllPassId(I)Ll4/a;
     .locals 1
 
     .line 1
@@ -1627,7 +1621,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Ljc/a;
+    check-cast p1, Ll4/a;
 
     .line 8
     .line 9
@@ -1647,7 +1641,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getAllPassIdCount()I
@@ -1668,7 +1661,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Ljc/a;",
+            "Ll4/a;",
             ">;"
         }
     .end annotation
@@ -1678,11 +1671,11 @@
     return-object v0
 .end method
 
-.method public getAssistInfo()Ljc/a;
+.method public getAssistInfo()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->assistInfo_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->assistInfo_:Ll4/a;
 
     .line 2
     .line 3
@@ -1706,7 +1699,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBackColorId()I
@@ -1740,11 +1732,11 @@
     return v0
 .end method
 
-.method public getCarlimitInfoId()Ljc/a;
+.method public getCarlimitInfoId()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->carlimitInfoId_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->carlimitInfoId_:Ll4/a;
 
     .line 2
     .line 3
@@ -1768,14 +1760,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getCityId()Ljc/a;
+.method public getCityId()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->cityId_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->cityId_:Ll4/a;
 
     .line 2
     .line 3
@@ -1799,10 +1790,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getCopyWritings(I)Ljc/a;
+.method public getCopyWritings(I)Ll4/a;
     .locals 1
 
     .line 1
@@ -1818,7 +1808,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Ljc/a;
+    check-cast p1, Ll4/a;
 
     .line 8
     .line 9
@@ -1838,7 +1828,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getCopyWritingsCount()I
@@ -1859,7 +1848,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Ljc/a;",
+            "Ll4/a;",
             ">;"
         }
     .end annotation
@@ -1885,11 +1874,11 @@
     return v0
 .end method
 
-.method public getDuTitle()Ljc/a;
+.method public getDuTitle()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->duTitle_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->duTitle_:Ll4/a;
 
     .line 2
     .line 3
@@ -1913,7 +1902,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndBtn(I)Lcom/baidu/entity/pb/end_button_info;
@@ -2012,11 +2000,11 @@
     return-object v0
 .end method
 
-.method public getExpalnTitle()Ljc/a;
+.method public getExpalnTitle()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->expalnTitle_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->expalnTitle_:Ll4/a;
 
     .line 2
     .line 3
@@ -2040,7 +2028,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExplainBubble()Lcom/baidu/entity/pb/explain_bubble_t;
@@ -2051,11 +2038,11 @@
     return-object v0
 .end method
 
-.method public getExplainSubTitle()Ljc/a;
+.method public getExplainSubTitle()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->explainSubTitle_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->explainSubTitle_:Ll4/a;
 
     .line 2
     .line 3
@@ -2079,14 +2066,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getFirstLine()Ljc/a;
+.method public getFirstLine()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->firstLine_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->firstLine_:Ll4/a;
 
     .line 2
     .line 3
@@ -2110,14 +2096,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getGifUrl()Ljc/a;
+.method public getGifUrl()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrl_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrl_:Ll4/a;
 
     .line 2
     .line 3
@@ -2141,14 +2126,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getGifUrlDark()Ljc/a;
+.method public getGifUrlDark()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrlDark_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrlDark_:Ll4/a;
 
     .line 2
     .line 3
@@ -2172,7 +2156,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getGroupId()I
@@ -2199,7 +2182,7 @@
     return v0
 .end method
 
-.method public getImageUrl(I)Ljc/a;
+.method public getImageUrl(I)Ll4/a;
     .locals 1
 
     .line 1
@@ -2215,7 +2198,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Ljc/a;
+    check-cast p1, Ll4/a;
 
     .line 8
     .line 9
@@ -2235,7 +2218,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getImageUrlCount()I
@@ -2256,7 +2238,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Ljc/a;",
+            "Ll4/a;",
             ">;"
         }
     .end annotation
@@ -2314,7 +2296,7 @@
     return v0
 .end method
 
-.method public getPassId(I)Ljc/a;
+.method public getPassId(I)Ll4/a;
     .locals 1
 
     .line 1
@@ -2330,7 +2312,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Ljc/a;
+    check-cast p1, Ll4/a;
 
     .line 8
     .line 9
@@ -2350,7 +2332,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getPassIdCount()I
@@ -2371,7 +2352,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Ljc/a;",
+            "Ll4/a;",
             ">;"
         }
     .end annotation
@@ -2381,11 +2362,11 @@
     return-object v0
 .end method
 
-.method public getPermitInfoId()Ljc/a;
+.method public getPermitInfoId()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->permitInfoId_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->permitInfoId_:Ll4/a;
 
     .line 2
     .line 3
@@ -2409,14 +2390,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getRoadName()Ljc/a;
+.method public getRoadName()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->roadName_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->roadName_:Ll4/a;
 
     .line 2
     .line 3
@@ -2440,7 +2420,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRoadNo()I
@@ -2467,7 +2446,7 @@
     return v0
 .end method
 
-.method public getSecondLine(I)Ljc/a;
+.method public getSecondLine(I)Ll4/a;
     .locals 1
 
     .line 1
@@ -2483,7 +2462,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Ljc/a;
+    check-cast p1, Ll4/a;
 
     .line 8
     .line 9
@@ -2503,7 +2482,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getSecondLineCount()I
@@ -2524,7 +2502,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Ljc/a;",
+            "Ll4/a;",
             ">;"
         }
     .end annotation
@@ -2547,11 +2525,11 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTitle()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTitle()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v0
 
@@ -2569,11 +2547,11 @@
 
     if-eqz v2, :cond_1
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getSubTitle()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getSubTitle()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -2588,11 +2566,11 @@
 
     const/4 v2, 0x3
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getAssistInfo()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getAssistInfo()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -2611,7 +2589,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -2630,7 +2608,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -2649,7 +2627,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -2679,7 +2657,7 @@
 
     const/4 v5, 0x7
 
-    invoke-static {v5, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v5, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v4
 
@@ -2696,11 +2674,11 @@
 
     const/16 v2, 0x8
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTipsCopy()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTipsCopy()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -2715,11 +2693,11 @@
 
     const/16 v2, 0x9
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTipsBroadcast()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTipsBroadcast()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -2734,11 +2712,11 @@
 
     const/16 v2, 0xa
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getExpalnTitle()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getExpalnTitle()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -2753,11 +2731,11 @@
 
     const/16 v2, 0xb
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getRoadName()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getRoadName()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -2776,7 +2754,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -2795,7 +2773,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -2810,11 +2788,11 @@
 
     const/16 v2, 0xe
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getPermitInfoId()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getPermitInfoId()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -2833,7 +2811,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -2890,7 +2868,7 @@
 
     move-result-wide v4
 
-    invoke-static {v2, v4, v5}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v(IJ)I
+    invoke-static {v2, v4, v5}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->l(IJ)I
 
     move-result v2
 
@@ -2909,7 +2887,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -2937,9 +2915,9 @@
 
     move-result-object v5
 
-    check-cast v5, Ljc/a;
+    check-cast v5, Ll4/a;
 
-    invoke-static {v5}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->g(Ljc/a;)I
+    invoke-static {v5}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->e(Ll4/a;)I
 
     move-result v5
 
@@ -2983,9 +2961,9 @@
 
     move-result-object v5
 
-    check-cast v5, Ljc/a;
+    check-cast v5, Ll4/a;
 
-    invoke-static {v5}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->g(Ljc/a;)I
+    invoke-static {v5}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->e(Ll4/a;)I
 
     move-result v5
 
@@ -3035,11 +3013,11 @@
 
     const/16 v2, 0x17
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getExplainSubTitle()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getExplainSubTitle()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -3058,7 +3036,7 @@
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -3077,7 +3055,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -3096,7 +3074,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -3111,11 +3089,11 @@
 
     const/16 v2, 0x1b
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTag()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTag()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -3130,11 +3108,11 @@
 
     const/16 v2, 0x1c
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTagInfo()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTagInfo()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -3149,11 +3127,11 @@
 
     const/16 v2, 0x1d
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getFirstLine()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getFirstLine()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -3181,9 +3159,9 @@
 
     move-result-object v5
 
-    check-cast v5, Ljc/a;
+    check-cast v5, Ll4/a;
 
-    invoke-static {v5}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->g(Ljc/a;)I
+    invoke-static {v5}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->e(Ll4/a;)I
 
     move-result v5
 
@@ -3237,7 +3215,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -3271,11 +3249,11 @@
 
     const/16 v2, 0x22
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getCityId()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getCityId()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -3294,7 +3272,7 @@
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -3313,7 +3291,7 @@
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -3332,7 +3310,7 @@
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -3347,11 +3325,11 @@
 
     const/16 v2, 0x2b
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getCarlimitInfoId()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getCarlimitInfoId()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -3379,9 +3357,9 @@
 
     move-result-object v5
 
-    check-cast v5, Ljc/a;
+    check-cast v5, Ll4/a;
 
-    invoke-static {v5}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->g(Ljc/a;)I
+    invoke-static {v5}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->e(Ll4/a;)I
 
     move-result v5
 
@@ -3416,7 +3394,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -3431,11 +3409,11 @@
 
     const/16 v2, 0x2e
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getGifUrl()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getGifUrl()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -3450,11 +3428,11 @@
 
     const/16 v2, 0x2f
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getGifUrlDark()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getGifUrlDark()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -3473,7 +3451,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -3492,7 +3470,7 @@
 
     move-result v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v2
 
@@ -3507,11 +3485,11 @@
 
     const/16 v2, 0x33
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getDuTitle()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getDuTitle()Ll4/a;
 
     move-result-object v4
 
-    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -3564,7 +3542,7 @@
 
     move-result-wide v5
 
-    invoke-static {v5, v6}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->w(J)I
+    invoke-static {v5, v6}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->m(J)I
 
     move-result v5
 
@@ -3608,9 +3586,9 @@
 
     move-result-object v5
 
-    check-cast v5, Ljc/a;
+    check-cast v5, Ll4/a;
 
-    invoke-static {v5}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->g(Ljc/a;)I
+    invoke-static {v5}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->e(Ll4/a;)I
 
     move-result v5
 
@@ -3652,9 +3630,9 @@
 
     move-result-object v4
 
-    check-cast v4, Ljc/a;
+    check-cast v4, Ll4/a;
 
-    invoke-static {v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->g(Ljc/a;)I
+    invoke-static {v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->e(Ll4/a;)I
 
     move-result v4
 
@@ -3690,11 +3668,11 @@
     return v0
 .end method
 
-.method public getSubTitle()Ljc/a;
+.method public getSubTitle()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->subTitle_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->subTitle_:Ll4/a;
 
     .line 2
     .line 3
@@ -3718,14 +3696,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getTag()Ljc/a;
+.method public getTag()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tag_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tag_:Ll4/a;
 
     .line 2
     .line 3
@@ -3749,14 +3726,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getTagInfo()Ljc/a;
+.method public getTagInfo()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tagInfo_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tagInfo_:Ll4/a;
 
     .line 2
     .line 3
@@ -3780,7 +3756,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTimeS()I
@@ -3799,11 +3774,11 @@
     return v0
 .end method
 
-.method public getTipsBroadcast()Ljc/a;
+.method public getTipsBroadcast()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsBroadcast_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsBroadcast_:Ll4/a;
 
     .line 2
     .line 3
@@ -3827,14 +3802,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getTipsCopy()Ljc/a;
+.method public getTipsCopy()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsCopy_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsCopy_:Ll4/a;
 
     .line 2
     .line 3
@@ -3858,7 +3832,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTipsType()I
@@ -3869,11 +3842,11 @@
     return v0
 .end method
 
-.method public getTitle()Ljc/a;
+.method public getTitle()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->title_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->title_:Ll4/a;
 
     .line 2
     .line 3
@@ -3897,10 +3870,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getTrafficLimitInfoId(I)Ljc/a;
+.method public getTrafficLimitInfoId(I)Ll4/a;
     .locals 1
 
     .line 1
@@ -3916,7 +3888,7 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Ljc/a;
+    check-cast p1, Ll4/a;
 
     .line 8
     .line 9
@@ -3936,7 +3908,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getTrafficLimitInfoIdCount()I
@@ -3957,7 +3928,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Ljc/a;",
+            "Ll4/a;",
             ">;"
         }
     .end annotation
@@ -4335,7 +4306,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -4346,13 +4317,13 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
     sparse-switch v0, :sswitch_data_0
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -4361,25 +4332,25 @@
     goto/16 :goto_1
 
     :sswitch_0
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addAllPassId(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addAllPassId(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto :goto_0
 
     :sswitch_1
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addPassId(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addPassId(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto :goto_0
 
     :sswitch_2
-    invoke-virtual {p1}, Ljc/b;->t()J
+    invoke-virtual {p1}, Ll4/b;->l()J
 
     move-result-wide v0
 
@@ -4388,7 +4359,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-virtual {p1}, Ljc/b;->k()Z
+    invoke-virtual {p1}, Ll4/b;->g()Z
 
     move-result v0
 
@@ -4397,16 +4368,16 @@
     goto :goto_0
 
     :sswitch_4
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setDuTitle(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setDuTitle(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto :goto_0
 
     :sswitch_5
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4415,7 +4386,7 @@
     goto :goto_0
 
     :sswitch_6
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4424,25 +4395,25 @@
     goto :goto_0
 
     :sswitch_7
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setGifUrlDark(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setGifUrlDark(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto :goto_0
 
     :sswitch_8
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setGifUrl(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setGifUrl(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto :goto_0
 
     :sswitch_9
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4451,20 +4422,20 @@
     goto :goto_0
 
     :sswitch_a
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addTrafficLimitInfoId(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addTrafficLimitInfoId(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto :goto_0
 
     :sswitch_b
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setCarlimitInfoId(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setCarlimitInfoId(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto :goto_0
 
@@ -4473,7 +4444,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/action_t;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setMainAction(Lcom/baidu/entity/pb/action_t;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
@@ -4484,7 +4455,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/action_t;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setLittleAction(Lcom/baidu/entity/pb/action_t;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
@@ -4495,23 +4466,23 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/action_t;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setButtonAction(Lcom/baidu/entity/pb/action_t;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_f
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setCityId(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setCityId(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_10
-    invoke-virtual {p1}, Ljc/b;->k()Z
+    invoke-virtual {p1}, Ll4/b;->g()Z
 
     move-result v0
 
@@ -4520,7 +4491,7 @@
     goto/16 :goto_0
 
     :sswitch_11
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4529,7 +4500,7 @@
     goto/16 :goto_0
 
     :sswitch_12
-    invoke-virtual {p1}, Ljc/b;->k()Z
+    invoke-virtual {p1}, Ll4/b;->g()Z
 
     move-result v0
 
@@ -4538,43 +4509,43 @@
     goto/16 :goto_0
 
     :sswitch_13
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addSecondLine(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addSecondLine(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_14
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setFirstLine(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setFirstLine(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_15
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setTagInfo(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setTagInfo(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_16
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setTag(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setTag(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_17
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4583,7 +4554,7 @@
     goto/16 :goto_0
 
     :sswitch_18
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4596,23 +4567,23 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/explain_bubble_t;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setExplainBubble(Lcom/baidu/entity/pb/explain_bubble_t;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_1a
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setExplainSubTitle(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setExplainSubTitle(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_1b
-    invoke-virtual {p1}, Ljc/b;->k()Z
+    invoke-virtual {p1}, Ll4/b;->g()Z
 
     move-result v0
 
@@ -4621,25 +4592,25 @@
     goto/16 :goto_0
 
     :sswitch_1c
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addCopyWritings(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addCopyWritings(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_1d
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addImageUrl(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addImageUrl(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_1e
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4648,7 +4619,7 @@
     goto/16 :goto_0
 
     :sswitch_1f
-    invoke-virtual {p1}, Ljc/b;->t()J
+    invoke-virtual {p1}, Ll4/b;->l()J
 
     move-result-wide v0
 
@@ -4657,7 +4628,7 @@
     goto/16 :goto_0
 
     :sswitch_20
-    invoke-virtual {p1}, Ljc/b;->k()Z
+    invoke-virtual {p1}, Ll4/b;->g()Z
 
     move-result v0
 
@@ -4666,7 +4637,7 @@
     goto/16 :goto_0
 
     :sswitch_21
-    invoke-virtual {p1}, Ljc/b;->k()Z
+    invoke-virtual {p1}, Ll4/b;->g()Z
 
     move-result v0
 
@@ -4675,7 +4646,7 @@
     goto/16 :goto_0
 
     :sswitch_22
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4684,16 +4655,16 @@
     goto/16 :goto_0
 
     :sswitch_23
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setPermitInfoId(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setPermitInfoId(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_24
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4702,7 +4673,7 @@
     goto/16 :goto_0
 
     :sswitch_25
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4711,38 +4682,38 @@
     goto/16 :goto_0
 
     :sswitch_26
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setRoadName(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setRoadName(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_27
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setExpalnTitle(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setExpalnTitle(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_28
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setTipsBroadcast(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setTipsBroadcast(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_29
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setTipsCopy(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setTipsCopy(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
@@ -4751,14 +4722,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/end_button_info;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->addEndBtn(Lcom/baidu/entity/pb/end_button_info;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_2b
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4767,7 +4738,7 @@
     goto/16 :goto_0
 
     :sswitch_2c
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4776,7 +4747,7 @@
     goto/16 :goto_0
 
     :sswitch_2d
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4785,29 +4756,29 @@
     goto/16 :goto_0
 
     :sswitch_2e
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setAssistInfo(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setAssistInfo(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_2f
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setSubTitle(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setSubTitle(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
     :sswitch_30
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setTitle(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->setTitle(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     goto/16 :goto_0
 
@@ -4870,7 +4841,7 @@
     .end sparse-switch
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -4879,14 +4850,14 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/yellow_tips_list_t;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/yellow_tips_list_t;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/yellow_tips_list_t;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public setAllPassId(ILjc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setAllPassId(ILl4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -4956,14 +4927,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public setAssistInfo(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setAssistInfo(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -4974,7 +4940,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->assistInfo_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->assistInfo_:Ll4/a;
 
     .line 5
     .line 6
@@ -4997,7 +4963,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackColorId(I)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -5033,7 +4998,7 @@
     return-object p0
 .end method
 
-.method public setCarlimitInfoId(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setCarlimitInfoId(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5044,7 +5009,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->carlimitInfoId_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->carlimitInfoId_:Ll4/a;
 
     .line 5
     .line 6
@@ -5067,10 +5032,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setCityId(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setCityId(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5081,7 +5045,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->cityId_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->cityId_:Ll4/a;
 
     .line 5
     .line 6
@@ -5104,10 +5068,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setCopyWritings(ILjc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setCopyWritings(ILl4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5177,11 +5140,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setDisplayPos(I)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -5208,7 +5166,7 @@
     return-object p0
 .end method
 
-.method public setDuTitle(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setDuTitle(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5219,7 +5177,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->duTitle_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->duTitle_:Ll4/a;
 
     .line 5
     .line 6
@@ -5242,7 +5200,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndBtn(ILcom/baidu/entity/pb/end_button_info;)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -5286,7 +5243,7 @@
     return-object p0
 .end method
 
-.method public setExpalnTitle(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setExpalnTitle(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5297,7 +5254,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->expalnTitle_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->expalnTitle_:Ll4/a;
 
     .line 5
     .line 6
@@ -5320,7 +5277,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExplainBubble(Lcom/baidu/entity/pb/explain_bubble_t;)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -5344,7 +5300,7 @@
     return-object p0
 .end method
 
-.method public setExplainSubTitle(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setExplainSubTitle(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5355,7 +5311,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->explainSubTitle_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->explainSubTitle_:Ll4/a;
 
     .line 5
     .line 6
@@ -5378,10 +5334,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setFirstLine(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setFirstLine(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5392,7 +5347,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->firstLine_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->firstLine_:Ll4/a;
 
     .line 5
     .line 6
@@ -5415,10 +5370,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setGifUrl(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setGifUrl(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5429,7 +5383,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrl_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrl_:Ll4/a;
 
     .line 5
     .line 6
@@ -5452,10 +5406,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setGifUrlDark(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setGifUrlDark(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5466,7 +5419,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrlDark_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->gifUrlDark_:Ll4/a;
 
     .line 5
     .line 6
@@ -5489,7 +5442,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGroupId(I)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -5528,7 +5480,7 @@
     return-object p0
 .end method
 
-.method public setImageUrl(ILjc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setImageUrl(ILl4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5598,11 +5550,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setJumpFlag(Z)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -5695,7 +5642,7 @@
     return-object p0
 .end method
 
-.method public setPassId(ILjc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setPassId(ILl4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5765,14 +5712,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public setPermitInfoId(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setPermitInfoId(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5783,7 +5725,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->permitInfoId_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->permitInfoId_:Ll4/a;
 
     .line 5
     .line 6
@@ -5806,10 +5748,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setRoadName(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setRoadName(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5820,7 +5761,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->roadName_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->roadName_:Ll4/a;
 
     .line 5
     .line 6
@@ -5843,7 +5784,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRoadNo(I)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -5882,7 +5822,7 @@
     return-object p0
 .end method
 
-.method public setSecondLine(ILjc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setSecondLine(ILl4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5952,11 +5892,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setShowPanel(Z)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -5971,7 +5906,7 @@
     return-object p0
 .end method
 
-.method public setSubTitle(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setSubTitle(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -5982,7 +5917,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->subTitle_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->subTitle_:Ll4/a;
 
     .line 5
     .line 6
@@ -6005,10 +5940,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setTag(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setTag(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -6019,7 +5953,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tag_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tag_:Ll4/a;
 
     .line 5
     .line 6
@@ -6042,10 +5976,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setTagInfo(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setTagInfo(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -6056,7 +5989,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tagInfo_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tagInfo_:Ll4/a;
 
     .line 5
     .line 6
@@ -6079,7 +6012,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTimeS(I)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -6106,7 +6038,7 @@
     return-object p0
 .end method
 
-.method public setTipsBroadcast(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setTipsBroadcast(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -6117,7 +6049,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsBroadcast_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsBroadcast_:Ll4/a;
 
     .line 5
     .line 6
@@ -6140,10 +6072,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setTipsCopy(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setTipsCopy(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -6154,7 +6085,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsCopy_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->tipsCopy_:Ll4/a;
 
     .line 5
     .line 6
@@ -6177,7 +6108,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTipsType(I)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -6192,7 +6122,7 @@
     return-object p0
 .end method
 
-.method public setTitle(Ljc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setTitle(Ll4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -6203,7 +6133,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->title_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/yellow_tips_list_t;->title_:Ll4/a;
 
     .line 5
     .line 6
@@ -6226,10 +6156,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setTrafficLimitInfoId(ILjc/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
+.method public setTrafficLimitInfoId(ILl4/a;)Lcom/baidu/entity/pb/yellow_tips_list_t;
     .locals 1
 
     .line 1
@@ -6299,11 +6228,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setType(I)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -6346,11 +6270,11 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTitle()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTitle()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasSubTitle()Z
@@ -6361,11 +6285,11 @@
 
     const/4 v0, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getSubTitle()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getSubTitle()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasAssistInfo()Z
@@ -6376,11 +6300,11 @@
 
     const/4 v0, 0x3
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getAssistInfo()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getAssistInfo()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasTipId()Z
@@ -6395,7 +6319,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasIconId()Z
@@ -6410,7 +6334,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_4
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasBackColorId()Z
@@ -6425,7 +6349,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_5
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getEndBtnList()Ljava/util/List;
@@ -6451,7 +6375,7 @@
 
     const/4 v2, 0x7
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_0
 
@@ -6464,11 +6388,11 @@
 
     const/16 v0, 0x8
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTipsCopy()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTipsCopy()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_7
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasTipsBroadcast()Z
@@ -6479,11 +6403,11 @@
 
     const/16 v0, 0x9
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTipsBroadcast()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTipsBroadcast()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_8
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasExpalnTitle()Z
@@ -6494,11 +6418,11 @@
 
     const/16 v0, 0xa
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getExpalnTitle()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getExpalnTitle()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_9
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasRoadName()Z
@@ -6509,11 +6433,11 @@
 
     const/16 v0, 0xb
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getRoadName()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getRoadName()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_a
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasLength()Z
@@ -6528,7 +6452,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_b
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasType()Z
@@ -6543,7 +6467,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_c
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasPermitInfoId()Z
@@ -6554,11 +6478,11 @@
 
     const/16 v0, 0xe
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getPermitInfoId()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getPermitInfoId()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_d
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasRoadNo()Z
@@ -6573,7 +6497,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_e
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasJumpFlag()Z
@@ -6588,7 +6512,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Z(IZ)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->E(IZ)V
 
     :cond_f
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasPanelFlag()Z
@@ -6603,7 +6527,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Z(IZ)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->E(IZ)V
 
     :cond_10
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasEventId()Z
@@ -6618,7 +6542,7 @@
 
     move-result-wide v1
 
-    invoke-virtual {p1, v0, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t0(IJ)V
+    invoke-virtual {p1, v0, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->O(IJ)V
 
     :cond_11
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasTimeS()Z
@@ -6633,7 +6557,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_12
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getImageUrlList()Ljava/util/List;
@@ -6655,11 +6579,11 @@
 
     move-result-object v1
 
-    check-cast v1, Ljc/a;
+    check-cast v1, Ll4/a;
 
     const/16 v2, 0x14
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     goto :goto_1
 
@@ -6683,11 +6607,11 @@
 
     move-result-object v1
 
-    check-cast v1, Ljc/a;
+    check-cast v1, Ll4/a;
 
     const/16 v2, 0x15
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     goto :goto_2
 
@@ -6704,7 +6628,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Z(IZ)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->E(IZ)V
 
     :cond_15
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasExplainSubTitle()Z
@@ -6715,11 +6639,11 @@
 
     const/16 v0, 0x17
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getExplainSubTitle()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getExplainSubTitle()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_16
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasExplainBubble()Z
@@ -6734,7 +6658,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_17
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasDisplayPos()Z
@@ -6749,7 +6673,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_18
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasTipsType()Z
@@ -6764,7 +6688,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_19
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasTag()Z
@@ -6775,11 +6699,11 @@
 
     const/16 v0, 0x1b
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTag()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTag()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_1a
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasTagInfo()Z
@@ -6790,11 +6714,11 @@
 
     const/16 v0, 0x1c
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTagInfo()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTagInfo()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_1b
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasFirstLine()Z
@@ -6805,11 +6729,11 @@
 
     const/16 v0, 0x1d
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getFirstLine()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getFirstLine()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_1c
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getSecondLineList()Ljava/util/List;
@@ -6831,11 +6755,11 @@
 
     move-result-object v1
 
-    check-cast v1, Ljc/a;
+    check-cast v1, Ll4/a;
 
     const/16 v2, 0x1e
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     goto :goto_3
 
@@ -6852,7 +6776,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Z(IZ)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->E(IZ)V
 
     :cond_1e
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasGroupId()Z
@@ -6867,7 +6791,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_1f
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasRouteTagOff()Z
@@ -6882,7 +6806,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Z(IZ)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->E(IZ)V
 
     :cond_20
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasCityId()Z
@@ -6893,11 +6817,11 @@
 
     const/16 v0, 0x22
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getCityId()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getCityId()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_21
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasButtonAction()Z
@@ -6912,7 +6836,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_22
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasLittleAction()Z
@@ -6927,7 +6851,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_23
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasMainAction()Z
@@ -6942,7 +6866,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_24
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasCarlimitInfoId()Z
@@ -6953,11 +6877,11 @@
 
     const/16 v0, 0x2b
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getCarlimitInfoId()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getCarlimitInfoId()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_25
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getTrafficLimitInfoIdList()Ljava/util/List;
@@ -6979,11 +6903,11 @@
 
     move-result-object v1
 
-    check-cast v1, Ljc/a;
+    check-cast v1, Ll4/a;
 
     const/16 v2, 0x2c
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     goto :goto_4
 
@@ -7000,7 +6924,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_27
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasGifUrl()Z
@@ -7011,11 +6935,11 @@
 
     const/16 v0, 0x2e
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getGifUrl()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getGifUrl()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_28
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasGifUrlDark()Z
@@ -7026,11 +6950,11 @@
 
     const/16 v0, 0x2f
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getGifUrlDark()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getGifUrlDark()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_29
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasUiType()Z
@@ -7045,7 +6969,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_2a
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasDuTipId()Z
@@ -7060,7 +6984,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_2b
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasDuTitle()Z
@@ -7071,11 +6995,11 @@
 
     const/16 v0, 0x33
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getDuTitle()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getDuTitle()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_2c
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->hasShowPanel()Z
@@ -7090,7 +7014,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Z(IZ)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->E(IZ)V
 
     :cond_2d
     invoke-virtual {p0}, Lcom/baidu/entity/pb/yellow_tips_list_t;->getEventIdsList()Ljava/util/List;
@@ -7120,7 +7044,7 @@
 
     const/16 v3, 0x35
 
-    invoke-virtual {p1, v3, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t0(IJ)V
+    invoke-virtual {p1, v3, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->O(IJ)V
 
     goto :goto_5
 
@@ -7144,11 +7068,11 @@
 
     move-result-object v1
 
-    check-cast v1, Ljc/a;
+    check-cast v1, Ll4/a;
 
     const/16 v2, 0x37
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     goto :goto_6
 
@@ -7172,11 +7096,11 @@
 
     move-result-object v1
 
-    check-cast v1, Ljc/a;
+    check-cast v1, Ll4/a;
 
     const/16 v2, 0x38
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     goto :goto_7
 

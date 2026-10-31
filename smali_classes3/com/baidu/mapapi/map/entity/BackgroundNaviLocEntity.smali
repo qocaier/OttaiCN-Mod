@@ -66,7 +66,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -99,7 +98,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getGpsDirection()F
@@ -130,7 +128,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getGpsLatitude()D
@@ -161,7 +158,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getGpsLongitude()D
@@ -192,7 +188,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getGpsSpeed()F
@@ -223,7 +218,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPostDirection()F
@@ -254,7 +248,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPostLatitude()D
@@ -285,7 +278,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPostLongitude()D
@@ -316,7 +308,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPostSpeed()F
@@ -347,7 +338,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isValid()Z
@@ -487,15 +477,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public setCurRouteShapeIdx(I)V
@@ -528,7 +509,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGpsDirection(F)V
@@ -561,7 +541,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGpsLatitude(D)V
@@ -594,7 +573,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGpsLongitude(D)V
@@ -627,7 +605,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGpsSpeed(F)V
@@ -660,7 +637,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPostDirection(F)V
@@ -693,7 +669,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPostLatitude(D)V
@@ -726,7 +701,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPostLongitude(D)V
@@ -759,7 +733,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPostSpeed(F)V
@@ -792,5 +765,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

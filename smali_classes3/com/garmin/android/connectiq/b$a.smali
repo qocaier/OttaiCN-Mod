@@ -54,7 +54,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -67,7 +66,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2}, Lk8/a$b;->b(Landroid/os/IBinder;)Lk8/a;
+    invoke-static {p2}, Ld2/a$a;->b(Landroid/os/IBinder;)Ld2/a;
 
     .line 4
     .line 5
@@ -75,7 +74,7 @@
     move-result-object p2
 
     .line 7
-    invoke-static {p1, p2}, Lcom/garmin/android/connectiq/b;->D(Lcom/garmin/android/connectiq/b;Lk8/a;)Lk8/a;
+    invoke-static {p1, p2}, Lcom/garmin/android/connectiq/b;->o(Lcom/garmin/android/connectiq/b;Ld2/a;)Ld2/a;
 
     .line 8
     .line 9
@@ -87,7 +86,7 @@
     const/4 p2, 0x1
 
     .line 13
-    invoke-static {p1, p2}, Lcom/garmin/android/connectiq/b;->E(Lcom/garmin/android/connectiq/b;Z)Z
+    invoke-static {p1, p2}, Lcom/garmin/android/connectiq/b;->p(Lcom/garmin/android/connectiq/b;Z)Z
 
     .line 14
     .line 15
@@ -146,11 +145,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onServiceDisconnected(Landroid/content/ComponentName;)V
@@ -164,7 +158,7 @@
     const/4 v0, 0x0
 
     .line 4
-    invoke-static {p1, v0}, Lcom/garmin/android/connectiq/b;->D(Lcom/garmin/android/connectiq/b;Lk8/a;)Lk8/a;
+    invoke-static {p1, v0}, Lcom/garmin/android/connectiq/b;->o(Lcom/garmin/android/connectiq/b;Ld2/a;)Ld2/a;
 
     .line 5
     .line 6
@@ -176,7 +170,7 @@
     const/4 v0, 0x0
 
     .line 10
-    invoke-static {p1, v0}, Lcom/garmin/android/connectiq/b;->E(Lcom/garmin/android/connectiq/b;Z)Z
+    invoke-static {p1, v0}, Lcom/garmin/android/connectiq/b;->p(Lcom/garmin/android/connectiq/b;Z)Z
 
     .line 11
     .line 12
@@ -202,5 +196,4 @@
     return-void
     .line 23
     .line 24
-    .line 25
 .end method

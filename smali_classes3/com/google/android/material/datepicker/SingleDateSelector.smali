@@ -85,7 +85,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -116,7 +115,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/datepicker/SingleDateSelector;)V
@@ -149,7 +147,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$102(Lcom/google/android/material/datepicker/SingleDateSelector;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
@@ -218,11 +215,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$202(Lcom/google/android/material/datepicker/SingleDateSelector;Ljava/lang/Long;)Ljava/lang/Long;
@@ -291,11 +283,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private clearSelection()V
@@ -328,7 +315,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -381,7 +367,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getDefaultTitleResId()I
@@ -412,7 +397,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getError()Ljava/lang/String;
@@ -462,7 +446,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSelectedDays()Ljava/util/Collection;
@@ -513,7 +496,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSelectedRanges()Ljava/util/Collection;
@@ -559,7 +541,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSelection()Ljava/lang/Long;
@@ -723,8 +704,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public getSelectionDisplayString(Landroid/content/Context;)Ljava/lang/String;
@@ -863,8 +842,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public isSelectionComplete()Z
@@ -904,7 +881,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onCreateTextInputView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;Lcom/google/android/material/datepicker/CalendarConstraints;Lcom/google/android/material/datepicker/OnSelectionChangedListener;)Landroid/view/View;
@@ -2033,7 +2009,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSelection(Ljava/lang/Long;)V
@@ -2127,7 +2102,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -2202,9 +2176,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

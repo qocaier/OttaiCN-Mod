@@ -13,51 +13,12 @@
     name = "s"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
-
 
 # virtual methods
-.method public abstract a()Lcom/google/common/cache/d;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
+.method public abstract a()Lcom/google/common/cache/k;
 .end method
 
 .method public abstract b(Ljava/lang/Object;)V
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "newValue"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TV;)V"
-        }
-    .end annotation
 .end method
 
 .method public abstract c()I
@@ -66,60 +27,13 @@
 .method public abstract d()Z
 .end method
 
-.method public abstract e(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/d;)Lcom/google/common/cache/LocalCache$s;
-    .param p2    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "queue",
-            "value",
-            "entry"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/ref/ReferenceQueue<",
-            "TV;>;TV;",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)",
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;"
-        }
-    .end annotation
+.method public abstract e(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/k;)Lcom/google/common/cache/LocalCache$s;
 .end method
 
 .method public abstract f()Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TV;"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/util/concurrent/ExecutionException;
-        }
-    .end annotation
 .end method
 
 .method public abstract get()Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TV;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
 .end method
 
 .method public abstract isActive()Z

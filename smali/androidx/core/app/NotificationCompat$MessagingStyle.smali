@@ -376,6 +376,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private hasMessagesWithoutSender()Z
@@ -513,6 +515,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private makeFontColorSpan(I)Landroid/text/style/TextAppearanceSpan;
@@ -917,6 +921,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
@@ -1261,6 +1270,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public addHistoricMessage(Landroidx/core/app/NotificationCompat$MessagingStyle$Message;)Landroidx/core/app/NotificationCompat$MessagingStyle;
@@ -1794,6 +1808,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public clearCompatExtraKeys(Landroid/os/Bundle;)V
@@ -1913,6 +1932,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getClassName()Ljava/lang/String;
@@ -1946,6 +1966,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getConversationTitle()Ljava/lang/CharSequence;
@@ -1974,6 +1995,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHistoricMessages()Ljava/util/List;
@@ -2010,6 +2032,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMessages()Ljava/util/List;
@@ -2046,6 +2069,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUser()Landroidx/core/app/Person;
@@ -2074,6 +2098,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUserDisplayName()Ljava/lang/CharSequence;
@@ -2108,6 +2133,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isGroupConversation()Z
@@ -2243,6 +2269,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public restoreFromCompatExtras(Landroid/os/Bundle;)V
@@ -2612,6 +2640,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setConversationTitle(Ljava/lang/CharSequence;)Landroidx/core/app/NotificationCompat$MessagingStyle;

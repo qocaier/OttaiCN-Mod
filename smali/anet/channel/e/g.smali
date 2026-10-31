@@ -78,6 +78,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeartbeat()I
@@ -110,6 +111,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIp()Ljava/lang/String;
@@ -142,6 +144,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIpSource()I
@@ -174,6 +177,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIpType()I
@@ -206,6 +210,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPort()I
@@ -238,6 +243,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getProtocol()Lanet/channel/strategy/ConnProtocol;
@@ -276,6 +282,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getReadTimeout()I
@@ -308,6 +315,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRetryTimes()I
@@ -340,4 +348,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

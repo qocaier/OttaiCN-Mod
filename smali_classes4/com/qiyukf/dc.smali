@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private a(Lcom/qiyukf/gc;)V
@@ -46,9 +48,9 @@
     move-result-object v1
 
     .line 20
-    new-instance v2, Lvg/h;
+    new-instance v2, Lcom/qiyukf/be0;
 
-    invoke-direct {v2}, Lvg/h;-><init>()V
+    invoke-direct {v2}, Lcom/qiyukf/be0;-><init>()V
 
     const/4 v3, 0x0
 

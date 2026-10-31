@@ -54,6 +54,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderMessageReference;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -87,6 +89,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$100(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderMessageReference;)Lcom/qiyukf/unicorn/protocol/attach/notification/MessageReferenceAttachment;
@@ -120,6 +124,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$1000(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderMessageReference;Lorg/xml/sax/XMLReader;)Ljava/util/HashMap;
@@ -184,6 +190,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$1100(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderMessageReference;)Landroid/widget/TextView;
@@ -217,6 +233,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$200(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderMessageReference;)Landroid/content/Context;
@@ -250,6 +268,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$300(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderMessageReference;)Landroid/content/Context;
@@ -283,6 +303,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$400(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderMessageReference;)Landroid/content/Context;
@@ -316,6 +338,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$500(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderMessageReference;Ljava/lang/String;)Ljava/lang/String;
@@ -380,6 +404,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$600(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderMessageReference;Ljava/lang/String;Ljava/io/File;)V
@@ -513,11 +547,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static synthetic access$700(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderMessageReference;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -776,6 +805,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public static synthetic access$800(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderMessageReference;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -809,6 +861,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$900(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderMessageReference;)Landroid/content/Context;
@@ -842,6 +896,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private downloadUrlFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -1012,11 +1068,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method private getAttributes(Lorg/xml/sax/XMLReader;)Ljava/util/HashMap;
@@ -1422,27 +1473,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method private getDownFilePath(Ljava/lang/String;)Ljava/lang/String;
@@ -1484,6 +1514,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private startFileActivity(Ljava/lang/String;Ljava/io/File;)V
@@ -1564,6 +1596,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -3804,773 +3846,6 @@
     .line 1469
     .line 1470
     .line 1471
-    .line 1472
-    .line 1473
-    .line 1474
-    .line 1475
-    .line 1476
-    .line 1477
-    .line 1478
-    .line 1479
-    .line 1480
-    .line 1481
-    .line 1482
-    .line 1483
-    .line 1484
-    .line 1485
-    .line 1486
-    .line 1487
-    .line 1488
-    .line 1489
-    .line 1490
-    .line 1491
-    .line 1492
-    .line 1493
-    .line 1494
-    .line 1495
-    .line 1496
-    .line 1497
-    .line 1498
-    .line 1499
-    .line 1500
-    .line 1501
-    .line 1502
-    .line 1503
-    .line 1504
-    .line 1505
-    .line 1506
-    .line 1507
-    .line 1508
-    .line 1509
-    .line 1510
-    .line 1511
-    .line 1512
-    .line 1513
-    .line 1514
-    .line 1515
-    .line 1516
-    .line 1517
-    .line 1518
-    .line 1519
-    .line 1520
-    .line 1521
-    .line 1522
-    .line 1523
-    .line 1524
-    .line 1525
-    .line 1526
-    .line 1527
-    .line 1528
-    .line 1529
-    .line 1530
-    .line 1531
-    .line 1532
-    .line 1533
-    .line 1534
-    .line 1535
-    .line 1536
-    .line 1537
-    .line 1538
-    .line 1539
-    .line 1540
-    .line 1541
-    .line 1542
-    .line 1543
-    .line 1544
-    .line 1545
-    .line 1546
-    .line 1547
-    .line 1548
-    .line 1549
-    .line 1550
-    .line 1551
-    .line 1552
-    .line 1553
-    .line 1554
-    .line 1555
-    .line 1556
-    .line 1557
-    .line 1558
-    .line 1559
-    .line 1560
-    .line 1561
-    .line 1562
-    .line 1563
-    .line 1564
-    .line 1565
-    .line 1566
-    .line 1567
-    .line 1568
-    .line 1569
-    .line 1570
-    .line 1571
-    .line 1572
-    .line 1573
-    .line 1574
-    .line 1575
-    .line 1576
-    .line 1577
-    .line 1578
-    .line 1579
-    .line 1580
-    .line 1581
-    .line 1582
-    .line 1583
-    .line 1584
-    .line 1585
-    .line 1586
-    .line 1587
-    .line 1588
-    .line 1589
-    .line 1590
-    .line 1591
-    .line 1592
-    .line 1593
-    .line 1594
-    .line 1595
-    .line 1596
-    .line 1597
-    .line 1598
-    .line 1599
-    .line 1600
-    .line 1601
-    .line 1602
-    .line 1603
-    .line 1604
-    .line 1605
-    .line 1606
-    .line 1607
-    .line 1608
-    .line 1609
-    .line 1610
-    .line 1611
-    .line 1612
-    .line 1613
-    .line 1614
-    .line 1615
-    .line 1616
-    .line 1617
-    .line 1618
-    .line 1619
-    .line 1620
-    .line 1621
-    .line 1622
-    .line 1623
-    .line 1624
-    .line 1625
-    .line 1626
-    .line 1627
-    .line 1628
-    .line 1629
-    .line 1630
-    .line 1631
-    .line 1632
-    .line 1633
-    .line 1634
-    .line 1635
-    .line 1636
-    .line 1637
-    .line 1638
-    .line 1639
-    .line 1640
-    .line 1641
-    .line 1642
-    .line 1643
-    .line 1644
-    .line 1645
-    .line 1646
-    .line 1647
-    .line 1648
-    .line 1649
-    .line 1650
-    .line 1651
-    .line 1652
-    .line 1653
-    .line 1654
-    .line 1655
-    .line 1656
-    .line 1657
-    .line 1658
-    .line 1659
-    .line 1660
-    .line 1661
-    .line 1662
-    .line 1663
-    .line 1664
-    .line 1665
-    .line 1666
-    .line 1667
-    .line 1668
-    .line 1669
-    .line 1670
-    .line 1671
-    .line 1672
-    .line 1673
-    .line 1674
-    .line 1675
-    .line 1676
-    .line 1677
-    .line 1678
-    .line 1679
-    .line 1680
-    .line 1681
-    .line 1682
-    .line 1683
-    .line 1684
-    .line 1685
-    .line 1686
-    .line 1687
-    .line 1688
-    .line 1689
-    .line 1690
-    .line 1691
-    .line 1692
-    .line 1693
-    .line 1694
-    .line 1695
-    .line 1696
-    .line 1697
-    .line 1698
-    .line 1699
-    .line 1700
-    .line 1701
-    .line 1702
-    .line 1703
-    .line 1704
-    .line 1705
-    .line 1706
-    .line 1707
-    .line 1708
-    .line 1709
-    .line 1710
-    .line 1711
-    .line 1712
-    .line 1713
-    .line 1714
-    .line 1715
-    .line 1716
-    .line 1717
-    .line 1718
-    .line 1719
-    .line 1720
-    .line 1721
-    .line 1722
-    .line 1723
-    .line 1724
-    .line 1725
-    .line 1726
-    .line 1727
-    .line 1728
-    .line 1729
-    .line 1730
-    .line 1731
-    .line 1732
-    .line 1733
-    .line 1734
-    .line 1735
-    .line 1736
-    .line 1737
-    .line 1738
-    .line 1739
-    .line 1740
-    .line 1741
-    .line 1742
-    .line 1743
-    .line 1744
-    .line 1745
-    .line 1746
-    .line 1747
-    .line 1748
-    .line 1749
-    .line 1750
-    .line 1751
-    .line 1752
-    .line 1753
-    .line 1754
-    .line 1755
-    .line 1756
-    .line 1757
-    .line 1758
-    .line 1759
-    .line 1760
-    .line 1761
-    .line 1762
-    .line 1763
-    .line 1764
-    .line 1765
-    .line 1766
-    .line 1767
-    .line 1768
-    .line 1769
-    .line 1770
-    .line 1771
-    .line 1772
-    .line 1773
-    .line 1774
-    .line 1775
-    .line 1776
-    .line 1777
-    .line 1778
-    .line 1779
-    .line 1780
-    .line 1781
-    .line 1782
-    .line 1783
-    .line 1784
-    .line 1785
-    .line 1786
-    .line 1787
-    .line 1788
-    .line 1789
-    .line 1790
-    .line 1791
-    .line 1792
-    .line 1793
-    .line 1794
-    .line 1795
-    .line 1796
-    .line 1797
-    .line 1798
-    .line 1799
-    .line 1800
-    .line 1801
-    .line 1802
-    .line 1803
-    .line 1804
-    .line 1805
-    .line 1806
-    .line 1807
-    .line 1808
-    .line 1809
-    .line 1810
-    .line 1811
-    .line 1812
-    .line 1813
-    .line 1814
-    .line 1815
-    .line 1816
-    .line 1817
-    .line 1818
-    .line 1819
-    .line 1820
-    .line 1821
-    .line 1822
-    .line 1823
-    .line 1824
-    .line 1825
-    .line 1826
-    .line 1827
-    .line 1828
-    .line 1829
-    .line 1830
-    .line 1831
-    .line 1832
-    .line 1833
-    .line 1834
-    .line 1835
-    .line 1836
-    .line 1837
-    .line 1838
-    .line 1839
-    .line 1840
-    .line 1841
-    .line 1842
-    .line 1843
-    .line 1844
-    .line 1845
-    .line 1846
-    .line 1847
-    .line 1848
-    .line 1849
-    .line 1850
-    .line 1851
-    .line 1852
-    .line 1853
-    .line 1854
-    .line 1855
-    .line 1856
-    .line 1857
-    .line 1858
-    .line 1859
-    .line 1860
-    .line 1861
-    .line 1862
-    .line 1863
-    .line 1864
-    .line 1865
-    .line 1866
-    .line 1867
-    .line 1868
-    .line 1869
-    .line 1870
-    .line 1871
-    .line 1872
-    .line 1873
-    .line 1874
-    .line 1875
-    .line 1876
-    .line 1877
-    .line 1878
-    .line 1879
-    .line 1880
-    .line 1881
-    .line 1882
-    .line 1883
-    .line 1884
-    .line 1885
-    .line 1886
-    .line 1887
-    .line 1888
-    .line 1889
-    .line 1890
-    .line 1891
-    .line 1892
-    .line 1893
-    .line 1894
-    .line 1895
-    .line 1896
-    .line 1897
-    .line 1898
-    .line 1899
-    .line 1900
-    .line 1901
-    .line 1902
-    .line 1903
-    .line 1904
-    .line 1905
-    .line 1906
-    .line 1907
-    .line 1908
-    .line 1909
-    .line 1910
-    .line 1911
-    .line 1912
-    .line 1913
-    .line 1914
-    .line 1915
-    .line 1916
-    .line 1917
-    .line 1918
-    .line 1919
-    .line 1920
-    .line 1921
-    .line 1922
-    .line 1923
-    .line 1924
-    .line 1925
-    .line 1926
-    .line 1927
-    .line 1928
-    .line 1929
-    .line 1930
-    .line 1931
-    .line 1932
-    .line 1933
-    .line 1934
-    .line 1935
-    .line 1936
-    .line 1937
-    .line 1938
-    .line 1939
-    .line 1940
-    .line 1941
-    .line 1942
-    .line 1943
-    .line 1944
-    .line 1945
-    .line 1946
-    .line 1947
-    .line 1948
-    .line 1949
-    .line 1950
-    .line 1951
-    .line 1952
-    .line 1953
-    .line 1954
-    .line 1955
-    .line 1956
-    .line 1957
-    .line 1958
-    .line 1959
-    .line 1960
-    .line 1961
-    .line 1962
-    .line 1963
-    .line 1964
-    .line 1965
-    .line 1966
-    .line 1967
-    .line 1968
-    .line 1969
-    .line 1970
-    .line 1971
-    .line 1972
-    .line 1973
-    .line 1974
-    .line 1975
-    .line 1976
-    .line 1977
-    .line 1978
-    .line 1979
-    .line 1980
-    .line 1981
-    .line 1982
-    .line 1983
-    .line 1984
-    .line 1985
-    .line 1986
-    .line 1987
-    .line 1988
-    .line 1989
-    .line 1990
-    .line 1991
-    .line 1992
-    .line 1993
-    .line 1994
-    .line 1995
-    .line 1996
-    .line 1997
-    .line 1998
-    .line 1999
-    .line 2000
-    .line 2001
-    .line 2002
-    .line 2003
-    .line 2004
-    .line 2005
-    .line 2006
-    .line 2007
-    .line 2008
-    .line 2009
-    .line 2010
-    .line 2011
-    .line 2012
-    .line 2013
-    .line 2014
-    .line 2015
-    .line 2016
-    .line 2017
-    .line 2018
-    .line 2019
-    .line 2020
-    .line 2021
-    .line 2022
-    .line 2023
-    .line 2024
-    .line 2025
-    .line 2026
-    .line 2027
-    .line 2028
-    .line 2029
-    .line 2030
-    .line 2031
-    .line 2032
-    .line 2033
-    .line 2034
-    .line 2035
-    .line 2036
-    .line 2037
-    .line 2038
-    .line 2039
-    .line 2040
-    .line 2041
-    .line 2042
-    .line 2043
-    .line 2044
-    .line 2045
-    .line 2046
-    .line 2047
-    .line 2048
-    .line 2049
-    .line 2050
-    .line 2051
-    .line 2052
-    .line 2053
-    .line 2054
-    .line 2055
-    .line 2056
-    .line 2057
-    .line 2058
-    .line 2059
-    .line 2060
-    .line 2061
-    .line 2062
-    .line 2063
-    .line 2064
-    .line 2065
-    .line 2066
-    .line 2067
-    .line 2068
-    .line 2069
-    .line 2070
-    .line 2071
-    .line 2072
-    .line 2073
-    .line 2074
-    .line 2075
-    .line 2076
-    .line 2077
-    .line 2078
-    .line 2079
-    .line 2080
-    .line 2081
-    .line 2082
-    .line 2083
-    .line 2084
-    .line 2085
-    .line 2086
-    .line 2087
-    .line 2088
-    .line 2089
-    .line 2090
-    .line 2091
-    .line 2092
-    .line 2093
-    .line 2094
-    .line 2095
-    .line 2096
-    .line 2097
-    .line 2098
-    .line 2099
-    .line 2100
-    .line 2101
-    .line 2102
-    .line 2103
-    .line 2104
-    .line 2105
-    .line 2106
-    .line 2107
-    .line 2108
-    .line 2109
-    .line 2110
-    .line 2111
-    .line 2112
-    .line 2113
-    .line 2114
-    .line 2115
-    .line 2116
-    .line 2117
-    .line 2118
-    .line 2119
-    .line 2120
-    .line 2121
-    .line 2122
-    .line 2123
-    .line 2124
-    .line 2125
-    .line 2126
-    .line 2127
-    .line 2128
-    .line 2129
-    .line 2130
-    .line 2131
-    .line 2132
-    .line 2133
-    .line 2134
-    .line 2135
-    .line 2136
-    .line 2137
-    .line 2138
-    .line 2139
-    .line 2140
-    .line 2141
-    .line 2142
-    .line 2143
-    .line 2144
-    .line 2145
-    .line 2146
-    .line 2147
-    .line 2148
-    .line 2149
-    .line 2150
-    .line 2151
-    .line 2152
-    .line 2153
-    .line 2154
-    .line 2155
-    .line 2156
-    .line 2157
-    .line 2158
-    .line 2159
-    .line 2160
-    .line 2161
-    .line 2162
-    .line 2163
-    .line 2164
-    .line 2165
-    .line 2166
-    .line 2167
-    .line 2168
-    .line 2169
-    .line 2170
-    .line 2171
-    .line 2172
-    .line 2173
-    .line 2174
-    .line 2175
-    .line 2176
-    .line 2177
-    .line 2178
-    .line 2179
-    .line 2180
-    .line 2181
-    .line 2182
-    .line 2183
-    .line 2184
-    .line 2185
-    .line 2186
-    .line 2187
-    .line 2188
-    .line 2189
-    .line 2190
-    .line 2191
-    .line 2192
-    .line 2193
-    .line 2194
-    .line 2195
-    .line 2196
-    .line 2197
-    .line 2198
-    .line 2199
-    .line 2200
-    .line 2201
-    .line 2202
-    .line 2203
-    .line 2204
-    .line 2205
-    .line 2206
-    .line 2207
-    .line 2208
-    .line 2209
-    .line 2210
-    .line 2211
-    .line 2212
-    .line 2213
-    .line 2214
-    .line 2215
-    .line 2216
-    .line 2217
-    .line 2218
-    .line 2219
-    .line 2220
-    .line 2221
-    .line 2222
-    .line 2223
-    .line 2224
-    .line 2225
-    .line 2226
-    .line 2227
-    .line 2228
-    .line 2229
-    .line 2230
-    .line 2231
-    .line 2232
-    .line 2233
-    .line 2234
-    .line 2235
-    .line 2236
-    .line 2237
-    .line 2238
 .end method
 
 .method public inflateContentView()V
@@ -4993,68 +4268,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method public setText(Landroid/widget/TextView;)V
@@ -5225,4 +4438,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

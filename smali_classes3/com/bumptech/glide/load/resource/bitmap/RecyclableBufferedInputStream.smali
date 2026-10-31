@@ -22,41 +22,23 @@
 
 .field public e:I
 
-.field public final f:Le6/b;
+.field public final f:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
 
 # direct methods
-.method public constructor <init>(Ljava/io/InputStream;Le6/b;)V
+.method public constructor <init>(Ljava/io/InputStream;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)V
     .locals 1
-    .param p1    # Ljava/io/InputStream;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Le6/b;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     const/high16 v0, 0x10000
 
     .line 1
-    invoke-direct {p0, p1, p2, v0}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;-><init>(Ljava/io/InputStream;Le6/b;I)V
+    invoke-direct {p0, p1, p2, v0}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;-><init>(Ljava/io/InputStream;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;I)V
 
     return-void
 .end method
 
-.method public constructor <init>(Ljava/io/InputStream;Le6/b;I)V
+.method public constructor <init>(Ljava/io/InputStream;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;I)V
     .locals 0
-    .param p1    # Ljava/io/InputStream;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Le6/b;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/VisibleForTesting;
-    .end annotation
 
     .line 2
     invoke-direct {p0, p1}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V
@@ -67,12 +49,12 @@
     iput p1, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->d:I
 
     .line 4
-    iput-object p2, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->f:Le6/b;
+    iput-object p2, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->f:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     .line 5
     const-class p1, [B
 
-    invoke-interface {p2, p3, p1}, Le6/b;->b(ILjava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {p2, p3, p1}, Lcom/bumptech/glide/load/engine/bitmap_recycle/b;->b(ILjava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -83,13 +65,8 @@
     return-void
 .end method
 
-.method public static c()Ljava/io/IOException;
+.method public static d()Ljava/io/IOException;
     .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/io/IOException;
@@ -120,18 +97,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public final a(Ljava/io/InputStream;[B)I
     .locals 5
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->d:I
@@ -208,7 +179,7 @@
 
     .line 32
     :goto_0
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->f:Le6/b;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->f:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     .line 33
     .line 34
@@ -216,7 +187,7 @@
 
     .line 35
     .line 36
-    invoke-interface {v0, v4, v2}, Le6/b;->b(ILjava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {v0, v4, v2}, Lcom/bumptech/glide/load/engine/bitmap_recycle/b;->b(ILjava/lang/Class;)Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -240,11 +211,11 @@
 
     .line 47
     .line 48
-    iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->f:Le6/b;
+    iget-object v2, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->f:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     .line 49
     .line 50
-    invoke-interface {v2, p2}, Le6/b;->put(Ljava/lang/Object;)V
+    invoke-interface {v2, p2}, Lcom/bumptech/glide/load/engine/bitmap_recycle/b;->d(Ljava/lang/Object;)V
 
     .line 51
     .line 52
@@ -592,63 +563,10 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public declared-synchronized available()I
     .locals 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     monitor-enter p0
@@ -710,7 +628,7 @@
     .line 24
     :cond_0
     :try_start_1
-    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->c()Ljava/io/IOException;
+    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->d()Ljava/io/IOException;
 
     .line 25
     .line 26
@@ -798,15 +716,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public declared-synchronized b()V
@@ -858,16 +767,76 @@
     .line 20
     .line 21
     .line 22
-    .line 23
+.end method
+
+.method public declared-synchronized c()V
+    .locals 2
+
+    .line 1
+    monitor-enter p0
+
+    .line 2
+    :try_start_0
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->a:[B
+
+    .line 3
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    .line 6
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->f:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
+
+    .line 7
+    .line 8
+    iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->a:[B
+
+    .line 9
+    .line 10
+    invoke-interface {v0, v1}, Lcom/bumptech/glide/load/engine/bitmap_recycle/b;->d(Ljava/lang/Object;)V
+
+    .line 11
+    .line 12
+    .line 13
+    const/4 v0, 0x0
+
+    .line 14
+    iput-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->a:[B
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 15
+    .line 16
+    goto :goto_0
+
+    .line 17
+    :catchall_0
+    move-exception v0
+
+    .line 18
+    goto :goto_1
+
+    .line 19
+    :cond_0
+    :goto_0
+    monitor-exit p0
+
+    .line 20
+    return-void
+
+    .line 21
+    :goto_1
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 22
+    throw v0
 .end method
 
 .method public close()V
     .locals 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->a:[B
@@ -881,7 +850,7 @@
 
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->f:Le6/b;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->f:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     .line 7
     .line 8
@@ -889,7 +858,7 @@
 
     .line 9
     .line 10
-    invoke-interface {v0, v2}, Le6/b;->put(Ljava/lang/Object;)V
+    invoke-interface {v0, v2}, Lcom/bumptech/glide/load/engine/bitmap_recycle/b;->d(Ljava/lang/Object;)V
 
     .line 11
     .line 12
@@ -994,15 +963,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public declared-synchronized mark(I)V
@@ -1062,7 +1022,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public markSupported()Z
@@ -1075,11 +1034,6 @@
 
 .method public declared-synchronized read()I
     .locals 5
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     monitor-enter p0
 
@@ -1137,7 +1091,7 @@
 
     .line 7
     :cond_1
-    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->c()Ljava/io/IOException;
+    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->d()Ljava/io/IOException;
 
     move-result-object v0
 
@@ -1178,7 +1132,7 @@
     .line 11
     :cond_4
     :try_start_2
-    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->c()Ljava/io/IOException;
+    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->d()Ljava/io/IOException;
 
     move-result-object v0
 
@@ -1194,15 +1148,6 @@
 
 .method public declared-synchronized read([BII)I
     .locals 6
-    .param p1    # [B
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     monitor-enter p0
 
@@ -1369,7 +1314,7 @@
 
     .line 27
     :cond_9
-    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->c()Ljava/io/IOException;
+    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->d()Ljava/io/IOException;
 
     move-result-object p1
 
@@ -1442,7 +1387,7 @@
     .line 34
     :cond_f
     :try_start_6
-    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->c()Ljava/io/IOException;
+    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->d()Ljava/io/IOException;
 
     move-result-object p1
 
@@ -1450,7 +1395,7 @@
 
     .line 35
     :cond_10
-    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->c()Ljava/io/IOException;
+    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->d()Ljava/io/IOException;
 
     move-result-object p1
 
@@ -1465,80 +1410,8 @@
     throw p1
 .end method
 
-.method public declared-synchronized release()V
-    .locals 2
-
-    .line 1
-    monitor-enter p0
-
-    .line 2
-    :try_start_0
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->a:[B
-
-    .line 3
-    .line 4
-    if-eqz v0, :cond_0
-
-    .line 5
-    .line 6
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->f:Le6/b;
-
-    .line 7
-    .line 8
-    iget-object v1, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->a:[B
-
-    .line 9
-    .line 10
-    invoke-interface {v0, v1}, Le6/b;->put(Ljava/lang/Object;)V
-
-    .line 11
-    .line 12
-    .line 13
-    const/4 v0, 0x0
-
-    .line 14
-    iput-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->a:[B
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 15
-    .line 16
-    goto :goto_0
-
-    .line 17
-    :catchall_0
-    move-exception v0
-
-    .line 18
-    goto :goto_1
-
-    .line 19
-    :cond_0
-    :goto_0
-    monitor-exit p0
-
-    .line 20
-    return-void
-
-    .line 21
-    :goto_1
-    :try_start_1
-    monitor-exit p0
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 22
-    throw v0
-    .line 23
-.end method
-
 .method public declared-synchronized reset()V
     .locals 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     monitor-enter p0
@@ -1713,24 +1586,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public declared-synchronized skip(J)J
     .locals 10
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     monitor-enter p0
@@ -2006,7 +1865,7 @@
     .line 108
     :cond_6
     :try_start_5
-    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->c()Ljava/io/IOException;
+    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->d()Ljava/io/IOException;
 
     .line 109
     .line 110
@@ -2018,7 +1877,7 @@
 
     .line 113
     :cond_7
-    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->c()Ljava/io/IOException;
+    invoke-static {}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->d()Ljava/io/IOException;
 
     .line 114
     .line 115
@@ -2325,4 +2184,36 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method

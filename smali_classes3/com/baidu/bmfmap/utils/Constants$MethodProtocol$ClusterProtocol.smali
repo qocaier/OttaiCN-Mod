@@ -37,14 +37,6 @@
 # direct methods
 .method public constructor <init>(Lcom/baidu/bmfmap/utils/Constants$MethodProtocol;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/baidu/bmfmap/utils/Constants$MethodProtocol$ClusterProtocol;->this$0:Lcom/baidu/bmfmap/utils/Constants$MethodProtocol;
@@ -75,5 +67,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

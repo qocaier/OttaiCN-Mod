@@ -78,7 +78,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -113,7 +112,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onInterceptTouchEvent(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/MotionEvent;)V
@@ -335,11 +333,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public setBaseTransientBottomBar(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
@@ -385,5 +378,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

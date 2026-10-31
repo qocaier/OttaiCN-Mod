@@ -54,6 +54,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private constructor <init>()V
@@ -92,6 +94,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private a(Landroid/content/Context;)I
@@ -975,11 +979,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static getInstance()Lcom/huawei/hms/support/hianalytics/HiAnalyticsUtils;
@@ -1105,6 +1104,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static versionCodeToName(Ljava/lang/String;)Ljava/lang/String;
@@ -1523,27 +1523,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 
@@ -1645,6 +1624,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOobeAnalyticsState(Landroid/content/Context;)I
@@ -2056,27 +2037,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public hasError(Landroid/content/Context;)Z
@@ -2112,6 +2072,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onBuoyEvent(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
@@ -2245,11 +2207,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onEvent(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V
@@ -2503,11 +2460,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onEvent2(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
@@ -2707,11 +2659,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onNewEvent(Landroid/content/Context;Ljava/lang/String;Ljava/util/Map;)V

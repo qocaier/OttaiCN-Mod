@@ -21,14 +21,6 @@
 # direct methods
 .method public constructor <init>(Lcom/baidu/bmfmap/map/maphandler/TileMapHandler;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/baidu/bmfmap/map/maphandler/TileMapHandler$2;->this$0:Lcom/baidu/bmfmap/map/maphandler/TileMapHandler;
@@ -59,7 +51,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -96,7 +87,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMinDisLevel()I
@@ -131,7 +121,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTileUrl()Ljava/lang/String;
@@ -166,5 +155,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

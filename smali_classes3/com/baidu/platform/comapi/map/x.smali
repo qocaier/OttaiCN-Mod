@@ -62,7 +62,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -171,7 +170,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onDoubleTap(Landroid/view/MotionEvent;)Z
@@ -326,8 +324,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onDoubleTapEvent(Landroid/view/MotionEvent;)Z
@@ -492,8 +488,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onDown(Landroid/view/MotionEvent;)Z
@@ -643,8 +637,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -969,6 +961,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public onLongPress(Landroid/view/MotionEvent;)V
@@ -1142,8 +1150,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -1444,6 +1450,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public onShowPress(Landroid/view/MotionEvent;)V
@@ -1594,8 +1616,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onSingleTapConfirmed(Landroid/view/MotionEvent;)Z
@@ -1761,8 +1781,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onSingleTapUp(Landroid/view/MotionEvent;)Z
@@ -1912,6 +1930,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

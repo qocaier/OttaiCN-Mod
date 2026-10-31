@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/entity/pb/group_yellow_tips_t;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -36,9 +36,9 @@
 
 .field private routeTagOff_:Z
 
-.field private tagInfo_:Ljc/a;
+.field private tagInfo_:Ll4/a;
 
-.field private tag_:Ljc/a;
+.field private tag_:Ll4/a;
 
 .field private yellowTips_:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -55,13 +55,13 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tag_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tag_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tagInfo_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tagInfo_:Ll4/a;
 
     sget-object v0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
@@ -80,7 +80,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/entity/pb/group_yellow_tips_t;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/entity/pb/group_yellow_tips_t;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -93,7 +93,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/group_yellow_tips_t;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/group_yellow_tips_t;
+    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/group_yellow_tips_t;
 
     move-result-object p0
 
@@ -113,7 +113,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/group_yellow_tips_t;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -232,9 +232,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->hasTag:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tag_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tag_:Ll4/a;
 
     return-object p0
 .end method
@@ -246,9 +246,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->hasTagInfo:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tagInfo_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tagInfo_:Ll4/a;
 
     return-object p0
 .end method
@@ -345,11 +345,11 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->getTag()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->getTag()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v0
 
@@ -367,11 +367,11 @@
 
     const/4 v2, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->getTagInfo()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->getTagInfo()Ll4/a;
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -401,7 +401,7 @@
 
     const/4 v4, 0x3
 
-    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v3
 
@@ -454,7 +454,7 @@
 
     move-result-wide v3
 
-    invoke-static {v3, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->w(J)I
+    invoke-static {v3, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->m(J)I
 
     move-result v3
 
@@ -480,11 +480,11 @@
     return v0
 .end method
 
-.method public getTag()Ljc/a;
+.method public getTag()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tag_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tag_:Ll4/a;
 
     .line 2
     .line 3
@@ -508,14 +508,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getTagInfo()Ljc/a;
+.method public getTagInfo()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tagInfo_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tagInfo_:Ll4/a;
 
     .line 2
     .line 3
@@ -539,7 +538,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getYellowTips(I)Lcom/baidu/entity/pb/yellow_tips_list_t;
@@ -648,7 +646,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/group_yellow_tips_t;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/group_yellow_tips_t;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -659,7 +657,7 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
@@ -685,7 +683,7 @@
 
     if-eq v0, v1, :cond_1
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -694,7 +692,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-virtual {p1}, Ljc/b;->t()J
+    invoke-virtual {p1}, Ll4/b;->l()J
 
     move-result-wide v0
 
@@ -703,7 +701,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Ljc/b;->k()Z
+    invoke-virtual {p1}, Ll4/b;->g()Z
 
     move-result v0
 
@@ -716,27 +714,27 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/yellow_tips_list_t;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->addYellowTips(Lcom/baidu/entity/pb/yellow_tips_list_t;)Lcom/baidu/entity/pb/group_yellow_tips_t;
 
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->setTagInfo(Ljc/a;)Lcom/baidu/entity/pb/group_yellow_tips_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->setTagInfo(Ll4/a;)Lcom/baidu/entity/pb/group_yellow_tips_t;
 
     goto :goto_0
 
     :cond_5
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->setTag(Ljc/a;)Lcom/baidu/entity/pb/group_yellow_tips_t;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->setTag(Ll4/a;)Lcom/baidu/entity/pb/group_yellow_tips_t;
 
     goto :goto_0
 
@@ -745,7 +743,7 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -754,7 +752,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/group_yellow_tips_t;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/group_yellow_tips_t;
+    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/group_yellow_tips_t;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/group_yellow_tips_t;
 
     move-result-object p1
 
@@ -787,7 +785,7 @@
     return-object p0
 .end method
 
-.method public setTag(Ljc/a;)Lcom/baidu/entity/pb/group_yellow_tips_t;
+.method public setTag(Ll4/a;)Lcom/baidu/entity/pb/group_yellow_tips_t;
     .locals 1
 
     .line 1
@@ -798,7 +796,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tag_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tag_:Ll4/a;
 
     .line 5
     .line 6
@@ -821,10 +819,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setTagInfo(Ljc/a;)Lcom/baidu/entity/pb/group_yellow_tips_t;
+.method public setTagInfo(Ll4/a;)Lcom/baidu/entity/pb/group_yellow_tips_t;
     .locals 1
 
     .line 1
@@ -835,7 +832,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tagInfo_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/group_yellow_tips_t;->tagInfo_:Ll4/a;
 
     .line 5
     .line 6
@@ -858,7 +855,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setYellowTips(ILcom/baidu/entity/pb/yellow_tips_list_t;)Lcom/baidu/entity/pb/group_yellow_tips_t;
@@ -892,11 +888,11 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->getTag()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->getTag()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->hasTagInfo()Z
@@ -907,11 +903,11 @@
 
     const/4 v0, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->getTagInfo()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->getTagInfo()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->getYellowTipsList()Ljava/util/List;
@@ -937,7 +933,7 @@
 
     const/4 v2, 0x3
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_0
 
@@ -954,7 +950,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Z(IZ)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->E(IZ)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/baidu/entity/pb/group_yellow_tips_t;->getEventIdsList()Ljava/util/List;
@@ -984,7 +980,7 @@
 
     const/4 v3, 0x5
 
-    invoke-virtual {p1, v3, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t0(IJ)V
+    invoke-virtual {p1, v3, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->O(IJ)V
 
     goto :goto_1
 

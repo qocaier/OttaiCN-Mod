@@ -19,25 +19,10 @@
 
 # static fields
 .field public static final Companion:Landroidx/core/os/BufferFillPolicy$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final DISCARD:Landroidx/core/os/BufferFillPolicy;
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final RING_BUFFER:Landroidx/core/os/BufferFillPolicy;
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
@@ -56,7 +41,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/core/os/BufferFillPolicy$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/core/os/BufferFillPolicy$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -153,6 +138,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>(I)V
@@ -166,7 +153,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ILkm/v;)V
+.method public synthetic constructor <init>(ILkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -203,4 +190,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

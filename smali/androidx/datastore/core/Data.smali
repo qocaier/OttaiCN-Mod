@@ -40,7 +40,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p3, v0}, Landroidx/datastore/core/State;-><init>(ILkm/v;)V
+    invoke-direct {p0, p3, v0}, Landroidx/datastore/core/State;-><init>(ILkotlin/jvm/internal/f;)V
 
     .line 3
     .line 4
@@ -158,6 +158,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -277,6 +280,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final getHashCode()I
@@ -305,6 +310,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getValue()Ljava/lang/Object;
@@ -338,4 +344,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

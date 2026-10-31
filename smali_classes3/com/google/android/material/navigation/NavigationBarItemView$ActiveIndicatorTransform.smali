@@ -149,11 +149,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public calculateScaleX(FF)F
@@ -240,11 +235,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public calculateScaleY(FF)F
@@ -452,9 +442,4 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method

@@ -316,6 +316,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public disableAutoCancel()Landroidx/camera/core/FocusMeteringAction$Builder;
@@ -348,6 +349,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removePoints(I)Landroidx/camera/core/FocusMeteringAction$Builder;
@@ -467,6 +469,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setAutoCancelDuration(JLjava/util/concurrent/TimeUnit;)Landroidx/camera/core/FocusMeteringAction$Builder;

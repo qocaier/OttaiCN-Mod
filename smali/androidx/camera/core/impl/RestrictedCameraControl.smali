@@ -101,7 +101,7 @@
 
 
 # virtual methods
-.method public cancelFocusAndMetering()Lub/u0;
+.method public cancelFocusAndMetering()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -109,9 +109,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -120,7 +118,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroidx/camera/core/CameraControl;->cancelFocusAndMetering()Lub/u0;
+    invoke-interface {v0}, Landroidx/camera/core/CameraControl;->cancelFocusAndMetering()Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -142,6 +140,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public enableRestrictedOperations(ZLjava/util/Set;)V
@@ -217,7 +216,7 @@
     .line 48
 .end method
 
-.method public enableTorch(Z)Lub/u0;
+.method public enableTorch(Z)Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -225,9 +224,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -268,7 +265,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 20
     .line 21
@@ -284,7 +281,7 @@
 
     .line 25
     .line 26
-    invoke-interface {v0, p1}, Landroidx/camera/core/CameraControl;->enableTorch(Z)Lub/u0;
+    invoke-interface {v0, p1}, Landroidx/camera/core/CameraControl;->enableTorch(Z)Lcom/google/common/util/concurrent/t;
 
     .line 27
     .line 28
@@ -341,6 +338,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getImplementation()Landroidx/camera/core/impl/CameraControlInternal;
@@ -371,6 +369,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getModifiedFocusMeteringAction(Landroidx/camera/core/FocusMeteringAction;)Landroidx/camera/core/FocusMeteringAction;
@@ -764,6 +763,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public varargs isOperationSupported([I)Z
@@ -904,9 +908,10 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public setExposureCompensationIndex(I)Lub/u0;
+.method public setExposureCompensationIndex(I)Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -914,9 +919,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
-            "Lub/u0<",
-            "Ljava/lang/Integer;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -957,7 +960,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 20
     .line 21
@@ -973,7 +976,7 @@
 
     .line 25
     .line 26
-    invoke-interface {v0, p1}, Landroidx/camera/core/CameraControl;->setExposureCompensationIndex(I)Lub/u0;
+    invoke-interface {v0, p1}, Landroidx/camera/core/CameraControl;->setExposureCompensationIndex(I)Lcom/google/common/util/concurrent/t;
 
     .line 27
     .line 28
@@ -1030,9 +1033,10 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public setLinearZoom(F)Lub/u0;
+.method public setLinearZoom(F)Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -1040,9 +1044,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(F)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1083,7 +1085,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 20
     .line 21
@@ -1099,7 +1101,7 @@
 
     .line 25
     .line 26
-    invoke-interface {v0, p1}, Landroidx/camera/core/CameraControl;->setLinearZoom(F)Lub/u0;
+    invoke-interface {v0, p1}, Landroidx/camera/core/CameraControl;->setLinearZoom(F)Lcom/google/common/util/concurrent/t;
 
     .line 27
     .line 28
@@ -1156,9 +1158,10 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public setZoomRatio(F)Lub/u0;
+.method public setZoomRatio(F)Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -1166,9 +1169,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(F)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1209,7 +1210,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 20
     .line 21
@@ -1225,7 +1226,7 @@
 
     .line 25
     .line 26
-    invoke-interface {v0, p1}, Landroidx/camera/core/CameraControl;->setZoomRatio(F)Lub/u0;
+    invoke-interface {v0, p1}, Landroidx/camera/core/CameraControl;->setZoomRatio(F)Lcom/google/common/util/concurrent/t;
 
     .line 27
     .line 28
@@ -1282,9 +1283,10 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public startFocusAndMetering(Landroidx/camera/core/FocusMeteringAction;)Lub/u0;
+.method public startFocusAndMetering(Landroidx/camera/core/FocusMeteringAction;)Lcom/google/common/util/concurrent/t;
     .locals 1
     .param p1    # Landroidx/camera/core/FocusMeteringAction;
         .annotation build Landroidx/annotation/NonNull;
@@ -1298,9 +1300,7 @@
             "(",
             "Landroidx/camera/core/FocusMeteringAction;",
             ")",
-            "Lub/u0<",
-            "Landroidx/camera/core/FocusMeteringResult;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1330,7 +1330,7 @@
     .line 12
     .line 13
     .line 14
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 15
     .line 16
@@ -1346,7 +1346,7 @@
 
     .line 20
     .line 21
-    invoke-interface {v0, p1}, Landroidx/camera/core/CameraControl;->startFocusAndMetering(Landroidx/camera/core/FocusMeteringAction;)Lub/u0;
+    invoke-interface {v0, p1}, Landroidx/camera/core/CameraControl;->startFocusAndMetering(Landroidx/camera/core/FocusMeteringAction;)Lcom/google/common/util/concurrent/t;
 
     .line 22
     .line 23

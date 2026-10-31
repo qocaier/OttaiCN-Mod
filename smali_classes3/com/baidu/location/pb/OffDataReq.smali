@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/location/pb/OffDataReq;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -18,13 +18,13 @@
 
 
 # instance fields
-.field private ak_:Ljc/a;
+.field private ak_:Ll4/a;
 
 .field private cachedSize:I
 
-.field private clientInfo_:Ljc/a;
+.field private clientInfo_:Ll4/a;
 
-.field private cu_:Ljc/a;
+.field private cu_:Ll4/a;
 
 .field private gk_:Lcom/baidu/location/pb/GridKey;
 
@@ -40,32 +40,32 @@
 
 .field private hasVkey:Z
 
-.field private sn_:Ljc/a;
+.field private sn_:Ll4/a;
 
-.field private vkey_:Ljc/a;
+.field private vkey_:Ll4/a;
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->cu_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->cu_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->ak_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->ak_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->sn_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->sn_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->vkey_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->vkey_:Ll4/a;
 
     const/4 v1, 0x0
 
     iput-object v1, p0, Lcom/baidu/location/pb/OffDataReq;->gk_:Lcom/baidu/location/pb/GridKey;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->clientInfo_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->clientInfo_:Ll4/a;
 
     const/4 v0, -0x1
 
@@ -74,7 +74,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/location/pb/OffDataReq;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/location/pb/OffDataReq;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -87,7 +87,7 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/OffDataReq;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/location/pb/OffDataReq;->mergeFrom(Ljc/b;)Lcom/baidu/location/pb/OffDataReq;
+    invoke-virtual {v0, p0}, Lcom/baidu/location/pb/OffDataReq;->mergeFrom(Ll4/b;)Lcom/baidu/location/pb/OffDataReq;
 
     move-result-object p0
 
@@ -107,7 +107,7 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/OffDataReq;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -147,9 +147,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/location/pb/OffDataReq;->hasAk:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->ak_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->ak_:Ll4/a;
 
     return-object p0
 .end method
@@ -161,9 +161,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/location/pb/OffDataReq;->hasClientInfo:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->clientInfo_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->clientInfo_:Ll4/a;
 
     return-object p0
 .end method
@@ -175,9 +175,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/location/pb/OffDataReq;->hasCu:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->cu_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->cu_:Ll4/a;
 
     return-object p0
 .end method
@@ -203,9 +203,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/location/pb/OffDataReq;->hasSn:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->sn_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->sn_:Ll4/a;
 
     return-object p0
 .end method
@@ -217,18 +217,18 @@
 
     iput-boolean v0, p0, Lcom/baidu/location/pb/OffDataReq;->hasVkey:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->vkey_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->vkey_:Ll4/a;
 
     return-object p0
 .end method
 
-.method public getAk()Ljc/a;
+.method public getAk()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->ak_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->ak_:Ll4/a;
 
     .line 2
     .line 3
@@ -252,7 +252,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCachedSize()I
@@ -270,11 +269,11 @@
     return v0
 .end method
 
-.method public getClientInfo()Ljc/a;
+.method public getClientInfo()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->clientInfo_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->clientInfo_:Ll4/a;
 
     .line 2
     .line 3
@@ -298,14 +297,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getCu()Ljc/a;
+.method public getCu()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->cu_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->cu_:Ll4/a;
 
     .line 2
     .line 3
@@ -329,7 +327,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getGk()Lcom/baidu/location/pb/GridKey;
@@ -351,11 +348,11 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getCu()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getCu()Ll4/a;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v0
 
@@ -373,11 +370,11 @@
 
     const/4 v1, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getAk()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getAk()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -392,11 +389,11 @@
 
     const/4 v1, 0x3
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getSn()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getSn()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -411,11 +408,11 @@
 
     const/4 v1, 0x4
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getVkey()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getVkey()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -434,7 +431,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v1
 
@@ -449,11 +446,11 @@
 
     const/4 v1, 0x6
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getClientInfo()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getClientInfo()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -465,11 +462,11 @@
     return v0
 .end method
 
-.method public getSn()Ljc/a;
+.method public getSn()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->sn_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->sn_:Ll4/a;
 
     .line 2
     .line 3
@@ -493,14 +490,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getVkey()Ljc/a;
+.method public getVkey()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->vkey_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/location/pb/OffDataReq;->vkey_:Ll4/a;
 
     .line 2
     .line 3
@@ -524,7 +520,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hasAk()Z
@@ -583,7 +578,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/location/pb/OffDataReq;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/location/pb/OffDataReq;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -594,7 +589,7 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
@@ -624,7 +619,7 @@
 
     if-eq v0, v1, :cond_1
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -633,11 +628,11 @@
     goto :goto_1
 
     :cond_1
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffDataReq;->setClientInfo(Ljc/a;)Lcom/baidu/location/pb/OffDataReq;
+    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffDataReq;->setClientInfo(Ll4/a;)Lcom/baidu/location/pb/OffDataReq;
 
     goto :goto_0
 
@@ -646,45 +641,45 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/GridKey;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffDataReq;->setGk(Lcom/baidu/location/pb/GridKey;)Lcom/baidu/location/pb/OffDataReq;
 
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffDataReq;->setVkey(Ljc/a;)Lcom/baidu/location/pb/OffDataReq;
+    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffDataReq;->setVkey(Ll4/a;)Lcom/baidu/location/pb/OffDataReq;
 
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffDataReq;->setSn(Ljc/a;)Lcom/baidu/location/pb/OffDataReq;
+    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffDataReq;->setSn(Ll4/a;)Lcom/baidu/location/pb/OffDataReq;
 
     goto :goto_0
 
     :cond_5
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffDataReq;->setAk(Ljc/a;)Lcom/baidu/location/pb/OffDataReq;
+    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffDataReq;->setAk(Ll4/a;)Lcom/baidu/location/pb/OffDataReq;
 
     goto :goto_0
 
     :cond_6
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffDataReq;->setCu(Ljc/a;)Lcom/baidu/location/pb/OffDataReq;
+    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffDataReq;->setCu(Ll4/a;)Lcom/baidu/location/pb/OffDataReq;
 
     goto :goto_0
 
@@ -693,7 +688,7 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -702,14 +697,14 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/location/pb/OffDataReq;->mergeFrom(Ljc/b;)Lcom/baidu/location/pb/OffDataReq;
+    invoke-virtual {p0, p1}, Lcom/baidu/location/pb/OffDataReq;->mergeFrom(Ll4/b;)Lcom/baidu/location/pb/OffDataReq;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public setAk(Ljc/a;)Lcom/baidu/location/pb/OffDataReq;
+.method public setAk(Ll4/a;)Lcom/baidu/location/pb/OffDataReq;
     .locals 1
 
     .line 1
@@ -720,7 +715,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/location/pb/OffDataReq;->ak_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/location/pb/OffDataReq;->ak_:Ll4/a;
 
     .line 5
     .line 6
@@ -743,10 +738,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setClientInfo(Ljc/a;)Lcom/baidu/location/pb/OffDataReq;
+.method public setClientInfo(Ll4/a;)Lcom/baidu/location/pb/OffDataReq;
     .locals 1
 
     .line 1
@@ -757,7 +751,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/location/pb/OffDataReq;->clientInfo_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/location/pb/OffDataReq;->clientInfo_:Ll4/a;
 
     .line 5
     .line 6
@@ -780,10 +774,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setCu(Ljc/a;)Lcom/baidu/location/pb/OffDataReq;
+.method public setCu(Ll4/a;)Lcom/baidu/location/pb/OffDataReq;
     .locals 1
 
     .line 1
@@ -794,7 +787,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/location/pb/OffDataReq;->cu_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/location/pb/OffDataReq;->cu_:Ll4/a;
 
     .line 5
     .line 6
@@ -817,7 +810,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGk(Lcom/baidu/location/pb/GridKey;)Lcom/baidu/location/pb/OffDataReq;
@@ -841,7 +833,7 @@
     return-object p0
 .end method
 
-.method public setSn(Ljc/a;)Lcom/baidu/location/pb/OffDataReq;
+.method public setSn(Ll4/a;)Lcom/baidu/location/pb/OffDataReq;
     .locals 1
 
     .line 1
@@ -852,7 +844,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/location/pb/OffDataReq;->sn_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/location/pb/OffDataReq;->sn_:Ll4/a;
 
     .line 5
     .line 6
@@ -875,10 +867,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setVkey(Ljc/a;)Lcom/baidu/location/pb/OffDataReq;
+.method public setVkey(Ll4/a;)Lcom/baidu/location/pb/OffDataReq;
     .locals 1
 
     .line 1
@@ -889,7 +880,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/location/pb/OffDataReq;->vkey_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/location/pb/OffDataReq;->vkey_:Ll4/a;
 
     .line 5
     .line 6
@@ -912,7 +903,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeTo(Lcom/google/protobuf/micro/CodedOutputStreamMicro;)V
@@ -931,11 +921,11 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getCu()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getCu()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->hasAk()Z
@@ -946,11 +936,11 @@
 
     const/4 v0, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getAk()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getAk()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->hasSn()Z
@@ -961,11 +951,11 @@
 
     const/4 v0, 0x3
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getSn()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getSn()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->hasVkey()Z
@@ -976,11 +966,11 @@
 
     const/4 v0, 0x4
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getVkey()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getVkey()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->hasGk()Z
@@ -995,7 +985,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_4
     invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->hasClientInfo()Z
@@ -1006,11 +996,11 @@
 
     const/4 v0, 0x6
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getClientInfo()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffDataReq;->getClientInfo()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_5
     return-void

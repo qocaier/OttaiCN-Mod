@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Ljava/lang/Class<",
-        "*>;>;"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -55,9 +53,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 2
     iget-object v0, p0, Landroidx/window/SafeWindowExtensionsProvider$isWindowExtensionsPresent$1;->this$0:Landroidx/window/SafeWindowExtensionsProvider;
 
@@ -73,7 +68,7 @@
 
     const-string v1, "loader.loadClass(WindowE\u2026XTENSIONS_PROVIDER_CLASS)"
 
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method

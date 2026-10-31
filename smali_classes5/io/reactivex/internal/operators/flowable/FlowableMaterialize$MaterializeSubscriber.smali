@@ -4,15 +4,6 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lio/reactivex/internal/operators/flowable/FlowableMaterialize;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "MaterializeSubscriber"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T:",
@@ -20,8 +11,8 @@
         ">",
         "Lio/reactivex/internal/subscribers/SinglePostCompleteSubscriber<",
         "TT;",
-        "Ldk/y<",
-        "TT;>;>;"
+        "Lb8/k;",
+        ">;"
     }
 .end annotation
 
@@ -31,20 +22,18 @@
 
 
 # direct methods
-.method public constructor <init>(Luq/d;)V
+.method public constructor <init>(Laa/c;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Luq/d<",
-            "-",
-            "Ldk/y<",
-            "TT;>;>;)V"
+            "Laa/c;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Lio/reactivex/internal/subscribers/SinglePostCompleteSubscriber;-><init>(Luq/d;)V
+    invoke-direct {p0, p1}, Lio/reactivex/internal/subscribers/SinglePostCompleteSubscriber;-><init>(Laa/c;)V
 
     .line 2
     .line 3
@@ -70,6 +59,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 
@@ -78,7 +100,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Ldk/y;->a()Ldk/y;
+    invoke-static {}, Lb8/k;->a()Lb8/k;
 
     .line 2
     .line 3
@@ -107,31 +129,58 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public onDrop(Ldk/y;)V
+.method public onDrop(Lb8/k;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ldk/y<",
-            "TT;>;)V"
+            "Lb8/k;",
+            ")V"
         }
     .end annotation
 
     .line 2
-    invoke-virtual {p1}, Ldk/y;->g()Z
+    invoke-virtual {p1}, Lb8/k;->e()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 3
-    invoke-virtual {p1}, Ldk/y;->d()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Lb8/k;->d()Ljava/lang/Throwable;
 
     move-result-object p1
 
-    invoke-static {p1}, Lbl/a;->Y(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lh8/a;->e(Ljava/lang/Throwable;)V
 
     :cond_0
     return-void
@@ -141,9 +190,9 @@
     .locals 0
 
     .line 1
-    check-cast p1, Ldk/y;
+    check-cast p1, Lb8/k;
 
-    invoke-virtual {p0, p1}, Lio/reactivex/internal/operators/flowable/FlowableMaterialize$MaterializeSubscriber;->onDrop(Ldk/y;)V
+    invoke-virtual {p0, p1}, Lio/reactivex/internal/operators/flowable/FlowableMaterialize$MaterializeSubscriber;->onDrop(Lb8/k;)V
 
     return-void
 .end method
@@ -152,7 +201,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, Ldk/y;->b(Ljava/lang/Throwable;)Ldk/y;
+    invoke-static {p1}, Lb8/k;->b(Ljava/lang/Throwable;)Lb8/k;
 
     .line 2
     .line 3
@@ -182,6 +231,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public onNext(Ljava/lang/Object;)V
@@ -208,11 +290,11 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lio/reactivex/internal/subscribers/SinglePostCompleteSubscriber;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/subscribers/SinglePostCompleteSubscriber;->downstream:Laa/c;
 
     .line 9
     .line 10
-    invoke-static {p1}, Ldk/y;->c(Ljava/lang/Object;)Ldk/y;
+    invoke-static {p1}, Lb8/k;->c(Ljava/lang/Object;)Lb8/k;
 
     .line 11
     .line 12
@@ -220,7 +302,7 @@
     move-result-object p1
 
     .line 14
-    invoke-interface {v0, p1}, Luq/d;->onNext(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Laa/c;->onNext(Ljava/lang/Object;)V
 
     .line 15
     .line 16
@@ -233,4 +315,37 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method

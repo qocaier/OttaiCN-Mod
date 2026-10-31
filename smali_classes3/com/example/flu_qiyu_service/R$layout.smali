@@ -3,19 +3,10 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/example/flu_qiyu_service/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "layout"
-.end annotation
-
-
 # static fields
-.field public static custom_dialog_layout:I = 0x7f0b0029
+.field public static activity_qiyu_nofification_placeholder:I = 0x7f0b0020
+
+.field public static custom_dialog_layout:I = 0x7f0b002a
 
 
 # direct methods

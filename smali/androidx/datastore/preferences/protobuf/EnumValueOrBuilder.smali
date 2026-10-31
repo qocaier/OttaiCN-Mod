@@ -17,14 +17,6 @@
 .end method
 
 .method public abstract getOptions(I)Landroidx/datastore/preferences/protobuf/Option;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getOptionsCount()I

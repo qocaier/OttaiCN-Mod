@@ -152,6 +152,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>(Ljava/lang/String;II)V
@@ -280,6 +282,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static valueOf(I)Lanet/channel/entity/ENV;
@@ -358,6 +363,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -388,6 +394,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setEnvMode(I)V

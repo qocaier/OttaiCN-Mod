@@ -73,21 +73,21 @@
     iput-object p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mContext:Landroid/content/Context;
 
     .line 40
-    invoke-static {p2}, Lr0/t;->a(Landroid/content/pm/ShortcutInfo;)Ljava/lang/String;
+    invoke-static {p2}, Landroidx/core/content/pm/t;->a(Landroid/content/pm/ShortcutInfo;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mId:Ljava/lang/String;
 
     .line 41
-    invoke-static {p2}, Lr0/u;->a(Landroid/content/pm/ShortcutInfo;)Ljava/lang/String;
+    invoke-static {p2}, Landroidx/core/content/pm/u;->a(Landroid/content/pm/ShortcutInfo;)Ljava/lang/String;
 
     move-result-object p1
 
     iput-object p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mPackageName:Ljava/lang/String;
 
     .line 42
-    invoke-static {p2}, Lr0/w;->a(Landroid/content/pm/ShortcutInfo;)[Landroid/content/Intent;
+    invoke-static {p2}, Landroidx/core/content/pm/w;->a(Landroid/content/pm/ShortcutInfo;)[Landroid/content/Intent;
 
     move-result-object p1
 
@@ -103,28 +103,28 @@
     iput-object p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mIntents:[Landroid/content/Intent;
 
     .line 44
-    invoke-static {p2}, Lr0/x;->a(Landroid/content/pm/ShortcutInfo;)Landroid/content/ComponentName;
+    invoke-static {p2}, Landroidx/core/content/pm/x;->a(Landroid/content/pm/ShortcutInfo;)Landroid/content/ComponentName;
 
     move-result-object p1
 
     iput-object p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mActivity:Landroid/content/ComponentName;
 
     .line 45
-    invoke-static {p2}, Lr0/y;->a(Landroid/content/pm/ShortcutInfo;)Ljava/lang/CharSequence;
+    invoke-static {p2}, Landroidx/core/content/pm/y;->a(Landroid/content/pm/ShortcutInfo;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
     iput-object p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mLabel:Ljava/lang/CharSequence;
 
     .line 46
-    invoke-static {p2}, Lr0/z;->a(Landroid/content/pm/ShortcutInfo;)Ljava/lang/CharSequence;
+    invoke-static {p2}, Landroidx/core/content/pm/z;->a(Landroid/content/pm/ShortcutInfo;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
     iput-object p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mLongLabel:Ljava/lang/CharSequence;
 
     .line 47
-    invoke-static {p2}, Lr0/a0;->a(Landroid/content/pm/ShortcutInfo;)Ljava/lang/CharSequence;
+    invoke-static {p2}, Landroidx/core/content/pm/a0;->a(Landroid/content/pm/ShortcutInfo;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -138,7 +138,7 @@
     if-lt p1, v1, :cond_0
 
     .line 49
-    invoke-static {p2}, Lr0/b0;->a(Landroid/content/pm/ShortcutInfo;)I
+    invoke-static {p2}, Landroidx/core/content/pm/b0;->a(Landroid/content/pm/ShortcutInfo;)I
 
     move-result v1
 
@@ -148,7 +148,7 @@
 
     .line 50
     :cond_0
-    invoke-static {p2}, Lr0/k0;->a(Landroid/content/pm/ShortcutInfo;)Z
+    invoke-static {p2}, Landroidx/core/content/pm/k0;->a(Landroid/content/pm/ShortcutInfo;)Z
 
     move-result v1
 
@@ -167,14 +167,14 @@
 
     .line 52
     :goto_1
-    invoke-static {p2}, Lr0/c0;->a(Landroid/content/pm/ShortcutInfo;)Ljava/util/Set;
+    invoke-static {p2}, Landroidx/core/content/pm/c0;->a(Landroid/content/pm/ShortcutInfo;)Ljava/util/Set;
 
     move-result-object v1
 
     iput-object v1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mCategories:Ljava/util/Set;
 
     .line 53
-    invoke-static {p2}, Lr0/h;->a(Landroid/content/pm/ShortcutInfo;)Landroid/os/PersistableBundle;
+    invoke-static {p2}, Landroidx/core/content/pm/h;->a(Landroid/content/pm/ShortcutInfo;)Landroid/os/PersistableBundle;
 
     move-result-object v1
 
@@ -185,14 +185,14 @@
     iput-object v1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mPersons:[Landroidx/core/app/Person;
 
     .line 54
-    invoke-static {p2}, Lr0/d0;->a(Landroid/content/pm/ShortcutInfo;)Landroid/os/UserHandle;
+    invoke-static {p2}, Landroidx/core/content/pm/d0;->a(Landroid/content/pm/ShortcutInfo;)Landroid/os/UserHandle;
 
     move-result-object v1
 
     iput-object v1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mUser:Landroid/os/UserHandle;
 
     .line 55
-    invoke-static {p2}, Lr0/e0;->a(Landroid/content/pm/ShortcutInfo;)J
+    invoke-static {p2}, Landroidx/core/content/pm/e0;->a(Landroid/content/pm/ShortcutInfo;)J
 
     move-result-wide v1
 
@@ -203,7 +203,7 @@
     if-lt p1, v1, :cond_2
 
     .line 56
-    invoke-static {p2}, Lr0/f0;->a(Landroid/content/pm/ShortcutInfo;)Z
+    invoke-static {p2}, Landroidx/core/content/pm/f0;->a(Landroid/content/pm/ShortcutInfo;)Z
 
     move-result p1
 
@@ -211,42 +211,42 @@
 
     .line 57
     :cond_2
-    invoke-static {p2}, Lr0/g0;->a(Landroid/content/pm/ShortcutInfo;)Z
+    invoke-static {p2}, Landroidx/core/content/pm/g0;->a(Landroid/content/pm/ShortcutInfo;)Z
 
     move-result p1
 
     iput-boolean p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mIsDynamic:Z
 
     .line 58
-    invoke-static {p2}, Lr0/h0;->a(Landroid/content/pm/ShortcutInfo;)Z
+    invoke-static {p2}, Landroidx/core/content/pm/h0;->a(Landroid/content/pm/ShortcutInfo;)Z
 
     move-result p1
 
     iput-boolean p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mIsPinned:Z
 
     .line 59
-    invoke-static {p2}, Lr0/i0;->a(Landroid/content/pm/ShortcutInfo;)Z
+    invoke-static {p2}, Landroidx/core/content/pm/i0;->a(Landroid/content/pm/ShortcutInfo;)Z
 
     move-result p1
 
     iput-boolean p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mIsDeclaredInManifest:Z
 
     .line 60
-    invoke-static {p2}, Lr0/j0;->a(Landroid/content/pm/ShortcutInfo;)Z
+    invoke-static {p2}, Landroidx/core/content/pm/j0;->a(Landroid/content/pm/ShortcutInfo;)Z
 
     move-result p1
 
     iput-boolean p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mIsImmutable:Z
 
     .line 61
-    invoke-static {p2}, Lr0/k0;->a(Landroid/content/pm/ShortcutInfo;)Z
+    invoke-static {p2}, Landroidx/core/content/pm/k0;->a(Landroid/content/pm/ShortcutInfo;)Z
 
     move-result p1
 
     iput-boolean p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mIsEnabled:Z
 
     .line 62
-    invoke-static {p2}, Lr0/l0;->a(Landroid/content/pm/ShortcutInfo;)Z
+    invoke-static {p2}, Landroidx/core/content/pm/l0;->a(Landroid/content/pm/ShortcutInfo;)Z
 
     move-result p1
 
@@ -260,14 +260,14 @@
     iput-object p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mLocusId:Landroidx/core/content/LocusIdCompat;
 
     .line 64
-    invoke-static {p2}, Lr0/v;->a(Landroid/content/pm/ShortcutInfo;)I
+    invoke-static {p2}, Landroidx/core/content/pm/v;->a(Landroid/content/pm/ShortcutInfo;)I
 
     move-result p1
 
     iput p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mRank:I
 
     .line 65
-    invoke-static {p2}, Lr0/h;->a(Landroid/content/pm/ShortcutInfo;)Landroid/os/PersistableBundle;
+    invoke-static {p2}, Landroidx/core/content/pm/h;->a(Landroid/content/pm/ShortcutInfo;)Landroid/os/PersistableBundle;
 
     move-result-object p1
 
@@ -1236,6 +1236,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public setActivity(Landroid/content/ComponentName;)Landroidx/core/content/pm/ShortcutInfoCompat$Builder;
@@ -1303,6 +1355,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setCategories(Ljava/util/Set;)Landroidx/core/content/pm/ShortcutInfoCompat$Builder;
@@ -1597,6 +1650,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setLocusId(Landroidx/core/content/LocusIdCompat;)Landroidx/core/content/pm/ShortcutInfoCompat$Builder;

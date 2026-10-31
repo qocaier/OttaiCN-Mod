@@ -68,6 +68,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -110,6 +112,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setListener(Lcom/qiyukf/unicorn/widget/dialog/UnicornDialog$OnClickListener;)Lcom/qiyukf/unicorn/widget/dialog/DialogBase;
@@ -150,6 +154,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMessage(Ljava/lang/CharSequence;)Lcom/qiyukf/unicorn/widget/dialog/DialogBase;
@@ -214,6 +220,8 @@
     .line 24
     .line 25
     return-object p0
+    .line 26
+    .line 27
 .end method
 
 .method public setTitle(Ljava/lang/CharSequence;)Lcom/qiyukf/unicorn/widget/dialog/DialogBase;
@@ -278,6 +286,8 @@
     .line 24
     .line 25
     return-object p0
+    .line 26
+    .line 27
 .end method
 
 .method public show()V
@@ -308,4 +318,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

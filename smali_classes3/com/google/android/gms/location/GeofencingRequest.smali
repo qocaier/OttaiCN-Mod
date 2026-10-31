@@ -3,26 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "GeofencingRequestCreator"
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$g;
-    value = {
-        0x3,
-        0x3e8
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/location/GeofencingRequest$a;,
-        Lcom/google/android/gms/location/GeofencingRequest$b;
-    }
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
@@ -37,49 +17,22 @@
     .end annotation
 .end field
 
-.field public static final d:I = 0x1
-
-.field public static final e:I = 0x2
-
-.field public static final f:I = 0x4
-
 
 # instance fields
 .field public final a:Ljava/util/List;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getParcelableGeofences"
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getInitialTrigger"
-        id = 0x2
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/location/GeofencingRequest$b;
-    .end annotation
-.end field
 
 .field public final c:Ljava/lang/String;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getAttributionTag"
-        id = 0x4
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lda/c1;
+    new-instance v0, Lj3/l0;
 
-    invoke-direct {v0}, Lda/c1;-><init>()V
+    invoke-direct {v0}, Lj3/l0;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/location/GeofencingRequest;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -88,29 +41,6 @@
 
 .method public constructor <init>(Ljava/util/List;ILjava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/util/List;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/location/GeofencingRequest$b;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x4
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -268,65 +198,12 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
 # virtual methods
-.method public s()Ljava/util/List;
-    .locals 2
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lda/h;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    new-instance v0, Ljava/util/ArrayList;
-
-    .line 2
-    .line 3
-    iget-object v1, p0, Lcom/google/android/gms/location/GeofencingRequest;->a:Ljava/util/List;
-
-    .line 4
-    .line 5
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-object v0
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public t()I
+.method public d()I
     .locals 1
-    .annotation build Lcom/google/android/gms/location/GeofencingRequest$b;
-    .end annotation
 
     .line 1
     iget v0, p0, Lcom/google/android/gms/location/GeofencingRequest;->b:I
@@ -336,8 +213,6 @@
 
 .method public toString()Ljava/lang/String;
     .locals 4
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/android/gms/location/GeofencingRequest;->a:Ljava/util/List;
@@ -490,30 +365,17 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
     iget-object p2, p0, Lcom/google/android/gms/location/GeofencingRequest;->a:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 4
     .line 5
@@ -527,7 +389,7 @@
     const/4 v2, 0x0
 
     .line 9
-    invoke-static {p1, v1, p2, v2}, Lj9/a;->d0(Landroid/os/Parcel;ILjava/util/List;Z)V
+    invoke-static {p1, v1, p2, v2}, Lu2/a;->u(Landroid/os/Parcel;ILjava/util/List;Z)V
 
     .line 10
     .line 11
@@ -535,7 +397,7 @@
     const/4 p2, 0x2
 
     .line 13
-    invoke-virtual {p0}, Lcom/google/android/gms/location/GeofencingRequest;->t()I
+    invoke-virtual {p0}, Lcom/google/android/gms/location/GeofencingRequest;->d()I
 
     .line 14
     .line 15
@@ -543,7 +405,7 @@
     move-result v1
 
     .line 17
-    invoke-static {p1, p2, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, p2, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 18
     .line 19
@@ -555,12 +417,12 @@
 
     .line 22
     .line 23
-    invoke-static {p1, p2, v1, v2}, Lj9/a;->Y(Landroid/os/Parcel;ILjava/lang/String;Z)V
+    invoke-static {p1, p2, v1, v2}, Lu2/a;->q(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
     .line 24
     .line 25
     .line 26
-    invoke-static {p1, v0}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 27
     .line 28
@@ -597,9 +459,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

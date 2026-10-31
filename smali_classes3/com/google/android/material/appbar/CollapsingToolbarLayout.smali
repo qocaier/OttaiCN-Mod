@@ -140,7 +140,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -854,8 +853,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private convertEllipsizeToTruncateAt(I)Landroid/text/TextUtils$TruncateAt;
@@ -913,7 +910,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private disableLiftOnScrollIfNeeded(Lcom/google/android/material/appbar/AppBarLayout;)V
@@ -955,7 +951,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private ensureToolbar()V
@@ -1143,15 +1138,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private findDirectChild(Landroid/view/View;)Landroid/view/View;
@@ -1213,7 +1199,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static getHeightWithMargins(Landroid/view/View;)I
@@ -1344,8 +1329,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private static getToolbarTitle(Landroid/view/View;)Ljava/lang/CharSequence;
@@ -1404,7 +1387,6 @@
 
     .line 24
     return-object p0
-    .line 25
 .end method
 
 .method public static getViewOffsetHelper(Landroid/view/View;)Lcom/google/android/material/appbar/ViewOffsetHelper;
@@ -1460,7 +1442,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private isTitleCollapseFadeMode()Z
@@ -1500,7 +1481,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static isToolbar(Landroid/view/View;)Z
@@ -1550,7 +1530,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private isToolbarChild(Landroid/view/View;)Z
@@ -1610,7 +1589,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private updateCollapsedBounds(Z)V
@@ -2150,6 +2128,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private updateContentDescriptionFromTitle()V
@@ -2184,7 +2194,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private updateContentScrimBounds(Landroid/graphics/drawable/Drawable;II)V
@@ -2407,15 +2416,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private updateTextBounds(IIIIZ)V
@@ -3602,15 +3602,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -3645,7 +3636,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public draw(Landroid/graphics/Canvas;)V
@@ -4221,6 +4211,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public drawChild(Landroid/graphics/Canvas;Landroid/view/View;J)Z
@@ -4441,11 +4463,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public drawableStateChanged()V
@@ -4611,15 +4628,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public bridge synthetic generateDefaultLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -4737,7 +4745,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCollapsedTitleTextSize()F
@@ -4772,7 +4779,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCollapsedTitleTypeface()Landroid/graphics/Typeface;
@@ -4809,7 +4815,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContentScrim()Landroid/graphics/drawable/Drawable;
@@ -4842,7 +4847,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTitleGravity()I
@@ -4877,7 +4881,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTitleMarginBottom()I
@@ -4908,7 +4911,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTitleMarginEnd()I
@@ -4939,7 +4941,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTitleMarginStart()I
@@ -4970,7 +4971,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTitleMarginTop()I
@@ -5001,7 +5001,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTitleTextSize()F
@@ -5036,7 +5035,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTitleTypeface()Landroid/graphics/Typeface;
@@ -5073,7 +5071,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHyphenationFrequency()I
@@ -5117,7 +5114,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLineCount()I
@@ -5157,7 +5153,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLineSpacingAdd()F
@@ -5201,7 +5196,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLineSpacingMultiplier()F
@@ -5245,7 +5239,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMaxLines()I
@@ -5285,7 +5278,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getMaxOffsetForPinChild(Landroid/view/View;)I
@@ -5417,8 +5409,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public getScrimAlpha()I
@@ -5449,7 +5439,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScrimAnimationDuration()J
@@ -5480,7 +5469,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScrimVisibleHeightTrigger()I
@@ -5643,15 +5631,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getStatusBarScrim()Landroid/graphics/drawable/Drawable;
@@ -5684,7 +5663,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTitle()Ljava/lang/CharSequence;
@@ -5730,7 +5708,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTitleCollapseMode()I
@@ -5761,7 +5738,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTitlePositionInterpolator()Landroid/animation/TimeInterpolator;
@@ -5798,7 +5774,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTitleTextEllipsize()Landroid/text/TextUtils$TruncateAt;
@@ -5835,7 +5810,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isExtraMultilineHeightEnabled()Z
@@ -5871,7 +5845,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isForceApplySystemWindowInsetTop()Z
@@ -5907,7 +5880,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isRtlTextDirectionHeuristicsEnabled()Z
@@ -5947,7 +5919,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isTitleEnabled()Z
@@ -5978,7 +5949,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAttachedToWindow()V
@@ -6123,15 +6093,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -6172,7 +6133,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onDetachedFromWindow()V
@@ -6220,7 +6180,6 @@
     .line 21
     return-void
     .line 22
-    .line 23
 .end method
 
 .method public onLayout(ZIIII)V
@@ -7776,54 +7735,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public onSizeChanged(IIII)V
@@ -8081,6 +7992,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public onWindowInsetChanged(Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
@@ -8213,8 +8140,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setCollapsedTitleGravity(I)V
@@ -8249,7 +8174,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCollapsedTitleTextAppearance(I)V
@@ -8288,7 +8212,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCollapsedTitleTextColor(I)V
@@ -8355,7 +8278,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCollapsedTitleTypeface(Landroid/graphics/Typeface;)V
@@ -8394,7 +8316,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setContentScrim(Landroid/graphics/drawable/Drawable;)V
@@ -8542,8 +8463,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setContentScrimColor(I)V
@@ -8584,7 +8503,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setContentScrimResource(I)V
@@ -8629,7 +8547,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTitleColor(I)V
@@ -8670,7 +8587,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTitleGravity(I)V
@@ -8705,7 +8621,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTitleMargin(IIII)V
@@ -8964,6 +8879,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public setExpandedTitleMarginBottom(I)V
@@ -8998,7 +8929,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTitleMarginEnd(I)V
@@ -9033,7 +8963,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTitleMarginStart(I)V
@@ -9068,7 +8997,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTitleMarginTop(I)V
@@ -9103,7 +9031,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTitleTextAppearance(I)V
@@ -9142,7 +9069,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTitleTextColor(Landroid/content/res/ColorStateList;)V
@@ -9181,7 +9107,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTitleTextSize(F)V
@@ -9216,7 +9141,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTitleTypeface(Landroid/graphics/Typeface;)V
@@ -9255,7 +9179,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExtraMultilineHeightEnabled(Z)V
@@ -9293,7 +9216,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setForceApplySystemWindowInsetTop(Z)V
@@ -9331,7 +9253,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHyphenationFrequency(I)V
@@ -9375,7 +9296,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLineSpacingAdd(F)V
@@ -9419,7 +9339,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLineSpacingMultiplier(F)V
@@ -9468,7 +9387,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMaxLines(I)V
@@ -9508,7 +9426,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRtlTextDirectionHeuristicsEnabled(Z)V
@@ -9548,7 +9465,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScrimAlpha(I)V
@@ -9599,7 +9515,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScrimAnimationDuration(J)V
@@ -9637,7 +9552,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScrimVisibleHeightTrigger(I)V
@@ -9682,7 +9596,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScrimsShown(Z)V
@@ -9800,7 +9713,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStatusBarScrim(Landroid/graphics/drawable/Drawable;)V
@@ -9981,8 +9893,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setStatusBarScrimColor(I)V
@@ -10023,7 +9933,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStatusBarScrimResource(I)V
@@ -10068,7 +9977,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTitle(Ljava/lang/CharSequence;)V
@@ -10109,7 +10017,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTitleCollapseMode(I)V
@@ -10255,8 +10162,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setTitleEllipsize(Landroid/text/TextUtils$TruncateAt;)V
@@ -10295,7 +10200,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTitleEnabled(Z)V
@@ -10339,7 +10243,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTitlePositionInterpolator(Landroid/animation/TimeInterpolator;)V
@@ -10378,7 +10281,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVisibility(I)V
@@ -10520,8 +10422,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public final updateScrimVisibility()V
@@ -10667,15 +10567,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public verifyDrawable(Landroid/graphics/drawable/Drawable;)Z
@@ -10735,5 +10626,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

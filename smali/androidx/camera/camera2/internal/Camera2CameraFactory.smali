@@ -238,6 +238,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private getBackwardCompatibleCameraIds(Ljava/util/List;)Ljava/util/List;
@@ -585,6 +588,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private isBackwardCompatible(Ljava/lang/String;)Z
@@ -746,6 +754,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -791,6 +800,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCamera(Ljava/lang/String;)Landroidx/camera/core/impl/CameraInternal;
@@ -934,6 +944,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getCameraCoordinator()Landroidx/camera/core/concurrent/CameraCoordinator;
@@ -964,6 +975,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraInfo(Ljava/lang/String;)Landroidx/camera/camera2/internal/Camera2CameraInfoImpl;
@@ -1095,6 +1107,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getCameraManager()Landroidx/camera/camera2/internal/compat/CameraManagerCompat;

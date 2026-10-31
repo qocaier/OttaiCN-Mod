@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljn/f;
+.implements Lkotlinx/coroutines/flow/d;
 
 
 # annotations
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Ljn/f;"
+        "Lkotlinx/coroutines/flow/d;"
     }
 .end annotation
 
@@ -58,42 +58,29 @@
 
 
 # virtual methods
-.method public bridge synthetic emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public bridge synthetic emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    check-cast p1, Ljl/e2;
+    check-cast p1, Lkotlin/j;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl$incrementCollector$2$1$1;->emit(Ljl/e2;Lul/c;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl$incrementCollector$2$1$1;->emit(Lkotlin/j;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final emit(Ljl/e2;Lul/c;)Ljava/lang/Object;
+.method public final emit(Lkotlin/j;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljl/e2;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljl/e2;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/j;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 2
@@ -117,11 +104,11 @@
 
     const/4 v0, 0x1
 
-    invoke-static {p1, v0, p2}, Landroidx/datastore/core/DataStoreImpl;->access$readDataAndUpdateCache(Landroidx/datastore/core/DataStoreImpl;ZLul/c;)Ljava/lang/Object;
+    invoke-static {p1, v0, p2}, Landroidx/datastore/core/DataStoreImpl;->access$readDataAndUpdateCache(Landroidx/datastore/core/DataStoreImpl;ZLkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     move-result-object p2
 
@@ -130,13 +117,13 @@
     return-object p1
 
     :cond_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 
     .line 5
     :cond_1
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method

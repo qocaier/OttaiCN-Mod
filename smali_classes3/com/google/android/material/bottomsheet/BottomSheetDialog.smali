@@ -258,7 +258,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$002(Lcom/google/android/material/bottomsheet/BottomSheetDialog;Lcom/google/android/material/bottomsheet/BottomSheetDialog$EdgeToEdgeCallback;)Lcom/google/android/material/bottomsheet/BottomSheetDialog$EdgeToEdgeCallback;
@@ -327,11 +326,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/bottomsheet/BottomSheetDialog;)Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
@@ -364,7 +358,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$200(Lcom/google/android/material/bottomsheet/BottomSheetDialog;)Landroid/widget/FrameLayout;
@@ -397,7 +390,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private ensureContainerAndBehavior()Landroid/widget/FrameLayout;
@@ -575,15 +567,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private static getThemeResId(Landroid/content/Context;I)I
@@ -684,11 +667,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static setLightStatusBar(Landroid/view/View;Z)V
@@ -777,11 +755,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private updateListeningForBackCallbacks()V
@@ -828,7 +801,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private wrapInBottomSheet(ILandroid/view/View;Landroid/view/ViewGroup$LayoutParams;)Landroid/view/View;
@@ -1078,11 +1050,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
@@ -1218,15 +1185,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getBehavior()Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
@@ -1275,7 +1233,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDismissWithAnimation()Z
@@ -1306,7 +1263,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEdgeToEdgeEnabled()Z
@@ -1337,7 +1293,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAttachedToWindow()V
@@ -1509,15 +1464,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -1569,7 +1515,6 @@
     :cond_0
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public onDetachedFromWindow()V
@@ -1614,7 +1559,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onStart()V
@@ -1664,7 +1608,6 @@
     :cond_0
     return-void
     .line 22
-    .line 23
 .end method
 
 .method public removeDefaultCallback()V
@@ -1699,7 +1642,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setCancelable(Z)V
@@ -1821,8 +1763,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setCanceledOnTouchOutside(Z)V
@@ -1870,7 +1810,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setContentView(I)V
@@ -1954,7 +1893,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public shouldWindowCloseOnTouchOutside()Z
@@ -2096,13 +2034,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

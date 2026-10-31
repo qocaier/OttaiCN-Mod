@@ -44,7 +44,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -79,7 +78,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public city(Ljava/lang/String;)Lcom/baidu/mapapi/search/geocode/GeoCodeOption;
@@ -112,7 +110,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getAddress()Ljava/lang/String;
@@ -143,5 +140,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

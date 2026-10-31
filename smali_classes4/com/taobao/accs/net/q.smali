@@ -44,6 +44,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -229,4 +231,5 @@
     .line 84
     :cond_1
     return-void
+    .line 85
 .end method

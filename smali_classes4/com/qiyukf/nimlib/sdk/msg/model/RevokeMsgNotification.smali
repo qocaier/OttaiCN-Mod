@@ -643,6 +643,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCallbackExt()Ljava/lang/String;
@@ -671,6 +673,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCustomInfo()Ljava/lang/String;
@@ -699,6 +703,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMessage()Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -727,6 +733,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNotificationType()I
@@ -755,6 +763,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRevokeAccount()Ljava/lang/String;
@@ -783,6 +793,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRevokeType()Lcom/qiyukf/nimlib/sdk/msg/constant/RevokeType;
@@ -811,4 +823,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

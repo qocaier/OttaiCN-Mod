@@ -58,6 +58,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -81,20 +82,6 @@
 
 .method private constructor <init>(I[I[Ljava/lang/Object;Z)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "count",
-            "tags",
-            "objects",
-            "isMutable"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -121,14 +108,6 @@
 
 .method private ensureCapacity(I)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "minCapacity"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->tags:[I
@@ -251,6 +230,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getDefaultInstance()Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
@@ -279,20 +259,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static hashCode([II)I
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "tags",
-            "count"
-        }
-    .end annotation
 
     const/16 v0, 0x11
 
@@ -318,16 +289,6 @@
 
 .method private static hashCode([Ljava/lang/Object;I)I
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "objects",
-            "count"
-        }
-    .end annotation
 
     const/16 v0, 0x11
 
@@ -357,15 +318,6 @@
 
 .method private mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -393,16 +345,6 @@
 
 .method public static mutableCopyOf(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;)Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "first",
-            "second"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->count:I
@@ -525,22 +467,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static objectsEquals([Ljava/lang/Object;[Ljava/lang/Object;I)Z
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "objects1",
-            "objects2",
-            "count"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -683,22 +614,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static tagsEquals([I[II)Z
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "tags1",
-            "tags2",
-            "count"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -837,23 +759,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static writeField(ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "tag",
-            "object",
-            "writer"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1078,6 +990,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -1117,18 +1032,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "obj"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -1267,6 +1175,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getSerializedSize()I
@@ -1805,6 +1714,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public getSerializedSizeAsMessageSet()I
@@ -1940,6 +1901,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public hashCode()I
@@ -2012,21 +1975,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mergeFieldFrom(ILandroidx/datastore/preferences/protobuf/CodedInputStream;)Z
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "tag",
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -2373,20 +2326,14 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public mergeFrom(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;)Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
     .locals 6
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "other"
-        }
     .end annotation
 
     .line 3
@@ -2448,16 +2395,6 @@
 
 .method public mergeLengthDelimitedField(ILandroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->checkMutable()V
@@ -2533,16 +2470,6 @@
 
 .method public mergeVarintField(II)Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->checkMutable()V
@@ -2624,16 +2551,6 @@
 
 .method public final printWithIndent(Ljava/lang/StringBuilder;I)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "buffer",
-            "indent"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -2718,16 +2635,6 @@
 
 .method public storeField(ILjava/lang/Object;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "tag",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->checkMutable()V
@@ -2804,15 +2711,6 @@
 
 .method public writeAsMessageSetTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -2855,15 +2753,6 @@
 
 .method public writeAsMessageSetTo(Landroidx/datastore/preferences/protobuf/Writer;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "writer"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -2942,15 +2831,6 @@
 
 .method public writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3094,15 +2974,6 @@
 
 .method public writeTo(Landroidx/datastore/preferences/protobuf/Writer;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "writer"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

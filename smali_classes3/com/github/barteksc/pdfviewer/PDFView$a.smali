@@ -1,4 +1,4 @@
-.class public synthetic Lcom/github/barteksc/pdfviewer/PDFView$a;
+.class public abstract synthetic Lcom/github/barteksc/pdfviewer/PDFView$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

@@ -1135,7 +1135,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -1172,7 +1171,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemId(I)J
@@ -1217,7 +1215,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getPageMonth(I)Lcom/google/android/material/datepicker/Month;
@@ -1260,7 +1257,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getPageTitle(I)Ljava/lang/CharSequence;
@@ -1301,7 +1297,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getPosition(Lcom/google/android/material/datepicker/Month;)I
@@ -1346,7 +1341,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V

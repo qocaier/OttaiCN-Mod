@@ -38,7 +38,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static newInstance()Lcom/baidu/platform/comapi/store/MapLanguageRecord;
@@ -192,15 +191,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -233,7 +223,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMapLanguage()Lcom/baidu/mapapi/map/MapLanguage;
@@ -374,15 +363,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public setMapLanguage(Lcom/baidu/mapapi/map/MapLanguage;)V
@@ -424,5 +404,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

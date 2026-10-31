@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Landroidx/activity/ImmLeaksCleaner$Cleaner;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -57,8 +55,6 @@
 # virtual methods
 .method public final invoke()Landroidx/activity/ImmLeaksCleaner$Cleaner;
     .locals 5
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     :try_start_0
@@ -101,15 +97,15 @@
 
     const-string v4, "hField"
 
-    invoke-static {v0, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "servedViewField"
 
-    invoke-static {v1, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v4, "nextServedViewField"
 
-    invoke-static {v3, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v2, v0, v1, v3}, Landroidx/activity/ImmLeaksCleaner$ValidCleaner;-><init>(Ljava/lang/reflect/Field;Ljava/lang/reflect/Field;Ljava/lang/reflect/Field;)V
     :try_end_0

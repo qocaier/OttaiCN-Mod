@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljn/f;
+.implements Lkotlinx/coroutines/flow/d;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/DataStoreImpl$data$1$invokeSuspend$$inlined$map$1;->collect(Ljn/f;Lul/c;)Ljava/lang/Object;
+    value = Landroidx/datastore/core/DataStoreImpl$data$1$invokeSuspend$$inlined$map$1;->collect(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/e;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,71 +22,30 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Ljn/f;"
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEmitters.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Emitters.kt\nkotlinx/coroutines/flow/FlowKt__EmittersKt$unsafeTransform$1$1\n+ 2 Transform.kt\nkotlinx/coroutines/flow/FlowKt__TransformKt\n+ 3 DataStoreImpl.kt\nandroidx/datastore/core/DataStoreImpl$data$1\n*L\n1#1,222:1\n54#2:223\n109#3,5:224\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nEmitters.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Emitters.kt\nkotlinx/coroutines/flow/FlowKt__EmittersKt$unsafeTransform$1$1\n+ 2 Transform.kt\nkotlinx/coroutines/flow/FlowKt__TransformKt\n+ 3 DataStoreImpl.kt\nandroidx/datastore/core/DataStoreImpl$data$1\n*L\n1#1,222:1\n54#2:223\n109#3,5:224\n*E\n"
+        "Lkotlinx/coroutines/flow/d;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic $this_unsafeFlow:Ljn/f;
+.field final synthetic $this_unsafeFlow:Lkotlinx/coroutines/flow/d;
 
 
 # direct methods
-.method public constructor <init>(Ljn/f;)V
+.method public constructor <init>(Lkotlinx/coroutines/flow/d;)V
     .locals 0
 
-    .line 1
-    iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl$data$1$invokeSuspend$$inlined$map$1$2;->$this_unsafeFlow:Ljn/f;
+    iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl$data$1$invokeSuspend$$inlined$map$1$2;->$this_unsafeFlow:Lkotlinx/coroutines/flow/d;
 
-    .line 2
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
-    .line 5
-    .line 6
     return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
 
 # virtual methods
-.method public final emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public final emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 4
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     instance-of v0, p2, Landroidx/datastore/core/DataStoreImpl$data$1$invokeSuspend$$inlined$map$1$2$1;
@@ -135,7 +94,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/DataStoreImpl$data$1$invokeSuspend$$inlined$map$1$2$1;-><init>(Landroidx/datastore/core/DataStoreImpl$data$1$invokeSuspend$$inlined$map$1$2;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/DataStoreImpl$data$1$invokeSuspend$$inlined$map$1$2$1;-><init>(Landroidx/datastore/core/DataStoreImpl$data$1$invokeSuspend$$inlined$map$1$2;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -145,7 +104,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -168,7 +127,7 @@
 
     .line 37
     .line 38
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 39
     .line 40
@@ -194,12 +153,12 @@
 
     .line 50
     :cond_2
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 51
     .line 52
     .line 53
-    iget-object p2, p0, Landroidx/datastore/core/DataStoreImpl$data$1$invokeSuspend$$inlined$map$1$2;->$this_unsafeFlow:Ljn/f;
+    iget-object p2, p0, Landroidx/datastore/core/DataStoreImpl$data$1$invokeSuspend$$inlined$map$1$2;->$this_unsafeFlow:Lkotlinx/coroutines/flow/d;
 
     .line 54
     .line 55
@@ -239,7 +198,7 @@
 
     .line 72
     .line 73
-    invoke-interface {p2, p1, v0}, Ljn/f;->emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p2, p1, v0}, Lkotlinx/coroutines/flow/d;->emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -256,7 +215,7 @@
     .line 80
     :cond_3
     :goto_1
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 81
     .line 82
@@ -449,4 +408,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

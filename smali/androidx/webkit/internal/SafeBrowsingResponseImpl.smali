@@ -39,7 +39,7 @@
     .line 2
     const-class v0, Lorg/chromium/support_lib_boundary/SafeBrowsingResponseBoundaryInterface;
 
-    invoke-static {v0, p1}, Lmq/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lx9/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -86,7 +86,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v0}, Lmq/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+    invoke-static {v1, v0}, Lx9/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -165,6 +165,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private getFrameworksImpl()Landroid/webkit/SafeBrowsingResponse;
@@ -281,6 +283,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -403,6 +407,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public proceed(Z)V
@@ -523,6 +528,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public showInterstitial(Z)V
@@ -643,4 +649,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

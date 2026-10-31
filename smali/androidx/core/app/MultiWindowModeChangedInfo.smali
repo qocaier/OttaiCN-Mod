@@ -10,9 +10,6 @@
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end field
 
 
@@ -31,17 +28,13 @@
 
 .method public constructor <init>(ZLandroid/content/res/Configuration;)V
     .locals 1
-    .param p2    # Landroid/content/res/Configuration;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
 
     const-string v0, "newConfig"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-direct {p0, p1}, Landroidx/core/app/MultiWindowModeChangedInfo;-><init>(Z)V
@@ -58,9 +51,6 @@
     .locals 2
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -97,6 +87,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isInMultiWindowMode()Z
@@ -125,4 +116,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

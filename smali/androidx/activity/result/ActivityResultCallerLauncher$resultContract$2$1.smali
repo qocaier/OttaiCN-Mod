@@ -16,7 +16,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Landroidx/activity/result/contract/ActivityResultContract<",
-        "Ljl/e2;",
+        "Lkotlin/j;",
         "TO;>;"
     }
 .end annotation
@@ -82,35 +82,25 @@
     .locals 0
 
     .line 1
-    check-cast p2, Ljl/e2;
+    check-cast p2, Lkotlin/j;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;->createIntent(Landroid/content/Context;Ljl/e2;)Landroid/content/Intent;
+    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;->createIntent(Landroid/content/Context;Lkotlin/j;)Landroid/content/Intent;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public createIntent(Landroid/content/Context;Ljl/e2;)Landroid/content/Intent;
+.method public createIntent(Landroid/content/Context;Lkotlin/j;)Landroid/content/Intent;
     .locals 1
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljl/e2;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "input"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object p2, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
@@ -134,10 +124,6 @@
 
 .method public parseResult(ILandroid/content/Intent;)Ljava/lang/Object;
     .locals 1
-    .param p2    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",

@@ -551,7 +551,6 @@
     .line 23
     return p1
     .line 24
-    .line 25
 .end method
 
 
@@ -584,7 +583,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getArrowSize()F
@@ -615,7 +613,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCustomMarker()Lcom/baidu/mapapi/map/BitmapDescriptor;
@@ -646,7 +643,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getGifMarker()Ljava/lang/String;
@@ -677,7 +673,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMarkerSize()F
@@ -708,7 +703,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isEnableCustom()Z
@@ -739,7 +733,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isEnableRotation()Z
@@ -770,7 +763,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isNeedAnimation()Z
@@ -801,7 +793,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAnimation(Z)V
@@ -834,7 +825,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setArrow(Lcom/baidu/mapapi/map/BitmapDescriptor;)V
@@ -867,7 +857,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setArrowSize(F)V
@@ -900,7 +889,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCustomMarker(Lcom/baidu/mapapi/map/BitmapDescriptor;)V
@@ -933,7 +921,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGifMarker(Ljava/lang/String;)V
@@ -966,7 +953,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMarkerRotation(Z)V
@@ -999,7 +985,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMarkerSize(F)V
@@ -1032,5 +1017,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

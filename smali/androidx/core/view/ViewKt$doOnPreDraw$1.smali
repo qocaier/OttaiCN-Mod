@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewKt;->doOnPreDraw(Landroid/view/View;Ljm/l;)Landroidx/core/view/OneShotPreDrawListener;
+    value = Landroidx/core/view/ViewKt;->doOnPreDraw(Landroid/view/View;Lq8/l;)Landroidx/core/view/OneShotPreDrawListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,13 +18,10 @@
 
 
 # instance fields
-.field final synthetic $action:Ljm/l;
+.field final synthetic $action:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/view/View;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
@@ -33,23 +30,19 @@
 
 
 # direct methods
-.method public constructor <init>(Ljm/l;Landroid/view/View;)V
+.method public constructor <init>(Lq8/l;Landroid/view/View;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Landroid/view/View;",
-            "Ljl/e2;",
-            ">;",
+            "Lq8/l;",
             "Landroid/view/View;",
             ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/view/ViewKt$doOnPreDraw$1;->$action:Ljm/l;
+    iput-object p1, p0, Landroidx/core/view/ViewKt$doOnPreDraw$1;->$action:Lq8/l;
 
     .line 2
     .line 3
@@ -111,7 +104,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ViewKt$doOnPreDraw$1;->$action:Ljm/l;
+    iget-object v0, p0, Landroidx/core/view/ViewKt$doOnPreDraw$1;->$action:Lq8/l;
 
     .line 2
     .line 3
@@ -119,7 +112,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -137,4 +130,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

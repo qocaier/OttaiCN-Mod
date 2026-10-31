@@ -20,25 +20,18 @@
 
 # instance fields
 .field private final loader:Ljava/lang/ClassLoader;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/ClassLoader;)V
     .locals 1
-    .param p1    # Ljava/lang/ClassLoader;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "loader"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -69,19 +62,16 @@
     .line 25
 .end method
 
-.method private final buildConsumer(Lum/d;Ljm/l;)Ljava/lang/Object;
+.method private final buildConsumer(Lkotlin/reflect/c;Lq8/l;)Ljava/lang/Object;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lum/d<",
-            "TT;>;",
-            "Ljm/l<",
-            "-TT;",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/reflect/c;",
+            "Lq8/l;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
@@ -91,7 +81,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/window/core/ConsumerAdapter$ConsumerHandler;-><init>(Lum/d;Ljm/l;)V
+    invoke-direct {v0, p1, p2}, Landroidx/window/core/ConsumerAdapter$ConsumerHandler;-><init>(Lkotlin/reflect/c;Lq8/l;)V
 
     .line 4
     .line 5
@@ -128,7 +118,7 @@
 
     .line 21
     .line 22
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -190,7 +180,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -202,41 +192,23 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
-.method public final addConsumer(Ljava/lang/Object;Lum/d;Ljava/lang/String;Ljm/l;)V
+.method public final addConsumer(Ljava/lang/Object;Lkotlin/reflect/c;Ljava/lang/String;Lq8/l;)V
     .locals 2
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
             "Ljava/lang/Object;",
-            "Lum/d<",
-            "TT;>;",
+            "Lkotlin/reflect/c;",
             "Ljava/lang/String;",
-            "Ljm/l<",
-            "-TT;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -245,7 +217,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -254,7 +226,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -263,7 +235,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -272,7 +244,7 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -309,7 +281,7 @@
     move-result-object p3
 
     .line 37
-    invoke-direct {p0, p2, p4}, Landroidx/window/core/ConsumerAdapter;->buildConsumer(Lum/d;Ljm/l;)Ljava/lang/Object;
+    invoke-direct {p0, p2, p4}, Landroidx/window/core/ConsumerAdapter;->buildConsumer(Lkotlin/reflect/c;Lq8/l;)Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -513,6 +485,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public final consumerClassOrNull$window_release()Ljava/lang/Class;
@@ -523,9 +501,6 @@
             "Ljava/lang/Class<",
             "*>;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -561,44 +536,22 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public final createConsumer(Ljava/lang/Object;Lum/d;Ljava/lang/String;Landroid/app/Activity;Ljm/l;)V
+.method public final createConsumer(Ljava/lang/Object;Lkotlin/reflect/c;Ljava/lang/String;Landroid/app/Activity;Lq8/l;)V
     .locals 2
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
             "Ljava/lang/Object;",
-            "Lum/d<",
-            "TT;>;",
+            "Lkotlin/reflect/c;",
             "Ljava/lang/String;",
             "Landroid/app/Activity;",
-            "Ljm/l<",
-            "-TT;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -607,7 +560,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -616,7 +569,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -625,7 +578,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -634,7 +587,7 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -643,12 +596,12 @@
 
     .line 22
     .line 23
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 24
     .line 25
     .line 26
-    invoke-direct {p0, p2, p5}, Landroidx/window/core/ConsumerAdapter;->buildConsumer(Lum/d;Ljm/l;)Ljava/lang/Object;
+    invoke-direct {p0, p2, p5}, Landroidx/window/core/ConsumerAdapter;->buildConsumer(Lkotlin/reflect/c;Lq8/l;)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -1176,32 +1129,8 @@
     .line 523
 .end method
 
-.method public final createSubscription(Ljava/lang/Object;Lum/d;Ljava/lang/String;Ljava/lang/String;Landroid/app/Activity;Ljm/l;)Landroidx/window/core/ConsumerAdapter$Subscription;
+.method public final createSubscription(Ljava/lang/Object;Lkotlin/reflect/c;Ljava/lang/String;Ljava/lang/String;Landroid/app/Activity;Lq8/l;)Landroidx/window/core/ConsumerAdapter$Subscription;
     .locals 2
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p6    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/CheckResult;
     .end annotation
 
@@ -1211,48 +1140,42 @@
             "Ljava/lang/Object;",
             ">(",
             "Ljava/lang/Object;",
-            "Lum/d<",
-            "TT;>;",
+            "Lkotlin/reflect/c;",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             "Landroid/app/Activity;",
-            "Ljm/l<",
-            "-TT;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/window/core/ConsumerAdapter$Subscription;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "obj"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "clazz"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "addMethodName"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "removeMethodName"
 
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "activity"
 
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "consumer"
 
-    invoke-static {p6, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p6, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0, p2, p6}, Landroidx/window/core/ConsumerAdapter;->buildConsumer(Lum/d;Ljm/l;)Ljava/lang/Object;
+    invoke-direct {p0, p2, p6}, Landroidx/window/core/ConsumerAdapter;->buildConsumer(Lkotlin/reflect/c;Lq8/l;)Ljava/lang/Object;
 
     move-result-object p2
 
@@ -1307,32 +1230,8 @@
     return-object p4
 .end method
 
-.method public final createSubscription(Ljava/lang/Object;Lum/d;Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Ljm/l;)Landroidx/window/core/ConsumerAdapter$Subscription;
+.method public final createSubscription(Ljava/lang/Object;Lkotlin/reflect/c;Ljava/lang/String;Ljava/lang/String;Landroid/content/Context;Lq8/l;)Landroidx/window/core/ConsumerAdapter$Subscription;
     .locals 2
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p6    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/CheckResult;
     .end annotation
 
@@ -1342,48 +1241,42 @@
             "Ljava/lang/Object;",
             ">(",
             "Ljava/lang/Object;",
-            "Lum/d<",
-            "TT;>;",
+            "Lkotlin/reflect/c;",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             "Landroid/content/Context;",
-            "Ljm/l<",
-            "-TT;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/window/core/ConsumerAdapter$Subscription;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "obj"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "clazz"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "addMethodName"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "removeMethodName"
 
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "context"
 
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "consumer"
 
-    invoke-static {p6, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p6, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
-    invoke-direct {p0, p2, p6}, Landroidx/window/core/ConsumerAdapter;->buildConsumer(Lum/d;Ljm/l;)Ljava/lang/Object;
+    invoke-direct {p0, p2, p6}, Landroidx/window/core/ConsumerAdapter;->buildConsumer(Lkotlin/reflect/c;Lq8/l;)Ljava/lang/Object;
 
     move-result-object p2
 
@@ -1438,28 +1331,8 @@
     return-object p4
 .end method
 
-.method public final createSubscriptionNoActivity(Ljava/lang/Object;Lum/d;Ljava/lang/String;Ljava/lang/String;Ljm/l;)Landroidx/window/core/ConsumerAdapter$Subscription;
+.method public final createSubscriptionNoActivity(Ljava/lang/Object;Lkotlin/reflect/c;Ljava/lang/String;Ljava/lang/String;Lq8/l;)Landroidx/window/core/ConsumerAdapter$Subscription;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/CheckResult;
     .end annotation
 
@@ -1469,19 +1342,13 @@
             "Ljava/lang/Object;",
             ">(",
             "Ljava/lang/Object;",
-            "Lum/d<",
-            "TT;>;",
+            "Lkotlin/reflect/c;",
             "Ljava/lang/String;",
             "Ljava/lang/String;",
-            "Ljm/l<",
-            "-TT;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/window/core/ConsumerAdapter$Subscription;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1489,7 +1356,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1498,7 +1365,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1507,7 +1374,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -1516,7 +1383,7 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -1525,12 +1392,12 @@
 
     .line 22
     .line 23
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 24
     .line 25
     .line 26
-    invoke-direct {p0, p2, p5}, Landroidx/window/core/ConsumerAdapter;->buildConsumer(Lum/d;Ljm/l;)Ljava/lang/Object;
+    invoke-direct {p0, p2, p5}, Landroidx/window/core/ConsumerAdapter;->buildConsumer(Lkotlin/reflect/c;Lq8/l;)Ljava/lang/Object;
 
     .line 27
     .line 28

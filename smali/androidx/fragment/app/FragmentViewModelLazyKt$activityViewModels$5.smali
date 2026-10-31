@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/FragmentViewModelLazyKt;->activityViewModels(Landroidx/fragment/app/Fragment;Ljm/a;Ljm/a;)Ljl/c0;
+    value = Landroidx/fragment/app/FragmentViewModelLazyKt;->activityViewModels(Landroidx/fragment/app/Fragment;Lq8/a;Lq8/a;)Lkotlin/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,30 +19,16 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Landroidx/lifecycle/viewmodel/CreationExtras;",
-        ">;"
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFragmentViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5\n*L\n1#1,222:1\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nFragmentViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5\n*L\n1#1,222:1\n*E\n"
+        "Lq8/a;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic $extrasProducer:Ljm/a;
+.field final synthetic $extrasProducer:Lq8/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/a<",
-            "Landroidx/lifecycle/viewmodel/CreationExtras;",
-            ">;"
+            "Lq8/a;"
         }
     .end annotation
 .end field
@@ -51,22 +37,19 @@
 
 
 # direct methods
-.method public constructor <init>(Ljm/a;Landroidx/fragment/app/Fragment;)V
+.method public constructor <init>(Lq8/a;Landroidx/fragment/app/Fragment;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/a<",
-            "+",
-            "Landroidx/lifecycle/viewmodel/CreationExtras;",
-            ">;",
+            "Lq8/a;",
             "Landroidx/fragment/app/Fragment;",
             ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;->$extrasProducer:Ljm/a;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;->$extrasProducer:Lq8/a;
 
     .line 2
     .line 3
@@ -128,15 +111,13 @@
 # virtual methods
 .method public final invoke()Landroidx/lifecycle/viewmodel/CreationExtras;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;->$extrasProducer:Ljm/a;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;->$extrasProducer:Lq8/a;
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lq8/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -163,7 +144,7 @@
 
     const-string v1, "requireActivity().defaultViewModelCreationExtras"
 
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method

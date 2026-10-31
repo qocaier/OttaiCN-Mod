@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static fromAndroidPerson(Landroid/app/Person;)Landroidx/core/app/Person;
@@ -201,6 +202,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static toAndroidPerson(Landroidx/core/app/Person;)Landroid/app/Person;
@@ -357,4 +359,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -76,6 +76,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -204,6 +206,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getId()Ljava/lang/String;
@@ -232,6 +235,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getJsonValue()Lorg/json/JSONObject;
@@ -277,6 +282,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLabel()Ljava/lang/String;
@@ -305,6 +312,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStringValue()Ljava/lang/String;
@@ -350,6 +359,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getType()Ljava/lang/String;
@@ -378,6 +389,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getValue()Ljava/lang/Object;
@@ -406,6 +419,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isImageType()Z
@@ -440,6 +455,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isRequired()Z
@@ -477,6 +494,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setValue(Ljava/lang/Object;)V
@@ -510,4 +529,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

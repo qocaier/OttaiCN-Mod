@@ -58,7 +58,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -145,7 +144,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPrice()D
@@ -176,7 +174,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getProviderName()Ljava/lang/String;
@@ -207,7 +204,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getProviderUrl()Ljava/lang/String;
@@ -238,7 +234,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setBooking(Ljava/lang/String;)V
@@ -271,7 +266,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPrice(D)V
@@ -304,7 +298,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setProviderName(Ljava/lang/String;)V
@@ -337,7 +330,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setProviderUrl(Ljava/lang/String;)V
@@ -370,7 +362,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -455,9 +446,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

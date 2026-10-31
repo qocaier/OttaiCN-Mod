@@ -3,41 +3,22 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/p;
+.implements Lq8/p;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/StartedWhileSubscribed;->a(Ljn/y;)Ljn/e;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = null
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Ljm/p<",
-        "Lkotlinx/coroutines/flow/SharingCommand;",
-        "Lul/c<",
-        "-",
-        "Ljava/lang/Boolean;",
-        ">;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lq8/p;"
     }
 .end annotation
 
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "kotlinx.coroutines.flow.StartedWhileSubscribed$command$2"
     f = "SharingStarted.kt"
-    i = {}
     l = {}
     m = "invokeSuspend"
-    n = {}
-    s = {}
 .end annotation
 
 
@@ -48,113 +29,44 @@
 
 
 # direct methods
-.method public constructor <init>(Lul/c;)V
+.method public constructor <init>(Lkotlin/coroutines/e;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Lkotlinx/coroutines/flow/StartedWhileSubscribed$command$2;",
-            ">;)V"
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
-    .line 1
     const/4 v0, 0x2
 
-    .line 2
-    invoke-direct {p0, v0, p1}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILul/c;)V
+    invoke-direct {p0, v0, p1}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/e;)V
 
-    .line 3
-    .line 4
-    .line 5
     return-void
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lul/c;)Lul/c;
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lul/c<",
-            "*>;)",
-            "Lul/c<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlin/coroutines/e;",
+            ")",
+            "Lkotlin/coroutines/e;"
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lkotlinx/coroutines/flow/StartedWhileSubscribed$command$2;
 
-    .line 2
-    .line 3
-    invoke-direct {v0, p2}, Lkotlinx/coroutines/flow/StartedWhileSubscribed$command$2;-><init>(Lul/c;)V
+    invoke-direct {v0, p2}, Lkotlinx/coroutines/flow/StartedWhileSubscribed$command$2;-><init>(Lkotlin/coroutines/e;)V
 
-    .line 4
-    .line 5
-    .line 6
     iput-object p1, v0, Lkotlinx/coroutines/flow/StartedWhileSubscribed$command$2;->L$0:Ljava/lang/Object;
 
-    .line 7
-    .line 8
     return-object v0
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -163,37 +75,35 @@
     .line 1
     check-cast p1, Lkotlinx/coroutines/flow/SharingCommand;
 
-    check-cast p2, Lul/c;
+    check-cast p2, Lkotlin/coroutines/e;
 
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/StartedWhileSubscribed$command$2;->invoke(Lkotlinx/coroutines/flow/SharingCommand;Lul/c;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/StartedWhileSubscribed$command$2;->invoke(Lkotlinx/coroutines/flow/SharingCommand;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlinx/coroutines/flow/SharingCommand;Lul/c;)Ljava/lang/Object;
+.method public final invoke(Lkotlinx/coroutines/flow/SharingCommand;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lkotlinx/coroutines/flow/SharingCommand;",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Boolean;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/StartedWhileSubscribed$command$2;->create(Ljava/lang/Object;Lul/c;)Lul/c;
+    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/StartedWhileSubscribed$command$2;->create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
 
     move-result-object p1
 
     check-cast p1, Lkotlinx/coroutines/flow/StartedWhileSubscribed$command$2;
 
-    sget-object p2, Ljl/e2;->a:Ljl/e2;
+    sget-object p2, Lkotlin/j;->a:Lkotlin/j;
 
     invoke-virtual {p1, p2}, Lkotlinx/coroutines/flow/StartedWhileSubscribed$command$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -206,7 +116,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -219,7 +129,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 9
     .line 10
@@ -251,7 +161,7 @@
 
     .line 22
     :goto_0
-    invoke-static {p1}, Lxl/a;->a(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Lk8/a;->a(Z)Ljava/lang/Boolean;
 
     .line 23
     .line 24
@@ -300,23 +210,4 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method

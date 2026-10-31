@@ -3,36 +3,40 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/core/util/Consumer;
+.implements Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/core/imagecapture/ProcessingNode;
+.field public final synthetic a:Landroidx/camera/core/imagecapture/NoMetadataImageReader;
+
+.field public final synthetic b:Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/core/imagecapture/ProcessingNode;)V
+.method public synthetic constructor <init>(Landroidx/camera/core/imagecapture/NoMetadataImageReader;Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/core/imagecapture/e;->a:Landroidx/camera/core/imagecapture/ProcessingNode;
+    iput-object p1, p0, Landroidx/camera/core/imagecapture/e;->a:Landroidx/camera/core/imagecapture/NoMetadataImageReader;
+
+    iput-object p2, p0, Landroidx/camera/core/imagecapture/e;->b:Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;)V
-    .locals 1
+.method public final onImageAvailable(Landroidx/camera/core/impl/ImageReaderProxy;)V
+    .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/imagecapture/e;->a:Landroidx/camera/core/imagecapture/ProcessingNode;
+    iget-object v0, p0, Landroidx/camera/core/imagecapture/e;->a:Landroidx/camera/core/imagecapture/NoMetadataImageReader;
 
-    check-cast p1, Landroidx/camera/core/imagecapture/ProcessingNode$InputPacket;
+    iget-object v1, p0, Landroidx/camera/core/imagecapture/e;->b:Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;
 
-    invoke-static {v0, p1}, Landroidx/camera/core/imagecapture/ProcessingNode;->a(Landroidx/camera/core/imagecapture/ProcessingNode;Landroidx/camera/core/imagecapture/ProcessingNode$InputPacket;)V
+    invoke-static {v0, v1, p1}, Landroidx/camera/core/imagecapture/NoMetadataImageReader;->a(Landroidx/camera/core/imagecapture/NoMetadataImageReader;Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;Landroidx/camera/core/impl/ImageReaderProxy;)V
 
     return-void
 .end method

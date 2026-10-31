@@ -19,9 +19,6 @@
 
 # instance fields
 .field public final a:Lokio/BufferedSource;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public b:I
 
@@ -37,17 +34,13 @@
 # direct methods
 .method public constructor <init>(Lokio/BufferedSource;)V
     .locals 1
-    .param p1    # Lokio/BufferedSource;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "source"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -75,42 +68,44 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 
 # virtual methods
 .method public final a()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lokhttp3/internal/http2/d$b;->c:I
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public final b()I
     .locals 1
 
     .line 1
@@ -139,119 +134,37 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public final c()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lokhttp3/internal/http2/d$b;->b:I
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public close()V
-    .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    return-void
-.end method
-
-.method public final d()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lokhttp3/internal/http2/d$b;->f:I
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public final e()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lokhttp3/internal/http2/d$b;->d:I
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public final f()V
+.method public final b()V
     .locals 9
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Lokhttp3/internal/http2/d$b;->d:I
@@ -262,7 +175,7 @@
 
     .line 4
     .line 5
-    invoke-static {v1}, Lzn/l;->E(Lokio/BufferedSource;)I
+    invoke-static {v1}, Lb9/h;->x(Lokio/BufferedSource;)I
 
     .line 6
     .line 7
@@ -294,7 +207,7 @@
 
     .line 20
     .line 21
-    invoke-static {v1, v2}, Lzn/l;->b(BI)I
+    invoke-static {v1, v2}, Lb9/h;->b(BI)I
 
     .line 22
     .line 23
@@ -314,7 +227,7 @@
     move-result v1
 
     .line 31
-    invoke-static {v1, v2}, Lzn/l;->b(BI)I
+    invoke-static {v1, v2}, Lb9/h;->b(BI)I
 
     .line 32
     .line 33
@@ -362,7 +275,7 @@
     move-result-object v1
 
     .line 55
-    sget-object v3, Lio/b;->a:Lio/b;
+    sget-object v3, Li9/b;->a:Li9/b;
 
     .line 56
     .line 57
@@ -381,7 +294,7 @@
     const/4 v4, 0x1
 
     .line 64
-    invoke-virtual/range {v3 .. v8}, Lio/b;->c(ZIIII)Ljava/lang/String;
+    invoke-virtual/range {v3 .. v8}, Li9/b;->c(ZIIII)Ljava/lang/String;
 
     .line 65
     .line 66
@@ -845,84 +758,9 @@
     .line 470
     .line 471
     .line 472
-    .line 473
-    .line 474
-    .line 475
-    .line 476
-    .line 477
-    .line 478
-    .line 479
-    .line 480
-    .line 481
-    .line 482
-    .line 483
-    .line 484
-    .line 485
-    .line 486
-    .line 487
-    .line 488
-    .line 489
-    .line 490
-    .line 491
-    .line 492
-    .line 493
-    .line 494
-    .line 495
-    .line 496
-    .line 497
-    .line 498
-    .line 499
-    .line 500
-    .line 501
-    .line 502
-    .line 503
-    .line 504
-    .line 505
-    .line 506
-    .line 507
-    .line 508
-    .line 509
-    .line 510
-    .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
 .end method
 
-.method public final h(I)V
+.method public final c(I)V
     .locals 0
 
     .line 1
@@ -952,9 +790,48 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public final i(I)V
+.method public close()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final d(I)V
     .locals 0
 
     .line 1
@@ -984,9 +861,42 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public final j(I)V
+.method public final e(I)V
     .locals 0
 
     .line 1
@@ -1016,9 +926,42 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public final k(I)V
+.method public final f(I)V
     .locals 0
 
     .line 1
@@ -1048,9 +991,42 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public final l(I)V
+.method public final g(I)V
     .locals 0
 
     .line 1
@@ -1080,26 +1056,50 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public read(Lokio/Buffer;J)J
     .locals 6
-    .param p1    # Lokio/Buffer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     const-string v0, "sink"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1156,7 +1156,7 @@
 
     .line 30
     :cond_0
-    invoke-virtual {p0}, Lokhttp3/internal/http2/d$b;->f()V
+    invoke-virtual {p0}, Lokhttp3/internal/http2/d$b;->b()V
 
     .line 31
     .line 32
@@ -1267,12 +1267,26 @@
     .line 106
     .line 107
     .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
 .method public timeout()Lokio/Timeout;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lokhttp3/internal/http2/d$b;->a:Lokio/BufferedSource;
@@ -1304,4 +1318,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

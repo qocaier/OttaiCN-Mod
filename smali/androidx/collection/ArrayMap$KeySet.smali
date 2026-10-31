@@ -181,6 +181,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public contains(Ljava/lang/Object;)Z
@@ -431,6 +432,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isEmpty()Z
@@ -463,6 +466,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public iterator()Ljava/util/Iterator;
@@ -505,6 +509,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public remove(Ljava/lang/Object;)Z
@@ -683,6 +688,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toArray()[Ljava/lang/Object;

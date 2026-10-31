@@ -36,6 +36,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static build(Landroid/media/AudioRecord$Builder;)Landroid/media/AudioRecord;
@@ -119,6 +120,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static setAudioFormat(Landroid/media/AudioRecord$Builder;Landroid/media/AudioFormat;)V

@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -35,10 +35,8 @@
 
 
 # virtual methods
-.method public final a()Lokhttp3/internal/platform/d;
+.method public final a()Lokhttp3/internal/platform/c;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Lokhttp3/internal/platform/a$a;->b()Z
@@ -79,13 +77,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final b()Z
     .locals 1
 
     .line 1
-    invoke-static {}, Lokhttp3/internal/platform/a;->w()Z
+    invoke-static {}, Lokhttp3/internal/platform/a;->q()Z
 
     .line 2
     .line 3
@@ -112,4 +137,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

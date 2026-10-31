@@ -154,6 +154,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bind(Ljava/net/InetAddress;I)V
@@ -252,6 +253,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public connect(Ljava/lang/String;I)V
@@ -375,6 +377,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOption(I)Ljava/lang/Object;
@@ -450,6 +453,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public listen(I)V

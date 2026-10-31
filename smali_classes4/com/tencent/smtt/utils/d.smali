@@ -145,7 +145,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    const-string v1, "\u52a0\u8f7d\u4e2d\uff0c\u8bf7\u7a0d\u540e..."
+    const-string/jumbo v1, "\u52a0\u8f7d\u4e2d\uff0c\u8bf7\u7a0d\u540e..."
 
     invoke-virtual {v6, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -358,7 +358,7 @@
 
     invoke-static {v2, p1}, Lcom/tencent/smtt/utils/TbsLog;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string p1, "\u63d2\u4ef6\u6821\u9a8c\u5931\u8d25\uff0c\u8bf7\u91cd\u8bd5"
+    const-string/jumbo p1, "\u63d2\u4ef6\u6821\u9a8c\u5931\u8d25\uff0c\u8bf7\u91cd\u8bd5"
 
     const/4 p2, 0x0
 

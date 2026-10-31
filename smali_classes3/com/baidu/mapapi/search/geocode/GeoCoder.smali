@@ -44,7 +44,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static newInstance()Lcom/baidu/mapapi/search/geocode/GeoCoder;
@@ -79,7 +78,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -127,7 +125,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public geocode(Lcom/baidu/mapapi/search/geocode/GeoCodeOption;)Z
@@ -261,8 +258,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public reverseGeoCode(Lcom/baidu/mapapi/search/geocode/ReverseGeoCodeOption;)Z
@@ -396,8 +391,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setOnGetGeoCodeResultListener(Lcom/baidu/mapapi/search/geocode/OnGetGeoCoderResultListener;)V
@@ -521,6 +514,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

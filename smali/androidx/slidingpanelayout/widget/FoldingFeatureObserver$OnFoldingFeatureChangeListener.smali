@@ -16,8 +16,4 @@
 
 # virtual methods
 .method public abstract onFoldingFeatureChange(Landroidx/window/layout/FoldingFeature;)V
-    .param p1    # Landroidx/window/layout/FoldingFeature;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method

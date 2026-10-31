@@ -19,9 +19,6 @@
 
 # instance fields
 .field private final mParams:Landroid/os/Bundle;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -57,6 +54,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -67,9 +65,6 @@
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->SUBCLASSES:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -95,6 +90,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getProfilingType()I
@@ -118,9 +114,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     return-object p0
 .end method
@@ -138,8 +131,6 @@
 
 .method public final setBufferSizeKb(I)Landroidx/core/os/HeapProfileRequestBuilder;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/core/os/HeapProfileRequestBuilder;->mParams:Landroid/os/Bundle;
@@ -177,8 +168,6 @@
 
 .method public final setDurationMs(I)Landroidx/core/os/HeapProfileRequestBuilder;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/core/os/HeapProfileRequestBuilder;->mParams:Landroid/os/Bundle;
@@ -216,8 +205,6 @@
 
 .method public final setSamplingIntervalBytes(J)Landroidx/core/os/HeapProfileRequestBuilder;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/core/os/HeapProfileRequestBuilder;->mParams:Landroid/os/Bundle;
@@ -255,8 +242,6 @@
 
 .method public final setTrackJavaAllocations(Z)Landroidx/core/os/HeapProfileRequestBuilder;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/core/os/HeapProfileRequestBuilder;->mParams:Landroid/os/Bundle;

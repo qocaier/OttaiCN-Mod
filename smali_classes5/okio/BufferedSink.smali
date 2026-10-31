@@ -9,17 +9,6 @@
 
 # virtual methods
 .method public abstract buffer()Lokio/Buffer;
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
-        message = "moved to val: use getBuffer() instead"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "buffer"
-            imports = {}
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract emit()Lokio/BufferedSink;
@@ -28,9 +17,6 @@
             Ljava/io/IOException;
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract emitCompleteSegments()Lokio/BufferedSink;
@@ -38,9 +24,6 @@
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
@@ -53,95 +36,52 @@
 .end method
 
 .method public abstract getBuffer()Lokio/Buffer;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract outputStream()Ljava/io/OutputStream;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract write(Lokio/ByteString;)Lokio/BufferedSink;
-    .param p1    # Lokio/ByteString;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
 .method public abstract write(Lokio/ByteString;II)Lokio/BufferedSink;
-    .param p1    # Lokio/ByteString;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
 .method public abstract write(Lokio/Source;J)Lokio/BufferedSink;
-    .param p1    # Lokio/Source;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
 .method public abstract write([B)Lokio/BufferedSink;
-    .param p1    # [B
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
 .method public abstract write([BII)Lokio/BufferedSink;
-    .param p1    # [B
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract writeAll(Lokio/Source;)J
-    .param p1    # Lokio/Source;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -155,9 +95,6 @@
             Ljava/io/IOException;
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract writeDecimalLong(J)Lokio/BufferedSink;
@@ -165,9 +102,6 @@
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
@@ -177,9 +111,6 @@
             Ljava/io/IOException;
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract writeInt(I)Lokio/BufferedSink;
@@ -187,9 +118,6 @@
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
@@ -199,9 +127,6 @@
             Ljava/io/IOException;
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract writeLong(J)Lokio/BufferedSink;
@@ -209,9 +134,6 @@
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
@@ -221,9 +143,6 @@
             Ljava/io/IOException;
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract writeShort(I)Lokio/BufferedSink;
@@ -231,9 +150,6 @@
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
@@ -243,76 +159,37 @@
             Ljava/io/IOException;
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract writeString(Ljava/lang/String;IILjava/nio/charset/Charset;)Lokio/BufferedSink;
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljava/nio/charset/Charset;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
 .method public abstract writeString(Ljava/lang/String;Ljava/nio/charset/Charset;)Lokio/BufferedSink;
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/nio/charset/Charset;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
 .method public abstract writeUtf8(Ljava/lang/String;)Lokio/BufferedSink;
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
 .method public abstract writeUtf8(Ljava/lang/String;II)Lokio/BufferedSink;
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
@@ -321,8 +198,5 @@
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method

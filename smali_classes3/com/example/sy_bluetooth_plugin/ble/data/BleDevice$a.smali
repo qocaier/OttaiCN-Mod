@@ -16,15 +16,6 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Landroid/os/Parcelable$Creator<",
-        "Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;",
-        ">;"
-    }
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -55,7 +46,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -92,7 +82,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public b(I)[Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;
@@ -125,19 +114,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice$a;->a(Landroid/os/Parcel;)Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;
@@ -168,19 +148,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice$a;->b(I)[Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;
@@ -211,5 +182,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

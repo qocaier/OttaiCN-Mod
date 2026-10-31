@@ -271,6 +271,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private throwDndException(Ljava/lang/Throwable;)V
@@ -575,6 +576,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public registerAvailabilityCallback(Ljava/util/concurrent/Executor;Landroid/hardware/camera2/CameraManager$AvailabilityCallback;)V

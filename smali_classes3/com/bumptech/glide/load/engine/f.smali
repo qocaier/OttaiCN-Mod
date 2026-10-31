@@ -1,687 +1,164 @@
-.class public Lcom/bumptech/glide/load/engine/f;
+.class public final Lcom/bumptech/glide/load/engine/f;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ld6/d;
-.implements Lf6/j$a;
-.implements Lcom/bumptech/glide/load/engine/h$a;
-
-
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/bumptech/glide/load/engine/f$b;,
-        Lcom/bumptech/glide/load/engine/f$a;,
-        Lcom/bumptech/glide/load/engine/f$c;,
-        Lcom/bumptech/glide/load/engine/f$d;
-    }
-.end annotation
-
-
-# static fields
-.field public static final i:Ljava/lang/String; = "Engine"
-
-.field public static final j:I = 0x96
-
-.field public static final k:Z
-
 
 # instance fields
-.field public final a:Ld6/h;
+.field public final a:Ljava/util/List;
 
-.field public final b:Ld6/f;
+.field public final b:Ljava/util/List;
 
-.field public final c:Lf6/j;
+.field public c:Lcom/bumptech/glide/d;
 
-.field public final d:Lcom/bumptech/glide/load/engine/f$b;
+.field public d:Ljava/lang/Object;
 
-.field public final e:Ld6/l;
+.field public e:I
 
-.field public final f:Lcom/bumptech/glide/load/engine/f$c;
+.field public f:I
 
-.field public final g:Lcom/bumptech/glide/load/engine/f$a;
+.field public g:Ljava/lang/Class;
 
-.field public final h:Lcom/bumptech/glide/load/engine/a;
+.field public h:Lcom/bumptech/glide/load/engine/DecodeJob$e;
+
+.field public i:Lh0/d;
+
+.field public j:Ljava/util/Map;
+
+.field public k:Ljava/lang/Class;
+
+.field public l:Z
+
+.field public m:Z
+
+.field public n:Lh0/b;
+
+.field public o:Lcom/bumptech/glide/Priority;
+
+.field public p:Lcom/bumptech/glide/load/engine/h;
+
+.field public q:Z
+
+.field public r:Z
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 2
-
-    .line 1
-    const-string v0, "Engine"
-
-    .line 2
-    .line 3
-    const/4 v1, 0x2
-
-    .line 4
-    invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
-
-    .line 5
-    .line 6
-    .line 7
-    move-result v0
-
-    .line 8
-    sput-boolean v0, Lcom/bumptech/glide/load/engine/f;->k:Z
-
-    .line 9
-    .line 10
-    return-void
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public constructor <init>(Lf6/j;Lf6/a$a;Lg6/a;Lg6/a;Lg6/a;Lg6/a;Ld6/h;Ld6/f;Lcom/bumptech/glide/load/engine/a;Lcom/bumptech/glide/load/engine/f$b;Lcom/bumptech/glide/load/engine/f$a;Ld6/l;Z)V
-    .locals 8
-    .annotation build Landroidx/annotation/VisibleForTesting;
-    .end annotation
-
-    .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 3
-    iput-object p1, p0, Lcom/bumptech/glide/load/engine/f;->c:Lf6/j;
-
-    .line 4
-    new-instance v0, Lcom/bumptech/glide/load/engine/f$c;
-
-    invoke-direct {v0, p2}, Lcom/bumptech/glide/load/engine/f$c;-><init>(Lf6/a$a;)V
-
-    iput-object v0, p0, Lcom/bumptech/glide/load/engine/f;->f:Lcom/bumptech/glide/load/engine/f$c;
-
-    if-nez p9, :cond_0
-
-    .line 5
-    new-instance p2, Lcom/bumptech/glide/load/engine/a;
-
-    move/from16 v1, p13
-
-    invoke-direct {p2, v1}, Lcom/bumptech/glide/load/engine/a;-><init>(Z)V
-
-    goto :goto_0
-
-    :cond_0
-    move-object/from16 p2, p9
-
-    .line 6
-    :goto_0
-    iput-object p2, p0, Lcom/bumptech/glide/load/engine/f;->h:Lcom/bumptech/glide/load/engine/a;
-
-    .line 7
-    invoke-virtual {p2, p0}, Lcom/bumptech/glide/load/engine/a;->g(Lcom/bumptech/glide/load/engine/h$a;)V
-
-    if-nez p8, :cond_1
-
-    .line 8
-    new-instance p2, Ld6/f;
-
-    invoke-direct {p2}, Ld6/f;-><init>()V
-
-    goto :goto_1
-
-    :cond_1
-    move-object/from16 p2, p8
-
-    .line 9
-    :goto_1
-    iput-object p2, p0, Lcom/bumptech/glide/load/engine/f;->b:Ld6/f;
-
-    if-nez p7, :cond_2
-
-    .line 10
-    new-instance p7, Ld6/h;
-
-    invoke-direct {p7}, Ld6/h;-><init>()V
-
-    .line 11
-    :cond_2
-    iput-object p7, p0, Lcom/bumptech/glide/load/engine/f;->a:Ld6/h;
-
-    if-nez p10, :cond_3
-
-    .line 12
-    new-instance v1, Lcom/bumptech/glide/load/engine/f$b;
-
-    move-object v7, p0
-
-    move-object v6, p0
-
-    move-object v2, p3
-
-    move-object v3, p4
-
-    move-object v4, p5
-
-    move-object v5, p6
-
-    invoke-direct/range {v1 .. v7}, Lcom/bumptech/glide/load/engine/f$b;-><init>(Lg6/a;Lg6/a;Lg6/a;Lg6/a;Ld6/d;Lcom/bumptech/glide/load/engine/h$a;)V
-
-    goto :goto_2
-
-    :cond_3
-    move-object/from16 v1, p10
-
-    .line 13
-    :goto_2
-    iput-object v1, p0, Lcom/bumptech/glide/load/engine/f;->d:Lcom/bumptech/glide/load/engine/f$b;
-
-    if-nez p11, :cond_4
-
-    .line 14
-    new-instance p2, Lcom/bumptech/glide/load/engine/f$a;
-
-    invoke-direct {p2, v0}, Lcom/bumptech/glide/load/engine/f$a;-><init>(Lcom/bumptech/glide/load/engine/DecodeJob$e;)V
-
-    goto :goto_3
-
-    :cond_4
-    move-object/from16 p2, p11
-
-    .line 15
-    :goto_3
-    iput-object p2, p0, Lcom/bumptech/glide/load/engine/f;->g:Lcom/bumptech/glide/load/engine/f$a;
-
-    if-nez p12, :cond_5
-
-    .line 16
-    new-instance p2, Ld6/l;
-
-    invoke-direct {p2}, Ld6/l;-><init>()V
-
-    goto :goto_4
-
-    :cond_5
-    move-object/from16 p2, p12
-
-    .line 17
-    :goto_4
-    iput-object p2, p0, Lcom/bumptech/glide/load/engine/f;->e:Ld6/l;
-
-    .line 18
-    invoke-interface {p1, p0}, Lf6/j;->c(Lf6/j$a;)V
-
-    return-void
-.end method
-
-.method public constructor <init>(Lf6/j;Lf6/a$a;Lg6/a;Lg6/a;Lg6/a;Lg6/a;Z)V
-    .locals 14
-
-    const/4 v11, 0x0
-
-    const/4 v12, 0x0
-
-    const/4 v7, 0x0
-
-    const/4 v8, 0x0
-
-    const/4 v9, 0x0
-
-    const/4 v10, 0x0
-
-    move-object v0, p0
-
-    move-object v1, p1
-
-    move-object/from16 v2, p2
-
-    move-object/from16 v3, p3
-
-    move-object/from16 v4, p4
-
-    move-object/from16 v5, p5
-
-    move-object/from16 v6, p6
-
-    move/from16 v13, p7
-
-    .line 1
-    invoke-direct/range {v0 .. v13}, Lcom/bumptech/glide/load/engine/f;-><init>(Lf6/j;Lf6/a$a;Lg6/a;Lg6/a;Lg6/a;Lg6/a;Ld6/h;Ld6/f;Lcom/bumptech/glide/load/engine/a;Lcom/bumptech/glide/load/engine/f$b;Lcom/bumptech/glide/load/engine/f$a;Ld6/l;Z)V
-
-    return-void
-.end method
-
-.method public static k(Ljava/lang/String;JLa6/b;)V
+.method public constructor <init>()V
     .locals 1
 
     .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
     .line 4
+    new-instance v0, Ljava/util/ArrayList;
+
     .line 5
     .line 6
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    const-string p0, " in "
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/f;->a:Ljava/util/List;
 
     .line 10
     .line 11
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    new-instance v0, Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    .line 14
-    invoke-static {p1, p2}, Ly6/h;->a(J)D
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
+    .line 14
     .line 15
     .line 16
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/f;->b:Ljava/util/List;
+
     .line 17
-    move-result-wide p0
-
     .line 18
-    invoke-virtual {v0, p0, p1}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
-
+    return-void
     .line 19
     .line 20
     .line 21
-    const-string p0, "ms, key: "
-
     .line 22
-    .line 23
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 24
-    .line 25
-    .line 26
-    invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    .line 27
-    .line 28
-    .line 29
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 30
-    .line 31
-    .line 32
-    move-result-object p0
-
-    .line 33
-    const-string p1, "Engine"
-
-    .line 34
-    .line 35
-    invoke-static {p1, p0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 36
-    .line 37
-    .line 38
-    return-void
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
 # virtual methods
-.method public a(Ld6/j;)V
+.method public a()V
     .locals 2
-    .param p1    # Ld6/j;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ld6/j<",
-            "*>;)V"
-        }
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->e:Ld6/l;
+    const/4 v0, 0x0
 
     .line 2
-    .line 3
-    const/4 v1, 0x1
-
-    .line 4
-    invoke-virtual {v0, p1, v1}, Ld6/l;->a(Ld6/j;Z)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public declared-synchronized b(Lcom/bumptech/glide/load/engine/g;La6/b;)V
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/bumptech/glide/load/engine/g<",
-            "*>;",
-            "La6/b;",
-            ")V"
-        }
-    .end annotation
-
-    .line 1
-    monitor-enter p0
-
-    .line 2
-    :try_start_0
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->a:Ld6/h;
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/f;->c:Lcom/bumptech/glide/d;
 
     .line 3
     .line 4
-    invoke-virtual {v0, p2, p1}, Ld6/h;->e(La6/b;Lcom/bumptech/glide/load/engine/g;)V
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/f;->d:Ljava/lang/Object;
 
     .line 5
     .line 6
-    .line 7
-    monitor-exit p0
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/f;->n:Lh0/b;
 
+    .line 7
     .line 8
-    return-void
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/f;->g:Ljava/lang/Class;
 
     .line 9
-    :catchall_0
-    move-exception p1
-
     .line 10
-    :try_start_1
-    monitor-exit p0
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/f;->k:Ljava/lang/Class;
 
     .line 11
-    throw p1
     .line 12
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/f;->i:Lh0/d;
+
     .line 13
     .line 14
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/f;->o:Lcom/bumptech/glide/Priority;
+
     .line 15
     .line 16
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/f;->j:Ljava/util/Map;
+
     .line 17
     .line 18
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/f;->p:Lcom/bumptech/glide/load/engine/h;
+
     .line 19
     .line 20
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->a:Ljava/util/List;
+
     .line 21
     .line 22
+    invoke-interface {v0}, Ljava/util/List;->clear()V
+
     .line 23
     .line 24
     .line 25
+    const/4 v0, 0x0
+
     .line 26
+    iput-boolean v0, p0, Lcom/bumptech/glide/load/engine/f;->l:Z
+
     .line 27
     .line 28
+    iget-object v1, p0, Lcom/bumptech/glide/load/engine/f;->b:Ljava/util/List;
+
     .line 29
     .line 30
+    invoke-interface {v1}, Ljava/util/List;->clear()V
+
     .line 31
     .line 32
     .line 33
+    iput-boolean v0, p0, Lcom/bumptech/glide/load/engine/f;->m:Z
+
     .line 34
     .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-.end method
-
-.method public declared-synchronized c(Lcom/bumptech/glide/load/engine/g;La6/b;Lcom/bumptech/glide/load/engine/h;)V
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/bumptech/glide/load/engine/g<",
-            "*>;",
-            "La6/b;",
-            "Lcom/bumptech/glide/load/engine/h<",
-            "*>;)V"
-        }
-    .end annotation
-
-    .line 1
-    monitor-enter p0
-
-    .line 2
-    if-eqz p3, :cond_0
-
-    .line 3
-    .line 4
-    :try_start_0
-    invoke-virtual {p3}, Lcom/bumptech/glide/load/engine/h;->d()Z
-
-    .line 5
-    .line 6
-    .line 7
-    move-result v0
-
-    .line 8
-    if-eqz v0, :cond_0
-
-    .line 9
-    .line 10
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->h:Lcom/bumptech/glide/load/engine/a;
-
-    .line 11
-    .line 12
-    invoke-virtual {v0, p2, p3}, Lcom/bumptech/glide/load/engine/a;->a(La6/b;Lcom/bumptech/glide/load/engine/h;)V
-
-    .line 13
-    .line 14
-    .line 15
-    goto :goto_0
-
-    .line 16
-    :catchall_0
-    move-exception p1
-
-    .line 17
-    goto :goto_1
-
-    .line 18
-    :cond_0
-    :goto_0
-    iget-object p3, p0, Lcom/bumptech/glide/load/engine/f;->a:Ld6/h;
-
-    .line 19
-    .line 20
-    invoke-virtual {p3, p2, p1}, Ld6/h;->e(La6/b;Lcom/bumptech/glide/load/engine/g;)V
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 21
-    .line 22
-    .line 23
-    monitor-exit p0
-
-    .line 24
     return-void
-
-    .line 25
-    :goto_1
-    :try_start_1
-    monitor-exit p0
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 26
-    throw p1
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
     .line 36
     .line 37
     .line 38
@@ -747,6 +224,1123 @@
     .line 98
     .line 99
     .line 100
+.end method
+
+.method public b()Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->c:Lcom/bumptech/glide/d;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/bumptech/glide/d;->b()Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    return-object v0
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public c()Ljava/util/List;
+    .locals 8
+
+    .line 1
+    iget-boolean v0, p0, Lcom/bumptech/glide/load/engine/f;->m:Z
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_3
+
+    .line 4
+    .line 5
+    const/4 v0, 0x1
+
+    .line 6
+    iput-boolean v0, p0, Lcom/bumptech/glide/load/engine/f;->m:Z
+
+    .line 7
+    .line 8
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->b:Ljava/util/List;
+
+    .line 9
+    .line 10
+    invoke-interface {v0}, Ljava/util/List;->clear()V
+
+    .line 11
+    .line 12
+    .line 13
+    invoke-virtual {p0}, Lcom/bumptech/glide/load/engine/f;->g()Ljava/util/List;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v0
+
+    .line 17
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    .line 18
+    .line 19
+    .line 20
+    move-result v1
+
+    .line 21
+    const/4 v2, 0x0
+
+    .line 22
+    move v3, v2
+
+    .line 23
+    :goto_0
+    if-ge v3, v1, :cond_3
+
+    .line 24
+    .line 25
+    invoke-interface {v0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-object v4
+
+    .line 29
+    check-cast v4, Ll0/n$a;
+
+    .line 30
+    .line 31
+    iget-object v5, p0, Lcom/bumptech/glide/load/engine/f;->b:Ljava/util/List;
+
+    .line 32
+    .line 33
+    iget-object v6, v4, Ll0/n$a;->a:Lh0/b;
+
+    .line 34
+    .line 35
+    invoke-interface {v5, v6}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+
+    .line 36
+    .line 37
+    .line 38
+    move-result v5
+
+    .line 39
+    if-nez v5, :cond_0
+
+    .line 40
+    .line 41
+    iget-object v5, p0, Lcom/bumptech/glide/load/engine/f;->b:Ljava/util/List;
+
+    .line 42
+    .line 43
+    iget-object v6, v4, Ll0/n$a;->a:Lh0/b;
+
+    .line 44
+    .line 45
+    invoke-interface {v5, v6}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 46
+    .line 47
+    .line 48
+    :cond_0
+    move v5, v2
+
+    .line 49
+    :goto_1
+    iget-object v6, v4, Ll0/n$a;->b:Ljava/util/List;
+
+    .line 50
+    .line 51
+    invoke-interface {v6}, Ljava/util/List;->size()I
+
+    .line 52
+    .line 53
+    .line 54
+    move-result v6
+
+    .line 55
+    if-ge v5, v6, :cond_2
+
+    .line 56
+    .line 57
+    iget-object v6, p0, Lcom/bumptech/glide/load/engine/f;->b:Ljava/util/List;
+
+    .line 58
+    .line 59
+    iget-object v7, v4, Ll0/n$a;->b:Ljava/util/List;
+
+    .line 60
+    .line 61
+    invoke-interface {v7, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 62
+    .line 63
+    .line 64
+    move-result-object v7
+
+    .line 65
+    invoke-interface {v6, v7}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+
+    .line 66
+    .line 67
+    .line 68
+    move-result v6
+
+    .line 69
+    if-nez v6, :cond_1
+
+    .line 70
+    .line 71
+    iget-object v6, p0, Lcom/bumptech/glide/load/engine/f;->b:Ljava/util/List;
+
+    .line 72
+    .line 73
+    iget-object v7, v4, Ll0/n$a;->b:Ljava/util/List;
+
+    .line 74
+    .line 75
+    invoke-interface {v7, v5}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 76
+    .line 77
+    .line 78
+    move-result-object v7
+
+    .line 79
+    invoke-interface {v6, v7}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 80
+    .line 81
+    .line 82
+    :cond_1
+    add-int/lit8 v5, v5, 0x1
+
+    .line 83
+    .line 84
+    goto :goto_1
+
+    .line 85
+    :cond_2
+    add-int/lit8 v3, v3, 0x1
+
+    .line 86
+    .line 87
+    goto :goto_0
+
+    .line 88
+    :cond_3
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->b:Ljava/util/List;
+
+    .line 89
+    .line 90
+    return-object v0
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+.end method
+
+.method public d()Lj0/a;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->h:Lcom/bumptech/glide/load/engine/DecodeJob$e;
+
+    .line 2
+    .line 3
+    invoke-interface {v0}, Lcom/bumptech/glide/load/engine/DecodeJob$e;->a()Lj0/a;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    return-object v0
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public e()Lcom/bumptech/glide/load/engine/h;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->p:Lcom/bumptech/glide/load/engine/h;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public f()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/bumptech/glide/load/engine/f;->f:I
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public g()Ljava/util/List;
+    .locals 8
+
+    .line 1
+    iget-boolean v0, p0, Lcom/bumptech/glide/load/engine/f;->l:Z
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_1
+
+    .line 4
+    .line 5
+    const/4 v0, 0x1
+
+    .line 6
+    iput-boolean v0, p0, Lcom/bumptech/glide/load/engine/f;->l:Z
+
+    .line 7
+    .line 8
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->a:Ljava/util/List;
+
+    .line 9
+    .line 10
+    invoke-interface {v0}, Ljava/util/List;->clear()V
+
+    .line 11
+    .line 12
+    .line 13
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->c:Lcom/bumptech/glide/d;
+
+    .line 14
+    .line 15
+    invoke-virtual {v0}, Lcom/bumptech/glide/d;->i()Lcom/bumptech/glide/Registry;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    iget-object v1, p0, Lcom/bumptech/glide/load/engine/f;->d:Ljava/lang/Object;
+
+    .line 20
+    .line 21
+    invoke-virtual {v0, v1}, Lcom/bumptech/glide/Registry;->i(Ljava/lang/Object;)Ljava/util/List;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object v0
+
+    .line 25
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    .line 26
+    .line 27
+    .line 28
+    move-result v1
+
+    .line 29
+    const/4 v2, 0x0
+
+    .line 30
+    :goto_0
+    if-ge v2, v1, :cond_1
+
+    .line 31
+    .line 32
+    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 33
+    .line 34
+    .line 35
+    move-result-object v3
+
+    .line 36
+    check-cast v3, Ll0/n;
+
+    .line 37
+    .line 38
+    iget-object v4, p0, Lcom/bumptech/glide/load/engine/f;->d:Ljava/lang/Object;
+
+    .line 39
+    .line 40
+    iget v5, p0, Lcom/bumptech/glide/load/engine/f;->e:I
+
+    .line 41
+    .line 42
+    iget v6, p0, Lcom/bumptech/glide/load/engine/f;->f:I
+
+    .line 43
+    .line 44
+    iget-object v7, p0, Lcom/bumptech/glide/load/engine/f;->i:Lh0/d;
+
+    .line 45
+    .line 46
+    invoke-interface {v3, v4, v5, v6, v7}, Ll0/n;->b(Ljava/lang/Object;IILh0/d;)Ll0/n$a;
+
+    .line 47
+    .line 48
+    .line 49
+    move-result-object v3
+
+    .line 50
+    if-eqz v3, :cond_0
+
+    .line 51
+    .line 52
+    iget-object v4, p0, Lcom/bumptech/glide/load/engine/f;->a:Ljava/util/List;
+
+    .line 53
+    .line 54
+    invoke-interface {v4, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 55
+    .line 56
+    .line 57
+    :cond_0
+    add-int/lit8 v2, v2, 0x1
+
+    .line 58
+    .line 59
+    goto :goto_0
+
+    .line 60
+    :cond_1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->a:Ljava/util/List;
+
+    .line 61
+    .line 62
+    return-object v0
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+.end method
+
+.method public h(Ljava/lang/Class;)Lcom/bumptech/glide/load/engine/q;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->c:Lcom/bumptech/glide/d;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/bumptech/glide/d;->i()Lcom/bumptech/glide/Registry;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    iget-object v1, p0, Lcom/bumptech/glide/load/engine/f;->g:Ljava/lang/Class;
+
+    .line 8
+    .line 9
+    iget-object v2, p0, Lcom/bumptech/glide/load/engine/f;->k:Ljava/lang/Class;
+
+    .line 10
+    .line 11
+    invoke-virtual {v0, p1, v1, v2}, Lcom/bumptech/glide/Registry;->h(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;)Lcom/bumptech/glide/load/engine/q;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p1
+
+    .line 15
+    return-object p1
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public i()Ljava/lang/Class;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->d:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    return-object v0
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public j(Ljava/io/File;)Ljava/util/List;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->c:Lcom/bumptech/glide/d;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/bumptech/glide/d;->i()Lcom/bumptech/glide/Registry;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/Registry;->i(Ljava/lang/Object;)Ljava/util/List;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p1
+
+    .line 11
+    return-object p1
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public k()Lh0/d;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->i:Lh0/d;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public l()Lcom/bumptech/glide/Priority;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->o:Lcom/bumptech/glide/Priority;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public m()Ljava/util/List;
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->c:Lcom/bumptech/glide/d;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/bumptech/glide/d;->i()Lcom/bumptech/glide/Registry;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    iget-object v1, p0, Lcom/bumptech/glide/load/engine/f;->d:Ljava/lang/Object;
+
+    .line 8
+    .line 9
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v1
+
+    .line 13
+    iget-object v2, p0, Lcom/bumptech/glide/load/engine/f;->g:Ljava/lang/Class;
+
+    .line 14
+    .line 15
+    iget-object v3, p0, Lcom/bumptech/glide/load/engine/f;->k:Ljava/lang/Class;
+
+    .line 16
+    .line 17
+    invoke-virtual {v0, v1, v2, v3}, Lcom/bumptech/glide/Registry;->j(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v0
+
+    .line 21
+    return-object v0
+    .line 22
+.end method
+
+.method public n(Lcom/bumptech/glide/load/engine/s;)Lh0/f;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->c:Lcom/bumptech/glide/d;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/bumptech/glide/d;->i()Lcom/bumptech/glide/Registry;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/Registry;->k(Lcom/bumptech/glide/load/engine/s;)Lh0/f;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p1
+
+    .line 11
+    return-object p1
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public o(Ljava/lang/Object;)Lcom/bumptech/glide/load/data/e;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->c:Lcom/bumptech/glide/d;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/bumptech/glide/d;->i()Lcom/bumptech/glide/Registry;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/Registry;->l(Ljava/lang/Object;)Lcom/bumptech/glide/load/data/e;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p1
+
+    .line 11
+    return-object p1
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public p()Lh0/b;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->n:Lh0/b;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public q(Ljava/lang/Object;)Lh0/a;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->c:Lcom/bumptech/glide/d;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/bumptech/glide/d;->i()Lcom/bumptech/glide/Registry;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/Registry;->m(Ljava/lang/Object;)Lh0/a;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object p1
+
+    .line 11
+    return-object p1
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public r()Ljava/lang/Class;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->k:Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public s(Ljava/lang/Class;)Lh0/g;
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->j:Ljava/util/Map;
+
+    .line 2
+    .line 3
+    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    check-cast v0, Lh0/g;
+
+    .line 8
+    .line 9
+    if-nez v0, :cond_1
+
+    .line 10
+    .line 11
+    iget-object v1, p0, Lcom/bumptech/glide/load/engine/f;->j:Ljava/util/Map;
+
+    .line 12
+    .line 13
+    invoke-interface {v1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v1
+
+    .line 17
+    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v1
+
+    .line 21
+    :cond_0
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+
+    .line 22
+    .line 23
+    .line 24
+    move-result v2
+
+    .line 25
+    if-eqz v2, :cond_1
+
+    .line 26
+    .line 27
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 28
+    .line 29
+    .line 30
+    move-result-object v2
+
+    .line 31
+    check-cast v2, Ljava/util/Map$Entry;
+
+    .line 32
+    .line 33
+    invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    .line 34
+    .line 35
+    .line 36
+    move-result-object v3
+
+    .line 37
+    check-cast v3, Ljava/lang/Class;
+
+    .line 38
+    .line 39
+    invoke-virtual {v3, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
+
+    .line 40
+    .line 41
+    .line 42
+    move-result v3
+
+    .line 43
+    if-eqz v3, :cond_0
+
+    .line 44
+    .line 45
+    invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    .line 46
+    .line 47
+    .line 48
+    move-result-object v0
+
+    .line 49
+    check-cast v0, Lh0/g;
+
+    .line 50
+    .line 51
+    :cond_1
+    if-nez v0, :cond_4
+
+    .line 52
+    .line 53
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->j:Ljava/util/Map;
+
+    .line 54
+    .line 55
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
+
+    .line 56
+    .line 57
+    .line 58
+    move-result v0
+
+    .line 59
+    if-eqz v0, :cond_3
+
+    .line 60
+    .line 61
+    iget-boolean v0, p0, Lcom/bumptech/glide/load/engine/f;->q:Z
+
+    .line 62
+    .line 63
+    if-nez v0, :cond_2
+
+    .line 64
+    .line 65
+    goto :goto_0
+
+    .line 66
+    :cond_2
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    .line 67
+    .line 68
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    .line 69
+    .line 70
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 71
+    .line 72
+    .line 73
+    const-string v2, "Missing transformation for "
+
+    .line 74
+    .line 75
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 76
+    .line 77
+    .line 78
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 79
+    .line 80
+    .line 81
+    const-string p1, ". If you wish to ignore unknown resource types, use the optional transformation methods."
+
+    .line 82
+    .line 83
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 84
+    .line 85
+    .line 86
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 87
+    .line 88
+    .line 89
+    move-result-object p1
+
+    .line 90
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    .line 91
+    .line 92
+    .line 93
+    throw v0
+
+    .line 94
+    :cond_3
+    :goto_0
+    invoke-static {}, Ln0/l;->c()Ln0/l;
+
+    .line 95
+    .line 96
+    .line 97
+    move-result-object p1
+
+    .line 98
+    return-object p1
+
+    .line 99
+    :cond_4
+    return-object v0
+    .line 100
     .line 101
     .line 102
     .line 103
@@ -799,223 +1393,430 @@
     .line 150
     .line 151
     .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
-.method public d(La6/b;Lcom/bumptech/glide/load/engine/h;)V
+.method public t()I
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "La6/b;",
-            "Lcom/bumptech/glide/load/engine/h<",
-            "*>;)V"
-        }
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->h:Lcom/bumptech/glide/load/engine/a;
+    iget v0, p0, Lcom/bumptech/glide/load/engine/f;->e:I
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/load/engine/a;->d(La6/b;)V
-
+    return v0
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p2}, Lcom/bumptech/glide/load/engine/h;->d()Z
-
     .line 7
     .line 8
     .line 9
-    move-result v0
-
     .line 10
-    if-eqz v0, :cond_0
-
     .line 11
     .line 12
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->c:Lf6/j;
-
     .line 13
     .line 14
-    invoke-interface {v0, p1, p2}, Lf6/j;->e(La6/b;Ld6/j;)Ld6/j;
-
     .line 15
     .line 16
     .line 17
-    return-void
-
     .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public u(Ljava/lang/Class;)Z
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/engine/f;->h(Ljava/lang/Class;)Lcom/bumptech/glide/load/engine/q;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    if-eqz p1, :cond_0
+
+    .line 6
+    .line 7
+    const/4 p1, 0x1
+
+    .line 8
+    return p1
+
+    .line 9
     :cond_0
-    iget-object p1, p0, Lcom/bumptech/glide/load/engine/f;->e:Ld6/l;
-
-    .line 19
-    .line 20
-    const/4 v0, 0x0
-
-    .line 21
-    invoke-virtual {p1, p2, v0}, Ld6/l;->a(Ld6/j;Z)V
-
-    .line 22
-    .line 23
-    .line 24
-    return-void
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-.end method
-
-.method public e()V
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->f:Lcom/bumptech/glide/load/engine/f$c;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0}, Lcom/bumptech/glide/load/engine/f$c;->a()Lf6/a;
-
-    .line 4
-    .line 5
-    .line 6
-    move-result-object v0
-
-    .line 7
-    invoke-interface {v0}, Lf6/a;->clear()V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public final f(La6/b;)Lcom/bumptech/glide/load/engine/h;
-    .locals 7
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "La6/b;",
-            ")",
-            "Lcom/bumptech/glide/load/engine/h<",
-            "*>;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->c:Lf6/j;
-
-    .line 2
-    .line 3
-    invoke-interface {v0, p1}, Lf6/j;->f(La6/b;)Ld6/j;
-
-    .line 4
-    .line 5
-    .line 6
-    move-result-object v2
-
-    .line 7
-    if-nez v2, :cond_0
-
-    .line 8
-    .line 9
     const/4 p1, 0x0
 
     .line 10
-    return-object p1
-
+    return p1
     .line 11
-    :cond_0
-    instance-of v0, v2, Lcom/bumptech/glide/load/engine/h;
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public v(Lcom/bumptech/glide/d;Ljava/lang/Object;Lh0/b;IILcom/bumptech/glide/load/engine/h;Ljava/lang/Class;Ljava/lang/Class;Lcom/bumptech/glide/Priority;Lh0/d;Ljava/util/Map;ZZLcom/bumptech/glide/load/engine/DecodeJob$e;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/bumptech/glide/load/engine/f;->c:Lcom/bumptech/glide/d;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, Lcom/bumptech/glide/load/engine/f;->d:Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    iput-object p3, p0, Lcom/bumptech/glide/load/engine/f;->n:Lh0/b;
+
+    .line 6
+    .line 7
+    iput p4, p0, Lcom/bumptech/glide/load/engine/f;->e:I
+
+    .line 8
+    .line 9
+    iput p5, p0, Lcom/bumptech/glide/load/engine/f;->f:I
+
+    .line 10
+    .line 11
+    iput-object p6, p0, Lcom/bumptech/glide/load/engine/f;->p:Lcom/bumptech/glide/load/engine/h;
 
     .line 12
     .line 13
-    if-eqz v0, :cond_1
+    iput-object p7, p0, Lcom/bumptech/glide/load/engine/f;->g:Ljava/lang/Class;
 
     .line 14
     .line 15
-    check-cast v2, Lcom/bumptech/glide/load/engine/h;
+    iput-object p14, p0, Lcom/bumptech/glide/load/engine/f;->h:Lcom/bumptech/glide/load/engine/DecodeJob$e;
 
     .line 16
     .line 17
-    return-object v2
+    iput-object p8, p0, Lcom/bumptech/glide/load/engine/f;->k:Ljava/lang/Class;
 
     .line 18
-    :cond_1
-    new-instance v1, Lcom/bumptech/glide/load/engine/h;
-
     .line 19
-    .line 20
-    const/4 v3, 0x1
+    iput-object p9, p0, Lcom/bumptech/glide/load/engine/f;->o:Lcom/bumptech/glide/Priority;
 
+    .line 20
     .line 21
-    const/4 v4, 0x1
+    iput-object p10, p0, Lcom/bumptech/glide/load/engine/f;->i:Lh0/d;
 
     .line 22
-    move-object v6, p0
-
     .line 23
-    move-object v5, p1
+    iput-object p11, p0, Lcom/bumptech/glide/load/engine/f;->j:Ljava/util/Map;
 
     .line 24
-    invoke-direct/range {v1 .. v6}, Lcom/bumptech/glide/load/engine/h;-><init>(Ld6/j;ZZLa6/b;Lcom/bumptech/glide/load/engine/h$a;)V
-
     .line 25
+    iput-boolean p12, p0, Lcom/bumptech/glide/load/engine/f;->q:Z
+
     .line 26
     .line 27
-    return-object v1
+    iput-boolean p13, p0, Lcom/bumptech/glide/load/engine/f;->r:Z
+
     .line 28
     .line 29
+    return-void
     .line 30
     .line 31
     .line 32
@@ -1067,396 +1868,158 @@
     .line 78
     .line 79
     .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public g(Lcom/bumptech/glide/c;Ljava/lang/Object;La6/b;IILjava/lang/Class;Ljava/lang/Class;Lcom/bumptech/glide/Priority;Ld6/c;Ljava/util/Map;ZZLa6/e;ZZZZLu6/h;Ljava/util/concurrent/Executor;)Lcom/bumptech/glide/load/engine/f$d;
-    .locals 25
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<R:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lcom/bumptech/glide/c;",
-            "Ljava/lang/Object;",
-            "La6/b;",
-            "II",
-            "Ljava/lang/Class<",
-            "*>;",
-            "Ljava/lang/Class<",
-            "TR;>;",
-            "Lcom/bumptech/glide/Priority;",
-            "Ld6/c;",
-            "Ljava/util/Map<",
-            "Ljava/lang/Class<",
-            "*>;",
-            "La6/h<",
-            "*>;>;ZZ",
-            "La6/e;",
-            "ZZZZ",
-            "Lu6/h;",
-            "Ljava/util/concurrent/Executor;",
-            ")",
-            "Lcom/bumptech/glide/load/engine/f$d;"
-        }
-    .end annotation
-
-    move-object/from16 v2, p0
+.method public w(Lcom/bumptech/glide/load/engine/s;)Z
+    .locals 1
 
     .line 1
-    sget-boolean v0, Lcom/bumptech/glide/load/engine/f;->k:Z
-
-    if-eqz v0, :cond_0
-
-    invoke-static {}, Ly6/h;->b()J
-
-    move-result-wide v0
-
-    goto :goto_0
-
-    :cond_0
-    const-wide/16 v0, 0x0
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->c:Lcom/bumptech/glide/d;
 
     .line 2
-    :goto_0
-    iget-object v3, v2, Lcom/bumptech/glide/load/engine/f;->b:Ld6/f;
-
-    move-object/from16 v4, p2
-
-    move-object/from16 v5, p3
-
-    move/from16 v6, p4
-
-    move/from16 v7, p5
-
-    move-object/from16 v9, p6
-
-    move-object/from16 v10, p7
-
-    move-object/from16 v8, p10
-
-    move-object/from16 v11, p13
-
     .line 3
-    invoke-virtual/range {v3 .. v11}, Ld6/f;->a(Ljava/lang/Object;La6/b;IILjava/util/Map;Ljava/lang/Class;Ljava/lang/Class;La6/e;)Ld6/e;
-
-    move-result-object v3
+    invoke-virtual {v0}, Lcom/bumptech/glide/d;->i()Lcom/bumptech/glide/Registry;
 
     .line 4
-    monitor-enter p0
-
-    move/from16 v4, p14
-
     .line 5
-    :try_start_0
-    invoke-virtual {v2, v3, v4, v0, v1}, Lcom/bumptech/glide/load/engine/f;->j(Ld6/e;ZJ)Lcom/bumptech/glide/load/engine/h;
-
-    move-result-object v5
-
-    if-nez v5, :cond_1
-
-    move-object/from16 v5, p3
-
-    move/from16 v6, p4
-
-    move/from16 v7, p5
-
-    move-object/from16 v8, p6
-
-    move-object/from16 v9, p7
-
-    move-object/from16 v10, p8
-
-    move-object/from16 v11, p9
-
-    move-object/from16 v12, p10
-
-    move/from16 v13, p11
-
-    move/from16 v14, p12
-
-    move-object/from16 v15, p13
-
-    move/from16 v17, p15
-
-    move/from16 v18, p16
-
-    move/from16 v19, p17
-
-    move-object/from16 v20, p18
-
-    move-object/from16 v21, p19
-
-    move-wide/from16 v23, v0
-
-    move-object/from16 v22, v3
-
-    move/from16 v16, v4
-
-    move-object/from16 v3, p1
-
-    move-object/from16 v4, p2
-
     .line 6
-    invoke-virtual/range {v2 .. v24}, Lcom/bumptech/glide/load/engine/f;->n(Lcom/bumptech/glide/c;Ljava/lang/Object;La6/b;IILjava/lang/Class;Ljava/lang/Class;Lcom/bumptech/glide/Priority;Ld6/c;Ljava/util/Map;ZZLa6/e;ZZZZLu6/h;Ljava/util/concurrent/Executor;Ld6/e;J)Lcom/bumptech/glide/load/engine/f$d;
-
     move-result-object v0
 
-    monitor-exit p0
-
-    return-object v0
-
-    :catchall_0
-    move-exception v0
-
-    goto :goto_1
-
-    :cond_1
-    move-object v0, v5
-
     .line 7
-    monitor-exit p0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/Registry;->n(Lcom/bumptech/glide/load/engine/s;)Z
 
     .line 8
-    sget-object v1, Lcom/bumptech/glide/load/DataSource;->MEMORY_CACHE:Lcom/bumptech/glide/load/DataSource;
+    .line 9
+    .line 10
+    move-result p1
 
+    .line 11
+    return p1
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public x()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lcom/bumptech/glide/load/engine/f;->r:Z
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public y(Lh0/b;)Z
+    .locals 5
+
+    .line 1
+    invoke-virtual {p0}, Lcom/bumptech/glide/load/engine/f;->g()Ljava/util/List;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v1
+
+    .line 9
     const/4 v2, 0x0
 
-    move-object/from16 v3, p18
-
-    invoke-interface {v3, v0, v1, v2}, Lu6/h;->b(Ld6/j;Lcom/bumptech/glide/load/DataSource;Z)V
-
-    const/4 v0, 0x0
-
-    return-object v0
-
-    .line 9
-    :goto_1
-    :try_start_1
-    monitor-exit p0
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    throw v0
-.end method
-
-.method public final h(La6/b;)Lcom/bumptech/glide/load/engine/h;
-    .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "La6/b;",
-            ")",
-            "Lcom/bumptech/glide/load/engine/h<",
-            "*>;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->h:Lcom/bumptech/glide/load/engine/a;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/load/engine/a;->e(La6/b;)Lcom/bumptech/glide/load/engine/h;
-
-    .line 4
-    .line 5
-    .line 6
-    move-result-object p1
-
-    .line 7
-    if-eqz p1, :cond_0
-
-    .line 8
-    .line 9
-    invoke-virtual {p1}, Lcom/bumptech/glide/load/engine/h;->b()V
-
     .line 10
-    .line 11
-    .line 12
-    :cond_0
-    return-object p1
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public final i(La6/b;)Lcom/bumptech/glide/load/engine/h;
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "La6/b;",
-            ")",
-            "Lcom/bumptech/glide/load/engine/h<",
-            "*>;"
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/engine/f;->f(La6/b;)Lcom/bumptech/glide/load/engine/h;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
-
-    .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    invoke-virtual {v0}, Lcom/bumptech/glide/load/engine/h;->b()V
-
-    .line 8
-    .line 9
-    .line 10
-    iget-object v1, p0, Lcom/bumptech/glide/load/engine/f;->h:Lcom/bumptech/glide/load/engine/a;
+    move v3, v2
 
     .line 11
-    .line 12
-    invoke-virtual {v1, p1, v0}, Lcom/bumptech/glide/load/engine/a;->a(La6/b;Lcom/bumptech/glide/load/engine/h;)V
-
-    .line 13
-    .line 14
-    .line 15
-    :cond_0
-    return-object v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public final j(Ld6/e;ZJ)Lcom/bumptech/glide/load/engine/h;
-    .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ld6/e;",
-            "ZJ)",
-            "Lcom/bumptech/glide/load/engine/h<",
-            "*>;"
-        }
-    .end annotation
-
-    .line 1
-    const/4 v0, 0x0
-
-    .line 2
-    if-nez p2, :cond_0
-
-    .line 3
-    .line 4
-    return-object v0
-
-    .line 5
-    :cond_0
-    invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/engine/f;->h(La6/b;)Lcom/bumptech/glide/load/engine/h;
-
-    .line 6
-    .line 7
-    .line 8
-    move-result-object p2
-
-    .line 9
-    if-eqz p2, :cond_2
-
-    .line 10
-    .line 11
-    sget-boolean v0, Lcom/bumptech/glide/load/engine/f;->k:Z
+    :goto_0
+    if-ge v3, v1, :cond_1
 
     .line 12
     .line 13
-    if-eqz v0, :cond_1
+    invoke-interface {v0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
-    const-string v0, "Loaded resource from active resources"
-
     .line 16
+    move-result-object v4
+
     .line 17
-    invoke-static {v0, p3, p4, p1}, Lcom/bumptech/glide/load/engine/f;->k(Ljava/lang/String;JLa6/b;)V
+    check-cast v4, Ll0/n$a;
 
     .line 18
     .line 19
-    .line 20
-    :cond_1
-    return-object p2
+    iget-object v4, v4, Ll0/n$a;->a:Lh0/b;
 
+    .line 20
     .line 21
-    :cond_2
-    invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/engine/f;->i(La6/b;)Lcom/bumptech/glide/load/engine/h;
+    invoke-interface {v4, p1}, Lh0/b;->equals(Ljava/lang/Object;)Z
 
     .line 22
     .line 23
     .line 24
-    move-result-object p2
+    move-result v4
 
     .line 25
-    if-eqz p2, :cond_4
+    if-eqz v4, :cond_0
 
     .line 26
     .line 27
-    sget-boolean v0, Lcom/bumptech/glide/load/engine/f;->k:Z
+    const/4 p1, 0x1
 
     .line 28
+    return p1
+
     .line 29
-    if-eqz v0, :cond_3
+    :cond_0
+    add-int/lit8 v3, v3, 0x1
 
     .line 30
     .line 31
-    const-string v0, "Loaded resource from cache"
+    goto :goto_0
 
     .line 32
+    :cond_1
+    return v2
     .line 33
-    invoke-static {v0, p3, p4, p1}, Lcom/bumptech/glide/load/engine/f;->k(Ljava/lang/String;JLa6/b;)V
-
     .line 34
     .line 35
     .line 36
-    :cond_3
-    return-object p2
-
     .line 37
-    :cond_4
-    return-object v0
     .line 38
     .line 39
     .line 40
@@ -1511,326 +2074,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-.end method
-
-.method public l(Ld6/j;)V
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ld6/j<",
-            "*>;)V"
-        }
-    .end annotation
-
-    .line 1
-    instance-of v0, p1, Lcom/bumptech/glide/load/engine/h;
-
-    .line 2
-    .line 3
-    if-eqz v0, :cond_0
-
-    .line 4
-    .line 5
-    check-cast p1, Lcom/bumptech/glide/load/engine/h;
-
-    .line 6
-    .line 7
-    invoke-virtual {p1}, Lcom/bumptech/glide/load/engine/h;->e()V
-
-    .line 8
-    .line 9
-    .line 10
-    return-void
-
-    .line 11
-    :cond_0
-    new-instance p1, Ljava/lang/IllegalArgumentException;
-
-    .line 12
-    .line 13
-    const-string v0, "Cannot release anything but an EngineResource"
-
-    .line 14
-    .line 15
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    .line 16
-    .line 17
-    .line 18
-    throw p1
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public m()V
-    .locals 1
-    .annotation build Landroidx/annotation/VisibleForTesting;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->d:Lcom/bumptech/glide/load/engine/f$b;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0}, Lcom/bumptech/glide/load/engine/f$b;->b()V
-
-    .line 4
-    .line 5
-    .line 6
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->f:Lcom/bumptech/glide/load/engine/f$c;
-
-    .line 7
-    .line 8
-    invoke-virtual {v0}, Lcom/bumptech/glide/load/engine/f$c;->b()V
-
-    .line 9
-    .line 10
-    .line 11
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/f;->h:Lcom/bumptech/glide/load/engine/a;
-
-    .line 12
-    .line 13
-    invoke-virtual {v0}, Lcom/bumptech/glide/load/engine/a;->h()V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public final n(Lcom/bumptech/glide/c;Ljava/lang/Object;La6/b;IILjava/lang/Class;Ljava/lang/Class;Lcom/bumptech/glide/Priority;Ld6/c;Ljava/util/Map;ZZLa6/e;ZZZZLu6/h;Ljava/util/concurrent/Executor;Ld6/e;J)Lcom/bumptech/glide/load/engine/f$d;
-    .locals 20
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<R:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lcom/bumptech/glide/c;",
-            "Ljava/lang/Object;",
-            "La6/b;",
-            "II",
-            "Ljava/lang/Class<",
-            "*>;",
-            "Ljava/lang/Class<",
-            "TR;>;",
-            "Lcom/bumptech/glide/Priority;",
-            "Ld6/c;",
-            "Ljava/util/Map<",
-            "Ljava/lang/Class<",
-            "*>;",
-            "La6/h<",
-            "*>;>;ZZ",
-            "La6/e;",
-            "ZZZZ",
-            "Lu6/h;",
-            "Ljava/util/concurrent/Executor;",
-            "Ld6/e;",
-            "J)",
-            "Lcom/bumptech/glide/load/engine/f$d;"
-        }
-    .end annotation
-
-    move-object/from16 v0, p0
-
-    move-object/from16 v1, p18
-
-    move-object/from16 v2, p19
-
-    move-object/from16 v4, p20
-
-    move-wide/from16 v9, p21
-
-    .line 1
-    iget-object v3, v0, Lcom/bumptech/glide/load/engine/f;->a:Ld6/h;
-
-    move/from16 v8, p17
-
-    invoke-virtual {v3, v4, v8}, Ld6/h;->a(La6/b;Z)Lcom/bumptech/glide/load/engine/g;
-
-    move-result-object v3
-
-    if-eqz v3, :cond_1
-
-    .line 2
-    invoke-virtual {v3, v1, v2}, Lcom/bumptech/glide/load/engine/g;->a(Lu6/h;Ljava/util/concurrent/Executor;)V
-
-    .line 3
-    sget-boolean v2, Lcom/bumptech/glide/load/engine/f;->k:Z
-
-    if-eqz v2, :cond_0
-
-    .line 4
-    const-string v2, "Added to existing load"
-
-    invoke-static {v2, v9, v10, v4}, Lcom/bumptech/glide/load/engine/f;->k(Ljava/lang/String;JLa6/b;)V
-
-    .line 5
-    :cond_0
-    new-instance v2, Lcom/bumptech/glide/load/engine/f$d;
-
-    invoke-direct {v2, v0, v1, v3}, Lcom/bumptech/glide/load/engine/f$d;-><init>(Lcom/bumptech/glide/load/engine/f;Lu6/h;Lcom/bumptech/glide/load/engine/g;)V
-
-    return-object v2
-
-    .line 6
-    :cond_1
-    iget-object v3, v0, Lcom/bumptech/glide/load/engine/f;->d:Lcom/bumptech/glide/load/engine/f$b;
-
-    move/from16 v5, p14
-
-    move/from16 v6, p15
-
-    move/from16 v7, p16
-
-    .line 7
-    invoke-virtual/range {v3 .. v8}, Lcom/bumptech/glide/load/engine/f$b;->a(La6/b;ZZZZ)Lcom/bumptech/glide/load/engine/g;
-
-    move-result-object v19
-
-    .line 8
-    iget-object v3, v0, Lcom/bumptech/glide/load/engine/f;->g:Lcom/bumptech/glide/load/engine/f$a;
-
-    move-object/from16 v4, p1
-
-    move-object/from16 v5, p2
-
-    move-object/from16 v7, p3
-
-    move/from16 v8, p4
-
-    move/from16 v9, p5
-
-    move-object/from16 v10, p6
-
-    move-object/from16 v11, p7
-
-    move-object/from16 v12, p8
-
-    move-object/from16 v13, p9
-
-    move-object/from16 v14, p10
-
-    move/from16 v15, p11
-
-    move/from16 v16, p12
-
-    move-object/from16 v18, p13
-
-    move/from16 v17, p17
-
-    move-object/from16 v6, p20
-
-    .line 9
-    invoke-virtual/range {v3 .. v19}, Lcom/bumptech/glide/load/engine/f$a;->a(Lcom/bumptech/glide/c;Ljava/lang/Object;Ld6/e;La6/b;IILjava/lang/Class;Ljava/lang/Class;Lcom/bumptech/glide/Priority;Ld6/c;Ljava/util/Map;ZZZLa6/e;Lcom/bumptech/glide/load/engine/DecodeJob$b;)Lcom/bumptech/glide/load/engine/DecodeJob;
-
-    move-result-object v3
-
-    move-object v4, v6
-
-    move-object/from16 v5, v19
-
-    .line 10
-    iget-object v6, v0, Lcom/bumptech/glide/load/engine/f;->a:Ld6/h;
-
-    invoke-virtual {v6, v4, v5}, Ld6/h;->d(La6/b;Lcom/bumptech/glide/load/engine/g;)V
-
-    .line 11
-    invoke-virtual {v5, v1, v2}, Lcom/bumptech/glide/load/engine/g;->a(Lu6/h;Ljava/util/concurrent/Executor;)V
-
-    .line 12
-    invoke-virtual {v5, v3}, Lcom/bumptech/glide/load/engine/g;->t(Lcom/bumptech/glide/load/engine/DecodeJob;)V
-
-    .line 13
-    sget-boolean v2, Lcom/bumptech/glide/load/engine/f;->k:Z
-
-    if-eqz v2, :cond_2
-
-    .line 14
-    const-string v2, "Started new load"
-
-    move-wide/from16 v9, p21
-
-    invoke-static {v2, v9, v10, v4}, Lcom/bumptech/glide/load/engine/f;->k(Ljava/lang/String;JLa6/b;)V
-
-    .line 15
-    :cond_2
-    new-instance v2, Lcom/bumptech/glide/load/engine/f$d;
-
-    invoke-direct {v2, v0, v1, v5}, Lcom/bumptech/glide/load/engine/f$d;-><init>(Lcom/bumptech/glide/load/engine/f;Lu6/h;Lcom/bumptech/glide/load/engine/g;)V
-
-    return-object v2
 .end method

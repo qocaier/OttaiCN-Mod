@@ -27,15 +27,6 @@
 
 # virtual methods
 .method public abstract convert(Ljava/lang/Object;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "from"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TF;)TT;"

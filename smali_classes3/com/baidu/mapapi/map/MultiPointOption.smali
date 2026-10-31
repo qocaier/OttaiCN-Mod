@@ -70,7 +70,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -103,7 +102,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnchorY()F
@@ -134,7 +132,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIcon()Lcom/baidu/mapapi/map/BitmapDescriptor;
@@ -165,7 +162,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMultiPointItems()Ljava/util/List;
@@ -204,7 +200,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOverlay()Lcom/baidu/mapapi/map/Overlay;
@@ -358,15 +353,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getPointSizeHeight()I
@@ -397,7 +383,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPointSizeWidth()I
@@ -428,7 +413,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isVisible()Z
@@ -459,7 +443,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAnchor(FF)Lcom/baidu/mapapi/map/MultiPointOption;
@@ -558,11 +541,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setClickable(Z)Lcom/baidu/mapapi/map/MultiPointOption;
@@ -595,7 +573,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIcon(Lcom/baidu/mapapi/map/BitmapDescriptor;)Lcom/baidu/mapapi/map/MultiPointOption;
@@ -736,8 +713,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setMultiPointItems(Ljava/util/List;)Lcom/baidu/mapapi/map/MultiPointOption;
@@ -874,8 +849,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setPointSize(II)Lcom/baidu/mapapi/map/MultiPointOption;
@@ -963,11 +936,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public visible(Z)Lcom/baidu/mapapi/map/MultiPointOption;
@@ -1000,5 +968,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

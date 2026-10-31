@@ -171,6 +171,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getPictureIcon(Landroid/os/Bundle;)Landroidx/core/graphics/drawable/IconCompat;
@@ -292,6 +293,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -674,6 +676,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public bigLargeIcon(Landroid/graphics/Bitmap;)Landroidx/core/app/NotificationCompat$BigPictureStyle;
@@ -853,6 +860,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public restoreFromCompatExtras(Landroid/os/Bundle;)V
@@ -981,6 +989,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setBigContentTitle(Ljava/lang/CharSequence;)Landroidx/core/app/NotificationCompat$BigPictureStyle;

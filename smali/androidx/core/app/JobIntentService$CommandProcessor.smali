@@ -31,14 +31,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/core/app/JobIntentService;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/core/app/JobIntentService$CommandProcessor;->this$0:Landroidx/core/app/JobIntentService;
@@ -76,14 +68,6 @@
 # virtual methods
 .method public bridge synthetic doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     check-cast p1, [Ljava/lang/Void;
@@ -130,14 +114,6 @@
 
 .method public bridge synthetic onCancelled(Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/Void;
@@ -160,14 +136,6 @@
 
 .method public bridge synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/Void;

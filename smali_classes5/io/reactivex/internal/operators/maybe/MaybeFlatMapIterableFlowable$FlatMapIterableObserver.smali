@@ -3,19 +3,10 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ldk/t;
+.implements Lb8/i;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "FlatMapIterableObserver"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T:",
@@ -25,8 +16,7 @@
         ">",
         "Lio/reactivex/internal/subscriptions/BasicIntQueueSubscription<",
         "TR;>;",
-        "Ldk/t<",
-        "TT;>;"
+        "Lb8/i;"
     }
 .end annotation
 
@@ -38,11 +28,10 @@
 # instance fields
 .field volatile cancelled:Z
 
-.field final downstream:Luq/d;
+.field final downstream:Laa/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Luq/d<",
-            "-TR;>;"
+            "Laa/c;"
         }
     .end annotation
 .end field
@@ -56,13 +45,10 @@
     .end annotation
 .end field
 
-.field final mapper:Lik/o;
+.field final mapper:Ld8/h;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lik/o<",
-            "-TT;+",
-            "Ljava/lang/Iterable<",
-            "+TR;>;>;"
+            "Ld8/h;"
         }
     .end annotation
 .end field
@@ -71,21 +57,18 @@
 
 .field final requested:Ljava/util/concurrent/atomic/AtomicLong;
 
-.field upstream:Lfk/b;
+.field upstream:Lio/reactivex/disposables/b;
 
 
 # direct methods
-.method public constructor <init>(Luq/d;Lik/o;)V
+.method public constructor <init>(Laa/c;Ld8/h;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Luq/d<",
-            "-TR;>;",
-            "Lik/o<",
-            "-TT;+",
-            "Ljava/lang/Iterable<",
-            "+TR;>;>;)V"
+            "Laa/c;",
+            "Ld8/h;",
+            ")V"
         }
     .end annotation
 
@@ -95,11 +78,11 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Luq/d;
+    iput-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Laa/c;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->mapper:Lik/o;
+    iput-object p2, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->mapper:Ld8/h;
 
     .line 7
     .line 8
@@ -143,6 +126,89 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
 
@@ -158,11 +224,11 @@
 
     .line 3
     .line 4
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->upstream:Lfk/b;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 5
     .line 6
-    invoke-interface {v0}, Lfk/b;->dispose()V
+    invoke-interface {v0}, Lio/reactivex/disposables/b;->dispose()V
 
     .line 7
     .line 8
@@ -171,7 +237,7 @@
 
     .line 10
     .line 11
-    iput-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->upstream:Lfk/b;
+    iput-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 12
     .line 13
@@ -186,6 +252,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public clear()V
@@ -219,6 +312,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public drain()V
@@ -242,7 +362,7 @@
     .line 8
     .line 9
     :cond_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Laa/c;
 
     .line 10
     .line 11
@@ -265,12 +385,12 @@
     const/4 v1, 0x0
 
     .line 20
-    invoke-interface {v0, v1}, Luq/d;->onNext(Ljava/lang/Object;)V
+    invoke-interface {v0, v1}, Laa/c;->onNext(Ljava/lang/Object;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-interface {v0}, Luq/d;->onComplete()V
+    invoke-interface {v0}, Laa/c;->onComplete()V
 
     .line 24
     .line 25
@@ -315,7 +435,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {p0, v0, v1}, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->fastPath(Luq/d;Ljava/util/Iterator;)V
+    invoke-virtual {p0, v0, v1}, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->fastPath(Laa/c;Ljava/util/Iterator;)V
 
     .line 46
     .line 47
@@ -365,7 +485,7 @@
 
     .line 66
     .line 67
-    invoke-static {v9, v10}, Lkk/a;->g(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v9, v10}, Lio/reactivex/internal/functions/a;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 68
     .line 69
@@ -375,7 +495,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
     .line 71
-    invoke-interface {v0, v9}, Luq/d;->onNext(Ljava/lang/Object;)V
+    invoke-interface {v0, v9}, Laa/c;->onNext(Ljava/lang/Object;)V
 
     .line 72
     .line 73
@@ -414,7 +534,7 @@
 
     .line 87
     .line 88
-    invoke-interface {v0}, Luq/d;->onComplete()V
+    invoke-interface {v0}, Laa/c;->onComplete()V
 
     .line 89
     .line 90
@@ -426,12 +546,12 @@
     move-exception v1
 
     .line 93
-    invoke-static {v1}, Lgk/a;->b(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lio/reactivex/exceptions/a;->a(Ljava/lang/Throwable;)V
 
     .line 94
     .line 95
     .line 96
-    invoke-interface {v0, v1}, Luq/d;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, v1}, Laa/c;->onError(Ljava/lang/Throwable;)V
 
     .line 97
     .line 98
@@ -443,12 +563,12 @@
     move-exception v1
 
     .line 101
-    invoke-static {v1}, Lgk/a;->b(Ljava/lang/Throwable;)V
+    invoke-static {v1}, Lio/reactivex/exceptions/a;->a(Ljava/lang/Throwable;)V
 
     .line 102
     .line 103
     .line 104
-    invoke-interface {v0, v1}, Luq/d;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, v1}, Laa/c;->onError(Ljava/lang/Throwable;)V
 
     .line 105
     .line 106
@@ -469,7 +589,7 @@
 
     .line 113
     .line 114
-    invoke-static {v3, v7, v8}, Lxk/b;->e(Ljava/util/concurrent/atomic/AtomicLong;J)J
+    invoke-static {v3, v7, v8}, Lio/reactivex/internal/util/b;->e(Ljava/util/concurrent/atomic/AtomicLong;J)J
 
     .line 115
     .line 116
@@ -847,90 +967,14 @@
     .line 470
     .line 471
     .line 472
-    .line 473
-    .line 474
-    .line 475
-    .line 476
-    .line 477
-    .line 478
-    .line 479
-    .line 480
-    .line 481
-    .line 482
-    .line 483
-    .line 484
-    .line 485
-    .line 486
-    .line 487
-    .line 488
-    .line 489
-    .line 490
-    .line 491
-    .line 492
-    .line 493
-    .line 494
-    .line 495
-    .line 496
-    .line 497
-    .line 498
-    .line 499
-    .line 500
-    .line 501
-    .line 502
-    .line 503
-    .line 504
-    .line 505
-    .line 506
-    .line 507
-    .line 508
-    .line 509
-    .line 510
-    .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
 .end method
 
-.method public fastPath(Luq/d;Ljava/util/Iterator;)V
+.method public fastPath(Laa/c;Ljava/util/Iterator;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Luq/d<",
-            "-TR;>;",
+            "Laa/c;",
             "Ljava/util/Iterator<",
             "+TR;>;)V"
         }
@@ -961,7 +1005,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
     .line 10
-    invoke-interface {p1, v0}, Luq/d;->onNext(Ljava/lang/Object;)V
+    invoke-interface {p1, v0}, Laa/c;->onNext(Ljava/lang/Object;)V
 
     .line 11
     .line 12
@@ -994,7 +1038,7 @@
 
     .line 23
     .line 24
-    invoke-interface {p1}, Luq/d;->onComplete()V
+    invoke-interface {p1}, Laa/c;->onComplete()V
 
     .line 25
     .line 26
@@ -1006,12 +1050,12 @@
     move-exception p2
 
     .line 29
-    invoke-static {p2}, Lgk/a;->b(Ljava/lang/Throwable;)V
+    invoke-static {p2}, Lio/reactivex/exceptions/a;->a(Ljava/lang/Throwable;)V
 
     .line 30
     .line 31
     .line 32
-    invoke-interface {p1, p2}, Luq/d;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {p1, p2}, Laa/c;->onError(Ljava/lang/Throwable;)V
 
     .line 33
     .line 34
@@ -1023,12 +1067,12 @@
     move-exception p2
 
     .line 37
-    invoke-static {p2}, Lgk/a;->b(Ljava/lang/Throwable;)V
+    invoke-static {p2}, Lio/reactivex/exceptions/a;->a(Ljava/lang/Throwable;)V
 
     .line 38
     .line 39
     .line 40
-    invoke-interface {p1, p2}, Luq/d;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {p1, p2}, Laa/c;->onError(Ljava/lang/Throwable;)V
 
     .line 41
     .line 42
@@ -1099,6 +1143,22 @@
     .line 106
     .line 107
     .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
 .method public isEmpty()Z
@@ -1139,17 +1199,44 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onComplete()V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Laa/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Luq/d;->onComplete()V
+    invoke-interface {v0}, Laa/c;->onComplete()V
 
     .line 4
     .line 5
@@ -1172,6 +1259,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onError(Ljava/lang/Throwable;)V
@@ -1182,15 +1296,15 @@
 
     .line 2
     .line 3
-    iput-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->upstream:Lfk/b;
+    iput-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 4
     .line 5
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Laa/c;
 
     .line 6
     .line 7
-    invoke-interface {v0, p1}, Luq/d;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, p1}, Laa/c;->onError(Ljava/lang/Throwable;)V
 
     .line 8
     .line 9
@@ -1210,17 +1324,50 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public onSubscribe(Lfk/b;)V
+.method public onSubscribe(Lio/reactivex/disposables/b;)V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->upstream:Lfk/b;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->validate(Lfk/b;Lfk/b;)Z
+    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->validate(Lio/reactivex/disposables/b;Lio/reactivex/disposables/b;)Z
 
     .line 4
     .line 5
@@ -1232,15 +1379,15 @@
 
     .line 8
     .line 9
-    iput-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->upstream:Lfk/b;
+    iput-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->upstream:Lio/reactivex/disposables/b;
 
     .line 10
     .line 11
-    iget-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Luq/d;
+    iget-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Laa/c;
 
     .line 12
     .line 13
-    invoke-interface {p1, p0}, Luq/d;->onSubscribe(Luq/e;)V
+    invoke-interface {p1, p0}, Laa/c;->onSubscribe(Laa/d;)V
 
     .line 14
     .line 15
@@ -1255,6 +1402,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public onSuccess(Ljava/lang/Object;)V
@@ -1267,11 +1447,11 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->mapper:Lik/o;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->mapper:Ld8/h;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lik/o;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ld8/h;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1305,11 +1485,11 @@
 
     .line 18
     .line 19
-    iget-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Luq/d;
+    iget-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Laa/c;
 
     .line 20
     .line 21
-    invoke-interface {p1}, Luq/d;->onComplete()V
+    invoke-interface {p1}, Laa/c;->onComplete()V
 
     .line 22
     .line 23
@@ -1334,16 +1514,16 @@
     move-exception p1
 
     .line 32
-    invoke-static {p1}, Lgk/a;->b(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lio/reactivex/exceptions/a;->a(Ljava/lang/Throwable;)V
 
     .line 33
     .line 34
     .line 35
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeFlatMapIterableFlowable$FlatMapIterableObserver;->downstream:Laa/c;
 
     .line 36
     .line 37
-    invoke-interface {v0, p1}, Luq/d;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, p1}, Laa/c;->onError(Ljava/lang/Throwable;)V
 
     .line 38
     .line 39
@@ -1366,25 +1546,6 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
 .method public poll()Ljava/lang/Object;
@@ -1399,9 +1560,6 @@
         value = {
             Ljava/lang/Exception;
         }
-    .end annotation
-
-    .annotation build Lek/f;
     .end annotation
 
     .line 1
@@ -1428,7 +1586,7 @@
 
     .line 11
     .line 12
-    invoke-static {v2, v3}, Lkk/a;->g(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v3}, Lio/reactivex/internal/functions/a;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -1483,56 +1641,6 @@
     .line 48
     .line 49
     .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
 .end method
 
 .method public request(J)V
@@ -1555,7 +1663,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, p1, p2}, Lxk/b;->a(Ljava/util/concurrent/atomic/AtomicLong;J)J
+    invoke-static {v0, p1, p2}, Lio/reactivex/internal/util/b;->a(Ljava/util/concurrent/atomic/AtomicLong;J)J
 
     .line 10
     .line 11
@@ -1576,6 +1684,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public requestFusion(I)I
@@ -1621,4 +1762,37 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method

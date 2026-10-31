@@ -206,6 +206,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetDetailNotifyAttachment$WorksheetBean;)Lorg/json/JSONArray;
@@ -239,6 +240,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$1400(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetDetailNotifyAttachment$WorksheetBean;)Ljava/util/List;
@@ -272,6 +275,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$1500(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetDetailNotifyAttachment$WorksheetBean;)Lorg/json/JSONArray;
@@ -305,6 +310,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$4100(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetDetailNotifyAttachment$WorksheetBean;)Ljava/util/List;
@@ -338,6 +345,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$800(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetDetailNotifyAttachment$WorksheetBean;)Ljava/util/List;
@@ -371,6 +380,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$900(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetDetailNotifyAttachment$WorksheetBean;)Lorg/json/JSONArray;
@@ -404,6 +415,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -442,6 +455,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAttachsArray()Lorg/json/JSONArray;
@@ -470,6 +485,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCustomField()Ljava/util/List;
@@ -506,6 +523,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCustomFieldArray()Lorg/json/JSONArray;
@@ -534,6 +553,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getId()J
@@ -562,6 +583,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLog()Ljava/util/List;
@@ -598,6 +621,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLogArray()Lorg/json/JSONArray;
@@ -626,6 +651,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getReminderStatus()I
@@ -654,6 +681,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStatus()I
@@ -682,6 +711,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTemplateName()Ljava/lang/String;
@@ -710,6 +741,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAttachs(Ljava/util/List;)V
@@ -751,6 +784,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setAttachsArray(Lorg/json/JSONArray;)V
@@ -784,6 +819,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCustomField(Ljava/util/List;)V
@@ -825,6 +862,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCustomFieldArray(Lorg/json/JSONArray;)V
@@ -858,6 +897,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setId(J)V
@@ -891,6 +932,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLog(Ljava/util/List;)V
@@ -932,6 +975,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLogArray(Lorg/json/JSONArray;)V
@@ -965,6 +1010,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setReminderStatus(I)V
@@ -998,6 +1045,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStatus(I)V
@@ -1031,6 +1080,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTemplateName(Ljava/lang/String;)V
@@ -1064,4 +1115,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

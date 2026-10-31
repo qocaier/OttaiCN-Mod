@@ -3,30 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/q;
+.implements Lq8/q;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/LazyActorCoroutine;->B()Lpn/g;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1001
-    name = null
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/q<",
-        "Lkotlinx/coroutines/channels/LazyActorCoroutine<",
-        "*>;",
-        "Lpn/j<",
-        "*>;",
-        "Ljava/lang/Object;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/q;"
     }
 .end annotation
 
@@ -57,7 +41,7 @@
 
     const/4 v1, 0x3
 
-    const-class v2, Lkotlinx/coroutines/channels/LazyActorCoroutine;
+    const-class v2, Lkotlinx/coroutines/channels/o;
 
     const-string v3, "onSendRegFunction"
 
@@ -74,33 +58,33 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlinx/coroutines/channels/LazyActorCoroutine;
+    invoke-static {p1}, Lk/d;->a(Ljava/lang/Object;)V
 
-    check-cast p2, Lpn/j;
+    check-cast p2, Lkotlinx/coroutines/selects/j;
 
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/LazyActorCoroutine$onSend$1;->invoke(Lkotlinx/coroutines/channels/LazyActorCoroutine;Lpn/j;Ljava/lang/Object;)V
+    const/4 p1, 0x0
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/LazyActorCoroutine$onSend$1;->invoke(Lkotlinx/coroutines/channels/o;Lkotlinx/coroutines/selects/j;Ljava/lang/Object;)V
+
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlinx/coroutines/channels/LazyActorCoroutine;Lpn/j;Ljava/lang/Object;)V
+.method public final invoke(Lkotlinx/coroutines/channels/o;Lkotlinx/coroutines/selects/j;Ljava/lang/Object;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/LazyActorCoroutine<",
-            "*>;",
-            "Lpn/j<",
-            "*>;",
+            "Lkotlinx/coroutines/channels/o;",
+            "Lkotlinx/coroutines/selects/j;",
             "Ljava/lang/Object;",
             ")V"
         }
     .end annotation
 
     .line 2
-    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/channels/LazyActorCoroutine;->j2(Lkotlinx/coroutines/channels/LazyActorCoroutine;Lpn/j;Ljava/lang/Object;)V
+    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/channels/o;->u1(Lkotlinx/coroutines/channels/o;Lkotlinx/coroutines/selects/j;Ljava/lang/Object;)V
 
     return-void
 .end method

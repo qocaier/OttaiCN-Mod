@@ -16,30 +16,20 @@
 
 # instance fields
 .field private animator:Landroid/animation/AnimatorSet;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final animatorInfo:Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;)V
     .locals 1
-    .param p1    # Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "animatorInfo"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -74,8 +64,6 @@
 # virtual methods
 .method public final getAnimator()Landroid/animation/AnimatorSet;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimatorEffect;->animator:Landroid/animation/AnimatorSet;
@@ -100,12 +88,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getAnimatorInfo()Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimatorEffect;->animatorInfo:Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;
@@ -130,6 +117,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSeekingSupported()Z
@@ -142,17 +130,13 @@
 
 .method public onCancel(Landroid/view/ViewGroup;)V
     .locals 3
-    .param p1    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "container"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -485,21 +469,22 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public onCommit(Landroid/view/ViewGroup;)V
     .locals 2
-    .param p1    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "container"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -631,25 +616,18 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onProgress(Landroidx/activity/BackEventCompat;Landroid/view/ViewGroup;)V
     .locals 10
-    .param p1    # Landroidx/activity/BackEventCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "backEvent"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -658,7 +636,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1022,21 +1000,20 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onStart(Landroid/view/ViewGroup;)V
     .locals 7
-    .param p1    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "container"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1080,7 +1057,7 @@
 
     .line 23
     .line 24
-    invoke-static {v0, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -1376,14 +1353,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public final setAnimator(Landroid/animation/AnimatorSet;)V
     .locals 0
-    .param p1    # Landroid/animation/AnimatorSet;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimatorEffect;->animator:Landroid/animation/AnimatorSet;

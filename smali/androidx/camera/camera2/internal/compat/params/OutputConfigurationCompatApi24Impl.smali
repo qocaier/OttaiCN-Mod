@@ -151,6 +151,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDynamicRangeProfile()J
@@ -183,6 +184,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOutputConfiguration()Ljava/lang/Object;
@@ -223,6 +225,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPhysicalCameraId()Ljava/lang/String;
@@ -257,6 +260,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurface()Landroid/view/Surface;
@@ -295,6 +299,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurfaceGroupId()I
@@ -331,6 +336,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurfaces()Ljava/util/List;
@@ -376,6 +382,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSurfaceSharingEnabled()Z
@@ -408,6 +415,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setDynamicRangeProfile(J)V

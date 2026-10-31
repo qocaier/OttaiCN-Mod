@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/LiveDataKt;->observe(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/LifecycleOwner;Ljm/l;)Landroidx/lifecycle/Observer;
+    value = Landroidx/lifecycle/LiveDataKt;->observe(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/LifecycleOwner;Lq8/l;)Landroidx/lifecycle/Observer;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,45 +26,30 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLiveData.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LiveData.kt\nandroidx/lifecycle/LiveDataKt$observe$wrappedObserver$1\n*L\n1#1,55:1\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nLiveData.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LiveData.kt\nandroidx/lifecycle/LiveDataKt$observe$wrappedObserver$1\n*L\n1#1,55:1\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
-.field final synthetic $onChanged:Ljm/l;
+.field final synthetic $onChanged:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "TT;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljm/l;)V
+.method public constructor <init>(Lq8/l;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-TT;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/LiveDataKt$observe$wrappedObserver$1;->$onChanged:Ljm/l;
+    iput-object p1, p0, Landroidx/lifecycle/LiveDataKt$observe$wrappedObserver$1;->$onChanged:Lq8/l;
 
     .line 2
     .line 3
@@ -106,11 +91,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LiveDataKt$observe$wrappedObserver$1;->$onChanged:Ljm/l;
+    iget-object v0, p0, Landroidx/lifecycle/LiveDataKt$observe$wrappedObserver$1;->$onChanged:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5

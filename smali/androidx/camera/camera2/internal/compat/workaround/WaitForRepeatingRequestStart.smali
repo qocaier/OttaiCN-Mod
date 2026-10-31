@@ -35,15 +35,13 @@
     .end annotation
 .end field
 
-.field private final mStartStreamingFuture:Lub/u0;
+.field private final mStartStreamingFuture:Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -117,16 +115,16 @@
 
     .line 31
     .line 32
-    new-instance p1, Lp/b;
+    new-instance p1, Landroidx/camera/camera2/internal/compat/workaround/b;
 
     .line 33
     .line 34
-    invoke-direct {p1, p0}, Lp/b;-><init>(Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart;)V
+    invoke-direct {p1, p0}, Landroidx/camera/camera2/internal/compat/workaround/b;-><init>(Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart;)V
 
     .line 35
     .line 36
     .line 37
-    invoke-static {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 38
     .line 39
@@ -134,7 +132,7 @@
     move-result-object p1
 
     .line 41
-    iput-object p1, p0, Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart;->mStartStreamingFuture:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart;->mStartStreamingFuture:Lcom/google/common/util/concurrent/t;
 
     .line 42
     .line 43
@@ -145,7 +143,7 @@
     const/4 p1, 0x0
 
     .line 45
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 46
     .line 47
@@ -153,7 +151,7 @@
     move-result-object p1
 
     .line 49
-    iput-object p1, p0, Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart;->mStartStreamingFuture:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart;->mStartStreamingFuture:Lcom/google/common/util/concurrent/t;
 
     .line 50
     .line 51
@@ -185,13 +183,14 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public static synthetic a(Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart$OpenCaptureSession;Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;Ljava/util/List;)Lub/u0;
+.method public static synthetic a(Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart$OpenCaptureSession;Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;Ljava/util/List;)Lcom/google/common/util/concurrent/t;
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2, p3}, Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart$OpenCaptureSession;->run(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)Lub/u0;
+    invoke-interface {p0, p1, p2, p3}, Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart$OpenCaptureSession;->run(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -796,7 +795,7 @@
 
 
 # virtual methods
-.method public getStartStreamFuture()Lub/u0;
+.method public getStartStreamFuture()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -804,18 +803,16 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart;->mStartStreamingFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart;->mStartStreamingFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -837,6 +834,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onSessionEnd()V
@@ -871,7 +869,7 @@
 
     .line 13
     .line 14
-    iget-object v1, p0, Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart;->mStartStreamingFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart;->mStartStreamingFuture:Lcom/google/common/util/concurrent/t;
 
     .line 15
     .line 16
@@ -966,9 +964,11 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method public openCaptureSession(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;Ljava/util/List;Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart$OpenCaptureSession;)Lub/u0;
+.method public openCaptureSession(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;Ljava/util/List;Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart$OpenCaptureSession;)Lcom/google/common/util/concurrent/t;
     .locals 2
     .param p1    # Landroid/hardware/camera2/CameraDevice;
         .annotation build Landroidx/annotation/NonNull;
@@ -1006,9 +1006,7 @@
             ">;",
             "Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart$OpenCaptureSession;",
             ")",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1055,7 +1053,7 @@
 
     .line 21
     .line 22
-    invoke-interface {v1}, Landroidx/camera/camera2/internal/SynchronizedCaptureSession;->getOpeningBlocker()Lub/u0;
+    invoke-interface {v1}, Landroidx/camera/camera2/internal/SynchronizedCaptureSession;->getOpeningBlocker()Lcom/google/common/util/concurrent/t;
 
     .line 23
     .line 24
@@ -1072,7 +1070,7 @@
 
     .line 30
     :cond_0
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->successfulAsList(Ljava/util/Collection;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->successfulAsList(Ljava/util/Collection;)Lcom/google/common/util/concurrent/t;
 
     .line 31
     .line 32
@@ -1080,7 +1078,7 @@
     move-result-object p4
 
     .line 34
-    invoke-static {p4}, Landroidx/camera/core/impl/utils/futures/FutureChain;->from(Lub/u0;)Landroidx/camera/core/impl/utils/futures/FutureChain;
+    invoke-static {p4}, Landroidx/camera/core/impl/utils/futures/FutureChain;->from(Lcom/google/common/util/concurrent/t;)Landroidx/camera/core/impl/utils/futures/FutureChain;
 
     .line 35
     .line 36
@@ -1088,11 +1086,11 @@
     move-result-object p4
 
     .line 38
-    new-instance v0, Lp/c;
+    new-instance v0, Landroidx/camera/camera2/internal/compat/workaround/c;
 
     .line 39
     .line 40
-    invoke-direct {v0, p5, p1, p2, p3}, Lp/c;-><init>(Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart$OpenCaptureSession;Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)V
+    invoke-direct {v0, p5, p1, p2, p3}, Landroidx/camera/camera2/internal/compat/workaround/c;-><init>(Landroidx/camera/camera2/internal/compat/workaround/WaitForRepeatingRequestStart$OpenCaptureSession;Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)V
 
     .line 41
     .line 42
@@ -1769,6 +1767,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public shouldWaitRepeatingSubmit()Z
@@ -1797,4 +1798,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

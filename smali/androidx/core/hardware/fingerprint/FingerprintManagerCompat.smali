@@ -389,6 +389,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isHardwareDetected()Z
@@ -439,4 +440,5 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method

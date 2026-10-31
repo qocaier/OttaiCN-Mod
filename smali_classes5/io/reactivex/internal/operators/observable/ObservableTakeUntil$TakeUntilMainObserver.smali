@@ -3,20 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ldk/g0;
-.implements Lfk/b;
+.implements Lb8/o;
+.implements Lio/reactivex/disposables/b;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lio/reactivex/internal/operators/observable/ObservableTakeUntil;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "TakeUntilMainObserver"
-.end annotation
-
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver$OtherObserver;
@@ -31,9 +22,8 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/util/concurrent/atomic/AtomicInteger;",
-        "Ldk/g0<",
-        "TT;>;",
-        "Lfk/b;"
+        "Lb8/o;",
+        "Lio/reactivex/disposables/b;"
     }
 .end annotation
 
@@ -43,11 +33,10 @@
 
 
 # instance fields
-.field final downstream:Ldk/g0;
+.field final downstream:Lb8/o;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ldk/g0<",
-            "-TT;>;"
+            "Lb8/o;"
         }
     .end annotation
 .end field
@@ -67,7 +56,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/concurrent/atomic/AtomicReference<",
-            "Lfk/b;",
+            "Lio/reactivex/disposables/b;",
             ">;"
         }
     .end annotation
@@ -75,13 +64,13 @@
 
 
 # direct methods
-.method public constructor <init>(Ldk/g0;)V
+.method public constructor <init>(Lb8/o;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ldk/g0<",
-            "-TT;>;)V"
+            "Lb8/o;",
+            ")V"
         }
     .end annotation
 
@@ -91,7 +80,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->downstream:Ldk/g0;
+    iput-object p1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->downstream:Lb8/o;
 
     .line 5
     .line 6
@@ -165,25 +154,6 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
 
@@ -223,6 +193,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public isDisposed()Z
@@ -241,11 +238,11 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, Lfk/b;
+    check-cast v0, Lio/reactivex/disposables/b;
 
     .line 8
     .line 9
-    invoke-static {v0}, Lio/reactivex/internal/disposables/DisposableHelper;->isDisposed(Lfk/b;)Z
+    invoke-static {v0}, Lio/reactivex/internal/disposables/DisposableHelper;->isDisposed(Lio/reactivex/disposables/b;)Z
 
     .line 10
     .line 11
@@ -264,6 +261,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onComplete()V
@@ -279,7 +303,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->downstream:Ldk/g0;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->downstream:Lb8/o;
 
     .line 7
     .line 8
@@ -287,7 +311,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0, p0, v1}, Lxk/g;->a(Ldk/g0;Ljava/util/concurrent/atomic/AtomicInteger;Lio/reactivex/internal/util/AtomicThrowable;)V
+    invoke-static {v0, p0, v1}, Lio/reactivex/internal/util/e;->b(Lb8/o;Ljava/util/concurrent/atomic/AtomicInteger;Lio/reactivex/internal/util/AtomicThrowable;)V
 
     .line 11
     .line 12
@@ -303,6 +327,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onError(Ljava/lang/Throwable;)V
@@ -318,7 +369,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->downstream:Ldk/g0;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->downstream:Lb8/o;
 
     .line 7
     .line 8
@@ -326,7 +377,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0, p1, p0, v1}, Lxk/g;->c(Ldk/g0;Ljava/lang/Throwable;Ljava/util/concurrent/atomic/AtomicInteger;Lio/reactivex/internal/util/AtomicThrowable;)V
+    invoke-static {v0, p1, p0, v1}, Lio/reactivex/internal/util/e;->d(Lb8/o;Ljava/lang/Throwable;Ljava/util/concurrent/atomic/AtomicInteger;Lio/reactivex/internal/util/AtomicThrowable;)V
 
     .line 11
     .line 12
@@ -343,6 +394,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public onNext(Ljava/lang/Object;)V
@@ -354,7 +438,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->downstream:Ldk/g0;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->downstream:Lb8/o;
 
     .line 2
     .line 3
@@ -362,7 +446,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1, p0, v1}, Lxk/g;->e(Ldk/g0;Ljava/lang/Object;Ljava/util/concurrent/atomic/AtomicInteger;Lio/reactivex/internal/util/AtomicThrowable;)V
+    invoke-static {v0, p1, p0, v1}, Lio/reactivex/internal/util/e;->f(Lb8/o;Ljava/lang/Object;Ljava/util/concurrent/atomic/AtomicInteger;Lio/reactivex/internal/util/AtomicThrowable;)V
 
     .line 6
     .line 7
@@ -384,9 +468,42 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public onSubscribe(Lfk/b;)V
+.method public onSubscribe(Lio/reactivex/disposables/b;)V
     .locals 1
 
     .line 1
@@ -394,7 +511,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Lfk/b;)Z
+    invoke-static {v0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Lio/reactivex/disposables/b;)Z
 
     .line 4
     .line 5
@@ -418,6 +535,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public otherComplete()V
@@ -433,7 +583,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->downstream:Ldk/g0;
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->downstream:Lb8/o;
 
     .line 7
     .line 8
@@ -441,46 +591,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0, p0, v1}, Lxk/g;->a(Ldk/g0;Ljava/util/concurrent/atomic/AtomicInteger;Lio/reactivex/internal/util/AtomicThrowable;)V
-
-    .line 11
-    .line 12
-    .line 13
-    return-void
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public otherError(Ljava/lang/Throwable;)V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->upstream:Ljava/util/concurrent/atomic/AtomicReference;
-
-    .line 2
-    .line 3
-    invoke-static {v0}, Lio/reactivex/internal/disposables/DisposableHelper;->dispose(Ljava/util/concurrent/atomic/AtomicReference;)Z
-
-    .line 4
-    .line 5
-    .line 6
-    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->downstream:Ldk/g0;
-
-    .line 7
-    .line 8
-    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->error:Lio/reactivex/internal/util/AtomicThrowable;
-
-    .line 9
-    .line 10
-    invoke-static {v0, p1, p0, v1}, Lxk/g;->c(Ldk/g0;Ljava/lang/Throwable;Ljava/util/concurrent/atomic/AtomicInteger;Lio/reactivex/internal/util/AtomicThrowable;)V
+    invoke-static {v0, p0, v1}, Lio/reactivex/internal/util/e;->b(Lb8/o;Ljava/util/concurrent/atomic/AtomicInteger;Lio/reactivex/internal/util/AtomicThrowable;)V
 
     .line 11
     .line 12
@@ -497,4 +608,103 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public otherError(Ljava/lang/Throwable;)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->upstream:Ljava/util/concurrent/atomic/AtomicReference;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, Lio/reactivex/internal/disposables/DisposableHelper;->dispose(Ljava/util/concurrent/atomic/AtomicReference;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    iget-object v0, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->downstream:Lb8/o;
+
+    .line 7
+    .line 8
+    iget-object v1, p0, Lio/reactivex/internal/operators/observable/ObservableTakeUntil$TakeUntilMainObserver;->error:Lio/reactivex/internal/util/AtomicThrowable;
+
+    .line 9
+    .line 10
+    invoke-static {v0, p1, p0, v1}, Lio/reactivex/internal/util/e;->d(Lb8/o;Ljava/lang/Throwable;Ljava/util/concurrent/atomic/AtomicInteger;Lio/reactivex/internal/util/AtomicThrowable;)V
+
+    .line 11
+    .line 12
+    .line 13
+    return-void
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method

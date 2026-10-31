@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
@@ -19,14 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "Ljava/util/Map$Entry<",
-        "Landroidx/datastore/preferences/core/Preferences$Key<",
-        "*>;",
-        "Ljava/lang/Object;",
-        ">;",
-        "Ljava/lang/CharSequence;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -62,10 +55,6 @@
 # virtual methods
 .method public final invoke(Ljava/util/Map$Entry;)Ljava/lang/CharSequence;
     .locals 11
-    .param p1    # Ljava/util/Map$Entry;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -78,12 +67,9 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "entry"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
@@ -115,7 +101,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {v2 .. v10}, Lll/a0;->xh([BLjava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Ljm/l;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v2 .. v10}, Lkotlin/collections/m;->S([BLjava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lq8/l;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 

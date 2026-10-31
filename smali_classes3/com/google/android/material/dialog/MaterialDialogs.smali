@@ -40,7 +40,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getDialogBackgroundInsets(Landroid/content/Context;II)Landroid/graphics/Rect;
@@ -315,11 +314,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static insetDrawable(Landroid/graphics/drawable/Drawable;Landroid/graphics/Rect;)Landroid/graphics/drawable/InsetDrawable;
@@ -410,9 +404,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

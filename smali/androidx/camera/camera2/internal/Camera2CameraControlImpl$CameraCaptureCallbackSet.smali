@@ -80,6 +80,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/impl/CameraCaptureCallback;)V
@@ -357,11 +358,11 @@
 
     .line 26
     .line 27
-    new-instance v3, Landroidx/camera/camera2/internal/c;
+    new-instance v3, Landroidx/camera/camera2/internal/p;
 
     .line 28
     .line 29
-    invoke-direct {v3, v1}, Landroidx/camera/camera2/internal/c;-><init>(Landroidx/camera/core/impl/CameraCaptureCallback;)V
+    invoke-direct {v3, v1}, Landroidx/camera/camera2/internal/p;-><init>(Landroidx/camera/core/impl/CameraCaptureCallback;)V
 
     .line 30
     .line 31
@@ -437,6 +438,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onCaptureCompleted(Landroidx/camera/core/impl/CameraCaptureResult;)V
@@ -501,11 +504,11 @@
 
     .line 26
     .line 27
-    new-instance v3, Landroidx/camera/camera2/internal/a;
+    new-instance v3, Landroidx/camera/camera2/internal/n;
 
     .line 28
     .line 29
-    invoke-direct {v3, v1, p1}, Landroidx/camera/camera2/internal/a;-><init>(Landroidx/camera/core/impl/CameraCaptureCallback;Landroidx/camera/core/impl/CameraCaptureResult;)V
+    invoke-direct {v3, v1, p1}, Landroidx/camera/camera2/internal/n;-><init>(Landroidx/camera/core/impl/CameraCaptureCallback;Landroidx/camera/core/impl/CameraCaptureResult;)V
 
     .line 30
     .line 31
@@ -575,6 +578,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onCaptureFailed(Landroidx/camera/core/impl/CameraCaptureFailure;)V
@@ -639,11 +643,11 @@
 
     .line 26
     .line 27
-    new-instance v3, Landroidx/camera/camera2/internal/b;
+    new-instance v3, Landroidx/camera/camera2/internal/o;
 
     .line 28
     .line 29
-    invoke-direct {v3, v1, p1}, Landroidx/camera/camera2/internal/b;-><init>(Landroidx/camera/core/impl/CameraCaptureCallback;Landroidx/camera/core/impl/CameraCaptureFailure;)V
+    invoke-direct {v3, v1, p1}, Landroidx/camera/camera2/internal/o;-><init>(Landroidx/camera/core/impl/CameraCaptureCallback;Landroidx/camera/core/impl/CameraCaptureFailure;)V
 
     .line 30
     .line 31
@@ -713,6 +717,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public removeCaptureCallback(Landroidx/camera/core/impl/CameraCaptureCallback;)V

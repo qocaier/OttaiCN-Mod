@@ -10,27 +10,11 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMulticastFileObserver.android.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MulticastFileObserver.android.kt\nandroidx/datastore/core/MulticastFileObserver\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,145:1\n1855#2,2:146\n*S KotlinDebug\n*F\n+ 1 MulticastFileObserver.android.kt\nandroidx/datastore/core/MulticastFileObserver\n*L\n50#1:146,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nMulticastFileObserver.android.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MulticastFileObserver.android.kt\nandroidx/datastore/core/MulticastFileObserver\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,145:1\n1855#2,2:146\n*S KotlinDebug\n*F\n+ 1 MulticastFileObserver.android.kt\nandroidx/datastore/core/MulticastFileObserver\n*L\n50#1:146,2\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field public static final Companion:Landroidx/datastore/core/MulticastFileObserver$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final LOCK:Ljava/lang/Object;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final fileObservers:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
@@ -41,9 +25,6 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
@@ -52,21 +33,13 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/concurrent/CopyOnWriteArrayList<",
-            "Ljm/l<",
-            "Ljava/lang/String;",
-            "Ljl/e2;",
-            ">;>;"
+            "Lq8/l;",
+            ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
 .field private final path:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -81,7 +54,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/datastore/core/MulticastFileObserver$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/datastore/core/MulticastFileObserver$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -178,6 +151,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>(Ljava/lang/String;)V
@@ -201,7 +176,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;Lkm/v;)V
+.method public synthetic constructor <init>(Ljava/lang/String;Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -269,6 +244,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getLOCK$cp()Ljava/lang/Object;
@@ -297,14 +273,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final getPath()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/core/MulticastFileObserver;->path:Ljava/lang/String;
@@ -329,14 +304,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onEvent(ILjava/lang/String;)V
     .locals 1
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iget-object p1, p0, Landroidx/datastore/core/MulticastFileObserver;->delegates:Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -372,11 +344,11 @@
     move-result-object v0
 
     .line 17
-    check-cast v0, Ljm/l;
+    check-cast v0, Lq8/l;
 
     .line 18
     .line 19
-    invoke-interface {v0, p2}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p2}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21

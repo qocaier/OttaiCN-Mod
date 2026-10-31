@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -65,7 +65,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final setShowLog(Z)V
@@ -98,5 +97,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

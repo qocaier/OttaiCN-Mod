@@ -226,6 +226,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>(Landroidx/exifinterface/media/ExifInterface;)V
@@ -393,6 +395,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static convertFromExifDate(Ljava/lang/String;)Ljava/util/Date;
@@ -812,6 +816,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static createFromInputStream(Ljava/io/InputStream;)Landroidx/camera/core/impl/utils/Exif;
@@ -1572,6 +1577,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private parseTimestamp(Ljava/lang/String;)J
@@ -1871,6 +1928,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public copyToCroppedImage(Landroidx/camera/core/impl/utils/Exif;)V
@@ -2014,6 +2073,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public flipHorizontally()V
@@ -2171,6 +2231,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public flipVertically()V
@@ -2328,6 +2390,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getDescription()Ljava/lang/String;
@@ -2364,6 +2428,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExifInterface()Landroidx/exifinterface/media/ExifInterface;
@@ -2397,6 +2462,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeight()I
@@ -2433,6 +2499,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLastModifiedTimestamp()J
@@ -2579,6 +2646,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getLocation()Landroid/location/Location;
@@ -3180,6 +3249,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public getOrientation()I
@@ -3216,6 +3337,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRotation()I
@@ -3271,6 +3393,7 @@
     .line 20
     nop
 
+    .line 21
     :pswitch_data_0
     .packed-switch 0x3
         :pswitch_3
@@ -3426,6 +3549,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getWidth()I
@@ -3462,6 +3587,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isFlippedHorizontally()Z
@@ -3503,6 +3629,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isFlippedVertically()Z
@@ -3552,6 +3679,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeLocation()V
@@ -3710,6 +3838,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public removeTimestamp()V
@@ -3842,6 +3972,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public rotate(I)V
@@ -4264,6 +4396,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public save()V
@@ -4306,6 +4443,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setDescription(Ljava/lang/String;)V
@@ -4546,4 +4684,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

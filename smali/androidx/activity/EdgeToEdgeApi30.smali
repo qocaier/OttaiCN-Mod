@@ -36,16 +36,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public adjustLayoutInDisplayCutoutMode(Landroid/view/Window;)V
     .locals 1
-    .param p1    # Landroid/view/Window;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
@@ -54,7 +51,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -70,7 +67,7 @@
     const/4 v0, 0x3
 
     .line 11
-    invoke-static {p1, v0}, Ld/k;->a(Landroid/view/WindowManager$LayoutParams;I)V
+    invoke-static {p1, v0}, Landroidx/activity/n;->a(Landroid/view/WindowManager$LayoutParams;I)V
 
     .line 12
     .line 13

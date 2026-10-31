@@ -5,29 +5,18 @@
 
 # instance fields
 .field private final call:Lio/flutter/plugin/common/MethodCall;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 1
-    .param p1    # Lio/flutter/plugin/common/MethodCall;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "call"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -36,7 +25,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -95,11 +84,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic c(Lcom/fluttercandies/flutter_image_compress/core/CompressFileHandler;Landroid/content/Context;)V
@@ -140,7 +124,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v2}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -164,7 +148,7 @@
 
     .line 20
     .line 21
-    invoke-static {v3, v4}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -191,7 +175,7 @@
 
     .line 33
     .line 34
-    invoke-static {v3, v4}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 35
     .line 36
@@ -219,7 +203,7 @@
     move-result-object v5
 
     .line 48
-    invoke-static {v5, v4}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -247,7 +231,7 @@
     move-result-object v6
 
     .line 62
-    invoke-static {v6, v4}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 63
     .line 64
@@ -275,7 +259,7 @@
     move-result-object v6
 
     .line 76
-    invoke-static {v6, v4}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -307,7 +291,7 @@
 
     .line 91
     .line 92
-    invoke-static {v8, v9}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v9}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 93
     .line 94
@@ -335,7 +319,7 @@
     move-result-object v10
 
     .line 106
-    invoke-static {v10, v4}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v10, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 107
     .line 108
@@ -363,7 +347,7 @@
     move-result-object v12
 
     .line 120
-    invoke-static {v12, v9}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v12, v9}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 121
     .line 122
@@ -392,7 +376,7 @@
     move-result-object v9
 
     .line 135
-    invoke-static {v9, v4}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 136
     .line 137
@@ -421,7 +405,7 @@
     move-result-object v0
 
     .line 150
-    invoke-static {v0, v4}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 151
     .line 152
@@ -542,7 +526,7 @@
     .line 209
     .line 210
     .line 211
-    invoke-static {v2}, Ldm/l;->y(Ljava/io/File;)[B
+    invoke-static {v2}, Lkotlin/io/f;->a(Ljava/io/File;)[B
 
     .line 212
     .line 213
@@ -771,54 +755,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method private static final handleGetFile$lambda$1(Lcom/fluttercandies/flutter_image_compress/core/CompressFileHandler;Landroid/content/Context;)V
@@ -841,7 +777,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v2}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -865,7 +801,7 @@
 
     .line 20
     .line 21
-    invoke-static {v3, v4}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -892,7 +828,7 @@
 
     .line 33
     .line 34
-    invoke-static {v3, v5}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 35
     .line 36
@@ -920,7 +856,7 @@
     move-result-object v6
 
     .line 48
-    invoke-static {v6, v5}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v5}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -948,7 +884,7 @@
     move-result-object v8
 
     .line 62
-    invoke-static {v8, v5}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v5}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 63
     .line 64
@@ -976,7 +912,7 @@
     move-result-object v8
 
     .line 76
-    invoke-static {v8, v4}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -999,7 +935,7 @@
     move-result-object v8
 
     .line 87
-    invoke-static {v8, v5}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v5}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 88
     .line 89
@@ -1031,7 +967,7 @@
 
     .line 102
     .line 103
-    invoke-static {v9, v10}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v10}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 104
     .line 105
@@ -1059,7 +995,7 @@
     move-result-object v12
 
     .line 117
-    invoke-static {v12, v5}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v12, v5}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 118
     .line 119
@@ -1088,7 +1024,7 @@
     move-result-object v13
 
     .line 132
-    invoke-static {v13, v10}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v13, v10}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 133
     .line 134
@@ -1117,7 +1053,7 @@
     move-result-object v10
 
     .line 147
-    invoke-static {v10, v5}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v10, v5}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 148
     .line 149
@@ -1146,7 +1082,7 @@
     move-result-object v0
 
     .line 162
-    invoke-static {v0, v5}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v5}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 163
     .line 164
@@ -1513,71 +1449,19 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 
 # virtual methods
 .method public final handle(Landroid/content/Context;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1594,11 +1478,11 @@
     move-result-object v0
 
     .line 12
-    new-instance v1, Ly7/a;
+    new-instance v1, Ls1/a;
 
     .line 13
     .line 14
-    invoke-direct {v1, p0, p1}, Ly7/a;-><init>(Lcom/fluttercandies/flutter_image_compress/core/CompressFileHandler;Landroid/content/Context;)V
+    invoke-direct {v1, p0, p1}, Ls1/a;-><init>(Lcom/fluttercandies/flutter_image_compress/core/CompressFileHandler;Landroid/content/Context;)V
 
     .line 15
     .line 16
@@ -1613,22 +1497,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final handleGetFile(Landroid/content/Context;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1645,11 +1524,11 @@
     move-result-object v0
 
     .line 12
-    new-instance v1, Ly7/b;
+    new-instance v1, Ls1/b;
 
     .line 13
     .line 14
-    invoke-direct {v1, p0, p1}, Ly7/b;-><init>(Lcom/fluttercandies/flutter_image_compress/core/CompressFileHandler;Landroid/content/Context;)V
+    invoke-direct {v1, p0, p1}, Ls1/b;-><init>(Lcom/fluttercandies/flutter_image_compress/core/CompressFileHandler;Landroid/content/Context;)V
 
     .line 15
     .line 16
@@ -1664,5 +1543,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

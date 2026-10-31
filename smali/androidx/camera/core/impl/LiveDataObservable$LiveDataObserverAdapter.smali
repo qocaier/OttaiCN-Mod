@@ -257,6 +257,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onChanged(Landroidx/camera/core/impl/LiveDataObservable$Result;)V
@@ -276,9 +277,9 @@
     .line 2
     iget-object v0, p0, Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;->mExecutor:Ljava/util/concurrent/Executor;
 
-    new-instance v1, Landroidx/camera/core/impl/c;
+    new-instance v1, Landroidx/camera/core/impl/u;
 
-    invoke-direct {v1, p0, p1}, Landroidx/camera/core/impl/c;-><init>(Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;Landroidx/camera/core/impl/LiveDataObservable$Result;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/core/impl/u;-><init>(Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;Landroidx/camera/core/impl/LiveDataObservable$Result;)V
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 

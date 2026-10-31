@@ -10,10 +10,6 @@
 .annotation runtime Lorg/jspecify/nullness/NullMarked;
 .end annotation
 
-.annotation runtime Lxb/f;
-    value = "Use ImmutableList.of or another implementation"
-.end annotation
-
 
 # static fields
 .field public static final a:[Ljava/lang/Object;
@@ -60,7 +56,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -70,13 +65,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
-    .annotation build Lxb/e;
-        value = "Always throws UnsupportedOperationException"
-    .end annotation
-
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
@@ -106,7 +94,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final addAll(Ljava/util/Collection;)Z
@@ -114,13 +101,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
-    .annotation build Lxb/e;
-        value = "Always throws UnsupportedOperationException"
-    .end annotation
-
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
@@ -150,16 +130,11 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final clear()V
     .locals 1
     .annotation runtime Ljava/lang/Deprecated;
-    .end annotation
-
-    .annotation build Lxb/e;
-        value = "Always throws UnsupportedOperationException"
     .end annotation
 
     .line 1
@@ -189,14 +164,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic iterator()Ljava/util/Iterator;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/common/zzac;->zze()Laa/g;
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/common/zzac;->zze()Lcom/google/android/gms/internal/common/g;
 
     .line 2
     .line 3
@@ -222,23 +196,11 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final remove(Ljava/lang/Object;)Z
     .locals 0
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
     .annotation runtime Ljava/lang/Deprecated;
-    .end annotation
-
-    .annotation build Lxb/a;
-    .end annotation
-
-    .annotation build Lxb/e;
-        value = "Always throws UnsupportedOperationException"
     .end annotation
 
     .line 1
@@ -270,7 +232,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final removeAll(Ljava/util/Collection;)Z
@@ -278,13 +239,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
-    .annotation build Lxb/e;
-        value = "Always throws UnsupportedOperationException"
-    .end annotation
-
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
@@ -314,7 +268,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final retainAll(Ljava/util/Collection;)Z
@@ -322,13 +275,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
-    .annotation build Lxb/e;
-        value = "Always throws UnsupportedOperationException"
-    .end annotation
-
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
@@ -358,7 +304,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final spliterator()Ljava/util/Spliterator;
@@ -393,7 +338,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final toArray()[Ljava/lang/Object;
@@ -411,8 +355,6 @@
 
 .method public final toArray([Ljava/lang/Object;)[Ljava/lang/Object;
     .locals 4
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 2
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -488,8 +430,6 @@
 
 .method public zza([Ljava/lang/Object;I)I
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     const/4 p1, 0x0
 
@@ -520,7 +460,7 @@
     throw v0
 .end method
 
-.method public abstract zze()Laa/g;
+.method public abstract zze()Lcom/google/android/gms/internal/common/g;
 .end method
 
 .method public abstract zzf()Z
@@ -528,8 +468,6 @@
 
 .method public zzg()[Ljava/lang/Object;
     .locals 1
-    .annotation runtime Lgl/a;
-    .end annotation
 
     const/4 v0, 0x0
 

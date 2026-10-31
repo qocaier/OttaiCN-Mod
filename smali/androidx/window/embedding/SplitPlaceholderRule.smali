@@ -20,43 +20,18 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final finishPrimaryWithPlaceholder:Landroidx/window/embedding/SplitRule$FinishBehavior;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final isSticky:Z
 
 .field private final placeholderIntent:Landroid/content/Intent;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Ljava/util/Set;Landroid/content/Intent;ZLandroidx/window/embedding/SplitRule$FinishBehavior;IIILandroidx/window/embedding/EmbeddingAspectRatio;Landroidx/window/embedding/EmbeddingAspectRatio;Landroidx/window/embedding/SplitAttributes;)V
     .locals 9
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroid/content/Intent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Landroidx/window/embedding/SplitRule$FinishBehavior;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p6    # I
         .annotation build Landroidx/annotation/IntRange;
             from = 0x0L
@@ -70,18 +45,6 @@
     .param p8    # I
         .annotation build Landroidx/annotation/IntRange;
             from = 0x0L
-        .end annotation
-    .end param
-    .param p9    # Landroidx/window/embedding/EmbeddingAspectRatio;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p10    # Landroidx/window/embedding/EmbeddingAspectRatio;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p11    # Landroidx/window/embedding/SplitAttributes;
-        .annotation build Lsq/k;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -104,33 +67,33 @@
 
     const-string v0, "filters"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "placeholderIntent"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "finishPrimaryWithPlaceholder"
 
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "maxAspectRatioInPortrait"
 
     move-object/from16 v6, p9
 
-    invoke-static {v6, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "maxAspectRatioInLandscape"
 
     move-object/from16 v7, p10
 
-    invoke-static {v7, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "defaultSplitAttributes"
 
     move-object/from16 v8, p11
 
-    invoke-static {v8, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     move-object v1, p0
 
@@ -148,7 +111,7 @@
     .line 6
     sget-object p1, Landroidx/window/embedding/SplitRule$FinishBehavior;->NEVER:Landroidx/window/embedding/SplitRule$FinishBehavior;
 
-    invoke-static {p5, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p5, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -165,7 +128,7 @@
     invoke-static {p1, v0, p6}, Landroidx/core/util/Preconditions;->checkArgument(ZLjava/lang/String;[Ljava/lang/Object;)V
 
     .line 9
-    invoke-static {p2}, Lll/r0;->f6(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {p2}, Lkotlin/collections/z;->j0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     move-result-object p1
 
@@ -183,7 +146,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;Ljava/util/Set;Landroid/content/Intent;ZLandroidx/window/embedding/SplitRule$FinishBehavior;IIILandroidx/window/embedding/EmbeddingAspectRatio;Landroidx/window/embedding/EmbeddingAspectRatio;Landroidx/window/embedding/SplitAttributes;ILkm/v;)V
+.method public synthetic constructor <init>(Ljava/lang/String;Ljava/util/Set;Landroid/content/Intent;ZLandroidx/window/embedding/SplitRule$FinishBehavior;IIILandroidx/window/embedding/EmbeddingAspectRatio;Landroidx/window/embedding/EmbeddingAspectRatio;Landroidx/window/embedding/SplitAttributes;ILkotlin/jvm/internal/f;)V
     .locals 1
 
     and-int/lit8 p13, p12, 0x1
@@ -274,10 +237,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     const/4 v0, 0x1
@@ -334,7 +293,7 @@
 
     .line 23
     .line 24
-    invoke-static {v1, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 25
     .line 26
@@ -374,7 +333,7 @@
 
     .line 41
     .line 42
-    invoke-static {v1, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 43
     .line 44
@@ -398,7 +357,7 @@
 
     .line 52
     .line 53
-    invoke-static {v1, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 54
     .line 55
@@ -433,6 +392,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getFilters()Ljava/util/Set;
@@ -444,9 +404,6 @@
             "Landroidx/window/embedding/ActivityFilter;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -472,12 +429,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getFinishPrimaryWithPlaceholder()Landroidx/window/embedding/SplitRule$FinishBehavior;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/SplitPlaceholderRule;->finishPrimaryWithPlaceholder:Landroidx/window/embedding/SplitRule$FinishBehavior;
@@ -502,12 +458,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getPlaceholderIntent()Landroid/content/Intent;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/SplitPlaceholderRule;->placeholderIntent:Landroid/content/Intent;
@@ -532,6 +487,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -666,6 +622,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final isSticky()Z
@@ -694,23 +652,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final plus$window_release(Landroidx/window/embedding/ActivityFilter;)Landroidx/window/embedding/SplitPlaceholderRule;
     .locals 2
-    .param p1    # Landroidx/window/embedding/ActivityFilter;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "filter"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -742,7 +695,7 @@
 
     .line 20
     .line 21
-    invoke-static {v0}, Lll/r0;->f6(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {v0}, Lkotlin/collections/z;->j0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 22
     .line 23
@@ -1040,12 +993,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -1540,4 +1496,56 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method

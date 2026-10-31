@@ -40,7 +40,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getCallAppsList(Landroid/content/pm/PackageManager;)Ljava/util/List;
@@ -103,7 +102,7 @@
 
     .line 24
     .line 25
-    invoke-static {v1, v2}, Lr5/f;->a(J)Landroid/content/pm/PackageManager$ResolveInfoFlags;
+    invoke-static {v1, v2}, Lcom/baseflow/permissionhandler/o;->a(J)Landroid/content/pm/PackageManager$ResolveInfoFlags;
 
     .line 26
     .line 27
@@ -111,7 +110,7 @@
     move-result-object v1
 
     .line 29
-    invoke-static {p1, v0, v1}, Lr5/g;->a(Landroid/content/pm/PackageManager;Landroid/content/Intent;Landroid/content/pm/PackageManager$ResolveInfoFlags;)Ljava/util/List;
+    invoke-static {p1, v0, v1}, Lcom/baseflow/permissionhandler/p;->a(Landroid/content/pm/PackageManager;Landroid/content/Intent;Landroid/content/pm/PackageManager$ResolveInfoFlags;)Ljava/util/List;
 
     .line 30
     .line 31
@@ -187,8 +186,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private isBluetoothServiceEnabled(Landroid/content/Context;)Z
@@ -235,7 +232,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static isLocationServiceEnablePreKitKat(Landroid/content/Context;)Z
@@ -289,7 +285,7 @@
 
     .line 19
     :cond_0
-    invoke-static {p1}, Lr5/e;->a(Landroid/location/LocationManager;)Z
+    invoke-static {p1}, Lcom/baseflow/permissionhandler/n;->a(Landroid/location/LocationManager;)Z
 
     .line 20
     .line 21
@@ -373,8 +369,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private static isLocationServiceEnabledKitKat(Landroid/content/Context;)Z
@@ -434,7 +428,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -834,4 +827,20 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method

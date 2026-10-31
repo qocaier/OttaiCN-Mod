@@ -546,6 +546,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private abortCreation(Ljava/lang/Object;)V
@@ -1933,6 +1985,7 @@
     .line 19
     return v0
     .line 20
+    .line 21
 .end method
 
 .method private newFamily()Ljava/lang/Object;
@@ -1979,6 +2032,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -2108,6 +2162,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public createFromFontFamilyFilesResourceEntry(Landroid/content/Context;Landroidx/core/content/res/FontResourcesParserCompat$FontFamilyFilesResourceEntry;Landroid/content/res/Resources;I)Landroid/graphics/Typeface;
@@ -2444,6 +2499,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public createFromFontInfo(Landroid/content/Context;Landroid/os/CancellationSignal;[Landroidx/core/provider/FontsContractCompat$FontInfo;I)Landroid/graphics/Typeface;
@@ -2914,27 +2975,18 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public bridge synthetic createFromFontInfoWithFallback(Landroid/content/Context;Landroid/os/CancellationSignal;Ljava/util/List;I)Landroid/graphics/Typeface;
     .locals 0
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1d
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000,
-            0x1000,
-            0x1000
-        }
-        names = {
-            null,
-            null,
-            null,
-            null
-        }
     .end annotation
 
     .line 1
@@ -3172,6 +3224,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public createFromResourcesFontFile(Landroid/content/Context;Landroid/content/res/Resources;ILjava/lang/String;I)Landroid/graphics/Typeface;
@@ -4019,6 +4077,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public obtainAbortCreationMethod(Ljava/lang/Class;)Ljava/lang/reflect/Method;
@@ -4330,6 +4394,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public obtainFontFamily()Ljava/lang/Class;
@@ -4375,6 +4440,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public obtainFontFamilyCtor(Ljava/lang/Class;)Ljava/lang/reflect/Constructor;

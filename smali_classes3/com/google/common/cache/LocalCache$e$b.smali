@@ -1,5 +1,5 @@
 .class public Lcom/google/common/cache/LocalCache$e$b;
-.super Ljb/d;
+.super Lcom/google/common/collect/g;
 .source "SourceFile"
 
 
@@ -13,39 +13,21 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljb/d<",
-        "Lcom/google/common/cache/d<",
-        "TK;TV;>;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final synthetic b:Lcom/google/common/cache/LocalCache$e;
 
 
 # direct methods
-.method public constructor <init>(Lcom/google/common/cache/LocalCache$e;Lcom/google/common/cache/d;)V
+.method public constructor <init>(Lcom/google/common/cache/LocalCache$e;Lcom/google/common/cache/k;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x0
-        }
-        names = {
-            "this$0",
-            "firstOrNull"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$e$b;->b:Lcom/google/common/cache/LocalCache$e;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Ljb/d;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p2}, Lcom/google/common/collect/g;-><init>(Ljava/lang/Object;)V
 
     .line 4
     .line 5
@@ -105,35 +87,19 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
 .method public bridge synthetic a(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "previous"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
 
     .line 1
-    check-cast p1, Lcom/google/common/cache/d;
+    check-cast p1, Lcom/google/common/cache/k;
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache$e$b;->b(Lcom/google/common/cache/d;)Lcom/google/common/cache/d;
+    invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache$e$b;->b(Lcom/google/common/cache/k;)Lcom/google/common/cache/k;
 
     .line 4
     .line 5
@@ -159,35 +125,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public b(Lcom/google/common/cache/d;)Lcom/google/common/cache/d;
+.method public b(Lcom/google/common/cache/k;)Lcom/google/common/cache/k;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "previous"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
 
     .line 1
-    invoke-interface {p1}, Lcom/google/common/cache/d;->getNextInAccessQueue()Lcom/google/common/cache/d;
+    invoke-interface {p1}, Lcom/google/common/cache/k;->getNextInAccessQueue()Lcom/google/common/cache/k;
 
     .line 2
     .line 3
@@ -199,7 +143,7 @@
 
     .line 6
     .line 7
-    iget-object v0, v0, Lcom/google/common/cache/LocalCache$e;->a:Lcom/google/common/cache/d;
+    iget-object v0, v0, Lcom/google/common/cache/LocalCache$e;->a:Lcom/google/common/cache/k;
 
     .line 8
     .line 9
@@ -224,5 +168,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

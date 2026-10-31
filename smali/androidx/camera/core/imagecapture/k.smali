@@ -30,7 +30,7 @@
     .line 1
     iget-object v0, p0, Landroidx/camera/core/imagecapture/k;->a:Landroidx/camera/core/imagecapture/RequestWithCallback;
 
-    invoke-static {v0, p1}, Landroidx/camera/core/imagecapture/RequestWithCallback;->b(Landroidx/camera/core/imagecapture/RequestWithCallback;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Landroidx/camera/core/imagecapture/RequestWithCallback;->a(Landroidx/camera/core/imagecapture/RequestWithCallback;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
 
     move-result-object p1
 

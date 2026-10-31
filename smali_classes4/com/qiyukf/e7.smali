@@ -51,6 +51,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static a(Landroid/content/Context;)Ljava/lang/String;
@@ -689,7 +691,7 @@
 
     move-result-object v3
 
-    const-string v4, "yyyy-MM-dd HH:mm:ss"
+    const-string/jumbo v4, "yyyy-MM-dd HH:mm:ss"
 
     invoke-direct {v2, v4, v3}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
@@ -1175,4 +1177,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/util/LruCacheKt;->lruCache(ILjm/p;Ljm/l;Ljm/r;)Landroid/util/LruCache;
+    value = Landroidx/core/util/LruCacheKt;->lruCache(ILq8/p;Lq8/l;Lq8/r;)Landroid/util/LruCache;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,70 +22,54 @@
 
 
 # instance fields
-.field final synthetic $create:Ljm/l;
+.field final synthetic $create:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "TK;TV;>;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
-.field final synthetic $onEntryRemoved:Ljm/r;
+.field final synthetic $onEntryRemoved:Lq8/r;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/r<",
-            "Ljava/lang/Boolean;",
-            "TK;TV;TV;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/r;"
         }
     .end annotation
 .end field
 
-.field final synthetic $sizeOf:Ljm/p;
+.field final synthetic $sizeOf:Lq8/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/p<",
-            "TK;TV;",
-            "Ljava/lang/Integer;",
-            ">;"
+            "Lq8/p;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(ILjm/p;Ljm/l;Ljm/r;)V
+.method public constructor <init>(ILq8/p;Lq8/l;Lq8/r;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
-            "Ljm/p<",
-            "-TK;-TV;",
-            "Ljava/lang/Integer;",
-            ">;",
-            "Ljm/l<",
-            "-TK;+TV;>;",
-            "Ljm/r<",
-            "-",
-            "Ljava/lang/Boolean;",
-            "-TK;-TV;-TV;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/p;",
+            "Lq8/l;",
+            "Lq8/r;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p2, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$sizeOf:Ljm/p;
+    iput-object p2, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$sizeOf:Lq8/p;
 
     .line 2
     .line 3
-    iput-object p3, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$create:Ljm/l;
+    iput-object p3, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$create:Lq8/l;
 
     .line 4
     .line 5
-    iput-object p4, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$onEntryRemoved:Ljm/r;
+    iput-object p4, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$onEntryRemoved:Lq8/r;
 
     .line 6
     .line 7
@@ -315,6 +299,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -328,11 +318,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$create:Ljm/l;
+    iget-object v0, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$create:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -370,7 +360,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$onEntryRemoved:Ljm/r;
+    iget-object v0, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$onEntryRemoved:Lq8/r;
 
     .line 2
     .line 3
@@ -382,7 +372,7 @@
     move-result-object p1
 
     .line 7
-    invoke-interface {v0, p1, p2, p3, p4}, Ljm/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2, p3, p4}, Lq8/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -608,6 +598,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public sizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
@@ -619,11 +615,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$sizeOf:Ljm/p;
+    iget-object v0, p0, Landroidx/core/util/LruCacheKt$lruCache$4;->$sizeOf:Lq8/p;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5

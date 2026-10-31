@@ -13,13 +13,6 @@
     name = "i"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/cache/LocalCache<",
-        "TK;TV;>.h<TK;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final synthetic i:Lcom/google/common/cache/LocalCache;
@@ -28,14 +21,6 @@
 # direct methods
 .method public constructor <init>(Lcom/google/common/cache/LocalCache;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$i;->i:Lcom/google/common/cache/LocalCache;
@@ -66,18 +51,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public next()Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TK;"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$h;->c()Lcom/google/common/cache/LocalCache$d0;
@@ -110,5 +89,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

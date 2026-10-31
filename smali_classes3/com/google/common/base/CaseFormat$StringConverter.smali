@@ -18,10 +18,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/google/common/base/Converter<",
-        "Ljava/lang/String;",
-        "Ljava/lang/String;",
-        ">;",
+        "Lcom/google/common/base/Converter;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -40,16 +37,6 @@
 # direct methods
 .method public constructor <init>(Lcom/google/common/base/CaseFormat;Lcom/google/common/base/CaseFormat;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "sourceFormat",
-            "targetFormat"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/common/base/Converter;-><init>()V
@@ -57,7 +44,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -73,7 +60,7 @@
 
     .line 11
     .line 12
-    invoke-static {p2}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -130,25 +117,12 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
 .method public bridge synthetic doBackward(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "s"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/String;
@@ -162,14 +136,6 @@
 
 .method public doBackward(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "s"
-        }
-    .end annotation
 
     .line 2
     iget-object v0, p0, Lcom/google/common/base/CaseFormat$StringConverter;->targetFormat:Lcom/google/common/base/CaseFormat;
@@ -185,14 +151,6 @@
 
 .method public bridge synthetic doForward(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "s"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/String;
@@ -206,14 +164,6 @@
 
 .method public doForward(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "s"
-        }
-    .end annotation
 
     .line 2
     iget-object v0, p0, Lcom/google/common/base/CaseFormat$StringConverter;->sourceFormat:Lcom/google/common/base/CaseFormat;
@@ -229,18 +179,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "object"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Lcom/google/common/base/CaseFormat$StringConverter;
@@ -367,8 +305,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public hashCode()I
@@ -411,7 +347,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -542,13 +477,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

@@ -20,9 +20,6 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/activity/OnBackPressedDispatcher$Api34Impl;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -64,55 +61,26 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
-.method public final createOnBackAnimationCallback(Ljm/l;Ljm/l;Ljm/a;Ljm/a;)Landroid/window/OnBackInvokedCallback;
+.method public final createOnBackAnimationCallback(Lq8/l;Lq8/l;Lq8/a;Lq8/a;)Landroid/window/OnBackInvokedCallback;
     .locals 1
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Landroidx/activity/BackEventCompat;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroidx/activity/BackEventCompat;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            "Lq8/l;",
+            "Lq8/a;",
+            "Lq8/a;",
+            ")",
             "Landroid/window/OnBackInvokedCallback;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -120,7 +88,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -129,7 +97,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -138,7 +106,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -147,7 +115,7 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -156,7 +124,7 @@
 
     .line 22
     .line 23
-    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/activity/OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1;-><init>(Ljm/l;Ljm/l;Ljm/a;Ljm/a;)V
+    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/activity/OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1;-><init>(Lq8/l;Lq8/l;Lq8/a;Lq8/a;)V
 
     .line 24
     .line 25
@@ -366,4 +334,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

@@ -13,27 +13,11 @@
     name = "Builder"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSplitAttributes.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SplitAttributes.kt\nandroidx/window/embedding/SplitAttributes$Builder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,443:1\n1#2:444\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSplitAttributes.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SplitAttributes.kt\nandroidx/window/embedding/SplitAttributes$Builder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,443:1\n1#2:444\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private layoutDirection:Landroidx/window/embedding/SplitAttributes$LayoutDirection;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private splitType:Landroidx/window/embedding/SplitAttributes$SplitType;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -71,14 +55,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final build()Landroidx/window/embedding/SplitAttributes;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/window/embedding/SplitAttributes;
@@ -109,23 +92,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setLayoutDirection(Landroidx/window/embedding/SplitAttributes$LayoutDirection;)Landroidx/window/embedding/SplitAttributes$Builder;
     .locals 1
-    .param p1    # Landroidx/window/embedding/SplitAttributes$LayoutDirection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "layoutDirection"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -156,19 +134,13 @@
 
 .method public final setSplitType(Landroidx/window/embedding/SplitAttributes$SplitType;)Landroidx/window/embedding/SplitAttributes$Builder;
     .locals 1
-    .param p1    # Landroidx/window/embedding/SplitAttributes$SplitType;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "type"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

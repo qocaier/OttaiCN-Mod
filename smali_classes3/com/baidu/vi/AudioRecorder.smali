@@ -76,7 +76,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(IIIIIII)V
@@ -648,53 +647,6 @@
     .line 479
     .line 480
     .line 481
-    .line 482
-    .line 483
-    .line 484
-    .line 485
-    .line 486
-    .line 487
-    .line 488
-    .line 489
-    .line 490
-    .line 491
-    .line 492
-    .line 493
-    .line 494
-    .line 495
-    .line 496
-    .line 497
-    .line 498
-    .line 499
-    .line 500
-    .line 501
-    .line 502
-    .line 503
-    .line 504
-    .line 505
-    .line 506
-    .line 507
-    .line 508
-    .line 509
-    .line 510
-    .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
 .end method
 
 .method private a()V
@@ -827,7 +779,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic c(Lcom/baidu/vi/AudioRecorder;)I
@@ -860,7 +811,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic d(Lcom/baidu/vi/AudioRecorder;)V
@@ -893,7 +843,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 

@@ -20,25 +20,14 @@
 .field private static final DEBUG:Z
 
 .field private static final TAG:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private static decorator:Landroidx/window/layout/WindowInfoTrackerDecorator;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field private static final extensionBackend$delegate:Ljl/c0;
+.field private static final extensionBackend$delegate:Lkotlin/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljl/c0<",
-            "Landroidx/window/layout/adapter/WindowBackend;",
-            ">;"
+            "Lkotlin/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -65,7 +54,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0}, Lkm/o0;->d(Ljava/lang/Class;)Lum/d;
+    invoke-static {v0}, Lkotlin/jvm/internal/m;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     .line 11
     .line 12
@@ -73,7 +62,7 @@
     move-result-object v0
 
     .line 14
-    invoke-interface {v0}, Lum/d;->t()Ljava/lang/String;
+    invoke-interface {v0}, Lkotlin/reflect/c;->d()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -89,7 +78,7 @@
 
     .line 21
     .line 22
-    invoke-static {v0}, Lkotlin/e;->b(Ljm/a;)Ljl/c0;
+    invoke-static {v0}, Lkotlin/d;->b(Lq8/a;)Lkotlin/c;
 
     .line 23
     .line 24
@@ -97,7 +86,7 @@
     move-result-object v0
 
     .line 26
-    sput-object v0, Landroidx/window/layout/WindowInfoTracker$Companion;->extensionBackend$delegate:Ljl/c0;
+    sput-object v0, Landroidx/window/layout/WindowInfoTracker$Companion;->extensionBackend$delegate:Lkotlin/c;
 
     .line 27
     .line 28
@@ -162,6 +151,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -190,6 +181,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getDEBUG$p()Z
@@ -218,6 +210,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getTAG$p()Ljava/lang/String;
@@ -246,6 +239,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic getExtensionBackend$window_release$annotations()V
@@ -258,15 +252,13 @@
 # virtual methods
 .method public final getExtensionBackend$window_release()Landroidx/window/layout/adapter/WindowBackend;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
-    sget-object v0, Landroidx/window/layout/WindowInfoTracker$Companion;->extensionBackend$delegate:Ljl/c0;
+    sget-object v0, Landroidx/window/layout/WindowInfoTracker$Companion;->extensionBackend$delegate:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lkotlin/c;->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -290,30 +282,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getOrCreate(Landroid/content/Context;)Landroidx/window/layout/WindowInfoTracker;
     .locals 2
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/j;
-        name = "getOrCreate"
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -416,21 +396,15 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final overrideDecorator(Landroidx/window/layout/WindowInfoTrackerDecorator;)V
     .locals 1
-    .param p1    # Landroidx/window/layout/WindowInfoTrackerDecorator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
     .end annotation
 
     .line 1
@@ -438,7 +412,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -475,9 +449,6 @@
         }
     .end annotation
 
-    .annotation runtime Lim/o;
-    .end annotation
-
     .line 1
     sget-object v0, Landroidx/window/layout/EmptyDecorator;->INSTANCE:Landroidx/window/layout/EmptyDecorator;
 
@@ -503,4 +474,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

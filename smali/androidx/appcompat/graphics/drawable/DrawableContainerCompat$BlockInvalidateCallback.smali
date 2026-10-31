@@ -48,6 +48,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -194,6 +195,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public unscheduleDrawable(Landroid/graphics/drawable/Drawable;Ljava/lang/Runnable;)V
@@ -295,6 +299,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public wrap(Landroid/graphics/drawable/Drawable$Callback;)Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;

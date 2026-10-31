@@ -143,6 +143,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private proxyRules()Ljava/util/List;
@@ -182,6 +183,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private reverseBypass()Z
@@ -210,6 +212,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -381,6 +384,7 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bypassSimpleHostnames()Landroidx/webkit/ProxyConfig$Builder;
@@ -415,6 +419,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeImplicitRules()Landroidx/webkit/ProxyConfig$Builder;
@@ -449,6 +454,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setReverseBypassEnabled(Z)Landroidx/webkit/ProxyConfig$Builder;

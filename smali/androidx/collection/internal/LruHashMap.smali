@@ -24,9 +24,6 @@
             "TK;TV;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
@@ -43,7 +40,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {p0, v2, v3, v0, v1}, Landroidx/collection/internal/LruHashMap;-><init>(IFILkm/v;)V
+    invoke-direct {p0, v2, v3, v0, v1}, Landroidx/collection/internal/LruHashMap;-><init>(IFILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
@@ -66,7 +63,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(IFILkm/v;)V
+.method public synthetic constructor <init>(IFILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p4, p3, 0x1
@@ -91,10 +88,6 @@
 
 .method public constructor <init>(Landroidx/collection/internal/LruHashMap;)V
     .locals 4
-    .param p1    # Landroidx/collection/internal/LruHashMap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -105,7 +98,7 @@
 
     const-string v0, "original"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x3
 
@@ -116,7 +109,7 @@
     const/4 v3, 0x0
 
     .line 5
-    invoke-direct {p0, v2, v3, v0, v1}, Landroidx/collection/internal/LruHashMap;-><init>(IFILkm/v;)V
+    invoke-direct {p0, v2, v3, v0, v1}, Landroidx/collection/internal/LruHashMap;-><init>(IFILkotlin/jvm/internal/f;)V
 
     .line 6
     invoke-virtual {p1}, Landroidx/collection/internal/LruHashMap;->getEntries()Ljava/util/Set;
@@ -161,17 +154,10 @@
 # virtual methods
 .method public final get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;)TV;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -179,7 +165,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -223,9 +209,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     iget-object v0, p0, Landroidx/collection/internal/LruHashMap;->map:Ljava/util/LinkedHashMap;
 
@@ -243,7 +226,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -257,6 +240,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isEmpty()Z
@@ -289,25 +273,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;TV;)TV;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -315,7 +289,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -324,7 +298,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -377,17 +351,10 @@
 
 .method public final remove(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;)TV;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -395,7 +362,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

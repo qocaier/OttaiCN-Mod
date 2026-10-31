@@ -51,7 +51,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static createFromCornerSize(Lcom/google/android/material/shape/AbsoluteCornerSize;)Lcom/google/android/material/shape/ClampedCornerSize;
@@ -96,7 +95,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static getMaxCornerSize(Landroid/graphics/RectF;)F
@@ -149,7 +147,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -211,7 +208,6 @@
     return v2
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getCornerSize(Landroid/graphics/RectF;)F
@@ -256,7 +252,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public hashCode()I
@@ -299,5 +294,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

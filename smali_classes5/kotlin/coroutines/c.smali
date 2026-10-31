@@ -1,112 +1,48 @@
-.class public interface abstract Lkotlin/coroutines/c;
+.class public final synthetic Lkotlin/coroutines/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkotlin/coroutines/d$b;
+.implements Lq8/p;
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lkotlin/coroutines/c$a;,
-        Lkotlin/coroutines/c$b;
-    }
-.end annotation
+# instance fields
+.field public final synthetic a:[Lkotlin/coroutines/i;
 
-.annotation build Ljl/x0;
-    version = "1.3"
-.end annotation
-
-
-# static fields
-.field public static final l0:Lkotlin/coroutines/c$b;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public final synthetic b:Lkotlin/jvm/internal/Ref$IntRef;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 1
+.method public synthetic constructor <init>([Lkotlin/coroutines/i;Lkotlin/jvm/internal/Ref$IntRef;)V
+    .locals 0
 
-    sget-object v0, Lkotlin/coroutines/c$b;->a:Lkotlin/coroutines/c$b;
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sput-object v0, Lkotlin/coroutines/c;->l0:Lkotlin/coroutines/c$b;
+    iput-object p1, p0, Lkotlin/coroutines/c;->a:[Lkotlin/coroutines/i;
+
+    iput-object p2, p0, Lkotlin/coroutines/c;->b:Lkotlin/jvm/internal/Ref$IntRef;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public abstract get(Lkotlin/coroutines/d$c;)Lkotlin/coroutines/d$b;
-    .param p1    # Lkotlin/coroutines/d$c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<E::",
-            "Lkotlin/coroutines/d$b;",
-            ">(",
-            "Lkotlin/coroutines/d$c<",
-            "TE;>;)TE;"
-        }
-    .end annotation
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
 
-    .annotation build Lsq/l;
-    .end annotation
-.end method
+    .line 1
+    iget-object v0, p0, Lkotlin/coroutines/c;->a:[Lkotlin/coroutines/i;
 
-.method public abstract interceptContinuation(Lul/c;)Lul/c;
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lul/c<",
-            "-TT;>;)",
-            "Lul/c<",
-            "TT;>;"
-        }
-    .end annotation
+    iget-object v1, p0, Lkotlin/coroutines/c;->b:Lkotlin/jvm/internal/Ref$IntRef;
 
-    .annotation build Lsq/k;
-    .end annotation
-.end method
+    check-cast p1, Lkotlin/j;
 
-.method public abstract minusKey(Lkotlin/coroutines/d$c;)Lkotlin/coroutines/d;
-    .param p1    # Lkotlin/coroutines/d$c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lkotlin/coroutines/d$c<",
-            "*>;)",
-            "Lkotlin/coroutines/d;"
-        }
-    .end annotation
+    check-cast p2, Lkotlin/coroutines/i$b;
 
-    .annotation build Lsq/k;
-    .end annotation
-.end method
+    invoke-static {v0, v1, p1, p2}, Lkotlin/coroutines/CombinedContext;->b([Lkotlin/coroutines/i;Lkotlin/jvm/internal/Ref$IntRef;Lkotlin/j;Lkotlin/coroutines/i$b;)Lkotlin/j;
 
-.method public abstract releaseInterceptedContinuation(Lul/c;)V
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lul/c<",
-            "*>;)V"
-        }
-    .end annotation
+    move-result-object p1
+
+    return-object p1
 .end method

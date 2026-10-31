@@ -13,53 +13,17 @@
     name = "b0"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/cache/LocalCache$x<",
-        "TK;TV;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final b:I
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/d;I)V
+.method public constructor <init>(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/k;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "queue",
-            "referent",
-            "entry",
-            "weight"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/ref/ReferenceQueue<",
-            "TV;>;TV;",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;I)V"
-        }
-    .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/google/common/cache/LocalCache$x;-><init>(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/d;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/google/common/cache/LocalCache$x;-><init>(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/k;)V
 
     .line 2
     .line 3
@@ -305,6 +269,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 
@@ -337,35 +317,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public e(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/d;)Lcom/google/common/cache/LocalCache$s;
+.method public e(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/k;)Lcom/google/common/cache/LocalCache$s;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "queue",
-            "value",
-            "entry"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/ref/ReferenceQueue<",
-            "TV;>;TV;",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)",
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Lcom/google/common/cache/LocalCache$b0;
@@ -376,7 +331,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, p1, p2, p3, v1}, Lcom/google/common/cache/LocalCache$b0;-><init>(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/d;I)V
+    invoke-direct {v0, p1, p2, p3, v1}, Lcom/google/common/cache/LocalCache$b0;-><init>(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/k;I)V
 
     .line 6
     .line 7
@@ -521,9 +476,4 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method

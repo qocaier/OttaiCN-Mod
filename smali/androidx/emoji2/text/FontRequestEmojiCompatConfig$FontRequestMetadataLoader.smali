@@ -262,6 +262,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private cleanUp()V
@@ -413,6 +416,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private retrieveFontInfo()Landroidx/core/provider/FontsContractCompat$FontInfo;
@@ -587,6 +592,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private scheduleRetry(Landroid/net/Uri;J)V
@@ -682,11 +689,11 @@
 
     .line 38
     .line 39
-    new-instance p1, Landroidx/emoji2/text/d;
+    new-instance p1, Landroidx/emoji2/text/e;
 
     .line 40
     .line 41
-    invoke-direct {p1, p0}, Landroidx/emoji2/text/d;-><init>(Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;)V
+    invoke-direct {p1, p0}, Landroidx/emoji2/text/e;-><init>(Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;)V
 
     .line 42
     .line 43
@@ -897,6 +904,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -1560,6 +1570,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public load(Landroidx/emoji2/text/EmojiCompat$MetadataRepoLoaderCallback;)V
@@ -1697,11 +1759,11 @@
 
     .line 27
     .line 28
-    new-instance v2, Landroidx/emoji2/text/c;
+    new-instance v2, Landroidx/emoji2/text/d;
 
     .line 29
     .line 30
-    invoke-direct {v2, p0}, Landroidx/emoji2/text/c;-><init>(Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;)V
+    invoke-direct {v2, p0}, Landroidx/emoji2/text/d;-><init>(Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;)V
 
     .line 31
     .line 32
@@ -1769,6 +1831,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setExecutor(Ljava/util/concurrent/Executor;)V

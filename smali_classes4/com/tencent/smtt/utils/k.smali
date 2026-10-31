@@ -102,7 +102,7 @@
 
     move-result-object v6
 
-    const-string v8, "|"
+    const-string/jumbo v8, "|"
 
     if-eqz v3, :cond_1
 

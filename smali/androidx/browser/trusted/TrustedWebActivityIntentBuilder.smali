@@ -518,6 +518,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public buildCustomTabsIntent()Landroidx/browser/customtabs/CustomTabsIntent;
@@ -550,6 +555,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDisplayMode()Landroidx/browser/trusted/TrustedWebActivityDisplayMode;
@@ -578,6 +584,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUri()Landroid/net/Uri;
@@ -606,6 +613,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setAdditionalTrustedOrigins(Ljava/util/List;)Landroidx/browser/trusted/TrustedWebActivityIntentBuilder;

@@ -224,15 +224,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static synthetic a(Lcom/baidu/mapapi/map/HeatMap$Builder;)Ljava/util/Collection;
@@ -265,7 +256,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic b(Lcom/baidu/mapapi/map/HeatMap$Builder;)Lcom/baidu/mapapi/map/HeatMapAnimation;
@@ -298,7 +288,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic c(Lcom/baidu/mapapi/map/HeatMap$Builder;)Lcom/baidu/mapapi/map/HeatMapAnimation;
@@ -331,7 +320,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic d(Lcom/baidu/mapapi/map/HeatMap$Builder;)I
@@ -364,7 +352,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic e(Lcom/baidu/mapapi/map/HeatMap$Builder;)F
@@ -397,7 +384,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic f(Lcom/baidu/mapapi/map/HeatMap$Builder;)F
@@ -430,7 +416,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic g(Lcom/baidu/mapapi/map/HeatMap$Builder;)Lcom/baidu/mapapi/map/Gradient;
@@ -463,7 +448,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic h(Lcom/baidu/mapapi/map/HeatMap$Builder;)D
@@ -496,7 +480,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic i(Lcom/baidu/mapapi/map/HeatMap$Builder;)Ljava/util/List;
@@ -529,7 +512,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic j(Lcom/baidu/mapapi/map/HeatMap$Builder;)I
@@ -562,7 +544,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic k(Lcom/baidu/mapapi/map/HeatMap$Builder;)I
@@ -595,7 +576,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic l(Lcom/baidu/mapapi/map/HeatMap$Builder;)Z
@@ -628,7 +608,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic m(Lcom/baidu/mapapi/map/HeatMap$Builder;)I
@@ -661,7 +640,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic n(Lcom/baidu/mapapi/map/HeatMap$Builder;)I
@@ -694,7 +672,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic o(Lcom/baidu/mapapi/map/HeatMap$Builder;)Z
@@ -727,7 +704,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -863,15 +839,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public data(Ljava/util/Collection;)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1020,8 +987,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public datas(Ljava/util/List;)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1171,8 +1136,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public frameAnimation(Lcom/baidu/mapapi/map/HeatMapAnimation;)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1205,7 +1168,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public gradient(Lcom/baidu/mapapi/map/Gradient;)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1249,7 +1211,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public initAnimation(Lcom/baidu/mapapi/map/HeatMapAnimation;)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1282,7 +1243,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isRadiusMeter(Z)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1315,7 +1275,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public maxHigh(I)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1362,7 +1321,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public maxIntensity(F)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1416,7 +1374,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public maxShowLevel(I)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1463,7 +1420,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public minIntensity(F)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1516,7 +1472,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public minShowLevel(I)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1565,7 +1520,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public opacity(D)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1620,7 +1574,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public radius(I)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1671,7 +1624,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public radiusMeter(I)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1722,7 +1674,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public weightedData(Ljava/util/Collection;)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -1865,8 +1816,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public weightedDatas(Ljava/util/List;)Lcom/baidu/mapapi/map/HeatMap$Builder;
@@ -2010,6 +1959,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

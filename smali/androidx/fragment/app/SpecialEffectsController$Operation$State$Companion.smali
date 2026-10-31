@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -37,19 +37,13 @@
 # virtual methods
 .method public final asOperationState(Landroid/view/View;)Landroidx/fragment/app/SpecialEffectsController$Operation$State;
     .locals 2
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -156,15 +150,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final from(I)Landroidx/fragment/app/SpecialEffectsController$Operation$State;
     .locals 3
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     if-eqz p1, :cond_2
@@ -288,4 +278,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

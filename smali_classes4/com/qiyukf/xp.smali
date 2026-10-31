@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static synthetic a(Lcom/qiyukf/tv;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -54,9 +56,9 @@
     move-result-object v0
 
     .line 6
-    new-instance v1, Lvg/s1;
+    new-instance v1, Lcom/qiyukf/ch0;
 
-    invoke-direct {v1}, Lvg/s1;-><init>()V
+    invoke-direct {v1}, Lcom/qiyukf/ch0;-><init>()V
 
     const/4 v2, 0x1
 

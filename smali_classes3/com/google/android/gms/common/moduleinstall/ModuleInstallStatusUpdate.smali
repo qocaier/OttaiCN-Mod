@@ -4,13 +4,8 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "ModuleInstallStatusUpdateCreator"
-.end annotation
-
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$b;,
         Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$a;
     }
 .end annotation
@@ -33,62 +28,25 @@
 
 # instance fields
 .field public final a:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getSessionId"
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getInstallState"
-        id = 0x2
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$a;
-    .end annotation
-.end field
 
 .field public final c:Ljava/lang/Long;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getBytesDownloaded"
-        id = 0x3
-    .end annotation
-.end field
 
 .field public final d:Ljava/lang/Long;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getTotalBytesToDownload"
-        id = 0x4
-    .end annotation
-.end field
 
 .field public final e:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getErrorCode"
-        id = 0x5
-    .end annotation
-.end field
 
-.field public final f:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$b;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
+.field public final f:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$a;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lm9/j;
+    new-instance v0, Lw2/d;
 
-    invoke-direct {v0}, Lm9/j;-><init>()V
+    invoke-direct {v0}, Lw2/d;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -97,45 +55,6 @@
 
 .method public constructor <init>(IILjava/lang/Long;Ljava/lang/Long;I)V
     .locals 2
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$a;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/Long;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x3
-        .end annotation
-    .end param
-    .param p4    # Ljava/lang/Long;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x4
-        .end annotation
-    .end param
-    .param p5    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x5
-        .end annotation
-    .end param
-    .annotation build Lb9/a;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -191,7 +110,7 @@
 
     .line 27
     .line 28
-    new-instance p1, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$b;
+    new-instance p1, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$a;
 
     .line 29
     .line 30
@@ -211,13 +130,13 @@
     move-result-wide p4
 
     .line 38
-    invoke-direct {p1, p2, p3, p4, p5}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$b;-><init>(JJ)V
+    invoke-direct {p1, p2, p3, p4, p5}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$a;-><init>(JJ)V
 
     .line 39
     .line 40
     .line 41
     :goto_0
-    iput-object p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->f:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$b;
+    iput-object p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->f:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$a;
 
     .line 42
     .line 43
@@ -1134,7 +1053,7 @@
 
 
 # virtual methods
-.method public s()I
+.method public d()I
     .locals 1
 
     .line 1
@@ -1143,10 +1062,8 @@
     return v0
 .end method
 
-.method public t()I
+.method public e()I
     .locals 1
-    .annotation build Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$a;
-    .end annotation
 
     .line 1
     iget v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->b:I
@@ -1154,18 +1071,7 @@
     return v0
 .end method
 
-.method public u()Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$b;
-    .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->f:Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$b;
-
-    return-object v0
-.end method
-
-.method public v()I
+.method public f()I
     .locals 1
 
     .line 1
@@ -1176,13 +1082,9 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -1193,7 +1095,7 @@
     const/4 v0, 0x1
 
     .line 6
-    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->v()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->f()I
 
     .line 7
     .line 8
@@ -1201,7 +1103,7 @@
     move-result v1
 
     .line 10
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 11
     .line 12
@@ -1209,7 +1111,7 @@
     const/4 v0, 0x2
 
     .line 14
-    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->t()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->e()I
 
     .line 15
     .line 16
@@ -1217,7 +1119,7 @@
     move-result v1
 
     .line 18
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 19
     .line 20
@@ -1232,7 +1134,7 @@
     const/4 v2, 0x0
 
     .line 25
-    invoke-static {p1, v1, v0, v2}, Lj9/a;->N(Landroid/os/Parcel;ILjava/lang/Long;Z)V
+    invoke-static {p1, v1, v0, v2}, Lu2/a;->m(Landroid/os/Parcel;ILjava/lang/Long;Z)V
 
     .line 26
     .line 27
@@ -1244,7 +1146,7 @@
 
     .line 30
     .line 31
-    invoke-static {p1, v0, v1, v2}, Lj9/a;->N(Landroid/os/Parcel;ILjava/lang/Long;Z)V
+    invoke-static {p1, v0, v1, v2}, Lu2/a;->m(Landroid/os/Parcel;ILjava/lang/Long;Z)V
 
     .line 32
     .line 33
@@ -1252,7 +1154,7 @@
     const/4 v0, 0x5
 
     .line 35
-    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->s()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;->d()I
 
     .line 36
     .line 37
@@ -1260,12 +1162,12 @@
     move-result v1
 
     .line 39
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 40
     .line 41
     .line 42
-    invoke-static {p1, p2}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 43
     .line 44
@@ -1286,9 +1188,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

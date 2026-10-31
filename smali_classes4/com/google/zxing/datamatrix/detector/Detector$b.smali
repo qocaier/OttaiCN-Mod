@@ -15,25 +15,25 @@
 
 
 # instance fields
-.field public final a:Llc/l;
+.field public final a:Lcom/google/zxing/i;
 
-.field public final b:Llc/l;
+.field public final b:Lcom/google/zxing/i;
 
 .field public final c:I
 
 
 # direct methods
-.method public constructor <init>(Llc/l;Llc/l;I)V
+.method public constructor <init>(Lcom/google/zxing/i;Lcom/google/zxing/i;I)V
     .locals 0
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    iput-object p1, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->a:Llc/l;
+    iput-object p1, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->a:Lcom/google/zxing/i;
 
     .line 4
-    iput-object p2, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->b:Llc/l;
+    iput-object p2, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->b:Lcom/google/zxing/i;
 
     .line 5
     iput p3, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->c:I
@@ -41,22 +41,22 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Llc/l;Llc/l;ILcom/google/zxing/datamatrix/detector/Detector$a;)V
+.method public synthetic constructor <init>(Lcom/google/zxing/i;Lcom/google/zxing/i;ILcom/google/zxing/datamatrix/detector/Detector$a;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/google/zxing/datamatrix/detector/Detector$b;-><init>(Llc/l;Llc/l;I)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/google/zxing/datamatrix/detector/Detector$b;-><init>(Lcom/google/zxing/i;Lcom/google/zxing/i;I)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public a()Llc/l;
+.method public a()Lcom/google/zxing/i;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->a:Llc/l;
+    iget-object v0, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->a:Lcom/google/zxing/i;
 
     .line 2
     .line 3
@@ -78,13 +78,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public b()Llc/l;
+.method public b()Lcom/google/zxing/i;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->b:Llc/l;
+    iget-object v0, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->b:Lcom/google/zxing/i;
 
     .line 2
     .line 3
@@ -106,6 +108,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public c()I
@@ -134,6 +138,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -149,7 +155,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->a:Llc/l;
+    iget-object v1, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->a:Lcom/google/zxing/i;
 
     .line 7
     .line 8
@@ -167,7 +173,7 @@
     .line 14
     .line 15
     .line 16
-    iget-object v1, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->b:Llc/l;
+    iget-object v1, p0, Lcom/google/zxing/datamatrix/detector/Detector$b;->b:Lcom/google/zxing/i;
 
     .line 17
     .line 18
@@ -252,4 +258,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

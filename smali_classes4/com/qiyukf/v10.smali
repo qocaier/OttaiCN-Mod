@@ -1675,6 +1675,131 @@
     .line 997
     .line 998
     .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
+    .line 1092
+    .line 1093
+    .line 1094
+    .line 1095
+    .line 1096
+    .line 1097
+    .line 1098
+    .line 1099
+    .line 1100
+    .line 1101
+    .line 1102
+    .line 1103
+    .line 1104
+    .line 1105
+    .line 1106
+    .line 1107
+    .line 1108
+    .line 1109
+    .line 1110
+    .line 1111
+    .line 1112
+    .line 1113
+    .line 1114
+    .line 1115
+    .line 1116
+    .line 1117
+    .line 1118
+    .line 1119
+    .line 1120
+    .line 1121
+    .line 1122
+    .line 1123
+    .line 1124
 .end method
 
 .method private A(Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -1820,6 +1945,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private H(Ljava/lang/String;)V
@@ -1942,6 +2069,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic a(Lcom/qiyukf/v10;)Landroid/content/Context;
@@ -6231,7 +6360,7 @@
 
     move-result-object v7
 
-    sget-object v10, Lcom/qiyukf/unicorn/api/msg/SessionStatusEnum;->IN_SESSION:Lcom/qiyukf/unicorn/api/msg/SessionStatusEnum;
+    sget-object v10, Lcom/qiyukf/unicorn/api/msg/SessionStatusEnum;->NONE:Lcom/qiyukf/unicorn/api/msg/SessionStatusEnum;
 
     invoke-virtual {v7, v1}, Lcom/qiyukf/ot;->c(Ljava/lang/String;)V
 
@@ -6417,7 +6546,7 @@
 
     move-result-object v3
 
-    sget-object v7, Lcom/qiyukf/unicorn/api/msg/SessionStatusEnum;->IN_QUEUE:Lcom/qiyukf/unicorn/api/msg/SessionStatusEnum;
+    sget-object v7, Lcom/qiyukf/unicorn/api/msg/SessionStatusEnum;->NONE:Lcom/qiyukf/unicorn/api/msg/SessionStatusEnum;
 
     invoke-virtual {v3, v1}, Lcom/qiyukf/ot;->c(Ljava/lang/String;)V
 
@@ -7387,7 +7516,7 @@
 
     move-result-object p1
 
-    const-string v1, "\u8bf7\u914d\u7f6e\u89c6\u9891\u5ba2\u670dSDK"
+    const-string/jumbo v1, "\u8bf7\u914d\u7f6e\u89c6\u9891\u5ba2\u670dSDK"
 
     invoke-interface {v0, p1, v1}, Lcom/qiyukf/v10$m;->onVideoError(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -7680,6 +7809,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public C(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/msg/SessionStatusEnum;
@@ -7739,6 +7870,8 @@
     .line 24
     .line 25
     return-object p1
+    .line 26
+    .line 27
 .end method
 
 .method public D(Ljava/lang/String;)V
@@ -7785,6 +7918,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public E(Ljava/lang/String;)Z
@@ -7841,6 +7976,8 @@
     return p1
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public F(Ljava/lang/String;)Z
@@ -7897,6 +8034,8 @@
     return p1
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public G(Ljava/lang/String;)V
@@ -8394,27 +8533,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public a(Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;)J
@@ -11889,6 +12007,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public q(Ljava/lang/String;)I
@@ -11946,6 +12066,8 @@
     .line 24
     return p1
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public r(Ljava/lang/String;)Lcom/qiyukf/x10;
@@ -11990,6 +12112,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public s(Ljava/lang/String;)J
@@ -12058,21 +12182,21 @@
 
     .line 27
     .line 28
-    const-string v1, "\u83b7\u53d6 getFaqSessionId \u5931\u8d25"
+    const-string/jumbo v1, "\u83b7\u53d6 getFaqSessionId \u5931\u8d25"
 
     .line 29
     .line 30
+    .line 31
     invoke-static {v0, v1, p1}, Lcom/qiyukf/module/log/base/AbsUnicornLog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 31
     .line 32
     .line 33
+    .line 34
     const-wide/16 v0, 0x0
 
-    .line 34
     .line 35
-    return-wide v0
     .line 36
+    return-wide v0
     .line 37
     .line 38
     .line 39
@@ -12121,6 +12245,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public t(Ljava/lang/String;)Z
@@ -12183,63 +12309,6 @@
     .line 26
     return p1
     .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public u(Ljava/lang/String;)Z
@@ -12288,6 +12357,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public v(Ljava/lang/String;)Ljava/lang/Boolean;
@@ -12340,6 +12411,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public w(Ljava/lang/String;)Z
@@ -12402,63 +12475,6 @@
     .line 26
     return p1
     .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public x(Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -12517,6 +12533,8 @@
     .line 24
     return-object p1
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public y(Ljava/lang/String;)Z
@@ -12573,6 +12591,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public z(Ljava/lang/String;)Z
@@ -12610,4 +12630,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

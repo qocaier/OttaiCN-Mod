@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/List;
-.implements Llm/e;
+.implements Lr8/a;
 
 
 # annotations
@@ -25,17 +25,7 @@
         "Ljava/lang/Object;",
         "Ljava/util/List<",
         "TT;>;",
-        "Llm/e;"
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nObjectList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ObjectList.kt\nandroidx/collection/MutableObjectList$SubList\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,1618:1\n1855#2,2:1619\n1855#2,2:1621\n*S KotlinDebug\n*F\n+ 1 ObjectList.kt\nandroidx/collection/MutableObjectList$SubList\n*L\n1395#1:1619,2\n1477#1:1621,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nObjectList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ObjectList.kt\nandroidx/collection/MutableObjectList$SubList\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,1618:1\n1855#2,2:1619\n1855#2,2:1621\n*S KotlinDebug\n*F\n+ 1 ObjectList.kt\nandroidx/collection/MutableObjectList$SubList\n*L\n1395#1:1619,2\n1477#1:1621,2\n*E\n"
+        "Lr8/a;"
     }
 .end annotation
 
@@ -50,9 +40,6 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final start:I
@@ -61,10 +48,6 @@
 # direct methods
 .method public constructor <init>(Ljava/util/List;II)V
     .locals 1
-    .param p1    # Ljava/util/List;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -78,7 +61,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -199,6 +182,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -256,10 +242,6 @@
 
 .method public addAll(ILjava/util/Collection;)Z
     .locals 2
-    .param p2    # Ljava/util/Collection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -270,7 +252,7 @@
 
     const-string v0, "elements"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget-object v0, p0, Landroidx/collection/MutableObjectList$SubList;->list:Ljava/util/List;
@@ -311,10 +293,6 @@
 
 .method public addAll(Ljava/util/Collection;)Z
     .locals 2
-    .param p1    # Ljava/util/Collection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -325,7 +303,7 @@
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     iget-object v0, p0, Landroidx/collection/MutableObjectList$SubList;->list:Ljava/util/List;
@@ -474,6 +452,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public contains(Ljava/lang/Object;)Z
@@ -505,7 +485,7 @@
     move-result-object v2
 
     .line 13
-    invoke-static {v2, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -540,10 +520,6 @@
 
 .method public containsAll(Ljava/util/Collection;)Z
     .locals 1
-    .param p1    # Ljava/util/Collection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -559,7 +535,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -667,6 +643,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public get(I)Ljava/lang/Object;
@@ -747,6 +724,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public indexOf(Ljava/lang/Object;)I
@@ -778,7 +756,7 @@
     move-result-object v2
 
     .line 13
-    invoke-static {v2, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -864,6 +842,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public isEmpty()Z
@@ -903,6 +882,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public iterator()Ljava/util/Iterator;
@@ -913,9 +893,6 @@
             "Ljava/util/Iterator<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -945,6 +922,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public lastIndexOf(Ljava/lang/Object;)I
@@ -980,7 +958,7 @@
     move-result-object v2
 
     .line 15
-    invoke-static {v2, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -1066,6 +1044,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public listIterator()Ljava/util/ListIterator;
@@ -1076,9 +1055,6 @@
             "Ljava/util/ListIterator<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1099,9 +1075,6 @@
             "Ljava/util/ListIterator<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 2
@@ -1146,7 +1119,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -1181,10 +1154,6 @@
 
 .method public removeAll(Ljava/util/Collection;)Z
     .locals 2
-    .param p1    # Ljava/util/Collection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1200,7 +1169,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1313,6 +1282,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public removeAt(I)Ljava/lang/Object;
@@ -1371,10 +1341,6 @@
 
 .method public retainAll(Ljava/util/Collection;)Z
     .locals 4
-    .param p1    # Ljava/util/Collection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1390,7 +1356,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1518,6 +1484,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public set(ILjava/lang/Object;)Ljava/lang/Object;
@@ -1619,6 +1586,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public subList(II)Ljava/util/List;
@@ -1629,9 +1597,6 @@
             "Ljava/util/List<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1695,7 +1660,7 @@
     .locals 1
 
     .line 1
-    invoke-static {p0}, Lkm/u;->a(Ljava/util/Collection;)[Ljava/lang/Object;
+    invoke-static {p0}, Lkotlin/jvm/internal/e;->a(Ljava/util/Collection;)[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1715,9 +1680,9 @@
     .line 2
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p0, p1}, Lkm/u;->b(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/e;->b(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
 

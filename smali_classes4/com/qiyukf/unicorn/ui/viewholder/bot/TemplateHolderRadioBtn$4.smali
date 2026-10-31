@@ -55,6 +55,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -198,53 +200,53 @@
     .line 66
     .line 67
     .line 68
-    const-string v1, "\u3001"
+    const-string/jumbo v1, "\u3001"
 
     .line 69
     .line 70
+    .line 71
     invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 71
     .line 72
     .line 73
+    .line 74
     goto :goto_0
 
-    .line 74
+    .line 75
     :cond_1
     iget-object v0, p0, Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn$4;->this$0:Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;
 
-    .line 75
     .line 76
+    .line 77
     invoke-virtual {p1}, Ljava/lang/StringBuilder;->length()I
 
-    .line 77
     .line 78
     .line 79
+    .line 80
     move-result v1
 
-    .line 80
+    .line 81
     add-int/lit8 v1, v1, -0x1
 
-    .line 81
     .line 82
+    .line 83
     const/4 v2, 0x0
 
-    .line 83
+    .line 84
     invoke-virtual {p1, v2, v1}, Ljava/lang/StringBuilder;->substring(II)Ljava/lang/String;
 
-    .line 84
     .line 85
     .line 86
+    .line 87
     move-result-object p1
 
-    .line 87
+    .line 88
     invoke-static {v0, p1}, Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;->access$200(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;Ljava/lang/String;)V
 
-    .line 88
     .line 89
     .line 90
-    return-void
     .line 91
+    return-void
     .line 92
     .line 93
     .line 94
@@ -438,25 +440,4 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method

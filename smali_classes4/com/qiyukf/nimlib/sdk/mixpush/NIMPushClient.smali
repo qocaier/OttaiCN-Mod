@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static initPush(Lcom/qiyukf/nimlib/sdk/mixpush/MixPushConfig;)V
@@ -63,6 +65,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static registerManuallyProvidePushTokenCallback(Lcom/qiyukf/nimlib/sdk/mixpush/IManualProvidePushTokenCallback;)V
@@ -96,6 +100,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static registerMixPushMessageHandler(Lcom/qiyukf/nimlib/sdk/mixpush/MixPushMessageHandler;)V
@@ -129,4 +135,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

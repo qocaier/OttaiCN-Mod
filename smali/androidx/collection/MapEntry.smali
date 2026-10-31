@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/Map$Entry;
-.implements Llm/a;
+.implements Lr8/a;
 
 
 # annotations
@@ -18,7 +18,7 @@
         "Ljava/lang/Object;",
         "Ljava/util/Map$Entry<",
         "TK;TV;>;",
-        "Llm/a;"
+        "Lr8/a;"
     }
 .end annotation
 
@@ -140,6 +140,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getValue()Ljava/lang/Object;
@@ -173,6 +174,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setValue(Ljava/lang/Object;)Ljava/lang/Object;

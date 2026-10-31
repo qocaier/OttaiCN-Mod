@@ -52,19 +52,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Ljava/lang/Comparable;Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1010,
-            0x0,
-            0x0
-        }
-        names = {
-            "this$0",
-            "key",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;TV;)V"
@@ -87,17 +74,6 @@
 
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Ljava/util/Map$Entry;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1010,
-            0x0
-        }
-        names = {
-            "this$0",
-            "copy"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -124,16 +100,6 @@
 
 .method private equals(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "o1",
-            "o2"
-        }
-    .end annotation
 
     if-nez p1, :cond_1
 
@@ -161,15 +127,6 @@
 # virtual methods
 .method public compareTo(Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "other"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -196,14 +153,6 @@
 
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "other"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
@@ -217,14 +166,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     const/4 v0, 0x1
 
@@ -333,6 +274,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -453,19 +395,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setValue(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "newValue"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TV;)TV;"
@@ -616,4 +551,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

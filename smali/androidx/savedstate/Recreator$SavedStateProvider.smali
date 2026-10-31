@@ -26,26 +26,19 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/savedstate/SavedStateRegistry;)V
     .locals 1
-    .param p1    # Landroidx/savedstate/SavedStateRegistry;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "registry"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -88,17 +81,13 @@
 # virtual methods
 .method public final add(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "className"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -131,8 +120,6 @@
 
 .method public saveState()Landroid/os/Bundle;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/os/Bundle;
@@ -169,4 +156,5 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method

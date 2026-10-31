@@ -520,6 +520,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private getAdjustedPosition(F[F)F
@@ -908,6 +913,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static getInterpolator(ILjava/lang/String;I)Landroidx/constraintlayout/core/motion/utils/DifferentialInterpolator;
@@ -1044,6 +1052,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private getPreCycleDistance()F
@@ -1641,6 +1652,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private insertKey(Landroidx/constraintlayout/core/motion/MotionPaths;)V
@@ -1968,6 +2031,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private readView(Landroidx/constraintlayout/core/motion/MotionPaths;)V
@@ -2086,6 +2154,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -2652,6 +2721,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public buildKeyBounds([F[I)I
@@ -2976,6 +3048,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public buildKeyFrames([F[I[I)I
@@ -3224,6 +3299,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public buildPath([FI)V
@@ -5205,6 +5283,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public buildRectangles([FI)V
@@ -5345,6 +5426,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAttributeValues(Ljava/lang/String;[FI)I
@@ -5507,6 +5589,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getCenter(D[F[F)V
@@ -5662,6 +5747,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getCenterX()F
@@ -5690,6 +5778,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCenterY()F
@@ -5718,6 +5807,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDpDt(FFF[F)V
@@ -6123,6 +6213,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getDrawPath()I
@@ -6253,6 +6349,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getFinalHeight()F
@@ -6283,6 +6381,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFinalWidth()F
@@ -6313,6 +6412,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFinalX()F
@@ -6343,6 +6443,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFinalY()F
@@ -6373,6 +6474,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getId(Ljava/lang/String;)I
@@ -6809,6 +6911,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getKeyFrameParameter(IFF)F
@@ -7074,6 +7179,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getKeyFramePositions([I[F)I
@@ -7383,6 +7491,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getPos(D)[D
@@ -7791,6 +7902,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getPostLayoutDvDp(FIIFF[F)V
@@ -9264,6 +9381,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStartWidth()F
@@ -9294,6 +9412,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStartX()F
@@ -9324,6 +9443,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStartY()F
@@ -9354,6 +9474,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTransformPivotTarget()I
@@ -9382,6 +9503,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getView()Landroidx/constraintlayout/core/motion/MotionWidget;
@@ -9410,6 +9532,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public interpolate(Landroidx/constraintlayout/core/motion/MotionWidget;FJLandroidx/constraintlayout/core/motion/utils/KeyCache;)Z
@@ -11301,6 +11424,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public positionKeyframe(Landroidx/constraintlayout/core/motion/MotionWidget;Landroidx/constraintlayout/core/motion/key/MotionKeyPosition;FF[Ljava/lang/String;[F)V
@@ -13312,6 +13436,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setDrawPath(I)V
@@ -13477,6 +13602,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setPathMotionArc(I)V
@@ -13636,6 +13762,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setStartState(Landroidx/constraintlayout/core/motion/utils/ViewState;Landroidx/constraintlayout/core/motion/MotionWidget;III)V
@@ -17426,4 +17553,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

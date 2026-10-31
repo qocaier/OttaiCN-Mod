@@ -93,7 +93,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getE()Ljava/lang/Throwable;
@@ -124,7 +123,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setData(Ljava/lang/Object;)V
@@ -162,7 +160,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setE(Ljava/lang/Throwable;)V
@@ -195,5 +192,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

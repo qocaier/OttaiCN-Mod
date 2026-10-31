@@ -140,15 +140,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static renderClearShaderCache(Ljava/lang/String;)V
@@ -181,7 +172,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -365,11 +355,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public AddPopupData(Landroid/os/Bundle;)V
@@ -404,7 +389,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public AddRtPopData(Landroid/os/Bundle;)V
@@ -439,7 +423,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public AddStreetCustomMarker(Landroid/os/Bundle;Landroid/graphics/Bitmap;)V
@@ -519,11 +502,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public BeginLocationLayerAnimation()V
@@ -556,7 +534,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public ClearLayer(J)V
@@ -591,7 +568,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public ClearLocationLayerData(Landroid/os/Bundle;)V
@@ -626,7 +602,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public ClearMistmapLayer()V
@@ -659,7 +634,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public ClearSDKLayer(J)V
@@ -694,7 +668,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public CloseCache()Z
@@ -729,7 +702,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public Create()Z
@@ -878,15 +850,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public CreateByDuplicate(J)Z
@@ -938,7 +901,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public CreateDuplicate()J
@@ -973,7 +935,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public Draw()I
@@ -1021,7 +982,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public GeoPtToScrPoint(II)Ljava/lang/String;
@@ -1094,11 +1054,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public GetAdapterZoomUnitsEx()F
@@ -1133,7 +1088,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public GetCacheSize(I)I
@@ -1170,7 +1124,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public GetCityInfoByID(I)Ljava/lang/String;
@@ -1207,7 +1160,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public GetDrawingMapStatus()Landroid/os/Bundle;
@@ -1242,7 +1194,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public GetFZoomToBoundF(Landroid/os/Bundle;Landroid/os/Bundle;)F
@@ -1315,11 +1266,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public GetFocusedBaseIndoorMapInfo()Ljava/lang/String;
@@ -1367,7 +1313,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public GetId()J
@@ -1398,7 +1343,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public GetMapRenderType()I
@@ -1433,7 +1377,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public GetMapStatus()Landroid/os/Bundle;
@@ -1724,6 +1667,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public GetVMPMapCityInfo(Landroid/os/Bundle;)I
@@ -1760,7 +1719,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public GetZoomToBound(Landroid/os/Bundle;II)F
@@ -1920,11 +1878,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public GetZoomToBoundF(Landroid/os/Bundle;)F
@@ -1961,7 +1914,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public Init(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIIIIIIZZ)Z
@@ -2169,7 +2121,6 @@
     return v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public IsPointInFocusBarBorder(DDD)Z
@@ -2352,11 +2303,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public IsPointInFocusIDRBorder(DD)Z
@@ -2446,11 +2392,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public IsStreetArrowShown()Z
@@ -2485,7 +2426,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public IsStreetCustomMarkerShown()Z
@@ -2520,7 +2460,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public IsStreetPOIMarkerShown()Z
@@ -2572,7 +2511,6 @@
     return v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public IsStreetRoadClickable()Z
@@ -2607,7 +2545,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public LayersIsShow(J)Z
@@ -2644,7 +2581,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public MoveToScrPoint(II)V
@@ -2715,11 +2651,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public OnBackground()V
@@ -2877,15 +2808,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public OnForeground()V
@@ -3043,15 +2965,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public OnHotcityGet()Ljava/lang/String;
@@ -3086,7 +2999,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public OnPause()V
@@ -3244,15 +3156,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public OnRecordAdd(I)Z
@@ -3289,7 +3192,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public OnRecordGetAll()Ljava/lang/String;
@@ -3324,7 +3226,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public OnRecordGetAt(I)Ljava/lang/String;
@@ -3361,7 +3262,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public OnRecordImport(ZZ)Z
@@ -3434,11 +3334,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public OnRecordReload(IZ)Z
@@ -3511,11 +3406,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public OnRecordRemove(IZ)Z
@@ -3588,11 +3478,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public OnRecordStart(IZI)Z
@@ -3752,11 +3637,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public OnRecordSuspend(IZI)Z
@@ -3916,11 +3796,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public OnResume()V
@@ -4078,15 +3953,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public OnSchcityGet(Ljava/lang/String;)Ljava/lang/String;
@@ -4123,7 +3989,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public OnUsrcityMsgInterval(I)Z
@@ -4160,7 +4025,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public OnWifiRecordAdd(I)I
@@ -4197,7 +4061,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public Release()Z
@@ -4370,15 +4233,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public Remo()V
@@ -4421,7 +4275,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public RemoveLayer(J)V
@@ -4456,7 +4309,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public RemoveStreetAllCustomMarker()V
@@ -4489,7 +4341,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public RemoveStreetCustomMaker(Ljava/lang/String;)V
@@ -4524,7 +4375,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public ResetImageRes()V
@@ -4566,7 +4416,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public ResumeCache()Z
@@ -4601,7 +4450,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public SaveCache()Z
@@ -4644,7 +4492,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public SaveScreenToLocal(Ljava/lang/String;Ljava/lang/String;)V
@@ -4715,11 +4562,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public ScrPtToGeoPoint(II)Ljava/lang/String;
@@ -4792,11 +4634,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public SetAllStreetCustomMarkerVisibility(Z)V
@@ -4840,7 +4677,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public SetCallback(Lcom/baidu/platform/comjni/map/basemap/a;)Z
@@ -4894,7 +4730,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public SetFocus(JJZLandroid/os/Bundle;)V
@@ -5155,6 +4990,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public SetItsPreTime(III)Z
@@ -5314,11 +5165,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public SetLayerSceneMode(JI)Z
@@ -5391,11 +5237,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public SetLayersClickable(JZ)V
@@ -5466,11 +5307,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public SetLocationLayerData(Landroid/os/Bundle;)V
@@ -5505,7 +5341,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public SetMapControlMode(I)I
@@ -5542,7 +5377,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public SetMapStatus(Landroid/os/Bundle;)V
@@ -5577,7 +5411,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public SetNewMapStatus(Landroid/os/Bundle;)V
@@ -5612,7 +5445,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public SetSDKLayerCallback(Lcom/baidu/mapsdkplatform/comjni/map/basemap/MapSDKLayerDataInterface;)Z
@@ -5666,7 +5498,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public SetStreetArrowShow(Z)V
@@ -5701,7 +5532,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public SetStreetMarkerClickable(Ljava/lang/String;Z)V
@@ -5772,11 +5602,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public SetStreetRoadClickable(Z)V
@@ -5811,7 +5636,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public SetStyleMode(I)V
@@ -5846,7 +5670,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public SetTargetStreetCustomMarkerVisibility(ZLjava/lang/String;)V
@@ -5926,11 +5749,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public ShowBaseIndoorMap(Z)V
@@ -5965,7 +5783,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public ShowHotMap(ZI)V
@@ -6067,11 +5884,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public ShowMistMap(ZLjava/lang/String;)V
@@ -6142,11 +5954,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public ShowSatelliteMap(Z)V
@@ -6181,7 +5988,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public ShowStreetPOIMarker(Z)V
@@ -6225,7 +6031,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public ShowStreetRoadMap(Z)V
@@ -6260,7 +6065,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public ShowTrafficMap(Z)V
@@ -6295,7 +6099,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public StartIndoorAnimation()V
@@ -6328,7 +6131,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public SwitchBaseIndoorMapFloor(Ljava/lang/String;Ljava/lang/String;)Z
@@ -6401,11 +6203,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public SwitchLayer(JJ)Z
@@ -6478,11 +6275,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public UpdateLayers(J)V
@@ -6517,7 +6309,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public add3DModelIDForFilterList(Ljava/lang/String;)V
@@ -6552,7 +6343,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addBmLayerBelow(JJII)Z
@@ -6815,6 +6605,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public addHexagonMapData(JLandroid/os/Bundle;)V
@@ -6890,11 +6696,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public addOneOverlayItem(Landroid/os/Bundle;)V
@@ -6929,7 +6730,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addOverlayItems([Landroid/os/Bundle;I)V
@@ -7000,11 +6800,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public addSDKTileData(Landroid/os/Bundle;)Z
@@ -7043,7 +6838,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public cancelPreload(I)V
@@ -7078,7 +6872,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public cleanCache(IZ)Z
@@ -7151,11 +6944,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public cleanSDKTileDataCache(J)Z
@@ -7194,7 +6982,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public clearFullscreenMaskColor()V
@@ -7227,7 +7014,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public clearHeatMapLayerCache(J)V
@@ -7267,7 +7053,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public clearHexagonLayerCache(J)V
@@ -7307,7 +7092,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public clearParticleSystemMemory()V
@@ -7340,7 +7124,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public clearUniversalLayer()V
@@ -7373,7 +7156,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public closeParticleEffect(Ljava/lang/String;)V
@@ -7408,7 +7190,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public closeParticleEffectByType(I)V
@@ -7443,7 +7224,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public customParticleEffectByType(ILandroid/os/Bundle;)Z
@@ -7516,11 +7296,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public downloadMapStyle(Ljava/lang/String;)Z
@@ -7557,7 +7332,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public enablePOIAnimation(Z)V
@@ -7691,8 +7465,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public entryFeedTopic(ILjava/lang/String;Ljava/lang/String;)V
@@ -7850,11 +7622,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public entrySearchTopic(I)V
@@ -7891,7 +7658,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public exitSearchTopic()V
@@ -7924,7 +7690,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public focusTrafficUGCLabel()V
@@ -7957,7 +7722,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public geoPt3ToScrPoint(III)Ljava/lang/String;
@@ -8117,11 +7881,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public get3DModelEnable()Z
@@ -8156,7 +7915,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBaseRoadData()Landroid/os/Bundle;
@@ -8207,7 +7965,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCityInfoByBound(Landroid/os/Bundle;)Z
@@ -8244,7 +8001,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getCurDrawPoiInfo(I)Ljava/lang/String;
@@ -8281,7 +8037,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getCustomTrafficColorEnable()Z
@@ -8316,7 +8071,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDEMEnable()Z
@@ -8351,7 +8105,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDpiScale()F
@@ -8386,7 +8139,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDrawHouseHeightEnable()Z
@@ -8428,7 +8180,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFontSizeLevel()I
@@ -8463,7 +8214,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHouseSmoothLevel()I
@@ -8498,7 +8248,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIndoorMapShowMode(Ljava/lang/String;)I
@@ -8535,7 +8284,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getLayerIDByTag(Ljava/lang/String;)J
@@ -8579,7 +8327,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getMapBarData(Landroid/os/Bundle;)Z
@@ -8616,7 +8363,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getMapLanguage()I
@@ -8658,7 +8404,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMapScene()I
@@ -8693,7 +8438,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMapSceneAttr()I
@@ -8728,7 +8472,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMapStatusLimits()Landroid/os/Bundle;
@@ -8770,7 +8513,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMapStatusLimitsLevel([I)Z
@@ -8807,7 +8549,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getMapTheme()I
@@ -8842,7 +8583,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPoiMarkData(IIIIZ)Ljava/lang/String;
@@ -9847,7 +9587,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getProjectionMatrix()[F
@@ -9891,7 +9630,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getProjectionPt(Ljava/lang/String;)Ljava/lang/String;
@@ -9928,7 +9666,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getScaleLevel(II)I
@@ -10001,11 +9738,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public getSkyboxStyle()I
@@ -10040,7 +9772,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStreetRoadNearPointFromCenter(DDI)Ljava/lang/String;
@@ -10206,11 +9937,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public getViewMatrix()[F
@@ -10254,7 +9980,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getVirtualPoiShowEnable()Z
@@ -10289,7 +10014,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public importMapTheme(I)Z
@@ -10326,7 +10050,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public initCustomStyle(Ljava/lang/String;Ljava/lang/String;)Z
@@ -10406,11 +10129,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public initHeatMapData(JLandroid/os/Bundle;)V
@@ -10486,11 +10204,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public initWithOptions(Landroid/os/Bundle;Z)Z
@@ -10580,11 +10293,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public interruptDraw(Z)V
@@ -10619,7 +10327,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isAnimationRunning()Z
@@ -10654,7 +10361,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isBaseIndoorMapShow()Z
@@ -10706,7 +10412,6 @@
     return v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isEnableIndoor3D()Z
@@ -10741,7 +10446,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isNaviMode()Z
@@ -10776,7 +10480,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isSupBackgroundDraw()Z
@@ -10818,7 +10521,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public moveLayerBelow(JLjava/lang/String;)Z
@@ -10891,11 +10593,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public moveLayerBelowTo(JI)Z
@@ -10968,11 +10665,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public performAction(Ljava/lang/String;)Z
@@ -11009,7 +10701,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public preLoad(ILjava/util/List;)Z
@@ -11090,11 +10781,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public preLoadParticleFile(Ljava/lang/String;)V
@@ -11129,7 +10815,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public readMapResData(Ljava/lang/String;)[B
@@ -11166,7 +10851,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public recycleMemory(I)V
@@ -11201,7 +10885,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public releaseFromOfflineMap()Z
@@ -11372,15 +11055,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public remove3DModelIDForFilterList(Ljava/lang/String;)V
@@ -11415,7 +11089,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeBmLayer(J)V
@@ -11450,7 +11123,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeOneOverlayItem(Landroid/os/Bundle;)V
@@ -11485,7 +11157,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeOverlayItems([Landroid/os/Bundle;)V
@@ -11520,7 +11191,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public renderDone()V
@@ -11663,15 +11333,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public renderInit(IILandroid/view/Surface;I)V
@@ -11956,6 +11617,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public renderRender()I
@@ -12100,15 +11777,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public renderResize(II)V
@@ -12211,11 +11879,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public resize(II)V
@@ -12295,11 +11958,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public set3DModelEnable(Z)V
@@ -12334,7 +11992,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAutoEnter3DByZoomIn(Z)V
@@ -12369,7 +12026,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundColor(I)V
@@ -12404,7 +12060,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCustomStyleEnable(Z)V
@@ -12444,7 +12099,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCustomTrafficColor(IIII)V
@@ -12512,7 +12166,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDEMEnable(Z)V
@@ -12547,7 +12200,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDpiScale(F)V
@@ -12582,7 +12234,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDrawHouseHeightEnable(Z)V
@@ -12622,7 +12273,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEnableIndoor3D(Z)V
@@ -12657,7 +12307,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFeatureConfig(Ljava/lang/String;)V
@@ -12697,7 +12346,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFontSizeLevel(I)V
@@ -12732,7 +12380,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFullscreenMaskColor(I)V
@@ -12767,7 +12414,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGlobalLightEnable(Z)V
@@ -12802,7 +12448,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHeatMapFrameAnimationIndex(JI)V
@@ -12878,11 +12523,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setHouseSmoothLevel(I)V
@@ -12917,7 +12557,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIndoorMapShowMode(Ljava/lang/String;I)V
@@ -12988,11 +12627,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setLittle3DEnable(Z)V
@@ -13027,7 +12661,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMapBackgroundImage(Landroid/os/Bundle;)V
@@ -13062,7 +12695,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMapLanguage(IZ)V
@@ -13138,11 +12770,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setMapScene(I)V
@@ -13177,7 +12804,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMapSceneAttr(I)Z
@@ -13214,7 +12840,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMapStatusLimits(Landroid/os/Bundle;)V
@@ -13254,7 +12879,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMapStatusLimitsLevel(II)Z
@@ -13327,11 +12951,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setMapTheme(ILandroid/os/Bundle;)Z
@@ -13404,11 +13023,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setMapThemeScene(IILandroid/os/Bundle;)Z
@@ -13568,11 +13182,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public setMaxAndMinZoomLevel(Landroid/os/Bundle;)V
@@ -13612,7 +13221,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPoiTagEnable(IZ)V
@@ -13683,11 +13291,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setRecommendPOIScene(I)V
@@ -13722,7 +13325,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSkyboxStyle(I)V
@@ -13757,7 +13359,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStreetLayerNewDesignFlag(Z)V
@@ -13792,7 +13393,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSupBackgroundDraw(Z)V
@@ -13832,7 +13432,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTestSwitch(Z)Z
@@ -13869,7 +13468,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrafficUGCData(Ljava/lang/String;)V
@@ -13904,7 +13502,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUniversalFilter(Ljava/lang/String;)V
@@ -13939,7 +13536,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVirtualPoiShowEnable(Z)V
@@ -13974,7 +13570,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public showFootMarkGrid(ZLjava/lang/String;)V
@@ -14045,11 +13640,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public showOperatorDataByType(ZI)V
@@ -14120,11 +13710,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public showParticleEffect(I)Z
@@ -14161,7 +13746,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public showParticleEffectByFileName(Ljava/lang/String;)Z
@@ -14198,7 +13782,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public showParticleEffectByFilenameAndPos(Ljava/lang/String;FFF)Z
@@ -14453,6 +14036,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public showParticleEffectByName(Ljava/lang/String;Z)Z
@@ -14525,11 +14124,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public showParticleEffectByType(I)Z
@@ -14566,7 +14160,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public showParticleEffectByTypeAndPos(IFFF)Z
@@ -14821,6 +14414,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public showParticleEffectByTypeAndStyleID(II)Z
@@ -14893,11 +14502,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public showStreetPopup(Z)V
@@ -14932,7 +14536,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public showTopicPOI(Ljava/lang/String;ZLjava/lang/String;Z)V
@@ -15185,6 +14788,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public showTrafficUGCMap(Z)V
@@ -15219,7 +14838,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public showUniversalLayer(Landroid/os/Bundle;)V
@@ -15254,7 +14872,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public startHeatMapFrameAnimation(J)V
@@ -15294,7 +14911,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public stopHeatMapFrameAnimation(J)V
@@ -15334,7 +14950,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public surfaceDestroyed(Landroid/view/Surface;)V
@@ -15468,8 +15083,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public switchDayOrDarkTheme(IZ)V
@@ -15540,11 +15153,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public unFocusTrafficUGCLabel()V
@@ -15577,7 +15185,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public updateBaseLayers()V
@@ -15610,7 +15217,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public updateDrawFPS()V
@@ -15643,7 +15249,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public updateFootMarkGrid()V
@@ -15676,7 +15281,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public updateHeatMapData(JLandroid/os/Bundle;)V
@@ -15752,11 +15356,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public updateOneOverlayItem(Landroid/os/Bundle;)V
@@ -15791,7 +15390,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateSDKTile(Landroid/os/Bundle;)Z
@@ -15830,7 +15428,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public worldPointToScreenPoint(FFF)Ljava/lang/String;
@@ -15990,9 +15587,4 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method

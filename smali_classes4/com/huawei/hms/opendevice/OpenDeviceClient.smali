@@ -4,13 +4,11 @@
 
 
 # virtual methods
-.method public abstract getOdid()Lme/k;
+.method public abstract getOdid()Lq5/f;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lme/k<",
-            "Lcom/huawei/hms/support/api/opendevice/OdidResult;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 .end method

@@ -66,6 +66,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/internal/compat/workaround/SurfaceSorter;Landroidx/camera/core/impl/SessionConfig$OutputConfig;Landroidx/camera/core/impl/SessionConfig$OutputConfig;)I
@@ -205,6 +206,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private getSurfacePriority(Landroidx/camera/core/impl/DeferrableSurface;)I
@@ -300,11 +304,11 @@
 
     .line 6
     :cond_0
-    new-instance v0, Ly/a;
+    new-instance v0, Landroidx/camera/core/internal/compat/workaround/a;
 
     .line 7
     .line 8
-    invoke-direct {v0, p0}, Ly/a;-><init>(Landroidx/camera/core/internal/compat/workaround/SurfaceSorter;)V
+    invoke-direct {v0, p0}, Landroidx/camera/core/internal/compat/workaround/a;-><init>(Landroidx/camera/core/internal/compat/workaround/SurfaceSorter;)V
 
     .line 9
     .line 10

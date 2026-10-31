@@ -196,6 +196,7 @@
     :cond_0
     return-object v1
     .line 20
+    .line 21
 .end method
 
 .method public release(Ljava/lang/Object;)Z

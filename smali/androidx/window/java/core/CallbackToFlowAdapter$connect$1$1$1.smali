@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljn/f;
+.implements Lkotlinx/coroutines/flow/d;
 
 
 # annotations
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Ljn/f;"
+        "Lkotlinx/coroutines/flow/d;"
     }
 .end annotation
 
@@ -58,28 +58,15 @@
 
 
 # virtual methods
-.method public final emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public final emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -92,7 +79,7 @@
     .line 4
     .line 5
     .line 6
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 7
     .line 8

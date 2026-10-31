@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static synthetic a(Lcom/qiyukf/nimlib/session/a;)Ljava/lang/Boolean;
@@ -211,9 +213,9 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    new-instance v1, Lvg/y;
+    new-instance v1, Lcom/qiyukf/se0;
 
-    invoke-direct {v1}, Lvg/y;-><init>()V
+    invoke-direct {v1}, Lcom/qiyukf/se0;-><init>()V
 
     const-string v3, ", "
 
@@ -397,9 +399,9 @@
     if-eqz v0, :cond_5
 
     .line 27
-    new-instance v0, Lvg/z;
+    new-instance v0, Lcom/qiyukf/te0;
 
-    invoke-direct {v0}, Lvg/z;-><init>()V
+    invoke-direct {v0}, Lcom/qiyukf/te0;-><init>()V
 
     invoke-static {v8, v0}, Lcom/qiyukf/p4;->c(Ljava/util/Collection;Lcom/qiyukf/p4$a;)Ljava/util/List;
 

@@ -54,18 +54,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public a(Lcom/bumptech/glide/load/ImageHeaderParser;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
     .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -73,7 +67,7 @@
 
     .line 2
     .line 3
-    invoke-interface {p1, v0}, Lcom/bumptech/glide/load/ImageHeaderParser;->b(Ljava/nio/ByteBuffer;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    invoke-interface {p1, v0}, Lcom/bumptech/glide/load/ImageHeaderParser;->a(Ljava/nio/ByteBuffer;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 4
     .line 5
@@ -87,7 +81,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, Ly6/a;->d(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+    invoke-static {v0}, Lz0/a;->d(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     .line 10
     .line 11
@@ -103,7 +97,7 @@
 
     .line 15
     .line 16
-    invoke-static {v0}, Ly6/a;->d(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+    invoke-static {v0}, Lz0/a;->d(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     .line 17
     .line 18
@@ -114,5 +108,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

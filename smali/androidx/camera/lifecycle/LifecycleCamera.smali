@@ -331,6 +331,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -432,6 +435,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraInfo()Landroidx/camera/core/CameraInfo;
@@ -466,6 +470,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraInternals()Ljava/util/LinkedHashSet;
@@ -509,6 +514,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraUseCaseAdapter()Landroidx/camera/core/internal/CameraUseCaseAdapter;
@@ -537,6 +543,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExtendedConfig()Landroidx/camera/core/impl/CameraConfig;
@@ -571,6 +578,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLifecycleOwner()Landroidx/lifecycle/LifecycleOwner;
@@ -615,6 +623,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUseCases()Ljava/util/List;
@@ -678,6 +687,7 @@
     throw v1
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isActive()Z
@@ -722,6 +732,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isBound(Landroidx/camera/core/UseCase;)Z
@@ -1088,6 +1099,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onStop(Landroidx/lifecycle/LifecycleOwner;)V
@@ -1214,6 +1226,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public release()V
@@ -1336,6 +1349,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setExtendedConfig(Landroidx/camera/core/impl/CameraConfig;)V
@@ -1501,6 +1516,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public unbind(Ljava/util/Collection;)V
@@ -1625,6 +1642,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public unbindAll()V
@@ -1675,6 +1693,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public unsuspend()V
@@ -1820,4 +1839,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

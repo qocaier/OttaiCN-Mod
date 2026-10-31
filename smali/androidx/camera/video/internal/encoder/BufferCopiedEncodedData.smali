@@ -27,12 +27,10 @@
     .end annotation
 .end field
 
-.field private final mClosedFuture:Lub/u0;
+.field private final mClosedFuture:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -85,16 +83,16 @@
     .line 19
     .line 20
     .line 21
-    new-instance v0, Lh0/a;
+    new-instance v0, Landroidx/camera/video/internal/encoder/a;
 
     .line 22
     .line 23
-    invoke-direct {v0, p1}, Lh0/a;-><init>(Ljava/util/concurrent/atomic/AtomicReference;)V
+    invoke-direct {v0, p1}, Landroidx/camera/video/internal/encoder/a;-><init>(Ljava/util/concurrent/atomic/AtomicReference;)V
 
     .line 24
     .line 25
     .line 26
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 27
     .line 28
@@ -102,7 +100,7 @@
     move-result-object v0
 
     .line 30
-    iput-object v0, p0, Landroidx/camera/video/internal/encoder/BufferCopiedEncodedData;->mClosedFuture:Lub/u0;
+    iput-object v0, p0, Landroidx/camera/video/internal/encoder/BufferCopiedEncodedData;->mClosedFuture:Lcom/google/common/util/concurrent/t;
 
     .line 31
     .line 32
@@ -167,6 +165,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic a(Ljava/util/concurrent/atomic/AtomicReference;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -351,6 +350,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private generateCopiedByteInfo(Landroidx/camera/video/internal/encoder/EncodedData;)Landroid/media/MediaCodec$BufferInfo;
@@ -440,6 +440,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBufferInfo()Landroid/media/MediaCodec$BufferInfo;
@@ -470,6 +471,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getByteBuffer()Ljava/nio/ByteBuffer;
@@ -500,9 +502,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public getClosedFuture()Lub/u0;
+.method public getClosedFuture()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -510,18 +513,16 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/internal/encoder/BufferCopiedEncodedData;->mClosedFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/video/internal/encoder/BufferCopiedEncodedData;->mClosedFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -543,6 +544,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPresentationTimeUs()J
@@ -573,6 +575,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isKeyFrame()Z
@@ -614,6 +617,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public size()J
@@ -646,4 +650,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

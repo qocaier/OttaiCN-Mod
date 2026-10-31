@@ -127,11 +127,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static addAnimatorIfNeeded(Ljava/util/List;Lcom/google/android/material/transition/VisibilityAnimatorProvider;Landroid/view/ViewGroup;Landroid/view/View;Z)V
@@ -1334,11 +1329,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private maybeApplyThemeValues(Landroid/content/Context;Z)V
@@ -1425,11 +1415,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -1470,7 +1455,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public clearAdditionalAnimatorProvider()V
@@ -1503,7 +1487,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDefaultEasingInterpolator(Z)Landroid/animation/TimeInterpolator;
@@ -1538,7 +1521,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getDurationThemeAttrResId(Z)I
@@ -1597,7 +1579,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSecondaryAnimatorProvider()Lcom/google/android/material/transition/VisibilityAnimatorProvider;
@@ -1630,7 +1611,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAppear(Landroid/view/ViewGroup;Landroid/view/View;Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)Landroid/animation/Animator;
@@ -1885,6 +1865,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public onDisappear(Landroid/view/ViewGroup;Landroid/view/View;Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)Landroid/animation/Animator;
@@ -2139,6 +2135,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public removeAdditionalAnimatorProvider(Lcom/google/android/material/transition/VisibilityAnimatorProvider;)Z
@@ -2179,7 +2191,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSecondaryAnimatorProvider(Lcom/google/android/material/transition/VisibilityAnimatorProvider;)V
@@ -2216,5 +2227,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

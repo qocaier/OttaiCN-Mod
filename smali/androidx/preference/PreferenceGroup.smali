@@ -369,6 +369,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -858,6 +859,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public dispatchRestoreInstanceState(Landroid/os/Bundle;)V
@@ -1144,6 +1150,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getInitialExpandedChildrenCount()I
@@ -1172,6 +1179,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOnExpandButtonClickListener()Landroidx/preference/PreferenceGroup$OnExpandButtonClickListener;
@@ -1208,6 +1216,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreference(I)Landroidx/preference/Preference;
@@ -1281,6 +1290,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isAttached()Z
@@ -1314,6 +1324,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isOnSameScreenAsChildren()Z
@@ -1350,6 +1361,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public notifyDependencyChange(Z)V
@@ -1519,6 +1531,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onDetached()V
@@ -1633,6 +1647,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onPrepareAddPreference(Landroidx/preference/Preference;)Z
@@ -1799,6 +1815,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -1837,6 +1854,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeAll()V
@@ -1975,6 +1993,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public removePreference(Landroidx/preference/Preference;)Z
@@ -2193,6 +2213,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setOnExpandButtonClickListener(Landroidx/preference/PreferenceGroup$OnExpandButtonClickListener;)V
@@ -2312,4 +2333,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

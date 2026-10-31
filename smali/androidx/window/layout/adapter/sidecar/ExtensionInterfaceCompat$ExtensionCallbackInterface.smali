@@ -16,12 +16,4 @@
 
 # virtual methods
 .method public abstract onWindowLayoutChanged(Landroid/app/Activity;Landroidx/window/layout/WindowLayoutInfo;)V
-    .param p1    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/layout/WindowLayoutInfo;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method

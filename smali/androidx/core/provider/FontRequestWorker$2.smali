@@ -96,14 +96,6 @@
 
 .method public bridge synthetic accept(Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Landroidx/core/provider/FontRequestWorker$TypefaceResult;

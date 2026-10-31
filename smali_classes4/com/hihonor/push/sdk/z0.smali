@@ -63,8 +63,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/hihonor/push/sdk/d1<",
-            "TTResult;>;)V"
+            "Lcom/hihonor/push/sdk/d1;",
+            ")V"
         }
     .end annotation
 

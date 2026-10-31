@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
@@ -19,13 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "Ljava/util/Map$Entry<",
-        "Ljava/lang/String;",
-        "Landroid/view/View;",
-        ">;",
-        "Ljava/lang/Boolean;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -67,10 +61,6 @@
 # virtual methods
 .method public final invoke(Ljava/util/Map$Entry;)Ljava/lang/Boolean;
     .locals 1
-    .param p1    # Ljava/util/Map$Entry;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -82,12 +72,9 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "entry"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$retainMatchingViews$1;->$names:Ljava/util/Collection;
@@ -104,7 +91,7 @@
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lll/r0;->a2(Ljava/lang/Iterable;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/collections/z;->G(Ljava/lang/Iterable;Ljava/lang/Object;)Z
 
     move-result p1
 

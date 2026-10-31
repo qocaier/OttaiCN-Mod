@@ -9,9 +9,6 @@
 .field public b:Landroid/content/DialogInterface$OnCancelListener;
 
 .field public c:Landroid/app/Dialog;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -43,64 +40,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public static a(Landroid/app/Dialog;)Lcom/google/android/gms/common/ErrorDialogFragment;
-    .locals 1
-    .param p0    # Landroid/app/Dialog;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .line 1
-    const/4 v0, 0x0
-
-    .line 2
-    invoke-static {p0, v0}, Lcom/google/android/gms/common/ErrorDialogFragment;->b(Landroid/app/Dialog;Landroid/content/DialogInterface$OnCancelListener;)Lcom/google/android/gms/common/ErrorDialogFragment;
-
-    .line 3
-    .line 4
-    .line 5
-    move-result-object p0
-
-    .line 6
-    return-object p0
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public static b(Landroid/app/Dialog;Landroid/content/DialogInterface$OnCancelListener;)Lcom/google/android/gms/common/ErrorDialogFragment;
+.method public static a(Landroid/app/Dialog;Landroid/content/DialogInterface$OnCancelListener;)Lcom/google/android/gms/common/ErrorDialogFragment;
     .locals 2
-    .param p0    # Landroid/app/Dialog;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p1    # Landroid/content/DialogInterface$OnCancelListener;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     new-instance v0, Lcom/google/android/gms/common/ErrorDialogFragment;
@@ -116,7 +59,7 @@
 
     .line 7
     .line 8
-    invoke-static {p0, v1}, Lh9/t;->s(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, v1}, Lt2/j;->h(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -188,21 +131,12 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
 .method public onCancel(Landroid/content/DialogInterface;)V
     .locals 1
-    .param p1    # Landroid/content/DialogInterface;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/ErrorDialogFragment;->b:Landroid/content/DialogInterface$OnCancelListener;
@@ -236,17 +170,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
     .locals 1
-    .param p1    # Landroid/os/Bundle;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     iget-object p1, p0, Lcom/google/android/gms/common/ErrorDialogFragment;->a:Landroid/app/Dialog;
@@ -285,7 +212,7 @@
     move-result-object v0
 
     .line 19
-    invoke-static {v0}, Lh9/t;->r(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lt2/j;->g(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -376,20 +303,10 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public show(Landroid/app/FragmentManager;Ljava/lang/String;)V
     .locals 0
-    .param p1    # Landroid/app/FragmentManager;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
     invoke-super {p0, p1, p2}, Landroid/app/DialogFragment;->show(Landroid/app/FragmentManager;Ljava/lang/String;)V
@@ -454,9 +371,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

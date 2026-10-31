@@ -55,6 +55,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -97,91 +99,91 @@
     .line 11
     .line 12
     .line 13
-    const-string v1, "\uff08"
+    const-string/jumbo v1, "\uff08"
 
     .line 14
     .line 15
+    .line 16
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
     .line 17
     .line 18
+    .line 19
     iget-object v1, p0, Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity$1;->this$0:Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;
 
-    .line 19
     .line 20
+    .line 21
     invoke-static {v1}, Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;->access$000(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;)I
 
-    .line 21
     .line 22
     .line 23
-    move-result v1
-
     .line 24
-    add-int/lit8 v1, v1, 0x1
+    move-result v1
 
     .line 25
+    add-int/lit8 v1, v1, 0x1
+
     .line 26
+    .line 27
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 27
     .line 28
     .line 29
+    .line 30
     const-string v1, "/"
 
-    .line 30
     .line 31
+    .line 32
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 32
     .line 33
     .line 34
+    .line 35
     iget-object v1, p0, Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity$1;->this$0:Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;
 
-    .line 35
     .line 36
+    .line 37
     iget-object v1, v1, Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;->photoList:Ljava/util/ArrayList;
 
-    .line 37
     .line 38
+    .line 39
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
-    .line 39
     .line 40
     .line 41
+    .line 42
     move-result v1
 
-    .line 42
+    .line 43
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 43
     .line 44
     .line 45
-    const-string v1, "\uff09"
-
     .line 46
-    .line 47
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const-string/jumbo v1, "\uff09"
 
+    .line 47
     .line 48
     .line 49
-    .line 50
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 50
     .line 51
     .line 52
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 53
+    .line 54
+    .line 55
     move-result-object v0
 
-    .line 54
+    .line 56
     invoke-virtual {p1, v0}, Lcom/qiyukf/uikit/common/activity/BaseFragmentActivity;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 55
-    .line 56
     .line 57
-    return-void
     .line 58
     .line 59
+    return-void
     .line 60
     .line 61
     .line 62
@@ -207,4 +209,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

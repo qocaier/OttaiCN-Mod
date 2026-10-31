@@ -147,6 +147,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getItem(I)Ljava/lang/Object;
@@ -189,6 +191,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getPreCheckedList()Ljava/util/HashSet;
@@ -228,6 +232,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public abstract getView(Lcom/qiyukf/unicorn/widget/flowlayout/FlowLayout;ILjava/lang/Object;)Landroid/view/View;
@@ -272,6 +278,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onSelected(ILandroid/view/View;)V
@@ -309,17 +317,17 @@
     move-result-object p1
 
     .line 18
-    const-string p2, "zhy"
+    const-string/jumbo p2, "zhy"
 
     .line 19
     .line 20
+    .line 21
     invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 21
     .line 22
     .line 23
-    return-void
     .line 24
+    return-void
     .line 25
     .line 26
     .line 27
@@ -350,6 +358,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public setOnDataChangedListener(Lcom/qiyukf/unicorn/widget/flowlayout/TagAdapter$OnDataChangedListener;)V
@@ -383,6 +401,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSelected(ILjava/lang/Object;)Z
@@ -504,20 +524,20 @@
     move-result-object p1
 
     .line 18
-    const-string p2, "zhy"
+    const-string/jumbo p2, "zhy"
 
     .line 19
     .line 20
+    .line 21
     invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 21
     .line 22
     .line 23
+    .line 24
     const/4 p1, 0x1
 
-    .line 24
-    return p1
     .line 25
+    return p1
     .line 26
     .line 27
     .line 28
@@ -618,9 +638,4 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method

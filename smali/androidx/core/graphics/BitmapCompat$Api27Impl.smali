@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static copyBitmapIfHardware(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
@@ -157,6 +158,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static createBitmapWithSourceColorspace(IILandroid/graphics/Bitmap;Z)Landroid/graphics/Bitmap;
@@ -456,6 +458,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static isAlreadyF16AndLinear(Landroid/graphics/Bitmap;)Z
@@ -571,4 +579,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -132,6 +132,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOperation()Ljava/lang/String;
@@ -160,6 +162,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPackageName()Ljava/lang/String;
@@ -188,6 +192,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getProjectId()Ljava/lang/String;
@@ -216,6 +222,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSubjectId()Ljava/lang/String;
@@ -244,6 +252,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getToken()Ljava/lang/String;
@@ -272,6 +282,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTopic()Ljava/lang/String;
@@ -300,6 +312,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isFastApp()Z
@@ -328,6 +342,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAppId(Ljava/lang/String;)V
@@ -361,6 +377,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFastApp(Z)V
@@ -394,6 +412,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOperation(Ljava/lang/String;)V
@@ -427,6 +447,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPackageName(Ljava/lang/String;)V
@@ -460,6 +482,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setProjectId(Ljava/lang/String;)V
@@ -493,6 +517,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSubjectId(Ljava/lang/String;)V
@@ -526,6 +552,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setToken(Ljava/lang/String;)V
@@ -559,6 +587,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTopic(Ljava/lang/String;)V
@@ -592,6 +622,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -718,4 +750,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

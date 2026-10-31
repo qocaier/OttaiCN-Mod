@@ -182,6 +182,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getSurfaceFormat(Landroid/view/Surface;)I
@@ -329,6 +330,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getSurfaceGenerationId(Landroid/view/Surface;)I
@@ -466,6 +468,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getSurfaceSize(Landroid/view/Surface;)Landroid/util/Size;
@@ -627,6 +630,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -982,6 +986,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public hashCode()I
@@ -1150,4 +1159,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

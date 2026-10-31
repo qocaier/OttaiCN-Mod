@@ -1,46 +1,16 @@
-.class public final synthetic Landroidx/core/app/c;
+.class public abstract synthetic Landroidx/core/app/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Landroid/app/PendingIntent$OnFinished;
-
-
-# instance fields
-.field public final synthetic a:Landroidx/core/app/PendingIntentCompat$GatedCallback;
-
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/core/app/PendingIntentCompat$GatedCallback;)V
+.method public static bridge synthetic a(Landroid/app/ActivityOptions;Z)Landroid/app/ActivityOptions;
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-virtual {p0, p1}, Landroid/app/ActivityOptions;->setShareIdentityEnabled(Z)Landroid/app/ActivityOptions;
 
-    iput-object p1, p0, Landroidx/core/app/c;->a:Landroidx/core/app/PendingIntentCompat$GatedCallback;
+    move-result-object p0
 
-    return-void
-.end method
-
-
-# virtual methods
-.method public final onSendFinished(Landroid/app/PendingIntent;Landroid/content/Intent;ILjava/lang/String;Landroid/os/Bundle;)V
-    .locals 6
-
-    .line 1
-    iget-object v0, p0, Landroidx/core/app/c;->a:Landroidx/core/app/PendingIntentCompat$GatedCallback;
-
-    move-object v1, p1
-
-    move-object v2, p2
-
-    move v3, p3
-
-    move-object v4, p4
-
-    move-object v5, p5
-
-    invoke-static/range {v0 .. v5}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->a(Landroidx/core/app/PendingIntentCompat$GatedCallback;Landroid/app/PendingIntent;Landroid/content/Intent;ILjava/lang/String;Landroid/os/Bundle;)V
-
-    return-void
+    return-object p0
 .end method

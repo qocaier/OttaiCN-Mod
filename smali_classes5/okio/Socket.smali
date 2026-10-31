@@ -8,11 +8,7 @@
 .end method
 
 .method public abstract getSink()Lokio/Sink;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract getSource()Lokio/Source;
-    .annotation build Lsq/k;
-    .end annotation
 .end method

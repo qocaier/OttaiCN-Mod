@@ -16,9 +16,6 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -60,16 +57,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public get(Landroidx/lifecycle/viewmodel/CreationExtras$Key;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroidx/lifecycle/viewmodel/CreationExtras$Key;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -80,12 +74,9 @@
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 

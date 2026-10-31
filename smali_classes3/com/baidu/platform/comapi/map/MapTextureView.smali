@@ -455,7 +455,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addBmLayerBelow(JLcom/baidu/platform/comapi/bmsdk/BmLayer;)Z
@@ -1022,6 +1021,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public animateTo(Lcom/baidu/platform/comapi/map/MapStatus;I)V
@@ -1095,11 +1126,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public attachBaseMapController(Lcom/baidu/platform/comapi/map/MapController;)V
@@ -1275,8 +1301,6 @@
     .line 90
     .line 91
     return-void
-    .line 92
-    .line 93
 .end method
 
 .method public d()V
@@ -1415,15 +1439,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public destroyForMultiViews()V
@@ -1474,7 +1489,6 @@
     .line 21
     .line 22
     return-void
-    .line 23
 .end method
 
 .method public doCaptureMapView(Lcom/baidu/platform/comapi/map/CaptureMapViewListener;IILandroid/graphics/Bitmap$Config;)V
@@ -1662,7 +1676,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public enable3D()Z
@@ -1701,7 +1714,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBmlayers()Ljava/util/List;
@@ -1740,7 +1752,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getController()Lcom/baidu/platform/comapi/map/MapController;
@@ -1771,7 +1782,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCurrentMapStatus()Lcom/baidu/platform/comapi/map/MapStatus;
@@ -1813,7 +1823,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCurrentZoomLevel()F
@@ -1855,7 +1864,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getGeoRound()Lcom/baidu/platform/comapi/map/MapStatus$GeoBound;
@@ -1899,7 +1907,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLatitudeSpan()I
@@ -2056,15 +2063,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getLongitudeSpan()I
@@ -2221,15 +2219,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getMapCenter()Lcom/baidu/platform/comapi/basestruct/GeoPoint;
@@ -2279,7 +2268,6 @@
     return-object v1
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMapRotation()I
@@ -2323,7 +2311,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMapStatus()Lcom/baidu/platform/comapi/map/MapStatus;
@@ -2365,7 +2352,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public declared-synchronized getOverlay(I)Lcom/baidu/platform/comapi/map/Overlay;
@@ -2530,7 +2516,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOverlooking()D
@@ -2574,7 +2559,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPopupOverlay()Lcom/baidu/platform/comapi/map/Overlay;
@@ -2613,7 +2597,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWinRound()Lcom/baidu/platform/comapi/map/MapStatus$WinRound;
@@ -2657,7 +2640,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getZoomLevel()F
@@ -2699,7 +2681,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getZoomToBound(Lcom/baidu/platform/comapi/basestruct/MapBound;)F
@@ -2931,7 +2912,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isStreetRoad()Z
@@ -2980,7 +2960,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onBackground()V
@@ -3196,15 +3175,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onDoubleTap(Landroid/view/MotionEvent;)Z
@@ -3915,6 +3885,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public onMapRenderModeChange(I)V
@@ -4054,8 +4056,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onPause()V
@@ -4106,6 +4106,83 @@
     .line 22
     .line 23
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method public onRecycle()V
@@ -4153,7 +4230,6 @@
     return-void
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onRequestRender()V
@@ -4210,6 +4286,83 @@
     .line 22
     .line 23
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method public onScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
@@ -4498,6 +4651,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public onSurfaceTextureAvailable(Landroid/graphics/SurfaceTexture;II)V
@@ -4720,11 +4889,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onSurfaceTextureDestroyed(Landroid/graphics/SurfaceTexture;)Z
@@ -4759,7 +4923,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onSurfaceTextureSizeChanged(Landroid/graphics/SurfaceTexture;II)V
@@ -5976,50 +6139,6 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method public onSurfaceTextureUpdated(Landroid/graphics/SurfaceTexture;)V
@@ -6052,7 +6171,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -6666,6 +6784,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public refresh(Lcom/baidu/platform/comapi/map/Overlay;)V
@@ -7196,6 +7346,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public declared-synchronized removeBmLayer(Lcom/baidu/platform/comapi/bmsdk/BmLayer;)Z
@@ -7370,8 +7552,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public removeOverlay(Lcom/baidu/platform/comapi/map/Overlay;)Z
@@ -7540,8 +7720,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public saveScreenToLocal(Ljava/lang/String;)V
@@ -7586,7 +7764,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGeoRound(Lcom/baidu/platform/comapi/map/MapStatus$GeoBound;)V
@@ -7715,8 +7892,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setMapRenderStableListener(Lcom/baidu/platform/comapi/map/n;)V
@@ -7749,7 +7924,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMapStatus(Lcom/baidu/platform/comapi/map/MapStatus;)V
@@ -7787,7 +7961,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMapTo2D(Z)V
@@ -7841,7 +8014,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRotation(I)V
@@ -7887,7 +8059,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSatellite(Z)V
@@ -7939,7 +8110,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTraffic(Z)V
@@ -7983,7 +8153,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWinRound(Lcom/baidu/platform/comapi/map/MapStatus$WinRound;)V
@@ -8029,7 +8198,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setZoomLevel(F)V
@@ -8202,11 +8370,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public unListenMapRenderMessage()V
@@ -8239,5 +8402,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

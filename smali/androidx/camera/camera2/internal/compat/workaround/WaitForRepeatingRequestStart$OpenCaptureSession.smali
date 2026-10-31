@@ -18,7 +18,7 @@
 
 
 # virtual methods
-.method public abstract run(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)Lub/u0;
+.method public abstract run(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)Lcom/google/common/util/concurrent/t;
     .param p1    # Landroid/hardware/camera2/CameraDevice;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
@@ -42,9 +42,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/DeferrableSurface;",
             ">;)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method

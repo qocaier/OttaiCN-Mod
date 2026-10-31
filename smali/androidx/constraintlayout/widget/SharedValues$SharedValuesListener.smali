@@ -16,16 +16,4 @@
 
 # virtual methods
 .method public abstract onNewValue(III)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "key",
-            "newValue",
-            "oldValue"
-        }
-    .end annotation
 .end method

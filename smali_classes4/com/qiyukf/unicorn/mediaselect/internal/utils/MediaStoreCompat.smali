@@ -97,220 +97,220 @@
     move-result-object v1
 
     .line 7
-    const-string v2, "yyyyMMdd_HHmmss"
+    const-string/jumbo v2, "yyyyMMdd_HHmmss"
 
     .line 8
     .line 9
+    .line 10
     invoke-direct {v0, v2, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
-    .line 10
     .line 11
     .line 12
+    .line 13
     new-instance v1, Ljava/util/Date;
 
-    .line 13
     .line 14
+    .line 15
     invoke-direct {v1}, Ljava/util/Date;-><init>()V
 
-    .line 15
     .line 16
     .line 17
+    .line 18
     invoke-virtual {v0, v1}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
-    .line 18
     .line 19
     .line 20
-    move-result-object v0
-
     .line 21
-    filled-new-array {v0}, [Ljava/lang/Object;
+    move-result-object v0
 
     .line 22
+    filled-new-array {v0}, [Ljava/lang/Object;
+
     .line 23
     .line 24
-    move-result-object v0
-
     .line 25
-    const-string v1, "JPEG_%s.jpg"
+    move-result-object v0
 
     .line 26
+    const-string v1, "JPEG_%s.jpg"
+
     .line 27
+    .line 28
     invoke-static {v1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 28
     .line 29
     .line 30
+    .line 31
     move-result-object v0
 
-    .line 31
+    .line 32
     iget-object v1, p0, Lcom/qiyukf/unicorn/mediaselect/internal/utils/MediaStoreCompat;->mCaptureStrategy:Lcom/qiyukf/unicorn/mediaselect/internal/entity/CaptureStrategy;
 
-    .line 32
     .line 33
+    .line 34
     iget-boolean v1, v1, Lcom/qiyukf/unicorn/mediaselect/internal/entity/CaptureStrategy;->isPublic:Z
 
-    .line 34
     .line 35
+    .line 36
     if-eqz v1, :cond_0
 
-    .line 36
     .line 37
+    .line 38
     sget-object v1, Landroid/os/Environment;->DIRECTORY_PICTURES:Ljava/lang/String;
 
-    .line 38
     .line 39
+    .line 40
     invoke-static {v1}, Landroid/os/Environment;->getExternalStoragePublicDirectory(Ljava/lang/String;)Ljava/io/File;
 
-    .line 40
     .line 41
     .line 42
+    .line 43
     move-result-object v1
 
-    .line 43
+    .line 44
     invoke-virtual {v1}, Ljava/io/File;->exists()Z
 
-    .line 44
     .line 45
     .line 46
+    .line 47
     move-result v2
 
-    .line 47
+    .line 48
     if-nez v2, :cond_1
 
-    .line 48
     .line 49
+    .line 50
     invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
 
-    .line 50
     .line 51
     .line 52
+    .line 53
     goto :goto_0
 
-    .line 53
+    .line 54
     :cond_0
     iget-object v1, p0, Lcom/qiyukf/unicorn/mediaselect/internal/utils/MediaStoreCompat;->mContext:Ljava/lang/ref/WeakReference;
 
-    .line 54
     .line 55
+    .line 56
     invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
-    .line 56
     .line 57
     .line 58
-    move-result-object v1
-
     .line 59
-    check-cast v1, Landroid/app/Activity;
+    move-result-object v1
 
     .line 60
+    check-cast v1, Landroid/app/Activity;
+
     .line 61
+    .line 62
     sget-object v2, Landroid/os/Environment;->DIRECTORY_PICTURES:Ljava/lang/String;
 
-    .line 62
     .line 63
+    .line 64
     invoke-virtual {v1, v2}, Landroid/content/Context;->getExternalFilesDir(Ljava/lang/String;)Ljava/io/File;
 
-    .line 64
     .line 65
     .line 66
+    .line 67
     move-result-object v1
 
-    .line 67
+    .line 68
     :cond_1
     :goto_0
     iget-object v2, p0, Lcom/qiyukf/unicorn/mediaselect/internal/utils/MediaStoreCompat;->mCaptureStrategy:Lcom/qiyukf/unicorn/mediaselect/internal/entity/CaptureStrategy;
 
-    .line 68
     .line 69
+    .line 70
     iget-object v2, v2, Lcom/qiyukf/unicorn/mediaselect/internal/entity/CaptureStrategy;->directory:Ljava/lang/String;
 
-    .line 70
     .line 71
+    .line 72
     if-eqz v2, :cond_3
 
-    .line 72
     .line 73
+    .line 74
     new-instance v2, Ljava/io/File;
 
-    .line 74
     .line 75
+    .line 76
     iget-object v3, p0, Lcom/qiyukf/unicorn/mediaselect/internal/utils/MediaStoreCompat;->mCaptureStrategy:Lcom/qiyukf/unicorn/mediaselect/internal/entity/CaptureStrategy;
 
-    .line 76
     .line 77
+    .line 78
     iget-object v3, v3, Lcom/qiyukf/unicorn/mediaselect/internal/entity/CaptureStrategy;->directory:Ljava/lang/String;
 
-    .line 78
     .line 79
+    .line 80
     invoke-direct {v2, v1, v3}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 80
     .line 81
     .line 82
+    .line 83
     invoke-virtual {v2}, Ljava/io/File;->exists()Z
 
-    .line 83
     .line 84
     .line 85
+    .line 86
     move-result v1
 
-    .line 86
+    .line 87
     if-nez v1, :cond_2
 
-    .line 87
     .line 88
+    .line 89
     invoke-virtual {v2}, Ljava/io/File;->mkdirs()Z
 
-    .line 89
     .line 90
     .line 91
+    .line 92
     :cond_2
     move-object v1, v2
 
-    .line 92
+    .line 93
     :cond_3
     new-instance v2, Ljava/io/File;
 
-    .line 93
     .line 94
+    .line 95
     invoke-direct {v2, v1, v0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 95
     .line 96
     .line 97
+    .line 98
     invoke-static {v2}, Landroidx/core/os/EnvironmentCompat;->getStorageState(Ljava/io/File;)Ljava/lang/String;
 
-    .line 98
     .line 99
     .line 100
+    .line 101
     move-result-object v0
 
-    .line 101
+    .line 102
     const-string v1, "mounted"
 
-    .line 102
     .line 103
+    .line 104
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 104
     .line 105
     .line 106
+    .line 107
     move-result v0
 
-    .line 107
+    .line 108
     if-nez v0, :cond_4
 
-    .line 108
     .line 109
+    .line 110
     const/4 v0, 0x0
 
-    .line 110
+    .line 111
     return-object v0
 
-    .line 111
+    .line 112
     :cond_4
     return-object v2
-    .line 112
     .line 113
     .line 114
     .line 115
@@ -480,68 +480,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method public static hasCameraFeature(Landroid/content/Context;)Z
@@ -587,6 +525,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -967,6 +907,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public getCurrentPhotoPath()Ljava/lang/String;
@@ -995,6 +965,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCurrentPhotoUri()Landroid/net/Uri;
@@ -1023,6 +995,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setCaptureStrategy(Lcom/qiyukf/unicorn/mediaselect/internal/entity/CaptureStrategy;)V
@@ -1056,4 +1030,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

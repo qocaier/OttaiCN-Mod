@@ -1,377 +1,46 @@
-.class public Lkotlinx/coroutines/channels/h;
-.super Lkotlinx/coroutines/channels/BufferedChannel;
+.class public abstract Lkotlinx/coroutines/channels/h;
+.super Lkotlinx/coroutines/a;
 .source "SourceFile"
 
-
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lkotlinx/coroutines/channels/BufferedChannel<",
-        "TE;>;"
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nConflatedBufferedChannel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ConflatedBufferedChannel.kt\nkotlinx/coroutines/channels/ConflatedBufferedChannel\n+ 2 Channel.kt\nkotlinx/coroutines/channels/ChannelKt\n*L\n1#1,90:1\n1047#2,2:91\n1009#2,2:93\n1009#2,2:95\n1047#2,2:97\n*S KotlinDebug\n*F\n+ 1 ConflatedBufferedChannel.kt\nkotlinx/coroutines/channels/ConflatedBufferedChannel\n*L\n33#1:91,2\n45#1:93,2\n77#1:95,2\n80#1:97,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nConflatedBufferedChannel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ConflatedBufferedChannel.kt\nkotlinx/coroutines/channels/ConflatedBufferedChannel\n+ 2 Channel.kt\nkotlinx/coroutines/channels/ChannelKt\n*L\n1#1,90:1\n1047#2,2:91\n1009#2,2:93\n1009#2,2:95\n1047#2,2:97\n*S KotlinDebug\n*F\n+ 1 ConflatedBufferedChannel.kt\nkotlinx/coroutines/channels/ConflatedBufferedChannel\n*L\n33#1:91,2\n45#1:93,2\n77#1:95,2\n80#1:97,2\n*E\n"
-    }
-.end annotation
+# interfaces
+.implements Lkotlinx/coroutines/channels/g;
 
 
 # instance fields
-.field public final m:I
-
-.field public final n:Lkotlinx/coroutines/channels/BufferOverflow;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public final d:Lkotlinx/coroutines/channels/g;
 
 
 # direct methods
-.method public constructor <init>(ILkotlinx/coroutines/channels/BufferOverflow;Ljm/l;)V
+.method public constructor <init>(Lkotlin/coroutines/i;Lkotlinx/coroutines/channels/g;ZZ)V
     .locals 0
-    .param p2    # Lkotlinx/coroutines/channels/BufferOverflow;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/l;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(I",
-            "Lkotlinx/coroutines/channels/BufferOverflow;",
-            "Ljm/l<",
-            "-TE;",
-            "Ljl/e2;",
-            ">;)V"
-        }
-    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1, p3, p4}, Lkotlinx/coroutines/a;-><init>(Lkotlin/coroutines/i;ZZ)V
 
     .line 2
-    invoke-direct {p0, p1, p3}, Lkotlinx/coroutines/channels/BufferedChannel;-><init>(ILjm/l;)V
-
     .line 3
-    iput p1, p0, Lkotlinx/coroutines/channels/h;->m:I
-
     .line 4
-    iput-object p2, p0, Lkotlinx/coroutines/channels/h;->n:Lkotlinx/coroutines/channels/BufferOverflow;
+    iput-object p2, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
 
     .line 5
-    sget-object p3, Lkotlinx/coroutines/channels/BufferOverflow;->SUSPEND:Lkotlinx/coroutines/channels/BufferOverflow;
-
-    if-eq p2, p3, :cond_1
-
-    const/4 p2, 0x1
-
-    if-lt p1, p2, :cond_0
-
+    .line 6
     return-void
-
-    .line 6
-    :cond_0
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string p3, "Buffered channel capacity must be at least 1, but "
-
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    const-string p1, " was specified"
-
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    .line 7
-    new-instance p2, Ljava/lang/IllegalArgumentException;
-
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    throw p2
-
-    .line 8
-    :cond_1
-    new-instance p1, Ljava/lang/StringBuilder;
-
-    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string p2, "This implementation does not support suspension for senders, use "
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-class p2, Lkotlinx/coroutines/channels/BufferedChannel;
-
-    invoke-static {p2}, Lkm/o0;->d(Ljava/lang/Class;)Lum/d;
-
-    move-result-object p2
-
-    invoke-interface {p2}, Lum/d;->t()Ljava/lang/String;
-
-    move-result-object p2
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p2, " instead"
-
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    .line 9
-    new-instance p2, Ljava/lang/IllegalArgumentException;
-
-    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
-
-    throw p2
-.end method
-
-.method public synthetic constructor <init>(ILkotlinx/coroutines/channels/BufferOverflow;Ljm/l;ILkm/v;)V
-    .locals 0
-
-    and-int/lit8 p4, p4, 0x4
-
-    if-eqz p4, :cond_0
-
-    const/4 p3, 0x0
-
-    .line 1
-    :cond_0
-    invoke-direct {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/h;-><init>(ILkotlinx/coroutines/channels/BufferOverflow;Ljm/l;)V
-
-    return-void
-.end method
-
-.method public static synthetic A2(Lkotlinx/coroutines/channels/h;Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<E:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lkotlinx/coroutines/channels/h<",
-            "TE;>;TE;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
-
-    .line 1
-    const/4 p2, 0x1
-
-    .line 2
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/channels/h;->D2(Ljava/lang/Object;Z)Ljava/lang/Object;
-
-    .line 3
-    .line 4
-    .line 5
-    move-result-object p2
-
-    .line 6
-    instance-of v0, p2, Lkotlinx/coroutines/channels/g$a;
-
     .line 7
     .line 8
-    if-eqz v0, :cond_1
-
     .line 9
     .line 10
-    invoke-static {p2}, Lkotlinx/coroutines/channels/g;->f(Ljava/lang/Object;)Ljava/lang/Throwable;
-
     .line 11
     .line 12
     .line 13
-    iget-object p2, p0, Lkotlinx/coroutines/channels/BufferedChannel;->b:Ljm/l;
-
     .line 14
     .line 15
-    if-eqz p2, :cond_0
-
     .line 16
     .line 17
-    const/4 v0, 0x2
-
     .line 18
-    const/4 v1, 0x0
-
-    .line 19
-    invoke-static {p2, p1, v1, v0, v1}, Lmn/m0;->c(Ljm/l;Ljava/lang/Object;Lkotlinx/coroutines/internal/UndeliveredElementException;ILjava/lang/Object;)Lkotlinx/coroutines/internal/UndeliveredElementException;
-
-    .line 20
-    .line 21
-    .line 22
-    move-result-object p1
-
-    .line 23
-    if-eqz p1, :cond_0
-
-    .line 24
-    .line 25
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/BufferedChannel;->M0()Ljava/lang/Throwable;
-
-    .line 26
-    .line 27
-    .line 28
-    move-result-object p0
-
-    .line 29
-    invoke-static {p1, p0}, Ljl/r;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
-
-    .line 30
-    .line 31
-    .line 32
-    throw p1
-
-    .line 33
-    :cond_0
-    invoke-virtual {p0}, Lkotlinx/coroutines/channels/BufferedChannel;->M0()Ljava/lang/Throwable;
-
-    .line 34
-    .line 35
-    .line 36
-    move-result-object p0
-
-    .line 37
-    throw p0
-
-    .line 38
-    :cond_1
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
-
-    .line 39
-    .line 40
-    return-object p0
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-.end method
-
-.method public static synthetic B2(Lkotlinx/coroutines/channels/h;Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
-    .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<E:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lkotlinx/coroutines/channels/h<",
-            "TE;>;TE;",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Boolean;",
-            ">;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
-
-    .line 1
-    const/4 p2, 0x1
-
-    .line 2
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/channels/h;->D2(Ljava/lang/Object;Z)Ljava/lang/Object;
-
-    .line 3
-    .line 4
-    .line 5
-    move-result-object p0
-
-    .line 6
-    instance-of p1, p0, Lkotlinx/coroutines/channels/g$c;
-
-    .line 7
-    .line 8
-    if-nez p1, :cond_0
-
-    .line 9
-    .line 10
-    check-cast p0, Ljl/e2;
-
-    .line 11
-    .line 12
-    invoke-static {p2}, Lxl/a;->a(Z)Ljava/lang/Boolean;
-
-    .line 13
-    .line 14
-    .line 15
-    move-result-object p0
-
-    .line 16
-    return-object p0
-
-    .line 17
-    :cond_0
-    const/4 p0, 0x0
-
-    .line 18
-    invoke-static {p0}, Lxl/a;->a(Z)Ljava/lang/Boolean;
-
     .line 19
     .line 20
     .line 21
-    move-result-object p0
-
     .line 22
-    return-object p0
     .line 23
     .line 24
     .line 25
@@ -393,152 +62,6 @@
     .line 41
     .line 42
     .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-.end method
-
-
-# virtual methods
-.method public final C2(Ljava/lang/Object;Z)Ljava/lang/Object;
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TE;Z)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
-
-    .line 1
-    invoke-super {p0, p1}, Lkotlinx/coroutines/channels/BufferedChannel;->H(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
-
-    .line 5
-    invoke-static {v0}, Lkotlinx/coroutines/channels/g;->m(Ljava/lang/Object;)Z
-
-    .line 6
-    .line 7
-    .line 8
-    move-result v1
-
-    .line 9
-    if-nez v1, :cond_3
-
-    .line 10
-    .line 11
-    invoke-static {v0}, Lkotlinx/coroutines/channels/g;->k(Ljava/lang/Object;)Z
-
-    .line 12
-    .line 13
-    .line 14
-    move-result v1
-
-    .line 15
-    if-eqz v1, :cond_0
-
-    .line 16
-    .line 17
-    goto :goto_1
-
-    .line 18
-    :cond_0
-    if-eqz p2, :cond_2
-
-    .line 19
-    .line 20
-    iget-object p2, p0, Lkotlinx/coroutines/channels/BufferedChannel;->b:Ljm/l;
-
-    .line 21
-    .line 22
-    if-eqz p2, :cond_2
-
-    .line 23
-    .line 24
-    const/4 v0, 0x2
-
-    .line 25
-    const/4 v1, 0x0
-
-    .line 26
-    invoke-static {p2, p1, v1, v0, v1}, Lmn/m0;->c(Ljm/l;Ljava/lang/Object;Lkotlinx/coroutines/internal/UndeliveredElementException;ILjava/lang/Object;)Lkotlinx/coroutines/internal/UndeliveredElementException;
-
-    .line 27
-    .line 28
-    .line 29
-    move-result-object p1
-
-    .line 30
-    if-nez p1, :cond_1
-
-    .line 31
-    .line 32
-    goto :goto_0
-
-    .line 33
-    :cond_1
-    throw p1
-
-    .line 34
-    :cond_2
-    :goto_0
-    sget-object p1, Lkotlinx/coroutines/channels/g;->b:Lkotlinx/coroutines/channels/g$b;
-
-    .line 35
-    .line 36
-    sget-object p2, Ljl/e2;->a:Ljl/e2;
-
-    .line 37
-    .line 38
-    invoke-virtual {p1, p2}, Lkotlinx/coroutines/channels/g$b;->c(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 39
-    .line 40
-    .line 41
-    move-result-object p1
-
-    .line 42
-    return-object p1
-
-    .line 43
-    :cond_3
-    :goto_1
-    return-object v0
     .line 44
     .line 45
     .line 46
@@ -604,51 +127,362 @@
     .line 106
     .line 107
     .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
 .end method
 
-.method public final D2(Ljava/lang/Object;Z)Ljava/lang/Object;
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TE;Z)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
+
+# virtual methods
+.method public F()Lkotlinx/coroutines/selects/g;
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->n:Lkotlinx/coroutines/channels/BufferOverflow;
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
+
+    invoke-interface {v0}, Lkotlinx/coroutines/channels/ReceiveChannel;->F()Lkotlinx/coroutines/selects/g;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public H()Lkotlinx/coroutines/selects/g;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
+
+    invoke-interface {v0}, Lkotlinx/coroutines/channels/ReceiveChannel;->H()Lkotlinx/coroutines/selects/g;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public I()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
+
+    invoke-interface {v0}, Lkotlinx/coroutines/channels/ReceiveChannel;->I()Ljava/lang/Object;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public J(Lq8/l;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
 
     .line 2
     .line 3
-    sget-object v1, Lkotlinx/coroutines/channels/BufferOverflow;->DROP_LATEST:Lkotlinx/coroutines/channels/BufferOverflow;
+    invoke-interface {v0, p1}, Lkotlinx/coroutines/channels/s;->J(Lq8/l;)V
 
     .line 4
     .line 5
-    if-ne v0, v1, :cond_0
-
     .line 6
+    return-void
     .line 7
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/channels/h;->C2(Ljava/lang/Object;Z)Ljava/lang/Object;
-
     .line 8
     .line 9
     .line 10
-    move-result-object p1
-
     .line 11
-    return-object p1
-
     .line 12
-    :cond_0
-    invoke-virtual {p0, p1}, Lkotlinx/coroutines/channels/BufferedChannel;->p2(Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 13
     .line 14
     .line 15
-    move-result-object p1
-
     .line 16
-    return-object p1
     .line 17
     .line 18
     .line 19
@@ -674,203 +508,142 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public H(Ljava/lang/Object;)Ljava/lang/Object;
+.method public K(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TE;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    const/4 v0, 0x0
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
 
-    .line 2
-    invoke-virtual {p0, p1, v0}, Lkotlinx/coroutines/channels/h;->D2(Ljava/lang/Object;Z)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lkotlinx/coroutines/channels/ReceiveChannel;->K(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
-    .line 3
-    .line 4
-    .line 5
     move-result-object p1
 
-    .line 6
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
+
     return-object p1
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
 .end method
 
-.method public P1(Lpn/j;Ljava/lang/Object;)V
+.method public R(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Lpn/j;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lpn/j<",
-            "*>;",
-            "Ljava/lang/Object;",
-            ")V"
-        }
-    .end annotation
 
     .line 1
-    invoke-virtual {p0, p2}, Lkotlinx/coroutines/channels/h;->H(Ljava/lang/Object;)Ljava/lang/Object;
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
+
+    invoke-interface {v0, p1}, Lkotlinx/coroutines/channels/ReceiveChannel;->R(Lkotlin/coroutines/e;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public S(Ljava/lang/Throwable;)Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
+
+    invoke-interface {v0, p1}, Lkotlinx/coroutines/channels/s;->S(Ljava/lang/Throwable;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public X(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
+
+    invoke-interface {v0, p1, p2}, Lkotlinx/coroutines/channels/s;->X(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public Y()Z
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
+
+    invoke-interface {v0}, Lkotlinx/coroutines/channels/s;->Y()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public final a(Ljava/util/concurrent/CancellationException;)V
+    .locals 2
+
+    .line 1
+    invoke-virtual {p0}, Lkotlinx/coroutines/w1;->isCancelled()Z
 
     .line 2
     .line 3
     .line 4
-    move-result-object p2
+    move-result v0
 
     .line 5
-    instance-of v0, p2, Lkotlinx/coroutines/channels/g$c;
+    if-eqz v0, :cond_0
 
     .line 6
     .line 7
-    if-nez v0, :cond_0
-
-    .line 8
-    .line 9
-    check-cast p2, Ljl/e2;
-
-    .line 10
-    .line 11
-    sget-object p2, Ljl/e2;->a:Ljl/e2;
-
-    .line 12
-    .line 13
-    invoke-interface {p1, p2}, Lpn/j;->f(Ljava/lang/Object;)V
-
-    .line 14
-    .line 15
-    .line 16
     return-void
 
-    .line 17
+    .line 8
     :cond_0
-    instance-of v0, p2, Lkotlinx/coroutines/channels/g$a;
+    if-nez p1, :cond_1
+
+    .line 9
+    .line 10
+    new-instance p1, Lkotlinx/coroutines/JobCancellationException;
+
+    .line 11
+    .line 12
+    invoke-static {p0}, Lkotlinx/coroutines/w1;->c0(Lkotlinx/coroutines/w1;)Ljava/lang/String;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v0
+
+    .line 16
+    const/4 v1, 0x0
+
+    .line 17
+    invoke-direct {p1, v0, v1, p0}, Lkotlinx/coroutines/JobCancellationException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;Lkotlinx/coroutines/s1;)V
 
     .line 18
     .line 19
-    if-eqz v0, :cond_1
-
     .line 20
-    .line 21
-    invoke-static {p2}, Lkotlinx/coroutines/channels/g;->f(Ljava/lang/Object;)Ljava/lang/Throwable;
-
-    .line 22
-    .line 23
-    .line 24
-    invoke-static {}, Lkotlinx/coroutines/channels/BufferedChannelKt;->z()Lmn/u0;
-
-    .line 25
-    .line 26
-    .line 27
-    move-result-object p2
-
-    .line 28
-    invoke-interface {p1, p2}, Lpn/j;->f(Ljava/lang/Object;)V
-
-    .line 29
-    .line 30
-    .line 31
-    return-void
-
-    .line 32
     :cond_1
-    new-instance p1, Ljava/lang/IllegalStateException;
+    invoke-virtual {p0, p1}, Lkotlinx/coroutines/channels/h;->n0(Ljava/lang/Throwable;)V
 
-    .line 33
-    .line 34
-    const-string p2, "unreachable"
-
-    .line 35
-    .line 36
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
-
-    .line 37
-    .line 38
-    .line 39
-    throw p1
-    .line 40
-    .line 41
-.end method
-
-.method public V1(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
-    .locals 0
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TE;",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Boolean;",
-            ">;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
-
-    .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/h;->B2(Lkotlinx/coroutines/channels/h;Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object p1
-
-    .line 5
-    return-object p1
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
     .line 21
     .line 22
     .line 23
+    return-void
     .line 24
     .line 25
     .line 26
@@ -889,40 +662,69 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public e1()Z
+.method public iterator()Lkotlinx/coroutines/channels/ChannelIterator;
+    .locals 1
+
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
+
+    invoke-interface {v0}, Lkotlinx/coroutines/channels/ReceiveChannel;->iterator()Lkotlinx/coroutines/channels/ChannelIterator;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public n0(Ljava/lang/Throwable;)V
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->n:Lkotlinx/coroutines/channels/BufferOverflow;
+    const/4 v0, 0x0
 
     .line 2
+    const/4 v1, 0x1
+
     .line 3
-    sget-object v1, Lkotlinx/coroutines/channels/BufferOverflow;->DROP_OLDEST:Lkotlinx/coroutines/channels/BufferOverflow;
+    invoke-static {p0, p1, v0, v1, v0}, Lkotlinx/coroutines/w1;->h1(Lkotlinx/coroutines/w1;Ljava/lang/Throwable;Ljava/lang/String;ILjava/lang/Object;)Ljava/util/concurrent/CancellationException;
 
     .line 4
     .line 5
-    if-ne v0, v1, :cond_0
-
     .line 6
+    move-result-object p1
+
     .line 7
-    const/4 v0, 0x1
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
 
     .line 8
-    return v0
-
     .line 9
-    :cond_0
-    const/4 v0, 0x0
+    invoke-interface {v0, p1}, Lkotlinx/coroutines/channels/ReceiveChannel;->a(Ljava/util/concurrent/CancellationException;)V
 
     .line 10
-    return v0
     .line 11
     .line 12
+    invoke-virtual {p0, p1}, Lkotlinx/coroutines/w1;->l0(Ljava/lang/Throwable;)Z
+
     .line 13
     .line 14
     .line 15
+    return-void
     .line 16
     .line 17
     .line 18
@@ -931,38 +733,60 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public f0(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public final s1()Lkotlinx/coroutines/channels/g;
     .locals 0
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TE;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/h;->A2(Lkotlinx/coroutines/channels/h;Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    return-object p0
+.end method
+
+.method public final t1()Lkotlinx/coroutines/channels/g;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
 
     .line 2
     .line 3
+    return-object v0
     .line 4
-    move-result-object p1
-
     .line 5
-    return-object p1
     .line 6
     .line 7
     .line 8
@@ -999,13 +823,26 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public l2()Z
+.method public z(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
     .line 1
-    const/4 v0, 0x0
+    iget-object v0, p0, Lkotlinx/coroutines/channels/h;->d:Lkotlinx/coroutines/channels/g;
 
-    return v0
+    invoke-interface {v0, p1}, Lkotlinx/coroutines/channels/s;->z(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
 .end method

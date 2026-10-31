@@ -15,9 +15,6 @@
 .field private static final GENERATED_CALLBACK:I = 0x2
 
 .field public static final INSTANCE:Landroidx/lifecycle/Lifecycling;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final REFLECTIVE_CALLBACK:I = 0x1
 
@@ -30,9 +27,6 @@
             "Ljava/lang/Integer;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -48,9 +42,6 @@
             "Landroidx/lifecycle/GeneratedAdapter;",
             ">;>;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -162,6 +153,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -190,6 +183,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final createGeneratedAdapter(Ljava/lang/reflect/Constructor;Ljava/lang/Object;)Landroidx/lifecycle/GeneratedAdapter;
@@ -229,7 +223,7 @@
 
     .line 10
     .line 11
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -377,7 +371,7 @@
 
     .line 21
     .line 22
-    invoke-static {v0, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -405,7 +399,7 @@
 
     .line 34
     .line 35
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -433,7 +427,7 @@
 
     .line 48
     .line 49
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -443,7 +437,7 @@
 
     .line 53
     .line 54
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -521,7 +515,7 @@
 
     .line 93
     .line 94
-    invoke-static {v0, v1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 95
     .line 96
@@ -700,26 +694,22 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static final getAdapterName(Ljava/lang/String;)Ljava/lang/String;
     .locals 7
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "className"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -753,7 +743,7 @@
     move-object v1, p0
 
     .line 19
-    invoke-static/range {v1 .. v6}, Lym/f0;->z2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v6}, Lkotlin/text/z;->C(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -827,6 +817,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final getObserverConstructorType(Ljava/lang/Class;)I
@@ -945,6 +936,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final isLifecycleParent(Ljava/lang/Class;)Z
@@ -1004,22 +996,13 @@
 
 .method public static final lifecycleEventObserver(Ljava/lang/Object;)Landroidx/lifecycle/LifecycleEventObserver;
     .locals 6
-    .param p0    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "object"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1139,7 +1122,7 @@
     move-result-object v0
 
     .line 60
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 61
     .line 62
@@ -1388,6 +1371,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private final resolveObserverCallbackType(Ljava/lang/Class;)I
@@ -1439,7 +1427,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0}, Lll/g0;->l(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v0}, Lkotlin/collections/q;->e(Ljava/lang/Object;)Ljava/util/List;
 
     .line 19
     .line 20
@@ -1500,7 +1488,7 @@
 
     .line 46
     .line 47
-    invoke-static {v0, v3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -1537,7 +1525,7 @@
     move-result-object v0
 
     .line 65
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 66
     .line 67
@@ -1571,7 +1559,7 @@
 
     .line 80
     .line 81
-    invoke-static {v0, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 82
     .line 83
@@ -1611,7 +1599,7 @@
 
     .line 98
     .line 99
-    invoke-static {v6, v7}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v7}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 100
     .line 101
@@ -1658,7 +1646,7 @@
     move-result-object v6
 
     .line 122
-    invoke-static {v6}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v6}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 123
     .line 124
@@ -1796,4 +1784,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

@@ -210,6 +210,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getExecutor()Ljava/util/concurrent/Executor;
@@ -244,9 +247,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public openCaptureSession(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)Lub/u0;
+.method public openCaptureSession(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)Lcom/google/common/util/concurrent/t;
     .locals 1
     .param p1    # Landroid/hardware/camera2/CameraDevice;
         .annotation build Landroidx/annotation/NonNull;
@@ -271,9 +275,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/DeferrableSurface;",
             ">;)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -282,7 +284,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2, p3}, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener$OpenerImpl;->openCaptureSession(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)Lub/u0;
+    invoke-interface {v0, p1, p2, p3}, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener$OpenerImpl;->openCaptureSession(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -397,9 +399,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public startWithDeferrableSurface(Ljava/util/List;J)Lub/u0;
+.method public startWithDeferrableSurface(Ljava/util/List;J)Lcom/google/common/util/concurrent/t;
     .locals 1
     .param p1    # Ljava/util/List;
         .annotation build Landroidx/annotation/NonNull;
@@ -414,10 +419,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/DeferrableSurface;",
             ">;J)",
-            "Lub/u0<",
-            "Ljava/util/List<",
-            "Landroid/view/Surface;",
-            ">;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -426,7 +428,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2, p3}, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener$OpenerImpl;->startWithDeferrableSurface(Ljava/util/List;J)Lub/u0;
+    invoke-interface {v0, p1, p2, p3}, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener$OpenerImpl;->startWithDeferrableSurface(Ljava/util/List;J)Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -508,4 +510,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

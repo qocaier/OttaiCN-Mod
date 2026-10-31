@@ -87,6 +87,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -115,6 +116,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static drainCache()V
@@ -153,6 +155,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static obtain()Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;
@@ -194,6 +197,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static recycle(Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;)V

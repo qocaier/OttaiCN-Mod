@@ -51,7 +51,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -64,11 +63,11 @@
 
     .line 2
     .line 3
-    new-instance v0, Lcom/google/android/material/search/e;
+    new-instance v0, Lcom/google/android/material/search/h;
 
     .line 4
     .line 5
-    invoke-direct {v0}, Lcom/google/android/material/search/e;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/search/h;-><init>()V
 
     .line 6
     .line 7
@@ -92,5 +91,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

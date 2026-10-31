@@ -235,6 +235,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private insertCheckBox()V
@@ -279,6 +280,7 @@
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
 .method private insertIconView()V
@@ -323,6 +325,7 @@
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
 .method private insertRadioButton()V
@@ -367,6 +370,7 @@
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
 .method private setSubMenuArrowVisible(Z)V
@@ -540,6 +544,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getItemData()Landroidx/appcompat/view/menu/MenuItemImpl;
@@ -568,6 +573,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public initialize(Landroidx/appcompat/view/menu/MenuItemImpl;I)V
@@ -871,6 +877,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onFinishInflate()V
@@ -1035,6 +1044,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onMeasure(II)V
@@ -1472,6 +1483,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setChecked(Z)V
@@ -1588,6 +1604,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setForceShowIcon(Z)V
@@ -1857,6 +1874,7 @@
     :cond_8
     :goto_4
     return-void
+    .line 79
 .end method
 
 .method public setShortcut(ZC)V
@@ -2077,6 +2095,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public showsIcon()Z
@@ -2105,4 +2124,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

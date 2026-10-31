@@ -537,6 +537,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private ensureSpinner()V
@@ -658,6 +660,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private setTitleInt(Ljava/lang/CharSequence;)V
@@ -767,6 +771,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private updateHomeAccessibility()V
@@ -887,6 +892,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private updateNavigationIcon()V
@@ -1006,6 +1013,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private updateToolbarLogo()V
@@ -1130,6 +1139,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -1206,6 +1217,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public collapseActionView()V
@@ -1236,6 +1248,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dismissPopupMenus()V
@@ -1266,6 +1279,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContext()Landroid/content/Context;
@@ -1298,6 +1312,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCustomView()Landroid/view/View;
@@ -1326,6 +1341,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDisplayOptions()I
@@ -1354,6 +1370,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDropdownItemCount()I
@@ -1393,6 +1410,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDropdownSelectedPosition()I
@@ -1432,6 +1450,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeight()I
@@ -1464,6 +1483,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMenu()Landroid/view/Menu;
@@ -1496,6 +1516,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNavigationMode()I
@@ -1524,6 +1545,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSubtitle()Ljava/lang/CharSequence;
@@ -1556,6 +1578,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTitle()Ljava/lang/CharSequence;
@@ -1588,6 +1611,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getViewGroup()Landroid/view/ViewGroup;
@@ -1616,6 +1640,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVisibility()I
@@ -1648,6 +1673,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasEmbeddedTabs()Z
@@ -1685,6 +1711,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasExpandedActionView()Z
@@ -1717,6 +1744,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasIcon()Z
@@ -1754,6 +1782,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasLogo()Z
@@ -1791,6 +1820,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hideOverflowMenu()Z
@@ -1823,6 +1853,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public initIndeterminateProgress()V
@@ -1855,6 +1886,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public initProgress()V
@@ -1887,6 +1919,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isOverflowMenuShowPending()Z
@@ -1919,6 +1952,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isOverflowMenuShowing()Z
@@ -1951,6 +1985,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isTitleTruncated()Z
@@ -1983,6 +2018,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public restoreHierarchyState(Landroid/util/SparseArray;)V
@@ -2253,6 +2289,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setDefaultNavigationContentDescription(I)V
@@ -2683,6 +2720,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setDropdownParams(Landroid/widget/SpinnerAdapter;Landroid/widget/AdapterView$OnItemSelectedListener;)V
@@ -2933,6 +2975,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setHomeButtonEnabled(Z)V
@@ -3188,6 +3231,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setNavigationContentDescription(I)V
@@ -3627,6 +3671,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setSubtitle(Ljava/lang/CharSequence;)V
@@ -3932,4 +3981,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

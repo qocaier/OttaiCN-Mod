@@ -1135,6 +1135,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$801(Landroidx/appcompat/widget/AppCompatTextView;I)V
@@ -1295,6 +1298,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getEmojiTextViewHelper()Landroidx/appcompat/widget/AppCompatEmojiTextHelper;
@@ -1336,6 +1340,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -1380,6 +1385,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAutoSizeMaxTextSize()I
@@ -1503,6 +1509,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getAutoSizeMinTextSize()I
@@ -1626,6 +1634,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getAutoSizeStepGranularity()I
@@ -1749,6 +1759,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getAutoSizeTextAvailableSizes()[I
@@ -1874,6 +1886,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getAutoSizeTextType()I
@@ -2010,6 +2024,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCustomSelectionActionModeCallback()Landroid/view/ActionMode$Callback;
@@ -2046,6 +2062,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFirstBaselineToTopHeight()I
@@ -2076,6 +2093,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLastBaselineToBottomHeight()I
@@ -2106,6 +2124,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSuperCaller()Landroidx/appcompat/widget/AppCompatTextView$SuperCaller;
@@ -2235,6 +2254,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getSupportBackgroundTintList()Landroid/content/res/ColorStateList;
@@ -2282,6 +2303,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -2329,6 +2351,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportCompoundDrawablesTintList()Landroid/content/res/ColorStateList;
@@ -2369,6 +2392,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportCompoundDrawablesTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -2409,6 +2433,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getText()Ljava/lang/CharSequence;
@@ -2441,6 +2466,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextClassifier()Landroid/view/textclassifier/TextClassifier;
@@ -2566,6 +2592,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getTextMetricsParamsCompat()Landroidx/core/text/PrecomputedTextCompat$Params;
@@ -2598,6 +2626,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEmojiCompatEnabled()Z
@@ -2632,6 +2661,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onCreateInputConnection(Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection;
@@ -3540,6 +3570,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setAllCaps(Z)V
@@ -3846,6 +3882,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setAutoSizeTextTypeUniformWithPresetSizes([II)V
@@ -4340,6 +4382,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setCompoundDrawablesRelative(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
@@ -4604,6 +4652,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setCompoundDrawablesRelativeWithIntrinsicBounds(IIII)V

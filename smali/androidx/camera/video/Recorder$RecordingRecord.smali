@@ -27,9 +27,6 @@
     }
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # instance fields
 .field private final mAudioSourceSupplier:Ljava/util/concurrent/atomic/AtomicReference;
@@ -141,11 +138,11 @@
 
     .line 34
     .line 35
-    new-instance v2, Landroidx/camera/video/m;
+    new-instance v2, Landroidx/camera/video/e0;
 
     .line 36
     .line 37
-    invoke-direct {v2}, Landroidx/camera/video/m;-><init>()V
+    invoke-direct {v2}, Landroidx/camera/video/e0;-><init>()V
 
     .line 38
     .line 39
@@ -205,6 +202,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic a(Ljava/lang/String;Landroid/net/Uri;)V
@@ -355,11 +354,11 @@
     move-result-object p0
 
     .line 26
-    new-instance p2, Landroidx/camera/video/l;
+    new-instance p2, Landroidx/camera/video/d0;
 
     .line 27
     .line 28
-    invoke-direct {p2}, Landroidx/camera/video/l;-><init>()V
+    invoke-direct {p2}, Landroidx/camera/video/d0;-><init>()V
 
     .line 29
     .line 30
@@ -472,6 +471,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic d(Landroidx/camera/video/MediaStoreOutputOptions;Landroid/net/Uri;)V
@@ -2442,7 +2444,7 @@
     .line 48
 .end method
 
-.method public static synthetic h(Landroid/os/ParcelFileDescriptor;Landroid/net/Uri;)V
+.method public static synthetic g(Landroid/os/ParcelFileDescriptor;Landroid/net/Uri;)V
     .locals 1
 
     .line 1
@@ -2542,6 +2544,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public finalize()V
@@ -2676,6 +2679,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public finalizeRecording(Landroid/net/Uri;)V
@@ -2861,11 +2866,11 @@
     .line 37
     .line 38
     .line 39
-    new-instance v4, Landroidx/camera/video/h;
+    new-instance v4, Landroidx/camera/video/z;
 
     .line 40
     .line 41
-    invoke-direct {v4, v0, v3}, Landroidx/camera/video/h;-><init>(Landroidx/camera/video/OutputOptions;Landroid/os/ParcelFileDescriptor;)V
+    invoke-direct {v4, v0, v3}, Landroidx/camera/video/z;-><init>(Landroidx/camera/video/OutputOptions;Landroid/os/ParcelFileDescriptor;)V
 
     .line 42
     .line 43
@@ -2969,11 +2974,11 @@
 
     .line 93
     .line 94
-    new-instance p1, Landroidx/camera/video/i;
+    new-instance p1, Landroidx/camera/video/a0;
 
     .line 95
     .line 96
-    invoke-direct {p1, v0}, Landroidx/camera/video/i;-><init>(Landroidx/camera/video/MediaStoreOutputOptions;)V
+    invoke-direct {p1, v0}, Landroidx/camera/video/a0;-><init>(Landroidx/camera/video/MediaStoreOutputOptions;)V
 
     .line 97
     .line 98
@@ -2985,11 +2990,11 @@
 
     .line 101
     :cond_3
-    new-instance v1, Landroidx/camera/video/j;
+    new-instance v1, Landroidx/camera/video/b0;
 
     .line 102
     .line 103
-    invoke-direct {v1, v0, p1}, Landroidx/camera/video/j;-><init>(Landroidx/camera/video/MediaStoreOutputOptions;Landroid/content/Context;)V
+    invoke-direct {v1, v0, p1}, Landroidx/camera/video/b0;-><init>(Landroidx/camera/video/MediaStoreOutputOptions;Landroid/content/Context;)V
 
     .line 104
     .line 105
@@ -3005,11 +3010,11 @@
 
     .line 109
     .line 110
-    new-instance v2, Landroidx/camera/video/k;
+    new-instance v2, Landroidx/camera/video/c0;
 
     .line 111
     .line 112
-    invoke-direct {v2, v3}, Landroidx/camera/video/k;-><init>(Landroid/os/ParcelFileDescriptor;)V
+    invoke-direct {v2, v3}, Landroidx/camera/video/c0;-><init>(Landroid/os/ParcelFileDescriptor;)V
 
     .line 113
     .line 114
@@ -3172,6 +3177,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public isMuted()Z
@@ -3204,6 +3214,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract isPersistent()Z
@@ -3565,6 +3576,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public performOneTimeMediaMuxerCreation(ILandroidx/core/util/Consumer;)Landroid/media/MediaMuxer;
@@ -3922,6 +3936,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public updateVideoRecordEvent(Landroidx/camera/video/VideoRecordEvent;)V
@@ -4140,11 +4157,11 @@
     move-result-object v0
 
     .line 107
-    new-instance v2, Landroidx/camera/video/n;
+    new-instance v2, Landroidx/camera/video/f0;
 
     .line 108
     .line 109
-    invoke-direct {v2, p0, p1}, Landroidx/camera/video/n;-><init>(Landroidx/camera/video/Recorder$RecordingRecord;Landroidx/camera/video/VideoRecordEvent;)V
+    invoke-direct {v2, p0, p1}, Landroidx/camera/video/f0;-><init>(Landroidx/camera/video/Recorder$RecordingRecord;Landroidx/camera/video/VideoRecordEvent;)V
 
     .line 110
     .line 111
@@ -4329,4 +4346,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

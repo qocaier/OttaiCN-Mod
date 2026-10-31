@@ -1,28 +1,14 @@
-.class public final synthetic Landroidx/core/view/a;
+.class public abstract synthetic Landroidx/core/view/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Landroidx/core/view/DifferentialMotionFlingController$FlingVelocityThresholdCalculator;
-
 
 # direct methods
-.method public synthetic constructor <init>()V
+.method public static bridge synthetic a(Ljava/lang/Object;)Landroid/view/ContentInfo;
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    check-cast p0, Landroid/view/ContentInfo;
 
-    return-void
-.end method
-
-
-# virtual methods
-.method public final calculateFlingVelocityThresholds(Landroid/content/Context;[ILandroid/view/MotionEvent;I)V
-    .locals 0
-
-    .line 1
-    invoke-static {p1, p2, p3, p4}, Landroidx/core/view/DifferentialMotionFlingController;->a(Landroid/content/Context;[ILandroid/view/MotionEvent;I)V
-
-    return-void
+    return-object p0
 .end method

@@ -19,10 +19,3 @@
 .annotation runtime Ljava/lang/annotation/Retention;
     value = .enum Ljava/lang/annotation/RetentionPolicy;->CLASS:Ljava/lang/annotation/RetentionPolicy;
 .end annotation
-
-.annotation runtime Lkl/c;
-    value = .enum Lkotlin/annotation/AnnotationRetention;->BINARY:Lkotlin/annotation/AnnotationRetention;
-.end annotation
-
-.annotation build Lkotlin/RequiresOptIn;
-.end annotation

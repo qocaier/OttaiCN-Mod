@@ -384,6 +384,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAesKeyStrength()Lcom/qiyukf/module/zip4j/model/enums/AesKeyStrength;
@@ -412,6 +414,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAesVersion()Lcom/qiyukf/module/zip4j/model/enums/AesVersion;
@@ -440,6 +444,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCompressionLevel()Lcom/qiyukf/module/zip4j/model/enums/CompressionLevel;
@@ -468,6 +474,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCompressionMethod()Lcom/qiyukf/module/zip4j/model/enums/CompressionMethod;
@@ -496,6 +504,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getDefaultFolderPath()Ljava/lang/String;
@@ -524,6 +534,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEncryptionMethod()Lcom/qiyukf/module/zip4j/model/enums/EncryptionMethod;
@@ -552,6 +564,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEntryCRC()J
@@ -580,6 +594,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEntrySize()J
@@ -608,6 +624,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExcludeFileFilter()Lcom/qiyukf/module/zip4j/model/ExcludeFileFilter;
@@ -636,6 +654,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFileComment()Ljava/lang/String;
@@ -664,6 +684,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFileNameInZip()Ljava/lang/String;
@@ -692,6 +714,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLastModifiedFileTime()J
@@ -720,6 +744,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRootFolderNameInZip()Ljava/lang/String;
@@ -748,6 +774,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSymbolicLinkAction()Lcom/qiyukf/module/zip4j/model/ZipParameters$SymbolicLinkAction;
@@ -776,6 +804,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isEncryptFiles()Z
@@ -804,6 +834,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isIncludeRootFolder()Z
@@ -832,6 +864,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isOverrideExistingFilesInZip()Z
@@ -860,6 +894,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isReadHiddenFiles()Z
@@ -888,6 +924,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isReadHiddenFolders()Z
@@ -916,6 +954,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isUnixMode()Z
@@ -944,6 +984,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isWriteExtendedLocalFileHeader()Z
@@ -972,6 +1014,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setCompressionLevel(Lcom/qiyukf/module/zip4j/model/enums/CompressionLevel;)V
@@ -1005,6 +1049,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCompressionMethod(Lcom/qiyukf/module/zip4j/model/enums/CompressionMethod;)V
@@ -1038,6 +1084,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setDefaultFolderPath(Ljava/lang/String;)V
@@ -1071,6 +1119,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEncryptFiles(Z)V
@@ -1104,6 +1154,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEncryptionMethod(Lcom/qiyukf/module/zip4j/model/enums/EncryptionMethod;)V
@@ -1137,6 +1189,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEntryCRC(J)V
@@ -1170,6 +1224,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEntrySize(J)V
@@ -1203,6 +1259,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFileNameInZip(Ljava/lang/String;)V
@@ -1236,6 +1294,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLastModifiedFileTime(J)V
@@ -1278,6 +1338,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setWriteExtendedLocalFileHeader(Z)V
@@ -1311,4 +1373,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

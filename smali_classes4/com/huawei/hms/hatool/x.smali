@@ -170,19 +170,19 @@
     .locals 5
 
     .line 5
-    invoke-static {p1}, Lze/c;->c(Ljava/lang/String;)[B
+    invoke-static {p1}, Lv5/c;->b(Ljava/lang/String;)[B
 
     move-result-object p1
 
-    invoke-static {p2}, Lze/c;->c(Ljava/lang/String;)[B
+    invoke-static {p2}, Lv5/c;->b(Ljava/lang/String;)[B
 
     move-result-object p2
 
-    invoke-static {p3}, Lze/c;->c(Ljava/lang/String;)[B
+    invoke-static {p3}, Lv5/c;->b(Ljava/lang/String;)[B
 
     move-result-object p3
 
-    invoke-static {p4}, Lze/c;->c(Ljava/lang/String;)[B
+    invoke-static {p4}, Lv5/c;->b(Ljava/lang/String;)[B
 
     move-result-object p4
 
@@ -283,7 +283,7 @@
     :cond_0
     const/16 p1, 0x80
 
-    invoke-static {p1}, Lze/b;->e(I)Ljava/lang/String;
+    invoke-static {p1}, Lv5/b;->e(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -535,25 +535,25 @@
 
     const/16 v1, 0x80
 
-    invoke-static {v1}, Lze/b;->e(I)Ljava/lang/String;
+    invoke-static {v1}, Lv5/b;->e(I)Ljava/lang/String;
 
     move-result-object v6
 
     invoke-direct {p0, v5, v6}, Lcom/huawei/hms/hatool/x;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lze/b;->e(I)Ljava/lang/String;
+    invoke-static {v1}, Lv5/b;->e(I)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-direct {p0, v4, v5}, Lcom/huawei/hms/hatool/x;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lze/b;->e(I)Ljava/lang/String;
+    invoke-static {v1}, Lv5/b;->e(I)Ljava/lang/String;
 
     move-result-object v4
 
     invoke-direct {p0, v3, v4}, Lcom/huawei/hms/hatool/x;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lze/b;->e(I)Ljava/lang/String;
+    invoke-static {v1}, Lv5/b;->e(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -597,7 +597,7 @@
 
     move-result-object v0
 
-    invoke-static {v1}, Lze/c;->c(Ljava/lang/String;)[B
+    invoke-static {v1}, Lv5/c;->b(Ljava/lang/String;)[B
 
     move-result-object v1
 
@@ -605,11 +605,11 @@
 
     const/16 v3, 0x10
 
-    invoke-static {v0, v1, v2, v3}, Lue/c;->c([C[BII)[B
+    invoke-static {v0, v1, v2, v3}, Lt5/a;->b([C[BII)[B
 
     move-result-object v0
 
-    invoke-static {v0}, Lze/c;->b([B)Ljava/lang/String;
+    invoke-static {v0}, Lv5/c;->a([B)Ljava/lang/String;
 
     move-result-object v0
 

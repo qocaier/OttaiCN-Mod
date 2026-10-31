@@ -85,6 +85,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static saveProfile(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;)V
@@ -183,11 +184,11 @@
 
     .line 16
     .line 17
-    new-instance p2, Lt1/b;
+    new-instance p2, Landroidx/profileinstaller/b;
 
     .line 18
     .line 19
-    invoke-direct {p2}, Lt1/b;-><init>()V
+    invoke-direct {p2}, Landroidx/profileinstaller/b;-><init>()V
 
     .line 20
     .line 21
@@ -269,11 +270,11 @@
 
     .line 59
     .line 60
-    new-instance p2, Lt1/b;
+    new-instance p2, Landroidx/profileinstaller/b;
 
     .line 61
     .line 62
-    invoke-direct {p2}, Lt1/b;-><init>()V
+    invoke-direct {p2}, Landroidx/profileinstaller/b;-><init>()V
 
     .line 63
     .line 64
@@ -312,11 +313,11 @@
 
     .line 81
     .line 82
-    new-instance p2, Lt1/b;
+    new-instance p2, Landroidx/profileinstaller/b;
 
     .line 83
     .line 84
-    invoke-direct {p2}, Lt1/b;-><init>()V
+    invoke-direct {p2}, Landroidx/profileinstaller/b;-><init>()V
 
     .line 85
     .line 86
@@ -539,4 +540,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

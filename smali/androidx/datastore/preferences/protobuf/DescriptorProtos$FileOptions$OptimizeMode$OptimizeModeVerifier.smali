@@ -52,6 +52,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -80,20 +81,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public isInRange(I)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "number"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p1}, Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$OptimizeMode;->forNumber(I)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$OptimizeMode;

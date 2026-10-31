@@ -52,6 +52,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private constructor <init>()V
@@ -168,6 +170,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static synthetic a(Lcom/qiyukf/ur;Z)V
@@ -205,9 +208,9 @@
 
     .line 3
     :cond_0
-    new-instance v0, Lvg/o1;
+    new-instance v0, Lcom/qiyukf/og0;
 
-    invoke-direct {v0, p0, p1}, Lvg/o1;-><init>(Lcom/qiyukf/ur;Z)V
+    invoke-direct {v0, p0, p1}, Lcom/qiyukf/og0;-><init>(Lcom/qiyukf/ur;Z)V
 
     if-eqz p1, :cond_1
 
@@ -953,6 +956,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -1282,4 +1287,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

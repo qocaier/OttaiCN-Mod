@@ -41,7 +41,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lc/a;->a(Landroid/media/session/MediaController;)Landroid/os/Bundle;
+    invoke-static {p1}, Landroid/support/v4/media/session/a;->a(Landroid/media/session/MediaController;)Landroid/os/Bundle;
 
     move-result-object p1
 
@@ -56,7 +56,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p1, p2, p3}, Lc/d;->a(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;)Landroid/media/session/MediaSession;
+    invoke-static {p1, p2, p3}, Landroid/support/v4/media/session/d;->a(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;)Landroid/media/session/MediaSession;
 
     .line 2
     .line 3
@@ -173,4 +173,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

@@ -68,7 +68,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -99,7 +98,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static release(J)V
@@ -146,7 +144,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static reqLayerData(Landroid/os/Bundle;JI)I
@@ -399,11 +396,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static setMapCallback(JLcom/baidu/platform/comjni/map/basemap/a;)Z
@@ -497,11 +489,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static setMapSDKCallback(JLcom/baidu/mapsdkplatform/comjni/map/basemap/MapSDKLayerDataInterface;)Z
@@ -595,9 +582,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

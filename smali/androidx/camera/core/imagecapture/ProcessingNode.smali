@@ -305,11 +305,11 @@
 
     .line 16
     .line 17
-    new-instance v1, Landroidx/camera/core/imagecapture/i;
+    new-instance v1, Landroidx/camera/core/imagecapture/j;
 
     .line 18
     .line 19
-    invoke-direct {v1, p0, p1}, Landroidx/camera/core/imagecapture/i;-><init>(Landroidx/camera/core/imagecapture/ProcessingNode;Landroidx/camera/core/imagecapture/ProcessingNode$InputPacket;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/core/imagecapture/j;-><init>(Landroidx/camera/core/imagecapture/ProcessingNode;Landroidx/camera/core/imagecapture/ProcessingNode$InputPacket;)V
 
     .line 20
     .line 21
@@ -707,11 +707,11 @@
     move-result-object v0
 
     .line 5
-    new-instance v1, Landroidx/camera/core/imagecapture/f;
+    new-instance v1, Landroidx/camera/core/imagecapture/g;
 
     .line 6
     .line 7
-    invoke-direct {v1, p0, p1}, Landroidx/camera/core/imagecapture/f;-><init>(Landroidx/camera/core/imagecapture/ProcessingRequest;Landroidx/camera/core/ImageCaptureException;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/core/imagecapture/g;-><init>(Landroidx/camera/core/imagecapture/ProcessingRequest;Landroidx/camera/core/ImageCaptureException;)V
 
     .line 8
     .line 9
@@ -1153,6 +1153,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public processInputPacket(Landroidx/camera/core/imagecapture/ProcessingNode$InputPacket;)V
@@ -1213,11 +1218,11 @@
     move-result-object v2
 
     .line 24
-    new-instance v3, Landroidx/camera/core/imagecapture/g;
+    new-instance v3, Landroidx/camera/core/imagecapture/h;
 
     .line 25
     .line 26
-    invoke-direct {v3, v0, p1}, Landroidx/camera/core/imagecapture/g;-><init>(Landroidx/camera/core/imagecapture/ProcessingRequest;Landroidx/camera/core/ImageProxy;)V
+    invoke-direct {v3, v0, p1}, Landroidx/camera/core/imagecapture/h;-><init>(Landroidx/camera/core/imagecapture/ProcessingRequest;Landroidx/camera/core/ImageProxy;)V
 
     .line 27
     .line 28
@@ -1268,11 +1273,11 @@
     move-result-object v2
 
     .line 47
-    new-instance v3, Landroidx/camera/core/imagecapture/h;
+    new-instance v3, Landroidx/camera/core/imagecapture/i;
 
     .line 48
     .line 49
-    invoke-direct {v3, v0, p1}, Landroidx/camera/core/imagecapture/h;-><init>(Landroidx/camera/core/imagecapture/ProcessingRequest;Landroidx/camera/core/ImageCapture$OutputFileResults;)V
+    invoke-direct {v3, v0, p1}, Landroidx/camera/core/imagecapture/i;-><init>(Landroidx/camera/core/imagecapture/ProcessingRequest;Landroidx/camera/core/ImageCapture$OutputFileResults;)V
 
     .line 50
     .line 51
@@ -1498,6 +1503,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public processOnDiskCapture(Landroidx/camera/core/imagecapture/ProcessingNode$InputPacket;)Landroidx/camera/core/ImageCapture$OutputFileResults;
@@ -1863,6 +1873,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public release()V
@@ -1907,9 +1922,9 @@
 
     move-result-object v0
 
-    new-instance v1, Landroidx/camera/core/imagecapture/e;
+    new-instance v1, Landroidx/camera/core/imagecapture/f;
 
-    invoke-direct {v1, p0}, Landroidx/camera/core/imagecapture/e;-><init>(Landroidx/camera/core/imagecapture/ProcessingNode;)V
+    invoke-direct {v1, p0}, Landroidx/camera/core/imagecapture/f;-><init>(Landroidx/camera/core/imagecapture/ProcessingNode;)V
 
     invoke-virtual {v0, v1}, Landroidx/camera/core/processing/Edge;->setListener(Landroidx/core/util/Consumer;)V
 

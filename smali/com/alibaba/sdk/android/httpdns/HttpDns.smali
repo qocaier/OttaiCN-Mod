@@ -7,6 +7,8 @@
 
 
 # static fields
+.field public static final synthetic a:I
+
 .field private static degradationFilter:Lcom/alibaba/sdk/android/httpdns/DegradationFilter;
 
 .field private static hostManager:Lcom/alibaba/sdk/android/httpdns/d;

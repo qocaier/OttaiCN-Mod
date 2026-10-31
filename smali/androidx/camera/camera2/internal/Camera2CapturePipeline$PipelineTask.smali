@@ -21,7 +21,7 @@
 .method public abstract postCapture()V
 .end method
 
-.method public abstract preCapture(Landroid/hardware/camera2/TotalCaptureResult;)Lub/u0;
+.method public abstract preCapture(Landroid/hardware/camera2/TotalCaptureResult;)Lcom/google/common/util/concurrent/t;
     .param p1    # Landroid/hardware/camera2/TotalCaptureResult;
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
@@ -34,9 +34,7 @@
             "(",
             "Landroid/hardware/camera2/TotalCaptureResult;",
             ")",
-            "Lub/u0<",
-            "Ljava/lang/Boolean;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method

@@ -19,7 +19,7 @@
     if-lt v0, v1, :cond_0
 
     .line 7
-    invoke-static {}, Lc3/a;->a()Ljava/lang/String;
+    invoke-static {}, Lcom/alibaba/sdk/android/utils/crashdefend/h;->a()Ljava/lang/String;
 
     move-result-object v0
 

@@ -58,7 +58,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic a(Lcom/baidu/mshield/x0/j/a;Lcom/baidu/mshield/x0/j/a$b;)I

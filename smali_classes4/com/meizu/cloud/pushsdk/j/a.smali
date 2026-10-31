@@ -38,7 +38,7 @@
 
     if-lt p1, v0, :cond_0
 
-    invoke-static {p0}, Li3/b;->a(Landroid/content/pm/PackageInfo;)J
+    invoke-static {p0}, Le6/a;->a(Landroid/content/pm/PackageInfo;)J
 
     move-result-wide p0
 

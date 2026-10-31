@@ -19,9 +19,6 @@
 
 # static fields
 .field public static final Companion:Landroidx/datastore/preferences/PreferencesMapCompat$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -32,7 +29,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/PreferencesMapCompat$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/PreferencesMapCompat$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/datastore/preferences/PreferencesMapCompat;->Companion:Landroidx/datastore/preferences/PreferencesMapCompat$Companion;
 
@@ -65,4 +62,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

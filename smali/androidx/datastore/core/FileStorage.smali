@@ -27,9 +27,6 @@
 
 # static fields
 .field public static final Companion:Landroidx/datastore/core/FileStorage$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final activeFiles:Ljava/util/Set;
     .annotation build Landroidx/annotation/GuardedBy;
@@ -43,42 +40,25 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private static final activeFilesLock:Ljava/lang/Object;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
-.field private final coordinatorProducer:Ljm/l;
+.field private final coordinatorProducer:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Ljava/io/File;",
-            "Landroidx/datastore/core/InterProcessCoordinator;",
-            ">;"
+            "Lq8/l;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
-.field private final produceFile:Ljm/a;
+.field private final produceFile:Lq8/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/a<",
-            "Ljava/io/File;",
-            ">;"
+            "Lq8/a;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -88,9 +68,6 @@
             "Landroidx/datastore/core/Serializer<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -107,7 +84,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/datastore/core/FileStorage$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/datastore/core/FileStorage$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -204,51 +181,34 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method public constructor <init>(Landroidx/datastore/core/Serializer;Ljm/l;Ljm/a;)V
+.method public constructor <init>(Landroidx/datastore/core/Serializer;Lq8/l;Lq8/a;)V
     .locals 1
-    .param p1    # Landroidx/datastore/core/Serializer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/datastore/core/Serializer<",
             "TT;>;",
-            "Ljm/l<",
-            "-",
-            "Ljava/io/File;",
-            "+",
-            "Landroidx/datastore/core/InterProcessCoordinator;",
-            ">;",
-            "Ljm/a<",
-            "+",
-            "Ljava/io/File;",
-            ">;)V"
+            "Lq8/l;",
+            "Lq8/a;",
+            ")V"
         }
     .end annotation
 
     const-string v0, "serializer"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "coordinatorProducer"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "produceFile"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -257,15 +217,15 @@
     iput-object p1, p0, Landroidx/datastore/core/FileStorage;->serializer:Landroidx/datastore/core/Serializer;
 
     .line 3
-    iput-object p2, p0, Landroidx/datastore/core/FileStorage;->coordinatorProducer:Ljm/l;
+    iput-object p2, p0, Landroidx/datastore/core/FileStorage;->coordinatorProducer:Lq8/l;
 
     .line 4
-    iput-object p3, p0, Landroidx/datastore/core/FileStorage;->produceFile:Ljm/a;
+    iput-object p3, p0, Landroidx/datastore/core/FileStorage;->produceFile:Lq8/a;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroidx/datastore/core/Serializer;Ljm/l;Ljm/a;ILkm/v;)V
+.method public synthetic constructor <init>(Landroidx/datastore/core/Serializer;Lq8/l;Lq8/a;ILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p4, p4, 0x2
@@ -277,7 +237,7 @@
 
     .line 6
     :cond_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/core/FileStorage;-><init>(Landroidx/datastore/core/Serializer;Ljm/l;Ljm/a;)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/core/FileStorage;-><init>(Landroidx/datastore/core/Serializer;Lq8/l;Lq8/a;)V
 
     return-void
 .end method
@@ -308,6 +268,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getActiveFilesLock$cp()Ljava/lang/Object;
@@ -336,6 +297,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -350,15 +312,12 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/FileStorage;->produceFile:Ljm/a;
+    iget-object v0, p0, Landroidx/datastore/core/FileStorage;->produceFile:Lq8/a;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -414,7 +373,7 @@
 
     .line 29
     .line 30
-    invoke-static {v2, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -437,7 +396,7 @@
 
     .line 40
     .line 41
-    invoke-static {v0, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -446,11 +405,11 @@
 
     .line 45
     .line 46
-    iget-object v3, p0, Landroidx/datastore/core/FileStorage;->coordinatorProducer:Ljm/l;
+    iget-object v3, p0, Landroidx/datastore/core/FileStorage;->coordinatorProducer:Lq8/l;
 
     .line 47
     .line 48
-    invoke-interface {v3, v0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v3, v0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 49
     .line 50
@@ -471,7 +430,7 @@
     .line 57
     .line 58
     .line 59
-    invoke-direct {v1, v0, v2, v3, v4}, Landroidx/datastore/core/FileStorageConnection;-><init>(Ljava/io/File;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/InterProcessCoordinator;Ljm/a;)V
+    invoke-direct {v1, v0, v2, v3, v4}, Landroidx/datastore/core/FileStorageConnection;-><init>(Ljava/io/File;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/InterProcessCoordinator;Lq8/a;)V
 
     .line 60
     .line 61
@@ -835,4 +794,56 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method

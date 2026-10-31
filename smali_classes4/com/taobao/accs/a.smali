@@ -44,6 +44,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -52,240 +54,240 @@
     .locals 6
 
     .line 1
-    const-string v0, "\u6b63\u5728\u8fd0\u884c\u2026"
+    const-string/jumbo v0, "\u6b63\u5728\u8fd0\u884c\u2026"
 
     .line 2
     .line 3
+    .line 4
     const/4 v1, 0x0
 
-    .line 4
+    .line 5
     :try_start_0
     invoke-static {}, Lcom/taobao/accs/ChannelService;->getInstance()Lcom/taobao/accs/ChannelService;
 
-    .line 5
     .line 6
     .line 7
-    move-result-object v2
-
     .line 8
-    iget-object v3, p0, Lcom/taobao/accs/a;->a:Lcom/taobao/accs/ChannelService$KernelService;
+    move-result-object v2
 
     .line 9
+    iget-object v3, p0, Lcom/taobao/accs/a;->a:Lcom/taobao/accs/ChannelService$KernelService;
+
     .line 10
+    .line 11
     invoke-static {v3}, Lcom/taobao/accs/ChannelService$KernelService;->a(Lcom/taobao/accs/ChannelService$KernelService;)Landroid/content/Context;
 
-    .line 11
     .line 12
     .line 13
-    move-result-object v3
-
     .line 14
-    invoke-virtual {v3}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+    move-result-object v3
 
     .line 15
+    invoke-virtual {v3}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+
     .line 16
     .line 17
-    move-result-object v3
-
     .line 18
-    iget-object v4, p0, Lcom/taobao/accs/a;->a:Lcom/taobao/accs/ChannelService$KernelService;
+    move-result-object v3
 
     .line 19
-    .line 20
-    invoke-virtual {v4}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    .line 21
-    .line 22
-    .line 23
-    move-result-object v4
-
-    .line 24
-    invoke-virtual {v3, v4, v1}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
-
-    .line 25
-    .line 26
-    .line 27
-    move-result-object v3
-
-    .line 28
-    iget-object v3, v3, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
-
-    .line 29
-    .line 30
-    iget v3, v3, Landroid/content/pm/ApplicationInfo;->icon:I
-
-    .line 31
-    .line 32
-    if-eqz v3, :cond_0
-
-    .line 33
-    .line 34
-    new-instance v4, Landroid/app/Notification$Builder;
-
-    .line 35
-    .line 36
-    iget-object v5, p0, Lcom/taobao/accs/a;->a:Lcom/taobao/accs/ChannelService$KernelService;
-
-    .line 37
-    .line 38
-    invoke-static {v5}, Lcom/taobao/accs/ChannelService$KernelService;->a(Lcom/taobao/accs/ChannelService$KernelService;)Landroid/content/Context;
-
-    .line 39
-    .line 40
-    .line 41
-    move-result-object v5
-
-    .line 42
-    invoke-direct {v4, v5}, Landroid/app/Notification$Builder;-><init>(Landroid/content/Context;)V
-
-    .line 43
-    .line 44
-    .line 45
-    invoke-virtual {v4, v3}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
-
-    .line 46
-    .line 47
-    .line 48
-    invoke-virtual {v4, v0}, Landroid/app/Notification$Builder;->setContentText(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
-
-    .line 49
-    .line 50
-    .line 51
-    invoke-virtual {v4}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
-
-    .line 52
-    .line 53
-    .line 54
-    move-result-object v4
-
-    .line 55
-    const/16 v5, 0x249b
-
-    .line 56
-    .line 57
-    invoke-virtual {v2, v5, v4}, Landroid/app/Service;->startForeground(ILandroid/app/Notification;)V
-
-    .line 58
-    .line 59
-    .line 60
-    new-instance v2, Landroid/app/Notification$Builder;
-
-    .line 61
-    .line 62
     iget-object v4, p0, Lcom/taobao/accs/a;->a:Lcom/taobao/accs/ChannelService$KernelService;
 
-    .line 63
-    .line 64
-    invoke-static {v4}, Lcom/taobao/accs/ChannelService$KernelService;->a(Lcom/taobao/accs/ChannelService$KernelService;)Landroid/content/Context;
+    .line 20
+    .line 21
+    invoke-virtual {v4}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
-    .line 65
-    .line 66
-    .line 67
+    .line 22
+    .line 23
+    .line 24
     move-result-object v4
 
+    .line 25
+    invoke-virtual {v3, v4, v1}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-object v3
+
+    .line 29
+    iget-object v3, v3, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
+
+    .line 30
+    .line 31
+    iget v3, v3, Landroid/content/pm/ApplicationInfo;->icon:I
+
+    .line 32
+    .line 33
+    if-eqz v3, :cond_0
+
+    .line 34
+    .line 35
+    new-instance v4, Landroid/app/Notification$Builder;
+
+    .line 36
+    .line 37
+    iget-object v5, p0, Lcom/taobao/accs/a;->a:Lcom/taobao/accs/ChannelService$KernelService;
+
+    .line 38
+    .line 39
+    invoke-static {v5}, Lcom/taobao/accs/ChannelService$KernelService;->a(Lcom/taobao/accs/ChannelService$KernelService;)Landroid/content/Context;
+
+    .line 40
+    .line 41
+    .line 42
+    move-result-object v5
+
+    .line 43
+    invoke-direct {v4, v5}, Landroid/app/Notification$Builder;-><init>(Landroid/content/Context;)V
+
+    .line 44
+    .line 45
+    .line 46
+    invoke-virtual {v4, v3}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
+
+    .line 47
+    .line 48
+    .line 49
+    invoke-virtual {v4, v0}, Landroid/app/Notification$Builder;->setContentText(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
+
+    .line 50
+    .line 51
+    .line 52
+    invoke-virtual {v4}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
+
+    .line 53
+    .line 54
+    .line 55
+    move-result-object v4
+
+    .line 56
+    const/16 v5, 0x249b
+
+    .line 57
+    .line 58
+    invoke-virtual {v2, v5, v4}, Landroid/app/Service;->startForeground(ILandroid/app/Notification;)V
+
+    .line 59
+    .line 60
+    .line 61
+    new-instance v2, Landroid/app/Notification$Builder;
+
+    .line 62
+    .line 63
+    iget-object v4, p0, Lcom/taobao/accs/a;->a:Lcom/taobao/accs/ChannelService$KernelService;
+
+    .line 64
+    .line 65
+    invoke-static {v4}, Lcom/taobao/accs/ChannelService$KernelService;->a(Lcom/taobao/accs/ChannelService$KernelService;)Landroid/content/Context;
+
+    .line 66
+    .line 67
     .line 68
-    invoke-direct {v2, v4}, Landroid/app/Notification$Builder;-><init>(Landroid/content/Context;)V
+    move-result-object v4
 
     .line 69
+    invoke-direct {v2, v4}, Landroid/app/Notification$Builder;-><init>(Landroid/content/Context;)V
+
     .line 70
     .line 71
+    .line 72
     invoke-virtual {v2, v3}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
 
-    .line 72
     .line 73
     .line 74
+    .line 75
     invoke-virtual {v2, v0}, Landroid/app/Notification$Builder;->setContentText(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
 
-    .line 75
     .line 76
     .line 77
+    .line 78
     invoke-static {}, Lcom/taobao/accs/ChannelService$KernelService;->a()Lcom/taobao/accs/ChannelService$KernelService;
 
-    .line 78
     .line 79
     .line 80
-    move-result-object v0
-
     .line 81
-    invoke-virtual {v2}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
+    move-result-object v0
 
     .line 82
+    invoke-virtual {v2}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
+
     .line 83
     .line 84
+    .line 85
     move-result-object v2
 
-    .line 85
+    .line 86
     invoke-virtual {v0, v5, v2}, Landroid/app/Service;->startForeground(ILandroid/app/Notification;)V
 
-    .line 86
     .line 87
     .line 88
+    .line 89
     invoke-static {}, Lcom/taobao/accs/ChannelService$KernelService;->a()Lcom/taobao/accs/ChannelService$KernelService;
 
-    .line 89
     .line 90
     .line 91
+    .line 92
     move-result-object v0
 
-    .line 92
+    .line 93
     const/4 v2, 0x1
 
-    .line 93
+    .line 94
     invoke-virtual {v0, v2}, Landroid/app/Service;->stopForeground(Z)V
 
-    .line 94
     .line 95
     .line 96
+    .line 97
     goto :goto_0
 
-    .line 97
+    .line 98
     :catchall_0
     move-exception v0
 
-    .line 98
+    .line 99
     goto :goto_1
 
-    .line 99
+    .line 100
     :cond_0
     :goto_0
     invoke-static {}, Lcom/taobao/accs/ChannelService$KernelService;->a()Lcom/taobao/accs/ChannelService$KernelService;
 
-    .line 100
     .line 101
     .line 102
+    .line 103
     move-result-object v0
 
-    .line 103
+    .line 104
     invoke-virtual {v0}, Landroid/app/Service;->stopSelf()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 104
     .line 105
     .line 106
+    .line 107
     return-void
 
-    .line 107
+    .line 108
     :goto_1
     const-string v2, " onStartCommand run"
 
-    .line 108
     .line 109
+    .line 110
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 110
     .line 111
+    .line 112
     const-string v3, "ChannelService"
 
-    .line 112
     .line 113
+    .line 114
     invoke-static {v3, v2, v0, v1}, Lcom/taobao/accs/utl/ALog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
 
-    .line 114
     .line 115
     .line 116
-    return-void
     .line 117
+    return-void
     .line 118
     .line 119
     .line 120
@@ -450,66 +452,4 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method

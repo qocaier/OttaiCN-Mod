@@ -198,6 +198,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static A()Z
@@ -239,6 +240,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static B()Z
@@ -280,6 +283,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static C()Z
@@ -312,6 +317,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static D()Z
@@ -344,6 +351,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static E()Z
@@ -376,6 +385,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static F()Lcom/qiyukf/nimlib/sdk/SDKOptions;
@@ -415,6 +426,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic a()Lcom/qiyukf/nimlib/b;
@@ -2314,9 +2327,9 @@
     if-nez p0, :cond_0
 
     .line 4
-    new-instance p0, Lbh/a;
+    new-instance p0, Lcom/qiyukf/nimlib/d;
 
-    invoke-direct {p0}, Lbh/a;-><init>()V
+    invoke-direct {p0}, Lcom/qiyukf/nimlib/d;-><init>()V
 
     sput-object p0, Lcom/qiyukf/nimlib/b;->C:Lcom/qiyukf/nimlib/network/a$c;
 
@@ -2475,6 +2488,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static g()Lcom/qiyukf/nimlib/sdk/auth/LoginInfo;
@@ -2512,6 +2527,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static h()Ljava/lang/String;
@@ -2549,6 +2566,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static i()Landroid/content/Context;
@@ -2677,6 +2696,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static j()Ljava/lang/String;
@@ -2709,6 +2729,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static k()Lcom/qiyukf/nimlib/sdk/misc/model/NosConfig;
@@ -2741,6 +2763,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static l()Ljava/lang/String;
@@ -2773,6 +2797,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static m()Lcom/qiyukf/nimlib/sdk/SDKOptions;
@@ -2818,6 +2844,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static n()Ljava/lang/String;
@@ -2850,6 +2878,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static o()Lcom/qiyukf/nimlib/c;
@@ -2880,6 +2910,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static p()Ljava/lang/String;
@@ -3003,6 +3035,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static q()Lcom/qiyukf/nimlib/sdk/NimStrings;
@@ -3046,6 +3079,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static r()Ljava/lang/Integer;
@@ -3078,6 +3113,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static s()Lcom/qiyukf/nimlib/sdk/uinfo/UserInfoProvider;
@@ -3110,6 +3147,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static t()Z
@@ -3147,6 +3186,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static u()V
@@ -3679,68 +3720,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method private static v()Lcom/qiyukf/nimlib/b;
@@ -3780,6 +3759,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static w()Z
@@ -3823,6 +3804,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static x()Z
@@ -3851,6 +3834,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static y()Z
@@ -3888,6 +3873,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static z()Z
@@ -3920,4 +3907,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

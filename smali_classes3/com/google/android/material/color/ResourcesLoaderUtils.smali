@@ -38,7 +38,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static addResourcesLoaderToContext(Landroid/content/Context;Ljava/util/Map;)Z
@@ -89,7 +88,7 @@
 
     .line 16
     .line 17
-    invoke-static {p0, v2}, Lqa/i;->a(Landroid/content/res/Resources;[Landroid/content/res/loader/ResourcesLoader;)V
+    invoke-static {p0, v2}, Lcom/google/android/material/color/i;->a(Landroid/content/res/Resources;[Landroid/content/res/loader/ResourcesLoader;)V
 
     .line 18
     .line 19
@@ -138,11 +137,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static isColorResource(I)Z

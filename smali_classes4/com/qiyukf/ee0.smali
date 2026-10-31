@@ -3,46 +3,30 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/qiyukf/unicorn/widget/dialog/UnicornDialog$OnClickListener;
-
-
-# instance fields
-.field public final synthetic a:Lcom/qiyukf/v10$g;
-
-.field public final synthetic b:Lcom/qiyukf/y10;
-
-.field public final synthetic c:Lcom/qiyukf/unicorn/video/VideoSignProtocolDialog;
+.implements Lcom/qiyukf/p4$a;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/qiyukf/v10$g;Lcom/qiyukf/y10;Lcom/qiyukf/unicorn/video/VideoSignProtocolDialog;)V
+.method public synthetic constructor <init>()V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/qiyukf/ee0;->a:Lcom/qiyukf/v10$g;
-
-    iput-object p2, p0, Lcom/qiyukf/ee0;->b:Lcom/qiyukf/y10;
-
-    iput-object p3, p0, Lcom/qiyukf/ee0;->c:Lcom/qiyukf/unicorn/video/VideoSignProtocolDialog;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onClick(I)V
-    .locals 3
+.method public final a(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
 
     .line 1
-    iget-object v0, p0, Lcom/qiyukf/ee0;->a:Lcom/qiyukf/v10$g;
+    check-cast p1, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
-    iget-object v1, p0, Lcom/qiyukf/ee0;->b:Lcom/qiyukf/y10;
+    invoke-static {p1}, Lcom/qiyukf/ep;->g(Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;)Ljava/lang/String;
 
-    iget-object v2, p0, Lcom/qiyukf/ee0;->c:Lcom/qiyukf/unicorn/video/VideoSignProtocolDialog;
+    move-result-object p1
 
-    invoke-static {v0, v1, v2, p1}, Lcom/qiyukf/v10$g;->d(Lcom/qiyukf/v10$g;Lcom/qiyukf/y10;Lcom/qiyukf/unicorn/video/VideoSignProtocolDialog;I)V
-
-    return-void
+    return-object p1
 .end method

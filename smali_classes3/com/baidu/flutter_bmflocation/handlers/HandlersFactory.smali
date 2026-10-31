@@ -816,6 +816,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public static getInstance(Landroid/content/Context;)Lcom/baidu/flutter_bmflocation/handlers/HandlersFactory;
@@ -1001,8 +1060,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -2523,48 +2580,4 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method

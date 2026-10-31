@@ -42,7 +42,7 @@
 
     iget-object v2, p0, Lcom/tekartik/sqflite/l;->c:Lcom/tekartik/sqflite/Database;
 
-    invoke-static {v0, v1, v2}, Lcom/tekartik/sqflite/SqflitePlugin;->e(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;Lcom/tekartik/sqflite/Database;)V
+    invoke-static {v0, v1, v2}, Lcom/tekartik/sqflite/SqflitePlugin;->a(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;Lcom/tekartik/sqflite/Database;)V
 
     return-void
 .end method

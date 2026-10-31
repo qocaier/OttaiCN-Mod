@@ -54,18 +54,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public a()I
     .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$c;->b()S
@@ -102,16 +96,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public b()S
     .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$c;->a:Ljava/io/InputStream;
@@ -155,16 +143,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public read([BI)I
     .locals 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -266,20 +248,10 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public skip(J)J
     .locals 7
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     const-wide/16 v0, 0x0
@@ -426,6 +398,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

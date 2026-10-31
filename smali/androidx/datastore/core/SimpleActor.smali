@@ -13,100 +13,40 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSimpleActor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SimpleActor.kt\nandroidx/datastore/core/SimpleActor\n+ 2 Channel.kt\nkotlinx/coroutines/channels/ChannelKt\n*L\n1#1,127:1\n548#2,5:128\n*S KotlinDebug\n*F\n+ 1 SimpleActor.kt\nandroidx/datastore/core/SimpleActor\n*L\n104#1:128,5\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSimpleActor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SimpleActor.kt\nandroidx/datastore/core/SimpleActor\n+ 2 Channel.kt\nkotlinx/coroutines/channels/ChannelKt\n*L\n1#1,127:1\n548#2,5:128\n*S KotlinDebug\n*F\n+ 1 SimpleActor.kt\nandroidx/datastore/core/SimpleActor\n*L\n104#1:128,5\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
-.field private final consumeMessage:Ljm/p;
+.field private final consumeMessage:Lq8/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/p<",
-            "TT;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;",
-            "Ljava/lang/Object;",
-            ">;"
+            "Lq8/p;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
-.field private final messageQueue:Lkotlinx/coroutines/channels/e;
+.field private final messageQueue:Lkotlinx/coroutines/channels/g;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlinx/coroutines/channels/e<",
-            "TT;>;"
+            "Lkotlinx/coroutines/channels/g;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
 .field private final remainingMessages:Landroidx/datastore/core/AtomicInt;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field private final scope:Lfn/i0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final scope:Lkotlinx/coroutines/l0;
 
 
 # direct methods
-.method public constructor <init>(Lfn/i0;Ljm/l;Ljm/p;Ljm/p;)V
+.method public constructor <init>(Lkotlinx/coroutines/l0;Lq8/l;Lq8/p;Lq8/p;)V
     .locals 2
-    .param p1    # Lfn/i0;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lfn/i0;",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Throwable;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/p<",
-            "-TT;-",
-            "Ljava/lang/Throwable;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/p<",
-            "-TT;-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;)V"
+            "Lkotlinx/coroutines/l0;",
+            "Lq8/l;",
+            "Lq8/p;",
+            "Lq8/p;",
+            ")V"
         }
     .end annotation
 
@@ -115,7 +55,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -124,7 +64,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -133,7 +73,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -142,7 +82,7 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -152,11 +92,11 @@
     .line 22
     .line 23
     .line 24
-    iput-object p1, p0, Landroidx/datastore/core/SimpleActor;->scope:Lfn/i0;
+    iput-object p1, p0, Landroidx/datastore/core/SimpleActor;->scope:Lkotlinx/coroutines/l0;
 
     .line 25
     .line 26
-    iput-object p4, p0, Landroidx/datastore/core/SimpleActor;->consumeMessage:Ljm/p;
+    iput-object p4, p0, Landroidx/datastore/core/SimpleActor;->consumeMessage:Lq8/p;
 
     .line 27
     .line 28
@@ -171,7 +111,7 @@
     .line 31
     .line 32
     .line 33
-    invoke-static {v1, p4, p4, v0, p4}, Lkotlinx/coroutines/channels/f;->d(ILkotlinx/coroutines/channels/BufferOverflow;Ljm/l;ILjava/lang/Object;)Lkotlinx/coroutines/channels/e;
+    invoke-static {v1, p4, p4, v0, p4}, Lkotlinx/coroutines/channels/i;->b(ILkotlinx/coroutines/channels/BufferOverflow;Lq8/l;ILjava/lang/Object;)Lkotlinx/coroutines/channels/g;
 
     .line 34
     .line 35
@@ -179,7 +119,7 @@
     move-result-object p4
 
     .line 37
-    iput-object p4, p0, Landroidx/datastore/core/SimpleActor;->messageQueue:Lkotlinx/coroutines/channels/e;
+    iput-object p4, p0, Landroidx/datastore/core/SimpleActor;->messageQueue:Lkotlinx/coroutines/channels/g;
 
     .line 38
     .line 39
@@ -199,7 +139,7 @@
 
     .line 46
     .line 47
-    invoke-interface {p1}, Lfn/i0;->getCoroutineContext()Lkotlin/coroutines/d;
+    invoke-interface {p1}, Lkotlinx/coroutines/l0;->getCoroutineContext()Lkotlin/coroutines/i;
 
     .line 48
     .line 49
@@ -207,11 +147,11 @@
     move-result-object p1
 
     .line 51
-    sget-object p4, Lkotlinx/coroutines/l;->n0:Lkotlinx/coroutines/l$b;
+    sget-object p4, Lkotlinx/coroutines/s1;->f0:Lkotlinx/coroutines/s1$b;
 
     .line 52
     .line 53
-    invoke-interface {p1, p4}, Lkotlin/coroutines/d;->get(Lkotlin/coroutines/d$c;)Lkotlin/coroutines/d$b;
+    invoke-interface {p1, p4}, Lkotlin/coroutines/i;->get(Lkotlin/coroutines/i$c;)Lkotlin/coroutines/i$b;
 
     .line 54
     .line 55
@@ -219,7 +159,7 @@
     move-result-object p1
 
     .line 57
-    check-cast p1, Lkotlinx/coroutines/l;
+    check-cast p1, Lkotlinx/coroutines/s1;
 
     .line 58
     .line 59
@@ -231,12 +171,12 @@
 
     .line 62
     .line 63
-    invoke-direct {p4, p2, p0, p3}, Landroidx/datastore/core/SimpleActor$1;-><init>(Ljm/l;Landroidx/datastore/core/SimpleActor;Ljm/p;)V
+    invoke-direct {p4, p2, p0, p3}, Landroidx/datastore/core/SimpleActor$1;-><init>(Lq8/l;Landroidx/datastore/core/SimpleActor;Lq8/p;)V
 
     .line 64
     .line 65
     .line 66
-    invoke-interface {p1, p4}, Lkotlinx/coroutines/l;->F(Ljm/l;)Lfn/w0;
+    invoke-interface {p1, p4}, Lkotlinx/coroutines/s1;->G(Lq8/l;)Lkotlinx/coroutines/x0;
 
     .line 67
     .line 68
@@ -404,13 +344,19 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static final synthetic access$getConsumeMessage$p(Landroidx/datastore/core/SimpleActor;)Ljm/p;
+.method public static final synthetic access$getConsumeMessage$p(Landroidx/datastore/core/SimpleActor;)Lq8/p;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;->consumeMessage:Ljm/p;
+    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;->consumeMessage:Lq8/p;
 
     .line 2
     .line 3
@@ -439,11 +385,11 @@
     .line 25
 .end method
 
-.method public static final synthetic access$getMessageQueue$p(Landroidx/datastore/core/SimpleActor;)Lkotlinx/coroutines/channels/e;
+.method public static final synthetic access$getMessageQueue$p(Landroidx/datastore/core/SimpleActor;)Lkotlinx/coroutines/channels/g;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;->messageQueue:Lkotlinx/coroutines/channels/e;
+    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;->messageQueue:Lkotlinx/coroutines/channels/g;
 
     .line 2
     .line 3
@@ -505,11 +451,11 @@
     .line 25
 .end method
 
-.method public static final synthetic access$getScope$p(Landroidx/datastore/core/SimpleActor;)Lfn/i0;
+.method public static final synthetic access$getScope$p(Landroidx/datastore/core/SimpleActor;)Lkotlinx/coroutines/l0;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;->scope:Lfn/i0;
+    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;->scope:Lkotlinx/coroutines/l0;
 
     .line 2
     .line 3
@@ -549,11 +495,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/SimpleActor;->messageQueue:Lkotlinx/coroutines/channels/e;
+    iget-object v0, p0, Landroidx/datastore/core/SimpleActor;->messageQueue:Lkotlinx/coroutines/channels/g;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lkotlinx/coroutines/channels/k;->H(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lkotlinx/coroutines/channels/s;->z(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -561,7 +507,7 @@
     move-result-object p1
 
     .line 7
-    instance-of v0, p1, Lkotlinx/coroutines/channels/g$a;
+    instance-of v0, p1, Lkotlinx/coroutines/channels/j$a;
 
     .line 8
     .line 9
@@ -569,7 +515,7 @@
 
     .line 10
     .line 11
-    invoke-static {p1}, Lkotlinx/coroutines/channels/g;->f(Ljava/lang/Object;)Ljava/lang/Throwable;
+    invoke-static {p1}, Lkotlinx/coroutines/channels/j;->e(Ljava/lang/Object;)Ljava/lang/Throwable;
 
     .line 12
     .line 13
@@ -599,7 +545,7 @@
 
     .line 25
     :cond_1
-    invoke-static {p1}, Lkotlinx/coroutines/channels/g;->m(Ljava/lang/Object;)Z
+    invoke-static {p1}, Lkotlinx/coroutines/channels/j;->i(Ljava/lang/Object;)Z
 
     .line 26
     .line 27
@@ -627,7 +573,7 @@
 
     .line 38
     .line 39
-    iget-object v0, p0, Landroidx/datastore/core/SimpleActor;->scope:Lfn/i0;
+    iget-object v0, p0, Landroidx/datastore/core/SimpleActor;->scope:Lkotlinx/coroutines/l0;
 
     .line 40
     .line 41
@@ -638,7 +584,7 @@
     const/4 p1, 0x0
 
     .line 44
-    invoke-direct {v3, p0, p1}, Landroidx/datastore/core/SimpleActor$offer$2;-><init>(Landroidx/datastore/core/SimpleActor;Lul/c;)V
+    invoke-direct {v3, p0, p1}, Landroidx/datastore/core/SimpleActor$offer$2;-><init>(Landroidx/datastore/core/SimpleActor;Lkotlin/coroutines/e;)V
 
     .line 45
     .line 46
@@ -655,7 +601,7 @@
     const/4 v2, 0x0
 
     .line 51
-    invoke-static/range {v0 .. v5}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v0 .. v5}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 52
     .line 53
@@ -695,4 +641,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

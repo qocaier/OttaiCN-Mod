@@ -12,18 +12,9 @@
         "<E:",
         "Ljava/lang/Object;",
         "T:TE;>",
-        "Lcom/google/common/base/Equivalence<",
-        "Ljava/lang/Iterable<",
-        "TT;>;>;",
+        "Lcom/google/common/base/Equivalence;",
         "Ljava/io/Serializable;"
     }
-.end annotation
-
-.annotation build Lfb/b;
-    serializable = true
-.end annotation
-
-.annotation runtime Lgb/g;
 .end annotation
 
 
@@ -35,8 +26,7 @@
 .field final elementEquivalence:Lcom/google/common/base/Equivalence;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/google/common/base/Equivalence<",
-            "TE;>;"
+            "Lcom/google/common/base/Equivalence;"
         }
     .end annotation
 .end field
@@ -45,20 +35,11 @@
 # direct methods
 .method public constructor <init>(Lcom/google/common/base/Equivalence;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "elementEquivalence"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/google/common/base/Equivalence<",
-            "TE;>;)V"
+            "Lcom/google/common/base/Equivalence;",
+            ")V"
         }
     .end annotation
 
@@ -68,7 +49,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -97,24 +78,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public doEquivalent(Ljava/lang/Iterable;Ljava/lang/Iterable;)Z
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "iterableA",
-            "iterableB"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -194,16 +163,6 @@
 
 .method public bridge synthetic doEquivalent(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "iterableA",
-            "iterableB"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/Iterable;
@@ -219,15 +178,6 @@
 
 .method public doHash(Ljava/lang/Iterable;)I
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "iterable"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -273,14 +223,6 @@
 
 .method public bridge synthetic doHash(Ljava/lang/Object;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "iterable"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/Iterable;
@@ -294,18 +236,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "object"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Lcom/google/common/base/PairwiseEquivalence;
@@ -351,7 +281,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public hashCode()I
@@ -390,7 +319,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -435,5 +363,4 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method

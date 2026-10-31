@@ -62,6 +62,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static toLocationRequest(Landroidx/core/location/LocationRequestCompat;Ljava/lang/String;)Ljava/lang/Object;

@@ -146,27 +146,22 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 
 # virtual methods
-.method public bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+.method public bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
     .locals 0
 
     .line 1
     check-cast p1, Lcom/huawei/hms/opendevice/OpenDeviceHmsClient;
 
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/opendevice/OpenDeviceTaskApiCall;->doExecute(Lcom/huawei/hms/opendevice/OpenDeviceHmsClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/opendevice/OpenDeviceTaskApiCall;->doExecute(Lcom/huawei/hms/opendevice/OpenDeviceHmsClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
 
     return-void
 .end method
 
-.method public doExecute(Lcom/huawei/hms/opendevice/OpenDeviceHmsClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+.method public doExecute(Lcom/huawei/hms/opendevice/OpenDeviceHmsClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -174,9 +169,8 @@
             "Lcom/huawei/hms/opendevice/OpenDeviceHmsClient;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
             "Ljava/lang/String;",
-            "Lme/l<",
-            "Lcom/huawei/hms/support/api/opendevice/OdidResult;",
-            ">;)V"
+            "Lq5/g;",
+            ")V"
         }
     .end annotation
 
@@ -193,7 +187,7 @@
 
     invoke-direct {p1, p2}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p4, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     return-void
 
@@ -270,7 +264,7 @@
     invoke-virtual {p2, p1}, Lcom/huawei/hms/support/api/client/Result;->setStatus(Lcom/huawei/hms/support/api/client/Status;)V
 
     .line 14
-    invoke-virtual {p4, p2}, Lme/l;->d(Ljava/lang/Object;)V
+    invoke-virtual {p4, p2}, Lq5/g;->c(Ljava/lang/Object;)V
 
     return-void
 
@@ -314,7 +308,7 @@
 
     invoke-direct {p1, p3}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p4, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     return-void
 .end method

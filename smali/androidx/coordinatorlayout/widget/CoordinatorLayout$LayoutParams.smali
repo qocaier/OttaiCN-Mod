@@ -738,6 +738,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private shouldDodge(Landroid/view/View;I)Z
@@ -983,6 +986,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dependsOn(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;)Z
@@ -1137,6 +1141,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public didBlockInteraction()Z
@@ -1174,6 +1181,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public findAnchorView(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;)Landroid/view/View;
@@ -1289,6 +1297,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBehavior()Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;
@@ -1319,6 +1328,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getChangedAfterNestedScroll()Z
@@ -1347,6 +1357,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLastChildRect()Landroid/graphics/Rect;
@@ -1375,6 +1386,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invalidateAnchor()V
@@ -1407,6 +1419,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isBlockingInteractionBelow(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;)Z
@@ -1567,6 +1580,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public resetNestedScroll(I)V
@@ -1632,6 +1646,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setAnchorId(I)V

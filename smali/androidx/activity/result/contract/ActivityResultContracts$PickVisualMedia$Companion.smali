@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -49,22 +49,13 @@
 # virtual methods
 .method public final getGmsPicker$activity_release(Landroid/content/Context;)Landroid/content/pm/ResolveInfo;
     .locals 2
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -109,22 +100,13 @@
 
 .method public final getSystemFallbackPicker$activity_release(Landroid/content/Context;)Landroid/content/pm/ResolveInfo;
     .locals 2
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -169,19 +151,13 @@
 
 .method public final getVisualMimeType$activity_release(Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VisualMediaType;)Ljava/lang/String;
     .locals 1
-    .param p1    # Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VisualMediaType;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const-string v0, "input"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -303,23 +279,18 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final isGmsPickerAvailable$activity_release(Landroid/content/Context;)Z
     .locals 1
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -368,17 +339,6 @@
         }
     .end annotation
 
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "This method is deprecated in favor of isPhotoPickerAvailable(context) to support the picker provided by updatable system apps"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "isPhotoPickerAvailable(context)"
-            imports = {}
-        .end subannotation
-    .end annotation
-
     .line 1
     invoke-virtual {p0}, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;->isSystemPickerAvailable$activity_release()Z
 
@@ -389,10 +349,6 @@
 
 .method public final isPhotoPickerAvailable(Landroid/content/Context;)Z
     .locals 1
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "ClassVerificationFailure",
@@ -400,12 +356,9 @@
         }
     .end annotation
 
-    .annotation runtime Lim/o;
-    .end annotation
-
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p0}, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;->isSystemPickerAvailable$activity_release()Z
@@ -443,19 +396,13 @@
 
 .method public final isSystemFallbackPickerAvailable$activity_release(Landroid/content/Context;)Z
     .locals 1
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -504,9 +451,6 @@
         }
     .end annotation
 
-    .annotation runtime Lim/o;
-    .end annotation
-
     .line 1
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -538,7 +482,7 @@
 
     .line 13
     .line 14
-    invoke-static {v3}, Lf/b;->a(I)I
+    invoke-static {v3}, Lc/b;->a(I)I
 
     .line 15
     .line 16
@@ -620,4 +564,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

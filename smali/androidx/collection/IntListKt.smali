@@ -3,23 +3,8 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nIntList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IntList.kt\nandroidx/collection/IntListKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 IntList.kt\nandroidx/collection/MutableIntList\n*L\n1#1,969:1\n1#2:970\n713#3,2:971\n713#3,2:973\n713#3,2:975\n713#3,2:977\n713#3,2:979\n713#3,2:981\n*S KotlinDebug\n*F\n+ 1 IntList.kt\nandroidx/collection/IntListKt\n*L\n938#1:971,2\n947#1:973,2\n948#1:975,2\n958#1:977,2\n959#1:979,2\n960#1:981,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nIntList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IntList.kt\nandroidx/collection/IntListKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 IntList.kt\nandroidx/collection/MutableIntList\n*L\n1#1,969:1\n1#2:970\n713#3,2:971\n713#3,2:973\n713#3,2:975\n713#3,2:977\n713#3,2:979\n713#3,2:981\n*S KotlinDebug\n*F\n+ 1 IntList.kt\nandroidx/collection/IntListKt\n*L\n938#1:971,2\n947#1:973,2\n948#1:975,2\n958#1:977,2\n959#1:979,2\n960#1:981,2\n*E\n"
-    }
-.end annotation
-
-
 # static fields
 .field private static final EmptyIntList:Landroidx/collection/IntList;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -55,12 +40,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final emptyIntList()Landroidx/collection/IntList;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/collection/IntListKt;->EmptyIntList:Landroidx/collection/IntList;
@@ -85,12 +69,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final intListOf()Landroidx/collection/IntList;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/collection/IntListKt;->EmptyIntList:Landroidx/collection/IntList;
@@ -100,8 +83,6 @@
 
 .method public static final intListOf(I)Landroidx/collection/IntList;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     invoke-static {p0}, Landroidx/collection/IntListKt;->mutableIntListOf(I)Landroidx/collection/MutableIntList;
@@ -113,8 +94,6 @@
 
 .method public static final intListOf(II)Landroidx/collection/IntList;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 3
     invoke-static {p0, p1}, Landroidx/collection/IntListKt;->mutableIntListOf(II)Landroidx/collection/MutableIntList;
@@ -126,8 +105,6 @@
 
 .method public static final intListOf(III)Landroidx/collection/IntList;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     invoke-static {p0, p1, p2}, Landroidx/collection/IntListKt;->mutableIntListOf(III)Landroidx/collection/MutableIntList;
@@ -139,16 +116,10 @@
 
 .method public static final varargs intListOf([I)Landroidx/collection/IntList;
     .locals 2
-    .param p0    # [I
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "elements"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     new-instance v0, Landroidx/collection/MutableIntList;
@@ -164,8 +135,6 @@
 
 .method public static final mutableIntListOf()Landroidx/collection/MutableIntList;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/collection/MutableIntList;
@@ -176,15 +145,13 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableIntList;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableIntList;-><init>(IILkotlin/jvm/internal/f;)V
 
     return-object v0
 .end method
 
 .method public static final mutableIntListOf(I)Landroidx/collection/MutableIntList;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroidx/collection/MutableIntList;
@@ -201,8 +168,6 @@
 
 .method public static final mutableIntListOf(II)Landroidx/collection/MutableIntList;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     new-instance v0, Landroidx/collection/MutableIntList;
@@ -222,8 +187,6 @@
 
 .method public static final mutableIntListOf(III)Landroidx/collection/MutableIntList;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 7
     new-instance v0, Landroidx/collection/MutableIntList;
@@ -246,16 +209,10 @@
 
 .method public static final varargs mutableIntListOf([I)Landroidx/collection/MutableIntList;
     .locals 2
-    .param p0    # [I
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "elements"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     new-instance v0, Landroidx/collection/MutableIntList;

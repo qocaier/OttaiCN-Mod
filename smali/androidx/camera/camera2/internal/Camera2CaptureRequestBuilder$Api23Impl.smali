@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static createReprocessCaptureRequest(Landroid/hardware/camera2/CameraDevice;Landroid/hardware/camera2/TotalCaptureResult;)Landroid/hardware/camera2/CaptureRequest$Builder;

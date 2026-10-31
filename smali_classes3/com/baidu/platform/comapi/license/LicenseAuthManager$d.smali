@@ -60,7 +60,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -110,7 +109,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public hashCode()I
@@ -156,5 +154,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

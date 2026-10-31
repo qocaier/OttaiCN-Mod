@@ -14,14 +14,6 @@
 .end method
 
 .method public abstract getFields(I)Landroidx/datastore/preferences/protobuf/Field;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getFieldsCount()I
@@ -45,25 +37,9 @@
 .end method
 
 .method public abstract getOneofs(I)Ljava/lang/String;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getOneofsBytes(I)Landroidx/datastore/preferences/protobuf/ByteString;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getOneofsCount()I
@@ -81,14 +57,6 @@
 .end method
 
 .method public abstract getOptions(I)Landroidx/datastore/preferences/protobuf/Option;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getOptionsCount()I

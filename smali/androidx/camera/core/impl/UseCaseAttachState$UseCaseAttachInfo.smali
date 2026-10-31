@@ -148,6 +148,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAttached()Z
@@ -176,6 +177,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSessionConfig()Landroidx/camera/core/impl/SessionConfig;
@@ -206,6 +208,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUseCaseConfig()Landroidx/camera/core/impl/UseCaseConfig;
@@ -244,6 +247,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setActive(Z)V

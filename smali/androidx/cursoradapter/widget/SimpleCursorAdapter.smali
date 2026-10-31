@@ -416,6 +416,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public changeCursorAndColumns(Landroid/database/Cursor;[Ljava/lang/String;[I)V
@@ -543,6 +546,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public convertToString(Landroid/database/Cursor;)Ljava/lang/CharSequence;
@@ -630,6 +636,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStringConversionColumn()I
@@ -658,6 +665,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getViewBinder()Landroidx/cursoradapter/widget/SimpleCursorAdapter$ViewBinder;
@@ -686,6 +694,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setCursorToStringConverter(Landroidx/cursoradapter/widget/SimpleCursorAdapter$CursorToStringConverter;)V

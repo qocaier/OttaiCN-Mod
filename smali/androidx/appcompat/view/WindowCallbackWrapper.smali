@@ -323,6 +323,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onActionModeFinished(Landroid/view/ActionMode;)V
@@ -423,6 +424,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onContentChanged()V
@@ -453,6 +455,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onCreatePanelMenu(ILandroid/view/Menu;)Z
@@ -580,6 +583,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onMenuItemSelected(ILandroid/view/MenuItem;)Z
@@ -921,6 +925,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onProvideKeyboardShortcuts(Ljava/util/List;Landroid/view/Menu;I)V
@@ -1058,6 +1065,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onSearchRequested()Z

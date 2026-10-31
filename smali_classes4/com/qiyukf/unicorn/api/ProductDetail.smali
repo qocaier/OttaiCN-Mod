@@ -169,6 +169,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$102(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -231,6 +241,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$1102(Lcom/qiyukf/unicorn/api/ProductDetail;Z)Z
@@ -293,6 +313,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$1202(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -355,6 +385,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$1302(Lcom/qiyukf/unicorn/api/ProductDetail;I)I
@@ -417,6 +457,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$1402(Lcom/qiyukf/unicorn/api/ProductDetail;F)F
@@ -479,6 +529,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$1502(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -541,6 +601,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$1602(Lcom/qiyukf/unicorn/api/ProductDetail;Lcom/qiyukf/unicorn/api/msg/ProductReslectOnclickListener;)Lcom/qiyukf/unicorn/api/msg/ProductReslectOnclickListener;
@@ -603,6 +673,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$1702(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -665,6 +745,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$1802(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -727,6 +817,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$1902(Lcom/qiyukf/unicorn/api/ProductDetail;Z)Z
@@ -789,6 +889,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$2002(Lcom/qiyukf/unicorn/api/ProductDetail;I)I
@@ -851,6 +961,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$202(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -913,6 +1033,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$2102(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -975,6 +1105,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$2202(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1037,6 +1177,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$2302(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1099,6 +1249,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$2402(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1161,6 +1321,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$2502(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1223,6 +1393,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$2602(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1285,6 +1465,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$2702(Lcom/qiyukf/unicorn/api/ProductDetail;I)I
@@ -1347,6 +1537,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$2802(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1409,6 +1609,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$2902(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1471,6 +1681,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$3002(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1533,6 +1753,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$302(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1595,6 +1825,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$3102(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1657,6 +1897,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$3202(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1719,6 +1969,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$402(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1781,6 +2041,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$502(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -1843,6 +2113,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$602(Lcom/qiyukf/unicorn/api/ProductDetail;I)I
@@ -1905,6 +2185,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$702(Lcom/qiyukf/unicorn/api/ProductDetail;Z)Z
@@ -1967,6 +2257,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$802(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/lang/String;)Ljava/lang/String;
@@ -2029,6 +2329,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$902(Lcom/qiyukf/unicorn/api/ProductDetail;Ljava/util/List;)Ljava/util/List;
@@ -2091,6 +2401,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -2268,6 +2588,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getActionText()Ljava/lang/String;
@@ -2296,6 +2618,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getActionTextColor()I
@@ -2324,6 +2648,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getActionTextSize()F
@@ -2352,6 +2678,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAgentId()Ljava/lang/String;
@@ -2380,6 +2708,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCardType()I
@@ -2408,6 +2738,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCustomLabelOrderId()Ljava/lang/String;
@@ -2436,6 +2768,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCustomLabelOrderTime()Ljava/lang/String;
@@ -2464,6 +2798,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getDesc()Ljava/lang/String;
@@ -2492,6 +2828,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExt()Ljava/lang/String;
@@ -2520,6 +2858,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGoodsCId()Ljava/lang/String;
@@ -2548,6 +2888,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGoodsCName()Ljava/lang/String;
@@ -2576,6 +2918,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGoodsId()Ljava/lang/String;
@@ -2604,6 +2948,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getHandlerTag()Ljava/lang/String;
@@ -2632,6 +2978,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getInfo()Ljava/lang/String;
@@ -2660,6 +3008,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getIntent()Ljava/lang/String;
@@ -2688,6 +3038,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNote()Ljava/lang/String;
@@ -2716,6 +3068,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOptionId()Ljava/lang/String;
@@ -2744,6 +3098,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderId()Ljava/lang/String;
@@ -2772,6 +3128,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderStageType()I
@@ -2800,6 +3158,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getParams()Ljava/lang/String;
@@ -2828,6 +3188,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPicture()Ljava/lang/String;
@@ -2856,6 +3218,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getProductReslectOnclickListener()Lcom/qiyukf/unicorn/api/msg/ProductReslectOnclickListener;
@@ -2884,6 +3248,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getReselectText()Ljava/lang/String;
@@ -2912,6 +3278,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getShow()I
@@ -2940,6 +3308,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTagString()Ljava/lang/String;
@@ -2968,6 +3338,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTags()Ljava/util/List;
@@ -3004,6 +3376,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -3032,6 +3406,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUrl()Ljava/lang/String;
@@ -3060,6 +3436,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isAlwaysSend()Z
@@ -3088,6 +3466,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isOpenReselect()Z
@@ -3116,6 +3496,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isOpenTemplate()Z
@@ -3144,6 +3526,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isSendByUser()Z
@@ -3172,6 +3556,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setSendByUser(Z)V
@@ -3205,6 +3591,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public final valid()Z
@@ -3346,4 +3734,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

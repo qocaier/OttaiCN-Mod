@@ -50,6 +50,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -107,6 +109,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public close()V
@@ -142,6 +146,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCurrentSplitFileCounter()I
@@ -187,6 +193,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFilePointer()J
@@ -235,6 +243,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNumberOfBytesWritten()J
@@ -283,6 +293,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOffsetForNextEntry()J
@@ -331,6 +343,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSplitLength()J
@@ -376,6 +390,8 @@
     return-wide v0
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isSplitZipFile()Z
@@ -423,6 +439,8 @@
     return v0
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public write(I)V

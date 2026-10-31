@@ -98,7 +98,7 @@
     return-wide v0
 .end method
 
-.method static b(Ljava/io/ObjectInput;)Lj$/time/x;
+.method static b(Ljava/io/ObjectInput;)Lj$/time/y;
     .locals 2
 
     .line 245
@@ -115,7 +115,7 @@
 
     move-result p0
 
-    invoke-static {p0}, Lj$/time/x;->d0(I)Lj$/time/x;
+    invoke-static {p0}, Lj$/time/y;->b0(I)Lj$/time/y;
 
     move-result-object p0
 
@@ -124,7 +124,7 @@
     :cond_0
     mul-int/lit16 v0, v0, 0x384
 
-    invoke-static {v0}, Lj$/time/x;->d0(I)Lj$/time/x;
+    invoke-static {v0}, Lj$/time/y;->b0(I)Lj$/time/y;
 
     move-result-object p0
 
@@ -199,11 +199,11 @@
     return-void
 .end method
 
-.method static d(Lj$/time/x;Ljava/io/ObjectOutput;)V
+.method static d(Lj$/time/y;Ljava/io/ObjectOutput;)V
     .locals 2
 
     .line 229
-    invoke-virtual {p0}, Lj$/time/x;->a0()I
+    invoke-virtual {p0}, Lj$/time/y;->Y()I
 
     move-result p0
 
@@ -312,17 +312,17 @@
     move-result-wide v0
 
     .line 233
-    invoke-static {p1}, Lj$/time/zone/a;->b(Ljava/io/ObjectInput;)Lj$/time/x;
+    invoke-static {p1}, Lj$/time/zone/a;->b(Ljava/io/ObjectInput;)Lj$/time/y;
 
     move-result-object v2
 
     .line 234
-    invoke-static {p1}, Lj$/time/zone/a;->b(Ljava/io/ObjectInput;)Lj$/time/x;
+    invoke-static {p1}, Lj$/time/zone/a;->b(Ljava/io/ObjectInput;)Lj$/time/y;
 
     move-result-object p1
 
     .line 235
-    invoke-virtual {v2, p1}, Lj$/time/x;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Lj$/time/y;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -331,7 +331,7 @@
     .line 238
     new-instance v3, Lj$/time/zone/b;
 
-    invoke-direct {v3, v0, v1, v2, p1}, Lj$/time/zone/b;-><init>(JLj$/time/x;Lj$/time/x;)V
+    invoke-direct {v3, v0, v1, v2, p1}, Lj$/time/zone/b;-><init>(JLj$/time/y;Lj$/time/y;)V
 
     move-object v0, v3
 

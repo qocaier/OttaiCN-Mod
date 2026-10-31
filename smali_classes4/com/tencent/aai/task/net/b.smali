@@ -114,7 +114,7 @@
 
     move-result v3
 
-    const-string v4, "zxcvbnmlkjhgfdsaqwertyuiopQWERTYUIOPASDFGHJKLZXCVBNM1234567890"
+    const-string/jumbo v4, "zxcvbnmlkjhgfdsaqwertyuiopQWERTYUIOPASDFGHJKLZXCVBNM1234567890"
 
     invoke-virtual {v4, v3}, Ljava/lang/String;->charAt(I)C
 

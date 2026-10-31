@@ -16,9 +16,6 @@
 
 # instance fields
 .field private mediaType:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VisualMediaType;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -52,14 +49,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final build()Landroidx/activity/result/PickVisualMediaRequest;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/activity/result/PickVisualMediaRequest;
@@ -90,23 +86,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setMediaType(Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VisualMediaType;)Landroidx/activity/result/PickVisualMediaRequest$Builder;
     .locals 1
-    .param p1    # Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VisualMediaType;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "mediaType"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

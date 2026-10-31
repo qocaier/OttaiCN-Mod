@@ -19,29 +19,18 @@
 
 # static fields
 .field public static final Companion:Landroidx/activity/ImmLeaksCleaner$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field private static final cleaner$delegate:Ljl/c0;
+.field private static final cleaner$delegate:Lkotlin/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljl/c0<",
-            "Landroidx/activity/ImmLeaksCleaner$Cleaner;",
-            ">;"
+            "Lkotlin/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
 
 # instance fields
 .field private final activity:Landroid/app/Activity;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -56,7 +45,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/activity/ImmLeaksCleaner$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/activity/ImmLeaksCleaner$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -69,7 +58,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0}, Lkotlin/e;->b(Ljm/a;)Ljl/c0;
+    invoke-static {v0}, Lkotlin/d;->b(Lq8/a;)Lkotlin/c;
 
     .line 12
     .line 13
@@ -77,7 +66,7 @@
     move-result-object v0
 
     .line 15
-    sput-object v0, Landroidx/activity/ImmLeaksCleaner;->cleaner$delegate:Ljl/c0;
+    sput-object v0, Landroidx/activity/ImmLeaksCleaner;->cleaner$delegate:Lkotlin/c;
 
     .line 16
     .line 17
@@ -85,21 +74,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 1
-    .param p1    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "activity"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -130,11 +116,11 @@
     .line 25
 .end method
 
-.method public static final synthetic access$getCleaner$delegate$cp()Ljl/c0;
+.method public static final synthetic access$getCleaner$delegate$cp()Lkotlin/c;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/activity/ImmLeaksCleaner;->cleaner$delegate:Ljl/c0;
+    sget-object v0, Landroidx/activity/ImmLeaksCleaner;->cleaner$delegate:Lkotlin/c;
 
     .line 2
     .line 3
@@ -156,27 +142,20 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 2
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/lifecycle/Lifecycle$Event;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "source"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -185,7 +164,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -222,7 +201,7 @@
 
     .line 25
     .line 26
-    invoke-static {p1, p2}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -501,4 +480,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

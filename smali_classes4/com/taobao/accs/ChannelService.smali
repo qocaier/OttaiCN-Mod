@@ -66,6 +66,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getInstance()Lcom/taobao/accs/ChannelService;
@@ -94,6 +96,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getSupportForegroundVer(Landroid/content/Context;)I
@@ -220,6 +224,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static startKernel(Landroid/content/Context;)V
@@ -351,6 +357,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static stopKernel(Landroid/content/Context;)V
@@ -482,6 +490,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -520,6 +530,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onDestroy()V
@@ -554,6 +566,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onStartCommand(Landroid/content/Intent;II)I
@@ -704,9 +718,4 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method

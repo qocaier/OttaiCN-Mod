@@ -20,9 +20,9 @@
 
 .field public b:Landroid/hardware/Camera$CameraInfo;
 
-.field public c:Lqf/a;
+.field public c:Lc6/a;
 
-.field public d:Lpc/b;
+.field public d:Lo4/b;
 
 .field public e:Z
 
@@ -30,11 +30,11 @@
 
 .field public g:Lcom/journeyapps/barcodescanner/camera/CameraSettings;
 
-.field public h:Lqf/l;
+.field public h:Lc6/j;
 
-.field public i:Lpf/v;
+.field public i:Lcom/journeyapps/barcodescanner/v;
 
-.field public j:Lpf/v;
+.field public j:Lcom/journeyapps/barcodescanner/v;
 
 .field public k:I
 
@@ -99,6 +99,8 @@
     return-void
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic a(Lcom/journeyapps/barcodescanner/camera/b;)Landroid/hardware/Camera$CameraInfo;
@@ -132,6 +134,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic b()Ljava/lang/String;
@@ -160,20 +164,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public static n(Landroid/hardware/Camera$Parameters;)Ljava/util/List;
+.method public static i(Landroid/hardware/Camera$Parameters;)Ljava/util/List;
     .locals 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/hardware/Camera$Parameters;",
-            ")",
-            "Ljava/util/List<",
-            "Lpf/v;",
-            ">;"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroid/hardware/Camera$Parameters;->getSupportedPreviewSizes()Ljava/util/List;
@@ -209,7 +205,7 @@
 
     .line 17
     .line 18
-    new-instance v0, Lpf/v;
+    new-instance v0, Lcom/journeyapps/barcodescanner/v;
 
     .line 19
     .line 20
@@ -221,12 +217,12 @@
 
     .line 23
     .line 24
-    invoke-direct {v0, v2, v3}, Lpf/v;-><init>(II)V
+    invoke-direct {v0, v2, v3}, Lcom/journeyapps/barcodescanner/v;-><init>(II)V
 
     .line 25
     .line 26
     .line 27
-    new-instance v0, Lpf/v;
+    new-instance v0, Lcom/journeyapps/barcodescanner/v;
 
     .line 28
     .line 29
@@ -238,7 +234,7 @@
 
     .line 32
     .line 33
-    invoke-direct {v0, v2, p0}, Lpf/v;-><init>(II)V
+    invoke-direct {v0, v2, p0}, Lcom/journeyapps/barcodescanner/v;-><init>(II)V
 
     .line 34
     .line 35
@@ -285,7 +281,7 @@
 
     .line 55
     .line 56
-    new-instance v2, Lpf/v;
+    new-instance v2, Lcom/journeyapps/barcodescanner/v;
 
     .line 57
     .line 58
@@ -297,7 +293,7 @@
 
     .line 61
     .line 62
-    invoke-direct {v2, v3, v0}, Lpf/v;-><init>(II)V
+    invoke-direct {v2, v3, v0}, Lcom/journeyapps/barcodescanner/v;-><init>(II)V
 
     .line 63
     .line 64
@@ -327,432 +323,21 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
 # virtual methods
-.method public A(Z)V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
-
-    .line 2
-    .line 3
-    if-eqz v0, :cond_2
-
-    .line 4
-    .line 5
-    :try_start_0
-    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/camera/b;->q()Z
-
-    .line 6
-    .line 7
-    .line 8
-    move-result v0
-
-    .line 9
-    if-eq p1, v0, :cond_2
-
-    .line 10
-    .line 11
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->c:Lqf/a;
-
-    .line 12
-    .line 13
-    if-eqz v0, :cond_0
-
-    .line 14
-    .line 15
-    invoke-virtual {v0}, Lqf/a;->j()V
-
-    .line 16
-    .line 17
-    .line 18
-    goto :goto_0
-
-    .line 19
-    :catch_0
-    move-exception p1
-
-    .line 20
-    goto :goto_1
-
-    .line 21
-    :cond_0
-    :goto_0
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
-
-    .line 22
-    .line 23
-    invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
-
-    .line 24
-    .line 25
-    .line 26
-    move-result-object v0
-
-    .line 27
-    invoke-static {v0, p1}, Lcom/journeyapps/barcodescanner/camera/a;->n(Landroid/hardware/Camera$Parameters;Z)V
-
-    .line 28
-    .line 29
-    .line 30
-    iget-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->g:Lcom/journeyapps/barcodescanner/camera/CameraSettings;
-
-    .line 31
-    .line 32
-    invoke-virtual {v1}, Lcom/journeyapps/barcodescanner/camera/CameraSettings;->g()Z
-
-    .line 33
-    .line 34
-    .line 35
-    move-result v1
-
-    .line 36
-    if-eqz v1, :cond_1
-
-    .line 37
-    .line 38
-    invoke-static {v0, p1}, Lcom/journeyapps/barcodescanner/camera/a;->g(Landroid/hardware/Camera$Parameters;Z)V
-
-    .line 39
-    .line 40
-    .line 41
-    :cond_1
-    iget-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
-
-    .line 42
-    .line 43
-    invoke-virtual {p1, v0}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
-
-    .line 44
-    .line 45
-    .line 46
-    iget-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b;->c:Lqf/a;
-
-    .line 47
-    .line 48
-    if-eqz p1, :cond_2
-
-    .line 49
-    .line 50
-    invoke-virtual {p1}, Lqf/a;->i()V
-    :try_end_0
-    .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 51
-    .line 52
-    .line 53
-    return-void
-
-    .line 54
-    :goto_1
-    sget-object v0, Lcom/journeyapps/barcodescanner/camera/b;->n:Ljava/lang/String;
-
-    .line 55
-    .line 56
-    const-string v1, "Failed to set torch"
-
-    .line 57
-    .line 58
-    invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-
-    .line 59
-    .line 60
-    .line 61
-    :cond_2
-    return-void
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
-
-.method public B()V
-    .locals 3
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
-
-    .line 2
-    .line 3
-    if-eqz v0, :cond_0
-
-    .line 4
-    .line 5
-    iget-boolean v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->e:Z
-
-    .line 6
-    .line 7
-    if-nez v1, :cond_0
-
-    .line 8
-    .line 9
-    invoke-virtual {v0}, Landroid/hardware/Camera;->startPreview()V
-
-    .line 10
-    .line 11
-    .line 12
-    const/4 v0, 0x1
-
-    .line 13
-    iput-boolean v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->e:Z
-
-    .line 14
-    .line 15
-    new-instance v0, Lqf/a;
-
-    .line 16
-    .line 17
-    iget-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
-
-    .line 18
-    .line 19
-    iget-object v2, p0, Lcom/journeyapps/barcodescanner/camera/b;->g:Lcom/journeyapps/barcodescanner/camera/CameraSettings;
-
-    .line 20
-    .line 21
-    invoke-direct {v0, v1, v2}, Lqf/a;-><init>(Landroid/hardware/Camera;Lcom/journeyapps/barcodescanner/camera/CameraSettings;)V
-
-    .line 22
-    .line 23
-    .line 24
-    iput-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->c:Lqf/a;
-
-    .line 25
-    .line 26
-    new-instance v0, Lpc/b;
-
-    .line 27
-    .line 28
-    iget-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->l:Landroid/content/Context;
-
-    .line 29
-    .line 30
-    iget-object v2, p0, Lcom/journeyapps/barcodescanner/camera/b;->g:Lcom/journeyapps/barcodescanner/camera/CameraSettings;
-
-    .line 31
-    .line 32
-    invoke-direct {v0, v1, p0, v2}, Lpc/b;-><init>(Landroid/content/Context;Lcom/journeyapps/barcodescanner/camera/b;Lcom/journeyapps/barcodescanner/camera/CameraSettings;)V
-
-    .line 33
-    .line 34
-    .line 35
-    iput-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->d:Lpc/b;
-
-    .line 36
-    .line 37
-    invoke-virtual {v0}, Lpc/b;->c()V
-
-    .line 38
-    .line 39
-    .line 40
-    :cond_0
-    return-void
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
-
-.method public C()V
-    .locals 3
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->c:Lqf/a;
-
-    .line 2
-    .line 3
-    const/4 v1, 0x0
-
-    .line 4
-    if-eqz v0, :cond_0
-
-    .line 5
-    .line 6
-    invoke-virtual {v0}, Lqf/a;->j()V
-
-    .line 7
-    .line 8
-    .line 9
-    iput-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->c:Lqf/a;
-
-    .line 10
-    .line 11
-    :cond_0
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->d:Lpc/b;
-
-    .line 12
-    .line 13
-    if-eqz v0, :cond_1
-
-    .line 14
-    .line 15
-    invoke-virtual {v0}, Lpc/b;->d()V
-
-    .line 16
-    .line 17
-    .line 18
-    iput-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->d:Lpc/b;
-
-    .line 19
-    .line 20
-    :cond_1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
-
-    .line 21
-    .line 22
-    if-eqz v0, :cond_2
-
-    .line 23
-    .line 24
-    iget-boolean v2, p0, Lcom/journeyapps/barcodescanner/camera/b;->e:Z
-
-    .line 25
-    .line 26
-    if-eqz v2, :cond_2
-
-    .line 27
-    .line 28
-    invoke-virtual {v0}, Landroid/hardware/Camera;->stopPreview()V
-
-    .line 29
-    .line 30
-    .line 31
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->m:Lcom/journeyapps/barcodescanner/camera/b$a;
-
-    .line 32
-    .line 33
-    invoke-virtual {v0, v1}, Lcom/journeyapps/barcodescanner/camera/b$a;->a(Lqf/p;)V
-
-    .line 34
-    .line 35
-    .line 36
-    const/4 v0, 0x0
-
-    .line 37
-    iput-boolean v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->e:Z
-
-    .line 38
-    .line 39
-    :cond_2
-    return-void
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-.end method
-
 .method public final c()I
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->h:Lqf/l;
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->h:Lc6/j;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lqf/l;->d()I
+    invoke-virtual {v0}, Lc6/j;->c()I
 
     .line 4
     .line 5
@@ -917,69 +502,10 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
-.method public d(Lqf/h;)V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
-
-    .line 2
-    .line 3
-    if-eqz v0, :cond_0
-
-    .line 4
-    .line 5
-    :try_start_0
-    invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
-
-    .line 6
-    .line 7
-    .line 8
-    move-result-object v1
-
-    .line 9
-    invoke-interface {p1, v1}, Lqf/h;->a(Landroid/hardware/Camera$Parameters;)Landroid/hardware/Camera$Parameters;
-
-    .line 10
-    .line 11
-    .line 12
-    move-result-object p1
-
-    .line 13
-    invoke-virtual {v0, p1}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
-    :try_end_0
-    .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
-
-    .line 17
-    :catch_0
-    move-exception p1
-
-    .line 18
-    sget-object v0, Lcom/journeyapps/barcodescanner/camera/b;->n:Ljava/lang/String;
-
-    .line 19
-    .line 20
-    const-string v1, "Failed to change camera parameters"
-
-    .line 21
-    .line 22
-    invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
-
-    .line 23
-    .line 24
-    .line 25
-    :cond_0
-    return-void
-.end method
-
-.method public e()V
+.method public d()V
     .locals 1
 
     .line 1
@@ -1014,9 +540,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public f()V
+.method public e()V
     .locals 2
 
     .line 1
@@ -1028,7 +556,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/camera/b;->x()V
+    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/camera/b;->r()V
 
     .line 6
     .line 7
@@ -1055,37 +583,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public g()Landroid/hardware/Camera;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public h()I
+.method public f()I
     .locals 1
 
     .line 1
@@ -1111,37 +613,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public i()Lcom/journeyapps/barcodescanner/camera/CameraSettings;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->g:Lcom/journeyapps/barcodescanner/camera/CameraSettings;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public final j()Landroid/hardware/Camera$Parameters;
+.method public final g()Landroid/hardware/Camera$Parameters;
     .locals 2
 
     .line 1
@@ -1188,131 +664,13 @@
     .line 21
     return-object v0
     .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
-.method public k()Lqf/l;
+.method public h()Lcom/journeyapps/barcodescanner/v;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->h:Lqf/l;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public l()Lpf/v;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lpf/v;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public m()Lpf/v;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lpf/v;
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lcom/journeyapps/barcodescanner/v;
 
     .line 2
     .line 3
@@ -1327,7 +685,7 @@
 
     .line 7
     :cond_0
-    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/camera/b;->o()Z
+    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/camera/b;->j()Z
 
     .line 8
     .line 9
@@ -1339,11 +697,11 @@
 
     .line 12
     .line 13
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lpf/v;
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lcom/journeyapps/barcodescanner/v;
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Lpf/v;->f()Lpf/v;
+    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/v;->b()Lcom/journeyapps/barcodescanner/v;
 
     .line 16
     .line 17
@@ -1355,76 +713,14 @@
 
     .line 20
     :cond_1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lpf/v;
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lcom/journeyapps/barcodescanner/v;
 
     .line 21
     .line 22
     return-object v0
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
-.method public o()Z
+.method public j()Z
     .locals 2
 
     .line 1
@@ -1476,108 +772,9 @@
     .line 21
     throw v0
     .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
-.method public p()Z
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
-
-    .line 2
-    .line 3
-    if-eqz v0, :cond_0
-
-    .line 4
-    .line 5
-    const/4 v0, 0x1
-
-    .line 6
-    return v0
-
-    .line 7
-    :cond_0
-    const/4 v0, 0x0
-
-    .line 8
-    return v0
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public q()Z
+.method public k()Z
     .locals 3
 
     .line 1
@@ -1703,9 +900,10 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
-.method public r()V
+.method public l()V
     .locals 2
 
     .line 1
@@ -1721,7 +919,7 @@
     move-result v0
 
     .line 7
-    invoke-static {v0}, Lqc/a;->b(I)Landroid/hardware/Camera;
+    invoke-static {v0}, Lp4/a;->b(I)Landroid/hardware/Camera;
 
     .line 8
     .line 9
@@ -1749,7 +947,7 @@
     move-result v0
 
     .line 21
-    invoke-static {v0}, Lqc/a;->a(I)I
+    invoke-static {v0}, Lp4/a;->a(I)I
 
     .line 22
     .line 23
@@ -1834,9 +1032,10 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
-.method public s(Lqf/p;)V
+.method public m(Lc6/m;)V
     .locals 2
 
     .line 1
@@ -1860,7 +1059,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v1, p1}, Lcom/journeyapps/barcodescanner/camera/b$a;->a(Lqf/p;)V
+    invoke-virtual {v1, p1}, Lcom/journeyapps/barcodescanner/camera/b$a;->a(Lc6/m;)V
 
     .line 12
     .line 13
@@ -1882,9 +1081,11 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public final t(I)V
+.method public final n(I)V
     .locals 1
 
     .line 1
@@ -1917,9 +1118,11 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public u(Lcom/journeyapps/barcodescanner/camera/CameraSettings;)V
+.method public o(Lcom/journeyapps/barcodescanner/camera/CameraSettings;)V
     .locals 0
 
     .line 1
@@ -1950,13 +1153,15 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public final v(Z)V
+.method public final p(Z)V
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/camera/b;->j()Landroid/hardware/Camera$Parameters;
+    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/camera/b;->g()Landroid/hardware/Camera$Parameters;
 
     .line 2
     .line 3
@@ -2059,7 +1264,7 @@
     move-result-object v2
 
     .line 54
-    invoke-static {v0, v2, p1}, Lcom/journeyapps/barcodescanner/camera/a;->j(Landroid/hardware/Camera$Parameters;Lcom/journeyapps/barcodescanner/camera/CameraSettings$FocusMode;Z)V
+    invoke-static {v0, v2, p1}, Lcom/journeyapps/barcodescanner/camera/a;->g(Landroid/hardware/Camera$Parameters;Lcom/journeyapps/barcodescanner/camera/CameraSettings$FocusMode;Z)V
 
     .line 55
     .line 56
@@ -2071,7 +1276,7 @@
     const/4 p1, 0x0
 
     .line 60
-    invoke-static {v0, p1}, Lcom/journeyapps/barcodescanner/camera/a;->n(Landroid/hardware/Camera$Parameters;Z)V
+    invoke-static {v0, p1}, Lcom/journeyapps/barcodescanner/camera/a;->k(Landroid/hardware/Camera$Parameters;Z)V
 
     .line 61
     .line 62
@@ -2080,7 +1285,7 @@
 
     .line 64
     .line 65
-    invoke-virtual {p1}, Lcom/journeyapps/barcodescanner/camera/CameraSettings;->i()Z
+    invoke-virtual {p1}, Lcom/journeyapps/barcodescanner/camera/CameraSettings;->h()Z
 
     .line 66
     .line 67
@@ -2092,7 +1297,7 @@
 
     .line 70
     .line 71
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/a;->l(Landroid/hardware/Camera$Parameters;)V
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/a;->i(Landroid/hardware/Camera$Parameters;)V
 
     .line 72
     .line 73
@@ -2114,7 +1319,7 @@
 
     .line 81
     .line 82
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/a;->f(Landroid/hardware/Camera$Parameters;)V
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/a;->c(Landroid/hardware/Camera$Parameters;)V
 
     .line 83
     .line 84
@@ -2124,7 +1329,7 @@
 
     .line 86
     .line 87
-    invoke-virtual {p1}, Lcom/journeyapps/barcodescanner/camera/CameraSettings;->h()Z
+    invoke-virtual {p1}, Lcom/journeyapps/barcodescanner/camera/CameraSettings;->g()Z
 
     .line 88
     .line 89
@@ -2136,23 +1341,23 @@
 
     .line 92
     .line 93
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/a;->o(Landroid/hardware/Camera$Parameters;)V
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/a;->l(Landroid/hardware/Camera$Parameters;)V
 
     .line 94
     .line 95
     .line 96
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/a;->k(Landroid/hardware/Camera$Parameters;)V
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/a;->h(Landroid/hardware/Camera$Parameters;)V
 
     .line 97
     .line 98
     .line 99
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/a;->m(Landroid/hardware/Camera$Parameters;)V
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/a;->j(Landroid/hardware/Camera$Parameters;)V
 
     .line 100
     .line 101
     .line 102
     :cond_4
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/b;->n(Landroid/hardware/Camera$Parameters;)Ljava/util/List;
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/b;->i(Landroid/hardware/Camera$Parameters;)Ljava/util/List;
 
     .line 103
     .line 104
@@ -2175,7 +1380,7 @@
     const/4 p1, 0x0
 
     .line 113
-    iput-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b;->i:Lpf/v;
+    iput-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b;->i:Lcom/journeyapps/barcodescanner/v;
 
     .line 114
     .line 115
@@ -2183,11 +1388,11 @@
 
     .line 116
     :cond_5
-    iget-object v2, p0, Lcom/journeyapps/barcodescanner/camera/b;->h:Lqf/l;
+    iget-object v2, p0, Lcom/journeyapps/barcodescanner/camera/b;->h:Lc6/j;
 
     .line 117
     .line 118
-    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/camera/b;->o()Z
+    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/camera/b;->j()Z
 
     .line 119
     .line 120
@@ -2195,7 +1400,7 @@
     move-result v3
 
     .line 122
-    invoke-virtual {v2, p1, v3}, Lqf/l;->a(Ljava/util/List;Z)Lpf/v;
+    invoke-virtual {v2, p1, v3}, Lc6/j;->a(Ljava/util/List;Z)Lcom/journeyapps/barcodescanner/v;
 
     .line 123
     .line 124
@@ -2203,15 +1408,15 @@
     move-result-object p1
 
     .line 126
-    iput-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b;->i:Lpf/v;
+    iput-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b;->i:Lcom/journeyapps/barcodescanner/v;
 
     .line 127
     .line 128
-    iget v2, p1, Lpf/v;->a:I
+    iget v2, p1, Lcom/journeyapps/barcodescanner/v;->a:I
 
     .line 129
     .line 130
-    iget p1, p1, Lpf/v;->b:I
+    iget p1, p1, Lcom/journeyapps/barcodescanner/v;->b:I
 
     .line 131
     .line 132
@@ -2241,7 +1446,7 @@
 
     .line 144
     .line 145
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/a;->h(Landroid/hardware/Camera$Parameters;)V
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/camera/a;->e(Landroid/hardware/Camera$Parameters;)V
 
     .line 146
     .line 147
@@ -2408,34 +1613,13 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
-.method public w(Lqf/l;)V
+.method public q(Lc6/j;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b;->h:Lqf/l;
+    iput-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b;->h:Lc6/j;
 
     .line 2
     .line 3
@@ -2462,9 +1646,11 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public final x()V
+.method public final r()V
     .locals 3
 
     .line 1
@@ -2481,7 +1667,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, v0}, Lcom/journeyapps/barcodescanner/camera/b;->t(I)V
+    invoke-virtual {p0, v0}, Lcom/journeyapps/barcodescanner/camera/b;->n(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2510,7 +1696,7 @@
 
     .line 19
     :try_start_1
-    invoke-virtual {p0, v0}, Lcom/journeyapps/barcodescanner/camera/b;->v(Z)V
+    invoke-virtual {p0, v0}, Lcom/journeyapps/barcodescanner/camera/b;->p(Z)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -2525,7 +1711,7 @@
 
     .line 24
     :try_start_2
-    invoke-virtual {p0, v0}, Lcom/journeyapps/barcodescanner/camera/b;->v(Z)V
+    invoke-virtual {p0, v0}, Lcom/journeyapps/barcodescanner/camera/b;->p(Z)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
 
@@ -2574,11 +1760,11 @@
 
     .line 46
     .line 47
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->i:Lpf/v;
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->i:Lcom/journeyapps/barcodescanner/v;
 
     .line 48
     .line 49
-    iput-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lpf/v;
+    iput-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lcom/journeyapps/barcodescanner/v;
 
     .line 50
     .line 51
@@ -2586,7 +1772,7 @@
 
     .line 52
     :cond_0
-    new-instance v1, Lpf/v;
+    new-instance v1, Lcom/journeyapps/barcodescanner/v;
 
     .line 53
     .line 54
@@ -2598,12 +1784,12 @@
 
     .line 57
     .line 58
-    invoke-direct {v1, v2, v0}, Lpf/v;-><init>(II)V
+    invoke-direct {v1, v2, v0}, Lcom/journeyapps/barcodescanner/v;-><init>(II)V
 
     .line 59
     .line 60
     .line 61
-    iput-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lpf/v;
+    iput-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lcom/journeyapps/barcodescanner/v;
 
     .line 62
     .line 63
@@ -2612,11 +1798,11 @@
 
     .line 64
     .line 65
-    iget-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lpf/v;
+    iget-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->j:Lcom/journeyapps/barcodescanner/v;
 
     .line 66
     .line 67
-    invoke-virtual {v0, v1}, Lcom/journeyapps/barcodescanner/camera/b$a;->b(Lpf/v;)V
+    invoke-virtual {v0, v1}, Lcom/journeyapps/barcodescanner/camera/b$a;->b(Lcom/journeyapps/barcodescanner/v;)V
 
     .line 68
     .line 69
@@ -2636,64 +1822,18 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
-.method public y(Landroid/view/SurfaceHolder;)V
+.method public s(Lc6/g;)V
     .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    .line 1
-    new-instance v0, Lqf/i;
-
-    .line 2
-    .line 3
-    invoke-direct {v0, p1}, Lqf/i;-><init>(Landroid/view/SurfaceHolder;)V
-
-    .line 4
-    .line 5
-    .line 6
-    invoke-virtual {p0, v0}, Lcom/journeyapps/barcodescanner/camera/b;->z(Lqf/i;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public z(Lqf/i;)V
-    .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Lqf/i;->c(Landroid/hardware/Camera;)V
+    invoke-virtual {p1, v0}, Lc6/g;->a(Landroid/hardware/Camera;)V
 
     .line 4
     .line 5
@@ -2718,4 +1858,423 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
+.end method
+
+.method public t(Z)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_2
+
+    .line 4
+    .line 5
+    :try_start_0
+    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/camera/b;->k()Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    if-eq p1, v0, :cond_2
+
+    .line 10
+    .line 11
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->c:Lc6/a;
+
+    .line 12
+    .line 13
+    if-eqz v0, :cond_0
+
+    .line 14
+    .line 15
+    invoke-virtual {v0}, Lc6/a;->j()V
+
+    .line 16
+    .line 17
+    .line 18
+    goto :goto_0
+
+    .line 19
+    :catch_0
+    move-exception p1
+
+    .line 20
+    goto :goto_1
+
+    .line 21
+    :cond_0
+    :goto_0
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
+
+    .line 22
+    .line 23
+    invoke-virtual {v0}, Landroid/hardware/Camera;->getParameters()Landroid/hardware/Camera$Parameters;
+
+    .line 24
+    .line 25
+    .line 26
+    move-result-object v0
+
+    .line 27
+    invoke-static {v0, p1}, Lcom/journeyapps/barcodescanner/camera/a;->k(Landroid/hardware/Camera$Parameters;Z)V
+
+    .line 28
+    .line 29
+    .line 30
+    iget-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->g:Lcom/journeyapps/barcodescanner/camera/CameraSettings;
+
+    .line 31
+    .line 32
+    invoke-virtual {v1}, Lcom/journeyapps/barcodescanner/camera/CameraSettings;->f()Z
+
+    .line 33
+    .line 34
+    .line 35
+    move-result v1
+
+    .line 36
+    if-eqz v1, :cond_1
+
+    .line 37
+    .line 38
+    invoke-static {v0, p1}, Lcom/journeyapps/barcodescanner/camera/a;->d(Landroid/hardware/Camera$Parameters;Z)V
+
+    .line 39
+    .line 40
+    .line 41
+    :cond_1
+    iget-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
+
+    .line 42
+    .line 43
+    invoke-virtual {p1, v0}, Landroid/hardware/Camera;->setParameters(Landroid/hardware/Camera$Parameters;)V
+
+    .line 44
+    .line 45
+    .line 46
+    iget-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b;->c:Lc6/a;
+
+    .line 47
+    .line 48
+    if-eqz p1, :cond_2
+
+    .line 49
+    .line 50
+    invoke-virtual {p1}, Lc6/a;->i()V
+    :try_end_0
+    .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 51
+    .line 52
+    .line 53
+    return-void
+
+    .line 54
+    :goto_1
+    sget-object v0, Lcom/journeyapps/barcodescanner/camera/b;->n:Ljava/lang/String;
+
+    .line 55
+    .line 56
+    const-string v1, "Failed to set torch"
+
+    .line 57
+    .line 58
+    invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    .line 59
+    .line 60
+    .line 61
+    :cond_2
+    return-void
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+.end method
+
+.method public u()V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    iget-boolean v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->e:Z
+
+    .line 6
+    .line 7
+    if-nez v1, :cond_0
+
+    .line 8
+    .line 9
+    invoke-virtual {v0}, Landroid/hardware/Camera;->startPreview()V
+
+    .line 10
+    .line 11
+    .line 12
+    const/4 v0, 0x1
+
+    .line 13
+    iput-boolean v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->e:Z
+
+    .line 14
+    .line 15
+    new-instance v0, Lc6/a;
+
+    .line 16
+    .line 17
+    iget-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
+
+    .line 18
+    .line 19
+    iget-object v2, p0, Lcom/journeyapps/barcodescanner/camera/b;->g:Lcom/journeyapps/barcodescanner/camera/CameraSettings;
+
+    .line 20
+    .line 21
+    invoke-direct {v0, v1, v2}, Lc6/a;-><init>(Landroid/hardware/Camera;Lcom/journeyapps/barcodescanner/camera/CameraSettings;)V
+
+    .line 22
+    .line 23
+    .line 24
+    iput-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->c:Lc6/a;
+
+    .line 25
+    .line 26
+    new-instance v0, Lo4/b;
+
+    .line 27
+    .line 28
+    iget-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->l:Landroid/content/Context;
+
+    .line 29
+    .line 30
+    iget-object v2, p0, Lcom/journeyapps/barcodescanner/camera/b;->g:Lcom/journeyapps/barcodescanner/camera/CameraSettings;
+
+    .line 31
+    .line 32
+    invoke-direct {v0, v1, p0, v2}, Lo4/b;-><init>(Landroid/content/Context;Lcom/journeyapps/barcodescanner/camera/b;Lcom/journeyapps/barcodescanner/camera/CameraSettings;)V
+
+    .line 33
+    .line 34
+    .line 35
+    iput-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->d:Lo4/b;
+
+    .line 36
+    .line 37
+    invoke-virtual {v0}, Lo4/b;->c()V
+
+    .line 38
+    .line 39
+    .line 40
+    :cond_0
+    return-void
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+.end method
+
+.method public v()V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->c:Lc6/a;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    if-eqz v0, :cond_0
+
+    .line 5
+    .line 6
+    invoke-virtual {v0}, Lc6/a;->j()V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->c:Lc6/a;
+
+    .line 10
+    .line 11
+    :cond_0
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->d:Lo4/b;
+
+    .line 12
+    .line 13
+    if-eqz v0, :cond_1
+
+    .line 14
+    .line 15
+    invoke-virtual {v0}, Lo4/b;->d()V
+
+    .line 16
+    .line 17
+    .line 18
+    iput-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b;->d:Lo4/b;
+
+    .line 19
+    .line 20
+    :cond_1
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->a:Landroid/hardware/Camera;
+
+    .line 21
+    .line 22
+    if-eqz v0, :cond_2
+
+    .line 23
+    .line 24
+    iget-boolean v2, p0, Lcom/journeyapps/barcodescanner/camera/b;->e:Z
+
+    .line 25
+    .line 26
+    if-eqz v2, :cond_2
+
+    .line 27
+    .line 28
+    invoke-virtual {v0}, Landroid/hardware/Camera;->stopPreview()V
+
+    .line 29
+    .line 30
+    .line 31
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->m:Lcom/journeyapps/barcodescanner/camera/b$a;
+
+    .line 32
+    .line 33
+    invoke-virtual {v0, v1}, Lcom/journeyapps/barcodescanner/camera/b$a;->a(Lc6/m;)V
+
+    .line 34
+    .line 35
+    .line 36
+    const/4 v0, 0x0
+
+    .line 37
+    iput-boolean v0, p0, Lcom/journeyapps/barcodescanner/camera/b;->e:Z
+
+    .line 38
+    .line 39
+    :cond_2
+    return-void
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
 .end method

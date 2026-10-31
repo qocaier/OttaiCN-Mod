@@ -85,6 +85,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInterfaceDescriptor()Ljava/lang/String;
@@ -113,6 +114,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onCaptioningEnabledChanged(Z)V
@@ -234,6 +236,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onEvent(Ljava/lang/String;Landroid/os/Bundle;)V
@@ -450,6 +453,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onMetadataChanged(Landroid/support/v4/media/MediaMetadataCompat;)V
@@ -573,6 +577,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onPlaybackStateChanged(Landroid/support/v4/media/session/PlaybackStateCompat;)V
@@ -696,6 +701,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onQueueChanged(Ljava/util/List;)V
@@ -828,6 +834,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onQueueTitleChanged(Ljava/lang/CharSequence;)V
@@ -964,6 +971,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onRepeatModeChanged(I)V
@@ -1085,6 +1093,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onSessionDestroyed()V
@@ -1210,6 +1219,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onSessionReady()V
@@ -1335,6 +1346,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onShuffleModeChanged(I)V
@@ -1456,6 +1469,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onShuffleModeChangedRemoved(Z)V
@@ -1577,6 +1591,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onVolumeInfoChanged(Landroid/support/v4/media/session/ParcelableVolumeInfo;)V
@@ -1700,4 +1715,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

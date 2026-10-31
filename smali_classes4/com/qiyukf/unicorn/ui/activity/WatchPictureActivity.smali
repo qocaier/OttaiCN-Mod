@@ -78,6 +78,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;)I
@@ -111,6 +113,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$002(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;I)I
@@ -173,6 +177,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$100(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;)V
@@ -206,6 +220,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$200(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;)Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity$ImagePagerAdapter;
@@ -239,6 +255,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$300(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;Lcom/qiyukf/unicorn/mediaselect/internal/entity/Item;Z)V
@@ -372,11 +390,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static synthetic access$400(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;)Z
@@ -410,6 +423,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$402(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;Z)Z
@@ -472,6 +487,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$500(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;)Landroid/view/ViewGroup;
@@ -505,6 +530,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$600(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;)Landroid/view/ViewGroup;
@@ -538,6 +565,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$700(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;)Landroid/view/ViewGroup;
@@ -571,6 +600,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$800(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;)Landroid/view/ViewGroup;
@@ -604,6 +635,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private addDeleteMenu()V
@@ -732,6 +765,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private findViews()V
@@ -868,6 +902,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private finishIntent()V
@@ -982,6 +1017,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private getVideoMediaPlayer(Ljava/io/File;)Landroid/media/MediaPlayer;
@@ -1037,6 +1073,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private imageViewOf(I)Lcom/qiyukf/uikit/common/ui/imageview/BaseZoomableImageView;
@@ -1173,6 +1211,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private imageViewOfItem(Lcom/qiyukf/unicorn/mediaselect/internal/entity/Item;)Lcom/qiyukf/uikit/common/ui/imageview/BaseZoomableImageView;
@@ -1307,6 +1347,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private onParseIntent()V
@@ -1423,6 +1465,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static start(Landroid/app/Activity;Ljava/util/ArrayList;II)V
@@ -1860,6 +1903,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 
@@ -1892,6 +1965,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -2010,6 +2085,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -2162,6 +2239,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onTitleBarBackPressed()V
@@ -2190,4 +2269,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

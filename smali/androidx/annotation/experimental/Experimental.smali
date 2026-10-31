@@ -29,26 +29,6 @@
     }
 .end annotation
 
-.annotation runtime Ljl/n;
-    message = "This annotation has been replaced by `@RequiresOptIn`"
-    replaceWith = .subannotation Ljl/w0;
-        expression = "RequiresOptIn"
-        imports = {
-            "androidx.annotation.RequiresOptIn"
-        }
-    .end subannotation
-.end annotation
-
-.annotation runtime Lkl/c;
-    value = .enum Lkotlin/annotation/AnnotationRetention;->BINARY:Lkotlin/annotation/AnnotationRetention;
-.end annotation
-
-.annotation runtime Lkl/d;
-    allowedTargets = {
-        .enum Lkotlin/annotation/AnnotationTarget;->ANNOTATION_CLASS:Lkotlin/annotation/AnnotationTarget;
-    }
-.end annotation
-
 
 # virtual methods
 .method public abstract level()Landroidx/annotation/experimental/Experimental$Level;

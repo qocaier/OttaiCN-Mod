@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/journeyapps/barcodescanner/CameraPreview;->F()Landroid/view/TextureView$SurfaceTextureListener;
+    value = Lcom/journeyapps/barcodescanner/CameraPreview;->D()Landroid/view/TextureView$SurfaceTextureListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -55,6 +55,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -190,11 +192,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onSurfaceTextureDestroyed(Landroid/graphics/SurfaceTexture;)Z
@@ -213,16 +210,16 @@
 
     .line 2
     .line 3
-    new-instance v0, Lpf/v;
+    new-instance v0, Lcom/journeyapps/barcodescanner/v;
 
     .line 4
     .line 5
-    invoke-direct {v0, p2, p3}, Lpf/v;-><init>(II)V
+    invoke-direct {v0, p2, p3}, Lcom/journeyapps/barcodescanner/v;-><init>(II)V
 
     .line 6
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lcom/journeyapps/barcodescanner/CameraPreview;->a(Lcom/journeyapps/barcodescanner/CameraPreview;Lpf/v;)Lpf/v;
+    invoke-static {p1, v0}, Lcom/journeyapps/barcodescanner/CameraPreview;->a(Lcom/journeyapps/barcodescanner/CameraPreview;Lcom/journeyapps/barcodescanner/v;)Lcom/journeyapps/barcodescanner/v;
 
     .line 9
     .line 10
@@ -346,11 +343,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onSurfaceTextureUpdated(Landroid/graphics/SurfaceTexture;)V

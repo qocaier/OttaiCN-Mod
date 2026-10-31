@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -37,12 +37,6 @@
 # virtual methods
 .method public final getActivityWindowToken$window_release(Landroid/app/Activity;)Landroid/os/IBinder;
     .locals 0
-    .param p1    # Landroid/app/Activity;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     if-eqz p1, :cond_0
@@ -95,19 +89,13 @@
 
 .method public final getSidecarCompat$window_release(Landroid/content/Context;)Landroidx/window/sidecar/SidecarInterface;
     .locals 1
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -144,8 +132,6 @@
 
 .method public final getSidecarVersion()Landroidx/window/core/Version;
     .locals 3
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -192,4 +178,5 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method

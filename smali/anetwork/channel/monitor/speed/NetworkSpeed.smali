@@ -148,17 +148,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(Ljava/lang/String;ILjava/lang/String;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            "I)V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -397,6 +392,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lanetwork/channel/monitor/speed/NetworkSpeed;
@@ -512,6 +513,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -542,6 +544,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDesc()Ljava/lang/String;
@@ -570,4 +573,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -4,10 +4,6 @@
 
 
 # annotations
-.annotation build Landroid/annotation/TargetApi;
-    value = 0x12
-.end annotation
-
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth$b;,
@@ -17,59 +13,23 @@
 
 
 # instance fields
-.field public a:Lq7/b;
+.field public a:Ln1/b;
 
-.field public b:Lq7/i;
+.field public b:Ln1/i;
 
-.field public c:Lq7/f;
+.field public c:Ln1/f;
 
-.field public d:Lq7/d;
+.field public d:Ln1/d;
 
-.field public e:Lq7/g;
+.field public e:Ln1/g;
 
 .field public final f:Ljava/util/HashMap;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Lq7/e;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 .field public final g:Ljava/util/HashMap;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Lq7/c;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 .field public final h:Ljava/util/HashMap;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Lq7/m;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 .field public final i:Ljava/util/HashMap;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Lq7/h;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 .field public j:Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth$LastState;
 
@@ -232,8 +192,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static bridge synthetic a(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;
@@ -245,11 +203,11 @@
     return-object p0
 .end method
 
-.method public static bridge synthetic b(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/b;
+.method public static bridge synthetic b(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/b;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->a:Lq7/b;
+    iget-object p0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->a:Ln1/b;
 
     return-object p0
 .end method
@@ -263,11 +221,11 @@
     return-object p0
 .end method
 
-.method public static bridge synthetic d(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/d;
+.method public static bridge synthetic d(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/d;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->d:Lq7/d;
+    iget-object p0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->d:Ln1/d;
 
     return-object p0
 .end method
@@ -281,20 +239,20 @@
     return-object p0
 .end method
 
-.method public static bridge synthetic f(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/f;
+.method public static bridge synthetic f(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/f;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->c:Lq7/f;
+    iget-object p0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->c:Ln1/f;
 
     return-object p0
 .end method
 
-.method public static bridge synthetic g(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/g;
+.method public static bridge synthetic g(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/g;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->e:Lq7/g;
+    iget-object p0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->e:Ln1/g;
 
     return-object p0
 .end method
@@ -308,11 +266,11 @@
     return-object p0
 .end method
 
-.method public static bridge synthetic i(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/i;
+.method public static bridge synthetic i(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/i;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->b:Lq7/i;
+    iget-object p0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->b:Ln1/i;
 
     return-object p0
 .end method
@@ -438,7 +396,7 @@
 
 
 # virtual methods
-.method public declared-synchronized A(Lq7/f;)V
+.method public declared-synchronized A(Ln1/f;)V
     .locals 0
 
     .line 1
@@ -446,7 +404,7 @@
 
     .line 2
     :try_start_0
-    iput-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->c:Lq7/f;
+    iput-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->c:Ln1/f;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -485,10 +443,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public declared-synchronized B(Lq7/g;)V
+.method public declared-synchronized B(Ln1/g;)V
     .locals 0
 
     .line 1
@@ -496,7 +453,7 @@
 
     .line 2
     :try_start_0
-    iput-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->e:Lq7/g;
+    iput-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->e:Ln1/g;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -535,10 +492,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public declared-synchronized C(Ljava/lang/String;Lq7/h;)V
+.method public declared-synchronized C(Ljava/lang/String;Ln1/h;)V
     .locals 1
 
     .line 1
@@ -623,14 +579,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public declared-synchronized D(Lq7/i;)V
+.method public declared-synchronized D(Ln1/i;)V
     .locals 0
 
     .line 1
@@ -638,7 +589,7 @@
 
     .line 2
     :try_start_0
-    iput-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->b:Lq7/i;
+    iput-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->b:Ln1/i;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -677,10 +628,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public declared-synchronized E(Ljava/lang/String;Lq7/m;)V
+.method public declared-synchronized E(Ljava/lang/String;Ln1/m;)V
     .locals 1
 
     .line 1
@@ -765,11 +715,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public declared-synchronized F()V
@@ -909,15 +854,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public final declared-synchronized G()V
@@ -976,10 +912,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public declared-synchronized H(Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;ZLq7/b;)Landroid/bluetooth/BluetoothGatt;
+.method public declared-synchronized H(Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;ZLn1/b;)Landroid/bluetooth/BluetoothGatt;
     .locals 1
 
     .line 1
@@ -990,7 +925,7 @@
 
     .line 3
     :try_start_0
-    invoke-virtual {p0, p1, p2, p3, v0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->I(Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;ZLq7/b;I)Landroid/bluetooth/BluetoothGatt;
+    invoke-virtual {p0, p1, p2, p3, v0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->I(Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;ZLn1/b;I)Landroid/bluetooth/BluetoothGatt;
 
     .line 4
     .line 5
@@ -1153,20 +1088,10 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
-.method public declared-synchronized I(Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;ZLq7/b;I)Landroid/bluetooth/BluetoothGatt;
+.method public declared-synchronized I(Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;ZLn1/b;I)Landroid/bluetooth/BluetoothGatt;
     .locals 3
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "MissingPermission"
-        }
-    .end annotation
 
     .line 1
     monitor-enter p0
@@ -1191,7 +1116,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p1}, Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;->g()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;->h()Ljava/lang/String;
 
     .line 13
     .line 14
@@ -1213,7 +1138,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p1}, Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;->e()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;->g()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -1296,7 +1221,7 @@
     move-result-object v0
 
     .line 69
-    invoke-static {v0}, Lu7/a;->c(Ljava/lang/String;)V
+    invoke-static {v0}, Lr1/a;->c(Ljava/lang/String;)V
 
     .line 70
     .line 71
@@ -1325,7 +1250,7 @@
     .line 81
     :cond_0
     :goto_0
-    invoke-virtual {p0, p3}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->w(Lq7/b;)V
+    invoke-virtual {p0, p3}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->w(Ln1/b;)V
 
     .line 82
     .line 83
@@ -1342,12 +1267,12 @@
 
     .line 89
     .line 90
-    invoke-static {p3}, Lu7/a;->d(Ljava/lang/String;)V
+    invoke-static {p3}, Lr1/a;->d(Ljava/lang/String;)V
 
     .line 91
     .line 92
     .line 93
-    invoke-virtual {p1}, Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;->c()Landroid/bluetooth/BluetoothDevice;
+    invoke-virtual {p1}, Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;->e()Landroid/bluetooth/BluetoothDevice;
 
     .line 94
     .line 95
@@ -1355,7 +1280,7 @@
     move-result-object p3
 
     .line 97
-    invoke-static {}, Lo7/a;->w()Lo7/a;
+    invoke-static {}, Lm1/a;->l()Lm1/a;
 
     .line 98
     .line 99
@@ -1363,7 +1288,7 @@
     move-result-object p4
 
     .line 101
-    invoke-virtual {p4}, Lo7/a;->v()Landroid/content/Context;
+    invoke-virtual {p4}, Lm1/a;->k()Landroid/content/Context;
 
     .line 102
     .line 103
@@ -1390,7 +1315,7 @@
 
     .line 113
     .line 114
-    invoke-static {}, Lo7/a;->w()Lo7/a;
+    invoke-static {}, Lm1/a;->l()Lm1/a;
 
     .line 115
     .line 116
@@ -1406,7 +1331,7 @@
 
     .line 121
     .line 122
-    invoke-virtual {p2, p3, p4}, Lo7/a;->f0(Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {p2, p3, p4}, Lm1/a;->I(Ljava/lang/String;Ljava/lang/Object;)V
 
     .line 123
     .line 124
@@ -1419,7 +1344,7 @@
 
     .line 128
     .line 129
-    iget-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->a:Lq7/b;
+    iget-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->a:Ln1/b;
 
     .line 130
     .line 131
@@ -1427,7 +1352,7 @@
 
     .line 132
     .line 133
-    invoke-virtual {p1}, Lq7/b;->f()V
+    invoke-virtual {p1}, Ln1/b;->f()V
 
     .line 134
     .line 135
@@ -1456,7 +1381,7 @@
 
     .line 146
     .line 147
-    invoke-static {}, Lo7/a;->w()Lo7/a;
+    invoke-static {}, Lm1/a;->l()Lm1/a;
 
     .line 148
     .line 149
@@ -1464,7 +1389,7 @@
     move-result-object p3
 
     .line 151
-    invoke-virtual {p3}, Lo7/a;->t()J
+    invoke-virtual {p3}, Lm1/a;->j()J
 
     .line 152
     .line 153
@@ -1486,7 +1411,7 @@
     .line 160
     .line 161
     .line 162
-    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->R()Z
+    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->Q()Z
 
     .line 163
     .line 164
@@ -1504,7 +1429,7 @@
 
     .line 171
     .line 172
-    invoke-static {}, Lo7/a;->w()Lo7/a;
+    invoke-static {}, Lm1/a;->l()Lm1/a;
 
     .line 173
     .line 174
@@ -1512,7 +1437,7 @@
     move-result-object p2
 
     .line 176
-    invoke-virtual {p2}, Lo7/a;->y()Lp7/d;
+    invoke-virtual {p2}, Lm1/a;->n()Lcom/example/sy_bluetooth_plugin/ble/bluetooth/d;
 
     .line 177
     .line 178
@@ -1520,12 +1445,12 @@
     move-result-object p2
 
     .line 180
-    invoke-virtual {p2, p0}, Lp7/d;->m(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)V
+    invoke-virtual {p2, p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/d;->h(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)V
 
     .line 181
     .line 182
     .line 183
-    iget-object p2, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->a:Lq7/b;
+    iget-object p2, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->a:Ln1/b;
 
     .line 184
     .line 185
@@ -1546,7 +1471,7 @@
     .line 192
     .line 193
     .line 194
-    invoke-virtual {p2, p1, p3}, Lq7/b;->c(Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;Lcom/example/sy_bluetooth_plugin/ble/exception/BleException;)V
+    invoke-virtual {p2, p1, p3}, Ln1/b;->c(Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;Lcom/example/sy_bluetooth_plugin/ble/exception/BleException;)V
 
     .line 195
     .line 196
@@ -1613,6 +1538,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public declared-synchronized J()V
@@ -1636,7 +1577,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->R()Z
+    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->Q()Z
 
     .line 10
     .line 11
@@ -1646,27 +1587,27 @@
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->S()V
+    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->R()V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->Z()V
+    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->X()V
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->W()V
+    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->V()V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->U()V
+    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->T()V
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->X()V
+    invoke-virtual {p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->W()V
 
     .line 28
     .line 29
@@ -1764,15 +1705,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public declared-synchronized K()V
@@ -1824,7 +1756,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final declared-synchronized L()V
@@ -1883,7 +1814,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public M()Landroid/bluetooth/BluetoothGatt;
@@ -1914,7 +1844,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final N(I)I
@@ -1961,7 +1890,7 @@
     return p1
 .end method
 
-.method public O()Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;
+.method public O()Ljava/lang/String;
     .locals 1
 
     .line 1
@@ -1969,38 +1898,7 @@
 
     .line 2
     .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public P()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->l:Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0}, Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;->d()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/example/sy_bluetooth_plugin/ble/data/BleDevice;->f()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -2024,18 +1922,17 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public Q()Lp7/c;
+.method public P()Lcom/example/sy_bluetooth_plugin/ble/bluetooth/c;
     .locals 1
 
     .line 1
-    new-instance v0, Lp7/c;
+    new-instance v0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/c;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lp7/c;-><init>(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)V
+    invoke-direct {v0, p0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/c;-><init>(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)V
 
     .line 4
     .line 5
@@ -2057,10 +1954,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public declared-synchronized R()Z
+.method public declared-synchronized Q()Z
     .locals 4
 
     .line 1
@@ -2158,7 +2054,7 @@
     move-result-object v2
 
     .line 48
-    invoke-static {v2}, Lu7/a;->c(Ljava/lang/String;)V
+    invoke-static {v2}, Lr1/a;->c(Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -2223,7 +2119,7 @@
     move-result-object v2
 
     .line 77
-    invoke-static {v2}, Lu7/a;->c(Ljava/lang/String;)V
+    invoke-static {v2}, Lr1/a;->c(Ljava/lang/String;)V
 
     .line 78
     .line 79
@@ -2264,18 +2160,9 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public declared-synchronized S()V
+.method public declared-synchronized R()V
     .locals 1
 
     .line 1
@@ -2286,7 +2173,7 @@
 
     .line 3
     :try_start_0
-    iput-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->a:Lq7/b;
+    iput-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->a:Ln1/b;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2322,10 +2209,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public declared-synchronized T(Ljava/lang/String;)V
+.method public declared-synchronized S(Ljava/lang/String;)V
     .locals 1
 
     .line 1
@@ -2389,10 +2275,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public declared-synchronized U()V
+.method public declared-synchronized T()V
     .locals 1
 
     .line 1
@@ -2403,7 +2288,7 @@
 
     .line 3
     :try_start_0
-    iput-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->d:Lq7/d;
+    iput-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->d:Ln1/d;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2439,10 +2324,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public declared-synchronized V(Ljava/lang/String;)V
+.method public declared-synchronized U(Ljava/lang/String;)V
     .locals 1
 
     .line 1
@@ -2506,7 +2390,55 @@
     .line 22
     .line 23
     .line 24
-    .line 25
+.end method
+
+.method public declared-synchronized V()V
+    .locals 1
+
+    .line 1
+    monitor-enter p0
+
+    .line 2
+    const/4 v0, 0x0
+
+    .line 3
+    :try_start_0
+    iput-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->c:Ln1/f;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 4
+    .line 5
+    monitor-exit p0
+
+    .line 6
+    return-void
+
+    .line 7
+    :catchall_0
+    move-exception v0
+
+    .line 8
+    :try_start_1
+    monitor-exit p0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 9
+    throw v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized W()V
@@ -2520,7 +2452,7 @@
 
     .line 3
     :try_start_0
-    iput-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->c:Lq7/f;
+    iput-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->e:Ln1/g;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2556,7 +2488,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public declared-synchronized X()V
@@ -2570,7 +2501,7 @@
 
     .line 3
     :try_start_0
-    iput-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->e:Lq7/g;
+    iput-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->b:Ln1/i;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2606,194 +2537,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public declared-synchronized Y(Ljava/lang/String;)V
-    .locals 1
-
-    .line 1
-    monitor-enter p0
-
-    .line 2
-    :try_start_0
-    iget-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->i:Ljava/util/HashMap;
-
-    .line 3
-    .line 4
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
-
-    .line 5
-    .line 6
-    .line 7
-    move-result v0
-
-    .line 8
-    if-eqz v0, :cond_0
-
-    .line 9
-    .line 10
-    iget-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->i:Ljava/util/HashMap;
-
-    .line 11
-    .line 12
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 13
-    .line 14
-    .line 15
-    goto :goto_0
-
-    .line 16
-    :catchall_0
-    move-exception p1
-
-    .line 17
-    goto :goto_1
-
-    .line 18
-    :cond_0
-    :goto_0
-    monitor-exit p0
-
-    .line 19
-    return-void
-
-    .line 20
-    :goto_1
-    :try_start_1
-    monitor-exit p0
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 21
-    throw p1
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public declared-synchronized Z()V
-    .locals 1
-
-    .line 1
-    monitor-enter p0
-
-    .line 2
-    const/4 v0, 0x0
-
-    .line 3
-    :try_start_0
-    iput-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->b:Lq7/i;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 4
-    .line 5
-    monitor-exit p0
-
-    .line 6
-    return-void
-
-    .line 7
-    :catchall_0
-    move-exception v0
-
-    .line 8
-    :try_start_1
-    monitor-exit p0
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 9
-    throw v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public declared-synchronized a0(Ljava/lang/String;)V
-    .locals 1
-
-    .line 1
-    monitor-enter p0
-
-    .line 2
-    :try_start_0
-    iget-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->h:Ljava/util/HashMap;
-
-    .line 3
-    .line 4
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
-
-    .line 5
-    .line 6
-    .line 7
-    move-result v0
-
-    .line 8
-    if-eqz v0, :cond_0
-
-    .line 9
-    .line 10
-    iget-object v0, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->h:Ljava/util/HashMap;
-
-    .line 11
-    .line 12
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 13
-    .line 14
-    .line 15
-    goto :goto_0
-
-    .line 16
-    :catchall_0
-    move-exception p1
-
-    .line 17
-    goto :goto_1
-
-    .line 18
-    :cond_0
-    :goto_0
-    monitor-exit p0
-
-    .line 19
-    return-void
-
-    .line 20
-    :goto_1
-    :try_start_1
-    monitor-exit p0
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_0
-
-    .line 21
-    throw p1
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public declared-synchronized w(Lq7/b;)V
+.method public declared-synchronized w(Ln1/b;)V
     .locals 0
 
     .line 1
@@ -2801,7 +2547,7 @@
 
     .line 2
     :try_start_0
-    iput-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->a:Lq7/b;
+    iput-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->a:Ln1/b;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2840,10 +2586,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public declared-synchronized x(Ljava/lang/String;Lq7/c;)V
+.method public declared-synchronized x(Ljava/lang/String;Ln1/c;)V
     .locals 1
 
     .line 1
@@ -2928,14 +2673,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public declared-synchronized y(Lq7/d;)V
+.method public declared-synchronized y(Ln1/d;)V
     .locals 0
 
     .line 1
@@ -2943,7 +2683,7 @@
 
     .line 2
     :try_start_0
-    iput-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->d:Lq7/d;
+    iput-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->d:Ln1/d;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2982,10 +2722,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public declared-synchronized z(Ljava/lang/String;Lq7/e;)V
+.method public declared-synchronized z(Ljava/lang/String;Ln1/e;)V
     .locals 1
 
     .line 1
@@ -3070,9 +2809,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

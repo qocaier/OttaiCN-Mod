@@ -44,7 +44,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic A(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -89,7 +88,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic A0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -122,7 +120,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic A1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -169,7 +166,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic B(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -202,7 +198,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic B0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -235,7 +230,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic B1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -282,7 +276,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic C(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -353,11 +346,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic C0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -486,8 +474,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic C1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -520,7 +506,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic D(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -567,7 +552,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic D0(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -638,11 +622,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic D1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -675,7 +654,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic E(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -708,7 +686,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic E0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -741,7 +718,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic E1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -774,7 +750,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic F(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -821,7 +796,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic F0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -854,7 +828,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic F1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -887,7 +860,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic G(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -932,7 +904,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic G0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -1071,8 +1042,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic G1(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -1143,11 +1112,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic H(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -1194,7 +1158,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic H0(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -1265,22 +1228,17 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic H1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
     .locals 2
 
     .line 1
-    new-instance v0, Lra/w1;
+    new-instance v0, Lcom/google/android/material/color/utilities/w1;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/w1;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/w1;-><init>()V
 
     .line 4
     .line 5
@@ -1314,7 +1272,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic I(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -1347,7 +1304,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic I0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -1380,7 +1336,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic I1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -1429,7 +1384,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic J(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -1462,7 +1416,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic J0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -1495,7 +1448,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic J1(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -1566,11 +1518,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic K(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -1603,7 +1550,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic K0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -1650,7 +1596,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic K1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -1683,7 +1628,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic L(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -1754,11 +1698,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic L0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -1807,7 +1746,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic L1(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -1878,11 +1816,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic M(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -1915,7 +1848,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic M0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -1952,7 +1884,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic M1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -1985,7 +1916,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic N(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -2034,7 +1964,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic N0(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -2105,11 +2034,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic N1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -2158,7 +2082,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic O(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -2205,7 +2128,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic O0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -2252,7 +2174,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic O1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -2383,8 +2304,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic P(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -2417,7 +2336,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic P0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -2464,7 +2382,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic P1(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -2880,54 +2797,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public static synthetic Q(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -2960,7 +2829,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic Q0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -3007,7 +2875,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic Q1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -3052,7 +2919,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic R(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -3101,7 +2967,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic R0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -3259,8 +3124,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic R1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -3293,7 +3156,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic S(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -3326,7 +3188,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic S0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -3373,7 +3234,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic S1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -3418,7 +3278,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic T(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/ToneDeltaConstraint;
@@ -3507,11 +3366,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic T0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -3558,7 +3412,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic T1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -3591,7 +3444,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic U(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -3638,7 +3490,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic U0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -3685,7 +3536,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic U1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -3732,7 +3582,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic V(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -3769,7 +3618,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic V0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -3802,7 +3650,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic V1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -3835,7 +3682,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic W(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -3868,7 +3714,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic W0(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -3939,11 +3784,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic X(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -3976,7 +3816,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic X0(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -4392,65 +4231,17 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public static synthetic Y(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
     .locals 2
 
     .line 1
-    new-instance v0, Lra/h2;
+    new-instance v0, Lcom/google/android/material/color/utilities/h2;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/h2;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/h2;-><init>()V
 
     .line 4
     .line 5
@@ -4484,7 +4275,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic Y0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -4623,8 +4413,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic Z(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -4673,7 +4461,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic Z0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -4710,7 +4497,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic a(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -4743,7 +4529,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic a0(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/ToneDeltaConstraint;
@@ -4832,11 +4617,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic a1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -4883,7 +4663,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic b(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -4916,7 +4695,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic b0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -4963,7 +4741,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic b1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -4996,7 +4773,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic c(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -5123,8 +4899,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic c0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -5157,7 +4931,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic c1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -5204,7 +4977,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic d(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -5275,11 +5047,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic d0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -5312,7 +5079,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic d1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -5345,7 +5111,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic e(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -5392,7 +5157,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic e0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -5425,7 +5189,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic e1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -5472,7 +5235,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic f(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -5505,7 +5267,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic f0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -5552,7 +5313,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic f1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -5691,8 +5451,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static findDesiredChromaByTone(DDDZ)D
@@ -6051,6 +5809,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static synthetic g(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -6083,7 +5857,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic g0(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -6154,11 +5927,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic g1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -6191,7 +5959,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic h(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -6262,11 +6029,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic h0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -6299,7 +6061,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic h1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -6332,7 +6093,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic i(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -6365,7 +6125,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic i0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -6398,7 +6157,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic i1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -6431,7 +6189,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static isFidelity(Lcom/google/android/material/color/utilities/DynamicScheme;)Z
@@ -6483,7 +6240,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static isMonochrome(Lcom/google/android/material/color/utilities/DynamicScheme;)Z
@@ -6527,7 +6283,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic j(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -6598,11 +6353,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic j0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -6649,7 +6399,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic j1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -6682,7 +6431,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic k(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -6753,11 +6501,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic k0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -6804,7 +6547,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic k1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -6943,8 +6685,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic l(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -6977,7 +6717,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic l0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -7024,7 +6763,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic l1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -7071,7 +6809,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic m(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -7104,7 +6841,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic m0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -7149,7 +6885,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic m1(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -7220,11 +6955,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic n(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -7261,7 +6991,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic n0(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/ToneDeltaConstraint;
@@ -7350,11 +7079,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic n1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -7401,7 +7125,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic o(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -7438,7 +7161,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic o0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -7471,7 +7193,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic o1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -7504,7 +7225,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic p(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -7537,7 +7257,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic p0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -7584,7 +7303,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic p1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -7617,7 +7335,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static performAlbers(Lcom/google/android/material/color/utilities/Hct;Lcom/google/android/material/color/utilities/DynamicScheme;)D
@@ -7731,11 +7448,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic q(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -7917,8 +7629,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic q0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -7965,7 +7675,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic q1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -7998,7 +7707,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic r(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -8069,11 +7777,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic r0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -8106,7 +7809,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic r1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -8139,7 +7841,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic s(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -8172,7 +7873,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic s0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -8205,7 +7905,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic s1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -8238,7 +7937,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic t(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -8285,7 +7983,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic t0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -8318,7 +8015,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic t1(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -8351,7 +8047,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic u(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -8384,7 +8079,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic u0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -8569,8 +8263,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic u1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -8697,8 +8389,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic v(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -8731,7 +8421,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic v0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -8778,7 +8467,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic v1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -8825,7 +8513,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static viewingConditionsForAlbers(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/ViewingConditions;
@@ -8872,7 +8559,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic w(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -8919,7 +8605,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic w0(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -8952,7 +8637,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic w1(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -8999,7 +8683,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic x(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -9032,7 +8715,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic x0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -9079,7 +8761,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic x1(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -9199,11 +8880,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic y(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -9274,11 +8950,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic y0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -9407,8 +9078,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic y1(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -9479,11 +9148,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic z(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -9532,7 +9196,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic z0(Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -9579,7 +9242,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic z1(Lcom/google/android/material/color/utilities/MaterialDynamicColors;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/ToneDeltaConstraint;
@@ -9668,11 +9330,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -9683,20 +9340,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/g3;
+    new-instance v0, Lcom/google/android/material/color/utilities/g3;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/g3;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/g3;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/h3;
+    new-instance v1, Lcom/google/android/material/color/utilities/h3;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/h3;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/h3;-><init>()V
 
     .line 9
     .line 10
@@ -9717,7 +9374,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public controlActivated()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -9726,20 +9382,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/c2;
+    new-instance v0, Lcom/google/android/material/color/utilities/c2;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/c2;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/c2;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/d2;
+    new-instance v1, Lcom/google/android/material/color/utilities/d2;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/d2;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/d2;-><init>()V
 
     .line 9
     .line 10
@@ -9762,7 +9418,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public controlHighlight()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -9775,56 +9430,56 @@
 
     .line 2
     .line 3
-    new-instance v1, Lra/x2;
+    new-instance v1, Lcom/google/android/material/color/utilities/x2;
 
     .line 4
     .line 5
-    invoke-direct {v1}, Lra/x2;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/x2;-><init>()V
 
     .line 6
     .line 7
     .line 8
-    new-instance v2, Lra/y2;
+    new-instance v2, Lcom/google/android/material/color/utilities/y2;
 
     .line 9
     .line 10
-    invoke-direct {v2}, Lra/y2;-><init>()V
+    invoke-direct {v2}, Lcom/google/android/material/color/utilities/y2;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    new-instance v3, Lra/z2;
+    new-instance v3, Lcom/google/android/material/color/utilities/z2;
 
     .line 14
     .line 15
-    invoke-direct {v3}, Lra/z2;-><init>()V
+    invoke-direct {v3}, Lcom/google/android/material/color/utilities/z2;-><init>()V
 
     .line 16
     .line 17
     .line 18
-    new-instance v4, Lra/a3;
+    new-instance v4, Lcom/google/android/material/color/utilities/a3;
 
     .line 19
     .line 20
-    invoke-direct {v4}, Lra/a3;-><init>()V
+    invoke-direct {v4}, Lcom/google/android/material/color/utilities/a3;-><init>()V
 
     .line 21
     .line 22
     .line 23
-    new-instance v6, Lra/c3;
+    new-instance v6, Lcom/google/android/material/color/utilities/c3;
 
     .line 24
     .line 25
-    invoke-direct {v6}, Lra/c3;-><init>()V
+    invoke-direct {v6}, Lcom/google/android/material/color/utilities/c3;-><init>()V
 
     .line 26
     .line 27
     .line 28
-    new-instance v7, Lra/d3;
+    new-instance v7, Lcom/google/android/material/color/utilities/d3;
 
     .line 29
     .line 30
-    invoke-direct {v7}, Lra/d3;-><init>()V
+    invoke-direct {v7}, Lcom/google/android/material/color/utilities/d3;-><init>()V
 
     .line 31
     .line 32
@@ -9903,15 +9558,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public controlNormal()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -9920,20 +9566,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/a2;
+    new-instance v0, Lcom/google/android/material/color/utilities/a2;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/a2;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/a2;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/b2;
+    new-instance v1, Lcom/google/android/material/color/utilities/b2;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/b2;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/b2;-><init>()V
 
     .line 9
     .line 10
@@ -9954,7 +9600,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public error()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -9963,38 +9608,38 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/r0;
+    new-instance v0, Lcom/google/android/material/color/utilities/r0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/r0;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/r0;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/s0;
+    new-instance v1, Lcom/google/android/material/color/utilities/s0;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/s0;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/s0;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
     .line 16
-    new-instance v3, Lra/t0;
+    new-instance v3, Lcom/google/android/material/color/utilities/t0;
 
     .line 17
     .line 18
-    invoke-direct {v3, p0}, Lra/t0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v3, p0}, Lcom/google/android/material/color/utilities/t0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 19
     .line 20
@@ -10083,15 +9728,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public errorContainer()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10100,29 +9736,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/j1;
+    new-instance v0, Lcom/google/android/material/color/utilities/j1;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/j1;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/j1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/k1;
+    new-instance v1, Lcom/google/android/material/color/utilities/k1;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/k1;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/k1;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10138,7 +9774,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public highestSurface(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10190,7 +9825,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public inverseOnSurface()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10199,29 +9833,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/d0;
+    new-instance v0, Lcom/google/android/material/color/utilities/d0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/d0;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/d0;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/f0;
+    new-instance v1, Lcom/google/android/material/color/utilities/f0;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/f0;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/f0;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/g0;
+    new-instance v2, Lcom/google/android/material/color/utilities/g0;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/g0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/g0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10237,7 +9871,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public inversePrimary()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10246,29 +9879,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/v3;
+    new-instance v0, Lcom/google/android/material/color/utilities/v3;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/v3;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/v3;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/w3;
+    new-instance v1, Lcom/google/android/material/color/utilities/w3;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/w3;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/w3;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/y3;
+    new-instance v2, Lcom/google/android/material/color/utilities/y3;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/y3;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/y3;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10284,7 +9917,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public inverseSurface()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10293,20 +9925,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/c1;
+    new-instance v0, Lcom/google/android/material/color/utilities/c1;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/c1;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/c1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/d1;
+    new-instance v1, Lcom/google/android/material/color/utilities/d1;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/d1;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/d1;-><init>()V
 
     .line 9
     .line 10
@@ -10327,7 +9959,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public neutralPaletteKeyColor()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10336,20 +9967,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/e0;
+    new-instance v0, Lcom/google/android/material/color/utilities/e0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/e0;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/e0;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/p0;
+    new-instance v1, Lcom/google/android/material/color/utilities/p0;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/p0;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/p0;-><init>()V
 
     .line 9
     .line 10
@@ -10370,7 +10001,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public neutralVariantPaletteKeyColor()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10379,20 +10009,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/u4;
+    new-instance v0, Lcom/google/android/material/color/utilities/u4;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/u4;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/u4;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/v4;
+    new-instance v1, Lcom/google/android/material/color/utilities/v4;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/v4;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/v4;-><init>()V
 
     .line 9
     .line 10
@@ -10413,7 +10043,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onBackground()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10422,29 +10051,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/k3;
+    new-instance v0, Lcom/google/android/material/color/utilities/k3;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/k3;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/k3;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/l3;
+    new-instance v1, Lcom/google/android/material/color/utilities/l3;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/l3;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/l3;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/n3;
+    new-instance v2, Lcom/google/android/material/color/utilities/n3;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/n3;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/n3;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10460,7 +10089,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onError()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10469,29 +10097,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/g4;
+    new-instance v0, Lcom/google/android/material/color/utilities/g4;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/g4;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/g4;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/h4;
+    new-instance v1, Lcom/google/android/material/color/utilities/h4;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/h4;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/h4;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/j4;
+    new-instance v2, Lcom/google/android/material/color/utilities/j4;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/j4;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/j4;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10507,7 +10135,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onErrorContainer()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10516,29 +10143,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/e1;
+    new-instance v0, Lcom/google/android/material/color/utilities/e1;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/e1;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/e1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/f1;
+    new-instance v1, Lcom/google/android/material/color/utilities/f1;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/f1;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/f1;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/g1;
+    new-instance v2, Lcom/google/android/material/color/utilities/g1;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/g1;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/g1;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10554,7 +10181,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onPrimary()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10563,29 +10189,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/s3;
+    new-instance v0, Lcom/google/android/material/color/utilities/s3;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/s3;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/s3;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/t3;
+    new-instance v1, Lcom/google/android/material/color/utilities/t3;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/t3;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/t3;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/u3;
+    new-instance v2, Lcom/google/android/material/color/utilities/u3;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/u3;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/u3;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10601,7 +10227,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onPrimaryContainer()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10610,29 +10235,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/m4;
+    new-instance v0, Lcom/google/android/material/color/utilities/m4;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/m4;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/m4;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/n4;
+    new-instance v1, Lcom/google/android/material/color/utilities/n4;
 
     .line 7
     .line 8
-    invoke-direct {v1, p0}, Lra/n4;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/color/utilities/n4;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/o4;
+    new-instance v2, Lcom/google/android/material/color/utilities/o4;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/o4;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/o4;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10650,7 +10275,6 @@
     .line 21
     return-object v0
     .line 22
-    .line 23
 .end method
 
 .method public onPrimaryFixed()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10659,29 +10283,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/n0;
+    new-instance v0, Lcom/google/android/material/color/utilities/n0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/n0;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/n0;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/o0;
+    new-instance v1, Lcom/google/android/material/color/utilities/o0;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/o0;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/o0;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/q0;
+    new-instance v2, Lcom/google/android/material/color/utilities/q0;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/q0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/q0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10697,7 +10321,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onPrimaryFixedVariant()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10706,29 +10329,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/b4;
+    new-instance v0, Lcom/google/android/material/color/utilities/b4;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/b4;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/b4;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/c4;
+    new-instance v1, Lcom/google/android/material/color/utilities/c4;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/c4;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/c4;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/d4;
+    new-instance v2, Lcom/google/android/material/color/utilities/d4;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/d4;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/d4;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10744,7 +10367,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onSecondary()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10753,29 +10375,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/j5;
+    new-instance v0, Lcom/google/android/material/color/utilities/j5;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/j5;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/j5;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/k5;
+    new-instance v1, Lcom/google/android/material/color/utilities/k5;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/k5;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/k5;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/l5;
+    new-instance v2, Lcom/google/android/material/color/utilities/l5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/l5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/l5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10791,7 +10413,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onSecondaryContainer()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10800,29 +10421,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/k0;
+    new-instance v0, Lcom/google/android/material/color/utilities/k0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/k0;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/k0;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/l0;
+    new-instance v1, Lcom/google/android/material/color/utilities/l0;
 
     .line 7
     .line 8
-    invoke-direct {v1, p0}, Lra/l0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/color/utilities/l0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/m0;
+    new-instance v2, Lcom/google/android/material/color/utilities/m0;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/m0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/m0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10838,7 +10459,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onSecondaryFixed()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10847,29 +10467,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/a0;
+    new-instance v0, Lcom/google/android/material/color/utilities/a0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/a0;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/a0;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/b0;
+    new-instance v1, Lcom/google/android/material/color/utilities/b0;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/b0;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/b0;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/c0;
+    new-instance v2, Lcom/google/android/material/color/utilities/c0;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/c0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/c0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10885,7 +10505,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onSecondaryFixedVariant()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10894,29 +10513,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/t1;
+    new-instance v0, Lcom/google/android/material/color/utilities/t1;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/t1;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/t1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/u1;
+    new-instance v1, Lcom/google/android/material/color/utilities/u1;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/u1;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/u1;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/v1;
+    new-instance v2, Lcom/google/android/material/color/utilities/v1;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/v1;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/v1;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10932,7 +10551,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onSurface()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10941,29 +10559,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/t4;
+    new-instance v0, Lcom/google/android/material/color/utilities/t4;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/t4;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/t4;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/e5;
+    new-instance v1, Lcom/google/android/material/color/utilities/e5;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/e5;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/e5;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -10979,7 +10597,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onSurfaceVariant()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -10988,29 +10605,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/y0;
+    new-instance v0, Lcom/google/android/material/color/utilities/y0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/y0;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/y0;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/z0;
+    new-instance v1, Lcom/google/android/material/color/utilities/z0;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/z0;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/z0;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/b1;
+    new-instance v2, Lcom/google/android/material/color/utilities/b1;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/b1;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/b1;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11026,7 +10643,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onTertiary()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11035,29 +10651,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/m3;
+    new-instance v0, Lcom/google/android/material/color/utilities/m3;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/m3;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/m3;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/x3;
+    new-instance v1, Lcom/google/android/material/color/utilities/x3;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/x3;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/x3;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/i4;
+    new-instance v2, Lcom/google/android/material/color/utilities/i4;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/i4;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/i4;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11073,7 +10689,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onTertiaryContainer()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11082,29 +10697,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/h0;
+    new-instance v0, Lcom/google/android/material/color/utilities/h0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/h0;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/h0;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/i0;
+    new-instance v1, Lcom/google/android/material/color/utilities/i0;
 
     .line 7
     .line 8
-    invoke-direct {v1, p0}, Lra/i0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/color/utilities/i0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/j0;
+    new-instance v2, Lcom/google/android/material/color/utilities/j0;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/j0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/j0;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11120,7 +10735,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onTertiaryFixed()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11129,29 +10743,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/s2;
+    new-instance v0, Lcom/google/android/material/color/utilities/s2;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/s2;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/s2;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/t2;
+    new-instance v1, Lcom/google/android/material/color/utilities/t2;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/t2;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/t2;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/u2;
+    new-instance v2, Lcom/google/android/material/color/utilities/u2;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/u2;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/u2;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11167,7 +10781,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onTertiaryFixedVariant()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11176,29 +10789,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/i2;
+    new-instance v0, Lcom/google/android/material/color/utilities/i2;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/i2;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/i2;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/j2;
+    new-instance v1, Lcom/google/android/material/color/utilities/j2;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/j2;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/j2;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/k2;
+    new-instance v2, Lcom/google/android/material/color/utilities/k2;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/k2;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/k2;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11214,7 +10827,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public outline()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11223,29 +10835,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/w;
+    new-instance v0, Lcom/google/android/material/color/utilities/w;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/w;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/w;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/x;
+    new-instance v1, Lcom/google/android/material/color/utilities/x;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/x;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/x;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11261,7 +10873,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public outlineVariant()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11270,29 +10881,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/o3;
+    new-instance v0, Lcom/google/android/material/color/utilities/o3;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/o3;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/o3;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/p3;
+    new-instance v1, Lcom/google/android/material/color/utilities/p3;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/p3;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/p3;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11308,7 +10919,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public primary()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11317,38 +10927,38 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/o1;
+    new-instance v0, Lcom/google/android/material/color/utilities/o1;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/o1;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/o1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/p1;
+    new-instance v1, Lcom/google/android/material/color/utilities/p1;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/p1;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/p1;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
     .line 16
-    new-instance v3, Lra/q1;
+    new-instance v3, Lcom/google/android/material/color/utilities/q1;
 
     .line 17
     .line 18
-    invoke-direct {v3, p0}, Lra/q1;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v3, p0}, Lcom/google/android/material/color/utilities/q1;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 19
     .line 20
@@ -11437,15 +11047,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public primaryContainer()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11454,29 +11055,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/e3;
+    new-instance v0, Lcom/google/android/material/color/utilities/e3;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/e3;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/e3;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/f3;
+    new-instance v1, Lcom/google/android/material/color/utilities/f3;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/f3;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/f3;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11492,7 +11093,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public primaryFixed()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11501,29 +11101,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/c5;
+    new-instance v0, Lcom/google/android/material/color/utilities/c5;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/c5;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/c5;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/d5;
+    new-instance v1, Lcom/google/android/material/color/utilities/d5;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/d5;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/d5;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11539,7 +11139,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public primaryFixedDim()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11548,29 +11147,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/f5;
+    new-instance v0, Lcom/google/android/material/color/utilities/f5;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/f5;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/f5;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/g5;
+    new-instance v1, Lcom/google/android/material/color/utilities/g5;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/g5;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/g5;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11586,7 +11185,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public primaryPaletteKeyColor()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11595,20 +11193,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/e2;
+    new-instance v0, Lcom/google/android/material/color/utilities/e2;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/e2;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/e2;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/g2;
+    new-instance v1, Lcom/google/android/material/color/utilities/g2;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/g2;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/g2;-><init>()V
 
     .line 9
     .line 10
@@ -11629,7 +11227,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public scrim()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11638,20 +11235,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/r1;
+    new-instance v0, Lcom/google/android/material/color/utilities/r1;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/r1;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/r1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/s1;
+    new-instance v1, Lcom/google/android/material/color/utilities/s1;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/s1;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/s1;-><init>()V
 
     .line 9
     .line 10
@@ -11672,7 +11269,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public secondary()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11681,38 +11277,38 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/m5;
+    new-instance v0, Lcom/google/android/material/color/utilities/m5;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/m5;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/m5;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/n5;
+    new-instance v1, Lcom/google/android/material/color/utilities/n5;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/n5;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/n5;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
     .line 16
-    new-instance v3, Lra/o5;
+    new-instance v3, Lcom/google/android/material/color/utilities/o5;
 
     .line 17
     .line 18
-    invoke-direct {v3, p0}, Lra/o5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v3, p0}, Lcom/google/android/material/color/utilities/o5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 19
     .line 20
@@ -11801,15 +11397,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public secondaryContainer()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11818,29 +11405,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/p2;
+    new-instance v0, Lcom/google/android/material/color/utilities/p2;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/p2;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/p2;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/r2;
+    new-instance v1, Lcom/google/android/material/color/utilities/r2;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/r2;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/r2;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11856,7 +11443,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public secondaryFixed()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11865,29 +11451,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/z3;
+    new-instance v0, Lcom/google/android/material/color/utilities/z3;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/z3;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/z3;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/a4;
+    new-instance v1, Lcom/google/android/material/color/utilities/a4;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/a4;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/a4;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11903,7 +11489,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public secondaryFixedDim()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11912,29 +11497,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/p4;
+    new-instance v0, Lcom/google/android/material/color/utilities/p4;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/p4;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/p4;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/q4;
+    new-instance v1, Lcom/google/android/material/color/utilities/q4;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/q4;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/q4;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -11950,7 +11535,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public secondaryPaletteKeyColor()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -11959,20 +11543,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/l2;
+    new-instance v0, Lcom/google/android/material/color/utilities/l2;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/l2;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/l2;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/m2;
+    new-instance v1, Lcom/google/android/material/color/utilities/m2;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/m2;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/m2;-><init>()V
 
     .line 9
     .line 10
@@ -11993,7 +11577,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public shadow()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12002,20 +11585,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/y4;
+    new-instance v0, Lcom/google/android/material/color/utilities/y4;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/y4;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/y4;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/z4;
+    new-instance v1, Lcom/google/android/material/color/utilities/z4;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/z4;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/z4;-><init>()V
 
     .line 9
     .line 10
@@ -12036,7 +11619,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public surface()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12045,20 +11627,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/t;
+    new-instance v0, Lcom/google/android/material/color/utilities/t;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/t;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/t;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/f2;
+    new-instance v1, Lcom/google/android/material/color/utilities/f2;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/f2;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/f2;-><init>()V
 
     .line 9
     .line 10
@@ -12079,7 +11661,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public surfaceBright()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12088,20 +11669,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/q3;
+    new-instance v0, Lcom/google/android/material/color/utilities/q3;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/q3;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/q3;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/r3;
+    new-instance v1, Lcom/google/android/material/color/utilities/r3;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/r3;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/r3;-><init>()V
 
     .line 9
     .line 10
@@ -12122,7 +11703,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public surfaceContainer()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12131,20 +11711,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/w0;
+    new-instance v0, Lcom/google/android/material/color/utilities/w0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/w0;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/w0;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/x0;
+    new-instance v1, Lcom/google/android/material/color/utilities/x0;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/x0;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/x0;-><init>()V
 
     .line 9
     .line 10
@@ -12165,7 +11745,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public surfaceContainerHigh()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12174,20 +11753,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/i3;
+    new-instance v0, Lcom/google/android/material/color/utilities/i3;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/i3;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/i3;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/j3;
+    new-instance v1, Lcom/google/android/material/color/utilities/j3;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/j3;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/j3;-><init>()V
 
     .line 9
     .line 10
@@ -12208,7 +11787,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public surfaceContainerHighest()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12217,20 +11795,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/a5;
+    new-instance v0, Lcom/google/android/material/color/utilities/a5;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/a5;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/a5;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/b5;
+    new-instance v1, Lcom/google/android/material/color/utilities/b5;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/b5;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/b5;-><init>()V
 
     .line 9
     .line 10
@@ -12251,7 +11829,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public surfaceContainerLow()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12260,20 +11837,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/n2;
+    new-instance v0, Lcom/google/android/material/color/utilities/n2;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/n2;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/n2;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/o2;
+    new-instance v1, Lcom/google/android/material/color/utilities/o2;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/o2;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/o2;-><init>()V
 
     .line 9
     .line 10
@@ -12294,7 +11871,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public surfaceContainerLowest()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12303,20 +11879,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/u;
+    new-instance v0, Lcom/google/android/material/color/utilities/u;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/u;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/u;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/v;
+    new-instance v1, Lcom/google/android/material/color/utilities/v;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/v;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/v;-><init>()V
 
     .line 9
     .line 10
@@ -12337,7 +11913,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public surfaceDim()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12346,20 +11921,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/a1;
+    new-instance v0, Lcom/google/android/material/color/utilities/a1;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/a1;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/a1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/l1;
+    new-instance v1, Lcom/google/android/material/color/utilities/l1;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/l1;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/l1;-><init>()V
 
     .line 9
     .line 10
@@ -12380,7 +11955,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public surfaceTint()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12389,20 +11963,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/y;
+    new-instance v0, Lcom/google/android/material/color/utilities/y;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/y;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/y;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/z;
+    new-instance v1, Lcom/google/android/material/color/utilities/z;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/z;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/z;-><init>()V
 
     .line 9
     .line 10
@@ -12423,7 +11997,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public surfaceVariant()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12432,20 +12005,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/r4;
+    new-instance v0, Lcom/google/android/material/color/utilities/r4;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/r4;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/r4;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/s4;
+    new-instance v1, Lcom/google/android/material/color/utilities/s4;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/s4;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/s4;-><init>()V
 
     .line 9
     .line 10
@@ -12466,7 +12039,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public tertiary()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12475,38 +12047,38 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/x1;
+    new-instance v0, Lcom/google/android/material/color/utilities/x1;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/x1;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/x1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/y1;
+    new-instance v1, Lcom/google/android/material/color/utilities/y1;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/y1;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/y1;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
     .line 16
-    new-instance v3, Lra/z1;
+    new-instance v3, Lcom/google/android/material/color/utilities/z1;
 
     .line 17
     .line 18
-    invoke-direct {v3, p0}, Lra/z1;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v3, p0}, Lcom/google/android/material/color/utilities/z1;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 19
     .line 20
@@ -12595,15 +12167,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public tertiaryContainer()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12612,29 +12175,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/h5;
+    new-instance v0, Lcom/google/android/material/color/utilities/h5;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/h5;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/h5;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/i5;
+    new-instance v1, Lcom/google/android/material/color/utilities/i5;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/i5;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/i5;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -12650,7 +12213,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public tertiaryFixed()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12659,29 +12221,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/m1;
+    new-instance v0, Lcom/google/android/material/color/utilities/m1;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/m1;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/m1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/n1;
+    new-instance v1, Lcom/google/android/material/color/utilities/n1;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/n1;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/n1;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -12697,7 +12259,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public tertiaryFixedDim()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12706,29 +12267,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/e4;
+    new-instance v0, Lcom/google/android/material/color/utilities/e4;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/e4;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/e4;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/f4;
+    new-instance v1, Lcom/google/android/material/color/utilities/f4;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/f4;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/f4;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Lra/p5;
+    new-instance v2, Lcom/google/android/material/color/utilities/p5;
 
     .line 12
     .line 13
-    invoke-direct {v2, p0}, Lra/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/p5;-><init>(Lcom/google/android/material/color/utilities/MaterialDynamicColors;)V
 
     .line 14
     .line 15
@@ -12744,7 +12305,6 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public tertiaryPaletteKeyColor()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12753,20 +12313,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/v2;
+    new-instance v0, Lcom/google/android/material/color/utilities/v2;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/v2;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/v2;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/w2;
+    new-instance v1, Lcom/google/android/material/color/utilities/w2;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/w2;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/w2;-><init>()V
 
     .line 9
     .line 10
@@ -12787,7 +12347,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public textHintInverse()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12796,20 +12355,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/w4;
+    new-instance v0, Lcom/google/android/material/color/utilities/w4;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/w4;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/w4;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/x4;
+    new-instance v1, Lcom/google/android/material/color/utilities/x4;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/x4;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/x4;-><init>()V
 
     .line 9
     .line 10
@@ -12830,7 +12389,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public textPrimaryInverse()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12839,20 +12397,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/u0;
+    new-instance v0, Lcom/google/android/material/color/utilities/u0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/u0;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/u0;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/v0;
+    new-instance v1, Lcom/google/android/material/color/utilities/v0;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/v0;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/v0;-><init>()V
 
     .line 9
     .line 10
@@ -12873,7 +12431,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public textPrimaryInverseDisableOnly()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12882,20 +12439,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/k4;
+    new-instance v0, Lcom/google/android/material/color/utilities/k4;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/k4;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/k4;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/l4;
+    new-instance v1, Lcom/google/android/material/color/utilities/l4;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/l4;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/l4;-><init>()V
 
     .line 9
     .line 10
@@ -12916,7 +12473,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public textSecondaryAndTertiaryInverse()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12925,20 +12481,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/h1;
+    new-instance v0, Lcom/google/android/material/color/utilities/h1;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/h1;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/h1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/i1;
+    new-instance v1, Lcom/google/android/material/color/utilities/i1;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/i1;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/i1;-><init>()V
 
     .line 9
     .line 10
@@ -12959,7 +12515,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public textSecondaryAndTertiaryInverseDisabled()Lcom/google/android/material/color/utilities/DynamicColor;
@@ -12968,20 +12523,20 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lra/q2;
+    new-instance v0, Lcom/google/android/material/color/utilities/q2;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lra/q2;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/color/utilities/q2;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lra/b3;
+    new-instance v1, Lcom/google/android/material/color/utilities/b3;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Lra/b3;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/color/utilities/b3;-><init>()V
 
     .line 9
     .line 10
@@ -13002,5 +12557,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

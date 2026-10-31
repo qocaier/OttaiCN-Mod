@@ -16,31 +16,16 @@
 
 # static fields
 .field public static final Companion:Landroidx/lifecycle/AbstractSavedStateViewModelFactory$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final TAG_SAVED_STATE_HANDLE_CONTROLLER:Ljava/lang/String; = "androidx.lifecycle.savedstate.vm.tag"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field private defaultArgs:Landroid/os/Bundle;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private lifecycle:Landroidx/lifecycle/Lifecycle;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -51,7 +36,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/lifecycle/AbstractSavedStateViewModelFactory$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/AbstractSavedStateViewModelFactory$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->Companion:Landroidx/lifecycle/AbstractSavedStateViewModelFactory$Companion;
 
@@ -69,18 +54,10 @@
 
 .method public constructor <init>(Landroidx/savedstate/SavedStateRegistryOwner;Landroid/os/Bundle;)V
     .locals 1
-    .param p1    # Landroidx/savedstate/SavedStateRegistryOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/os/Bundle;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     const-string v0, "owner"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0}, Landroidx/lifecycle/ViewModelProvider$OnRequeryFactory;-><init>()V
@@ -121,11 +98,11 @@
     .line 8
     iget-object v0, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
 
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     iget-object v1, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->lifecycle:Landroidx/lifecycle/Lifecycle;
 
-    invoke-static {v1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     iget-object v2, p0, Landroidx/lifecycle/AbstractSavedStateViewModelFactory;->defaultArgs:Landroid/os/Bundle;
 
@@ -154,10 +131,6 @@
 # virtual methods
 .method public create(Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
     .locals 2
-    .param p1    # Ljava/lang/Class;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -168,12 +141,9 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "modelClass"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     invoke-virtual {p1}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
@@ -219,14 +189,6 @@
 
 .method public create(Ljava/lang/Class;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;
     .locals 2
-    .param p1    # Ljava/lang/Class;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/lifecycle/viewmodel/CreationExtras;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -239,16 +201,13 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "modelClass"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "extras"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object v0, Landroidx/lifecycle/ViewModelProvider$NewInstanceFactory;->VIEW_MODEL_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
@@ -299,18 +258,6 @@
 .end method
 
 .method public abstract create(Ljava/lang/String;Ljava/lang/Class;Landroidx/lifecycle/SavedStateHandle;)Landroidx/lifecycle/ViewModel;
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Class;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroidx/lifecycle/SavedStateHandle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -323,17 +270,10 @@
             ")TT;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public onRequery(Landroidx/lifecycle/ViewModel;)V
     .locals 2
-    .param p1    # Landroidx/lifecycle/ViewModel;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
@@ -345,7 +285,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -358,7 +298,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 11
     .line 12
@@ -367,7 +307,7 @@
 
     .line 14
     .line 15
-    invoke-static {v1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 16
     .line 17

@@ -19,14 +19,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "context"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;-><init>(Landroid/content/Context;)V
@@ -44,16 +36,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs"
-        }
-    .end annotation
 
     .line 4
     invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/widget/ConstraintHelper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -74,18 +56,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs",
-            "defStyleAttr"
-        }
-    .end annotation
 
     .line 8
     invoke-direct {p0, p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintHelper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -132,18 +102,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public init(Landroid/util/AttributeSet;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "attrs"
-        }
-    .end annotation
 
     .line 1
     invoke-super {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;->init(Landroid/util/AttributeSet;)V
@@ -288,6 +251,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public isDecorator()Z
@@ -324,6 +288,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isUsedOnShow()Z
@@ -352,63 +317,29 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onFinishedMotionScene(Landroidx/constraintlayout/motion/widget/MotionLayout;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "motionLayout"
-        }
-    .end annotation
 
     return-void
 .end method
 
 .method public onPostDraw(Landroid/graphics/Canvas;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "canvas"
-        }
-    .end annotation
 
     return-void
 .end method
 
 .method public onPreDraw(Landroid/graphics/Canvas;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "canvas"
-        }
-    .end annotation
 
     return-void
 .end method
 
 .method public onPreSetup(Landroidx/constraintlayout/motion/widget/MotionLayout;Ljava/util/HashMap;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "motionLayout",
-            "controllerMap"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -425,88 +356,30 @@
 
 .method public onTransitionChange(Landroidx/constraintlayout/motion/widget/MotionLayout;IIF)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "motionLayout",
-            "startId",
-            "endId",
-            "progress"
-        }
-    .end annotation
 
     return-void
 .end method
 
 .method public onTransitionCompleted(Landroidx/constraintlayout/motion/widget/MotionLayout;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "motionLayout",
-            "currentId"
-        }
-    .end annotation
 
     return-void
 .end method
 
 .method public onTransitionStarted(Landroidx/constraintlayout/motion/widget/MotionLayout;II)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "motionLayout",
-            "startId",
-            "endId"
-        }
-    .end annotation
 
     return-void
 .end method
 
 .method public onTransitionTrigger(Landroidx/constraintlayout/motion/widget/MotionLayout;IZF)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "motionLayout",
-            "triggerId",
-            "positive",
-            "progress"
-        }
-    .end annotation
 
     return-void
 .end method
 
 .method public setProgress(F)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "progress"
-        }
-    .end annotation
 
     .line 2
     iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionHelper;->mProgress:F
@@ -592,16 +465,6 @@
 
 .method public setProgress(Landroid/view/View;F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "view",
-            "progress"
-        }
-    .end annotation
 
     .line 1
     return-void

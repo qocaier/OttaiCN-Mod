@@ -218,6 +218,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(Ljava/util/List;Landroidx/camera/core/impl/Config;ILandroid/util/Range;Ljava/util/List;ZLandroidx/camera/core/impl/TagBundle;Landroidx/camera/core/impl/CameraCaptureResult;)V
@@ -909,6 +911,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static defaultEmptyCaptureConfig()Landroidx/camera/core/impl/CaptureConfig;
@@ -945,6 +948,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -986,6 +990,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraCaptureResult()Landroidx/camera/core/impl/CameraCaptureResult;
@@ -1016,6 +1021,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExpectedFrameRateRange()Landroid/util/Range;
@@ -1067,6 +1073,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImplementationOptions()Landroidx/camera/core/impl/Config;
@@ -1097,6 +1104,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurfaces()Ljava/util/List;
@@ -1140,6 +1148,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTagBundle()Landroidx/camera/core/impl/TagBundle;
@@ -1170,6 +1179,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTemplateType()I
@@ -1198,6 +1208,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isUseRepeatingSurface()Z
@@ -1226,4 +1237,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

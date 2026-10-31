@@ -49,6 +49,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Ljava/util/concurrent/Executor;Landroidx/webkit/WebViewRenderProcessClient;)V
@@ -243,6 +244,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic b(Landroidx/webkit/WebViewRenderProcessClient;Landroid/webkit/WebView;Landroidx/webkit/WebViewRenderProcess;)V
@@ -364,6 +368,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -396,6 +403,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWebViewRenderProcessClient()Landroidx/webkit/WebViewRenderProcessClient;
@@ -426,6 +434,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final onRendererResponsive(Landroid/webkit/WebView;Ljava/lang/reflect/InvocationHandler;)V
@@ -469,11 +478,11 @@
 
     .line 15
     :cond_0
-    new-instance v2, Ly1/h0;
+    new-instance v2, Landroidx/webkit/internal/h0;
 
     .line 16
     .line 17
-    invoke-direct {v2, v0, p1, p2}, Ly1/h0;-><init>(Landroidx/webkit/WebViewRenderProcessClient;Landroid/webkit/WebView;Landroidx/webkit/WebViewRenderProcess;)V
+    invoke-direct {v2, v0, p1, p2}, Landroidx/webkit/internal/h0;-><init>(Landroidx/webkit/WebViewRenderProcessClient;Landroid/webkit/WebView;Landroidx/webkit/WebViewRenderProcess;)V
 
     .line 18
     .line 19
@@ -552,11 +561,11 @@
 
     .line 15
     :cond_0
-    new-instance v2, Ly1/i0;
+    new-instance v2, Landroidx/webkit/internal/i0;
 
     .line 16
     .line 17
-    invoke-direct {v2, v0, p1, p2}, Ly1/i0;-><init>(Landroidx/webkit/WebViewRenderProcessClient;Landroid/webkit/WebView;Landroidx/webkit/WebViewRenderProcess;)V
+    invoke-direct {v2, v0, p1, p2}, Landroidx/webkit/internal/i0;-><init>(Landroidx/webkit/WebViewRenderProcessClient;Landroid/webkit/WebView;Landroidx/webkit/WebViewRenderProcess;)V
 
     .line 18
     .line 19

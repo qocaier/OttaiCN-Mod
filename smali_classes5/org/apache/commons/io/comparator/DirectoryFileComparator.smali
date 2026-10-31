@@ -1,5 +1,5 @@
 .class public Lorg/apache/commons/io/comparator/DirectoryFileComparator;
-.super Lxo/a;
+.super Lorg/apache/commons/io/comparator/a;
 .source "SourceFile"
 
 # interfaces
@@ -26,10 +26,6 @@
         }
     .end annotation
 .end field
-
-.field public static final a:I = 0x2
-
-.field public static final b:I = 0x1
 
 .field private static final serialVersionUID:J = 0x41c131137315f2bL
 
@@ -74,13 +70,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lxo/a;-><init>()V
+    invoke-direct {p0}, Lorg/apache/commons/io/comparator/a;-><init>()V
 
     .line 2
     .line 3
@@ -105,6 +128,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
@@ -150,6 +200,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public compare(Ljava/io/File;Ljava/io/File;)I
@@ -188,7 +271,7 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lxo/a;->sort(Ljava/util/List;)Ljava/util/List;
+    invoke-super {p0, p1}, Lorg/apache/commons/io/comparator/a;->sort(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
@@ -199,7 +282,7 @@
     .locals 0
 
     .line 2
-    invoke-super {p0, p1}, Lxo/a;->sort([Ljava/io/File;)[Ljava/io/File;
+    invoke-super {p0, p1}, Lorg/apache/commons/io/comparator/a;->sort([Ljava/io/File;)[Ljava/io/File;
 
     move-result-object p1
 
@@ -210,7 +293,7 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Lxo/a;->toString()Ljava/lang/String;
+    invoke-super {p0}, Lorg/apache/commons/io/comparator/a;->toString()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -237,4 +320,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

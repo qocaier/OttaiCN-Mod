@@ -3,16 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lac/p;
+.implements Lcom/google/gson/m;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lac/p<",
-        "Lcom/builttoroam/devicecalendar/models/EventStatus;",
-        ">;"
+        "Lcom/google/gson/m;"
     }
 .end annotation
 
@@ -46,57 +44,42 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
-.method public serialize(Lcom/builttoroam/devicecalendar/models/EventStatus;Ljava/lang/reflect/Type;Lac/o;)Lac/j;
+.method public serialize(Lcom/builttoroam/devicecalendar/models/EventStatus;Ljava/lang/reflect/Type;Lcom/google/gson/l;)Lcom/google/gson/h;
     .locals 0
-    .param p1    # Lcom/builttoroam/devicecalendar/models/EventStatus;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/reflect/Type;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p3    # Lac/o;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     if-eqz p1, :cond_0
 
     .line 2
-    new-instance p2, Lac/n;
+    new-instance p2, Lcom/google/gson/k;
 
     invoke-virtual {p1}, Ljava/lang/Enum;->name()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p2, p1}, Lac/n;-><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Lcom/google/gson/k;-><init>(Ljava/lang/String;)V
 
     return-object p2
 
     .line 3
     :cond_0
-    new-instance p1, Lac/l;
+    new-instance p1, Lcom/google/gson/j;
 
-    invoke-direct {p1}, Lac/l;-><init>()V
+    invoke-direct {p1}, Lcom/google/gson/j;-><init>()V
 
     return-object p1
 .end method
 
-.method public bridge synthetic serialize(Ljava/lang/Object;Ljava/lang/reflect/Type;Lac/o;)Lac/j;
+.method public bridge synthetic serialize(Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/l;)Lcom/google/gson/h;
     .locals 0
 
     .line 1
     check-cast p1, Lcom/builttoroam/devicecalendar/models/EventStatus;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/builttoroam/devicecalendar/EventStatusSerializer;->serialize(Lcom/builttoroam/devicecalendar/models/EventStatus;Ljava/lang/reflect/Type;Lac/o;)Lac/j;
+    invoke-virtual {p0, p1, p2, p3}, Lcom/builttoroam/devicecalendar/EventStatusSerializer;->serialize(Lcom/builttoroam/devicecalendar/models/EventStatus;Ljava/lang/reflect/Type;Lcom/google/gson/l;)Lcom/google/gson/h;
 
     move-result-object p1
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lum/c;
+.implements Lkotlin/reflect/b;
 .implements Ljava/io/Serializable;
 
 
@@ -17,44 +17,20 @@
 
 # static fields
 .field public static final NO_RECEIVER:Ljava/lang/Object;
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
-.end field
 
 
 # instance fields
 .field private final isTopLevel:Z
-    .annotation build Ljl/x0;
-        version = "1.4"
-    .end annotation
-.end field
 
 .field private final name:Ljava/lang/String;
-    .annotation build Ljl/x0;
-        version = "1.4"
-    .end annotation
-.end field
 
 .field private final owner:Ljava/lang/Class;
-    .annotation build Ljl/x0;
-        version = "1.4"
-    .end annotation
-.end field
 
 .field protected final receiver:Ljava/lang/Object;
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
-.end field
 
-.field private transient reflected:Lum/c;
+.field private transient reflected:Lkotlin/reflect/b;
 
 .field private final signature:Ljava/lang/String;
-    .annotation build Ljl/x0;
-        version = "1.4"
-    .end annotation
-.end field
 
 
 # direct methods
@@ -91,6 +67,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public constructor <init>()V
@@ -106,9 +109,6 @@
 
 .method public constructor <init>(Ljava/lang/Object;)V
     .locals 6
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
 
     const/4 v4, 0x0
 
@@ -130,9 +130,6 @@
 
 .method public constructor <init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;Z)V
     .locals 0
-    .annotation build Ljl/x0;
-        version = "1.4"
-    .end annotation
 
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -161,7 +158,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -169,7 +166,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0, p1}, Lum/c;->call([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lkotlin/reflect/b;->call([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -193,13 +190,46 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public callBy(Ljava/util/Map;)Ljava/lang/Object;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -207,7 +237,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0, p1}, Lum/c;->callBy(Ljava/util/Map;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lkotlin/reflect/b;->callBy(Ljava/util/Map;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -231,16 +261,46 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public compute()Lum/c;
+.method public compute()Lkotlin/reflect/b;
     .locals 1
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->reflected:Lum/c;
+    iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->reflected:Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -248,7 +308,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->computeReflected()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->computeReflected()Lkotlin/reflect/b;
 
     .line 6
     .line 7
@@ -256,7 +316,7 @@
     move-result-object v0
 
     .line 9
-    iput-object v0, p0, Lkotlin/jvm/internal/CallableReference;->reflected:Lum/c;
+    iput-object v0, p0, Lkotlin/jvm/internal/CallableReference;->reflected:Lkotlin/reflect/b;
 
     .line 10
     .line 11
@@ -274,9 +334,36 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public abstract computeReflected()Lum/c;
+.method public abstract computeReflected()Lkotlin/reflect/b;
 .end method
 
 .method public getAnnotations()Ljava/util/List;
@@ -291,7 +378,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -299,7 +386,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Lum/b;->getAnnotations()Ljava/util/List;
+    invoke-interface {v0}, Lkotlin/reflect/a;->getAnnotations()Ljava/util/List;
 
     .line 6
     .line 7
@@ -322,13 +409,37 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public getBoundReceiver()Ljava/lang/Object;
     .locals 1
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
@@ -356,6 +467,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -387,9 +525,36 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public getOwner()Lum/h;
+.method public getOwner()Lkotlin/reflect/e;
     .locals 2
 
     .line 1
@@ -416,7 +581,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0}, Lkm/o0;->g(Ljava/lang/Class;)Lum/h;
+    invoke-static {v0}, Lkotlin/jvm/internal/m;->c(Ljava/lang/Class;)Lkotlin/reflect/e;
 
     .line 12
     .line 13
@@ -428,7 +593,7 @@
 
     .line 16
     :cond_1
-    invoke-static {v0}, Lkm/o0;->d(Ljava/lang/Class;)Lum/d;
+    invoke-static {v0}, Lkotlin/jvm/internal/m;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     .line 17
     .line 18
@@ -440,6 +605,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public getParameters()Ljava/util/List;
@@ -448,13 +640,13 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lkotlin/reflect/KParameter;",
+            "Ljava/lang/Object;",
             ">;"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -462,7 +654,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Lum/c;->getParameters()Ljava/util/List;
+    invoke-interface {v0}, Lkotlin/reflect/b;->getParameters()Ljava/util/List;
 
     .line 6
     .line 7
@@ -485,16 +677,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public getReflected()Lum/c;
+.method public getReflected()Lkotlin/reflect/b;
     .locals 1
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->compute()Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -530,13 +746,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public getReturnType()Lum/r;
+.method public getReturnType()Lkotlin/reflect/o;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -544,12 +787,12 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Lum/c;->getReturnType()Lum/r;
+    invoke-interface {v0}, Lkotlin/reflect/b;->getReturnType()Lkotlin/reflect/o;
 
     .line 6
     .line 7
     .line 8
-    move-result-object v0
+    const/4 v0, 0x0
 
     .line 9
     return-object v0
@@ -567,6 +810,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public getSignature()Ljava/lang/String;
@@ -598,6 +868,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public getTypeParameters()Ljava/util/List;
@@ -606,17 +903,13 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lum/s;",
+            "Ljava/lang/Object;",
             ">;"
         }
     .end annotation
 
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
-
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -624,7 +917,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Lum/c;->getTypeParameters()Ljava/util/List;
+    invoke-interface {v0}, Lkotlin/reflect/b;->getTypeParameters()Ljava/util/List;
 
     .line 6
     .line 7
@@ -647,16 +940,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public getVisibility()Lkotlin/reflect/KVisibility;
     .locals 1
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -664,7 +981,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Lum/c;->getVisibility()Lkotlin/reflect/KVisibility;
+    invoke-interface {v0}, Lkotlin/reflect/b;->getVisibility()Lkotlin/reflect/KVisibility;
 
     .line 6
     .line 7
@@ -687,16 +1004,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public isAbstract()Z
     .locals 1
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -704,7 +1045,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Lum/c;->isAbstract()Z
+    invoke-interface {v0}, Lkotlin/reflect/b;->isAbstract()Z
 
     .line 6
     .line 7
@@ -727,16 +1068,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public isFinal()Z
     .locals 1
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -744,7 +1109,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Lum/c;->isFinal()Z
+    invoke-interface {v0}, Lkotlin/reflect/b;->isFinal()Z
 
     .line 6
     .line 7
@@ -767,16 +1132,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public isOpen()Z
     .locals 1
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -784,7 +1173,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Lum/c;->isOpen()Z
+    invoke-interface {v0}, Lkotlin/reflect/b;->isOpen()Z
 
     .line 6
     .line 7
@@ -807,16 +1196,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public isSuspend()Z
     .locals 1
-    .annotation build Ljl/x0;
-        version = "1.3"
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lum/c;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/CallableReference;->getReflected()Lkotlin/reflect/b;
 
     .line 2
     .line 3
@@ -824,7 +1237,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Lum/c;->isSuspend()Z
+    invoke-interface {v0}, Lkotlin/reflect/b;->isSuspend()Z
 
     .line 6
     .line 7
@@ -847,4 +1260,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

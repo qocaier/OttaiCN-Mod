@@ -268,15 +268,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -332,7 +323,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public anchor(FF)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -431,11 +421,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public animateType(Lcom/baidu/mapapi/map/MarkerOptions$MarkerAnimateType;)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -477,7 +462,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bitmapResource(Lcom/baidu/platform/comapi/bmsdk/style/BmBitmapResource;)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -510,7 +494,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public clickable(Z)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -543,7 +526,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public draggable(Z)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -576,7 +558,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public endLevel(I)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -609,7 +590,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public extraInfo(Landroid/os/Bundle;)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -642,7 +622,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public fixedScreenPosition(Landroid/graphics/Point;)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -679,7 +658,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public flat(Z)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -712,7 +690,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getAlpha()F
@@ -743,7 +720,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnchorX()F
@@ -774,7 +750,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnchorY()F
@@ -805,7 +780,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnimateType()Lcom/baidu/mapapi/map/MarkerOptions$MarkerAnimateType;
@@ -866,6 +840,83 @@
     .line 22
     .line 23
     return-object v0
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method public getEndLevel()I
@@ -896,7 +947,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExtraInfo()Landroid/os/Bundle;
@@ -927,7 +977,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getForceDisPlay()Z
@@ -958,7 +1007,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHeight()I
@@ -989,7 +1037,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIcon()Lcom/baidu/mapapi/map/BitmapDescriptor;
@@ -1020,7 +1067,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIcons()Ljava/util/ArrayList;
@@ -1059,7 +1105,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInterval()I
@@ -1090,7 +1135,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIsClickable()Z
@@ -1121,7 +1165,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getJoinCollision()Z
@@ -1152,7 +1195,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOverlay()Lcom/baidu/mapapi/map/Overlay;
@@ -2001,6 +2043,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public getPeriod()I
@@ -2031,7 +2132,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPosition()Lcom/baidu/mapapi/model/LatLng;
@@ -2062,7 +2162,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPriority()I
@@ -2093,7 +2192,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRotate()F
@@ -2124,7 +2222,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStartLevel()I
@@ -2155,7 +2252,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -2188,7 +2284,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTitleOptions()Lcom/baidu/mapapi/map/TitleOptions;
@@ -2219,7 +2314,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getZIndex()I
@@ -2250,7 +2344,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public height(I)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -2292,7 +2385,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public icon(Lcom/baidu/mapapi/map/BitmapDescriptor;)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -2336,7 +2428,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public icons(Ljava/util/ArrayList;)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -2502,8 +2593,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public infoWindow(Lcom/baidu/mapapi/map/InfoWindow;)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -2536,7 +2625,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public interval(I)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -2580,7 +2668,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isDraggable()Z
@@ -2611,7 +2698,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isFlat()Z
@@ -2642,7 +2728,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isForceDisPlay(Z)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -2675,7 +2760,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isJoinCollision(Z)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -2708,7 +2792,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isPerspective()Z
@@ -2739,7 +2822,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isPoiCollided()Z
@@ -2770,7 +2852,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isVisible()Z
@@ -2801,7 +2882,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public period(I)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -2845,7 +2925,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public perspective(Z)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -2878,7 +2957,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public poiCollided(Z)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -2911,7 +2989,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public position(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -2955,7 +3032,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public priority(I)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -2988,7 +3064,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public rotate(F)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -3037,7 +3112,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public scaleX(F)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -3079,7 +3153,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public scaleY(F)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -3121,7 +3194,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public startLevel(I)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -3154,7 +3226,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public title(Ljava/lang/String;)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -3187,7 +3258,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public titleOptions(Lcom/baidu/mapapi/map/TitleOptions;)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -3220,7 +3290,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public visible(Z)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -3253,7 +3322,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public xOffset(I)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -3286,7 +3354,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public yOffset(I)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -3319,7 +3386,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public zIndex(I)Lcom/baidu/mapapi/map/MarkerOptions;
@@ -3352,5 +3418,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

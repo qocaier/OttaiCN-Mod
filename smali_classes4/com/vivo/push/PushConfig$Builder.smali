@@ -55,6 +55,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$000(Lcom/vivo/push/PushConfig$Builder;)Z
@@ -88,6 +90,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$100(Lcom/vivo/push/PushConfig$Builder;)Z
@@ -121,6 +125,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -156,6 +162,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public final build()Lcom/vivo/push/PushConfig;
@@ -188,6 +196,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final openMultiUserMode(Z)Lcom/vivo/push/PushConfig$Builder;
@@ -221,4 +231,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

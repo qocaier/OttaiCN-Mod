@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -35,16 +35,8 @@
 
 
 # virtual methods
-.method public final of(Ljava/lang/Iterable;Ljm/l;)Lokio/TypedOptions;
+.method public final of(Ljava/lang/Iterable;Lq8/l;)Lokio/TypedOptions;
     .locals 5
-    .param p1    # Ljava/lang/Iterable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -52,19 +44,11 @@
             ">(",
             "Ljava/lang/Iterable<",
             "+TT;>;",
-            "Ljm/l<",
-            "-TT;+",
-            "Lokio/ByteString;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Lokio/TypedOptions<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -72,7 +56,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -81,12 +65,12 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {p1}, Lll/r0;->a6(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {p1}, Lkotlin/collections/z;->f0(Ljava/lang/Iterable;)Ljava/util/List;
 
     .line 12
     .line 13
@@ -126,7 +110,7 @@
     move-result-object v4
 
     .line 30
-    invoke-interface {p2, v4}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v4}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -224,4 +208,20 @@
     .line 106
     .line 107
     .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method

@@ -40,7 +40,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static maybeCopyWithFontWeightAdjustment(Landroid/content/Context;Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
@@ -92,7 +91,7 @@
 
     if-lt v0, v1, :cond_0
 
-    invoke-static {p0}, Lxa/a;->a(Landroid/content/res/Configuration;)I
+    invoke-static {p0}, Lcom/google/android/material/resources/a;->a(Landroid/content/res/Configuration;)I
 
     move-result v0
 
@@ -100,7 +99,7 @@
 
     if-eq v0, v1, :cond_0
 
-    invoke-static {p0}, Lxa/a;->a(Landroid/content/res/Configuration;)I
+    invoke-static {p0}, Lcom/google/android/material/resources/a;->a(Landroid/content/res/Configuration;)I
 
     move-result v0
 
@@ -109,11 +108,11 @@
     if-eqz p1, :cond_0
 
     .line 3
-    invoke-static {p1}, Lxa/b;->a(Landroid/graphics/Typeface;)I
+    invoke-static {p1}, Lcom/google/android/material/resources/b;->a(Landroid/graphics/Typeface;)I
 
     move-result v0
 
-    invoke-static {p0}, Lxa/a;->a(Landroid/content/res/Configuration;)I
+    invoke-static {p0}, Lcom/google/android/material/resources/a;->a(Landroid/content/res/Configuration;)I
 
     move-result p0
 
@@ -133,7 +132,7 @@
 
     move-result v0
 
-    invoke-static {p1, p0, v0}, Lxa/c;->a(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+    invoke-static {p1, p0, v0}, Lcom/google/android/material/resources/c;->a(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
 
     move-result-object p0
 

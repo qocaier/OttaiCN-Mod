@@ -36,7 +36,7 @@
 
 .field public static final synthetic a:[Lcom/example/flu_youzan_service/model/OTYZNoticeType;
 
-.field public static final synthetic b:Lyl/a;
+.field public static final synthetic b:Lkotlin/enums/a;
 
 
 # direct methods
@@ -258,7 +258,7 @@
 
     .line 108
     .line 109
-    invoke-static {v0}, Lkotlin/enums/a;->c([Ljava/lang/Enum;)Lyl/a;
+    invoke-static {v0}, Lkotlin/enums/b;->a([Ljava/lang/Enum;)Lkotlin/enums/a;
 
     .line 110
     .line 111
@@ -266,7 +266,7 @@
     move-result-object v0
 
     .line 113
-    sput-object v0, Lcom/example/flu_youzan_service/model/OTYZNoticeType;->b:Lyl/a;
+    sput-object v0, Lcom/example/flu_youzan_service/model/OTYZNoticeType;->b:Lkotlin/enums/a;
 
     .line 114
     .line 115
@@ -817,15 +817,69 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -890,11 +944,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static final synthetic a()[Lcom/example/flu_youzan_service/model/OTYZNoticeType;
@@ -928,46 +977,18 @@
     return-object v0
 .end method
 
-.method public static getEntries()Lyl/a;
+.method public static getEntries()Lkotlin/enums/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lyl/a<",
-            "Lcom/example/flu_youzan_service/model/OTYZNoticeType;",
-            ">;"
+            "Lkotlin/enums/a;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
+    sget-object v0, Lcom/example/flu_youzan_service/model/OTYZNoticeType;->b:Lkotlin/enums/a;
 
-    .line 1
-    sget-object v0, Lcom/example/flu_youzan_service/model/OTYZNoticeType;->b:Lyl/a;
-
-    .line 2
-    .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/example/flu_youzan_service/model/OTYZNoticeType;

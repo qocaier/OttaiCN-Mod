@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "Landroid/content/res/Resources;",
-        "Ljava/lang/Boolean;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -58,16 +55,10 @@
 # virtual methods
 .method public final invoke(Landroid/content/res/Resources;)Ljava/lang/Boolean;
     .locals 1
-    .param p1    # Landroid/content/res/Resources;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "<anonymous parameter 0>"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     sget-object p1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;

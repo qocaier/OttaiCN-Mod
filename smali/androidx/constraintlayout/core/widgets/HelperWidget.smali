@@ -49,6 +49,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -177,6 +178,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public addDependents(Ljava/util/ArrayList;ILandroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;)V
@@ -342,6 +344,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public copy(Landroidx/constraintlayout/core/widgets/ConstraintWidget;Ljava/util/HashMap;)V
@@ -558,6 +563,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public removeAllIds()V
@@ -594,6 +600,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public updateConstraints(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;)V

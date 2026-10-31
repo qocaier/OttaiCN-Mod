@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/transition/TransitionKt;->addListener$default(Landroid/transition/Transition;Ljm/l;Ljm/l;Ljm/l;Ljm/l;Ljm/l;ILjava/lang/Object;)Landroid/transition/Transition$TransitionListener;
+    value = Landroidx/core/transition/TransitionKt;->addListener$default(Landroid/transition/Transition;Lq8/l;Lq8/l;Lq8/l;Lq8/l;Lq8/l;ILjava/lang/Object;)Landroid/transition/Transition$TransitionListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Ljm/l<",
-        "Landroid/transition/Transition;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -62,7 +59,7 @@
 
     invoke-virtual {p0, p1}, Landroidx/core/transition/TransitionKt$addListener$3;->invoke(Landroid/transition/Transition;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method

@@ -8,9 +8,6 @@
     value = 0x15
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -39,6 +36,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static create(Landroidx/camera/core/impl/SurfaceConfig;ILandroid/util/Size;Landroidx/camera/core/DynamicRange;Ljava/util/List;Landroidx/camera/core/impl/Config;Landroid/util/Range;)Landroidx/camera/core/impl/AttachedSurfaceInfo;
@@ -903,4 +901,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -33,6 +33,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private getBoolean(Ljava/lang/String;)Ljava/lang/Boolean;
@@ -79,6 +81,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private getSql()Ljava/lang/String;
@@ -113,6 +117,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private getSqlArguments()Ljava/util/List;
@@ -155,6 +161,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -195,6 +203,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getInTransactionChange()Ljava/lang/Boolean;
@@ -227,6 +237,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNoResult()Z
@@ -265,6 +277,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public abstract getOperationResult()Lcom/tekartik/sqflite/operation/OperationResult;
@@ -306,6 +320,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTransactionId()Ljava/lang/Integer;
@@ -342,6 +358,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public hasNullTransactionId()Z
@@ -389,6 +407,8 @@
     return v0
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -513,4 +533,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

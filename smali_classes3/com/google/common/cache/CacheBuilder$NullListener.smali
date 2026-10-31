@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lib/l;
+.implements Lcom/google/common/cache/l;
 
 
 # annotations
@@ -21,10 +21,7 @@
         "Ljava/lang/Enum<",
         "Lcom/google/common/cache/CacheBuilder$NullListener;",
         ">;",
-        "Lib/l<",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lcom/google/common/cache/l;"
     }
 .end annotation
 
@@ -78,27 +75,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -163,23 +143,10 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/cache/CacheBuilder$NullListener;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8000
-        }
-        names = {
-            "name"
-        }
-    .end annotation
 
     .line 1
     const-class v0, Lcom/google/common/cache/CacheBuilder$NullListener;
@@ -214,7 +181,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static values()[Lcom/google/common/cache/CacheBuilder$NullListener;
@@ -251,22 +217,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public onRemoval(Lcom/google/common/cache/RemovalNotification;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "notification"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

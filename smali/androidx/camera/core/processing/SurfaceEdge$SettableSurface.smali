@@ -27,12 +27,10 @@
 
 .field private mProvider:Landroidx/camera/core/impl/DeferrableSurface;
 
-.field final mSurfaceFuture:Lub/u0;
+.field final mSurfaceFuture:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Landroid/view/Surface;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -52,16 +50,16 @@
     .line 2
     .line 3
     .line 4
-    new-instance p1, Landroidx/camera/core/processing/d;
+    new-instance p1, Landroidx/camera/core/processing/z;
 
     .line 5
     .line 6
-    invoke-direct {p1, p0}, Landroidx/camera/core/processing/d;-><init>(Landroidx/camera/core/processing/SurfaceEdge$SettableSurface;)V
+    invoke-direct {p1, p0}, Landroidx/camera/core/processing/z;-><init>(Landroidx/camera/core/processing/SurfaceEdge$SettableSurface;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-static {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 10
     .line 11
@@ -69,7 +67,7 @@
     move-result-object p1
 
     .line 13
-    iput-object p1, p0, Landroidx/camera/core/processing/SurfaceEdge$SettableSurface;->mSurfaceFuture:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/core/processing/SurfaceEdge$SettableSurface;->mSurfaceFuture:Lcom/google/common/util/concurrent/t;
 
     .line 14
     .line 15
@@ -230,6 +228,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasProvider()Z
@@ -269,9 +268,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public provideSurface()Lub/u0;
+.method public provideSurface()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -279,14 +279,12 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Landroid/view/Surface;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/processing/SurfaceEdge$SettableSurface;->mSurfaceFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/processing/SurfaceEdge$SettableSurface;->mSurfaceFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -308,6 +306,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setProvider(Landroidx/camera/core/impl/DeferrableSurface;Ljava/lang/Runnable;)Z
@@ -472,7 +471,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {p1}, Landroidx/camera/core/impl/DeferrableSurface;->getSurface()Lub/u0;
+    invoke-virtual {p1}, Landroidx/camera/core/impl/DeferrableSurface;->getSurface()Lcom/google/common/util/concurrent/t;
 
     .line 70
     .line 71
@@ -484,7 +483,7 @@
 
     .line 74
     .line 75
-    invoke-static {v0, v1}, Landroidx/camera/core/impl/utils/futures/Futures;->propagate(Lub/u0;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+    invoke-static {v0, v1}, Landroidx/camera/core/impl/utils/futures/Futures;->propagate(Lcom/google/common/util/concurrent/t;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
 
     .line 76
     .line 77
@@ -494,7 +493,7 @@
     .line 79
     .line 80
     .line 81
-    invoke-virtual {p0}, Landroidx/camera/core/impl/DeferrableSurface;->getTerminationFuture()Lub/u0;
+    invoke-virtual {p0}, Landroidx/camera/core/impl/DeferrableSurface;->getTerminationFuture()Lcom/google/common/util/concurrent/t;
 
     .line 82
     .line 83
@@ -502,11 +501,11 @@
     move-result-object v0
 
     .line 85
-    new-instance v1, Lz/v;
+    new-instance v1, Landroidx/camera/core/processing/y;
 
     .line 86
     .line 87
-    invoke-direct {v1, p1}, Lz/v;-><init>(Landroidx/camera/core/impl/DeferrableSurface;)V
+    invoke-direct {v1, p1}, Landroidx/camera/core/processing/y;-><init>(Landroidx/camera/core/impl/DeferrableSurface;)V
 
     .line 88
     .line 89
@@ -519,12 +518,12 @@
     move-result-object v3
 
     .line 94
-    invoke-interface {v0, v1, v3}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v0, v1, v3}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 95
     .line 96
     .line 97
-    invoke-virtual {p1}, Landroidx/camera/core/impl/DeferrableSurface;->getCloseFuture()Lub/u0;
+    invoke-virtual {p1}, Landroidx/camera/core/impl/DeferrableSurface;->getCloseFuture()Lcom/google/common/util/concurrent/t;
 
     .line 98
     .line 99
@@ -540,7 +539,7 @@
     move-result-object v0
 
     .line 105
-    invoke-interface {p1, p2, v0}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {p1, p2, v0}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 106
     .line 107
@@ -671,4 +670,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

@@ -34,7 +34,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static native nativeCancelRequest(JI)Z
@@ -106,7 +105,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public dispose()I
@@ -154,5 +152,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

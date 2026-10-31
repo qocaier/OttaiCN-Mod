@@ -205,6 +205,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>()V
@@ -233,6 +235,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroid/content/Context;)V
@@ -473,6 +476,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static applyLocalesToActiveDelegates()V
@@ -596,6 +601,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic b(Landroid/content/Context;)V
@@ -856,6 +863,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getDefaultNightMode()I
@@ -884,6 +893,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getLocaleManagerForApplication()Ljava/lang/Object;
@@ -1021,6 +1031,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getRequestedAppLocales()Landroidx/core/os/LocaleListCompat;
@@ -1051,6 +1063,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getStoredAppLocales()Landroidx/core/os/LocaleListCompat;
@@ -1081,6 +1094,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static isAutoStorageOptedIn(Landroid/content/Context;)Z
@@ -1213,6 +1227,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static isCompatVectorFromResourcesEnabled()Z
@@ -1243,6 +1258,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static removeActivityDelegate(Landroidx/appcompat/app/AppCompatDelegate;)V
@@ -1439,6 +1455,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static resetStaticRequestedAndStoredLocales()V
@@ -1473,6 +1490,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static setApplicationLocales(Landroidx/core/os/LocaleListCompat;)V
@@ -1624,6 +1642,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static setCompatVectorFromResourcesEnabled(Z)V
@@ -1777,6 +1796,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static setIsAutoStoreLocalesOptedIn(Z)V
@@ -1867,11 +1887,11 @@
 
     .line 19
     .line 20
-    new-instance v1, Lg/a;
+    new-instance v1, Landroidx/appcompat/app/a;
 
     .line 21
     .line 22
-    invoke-direct {v1, p0}, Lg/a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Landroidx/appcompat/app/a;-><init>(Landroid/content/Context;)V
 
     .line 23
     .line 24
@@ -2178,6 +2198,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
@@ -2204,11 +2229,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lg/b;
+    new-instance v1, Landroidx/appcompat/app/b;
 
     .line 4
     .line 5
-    invoke-direct {v1, p1}, Lg/b;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p1}, Landroidx/appcompat/app/b;-><init>(Landroid/content/Context;)V
 
     .line 6
     .line 7

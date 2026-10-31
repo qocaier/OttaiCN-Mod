@@ -82,7 +82,6 @@
     return-void
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -123,7 +122,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCoordType()I
@@ -154,7 +152,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFromLanguage()Ljava/lang/String;
@@ -185,7 +182,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLanguage()Ljava/lang/String;
@@ -216,7 +212,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLocation()Lcom/baidu/mapapi/model/LatLng;
@@ -247,7 +242,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getQuery()Ljava/lang/String;
@@ -278,7 +272,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRadius()I
@@ -309,7 +302,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRegion()Ljava/lang/String;
@@ -340,7 +332,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRetCoordType()Ljava/lang/String;
@@ -371,7 +362,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isHotword()Z
@@ -402,7 +392,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isRegionLimit()Z
@@ -433,7 +422,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setBounds(Ljava/util/List;)Lcom/baidu/mapapi/search/poi/v3/SuggestionOption;
@@ -475,7 +463,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCoordType(I)Lcom/baidu/mapapi/search/poi/v3/SuggestionOption;
@@ -508,7 +495,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFromLanguage(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/SuggestionOption;
@@ -541,7 +527,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHotword(Z)Lcom/baidu/mapapi/search/poi/v3/SuggestionOption;
@@ -574,7 +559,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLanguage(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/SuggestionOption;
@@ -607,7 +591,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLocation(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/search/poi/v3/SuggestionOption;
@@ -640,7 +623,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setQuery(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/SuggestionOption;
@@ -673,7 +655,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRadius(I)Lcom/baidu/mapapi/search/poi/v3/SuggestionOption;
@@ -706,7 +687,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRegion(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/SuggestionOption;
@@ -739,7 +719,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRegionLimit(Z)Lcom/baidu/mapapi/search/poi/v3/SuggestionOption;
@@ -772,7 +751,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRetCoordType(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/SuggestionOption;
@@ -805,5 +783,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

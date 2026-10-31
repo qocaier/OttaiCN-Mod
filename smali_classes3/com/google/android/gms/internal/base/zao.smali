@@ -6,21 +6,9 @@
 # direct methods
 .method public static a(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
     .locals 2
-    .param p1    # Landroid/content/BroadcastReceiver;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation runtime Lcom/google/errorprone/annotations/ResultIgnorabilityUnspecified;
-    .end annotation
-
-    .annotation runtime Ljava/lang/Deprecated;
-    .end annotation
 
     .line 1
-    invoke-static {}, Lz9/l;->a()Z
+    invoke-static {}, Lh3/e;->a()Z
 
     .line 2
     .line 3
@@ -35,7 +23,7 @@
     const/4 v0, 0x1
 
     .line 8
-    invoke-static {}, Lz9/l;->a()Z
+    invoke-static {}, Lh3/e;->a()Z
 
     .line 9
     .line 10
@@ -58,7 +46,7 @@
 
     .line 17
     :goto_0
-    invoke-static {p0, p1, p2, v0}, Lf2/a;->a(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+    invoke-static {p0, p1, p2, v0}, Lanet/channel/status/e;->a(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
 
     .line 18
     .line 19
@@ -200,9 +188,4 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method

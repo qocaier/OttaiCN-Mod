@@ -94,7 +94,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic access$000(Landroid/view/Window;)V
@@ -127,7 +126,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$100(Landroid/view/Window;)V
@@ -160,7 +158,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$200()Ljava/lang/ref/WeakReference;
@@ -191,7 +188,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic access$202(Ljava/lang/ref/WeakReference;)Ljava/lang/ref/WeakReference;
@@ -224,7 +220,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static getWindowBackground(Landroid/view/Window;)Landroid/graphics/drawable/Drawable;
@@ -265,7 +260,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static removeWindowBackground(Landroid/view/Window;)V
@@ -319,7 +313,6 @@
     return-void
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static restoreWindowBackground(Landroid/view/Window;)V
@@ -365,7 +358,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setUpEnterTransform(Landroid/view/Window;)V
@@ -495,8 +487,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private setUpReturnTransform(Landroid/app/Activity;Landroid/view/Window;)V
@@ -596,11 +586,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static updateBackgroundFadeDuration(Landroid/view/Window;Lcom/google/android/material/transition/platform/MaterialContainerTransform;)V
@@ -684,11 +669,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -723,7 +703,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isSharedElementReenterTransitionEnabled()Z
@@ -754,7 +733,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isTransparentWindowBackgroundEnabled()Z
@@ -785,7 +763,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onCaptureSharedElementSnapshot(Landroid/view/View;Landroid/graphics/Matrix;Landroid/graphics/RectF;)Landroid/os/Parcelable;
@@ -963,11 +940,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onCreateSnapshotView(Landroid/content/Context;Landroid/os/Parcelable;)Landroid/view/View;
@@ -1079,11 +1051,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onMapSharedElements(Ljava/util/List;Ljava/util/Map;)V
@@ -1222,11 +1189,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onSharedElementEnd(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
@@ -1468,11 +1430,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onSharedElementStart(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
@@ -1738,11 +1695,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public setShapeProvider(Lcom/google/android/material/transition/platform/MaterialContainerTransformSharedElementCallback$ShapeProvider;)V
@@ -1779,7 +1731,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSharedElementReenterTransitionEnabled(Z)V
@@ -1812,7 +1763,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTransparentWindowBackgroundEnabled(Z)V
@@ -1845,5 +1795,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

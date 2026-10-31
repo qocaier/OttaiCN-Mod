@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lfk/b;
+.implements Lio/reactivex/disposables/b;
 
 
 # annotations
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/util/concurrent/atomic/AtomicInteger;",
-        "Lfk/b;"
+        "Lio/reactivex/disposables/b;"
     }
 .end annotation
 
@@ -34,11 +34,10 @@
 # instance fields
 .field volatile cancelled:Z
 
-.field final downstream:Ldk/g0;
+.field final downstream:Lb8/o;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ldk/g0<",
-            "-TT;>;"
+            "Lb8/o;"
         }
     .end annotation
 .end field
@@ -48,23 +47,21 @@
 .field final state:Lcom/jakewharton/rxrelay2/ReplayRelay;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/jakewharton/rxrelay2/ReplayRelay<",
-            "TT;>;"
+            "Lcom/jakewharton/rxrelay2/ReplayRelay;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ldk/g0;Lcom/jakewharton/rxrelay2/ReplayRelay;)V
+.method public constructor <init>(Lb8/o;Lcom/jakewharton/rxrelay2/ReplayRelay;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ldk/g0<",
-            "-TT;>;",
-            "Lcom/jakewharton/rxrelay2/ReplayRelay<",
-            "TT;>;)V"
+            "Lb8/o;",
+            "Lcom/jakewharton/rxrelay2/ReplayRelay;",
+            ")V"
         }
     .end annotation
 
@@ -74,15 +71,13 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/jakewharton/rxrelay2/ReplayRelay$ReplayDisposable;->downstream:Ldk/g0;
+    iput-object p1, p0, Lcom/jakewharton/rxrelay2/ReplayRelay$ReplayDisposable;->downstream:Lb8/o;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/jakewharton/rxrelay2/ReplayRelay$ReplayDisposable;->state:Lcom/jakewharton/rxrelay2/ReplayRelay;
-
+    return-void
     .line 7
     .line 8
-    return-void
     .line 9
     .line 10
     .line 11
@@ -129,6 +124,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -141,28 +146,28 @@
 
     .line 2
     .line 3
-    if-nez v0, :cond_0
+    if-eqz v0, :cond_0
 
     .line 4
     .line 5
-    const/4 v0, 0x1
+    return-void
 
     .line 6
-    iput-boolean v0, p0, Lcom/jakewharton/rxrelay2/ReplayRelay$ReplayDisposable;->cancelled:Z
+    :cond_0
+    const/4 v0, 0x1
 
     .line 7
+    iput-boolean v0, p0, Lcom/jakewharton/rxrelay2/ReplayRelay$ReplayDisposable;->cancelled:Z
+
     .line 8
-    iget-object v0, p0, Lcom/jakewharton/rxrelay2/ReplayRelay$ReplayDisposable;->state:Lcom/jakewharton/rxrelay2/ReplayRelay;
-
     .line 9
-    .line 10
-    invoke-virtual {v0, p0}, Lcom/jakewharton/rxrelay2/ReplayRelay;->v8(Lcom/jakewharton/rxrelay2/ReplayRelay$ReplayDisposable;)V
+    const/4 v0, 0x0
 
+    .line 10
+    throw v0
     .line 11
     .line 12
     .line 13
-    :cond_0
-    return-void
     .line 14
     .line 15
     .line 16
@@ -170,6 +175,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isDisposed()Z
@@ -198,4 +205,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

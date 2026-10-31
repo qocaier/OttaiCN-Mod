@@ -15,7 +15,7 @@
     .end annotation
 .end method
 
-.method public abstract submitStillCaptureRequests(Ljava/util/List;)Lub/u0;
+.method public abstract submitStillCaptureRequests(Ljava/util/List;)Lcom/google/common/util/concurrent/t;
     .param p1    # Ljava/util/List;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
@@ -32,9 +32,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/CaptureConfig;",
             ">;)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method

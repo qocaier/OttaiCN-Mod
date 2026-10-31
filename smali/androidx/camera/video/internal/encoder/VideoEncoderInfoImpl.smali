@@ -233,6 +233,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportedBitrateRange()Landroid/util/Range;
@@ -276,6 +277,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportedHeights()Landroid/util/Range;
@@ -319,6 +321,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportedHeightsFor(I)Landroid/util/Range;
@@ -422,6 +425,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportedWidthsFor(I)Landroid/util/Range;
@@ -514,6 +518,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSizeSupported(II)Z

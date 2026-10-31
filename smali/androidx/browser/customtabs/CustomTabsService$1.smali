@@ -21,14 +21,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/browser/customtabs/CustomTabsService;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/browser/customtabs/CustomTabsService$1;->this$0:Landroidx/browser/customtabs/CustomTabsService;
@@ -340,6 +332,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private newSessionInternal(Landroid/support/customtabs/ICustomTabsCallback;Landroid/app/PendingIntent;)Z
@@ -359,11 +352,11 @@
 
     .line 7
     :try_start_0
-    new-instance v1, Landroidx/browser/customtabs/d;
+    new-instance v1, Landroidx/browser/customtabs/i;
 
     .line 8
     .line 9
-    invoke-direct {v1, p0, v0}, Landroidx/browser/customtabs/d;-><init>(Landroidx/browser/customtabs/CustomTabsService$1;Landroidx/browser/customtabs/CustomTabsSessionToken;)V
+    invoke-direct {v1, p0, v0}, Landroidx/browser/customtabs/i;-><init>(Landroidx/browser/customtabs/CustomTabsService$1;Landroidx/browser/customtabs/CustomTabsSessionToken;)V
 
     .line 10
     .line 11
@@ -850,6 +843,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public newAuthTabSession(Landroid/support/customtabs/IAuthTabCallback;Landroid/os/Bundle;)Z
@@ -877,11 +876,11 @@
 
     .line 11
     :try_start_0
-    new-instance v1, Landroidx/browser/customtabs/e;
+    new-instance v1, Landroidx/browser/customtabs/j;
 
     .line 12
     .line 13
-    invoke-direct {v1, p0, v0}, Landroidx/browser/customtabs/e;-><init>(Landroidx/browser/customtabs/CustomTabsService$1;Landroidx/browser/auth/AuthTabSessionToken;)V
+    invoke-direct {v1, p0, v0}, Landroidx/browser/customtabs/j;-><init>(Landroidx/browser/customtabs/CustomTabsService$1;Landroidx/browser/auth/AuthTabSessionToken;)V
 
     .line 14
     .line 15
@@ -1158,6 +1157,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public newSession(Landroid/support/customtabs/ICustomTabsCallback;)Z
@@ -1390,6 +1392,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public prefetch(Landroid/support/customtabs/ICustomTabsCallback;Landroid/net/Uri;Landroid/os/Bundle;)V
@@ -1419,7 +1424,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {p2}, Lj/d;->a(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p2}, Landroidx/browser/customtabs/g;->a(Ljava/lang/Object;)Ljava/util/List;
 
     .line 13
     .line 14
@@ -1531,6 +1536,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public prefetchWithMultipleUrls(Landroid/support/customtabs/ICustomTabsCallback;Ljava/util/List;Landroid/os/Bundle;)V
@@ -1680,6 +1688,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public receiveFile(Landroid/support/customtabs/ICustomTabsCallback;Landroid/net/Uri;ILandroid/os/Bundle;)Z
@@ -1930,6 +1941,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public requestPostMessageChannel(Landroid/support/customtabs/ICustomTabsCallback;Landroid/net/Uri;)Z
@@ -2137,6 +2154,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public setEngagementSignalsCallback(Landroid/support/customtabs/ICustomTabsCallback;Landroid/os/IBinder;Landroid/os/Bundle;)Z
@@ -2274,6 +2294,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public updateVisuals(Landroid/support/customtabs/ICustomTabsCallback;Landroid/os/Bundle;)Z
@@ -2592,6 +2615,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public warmup(J)Z

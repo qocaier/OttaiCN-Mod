@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/flu_youzan_service/AuthFragment;->p(Landroid/view/View;)V
+    value = Lcom/example/flu_youzan_service/AuthFragment;->n(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -46,7 +46,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 

@@ -3,23 +3,8 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nPreferences.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Preferences.kt\nandroidx/datastore/preferences/core/MutablePreferences\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n+ 5 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n*L\n1#1,361:1\n1#2:362\n1179#3,2:363\n1253#3,4:365\n13579#4,2:369\n167#5,3:371\n*S KotlinDebug\n*F\n+ 1 Preferences.kt\nandroidx/datastore/preferences/core/MutablePreferences\n*L\n158#1:363,2\n158#1:365,4\n250#1:369,2\n283#1:371,3\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nPreferences.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Preferences.kt\nandroidx/datastore/preferences/core/MutablePreferences\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n+ 5 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n*L\n1#1,361:1\n1#2:362\n1179#3,2:363\n1253#3,4:365\n13579#4,2:369\n167#5,3:371\n*S KotlinDebug\n*F\n+ 1 Preferences.kt\nandroidx/datastore/preferences/core/MutablePreferences\n*L\n158#1:363,2\n158#1:365,4\n250#1:369,2\n283#1:371,3\n*E\n"
-    }
-.end annotation
-
-
 # instance fields
 .field private final frozen:Landroidx/datastore/preferences/core/AtomicBoolean;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final preferencesMap:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
@@ -30,9 +15,6 @@
             "Ljava/lang/Object;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -48,17 +30,13 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, v2, v0, v1, v2}, Landroidx/datastore/preferences/core/MutablePreferences;-><init>(Ljava/util/Map;ZILkm/v;)V
+    invoke-direct {p0, v2, v0, v1, v2}, Landroidx/datastore/preferences/core/MutablePreferences;-><init>(Ljava/util/Map;ZILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
 
 .method public constructor <init>(Ljava/util/Map;Z)V
     .locals 1
-    .param p1    # Ljava/util/Map;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -72,7 +50,7 @@
 
     const-string v0, "preferencesMap"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-direct {p0}, Landroidx/datastore/preferences/core/Preferences;-><init>()V
@@ -90,7 +68,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/util/Map;ZILkm/v;)V
+.method public synthetic constructor <init>(Ljava/util/Map;ZILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p4, p3, 0x1
@@ -131,9 +109,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/core/MutablePreferences;->preferencesMap:Ljava/util/Map;
 
@@ -151,7 +126,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lll/i0;->d0(Ljava/lang/Iterable;I)I
+    invoke-static {v0, v1}, Lkotlin/collections/s;->v(Ljava/lang/Iterable;I)I
 
     .line 10
     .line 11
@@ -159,7 +134,7 @@
     move-result v1
 
     .line 13
-    invoke-static {v1}, Lll/j1;->j(I)I
+    invoke-static {v1}, Lkotlin/collections/f0;->c(I)I
 
     .line 14
     .line 15
@@ -171,7 +146,7 @@
 
     .line 18
     .line 19
-    invoke-static {v1, v2}, Ltm/u;->u(II)I
+    invoke-static {v1, v2}, Lu8/f;->b(II)I
 
     .line 20
     .line 21
@@ -268,7 +243,7 @@
 
     .line 66
     .line 67
-    invoke-static {v3, v5}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 68
     .line 69
@@ -617,6 +592,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public final checkNotFrozen$datastore_preferences_core_release()V
@@ -660,6 +687,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final clear()V
@@ -692,14 +720,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public contains(Landroidx/datastore/preferences/core/Preferences$Key;)Z
     .locals 1
-    .param p1    # Landroidx/datastore/preferences/core/Preferences$Key;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -715,7 +740,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -750,10 +775,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     instance-of v0, p1, Landroidx/datastore/preferences/core/MutablePreferences;
@@ -958,7 +979,7 @@
 
     .line 95
     :cond_5
-    invoke-static {v0, v2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 96
     .line 97
@@ -1117,6 +1138,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public final freeze$datastore_preferences_core_release()V
@@ -1149,14 +1175,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public get(Landroidx/datastore/preferences/core/Preferences$Key;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroidx/datastore/preferences/core/Preferences$Key;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -1167,15 +1190,12 @@
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
     const-string v0, "key"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1219,7 +1239,7 @@
 
     .line 24
     .line 25
-    invoke-static {p1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -1276,6 +1296,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getPreferencesMap$datastore_preferences_core_release()Ljava/util/Map;
@@ -1289,9 +1310,6 @@
             "Ljava/lang/Object;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1317,6 +1335,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -1459,14 +1478,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final minusAssign(Landroidx/datastore/preferences/core/Preferences$Key;)V
     .locals 1
-    .param p1    # Landroidx/datastore/preferences/core/Preferences$Key;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1480,7 +1497,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1513,10 +1530,6 @@
 
 .method public final plusAssign(Landroidx/datastore/preferences/core/Preferences$Pair;)V
     .locals 1
-    .param p1    # Landroidx/datastore/preferences/core/Preferences$Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1527,7 +1540,7 @@
 
     const-string v0, "pair"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-virtual {p0}, Landroidx/datastore/preferences/core/MutablePreferences;->checkNotFrozen$datastore_preferences_core_release()V
@@ -1544,14 +1557,10 @@
 
 .method public final plusAssign(Landroidx/datastore/preferences/core/Preferences;)V
     .locals 1
-    .param p1    # Landroidx/datastore/preferences/core/Preferences;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "prefs"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/core/MutablePreferences;->checkNotFrozen$datastore_preferences_core_release()V
@@ -1570,10 +1579,6 @@
 
 .method public final varargs putAll([Landroidx/datastore/preferences/core/Preferences$Pair;)V
     .locals 4
-    .param p1    # [Landroidx/datastore/preferences/core/Preferences$Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
@@ -1587,7 +1592,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1691,14 +1696,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final remove(Landroidx/datastore/preferences/core/Preferences$Key;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Landroidx/datastore/preferences/core/Preferences$Key;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -1714,7 +1716,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1751,10 +1753,6 @@
 
 .method public final set(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
     .locals 1
-    .param p1    # Landroidx/datastore/preferences/core/Preferences$Key;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -1770,7 +1768,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1824,14 +1822,6 @@
 
 .method public final setUnchecked$datastore_preferences_core_release(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
     .locals 2
-    .param p1    # Landroidx/datastore/preferences/core/Preferences$Key;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1847,7 +1837,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1934,7 +1924,7 @@
 
     .line 45
     .line 46
-    invoke-static {p2, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -2133,12 +2123,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 10
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/core/MutablePreferences;->preferencesMap:Ljava/util/Map;
@@ -2182,7 +2173,7 @@
     const/4 v6, 0x0
 
     .line 20
-    invoke-static/range {v1 .. v9}, Lll/r0;->r3(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Ljm/l;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v9}, Lkotlin/collections/z;->R(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lq8/l;ILjava/lang/Object;)Ljava/lang/String;
 
     .line 21
     .line 22
@@ -2251,4 +2242,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

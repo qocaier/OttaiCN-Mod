@@ -19,25 +19,7 @@
 .end method
 
 .method public abstract onNewItem(I)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract populate(Landroid/view/View;I)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "view",
-            "index"
-        }
-    .end annotation
 .end method

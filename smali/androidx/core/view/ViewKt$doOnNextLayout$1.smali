@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewKt;->doOnNextLayout(Landroid/view/View;Ljm/l;)V
+    value = Landroidx/core/view/ViewKt;->doOnNextLayout(Landroid/view/View;Lq8/l;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,34 +18,28 @@
 
 
 # instance fields
-.field final synthetic $action:Ljm/l;
+.field final synthetic $action:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/view/View;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljm/l;)V
+.method public constructor <init>(Lq8/l;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Landroid/view/View;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/view/ViewKt$doOnNextLayout$1;->$action:Ljm/l;
+    iput-object p1, p0, Landroidx/core/view/ViewKt$doOnNextLayout$1;->$action:Lq8/l;
 
     .line 2
     .line 3
@@ -87,11 +81,11 @@
     .line 2
     .line 3
     .line 4
-    iget-object p2, p0, Landroidx/core/view/ViewKt$doOnNextLayout$1;->$action:Ljm/l;
+    iget-object p2, p0, Landroidx/core/view/ViewKt$doOnNextLayout$1;->$action:Lq8/l;
 
     .line 5
     .line 6
-    invoke-interface {p2, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8

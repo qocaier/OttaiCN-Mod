@@ -1,20 +1,11 @@
-.class public Lcom/google/android/gms/common/internal/a;
+.class public abstract Lcom/google/android/gms/common/internal/a;
 .super Lcom/google/android/gms/common/internal/b$a;
 .source "SourceFile"
 
 
 # direct methods
-.method public static q0(Lcom/google/android/gms/common/internal/b;)Landroid/accounts/Account;
+.method public static M(Lcom/google/android/gms/common/internal/b;)Landroid/accounts/Account;
     .locals 4
-    .param p0    # Lcom/google/android/gms/common/internal/b;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lb9/a;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -33,7 +24,7 @@
 
     .line 8
     :try_start_0
-    invoke-interface {p0}, Lcom/google/android/gms/common/internal/b;->o()Landroid/accounts/Account;
+    invoke-interface {p0}, Lcom/google/android/gms/common/internal/b;->R()Landroid/accounts/Account;
 
     .line 9
     .line 10
@@ -153,31 +144,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
-.end method
-
-
-# virtual methods
-.method public final equals(Ljava/lang/Object;)Z
-    .locals 0
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-
-    const/4 p1, 0x0
-
-    throw p1
-.end method
-
-.method public final o()Landroid/accounts/Account;
-    .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .line 1
-    const/4 v0, 0x0
-
-    throw v0
 .end method

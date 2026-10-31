@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/Map;
-.implements Llm/a;
+.implements Lr8/a;
 
 
 # annotations
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         "Ljava/util/Map<",
         "TK;TV;>;",
-        "Llm/a;"
+        "Lr8/a;"
     }
 .end annotation
 
@@ -260,6 +260,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -270,9 +271,6 @@
             "Ljava/lang/Object;",
             ")TV;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -320,9 +318,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     new-instance v0, Landroidx/collection/ScatterMap$MapWrapper$entries$1;
 
@@ -350,6 +345,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getKeys()Ljava/util/Set;
@@ -360,9 +356,6 @@
             "Ljava/util/Set<",
             "TK;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -392,6 +385,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSize()I
@@ -422,6 +416,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getValues()Ljava/util/Collection;
@@ -432,9 +427,6 @@
             "Ljava/util/Collection<",
             "TV;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -464,6 +456,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEmpty()Z
@@ -496,6 +489,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final bridge keySet()Ljava/util/Set;
@@ -533,6 +527,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public merge(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;
@@ -723,6 +718,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final bridge values()Ljava/util/Collection;
@@ -760,4 +756,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

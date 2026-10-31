@@ -21,21 +21,12 @@
 
 # static fields
 .field public static final Companion:Landroidx/lifecycle/ReportFragment$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final REPORT_FRAGMENT_TAG:Ljava/lang/String; = "androidx.lifecycle.LifecycleDispatcher.report_fragment_tag"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field private processListener:Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -46,7 +37,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/lifecycle/ReportFragment$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/ReportFragment$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/lifecycle/ReportFragment;->Companion:Landroidx/lifecycle/ReportFragment$Companion;
 
@@ -79,6 +70,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final dispatch(Landroidx/lifecycle/Lifecycle$Event;)V
@@ -113,7 +105,7 @@
 
     .line 14
     .line 15
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -133,16 +125,6 @@
 
 .method public static final dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 1
-    .param p0    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/lifecycle/Lifecycle$Event;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
 
     sget-object v0, Landroidx/lifecycle/ReportFragment;->Companion:Landroidx/lifecycle/ReportFragment$Companion;
 
@@ -261,16 +243,6 @@
 
 .method public static final get(Landroid/app/Activity;)Landroidx/lifecycle/ReportFragment;
     .locals 1
-    .param p0    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/j;
-        name = "get"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     sget-object v0, Landroidx/lifecycle/ReportFragment;->Companion:Landroidx/lifecycle/ReportFragment$Companion;
 
@@ -283,12 +255,6 @@
 
 .method public static final injectIfNeededIn(Landroid/app/Activity;)V
     .locals 1
-    .param p0    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
 
     sget-object v0, Landroidx/lifecycle/ReportFragment;->Companion:Landroidx/lifecycle/ReportFragment$Companion;
 
@@ -301,10 +267,6 @@
 # virtual methods
 .method public onActivityCreated(Landroid/os/Bundle;)V
     .locals 0
-    .param p1    # Landroid/os/Bundle;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     invoke-super {p0, p1}, Landroid/app/Fragment;->onActivityCreated(Landroid/os/Bundle;)V
@@ -378,6 +340,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onPause()V
@@ -410,6 +373,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onResume()V
@@ -446,6 +410,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onStart()V
@@ -482,6 +447,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onStop()V
@@ -514,14 +480,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setProcessListener(Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;)V
     .locals 0
-    .param p1    # Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Landroidx/lifecycle/ReportFragment;->processListener:Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;

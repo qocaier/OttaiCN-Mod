@@ -35,8 +35,7 @@
 .field private final equivalence:Lcom/google/common/base/Equivalence;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/google/common/base/Equivalence<",
-            "-TT;>;"
+            "Lcom/google/common/base/Equivalence;"
         }
     .end annotation
 .end field
@@ -47,43 +46,18 @@
             "TT;"
         }
     .end annotation
-
-    .annotation runtime Lgb/u;
-    .end annotation
 .end field
 
 
 # direct methods
 .method public constructor <init>(Lcom/google/common/base/Equivalence;Ljava/lang/Object;)V
     .locals 0
-    .param p2    # Ljava/lang/Object;
-        .annotation runtime Lgb/u;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "equivalence",
-            "reference"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/base/Equivalence<",
-            "-TT;>;TT;)V"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -110,18 +84,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 2
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "obj"
-        }
-    .end annotation
 
     .line 1
     if-ne p1, p0, :cond_0
@@ -253,8 +215,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public get()Ljava/lang/Object;
@@ -263,9 +223,6 @@
         value = {
             "()TT;"
         }
-    .end annotation
-
-    .annotation runtime Lgb/u;
     .end annotation
 
     .line 1
@@ -293,7 +250,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hashCode()I
@@ -330,7 +286,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -461,13 +416,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

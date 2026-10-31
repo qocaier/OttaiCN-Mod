@@ -16,11 +16,4 @@
 
 # virtual methods
 .method public abstract a(Lcom/hihonor/push/sdk/d1;)V
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/hihonor/push/sdk/d1<",
-            "TTResult;>;)V"
-        }
-    .end annotation
 .end method

@@ -3,15 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lb9/a;
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "TelemetryDataCreator"
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
@@ -29,30 +20,17 @@
 
 # instance fields
 .field public final a:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getTelemetryConfigVersion"
-        id = 0x1
-    .end annotation
-.end field
 
 .field public b:Ljava/util/List;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getMethodInvocations"
-        id = 0x2
-    .end annotation
-
-    .annotation runtime Lgl/h;
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lh9/e0;
+    new-instance v0, Lt2/p;
 
-    invoke-direct {v0}, Lh9/e0;-><init>()V
+    invoke-direct {v0}, Lt2/p;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/internal/TelemetryData;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -61,21 +39,6 @@
 
 .method public constructor <init>(ILjava/util/List;)V
     .locals 0
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # Ljava/util/List;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-
-        .annotation runtime Lgl/h;
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -144,16 +107,11 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
-.method public final a()I
+.method public final d()I
     .locals 1
 
     .line 1
@@ -162,10 +120,8 @@
     return v0
 .end method
 
-.method public final s()Ljava/util/List;
+.method public final e()Ljava/util/List;
     .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;->b:Ljava/util/List;
@@ -173,12 +129,8 @@
     return-object v0
 .end method
 
-.method public final t(Lcom/google/android/gms/common/internal/MethodInvocation;)V
+.method public final f(Lcom/google/android/gms/common/internal/MethodInvocation;)V
     .locals 1
-    .param p1    # Lcom/google/android/gms/common/internal/MethodInvocation;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryData;->b:Ljava/util/List;
@@ -220,18 +172,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -246,7 +193,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 9
     .line 10
@@ -261,12 +208,12 @@
     const/4 v2, 0x2
 
     .line 15
-    invoke-static {p1, v2, v0, v1}, Lj9/a;->d0(Landroid/os/Parcel;ILjava/util/List;Z)V
+    invoke-static {p1, v2, v0, v1}, Lu2/a;->u(Landroid/os/Parcel;ILjava/util/List;Z)V
 
     .line 16
     .line 17
     .line 18
-    invoke-static {p1, p2}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 19
     .line 20
@@ -311,9 +258,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

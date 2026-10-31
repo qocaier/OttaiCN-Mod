@@ -3089,6 +3089,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dispatchPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)Z
@@ -3283,6 +3284,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMenu()Landroid/view/Menu;
@@ -3434,6 +3436,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getOverflowIcon()Landroid/graphics/drawable/Drawable;
@@ -3470,6 +3474,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPopupTheme()I
@@ -3498,6 +3503,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWindowAnimations()I
@@ -3651,6 +3657,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public hideOverflowMenu()Z
@@ -3694,6 +3701,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public initialize(Landroidx/appcompat/view/menu/MenuBuilder;)V
@@ -3824,6 +3832,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isOverflowMenuShowing()Z
@@ -3867,6 +3876,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isOverflowReserved()Z
@@ -3900,6 +3910,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -4011,6 +4022,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onDetachedFromWindow()V
@@ -4041,6 +4053,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onLayout(ZIIII)V
@@ -5271,6 +5284,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public peekMenu()Landroidx/appcompat/view/menu/MenuBuilder;
@@ -5304,6 +5320,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setExpandedActionViewsExclusive(Z)V
@@ -5635,6 +5652,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setPresenter(Landroidx/appcompat/widget/ActionMenuPresenter;)V
@@ -5718,4 +5736,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

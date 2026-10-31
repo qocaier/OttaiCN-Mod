@@ -8,18 +8,10 @@
     value = 0x18
 .end annotation
 
-.annotation build Lim/j;
-    name = "ConsumerKt"
-.end annotation
-
 
 # direct methods
-.method public static final asConsumer(Lul/c;)Ljava/util/function/Consumer;
+.method public static final asConsumer(Lkotlin/coroutines/e;)Ljava/util/function/Consumer;
     .locals 1
-    .param p0    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x18
     .end annotation
@@ -29,14 +21,11 @@
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/util/function/Consumer<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -44,7 +33,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/util/ContinuationConsumer;-><init>(Lul/c;)V
+    invoke-direct {v0, p0}, Landroidx/core/util/ContinuationConsumer;-><init>(Lkotlin/coroutines/e;)V
 
     .line 4
     .line 5

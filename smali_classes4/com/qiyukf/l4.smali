@@ -141,6 +141,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getData()Ljava/lang/String;
@@ -169,6 +171,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExt()Ljava/lang/String;
@@ -197,6 +201,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getId()J
@@ -225,6 +231,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getType()I
@@ -253,6 +261,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUniqueId()Ljava/lang/String;
@@ -281,6 +291,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUpdateTime()J
@@ -309,4 +321,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

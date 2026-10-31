@@ -3,30 +3,12 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nAuthFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AuthFragment.kt\ncom/example/flu_youzan_service/AuthFragment\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,198:1\n1#2:199\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nAuthFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AuthFragment.kt\ncom/example/flu_youzan_service/AuthFragment\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,198:1\n1#2:199\n*E\n"
-    }
-.end annotation
-
-
 # instance fields
 .field public final f:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public g:Lcom/youzan/androidsdkx5/YouzanBrowser;
 
 .field public h:Landroid/widget/TextView;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -62,28 +44,27 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public static synthetic j(Lcom/example/flu_youzan_service/AuthFragment;)V
+.method public static synthetic h(Lcom/example/flu_youzan_service/AuthFragment;)V
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lcom/example/flu_youzan_service/AuthFragment;->o(Lcom/example/flu_youzan_service/AuthFragment;)V
+    invoke-static {p0}, Lcom/example/flu_youzan_service/AuthFragment;->m(Lcom/example/flu_youzan_service/AuthFragment;)V
 
     return-void
 .end method
 
-.method public static synthetic k(Lcom/example/flu_youzan_service/AuthFragment;Landroid/view/View;)V
+.method public static synthetic i(Lcom/example/flu_youzan_service/AuthFragment;Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lcom/example/flu_youzan_service/AuthFragment;->q(Lcom/example/flu_youzan_service/AuthFragment;Landroid/view/View;)V
+    invoke-static {p0, p1}, Lcom/example/flu_youzan_service/AuthFragment;->o(Lcom/example/flu_youzan_service/AuthFragment;Landroid/view/View;)V
 
     return-void
 .end method
 
-.method public static final synthetic l(Lcom/example/flu_youzan_service/AuthFragment;)Landroid/widget/TextView;
+.method public static final synthetic j(Lcom/example/flu_youzan_service/AuthFragment;)Landroid/widget/TextView;
     .locals 0
 
     .line 1
@@ -113,14 +94,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public static final o(Lcom/example/flu_youzan_service/AuthFragment;)V
+.method public static final m(Lcom/example/flu_youzan_service/AuthFragment;)V
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/example/flu_youzan_service/WebViewFragment;->h()Lcom/youzan/androidsdkx5/YouzanBrowser;
+    invoke-virtual {p0}, Lcom/example/flu_youzan_service/WebViewFragment;->f()Lcom/youzan/androidsdkx5/YouzanBrowser;
 
     .line 2
     .line 3
@@ -128,11 +108,11 @@
     move-result-object p0
 
     .line 5
-    sget-object v0, Lk7/p;->a:Lk7/p;
+    sget-object v0, Li1/n;->a:Li1/n;
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Lk7/p;->e()Ll7/b;
+    invoke-virtual {v0}, Li1/n;->e()Lj1/b;
 
     .line 8
     .line 9
@@ -140,7 +120,7 @@
     move-result-object v0
 
     .line 11
-    invoke-virtual {v0}, Ll7/b;->k()Ljava/lang/String;
+    invoke-virtual {v0}, Lj1/b;->a()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -160,10 +140,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public static final q(Lcom/example/flu_youzan_service/AuthFragment;Landroid/view/View;)V
+.method public static final o(Lcom/example/flu_youzan_service/AuthFragment;Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -197,11 +176,11 @@
 
     .line 15
     .line 16
-    sget-object p1, Lk7/p;->a:Lk7/p;
+    sget-object p1, Li1/n;->a:Li1/n;
 
     .line 17
     .line 18
-    invoke-virtual {p1, p0}, Lk7/p;->m(Landroid/content/Context;)V
+    invoke-virtual {p1, p0}, Li1/n;->m(Landroid/content/Context;)V
 
     .line 19
     .line 20
@@ -247,16 +226,11 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
-.method public g()I
+.method public e()I
     .locals 1
 
     .line 1
@@ -284,10 +258,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public i()I
+.method public g()I
     .locals 1
 
     .line 1
@@ -315,13 +288,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public final m()Ljava/lang/String;
+.method public final k()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/example/flu_youzan_service/AuthFragment;->f:Ljava/lang/String;
@@ -348,18 +318,17 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public final n()V
+.method public final l()V
     .locals 4
 
     .line 1
-    sget-object v0, Lk7/p;->a:Lk7/p;
+    sget-object v0, Li1/n;->a:Li1/n;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lk7/p;->e()Ll7/b;
+    invoke-virtual {v0}, Li1/n;->e()Lj1/b;
 
     .line 4
     .line 5
@@ -367,7 +336,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Ll7/b;->k()Ljava/lang/String;
+    invoke-virtual {v0}, Lj1/b;->a()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -399,11 +368,11 @@
 
     .line 22
     .line 23
-    new-instance v1, Lk7/a;
+    new-instance v1, Li1/a;
 
     .line 24
     .line 25
-    invoke-direct {v1, p0}, Lk7/a;-><init>(Lcom/example/flu_youzan_service/AuthFragment;)V
+    invoke-direct {v1, p0}, Li1/a;-><init>(Lcom/example/flu_youzan_service/AuthFragment;)V
 
     .line 26
     .line 27
@@ -429,7 +398,7 @@
 
     .line 37
     .line 38
-    invoke-static {v2}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -460,7 +429,7 @@
 
     .line 53
     .line 54
-    invoke-static {v2}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -521,182 +490,13 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public onBackPressed()Z
-    .locals 2
-
-    .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
-
-    .line 5
-    if-eqz v0, :cond_0
-
-    .line 6
-    .line 7
-    sget-object v1, Lk7/p;->a:Lk7/p;
-
-    .line 8
-    .line 9
-    invoke-virtual {v1, v0}, Lk7/p;->m(Landroid/content/Context;)V
-
-    .line 10
-    .line 11
-    .line 12
-    :cond_0
-    invoke-super {p0}, Lcom/example/flu_youzan_service/WebViewFragment;->onBackPressed()Z
-
-    .line 13
-    .line 14
-    .line 15
-    move-result v0
-
-    .line 16
-    return v0
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
-    .locals 1
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/os/Bundle;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-
-    .line 1
-    const-string v0, "view"
-
-    .line 2
-    .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
-
-    .line 7
-    .line 8
-    .line 9
-    invoke-virtual {p0, p1}, Lcom/example/flu_youzan_service/AuthFragment;->p(Landroid/view/View;)V
-
-    .line 10
-    .line 11
-    .line 12
-    invoke-virtual {p0}, Lcom/example/flu_youzan_service/AuthFragment;->n()V
-
-    .line 13
-    .line 14
-    .line 15
-    invoke-virtual {p0}, Lcom/example/flu_youzan_service/WebViewFragment;->h()Lcom/youzan/androidsdkx5/YouzanBrowser;
-
-    .line 16
-    .line 17
-    .line 18
-    move-result-object p1
-
-    .line 19
-    invoke-virtual {p1}, Lcom/tencent/smtt/sdk/WebView;->getSettings()Lcom/tencent/smtt/sdk/WebSettings;
-
-    .line 20
-    .line 21
-    .line 22
-    move-result-object p1
-
-    .line 23
-    const/4 p2, 0x2
-
-    .line 24
-    invoke-virtual {p1, p2}, Lcom/tencent/smtt/sdk/WebSettings;->setCacheMode(I)V
-
-    .line 25
-    .line 26
-    .line 27
-    iget-object p1, p0, Lcom/example/flu_youzan_service/AuthFragment;->g:Lcom/youzan/androidsdkx5/YouzanBrowser;
-
-    .line 28
-    .line 29
-    if-nez p1, :cond_0
-
-    .line 30
-    .line 31
-    const-string p1, "mView"
-
-    .line 32
-    .line 33
-    invoke-static {p1}, Lkm/g0;->S(Ljava/lang/String;)V
-
-    .line 34
-    .line 35
-    .line 36
-    const/4 p1, 0x0
-
-    .line 37
-    :cond_0
-    const/4 p2, 0x0
-
-    .line 38
-    invoke-virtual {p1, p2}, Lcom/youzan/androidsdkx5/YouzanBrowser;->needLoading(Z)V
-
-    .line 39
-    .line 40
-    .line 41
-    return-void
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-.end method
-
-.method public final p(Landroid/view/View;)V
+.method public final n(Landroid/view/View;)V
     .locals 6
 
     .line 1
-    invoke-virtual {p0}, Lcom/example/flu_youzan_service/WebViewFragment;->h()Lcom/youzan/androidsdkx5/YouzanBrowser;
+    invoke-virtual {p0}, Lcom/example/flu_youzan_service/WebViewFragment;->f()Lcom/youzan/androidsdkx5/YouzanBrowser;
 
     .line 2
     .line 3
@@ -708,7 +508,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -728,7 +528,7 @@
 
     .line 16
     .line 17
-    invoke-static {v2}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -799,7 +599,7 @@
 
     .line 52
     .line 53
-    invoke-static {v2}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -846,7 +646,7 @@
 
     .line 75
     .line 76
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 77
     .line 78
@@ -876,7 +676,7 @@
 
     .line 91
     .line 92
-    invoke-static {p1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 93
     .line 94
@@ -885,11 +685,11 @@
 
     .line 96
     .line 97
-    new-instance v0, Lk7/b;
+    new-instance v0, Li1/b;
 
     .line 98
     .line 99
-    invoke-direct {v0, p0}, Lk7/b;-><init>(Lcom/example/flu_youzan_service/AuthFragment;)V
+    invoke-direct {v0, p0}, Li1/b;-><init>(Lcom/example/flu_youzan_service/AuthFragment;)V
 
     .line 100
     .line 101
@@ -907,7 +707,7 @@
 
     .line 108
     .line 109
-    invoke-static {v2}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 110
     .line 111
@@ -938,7 +738,7 @@
 
     .line 124
     .line 125
-    invoke-static {v2}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 126
     .line 127
@@ -987,7 +787,7 @@
 
     .line 150
     .line 151
-    invoke-static {v2}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v2}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 152
     .line 153
@@ -1259,4 +1059,182 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
+.end method
+
+.method public onBackPressed()Z
+    .locals 2
+
+    .line 1
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    sget-object v1, Li1/n;->a:Li1/n;
+
+    .line 8
+    .line 9
+    invoke-virtual {v1, v0}, Li1/n;->m(Landroid/content/Context;)V
+
+    .line 10
+    .line 11
+    .line 12
+    :cond_0
+    invoke-super {p0}, Lcom/example/flu_youzan_service/WebViewFragment;->onBackPressed()Z
+
+    .line 13
+    .line 14
+    .line 15
+    move-result v0
+
+    .line 16
+    return v0
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    .locals 1
+
+    .line 1
+    const-string v0, "view"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/Fragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-virtual {p0, p1}, Lcom/example/flu_youzan_service/AuthFragment;->n(Landroid/view/View;)V
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-virtual {p0}, Lcom/example/flu_youzan_service/AuthFragment;->l()V
+
+    .line 13
+    .line 14
+    .line 15
+    invoke-virtual {p0}, Lcom/example/flu_youzan_service/WebViewFragment;->f()Lcom/youzan/androidsdkx5/YouzanBrowser;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p1
+
+    .line 19
+    invoke-virtual {p1}, Lcom/tencent/smtt/sdk/WebView;->getSettings()Lcom/tencent/smtt/sdk/WebSettings;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object p1
+
+    .line 23
+    const/4 p2, 0x2
+
+    .line 24
+    invoke-virtual {p1, p2}, Lcom/tencent/smtt/sdk/WebSettings;->setCacheMode(I)V
+
+    .line 25
+    .line 26
+    .line 27
+    iget-object p1, p0, Lcom/example/flu_youzan_service/AuthFragment;->g:Lcom/youzan/androidsdkx5/YouzanBrowser;
+
+    .line 28
+    .line 29
+    if-nez p1, :cond_0
+
+    .line 30
+    .line 31
+    const-string p1, "mView"
+
+    .line 32
+    .line 33
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
+
+    .line 34
+    .line 35
+    .line 36
+    const/4 p1, 0x0
+
+    .line 37
+    :cond_0
+    const/4 p2, 0x0
+
+    .line 38
+    invoke-virtual {p1, p2}, Lcom/youzan/androidsdkx5/YouzanBrowser;->needLoading(Z)V
+
+    .line 39
+    .line 40
+    .line 41
+    return-void
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
 .end method

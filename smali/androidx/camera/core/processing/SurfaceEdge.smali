@@ -267,7 +267,7 @@
     .line 139
 .end method
 
-.method public static synthetic a(Landroidx/camera/core/processing/SurfaceEdge;Landroidx/camera/core/processing/SurfaceEdge$SettableSurface;ILandroid/util/Size;Landroid/graphics/Rect;IZLandroidx/camera/core/impl/CameraInternal;Landroid/view/Surface;)Lub/u0;
+.method public static synthetic a(Landroidx/camera/core/processing/SurfaceEdge;Landroidx/camera/core/processing/SurfaceEdge$SettableSurface;ILandroid/util/Size;Landroid/graphics/Rect;IZLandroidx/camera/core/impl/CameraInternal;Landroid/view/Surface;)Lcom/google/common/util/concurrent/t;
     .locals 11
 
     .line 1
@@ -347,7 +347,7 @@
     .line 36
     .line 37
     .line 38
-    invoke-virtual {v0}, Landroidx/camera/core/processing/SurfaceOutputImpl;->getCloseFuture()Lub/u0;
+    invoke-virtual {v0}, Landroidx/camera/core/processing/SurfaceOutputImpl;->getCloseFuture()Lcom/google/common/util/concurrent/t;
 
     .line 39
     .line 40
@@ -355,11 +355,11 @@
     move-result-object p2
 
     .line 42
-    new-instance p3, Landroidx/camera/core/processing/c;
+    new-instance p3, Landroidx/camera/core/processing/x;
 
     .line 43
     .line 44
-    invoke-direct {p3, p1}, Landroidx/camera/core/processing/c;-><init>(Landroidx/camera/core/processing/SurfaceEdge$SettableSurface;)V
+    invoke-direct {p3, p1}, Landroidx/camera/core/processing/x;-><init>(Landroidx/camera/core/processing/SurfaceEdge$SettableSurface;)V
 
     .line 45
     .line 46
@@ -372,7 +372,7 @@
     move-result-object p1
 
     .line 51
-    invoke-interface {p2, p3, p1}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {p2, p3, p1}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 52
     .line 53
@@ -381,7 +381,7 @@
 
     .line 55
     .line 56
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 57
     .line 58
@@ -399,7 +399,7 @@
     move-object p0, v0
 
     .line 63
-    invoke-static {p0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 64
     .line 65
@@ -499,11 +499,11 @@
     move-result-object v0
 
     .line 8
-    new-instance v1, Lz/u;
+    new-instance v1, Landroidx/camera/core/processing/v;
 
     .line 9
     .line 10
-    invoke-direct {v1, p0}, Lz/u;-><init>(Landroidx/camera/core/processing/SurfaceEdge;)V
+    invoke-direct {v1, p0}, Landroidx/camera/core/processing/v;-><init>(Landroidx/camera/core/processing/SurfaceEdge;)V
 
     .line 11
     .line 12
@@ -599,6 +599,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private checkNotClosed()V
@@ -633,6 +634,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic d(Landroidx/camera/core/processing/SurfaceEdge;II)V
@@ -785,6 +787,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private disconnectWithoutCheckingClosed()V
@@ -828,6 +833,7 @@
     :cond_0
     return-void
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic e(Landroidx/camera/core/processing/SurfaceEdge;)V
@@ -956,6 +962,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -1039,9 +1047,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public createSurfaceOutputFuture(Landroid/util/Size;ILandroid/graphics/Rect;IZLandroidx/camera/core/impl/CameraInternal;)Lub/u0;
+.method public createSurfaceOutputFuture(Landroid/util/Size;ILandroid/graphics/Rect;IZLandroidx/camera/core/impl/CameraInternal;)Lcom/google/common/util/concurrent/t;
     .locals 10
     .param p1    # Landroid/util/Size;
         .annotation build Landroidx/annotation/NonNull;
@@ -1070,9 +1079,7 @@
             "IZ",
             "Landroidx/camera/core/impl/CameraInternal;",
             ")",
-            "Lub/u0<",
-            "Landroidx/camera/core/SurfaceOutput;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1096,7 +1103,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v2}, Landroidx/camera/core/impl/DeferrableSurface;->getSurface()Lub/u0;
+    invoke-virtual {v2}, Landroidx/camera/core/impl/DeferrableSurface;->getSurface()Lcom/google/common/util/concurrent/t;
 
     .line 13
     .line 14
@@ -1104,7 +1111,7 @@
     move-result-object v9
 
     .line 16
-    new-instance v0, Landroidx/camera/core/processing/b;
+    new-instance v0, Landroidx/camera/core/processing/w;
 
     .line 17
     .line 18
@@ -1130,7 +1137,7 @@
 
     .line 25
     .line 26
-    invoke-direct/range {v0 .. v8}, Landroidx/camera/core/processing/b;-><init>(Landroidx/camera/core/processing/SurfaceEdge;Landroidx/camera/core/processing/SurfaceEdge$SettableSurface;ILandroid/util/Size;Landroid/graphics/Rect;IZLandroidx/camera/core/impl/CameraInternal;)V
+    invoke-direct/range {v0 .. v8}, Landroidx/camera/core/processing/w;-><init>(Landroidx/camera/core/processing/SurfaceEdge;Landroidx/camera/core/processing/SurfaceEdge$SettableSurface;ILandroid/util/Size;Landroid/graphics/Rect;IZLandroidx/camera/core/impl/CameraInternal;)V
 
     .line 27
     .line 28
@@ -1143,7 +1150,7 @@
     move-result-object p1
 
     .line 33
-    invoke-static {v9, v0, p1}, Landroidx/camera/core/impl/utils/futures/Futures;->transformAsync(Lub/u0;Landroidx/camera/core/impl/utils/futures/AsyncFunction;Ljava/util/concurrent/Executor;)Lub/u0;
+    invoke-static {v9, v0, p1}, Landroidx/camera/core/impl/utils/futures/Futures;->transformAsync(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/AsyncFunction;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/t;
 
     .line 34
     .line 35
@@ -2188,11 +2195,11 @@
     move-result-object v5
 
     .line 27
-    new-instance v6, Lz/q;
+    new-instance v6, Landroidx/camera/core/processing/r;
 
     .line 28
     .line 29
-    invoke-direct {v6, p0}, Lz/q;-><init>(Landroidx/camera/core/processing/SurfaceEdge;)V
+    invoke-direct {v6, p0}, Landroidx/camera/core/processing/r;-><init>(Landroidx/camera/core/processing/SurfaceEdge;)V
 
     .line 30
     .line 31
@@ -2218,11 +2225,11 @@
 
     .line 41
     .line 42
-    new-instance v2, Lz/r;
+    new-instance v2, Landroidx/camera/core/processing/s;
 
     .line 43
     .line 44
-    invoke-direct {v2, p0}, Lz/r;-><init>(Landroidx/camera/core/processing/SurfaceEdge;)V
+    invoke-direct {v2, p0}, Landroidx/camera/core/processing/s;-><init>(Landroidx/camera/core/processing/SurfaceEdge;)V
 
     .line 45
     .line 46
@@ -2243,7 +2250,7 @@
 
     .line 54
     .line 55
-    invoke-virtual {v0}, Landroidx/camera/core/impl/DeferrableSurface;->getTerminationFuture()Lub/u0;
+    invoke-virtual {v0}, Landroidx/camera/core/impl/DeferrableSurface;->getTerminationFuture()Lcom/google/common/util/concurrent/t;
 
     .line 56
     .line 57
@@ -2256,11 +2263,11 @@
     .line 60
     .line 61
     .line 62
-    new-instance v2, Lz/s;
+    new-instance v2, Landroidx/camera/core/processing/t;
 
     .line 63
     .line 64
-    invoke-direct {v2, p1}, Lz/s;-><init>(Landroidx/camera/core/impl/DeferrableSurface;)V
+    invoke-direct {v2, p1}, Landroidx/camera/core/processing/t;-><init>(Landroidx/camera/core/impl/DeferrableSurface;)V
 
     .line 65
     .line 66
@@ -2273,7 +2280,7 @@
     move-result-object p1
 
     .line 71
-    invoke-interface {v0, v2, p1}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v0, v2, p1}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
     :try_end_0
     .catch Landroidx/camera/core/impl/DeferrableSurface$SurfaceClosedException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
@@ -2482,6 +2489,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public final disconnect()V
@@ -2516,6 +2528,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCropRect()Landroid/graphics/Rect;
@@ -2546,6 +2559,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDeferrableSurface()Landroidx/camera/core/impl/DeferrableSurface;
@@ -2585,6 +2599,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDeferrableSurfaceForTesting()Landroidx/camera/core/impl/DeferrableSurface;
@@ -2618,6 +2633,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFormat()I
@@ -2646,6 +2662,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMirroring()Z
@@ -2674,6 +2691,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRotationDegrees()I
@@ -2702,6 +2720,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSensorToBufferTransform()Landroid/graphics/Matrix;
@@ -2732,6 +2751,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStreamSpec()Landroidx/camera/core/impl/StreamSpec;
@@ -2762,6 +2782,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTargets()I
@@ -2790,6 +2811,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasCameraTransform()Z
@@ -2818,6 +2840,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasProvider()Z
@@ -2852,6 +2875,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invalidate()V
@@ -3004,6 +3028,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isClosed()Z
@@ -3034,6 +3060,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setProvider(Landroidx/camera/core/impl/DeferrableSurface;)V
@@ -3066,11 +3093,11 @@
 
     .line 8
     .line 9
-    new-instance v1, Lz/r;
+    new-instance v1, Landroidx/camera/core/processing/s;
 
     .line 10
     .line 11
-    invoke-direct {v1, p0}, Lz/r;-><init>(Landroidx/camera/core/processing/SurfaceEdge;)V
+    invoke-direct {v1, p0}, Landroidx/camera/core/processing/s;-><init>(Landroidx/camera/core/processing/SurfaceEdge;)V
 
     .line 12
     .line 13
@@ -3106,9 +3133,9 @@
     .locals 1
 
     .line 2
-    new-instance v0, Lz/t;
+    new-instance v0, Landroidx/camera/core/processing/u;
 
-    invoke-direct {v0, p0, p1, p2}, Lz/t;-><init>(Landroidx/camera/core/processing/SurfaceEdge;II)V
+    invoke-direct {v0, p0, p1, p2}, Landroidx/camera/core/processing/u;-><init>(Landroidx/camera/core/processing/SurfaceEdge;II)V
 
     invoke-static {v0}, Landroidx/camera/core/impl/utils/Threads;->runOnMain(Ljava/lang/Runnable;)V
 

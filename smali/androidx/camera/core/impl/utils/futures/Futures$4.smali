@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/camera/core/impl/utils/futures/Futures;->propagateTransform(ZLub/u0;Landroidx/arch/core/util/Function;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/util/concurrent/Executor;)V
+    value = Landroidx/camera/core/impl/utils/futures/Futures;->propagateTransform(ZLcom/google/common/util/concurrent/t;Landroidx/arch/core/util/Function;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/util/concurrent/Executor;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,11 +18,11 @@
 
 
 # instance fields
-.field final synthetic val$input:Lub/u0;
+.field final synthetic val$input:Lcom/google/common/util/concurrent/t;
 
 
 # direct methods
-.method public constructor <init>(Lub/u0;)V
+.method public constructor <init>(Lcom/google/common/util/concurrent/t;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -31,7 +31,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/camera/core/impl/utils/futures/Futures$4;->val$input:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/core/impl/utils/futures/Futures$4;->val$input:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -68,7 +68,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/Futures$4;->val$input:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/Futures$4;->val$input:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -94,4 +94,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

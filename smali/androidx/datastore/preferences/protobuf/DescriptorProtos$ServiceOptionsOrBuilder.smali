@@ -35,14 +35,6 @@
 .end method
 
 .method public abstract getUninterpretedOption(I)Landroidx/datastore/preferences/protobuf/DescriptorProtos$UninterpretedOption;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getUninterpretedOptionCount()I

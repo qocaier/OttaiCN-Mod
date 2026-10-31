@@ -171,6 +171,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -183,9 +186,6 @@
             "Landroidx/activity/result/contract/ActivityResultContract<",
             "TI;*>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -211,14 +211,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
     .locals 3
-    .param p2    # Landroidx/core/app/ActivityOptionsCompat;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TI;",
@@ -552,6 +549,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public unregister()V
@@ -584,4 +584,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

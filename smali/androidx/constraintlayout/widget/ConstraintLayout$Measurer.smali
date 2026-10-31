@@ -38,16 +38,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/constraintlayout/widget/ConstraintLayout;Landroidx/constraintlayout/widget/ConstraintLayout;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x0
-        }
-        names = {
-            "this$0",
-            "l"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout$Measurer;->this$0:Landroidx/constraintlayout/widget/ConstraintLayout;
@@ -108,18 +98,6 @@
 
 .method private isSimilarSpec(III)Z
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "lastMeasureSpec",
-            "spec",
-            "widgetSize"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -274,30 +252,15 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
 # virtual methods
 .method public captureLayoutInfo(IIIIII)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "widthSpec",
-            "heightSpec",
-            "top",
-            "bottom",
-            "width",
-            "height"
-        }
-    .end annotation
 
     .line 1
     iput p3, p0, Landroidx/constraintlayout/widget/ConstraintLayout$Measurer;->paddingTop:I
@@ -1481,6 +1444,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final measure(Landroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measure;)V
@@ -1488,17 +1453,6 @@
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "WrongCall"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "widget",
-            "measure"
         }
     .end annotation
 

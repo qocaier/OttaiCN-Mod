@@ -187,6 +187,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getViewLayoutPosition()I
@@ -219,6 +220,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getViewPosition()I
@@ -253,6 +255,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isItemChanged()Z
@@ -285,6 +288,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isItemRemoved()Z
@@ -317,6 +321,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isViewInvalid()Z
@@ -349,6 +354,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public viewNeedsUpdate()Z
@@ -381,4 +387,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

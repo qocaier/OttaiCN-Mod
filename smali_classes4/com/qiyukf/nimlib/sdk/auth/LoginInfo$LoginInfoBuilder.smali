@@ -293,6 +293,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public static loginInfoDefault(Ljava/lang/String;Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/auth/LoginInfo$LoginInfoBuilder;
@@ -361,6 +384,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static loginInfoDynamic(Ljava/lang/String;Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/auth/LoginInfo$LoginInfoBuilder;
@@ -429,6 +462,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static loginInfoThirdParty(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/auth/LoginInfo$LoginInfoBuilder;
@@ -566,11 +609,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static loginInfoThirdPartyDynamic(Ljava/lang/String;Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/auth/LoginInfo$LoginInfoBuilder;
@@ -639,6 +677,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -755,6 +803,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public withAppKey(Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/auth/LoginInfo$LoginInfoBuilder;
@@ -788,6 +837,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public withAuthType(I)Lcom/qiyukf/nimlib/sdk/auth/LoginInfo$LoginInfoBuilder;
@@ -821,6 +872,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public withCustomClientType(I)Lcom/qiyukf/nimlib/sdk/auth/LoginInfo$LoginInfoBuilder;
@@ -854,6 +907,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public withLoginExt(Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/auth/LoginInfo$LoginInfoBuilder;
@@ -887,4 +942,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

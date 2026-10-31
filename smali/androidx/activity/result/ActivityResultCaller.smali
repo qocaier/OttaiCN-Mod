@@ -5,14 +5,6 @@
 
 # virtual methods
 .method public abstract registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
-    .param p1    # Landroidx/activity/result/contract/ActivityResultContract;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/activity/result/ActivityResultCallback;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<I:",
@@ -28,24 +20,9 @@
             "TI;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultRegistry;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
-    .param p1    # Landroidx/activity/result/contract/ActivityResultContract;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/activity/result/ActivityResultRegistry;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroidx/activity/result/ActivityResultCallback;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<I:",
@@ -61,8 +38,5 @@
             "Landroidx/activity/result/ActivityResultLauncher<",
             "TI;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method

@@ -4,20 +4,8 @@
 
 
 # direct methods
-.method public static final lruCache(ILjm/p;Ljm/l;Ljm/r;)Landroid/util/LruCache;
+.method public static final lruCache(ILq8/p;Lq8/l;Lq8/r;)Landroid/util/LruCache;
     .locals 1
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/r;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -25,24 +13,13 @@
             "V:",
             "Ljava/lang/Object;",
             ">(I",
-            "Ljm/p<",
-            "-TK;-TV;",
-            "Ljava/lang/Integer;",
-            ">;",
-            "Ljm/l<",
-            "-TK;+TV;>;",
-            "Ljm/r<",
-            "-",
-            "Ljava/lang/Boolean;",
-            "-TK;-TV;-TV;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/p;",
+            "Lq8/l;",
+            "Lq8/r;",
+            ")",
             "Landroid/util/LruCache<",
             "TK;TV;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -50,7 +27,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/core/util/LruCacheKt$lruCache$4;-><init>(ILjm/p;Ljm/l;Ljm/r;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/core/util/LruCacheKt$lruCache$4;-><init>(ILq8/p;Lq8/l;Lq8/r;)V
 
     .line 4
     .line 5
@@ -280,9 +257,15 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static synthetic lruCache$default(ILjm/p;Ljm/l;Ljm/r;ILjava/lang/Object;)Landroid/util/LruCache;
+.method public static synthetic lruCache$default(ILq8/p;Lq8/l;Lq8/r;ILjava/lang/Object;)Landroid/util/LruCache;
     .locals 0
 
     .line 1
@@ -329,7 +312,7 @@
 
     .line 20
     .line 21
-    invoke-direct {p4, p0, p1, p2, p3}, Landroidx/core/util/LruCacheKt$lruCache$4;-><init>(ILjm/p;Ljm/l;Ljm/r;)V
+    invoke-direct {p4, p0, p1, p2, p3}, Landroidx/core/util/LruCacheKt$lruCache$4;-><init>(ILq8/p;Lq8/l;Lq8/r;)V
 
     .line 22
     .line 23

@@ -78,6 +78,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/unicorn/ui/fragment/TranslateFragment;)Landroid/widget/Button;
@@ -111,6 +113,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$100(Lcom/qiyukf/unicorn/ui/fragment/TranslateFragment;)V
@@ -144,6 +148,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$200(Lcom/qiyukf/unicorn/ui/fragment/TranslateFragment;)Landroid/widget/TextView;
@@ -177,6 +183,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$300(Lcom/qiyukf/unicorn/ui/fragment/TranslateFragment;)V
@@ -210,6 +218,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private getTranslateFromServer(Lcom/qiyukf/nimlib/sdk/msg/attachment/AudioAttachment;)V
@@ -330,6 +340,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private initViews()V
@@ -455,6 +467,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static newInstance(Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;)Lcom/qiyukf/unicorn/ui/fragment/TranslateFragment;
@@ -549,6 +562,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private onTranslateFailed()V
@@ -691,6 +706,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -1131,27 +1147,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -1312,6 +1307,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
@@ -1534,11 +1531,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onDetach()V
@@ -1582,4 +1574,6 @@
     .line 19
     return-void
     .line 20
+    .line 21
+    .line 22
 .end method

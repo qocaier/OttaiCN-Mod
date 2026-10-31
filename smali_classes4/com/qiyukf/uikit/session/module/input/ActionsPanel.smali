@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$000(Landroid/view/ViewGroup;II)V
@@ -163,11 +165,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static init(Landroid/view/View;Ljava/util/List;)V
@@ -267,6 +264,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method private static initPageListener(Landroid/view/ViewGroup;ILandroidx/viewpager/widget/ViewPager;)V
@@ -408,11 +415,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method private static setIndicator(Landroid/view/ViewGroup;II)V
@@ -609,9 +611,4 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method

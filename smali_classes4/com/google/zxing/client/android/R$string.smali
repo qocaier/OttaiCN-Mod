@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/zxing/client/android/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "string"
-.end annotation
-
-
 # static fields
 .field public static app_version:I = 0x7f11001d
 
@@ -37,15 +26,15 @@
 
 .field public static library_zxingandroidembedded_repositoryLink:I = 0x7f110067
 
-.field public static status_bar_notification_info_overflow:I = 0x7f1100e5
+.field public static status_bar_notification_info_overflow:I = 0x7f1100e2
 
-.field public static zxing_app_name:I = 0x7f1102d2
+.field public static zxing_app_name:I = 0x7f1102cf
 
-.field public static zxing_button_ok:I = 0x7f1102d3
+.field public static zxing_button_ok:I = 0x7f1102d0
 
-.field public static zxing_msg_camera_framework_bug:I = 0x7f1102d4
+.field public static zxing_msg_camera_framework_bug:I = 0x7f1102d1
 
-.field public static zxing_msg_default_status:I = 0x7f1102d5
+.field public static zxing_msg_default_status:I = 0x7f1102d2
 
 
 # direct methods

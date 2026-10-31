@@ -6,19 +6,9 @@
 .implements Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
 
 
-# annotations
-.annotation build Lb9/a;
-.end annotation
-
-.annotation build Lh9/x;
-.end annotation
-
-
 # direct methods
 .method public constructor <init>()V
     .locals 0
-    .annotation build Lb9/a;
-    .end annotation
 
     invoke-direct {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;-><init>()V
 
@@ -27,54 +17,6 @@
 
 
 # virtual methods
-.method public X()[B
-    .locals 2
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lb9/a;
-    .end annotation
-
-    .line 1
-    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
-
-    .line 5
-    const/4 v1, 0x0
-
-    .line 6
-    invoke-interface {p0, v0, v1}, Landroid/os/Parcelable;->writeToParcel(Landroid/os/Parcel;I)V
-
-    .line 7
-    .line 8
-    .line 9
-    invoke-virtual {v0}, Landroid/os/Parcel;->marshall()[B
-
-    .line 10
-    .line 11
-    .line 12
-    move-result-object v1
-
-    .line 13
-    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
-
-    .line 14
-    .line 15
-    .line 16
-    return-object v1
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
 .method public final describeContents()I
     .locals 1
 
@@ -85,12 +27,6 @@
 
 .method public e(Ljava/lang/String;)Ljava/lang/Object;
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
 
     .line 1
     const/4 p1, 0x0
@@ -100,12 +36,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation build Lb9/a;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -158,7 +88,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->c()Ljava/util/Map;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->b()Ljava/util/Map;
 
     .line 23
     .line 24
@@ -207,7 +137,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {p0, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->g(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
+    invoke-virtual {p0, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->f(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
 
     .line 47
     .line 48
@@ -219,7 +149,7 @@
 
     .line 51
     .line 52
-    invoke-virtual {p1, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->g(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
+    invoke-virtual {p1, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->f(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
 
     .line 53
     .line 54
@@ -247,7 +177,7 @@
     move-result-object v3
 
     .line 66
-    invoke-static {v4, v3}, Lh9/r;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v3}, Lt2/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 67
     .line 68
@@ -264,7 +194,7 @@
 
     .line 73
     :cond_5
-    invoke-virtual {p1, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->g(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
+    invoke-virtual {p1, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->f(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
 
     .line 74
     .line 75
@@ -292,16 +222,10 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public h(Ljava/lang/String;)Z
+.method public g(Ljava/lang/String;)Z
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
     const/4 p1, 0x0
@@ -311,11 +235,9 @@
 
 .method public hashCode()I
     .locals 4
-    .annotation build Lb9/a;
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->c()Ljava/util/Map;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->b()Ljava/util/Map;
 
     .line 2
     .line 3
@@ -368,7 +290,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0, v2}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->g(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
+    invoke-virtual {p0, v2}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->f(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
 
     .line 27
     .line 28
@@ -392,7 +314,7 @@
     move-result-object v2
 
     .line 38
-    invoke-static {v2}, Lh9/t;->r(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v2}, Lt2/j;->g(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 39
     .line 40
@@ -468,13 +390,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

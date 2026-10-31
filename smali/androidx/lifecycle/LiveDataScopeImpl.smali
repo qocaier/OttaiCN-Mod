@@ -20,10 +20,7 @@
 
 
 # instance fields
-.field private final coroutineContext:Lkotlin/coroutines/d;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final coroutineContext:Lkotlin/coroutines/i;
 
 .field private target:Landroidx/lifecycle/CoroutineLiveData;
     .annotation system Ldalvik/annotation/Signature;
@@ -32,29 +29,18 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Landroidx/lifecycle/CoroutineLiveData;Lkotlin/coroutines/d;)V
+.method public constructor <init>(Landroidx/lifecycle/CoroutineLiveData;Lkotlin/coroutines/i;)V
     .locals 1
-    .param p1    # Landroidx/lifecycle/CoroutineLiveData;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/lifecycle/CoroutineLiveData<",
             "TT;>;",
-            "Lkotlin/coroutines/d;",
+            "Lkotlin/coroutines/i;",
             ")V"
         }
     .end annotation
@@ -64,7 +50,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -73,7 +59,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -87,7 +73,7 @@
 
     .line 15
     .line 16
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     .line 17
     .line 18
@@ -95,7 +81,7 @@
     move-result-object p1
 
     .line 20
-    invoke-virtual {p1}, Lfn/d2;->l()Lfn/d2;
+    invoke-virtual {p1}, Lkotlinx/coroutines/z1;->e()Lkotlinx/coroutines/z1;
 
     .line 21
     .line 22
@@ -103,7 +89,7 @@
     move-result-object p1
 
     .line 24
-    invoke-interface {p2, p1}, Lkotlin/coroutines/d;->plus(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+    invoke-interface {p2, p1}, Lkotlin/coroutines/i;->plus(Lkotlin/coroutines/i;)Lkotlin/coroutines/i;
 
     .line 25
     .line 26
@@ -111,7 +97,7 @@
     move-result-object p1
 
     .line 28
-    iput-object p1, p0, Landroidx/lifecycle/LiveDataScopeImpl;->coroutineContext:Lkotlin/coroutines/d;
+    iput-object p1, p0, Landroidx/lifecycle/LiveDataScopeImpl;->coroutineContext:Lkotlin/coroutines/i;
 
     .line 29
     .line 30
@@ -138,12 +124,8 @@
 
 
 # virtual methods
-.method public emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 3
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "NullSafeMutableLiveData"
@@ -153,19 +135,14 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LiveDataScopeImpl;->coroutineContext:Lkotlin/coroutines/d;
+    iget-object v0, p0, Landroidx/lifecycle/LiveDataScopeImpl;->coroutineContext:Lkotlin/coroutines/i;
 
     .line 2
     .line 3
@@ -176,12 +153,12 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v1, p0, p1, v2}, Landroidx/lifecycle/LiveDataScopeImpl$emit$2;-><init>(Landroidx/lifecycle/LiveDataScopeImpl;Ljava/lang/Object;Lul/c;)V
+    invoke-direct {v1, p0, p1, v2}, Landroidx/lifecycle/LiveDataScopeImpl$emit$2;-><init>(Landroidx/lifecycle/LiveDataScopeImpl;Ljava/lang/Object;Lkotlin/coroutines/e;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-static {v0, v1, p2}, Lfn/g;->h(Lkotlin/coroutines/d;Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-static {v0, v1, p2}, Lkotlinx/coroutines/g;->e(Lkotlin/coroutines/i;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -189,7 +166,7 @@
     move-result-object p1
 
     .line 13
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -205,7 +182,7 @@
 
     .line 20
     :cond_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 21
     .line 22
@@ -238,34 +215,21 @@
     .line 48
 .end method
 
-.method public emitSource(Landroidx/lifecycle/LiveData;Lul/c;)Ljava/lang/Object;
+.method public emitSource(Landroidx/lifecycle/LiveData;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 3
-    .param p1    # Landroidx/lifecycle/LiveData;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/lifecycle/LiveData<",
             "TT;>;",
-            "Lul/c<",
-            "-",
-            "Lfn/w0;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LiveDataScopeImpl;->coroutineContext:Lkotlin/coroutines/d;
+    iget-object v0, p0, Landroidx/lifecycle/LiveDataScopeImpl;->coroutineContext:Lkotlin/coroutines/i;
 
     .line 2
     .line 3
@@ -276,12 +240,12 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v1, p0, p1, v2}, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;-><init>(Landroidx/lifecycle/LiveDataScopeImpl;Landroidx/lifecycle/LiveData;Lul/c;)V
+    invoke-direct {v1, p0, p1, v2}, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;-><init>(Landroidx/lifecycle/LiveDataScopeImpl;Landroidx/lifecycle/LiveData;Lkotlin/coroutines/e;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-static {v0, v1, p2}, Lfn/g;->h(Lkotlin/coroutines/d;Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-static {v0, v1, p2}, Lkotlinx/coroutines/g;->e(Lkotlin/coroutines/i;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -335,9 +299,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/LiveDataScopeImpl;->target:Landroidx/lifecycle/CoroutineLiveData;
 
@@ -365,6 +326,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getTarget$lifecycle_livedata_release()Landroidx/lifecycle/CoroutineLiveData;
@@ -375,9 +337,6 @@
             "Landroidx/lifecycle/CoroutineLiveData<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -403,14 +362,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setTarget$lifecycle_livedata_release(Landroidx/lifecycle/CoroutineLiveData;)V
     .locals 1
-    .param p1    # Landroidx/lifecycle/CoroutineLiveData;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -424,7 +380,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

@@ -49,6 +49,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static a(Lcom/qiyukf/tv;)Lcom/qiyukf/dr;
@@ -201,6 +203,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public d(Ljava/lang/String;)V
@@ -234,6 +238,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public e(Ljava/lang/String;)V
@@ -267,6 +273,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getAccount()Ljava/lang/String;
@@ -295,6 +303,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAvatar()Ljava/lang/String;
@@ -323,6 +333,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getBotId()Ljava/lang/String;
@@ -351,6 +363,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCreateTime()J
@@ -379,6 +393,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getIntroduce()Ljava/lang/String;
@@ -407,6 +423,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -435,6 +453,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUpdateTime()J
@@ -463,4 +483,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

@@ -6,10 +6,6 @@
 # direct methods
 .method public static final varargs contentValuesOf([Lkotlin/Pair;)Landroid/content/ContentValues;
     .locals 6
-    .param p0    # [Lkotlin/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
@@ -20,9 +16,6 @@
             ">;)",
             "Landroid/content/ContentValues;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -437,4 +430,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

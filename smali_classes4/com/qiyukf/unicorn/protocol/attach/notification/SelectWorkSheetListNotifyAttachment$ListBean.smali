@@ -94,6 +94,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$002(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetListNotifyAttachment$ListBean;J)J
@@ -156,6 +158,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$102(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetListNotifyAttachment$ListBean;Ljava/lang/String;)Ljava/lang/String;
@@ -218,6 +230,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$202(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetListNotifyAttachment$ListBean;Ljava/lang/String;)Ljava/lang/String;
@@ -280,6 +302,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$302(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetListNotifyAttachment$ListBean;J)J
@@ -342,6 +374,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$402(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetListNotifyAttachment$ListBean;I)I
@@ -404,6 +446,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$502(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetListNotifyAttachment$ListBean;I)I
@@ -466,6 +518,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$602(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetListNotifyAttachment$ListBean;I)I
@@ -528,6 +590,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$702(Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetListNotifyAttachment$ListBean;Ljava/lang/String;)Ljava/lang/String;
@@ -590,6 +662,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -780,6 +862,7 @@
     return-object v0
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getAppendFieldFlag()I
@@ -808,6 +891,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getComment()Ljava/lang/String;
@@ -836,6 +921,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCreateTime()J
@@ -864,6 +951,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getId()J
@@ -892,6 +981,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getReminderStatus()I
@@ -920,6 +1011,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStatus()I
@@ -948,6 +1041,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTemplateName()Ljava/lang/String;
@@ -976,6 +1071,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -1004,6 +1101,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAppendFieldFlag(I)V
@@ -1037,6 +1136,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setComment(Ljava/lang/String;)V
@@ -1070,6 +1171,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCreateTime(J)V
@@ -1103,6 +1206,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setId(J)V
@@ -1136,6 +1241,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setReminderStatus(I)V
@@ -1169,6 +1276,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStatus(I)V
@@ -1202,6 +1311,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTemplateName(Ljava/lang/String;)V
@@ -1235,6 +1346,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTitle(Ljava/lang/String;)V
@@ -1268,4 +1381,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

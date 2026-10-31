@@ -35,11 +35,11 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lvg/a;
+    new-instance v0, Lcom/qiyukf/td0;
 
     .line 5
     .line 6
-    invoke-direct {v0, p0}, Lvg/a;-><init>(Lcom/qiyukf/b0;)V
+    invoke-direct {v0, p0}, Lcom/qiyukf/td0;-><init>(Lcom/qiyukf/b0;)V
 
     .line 7
     .line 8
@@ -67,6 +67,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private a(Landroid/util/Pair;)Lcom/qiyukf/tv;
@@ -218,6 +220,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic g(Lcom/qiyukf/b0;Landroid/util/Pair;)Lcom/qiyukf/tv;
@@ -389,6 +393,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public g()Ljava/util/List;

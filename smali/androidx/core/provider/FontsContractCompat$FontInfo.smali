@@ -759,6 +759,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSystemFont()Ljava/lang/String;
@@ -807,6 +808,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTtcIndex()I
@@ -838,6 +840,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUri()Landroid/net/Uri;
@@ -866,6 +869,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVariationSettings()Ljava/lang/String;
@@ -899,6 +903,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWeight()I
@@ -931,6 +936,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isItalic()Z
@@ -959,6 +965,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSystemFont()Z
@@ -1002,4 +1009,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

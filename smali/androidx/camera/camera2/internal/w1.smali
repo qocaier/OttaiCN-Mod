@@ -3,42 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/TorchControl;
-
-.field public final synthetic b:Z
+.field public final synthetic a:Landroidx/camera/core/impl/DeferrableSurface;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/TorchControl;Z)V
+.method public synthetic constructor <init>(Landroidx/camera/core/impl/DeferrableSurface;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/w1;->a:Landroidx/camera/camera2/internal/TorchControl;
-
-    iput-boolean p2, p0, Landroidx/camera/camera2/internal/w1;->b:Z
+    iput-object p1, p0, Landroidx/camera/camera2/internal/w1;->a:Landroidx/camera/core/impl/DeferrableSurface;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
-    .locals 2
+.method public final run()V
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/w1;->a:Landroidx/camera/camera2/internal/TorchControl;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/w1;->a:Landroidx/camera/core/impl/DeferrableSurface;
 
-    iget-boolean v1, p0, Landroidx/camera/camera2/internal/w1;->b:Z
+    invoke-static {v0}, Landroidx/camera/camera2/internal/ProcessingCaptureSession;->b(Landroidx/camera/core/impl/DeferrableSurface;)V
 
-    invoke-static {v0, v1, p1}, Landroidx/camera/camera2/internal/TorchControl;->a(Landroidx/camera/camera2/internal/TorchControl;ZLandroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
+    return-void
 .end method

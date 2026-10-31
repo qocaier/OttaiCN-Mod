@@ -58,7 +58,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -91,7 +90,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRetCoordType()Ljava/lang/String;
@@ -122,7 +120,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScope()I
@@ -153,7 +150,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getUid()Ljava/lang/String;
@@ -184,7 +180,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getUids()Ljava/lang/String;
@@ -215,7 +210,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isExtensionsAdcode()Z
@@ -246,7 +240,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isPhotoShow()Z
@@ -277,7 +270,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setExtensionsAdcode(Z)Lcom/baidu/mapapi/search/poi/v3/DetailOption;
@@ -310,7 +302,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLanguage(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/DetailOption;
@@ -343,7 +334,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPhotoShow(Z)Lcom/baidu/mapapi/search/poi/v3/DetailOption;
@@ -376,7 +366,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRetCoordType(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/DetailOption;
@@ -409,7 +398,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScope(I)Lcom/baidu/mapapi/search/poi/v3/DetailOption;
@@ -442,7 +430,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUid(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/DetailOption;
@@ -475,7 +462,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUids(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/DetailOption;
@@ -508,5 +494,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

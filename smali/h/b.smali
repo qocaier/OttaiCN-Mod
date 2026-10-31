@@ -1,16 +1,16 @@
-.class public final synthetic Lh/b;
+.class public abstract synthetic Lh/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # direct methods
-.method public static bridge synthetic a(Landroid/widget/TextView;)Z
+.method public static bridge synthetic a(Landroid/view/WindowManager;)Landroid/view/WindowMetrics;
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;->isHorizontallyScrollable()Z
+    invoke-interface {p0}, Landroid/view/WindowManager;->getMaximumWindowMetrics()Landroid/view/WindowMetrics;
 
-    move-result p0
+    move-result-object p0
 
-    return p0
+    return-object p0
 .end method

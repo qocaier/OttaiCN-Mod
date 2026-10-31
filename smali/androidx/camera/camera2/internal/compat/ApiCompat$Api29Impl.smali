@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static onCameraAccessPrioritiesChanged(Landroid/hardware/camera2/CameraManager$AvailabilityCallback;)V
@@ -57,7 +58,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Ln/c;->a(Landroid/hardware/camera2/CameraManager$AvailabilityCallback;)V
+    invoke-static {p0}, Landroidx/camera/camera2/internal/compat/c;->a(Landroid/hardware/camera2/CameraManager$AvailabilityCallback;)V
 
     .line 2
     .line 3

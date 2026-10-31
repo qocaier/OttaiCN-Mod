@@ -34,15 +34,6 @@
 .end method
 
 .method public abstract mergeDelimitedFrom(Ljava/io/InputStream;)Z
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -51,17 +42,6 @@
 .end method
 
 .method public abstract mergeDelimitedFrom(Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Z
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "input",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -71,15 +51,6 @@
 
 .method public abstract mergeFrom(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "data"
-        }
     .end annotation
 
     .annotation system Ldalvik/annotation/Throws;
@@ -93,17 +64,6 @@
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "data",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -113,15 +73,6 @@
 
 .method public abstract mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "input"
-        }
     .end annotation
 
     .annotation system Ldalvik/annotation/Throws;
@@ -135,17 +86,6 @@
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "input",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -156,28 +96,10 @@
 .method public abstract mergeFrom(Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
     .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "other"
-        }
-    .end annotation
 .end method
 
 .method public abstract mergeFrom(Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "input"
-        }
     .end annotation
 
     .annotation system Ldalvik/annotation/Throws;
@@ -191,17 +113,6 @@
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "input",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -211,15 +122,6 @@
 
 .method public abstract mergeFrom([B)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "data"
-        }
     .end annotation
 
     .annotation system Ldalvik/annotation/Throws;
@@ -233,19 +135,6 @@
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "data",
-            "off",
-            "len"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -257,21 +146,6 @@
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "data",
-            "off",
-            "len",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -281,17 +155,6 @@
 
 .method public abstract mergeFrom([BLandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "data",
-            "extensionRegistry"
-        }
     .end annotation
 
     .annotation system Ldalvik/annotation/Throws;

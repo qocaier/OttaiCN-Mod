@@ -7,15 +7,6 @@
 .annotation build Landroidx/annotation/Keep;
 .end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/heytap/mcssdk/constant/MessageConstant;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x609
-    name = "MessageType"
-.end annotation
-
 
 # static fields
 .field public static final ENHANCED_MESSAGE_DATA:I = 0x1015

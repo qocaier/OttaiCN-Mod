@@ -64,9 +64,9 @@
 
     invoke-direct {v8, p0}, Lcom/meizu/cloud/pushsdk/k/a$a;-><init>(Lcom/meizu/cloud/pushsdk/k/a;)V
 
-    new-instance v9, Lvf/a;
+    new-instance v9, Lcom/meizu/cloud/pushsdk/k/c;
 
-    invoke-direct {v9, p0}, Lvf/a;-><init>(Lcom/meizu/cloud/pushsdk/k/a;)V
+    invoke-direct {v9, p0}, Lcom/meizu/cloud/pushsdk/k/c;-><init>(Lcom/meizu/cloud/pushsdk/k/a;)V
 
     new-instance v1, Ljava/util/concurrent/ThreadPoolExecutor;
 
@@ -164,4 +164,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

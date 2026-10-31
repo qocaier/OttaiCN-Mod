@@ -170,6 +170,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static a()Lcom/qiyukf/nimlib/sdk/NimHandshakeType;
@@ -215,6 +216,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static b()Ljava/lang/String;
@@ -334,6 +337,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static c()Ljava/lang/String;
@@ -453,6 +457,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static d()Ljava/util/List;
@@ -580,6 +585,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static e()Ljava/lang/String;
@@ -699,6 +705,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static f()Ljava/util/List;
@@ -826,6 +833,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static g()Ljava/lang/String;
@@ -943,6 +951,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static h()Ljava/lang/String;
@@ -1062,6 +1071,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static i()Ljava/lang/String;
@@ -1181,4 +1191,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

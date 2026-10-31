@@ -50,7 +50,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -87,7 +86,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hashCode()I
@@ -129,16 +127,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TK;TV;)TV;"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -209,22 +201,10 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public putAll(Landroidx/collection/SimpleArrayMap;)V
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroidx/collection/SimpleArrayMap<",
-            "+TK;+TV;>;)V"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -257,16 +237,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeAt(I)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(I)TV;"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -301,16 +275,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setValueAt(ILjava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(ITV;)TV;"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -381,9 +349,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

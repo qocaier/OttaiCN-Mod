@@ -16,9 +16,6 @@
     }
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # static fields
 .field public static final ERROR_CAMERA_DISABLED:I = 0x5
@@ -63,6 +60,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static create(Landroidx/camera/core/CameraState$Type;)Landroidx/camera/core/CameraState;

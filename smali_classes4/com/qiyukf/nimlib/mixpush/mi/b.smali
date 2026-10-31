@@ -33,6 +33,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -51,7 +53,7 @@
     .line 5
     .line 6
     :try_start_0
-    invoke-static {p1}, Lcom/xiaomi/mipush/sdk/a;->w(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/xiaomi/mipush/sdk/j;->p(Landroid/content/Context;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -86,6 +88,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onNotificationClick(Landroid/content/Context;Ljava/lang/Object;)V
@@ -162,6 +166,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public onToken(Ljava/lang/String;)V
@@ -276,6 +290,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public register(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -300,7 +316,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {p1, p2, p3}, Lcom/xiaomi/mipush/sdk/a;->Z(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, p2, p3}, Lcom/xiaomi/mipush/sdk/j;->J(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -542,4 +558,27 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method

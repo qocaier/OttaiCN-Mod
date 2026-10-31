@@ -113,6 +113,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -511,27 +513,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public countToUnread()Z
@@ -568,6 +549,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getContent()Ljava/lang/String;
@@ -615,6 +598,8 @@
     .line 19
     .line 20
     return-object v0
+    .line 21
+    .line 22
 .end method
 
 .method public getCopyText(Landroid/content/Context;)Ljava/lang/String;
@@ -1151,27 +1136,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public getEvaluation()I
@@ -1200,6 +1164,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEvaluation_reason()I
@@ -1228,6 +1194,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFullAnswer()Ljava/lang/String;
@@ -1256,6 +1224,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLoadingText()Ljava/lang/String;
@@ -1284,6 +1254,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMessageTime()J
@@ -1312,6 +1284,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMsgIdClient()Ljava/lang/String;
@@ -1340,6 +1314,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuestionAnswer()Lcom/qiyukf/unicorn/protocol/attach/notification/RobotStreamAnswerAttachment$QuestionAnswer;
@@ -1368,6 +1344,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuestionMsgId()J
@@ -1396,6 +1374,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSequence()I
@@ -1424,6 +1404,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()J
@@ -1452,6 +1434,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAnswerGenerationStatus(I)V
@@ -1485,6 +1469,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEvaluation(I)V
@@ -1518,6 +1504,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEvaluation_reason(I)V
@@ -1551,6 +1539,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFullAnswer(Ljava/lang/String;)V
@@ -1584,6 +1574,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLoadingText(Ljava/lang/String;)V
@@ -1617,6 +1609,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMessageTime(J)V
@@ -1650,6 +1644,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMsgIdClient(Ljava/lang/String;)V
@@ -1683,6 +1679,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setQuestionAnswer(Lcom/qiyukf/unicorn/protocol/attach/notification/RobotStreamAnswerAttachment$QuestionAnswer;)V
@@ -1716,6 +1714,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setQuestionMsgId(J)V
@@ -1749,6 +1749,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSequence(I)V
@@ -1782,6 +1784,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionId(J)V
@@ -1815,4 +1819,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

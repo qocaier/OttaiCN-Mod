@@ -141,6 +141,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -169,6 +171,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static clearCachedBuffer()V
@@ -201,6 +204,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getBuffer()[B
@@ -248,19 +252,11 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
 .end method
 
 .method private static getChannelFieldOffset(Ljava/lang/Class;)J
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "clazz"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -326,14 +322,6 @@
 
 .method private static getOrCreateBuffer(I)[B
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "requestedSize"
-        }
-    .end annotation
 
     .line 1
     const/16 v0, 0x400
@@ -450,20 +438,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static needToReallocate(II)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "requestedSize",
-            "bufferLength"
-        }
-    .end annotation
 
     if-ge p1, p0, :cond_0
 
@@ -491,15 +470,6 @@
 
 .method private static safeGetClass(Ljava/lang/String;)Ljava/lang/Class;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "className"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -552,14 +522,6 @@
 
 .method private static setBuffer([B)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->BUFFER:Ljava/lang/ThreadLocal;
@@ -599,17 +561,6 @@
 
 .method public static write(Ljava/nio/ByteBuffer;Ljava/io/OutputStream;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "buffer",
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -939,21 +890,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static writeToChannel(Ljava/nio/ByteBuffer;Ljava/io/OutputStream;)Z
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "buffer",
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

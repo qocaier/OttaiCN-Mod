@@ -53,20 +53,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public setCustom(Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "custom"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Landroidx/constraintlayout/widget/ConstraintAttribute;
@@ -102,16 +95,6 @@
 
 .method public setProperty(Landroid/view/View;F)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "view",
-            "t"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/utils/ViewOscillator$CustomSet;->value:[F

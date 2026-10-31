@@ -87,11 +87,11 @@
 
     .line 15
     .line 16
-    new-instance v0, Ls/x;
+    new-instance v0, Landroidx/camera/core/k0;
 
     .line 17
     .line 18
-    invoke-direct {v0, p0}, Ls/x;-><init>(Landroidx/camera/core/SafeCloseImageReaderProxy;)V
+    invoke-direct {v0, p0}, Landroidx/camera/core/k0;-><init>(Landroidx/camera/core/SafeCloseImageReaderProxy;)V
 
     .line 19
     .line 20
@@ -164,6 +164,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/SafeCloseImageReaderProxy;Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;Landroidx/camera/core/impl/ImageReaderProxy;)V
@@ -287,6 +288,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic b(Landroidx/camera/core/SafeCloseImageReaderProxy;Landroidx/camera/core/ImageProxy;)V
@@ -506,6 +510,7 @@
     throw v1
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public acquireNextImage()Landroidx/camera/core/ImageProxy;
@@ -560,6 +565,7 @@
     throw v1
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearOnImageAvailableListener()V
@@ -606,6 +612,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public close()V
@@ -729,6 +736,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCapacity()I
@@ -781,6 +790,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeight()I
@@ -829,6 +839,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImageFormat()I
@@ -877,6 +888,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImageReaderProxy()Landroidx/camera/core/impl/ImageReaderProxy;
@@ -926,6 +938,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxImages()I
@@ -974,6 +987,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurface()Landroid/view/Surface;
@@ -1024,6 +1038,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWidth()I
@@ -1072,6 +1087,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isClosed()Z
@@ -1118,6 +1134,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public safeClose()V
@@ -1245,6 +1262,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setOnImageAvailableListener(Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;Ljava/util/concurrent/Executor;)V
@@ -1271,11 +1290,11 @@
 
     .line 5
     .line 6
-    new-instance v2, Ls/w;
+    new-instance v2, Landroidx/camera/core/j0;
 
     .line 7
     .line 8
-    invoke-direct {v2, p0, p1}, Ls/w;-><init>(Landroidx/camera/core/SafeCloseImageReaderProxy;Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;)V
+    invoke-direct {v2, p0, p1}, Landroidx/camera/core/j0;-><init>(Landroidx/camera/core/SafeCloseImageReaderProxy;Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;)V
 
     .line 9
     .line 10

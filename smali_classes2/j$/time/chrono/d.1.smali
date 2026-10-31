@@ -1,136 +1,591 @@
-.class abstract synthetic Lj$/time/chrono/d;
+.class abstract Lj$/time/chrono/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lj$/time/chrono/b;
+.implements Lj$/time/temporal/m;
+.implements Lj$/time/temporal/n;
+.implements Ljava/io/Serializable;
+
 
 # static fields
-.field static final synthetic a:[I
+.field private static final serialVersionUID:J = 0x572fb054bf61a0b8L
 
 
 # direct methods
-.method static constructor <clinit>()V
+.method constructor <init>()V
+    .locals 0
+
+    .line 173
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method static r(Lj$/time/chrono/l;Lj$/time/temporal/m;)Lj$/time/chrono/b;
     .locals 3
 
-    .line 307
-    invoke-static {}, Lj$/time/temporal/ChronoUnit;->values()[Lj$/time/temporal/ChronoUnit;
+    .line 162
+    check-cast p1, Lj$/time/chrono/b;
+
+    .line 163
+    invoke-interface {p1}, Lj$/time/chrono/b;->h()Lj$/time/chrono/l;
 
     move-result-object v0
 
-    array-length v0, v0
+    invoke-interface {p0, v0}, Lj$/time/chrono/l;->equals(Ljava/lang/Object;)Z
 
-    new-array v0, v0, [I
+    move-result v0
 
-    sput-object v0, Lj$/time/chrono/d;->a:[I
+    if-eqz v0, :cond_0
 
-    :try_start_0
-    sget-object v1, Lj$/time/temporal/ChronoUnit;->NANOS:Lj$/time/temporal/ChronoUnit;
+    return-object p1
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    .line 164
+    :cond_0
+    new-instance v0, Ljava/lang/ClassCastException;
 
-    move-result v1
+    invoke-interface {p0}, Lj$/time/chrono/l;->getId()Ljava/lang/String;
 
-    const/4 v2, 0x1
+    move-result-object p0
 
-    aput v2, v0, v1
-    :try_end_0
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_0 .. :try_end_0} :catch_0
+    invoke-interface {p1}, Lj$/time/chrono/b;->h()Lj$/time/chrono/l;
 
-    :catch_0
-    :try_start_1
-    sget-object v0, Lj$/time/chrono/d;->a:[I
+    move-result-object p1
 
-    sget-object v1, Lj$/time/temporal/ChronoUnit;->MICROS:Lj$/time/temporal/ChronoUnit;
+    invoke-interface {p1}, Lj$/time/chrono/l;->getId()Ljava/lang/String;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    move-result-object p1
 
-    move-result v1
+    new-instance v1, Ljava/lang/StringBuilder;
 
-    const/4 v2, 0x2
+    const-string v2, "Chronology mismatch, expected: "
 
-    aput v2, v0, v1
-    :try_end_1
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_1 .. :try_end_1} :catch_1
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    :catch_1
-    :try_start_2
-    sget-object v0, Lj$/time/chrono/d;->a:[I
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    sget-object v1, Lj$/time/temporal/ChronoUnit;->MILLIS:Lj$/time/temporal/ChronoUnit;
+    const-string p0, ", actual: "
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result v1
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const/4 v2, 0x3
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    aput v2, v0, v1
-    :try_end_2
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_2 .. :try_end_2} :catch_2
+    move-result-object p0
 
-    :catch_2
-    :try_start_3
-    sget-object v0, Lj$/time/chrono/d;->a:[I
+    invoke-direct {v0, p0}, Ljava/lang/ClassCastException;-><init>(Ljava/lang/String;)V
 
-    sget-object v1, Lj$/time/temporal/ChronoUnit;->SECONDS:Lj$/time/temporal/ChronoUnit;
+    throw v0
+.end method
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
-    move-result v1
+# virtual methods
+.method abstract B(J)Lj$/time/chrono/b;
+.end method
 
-    const/4 v2, 0x4
+.method abstract I(J)Lj$/time/chrono/b;
+.end method
 
-    aput v2, v0, v1
-    :try_end_3
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_3 .. :try_end_3} :catch_3
+.method public L(Lj$/time/temporal/q;)Lj$/time/chrono/b;
+    .locals 1
 
-    :catch_3
-    :try_start_4
-    sget-object v0, Lj$/time/chrono/d;->a:[I
+    .line 452
+    invoke-interface {p0}, Lj$/time/chrono/b;->h()Lj$/time/chrono/l;
 
-    sget-object v1, Lj$/time/temporal/ChronoUnit;->MINUTES:Lj$/time/temporal/ChronoUnit;
+    move-result-object v0
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    .line 262
+    invoke-interface {p1, p0}, Lj$/time/temporal/q;->p(Lj$/time/temporal/m;)Lj$/time/temporal/m;
 
-    move-result v1
+    move-result-object p1
 
-    const/4 v2, 0x5
+    .line 452
+    invoke-static {v0, p1}, Lj$/time/chrono/d;->r(Lj$/time/chrono/l;Lj$/time/temporal/m;)Lj$/time/chrono/b;
 
-    aput v2, v0, v1
-    :try_end_4
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_4 .. :try_end_4} :catch_4
+    move-result-object p1
 
-    :catch_4
-    :try_start_5
-    sget-object v0, Lj$/time/chrono/d;->a:[I
+    return-object p1
+.end method
 
-    sget-object v1, Lj$/time/temporal/ChronoUnit;->HOURS:Lj$/time/temporal/ChronoUnit;
+.method abstract R(J)Lj$/time/chrono/b;
+.end method
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+.method public b(JLj$/time/temporal/r;)Lj$/time/chrono/b;
+    .locals 1
 
-    move-result v1
+    .line 439
+    instance-of v0, p3, Lj$/time/temporal/a;
 
-    const/4 v2, 0x6
+    if-nez v0, :cond_0
 
-    aput v2, v0, v1
-    :try_end_5
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_5 .. :try_end_5} :catch_5
+    .line 442
+    invoke-interface {p0}, Lj$/time/chrono/b;->h()Lj$/time/chrono/l;
 
-    :catch_5
-    :try_start_6
-    sget-object v0, Lj$/time/chrono/d;->a:[I
+    move-result-object v0
 
-    sget-object v1, Lj$/time/temporal/ChronoUnit;->HALF_DAYS:Lj$/time/temporal/ChronoUnit;
+    invoke-interface {p3, p0, p1, p2}, Lj$/time/temporal/r;->p(Lj$/time/temporal/m;J)Lj$/time/temporal/m;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    move-result-object p1
 
-    move-result v1
+    invoke-static {v0, p1}, Lj$/time/chrono/d;->r(Lj$/time/chrono/l;Lj$/time/temporal/m;)Lj$/time/chrono/b;
 
-    const/4 v2, 0x7
+    move-result-object p1
 
-    aput v2, v0, v1
-    :try_end_6
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_6 .. :try_end_6} :catch_6
+    return-object p1
 
-    :catch_6
-    return-void
+    .line 440
+    :cond_0
+    new-instance p1, Lj$/time/temporal/v;
+
+    const-string p2, "Unsupported field: "
+
+    .line 0
+    invoke-static {p2, p3}, Lj$/time/d;->a(Ljava/lang/String;Lj$/time/temporal/r;)Ljava/lang/String;
+
+    move-result-object p2
+
+    .line 88
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    .line 440
+    throw p1
+.end method
+
+.method public bridge synthetic b(JLj$/time/temporal/r;)Lj$/time/temporal/m;
+    .locals 0
+
+    .line 143
+    invoke-virtual {p0, p1, p2, p3}, Lj$/time/chrono/d;->b(JLj$/time/temporal/r;)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public d(JLj$/time/temporal/u;)Lj$/time/chrono/b;
+    .locals 3
+
+    .line 199
+    instance-of v0, p3, Lj$/time/temporal/b;
+
+    const-string v1, "Unsupported unit: "
+
+    if-eqz v0, :cond_0
+
+    .line 200
+    move-object v0, p3
+
+    check-cast v0, Lj$/time/temporal/b;
+
+    .line 201
+    sget-object v2, Lj$/time/chrono/c;->a:[I
+
+    invoke-virtual {v0}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v0
+
+    aget v0, v2, v0
+
+    packed-switch v0, :pswitch_data_0
+
+    .line 211
+    new-instance p1, Lj$/time/temporal/v;
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    invoke-direct {p2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    .line 88
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    .line 211
+    throw p1
+
+    .line 209
+    :pswitch_0
+    sget-object p3, Lj$/time/temporal/a;->ERA:Lj$/time/temporal/a;
+
+    invoke-interface {p0, p3}, Lj$/time/temporal/TemporalAccessor;->g(Lj$/time/temporal/r;)J
+
+    move-result-wide v0
+
+    invoke-static {v0, v1, p1, p2}, Ljava/lang/Math;->addExact(JJ)J
+
+    move-result-wide p1
+
+    invoke-virtual {p0, p1, p2, p3}, Lj$/time/chrono/d;->b(JLj$/time/temporal/r;)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+
+    :pswitch_1
+    const/16 p3, 0x3e8
+
+    int-to-long v0, p3
+
+    .line 0
+    invoke-static {p1, p2, v0, v1}, Ljava/lang/Math;->multiplyExact(JJ)J
+
+    move-result-wide p1
+
+    .line 208
+    invoke-virtual {p0, p1, p2}, Lj$/time/chrono/d;->R(J)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+
+    :pswitch_2
+    const/16 p3, 0x64
+
+    int-to-long v0, p3
+
+    .line 0
+    invoke-static {p1, p2, v0, v1}, Ljava/lang/Math;->multiplyExact(JJ)J
+
+    move-result-wide p1
+
+    .line 207
+    invoke-virtual {p0, p1, p2}, Lj$/time/chrono/d;->R(J)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+
+    :pswitch_3
+    const/16 p3, 0xa
+
+    int-to-long v0, p3
+
+    .line 0
+    invoke-static {p1, p2, v0, v1}, Ljava/lang/Math;->multiplyExact(JJ)J
+
+    move-result-wide p1
+
+    .line 206
+    invoke-virtual {p0, p1, p2}, Lj$/time/chrono/d;->R(J)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 205
+    :pswitch_4
+    invoke-virtual {p0, p1, p2}, Lj$/time/chrono/d;->R(J)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 204
+    :pswitch_5
+    invoke-virtual {p0, p1, p2}, Lj$/time/chrono/d;->I(J)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+
+    :pswitch_6
+    const/4 p3, 0x7
+
+    int-to-long v0, p3
+
+    .line 0
+    invoke-static {p1, p2, v0, v1}, Ljava/lang/Math;->multiplyExact(JJ)J
+
+    move-result-wide p1
+
+    .line 203
+    invoke-virtual {p0, p1, p2}, Lj$/time/chrono/d;->B(J)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 202
+    :pswitch_7
+    invoke-virtual {p0, p1, p2}, Lj$/time/chrono/d;->B(J)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+
+    :cond_0
+    if-nez v0, :cond_1
+
+    .line 465
+    invoke-interface {p0}, Lj$/time/chrono/b;->h()Lj$/time/chrono/l;
+
+    move-result-object v0
+
+    invoke-interface {p3, p0, p1, p2}, Lj$/time/temporal/u;->p(Lj$/time/temporal/m;J)Lj$/time/temporal/m;
+
+    move-result-object p1
+
+    invoke-static {v0, p1}, Lj$/time/chrono/d;->r(Lj$/time/chrono/l;Lj$/time/temporal/m;)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 463
+    :cond_1
+    new-instance p1, Lj$/time/temporal/v;
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    invoke-direct {p2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    .line 88
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    .line 463
+    throw p1
+
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public bridge synthetic d(JLj$/time/temporal/u;)Lj$/time/temporal/m;
+    .locals 0
+
+    .line 143
+    invoke-virtual {p0, p1, p2, p3}, Lj$/time/chrono/d;->d(JLj$/time/temporal/u;)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic e(JLj$/time/temporal/u;)Lj$/time/temporal/m;
+    .locals 0
+
+    .line 143
+    invoke-interface {p0, p1, p2, p3}, Lj$/time/chrono/b;->e(JLj$/time/temporal/u;)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 3
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    .line 415
+    :cond_0
+    instance-of v1, p1, Lj$/time/chrono/b;
+
+    const/4 v2, 0x0
+
+    if-eqz v1, :cond_1
+
+    .line 416
+    check-cast p1, Lj$/time/chrono/b;
+
+    invoke-interface {p0, p1}, Lj$/time/chrono/b;->U(Lj$/time/chrono/b;)I
+
+    move-result p1
+
+    if-nez p1, :cond_1
+
+    return v0
+
+    :cond_1
+    return v2
+.end method
+
+.method public hashCode()I
+    .locals 5
+
+    .line 423
+    invoke-interface {p0}, Lj$/time/chrono/b;->u()J
+
+    move-result-wide v0
+
+    .line 424
+    invoke-interface {p0}, Lj$/time/chrono/b;->h()Lj$/time/chrono/l;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lj$/time/chrono/l;->hashCode()I
+
+    move-result v2
+
+    const/16 v3, 0x20
+
+    ushr-long v3, v0, v3
+
+    xor-long/2addr v0, v3
+
+    long-to-int v0, v0
+
+    xor-int/2addr v0, v2
+
+    return v0
+.end method
+
+.method public bridge synthetic j(Lj$/time/g;)Lj$/time/temporal/m;
+    .locals 0
+
+    .line 143
+    invoke-virtual {p0, p1}, Lj$/time/chrono/d;->m(Lj$/time/temporal/n;)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public m(Lj$/time/temporal/n;)Lj$/time/chrono/b;
+    .locals 1
+
+    .line 428
+    invoke-interface {p0}, Lj$/time/chrono/b;->h()Lj$/time/chrono/l;
+
+    move-result-object v0
+
+    .line 190
+    invoke-interface {p1, p0}, Lj$/time/temporal/n;->c(Lj$/time/temporal/m;)Lj$/time/temporal/m;
+
+    move-result-object p1
+
+    .line 428
+    invoke-static {v0, p1}, Lj$/time/chrono/d;->r(Lj$/time/chrono/l;Lj$/time/temporal/m;)Lj$/time/chrono/b;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 10
+
+    .line 430
+    sget-object v0, Lj$/time/temporal/a;->YEAR_OF_ERA:Lj$/time/temporal/a;
+
+    invoke-interface {p0, v0}, Lj$/time/temporal/TemporalAccessor;->g(Lj$/time/temporal/r;)J
+
+    move-result-wide v0
+
+    .line 431
+    sget-object v2, Lj$/time/temporal/a;->MONTH_OF_YEAR:Lj$/time/temporal/a;
+
+    invoke-interface {p0, v2}, Lj$/time/temporal/TemporalAccessor;->g(Lj$/time/temporal/r;)J
+
+    move-result-wide v2
+
+    .line 432
+    sget-object v4, Lj$/time/temporal/a;->DAY_OF_MONTH:Lj$/time/temporal/a;
+
+    invoke-interface {p0, v4}, Lj$/time/temporal/TemporalAccessor;->g(Lj$/time/temporal/r;)J
+
+    move-result-wide v4
+
+    .line 433
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    const/16 v7, 0x1e
+
+    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(I)V
+
+    .line 434
+    invoke-interface {p0}, Lj$/time/chrono/b;->h()Lj$/time/chrono/l;
+
+    move-result-object v7
+
+    invoke-interface {v7}, Lj$/time/chrono/l;->toString()Ljava/lang/String;
+
+    move-result-object v7
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 435
+    const-string v7, " "
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 436
+    invoke-interface {p0}, Lj$/time/chrono/b;->t()Lj$/time/chrono/m;
+
+    move-result-object v8
+
+    invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 437
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 438
+    invoke-virtual {v6, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-wide/16 v0, 0xa
+
+    cmp-long v7, v2, v0
+
+    .line 439
+    const-string v8, "-"
+
+    const-string v9, "-0"
+
+    if-gez v7, :cond_0
+
+    move-object v7, v9
+
+    goto :goto_0
+
+    :cond_0
+    move-object v7, v8
+
+    :goto_0
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    cmp-long v0, v4, v0
+
+    if-gez v0, :cond_1
+
+    move-object v8, v9
+
+    .line 440
+    :cond_1
+    invoke-virtual {v6, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    .line 441
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
 .end method

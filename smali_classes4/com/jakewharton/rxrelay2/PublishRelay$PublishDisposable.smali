@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lfk/b;
+.implements Lio/reactivex/disposables/b;
 
 
 # annotations
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/util/concurrent/atomic/AtomicBoolean;",
-        "Lfk/b;"
+        "Lio/reactivex/disposables/b;"
     }
 .end annotation
 
@@ -32,11 +32,10 @@
 
 
 # instance fields
-.field final downstream:Ldk/g0;
+.field final downstream:Lb8/o;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ldk/g0<",
-            "-TT;>;"
+            "Lb8/o;"
         }
     .end annotation
 .end field
@@ -44,23 +43,21 @@
 .field final parent:Lcom/jakewharton/rxrelay2/PublishRelay;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/jakewharton/rxrelay2/PublishRelay<",
-            "TT;>;"
+            "Lcom/jakewharton/rxrelay2/PublishRelay;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ldk/g0;Lcom/jakewharton/rxrelay2/PublishRelay;)V
+.method public constructor <init>(Lb8/o;Lcom/jakewharton/rxrelay2/PublishRelay;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ldk/g0<",
-            "-TT;>;",
-            "Lcom/jakewharton/rxrelay2/PublishRelay<",
-            "TT;>;)V"
+            "Lb8/o;",
+            "Lcom/jakewharton/rxrelay2/PublishRelay;",
+            ")V"
         }
     .end annotation
 
@@ -70,15 +67,13 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/jakewharton/rxrelay2/PublishRelay$PublishDisposable;->downstream:Ldk/g0;
+    iput-object p1, p0, Lcom/jakewharton/rxrelay2/PublishRelay$PublishDisposable;->downstream:Lb8/o;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/jakewharton/rxrelay2/PublishRelay$PublishDisposable;->parent:Lcom/jakewharton/rxrelay2/PublishRelay;
-
+    return-void
     .line 7
     .line 8
-    return-void
     .line 9
     .line 10
     .line 11
@@ -125,6 +120,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -147,27 +152,29 @@
     move-result v0
 
     .line 7
-    if-eqz v0, :cond_0
+    if-nez v0, :cond_0
 
     .line 8
     .line 9
-    iget-object v0, p0, Lcom/jakewharton/rxrelay2/PublishRelay$PublishDisposable;->parent:Lcom/jakewharton/rxrelay2/PublishRelay;
+    return-void
 
     .line 10
-    .line 11
-    invoke-virtual {v0, p0}, Lcom/jakewharton/rxrelay2/PublishRelay;->k8(Lcom/jakewharton/rxrelay2/PublishRelay$PublishDisposable;)V
+    :cond_0
+    const/4 v0, 0x0
 
+    .line 11
+    throw v0
     .line 12
     .line 13
     .line 14
-    :cond_0
-    return-void
     .line 15
     .line 16
     .line 17
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isDisposed()Z
@@ -198,6 +205,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onNext(Ljava/lang/Object;)V
@@ -221,11 +230,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lcom/jakewharton/rxrelay2/PublishRelay$PublishDisposable;->downstream:Ldk/g0;
+    iget-object v0, p0, Lcom/jakewharton/rxrelay2/PublishRelay$PublishDisposable;->downstream:Lb8/o;
 
     .line 8
     .line 9
-    invoke-interface {v0, p1}, Ldk/g0;->onNext(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Lb8/o;->onNext(Ljava/lang/Object;)V
 
     .line 10
     .line 11
@@ -245,4 +254,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

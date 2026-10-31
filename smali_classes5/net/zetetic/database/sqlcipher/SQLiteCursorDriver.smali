@@ -10,11 +10,8 @@
 .method public abstract b()V
 .end method
 
-.method public abstract c([Ljava/lang/String;)V
+.method public abstract c(Landroid/database/Cursor;)V
 .end method
 
-.method public abstract d(Landroid/database/Cursor;)V
-.end method
-
-.method public abstract e(Lnet/zetetic/database/sqlcipher/SQLiteDatabase$CursorFactory;[Ljava/lang/String;)Landroid/database/Cursor;
+.method public abstract d(Lnet/zetetic/database/sqlcipher/SQLiteDatabase$CursorFactory;[Ljava/lang/String;)Landroid/database/Cursor;
 .end method

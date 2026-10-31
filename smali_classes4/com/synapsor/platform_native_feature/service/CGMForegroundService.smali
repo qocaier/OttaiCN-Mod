@@ -16,134 +16,21 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCGMForegroundService.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CGMForegroundService.kt\ncom/synapsor/platform_native_feature/service/CGMForegroundService\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,842:1\n1#2:843\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nCGMForegroundService.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CGMForegroundService.kt\ncom/synapsor/platform_native_feature/service/CGMForegroundService\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,842:1\n1#2:843\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field public static final b:Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field public static final c:Ljava/lang/String; = "alarmService"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final c:Ljava/util/Set;
 
-.field public static final d:Ljava/lang/String; = "alarmServiceRuntimeType"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static d:I
 
-.field public static final e:Ljava/lang/String; = "alarmServiceNotifyId"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static e:Ljava/lang/String;
 
-.field public static final f:Ljava/lang/String; = "alarmServiceChannelId"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final g:Ljava/lang/String; = "alarmServiceChannelName"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final h:Ljava/lang/String; = "alarmServiceAppName"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final i:Ljava/lang/String; = "alarmServiceTime"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final j:Ljava/lang/String; = "alarmServiceTitle"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final k:Ljava/lang/String; = "alarmServiceContent"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final l:Ljava/lang/String; = "alarmServiceGlucose"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final m:Ljava/lang/String; = "alarmServiceGlucoseUnit"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final n:Ljava/lang/String; = "alarmServiceGlucoseTrend"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final o:Ljava/lang/String; = "alarmServiceViewSupport"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final p:Ljava/lang/String; = "com.synapsor.notification.default_icon"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final q:Ljava/lang/String; = "com.synapsor.notification.special_icon"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final r:Ljava/util/Set;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Set<",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final s:Ljava/lang/String; = "CGMForegroundService---"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static t:I
-
-.field public static u:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static v:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static f:Ljava/lang/String;
 
 
 # instance fields
 .field public a:Landroid/os/PowerManager$WakeLock;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -158,7 +45,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -187,7 +74,7 @@
     move-result-object v0
 
     .line 19
-    invoke-static {v0}, Lll/u1;->u([Ljava/lang/Object;)Ljava/util/Set;
+    invoke-static {v0}, Lkotlin/collections/j0;->f([Ljava/lang/Object;)Ljava/util/Set;
 
     .line 20
     .line 21
@@ -195,7 +82,7 @@
     move-result-object v0
 
     .line 23
-    sput-object v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->r:Ljava/util/Set;
+    sput-object v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->c:Ljava/util/Set;
 
     .line 24
     .line 25
@@ -203,7 +90,7 @@
 
     .line 26
     .line 27
-    sput v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->t:I
+    sput v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->d:I
 
     .line 28
     .line 29
@@ -211,7 +98,7 @@
 
     .line 30
     .line 31
-    sput-object v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->u:Ljava/lang/String;
+    sput-object v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->e:Ljava/lang/String;
 
     .line 32
     .line 33
@@ -219,7 +106,7 @@
 
     .line 34
     .line 35
-    sput-object v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->v:Ljava/lang/String;
+    sput-object v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->f:Ljava/lang/String;
 
     .line 36
     .line 37
@@ -271,6 +158,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public constructor <init>()V
@@ -299,13 +187,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static final synthetic a()Ljava/lang/String;
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->u:Ljava/lang/String;
+    sget-object v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->e:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -327,13 +217,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static final synthetic b()Ljava/lang/String;
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->v:Ljava/lang/String;
+    sget-object v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->f:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -355,13 +247,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static final synthetic c()I
     .locals 1
 
     .line 1
-    sget v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->t:I
+    sget v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->d:I
 
     .line 2
     .line 3
@@ -383,13 +277,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static final synthetic d()Ljava/util/Set;
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->r:Ljava/util/Set;
+    sget-object v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->c:Ljava/util/Set;
 
     .line 2
     .line 3
@@ -411,13 +307,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static final synthetic e(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    sput-object p0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->u:Ljava/lang/String;
+    sput-object p0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->e:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -444,13 +342,15 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static final synthetic f(Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    sput-object p0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->v:Ljava/lang/String;
+    sput-object p0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->f:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -477,13 +377,15 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static final synthetic g(I)V
     .locals 0
 
     .line 1
-    sput p0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->t:I
+    sput p0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->d:I
 
     .line 2
     .line 3
@@ -510,6 +412,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -547,7 +451,7 @@
 
     .line 14
     .line 15
-    invoke-static {v1, v2}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -688,6 +592,7 @@
     return-void
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public final i()V
@@ -835,9 +740,10 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
-.method public final j(Ldi/b;)V
+.method public final j(Lf7/b;)V
     .locals 3
 
     .line 1
@@ -858,7 +764,7 @@
     move-result-object v2
 
     .line 9
-    invoke-static {v2, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -876,12 +782,12 @@
     move-result-object v2
 
     .line 19
-    invoke-static {v2, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 20
     .line 21
     .line 22
-    invoke-static {v1, v2, p1}, Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;->a(Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;Landroid/content/Context;Ldi/b;)Landroidx/core/app/NotificationCompat$Builder;
+    invoke-static {v1, v2, p1}, Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;->a(Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;Landroid/content/Context;Lf7/b;)Landroidx/core/app/NotificationCompat$Builder;
 
     .line 23
     .line 24
@@ -929,7 +835,7 @@
 
     .line 42
     .line 43
-    sget v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->t:I
+    sget v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->d:I
 
     .line 44
     .line 45
@@ -945,7 +851,7 @@
 
     .line 50
     .line 51
-    invoke-static {p0, v0, p1, v1}, Lci/a;->a(Lcom/synapsor/platform_native_feature/service/CGMForegroundService;ILandroid/app/Notification;I)V
+    invoke-static {p0, v0, p1, v1}, Le7/a;->a(Lcom/synapsor/platform_native_feature/service/CGMForegroundService;ILandroid/app/Notification;I)V
 
     .line 52
     .line 53
@@ -954,7 +860,7 @@
 
     .line 55
     :cond_1
-    sget v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->t:I
+    sget v0, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->d:I
 
     .line 56
     .line 57
@@ -1007,16 +913,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .locals 0
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     const/4 p1, 0x0
 
@@ -1040,7 +942,7 @@
     .line 6
     .line 7
     .line 8
-    sget-object v0, Lyh/e;->h:Lyh/e$a;
+    sget-object v0, Lcom/synapsor/platform_native_feature/e;->h:Lcom/synapsor/platform_native_feature/e$a;
 
     .line 9
     .line 10
@@ -1048,16 +950,16 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1}, Lyh/e$a;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/synapsor/platform_native_feature/e$a;->b(Ljava/lang/String;)V
 
     .line 13
     .line 14
     .line 15
-    sget-object v0, Lci/g;->a:Lci/g;
+    sget-object v0, Le7/g;->a:Le7/g;
 
     .line 16
     .line 17
-    invoke-virtual {v0, p0}, Lci/g;->j(Landroid/content/Context;)V
+    invoke-virtual {v0, p0}, Le7/g;->j(Landroid/content/Context;)V
 
     .line 18
     .line 19
@@ -1129,6 +1031,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public onDestroy()V
@@ -1140,7 +1043,7 @@
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lyh/e;->h:Lyh/e$a;
+    sget-object v0, Lcom/synapsor/platform_native_feature/e;->h:Lcom/synapsor/platform_native_feature/e$a;
 
     .line 5
     .line 6
@@ -1148,16 +1051,16 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Lyh/e$a;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/synapsor/platform_native_feature/e$a;->b(Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    sget-object v0, Lci/g;->a:Lci/g;
+    sget-object v0, Le7/g;->a:Le7/g;
 
     .line 12
     .line 13
-    invoke-virtual {v0, p0}, Lci/g;->k(Landroid/content/Context;)V
+    invoke-virtual {v0, p0}, Le7/g;->k(Landroid/content/Context;)V
 
     .line 14
     .line 15
@@ -1178,7 +1081,7 @@
 
     .line 23
     .line 24
-    invoke-static {v0, v1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -1187,7 +1090,7 @@
 
     .line 28
     .line 29
-    sget v1, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->t:I
+    sget v1, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->d:I
 
     .line 30
     .line 31
@@ -1200,7 +1103,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {v0, p0}, Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;->A(Landroid/content/Context;)V
+    invoke-virtual {v0, p0}, Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;->z(Landroid/content/Context;)V
 
     .line 37
     .line 38
@@ -1253,21 +1156,18 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public onStartCommand(Landroid/content/Intent;II)I
     .locals 0
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     sget-object p1, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->b:Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;
 
     .line 2
     .line 3
-    invoke-static {p1, p0}, Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;->c(Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;Landroid/content/Context;)Ldi/b;
+    invoke-static {p1, p0}, Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;->c(Lcom/synapsor/platform_native_feature/service/CGMForegroundService$a;Landroid/content/Context;)Lf7/b;
 
     .line 4
     .line 5
@@ -1275,7 +1175,7 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {p0, p1}, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->j(Ldi/b;)V
+    invoke-virtual {p0, p1}, Lcom/synapsor/platform_native_feature/service/CGMForegroundService;->j(Lf7/b;)V
 
     .line 8
     .line 9
@@ -1398,19 +1298,10 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onTaskRemoved(Landroid/content/Intent;)V
     .locals 0
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     invoke-super {p0, p1}, Landroid/app/Service;->onTaskRemoved(Landroid/content/Intent;)V
@@ -1418,11 +1309,11 @@
     .line 2
     .line 3
     .line 4
-    sget-object p1, Lci/g;->a:Lci/g;
+    sget-object p1, Le7/g;->a:Le7/g;
 
     .line 5
     .line 6
-    invoke-virtual {p1, p0}, Lci/g;->l(Landroid/content/Context;)V
+    invoke-virtual {p1, p0}, Le7/g;->l(Landroid/content/Context;)V
 
     .line 7
     .line 8
@@ -1444,4 +1335,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

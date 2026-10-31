@@ -4,7 +4,6 @@
 
 # interfaces
 .implements Landroid/os/Parcelable;
-.implements Lg2/e$b;
 
 
 # static fields
@@ -36,11 +35,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lanetwork/channel/aidl/i;
+    new-instance v0, Lj/e;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lanetwork/channel/aidl/i;-><init>()V
+    invoke-direct {v0}, Lj/e;-><init>()V
 
     .line 4
     .line 5
@@ -62,6 +61,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -94,7 +94,7 @@
     return-void
 .end method
 
-.method public static d(Landroid/os/Parcel;)Lanetwork/channel/aidl/DefaultProgressEvent;
+.method public static b(Landroid/os/Parcel;)Lanetwork/channel/aidl/DefaultProgressEvent;
     .locals 2
 
     .line 1
@@ -215,131 +215,12 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
 # virtual methods
-.method public a()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lanetwork/channel/aidl/DefaultProgressEvent;->a:I
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public b()[B
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lanetwork/channel/aidl/DefaultProgressEvent;->e:[B
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public c()Ljava/lang/Object;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lanetwork/channel/aidl/DefaultProgressEvent;->d:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public describeContents()I
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public e()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    const-string v0, ""
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public g(Ljava/lang/Object;)V
+.method public d(Ljava/lang/Object;)V
     .locals 0
 
     .line 1
@@ -372,60 +253,12 @@
     .line 25
 .end method
 
-.method public getSize()I
+.method public describeContents()I
     .locals 1
 
-    .line 1
-    iget v0, p0, Lanetwork/channel/aidl/DefaultProgressEvent;->b:I
+    const/4 v0, 0x0
 
-    .line 2
-    .line 3
     return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public getTotal()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lanetwork/channel/aidl/DefaultProgressEvent;->c:I
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -552,6 +385,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V

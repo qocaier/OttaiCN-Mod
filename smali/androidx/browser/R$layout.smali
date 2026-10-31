@@ -15,9 +15,9 @@
 
 
 # static fields
-.field public static browser_actions_context_menu_page:I = 0x7f0b0021
+.field public static browser_actions_context_menu_page:I = 0x7f0b0022
 
-.field public static browser_actions_context_menu_row:I = 0x7f0b0022
+.field public static browser_actions_context_menu_row:I = 0x7f0b0023
 
 
 # direct methods

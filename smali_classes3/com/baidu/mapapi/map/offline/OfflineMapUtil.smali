@@ -32,7 +32,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getSearchRecordFromLocalCityInfo(Lcom/baidu/mapsdkplatform/comapi/map/j;)Lcom/baidu/mapapi/map/offline/MKOLSearchRecord;
@@ -220,8 +219,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static getUpdatElementFromLocalMapElement(Lcom/baidu/mapsdkplatform/comapi/map/l;)Lcom/baidu/mapapi/map/offline/MKOLUpdateElement;
@@ -385,6 +382,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

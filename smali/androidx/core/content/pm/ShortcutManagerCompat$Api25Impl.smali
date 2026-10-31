@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getShortcutInfoWithLowestRank(Ljava/util/List;)Ljava/lang/String;
@@ -183,4 +184,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

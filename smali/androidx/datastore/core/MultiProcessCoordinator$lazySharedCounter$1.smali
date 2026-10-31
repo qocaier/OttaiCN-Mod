@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/MultiProcessCoordinator;-><init>(Lkotlin/coroutines/d;Ljava/io/File;)V
+    value = Landroidx/datastore/core/MultiProcessCoordinator;-><init>(Lkotlin/coroutines/i;Ljava/io/File;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Landroidx/datastore/core/SharedCounter;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -47,8 +45,6 @@
 # virtual methods
 .method public final invoke()Landroidx/datastore/core/SharedCounter;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/core/SharedCounter;->Factory:Landroidx/datastore/core/SharedCounter$Factory;
@@ -62,7 +58,7 @@
 
     invoke-direct {v1, v2}, Landroidx/datastore/core/MultiProcessCoordinator$lazySharedCounter$1$1;-><init>(Landroidx/datastore/core/MultiProcessCoordinator;)V
 
-    invoke-virtual {v0, v1}, Landroidx/datastore/core/SharedCounter$Factory;->create$datastore_core_release(Ljm/a;)Landroidx/datastore/core/SharedCounter;
+    invoke-virtual {v0, v1}, Landroidx/datastore/core/SharedCounter$Factory;->create$datastore_core_release(Lq8/a;)Landroidx/datastore/core/SharedCounter;
 
     move-result-object v0
 

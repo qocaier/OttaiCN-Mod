@@ -44,6 +44,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getCertificateSHA256Fingerprint(Landroid/content/pm/Signature;)[B
@@ -228,6 +229,7 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static packageMatchesToken(Ljava/lang/String;Landroid/content/pm/PackageManager;Landroidx/browser/trusted/TokenContents;)Z
@@ -372,4 +374,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

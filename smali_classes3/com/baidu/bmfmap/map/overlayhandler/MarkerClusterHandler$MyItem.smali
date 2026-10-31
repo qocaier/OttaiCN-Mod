@@ -30,20 +30,6 @@
 # direct methods
 .method private constructor <init>(Lcom/baidu/bmfmap/map/overlayhandler/MarkerClusterHandler;Lcom/baidu/mapapi/model/LatLng;Lcom/baidu/mapapi/map/BitmapDescriptor;Landroid/os/Bundle;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            null,
-            null,
-            null,
-            null
-        }
-    .end annotation
 
     .line 2
     iput-object p1, p0, Lcom/baidu/bmfmap/map/overlayhandler/MarkerClusterHandler$MyItem;->this$0:Lcom/baidu/bmfmap/map/overlayhandler/MarkerClusterHandler;
@@ -101,7 +87,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExtras()Landroid/os/Bundle;
@@ -132,7 +117,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPosition()Lcom/baidu/mapapi/model/LatLng;
@@ -163,5 +147,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

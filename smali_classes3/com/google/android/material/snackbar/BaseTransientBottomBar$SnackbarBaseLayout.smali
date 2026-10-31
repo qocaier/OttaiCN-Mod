@@ -97,7 +97,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -339,7 +338,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$500(Lcom/google/android/material/snackbar/BaseTransientBottomBar$SnackbarBaseLayout;Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
@@ -408,11 +406,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private createThemedBackground()Landroid/graphics/drawable/Drawable;
@@ -572,15 +565,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private setBaseTransientBottomBar(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
@@ -620,7 +604,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private updateOriginalMargins(Landroid/view/ViewGroup$MarginLayoutParams;)V
@@ -665,7 +648,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -708,7 +690,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getActionTextColorAlpha()F
@@ -739,7 +720,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnimationMode()I
@@ -770,7 +750,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBackgroundOverlayColorAlpha()F
@@ -801,7 +780,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMaxInlineActionWidth()I
@@ -832,7 +810,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMaxWidth()I
@@ -863,7 +840,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAttachedToWindow()V
@@ -903,7 +879,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDetachedFromWindow()V
@@ -941,7 +916,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onLayout(ZIIII)V
@@ -1994,11 +1968,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setAnimationMode(I)V
@@ -2031,7 +2000,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackground(Landroid/graphics/drawable/Drawable;)V
@@ -2068,7 +2036,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -2195,8 +2162,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setBackgroundTintList(Landroid/content/res/ColorStateList;)V
@@ -2333,8 +2298,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setBackgroundTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -2467,8 +2430,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
@@ -2520,7 +2481,6 @@
     .line 24
     :cond_0
     return-void
-    .line 25
 .end method
 
 .method public setOnClickListener(Landroid/view/View$OnClickListener;)V
@@ -2569,5 +2529,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

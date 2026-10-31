@@ -148,6 +148,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public cancelLoad()Z
@@ -180,6 +181,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public commitContentChanged()V
@@ -210,6 +212,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dataToString(Ljava/lang/Object;)Ljava/lang/String;
@@ -305,6 +308,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public deliverResult(Ljava/lang/Object;)V
@@ -684,6 +688,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public forceLoad()V
@@ -714,6 +724,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContext()Landroid/content/Context;
@@ -744,6 +755,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getId()I
@@ -772,6 +784,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isAbandoned()Z
@@ -800,6 +813,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isReset()Z
@@ -828,6 +842,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isStarted()Z
@@ -856,6 +871,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onAbandon()V
@@ -915,6 +931,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onForceLoad()V
@@ -1136,6 +1153,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public rollbackContentChanged()V
@@ -1169,6 +1187,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final startLoading()V
@@ -1209,6 +1228,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public stopLoading()V
@@ -1243,6 +1263,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public takeContentChanged()Z
@@ -1281,6 +1302,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1395,6 +1417,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public unregisterListener(Landroidx/loader/content/Loader$OnLoadCompleteListener;)V
@@ -1521,6 +1545,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public unregisterOnLoadCanceledListener(Landroidx/loader/content/Loader$OnLoadCanceledListener;)V
@@ -1647,4 +1672,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -945,6 +945,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public constructor <init>()V
@@ -1147,7 +1206,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private buildThresholdsGroup(Z)Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholdsGroup;
@@ -1280,8 +1338,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private static calculateDrawableBounds(Landroid/view/View;Landroid/view/View;FF)Landroid/graphics/RectF;
@@ -1563,6 +1619,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private static captureShapeAppearance(Landroid/view/View;Landroid/graphics/RectF;Lcom/google/android/material/shape/ShapeAppearanceModel;)Lcom/google/android/material/shape/ShapeAppearanceModel;
@@ -1736,11 +1808,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private static captureValues(Landroidx/transition/TransitionValues;Landroid/view/View;ILcom/google/android/material/shape/ShapeAppearanceModel;)V
@@ -2122,6 +2189,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private static getElevationOrDefault(FLandroid/view/View;)F
@@ -2201,11 +2284,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static getShapeAppearance(Landroid/view/View;Lcom/google/android/material/shape/ShapeAppearanceModel;)Lcom/google/android/material/shape/ShapeAppearanceModel;
@@ -2357,6 +2435,272 @@
     return-object p0
     .line 64
     .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
 .end method
 
 .method private getThresholdsOrDefault(ZLcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholdsGroup;Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholdsGroup;)Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholdsGroup;
@@ -2580,11 +2924,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private static getTransitionShapeAppearanceResId(Landroid/content/Context;)I
@@ -2637,7 +2976,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private isEntering(Landroid/graphics/RectF;Landroid/graphics/RectF;)Z
@@ -2770,11 +3108,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private maybeApplyThemeValues(Landroid/content/Context;Z)V
@@ -2868,11 +3201,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -2917,7 +3245,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public captureStartValues(Landroidx/transition/TransitionValues;)V
@@ -2960,7 +3287,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public createAnimator(Landroid/view/ViewGroup;Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)Landroid/animation/Animator;
@@ -4328,50 +4654,6 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method public getContainerColor()I
@@ -4404,7 +4686,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDrawingViewId()I
@@ -4437,7 +4718,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndContainerColor()I
@@ -4470,7 +4750,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndElevation()F
@@ -4501,7 +4780,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndShapeAppearanceModel()Lcom/google/android/material/shape/ShapeAppearanceModel;
@@ -4534,7 +4812,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndView()Landroid/view/View;
@@ -4567,7 +4844,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndViewId()I
@@ -4600,7 +4876,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFadeMode()I
@@ -4631,7 +4906,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFadeProgressThresholds()Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;
@@ -4664,7 +4938,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFitMode()I
@@ -4695,7 +4968,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScaleMaskProgressThresholds()Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;
@@ -4728,7 +5000,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScaleProgressThresholds()Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;
@@ -4761,7 +5032,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScrimColor()I
@@ -4794,7 +5064,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShapeMaskProgressThresholds()Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;
@@ -4827,7 +5096,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStartContainerColor()I
@@ -4860,7 +5128,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStartElevation()F
@@ -4891,7 +5158,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStartShapeAppearanceModel()Lcom/google/android/material/shape/ShapeAppearanceModel;
@@ -4924,7 +5190,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStartView()Landroid/view/View;
@@ -4957,7 +5222,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStartViewId()I
@@ -4990,7 +5254,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTransitionDirection()I
@@ -5021,7 +5284,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTransitionProperties()[Ljava/lang/String;
@@ -5054,7 +5316,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isDrawDebugEnabled()Z
@@ -5085,7 +5346,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isElevationShadowEnabled()Z
@@ -5116,7 +5376,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isHoldAtEndEnabled()Z
@@ -5147,7 +5406,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAllContainerColors(I)V
@@ -5188,7 +5446,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setContainerColor(I)V
@@ -5225,7 +5482,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDrawDebugEnabled(Z)V
@@ -5258,7 +5514,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDrawingViewId(I)V
@@ -5295,7 +5550,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setElevationShadowEnabled(Z)V
@@ -5328,7 +5582,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndContainerColor(I)V
@@ -5365,7 +5618,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndElevation(F)V
@@ -5398,7 +5650,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndShapeAppearanceModel(Lcom/google/android/material/shape/ShapeAppearanceModel;)V
@@ -5435,7 +5686,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndView(Landroid/view/View;)V
@@ -5472,7 +5722,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndViewId(I)V
@@ -5509,7 +5758,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFadeMode(I)V
@@ -5542,7 +5790,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFadeProgressThresholds(Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;)V
@@ -5579,7 +5826,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFitMode(I)V
@@ -5612,7 +5858,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHoldAtEndEnabled(Z)V
@@ -5645,7 +5890,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPathMotion(Landroidx/transition/PathMotion;)V
@@ -5686,7 +5930,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScaleMaskProgressThresholds(Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;)V
@@ -5723,7 +5966,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScaleProgressThresholds(Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;)V
@@ -5760,7 +6002,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScrimColor(I)V
@@ -5797,7 +6038,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShapeMaskProgressThresholds(Lcom/google/android/material/transition/MaterialContainerTransform$ProgressThresholds;)V
@@ -5834,7 +6074,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStartContainerColor(I)V
@@ -5871,7 +6110,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStartElevation(F)V
@@ -5904,7 +6142,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStartShapeAppearanceModel(Lcom/google/android/material/shape/ShapeAppearanceModel;)V
@@ -5941,7 +6178,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStartView(Landroid/view/View;)V
@@ -5978,7 +6214,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStartViewId(I)V
@@ -6015,7 +6250,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTransitionDirection(I)V
@@ -6048,5 +6282,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

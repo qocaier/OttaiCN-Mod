@@ -87,6 +87,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCardView()Landroid/view/View;
@@ -115,6 +116,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreventCornerOverlap()Z
@@ -147,6 +149,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUseCompatPadding()Z
@@ -179,6 +182,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setCardBackground(Landroid/graphics/drawable/Drawable;)V
@@ -552,4 +556,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

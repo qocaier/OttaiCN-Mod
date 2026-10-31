@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/location/pb/DataValue;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -49,7 +49,7 @@
 .method public constructor <init>()V
     .locals 3
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
     const-wide/16 v0, 0x0
 
@@ -76,7 +76,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/location/pb/DataValue;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/location/pb/DataValue;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -89,7 +89,7 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/DataValue;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/location/pb/DataValue;->mergeFrom(Ljc/b;)Lcom/baidu/location/pb/DataValue;
+    invoke-virtual {v0, p0}, Lcom/baidu/location/pb/DataValue;->mergeFrom(Ll4/b;)Lcom/baidu/location/pb/DataValue;
 
     move-result-object p0
 
@@ -109,7 +109,7 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/DataValue;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -298,7 +298,7 @@
 
     move-result-wide v1
 
-    invoke-static {v0, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v(IJ)I
+    invoke-static {v0, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->l(IJ)I
 
     move-result v0
 
@@ -320,7 +320,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v1
 
@@ -339,7 +339,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -358,7 +358,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -377,7 +377,7 @@
 
     move-result-wide v2
 
-    invoke-static {v1, v2, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v(IJ)I
+    invoke-static {v1, v2, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->l(IJ)I
 
     move-result v1
 
@@ -396,7 +396,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->w(II)I
 
     move-result v1
 
@@ -464,7 +464,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/location/pb/DataValue;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/location/pb/DataValue;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -475,7 +475,7 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
@@ -505,7 +505,7 @@
 
     if-eq v0, v1, :cond_1
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -514,7 +514,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-virtual {p1}, Ljc/b;->I()I
+    invoke-virtual {p1}, Ll4/b;->w()I
 
     move-result v0
 
@@ -523,7 +523,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Ljc/b;->t()J
+    invoke-virtual {p1}, Ll4/b;->l()J
 
     move-result-wide v0
 
@@ -532,7 +532,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -541,7 +541,7 @@
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -554,14 +554,14 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/Loc;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/location/pb/DataValue;->setLoc(Lcom/baidu/location/pb/Loc;)Lcom/baidu/location/pb/DataValue;
 
     goto :goto_0
 
     :cond_6
-    invoke-virtual {p1}, Ljc/b;->t()J
+    invoke-virtual {p1}, Ll4/b;->l()J
 
     move-result-wide v0
 
@@ -574,7 +574,7 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -583,7 +583,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/location/pb/DataValue;->mergeFrom(Ljc/b;)Lcom/baidu/location/pb/DataValue;
+    invoke-virtual {p0, p1}, Lcom/baidu/location/pb/DataValue;->mergeFrom(Ll4/b;)Lcom/baidu/location/pb/DataValue;
 
     move-result-object p1
 
@@ -691,7 +691,7 @@
 
     move-result-wide v1
 
-    invoke-virtual {p1, v0, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t0(IJ)V
+    invoke-virtual {p1, v0, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->O(IJ)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/baidu/location/pb/DataValue;->hasLoc()Z
@@ -706,7 +706,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/baidu/location/pb/DataValue;->hasR()Z
@@ -721,7 +721,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/baidu/location/pb/DataValue;->hasCl()Z
@@ -736,7 +736,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/baidu/location/pb/DataValue;->hasRes()Z
@@ -751,7 +751,7 @@
 
     move-result-wide v1
 
-    invoke-virtual {p1, v0, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t0(IJ)V
+    invoke-virtual {p1, v0, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->O(IJ)V
 
     :cond_4
     invoke-virtual {p0}, Lcom/baidu/location/pb/DataValue;->hasComLoc()Z
@@ -766,7 +766,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f0(II)V
 
     :cond_5
     return-void

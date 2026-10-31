@@ -20,36 +20,17 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMulticastConsumer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MulticastConsumer.kt\nandroidx/window/layout/adapter/extensions/MulticastConsumer\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,64:1\n1855#2,2:65\n1#3:67\n*S KotlinDebug\n*F\n+ 1 MulticastConsumer.kt\nandroidx/window/layout/adapter/extensions/MulticastConsumer\n*L\n43#1:65,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nMulticastConsumer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MulticastConsumer.kt\nandroidx/window/layout/adapter/extensions/MulticastConsumer\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,64:1\n1855#2,2:65\n1#3:67\n*S KotlinDebug\n*F\n+ 1 MulticastConsumer.kt\nandroidx/window/layout/adapter/extensions/MulticastConsumer\n*L\n43#1:65,2\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private final context:Landroid/content/Context;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private lastKnownValue:Landroidx/window/layout/WindowLayoutInfo;
     .annotation build Landroidx/annotation/GuardedBy;
         value = "lock"
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end field
 
 .field private final multicastConsumerLock:Ljava/util/concurrent/locks/ReentrantLock;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final registeredListeners:Ljava/util/Set;
     .annotation build Landroidx/annotation/GuardedBy;
@@ -64,26 +45,19 @@
             ">;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -130,14 +104,10 @@
 # virtual methods
 .method public accept(Landroidx/window/extensions/layout/WindowLayoutInfo;)V
     .locals 3
-    .param p1    # Landroidx/window/extensions/layout/WindowLayoutInfo;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "value"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Landroidx/window/layout/adapter/extensions/MulticastConsumer;->multicastConsumerLock:Ljava/util/concurrent/locks/ReentrantLock;
@@ -191,7 +161,7 @@
 
     .line 7
     :cond_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -219,10 +189,6 @@
 
 .method public final addListener(Landroidx/core/util/Consumer;)V
     .locals 2
-    .param p1    # Landroidx/core/util/Consumer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -237,7 +203,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -348,6 +314,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final isEmpty()Z
@@ -380,14 +347,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final removeListener(Landroidx/core/util/Consumer;)V
     .locals 2
-    .param p1    # Landroidx/core/util/Consumer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -402,7 +366,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

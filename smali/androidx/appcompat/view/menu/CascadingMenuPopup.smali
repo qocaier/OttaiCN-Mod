@@ -126,6 +126,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/view/View;IIZ)V
@@ -883,6 +884,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private findIndexOfAddedMenu(Landroidx/appcompat/view/menu/MenuBuilder;)I
@@ -1004,6 +1007,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private findMenuItemForSubmenu(Landroidx/appcompat/view/menu/MenuBuilder;Landroidx/appcompat/view/menu/MenuBuilder;)Landroid/view/MenuItem;
@@ -1455,6 +1459,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private getInitialMenuPosition()I
@@ -1496,6 +1503,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getNextMenuPosition(I)I
@@ -1649,6 +1657,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private showMenu(Landroidx/appcompat/view/menu/MenuBuilder;)V
@@ -3572,6 +3581,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public flagActionItems()Z
@@ -3701,6 +3712,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isShowing()Z
@@ -3822,6 +3835,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V
@@ -4220,6 +4235,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onDismiss()V
@@ -4357,6 +4375,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onKey(Landroid/view/View;ILandroid/view/KeyEvent;)Z
@@ -4495,6 +4515,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -4647,6 +4670,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setAnchorView(Landroid/view/View;)V
@@ -5123,6 +5147,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public updateMenuView(Z)V
@@ -5243,4 +5269,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

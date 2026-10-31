@@ -259,6 +259,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private typeToString(I)Ljava/lang/String;
@@ -350,6 +351,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getData()Ljava/lang/String;
@@ -384,6 +386,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPorts()[Landroidx/webkit/WebMessagePortCompat;
@@ -414,6 +417,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getType()I
@@ -442,4 +446,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

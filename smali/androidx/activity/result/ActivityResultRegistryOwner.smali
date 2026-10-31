@@ -5,6 +5,4 @@
 
 # virtual methods
 .method public abstract getActivityResultRegistry()Landroidx/activity/result/ActivityResultRegistry;
-    .annotation build Lsq/k;
-    .end annotation
 .end method

@@ -4,23 +4,16 @@
 
 # interfaces
 .implements Ljava/io/Closeable;
-.implements Lfn/i0;
+.implements Lkotlinx/coroutines/l0;
 
 
 # instance fields
-.field private final coroutineContext:Lkotlin/coroutines/d;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final coroutineContext:Lkotlin/coroutines/i;
 
 
 # direct methods
-.method public constructor <init>(Lkotlin/coroutines/d;)V
+.method public constructor <init>(Lkotlin/coroutines/i;)V
     .locals 0
-    .param p1    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -28,7 +21,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/lifecycle/CloseableCoroutineScope;->coroutineContext:Lkotlin/coroutines/d;
+    iput-object p1, p0, Landroidx/lifecycle/CloseableCoroutineScope;->coroutineContext:Lkotlin/coroutines/i;
 
     .line 5
     .line 6
@@ -60,7 +53,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/lifecycle/CloseableCoroutineScope;->getCoroutineContext()Lkotlin/coroutines/d;
+    invoke-virtual {p0}, Landroidx/lifecycle/CloseableCoroutineScope;->getCoroutineContext()Lkotlin/coroutines/i;
 
     .line 2
     .line 3
@@ -74,7 +67,7 @@
     const/4 v2, 0x1
 
     .line 7
-    invoke-static {v0, v1, v2, v1}, Lfn/x1;->i(Lkotlin/coroutines/d;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
+    invoke-static {v0, v1, v2, v1}, Lkotlinx/coroutines/u1;->d(Lkotlin/coroutines/i;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
     .line 8
     .line 9
@@ -90,15 +83,14 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public getCoroutineContext()Lkotlin/coroutines/d;
+.method public getCoroutineContext()Lkotlin/coroutines/i;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/CloseableCoroutineScope;->coroutineContext:Lkotlin/coroutines/d;
+    iget-object v0, p0, Landroidx/lifecycle/CloseableCoroutineScope;->coroutineContext:Lkotlin/coroutines/i;
 
     .line 2
     .line 3
@@ -120,4 +112,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

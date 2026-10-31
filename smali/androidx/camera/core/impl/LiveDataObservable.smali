@@ -97,6 +97,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/impl/LiveDataObservable;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -116,11 +117,11 @@
     move-result-object v0
 
     .line 8
-    new-instance v1, Lu/q;
+    new-instance v1, Landroidx/camera/core/impl/s;
 
     .line 9
     .line 10
-    invoke-direct {v1, p0, p1}, Lu/q;-><init>(Landroidx/camera/core/impl/LiveDataObservable;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/core/impl/s;-><init>(Landroidx/camera/core/impl/LiveDataObservable;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
 
     .line 11
     .line 12
@@ -532,6 +533,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic d(Landroidx/camera/core/impl/LiveDataObservable;Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;)V
@@ -662,6 +666,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -757,11 +764,11 @@
     move-result-object p1
 
     .line 34
-    new-instance p2, Landroidx/camera/core/impl/b;
+    new-instance p2, Landroidx/camera/core/impl/r;
 
     .line 35
     .line 36
-    invoke-direct {p2, p0, v1, v2}, Landroidx/camera/core/impl/b;-><init>(Landroidx/camera/core/impl/LiveDataObservable;Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;)V
+    invoke-direct {p2, p0, v1, v2}, Landroidx/camera/core/impl/r;-><init>(Landroidx/camera/core/impl/LiveDataObservable;Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;)V
 
     .line 37
     .line 38
@@ -789,7 +796,7 @@
     .line 48
 .end method
 
-.method public fetchData()Lub/u0;
+.method public fetchData()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -797,22 +804,21 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "TT;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lu/r;
+    new-instance v0, Landroidx/camera/core/impl/t;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lu/r;-><init>(Landroidx/camera/core/impl/LiveDataObservable;)V
+    invoke-direct {v0, p0}, Landroidx/camera/core/impl/t;-><init>(Landroidx/camera/core/impl/LiveDataObservable;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 7
     .line 8
@@ -831,6 +837,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLiveData()Landroidx/lifecycle/LiveData;
@@ -870,6 +877,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public postError(Ljava/lang/Throwable;)V
@@ -1019,11 +1027,11 @@
     move-result-object v1
 
     .line 21
-    new-instance v2, Landroidx/camera/core/impl/a;
+    new-instance v2, Landroidx/camera/core/impl/q;
 
     .line 22
     .line 23
-    invoke-direct {v2, p0, p1}, Landroidx/camera/core/impl/a;-><init>(Landroidx/camera/core/impl/LiveDataObservable;Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;)V
+    invoke-direct {v2, p0, p1}, Landroidx/camera/core/impl/q;-><init>(Landroidx/camera/core/impl/LiveDataObservable;Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;)V
 
     .line 24
     .line 25
@@ -1101,4 +1109,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -115,7 +115,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -442,6 +441,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/tooltip/TooltipDrawable;Landroid/view/View;)V
@@ -510,11 +525,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private calculatePointerOffset()F
@@ -716,15 +726,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private calculateTextCenterFromBaseline()F
@@ -775,7 +776,6 @@
 
     .line 22
     return v1
-    .line 23
 .end method
 
 .method private calculateTextOriginAndAlignment(Landroid/graphics/Rect;)F
@@ -822,7 +822,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static create(Landroid/content/Context;)Lcom/google/android/material/tooltip/TooltipDrawable;
@@ -869,7 +868,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static createFromAttributes(Landroid/content/Context;Landroid/util/AttributeSet;)Lcom/google/android/material/tooltip/TooltipDrawable;
@@ -1091,15 +1089,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private drawText(Landroid/graphics/Canvas;)V
@@ -1287,8 +1276,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getTextWidth()F
@@ -1336,7 +1323,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private loadFromAttributes(Landroid/util/AttributeSet;II)V
@@ -2601,50 +2587,6 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method private updateLocationOnScreen(Landroid/view/View;)V
@@ -2695,7 +2637,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -2741,7 +2682,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public draw(Landroid/graphics/Canvas;)V
@@ -2933,8 +2873,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public getIntrinsicHeight()I
@@ -2983,7 +2921,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIntrinsicWidth()I
@@ -3034,7 +2971,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLayoutMargin()I
@@ -3065,7 +3001,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMinHeight()I
@@ -3096,7 +3031,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMinWidth()I
@@ -3127,7 +3061,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getText()Ljava/lang/CharSequence;
@@ -3160,7 +3093,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTextAppearance()Lcom/google/android/material/resources/TextAppearance;
@@ -3197,7 +3129,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTextPadding()I
@@ -3228,7 +3159,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onBoundsChange(Landroid/graphics/Rect;)V
@@ -3350,8 +3280,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onStateChange([I)Z
@@ -3386,7 +3314,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onTextSizeChange()V
@@ -3417,7 +3344,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setLayoutMargin(I)V
@@ -3456,7 +3382,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMinHeight(I)V
@@ -3495,7 +3420,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMinWidth(I)V
@@ -3534,7 +3458,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRelativeToView(Landroid/view/View;)V
@@ -3580,7 +3503,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRevealFraction(F)V
@@ -3640,6 +3562,72 @@
     .line 24
     .line 25
     return-void
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
 .end method
 
 .method public setText(Ljava/lang/CharSequence;)V
@@ -3693,7 +3681,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTextAppearance(Lcom/google/android/material/resources/TextAppearance;)V
@@ -3734,7 +3721,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTextAppearanceResource(I)V
@@ -3777,7 +3763,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTextPadding(I)V
@@ -3816,7 +3801,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTextResource(I)V
@@ -3863,5 +3847,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

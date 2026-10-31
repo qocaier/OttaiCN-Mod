@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -43,11 +43,6 @@
 # virtual methods
 .method public final resultCodeToString(I)Ljava/lang/String;
     .locals 1
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const/4 v0, -0x1

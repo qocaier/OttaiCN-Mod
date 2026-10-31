@@ -8,9 +8,6 @@
 
 # instance fields
 .field private final dispatcher:Landroidx/lifecycle/ServiceLifecycleDispatcher;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -46,14 +43,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public getLifecycle()Landroidx/lifecycle/Lifecycle;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/LifecycleService;->dispatcher:Landroidx/lifecycle/ServiceLifecycleDispatcher;
@@ -82,18 +78,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .locals 1
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/CallSuper;
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -101,7 +91,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -166,6 +156,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onDestroy()V
@@ -200,19 +191,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onStart(Landroid/content/Intent;I)V
     .locals 1
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/CallSuper;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Deprecated in Java"
     .end annotation
 
     .line 1
@@ -274,10 +258,6 @@
 
 .method public onStartCommand(Landroid/content/Intent;II)I
     .locals 0
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/CallSuper;
     .end annotation
 
@@ -399,4 +379,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

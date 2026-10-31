@@ -171,6 +171,7 @@
     throw v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public deliverResult(Landroid/database/Cursor;)V
@@ -553,6 +554,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getProjection()[Ljava/lang/String;
@@ -583,6 +590,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSelection()Ljava/lang/String;
@@ -613,6 +621,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSelectionArgs()[Ljava/lang/String;
@@ -643,6 +652,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSortOrder()Ljava/lang/String;
@@ -673,6 +683,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUri()Landroid/net/Uri;
@@ -703,6 +714,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public loadInBackground()Landroid/database/Cursor;
@@ -1017,6 +1029,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onStartLoading()V
@@ -1133,6 +1147,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onStopLoading()V
@@ -1161,6 +1177,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setProjection([Ljava/lang/String;)V

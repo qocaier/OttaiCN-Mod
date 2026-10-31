@@ -3,20 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ldk/t;
-.implements Lfk/b;
+.implements Lb8/i;
+.implements Lio/reactivex/disposables/b;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "TakeUntilMainMaybeObserver"
-.end annotation
-
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver$TakeUntilOtherMaybeObserver;
@@ -31,11 +22,10 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/util/concurrent/atomic/AtomicReference<",
-        "Lfk/b;",
+        "Lio/reactivex/disposables/b;",
         ">;",
-        "Ldk/t<",
-        "TT;>;",
-        "Lfk/b;"
+        "Lb8/i;",
+        "Lio/reactivex/disposables/b;"
     }
 .end annotation
 
@@ -45,11 +35,10 @@
 
 
 # instance fields
-.field final downstream:Ldk/t;
+.field final downstream:Lb8/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ldk/t<",
-            "-TT;>;"
+            "Lb8/i;"
         }
     .end annotation
 .end field
@@ -65,13 +54,13 @@
 
 
 # direct methods
-.method public constructor <init>(Ldk/t;)V
+.method public constructor <init>(Lb8/i;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ldk/t<",
-            "-TT;>;)V"
+            "Lb8/i;",
+            ")V"
         }
     .end annotation
 
@@ -81,7 +70,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver;->downstream:Ldk/t;
+    iput-object p1, p0, Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver;->downstream:Lb8/i;
 
     .line 5
     .line 6
@@ -110,6 +99,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 
@@ -147,6 +169,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public isDisposed()Z
@@ -161,11 +210,11 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Lfk/b;
+    check-cast v0, Lio/reactivex/disposables/b;
 
     .line 6
     .line 7
-    invoke-static {v0}, Lio/reactivex/internal/disposables/DisposableHelper;->isDisposed(Lfk/b;)Z
+    invoke-static {v0}, Lio/reactivex/internal/disposables/DisposableHelper;->isDisposed(Lio/reactivex/disposables/b;)Z
 
     .line 8
     .line 9
@@ -186,6 +235,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onComplete()V
@@ -217,11 +293,11 @@
 
     .line 13
     .line 14
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver;->downstream:Ldk/t;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver;->downstream:Lb8/i;
 
     .line 15
     .line 16
-    invoke-interface {v0}, Ldk/t;->onComplete()V
+    invoke-interface {v0}, Lb8/i;->onComplete()V
 
     .line 17
     .line 18
@@ -232,6 +308,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onError(Ljava/lang/Throwable;)V
@@ -263,11 +366,11 @@
 
     .line 13
     .line 14
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver;->downstream:Ldk/t;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver;->downstream:Lb8/i;
 
     .line 15
     .line 16
-    invoke-interface {v0, p1}, Ldk/t;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, p1}, Lb8/i;->onError(Ljava/lang/Throwable;)V
 
     .line 17
     .line 18
@@ -276,20 +379,53 @@
 
     .line 20
     :cond_0
-    invoke-static {p1}, Lbl/a;->Y(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lh8/a;->e(Ljava/lang/Throwable;)V
 
     .line 21
     .line 22
     .line 23
     return-void
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public onSubscribe(Lfk/b;)V
+.method public onSubscribe(Lio/reactivex/disposables/b;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Lfk/b;)Z
+    invoke-static {p0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Lio/reactivex/disposables/b;)Z
 
     .line 2
     .line 3
@@ -315,6 +451,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public onSuccess(Ljava/lang/Object;)V
@@ -351,11 +520,11 @@
 
     .line 13
     .line 14
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver;->downstream:Ldk/t;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver;->downstream:Lb8/i;
 
     .line 15
     .line 16
-    invoke-interface {v0, p1}, Ldk/t;->onSuccess(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Lb8/i;->onSuccess(Ljava/lang/Object;)V
 
     .line 17
     .line 18
@@ -367,6 +536,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public otherComplete()V
@@ -385,11 +587,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver;->downstream:Ldk/t;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver;->downstream:Lb8/i;
 
     .line 8
     .line 9
-    invoke-interface {v0}, Ldk/t;->onComplete()V
+    invoke-interface {v0}, Lb8/i;->onComplete()V
 
     .line 10
     .line 11
@@ -407,6 +609,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public otherError(Ljava/lang/Throwable;)V
@@ -425,11 +654,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver;->downstream:Ldk/t;
+    iget-object v0, p0, Lio/reactivex/internal/operators/maybe/MaybeTakeUntilPublisher$TakeUntilMainMaybeObserver;->downstream:Lb8/i;
 
     .line 8
     .line 9
-    invoke-interface {v0, p1}, Ldk/t;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, p1}, Lb8/i;->onError(Ljava/lang/Throwable;)V
 
     .line 10
     .line 11
@@ -438,7 +667,7 @@
 
     .line 13
     :cond_0
-    invoke-static {p1}, Lbl/a;->Y(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lh8/a;->e(Ljava/lang/Throwable;)V
 
     .line 14
     .line 15
@@ -452,4 +681,37 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method

@@ -164,6 +164,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic equals(Ljava/lang/Object;)Z
@@ -235,6 +236,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic getMaxSharedSurfaceCount()I
@@ -265,6 +267,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOutputConfiguration()Ljava/lang/Object;
@@ -301,6 +304,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic getPhysicalCameraId()Ljava/lang/String;
@@ -333,6 +337,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStreamUseCase()J
@@ -369,6 +374,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic getSurface()Landroid/view/Surface;
@@ -401,6 +407,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic getSurfaceGroupId()I
@@ -431,6 +438,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic getSurfaces()Ljava/util/List;
@@ -463,6 +471,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic hashCode()I
@@ -493,6 +502,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic removeSurface(Landroid/view/Surface;)V

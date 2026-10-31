@@ -4,35 +4,18 @@
 
 
 # direct methods
-.method public static final withTryLock(Lrn/a;Ljava/lang/Object;Ljm/l;)Ljava/lang/Object;
+.method public static final withTryLock(Lkotlinx/coroutines/sync/a;Ljava/lang/Object;Lq8/l;)Ljava/lang/Object;
     .locals 3
-    .param p0    # Lrn/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Lrn/a;",
+            "Lkotlinx/coroutines/sync/a;",
             "Ljava/lang/Object;",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Boolean;",
-            "+TR;>;)TR;"
+            "Lq8/l;",
+            ")TR;"
         }
-    .end annotation
-
-    .annotation build Ltl/f;
     .end annotation
 
     .line 1
@@ -40,7 +23,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -49,12 +32,12 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-interface {p0, p1}, Lrn/a;->d(Ljava/lang/Object;)Z
+    invoke-interface {p0, p1}, Lkotlinx/coroutines/sync/a;->a(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -74,7 +57,7 @@
     move-result-object v2
 
     .line 20
-    invoke-interface {p2, v2}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v2}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -84,7 +67,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 24
-    invoke-static {v1}, Lkm/d0;->d(I)V
+    invoke-static {v1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 25
     .line 26
@@ -93,13 +76,13 @@
 
     .line 28
     .line 29
-    invoke-interface {p0, p1}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {p0, p1}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 30
     .line 31
     .line 32
     :cond_0
-    invoke-static {v1}, Lkm/d0;->c(I)V
+    invoke-static {v1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 33
     .line 34
@@ -111,7 +94,7 @@
     move-exception p2
 
     .line 37
-    invoke-static {v1}, Lkm/d0;->d(I)V
+    invoke-static {v1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 38
     .line 39
@@ -120,13 +103,13 @@
 
     .line 41
     .line 42
-    invoke-interface {p0, p1}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {p0, p1}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 43
     .line 44
     .line 45
     :cond_1
-    invoke-static {v1}, Lkm/d0;->c(I)V
+    invoke-static {v1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 46
     .line 47
@@ -197,9 +180,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static synthetic withTryLock$default(Lrn/a;Ljava/lang/Object;Ljm/l;ILjava/lang/Object;)Ljava/lang/Object;
+.method public static synthetic withTryLock$default(Lkotlinx/coroutines/sync/a;Ljava/lang/Object;Lq8/l;ILjava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
     .line 1
@@ -221,7 +207,7 @@
 
     .line 7
     .line 8
-    invoke-static {p0, p3}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -230,12 +216,12 @@
 
     .line 12
     .line 13
-    invoke-static {p2, p3}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-interface {p0, p1}, Lrn/a;->d(Ljava/lang/Object;)Z
+    invoke-interface {p0, p1}, Lkotlinx/coroutines/sync/a;->a(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -252,7 +238,7 @@
     move-result-object v0
 
     .line 24
-    invoke-interface {p2, v0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -262,7 +248,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 28
-    invoke-static {p4}, Lkm/d0;->d(I)V
+    invoke-static {p4}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 29
     .line 30
@@ -271,13 +257,13 @@
 
     .line 32
     .line 33
-    invoke-interface {p0, p1}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {p0, p1}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 34
     .line 35
     .line 36
     :cond_1
-    invoke-static {p4}, Lkm/d0;->c(I)V
+    invoke-static {p4}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 37
     .line 38
@@ -289,7 +275,7 @@
     move-exception p2
 
     .line 41
-    invoke-static {p4}, Lkm/d0;->d(I)V
+    invoke-static {p4}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 42
     .line 43
@@ -298,13 +284,13 @@
 
     .line 45
     .line 46
-    invoke-interface {p0, p1}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {p0, p1}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 47
     .line 48
     .line 49
     :cond_2
-    invoke-static {p4}, Lkm/d0;->c(I)V
+    invoke-static {p4}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 50
     .line 51

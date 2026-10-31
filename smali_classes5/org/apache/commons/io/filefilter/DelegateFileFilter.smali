@@ -1,5 +1,5 @@
 .class public Lorg/apache/commons/io/filefilter/DelegateFileFilter;
-.super Lbp/a;
+.super Lv9/a;
 .source "SourceFile"
 
 # interfaces
@@ -21,7 +21,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Lbp/a;-><init>()V
+    invoke-direct {p0}, Lv9/a;-><init>()V
 
     .line 2
     const-string v0, "filter"
@@ -43,7 +43,7 @@
     .locals 1
 
     .line 5
-    invoke-direct {p0}, Lbp/a;-><init>()V
+    invoke-direct {p0}, Lv9/a;-><init>()V
 
     .line 6
     const-string v0, "filter"
@@ -63,24 +63,35 @@
 
 
 # virtual methods
+.method public bridge synthetic accept(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1, p2}, Lv9/o;->accept(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
 .method public accept(Ljava/io/File;)Z
     .locals 1
 
-    .line 1
+    .line 2
     iget-object v0, p0, Lorg/apache/commons/io/filefilter/DelegateFileFilter;->a:Ljava/io/FileFilter;
 
     if-eqz v0, :cond_0
 
-    .line 2
+    .line 3
     invoke-interface {v0, p1}, Ljava/io/FileFilter;->accept(Ljava/io/File;)Z
 
     move-result p1
 
     return p1
 
-    .line 3
+    .line 4
     :cond_0
-    invoke-super {p0, p1}, Lbp/a;->accept(Ljava/io/File;)Z
+    invoke-super {p0, p1}, Lv9/a;->accept(Ljava/io/File;)Z
 
     move-result p1
 
@@ -90,25 +101,69 @@
 .method public accept(Ljava/io/File;Ljava/lang/String;)Z
     .locals 1
 
-    .line 4
+    .line 5
     iget-object v0, p0, Lorg/apache/commons/io/filefilter/DelegateFileFilter;->b:Ljava/io/FilenameFilter;
 
     if-eqz v0, :cond_0
 
-    .line 5
+    .line 6
     invoke-interface {v0, p1, p2}, Ljava/io/FilenameFilter;->accept(Ljava/io/File;Ljava/lang/String;)Z
 
     move-result p1
 
     return p1
 
-    .line 6
+    .line 7
     :cond_0
-    invoke-super {p0, p1, p2}, Lbp/a;->accept(Ljava/io/File;Ljava/lang/String;)Z
+    invoke-super {p0, p1, p2}, Lv9/a;->accept(Ljava/io/File;Ljava/lang/String;)Z
 
     move-result p1
 
     return p1
+.end method
+
+.method public bridge synthetic and(Lv9/o;)Lv9/o;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lv9/o;->and(Lv9/o;)Lv9/o;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic matches(Ljava/nio/file/Path;)Z
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lv9/o;->matches(Ljava/nio/file/Path;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic negate()Lv9/o;
+    .locals 1
+
+    .line 1
+    invoke-super {p0}, Lv9/o;->negate()Lv9/o;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic or(Lv9/o;)Lv9/o;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lv9/o;->or(Lv9/o;)Lv9/o;
+
+    move-result-object p1
+
+    return-object p1
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -153,7 +208,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-super {p0}, Lbp/a;->toString()Ljava/lang/String;
+    invoke-super {p0}, Lv9/a;->toString()Ljava/lang/String;
 
     .line 19
     .line 20
@@ -206,54 +261,4 @@
     .line 48
     .line 49
     .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
 .end method

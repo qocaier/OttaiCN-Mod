@@ -880,6 +880,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public finalize()V
@@ -1001,6 +1002,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getOutputOptions()Landroidx/camera/video/OutputOptions;
@@ -1031,6 +1034,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRecordingId()J
@@ -1059,6 +1063,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isClosed()Z
@@ -1096,6 +1101,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isPersistent()Z
@@ -1126,6 +1132,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mute(Z)V
@@ -1289,6 +1296,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public resume()V
@@ -1400,6 +1409,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public stop()V
@@ -1428,4 +1439,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

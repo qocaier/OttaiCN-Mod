@@ -42,7 +42,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private a(Lorg/json/JSONObject;)Lcom/baidu/mapapi/search/route/SuggestAddrInfo;

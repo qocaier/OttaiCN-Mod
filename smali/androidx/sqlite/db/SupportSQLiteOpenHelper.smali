@@ -21,18 +21,12 @@
 .end method
 
 .method public abstract getDatabaseName()Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
 .end method
 
 .method public abstract getReadableDatabase()Landroidx/sqlite/db/SupportSQLiteDatabase;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract getWritableDatabase()Landroidx/sqlite/db/SupportSQLiteDatabase;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract setWriteAheadLoggingEnabled(Z)V

@@ -145,6 +145,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>()V
@@ -173,6 +175,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static isAffectedPixelBuild()Z
@@ -222,6 +225,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static isAffectedPixelDevices()Z
@@ -267,6 +271,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static isAffectedPixelModel()Z
@@ -307,6 +312,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static isAffectedSamsungDevices()Z
@@ -356,6 +362,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method private static isTd1aBuild()Z
@@ -396,6 +403,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static isTp1aBuild()Z
@@ -436,6 +444,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static load()Z
@@ -485,4 +494,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

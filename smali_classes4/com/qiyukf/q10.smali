@@ -152,11 +152,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static a(Lcom/qiyukf/tv;)Lcom/qiyukf/q10;
@@ -279,6 +274,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -309,6 +306,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionType()Lcom/qiyukf/nimlib/sdk/msg/constant/SessionTypeEnum;
@@ -337,6 +336,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTime()J
@@ -365,6 +366,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -495,4 +498,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

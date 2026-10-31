@@ -13,15 +13,7 @@
 .end method
 
 .method public abstract onSessionEnded(Ljava/lang/Throwable;)V
-    .param p1    # Ljava/lang/Throwable;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 .end method
 
 .method public abstract onSessionStarted(Landroidx/window/area/WindowAreaSessionPresenter;)V
-    .param p1    # Landroidx/window/area/WindowAreaSessionPresenter;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method

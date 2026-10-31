@@ -3,14 +3,10 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bumptech/glide/load/data/a$a;
+.implements Lcom/bumptech/glide/load/data/e$a;
 
 
 # annotations
-.annotation build Landroidx/annotation/RequiresApi;
-    value = 0x15
-.end annotation
-
 .annotation system Ldalvik/annotation/EnclosingClass;
     value = Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;
 .end annotation
@@ -18,15 +14,6 @@
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x19
     name = "a"
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/bumptech/glide/load/data/a$a<",
-        "Landroid/os/ParcelFileDescriptor;",
-        ">;"
-    }
 .end annotation
 
 
@@ -59,24 +46,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public a()Ljava/lang/Class;
     .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/lang/Class<",
-            "Landroid/os/ParcelFileDescriptor;",
-            ">;"
-        }
-    .end annotation
 
     .line 1
     const-class v0, Landroid/os/ParcelFileDescriptor;
@@ -103,24 +78,17 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public bridge synthetic b(Ljava/lang/Object;)Lcom/bumptech/glide/load/data/a;
+.method public bridge synthetic b(Ljava/lang/Object;)Lcom/bumptech/glide/load/data/e;
     .locals 0
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     check-cast p1, Landroid/os/ParcelFileDescriptor;
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder$a;->c(Landroid/os/ParcelFileDescriptor;)Lcom/bumptech/glide/load/data/a;
+    invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder$a;->c(Landroid/os/ParcelFileDescriptor;)Lcom/bumptech/glide/load/data/e;
 
     .line 4
     .line 5
@@ -146,28 +114,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public c(Landroid/os/ParcelFileDescriptor;)Lcom/bumptech/glide/load/data/a;
+.method public c(Landroid/os/ParcelFileDescriptor;)Lcom/bumptech/glide/load/data/e;
     .locals 1
-    .param p1    # Landroid/os/ParcelFileDescriptor;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/os/ParcelFileDescriptor;",
-            ")",
-            "Lcom/bumptech/glide/load/data/a<",
-            "Landroid/os/ParcelFileDescriptor;",
-            ">;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;
@@ -198,5 +148,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

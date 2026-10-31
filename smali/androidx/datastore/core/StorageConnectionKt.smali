@@ -4,16 +4,8 @@
 
 
 # direct methods
-.method public static final readData(Landroidx/datastore/core/StorageConnection;Lul/c;)Ljava/lang/Object;
+.method public static final readData(Landroidx/datastore/core/StorageConnection;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 2
-    .param p0    # Landroidx/datastore/core/StorageConnection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -21,13 +13,10 @@
             ">(",
             "Landroidx/datastore/core/StorageConnection<",
             "TT;>;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -38,12 +27,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/datastore/core/StorageConnectionKt$readData$2;-><init>(Lul/c;)V
+    invoke-direct {v0, v1}, Landroidx/datastore/core/StorageConnectionKt$readData$2;-><init>(Lkotlin/coroutines/e;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-interface {p0, v0, p1}, Landroidx/datastore/core/StorageConnection;->readScope(Ljm/q;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p0, v0, p1}, Landroidx/datastore/core/StorageConnection;->readScope(Lq8/q;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -91,16 +80,8 @@
     .line 48
 .end method
 
-.method public static final writeData(Landroidx/datastore/core/StorageConnection;Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public static final writeData(Landroidx/datastore/core/StorageConnection;Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 2
-    .param p0    # Landroidx/datastore/core/StorageConnection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -108,15 +89,10 @@
             ">(",
             "Landroidx/datastore/core/StorageConnection<",
             "TT;>;TT;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -127,12 +103,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, p1, v1}, Landroidx/datastore/core/StorageConnectionKt$writeData$2;-><init>(Ljava/lang/Object;Lul/c;)V
+    invoke-direct {v0, p1, v1}, Landroidx/datastore/core/StorageConnectionKt$writeData$2;-><init>(Ljava/lang/Object;Lkotlin/coroutines/e;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-interface {p0, v0, p2}, Landroidx/datastore/core/StorageConnection;->writeScope(Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p0, v0, p2}, Landroidx/datastore/core/StorageConnection;->writeScope(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -140,7 +116,7 @@
     move-result-object p0
 
     .line 11
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -156,7 +132,7 @@
 
     .line 18
     :cond_0
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
 
     .line 19
     .line 20
@@ -254,4 +230,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

@@ -3,26 +3,8 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nIntIntPair.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IntIntPair.kt\nandroidx/collection/IntIntPair\n+ 2 PackingUtils.kt\nandroidx/collection/PackingUtilsKt\n*L\n1#1,83:1\n33#2:84\n*S KotlinDebug\n*F\n+ 1 IntIntPair.kt\nandroidx/collection/IntIntPair\n*L\n41#1:84\n*E\n"
-.end annotation
-
-.annotation runtime Lim/h;
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nIntIntPair.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IntIntPair.kt\nandroidx/collection/IntIntPair\n+ 2 PackingUtils.kt\nandroidx/collection/PackingUtilsKt\n*L\n1#1,83:1\n33#2:84\n*S KotlinDebug\n*F\n+ 1 IntIntPair.kt\nandroidx/collection/IntIntPair\n*L\n41#1:84\n*E\n"
-    }
-.end annotation
-
-
 # instance fields
 .field public final packedValue:J
-    .annotation build Lim/g;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -188,8 +170,6 @@
 
 .method public static synthetic getPackedValue$annotations()V
     .locals 0
-    .annotation build Ljl/v0;
-    .end annotation
 
     return-void
 .end method
@@ -218,8 +198,6 @@
 
 .method public static toString-impl(J)Ljava/lang/String;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -332,6 +310,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -362,8 +341,6 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-wide v0, p0, Landroidx/collection/IntIntPair;->packedValue:J
@@ -392,6 +369,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final synthetic unbox-impl()J

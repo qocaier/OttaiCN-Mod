@@ -11,16 +11,6 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSavedStateHandle.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SavedStateHandle.kt\nandroidx/lifecycle/SavedStateHandle\n+ 2 Maps.kt\nkotlin/collections/MapsKt__MapsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,489:1\n361#2,3:490\n364#2,4:494\n1#3:493\n*S KotlinDebug\n*F\n+ 1 SavedStateHandle.kt\nandroidx/lifecycle/SavedStateHandle\n*L\n227#1:490,3\n227#1:494,4\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSavedStateHandle.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SavedStateHandle.kt\nandroidx/lifecycle/SavedStateHandle\n+ 2 Maps.kt\nkotlin/collections/MapsKt__MapsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,489:1\n361#2,3:490\n364#2,4:494\n1#3:493\n*S KotlinDebug\n*F\n+ 1 SavedStateHandle.kt\nandroidx/lifecycle/SavedStateHandle\n*L\n227#1:490,3\n227#1:494,4\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field private static final ACCEPTABLE_CLASSES:[Ljava/lang/Class;
@@ -33,25 +23,13 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field public static final Companion:Landroidx/lifecycle/SavedStateHandle$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final KEYS:Ljava/lang/String; = "keys"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final VALUES:Ljava/lang/String; = "values"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
@@ -60,13 +38,9 @@
         value = {
             "Ljava/util/Map<",
             "Ljava/lang/String;",
-            "Ljn/p<",
-            "Ljava/lang/Object;",
-            ">;>;"
+            "Lkotlinx/coroutines/flow/h1;",
+            ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -79,9 +53,6 @@
             "*>;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final regular:Ljava/util/Map;
@@ -93,15 +64,9 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final savedStateProvider:Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final savedStateProviders:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
@@ -111,9 +76,6 @@
             "Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -130,7 +92,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/lifecycle/SavedStateHandle$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/lifecycle/SavedStateHandle$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -279,6 +241,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>()V
@@ -316,9 +280,9 @@
     iput-object v0, p0, Landroidx/lifecycle/SavedStateHandle;->flows:Ljava/util/Map;
 
     .line 13
-    new-instance v0, Lp1/i;
+    new-instance v0, Landroidx/lifecycle/k;
 
-    invoke-direct {v0, p0}, Lp1/i;-><init>(Landroidx/lifecycle/SavedStateHandle;)V
+    invoke-direct {v0, p0}, Landroidx/lifecycle/k;-><init>(Landroidx/lifecycle/SavedStateHandle;)V
 
     iput-object v0, p0, Landroidx/lifecycle/SavedStateHandle;->savedStateProvider:Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;
 
@@ -327,10 +291,6 @@
 
 .method public constructor <init>(Ljava/util/Map;)V
     .locals 2
-    .param p1    # Ljava/util/Map;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -344,7 +304,7 @@
 
     const-string v0, "initialState"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -378,9 +338,9 @@
     iput-object v1, p0, Landroidx/lifecycle/SavedStateHandle;->flows:Ljava/util/Map;
 
     .line 6
-    new-instance v1, Lp1/i;
+    new-instance v1, Landroidx/lifecycle/k;
 
-    invoke-direct {v1, p0}, Lp1/i;-><init>(Landroidx/lifecycle/SavedStateHandle;)V
+    invoke-direct {v1, p0}, Landroidx/lifecycle/k;-><init>(Landroidx/lifecycle/SavedStateHandle;)V
 
     iput-object v1, p0, Landroidx/lifecycle/SavedStateHandle;->savedStateProvider:Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;
 
@@ -427,6 +387,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getFlows$p(Landroidx/lifecycle/SavedStateHandle;)Ljava/util/Map;
@@ -497,24 +458,10 @@
 
 .method public static final createHandle(Landroid/os/Bundle;Landroid/os/Bundle;)Landroidx/lifecycle/SavedStateHandle;
     .locals 1
-    .param p0    # Landroid/os/Bundle;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p1    # Landroid/os/Bundle;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     sget-object v0, Landroidx/lifecycle/SavedStateHandle;->Companion:Landroidx/lifecycle/SavedStateHandle$Companion;
@@ -720,6 +667,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static final savedStateProvider$lambda$0(Landroidx/lifecycle/SavedStateHandle;)Landroid/os/Bundle;
@@ -730,7 +680,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -739,7 +689,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Lkotlin/collections/a;->D0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v0}, Lkotlin/collections/g0;->o(Ljava/util/Map;)Ljava/util/Map;
 
     .line 9
     .line 10
@@ -938,7 +888,7 @@
 
     .line 106
     .line 107
-    invoke-static {p0, v1}, Ljl/f1;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {p0, v1}, Lkotlin/f;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
 
     .line 108
     .line 109
@@ -950,7 +900,7 @@
 
     .line 112
     .line 113
-    invoke-static {v0, v2}, Ljl/f1;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v0, v2}, Lkotlin/f;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
 
     .line 114
     .line 115
@@ -1088,16 +1038,17 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
 # virtual methods
 .method public final clearSavedStateProvider(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -1106,7 +1057,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1139,10 +1090,6 @@
 
 .method public final contains(Ljava/lang/String;)Z
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -1151,7 +1098,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1186,10 +1133,6 @@
 
 .method public final get(Ljava/lang/String;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -1203,15 +1146,12 @@
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
     const-string v0, "key"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1256,10 +1196,6 @@
 
 .method public final getLiveData(Ljava/lang/String;)Landroidx/lifecycle/MutableLiveData;
     .locals 2
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -1275,12 +1211,9 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -1293,17 +1226,13 @@
 
     const-string v0, "null cannot be cast to non-null type androidx.lifecycle.MutableLiveData<T of androidx.lifecycle.SavedStateHandle.getLiveData>"
 
-    invoke-static {p1, v0}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
 .method public final getLiveData(Ljava/lang/String;Ljava/lang/Object;)Landroidx/lifecycle/MutableLiveData;
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -1319,12 +1248,9 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -1336,12 +1262,8 @@
     return-object p1
 .end method
 
-.method public final getStateFlow(Ljava/lang/String;Ljava/lang/Object;)Ljn/y;
+.method public final getStateFlow(Ljava/lang/String;Ljava/lang/Object;)Lkotlinx/coroutines/flow/r1;
     .locals 2
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -1352,12 +1274,8 @@
             ">(",
             "Ljava/lang/String;",
             "TT;)",
-            "Ljn/y<",
-            "TT;>;"
+            "Lkotlinx/coroutines/flow/r1;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1365,7 +1283,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1424,7 +1342,7 @@
     move-result-object p2
 
     .line 33
-    invoke-static {p2}, Ljn/z;->a(Ljava/lang/Object;)Ljn/p;
+    invoke-static {p2}, Lkotlinx/coroutines/flow/s1;->a(Ljava/lang/Object;)Lkotlinx/coroutines/flow/h1;
 
     .line 34
     .line 35
@@ -1447,11 +1365,11 @@
     .line 44
     .line 45
     :cond_1
-    check-cast v1, Ljn/p;
+    check-cast v1, Lkotlinx/coroutines/flow/h1;
 
     .line 46
     .line 47
-    invoke-static {v1}, Ljn/g;->n(Ljn/p;)Ljn/y;
+    invoke-static {v1}, Lkotlinx/coroutines/flow/e;->c(Lkotlinx/coroutines/flow/h1;)Lkotlinx/coroutines/flow/r1;
 
     .line 48
     .line 49
@@ -1463,7 +1381,7 @@
 
     .line 52
     .line 53
-    invoke-static {p1, p2}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -1646,6 +1564,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public final keys()Ljava/util/Set;
@@ -1660,9 +1581,6 @@
             "Ljava/lang/String;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1690,7 +1608,7 @@
     move-result-object v1
 
     .line 13
-    invoke-static {v0, v1}, Lll/v1;->C(Ljava/util/Set;Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {v0, v1}, Lkotlin/collections/k0;->g(Ljava/util/Set;Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 14
     .line 15
@@ -1710,7 +1628,7 @@
     move-result-object v1
 
     .line 23
-    invoke-static {v0, v1}, Lll/v1;->C(Ljava/util/Set;Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {v0, v1}, Lkotlin/collections/k0;->g(Ljava/util/Set;Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 24
     .line 25
@@ -1776,14 +1694,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final remove(Ljava/lang/String;)Ljava/lang/Object;
     .locals 2
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -1797,15 +1713,12 @@
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
     const-string v0, "key"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1906,6 +1819,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final savedStateProvider()Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;
@@ -1914,9 +1828,6 @@
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1942,18 +1853,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final set(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 2
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -1972,7 +1876,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2060,7 +1964,7 @@
     move-result-object p1
 
     .line 45
-    check-cast p1, Ljn/p;
+    check-cast p1, Lkotlinx/coroutines/flow/h1;
 
     .line 46
     .line 47
@@ -2072,7 +1976,7 @@
 
     .line 50
     :cond_2
-    invoke-interface {p1, p2}, Ljn/p;->setValue(Ljava/lang/Object;)V
+    invoke-interface {p1, p2}, Lkotlinx/coroutines/flow/h1;->setValue(Ljava/lang/Object;)V
 
     .line 51
     .line 52
@@ -2103,7 +2007,7 @@
     .line 64
     .line 65
     .line 66
-    invoke-static {p2}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 67
     .line 68
@@ -2289,18 +2193,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public final setSavedStateProvider(Ljava/lang/String;Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -2309,7 +2208,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2318,7 +2217,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10

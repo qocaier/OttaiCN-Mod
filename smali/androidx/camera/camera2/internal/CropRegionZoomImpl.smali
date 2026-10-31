@@ -234,6 +234,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -324,6 +325,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxZoom()F
@@ -454,6 +456,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getMinZoom()F
@@ -595,6 +599,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public resetZoom()V
@@ -706,6 +711,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setZoomRatio(FLandroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V

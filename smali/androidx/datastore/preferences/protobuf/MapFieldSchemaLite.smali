@@ -38,23 +38,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getSerializedSizeLite(ILjava/lang/Object;Ljava/lang/Object;)I
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "mapField",
-            "defaultEntry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -235,21 +223,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static mergeFromLite(Ljava/lang/Object;Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/MapFieldLite;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "destMapField",
-            "srcMapField"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -344,15 +324,6 @@
 # virtual methods
 .method public forMapData(Ljava/lang/Object;)Ljava/util/Map;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mapField"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -395,15 +366,6 @@
 
 .method public forMapMetadata(Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mapDefaultEntry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -450,15 +412,6 @@
 
 .method public forMutableMapData(Ljava/lang/Object;)Ljava/util/Map;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mapField"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -501,18 +454,6 @@
 
 .method public getSerializedSize(ILjava/lang/Object;Ljava/lang/Object;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "mapField",
-            "mapDefaultEntry"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/MapFieldSchemaLite;->getSerializedSizeLite(ILjava/lang/Object;Ljava/lang/Object;)I
@@ -632,18 +573,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public isImmutable(Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mapField"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Landroidx/datastore/preferences/protobuf/MapFieldLite;
@@ -683,16 +619,6 @@
 
 .method public mergeFrom(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "destMapField",
-            "srcMapField"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p1, p2}, Landroidx/datastore/preferences/protobuf/MapFieldSchemaLite;->mergeFromLite(Ljava/lang/Object;Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/MapFieldLite;
@@ -751,14 +677,6 @@
 
 .method public newMapField(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "unused"
-        }
-    .end annotation
 
     .line 1
     invoke-static {}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->emptyMapField()Landroidx/datastore/preferences/protobuf/MapFieldLite;
@@ -798,14 +716,6 @@
 
 .method public toImmutable(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mapField"
-        }
-    .end annotation
 
     .line 1
     move-object v0, p1

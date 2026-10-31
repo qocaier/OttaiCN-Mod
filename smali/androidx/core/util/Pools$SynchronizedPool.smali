@@ -26,9 +26,6 @@
 
 # instance fields
 .field private final lock:Ljava/lang/Object;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -81,9 +78,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
     iget-object v0, p0, Landroidx/core/util/Pools$SynchronizedPool;->lock:Ljava/lang/Object;
 
@@ -125,14 +119,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public release(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)Z"
@@ -144,7 +135,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

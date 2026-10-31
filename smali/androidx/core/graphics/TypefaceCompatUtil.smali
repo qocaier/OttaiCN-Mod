@@ -44,6 +44,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static closeQuietly(Ljava/io/Closeable;)V
@@ -244,6 +245,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static copyToFile(Ljava/io/File;Landroid/content/res/Resources;I)Z
@@ -735,6 +739,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static mmap(Landroid/content/Context;Landroid/os/CancellationSignal;Landroid/net/Uri;)Ljava/nio/ByteBuffer;
@@ -1134,4 +1143,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

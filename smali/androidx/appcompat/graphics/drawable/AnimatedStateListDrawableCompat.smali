@@ -315,6 +315,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static createFromXmlInner(Landroid/content/Context;Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat;
@@ -1590,6 +1593,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private parseItem(Landroid/content/Context;Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)I
@@ -3418,6 +3422,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private updateStateFromTypedArray(Landroid/content/res/TypedArray;)V
@@ -3564,6 +3573,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -3705,6 +3715,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public addTransition(IILandroid/graphics/drawable/Drawable;Z)V
@@ -3960,6 +3973,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public clearMutated()V
@@ -3992,6 +4011,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public cloneConstantState()Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$AnimatedStateListState;
@@ -4731,6 +4751,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public mutate()Landroid/graphics/drawable/Drawable;
@@ -4778,6 +4800,7 @@
     :cond_0
     return-object p0
     .line 20
+    .line 21
 .end method
 
 .method public onStateChange([I)Z
@@ -4914,6 +4937,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setConstantState(Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;)V

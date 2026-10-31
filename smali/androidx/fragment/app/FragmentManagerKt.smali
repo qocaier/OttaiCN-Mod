@@ -4,26 +4,15 @@
 
 
 # direct methods
-.method public static final commit(Landroidx/fragment/app/FragmentManager;ZLjm/l;)V
+.method public static final commit(Landroidx/fragment/app/FragmentManager;ZLq8/l;)V
     .locals 1
-    .param p0    # Landroidx/fragment/app/FragmentManager;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/fragment/app/FragmentManager;",
             "Z",
-            "Ljm/l<",
-            "-",
-            "Landroidx/fragment/app/FragmentTransaction;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -32,7 +21,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -41,7 +30,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -58,12 +47,12 @@
 
     .line 16
     .line 17
-    invoke-static {p0, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -168,9 +157,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static synthetic commit$default(Landroidx/fragment/app/FragmentManager;ZLjm/l;ILjava/lang/Object;)V
+.method public static synthetic commit$default(Landroidx/fragment/app/FragmentManager;ZLq8/l;ILjava/lang/Object;)V
     .locals 0
 
     .line 1
@@ -190,7 +182,7 @@
 
     .line 7
     .line 8
-    invoke-static {p0, p3}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -199,7 +191,7 @@
 
     .line 12
     .line 13
-    invoke-static {p2, p3}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -216,12 +208,12 @@
 
     .line 21
     .line 22
-    invoke-static {p0, p3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     .line 24
     .line 25
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -733,16 +725,8 @@
     .line 523
 .end method
 
-.method public static final commitNow(Landroidx/fragment/app/FragmentManager;ZLjm/l;)V
+.method public static final commitNow(Landroidx/fragment/app/FragmentManager;ZLq8/l;)V
     .locals 1
-    .param p0    # Landroidx/fragment/app/FragmentManager;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -751,11 +735,8 @@
             "(",
             "Landroidx/fragment/app/FragmentManager;",
             "Z",
-            "Ljm/l<",
-            "-",
-            "Landroidx/fragment/app/FragmentTransaction;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -764,7 +745,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -773,7 +754,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -790,12 +771,12 @@
 
     .line 16
     .line 17
-    invoke-static {p0, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -900,9 +881,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static synthetic commitNow$default(Landroidx/fragment/app/FragmentManager;ZLjm/l;ILjava/lang/Object;)V
+.method public static synthetic commitNow$default(Landroidx/fragment/app/FragmentManager;ZLq8/l;ILjava/lang/Object;)V
     .locals 0
 
     .line 1
@@ -922,7 +906,7 @@
 
     .line 7
     .line 8
-    invoke-static {p0, p3}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -931,7 +915,7 @@
 
     .line 12
     .line 13
-    invoke-static {p2, p3}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -948,12 +932,12 @@
 
     .line 21
     .line 22
-    invoke-static {p0, p3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     .line 24
     .line 25
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -1465,31 +1449,16 @@
     .line 523
 .end method
 
-.method public static final transaction(Landroidx/fragment/app/FragmentManager;ZZLjm/l;)V
+.method public static final transaction(Landroidx/fragment/app/FragmentManager;ZZLq8/l;)V
     .locals 1
-    .param p0    # Landroidx/fragment/app/FragmentManager;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/fragment/app/FragmentManager;",
             "ZZ",
-            "Ljm/l<",
-            "-",
-            "Landroidx/fragment/app/FragmentTransaction;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Use commit { .. } or commitNow { .. } extensions"
     .end annotation
 
     .line 1
@@ -1497,7 +1466,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1506,7 +1475,7 @@
 
     .line 7
     .line 8
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1523,12 +1492,12 @@
 
     .line 16
     .line 17
-    invoke-static {p0, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-interface {p3, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -1764,9 +1733,15 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static synthetic transaction$default(Landroidx/fragment/app/FragmentManager;ZZLjm/l;ILjava/lang/Object;)V
+.method public static synthetic transaction$default(Landroidx/fragment/app/FragmentManager;ZZLq8/l;ILjava/lang/Object;)V
     .locals 1
 
     .line 1
@@ -1801,7 +1776,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, p4}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -1810,7 +1785,7 @@
 
     .line 18
     .line 19
-    invoke-static {p3, p4}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -1827,12 +1802,12 @@
 
     .line 27
     .line 28
-    invoke-static {p0, p4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-interface {p3, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 32
     .line 33

@@ -4,9 +4,6 @@
 
 
 # annotations
-.annotation build Landroidx/annotation/VisibleForTesting;
-.end annotation
-
 .annotation system Ldalvik/annotation/EnclosingClass;
     value = Lcom/bumptech/glide/load/resource/bitmap/VideoDecoder;
 .end annotation
@@ -46,7 +43,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -81,5 +77,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

@@ -66,6 +66,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -87,18 +88,6 @@
 
 .method private constructor <init>([IIZ)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "other",
-            "size",
-            "isMutable"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0, p3}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;-><init>(Z)V
@@ -114,16 +103,6 @@
 
 .method private addInt(II)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
 
     .line 8
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
@@ -242,18 +221,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private ensureIndexInRange(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     if-ltz p1, :cond_0
@@ -302,14 +274,6 @@
 
 .method private makeOutOfBoundsExceptionMessage(I)Ljava/lang/String;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -412,22 +376,13 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
 # virtual methods
 .method public add(ILjava/lang/Integer;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
 
     .line 4
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
@@ -441,16 +396,6 @@
 
 .method public bridge synthetic add(ILjava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
 
     .line 1
     check-cast p2, Ljava/lang/Integer;
@@ -462,14 +407,6 @@
 
 .method public add(Ljava/lang/Integer;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "element"
-        }
-    .end annotation
 
     .line 3
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
@@ -485,14 +422,6 @@
 
 .method public bridge synthetic add(Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "element"
-        }
-    .end annotation
 
     .line 2
     check-cast p1, Ljava/lang/Integer;
@@ -506,15 +435,6 @@
 
 .method public addAll(Ljava/util/Collection;)Z
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "collection"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -680,18 +600,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public addInt(I)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "element"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
@@ -740,14 +653,6 @@
 
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "element"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->indexOf(Ljava/lang/Object;)I
@@ -794,14 +699,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -938,18 +835,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public get(I)Ljava/lang/Integer;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->getInt(I)I
@@ -965,14 +855,6 @@
 
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->get(I)Ljava/lang/Integer;
@@ -984,14 +866,6 @@
 
 .method public getInt(I)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->ensureIndexInRange(I)V
@@ -1073,18 +947,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public indexOf(Ljava/lang/Object;)I
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "element"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Ljava/lang/Integer;
@@ -1203,18 +1070,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$IntList;
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "capacity"
-        }
-    .end annotation
 
     .line 2
     iget v0, p0, Landroidx/datastore/preferences/protobuf/IntArrayList;->size:I
@@ -1249,14 +1109,6 @@
 
 .method public bridge synthetic mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "capacity"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$IntList;
@@ -1268,14 +1120,6 @@
 
 .method public remove(I)Ljava/lang/Integer;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 2
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
@@ -1329,14 +1173,6 @@
 
 .method public bridge synthetic remove(I)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->remove(I)Ljava/lang/Integer;
@@ -1348,16 +1184,6 @@
 
 .method public removeRange(II)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fromIndex",
-            "toIndex"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
@@ -1447,16 +1273,6 @@
 
 .method public set(ILjava/lang/Integer;)Ljava/lang/Integer;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
 
     .line 2
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
@@ -1476,16 +1292,6 @@
 
 .method public bridge synthetic set(ILjava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
 
     .line 1
     check-cast p2, Ljava/lang/Integer;
@@ -1499,16 +1305,6 @@
 
 .method public setInt(II)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
@@ -1597,4 +1393,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

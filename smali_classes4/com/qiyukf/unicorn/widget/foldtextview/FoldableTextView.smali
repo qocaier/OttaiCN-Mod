@@ -119,17 +119,27 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method private init()V
     .locals 2
 
     .line 1
-    new-instance v0, Lrh/c;
+    new-instance v0, Lcom/qiyukf/unicorn/widget/foldtextview/c;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lrh/c;-><init>(Lcom/qiyukf/unicorn/widget/foldtextview/FoldableTextView;)V
+    invoke-direct {v0, p0}, Lcom/qiyukf/unicorn/widget/foldtextview/c;-><init>(Lcom/qiyukf/unicorn/widget/foldtextview/FoldableTextView;)V
 
     .line 4
     .line 5
@@ -247,6 +257,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private showCopyDialog()V
@@ -371,6 +382,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -401,6 +413,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setFoldMode(I)V
@@ -568,4 +582,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

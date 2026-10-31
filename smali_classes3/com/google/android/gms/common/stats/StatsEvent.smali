@@ -7,15 +7,6 @@
 
 
 # annotations
-.annotation build Lb9/a;
-.end annotation
-
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/common/stats/StatsEvent$a;
-    }
-.end annotation
-
 .annotation runtime Ljava/lang/Deprecated;
 .end annotation
 
@@ -31,19 +22,20 @@
 
 
 # virtual methods
-.method public abstract s()I
+.method public abstract d()I
 .end method
 
-.method public abstract t()J
+.method public abstract e()J
+.end method
+
+.method public abstract f()Ljava/lang/String;
 .end method
 
 .method public final toString()Ljava/lang/String;
     .locals 5
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/stats/StatsEvent;->t()J
+    invoke-virtual {p0}, Lcom/google/android/gms/common/stats/StatsEvent;->e()J
 
     .line 2
     .line 3
@@ -51,7 +43,7 @@
     move-result-wide v0
 
     .line 5
-    invoke-virtual {p0}, Lcom/google/android/gms/common/stats/StatsEvent;->s()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/stats/StatsEvent;->d()I
 
     .line 6
     .line 7
@@ -59,7 +51,7 @@
     move-result v2
 
     .line 9
-    invoke-virtual {p0}, Lcom/google/android/gms/common/stats/StatsEvent;->u()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/stats/StatsEvent;->f()Ljava/lang/String;
 
     .line 10
     .line 11
@@ -177,18 +169,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-.end method
-
-.method public abstract u()Ljava/lang/String;
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 .end method

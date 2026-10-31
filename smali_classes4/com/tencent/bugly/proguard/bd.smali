@@ -281,6 +281,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method private static a([Ljava/lang/String;)Ljava/util/Map;
@@ -470,6 +493,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -638,101 +663,58 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public final handleNativeException(IIJJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;IIILjava/lang/String;Ljava/lang/String;)V
     .locals 21
 
-    .line 1
     const/4 v0, 0x0
 
-    .line 2
+    .line 1
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 3
-    .line 4
     const-string v1, "Native Crash Happen v1"
 
-    .line 5
-    .line 6
     invoke-static {v1, v0}, Lcom/tencent/bugly/proguard/al;->a(Ljava/lang/String;[Ljava/lang/Object;)Z
 
-    .line 7
-    .line 8
-    .line 9
     const/16 v20, 0x0
 
-    .line 10
-    .line 11
     move-object/from16 v2, p0
 
-    .line 12
-    .line 13
     move/from16 v3, p1
 
-    .line 14
-    .line 15
     move/from16 v4, p2
 
-    .line 16
-    .line 17
     move-wide/from16 v5, p3
 
-    .line 18
-    .line 19
     move-wide/from16 v7, p5
 
-    .line 20
-    .line 21
     move-object/from16 v9, p7
 
-    .line 22
-    .line 23
     move-object/from16 v10, p8
 
-    .line 24
-    .line 25
     move-object/from16 v11, p9
 
-    .line 26
-    .line 27
     move-object/from16 v12, p10
 
-    .line 28
-    .line 29
     move/from16 v13, p11
 
-    .line 30
-    .line 31
     move-object/from16 v14, p12
 
-    .line 32
-    .line 33
     move/from16 v15, p13
 
-    .line 34
-    .line 35
     move/from16 v16, p14
 
-    .line 36
-    .line 37
     move/from16 v17, p15
 
-    .line 38
-    .line 39
     move-object/from16 v18, p16
 
-    .line 40
-    .line 41
     move-object/from16 v19, p17
 
-    .line 42
-    .line 43
+    .line 2
     invoke-virtual/range {v2 .. v20}, Lcom/tencent/bugly/proguard/bd;->handleNativeException2(IIJJLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;IIILjava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
 
-    .line 44
-    .line 45
-    .line 46
     return-void
 .end method
 

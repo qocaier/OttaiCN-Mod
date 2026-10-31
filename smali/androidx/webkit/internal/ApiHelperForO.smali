@@ -36,6 +36,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getCurrentWebViewPackage()Landroid/content/pm/PackageInfo;
@@ -44,7 +45,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Ly1/e;->a()Landroid/content/pm/PackageInfo;
+    invoke-static {}, Landroidx/webkit/internal/e;->a()Landroid/content/pm/PackageInfo;
 
     .line 2
     .line 3
@@ -68,6 +69,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getSafeBrowsingEnabled(Landroid/webkit/WebSettings;)Z
@@ -78,7 +80,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Ly1/d;->a(Landroid/webkit/WebSettings;)Z
+    invoke-static {p0}, Landroidx/webkit/internal/d;->a(Landroid/webkit/WebSettings;)Z
 
     .line 2
     .line 3
@@ -119,7 +121,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Ly1/a;->a(Landroid/webkit/WebView;)Landroid/webkit/WebChromeClient;
+    invoke-static {p0}, Landroidx/webkit/internal/a;->a(Landroid/webkit/WebView;)Landroid/webkit/WebChromeClient;
 
     .line 2
     .line 3
@@ -160,7 +162,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Ly1/c;->a(Landroid/webkit/WebView;)Landroid/webkit/WebViewClient;
+    invoke-static {p0}, Landroidx/webkit/internal/c;->a(Landroid/webkit/WebView;)Landroid/webkit/WebViewClient;
 
     .line 2
     .line 3
@@ -199,7 +201,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Ly1/b;->a(Landroid/webkit/WebSettings;Z)V
+    invoke-static {p0, p1}, Landroidx/webkit/internal/b;->a(Landroid/webkit/WebSettings;Z)V
 
     .line 2
     .line 3

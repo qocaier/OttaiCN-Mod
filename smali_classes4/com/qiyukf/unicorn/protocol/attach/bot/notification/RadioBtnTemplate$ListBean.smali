@@ -64,6 +64,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -94,6 +96,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStyle()Ljava/lang/String;
@@ -122,6 +126,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getType()Ljava/lang/String;
@@ -150,6 +156,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isRadioBtn()Z
@@ -184,6 +192,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setLabel(Ljava/lang/String;)V
@@ -217,6 +227,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStyle(Ljava/lang/String;)V
@@ -250,6 +262,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setType(Ljava/lang/String;)V
@@ -283,4 +297,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

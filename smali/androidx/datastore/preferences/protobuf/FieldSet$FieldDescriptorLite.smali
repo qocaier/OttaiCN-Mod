@@ -49,16 +49,6 @@
 .end method
 
 .method public abstract internalMergeFrom(Landroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "to",
-            "from"
-        }
-    .end annotation
 .end method
 
 .method public abstract isPacked()Z

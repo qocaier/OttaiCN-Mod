@@ -3,25 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "ActivityTransitionCreator"
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$g;
-    value = {
-        0x3e8
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/location/ActivityTransition$a;,
-        Lcom/google/android/gms/location/ActivityTransition$b;
-    }
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
@@ -36,34 +17,20 @@
     .end annotation
 .end field
 
-.field public static final c:I = 0x0
-
-.field public static final d:I = 0x1
-
 
 # instance fields
 .field public final a:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getActivityType"
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getTransitionType"
-        id = 0x2
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lda/r0;
+    new-instance v0, Lj3/a0;
 
-    invoke-direct {v0}, Lda/r0;-><init>()V
+    invoke-direct {v0}, Lj3/a0;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/location/ActivityTransition;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -72,18 +39,6 @@
 
 .method public constructor <init>(II)V
     .locals 0
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -152,14 +107,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public static u(I)V
+.method public static f(I)V
     .locals 3
 
     .line 1
@@ -241,7 +191,7 @@
     move-result-object p0
 
     .line 40
-    invoke-static {v0, p0}, Lh9/t;->b(ZLjava/lang/Object;)V
+    invoke-static {v0, p0}, Lt2/j;->b(ZLjava/lang/Object;)V
 
     .line 41
     .line 42
@@ -295,18 +245,30 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
 # virtual methods
+.method public d()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/google/android/gms/location/ActivityTransition;->a:I
+
+    return v0
+.end method
+
+.method public e()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/google/android/gms/location/ActivityTransition;->b:I
+
+    return v0
+.end method
+
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
     const/4 v0, 0x1
@@ -433,8 +395,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public hashCode()I
@@ -473,7 +433,7 @@
     move-result-object v0
 
     .line 17
-    invoke-static {v0}, Lh9/r;->c([Ljava/lang/Object;)I
+    invoke-static {v0}, Lt2/i;->b([Ljava/lang/Object;)I
 
     .line 18
     .line 19
@@ -483,31 +443,10 @@
     .line 21
     return v0
     .line 22
-    .line 23
-.end method
-
-.method public s()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/location/ActivityTransition;->a:I
-
-    return v0
-.end method
-
-.method public t()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/location/ActivityTransition;->b:I
-
-    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 4
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     iget v0, p0, Lcom/google/android/gms/location/ActivityTransition;->a:I
@@ -660,31 +599,18 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 2
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1}, Lh9/t;->r(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lt2/j;->g(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 5
     .line 6
@@ -695,7 +621,7 @@
     const/4 v0, 0x1
 
     .line 9
-    invoke-virtual {p0}, Lcom/google/android/gms/location/ActivityTransition;->s()I
+    invoke-virtual {p0}, Lcom/google/android/gms/location/ActivityTransition;->d()I
 
     .line 10
     .line 11
@@ -703,7 +629,7 @@
     move-result v1
 
     .line 13
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 14
     .line 15
@@ -711,7 +637,7 @@
     const/4 v0, 0x2
 
     .line 17
-    invoke-virtual {p0}, Lcom/google/android/gms/location/ActivityTransition;->t()I
+    invoke-virtual {p0}, Lcom/google/android/gms/location/ActivityTransition;->e()I
 
     .line 18
     .line 19
@@ -719,12 +645,12 @@
     move-result v1
 
     .line 21
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 22
     .line 23
     .line 24
-    invoke-static {p1, p2}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 25
     .line 26
@@ -763,9 +689,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

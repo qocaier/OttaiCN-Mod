@@ -523,6 +523,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic a(Landroidx/camera/video/internal/audio/AudioStream$AudioStreamCallback;Z)V
@@ -617,6 +620,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private checkStartedOrThrow()V
@@ -653,6 +657,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static computeInterpolatedTimeNs(IJLandroid/media/AudioTimestamp;)J
@@ -797,6 +802,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private generatePresentationTimeNs()J
@@ -945,6 +953,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static getMinBufferSize(III)I
@@ -1072,6 +1082,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static hasAudioTimestampQuirk()Z
@@ -1113,6 +1126,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static isSettingsSupported(III)Z
@@ -1253,6 +1267,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -1317,11 +1334,11 @@
 
     .line 28
     .line 29
-    new-instance v2, Le0/m;
+    new-instance v2, Landroidx/camera/video/internal/audio/n;
 
     .line 30
     .line 31
-    invoke-direct {v2, v1, p1}, Le0/m;-><init>(Landroidx/camera/video/internal/audio/AudioStream$AudioStreamCallback;Z)V
+    invoke-direct {v2, v1, p1}, Landroidx/camera/video/internal/audio/n;-><init>(Landroidx/camera/video/internal/audio/AudioStream$AudioStreamCallback;Z)V
 
     .line 32
     .line 33
@@ -1374,6 +1391,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public read(Ljava/nio/ByteBuffer;)Landroidx/camera/video/internal/audio/AudioStream$PacketInfo;
@@ -1508,6 +1526,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public release()V
@@ -1630,6 +1649,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setCallback(Landroidx/camera/video/internal/audio/AudioStream$AudioStreamCallback;Ljava/util/concurrent/Executor;)V
@@ -1951,6 +1972,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public start()V
@@ -2443,6 +2467,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public stop()V
@@ -2588,4 +2664,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

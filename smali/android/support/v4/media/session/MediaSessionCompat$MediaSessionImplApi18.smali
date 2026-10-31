@@ -1411,6 +1411,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public unregisterMediaButtonEventReceiver(Landroid/app/PendingIntent;Landroid/content/ComponentName;)V

@@ -3,49 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lj$/time/chrono/k;
+.implements Lj$/time/chrono/m;
 
 
 # static fields
-.field public static final enum BCE:Lj$/time/chrono/r;
-
-.field public static final enum CE:Lj$/time/chrono/r;
+.field public static final enum AH:Lj$/time/chrono/r;
 
 .field private static final synthetic a:[Lj$/time/chrono/r;
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 4
+    .locals 3
 
-    .line 112
+    .line 95
     new-instance v0, Lj$/time/chrono/r;
 
-    .line 106
-    const-string v1, "BCE"
+    .line 89
+    const-string v1, "AH"
 
     const/4 v2, 0x0
 
     invoke-direct {v0, v1, v2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
-    .line 112
-    sput-object v0, Lj$/time/chrono/r;->BCE:Lj$/time/chrono/r;
+    .line 95
+    sput-object v0, Lj$/time/chrono/r;->AH:Lj$/time/chrono/r;
 
-    .line 117
-    new-instance v1, Lj$/time/chrono/r;
-
-    .line 106
-    const-string v2, "CE"
-
-    const/4 v3, 0x1
-
-    invoke-direct {v1, v2, v3}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    .line 117
-    sput-object v1, Lj$/time/chrono/r;->CE:Lj$/time/chrono/r;
-
-    .line 106
-    filled-new-array {v0, v1}, [Lj$/time/chrono/r;
+    .line 89
+    filled-new-array {v0}, [Lj$/time/chrono/r;
 
     move-result-object v0
 
@@ -57,7 +42,7 @@
 .method public static valueOf(Ljava/lang/String;)Lj$/time/chrono/r;
     .locals 1
 
-    .line 106
+    .line 89
     const-class v0, Lj$/time/chrono/r;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
@@ -72,7 +57,7 @@
 .method public static values()[Lj$/time/chrono/r;
     .locals 1
 
-    .line 106
+    .line 89
     sget-object v0, Lj$/time/chrono/r;->a:[Lj$/time/chrono/r;
 
     invoke-virtual {v0}, [Lj$/time/chrono/r;->clone()Ljava/lang/Object;
@@ -86,13 +71,36 @@
 
 
 # virtual methods
+.method public final l(Lj$/time/temporal/r;)Lj$/time/temporal/w;
+    .locals 2
+
+    .line 155
+    sget-object v0, Lj$/time/temporal/a;->ERA:Lj$/time/temporal/a;
+
+    if-ne p1, v0, :cond_0
+
+    const-wide/16 v0, 0x1
+
+    .line 156
+    invoke-static {v0, v1, v0, v1}, Lj$/time/temporal/w;->j(JJ)Lj$/time/temporal/w;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 158
+    :cond_0
+    invoke-super {p0, p1}, Lj$/time/chrono/m;->l(Lj$/time/temporal/r;)Lj$/time/temporal/w;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
 .method public final p()I
     .locals 1
 
-    .line 151
-    invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v0
+    const/4 v0, 0x1
 
     return v0
 .end method

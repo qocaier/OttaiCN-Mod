@@ -541,6 +541,134 @@
     .line 434
     .line 435
     .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
+    .line 441
+    .line 442
+    .line 443
+    .line 444
+    .line 445
+    .line 446
+    .line 447
+    .line 448
+    .line 449
+    .line 450
+    .line 451
+    .line 452
+    .line 453
+    .line 454
+    .line 455
+    .line 456
+    .line 457
+    .line 458
+    .line 459
+    .line 460
+    .line 461
+    .line 462
+    .line 463
+    .line 464
+    .line 465
+    .line 466
+    .line 467
+    .line 468
+    .line 469
+    .line 470
+    .line 471
+    .line 472
+    .line 473
+    .line 474
+    .line 475
+    .line 476
+    .line 477
+    .line 478
+    .line 479
+    .line 480
+    .line 481
+    .line 482
+    .line 483
+    .line 484
+    .line 485
+    .line 486
+    .line 487
+    .line 488
+    .line 489
+    .line 490
+    .line 491
+    .line 492
+    .line 493
+    .line 494
+    .line 495
+    .line 496
+    .line 497
+    .line 498
+    .line 499
+    .line 500
+    .line 501
+    .line 502
+    .line 503
+    .line 504
+    .line 505
+    .line 506
+    .line 507
+    .line 508
+    .line 509
+    .line 510
+    .line 511
+    .line 512
+    .line 513
+    .line 514
+    .line 515
+    .line 516
+    .line 517
+    .line 518
+    .line 519
+    .line 520
+    .line 521
+    .line 522
+    .line 523
+    .line 524
+    .line 525
+    .line 526
+    .line 527
+    .line 528
+    .line 529
+    .line 530
+    .line 531
+    .line 532
+    .line 533
+    .line 534
+    .line 535
+    .line 536
+    .line 537
+    .line 538
+    .line 539
+    .line 540
+    .line 541
+    .line 542
+    .line 543
+    .line 544
+    .line 545
+    .line 546
+    .line 547
+    .line 548
+    .line 549
+    .line 550
+    .line 551
+    .line 552
+    .line 553
+    .line 554
+    .line 555
+    .line 556
+    .line 557
+    .line 558
+    .line 559
+    .line 560
+    .line 561
+    .line 562
+    .line 563
+    .line 564
 .end method
 
 .method public static synthetic a(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
@@ -929,6 +1057,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public static synthetic c(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
@@ -943,9 +1101,6 @@
 .method public static checkMetaBoolean(Landroid/content/Context;Ljava/lang/String;Z)Z
     .locals 3
     .annotation build Landroidx/annotation/VisibleForTesting;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -982,7 +1137,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v2}, Lei/a;->a(J)Landroid/content/pm/PackageManager$ApplicationInfoFlags;
+    invoke-static {v1, v2}, Lcom/tekartik/sqflite/a;->a(J)Landroid/content/pm/PackageManager$ApplicationInfoFlags;
 
     .line 18
     .line 19
@@ -990,7 +1145,7 @@
     move-result-object v1
 
     .line 21
-    invoke-static {p0, v0, v1}, Lei/b;->a(Landroid/content/pm/PackageManager;Ljava/lang/String;Landroid/content/pm/PackageManager$ApplicationInfoFlags;)Landroid/content/pm/ApplicationInfo;
+    invoke-static {p0, v0, v1}, Lcom/tekartik/sqflite/b;->a(Landroid/content/pm/PackageManager;Ljava/lang/String;Landroid/content/pm/PackageManager$ApplicationInfoFlags;)Landroid/content/pm/ApplicationInfo;
 
     .line 22
     .line 23
@@ -1131,19 +1286,11 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static checkWalEnabled(Landroid/content/Context;)Z
     .locals 2
     .annotation build Landroidx/annotation/VisibleForTesting;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1180,6 +1327,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private closeCursor(I)V
@@ -1636,6 +1785,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public static synthetic d(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
@@ -1682,6 +1861,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private doExecute(Lcom/tekartik/sqflite/operation/Operation;)Z
@@ -1730,6 +1911,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private doInsert(Lcom/tekartik/sqflite/operation/Operation;)Z
@@ -1914,225 +2097,6 @@
 
     .line 86
     return p1
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-    .line 251
-    .line 252
-    .line 253
-    .line 254
-    .line 255
-    .line 256
-    .line 257
-    .line 258
-    .line 259
-    .line 260
-    .line 261
-    .line 262
-    .line 263
-    .line 264
-    .line 265
-    .line 266
-    .line 267
-    .line 268
-    .line 269
-    .line 270
-    .line 271
-    .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method private doQuery(Lcom/tekartik/sqflite/operation/Operation;)Z
@@ -2240,11 +2204,11 @@
     move-result-object v3
 
     .line 50
-    new-instance v4, Lcom/tekartik/sqflite/g;
+    new-instance v4, Lcom/tekartik/sqflite/i;
 
     .line 51
     .line 52
-    invoke-direct {v4, v1}, Lcom/tekartik/sqflite/g;-><init>(Lcom/tekartik/sqflite/SqlCommand;)V
+    invoke-direct {v4, v1}, Lcom/tekartik/sqflite/i;-><init>(Lcom/tekartik/sqflite/SqlCommand;)V
 
     .line 53
     .line 54
@@ -2637,27 +2601,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method private doQueryCursorNext(Lcom/tekartik/sqflite/operation/Operation;)Z
@@ -3189,27 +3132,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method private doUpdate(Lcom/tekartik/sqflite/operation/Operation;)Z
@@ -3394,225 +3316,6 @@
 
     .line 86
     return p1
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-    .line 251
-    .line 252
-    .line 253
-    .line 254
-    .line 255
-    .line 256
-    .line 257
-    .line 258
-    .line 259
-    .line 260
-    .line 261
-    .line 262
-    .line 263
-    .line 264
-    .line 265
-    .line 266
-    .line 267
-    .line 268
-    .line 269
-    .line 270
-    .line 271
-    .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static synthetic e(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
@@ -3779,6 +3482,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static existsDatabase(Ljava/lang/String;)Z
@@ -3826,6 +3531,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic f(Lcom/tekartik/sqflite/SqlCommand;Landroid/database/sqlite/SQLiteDatabase;Landroid/database/sqlite/SQLiteCursorDriver;Ljava/lang/String;Landroid/database/sqlite/SQLiteQuery;)Landroid/database/Cursor;
@@ -4274,6 +3981,134 @@
     .line 434
     .line 435
     .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
+    .line 441
+    .line 442
+    .line 443
+    .line 444
+    .line 445
+    .line 446
+    .line 447
+    .line 448
+    .line 449
+    .line 450
+    .line 451
+    .line 452
+    .line 453
+    .line 454
+    .line 455
+    .line 456
+    .line 457
+    .line 458
+    .line 459
+    .line 460
+    .line 461
+    .line 462
+    .line 463
+    .line 464
+    .line 465
+    .line 466
+    .line 467
+    .line 468
+    .line 469
+    .line 470
+    .line 471
+    .line 472
+    .line 473
+    .line 474
+    .line 475
+    .line 476
+    .line 477
+    .line 478
+    .line 479
+    .line 480
+    .line 481
+    .line 482
+    .line 483
+    .line 484
+    .line 485
+    .line 486
+    .line 487
+    .line 488
+    .line 489
+    .line 490
+    .line 491
+    .line 492
+    .line 493
+    .line 494
+    .line 495
+    .line 496
+    .line 497
+    .line 498
+    .line 499
+    .line 500
+    .line 501
+    .line 502
+    .line 503
+    .line 504
+    .line 505
+    .line 506
+    .line 507
+    .line 508
+    .line 509
+    .line 510
+    .line 511
+    .line 512
+    .line 513
+    .line 514
+    .line 515
+    .line 516
+    .line 517
+    .line 518
+    .line 519
+    .line 520
+    .line 521
+    .line 522
+    .line 523
+    .line 524
+    .line 525
+    .line 526
+    .line 527
+    .line 528
+    .line 529
+    .line 530
+    .line 531
+    .line 532
+    .line 533
+    .line 534
+    .line 535
+    .line 536
+    .line 537
+    .line 538
+    .line 539
+    .line 540
+    .line 541
+    .line 542
+    .line 543
+    .line 544
+    .line 545
+    .line 546
+    .line 547
+    .line 548
+    .line 549
+    .line 550
+    .line 551
+    .line 552
+    .line 553
+    .line 554
+    .line 555
+    .line 556
+    .line 557
+    .line 558
+    .line 559
+    .line 560
+    .line 561
+    .line 562
+    .line 563
+    .line 564
 .end method
 
 .method public static synthetic g(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
@@ -4427,11 +4262,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method private synthetic lambda$execute$3(Lcom/tekartik/sqflite/operation/Operation;)V
@@ -4611,6 +4441,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private synthetic lambda$insert$4(Lcom/tekartik/sqflite/operation/Operation;)V
@@ -4644,6 +4476,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private synthetic lambda$query$0(Lcom/tekartik/sqflite/operation/Operation;)V
@@ -4677,6 +4511,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private synthetic lambda$queryCursorNext$2(Lcom/tekartik/sqflite/operation/Operation;)V
@@ -4710,6 +4546,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private synthetic lambda$update$5(Lcom/tekartik/sqflite/operation/Operation;)V
@@ -4743,6 +4581,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private runQueuedOperations()V
@@ -4869,6 +4709,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private wrapSqlOperationHandler(Lcom/tekartik/sqflite/operation/Operation;Ljava/lang/Runnable;)V
@@ -4969,11 +4810,11 @@
 
     .line 44
     .line 45
-    new-instance p2, Lcom/tekartik/sqflite/c;
+    new-instance p2, Lcom/tekartik/sqflite/e;
 
     .line 46
     .line 47
-    invoke-direct {p2, p0}, Lcom/tekartik/sqflite/c;-><init>(Lcom/tekartik/sqflite/Database;)V
+    invoke-direct {p2, p0}, Lcom/tekartik/sqflite/e;-><init>(Lcom/tekartik/sqflite/Database;)V
 
     .line 48
     .line 49
@@ -5007,205 +4848,6 @@
     .line 63
     .line 64
     return-void
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-    .line 251
-    .line 252
-    .line 253
-    .line 254
-    .line 255
-    .line 256
-    .line 257
-    .line 258
-    .line 259
-    .line 260
-    .line 261
-    .line 262
-    .line 263
 .end method
 
 
@@ -5747,6 +5389,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public close()V
@@ -5888,6 +5560,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public enableWriteAheadLogging()Z
@@ -6018,6 +5691,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public declared-synchronized enterOrLeaveInTransaction(Ljava/lang/Boolean;)V
@@ -6161,6 +5835,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public execute(Lcom/tekartik/sqflite/operation/Operation;)V
@@ -6171,11 +5847,11 @@
     .end param
 
     .line 1
-    new-instance v0, Lcom/tekartik/sqflite/f;
+    new-instance v0, Lcom/tekartik/sqflite/h;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Lcom/tekartik/sqflite/f;-><init>(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
+    invoke-direct {v0, p0, p1}, Lcom/tekartik/sqflite/h;-><init>(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
 
     .line 4
     .line 5
@@ -6202,6 +5878,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
@@ -6230,6 +5908,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getThreadLogPrefix()Ljava/lang/String;
@@ -6342,6 +6022,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getThreadLogTag()Ljava/lang/String;
@@ -6472,6 +6153,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
@@ -6500,6 +6182,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public handleException(Ljava/lang/Exception;Lcom/tekartik/sqflite/operation/Operation;)V
@@ -6626,216 +6310,17 @@
     .line 62
     .line 63
     .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-    .line 251
-    .line 252
-    .line 253
-    .line 254
-    .line 255
-    .line 256
-    .line 257
-    .line 258
-    .line 259
-    .line 260
-    .line 261
-    .line 262
-    .line 263
 .end method
 
 .method public insert(Lcom/tekartik/sqflite/operation/Operation;)V
     .locals 1
 
     .line 1
-    new-instance v0, Lcom/tekartik/sqflite/e;
+    new-instance v0, Lcom/tekartik/sqflite/g;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Lcom/tekartik/sqflite/e;-><init>(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
+    invoke-direct {v0, p0, p1}, Lcom/tekartik/sqflite/g;-><init>(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
 
     .line 4
     .line 5
@@ -6862,6 +6347,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized isInTransaction()Z
@@ -6917,6 +6404,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public open()V
@@ -7086,6 +6575,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public openReadOnly()V
@@ -7128,91 +6618,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public query(Lcom/tekartik/sqflite/operation/Operation;)V
-    .locals 1
-    .param p1    # Lcom/tekartik/sqflite/operation/Operation;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    .line 1
-    new-instance v0, Lcom/tekartik/sqflite/b;
-
-    .line 2
-    .line 3
-    invoke-direct {v0, p0, p1}, Lcom/tekartik/sqflite/b;-><init>(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
-
-    .line 4
-    .line 5
-    .line 6
-    invoke-direct {p0, p1, v0}, Lcom/tekartik/sqflite/Database;->wrapSqlOperationHandler(Lcom/tekartik/sqflite/operation/Operation;Ljava/lang/Runnable;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public queryCursorNext(Lcom/tekartik/sqflite/operation/Operation;)V
-    .locals 1
-    .param p1    # Lcom/tekartik/sqflite/operation/Operation;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    .line 1
-    new-instance v0, Lcom/tekartik/sqflite/a;
-
-    .line 2
-    .line 3
-    invoke-direct {v0, p0, p1}, Lcom/tekartik/sqflite/a;-><init>(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
-
-    .line 4
-    .line 5
-    .line 6
-    invoke-direct {p0, p1, v0}, Lcom/tekartik/sqflite/Database;->wrapSqlOperationHandler(Lcom/tekartik/sqflite/operation/Operation;Ljava/lang/Runnable;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public update(Lcom/tekartik/sqflite/operation/Operation;)V
     .locals 1
     .param p1    # Lcom/tekartik/sqflite/operation/Operation;
         .annotation build Landroidx/annotation/NonNull;
@@ -7251,4 +6661,92 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
+.end method
+
+.method public queryCursorNext(Lcom/tekartik/sqflite/operation/Operation;)V
+    .locals 1
+    .param p1    # Lcom/tekartik/sqflite/operation/Operation;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    .line 1
+    new-instance v0, Lcom/tekartik/sqflite/c;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0, p1}, Lcom/tekartik/sqflite/c;-><init>(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-direct {p0, p1, v0}, Lcom/tekartik/sqflite/Database;->wrapSqlOperationHandler(Lcom/tekartik/sqflite/operation/Operation;Ljava/lang/Runnable;)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+.end method
+
+.method public update(Lcom/tekartik/sqflite/operation/Operation;)V
+    .locals 1
+    .param p1    # Lcom/tekartik/sqflite/operation/Operation;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    .line 1
+    new-instance v0, Lcom/tekartik/sqflite/f;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0, p1}, Lcom/tekartik/sqflite/f;-><init>(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-direct {p0, p1, v0}, Lcom/tekartik/sqflite/Database;->wrapSqlOperationHandler(Lcom/tekartik/sqflite/operation/Operation;Ljava/lang/Runnable;)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
 .end method

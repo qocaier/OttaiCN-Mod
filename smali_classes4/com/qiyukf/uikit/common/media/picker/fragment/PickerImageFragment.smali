@@ -73,6 +73,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private findViews()V
@@ -218,6 +220,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private proceedExtra()V
@@ -354,6 +357,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private updateGridViewColumns()V
@@ -403,6 +407,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -442,6 +448,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onAttach(Landroid/app/Activity;)V
@@ -484,6 +492,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -534,6 +544,8 @@
     return-void
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
@@ -673,11 +685,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
@@ -949,6 +956,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public resetFragment(Ljava/util/List;I)V
@@ -1311,6 +1341,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public updateSelectPhotos(Ljava/util/List;)V
@@ -1450,6 +1510,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public updateSelectedForAdapter(I)V
@@ -1488,4 +1550,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -14,9 +14,6 @@
 
 # static fields
 .field public static final Companion:Landroidx/activity/BackEventCompat$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final EDGE_LEFT:I = 0x0
 
@@ -41,7 +38,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/activity/BackEventCompat$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/activity/BackEventCompat$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/activity/BackEventCompat;->Companion:Landroidx/activity/BackEventCompat$Companion;
 
@@ -79,17 +76,13 @@
 
 .method public constructor <init>(Landroid/window/BackEvent;)V
     .locals 4
-    .param p1    # Landroid/window/BackEvent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x22
     .end annotation
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     sget-object v0, Landroidx/activity/Api34Impl;->INSTANCE:Landroidx/activity/Api34Impl;
@@ -147,6 +140,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getSwipeEdge()I
@@ -175,6 +169,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getTouchX()F
@@ -203,6 +198,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getTouchY()F
@@ -231,15 +227,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final toBackEvent()Landroid/window/BackEvent;
     .locals 5
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x22
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -356,12 +350,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -492,4 +486,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

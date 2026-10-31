@@ -6,10 +6,6 @@
 .implements Landroidx/sqlite/db/SupportSQLiteOpenHelper$Factory;
 
 
-# static fields
-.field public static final e:I = -0x1
-
-
 # instance fields
 .field public final a:[B
 
@@ -70,12 +66,6 @@
 # virtual methods
 .method public create(Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration;)Landroidx/sqlite/db/SupportSQLiteOpenHelper;
     .locals 6
-    .param p1    # Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     iget v5, p0, Lnet/zetetic/database/sqlcipher/SupportOpenHelperFactory;->d:I
@@ -166,23 +156,4 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method

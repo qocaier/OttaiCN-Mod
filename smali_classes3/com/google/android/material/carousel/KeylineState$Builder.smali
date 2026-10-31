@@ -93,7 +93,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static calculateKeylineLocationForItemPosition(FFII)F
@@ -127,9 +126,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
     const/4 v0, 0x0
 
     .line 1
@@ -149,9 +145,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     const/4 v0, 0x0
@@ -337,9 +330,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
     const/4 v5, 0x0
 
     move-object v0, p0
@@ -369,9 +359,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     if-lez p4, :cond_1
@@ -591,13 +578,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

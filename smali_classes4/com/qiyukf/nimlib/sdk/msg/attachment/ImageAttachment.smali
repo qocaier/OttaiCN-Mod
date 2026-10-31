@@ -62,6 +62,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getThumbUrl()Ljava/lang/String;
@@ -96,6 +98,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getWidth()I
@@ -124,6 +128,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isHdImage()Z
@@ -179,6 +185,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public save(Lorg/json/JSONObject;)V
@@ -230,6 +238,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setHeight(I)V
@@ -263,6 +273,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setWidth(I)V
@@ -296,6 +308,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public storageType()Lcom/qiyukf/fr;
@@ -324,4 +338,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

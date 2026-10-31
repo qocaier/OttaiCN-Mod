@@ -334,6 +334,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private applyAspectRatioStrategy(Ljava/util/List;Landroidx/camera/core/resolutionselector/AspectRatioStrategy;)Ljava/util/LinkedHashMap;
@@ -797,6 +800,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private applyHighResolutionSettings(Ljava/util/List;Landroidx/camera/core/resolutionselector/ResolutionSelector;I)Ljava/util/List;
@@ -971,6 +977,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static applyMaxResolutionRestriction(Ljava/util/LinkedHashMap;Landroid/util/Size;)V
@@ -1301,6 +1310,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private applyResolutionFilter(Ljava/util/List;Landroidx/camera/core/resolutionselector/ResolutionFilter;I)Ljava/util/List;
@@ -1494,6 +1506,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static applyResolutionStrategy(Ljava/util/LinkedHashMap;Landroidx/camera/core/resolutionselector/ResolutionStrategy;)V
@@ -1937,6 +1952,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private calculateFullFovRatioFromActiveArraySize(Landroid/util/Size;)Landroid/util/Rational;
@@ -2115,6 +2133,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private getCustomizedSupportedResolutionsFromConfig(ILandroidx/camera/core/impl/ImageOutputConfig;)Ljava/util/List;
@@ -2401,6 +2420,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getResolutionListGroupingAspectRatioKeys(Ljava/util/List;)Ljava/util/List;
@@ -2582,6 +2602,7 @@
     .line 78
     :cond_3
     return-object v0
+    .line 79
 .end method
 
 .method public static getTargetAspectRatioRationalValue(IZ)Landroid/util/Rational;
@@ -2880,6 +2901,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static groupSizesByAspectRatio(Ljava/util/List;)Ljava/util/Map;
@@ -3231,6 +3255,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private sortSupportedOutputSizesByResolutionSelector(Landroidx/camera/core/impl/UseCaseConfig;)Ljava/util/List;
@@ -3614,6 +3643,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static sortSupportedSizesByFallbackRuleClosestHigherThenLower(Ljava/util/List;Landroid/util/Size;Z)V
@@ -3809,6 +3843,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static sortSupportedSizesByFallbackRuleClosestLowerThenHigher(Ljava/util/List;Landroid/util/Size;Z)V
@@ -4002,6 +4039,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static sortSupportedSizesByFallbackRuleNone(Ljava/util/List;Landroid/util/Size;)V
@@ -4226,4 +4266,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

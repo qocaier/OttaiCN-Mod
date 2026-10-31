@@ -14,14 +14,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "context"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
@@ -49,16 +41,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs"
-        }
-    .end annotation
 
     .line 6
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -86,18 +68,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs",
-            "defStyleAttr"
-        }
-    .end annotation
 
     .line 11
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -125,20 +95,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs",
-            "defStyleAttr",
-            "defStyleRes"
-        }
-    .end annotation
 
     .line 16
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -166,14 +122,6 @@
 
 .method private init(Landroid/util/AttributeSet;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "attrs"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/widget/Placeholder;->mEmptyVisibility:I
@@ -324,6 +272,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -354,6 +303,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEmptyVisibility()I
@@ -382,18 +332,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "canvas"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroid/view/View;->isInEditMode()Z
@@ -745,18 +688,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setContentId(I)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/widget/Placeholder;->mContentId:I
@@ -891,18 +831,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setEmptyVisibility(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "visibility"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/widget/Placeholder;->mEmptyVisibility:I
@@ -936,14 +869,6 @@
 
 .method public updatePostMeasure(Landroidx/constraintlayout/widget/ConstraintLayout;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "container"
-        }
-    .end annotation
 
     .line 1
     iget-object p1, p0, Landroidx/constraintlayout/widget/Placeholder;->mContent:Landroid/view/View;
@@ -1097,18 +1022,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public updatePreLayout(Landroidx/constraintlayout/widget/ConstraintLayout;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "container"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/widget/Placeholder;->mContentId:I
@@ -1235,4 +1153,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

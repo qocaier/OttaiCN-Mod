@@ -201,6 +201,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic b(Landroidx/camera/core/impl/CaptureConfig;)V
@@ -317,6 +318,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -337,11 +339,11 @@
 
     .line 6
     .line 7
-    new-instance v1, Landroidx/camera/camera2/internal/k1;
+    new-instance v1, Landroidx/camera/camera2/internal/b2;
 
     .line 8
     .line 9
-    invoke-direct {v1, v0}, Landroidx/camera/camera2/internal/k1;-><init>(Landroidx/camera/core/impl/CaptureConfig;)V
+    invoke-direct {v1, v0}, Landroidx/camera/camera2/internal/b2;-><init>(Landroidx/camera/core/impl/CaptureConfig;)V
 
     .line 10
     .line 11
@@ -380,11 +382,11 @@
 
     .line 6
     .line 7
-    new-instance v1, Landroidx/camera/camera2/internal/j1;
+    new-instance v1, Landroidx/camera/camera2/internal/a2;
 
     .line 8
     .line 9
-    invoke-direct {v1, v0}, Landroidx/camera/camera2/internal/j1;-><init>(Landroidx/camera/core/impl/CaptureConfig;)V
+    invoke-direct {v1, v0}, Landroidx/camera/camera2/internal/a2;-><init>(Landroidx/camera/core/impl/CaptureConfig;)V
 
     .line 10
     .line 11

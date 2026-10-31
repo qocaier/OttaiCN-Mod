@@ -1,162 +1,42 @@
-.class public interface abstract Lkotlinx/coroutines/selects/a;
+.class public final synthetic Lkotlinx/coroutines/selects/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/lang/Runnable;
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lkotlinx/coroutines/selects/a$a;
-    }
-.end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<R:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
+# instance fields
+.field public final synthetic a:Lkotlinx/coroutines/selects/j;
+
+.field public final synthetic b:Lkotlinx/coroutines/selects/OnTimeout;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lkotlinx/coroutines/selects/j;Lkotlinx/coroutines/selects/OnTimeout;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lkotlinx/coroutines/selects/a;->a:Lkotlinx/coroutines/selects/j;
+
+    iput-object p2, p0, Lkotlinx/coroutines/selects/a;->b:Lkotlinx/coroutines/selects/OnTimeout;
+
+    return-void
+.end method
 
 
 # virtual methods
-.method public abstract a(Lpn/g;Ljm/p;)V
-    .param p1    # Lpn/g;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<P:",
-            "Ljava/lang/Object;",
-            "Q:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lpn/g<",
-            "-TP;+TQ;>;",
-            "Ljm/p<",
-            "-TQ;-",
-            "Lul/c<",
-            "-TR;>;+",
-            "Ljava/lang/Object;",
-            ">;)V"
-        }
-    .end annotation
-.end method
+.method public final run()V
+    .locals 2
 
-.method public abstract c(Lpn/e;Ljm/p;)V
-    .param p1    # Lpn/e;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<Q:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lpn/e<",
-            "+TQ;>;",
-            "Ljm/p<",
-            "-TQ;-",
-            "Lul/c<",
-            "-TR;>;+",
-            "Ljava/lang/Object;",
-            ">;)V"
-        }
-    .end annotation
-.end method
+    .line 1
+    iget-object v0, p0, Lkotlinx/coroutines/selects/a;->a:Lkotlinx/coroutines/selects/j;
 
-.method public abstract d(Lpn/c;Ljm/l;)V
-    .param p1    # Lpn/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lpn/c;",
-            "Ljm/l<",
-            "-",
-            "Lul/c<",
-            "-TR;>;+",
-            "Ljava/lang/Object;",
-            ">;)V"
-        }
-    .end annotation
-.end method
+    iget-object v1, p0, Lkotlinx/coroutines/selects/a;->b:Lkotlinx/coroutines/selects/OnTimeout;
 
-.method public abstract g(JLjm/l;)V
-    .param p3    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lam/i;
-    .end annotation
+    invoke-static {v0, v1}, Lkotlinx/coroutines/selects/OnTimeout;->a(Lkotlinx/coroutines/selects/j;Lkotlinx/coroutines/selects/OnTimeout;)V
 
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(J",
-            "Ljm/l<",
-            "-",
-            "Lul/c<",
-            "-TR;>;+",
-            "Ljava/lang/Object;",
-            ">;)V"
-        }
-    .end annotation
-
-    .annotation build Lfn/k1;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "Replaced with the same extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "onTimeout"
-            imports = {
-                "kotlinx.coroutines.selects.onTimeout"
-            }
-        .end subannotation
-    .end annotation
-.end method
-
-.method public abstract j(Lpn/g;Ljava/lang/Object;Ljm/p;)V
-    .param p1    # Lpn/g;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<P:",
-            "Ljava/lang/Object;",
-            "Q:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lpn/g<",
-            "-TP;+TQ;>;TP;",
-            "Ljm/p<",
-            "-TQ;-",
-            "Lul/c<",
-            "-TR;>;+",
-            "Ljava/lang/Object;",
-            ">;)V"
-        }
-    .end annotation
+    return-void
 .end method

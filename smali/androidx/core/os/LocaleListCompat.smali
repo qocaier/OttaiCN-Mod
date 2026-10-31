@@ -55,6 +55,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>(Landroidx/core/os/LocaleListInterface;)V
@@ -524,6 +525,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static forLanguageTags(Ljava/lang/String;)Landroidx/core/os/LocaleListCompat;
@@ -661,6 +667,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getAdjustedDefault()Landroidx/core/os/LocaleListCompat;
@@ -698,6 +705,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getDefault()Landroidx/core/os/LocaleListCompat;
@@ -735,6 +743,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getEmptyLocaleList()Landroidx/core/os/LocaleListCompat;
@@ -763,6 +772,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static matchesLanguageAndScript(Ljava/util/Locale;Ljava/util/Locale;)Z
@@ -784,7 +794,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Lx0/a;->a(Ljava/util/Locale;Ljava/util/Locale;)Z
+    invoke-static {p0, p1}, Landroidx/core/os/a;->a(Ljava/util/Locale;Ljava/util/Locale;)Z
 
     .line 8
     .line 9
@@ -1036,6 +1046,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public indexOf(Ljava/util/Locale;)I
@@ -1108,6 +1119,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public size()I
@@ -1143,6 +1155,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toLanguageTags()Ljava/lang/String;
@@ -1175,6 +1188,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1207,6 +1221,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public unwrap()Ljava/lang/Object;
@@ -1239,4 +1254,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

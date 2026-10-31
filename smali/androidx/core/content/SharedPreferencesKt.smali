@@ -4,16 +4,8 @@
 
 
 # direct methods
-.method public static final edit(Landroid/content/SharedPreferences;ZLjm/l;)V
+.method public static final edit(Landroid/content/SharedPreferences;ZLq8/l;)V
     .locals 0
-    .param p0    # Landroid/content/SharedPreferences;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "ApplySharedPref"
@@ -25,11 +17,8 @@
             "(",
             "Landroid/content/SharedPreferences;",
             "Z",
-            "Ljm/l<",
-            "-",
-            "Landroid/content/SharedPreferences$Editor;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -42,7 +31,7 @@
     move-result-object p0
 
     .line 5
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -162,9 +151,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static synthetic edit$default(Landroid/content/SharedPreferences;ZLjm/l;ILjava/lang/Object;)V
+.method public static synthetic edit$default(Landroid/content/SharedPreferences;ZLq8/l;ILjava/lang/Object;)V
     .locals 0
 
     .line 1
@@ -188,7 +180,7 @@
     move-result-object p0
 
     .line 10
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12

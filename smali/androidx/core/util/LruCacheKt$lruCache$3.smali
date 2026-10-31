@@ -3,30 +3,17 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/r;
+.implements Lq8/r;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/util/LruCacheKt;->lruCache$default(ILjm/p;Ljm/l;Ljm/r;ILjava/lang/Object;)Landroid/util/LruCache;
+    value = Landroidx/core/util/LruCacheKt;->lruCache$default(ILq8/p;Lq8/l;Lq8/r;ILjava/lang/Object;)Landroid/util/LruCache;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x19
     name = null
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljm/r<",
-        "Ljava/lang/Boolean;",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Object;",
-        "Ljl/e2;",
-        ">;"
-    }
 .end annotation
 
 
@@ -69,22 +56,13 @@
 
     invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/core/util/LruCacheKt$lruCache$3;->invoke(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
 
 .method public final invoke(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(Z",
-            "Ljava/lang/Object;",
-            "Ljava/lang/Object;",
-            "Ljava/lang/Object;",
-            ")V"
-        }
-    .end annotation
 
     .line 1
     return-void

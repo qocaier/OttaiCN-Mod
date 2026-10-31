@@ -61,6 +61,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/webkit/WebViewRenderProcess;)V
@@ -204,7 +205,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Lmq/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+    invoke-static {v0, p0}, Lx9/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -216,11 +217,11 @@
 
     .line 8
     .line 9
-    new-instance v0, Ly1/k0;
+    new-instance v0, Landroidx/webkit/internal/k0;
 
     .line 10
     .line 11
-    invoke-direct {v0, p0}, Ly1/k0;-><init>(Lorg/chromium/support_lib_boundary/WebViewRendererBoundaryInterface;)V
+    invoke-direct {v0, p0}, Landroidx/webkit/internal/k0;-><init>(Lorg/chromium/support_lib_boundary/WebViewRendererBoundaryInterface;)V
 
     .line 12
     .line 13
@@ -279,7 +280,7 @@
     move-result-object v0
 
     .line 15
-    invoke-static {v0}, Ly1/j0;->a(Ljava/lang/Object;)Landroid/webkit/WebViewRenderProcess;
+    invoke-static {v0}, Landroidx/webkit/internal/j0;->a(Ljava/lang/Object;)Landroid/webkit/WebViewRenderProcess;
 
     .line 16
     .line 17
@@ -390,4 +391,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

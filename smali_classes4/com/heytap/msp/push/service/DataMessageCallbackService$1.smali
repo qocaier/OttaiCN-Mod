@@ -41,7 +41,7 @@
 .method public run()V
     .locals 3
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
@@ -51,7 +51,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lsd/b;->o0(Landroid/content/Context;)V
+    invoke-virtual {v0, v1}, Ld5/b;->Q(Landroid/content/Context;)V
 
     iget-object v0, p0, Lcom/heytap/msp/push/service/DataMessageCallbackService$1;->b:Lcom/heytap/msp/push/service/DataMessageCallbackService;
 
@@ -63,7 +63,7 @@
 
     iget-object v2, p0, Lcom/heytap/msp/push/service/DataMessageCallbackService$1;->b:Lcom/heytap/msp/push/service/DataMessageCallbackService;
 
-    invoke-static {v0, v1, v2}, Lsd/e;->a(Landroid/content/Context;Landroid/content/Intent;Lcom/heytap/msp/push/callback/IDataMessageCallBackService;)V
+    invoke-static {v0, v1, v2}, Ld5/c;->a(Landroid/content/Context;Landroid/content/Intent;Lcom/heytap/msp/push/callback/IDataMessageCallBackService;)V
 
     return-void
 .end method

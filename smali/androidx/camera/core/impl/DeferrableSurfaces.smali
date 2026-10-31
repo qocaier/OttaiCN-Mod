@@ -36,13 +36,14 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Ljava/util/List;Ljava/util/concurrent/ScheduledExecutorService;Ljava/util/concurrent/Executor;JZLandroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
     .locals 6
 
     .line 1
-    invoke-static {p0}, Landroidx/camera/core/impl/utils/futures/Futures;->successfulAsList(Ljava/util/Collection;)Lub/u0;
+    invoke-static {p0}, Landroidx/camera/core/impl/utils/futures/Futures;->successfulAsList(Ljava/util/Collection;)Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -50,7 +51,7 @@
     move-result-object v2
 
     .line 5
-    new-instance v0, Lu/o;
+    new-instance v0, Landroidx/camera/core/impl/o;
 
     .line 6
     .line 7
@@ -63,7 +64,7 @@
     move-object v3, p6
 
     .line 10
-    invoke-direct/range {v0 .. v5}, Lu/o;-><init>(Ljava/util/concurrent/Executor;Lub/u0;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;J)V
+    invoke-direct/range {v0 .. v5}, Landroidx/camera/core/impl/o;-><init>(Ljava/util/concurrent/Executor;Lcom/google/common/util/concurrent/t;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;J)V
 
     .line 11
     .line 12
@@ -80,11 +81,11 @@
     move-result-object p0
 
     .line 19
-    new-instance p1, Lu/p;
+    new-instance p1, Landroidx/camera/core/impl/p;
 
     .line 20
     .line 21
-    invoke-direct {p1, v2}, Lu/p;-><init>(Lub/u0;)V
+    invoke-direct {p1, v2}, Landroidx/camera/core/impl/p;-><init>(Lcom/google/common/util/concurrent/t;)V
 
     .line 22
     .line 23
@@ -103,7 +104,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-static {v2, p1, v1}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {v2, p1, v1}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 33
     .line 34
@@ -1086,15 +1087,15 @@
     .line 1008
 .end method
 
-.method public static synthetic b(Ljava/util/concurrent/Executor;Lub/u0;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;J)V
+.method public static synthetic b(Ljava/util/concurrent/Executor;Lcom/google/common/util/concurrent/t;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;J)V
     .locals 1
 
     .line 1
-    new-instance v0, Lu/n;
+    new-instance v0, Landroidx/camera/core/impl/n;
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2, p3, p4}, Lu/n;-><init>(Lub/u0;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;J)V
+    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/camera/core/impl/n;-><init>(Lcom/google/common/util/concurrent/t;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;J)V
 
     .line 4
     .line 5
@@ -1326,9 +1327,15 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static synthetic c(Lub/u0;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;J)V
+.method public static synthetic c(Lcom/google/common/util/concurrent/t;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;J)V
     .locals 3
 
     .line 1
@@ -1476,9 +1483,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static synthetic d(Lub/u0;)V
+.method public static synthetic d(Lcom/google/common/util/concurrent/t;)V
     .locals 1
 
     .line 1
@@ -1733,9 +1743,10 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public static surfaceListWithTimeout(Ljava/util/Collection;ZJLjava/util/concurrent/Executor;Ljava/util/concurrent/ScheduledExecutorService;)Lub/u0;
+.method public static surfaceListWithTimeout(Ljava/util/Collection;ZJLjava/util/concurrent/Executor;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/t;
     .locals 7
     .param p0    # Ljava/util/Collection;
         .annotation build Landroidx/annotation/NonNull;
@@ -1761,10 +1772,7 @@
             "Ljava/util/concurrent/Executor;",
             "Ljava/util/concurrent/ScheduledExecutorService;",
             ")",
-            "Lub/u0<",
-            "Ljava/util/List<",
-            "Landroid/view/Surface;",
-            ">;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1811,7 +1819,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {v0}, Landroidx/camera/core/impl/DeferrableSurface;->getSurface()Lub/u0;
+    invoke-virtual {v0}, Landroidx/camera/core/impl/DeferrableSurface;->getSurface()Lcom/google/common/util/concurrent/t;
 
     .line 23
     .line 24
@@ -1819,7 +1827,7 @@
     move-result-object v0
 
     .line 26
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 27
     .line 28
@@ -1836,7 +1844,7 @@
 
     .line 34
     :cond_0
-    new-instance v0, Lu/m;
+    new-instance v0, Landroidx/camera/core/impl/m;
 
     .line 35
     .line 36
@@ -1852,12 +1860,12 @@
     move-object v2, p5
 
     .line 40
-    invoke-direct/range {v0 .. v6}, Lu/m;-><init>(Ljava/util/List;Ljava/util/concurrent/ScheduledExecutorService;Ljava/util/concurrent/Executor;JZ)V
+    invoke-direct/range {v0 .. v6}, Landroidx/camera/core/impl/m;-><init>(Ljava/util/List;Ljava/util/concurrent/ScheduledExecutorService;Ljava/util/concurrent/Executor;JZ)V
 
     .line 41
     .line 42
     .line 43
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 44
     .line 45

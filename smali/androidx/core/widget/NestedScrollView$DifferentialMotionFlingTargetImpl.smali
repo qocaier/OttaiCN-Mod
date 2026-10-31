@@ -24,14 +24,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/core/widget/NestedScrollView;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/core/widget/NestedScrollView$DifferentialMotionFlingTargetImpl;->this$0:Landroidx/core/widget/NestedScrollView;
@@ -99,6 +91,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public startDifferentialMotionFling(F)Z
@@ -185,4 +178,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

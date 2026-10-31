@@ -18,14 +18,8 @@
 .field static final synthetic $$INSTANCE:Landroidx/window/area/WindowAreaController$Companion;
 
 .field private static final TAG:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private static decorator:Landroidx/window/area/WindowAreaControllerDecorator;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -50,7 +44,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0}, Lkm/o0;->d(Ljava/lang/Class;)Lum/d;
+    invoke-static {v0}, Lkotlin/jvm/internal/m;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     .line 11
     .line 12
@@ -58,7 +52,7 @@
     move-result-object v0
 
     .line 14
-    invoke-interface {v0}, Lum/d;->t()Ljava/lang/String;
+    invoke-interface {v0}, Lkotlin/reflect/c;->d()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -139,6 +133,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -167,21 +163,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final getOrCreate()Landroidx/window/area/WindowAreaController;
     .locals 6
-    .annotation build Lim/j;
-        name = "getOrCreate"
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -309,7 +297,7 @@
 
     .line 59
     .line 60
-    invoke-static {v3, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 61
     .line 62
@@ -322,7 +310,7 @@
 
     .line 66
     .line 67
-    invoke-static {v4, v5}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 68
     .line 69
@@ -344,7 +332,7 @@
 
     .line 77
     .line 78
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 79
     .line 80
@@ -667,21 +655,66 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public final overrideDecorator(Landroidx/window/area/WindowAreaControllerDecorator;)V
     .locals 1
-    .param p1    # Landroidx/window/area/WindowAreaControllerDecorator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
     .end annotation
 
     .line 1
@@ -689,7 +722,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -726,9 +759,6 @@
         }
     .end annotation
 
-    .annotation runtime Lim/o;
-    .end annotation
-
     .line 1
     sget-object v0, Landroidx/window/area/EmptyDecorator;->INSTANCE:Landroidx/window/area/EmptyDecorator;
 
@@ -754,4 +784,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

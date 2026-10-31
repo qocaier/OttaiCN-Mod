@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/fluttercandies/photo_manager/core/utils/IDBUtils;->L(Landroid/content/ContentResolver;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    value = Lcom/fluttercandies/photo_manager/core/utils/IDBUtils;->z(Landroid/content/ContentResolver;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/l<",
-        "Ljava/lang/Object;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -37,7 +34,7 @@
 
     const/4 v1, 0x1
 
-    const-class v3, Lj8/a;
+    const-class v3, Lc2/a;
 
     const-string v4, "info"
 
@@ -58,7 +55,7 @@
     .line 1
     invoke-virtual {p0, p1}, Lcom/fluttercandies/photo_manager/core/utils/IDBUtils$logQuery$1;->invoke(Ljava/lang/Object;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
@@ -67,7 +64,7 @@
     .locals 0
 
     .line 2
-    invoke-static {p1}, Lj8/a;->d(Ljava/lang/Object;)V
+    invoke-static {p1}, Lc2/a;->d(Ljava/lang/Object;)V
 
     return-void
 .end method

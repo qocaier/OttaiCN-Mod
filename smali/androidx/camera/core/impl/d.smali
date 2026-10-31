@@ -3,28 +3,36 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/camera/core/impl/UseCaseAttachState$AttachStateFilter;
+.implements Landroidx/camera/core/CameraFilter;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/core/impl/CameraInfoInternal;
 
 
 # direct methods
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Landroidx/camera/core/impl/CameraInfoInternal;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/camera/core/impl/d;->a:Landroidx/camera/core/impl/CameraInfoInternal;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final filter(Landroidx/camera/core/impl/UseCaseAttachState$UseCaseAttachInfo;)Z
-    .locals 0
+.method public final filter(Ljava/util/List;)Ljava/util/List;
+    .locals 1
 
     .line 1
-    invoke-static {p1}, Landroidx/camera/core/impl/UseCaseAttachState;->a(Landroidx/camera/core/impl/UseCaseAttachState$UseCaseAttachInfo;)Z
+    iget-object v0, p0, Landroidx/camera/core/impl/d;->a:Landroidx/camera/core/impl/CameraInfoInternal;
 
-    move-result p1
+    invoke-static {v0, p1}, Landroidx/camera/core/impl/CameraInfoInternal;->a(Landroidx/camera/core/impl/CameraInfoInternal;Ljava/util/List;)Ljava/util/List;
 
-    return p1
+    move-result-object p1
+
+    return-object p1
 .end method

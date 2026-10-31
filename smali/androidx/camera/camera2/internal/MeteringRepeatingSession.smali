@@ -225,6 +225,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic a(Landroidx/camera/camera2/internal/MeteringRepeatingSession;Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/SessionConfig$SessionError;)V
@@ -357,6 +360,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic b(Landroid/util/Size;Landroid/util/Size;)I
@@ -534,11 +540,11 @@
     move-result-object v1
 
     .line 37
-    new-instance v2, Landroidx/camera/camera2/internal/d1;
+    new-instance v2, Landroidx/camera/camera2/internal/u1;
 
     .line 38
     .line 39
-    invoke-direct {v2}, Landroidx/camera/camera2/internal/d1;-><init>()V
+    invoke-direct {v2}, Landroidx/camera/camera2/internal/u1;-><init>()V
 
     .line 40
     .line 41
@@ -813,6 +819,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -858,6 +867,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public createSessionConfig()Landroidx/camera/core/impl/SessionConfig;
@@ -953,7 +963,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {v3}, Landroidx/camera/core/impl/DeferrableSurface;->getTerminationFuture()Lub/u0;
+    invoke-virtual {v3}, Landroidx/camera/core/impl/DeferrableSurface;->getTerminationFuture()Lcom/google/common/util/concurrent/t;
 
     .line 47
     .line 48
@@ -978,7 +988,7 @@
     move-result-object v0
 
     .line 59
-    invoke-static {v3, v4, v0}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {v3, v4, v0}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 60
     .line 61
@@ -992,11 +1002,11 @@
     .line 65
     .line 66
     .line 67
-    new-instance v0, Landroidx/camera/camera2/internal/c1;
+    new-instance v0, Landroidx/camera/camera2/internal/t1;
 
     .line 68
     .line 69
-    invoke-direct {v0, p0}, Landroidx/camera/camera2/internal/c1;-><init>(Landroidx/camera/camera2/internal/MeteringRepeatingSession;)V
+    invoke-direct {v0, p0}, Landroidx/camera/camera2/internal/t1;-><init>(Landroidx/camera/camera2/internal/MeteringRepeatingSession;)V
 
     .line 70
     .line 71
@@ -1020,6 +1030,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -1050,6 +1062,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSessionConfig()Landroidx/camera/core/impl/SessionConfig;
@@ -1080,6 +1093,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUseCaseConfig()Landroidx/camera/core/impl/UseCaseConfig;
@@ -1118,4 +1132,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

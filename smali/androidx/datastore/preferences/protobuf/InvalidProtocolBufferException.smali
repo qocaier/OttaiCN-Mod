@@ -24,14 +24,6 @@
 # direct methods
 .method public constructor <init>(Ljava/io/IOException;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "e"
-        }
-    .end annotation
 
     .line 7
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
@@ -50,14 +42,6 @@
 
 .method public constructor <init>(Ljava/lang/Exception;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "e"
-        }
-    .end annotation
 
     .line 3
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
@@ -76,14 +60,6 @@
 
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "description"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
@@ -98,16 +74,6 @@
 
 .method public constructor <init>(Ljava/lang/String;Ljava/io/IOException;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "description",
-            "e"
-        }
-    .end annotation
 
     .line 9
     invoke-direct {p0, p1, p2}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -122,16 +88,6 @@
 
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/Exception;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "description",
-            "e"
-        }
-    .end annotation
 
     .line 5
     invoke-direct {p0, p1, p2}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -174,6 +130,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static invalidTag()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -206,6 +163,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -238,6 +196,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
@@ -270,6 +229,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -302,6 +262,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -334,6 +295,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static parseFailure()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -366,6 +328,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static recursionLimitExceeded()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -398,6 +361,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static sizeLimitExceeded()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -430,6 +394,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -462,6 +427,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -492,6 +458,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUnfinishedMessage()Landroidx/datastore/preferences/protobuf/MessageLite;
@@ -520,6 +487,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setThrownFromInputStream()V
@@ -550,18 +518,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setUnfinishedMessage(Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "unfinishedMessage"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->unfinishedMessage:Landroidx/datastore/preferences/protobuf/MessageLite;
@@ -634,4 +595,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

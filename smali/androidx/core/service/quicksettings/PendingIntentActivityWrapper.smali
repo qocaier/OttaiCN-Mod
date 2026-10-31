@@ -200,6 +200,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -230,6 +232,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFlags()I
@@ -258,6 +261,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntent()Landroid/content/Intent;
@@ -286,6 +290,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOptions()Landroid/os/Bundle;
@@ -314,6 +319,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPendingIntent()Landroid/app/PendingIntent;
@@ -342,6 +348,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRequestCode()I
@@ -370,6 +377,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isMutable()Z
@@ -398,4 +406,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

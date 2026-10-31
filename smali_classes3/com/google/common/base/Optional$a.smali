@@ -16,14 +16,6 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljava/lang/Iterable<",
-        "TT;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final synthetic a:Ljava/lang/Iterable;
@@ -32,14 +24,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/Iterable;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1010
-        }
-        names = {
-            "val$optionals"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/google/common/base/Optional$a;->a:Ljava/lang/Iterable;
@@ -70,20 +54,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public iterator()Ljava/util/Iterator;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Iterator<",
-            "TT;>;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Lcom/google/common/base/Optional$a$a;
@@ -112,5 +88,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

@@ -47,7 +47,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lc1/y2;->a(Landroid/view/WindowInsetsController;)I
+    invoke-static {v0}, Landroidx/core/view/c3;->a(Landroid/view/WindowInsetsController;)I
 
     .line 4
     .line 5
@@ -80,6 +80,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isAppearanceLightStatusBars()Z
@@ -90,7 +91,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lc1/y2;->a(Landroid/view/WindowInsetsController;)I
+    invoke-static {v0}, Landroidx/core/view/c3;->a(Landroid/view/WindowInsetsController;)I
 
     .line 4
     .line 5
@@ -123,4 +124,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

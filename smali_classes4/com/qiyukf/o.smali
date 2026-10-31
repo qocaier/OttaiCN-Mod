@@ -184,6 +184,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -214,6 +216,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public hashCode()I
@@ -250,6 +254,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -285,25 +291,25 @@
     .line 14
     .line 15
     .line 16
-    const-string v1, "}"
+    const-string/jumbo v1, "}"
 
     .line 17
     .line 18
+    .line 19
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 19
     .line 20
     .line 21
+    .line 22
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 22
     .line 23
     .line 24
+    .line 25
     move-result-object v0
 
-    .line 25
-    return-object v0
     .line 26
+    return-object v0
     .line 27
     .line 28
     .line 29
@@ -362,4 +368,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

@@ -56,6 +56,8 @@
     .line 19
     .line 20
     return-void
+    .line 21
+    .line 22
 .end method
 
 .method private readFully(Ljava/io/InputStream;[BI)V
@@ -209,11 +211,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method private resetBytes([B)V
@@ -261,6 +258,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 

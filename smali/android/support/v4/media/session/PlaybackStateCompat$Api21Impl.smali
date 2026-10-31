@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static addCustomAction(Landroid/media/session/PlaybackState$Builder;Landroid/media/session/PlaybackState$CustomAction;)V
@@ -161,6 +162,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static createCustomActionBuilder(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/media/session/PlaybackState$CustomAction$Builder;
@@ -286,6 +288,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static getAction(Landroid/media/session/PlaybackState$CustomAction;)Ljava/lang/String;

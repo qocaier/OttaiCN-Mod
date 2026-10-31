@@ -13,9 +13,6 @@
 
 # static fields
 .field public static final a:Lokhttp3/internal/publicsuffix/d$a;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -35,11 +32,7 @@
 .end method
 
 .method public abstract b()Lokio/ByteString;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract getBytes()Lokio/ByteString;
-    .annotation build Lsq/k;
-    .end annotation
 .end method

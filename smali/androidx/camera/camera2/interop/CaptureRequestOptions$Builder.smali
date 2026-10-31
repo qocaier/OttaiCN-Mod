@@ -67,6 +67,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/camera/camera2/interop/CaptureRequestOptions$Builder;Landroidx/camera/core/impl/Config;Landroidx/camera/core/impl/Config$Option;)Z
@@ -202,6 +203,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static from(Landroidx/camera/core/impl/Config;)Landroidx/camera/camera2/interop/CaptureRequestOptions$Builder;
@@ -229,11 +233,11 @@
     .line 4
     .line 5
     .line 6
-    new-instance v1, Lr/i;
+    new-instance v1, Landroidx/camera/camera2/interop/i;
 
     .line 7
     .line 8
-    invoke-direct {v1, v0, p0}, Lr/i;-><init>(Landroidx/camera/camera2/interop/CaptureRequestOptions$Builder;Landroidx/camera/core/impl/Config;)V
+    invoke-direct {v1, v0, p0}, Landroidx/camera/camera2/interop/i;-><init>(Landroidx/camera/camera2/interop/CaptureRequestOptions$Builder;Landroidx/camera/core/impl/Config;)V
 
     .line 9
     .line 10
@@ -383,6 +387,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setCaptureRequestOption(Landroid/hardware/camera2/CaptureRequest$Key;Ljava/lang/Object;)Landroidx/camera/camera2/interop/CaptureRequestOptions$Builder;

@@ -11,9 +11,6 @@
     value = 0x15
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -42,6 +39,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static create(FFFF)Landroidx/camera/core/ZoomState;

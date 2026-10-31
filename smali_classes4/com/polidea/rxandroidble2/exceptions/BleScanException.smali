@@ -3,14 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/polidea/rxandroidble2/exceptions/BleScanException$a;
-    }
-.end annotation
-
-
 # static fields
 .field public static final BLUETOOTH_CANNOT_START:I = 0x0
 
@@ -50,7 +42,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-static {p1, v0}, Lcom/polidea/rxandroidble2/exceptions/BleScanException;->createMessage(ILjava/util/Date;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/polidea/rxandroidble2/exceptions/BleScanException;->a(ILjava/util/Date;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -71,7 +63,7 @@
     const/4 v0, 0x0
 
     .line 7
-    invoke-static {p1, v0}, Lcom/polidea/rxandroidble2/exceptions/BleScanException;->createMessage(ILjava/util/Date;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/polidea/rxandroidble2/exceptions/BleScanException;->a(ILjava/util/Date;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -94,7 +86,7 @@
     .end param
 
     .line 4
-    invoke-static {p1, p2}, Lcom/polidea/rxandroidble2/exceptions/BleScanException;->createMessage(ILjava/util/Date;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/polidea/rxandroidble2/exceptions/BleScanException;->a(ILjava/util/Date;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -109,7 +101,7 @@
     return-void
 .end method
 
-.method private static createMessage(ILjava/util/Date;)Ljava/lang/String;
+.method public static a(ILjava/util/Date;)Ljava/lang/String;
     .locals 2
 
     .line 1
@@ -122,7 +114,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {p0}, Lcom/polidea/rxandroidble2/exceptions/BleScanException;->reasonDescription(I)Ljava/lang/String;
+    invoke-static {p0}, Lcom/polidea/rxandroidble2/exceptions/BleScanException;->b(I)Ljava/lang/String;
 
     .line 7
     .line 8
@@ -158,7 +150,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {p1}, Lcom/polidea/rxandroidble2/exceptions/BleScanException;->retryDateSuggestionIfExists(Ljava/util/Date;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/polidea/rxandroidble2/exceptions/BleScanException;->c(Ljava/util/Date;)Ljava/lang/String;
 
     .line 27
     .line 28
@@ -197,9 +189,19 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
-.method private static reasonDescription(I)Ljava/lang/String;
+.method private static b(I)Ljava/lang/String;
     .locals 1
 
     .line 1
@@ -364,9 +366,11 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method private static retryDateSuggestionIfExists(Ljava/util/Date;)Ljava/lang/String;
+.method public static c(Ljava/util/Date;)Ljava/lang/String;
     .locals 2
 
     .line 1
@@ -416,6 +420,8 @@
     return-object p0
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -446,6 +452,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRetryDateSuggestion()Ljava/util/Date;
@@ -476,4 +484,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

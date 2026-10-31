@@ -3,20 +3,11 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lgb/n;
+.implements Lcom/google/common/base/g;
 .implements Ljava/io/Serializable;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/common/base/Functions;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "SupplierFunction"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<F:",
@@ -25,8 +16,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lgb/n<",
-        "TF;TT;>;",
+        "Lcom/google/common/base/g;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -37,56 +27,39 @@
 
 
 # instance fields
-.field private final supplier:Lgb/b0;
+.field private final supplier:Lcom/google/common/base/s;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lgb/b0<",
-            "TT;>;"
+            "Lcom/google/common/base/s;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lgb/b0;)V
+.method public constructor <init>(Lcom/google/common/base/s;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "supplier"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lgb/b0<",
-            "TT;>;)V"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lgb/b0;
+    check-cast p1, Lcom/google/common/base/s;
 
-    iput-object p1, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lgb/b0;
+    iput-object p1, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lcom/google/common/base/s;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lgb/b0;Lcom/google/common/base/Functions$a;)V
+.method public synthetic constructor <init>(Lcom/google/common/base/s;Lcom/google/common/base/h;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/common/base/Functions$SupplierFunction;-><init>(Lgb/b0;)V
+    invoke-direct {p0, p1}, Lcom/google/common/base/Functions$SupplierFunction;-><init>(Lcom/google/common/base/s;)V
 
     return-void
 .end method
@@ -95,34 +68,18 @@
 # virtual methods
 .method public apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgb/u;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TF;)TT;"
         }
     .end annotation
 
-    .annotation runtime Lgb/u;
-    .end annotation
-
     .line 1
-    iget-object p1, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lgb/b0;
+    iget-object p1, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lcom/google/common/base/s;
 
     .line 2
     .line 3
-    invoke-interface {p1}, Lgb/b0;->get()Ljava/lang/Object;
+    invoke-interface {p1}, Lcom/google/common/base/s;->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -148,23 +105,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "obj"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Lcom/google/common/base/Functions$SupplierFunction;
@@ -179,11 +123,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lgb/b0;
+    iget-object v0, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lcom/google/common/base/s;
 
     .line 8
     .line 9
-    iget-object p1, p1, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lgb/b0;
+    iget-object p1, p1, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lcom/google/common/base/s;
 
     .line 10
     .line 11
@@ -210,14 +154,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public hashCode()I
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lgb/b0;
+    iget-object v0, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lcom/google/common/base/s;
 
     .line 2
     .line 3
@@ -245,7 +188,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -270,7 +212,7 @@
     .line 9
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lgb/b0;
+    iget-object v1, p0, Lcom/google/common/base/Functions$SupplierFunction;->supplier:Lcom/google/common/base/s;
 
     .line 12
     .line 13
@@ -372,13 +314,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

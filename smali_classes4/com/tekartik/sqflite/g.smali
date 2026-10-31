@@ -3,36 +3,40 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroid/database/sqlite/SQLiteDatabase$CursorFactory;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Lcom/tekartik/sqflite/SqlCommand;
+.field public final synthetic a:Lcom/tekartik/sqflite/Database;
+
+.field public final synthetic b:Lcom/tekartik/sqflite/operation/Operation;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/tekartik/sqflite/SqlCommand;)V
+.method public synthetic constructor <init>(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/tekartik/sqflite/g;->a:Lcom/tekartik/sqflite/SqlCommand;
+    iput-object p1, p0, Lcom/tekartik/sqflite/g;->a:Lcom/tekartik/sqflite/Database;
+
+    iput-object p2, p0, Lcom/tekartik/sqflite/g;->b:Lcom/tekartik/sqflite/operation/Operation;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final newCursor(Landroid/database/sqlite/SQLiteDatabase;Landroid/database/sqlite/SQLiteCursorDriver;Ljava/lang/String;Landroid/database/sqlite/SQLiteQuery;)Landroid/database/Cursor;
-    .locals 1
+.method public final run()V
+    .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/tekartik/sqflite/g;->a:Lcom/tekartik/sqflite/SqlCommand;
+    iget-object v0, p0, Lcom/tekartik/sqflite/g;->a:Lcom/tekartik/sqflite/Database;
 
-    invoke-static {v0, p1, p2, p3, p4}, Lcom/tekartik/sqflite/Database;->f(Lcom/tekartik/sqflite/SqlCommand;Landroid/database/sqlite/SQLiteDatabase;Landroid/database/sqlite/SQLiteCursorDriver;Ljava/lang/String;Landroid/database/sqlite/SQLiteQuery;)Landroid/database/Cursor;
+    iget-object v1, p0, Lcom/tekartik/sqflite/g;->b:Lcom/tekartik/sqflite/operation/Operation;
 
-    move-result-object p1
+    invoke-static {v0, v1}, Lcom/tekartik/sqflite/Database;->e(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
 
-    return-object p1
+    return-void
 .end method

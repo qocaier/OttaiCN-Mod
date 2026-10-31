@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static generateConfigDelta_colorMode(Landroid/content/res/Configuration;Landroid/content/res/Configuration;Landroid/content/res/Configuration;)V
@@ -63,7 +64,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Lg/c;->a(Landroid/content/res/Configuration;)I
+    invoke-static {p0}, Landroidx/appcompat/app/c;->a(Landroid/content/res/Configuration;)I
 
     .line 2
     .line 3
@@ -75,7 +76,7 @@
 
     .line 6
     .line 7
-    invoke-static {p1}, Lg/c;->a(Landroid/content/res/Configuration;)I
+    invoke-static {p1}, Landroidx/appcompat/app/c;->a(Landroid/content/res/Configuration;)I
 
     .line 8
     .line 9
@@ -91,7 +92,7 @@
 
     .line 14
     .line 15
-    invoke-static {p2}, Lg/c;->a(Landroid/content/res/Configuration;)I
+    invoke-static {p2}, Landroidx/appcompat/app/c;->a(Landroid/content/res/Configuration;)I
 
     .line 16
     .line 17
@@ -99,7 +100,7 @@
     move-result v0
 
     .line 19
-    invoke-static {p1}, Lg/c;->a(Landroid/content/res/Configuration;)I
+    invoke-static {p1}, Landroidx/appcompat/app/c;->a(Landroid/content/res/Configuration;)I
 
     .line 20
     .line 21
@@ -114,13 +115,13 @@
     or-int/2addr v0, v1
 
     .line 26
-    invoke-static {p2, v0}, Lg/d;->a(Landroid/content/res/Configuration;I)V
+    invoke-static {p2, v0}, Landroidx/appcompat/app/d;->a(Landroid/content/res/Configuration;I)V
 
     .line 27
     .line 28
     .line 29
     :cond_0
-    invoke-static {p0}, Lg/c;->a(Landroid/content/res/Configuration;)I
+    invoke-static {p0}, Landroidx/appcompat/app/c;->a(Landroid/content/res/Configuration;)I
 
     .line 30
     .line 31
@@ -132,7 +133,7 @@
 
     .line 34
     .line 35
-    invoke-static {p1}, Lg/c;->a(Landroid/content/res/Configuration;)I
+    invoke-static {p1}, Landroidx/appcompat/app/c;->a(Landroid/content/res/Configuration;)I
 
     .line 36
     .line 37
@@ -148,7 +149,7 @@
 
     .line 42
     .line 43
-    invoke-static {p2}, Lg/c;->a(Landroid/content/res/Configuration;)I
+    invoke-static {p2}, Landroidx/appcompat/app/c;->a(Landroid/content/res/Configuration;)I
 
     .line 44
     .line 45
@@ -156,7 +157,7 @@
     move-result p0
 
     .line 47
-    invoke-static {p1}, Lg/c;->a(Landroid/content/res/Configuration;)I
+    invoke-static {p1}, Landroidx/appcompat/app/c;->a(Landroid/content/res/Configuration;)I
 
     .line 48
     .line 49
@@ -171,7 +172,7 @@
     or-int/2addr p0, p1
 
     .line 54
-    invoke-static {p2, p0}, Lg/d;->a(Landroid/content/res/Configuration;I)V
+    invoke-static {p2, p0}, Landroidx/appcompat/app/d;->a(Landroid/content/res/Configuration;I)V
 
     .line 55
     .line 56
@@ -234,4 +235,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

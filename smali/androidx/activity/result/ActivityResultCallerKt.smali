@@ -4,42 +4,26 @@
 
 
 # direct methods
-.method public static synthetic a(Ljm/l;Ljava/lang/Object;)V
+.method public static synthetic a(Lq8/l;Ljava/lang/Object;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/activity/result/ActivityResultCallerKt;->registerForActivityResult$lambda$0(Ljm/l;Ljava/lang/Object;)V
+    invoke-static {p0, p1}, Landroidx/activity/result/ActivityResultCallerKt;->registerForActivityResult$lambda$0(Lq8/l;Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method public static synthetic b(Ljm/l;Ljava/lang/Object;)V
+.method public static synthetic b(Lq8/l;Ljava/lang/Object;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/activity/result/ActivityResultCallerKt;->registerForActivityResult$lambda$1(Ljm/l;Ljava/lang/Object;)V
+    invoke-static {p0, p1}, Landroidx/activity/result/ActivityResultCallerKt;->registerForActivityResult$lambda$1(Lq8/l;Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method public static final registerForActivityResult(Landroidx/activity/result/ActivityResultCaller;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;Landroidx/activity/result/ActivityResultRegistry;Ljm/l;)Landroidx/activity/result/ActivityResultLauncher;
+.method public static final registerForActivityResult(Landroidx/activity/result/ActivityResultCaller;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;Landroidx/activity/result/ActivityResultRegistry;Lq8/l;)Landroidx/activity/result/ActivityResultLauncher;
     .locals 1
-    .param p0    # Landroidx/activity/result/ActivityResultCaller;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/activity/result/contract/ActivityResultContract;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroidx/activity/result/ActivityResultRegistry;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<I:",
@@ -51,39 +35,34 @@
             "Landroidx/activity/result/contract/ActivityResultContract<",
             "TI;TO;>;TI;",
             "Landroidx/activity/result/ActivityResultRegistry;",
-            "Ljm/l<",
-            "TO;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/activity/result/ActivityResultLauncher<",
-            "Ljl/e2;",
+            "Lkotlin/j;",
             ">;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "contract"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "registry"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "callback"
 
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    new-instance v0, Le/a;
+    new-instance v0, Landroidx/activity/result/a;
 
-    invoke-direct {v0, p4}, Le/a;-><init>(Ljm/l;)V
+    invoke-direct {v0, p4}, Landroidx/activity/result/a;-><init>(Lq8/l;)V
 
     invoke-interface {p0, p1, p3, v0}, Landroidx/activity/result/ActivityResultCaller;->registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultRegistry;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
 
@@ -97,20 +76,8 @@
     return-object p3
 .end method
 
-.method public static final registerForActivityResult(Landroidx/activity/result/ActivityResultCaller;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;Ljm/l;)Landroidx/activity/result/ActivityResultLauncher;
+.method public static final registerForActivityResult(Landroidx/activity/result/ActivityResultCaller;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;Lq8/l;)Landroidx/activity/result/ActivityResultLauncher;
     .locals 1
-    .param p0    # Landroidx/activity/result/ActivityResultCaller;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/activity/result/contract/ActivityResultContract;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<I:",
@@ -121,35 +88,30 @@
             "Landroidx/activity/result/ActivityResultCaller;",
             "Landroidx/activity/result/contract/ActivityResultContract<",
             "TI;TO;>;TI;",
-            "Ljm/l<",
-            "TO;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/activity/result/ActivityResultLauncher<",
-            "Ljl/e2;",
+            "Lkotlin/j;",
             ">;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "contract"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "callback"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    new-instance v0, Le/b;
+    new-instance v0, Landroidx/activity/result/b;
 
-    invoke-direct {v0, p3}, Le/b;-><init>(Ljm/l;)V
+    invoke-direct {v0, p3}, Landroidx/activity/result/b;-><init>(Lq8/l;)V
 
     invoke-interface {p0, p1, v0}, Landroidx/activity/result/ActivityResultCaller;->registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
 
@@ -163,7 +125,7 @@
     return-object p3
 .end method
 
-.method private static final registerForActivityResult$lambda$0(Ljm/l;Ljava/lang/Object;)V
+.method private static final registerForActivityResult$lambda$0(Lq8/l;Ljava/lang/Object;)V
     .locals 1
 
     .line 1
@@ -171,12 +133,12 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -223,7 +185,7 @@
     .line 48
 .end method
 
-.method private static final registerForActivityResult$lambda$1(Ljm/l;Ljava/lang/Object;)V
+.method private static final registerForActivityResult$lambda$1(Lq8/l;Ljava/lang/Object;)V
     .locals 1
 
     .line 1
@@ -231,12 +193,12 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8

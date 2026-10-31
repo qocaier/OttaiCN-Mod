@@ -23,25 +23,21 @@
     .end annotation
 .end field
 
-.field private final mCaptureFuture:Lub/u0;
+.field private final mCaptureFuture:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
 
-.field private mCaptureRequestFuture:Lub/u0;
+.field private mCaptureRequestFuture:Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -56,12 +52,10 @@
     .end annotation
 .end field
 
-.field private final mCompleteFuture:Lub/u0;
+.field private final mCompleteFuture:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -106,16 +100,16 @@
 
     .line 10
     .line 11
-    new-instance p1, Landroidx/camera/core/imagecapture/j;
+    new-instance p1, Landroidx/camera/core/imagecapture/k;
 
     .line 12
     .line 13
-    invoke-direct {p1, p0}, Landroidx/camera/core/imagecapture/j;-><init>(Landroidx/camera/core/imagecapture/RequestWithCallback;)V
+    invoke-direct {p1, p0}, Landroidx/camera/core/imagecapture/k;-><init>(Landroidx/camera/core/imagecapture/RequestWithCallback;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-static {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 17
     .line 18
@@ -123,20 +117,20 @@
     move-result-object p1
 
     .line 20
-    iput-object p1, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCaptureFuture:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCaptureFuture:Lcom/google/common/util/concurrent/t;
 
     .line 21
     .line 22
-    new-instance p1, Landroidx/camera/core/imagecapture/k;
+    new-instance p1, Landroidx/camera/core/imagecapture/l;
 
     .line 23
     .line 24
-    invoke-direct {p1, p0}, Landroidx/camera/core/imagecapture/k;-><init>(Landroidx/camera/core/imagecapture/RequestWithCallback;)V
+    invoke-direct {p1, p0}, Landroidx/camera/core/imagecapture/l;-><init>(Landroidx/camera/core/imagecapture/RequestWithCallback;)V
 
     .line 25
     .line 26
     .line 27
-    invoke-static {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 28
     .line 29
@@ -144,7 +138,7 @@
     move-result-object p1
 
     .line 31
-    iput-object p1, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCompleteFuture:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCompleteFuture:Lcom/google/common/util/concurrent/t;
 
     .line 32
     .line 33
@@ -246,7 +240,7 @@
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCaptureRequestFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCaptureRequestFuture:Lcom/google/common/util/concurrent/t;
 
     .line 8
     .line 9
@@ -255,7 +249,7 @@
     .line 10
     .line 11
     .line 12
-    check-cast v1, Lub/u0;
+    check-cast v1, Lcom/google/common/util/concurrent/t;
 
     .line 13
     .line 14
@@ -336,6 +330,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic b(Landroidx/camera/core/imagecapture/RequestWithCallback;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -400,7 +395,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCaptureFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCaptureFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -430,13 +425,14 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private markComplete()V
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCompleteFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCompleteFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -474,6 +470,7 @@
     .line 19
     .line 20
     return-void
+    .line 21
 .end method
 
 .method private onFailure(Landroidx/camera/core/ImageCaptureException;)V
@@ -536,7 +533,7 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCompleteFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCompleteFuture:Lcom/google/common/util/concurrent/t;
 
     .line 5
     .line 6
@@ -586,7 +583,7 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCompleteFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCompleteFuture:Lcom/google/common/util/concurrent/t;
 
     .line 5
     .line 6
@@ -696,9 +693,11 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method public getCaptureFuture()Lub/u0;
+.method public getCaptureFuture()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
@@ -709,9 +708,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -721,7 +718,7 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCaptureFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCaptureFuture:Lcom/google/common/util/concurrent/t;
 
     .line 5
     .line 6
@@ -740,9 +737,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public getCompleteFuture()Lub/u0;
+.method public getCompleteFuture()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
@@ -753,9 +751,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -765,7 +761,7 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCompleteFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCompleteFuture:Lcom/google/common/util/concurrent/t;
 
     .line 5
     .line 6
@@ -784,6 +780,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isAborted()Z
@@ -812,6 +809,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onCaptureFailure(Landroidx/camera/core/ImageCaptureException;)V
@@ -938,6 +936,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onFinalResult(Landroidx/camera/core/ImageCapture$OutputFileResults;)V
@@ -1049,6 +1048,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onProcessFailure(Landroidx/camera/core/ImageCaptureException;)V
@@ -1103,9 +1103,9 @@
     .line 25
 .end method
 
-.method public setCaptureRequestFuture(Lub/u0;)V
+.method public setCaptureRequestFuture(Lcom/google/common/util/concurrent/t;)V
     .locals 2
-    .param p1    # Lub/u0;
+    .param p1    # Lcom/google/common/util/concurrent/t;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
@@ -1115,9 +1115,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;)V"
+            "Lcom/google/common/util/concurrent/t;",
+            ")V"
         }
     .end annotation
 
@@ -1127,7 +1126,7 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCaptureRequestFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCaptureRequestFuture:Lcom/google/common/util/concurrent/t;
 
     .line 5
     .line 6
@@ -1155,7 +1154,7 @@
     .line 14
     .line 15
     .line 16
-    iput-object p1, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCaptureRequestFuture:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/core/imagecapture/RequestWithCallback;->mCaptureRequestFuture:Lcom/google/common/util/concurrent/t;
 
     .line 17
     .line 18

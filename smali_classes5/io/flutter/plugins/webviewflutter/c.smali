@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/a;
 
 
 # direct methods
@@ -18,15 +18,13 @@
 
 
 # virtual methods
-.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
 
     .line 1
-    check-cast p1, Lkotlin/Result;
+    invoke-static {}, Lio/flutter/plugins/webviewflutter/AndroidWebkitLibraryPigeonInstanceManagerApi;->b()Lio/flutter/plugins/webviewflutter/AndroidWebkitLibraryPigeonCodec;
 
-    invoke-static {p1}, Lio/flutter/plugins/webviewflutter/AndroidWebkitLibraryPigeonProxyApiBaseCodec;->e(Lkotlin/Result;)Ljl/e2;
+    move-result-object v0
 
-    move-result-object p1
-
-    return-object p1
+    return-object v0
 .end method

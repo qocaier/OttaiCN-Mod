@@ -120,7 +120,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$2600(Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;)Landroid/graphics/Rect;
@@ -153,7 +152,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$2700(Lcom/google/android/material/bottomappbar/BottomAppBar$Behavior;)I
@@ -186,7 +184,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 

@@ -152,15 +152,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public constructor <init>()V
@@ -191,13 +182,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static a(Landroid/content/Context;Ljava/lang/String;)I
     .locals 0
 
-    .line 68
+    .line 67
     :try_start_0
     invoke-static {p0}, Lcom/baidu/mshield/rp/Report;->getInstance(Landroid/content/Context;)Lcom/baidu/mshield/rp/Report;
 
@@ -212,7 +202,7 @@
     :catchall_0
     move-exception p0
 
-    .line 69
+    .line 68
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
     :goto_0
@@ -226,12 +216,12 @@
 
     const-string v0, "http.proxyHost"
 
-    .line 192
+    .line 191
     invoke-static {v0}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 193
+    .line 192
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -303,7 +293,7 @@
 
     if-nez p1, :cond_0
 
-    .line 184
+    .line 183
     :try_start_0
     new-instance p1, Lcom/baidu/mshield/x0/l/a;
 
@@ -316,40 +306,40 @@
 
     goto :goto_1
 
-    .line 185
+    .line 184
     :cond_0
     :goto_0
     invoke-virtual {p1, p2}, Lcom/baidu/mshield/x0/l/a;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 186
+    .line 185
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p1
 
     if-nez p1, :cond_1
 
-    .line 187
+    .line 186
     new-instance p1, Lorg/json/JSONObject;
 
     invoke-direct {p1, p0}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
     const-string p0, "5"
 
-    .line 188
+    .line 187
     invoke-virtual {p1, p0}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
 
     move-result-object p0
 
-    .line 189
+    .line 188
     invoke-virtual {p0, p3}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    .line 190
+    .line 189
     invoke-virtual {p0, p3, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -358,7 +348,7 @@
 
     return-object p0
 
-    .line 191
+    .line 190
     :goto_1
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
@@ -371,7 +361,7 @@
 
     const-string v0, ""
 
-    .line 180
+    .line 179
     :try_start_0
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -384,14 +374,14 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 181
+    .line 180
     invoke-static {p0, v1}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
 
     move-result-object p0
 
     const/16 v1, 0x10
 
-    .line 182
+    .line 181
     invoke-static {v1}, Lcom/baidu/mshield/b/f/a;->a(I)[B
 
     move-result-object v1
@@ -400,7 +390,7 @@
 
     move-result-object p0
 
-    .line 183
+    .line 182
     new-instance v1, Ljava/lang/String;
 
     invoke-direct {v1, p0}, Ljava/lang/String;-><init>([B)V
@@ -456,7 +446,7 @@
 .method public static a(Landroid/content/Context;Lcom/baidu/mshield/x0/l/b;Ljava/lang/String;)Lorg/json/JSONArray;
     .locals 12
 
-    .line 100
+    .line 99
     const-string v0, "14"
 
     const-string v1, "1001003"
@@ -465,7 +455,7 @@
 
     invoke-direct {v2}, Lorg/json/JSONObject;-><init>()V
 
-    .line 101
+    .line 100
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -474,29 +464,29 @@
 
     const/4 v6, 0x0
 
-    .line 102
+    .line 101
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v7
 
-    .line 103
+    .line 102
     invoke-static {p0, v7, v6}, Lcom/baidu/mshield/b/e/c;->a(Landroid/content/Context;Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     move-result-object v7
 
-    .line 104
+    .line 103
     iget-object v8, v7, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_3
 
-    .line 105
+    .line 104
     :try_start_1
     iget v9, v7, Landroid/content/pm/PackageInfo;->versionCode:I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
-    .line 106
+    .line 105
     :try_start_2
     iget-object v10, v7, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
 
@@ -514,7 +504,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 107
+    .line 106
     :try_start_3
     iget-object v11, p1, Lcom/baidu/mshield/x0/l/b;->d:Ljava/lang/String;
 
@@ -524,7 +514,7 @@
 
     if-eqz v11, :cond_0
 
-    .line 108
+    .line 107
     new-instance v11, Ljava/io/File;
 
     iget-object v7, v7, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
@@ -572,7 +562,7 @@
 
     goto :goto_0
 
-    .line 109
+    .line 108
     :goto_1
     :try_start_4
     invoke-static {v7}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
@@ -581,14 +571,14 @@
     :goto_2
     const-string v7, "1"
 
-    .line 110
+    .line 109
     invoke-virtual {v2, v7, v10}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_4
 
     const-string v7, "2"
 
-    .line 111
+    .line 110
     :try_start_5
     invoke-static {p0}, Lcom/baidu/mshield/x0/EngineImpl;->getInstance(Landroid/content/Context;)Lcom/baidu/mshield/x0/EngineImpl;
 
@@ -600,19 +590,19 @@
 
     move-result-object v10
 
-    .line 112
+    .line 111
     invoke-virtual {v2, v7, v10}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v7, "3"
 
-    .line 113
+    .line 112
     invoke-virtual {v2, v7, v8}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_4
 
     const-string v7, "4"
 
-    .line 114
+    .line 113
     :try_start_6
     invoke-static {p0}, Lcom/baidu/mshield/utility/c;->b(Landroid/content/Context;)Ljava/lang/String;
 
@@ -624,7 +614,7 @@
 
     const-string v7, "5"
 
-    .line 115
+    .line 114
     :try_start_7
     iget-object v10, p1, Lcom/baidu/mshield/x0/l/b;->d:Ljava/lang/String;
 
@@ -632,21 +622,21 @@
 
     const-string v7, "6"
 
-    .line 116
+    .line 115
     invoke-virtual {v2, v7, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
     const-string v3, "7"
 
     const-string v4, "0"
 
-    .line 117
+    .line 116
     invoke-virtual {v2, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_4
 
     const-string v3, "8"
 
-    .line 118
+    .line 117
     :try_start_8
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->c(Landroid/content/Context;)Ljava/lang/String;
 
@@ -658,7 +648,7 @@
 
     const-string v3, "9"
 
-    .line 119
+    .line 118
     :try_start_9
     iget-object v4, p1, Lcom/baidu/mshield/x0/l/b;->a:Ljava/lang/String;
 
@@ -668,13 +658,13 @@
 
     const-string v3, "10"
 
-    .line 120
+    .line 119
     :try_start_a
     iget-object v4, p1, Lcom/baidu/mshield/x0/l/b;->c:Ljava/lang/String;
 
     invoke-virtual {v2, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 121
+    .line 120
     new-instance v3, Lcom/baidu/mshield/x0/l/a;
 
     invoke-direct {v3, p0}, Lcom/baidu/mshield/x0/l/a;-><init>(Landroid/content/Context;)V
@@ -683,7 +673,7 @@
 
     const-string v4, "11"
 
-    .line 122
+    .line 121
     :try_start_b
     invoke-virtual {v3}, Lcom/baidu/mshield/x0/l/a;->c()Ljava/lang/String;
 
@@ -695,7 +685,7 @@
 
     const-string v4, "12"
 
-    .line 123
+    .line 122
     :try_start_c
     invoke-virtual {v3}, Lcom/baidu/mshield/x0/l/a;->k()Ljava/lang/String;
 
@@ -707,10 +697,10 @@
 
     const/4 v4, 0x1
 
-    .line 124
+    .line 123
     invoke-virtual {v2, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 125
+    .line 124
     invoke-static {p0}, Lcom/baidu/mshield/x0/EngineImpl;->getInstance(Landroid/content/Context;)Lcom/baidu/mshield/x0/EngineImpl;
 
     move-result-object v3
@@ -721,14 +711,14 @@
 
     move-result-object v3
 
-    .line 126
+    .line 125
     invoke-virtual {v2, v0, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_c
     .catchall {:try_start_c .. :try_end_c} :catchall_4
 
     const-string v3, "20"
 
-    .line 127
+    .line 126
     :try_start_d
     invoke-static {p0}, Lcom/baidu/mshield/utility/c;->j(Landroid/content/Context;)Ljava/lang/String;
 
@@ -740,7 +730,7 @@
 
     const-string v3, "21"
 
-    .line 128
+    .line 127
     :try_start_e
     invoke-static {p0}, Lcom/baidu/mshield/utility/c;->i(Landroid/content/Context;)Ljava/lang/String;
 
@@ -752,7 +742,7 @@
 
     const-string v3, "22"
 
-    .line 129
+    .line 128
     :try_start_f
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/e;->b(Landroid/content/Context;)Ljava/lang/String;
 
@@ -764,7 +754,7 @@
 
     const-string v3, "23"
 
-    .line 130
+    .line 129
     :try_start_10
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->i(Landroid/content/Context;)Ljava/lang/String;
 
@@ -776,7 +766,7 @@
 
     const-string v3, "26"
 
-    .line 131
+    .line 130
     :try_start_11
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/e;->a(Landroid/content/Context;)Ljava/lang/String;
 
@@ -788,7 +778,7 @@
 
     const-string v3, "28"
 
-    .line 132
+    .line 131
     :try_start_12
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/g;->b(Landroid/content/Context;)Ljava/lang/String;
 
@@ -800,7 +790,7 @@
 
     const-string v3, "1003003"
 
-    .line 133
+    .line 132
     :try_start_13
     iget-object v4, p1, Lcom/baidu/mshield/x0/l/b;->d:Ljava/lang/String;
 
@@ -814,7 +804,7 @@
 
     const-string v4, "x0"
 
-    .line 134
+    .line 133
     invoke-virtual {v2, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     goto :goto_3
@@ -824,14 +814,14 @@
 
     goto/16 :goto_8
 
-    .line 135
+    .line 134
     :cond_1
     :goto_3
     new-instance v3, Lorg/json/JSONObject;
 
     invoke-direct {v3}, Lorg/json/JSONObject;-><init>()V
 
-    .line 136
+    .line 135
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -840,13 +830,13 @@
 
     if-nez v4, :cond_5
 
-    .line 137
+    .line 136
     :try_start_14
     new-instance v4, Lorg/json/JSONObject;
 
     invoke-direct {v4, p2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 138
+    .line 137
     iget-object p1, p1, Lcom/baidu/mshield/x0/l/b;->d:Ljava/lang/String;
 
     invoke-virtual {v1, p1}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
@@ -857,10 +847,10 @@
 
     const-string p1, "1001003 createAlive"
 
-    .line 139
+    .line 138
     invoke-static {p1}, Lcom/baidu/mshield/b/c/a;->b(Ljava/lang/String;)V
 
-    .line 140
+    .line 139
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->j(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
@@ -871,7 +861,7 @@
 
     const-string p1, "16"
 
-    .line 141
+    .line 140
     :try_start_15
     invoke-static {}, Lcom/baidu/mshield/x0/d/d;->e()Ljava/lang/String;
 
@@ -881,17 +871,17 @@
 
     const-string p1, "17"
 
-    .line 142
+    .line 141
     invoke-virtual {v4, p1, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "18"
 
-    .line 143
+    .line 142
     invoke-virtual {v4, p1, v8}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "19"
 
-    .line 144
+    .line 143
     invoke-virtual {v4, p1, v9}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     goto :goto_4
@@ -905,7 +895,7 @@
     :goto_4
     const-string p1, "plc31"
 
-    .line 145
+    .line 144
     invoke-static {p0, p1, v6}, Lcom/baidu/mshield/x0/d/d;->a(Landroid/content/Context;Ljava/lang/String;Z)Z
 
     move-result p1
@@ -916,7 +906,7 @@
 
     const-string p1, "997"
 
-    .line 146
+    .line 145
     :try_start_16
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->i(Landroid/content/Context;)Ljava/lang/String;
 
@@ -929,7 +919,7 @@
     :cond_3
     const-string p1, "998"
 
-    .line 147
+    .line 146
     :try_start_17
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/e;->b(Landroid/content/Context;)Ljava/lang/String;
 
@@ -937,7 +927,7 @@
 
     invoke-virtual {v4, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 148
+    .line 147
     invoke-static {p0}, Lcom/baidu/mshield/utility/c;->j(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
@@ -948,7 +938,7 @@
 
     if-eqz p1, :cond_4
 
-    .line 149
+    .line 148
     invoke-static {p0}, Lcom/baidu/mshield/utility/c;->i(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
@@ -963,14 +953,14 @@
     :goto_5
     const-string p2, "999"
 
-    .line 150
+    .line 149
     invoke-virtual {v4, p2, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_17
     .catchall {:try_start_17 .. :try_end_17} :catchall_5
 
     const-string p1, "990"
 
-    .line 151
+    .line 150
     :try_start_18
     invoke-static {p0}, Lcom/baidu/xclient/gdid/a;->d(Landroid/content/Context;)Ljava/lang/String;
 
@@ -982,7 +972,7 @@
 
     const-string p1, "989"
 
-    .line 152
+    .line 151
     :try_start_19
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->k(Landroid/content/Context;)Ljava/lang/String;
 
@@ -994,7 +984,7 @@
 
     const-string p1, "985"
 
-    .line 153
+    .line 152
     :try_start_1a
     invoke-static {p0}, Lcom/baidu/mshield/x6/f/e;->a(Landroid/content/Context;)Ljava/lang/String;
 
@@ -1006,7 +996,7 @@
 
     const-string p1, "971"
 
-    .line 154
+    .line 153
     :try_start_1b
     invoke-static {p0}, Lcom/baidu/mshield/x6/f/e;->b(Landroid/content/Context;)Ljava/lang/String;
 
@@ -1020,12 +1010,12 @@
 
     goto :goto_7
 
-    .line 155
+    .line 154
     :goto_6
     :try_start_1c
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
-    .line 156
+    .line 155
     :cond_5
     :goto_7
     invoke-virtual {v3}, Lorg/json/JSONObject;->length()I
@@ -1038,7 +1028,7 @@
 
     if-nez p0, :cond_6
 
-    .line 157
+    .line 156
     :try_start_1d
     new-instance p0, Lorg/json/JSONArray;
 
@@ -1048,7 +1038,7 @@
 
     goto :goto_9
 
-    .line 158
+    .line 157
     :cond_6
     new-instance p0, Lorg/json/JSONArray;
 
@@ -1064,11 +1054,11 @@
 
     goto :goto_9
 
-    .line 159
+    .line 158
     :goto_8
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
-    .line 160
+    .line 159
     :goto_9
     new-instance p0, Lorg/json/JSONArray;
 
@@ -1084,12 +1074,12 @@
 .method public static a(Lorg/json/JSONArray;I)Lorg/json/JSONArray;
     .locals 4
 
-    .line 194
+    .line 193
     new-instance v0, Lorg/json/JSONArray;
 
     invoke-direct {v0}, Lorg/json/JSONArray;-><init>()V
 
-    .line 195
+    .line 194
     :try_start_0
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
@@ -1102,7 +1092,7 @@
 
     if-eq v2, p1, :cond_0
 
-    .line 196
+    .line 195
     invoke-virtual {p0, v2}, Lorg/json/JSONArray;->get(I)Ljava/lang/Object;
 
     move-result-object v3
@@ -1124,7 +1114,7 @@
 
     goto :goto_0
 
-    .line 197
+    .line 196
     :goto_2
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
@@ -1135,7 +1125,7 @@
 .method public static a(Landroid/content/Context;Ljava/lang/String;Lorg/json/JSONArray;)Lorg/json/JSONObject;
     .locals 12
 
-    .line 70
+    .line 69
     const-string v0, ""
 
     const-string v1, " "
@@ -1144,28 +1134,28 @@
 
     invoke-direct {v2}, Lorg/json/JSONObject;-><init>()V
 
-    .line 71
+    .line 70
     :try_start_0
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
 
-    .line 72
+    .line 71
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->c(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 73
+    .line 72
     sget-object v6, Lcom/baidu/mshield/x0/a;->d:Ljava/lang/String;
 
-    .line 74
+    .line 73
     sget-object v7, Lcom/baidu/mshield/x0/EngineImpl;->sLoadVersion:Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
     const/4 v8, 0x0
 
-    .line 75
+    .line 74
     :try_start_1
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -1179,7 +1169,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 76
+    .line 75
     :try_start_2
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
@@ -1193,7 +1183,7 @@
 
     move-result-object v10
 
-    .line 77
+    .line 76
     invoke-interface {v10}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -1212,7 +1202,7 @@
 
     move-object v9, v0
 
-    .line 78
+    .line 77
     :goto_0
     :try_start_3
     invoke-static {v10}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
@@ -1220,14 +1210,14 @@
     :goto_1
     const-string v10, "1"
 
-    .line 79
+    .line 78
     invoke-virtual {v2, v10, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
     const-string v0, "2"
 
-    .line 80
+    .line 79
     :try_start_4
     invoke-static {p0}, Lcom/baidu/mshield/x0/EngineImpl;->getInstance(Landroid/content/Context;)Lcom/baidu/mshield/x0/EngineImpl;
 
@@ -1239,19 +1229,19 @@
 
     move-result-object v10
 
-    .line 81
+    .line 80
     invoke-virtual {v2, v0, v10}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v0, "3"
 
-    .line 82
+    .line 81
     invoke-virtual {v2, v0, v9}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_2
 
     const-string v0, "4"
 
-    .line 83
+    .line 82
     :try_start_5
     invoke-static {p0}, Lcom/baidu/mshield/utility/c;->b(Landroid/content/Context;)Ljava/lang/String;
 
@@ -1261,54 +1251,54 @@
 
     const-string v0, "5"
 
-    .line 84
+    .line 83
     invoke-virtual {v2, v0, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "6"
 
-    .line 85
+    .line 84
     invoke-virtual {v2, p1, v3, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
     const-string p1, "7"
 
-    .line 86
+    .line 85
     invoke-virtual {v2, p1, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "8"
 
-    .line 87
+    .line 86
     invoke-virtual {v2, p1, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "9"
 
-    .line 88
+    .line 87
     invoke-virtual {v2, p1, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "10"
 
-    .line 89
+    .line 88
     invoke-virtual {v2, p1, v7}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "11"
 
-    .line 90
+    .line 89
     invoke-virtual {v2, p1, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "12"
 
-    .line 91
+    .line 90
     invoke-virtual {v2, p1, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "13"
 
-    .line 92
+    .line 91
     invoke-virtual {v2, p1, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_2
 
     const-string p1, "14"
 
-    .line 93
+    .line 92
     :try_start_6
     invoke-static {p0}, Lcom/baidu/mshield/x0/EngineImpl;->getInstance(Landroid/content/Context;)Lcom/baidu/mshield/x0/EngineImpl;
 
@@ -1320,12 +1310,12 @@
 
     move-result-object v0
 
-    .line 94
+    .line 93
     invoke-virtual {v2, p1, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "plc31"
 
-    .line 95
+    .line 94
     invoke-static {p0, p1, v8}, Lcom/baidu/mshield/x0/d/d;->a(Landroid/content/Context;Ljava/lang/String;Z)Z
 
     move-result p1
@@ -1336,7 +1326,7 @@
 
     const-string p1, "997"
 
-    .line 96
+    .line 95
     :try_start_7
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->i(Landroid/content/Context;)Ljava/lang/String;
 
@@ -1357,7 +1347,7 @@
     :goto_2
     const-string p1, "989"
 
-    .line 97
+    .line 96
     :try_start_8
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->k(Landroid/content/Context;)Ljava/lang/String;
 
@@ -1367,14 +1357,14 @@
 
     const-string p0, "module_section"
 
-    .line 98
+    .line 97
     invoke-virtual {v2, p0, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_2
 
     goto :goto_4
 
-    .line 99
+    .line 98
     :goto_3
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
@@ -1396,7 +1386,7 @@
 
     const/4 v0, 0x1
 
-    .line 42
+    .line 41
     invoke-static {p0, p1, p2, p3, v0}, Lcom/baidu/mshield/x0/d/d;->a(Landroid/content/Context;Lcom/baidu/mshield/x0/d/c;Lorg/json/JSONArray;Ljava/lang/String;Z)V
 
     return-void
@@ -1407,7 +1397,7 @@
 
     if-eqz p2, :cond_3
 
-    .line 43
+    .line 42
     invoke-virtual {p2}, Lorg/json/JSONArray;->length()I
 
     move-result p4
@@ -1421,19 +1411,19 @@
 
     goto/16 :goto_1
 
-    .line 44
+    .line 43
     :cond_1
     :try_start_0
     new-instance p4, Lorg/json/JSONObject;
 
     invoke-direct {p4}, Lorg/json/JSONObject;-><init>()V
 
-    .line 45
+    .line 44
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 46
+    .line 45
     invoke-virtual {p2}, Lorg/json/JSONArray;->length()I
 
     move-result v1
@@ -1443,7 +1433,7 @@
     :goto_0
     if-ge v2, v1, :cond_2
 
-    .line 47
+    .line 46
     invoke-virtual {p2, v2}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v3
@@ -1452,7 +1442,7 @@
 
     const-string v4, "991"
 
-    .line 48
+    .line 47
     :try_start_1
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->i(Landroid/content/Context;)Ljava/lang/String;
 
@@ -1464,7 +1454,7 @@
 
     const-string v4, "995"
 
-    .line 49
+    .line 48
     :try_start_2
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/g;->b(Landroid/content/Context;)Ljava/lang/String;
 
@@ -1476,7 +1466,7 @@
 
     const-string v4, "998"
 
-    .line 50
+    .line 49
     :try_start_3
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/e;->b(Landroid/content/Context;)Ljava/lang/String;
 
@@ -1488,7 +1478,7 @@
 
     const-string v4, "989"
 
-    .line 51
+    .line 50
     :try_start_4
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->k(Landroid/content/Context;)Ljava/lang/String;
 
@@ -1505,7 +1495,7 @@
     :cond_2
     const-string v1, "0"
 
-    .line 52
+    .line 51
     :try_start_5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1521,7 +1511,7 @@
 
     const-string v1, "1"
 
-    .line 53
+    .line 52
     :try_start_6
     iget-object v2, p1, Lcom/baidu/mshield/x0/d/c;->a:Ljava/lang/String;
 
@@ -1531,7 +1521,7 @@
 
     const-string v1, "2"
 
-    .line 54
+    .line 53
     :try_start_7
     iget-object v2, p1, Lcom/baidu/mshield/x0/d/c;->b:Ljava/lang/String;
 
@@ -1541,7 +1531,7 @@
 
     const-string v1, "3"
 
-    .line 55
+    .line 54
     :try_start_8
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->c(Landroid/content/Context;)Ljava/lang/String;
 
@@ -1557,7 +1547,7 @@
 
     const-string v1, "4"
 
-    .line 56
+    .line 55
     :try_start_9
     iget v2, p1, Lcom/baidu/mshield/x0/d/c;->c:I
 
@@ -1567,7 +1557,7 @@
 
     const-string v1, "5"
 
-    .line 57
+    .line 56
     :try_start_a
     iget v2, p1, Lcom/baidu/mshield/x0/d/c;->d:I
 
@@ -1577,7 +1567,7 @@
 
     const-string v1, "6"
 
-    .line 58
+    .line 57
     :try_start_b
     iget v2, p1, Lcom/baidu/mshield/x0/d/c;->e:I
 
@@ -1587,7 +1577,7 @@
 
     const-string v1, "7"
 
-    .line 59
+    .line 58
     :try_start_c
     iget p1, p1, Lcom/baidu/mshield/x0/d/c;->f:I
 
@@ -1597,7 +1587,7 @@
 
     const-string p1, "8"
 
-    .line 60
+    .line 59
     :try_start_d
     sget-object v1, Lcom/baidu/mshield/x0/a;->d:Ljava/lang/String;
 
@@ -1607,7 +1597,7 @@
 
     const-string p1, "9"
 
-    .line 61
+    .line 60
     :try_start_e
     sget-object v1, Lcom/baidu/mshield/x0/EngineImpl;->sLoadVersion:Ljava/lang/String;
 
@@ -1615,25 +1605,25 @@
 
     const-string p1, "10"
 
-    .line 62
+    .line 61
     invoke-virtual {v0, p1, p3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "Common_section"
 
-    .line 63
+    .line 62
     invoke-virtual {p4, p1, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "Module_section"
 
-    .line 64
+    .line 63
     invoke-virtual {p4, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 65
+    .line 64
     invoke-virtual {p4}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 66
+    .line 65
     invoke-static {p0, p1}, Lcom/baidu/mshield/x0/d/d;->a(Landroid/content/Context;Ljava/lang/String;)I
     :try_end_e
     .catchall {:try_start_e .. :try_end_e} :catchall_0
@@ -1643,7 +1633,7 @@
     :catchall_0
     move-exception p0
 
-    .line 67
+    .line 66
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
     :cond_3
@@ -1654,25 +1644,25 @@
 .method public static a(Landroid/content/Context;Lcom/baidu/mshield/x0/l/b;)V
     .locals 6
 
-    .line 169
+    .line 168
     :try_start_0
     new-instance v0, Lcom/baidu/mshield/x0/l/a;
 
     invoke-direct {v0, p0}, Lcom/baidu/mshield/x0/l/a;-><init>(Landroid/content/Context;)V
 
-    .line 170
+    .line 169
     iget-object v1, p1, Lcom/baidu/mshield/x0/l/b;->d:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/baidu/mshield/x0/l/a;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 171
+    .line 170
     invoke-static {}, Lcom/baidu/mshield/x0/d/d;->b()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 172
+    .line 171
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -1681,7 +1671,7 @@
 
     goto :goto_0
 
-    .line 173
+    .line 172
     :cond_0
     iget-object v1, p1, Lcom/baidu/mshield/x0/l/b;->d:Ljava/lang/String;
 
@@ -1689,7 +1679,7 @@
 
     move-result-object v1
 
-    .line 174
+    .line 173
     invoke-static {p0, p1, v1}, Lcom/baidu/mshield/x0/d/d;->a(Landroid/content/Context;Lcom/baidu/mshield/x0/l/b;Ljava/lang/String;)Lorg/json/JSONArray;
 
     move-result-object v3
@@ -1698,24 +1688,24 @@
 
     move-result-object v3
 
-    .line 175
+    .line 174
     new-instance v4, Lcom/baidu/mshield/x0/i/c;
 
     const/4 v5, 0x0
 
     invoke-direct {v4, p0, v5}, Lcom/baidu/mshield/x0/i/c;-><init>(Landroid/content/Context;Landroid/os/Handler;)V
 
-    .line 176
+    .line 175
     invoke-virtual {v4, v3}, Lcom/baidu/mshield/x0/i/c;->a(Ljava/lang/String;)Z
 
     move-result v3
 
     if-nez v3, :cond_1
 
-    .line 177
+    .line 176
     invoke-static {p0, p1, v1}, Lcom/baidu/mshield/x0/d/d;->b(Landroid/content/Context;Lcom/baidu/mshield/x0/l/b;Ljava/lang/String;)Lorg/json/JSONObject;
 
-    .line 178
+    .line 177
     :cond_1
     iget-object p0, p1, Lcom/baidu/mshield/x0/l/b;->d:Ljava/lang/String;
 
@@ -1728,7 +1718,7 @@
     :catchall_0
     move-exception p0
 
-    .line 179
+    .line 178
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
     :goto_0
@@ -1850,7 +1840,7 @@
     invoke-direct {v0}, Lcom/baidu/mshield/x0/d/c;-><init>()V
 
     .line 36
-    sget-object v1, Lcom/baidu/mshield/x0/EngineImpl;->sAppkey:Ljava/lang/String;
+    sget-object v1, Lcom/baidu/mshield/x0/EngineImpl;->KEY_CUID:Ljava/lang/String;
 
     const/4 v1, 0x0
 
@@ -1858,14 +1848,11 @@
     iput v1, v0, Lcom/baidu/mshield/x0/d/c;->c:I
 
     .line 38
-    sget-object v1, Lcom/baidu/mshield/x0/a;->d:Ljava/lang/String;
-
-    .line 39
-    sget-object v1, Lcom/baidu/mshield/x0/EngineImpl;->sLoadVersion:Ljava/lang/String;
+    sget-object v1, Lcom/baidu/mshield/x0/a;->a:Ljava/lang/String;
 
     const/4 v1, 0x1
 
-    .line 40
+    .line 39
     invoke-static {p0, v0, p1, p2, v1}, Lcom/baidu/mshield/x0/d/d;->a(Landroid/content/Context;Lcom/baidu/mshield/x0/d/c;Lorg/json/JSONArray;Ljava/lang/String;Z)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -1875,7 +1862,7 @@
     :catchall_0
     move-exception p0
 
-    .line 41
+    .line 40
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
     return-void
@@ -1895,7 +1882,7 @@
 
     const/4 v0, 0x0
 
-    .line 161
+    .line 160
     :try_start_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1905,7 +1892,7 @@
 
     return v0
 
-    .line 162
+    .line 161
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
@@ -1921,7 +1908,7 @@
 
     return v1
 
-    .line 163
+    .line 162
     :cond_1
     sget-object p0, Lcom/baidu/mshield/x0/a;->a:Ljava/lang/String;
 
@@ -1933,7 +1920,7 @@
 
     return v1
 
-    .line 164
+    .line 163
     :cond_2
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1943,7 +1930,7 @@
 
     if-nez p0, :cond_4
 
-    .line 165
+    .line 164
     :try_start_1
     new-instance p0, Lorg/json/JSONArray;
 
@@ -1951,7 +1938,7 @@
 
     move p1, v0
 
-    .line 166
+    .line 165
     :goto_0
     invoke-virtual {p0}, Lorg/json/JSONArray;->length()I
 
@@ -1959,7 +1946,7 @@
 
     if-ge p1, v2, :cond_4
 
-    .line 167
+    .line 166
     invoke-virtual {p0, p1}, Lorg/json/JSONArray;->get(I)Ljava/lang/Object;
 
     move-result-object v2
@@ -1982,7 +1969,7 @@
     :catchall_0
     move-exception p0
 
-    .line 168
+    .line 167
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
     :catchall_1
@@ -2123,7 +2110,7 @@
 .method public static b()Ljava/lang/String;
     .locals 5
 
-    .line 34
+    .line 33
     const-string v0, ""
 
     :try_start_0
@@ -2133,26 +2120,26 @@
 
     const/4 v2, 0x1
 
-    .line 35
+    .line 34
     invoke-virtual {v1, v2}, Ljava/util/Calendar;->get(I)I
 
     move-result v2
 
     const/4 v3, 0x2
 
-    .line 36
+    .line 35
     invoke-virtual {v1, v3}, Ljava/util/Calendar;->get(I)I
 
     move-result v3
 
     const/4 v4, 0x5
 
-    .line 37
+    .line 36
     invoke-virtual {v1, v4}, Ljava/util/Calendar;->get(I)I
 
     move-result v1
 
-    .line 38
+    .line 37
     new-instance v4, Ljava/lang/StringBuilder;
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
@@ -2178,7 +2165,7 @@
     :catchall_0
     move-exception v1
 
-    .line 39
+    .line 38
     invoke-static {v1}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
     return-object v0
@@ -2189,7 +2176,7 @@
 
     const-string v0, ""
 
-    .line 82
+    .line 81
     :try_start_0
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2199,7 +2186,7 @@
 
     return-object v0
 
-    .line 83
+    .line 82
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
 
@@ -2217,7 +2204,7 @@
 
     const/4 v1, 0x0
 
-    .line 84
+    .line 83
     invoke-static {p0, v1}, Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;
 
     move-result-object p0
@@ -2229,7 +2216,7 @@
     :catchall_0
     move-exception p0
 
-    .line 85
+    .line 84
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
     return-object v0
@@ -2238,7 +2225,7 @@
 .method public static b(Landroid/content/Context;Lcom/baidu/mshield/x0/l/b;Ljava/lang/String;)Lorg/json/JSONObject;
     .locals 11
 
-    .line 40
+    .line 39
     const-string v0, "1001003"
 
     const-string v1, ""
@@ -2249,7 +2236,7 @@
 
     invoke-direct {v3}, Lorg/json/JSONObject;-><init>()V
 
-    .line 41
+    .line 40
     :try_start_0
     new-instance v4, Lorg/json/JSONObject;
 
@@ -2259,7 +2246,7 @@
 
     const/4 v5, 0x0
 
-    .line 42
+    .line 41
     :try_start_1
     iget-object v6, p1, Lcom/baidu/mshield/x0/l/b;->d:Ljava/lang/String;
 
@@ -2269,7 +2256,7 @@
 
     if-eqz v6, :cond_0
 
-    .line 43
+    .line 42
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object v6
@@ -2278,7 +2265,7 @@
 
     move-result-object v6
 
-    .line 44
+    .line 43
     new-instance v7, Ljava/io/File;
 
     iget-object v8, v6, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
@@ -2293,11 +2280,11 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 45
+    .line 44
     :try_start_2
     iget-object v1, v6, Landroid/content/pm/PackageInfo;->versionName:Ljava/lang/String;
 
-    .line 46
+    .line 45
     iget v6, v6, Landroid/content/pm/PackageInfo;->versionCode:I
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
@@ -2342,14 +2329,14 @@
 
     goto :goto_2
 
-    .line 47
+    .line 46
     :goto_1
     :try_start_3
     invoke-static {v7}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
     goto :goto_0
 
-    .line 48
+    .line 47
     :goto_2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -2359,19 +2346,19 @@
 
     const-string v8, "1"
 
-    .line 49
+    .line 48
     invoke-virtual {v4, v8, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string v8, "2"
 
-    .line 50
+    .line 49
     invoke-virtual {v4, v8, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_3
 
     const-string v2, "3"
 
-    .line 51
+    .line 50
     :try_start_4
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->c(Landroid/content/Context;)Ljava/lang/String;
 
@@ -2381,31 +2368,31 @@
 
     const-string v2, "4"
 
-    .line 52
+    .line 51
     invoke-virtual {v4, v2, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     const-string v2, "5"
 
-    .line 53
+    .line 52
     invoke-virtual {v4, v2, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     const-string v2, "6"
 
     const/4 v8, 0x1
 
-    .line 54
+    .line 53
     invoke-virtual {v4, v2, v8}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     const-string v2, "7"
 
-    .line 55
+    .line 54
     invoke-virtual {v4, v2, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_3
 
     const-string v2, "8"
 
-    .line 56
+    .line 55
     :try_start_5
     iget-object v8, p1, Lcom/baidu/mshield/x0/l/b;->a:Ljava/lang/String;
 
@@ -2415,7 +2402,7 @@
 
     const-string v2, "9"
 
-    .line 57
+    .line 56
     :try_start_6
     iget-object v8, p1, Lcom/baidu/mshield/x0/l/b;->c:Ljava/lang/String;
 
@@ -2425,18 +2412,18 @@
 
     const-string v2, "10"
 
-    .line 58
+    .line 57
     :try_start_7
     iget-object v8, p1, Lcom/baidu/mshield/x0/l/b;->d:Ljava/lang/String;
 
     invoke-virtual {v4, v2, v8}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 59
+    .line 58
     new-instance v2, Lorg/json/JSONObject;
 
     invoke-direct {v2}, Lorg/json/JSONObject;-><init>()V
 
-    .line 60
+    .line 59
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v8
@@ -2445,13 +2432,13 @@
 
     if-nez v8, :cond_4
 
-    .line 61
+    .line 60
     :try_start_8
     new-instance v8, Lorg/json/JSONObject;
 
     invoke-direct {v8, p2}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
-    .line 62
+    .line 61
     iget-object p1, p1, Lcom/baidu/mshield/x0/l/b;->d:Ljava/lang/String;
 
     invoke-virtual {v0, p1}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
@@ -2462,14 +2449,14 @@
 
     const-string p1, "1001003 createInsertAlive"
 
-    .line 63
+    .line 62
     invoke-static {p1}, Lcom/baidu/mshield/b/c/a;->b(Ljava/lang/String;)V
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_2
 
     const-string p1, "14"
 
-    .line 64
+    .line 63
     :try_start_9
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->j(Landroid/content/Context;)Ljava/lang/String;
 
@@ -2481,7 +2468,7 @@
 
     const-string p1, "16"
 
-    .line 65
+    .line 64
     :try_start_a
     invoke-static {}, Lcom/baidu/mshield/x0/d/d;->e()Ljava/lang/String;
 
@@ -2491,17 +2478,17 @@
 
     const-string p1, "17"
 
-    .line 66
+    .line 65
     invoke-virtual {v8, p1, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "18"
 
-    .line 67
+    .line 66
     invoke-virtual {v8, p1, v6}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "19"
 
-    .line 68
+    .line 67
     invoke-virtual {v8, p1, v7}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     goto :goto_3
@@ -2515,7 +2502,7 @@
     :goto_3
     const-string p1, "plc31"
 
-    .line 69
+    .line 68
     invoke-static {p0, p1, v5}, Lcom/baidu/mshield/x0/d/d;->a(Landroid/content/Context;Ljava/lang/String;Z)Z
 
     move-result p1
@@ -2526,7 +2513,7 @@
 
     const-string p1, "997"
 
-    .line 70
+    .line 69
     :try_start_b
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->i(Landroid/content/Context;)Ljava/lang/String;
 
@@ -2539,7 +2526,7 @@
     :cond_2
     const-string p1, "998"
 
-    .line 71
+    .line 70
     :try_start_c
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/e;->b(Landroid/content/Context;)Ljava/lang/String;
 
@@ -2551,7 +2538,7 @@
 
     const-string p1, "990"
 
-    .line 72
+    .line 71
     :try_start_d
     invoke-static {p0}, Lcom/baidu/xclient/gdid/a;->d(Landroid/content/Context;)Ljava/lang/String;
 
@@ -2563,7 +2550,7 @@
 
     const-string p1, "989"
 
-    .line 73
+    .line 72
     :try_start_e
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->k(Landroid/content/Context;)Ljava/lang/String;
 
@@ -2571,7 +2558,7 @@
 
     invoke-virtual {v8, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 74
+    .line 73
     invoke-static {p0}, Lcom/baidu/mshield/utility/c;->j(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
@@ -2582,7 +2569,7 @@
 
     if-eqz p1, :cond_3
 
-    .line 75
+    .line 74
     invoke-static {p0}, Lcom/baidu/mshield/utility/c;->i(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p1
@@ -2597,7 +2584,7 @@
     :goto_4
     const-string p2, "999"
 
-    .line 76
+    .line 75
     invoke-virtual {v8, p2, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_e
     .catchall {:try_start_e .. :try_end_e} :catchall_2
@@ -2606,7 +2593,7 @@
 
     goto :goto_6
 
-    .line 77
+    .line 76
     :goto_5
     :try_start_f
     invoke-static {p1}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
@@ -2622,15 +2609,15 @@
     :goto_6
     const-string p1, "Common_section"
 
-    .line 78
+    .line 77
     invoke-virtual {v3, p1, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p1, "Module_section"
 
-    .line 79
+    .line 78
     invoke-virtual {v3, p1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 80
+    .line 79
     invoke-virtual {v3}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object p1
@@ -2641,7 +2628,7 @@
 
     goto :goto_8
 
-    .line 81
+    .line 80
     :goto_7
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
@@ -2652,7 +2639,7 @@
 .method public static b(Landroid/content/Context;)V
     .locals 3
 
-    .line 28
+    .line 27
     :try_start_0
     const-class v0, Lcom/baidu/mshield/x0/d/d;
 
@@ -2660,13 +2647,13 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 29
+    .line 28
     :try_start_1
     sget-boolean v1, Lcom/baidu/mshield/x0/d/d;->c:Z
 
     if-eqz v1, :cond_0
 
-    .line 30
+    .line 29
     monitor-exit v0
 
     return-void
@@ -2676,7 +2663,7 @@
 
     goto :goto_0
 
-    .line 31
+    .line 30
     :cond_0
     invoke-static {}, Lcom/baidu/mshield/x0/d/h/d;->b()Lcom/baidu/mshield/x0/d/h/d;
 
@@ -2688,7 +2675,7 @@
 
     invoke-virtual {v1, v2}, Lcom/baidu/mshield/x0/d/h/d;->a(Lcom/baidu/mshield/x0/d/h/a;)V
 
-    .line 32
+    .line 31
     monitor-exit v0
 
     return-void
@@ -2706,7 +2693,7 @@
     :catchall_1
     move-exception p0
 
-    .line 33
+    .line 32
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
     return-void
@@ -2715,7 +2702,7 @@
 .method public static b(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 26
+    .line 25
     :try_start_0
     invoke-static {p0}, Lcom/baidu/mshield/rp/Report;->getInstance(Landroid/content/Context;)Lcom/baidu/mshield/rp/Report;
 
@@ -2730,7 +2717,7 @@
     :catchall_0
     move-exception p0
 
-    .line 27
+    .line 26
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
     return-void
@@ -2746,7 +2733,7 @@
     invoke-direct {v0}, Lcom/baidu/mshield/x0/d/c;-><init>()V
 
     .line 2
-    sget-object v1, Lcom/baidu/mshield/x0/EngineImpl;->sAppkey:Ljava/lang/String;
+    sget-object v1, Lcom/baidu/mshield/x0/EngineImpl;->KEY_CUID:Ljava/lang/String;
 
     const/4 v1, 0x0
 
@@ -2754,14 +2741,11 @@
     iput v1, v0, Lcom/baidu/mshield/x0/d/c;->c:I
 
     .line 4
-    sget-object v1, Lcom/baidu/mshield/x0/a;->d:Ljava/lang/String;
-
-    .line 5
-    sget-object v1, Lcom/baidu/mshield/x0/EngineImpl;->sLoadVersion:Ljava/lang/String;
+    sget-object v1, Lcom/baidu/mshield/x0/a;->a:Ljava/lang/String;
 
     if-eqz p1, :cond_1
 
-    .line 6
+    .line 5
     invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
     move-result v1
@@ -2772,14 +2756,14 @@
 
     goto/16 :goto_0
 
-    .line 7
+    .line 6
     :cond_0
     :try_start_1
     new-instance v1, Lorg/json/JSONObject;
 
     invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
 
-    .line 8
+    .line 7
     new-instance v2, Lorg/json/JSONObject;
 
     invoke-direct {v2}, Lorg/json/JSONObject;-><init>()V
@@ -2788,7 +2772,7 @@
 
     const-string v3, "0"
 
-    .line 9
+    .line 8
     :try_start_2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -2804,7 +2788,7 @@
 
     const-string v3, "1"
 
-    .line 10
+    .line 9
     :try_start_3
     iget-object v4, v0, Lcom/baidu/mshield/x0/d/c;->a:Ljava/lang/String;
 
@@ -2814,7 +2798,7 @@
 
     const-string v3, "2"
 
-    .line 11
+    .line 10
     :try_start_4
     iget-object v4, v0, Lcom/baidu/mshield/x0/d/c;->b:Ljava/lang/String;
 
@@ -2824,7 +2808,7 @@
 
     const-string v3, "3"
 
-    .line 12
+    .line 11
     :try_start_5
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->c(Landroid/content/Context;)Ljava/lang/String;
 
@@ -2840,7 +2824,7 @@
 
     const-string v3, "4"
 
-    .line 13
+    .line 12
     :try_start_6
     iget v4, v0, Lcom/baidu/mshield/x0/d/c;->c:I
 
@@ -2850,7 +2834,7 @@
 
     const-string v3, "5"
 
-    .line 14
+    .line 13
     :try_start_7
     iget v4, v0, Lcom/baidu/mshield/x0/d/c;->d:I
 
@@ -2860,7 +2844,7 @@
 
     const-string v3, "6"
 
-    .line 15
+    .line 14
     :try_start_8
     iget v4, v0, Lcom/baidu/mshield/x0/d/c;->e:I
 
@@ -2870,7 +2854,7 @@
 
     const-string v3, "7"
 
-    .line 16
+    .line 15
     :try_start_9
     iget v0, v0, Lcom/baidu/mshield/x0/d/c;->f:I
 
@@ -2880,7 +2864,7 @@
 
     const-string v0, "8"
 
-    .line 17
+    .line 16
     :try_start_a
     sget-object v3, Lcom/baidu/mshield/x0/a;->d:Ljava/lang/String;
 
@@ -2890,7 +2874,7 @@
 
     const-string v0, "9"
 
-    .line 18
+    .line 17
     :try_start_b
     sget-object v3, Lcom/baidu/mshield/x0/EngineImpl;->sLoadVersion:Ljava/lang/String;
 
@@ -2898,25 +2882,25 @@
 
     const-string v0, "10"
 
-    .line 19
+    .line 18
     invoke-virtual {v2, v0, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p2, "Common_section"
 
-    .line 20
+    .line 19
     invoke-virtual {v1, p2, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     const-string p2, "Module_section"
 
-    .line 21
+    .line 20
     invoke-virtual {v1, p2, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 22
+    .line 21
     invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 23
+    .line 22
     invoke-static {p0, p1}, Lcom/baidu/mshield/x0/d/d;->b(Landroid/content/Context;Ljava/lang/String;)V
     :try_end_b
     .catchall {:try_start_b .. :try_end_b} :catchall_0
@@ -2926,7 +2910,7 @@
     :catchall_0
     move-exception p0
 
-    .line 24
+    .line 23
     :try_start_c
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
     :try_end_c
@@ -2937,7 +2921,7 @@
     :catchall_1
     move-exception p0
 
-    .line 25
+    .line 24
     invoke-static {p0}, Lcom/baidu/mshield/x0/d/d;->a(Ljava/lang/Throwable;)V
 
     :cond_1
@@ -4011,6 +3995,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public static h(Landroid/content/Context;)Ljava/lang/String;
@@ -4143,8 +4159,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static i(Landroid/content/Context;)Ljava/lang/String;
@@ -4191,7 +4205,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static j(Landroid/content/Context;)Ljava/lang/String;
@@ -4250,7 +4263,6 @@
     .line 23
     return-object p0
     .line 24
-    .line 25
 .end method
 
 .method public static k(Landroid/content/Context;)Ljava/lang/String;
@@ -4386,8 +4398,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static m(Landroid/content/Context;)V
@@ -4428,7 +4438,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static n(Landroid/content/Context;)Z
@@ -4568,8 +4577,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static o(Landroid/content/Context;)Z
@@ -4625,7 +4632,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static p(Landroid/content/Context;)V
@@ -4800,8 +4806,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static q(Landroid/content/Context;)V
@@ -5517,4 +5521,36 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method

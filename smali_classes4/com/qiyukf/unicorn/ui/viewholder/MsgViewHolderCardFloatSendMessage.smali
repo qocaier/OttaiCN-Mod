@@ -38,6 +38,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderCardFloatSendMessage;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -71,6 +73,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$100(Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderCardFloatSendMessage;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -104,6 +108,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -254,6 +260,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getContentResId()I
@@ -282,6 +289,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public inflateContentView()V
@@ -314,6 +323,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isShowQuickEntry()Z

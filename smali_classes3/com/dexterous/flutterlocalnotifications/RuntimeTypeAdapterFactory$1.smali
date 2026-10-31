@@ -1,11 +1,11 @@
 .class Lcom/dexterous/flutterlocalnotifications/RuntimeTypeAdapterFactory$1;
-.super Lac/s;
+.super Lcom/google/gson/o;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/dexterous/flutterlocalnotifications/RuntimeTypeAdapterFactory;->create(Lac/d;Lhc/a;)Lac/s;
+    value = Lcom/dexterous/flutterlocalnotifications/RuntimeTypeAdapterFactory;->create(Lcom/google/gson/c;Lj4/a;)Lcom/google/gson/o;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,8 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lac/s<",
-        "TR;>;"
+        "Lcom/google/gson/o;"
     }
 .end annotation
 
@@ -32,18 +31,6 @@
 # direct methods
 .method public constructor <init>(Lcom/dexterous/flutterlocalnotifications/RuntimeTypeAdapterFactory;Ljava/util/Map;Ljava/util/Map;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010,
-            0x1010
-        }
-        names = {
-            null,
-            null,
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/dexterous/flutterlocalnotifications/RuntimeTypeAdapterFactory$1;->this$0:Lcom/dexterous/flutterlocalnotifications/RuntimeTypeAdapterFactory;
@@ -58,7 +45,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p0}, Lac/s;-><init>()V
+    invoke-direct {p0}, Lcom/google/gson/o;-><init>()V
 
     .line 8
     .line 9
@@ -201,21 +188,16 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
 # virtual methods
-.method public read(Lic/a;)Ljava/lang/Object;
+.method public read(Lk4/a;)Ljava/lang/Object;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lic/a;",
+            "Lk4/a;",
             ")TR;"
         }
     .end annotation
@@ -227,7 +209,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lcc/l;->a(Lic/a;)Lac/j;
+    invoke-static {p1}, Lcom/google/gson/internal/j;->a(Lk4/a;)Lcom/google/gson/h;
 
     .line 2
     .line 3
@@ -235,7 +217,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1}, Lac/j;->l()Lac/l;
+    invoke-virtual {p1}, Lcom/google/gson/h;->c()Lcom/google/gson/j;
 
     .line 6
     .line 7
@@ -255,7 +237,7 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v0, v1}, Lac/l;->I(Ljava/lang/String;)Lac/j;
+    invoke-virtual {v0, v1}, Lcom/google/gson/j;->m(Ljava/lang/String;)Lcom/google/gson/h;
 
     .line 16
     .line 17
@@ -271,7 +253,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0}, Lac/j;->q()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/google/gson/h;->f()Ljava/lang/String;
 
     .line 24
     .line 25
@@ -291,7 +273,7 @@
     move-result-object v2
 
     .line 33
-    check-cast v2, Lac/s;
+    check-cast v2, Lcom/google/gson/o;
 
     .line 34
     .line 35
@@ -299,7 +281,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v2, p1}, Lac/s;->fromJsonTree(Lac/j;)Ljava/lang/Object;
+    invoke-virtual {v2, p1}, Lcom/google/gson/o;->fromJsonTree(Lcom/google/gson/h;)Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -747,14 +729,46 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
-.method public write(Lic/c;Ljava/lang/Object;)V
+.method public write(Lk4/b;Ljava/lang/Object;)V
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lic/c;",
+            "Lk4/b;",
             "TR;)V"
         }
     .end annotation
@@ -810,7 +824,7 @@
     move-result-object v2
 
     .line 23
-    check-cast v2, Lac/s;
+    check-cast v2, Lcom/google/gson/o;
 
     .line 24
     .line 25
@@ -822,7 +836,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v2, p2}, Lac/s;->toJsonTree(Ljava/lang/Object;)Lac/j;
+    invoke-virtual {v2, p2}, Lcom/google/gson/o;->toJsonTree(Ljava/lang/Object;)Lcom/google/gson/h;
 
     .line 30
     .line 31
@@ -830,7 +844,7 @@
     move-result-object p2
 
     .line 33
-    invoke-virtual {p2}, Lac/j;->l()Lac/l;
+    invoke-virtual {p2}, Lcom/google/gson/h;->c()Lcom/google/gson/j;
 
     .line 34
     .line 35
@@ -850,7 +864,7 @@
     move-result-object v2
 
     .line 43
-    invoke-virtual {p2, v2}, Lac/l;->G(Ljava/lang/String;)Z
+    invoke-virtual {p2, v2}, Lcom/google/gson/j;->l(Ljava/lang/String;)Z
 
     .line 44
     .line 45
@@ -862,11 +876,11 @@
 
     .line 48
     .line 49
-    new-instance v0, Lac/l;
+    new-instance v0, Lcom/google/gson/j;
 
     .line 50
     .line 51
-    invoke-direct {v0}, Lac/l;-><init>()V
+    invoke-direct {v0}, Lcom/google/gson/j;-><init>()V
 
     .line 52
     .line 53
@@ -883,21 +897,21 @@
     move-result-object v2
 
     .line 60
-    new-instance v3, Lac/n;
+    new-instance v3, Lcom/google/gson/k;
 
     .line 61
     .line 62
-    invoke-direct {v3, v1}, Lac/n;-><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v1}, Lcom/google/gson/k;-><init>(Ljava/lang/String;)V
 
     .line 63
     .line 64
     .line 65
-    invoke-virtual {v0, v2, v3}, Lac/l;->v(Ljava/lang/String;Lac/j;)V
+    invoke-virtual {v0, v2, v3}, Lcom/google/gson/j;->k(Ljava/lang/String;Lcom/google/gson/h;)V
 
     .line 66
     .line 67
     .line 68
-    invoke-virtual {p2}, Lac/l;->entrySet()Ljava/util/Set;
+    invoke-virtual {p2}, Lcom/google/gson/j;->entrySet()Ljava/util/Set;
 
     .line 69
     .line 70
@@ -958,11 +972,11 @@
     move-result-object v1
 
     .line 98
-    check-cast v1, Lac/j;
+    check-cast v1, Lcom/google/gson/h;
 
     .line 99
     .line 100
-    invoke-virtual {v0, v2, v1}, Lac/l;->v(Ljava/lang/String;Lac/j;)V
+    invoke-virtual {v0, v2, v1}, Lcom/google/gson/j;->k(Ljava/lang/String;Lcom/google/gson/h;)V
 
     .line 101
     .line 102
@@ -971,7 +985,7 @@
 
     .line 104
     :cond_0
-    invoke-static {v0, p1}, Lcc/l;->b(Lac/j;Lic/c;)V
+    invoke-static {v0, p1}, Lcom/google/gson/internal/j;->b(Lcom/google/gson/h;Lk4/b;)V
 
     .line 105
     .line 106
@@ -1263,52 +1277,4 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method

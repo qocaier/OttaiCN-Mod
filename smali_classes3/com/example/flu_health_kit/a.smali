@@ -14,14 +14,8 @@
 .field public b:Lio/flutter/plugin/common/EventChannel;
 
 .field public c:Landroid/content/Context;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field public d:Landroid/app/Activity;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -53,24 +47,19 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public onAttachedToActivity(Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;)V
     .locals 1
-    .param p1    # Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "binding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -100,22 +89,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onAttachedToEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
     .locals 3
-    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "flutterPluginBinding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -187,7 +171,7 @@
 
     .line 40
     .line 41
-    sget-object p1, Lh7/c;->a:Lh7/c;
+    sget-object p1, Lg1/b;->a:Lg1/b;
 
     .line 42
     .line 43
@@ -242,8 +226,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onDetachedFromActivity()V
@@ -276,7 +258,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDetachedFromActivityForConfigChanges()V
@@ -309,22 +290,17 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDetachedFromEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
     .locals 1
-    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "binding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -344,7 +320,7 @@
 
     .line 12
     .line 13
-    invoke-static {p1}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -370,7 +346,7 @@
 
     .line 25
     .line 26
-    invoke-static {p1}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -443,27 +419,17 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onMethodCall(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 4
-    .param p1    # Lio/flutter/plugin/common/MethodCall;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "call"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -472,7 +438,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -596,7 +562,7 @@
     .line 69
     .line 70
     :cond_1
-    sget-object p1, Lh7/c;->a:Lh7/c;
+    sget-object p1, Lg1/b;->a:Lg1/b;
 
     .line 71
     .line 72
@@ -604,7 +570,7 @@
 
     .line 73
     .line 74
-    invoke-virtual {p1, p2}, Lh7/c;->e(Landroid/app/Activity;)V
+    invoke-virtual {p1, p2}, Lg1/b;->e(Landroid/app/Activity;)V
 
     .line 75
     .line 76
@@ -634,11 +600,11 @@
     .line 87
     .line 88
     :cond_2
-    sget-object p1, Lh7/c;->a:Lh7/c;
+    sget-object p1, Lg1/b;->a:Lg1/b;
 
     .line 89
     .line 90
-    invoke-virtual {p1}, Lh7/c;->b()I
+    invoke-virtual {p1}, Lg1/b;->b()I
 
     .line 91
     .line 92
@@ -745,11 +711,11 @@
 
     .line 139
     :cond_4
-    sget-object p1, Lh7/c;->a:Lh7/c;
+    sget-object p1, Lg1/b;->a:Lg1/b;
 
     .line 140
     .line 141
-    invoke-virtual {p1}, Lh7/c;->d()V
+    invoke-virtual {p1}, Lg1/b;->d()V
 
     .line 142
     .line 143
@@ -779,7 +745,7 @@
     .line 154
     :cond_5
     :try_start_1
-    sget-object p1, Lh7/c;->a:Lh7/c;
+    sget-object p1, Lg1/b;->a:Lg1/b;
 
     .line 155
     .line 156
@@ -787,7 +753,7 @@
 
     .line 157
     .line 158
-    invoke-virtual {p1, v0}, Lh7/c;->c(Landroid/app/Activity;)Z
+    invoke-virtual {p1, v0}, Lg1/b;->c(Landroid/app/Activity;)Z
 
     .line 159
     .line 160
@@ -855,7 +821,7 @@
     .line 188
     :cond_6
     :try_start_2
-    sget-object p1, Lh7/c;->a:Lh7/c;
+    sget-object p1, Lg1/b;->a:Lg1/b;
 
     .line 189
     .line 190
@@ -863,7 +829,7 @@
 
     .line 191
     .line 192
-    invoke-virtual {p1, v0}, Lh7/c;->a(Landroid/app/Activity;)Z
+    invoke-virtual {p1, v0}, Lg1/b;->a(Landroid/app/Activity;)Z
 
     .line 193
     .line 194
@@ -1085,69 +1051,17 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public onReattachedToActivityForConfigChanges(Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;)V
     .locals 1
-    .param p1    # Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "binding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1177,5 +1091,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

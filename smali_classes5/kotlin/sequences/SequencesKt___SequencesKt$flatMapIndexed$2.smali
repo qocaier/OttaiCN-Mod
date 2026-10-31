@@ -3,27 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt___SequencesKt;->n1(Lvm/m;Ljm/p;)Lvm/m;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1019
-    name = null
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/l<",
-        "Lvm/m<",
-        "+TR;>;",
-        "Ljava/util/Iterator<",
-        "+TR;>;>;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -54,7 +41,7 @@
 
     const/4 v1, 0x1
 
-    const-class v2, Lvm/m;
+    const-class v2, Lkotlin/sequences/g;
 
     const-string v3, "iterator"
 
@@ -71,33 +58,34 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lvm/m;
+    check-cast p1, Lkotlin/sequences/g;
 
-    invoke-virtual {p0, p1}, Lkotlin/sequences/SequencesKt___SequencesKt$flatMapIndexed$2;->invoke(Lvm/m;)Ljava/util/Iterator;
+    invoke-virtual {p0, p1}, Lkotlin/sequences/SequencesKt___SequencesKt$flatMapIndexed$2;->invoke(Lkotlin/sequences/g;)Ljava/util/Iterator;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Lvm/m;)Ljava/util/Iterator;
+.method public final invoke(Lkotlin/sequences/g;)Ljava/util/Iterator;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lvm/m<",
-            "+TR;>;)",
+            "Lkotlin/sequences/g;",
+            ")",
             "Ljava/util/Iterator<",
-            "TR;>;"
+            "Ljava/lang/Object;",
+            ">;"
         }
     .end annotation
 
     const-string v0, "p0"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-interface {p1}, Lvm/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Lkotlin/sequences/g;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 

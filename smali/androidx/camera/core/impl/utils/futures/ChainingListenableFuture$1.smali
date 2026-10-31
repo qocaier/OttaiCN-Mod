@@ -20,11 +20,11 @@
 # instance fields
 .field final synthetic this$0:Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;
 
-.field final synthetic val$outputFuture:Lub/u0;
+.field final synthetic val$outputFuture:Lcom/google/common/util/concurrent/t;
 
 
 # direct methods
-.method public constructor <init>(Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;Lub/u0;)V
+.method public constructor <init>(Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;Lcom/google/common/util/concurrent/t;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -37,7 +37,7 @@
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture$1;->val$outputFuture:Lub/u0;
+    iput-object p2, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture$1;->val$outputFuture:Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -103,7 +103,7 @@
 
     .line 3
     .line 4
-    iget-object v2, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture$1;->val$outputFuture:Lub/u0;
+    iget-object v2, p0, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture$1;->val$outputFuture:Lcom/google/common/util/concurrent/t;
 
     .line 5
     .line 6
@@ -129,7 +129,7 @@
 
     .line 14
     .line 15
-    iput-object v0, v1, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lub/u0;
+    iput-object v0, v1, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lcom/google/common/util/concurrent/t;
 
     .line 16
     .line 17
@@ -171,7 +171,7 @@
 
     .line 31
     .line 32
-    iput-object v0, v1, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lub/u0;
+    iput-object v0, v1, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lcom/google/common/util/concurrent/t;
 
     .line 33
     .line 34
@@ -202,7 +202,7 @@
 
     .line 43
     .line 44
-    iput-object v0, v2, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lub/u0;
+    iput-object v0, v2, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;->mOutputFuture:Lcom/google/common/util/concurrent/t;
 
     .line 45
     .line 46
@@ -245,4 +245,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

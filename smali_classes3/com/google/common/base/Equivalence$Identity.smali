@@ -18,9 +18,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lcom/google/common/base/Equivalence<",
-        "Ljava/lang/Object;",
-        ">;",
+        "Lcom/google/common/base/Equivalence;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -65,7 +63,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -96,7 +93,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private readResolve()Ljava/lang/Object;
@@ -127,23 +123,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public doEquivalent(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "a",
-            "b"
-        }
-    .end annotation
 
     const/4 p1, 0x0
 
@@ -152,14 +137,6 @@
 
 .method public doHash(Ljava/lang/Object;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p1}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
@@ -190,5 +167,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

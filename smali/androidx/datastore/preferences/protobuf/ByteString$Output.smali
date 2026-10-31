@@ -69,18 +69,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "initialCapacity"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/io/OutputStream;-><init>()V
@@ -186,18 +179,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private flushFullBuffer(I)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "minSize"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$Output;->flushedBuffers:Ljava/util/ArrayList;
@@ -318,6 +304,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private flushLastBuffer()V
@@ -461,6 +448,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -516,6 +505,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public declared-synchronized size()I
@@ -565,6 +555,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public declared-synchronized toByteString()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -616,6 +607,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -732,18 +724,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public declared-synchronized write(I)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "b"
-        }
-    .end annotation
 
     monitor-enter p0
 
@@ -802,18 +788,6 @@
 
 .method public declared-synchronized write([BII)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "b",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     monitor-enter p0
 
@@ -891,15 +865,6 @@
 
 .method public writeTo(Ljava/io/OutputStream;)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "out"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1038,4 +1003,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

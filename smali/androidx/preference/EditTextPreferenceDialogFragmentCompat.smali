@@ -56,6 +56,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getEditTextPreference()Landroidx/preference/EditTextPreference;
@@ -88,6 +89,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private hasPendingShowSoftInputRequest()Z
@@ -205,6 +207,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static newInstance(Ljava/lang/String;)Landroidx/preference/EditTextPreferenceDialogFragmentCompat;
@@ -468,6 +472,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -637,6 +642,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -717,6 +723,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public scheduleShowSoftInputInner()V
@@ -881,4 +888,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

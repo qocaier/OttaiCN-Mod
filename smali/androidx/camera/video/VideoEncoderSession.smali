@@ -38,12 +38,10 @@
     .end annotation
 .end field
 
-.field private mReadyToReleaseFuture:Lub/u0;
+.field private mReadyToReleaseFuture:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Landroidx/camera/video/internal/encoder/Encoder;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -58,12 +56,10 @@
     .end annotation
 .end field
 
-.field private mReleasedFuture:Lub/u0;
+.field private mReleasedFuture:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -145,7 +141,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 27
     .line 28
@@ -153,7 +149,7 @@
     move-result-object v1
 
     .line 30
-    iput-object v1, p0, Landroidx/camera/video/VideoEncoderSession;->mReleasedFuture:Lub/u0;
+    iput-object v1, p0, Landroidx/camera/video/VideoEncoderSession;->mReleasedFuture:Lcom/google/common/util/concurrent/t;
 
     .line 31
     .line 32
@@ -170,7 +166,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 40
     .line 41
@@ -178,7 +174,7 @@
     move-result-object v1
 
     .line 43
-    iput-object v1, p0, Landroidx/camera/video/VideoEncoderSession;->mReadyToReleaseFuture:Lub/u0;
+    iput-object v1, p0, Landroidx/camera/video/VideoEncoderSession;->mReadyToReleaseFuture:Lcom/google/common/util/concurrent/t;
 
     .line 44
     .line 45
@@ -259,6 +255,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic a(Landroidx/camera/video/VideoEncoderSession;Landroidx/camera/core/SurfaceRequest;Landroidx/camera/core/impl/Timebase;Landroidx/camera/video/internal/VideoValidatedEncoderProfilesProxy;Landroidx/camera/video/MediaSpec;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -1837,6 +1836,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private configureVideoEncoderInternal(Landroidx/camera/core/SurfaceRequest;Landroidx/camera/core/impl/Timebase;Landroidx/camera/video/internal/VideoValidatedEncoderProfilesProxy;Landroidx/camera/video/MediaSpec;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
@@ -1995,11 +2046,11 @@
 
     .line 58
     .line 59
-    new-instance p4, Landroidx/camera/video/p;
+    new-instance p4, Landroidx/camera/video/q0;
 
     .line 60
     .line 61
-    invoke-direct {p4, p0, p5, p1}, Landroidx/camera/video/p;-><init>(Landroidx/camera/video/VideoEncoderSession;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/camera/core/SurfaceRequest;)V
+    invoke-direct {p4, p0, p5, p1}, Landroidx/camera/video/q0;-><init>(Landroidx/camera/video/VideoEncoderSession;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/camera/core/SurfaceRequest;)V
 
     .line 62
     .line 63
@@ -2809,11 +2860,11 @@
 
     .line 71
     .line 72
-    new-instance p2, Landroidx/camera/video/w;
+    new-instance p2, Landroidx/camera/video/w0;
 
     .line 73
     .line 74
-    invoke-direct {p2, p0, p3}, Landroidx/camera/video/w;-><init>(Landroidx/camera/video/VideoEncoderSession;Landroid/view/Surface;)V
+    invoke-direct {p2, p0, p3}, Landroidx/camera/video/w0;-><init>(Landroidx/camera/video/VideoEncoderSession;Landroid/view/Surface;)V
 
     .line 75
     .line 76
@@ -2991,11 +3042,11 @@
 
     .line 168
     .line 169
-    new-instance v1, Landroidx/camera/video/v;
+    new-instance v1, Landroidx/camera/video/v0;
 
     .line 170
     .line 171
-    invoke-direct {v1, p0}, Landroidx/camera/video/v;-><init>(Landroidx/camera/video/VideoEncoderSession;)V
+    invoke-direct {v1, p0}, Landroidx/camera/video/v0;-><init>(Landroidx/camera/video/VideoEncoderSession;)V
 
     .line 172
     .line 173
@@ -3091,6 +3142,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private onSurfaceRequestComplete(Landroidx/camera/core/SurfaceRequest$Result;)V
@@ -3230,11 +3287,12 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
 # virtual methods
-.method public configure(Landroidx/camera/core/SurfaceRequest;Landroidx/camera/core/impl/Timebase;Landroidx/camera/video/MediaSpec;Landroidx/camera/video/internal/VideoValidatedEncoderProfilesProxy;)Lub/u0;
+.method public configure(Landroidx/camera/core/SurfaceRequest;Landroidx/camera/core/impl/Timebase;Landroidx/camera/video/MediaSpec;Landroidx/camera/video/internal/VideoValidatedEncoderProfilesProxy;)Lcom/google/common/util/concurrent/t;
     .locals 7
     .param p1    # Landroidx/camera/core/SurfaceRequest;
         .annotation build Landroidx/annotation/NonNull;
@@ -3263,9 +3321,7 @@
             "Landroidx/camera/video/MediaSpec;",
             "Landroidx/camera/video/internal/VideoValidatedEncoderProfilesProxy;",
             ")",
-            "Lub/u0<",
-            "Landroidx/camera/video/internal/encoder/Encoder;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -3341,7 +3397,7 @@
     .line 36
     .line 37
     .line 38
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 39
     .line 40
@@ -3405,16 +3461,16 @@
     .line 69
     .line 70
     .line 71
-    new-instance v0, Landroidx/camera/video/s;
+    new-instance v0, Landroidx/camera/video/s0;
 
     .line 72
     .line 73
-    invoke-direct {v0, p0}, Landroidx/camera/video/s;-><init>(Landroidx/camera/video/VideoEncoderSession;)V
+    invoke-direct {v0, p0}, Landroidx/camera/video/s0;-><init>(Landroidx/camera/video/VideoEncoderSession;)V
 
     .line 74
     .line 75
     .line 76
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 77
     .line 78
@@ -3422,20 +3478,20 @@
     move-result-object v0
 
     .line 80
-    iput-object v0, p0, Landroidx/camera/video/VideoEncoderSession;->mReleasedFuture:Lub/u0;
+    iput-object v0, p0, Landroidx/camera/video/VideoEncoderSession;->mReleasedFuture:Lcom/google/common/util/concurrent/t;
 
     .line 81
     .line 82
-    new-instance v0, Landroidx/camera/video/t;
+    new-instance v0, Landroidx/camera/video/t0;
 
     .line 83
     .line 84
-    invoke-direct {v0, p0}, Landroidx/camera/video/t;-><init>(Landroidx/camera/video/VideoEncoderSession;)V
+    invoke-direct {v0, p0}, Landroidx/camera/video/t0;-><init>(Landroidx/camera/video/VideoEncoderSession;)V
 
     .line 85
     .line 86
     .line 87
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 88
     .line 89
@@ -3443,11 +3499,11 @@
     move-result-object v0
 
     .line 91
-    iput-object v0, p0, Landroidx/camera/video/VideoEncoderSession;->mReadyToReleaseFuture:Lub/u0;
+    iput-object v0, p0, Landroidx/camera/video/VideoEncoderSession;->mReadyToReleaseFuture:Lcom/google/common/util/concurrent/t;
 
     .line 92
     .line 93
-    new-instance v1, Landroidx/camera/video/u;
+    new-instance v1, Landroidx/camera/video/u0;
 
     .line 94
     .line 95
@@ -3466,12 +3522,12 @@
     move-object v5, p4
 
     .line 100
-    invoke-direct/range {v1 .. v6}, Landroidx/camera/video/u;-><init>(Landroidx/camera/video/VideoEncoderSession;Landroidx/camera/core/SurfaceRequest;Landroidx/camera/core/impl/Timebase;Landroidx/camera/video/internal/VideoValidatedEncoderProfilesProxy;Landroidx/camera/video/MediaSpec;)V
+    invoke-direct/range {v1 .. v6}, Landroidx/camera/video/u0;-><init>(Landroidx/camera/video/VideoEncoderSession;Landroidx/camera/core/SurfaceRequest;Landroidx/camera/core/impl/Timebase;Landroidx/camera/video/internal/VideoValidatedEncoderProfilesProxy;Landroidx/camera/video/MediaSpec;)V
 
     .line 101
     .line 102
     .line 103
-    invoke-static {v1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 104
     .line 105
@@ -3492,12 +3548,12 @@
 
     .line 113
     .line 114
-    invoke-static {p1, p2, p3}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {p1, p2, p3}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 115
     .line 116
     .line 117
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 118
     .line 119
@@ -3615,6 +3671,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getActiveSurface()Landroid/view/Surface;
@@ -3656,9 +3718,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public getReadyToReleaseFuture()Lub/u0;
+.method public getReadyToReleaseFuture()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -3666,18 +3729,16 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Landroidx/camera/video/internal/encoder/Encoder;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/VideoEncoderSession;->mReadyToReleaseFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/video/VideoEncoderSession;->mReadyToReleaseFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -3699,6 +3760,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVideoEncoder()Landroidx/camera/video/internal/encoder/Encoder;
@@ -3729,6 +3791,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isConfiguredSurfaceRequest(Landroidx/camera/core/SurfaceRequest;)Z
@@ -3887,6 +3950,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setOnSurfaceUpdateListener(Ljava/util/concurrent/Executor;Landroidx/camera/video/internal/encoder/Encoder$SurfaceInput$OnSurfaceUpdateListener;)V
@@ -3955,7 +4019,7 @@
     .line 48
 .end method
 
-.method public signalTermination()Lub/u0;
+.method public signalTermination()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -3963,9 +4027,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -3975,11 +4037,11 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/camera/video/VideoEncoderSession;->mReleasedFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/video/VideoEncoderSession;->mReleasedFuture:Lcom/google/common/util/concurrent/t;
 
     .line 5
     .line 6
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 7
     .line 8
@@ -3998,6 +4060,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public terminateNow()V
@@ -4262,7 +4325,7 @@
 
     .line 132
     .line 133
-    invoke-interface {v1}, Landroidx/camera/video/internal/encoder/Encoder;->getReleasedFuture()Lub/u0;
+    invoke-interface {v1}, Landroidx/camera/video/internal/encoder/Encoder;->getReleasedFuture()Lcom/google/common/util/concurrent/t;
 
     .line 134
     .line 135
@@ -4270,11 +4333,11 @@
     move-result-object v1
 
     .line 137
-    new-instance v2, Landroidx/camera/video/q;
+    new-instance v2, Landroidx/camera/video/r0;
 
     .line 138
     .line 139
-    invoke-direct {v2, p0}, Landroidx/camera/video/q;-><init>(Landroidx/camera/video/VideoEncoderSession;)V
+    invoke-direct {v2, p0}, Landroidx/camera/video/r0;-><init>(Landroidx/camera/video/VideoEncoderSession;)V
 
     .line 140
     .line 141
@@ -4283,7 +4346,7 @@
 
     .line 143
     .line 144
-    invoke-interface {v1, v2, v3}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v1, v2, v3}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 145
     .line 146
@@ -4540,6 +4603,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -4664,4 +4779,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

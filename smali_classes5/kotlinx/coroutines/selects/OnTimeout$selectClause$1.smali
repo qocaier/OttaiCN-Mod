@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/q;
+.implements Lq8/q;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/selects/OnTimeout;->c()Lpn/c;
+    value = Lkotlinx/coroutines/selects/OnTimeout;->c()Lkotlinx/coroutines/selects/e;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,13 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/q<",
-        "Lkotlinx/coroutines/selects/OnTimeout;",
-        "Lpn/j<",
-        "*>;",
-        "Ljava/lang/Object;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/q;"
     }
 .end annotation
 
@@ -75,30 +69,29 @@
     .line 1
     check-cast p1, Lkotlinx/coroutines/selects/OnTimeout;
 
-    check-cast p2, Lpn/j;
+    check-cast p2, Lkotlinx/coroutines/selects/j;
 
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/selects/OnTimeout$selectClause$1;->invoke(Lkotlinx/coroutines/selects/OnTimeout;Lpn/j;Ljava/lang/Object;)V
+    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/selects/OnTimeout$selectClause$1;->invoke(Lkotlinx/coroutines/selects/OnTimeout;Lkotlinx/coroutines/selects/j;Ljava/lang/Object;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlinx/coroutines/selects/OnTimeout;Lpn/j;Ljava/lang/Object;)V
+.method public final invoke(Lkotlinx/coroutines/selects/OnTimeout;Lkotlinx/coroutines/selects/j;Ljava/lang/Object;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lkotlinx/coroutines/selects/OnTimeout;",
-            "Lpn/j<",
-            "*>;",
+            "Lkotlinx/coroutines/selects/j;",
             "Ljava/lang/Object;",
             ")V"
         }
     .end annotation
 
     .line 2
-    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/selects/OnTimeout;->b(Lkotlinx/coroutines/selects/OnTimeout;Lpn/j;Ljava/lang/Object;)V
+    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/selects/OnTimeout;->b(Lkotlinx/coroutines/selects/OnTimeout;Lkotlinx/coroutines/selects/j;Ljava/lang/Object;)V
 
     return-void
 .end method

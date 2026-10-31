@@ -36,28 +36,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public setUp(Landroidx/activity/SystemBarStyle;Landroidx/activity/SystemBarStyle;Landroid/view/Window;Landroid/view/View;ZZ)V
     .locals 1
-    .param p1    # Landroidx/activity/SystemBarStyle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/activity/SystemBarStyle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroid/view/Window;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
@@ -66,7 +51,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -75,7 +60,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -84,7 +69,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -93,7 +78,7 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -132,7 +117,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-static {p3, v0}, Ld/l;->a(Landroid/view/Window;Z)V
+    invoke-static {p3, v0}, Landroidx/activity/o;->a(Landroid/view/Window;Z)V
 
     .line 40
     .line 41
@@ -156,7 +141,7 @@
 
     .line 50
     :cond_0
-    invoke-static {p3, v0}, Ld/m;->a(Landroid/view/Window;Z)V
+    invoke-static {p3, v0}, Landroidx/activity/p;->a(Landroid/view/Window;Z)V
 
     .line 51
     .line 52

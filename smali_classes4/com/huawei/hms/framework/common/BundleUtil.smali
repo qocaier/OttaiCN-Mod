@@ -36,6 +36,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static bundleToJson(Landroid/os/Bundle;)Ljava/lang/String;
@@ -187,6 +189,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static jsonToBundle(Ljava/lang/String;)Landroid/os/Bundle;
@@ -331,6 +335,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static transPkgPrefix(Ljava/lang/String;)Ljava/lang/String;
@@ -470,4 +476,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

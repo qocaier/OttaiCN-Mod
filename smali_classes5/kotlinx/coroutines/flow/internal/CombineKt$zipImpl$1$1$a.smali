@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
@@ -16,26 +16,16 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljm/l<",
-        "Ljava/lang/Throwable;",
-        "Ljl/e2;",
-        ">;"
-    }
-.end annotation
-
 
 # instance fields
-.field public final synthetic a:Lkotlinx/coroutines/f;
+.field public final synthetic a:Lkotlinx/coroutines/y;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/f;)V
+.method public constructor <init>(Lkotlinx/coroutines/y;)V
     .locals 0
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$zipImpl$1$1$a;->a:Lkotlinx/coroutines/f;
+    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$zipImpl$1$1$a;->a:Lkotlinx/coroutines/y;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -48,11 +38,11 @@
     .locals 2
 
     .line 1
-    iget-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$zipImpl$1$1$a;->a:Lkotlinx/coroutines/f;
+    iget-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$zipImpl$1$1$a;->a:Lkotlinx/coroutines/y;
 
     .line 2
     .line 3
-    invoke-interface {p1}, Lkotlinx/coroutines/l;->isActive()Z
+    invoke-interface {p1}, Lkotlinx/coroutines/s1;->isActive()Z
 
     .line 4
     .line 5
@@ -64,7 +54,7 @@
 
     .line 8
     .line 9
-    iget-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$zipImpl$1$1$a;->a:Lkotlinx/coroutines/f;
+    iget-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$zipImpl$1$1$a;->a:Lkotlinx/coroutines/y;
 
     .line 10
     .line 11
@@ -72,7 +62,7 @@
 
     .line 12
     .line 13
-    iget-object v1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$zipImpl$1$1$a;->a:Lkotlinx/coroutines/f;
+    iget-object v1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$zipImpl$1$1$a;->a:Lkotlinx/coroutines/y;
 
     .line 14
     .line 15
@@ -81,7 +71,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-interface {p1, v0}, Lkotlinx/coroutines/l;->b(Ljava/util/concurrent/CancellationException;)V
+    invoke-interface {p1, v0}, Lkotlinx/coroutines/s1;->a(Ljava/util/concurrent/CancellationException;)V
 
     .line 19
     .line 20
@@ -91,6 +81,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
@@ -106,7 +129,7 @@
     .line 4
     .line 5
     .line 6
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 7
     .line 8
@@ -127,4 +150,37 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method

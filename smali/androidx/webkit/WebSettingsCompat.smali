@@ -98,6 +98,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getAdapter(Landroid/webkit/WebSettings;)Landroidx/webkit/internal/WebSettingsAdapter;
@@ -379,6 +380,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getEnterpriseAuthenticationAppLinkPolicyEnabled(Landroid/webkit/WebSettings;)Z
@@ -563,6 +565,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getForceDarkStrategy(Landroid/webkit/WebSettings;)I
@@ -747,6 +750,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getRequestedWithHeaderOriginAllowList(Landroid/webkit/WebSettings;)Ljava/util/Set;
@@ -942,6 +946,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getSpeculativeLoadingStatus(Landroid/webkit/WebSettings;)I

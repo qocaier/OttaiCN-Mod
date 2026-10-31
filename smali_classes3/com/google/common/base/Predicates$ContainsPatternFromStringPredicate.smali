@@ -13,9 +13,6 @@
     name = "ContainsPatternFromStringPredicate"
 .end annotation
 
-.annotation build Lfb/c;
-.end annotation
-
 
 # static fields
 .field private static final serialVersionUID:J
@@ -24,17 +21,9 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "string"
-        }
-    .end annotation
 
     .line 1
-    invoke-static {p1}, Lcom/google/common/base/b;->a(Ljava/lang/String;)Lgb/e;
+    invoke-static {p1}, Lcom/google/common/base/n;->a(Ljava/lang/String;)Lcom/google/common/base/e;
 
     .line 2
     .line 3
@@ -42,7 +31,7 @@
     move-result-object p1
 
     .line 5
-    invoke-direct {p0, p1}, Lcom/google/common/base/Predicates$ContainsPatternPredicate;-><init>(Lgb/e;)V
+    invoke-direct {p0, p1}, Lcom/google/common/base/Predicates$ContainsPatternPredicate;-><init>(Lcom/google/common/base/e;)V
 
     .line 6
     .line 7
@@ -64,7 +53,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -91,11 +79,11 @@
     .line 9
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lgb/e;
+    iget-object v1, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lcom/google/common/base/e;
 
     .line 12
     .line 13
-    invoke-virtual {v1}, Lgb/e;->pattern()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/google/common/base/e;->pattern()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -197,13 +185,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

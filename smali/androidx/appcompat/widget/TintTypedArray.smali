@@ -227,6 +227,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getColor(II)I
@@ -406,6 +407,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getDimension(IF)F
@@ -703,6 +705,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getDrawableIfKnown(I)Landroid/graphics/drawable/Drawable;
@@ -822,6 +825,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getFloat(IF)F
@@ -1045,6 +1049,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getFraction(IIIF)F
@@ -1287,6 +1294,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getIndex(I)I
@@ -1356,6 +1369,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInt(II)I
@@ -1571,6 +1585,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getResourceId(II)I
@@ -1663,6 +1678,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getString(I)Ljava/lang/String;
@@ -1899,6 +1915,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasValue(I)Z
@@ -1968,6 +1985,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public peekValue(I)Landroid/util/TypedValue;
@@ -2035,4 +2053,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -21,25 +21,18 @@
 
 # instance fields
 .field private final loader:Ljava/lang/ClassLoader;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/ClassLoader;)V
     .locals 1
-    .param p1    # Ljava/lang/ClassLoader;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "loader"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -101,7 +94,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -113,24 +106,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
-.method public final buildPairPredicate(Lum/d;Lum/d;Ljm/p;)Ljava/lang/Object;
+.method public final buildPairPredicate(Lkotlin/reflect/c;Lkotlin/reflect/c;Lq8/p;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -138,19 +120,12 @@
             "U:",
             "Ljava/lang/Object;",
             ">(",
-            "Lum/d<",
-            "TT;>;",
-            "Lum/d<",
-            "TU;>;",
-            "Ljm/p<",
-            "-TT;-TU;",
-            "Ljava/lang/Boolean;",
-            ">;)",
+            "Lkotlin/reflect/c;",
+            "Lkotlin/reflect/c;",
+            "Lq8/p;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -158,7 +133,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -167,7 +142,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -176,7 +151,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -185,7 +160,7 @@
 
     .line 17
     .line 18
-    invoke-direct {v0, p1, p2, p3}, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;-><init>(Lum/d;Lum/d;Ljm/p;)V
+    invoke-direct {v0, p1, p2, p3}, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;-><init>(Lkotlin/reflect/c;Lkotlin/reflect/c;Lq8/p;)V
 
     .line 19
     .line 20
@@ -222,7 +197,7 @@
 
     .line 36
     .line 37
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -301,34 +276,23 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public final buildPredicate(Lum/d;Ljm/l;)Ljava/lang/Object;
+.method public final buildPredicate(Lkotlin/reflect/c;Lq8/l;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lum/d<",
-            "TT;>;",
-            "Ljm/l<",
-            "-TT;",
-            "Ljava/lang/Boolean;",
-            ">;)",
+            "Lkotlin/reflect/c;",
+            "Lq8/l;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -336,7 +300,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -345,7 +309,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -354,7 +318,7 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, p1, p2}, Landroidx/window/core/PredicateAdapter$PredicateStubHandler;-><init>(Lum/d;Ljm/l;)V
+    invoke-direct {v0, p1, p2}, Landroidx/window/core/PredicateAdapter$PredicateStubHandler;-><init>(Lkotlin/reflect/c;Lq8/l;)V
 
     .line 14
     .line 15
@@ -391,7 +355,7 @@
 
     .line 31
     .line 32
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -420,9 +384,6 @@
             "Ljava/lang/Class<",
             "*>;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -458,4 +419,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

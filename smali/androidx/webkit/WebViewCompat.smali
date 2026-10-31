@@ -59,6 +59,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -87,6 +88,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static addDocumentStartJavaScript(Landroid/webkit/WebView;Ljava/lang/String;Ljava/util/Set;)Landroidx/webkit/ScriptHandler;
@@ -268,6 +270,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static addWebMessageListener(Landroid/webkit/WebView;Ljava/lang/String;Ljava/util/Set;Landroidx/webkit/WebViewCompat$WebMessageListener;)V
@@ -566,6 +571,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static checkThread(Landroid/webkit/WebView;)V
@@ -922,6 +933,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private static createProvider(Landroid/webkit/WebView;)Lorg/chromium/support_lib_boundary/WebViewProviderBoundaryInterface;
@@ -1096,6 +1112,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getCurrentLoadedWebViewPackage()Landroid/content/pm/PackageInfo;
@@ -1161,6 +1178,7 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getCurrentWebViewPackage(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
@@ -1244,6 +1262,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getLoadedWebViewPackageInfo()Landroid/content/pm/PackageInfo;
@@ -1374,6 +1393,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static getNotYetLoadedWebViewPackageInfo(Landroid/content/Context;)Landroid/content/pm/PackageInfo;
@@ -1514,6 +1535,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getProfile(Landroid/webkit/WebView;)Landroidx/webkit/Profile;
@@ -1751,6 +1773,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getVariationsHeader()Ljava/lang/String;
@@ -1873,6 +1897,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getWebChromeClient(Landroid/webkit/WebView;)Landroid/webkit/WebChromeClient;
@@ -2004,6 +2030,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getWebViewClient(Landroid/webkit/WebView;)Landroid/webkit/WebViewClient;
@@ -2135,6 +2162,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getWebViewRenderProcess(Landroid/webkit/WebView;)Landroidx/webkit/WebViewRenderProcess;
@@ -2277,6 +2305,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getWebViewRenderProcessClient(Landroid/webkit/WebView;)Landroidx/webkit/WebViewRenderProcessClient;
@@ -2429,6 +2458,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static isAudioMuted(Landroid/webkit/WebView;)Z
@@ -2608,6 +2638,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static postVisualStateCallback(Landroid/webkit/WebView;JLandroidx/webkit/WebViewCompat$VisualStateCallback;)V
@@ -2771,6 +2803,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static postWebMessage(Landroid/webkit/WebView;Landroidx/webkit/WebMessageCompat;Landroid/net/Uri;)V
@@ -2969,6 +3004,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static removeWebMessageListener(Landroid/webkit/WebView;Ljava/lang/String;)V
@@ -3542,6 +3580,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static setSafeBrowsingWhitelist(Ljava/util/List;Landroid/webkit/ValueCallback;)V

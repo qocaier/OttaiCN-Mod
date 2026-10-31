@@ -132,6 +132,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static obtainPathResult(Landroid/content/Intent;)Ljava/util/List;
@@ -179,6 +181,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static obtainResult(Landroid/content/Intent;)Ljava/util/List;
@@ -226,6 +230,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static startSelectMediaFile(Landroid/app/Activity;Ljava/util/Set;II)V
@@ -558,6 +564,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFragment()Landroidx/fragment/app/Fragment;
@@ -601,4 +609,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

@@ -3,40 +3,36 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroid/database/sqlite/SQLiteDatabase$CursorFactory;
 
 
 # instance fields
-.field public final synthetic a:Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;
-
-.field public final synthetic b:Lcom/tekartik/sqflite/DatabaseWorker;
+.field public final synthetic a:Lcom/tekartik/sqflite/SqlCommand;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;Lcom/tekartik/sqflite/DatabaseWorker;)V
+.method public synthetic constructor <init>(Lcom/tekartik/sqflite/SqlCommand;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/tekartik/sqflite/i;->a:Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;
-
-    iput-object p2, p0, Lcom/tekartik/sqflite/i;->b:Lcom/tekartik/sqflite/DatabaseWorker;
+    iput-object p1, p0, Lcom/tekartik/sqflite/i;->a:Lcom/tekartik/sqflite/SqlCommand;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 2
+.method public final newCursor(Landroid/database/sqlite/SQLiteDatabase;Landroid/database/sqlite/SQLiteCursorDriver;Ljava/lang/String;Landroid/database/sqlite/SQLiteQuery;)Landroid/database/Cursor;
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/tekartik/sqflite/i;->a:Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;
+    iget-object v0, p0, Lcom/tekartik/sqflite/i;->a:Lcom/tekartik/sqflite/SqlCommand;
 
-    iget-object v1, p0, Lcom/tekartik/sqflite/i;->b:Lcom/tekartik/sqflite/DatabaseWorker;
+    invoke-static {v0, p1, p2, p3, p4}, Lcom/tekartik/sqflite/Database;->f(Lcom/tekartik/sqflite/SqlCommand;Landroid/database/sqlite/SQLiteDatabase;Landroid/database/sqlite/SQLiteCursorDriver;Ljava/lang/String;Landroid/database/sqlite/SQLiteQuery;)Landroid/database/Cursor;
 
-    invoke-static {v0, v1}, Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;->a(Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;Lcom/tekartik/sqflite/DatabaseWorker;)V
+    move-result-object p1
 
-    return-void
+    return-object p1
 .end method

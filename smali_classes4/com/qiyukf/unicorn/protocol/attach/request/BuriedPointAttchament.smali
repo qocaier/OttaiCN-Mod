@@ -159,6 +159,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -194,6 +195,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setProp(Lorg/json/JSONObject;)V
@@ -227,6 +230,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSid(Ljava/lang/Long;)V
@@ -260,6 +265,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTerminal(I)V
@@ -293,6 +300,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setType(Ljava/lang/String;)V
@@ -326,6 +335,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVersion(I)V
@@ -359,4 +370,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -146,6 +146,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -176,6 +178,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getHeader()Ljava/lang/String;
@@ -204,6 +208,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMethod()I
@@ -241,6 +247,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPath()Ljava/lang/String;
@@ -269,6 +277,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getZone()Ljava/lang/String;
@@ -297,6 +307,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setBody(Ljava/lang/String;)V
@@ -330,6 +342,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setHeader(Ljava/lang/String;)V
@@ -363,6 +377,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMethod(I)V
@@ -396,6 +412,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPath(Ljava/lang/String;)V
@@ -429,6 +447,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setZone(Ljava/lang/String;)V
@@ -462,4 +482,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

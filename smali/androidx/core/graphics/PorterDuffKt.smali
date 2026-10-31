@@ -6,12 +6,6 @@
 # direct methods
 .method public static final toColorFilter(Landroid/graphics/PorterDuff$Mode;I)Landroid/graphics/PorterDuffColorFilter;
     .locals 1
-    .param p0    # Landroid/graphics/PorterDuff$Mode;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/PorterDuffColorFilter;
@@ -70,12 +64,6 @@
 
 .method public static final toXfermode(Landroid/graphics/PorterDuff$Mode;)Landroid/graphics/PorterDuffXfermode;
     .locals 1
-    .param p0    # Landroid/graphics/PorterDuff$Mode;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/PorterDuffXfermode;

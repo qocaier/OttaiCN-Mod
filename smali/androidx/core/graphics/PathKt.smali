@@ -3,31 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nPath.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Path.kt\nandroidx/core/graphics/PathKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,60:1\n37#1:62\n1#2:61\n1#2:63\n*S KotlinDebug\n*F\n+ 1 Path.kt\nandroidx/core/graphics/PathKt\n*L\n46#1:62\n46#1:63\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nPath.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Path.kt\nandroidx/core/graphics/PathKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,60:1\n37#1:62\n1#2:61\n1#2:63\n*S KotlinDebug\n*F\n+ 1 Path.kt\nandroidx/core/graphics/PathKt\n*L\n46#1:62\n46#1:63\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final and(Landroid/graphics/Path;Landroid/graphics/Path;)Landroid/graphics/Path;
     .locals 2
-    .param p0    # Landroid/graphics/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Path;
@@ -90,10 +68,6 @@
 
 .method public static final flatten(Landroid/graphics/Path;F)Ljava/lang/Iterable;
     .locals 0
-    .param p0    # Landroid/graphics/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
@@ -107,9 +81,6 @@
             "Landroidx/core/graphics/PathSegment;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -414,20 +385,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static final minus(Landroid/graphics/Path;Landroid/graphics/Path;)Landroid/graphics/Path;
     .locals 1
-    .param p0    # Landroid/graphics/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Path;
@@ -490,16 +457,6 @@
 
 .method public static final or(Landroid/graphics/Path;Landroid/graphics/Path;)Landroid/graphics/Path;
     .locals 1
-    .param p0    # Landroid/graphics/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Path;
@@ -562,16 +519,6 @@
 
 .method public static final plus(Landroid/graphics/Path;Landroid/graphics/Path;)Landroid/graphics/Path;
     .locals 1
-    .param p0    # Landroid/graphics/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Path;
@@ -634,16 +581,6 @@
 
 .method public static final xor(Landroid/graphics/Path;Landroid/graphics/Path;)Landroid/graphics/Path;
     .locals 1
-    .param p0    # Landroid/graphics/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Path;

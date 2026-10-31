@@ -292,6 +292,8 @@
     .line 83
     return-void
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(Landroidx/camera/core/impl/OptionsBundle;)V
@@ -447,6 +449,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getConfig()Landroidx/camera/core/impl/Config;
@@ -477,6 +480,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFlashMode()I
@@ -605,6 +609,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInputFormat()I
@@ -643,6 +648,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIoExecutor()Ljava/util/concurrent/Executor;
@@ -811,6 +817,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSoftwareJpegEncoderRequested()Z
@@ -856,4 +863,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

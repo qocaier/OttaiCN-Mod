@@ -271,6 +271,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/ImageAnalysisAbstractAnalyzer;Landroidx/camera/core/ImageProxy;Landroid/graphics/Matrix;Landroidx/camera/core/ImageProxy;Landroid/graphics/Rect;Landroidx/camera/core/ImageAnalysis$Analyzer;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
@@ -970,7 +972,7 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Landroidx/camera/core/d;
+    new-instance v0, Landroidx/camera/core/m;
 
     .line 5
     .line 6
@@ -995,7 +997,7 @@
     move-object v7, p7
 
     .line 13
-    invoke-direct/range {v0 .. v7}, Landroidx/camera/core/d;-><init>(Landroidx/camera/core/ImageAnalysisAbstractAnalyzer;Landroidx/camera/core/ImageProxy;Landroid/graphics/Matrix;Landroidx/camera/core/ImageProxy;Landroid/graphics/Rect;Landroidx/camera/core/ImageAnalysis$Analyzer;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+    invoke-direct/range {v0 .. v7}, Landroidx/camera/core/m;-><init>(Landroidx/camera/core/ImageAnalysisAbstractAnalyzer;Landroidx/camera/core/ImageProxy;Landroid/graphics/Matrix;Landroidx/camera/core/ImageProxy;Landroid/graphics/Rect;Landroidx/camera/core/ImageAnalysis$Analyzer;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
 
     .line 14
     .line 15
@@ -1963,6 +1965,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private static createImageReaderProxy(IIIII)Landroidx/camera/core/SafeCloseImageReaderProxy;
@@ -3456,6 +3463,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private recreateImageReaderProxy(Landroidx/camera/core/ImageProxy;I)V
@@ -3776,6 +3789,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -3789,7 +3805,7 @@
     .end annotation
 .end method
 
-.method public analyzeImage(Landroidx/camera/core/ImageProxy;)Lub/u0;
+.method public analyzeImage(Landroidx/camera/core/ImageProxy;)Lcom/google/common/util/concurrent/t;
     .locals 16
     .param p1    # Landroidx/camera/core/ImageProxy;
         .annotation build Landroidx/annotation/NonNull;
@@ -3800,9 +3816,7 @@
             "(",
             "Landroidx/camera/core/ImageProxy;",
             ")",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -4220,7 +4234,7 @@
     move-object v2, v0
 
     .line 178
-    new-instance v0, Landroidx/camera/core/e;
+    new-instance v0, Landroidx/camera/core/n;
 
     .line 179
     .line 180
@@ -4231,12 +4245,12 @@
     move-object v7, v10
 
     .line 183
-    invoke-direct/range {v0 .. v7}, Landroidx/camera/core/e;-><init>(Landroidx/camera/core/ImageAnalysisAbstractAnalyzer;Ljava/util/concurrent/Executor;Landroidx/camera/core/ImageProxy;Landroid/graphics/Matrix;Landroidx/camera/core/ImageProxy;Landroid/graphics/Rect;Landroidx/camera/core/ImageAnalysis$Analyzer;)V
+    invoke-direct/range {v0 .. v7}, Landroidx/camera/core/n;-><init>(Landroidx/camera/core/ImageAnalysisAbstractAnalyzer;Ljava/util/concurrent/Executor;Landroidx/camera/core/ImageProxy;Landroid/graphics/Matrix;Landroidx/camera/core/ImageProxy;Landroid/graphics/Rect;Landroidx/camera/core/ImageAnalysis$Analyzer;)V
 
     .line 184
     .line 185
     .line 186
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 187
     .line 188
@@ -4271,7 +4285,7 @@
     .line 198
     .line 199
     .line 200
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 201
     .line 202
@@ -4346,6 +4360,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public attach()V
@@ -4376,6 +4395,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract clearCache()V
@@ -4411,6 +4431,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onImageAvailable(Landroidx/camera/core/impl/ImageReaderProxy;)V

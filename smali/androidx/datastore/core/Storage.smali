@@ -23,7 +23,4 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method

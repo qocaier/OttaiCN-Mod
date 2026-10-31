@@ -41,6 +41,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static createFrom(Landroidx/camera/core/impl/UseCaseConfig;Landroid/util/Size;)Landroidx/camera/core/impl/SessionConfig$Builder;
@@ -298,6 +299,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public addAllDeviceStateCallbacks(Ljava/util/Collection;)Landroidx/camera/core/impl/SessionConfig$Builder;
@@ -860,6 +862,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public addRepeatingCameraCaptureCallback(Landroidx/camera/core/impl/CameraCaptureCallback;)Landroidx/camera/core/impl/SessionConfig$Builder;
@@ -1215,6 +1218,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public clearSurfaces()Landroidx/camera/core/impl/SessionConfig$Builder;
@@ -1251,6 +1256,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSingleCameraCaptureCallbacks()Ljava/util/List;
@@ -1294,6 +1300,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeCameraCaptureCallback(Landroidx/camera/core/impl/CameraCaptureCallback;)Z
@@ -1492,6 +1499,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setExpectedFrameRateRange(Landroid/util/Range;)Landroidx/camera/core/impl/SessionConfig$Builder;

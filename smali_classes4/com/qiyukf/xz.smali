@@ -99,6 +99,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method private a(Lcom/qiyukf/eb;Lcom/qiyukf/f8;)V
@@ -369,7 +379,7 @@
 .end method
 
 .method public a([BII)[B
-    .locals 12
+    .locals 11
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/qiyukf/hh;
@@ -417,45 +427,47 @@
     sget-object v7, Lcom/qiyukf/j2;->a:Ljava/math/BigInteger;
 
     .line 18
-    new-instance v8, Ljava/math/BigInteger;
+    new-instance v7, Ljava/math/BigInteger;
 
     if-lt v5, v2, :cond_3
 
-    add-int/lit8 v9, v5, 0x7
+    add-int/lit8 v8, v5, 0x7
 
     .line 19
-    div-int/lit8 v9, v9, 0x8
+    div-int/lit8 v8, v8, 0x8
 
     .line 20
-    new-array v10, v9, [B
+    new-array v9, v8, [B
 
     .line 21
-    invoke-virtual {v6, v10}, Ljava/security/SecureRandom;->nextBytes([B)V
+    invoke-virtual {v6, v9}, Ljava/security/SecureRandom;->nextBytes([B)V
 
-    mul-int/lit8 v9, v9, 0x8
+    mul-int/lit8 v8, v8, 0x8
 
-    sub-int/2addr v9, v5
+    sub-int/2addr v8, v5
 
     .line 22
-    aget-byte v6, v10, v3
+    aget-byte v6, v9, v3
 
-    const/16 v11, 0xff
+    const/16 v10, 0xff
 
-    ushr-int v9, v11, v9
+    ushr-int v8, v10, v8
 
-    int-to-byte v9, v9
+    int-to-byte v8, v8
 
-    and-int/2addr v6, v9
+    and-int/2addr v6, v8
 
     int-to-byte v6, v6
 
-    aput-byte v6, v10, v3
+    aput-byte v6, v9, v3
 
     .line 23
-    invoke-direct {v8, v2, v10}, Ljava/math/BigInteger;-><init>(I[B)V
+    invoke-direct {v7, v2, v9}, Ljava/math/BigInteger;-><init>(I[B)V
 
     .line 24
-    invoke-virtual {v8, v7}, Ljava/math/BigInteger;->equals(Ljava/lang/Object;)Z
+    sget-object v6, Lcom/qiyukf/j2;->a:Ljava/math/BigInteger;
+
+    invoke-virtual {v7, v6}, Ljava/math/BigInteger;->equals(Ljava/lang/Object;)Z
 
     move-result v6
 
@@ -467,7 +479,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v8, v6}, Ljava/math/BigInteger;->compareTo(Ljava/math/BigInteger;)I
+    invoke-virtual {v7, v6}, Ljava/math/BigInteger;->compareTo(Ljava/math/BigInteger;)I
 
     move-result v6
 
@@ -480,7 +492,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v4, v5, v8}, Lcom/qiyukf/h;->a(Lcom/qiyukf/i8;Ljava/math/BigInteger;)Lcom/qiyukf/i8;
+    invoke-virtual {v4, v5, v7}, Lcom/qiyukf/h;->a(Lcom/qiyukf/i8;Ljava/math/BigInteger;)Lcom/qiyukf/i8;
 
     move-result-object v5
 
@@ -502,7 +514,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v6, v8}, Lcom/qiyukf/i8;->a(Ljava/math/BigInteger;)Lcom/qiyukf/i8;
+    invoke-virtual {v6, v7}, Lcom/qiyukf/i8;->a(Ljava/math/BigInteger;)Lcom/qiyukf/i8;
 
     move-result-object v6
 
@@ -572,7 +584,7 @@
     return-object p1
 
     :cond_2
-    add-int/lit8 v7, v7, 0x1
+    add-int/2addr v7, v2
 
     goto :goto_0
 
@@ -594,135 +606,135 @@
 
     add-int/2addr v0, v2
 
-    new-array v2, v0, [B
+    new-array v4, v0, [B
 
     .line 38
-    invoke-static {p1, p2, v2, v3, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {p1, p2, v4, v3, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 39
-    iget-object v4, p0, Lcom/qiyukf/xz;->d:Lcom/qiyukf/e8;
-
-    invoke-virtual {v4}, Lcom/qiyukf/e8;->a()Lcom/qiyukf/d8;
-
-    move-result-object v4
-
-    invoke-virtual {v4, v2}, Lcom/qiyukf/d8;->a([B)Lcom/qiyukf/i8;
-
-    move-result-object v4
-
-    .line 40
     iget-object v5, p0, Lcom/qiyukf/xz;->d:Lcom/qiyukf/e8;
 
-    invoke-virtual {v5}, Lcom/qiyukf/e8;->c()Ljava/math/BigInteger;
+    invoke-virtual {v5}, Lcom/qiyukf/e8;->a()Lcom/qiyukf/d8;
 
     move-result-object v5
 
-    invoke-virtual {v4, v5}, Lcom/qiyukf/i8;->a(Ljava/math/BigInteger;)Lcom/qiyukf/i8;
+    invoke-virtual {v5, v4}, Lcom/qiyukf/d8;->a([B)Lcom/qiyukf/i8;
 
     move-result-object v5
+
+    .line 40
+    iget-object v6, p0, Lcom/qiyukf/xz;->d:Lcom/qiyukf/e8;
+
+    invoke-virtual {v6}, Lcom/qiyukf/e8;->c()Ljava/math/BigInteger;
+
+    move-result-object v6
+
+    invoke-virtual {v5, v6}, Lcom/qiyukf/i8;->a(Ljava/math/BigInteger;)Lcom/qiyukf/i8;
+
+    move-result-object v6
 
     .line 41
-    invoke-virtual {v5}, Lcom/qiyukf/i8;->j()Z
+    invoke-virtual {v6}, Lcom/qiyukf/i8;->j()Z
 
-    move-result v5
+    move-result v6
 
-    if-nez v5, :cond_a
+    if-nez v6, :cond_a
 
     .line 42
-    iget-object v5, p0, Lcom/qiyukf/xz;->c:Lcom/qiyukf/g8;
+    iget-object v6, p0, Lcom/qiyukf/xz;->c:Lcom/qiyukf/g8;
 
-    check-cast v5, Lcom/qiyukf/j8;
+    check-cast v6, Lcom/qiyukf/j8;
 
-    invoke-virtual {v5}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v6}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    const/4 v5, 0x0
+    const/4 v6, 0x0
 
-    invoke-virtual {v4, v5}, Lcom/qiyukf/i8;->a(Ljava/math/BigInteger;)Lcom/qiyukf/i8;
+    invoke-virtual {v5, v6}, Lcom/qiyukf/i8;->a(Ljava/math/BigInteger;)Lcom/qiyukf/i8;
 
-    move-result-object v4
+    move-result-object v5
 
-    invoke-virtual {v4}, Lcom/qiyukf/i8;->n()Lcom/qiyukf/i8;
+    invoke-virtual {v5}, Lcom/qiyukf/i8;->n()Lcom/qiyukf/i8;
 
-    move-result-object v4
+    move-result-object v5
 
     .line 43
-    iget-object v5, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
+    iget-object v6, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
 
-    invoke-virtual {v5}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v6}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     sub-int/2addr p3, v0
 
     sub-int/2addr p3, v1
 
     .line 44
-    new-array v5, p3, [B
+    new-array v6, p3, [B
 
     add-int/2addr p2, v0
 
     .line 45
-    invoke-static {p1, p2, v5, v3, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {p1, p2, v6, v3, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 46
-    iget-object v6, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
+    iget-object v7, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
 
-    invoke-direct {p0, v6, v4, v5}, Lcom/qiyukf/xz;->a(Lcom/qiyukf/eb;Lcom/qiyukf/i8;[B)V
+    invoke-direct {p0, v7, v5, v6}, Lcom/qiyukf/xz;->a(Lcom/qiyukf/eb;Lcom/qiyukf/i8;[B)V
 
     .line 47
-    iget-object v6, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
+    iget-object v7, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
 
-    invoke-virtual {v6}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+    invoke-virtual {v7}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    new-array v6, v1, [B
+    new-array v7, v1, [B
 
     .line 48
-    iget-object v7, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
+    iget-object v8, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
 
-    invoke-virtual {v4}, Lcom/qiyukf/i8;->a()Lcom/qiyukf/f8;
+    invoke-virtual {v5}, Lcom/qiyukf/i8;->a()Lcom/qiyukf/f8;
 
-    move-result-object v8
+    move-result-object v9
 
-    invoke-direct {p0, v7, v8}, Lcom/qiyukf/xz;->a(Lcom/qiyukf/eb;Lcom/qiyukf/f8;)V
+    invoke-direct {p0, v8, v9}, Lcom/qiyukf/xz;->a(Lcom/qiyukf/eb;Lcom/qiyukf/f8;)V
 
     .line 49
-    iget-object v7, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
+    iget-object v8, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
 
-    invoke-virtual {v7, v5, v3, p3}, Lcom/qiyukf/eb;->a([BII)V
+    invoke-virtual {v8, v6, v3, p3}, Lcom/qiyukf/eb;->a([BII)V
 
     .line 50
-    iget-object v7, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
+    iget-object v8, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
 
-    invoke-virtual {v4}, Lcom/qiyukf/i8;->b()Lcom/qiyukf/f8;
+    invoke-virtual {v5}, Lcom/qiyukf/i8;->b()Lcom/qiyukf/f8;
 
-    move-result-object v4
+    move-result-object v5
 
-    invoke-direct {p0, v7, v4}, Lcom/qiyukf/xz;->a(Lcom/qiyukf/eb;Lcom/qiyukf/f8;)V
+    invoke-direct {p0, v8, v5}, Lcom/qiyukf/xz;->a(Lcom/qiyukf/eb;Lcom/qiyukf/f8;)V
 
     .line 51
-    iget-object v4, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
+    iget-object v5, p0, Lcom/qiyukf/xz;->a:Lcom/qiyukf/eb;
 
-    invoke-virtual {v4, v6, v3}, Lcom/qiyukf/eb;->a([BI)I
+    invoke-virtual {v5, v7, v3}, Lcom/qiyukf/eb;->a([BI)I
 
-    move v4, v3
+    move v5, v3
 
-    move v7, v4
+    move v8, v5
 
     :goto_1
-    if-eq v4, v1, :cond_5
+    if-eq v5, v1, :cond_5
 
     .line 52
-    aget-byte v8, v6, v4
+    aget-byte v9, v7, v5
 
-    add-int v9, p2, p3
+    add-int v10, p2, p3
 
-    add-int/2addr v9, v4
+    add-int/2addr v10, v5
 
-    aget-byte v9, p1, v9
+    aget-byte v10, p1, v10
 
-    xor-int/2addr v8, v9
+    xor-int/2addr v9, v10
 
-    or-int/2addr v7, v8
+    or-int/2addr v8, v9
 
-    add-int/lit8 v4, v4, 0x1
+    add-int/2addr v5, v2
 
     goto :goto_1
 
@@ -733,9 +745,9 @@
     if-ge p1, v0, :cond_6
 
     .line 53
-    aput-byte v3, v2, p1
+    aput-byte v3, v4, p1
 
-    add-int/lit8 p1, p1, 0x1
+    add-int/2addr p1, v2
 
     goto :goto_2
 
@@ -746,14 +758,14 @@
     if-ge p1, v1, :cond_7
 
     .line 54
-    aput-byte v3, v6, p1
+    aput-byte v3, v7, p1
 
-    add-int/lit8 p1, p1, 0x1
+    add-int/2addr p1, v2
 
     goto :goto_3
 
     :cond_7
-    if-eqz v7, :cond_9
+    if-eqz v8, :cond_9
 
     move p1, v3
 
@@ -761,9 +773,9 @@
     if-ge p1, p3, :cond_8
 
     .line 55
-    aput-byte v3, v5, p1
+    aput-byte v3, v6, p1
 
-    add-int/lit8 p1, p1, 0x1
+    add-int/2addr p1, v2
 
     goto :goto_4
 
@@ -778,7 +790,7 @@
     throw p1
 
     :cond_9
-    return-object v5
+    return-object v6
 
     .line 57
     :cond_a

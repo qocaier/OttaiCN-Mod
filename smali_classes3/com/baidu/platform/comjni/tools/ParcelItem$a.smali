@@ -55,7 +55,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -119,7 +118,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
@@ -154,5 +152,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

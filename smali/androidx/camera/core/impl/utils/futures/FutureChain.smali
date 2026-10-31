@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lub/u0;
+.implements Lcom/google/common/util/concurrent/t;
 
 
 # annotations
@@ -17,8 +17,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lub/u0<",
-        "TV;>;"
+        "Lcom/google/common/util/concurrent/t;"
     }
 .end annotation
 
@@ -36,14 +35,13 @@
     .end annotation
 .end field
 
-.field private final mDelegate:Lub/u0;
+.field private final mDelegate:Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "TV;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -61,26 +59,26 @@
 
     invoke-direct {v0, p0}, Landroidx/camera/core/impl/utils/futures/FutureChain$1;-><init>(Landroidx/camera/core/impl/utils/futures/FutureChain;)V
 
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     move-result-object v0
 
-    iput-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lub/u0;
+    iput-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lcom/google/common/util/concurrent/t;
 
     return-void
 .end method
 
-.method public constructor <init>(Lub/u0;)V
+.method public constructor <init>(Lcom/google/common/util/concurrent/t;)V
     .locals 0
-    .param p1    # Lub/u0;
+    .param p1    # Lcom/google/common/util/concurrent/t;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lub/u0<",
-            "TV;>;)V"
+            "Lcom/google/common/util/concurrent/t;",
+            ")V"
         }
     .end annotation
 
@@ -92,16 +90,16 @@
 
     move-result-object p1
 
-    check-cast p1, Lub/u0;
+    check-cast p1, Lcom/google/common/util/concurrent/t;
 
-    iput-object p1, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lcom/google/common/util/concurrent/t;
 
     return-void
 .end method
 
-.method public static from(Lub/u0;)Landroidx/camera/core/impl/utils/futures/FutureChain;
+.method public static from(Lcom/google/common/util/concurrent/t;)Landroidx/camera/core/impl/utils/futures/FutureChain;
     .locals 1
-    .param p0    # Lub/u0;
+    .param p0    # Lcom/google/common/util/concurrent/t;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
@@ -113,8 +111,8 @@
             "<V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lub/u0<",
-            "TV;>;)",
+            "Lcom/google/common/util/concurrent/t;",
+            ")",
             "Landroidx/camera/core/impl/utils/futures/FutureChain<",
             "TV;>;"
         }
@@ -141,7 +139,7 @@
 
     .line 9
     .line 10
-    invoke-direct {v0, p0}, Landroidx/camera/core/impl/utils/futures/FutureChain;-><init>(Lub/u0;)V
+    invoke-direct {v0, p0}, Landroidx/camera/core/impl/utils/futures/FutureChain;-><init>(Lcom/google/common/util/concurrent/t;)V
 
     .line 11
     .line 12
@@ -184,7 +182,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {p0, p1, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 2
     .line 3
@@ -248,11 +246,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v0, p1, p2}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 4
     .line 5
@@ -306,7 +304,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -358,7 +356,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lcom/google/common/util/concurrent/t;
 
     invoke-interface {v0}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
 
@@ -393,7 +391,7 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lcom/google/common/util/concurrent/t;
 
     invoke-interface {v0, p1, p2, p3}, Ljava/util/concurrent/Future;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
@@ -406,7 +404,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -432,13 +430,14 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isDone()Z
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/utils/futures/FutureChain;->mDelegate:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -464,6 +463,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public set(Ljava/lang/Object;)Z
@@ -595,7 +595,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->transform(Lub/u0;Landroidx/arch/core/util/Function;Ljava/util/concurrent/Executor;)Lub/u0;
+    invoke-static {p0, p1, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->transform(Lcom/google/common/util/concurrent/t;Landroidx/arch/core/util/Function;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -679,7 +679,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->transformAsync(Lub/u0;Landroidx/camera/core/impl/utils/futures/AsyncFunction;Ljava/util/concurrent/Executor;)Lub/u0;
+    invoke-static {p0, p1, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->transformAsync(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/AsyncFunction;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3

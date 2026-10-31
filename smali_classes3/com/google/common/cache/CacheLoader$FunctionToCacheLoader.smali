@@ -23,8 +23,7 @@
         "V:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/google/common/cache/CacheLoader<",
-        "TK;TV;>;",
+        "Lcom/google/common/cache/CacheLoader;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -35,33 +34,23 @@
 
 
 # instance fields
-.field private final computingFunction:Lgb/n;
+.field private final computingFunction:Lcom/google/common/base/g;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lgb/n<",
-            "TK;TV;>;"
+            "Lcom/google/common/base/g;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lgb/n;)V
+.method public constructor <init>(Lcom/google/common/base/g;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "computingFunction"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lgb/n<",
-            "TK;TV;>;)V"
+            "Lcom/google/common/base/g;",
+            ")V"
         }
     .end annotation
 
@@ -71,7 +60,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -79,11 +68,11 @@
     move-result-object p1
 
     .line 8
-    check-cast p1, Lgb/n;
+    check-cast p1, Lcom/google/common/base/g;
 
     .line 9
     .line 10
-    iput-object p1, p0, Lcom/google/common/cache/CacheLoader$FunctionToCacheLoader;->computingFunction:Lgb/n;
+    iput-object p1, p0, Lcom/google/common/cache/CacheLoader$FunctionToCacheLoader;->computingFunction:Lcom/google/common/base/g;
 
     .line 11
     .line 12
@@ -100,22 +89,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public load(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "key"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;)TV;"
@@ -123,11 +102,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/CacheLoader$FunctionToCacheLoader;->computingFunction:Lgb/n;
+    iget-object v0, p0, Lcom/google/common/cache/CacheLoader$FunctionToCacheLoader;->computingFunction:Lcom/google/common/base/g;
 
     .line 2
     .line 3
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -135,7 +114,7 @@
     move-result-object p1
 
     .line 7
-    invoke-interface {v0, p1}, Lgb/n;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcom/google/common/base/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -157,5 +136,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

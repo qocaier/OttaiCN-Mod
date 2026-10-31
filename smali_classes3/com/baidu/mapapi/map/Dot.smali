@@ -44,7 +44,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -178,8 +177,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public getCenter()Lcom/baidu/mapapi/model/LatLng;
@@ -210,7 +207,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getColor()I
@@ -241,7 +237,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRadius()I
@@ -272,7 +267,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setCenter(Lcom/baidu/mapapi/model/LatLng;)V
@@ -320,7 +314,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setColor(I)V
@@ -357,7 +350,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRadius(I)V
@@ -397,5 +389,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

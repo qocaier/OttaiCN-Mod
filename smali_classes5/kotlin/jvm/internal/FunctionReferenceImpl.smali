@@ -6,9 +6,6 @@
 # direct methods
 .method public constructor <init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 7
-    .annotation build Ljl/x0;
-        version = "1.4"
-    .end annotation
 
     .line 4
     sget-object v2, Lkotlin/jvm/internal/CallableReference;->NO_RECEIVER:Ljava/lang/Object;
@@ -32,9 +29,6 @@
 
 .method public constructor <init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 0
-    .annotation build Ljl/x0;
-        version = "1.4"
-    .end annotation
 
     .line 5
     invoke-direct/range {p0 .. p6}, Lkotlin/jvm/internal/FunctionReference;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
@@ -42,7 +36,7 @@
     return-void
 .end method
 
-.method public constructor <init>(ILum/h;Ljava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(ILkotlin/reflect/e;Ljava/lang/String;Ljava/lang/String;)V
     .locals 7
 
     .line 1
@@ -50,14 +44,14 @@
 
     move-object v0, p2
 
-    check-cast v0, Lkm/s;
+    check-cast v0, Lkotlin/jvm/internal/c;
 
     .line 2
-    invoke-interface {v0}, Lkm/s;->p()Ljava/lang/Class;
+    invoke-interface {v0}, Lkotlin/jvm/internal/c;->b()Ljava/lang/Class;
 
     move-result-object v3
 
-    instance-of p2, p2, Lum/d;
+    instance-of p2, p2, Lkotlin/reflect/c;
 
     xor-int/lit8 v6, p2, 0x1
 

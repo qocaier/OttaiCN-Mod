@@ -19,18 +19,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;Landroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "extensionRegistry",
-            "bytes"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;-><init>(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -150,6 +138,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -201,18 +192,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "obj"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/LazyField;->getValue()Landroidx/datastore/preferences/protobuf/MessageLite;
@@ -280,6 +264,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -314,6 +299,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -348,4 +334,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

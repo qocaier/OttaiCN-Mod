@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lr6/s;
+.implements Lt0/r;
 
 
 # annotations
@@ -54,24 +54,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public a()Ljava/util/Set;
     .locals 4
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Set<",
-            "Lu5/e;",
-            ">;"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/manager/RequestManagerFragment$a;->a:Lcom/bumptech/glide/manager/RequestManagerFragment;
@@ -137,7 +125,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {v2}, Lcom/bumptech/glide/manager/RequestManagerFragment;->e()Lu5/e;
+    invoke-virtual {v2}, Lcom/bumptech/glide/manager/RequestManagerFragment;->e()Lcom/bumptech/glide/h;
 
     .line 33
     .line 34
@@ -149,7 +137,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {v2}, Lcom/bumptech/glide/manager/RequestManagerFragment;->e()Lu5/e;
+    invoke-virtual {v2}, Lcom/bumptech/glide/manager/RequestManagerFragment;->e()Lcom/bumptech/glide/h;
 
     .line 39
     .line 40
@@ -221,15 +209,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -362,13 +341,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

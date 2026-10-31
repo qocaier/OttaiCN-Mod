@@ -17,7 +17,7 @@
 
 
 # instance fields
-.field private a:Lokhttp3/q;
+.field private a:La9/z;
 
 .field private b:Ljava/lang/String;
 
@@ -49,18 +49,7 @@
     return-void
 .end method
 
-.method public static a()Lcom/baidu/location/b/r;
-    .locals 1
-
-    .line 1
-    invoke-static {}, Lcom/baidu/location/b/r$b;->a()Lcom/baidu/location/b/r;
-
-    move-result-object v0
-
-    return-object v0
-.end method
-
-.method private a(Ljava/util/Map;)Lokhttp3/s;
+.method private a(Ljava/util/Map;)La9/b0;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -69,11 +58,11 @@
             "Ljava/lang/String;",
             "Ljava/lang/Object;",
             ">;)",
-            "Lokhttp3/s;"
+            "La9/b0;"
         }
     .end annotation
 
-    .line 2
+    .line 1
     sget-object v0, Lcom/baidu/location/b/r;->c:Ljava/util/concurrent/locks/Lock;
 
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
@@ -145,7 +134,7 @@
     :cond_1
     const-string p1, "application/json;charset=UTF-8"
 
-    invoke-static {p1}, Lokhttp3/o;->k(Ljava/lang/String;)Lokhttp3/o;
+    invoke-static {p1}, La9/y;->f(Ljava/lang/String;)La9/y;
 
     move-result-object p1
 
@@ -157,11 +146,22 @@
 
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    invoke-static {p1, v0}, Lokhttp3/s;->g(Lokhttp3/o;Ljava/lang/String;)Lokhttp3/s;
+    invoke-static {p1, v0}, La9/b0;->c(La9/y;Ljava/lang/String;)La9/b0;
 
     move-result-object p1
 
     return-object p1
+.end method
+
+.method public static a()Lcom/baidu/location/b/r;
+    .locals 1
+
+    .line 2
+    invoke-static {}, Lcom/baidu/location/b/r$b;->a()Lcom/baidu/location/b/r;
+
+    move-result-object v0
+
+    return-object v0
 .end method
 
 .method private declared-synchronized b()V
@@ -170,13 +170,13 @@
     monitor-enter p0
 
     :try_start_0
-    iget-object v0, p0, Lcom/baidu/location/b/r;->a:Lokhttp3/q;
+    iget-object v0, p0, Lcom/baidu/location/b/r;->a:La9/z;
 
     if-nez v0, :cond_0
 
-    new-instance v0, Lokhttp3/q$a;
+    new-instance v0, La9/z$a;
 
-    invoke-direct {v0}, Lokhttp3/q$a;-><init>()V
+    invoke-direct {v0}, La9/z$a;-><init>()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -185,15 +185,15 @@
 
     const-wide/16 v2, 0x2ee0
 
-    invoke-virtual {v0, v2, v3, v1}, Lokhttp3/q$a;->l(JLjava/util/concurrent/TimeUnit;)Lokhttp3/q$a;
+    invoke-virtual {v0, v2, v3, v1}, La9/z$a;->c(JLjava/util/concurrent/TimeUnit;)La9/z$a;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2, v3, v1}, Lokhttp3/q$a;->q0(JLjava/util/concurrent/TimeUnit;)Lokhttp3/q$a;
+    invoke-virtual {v0, v2, v3, v1}, La9/z$a;->Q(JLjava/util/concurrent/TimeUnit;)La9/z$a;
 
     move-result-object v0
 
-    invoke-virtual {v0, v2, v3, v1}, Lokhttp3/q$a;->g1(JLjava/util/concurrent/TimeUnit;)Lokhttp3/q$a;
+    invoke-virtual {v0, v2, v3, v1}, La9/z$a;->T(JLjava/util/concurrent/TimeUnit;)La9/z$a;
 
     move-result-object v0
 
@@ -201,19 +201,19 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/baidu/location/b/l;->c()Lyn/m;
+    invoke-virtual {v1}, Lcom/baidu/location/b/l;->c()La9/q;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lokhttp3/q$a;->s(Lyn/m;)Lokhttp3/q$a;
+    invoke-virtual {v0, v1}, La9/z$a;->d(La9/q;)La9/z$a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lokhttp3/q$a;->f()Lokhttp3/q;
+    invoke-virtual {v0}, La9/z$a;->a()La9/z;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/baidu/location/b/r;->a:Lokhttp3/q;
+    iput-object v0, p0, Lcom/baidu/location/b/r;->a:La9/z;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -248,27 +248,49 @@
     throw v0
 .end method
 
-.method private c()Lokhttp3/r$a;
+.method private c()La9/a0$a;
     .locals 3
 
-    new-instance v0, Lokhttp3/r$a;
+    .line 1
+    new-instance v0, La9/a0$a;
 
-    invoke-direct {v0}, Lokhttp3/r$a;-><init>()V
+    .line 2
+    .line 3
+    invoke-direct {v0}, La9/a0$a;-><init>()V
 
+    .line 4
+    .line 5
+    .line 6
     const-string v1, "Content-Type"
 
+    .line 7
+    .line 8
     const-string v2, "application/x-www-form-urlencoded; charset=utf-8"
 
-    invoke-virtual {v0, v1, v2}, Lokhttp3/r$a;->a(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/r$a;
+    .line 9
+    .line 10
+    invoke-virtual {v0, v1, v2}, La9/a0$a;->a(Ljava/lang/String;Ljava/lang/String;)La9/a0$a;
 
+    .line 11
+    .line 12
+    .line 13
     sget-object v1, Lcom/baidu/location/h/i;->aw:Ljava/lang/String;
 
+    .line 14
+    .line 15
     if-eqz v1, :cond_0
 
+    .line 16
+    .line 17
     const-string v2, "bd-loc-android"
 
-    invoke-virtual {v0, v2, v1}, Lokhttp3/r$a;->a(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/r$a;
+    .line 18
+    .line 19
+    invoke-virtual {v0, v2, v1}, La9/a0$a;->a(Ljava/lang/String;Ljava/lang/String;)La9/a0$a;
 
+    .line 20
+    .line 21
+    .line 22
     :cond_0
     return-object v0
 .end method
@@ -305,11 +327,11 @@
     const/16 v1, -0x64
 
     :try_start_0
-    invoke-direct {p0, p1}, Lcom/baidu/location/b/r;->a(Ljava/util/Map;)Lokhttp3/s;
+    invoke-direct {p0, p1}, Lcom/baidu/location/b/r;->a(Ljava/util/Map;)La9/b0;
 
     move-result-object p1
 
-    invoke-direct {p0}, Lcom/baidu/location/b/r;->c()Lokhttp3/r$a;
+    invoke-direct {p0}, Lcom/baidu/location/b/r;->c()La9/a0$a;
 
     move-result-object v2
 
@@ -319,7 +341,7 @@
 
     const-string v4, "alwd"
 
-    invoke-virtual {v2, v4, v3}, Lokhttp3/r$a;->a(Ljava/lang/String;Ljava/lang/String;)Lokhttp3/r$a;
+    invoke-virtual {v2, v4, v3}, La9/a0$a;->a(Ljava/lang/String;Ljava/lang/String;)La9/a0$a;
 
     goto :goto_0
 
@@ -335,45 +357,45 @@
 
     :cond_0
     :goto_0
-    invoke-virtual {v2, p2}, Lokhttp3/r$a;->J(Ljava/lang/String;)Lokhttp3/r$a;
+    invoke-virtual {v2, p2}, La9/a0$a;->q(Ljava/lang/String;)La9/a0$a;
 
     move-result-object p2
 
-    invoke-virtual {p2, p1}, Lokhttp3/r$a;->v(Lokhttp3/s;)Lokhttp3/r$a;
+    invoke-virtual {p2, p1}, La9/a0$a;->n(La9/b0;)La9/a0$a;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lokhttp3/r$a;->b()Lokhttp3/r;
+    invoke-virtual {p1}, La9/a0$a;->b()La9/a0;
 
     move-result-object p1
 
-    iget-object p2, p0, Lcom/baidu/location/b/r;->a:Lokhttp3/q;
+    iget-object p2, p0, Lcom/baidu/location/b/r;->a:La9/z;
 
-    invoke-virtual {p2, p1}, Lokhttp3/q;->a(Lokhttp3/r;)Lokhttp3/d;
-
-    move-result-object p1
-
-    invoke-interface {p1}, Lokhttp3/d;->execute()Lokhttp3/t;
+    invoke-virtual {p2, p1}, La9/z;->A(La9/a0;)La9/e;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lokhttp3/t;->T()Z
+    invoke-interface {p1}, La9/e;->execute()La9/c0;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, La9/c0;->m()Z
 
     move-result p2
 
     if-eqz p2, :cond_2
 
-    invoke-virtual {p1}, Lokhttp3/t;->s()Lokhttp3/u;
+    invoke-virtual {p1}, La9/c0;->b()La9/d0;
 
     move-result-object p2
 
     if-eqz p2, :cond_1
 
-    invoke-virtual {p1}, Lokhttp3/t;->s()Lokhttp3/u;
+    invoke-virtual {p1}, La9/c0;->b()La9/d0;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lokhttp3/u;->v()Ljava/lang/String;
+    invoke-virtual {p1}, La9/d0;->h()Ljava/lang/String;
 
     move-result-object p1
 
@@ -388,7 +410,7 @@
     return-void
 
     :cond_1
-    invoke-virtual {p1}, Lokhttp3/t;->U()Ljava/lang/String;
+    invoke-virtual {p1}, La9/c0;->n()Ljava/lang/String;
 
     move-result-object p1
 
@@ -399,11 +421,11 @@
     return-void
 
     :cond_2
-    invoke-virtual {p1}, Lokhttp3/t;->w()I
+    invoke-virtual {p1}, La9/c0;->f()I
 
     move-result p2
 
-    invoke-virtual {p1}, Lokhttp3/t;->U()Ljava/lang/String;
+    invoke-virtual {p1}, La9/c0;->n()Ljava/lang/String;
 
     move-result-object p1
 

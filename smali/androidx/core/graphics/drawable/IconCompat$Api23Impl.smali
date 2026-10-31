@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static createFromIcon(Landroid/content/Context;Landroid/graphics/drawable/Icon;)Landroidx/core/graphics/drawable/IconCompat;
@@ -361,6 +362,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static createFromIconInner(Ljava/lang/Object;)Landroidx/core/graphics/drawable/IconCompat;
@@ -510,6 +514,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getResId(Ljava/lang/Object;)I
@@ -677,6 +682,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getResPackage(Ljava/lang/Object;)Ljava/lang/String;
@@ -837,6 +843,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getType(Ljava/lang/Object;)I
@@ -1197,6 +1204,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static getUri(Ljava/lang/Object;)Landroid/net/Uri;
@@ -1357,6 +1369,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static loadDrawable(Landroid/graphics/drawable/Icon;Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
@@ -1890,4 +1903,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/Transformations;->switchMap(Landroidx/lifecycle/LiveData;Ljm/l;)Landroidx/lifecycle/LiveData;
+    value = Landroidx/lifecycle/Transformations;->switchMap(Landroidx/lifecycle/LiveData;Lq8/l;)Landroidx/lifecycle/LiveData;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "TX;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -47,28 +44,22 @@
     .end annotation
 .end field
 
-.field final synthetic $transform:Ljm/l;
+.field final synthetic $transform:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "TX;",
-            "Landroidx/lifecycle/LiveData<",
-            "TY;>;>;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljm/l;Lkotlin/jvm/internal/Ref$ObjectRef;Landroidx/lifecycle/MediatorLiveData;)V
+.method public constructor <init>(Lq8/l;Lkotlin/jvm/internal/Ref$ObjectRef;Landroidx/lifecycle/MediatorLiveData;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "TX;",
-            "Landroidx/lifecycle/LiveData<",
-            "TY;>;>;",
+            "Lq8/l;",
             "Lkotlin/jvm/internal/Ref$ObjectRef<",
             "Landroidx/lifecycle/LiveData<",
             "TY;>;>;",
@@ -78,7 +69,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/Transformations$switchMap$1;->$transform:Ljm/l;
+    iput-object p1, p0, Landroidx/lifecycle/Transformations$switchMap$1;->$transform:Lq8/l;
 
     .line 2
     .line 3
@@ -201,6 +192,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -211,7 +205,7 @@
     .line 1
     invoke-virtual {p0, p1}, Landroidx/lifecycle/Transformations$switchMap$1;->invoke(Ljava/lang/Object;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
@@ -225,9 +219,9 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/lifecycle/Transformations$switchMap$1;->$transform:Ljm/l;
+    iget-object v0, p0, Landroidx/lifecycle/Transformations$switchMap$1;->$transform:Lq8/l;
 
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -245,7 +239,7 @@
     .line 4
     iget-object v1, p0, Landroidx/lifecycle/Transformations$switchMap$1;->$result:Landroidx/lifecycle/MediatorLiveData;
 
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     check-cast v0, Landroidx/lifecycle/LiveData;
 
@@ -262,7 +256,7 @@
     .line 6
     iget-object v0, p0, Landroidx/lifecycle/Transformations$switchMap$1;->$result:Landroidx/lifecycle/MediatorLiveData;
 
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     new-instance v1, Landroidx/lifecycle/Transformations$switchMap$1$1;
 
@@ -272,7 +266,7 @@
 
     new-instance v2, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;
 
-    invoke-direct {v2, v1}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;-><init>(Ljm/l;)V
+    invoke-direct {v2, v1}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;-><init>(Lq8/l;)V
 
     invoke-virtual {v0, p1, v2}, Landroidx/lifecycle/MediatorLiveData;->addSource(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;)V
 

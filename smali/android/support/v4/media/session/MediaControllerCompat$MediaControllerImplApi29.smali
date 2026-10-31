@@ -110,7 +110,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0}, Lc/a;->a(Landroid/media/session/MediaController;)Landroid/os/Bundle;
+    invoke-static {v0}, Landroid/support/v4/media/session/a;->a(Landroid/media/session/MediaController;)Landroid/os/Bundle;
 
     .line 16
     .line 17
@@ -205,4 +205,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

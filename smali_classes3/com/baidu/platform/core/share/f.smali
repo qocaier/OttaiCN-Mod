@@ -43,7 +43,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -86,7 +85,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public requestLocationShareUrl(Lcom/baidu/mapapi/search/share/LocationShareURLOption;)Z
@@ -135,7 +133,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public requestPoiDetailShareUrl(Lcom/baidu/mapapi/search/share/PoiDetailShareURLOption;)Z
@@ -184,7 +181,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public requestRouteShareUrl(Lcom/baidu/mapapi/search/share/RouteShareURLOption;)Z
@@ -233,7 +229,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnGetShareUrlResultListener(Lcom/baidu/mapapi/search/share/OnGetShareUrlResultListener;)V
@@ -274,5 +269,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

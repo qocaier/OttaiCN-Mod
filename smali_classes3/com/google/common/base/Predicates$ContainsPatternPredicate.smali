@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lgb/x;
+.implements Lcom/google/common/base/p;
 .implements Ljava/io/Serializable;
 
 
@@ -20,14 +20,9 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lgb/x<",
-        "Ljava/lang/CharSequence;",
-        ">;",
+        "Lcom/google/common/base/p;",
         "Ljava/io/Serializable;"
     }
-.end annotation
-
-.annotation build Lfb/c;
 .end annotation
 
 
@@ -36,20 +31,12 @@
 
 
 # instance fields
-.field final pattern:Lgb/e;
+.field final pattern:Lcom/google/common/base/e;
 
 
 # direct methods
-.method public constructor <init>(Lgb/e;)V
+.method public constructor <init>(Lcom/google/common/base/e;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "pattern"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -57,7 +44,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -65,11 +52,11 @@
     move-result-object p1
 
     .line 8
-    check-cast p1, Lgb/e;
+    check-cast p1, Lcom/google/common/base/e;
 
     .line 9
     .line 10
-    iput-object p1, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lgb/e;
+    iput-object p1, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lcom/google/common/base/e;
 
     .line 11
     .line 12
@@ -86,30 +73,21 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public apply(Ljava/lang/CharSequence;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "t"
-        }
-    .end annotation
 
     .line 2
-    iget-object v0, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lgb/e;
+    iget-object v0, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lcom/google/common/base/e;
 
-    invoke-virtual {v0, p1}, Lgb/e;->matcher(Ljava/lang/CharSequence;)Lgb/d;
+    invoke-virtual {v0, p1}, Lcom/google/common/base/e;->matcher(Ljava/lang/CharSequence;)Lcom/google/common/base/d;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lgb/d;->b()Z
+    invoke-virtual {p1}, Lcom/google/common/base/d;->a()Z
 
     move-result p1
 
@@ -118,14 +96,6 @@
 
 .method public bridge synthetic apply(Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "t"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/CharSequence;
@@ -139,18 +109,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "obj"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Lcom/google/common/base/Predicates$ContainsPatternPredicate;
@@ -168,11 +126,11 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lgb/e;
+    iget-object v0, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lcom/google/common/base/e;
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Lgb/e;->pattern()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/google/common/base/e;->pattern()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -180,11 +138,11 @@
     move-result-object v0
 
     .line 14
-    iget-object v2, p1, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lgb/e;
+    iget-object v2, p1, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lcom/google/common/base/e;
 
     .line 15
     .line 16
-    invoke-virtual {v2}, Lgb/e;->pattern()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/google/common/base/e;->pattern()Ljava/lang/String;
 
     .line 17
     .line 18
@@ -192,7 +150,7 @@
     move-result-object v2
 
     .line 20
-    invoke-static {v0, v2}, Lgb/t;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v2}, Lcom/google/common/base/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 21
     .line 22
@@ -204,11 +162,11 @@
 
     .line 25
     .line 26
-    iget-object v0, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lgb/e;
+    iget-object v0, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lcom/google/common/base/e;
 
     .line 27
     .line 28
-    invoke-virtual {v0}, Lgb/e;->flags()I
+    invoke-virtual {v0}, Lcom/google/common/base/e;->flags()I
 
     .line 29
     .line 30
@@ -216,11 +174,11 @@
     move-result v0
 
     .line 32
-    iget-object p1, p1, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lgb/e;
+    iget-object p1, p1, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lcom/google/common/base/e;
 
     .line 33
     .line 34
-    invoke-virtual {p1}, Lgb/e;->flags()I
+    invoke-virtual {p1}, Lcom/google/common/base/e;->flags()I
 
     .line 35
     .line 36
@@ -289,19 +247,17 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public hashCode()I
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lgb/e;
+    iget-object v0, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lcom/google/common/base/e;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lgb/e;->pattern()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/google/common/base/e;->pattern()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -309,11 +265,11 @@
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lgb/e;
+    iget-object v1, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lcom/google/common/base/e;
 
     .line 8
     .line 9
-    invoke-virtual {v1}, Lgb/e;->flags()I
+    invoke-virtual {v1}, Lcom/google/common/base/e;->flags()I
 
     .line 10
     .line 11
@@ -337,7 +293,7 @@
     move-result-object v0
 
     .line 21
-    invoke-static {v0}, Lgb/t;->b([Ljava/lang/Object;)I
+    invoke-static {v0}, Lcom/google/common/base/l;->b([Ljava/lang/Object;)I
 
     .line 22
     .line 23
@@ -421,26 +377,17 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lgb/e;
+    iget-object v0, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lcom/google/common/base/e;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/common/base/a;->c(Ljava/lang/Object;)Lcom/google/common/base/a$b;
+    invoke-static {v0}, Lcom/google/common/base/j;->b(Ljava/lang/Object;)Lcom/google/common/base/j$b;
 
     .line 4
     .line 5
@@ -448,11 +395,11 @@
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lgb/e;
+    iget-object v1, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lcom/google/common/base/e;
 
     .line 8
     .line 9
-    invoke-virtual {v1}, Lgb/e;->pattern()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/google/common/base/e;->pattern()Ljava/lang/String;
 
     .line 10
     .line 11
@@ -464,7 +411,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, v2, v1}, Lcom/google/common/base/a$b;->f(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/a$b;
+    invoke-virtual {v0, v2, v1}, Lcom/google/common/base/j$b;->d(Ljava/lang/String;Ljava/lang/Object;)Lcom/google/common/base/j$b;
 
     .line 16
     .line 17
@@ -472,11 +419,11 @@
     move-result-object v0
 
     .line 19
-    iget-object v1, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lgb/e;
+    iget-object v1, p0, Lcom/google/common/base/Predicates$ContainsPatternPredicate;->pattern:Lcom/google/common/base/e;
 
     .line 20
     .line 21
-    invoke-virtual {v1}, Lgb/e;->flags()I
+    invoke-virtual {v1}, Lcom/google/common/base/e;->flags()I
 
     .line 22
     .line 23
@@ -488,7 +435,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {v0, v2, v1}, Lcom/google/common/base/a$b;->d(Ljava/lang/String;I)Lcom/google/common/base/a$b;
+    invoke-virtual {v0, v2, v1}, Lcom/google/common/base/j$b;->b(Ljava/lang/String;I)Lcom/google/common/base/j$b;
 
     .line 28
     .line 29
@@ -496,7 +443,7 @@
     move-result-object v0
 
     .line 31
-    invoke-virtual {v0}, Lcom/google/common/base/a$b;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/google/common/base/j$b;->toString()Ljava/lang/String;
 
     .line 32
     .line 33
@@ -588,13 +535,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

@@ -6,14 +6,11 @@
 .implements Ljava/util/List;
 .implements Ljava/io/Serializable;
 .implements Ljava/util/RandomAccess;
-.implements Llm/a;
+.implements Lr8/a;
 
 
 # static fields
 .field public static final INSTANCE:Lkotlin/collections/EmptyList;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final serialVersionUID:J = -0x6690382f581f9fceL
 
@@ -60,6 +57,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method private final readResolve()Ljava/lang/Object;
@@ -91,6 +115,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
@@ -209,15 +260,11 @@
 
 .method public contains(Ljava/lang/Void;)Z
     .locals 1
-    .param p1    # Ljava/lang/Void;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "element"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -226,17 +273,13 @@
 
 .method public containsAll(Ljava/util/Collection;)Z
     .locals 1
-    .param p1    # Ljava/util/Collection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "elements"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -264,14 +307,43 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     instance-of v0, p1, Ljava/util/List;
@@ -317,6 +389,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public bridge synthetic get(I)Ljava/lang/Object;
@@ -332,8 +437,6 @@
 
 .method public get(I)Ljava/lang/Void;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
@@ -401,15 +504,11 @@
 
 .method public indexOf(Ljava/lang/Void;)I
     .locals 1
-    .param p1    # Ljava/lang/Void;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "element"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, -0x1
 
@@ -426,11 +525,9 @@
 
 .method public iterator()Ljava/util/Iterator;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    sget-object v0, Lll/t0;->a:Lll/t0;
+    sget-object v0, Lkotlin/collections/a0;->a:Lkotlin/collections/a0;
 
     .line 2
     .line 3
@@ -455,6 +552,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final bridge lastIndexOf(Ljava/lang/Object;)I
@@ -481,15 +605,11 @@
 
 .method public lastIndexOf(Ljava/lang/Void;)I
     .locals 1
-    .param p1    # Ljava/lang/Void;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "element"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, -0x1
 
@@ -498,24 +618,20 @@
 
 .method public listIterator()Ljava/util/ListIterator;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    sget-object v0, Lll/t0;->a:Lll/t0;
+    sget-object v0, Lkotlin/collections/a0;->a:Lkotlin/collections/a0;
 
     return-object v0
 .end method
 
 .method public listIterator(I)Ljava/util/ListIterator;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     if-nez p1, :cond_0
 
     .line 2
-    sget-object p1, Lll/t0;->a:Lll/t0;
+    sget-object p1, Lkotlin/collections/a0;->a:Lkotlin/collections/a0;
 
     return-object p1
 
@@ -662,12 +778,37 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public subList(II)Ljava/util/List;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     if-nez p1, :cond_0
@@ -742,13 +883,96 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
 .method public toArray()[Ljava/lang/Object;
     .locals 1
 
     .line 1
-    invoke-static {p0}, Lkm/u;->a(Ljava/util/Collection;)[Ljava/lang/Object;
+    invoke-static {p0}, Lkotlin/jvm/internal/e;->a(Ljava/util/Collection;)[Ljava/lang/Object;
 
     move-result-object v0
 
@@ -768,9 +992,9 @@
     .line 2
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p0, p1}, Lkm/u;->b(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/e;->b(Ljava/util/Collection;[Ljava/lang/Object;)[Ljava/lang/Object;
 
     move-result-object p1
 
@@ -779,8 +1003,6 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "[]"
@@ -808,4 +1030,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

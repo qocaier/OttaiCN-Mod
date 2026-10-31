@@ -11,14 +11,6 @@
 .end annotation
 
 
-# static fields
-.field public static final m:Ljava/lang/String; = "FlutterGeolocator"
-
-.field public static final n:I = 0x12697
-
-.field public static final o:Ljava/lang/String; = "geolocator_channel_01"
-
-
 # instance fields
 .field public final a:Ljava/lang/String;
 
@@ -33,34 +25,16 @@
 .field public f:I
 
 .field public g:Landroid/app/Activity;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
 
-.field public h:Lo5/k;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
+.field public h:Lc0/k;
 
-.field public i:Lo5/m;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
+.field public i:Lc0/m;
 
 .field public j:Landroid/os/PowerManager$WakeLock;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
 
 .field public k:Landroid/net/wifi/WifiManager$WifiLock;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
 
-.field public l:Lo5/b;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
+.field public l:Lc0/b;
 
 
 # direct methods
@@ -124,7 +98,7 @@
 
     .line 28
     .line 29
-    iput-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->h:Lo5/k;
+    iput-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->h:Lc0/k;
 
     .line 30
     .line 31
@@ -136,7 +110,7 @@
 
     .line 34
     .line 35
-    iput-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lo5/b;
+    iput-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lc0/b;
 
     .line 36
     .line 37
@@ -204,15 +178,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static synthetic a(Lio/flutter/plugin/common/EventChannel$EventSink;Lcom/baseflow/geolocator/errors/ErrorCodes;)V
@@ -291,18 +256,13 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic b(Lio/flutter/plugin/common/EventChannel$EventSink;Landroid/location/Location;)V
     .locals 0
 
     .line 1
-    invoke-static {p1}, Lo5/z;->b(Landroid/location/Location;)Ljava/util/Map;
+    invoke-static {p1}, Lc0/z;->b(Landroid/location/Location;)Ljava/util/Map;
 
     .line 2
     .line 3
@@ -368,11 +328,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -428,14 +383,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public d(Lo5/d;)V
+.method public d(Lc0/d;)V
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lo5/b;
+    iget-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lc0/b;
 
     .line 2
     .line 3
@@ -447,12 +401,12 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, p1, v1}, Lo5/b;->f(Lo5/d;Z)V
+    invoke-virtual {v0, p1, v1}, Lc0/b;->f(Lc0/d;Z)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0, p1}, Lcom/baseflow/geolocator/GeolocatorLocationService;->j(Lo5/d;)V
+    invoke-virtual {p0, p1}, Lcom/baseflow/geolocator/GeolocatorLocationService;->j(Lc0/d;)V
 
     .line 11
     .line 12
@@ -470,7 +424,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public e()V
@@ -521,7 +474,7 @@
     const/4 v0, 0x0
 
     .line 23
-    iput-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lo5/b;
+    iput-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lc0/b;
 
     .line 24
     .line 25
@@ -602,22 +555,13 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public f(Lo5/d;)V
+.method public f(Lc0/d;)V
     .locals 5
 
     .line 1
-    iget-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lo5/b;
+    iget-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lc0/b;
 
     .line 2
     .line 3
@@ -638,7 +582,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p0, p1}, Lcom/baseflow/geolocator/GeolocatorLocationService;->d(Lo5/d;)V
+    invoke-virtual {p0, p1}, Lcom/baseflow/geolocator/GeolocatorLocationService;->d(Lc0/d;)V
 
     .line 13
     .line 14
@@ -656,7 +600,7 @@
     .line 19
     .line 20
     .line 21
-    new-instance v0, Lo5/b;
+    new-instance v0, Lc0/b;
 
     .line 22
     .line 23
@@ -685,16 +629,16 @@
 
     .line 35
     .line 36
-    invoke-direct {v0, v1, v4, v3, p1}, Lo5/b;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Integer;Lo5/d;)V
+    invoke-direct {v0, v1, v4, v3, p1}, Lc0/b;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/lang/Integer;Lc0/d;)V
 
     .line 37
     .line 38
     .line 39
-    iput-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lo5/b;
+    iput-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lc0/b;
 
     .line 40
     .line 41
-    invoke-virtual {p1}, Lo5/d;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lc0/d;->b()Ljava/lang/String;
 
     .line 42
     .line 43
@@ -702,16 +646,16 @@
     move-result-object v1
 
     .line 45
-    invoke-virtual {v0, v1}, Lo5/b;->d(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lc0/b;->d(Ljava/lang/String;)V
 
     .line 46
     .line 47
     .line 48
-    iget-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lo5/b;
+    iget-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lc0/b;
 
     .line 49
     .line 50
-    invoke-virtual {v0}, Lo5/b;->a()Landroid/app/Notification;
+    invoke-virtual {v0}, Lc0/b;->a()Landroid/app/Notification;
 
     .line 51
     .line 52
@@ -732,7 +676,7 @@
     .line 59
     .line 60
     :goto_0
-    invoke-virtual {p0, p1}, Lcom/baseflow/geolocator/GeolocatorLocationService;->j(Lo5/d;)V
+    invoke-virtual {p0, p1}, Lcom/baseflow/geolocator/GeolocatorLocationService;->j(Lc0/d;)V
 
     .line 61
     .line 62
@@ -766,8 +710,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public g()V
@@ -900,15 +842,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public h()V
@@ -1041,15 +974,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public final i()I
@@ -1091,16 +1015,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public final j(Lo5/d;)V
+.method public final j(Lc0/d;)V
     .locals 4
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "WakelockTimeout"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Lcom/baseflow/geolocator/GeolocatorLocationService;->k()V
@@ -1108,7 +1026,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Lo5/d;->f()Z
+    invoke-virtual {p1}, Lc0/d;->f()Z
 
     .line 5
     .line 6
@@ -1185,7 +1103,7 @@
     .line 41
     .line 42
     :cond_0
-    invoke-virtual {p1}, Lo5/d;->g()Z
+    invoke-virtual {p1}, Lc0/d;->g()Z
 
     .line 43
     .line 44
@@ -1274,8 +1192,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public final k()V
@@ -1418,23 +1334,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public l(Landroid/app/Activity;)V
     .locals 0
-    .param p1    # Landroid/app/Activity;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->g:Landroid/app/Activity;
@@ -1463,18 +1366,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public m(Lo5/k;)V
+.method public m(Lc0/k;)V
     .locals 0
-    .param p1    # Lo5/k;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
-    iput-object p1, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->h:Lo5/k;
+    iput-object p1, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->h:Lc0/k;
 
     .line 2
     .line 3
@@ -1500,10 +1398,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public n(ZLo5/a0;Lio/flutter/plugin/common/EventChannel$EventSink;)V
+.method public n(ZLc0/a0;Lio/flutter/plugin/common/EventChannel$EventSink;)V
     .locals 3
 
     .line 1
@@ -1519,7 +1416,7 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->h:Lo5/k;
+    iget-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->h:Lc0/k;
 
     .line 8
     .line 9
@@ -1555,7 +1452,7 @@
     move-result p1
 
     .line 25
-    invoke-virtual {v0, v1, p1, p2}, Lo5/k;->a(Landroid/content/Context;ZLo5/a0;)Lo5/m;
+    invoke-virtual {v0, v1, p1, p2}, Lc0/k;->a(Landroid/content/Context;ZLc0/a0;)Lc0/m;
 
     .line 26
     .line 27
@@ -1563,11 +1460,11 @@
     move-result-object p1
 
     .line 29
-    iput-object p1, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->i:Lo5/m;
+    iput-object p1, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->i:Lc0/m;
 
     .line 30
     .line 31
-    iget-object p2, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->h:Lo5/k;
+    iget-object p2, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->h:Lc0/k;
 
     .line 32
     .line 33
@@ -1575,25 +1472,25 @@
 
     .line 34
     .line 35
-    new-instance v1, Lm5/a;
+    new-instance v1, La0/a;
 
     .line 36
     .line 37
-    invoke-direct {v1, p3}, Lm5/a;-><init>(Lio/flutter/plugin/common/EventChannel$EventSink;)V
+    invoke-direct {v1, p3}, La0/a;-><init>(Lio/flutter/plugin/common/EventChannel$EventSink;)V
 
     .line 38
     .line 39
     .line 40
-    new-instance v2, Lm5/b;
+    new-instance v2, La0/b;
 
     .line 41
     .line 42
-    invoke-direct {v2, p3}, Lm5/b;-><init>(Lio/flutter/plugin/common/EventChannel$EventSink;)V
+    invoke-direct {v2, p3}, La0/b;-><init>(Lio/flutter/plugin/common/EventChannel$EventSink;)V
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {p2, p1, v0, v1, v2}, Lo5/k;->f(Lo5/m;Landroid/app/Activity;Lo5/e0;Ln5/a;)V
+    invoke-virtual {p2, p1, v0, v1, v2}, Lc0/k;->f(Lc0/m;Landroid/app/Activity;Lc0/e0;Lb0/a;)V
 
     .line 46
     .line 47
@@ -1699,11 +1596,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public o()V
@@ -1735,7 +1627,7 @@
     .line 12
     .line 13
     .line 14
-    iget-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->i:Lo5/m;
+    iget-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->i:Lc0/m;
 
     .line 15
     .line 16
@@ -1743,7 +1635,7 @@
 
     .line 17
     .line 18
-    iget-object v1, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->h:Lo5/k;
+    iget-object v1, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->h:Lc0/k;
 
     .line 19
     .line 20
@@ -1751,7 +1643,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {v1, v0}, Lo5/k;->g(Lo5/m;)V
+    invoke-virtual {v1, v0}, Lc0/k;->g(Lc0/m;)V
 
     .line 23
     .line 24
@@ -1833,21 +1725,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
 
     .line 1
     const-string p1, "FlutterGeolocator"
@@ -1882,7 +1763,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onCreate()V
@@ -1919,7 +1799,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDestroy()V
@@ -1952,11 +1831,11 @@
     const/4 v0, 0x0
 
     .line 15
-    iput-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->h:Lo5/k;
+    iput-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->h:Lc0/k;
 
     .line 16
     .line 17
-    iput-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lo5/b;
+    iput-object v0, p0, Lcom/baseflow/geolocator/GeolocatorLocationService;->l:Lc0/b;
 
     .line 18
     .line 19
@@ -2048,15 +1927,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onStartCommand(Landroid/content/Intent;II)I
@@ -2105,5 +1975,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/entity/pb/Cars$Content;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -102,7 +102,7 @@
 
 .field private cripType_:I
 
-.field private dynamicContent_:Ljc/a;
+.field private dynamicContent_:Ll4/a;
 
 .field private hasAvoidJamPrefer:Z
 
@@ -207,7 +207,7 @@
 .method public constructor <init>()V
     .locals 4
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
     sget-object v0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
@@ -253,9 +253,9 @@
 
     iput-object v2, p0, Lcom/baidu/entity/pb/Cars$Content;->avoidJamPrefer_:Lcom/baidu/entity/pb/Cars$Content$AvoidJamInfoPrefer;
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/Cars$Content;->dynamicContent_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/Cars$Content;->dynamicContent_:Ll4/a;
 
     const/4 v0, -0x1
 
@@ -264,7 +264,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/entity/pb/Cars$Content;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/entity/pb/Cars$Content;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -277,7 +277,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/Cars$Content;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/Cars$Content;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/Cars$Content;
+    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/Cars$Content;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/Cars$Content;
 
     move-result-object p0
 
@@ -297,7 +297,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/Cars$Content;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -688,9 +688,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/Cars$Content;->hasDynamicContent:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/Cars$Content;->dynamicContent_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/Cars$Content;->dynamicContent_:Ll4/a;
 
     return-object p0
 .end method
@@ -956,11 +956,11 @@
     return v0
 .end method
 
-.method public getDynamicContent()Ljc/a;
+.method public getDynamicContent()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/Cars$Content;->dynamicContent_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/Cars$Content;->dynamicContent_:Ll4/a;
 
     .line 2
     .line 3
@@ -984,7 +984,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHeatEffectiveCityFlag()I
@@ -1125,7 +1124,7 @@
 
     const/4 v4, 0x1
 
-    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v3
 
@@ -1157,7 +1156,7 @@
 
     const/4 v4, 0x2
 
-    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v3
 
@@ -1189,7 +1188,7 @@
 
     const/4 v4, 0x3
 
-    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v3
 
@@ -1221,7 +1220,7 @@
 
     const/4 v4, 0x4
 
-    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v3
 
@@ -1253,7 +1252,7 @@
 
     const/4 v4, 0x5
 
-    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v3
 
@@ -1285,7 +1284,7 @@
 
     const/4 v4, 0x6
 
-    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v3
 
@@ -1306,7 +1305,7 @@
 
     move-result v3
 
-    invoke-static {v0, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v0, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v0
 
@@ -1325,7 +1324,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -1344,7 +1343,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -1363,7 +1362,7 @@
 
     move-result-object v3
 
-    invoke-static {v0, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -1393,7 +1392,7 @@
 
     const/16 v4, 0xb
 
-    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v3
 
@@ -1425,7 +1424,7 @@
 
     const/16 v4, 0xc
 
-    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v4, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v3
 
@@ -1446,7 +1445,7 @@
 
     move-result v3
 
-    invoke-static {v0, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v0, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v0
 
@@ -1474,7 +1473,7 @@
 
     check-cast v3, Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->K(Ljava/lang/String;)I
+    invoke-static {v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->u(Ljava/lang/String;)I
 
     move-result v3
 
@@ -1507,7 +1506,7 @@
 
     move-result v1
 
-    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v0
 
@@ -1526,7 +1525,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -1545,7 +1544,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -1560,11 +1559,11 @@
 
     const/16 v0, 0x12
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/Cars$Content;->getDynamicContent()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/Cars$Content;->getDynamicContent()Ll4/a;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v0
 
@@ -1993,7 +1992,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/Cars$Content;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/Cars$Content;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -2004,13 +2003,13 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
     sparse-switch v0, :sswitch_data_0
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -2019,11 +2018,11 @@
     goto/16 :goto_1
 
     :sswitch_0
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/Cars$Content;->setDynamicContent(Ljc/a;)Lcom/baidu/entity/pb/Cars$Content;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/Cars$Content;->setDynamicContent(Ll4/a;)Lcom/baidu/entity/pb/Cars$Content;
 
     goto :goto_0
 
@@ -2032,14 +2031,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/Cars$Content$AvoidJamInfoPrefer;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/Cars$Content;->setAvoidJamPrefer(Lcom/baidu/entity/pb/Cars$Content$AvoidJamInfoPrefer;)Lcom/baidu/entity/pb/Cars$Content;
 
     goto :goto_0
 
     :sswitch_2
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -2048,7 +2047,7 @@
     goto :goto_0
 
     :sswitch_3
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -2057,7 +2056,7 @@
     goto :goto_0
 
     :sswitch_4
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -2066,7 +2065,7 @@
     goto :goto_0
 
     :sswitch_5
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -2079,7 +2078,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/Cars$Content$YellowTipsList;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/Cars$Content;->addYellowTipsList(Lcom/baidu/entity/pb/Cars$Content$YellowTipsList;)Lcom/baidu/entity/pb/Cars$Content;
 
@@ -2090,7 +2089,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/Cars$Content$LongDistanceInfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/Cars$Content;->addLongDistanceInfo(Lcom/baidu/entity/pb/Cars$Content$LongDistanceInfo;)Lcom/baidu/entity/pb/Cars$Content;
 
@@ -2101,14 +2100,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/Cars$Content$WalkInfoT;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/Cars$Content;->setWalkinf(Lcom/baidu/entity/pb/Cars$Content$WalkInfoT;)Lcom/baidu/entity/pb/Cars$Content;
 
     goto :goto_0
 
     :sswitch_9
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -2117,7 +2116,7 @@
     goto :goto_0
 
     :sswitch_a
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -2126,7 +2125,7 @@
     goto :goto_0
 
     :sswitch_b
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -2139,7 +2138,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/Cars$Content$AcciInfos;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/Cars$Content;->addAcciInfos(Lcom/baidu/entity/pb/Cars$Content$AcciInfos;)Lcom/baidu/entity/pb/Cars$Content;
 
@@ -2150,7 +2149,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/Cars$Content$Traffics;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/Cars$Content;->addTraffics(Lcom/baidu/entity/pb/Cars$Content$Traffics;)Lcom/baidu/entity/pb/Cars$Content;
 
@@ -2161,7 +2160,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/Cars$Content$Taxis;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/Cars$Content;->addTaxis(Lcom/baidu/entity/pb/Cars$Content$Taxis;)Lcom/baidu/entity/pb/Cars$Content;
 
@@ -2172,7 +2171,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/Cars$Content$Stepts;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/Cars$Content;->addStepts(Lcom/baidu/entity/pb/Cars$Content$Stepts;)Lcom/baidu/entity/pb/Cars$Content;
 
@@ -2183,7 +2182,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/Cars$Content$Steps;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/Cars$Content;->addSteps(Lcom/baidu/entity/pb/Cars$Content$Steps;)Lcom/baidu/entity/pb/Cars$Content;
 
@@ -2194,7 +2193,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/Cars$Content$Routes;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/Cars$Content;->addRoutes(Lcom/baidu/entity/pb/Cars$Content$Routes;)Lcom/baidu/entity/pb/Cars$Content;
 
@@ -2228,7 +2227,7 @@
     .end sparse-switch
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -2237,7 +2236,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/Cars$Content;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/Cars$Content;
+    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/Cars$Content;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/Cars$Content;
 
     move-result-object p1
 
@@ -2316,7 +2315,7 @@
     return-object p0
 .end method
 
-.method public setDynamicContent(Ljc/a;)Lcom/baidu/entity/pb/Cars$Content;
+.method public setDynamicContent(Ll4/a;)Lcom/baidu/entity/pb/Cars$Content;
     .locals 1
 
     .line 1
@@ -2327,7 +2326,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/Cars$Content;->dynamicContent_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/Cars$Content;->dynamicContent_:Ll4/a;
 
     .line 5
     .line 6
@@ -2350,7 +2349,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHeatEffectiveCityFlag(I)Lcom/baidu/entity/pb/Cars$Content;
@@ -2558,7 +2556,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_0
 
@@ -2586,7 +2584,7 @@
 
     const/4 v2, 0x2
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_1
 
@@ -2614,7 +2612,7 @@
 
     const/4 v2, 0x3
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_2
 
@@ -2642,7 +2640,7 @@
 
     const/4 v2, 0x4
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_3
 
@@ -2670,7 +2668,7 @@
 
     const/4 v2, 0x5
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_4
 
@@ -2698,7 +2696,7 @@
 
     const/4 v2, 0x6
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_5
 
@@ -2715,7 +2713,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_6
     invoke-virtual {p0}, Lcom/baidu/entity/pb/Cars$Content;->hasLocalInfoTips()Z
@@ -2730,7 +2728,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_7
     invoke-virtual {p0}, Lcom/baidu/entity/pb/Cars$Content;->hasSessionid()Z
@@ -2745,7 +2743,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_8
     invoke-virtual {p0}, Lcom/baidu/entity/pb/Cars$Content;->hasWalkinf()Z
@@ -2760,7 +2758,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_9
     invoke-virtual {p0}, Lcom/baidu/entity/pb/Cars$Content;->getLongDistanceInfoList()Ljava/util/List;
@@ -2786,7 +2784,7 @@
 
     const/16 v2, 0xb
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_6
 
@@ -2814,7 +2812,7 @@
 
     const/16 v2, 0xc
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_7
 
@@ -2831,7 +2829,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_c
     invoke-virtual {p0}, Lcom/baidu/entity/pb/Cars$Content;->getAvoidCarRulesList()Ljava/util/List;
@@ -2857,7 +2855,7 @@
 
     const/16 v2, 0xe
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     goto :goto_8
 
@@ -2874,7 +2872,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_e
     invoke-virtual {p0}, Lcom/baidu/entity/pb/Cars$Content;->hasCommuterTitleDesc()Z
@@ -2889,7 +2887,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_f
     invoke-virtual {p0}, Lcom/baidu/entity/pb/Cars$Content;->hasAvoidJamPrefer()Z
@@ -2904,7 +2902,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_10
     invoke-virtual {p0}, Lcom/baidu/entity/pb/Cars$Content;->hasDynamicContent()Z
@@ -2915,11 +2913,11 @@
 
     const/16 v0, 0x12
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/Cars$Content;->getDynamicContent()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/Cars$Content;->getDynamicContent()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_11
     return-void

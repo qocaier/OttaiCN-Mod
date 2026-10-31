@@ -137,6 +137,16 @@
     .line 53
     .line 54
     return-void
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic a(Lcom/qiyukf/ou$b;)Landroid/widget/TextView;
@@ -170,6 +180,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic b(Lcom/qiyukf/ou$b;)Landroid/widget/ImageView;
@@ -203,6 +215,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic c(Lcom/qiyukf/ou$b;)Landroid/widget/TextView;
@@ -236,6 +250,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic d(Lcom/qiyukf/ou$b;)Landroid/widget/CheckBox;
@@ -269,6 +285,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic e(Lcom/qiyukf/ou$b;)Landroid/widget/RelativeLayout;
@@ -302,4 +320,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

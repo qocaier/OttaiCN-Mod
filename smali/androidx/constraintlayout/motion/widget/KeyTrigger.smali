@@ -263,6 +263,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic access$002(Landroidx/constraintlayout/motion/widget/KeyTrigger;F)F
@@ -847,16 +849,6 @@
 
 .method private fire(Ljava/lang/String;Landroid/view/View;)V
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "str",
-            "call"
-        }
-    .end annotation
 
     .line 1
     if-nez p1, :cond_0
@@ -1259,20 +1251,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private fireCustom(Ljava/lang/String;Landroid/view/View;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "str",
-            "view"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/String;->length()I
@@ -1591,22 +1576,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private setUpRect(Landroid/graphics/RectF;Landroid/view/View;Z)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "rect",
-            "child",
-            "postLayout"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p2}, Landroid/view/View;->getTop()I
@@ -1763,21 +1739,15 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
 # virtual methods
 .method public addValues(Ljava/util/HashMap;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "splines"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1824,16 +1794,6 @@
 
 .method public conditionallyFire(FLandroid/view/View;)V
     .locals 9
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "pos",
-            "child"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyTrigger;->mTriggerCollisionId:I
@@ -3745,14 +3705,6 @@
 
 .method public copy(Landroidx/constraintlayout/motion/widget/Key;)Landroidx/constraintlayout/motion/widget/Key;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "src"
-        }
-    .end annotation
 
     .line 1
     invoke-super {p0, p1}, Landroidx/constraintlayout/motion/widget/Key;->copy(Landroidx/constraintlayout/motion/widget/Key;)Landroidx/constraintlayout/motion/widget/Key;
@@ -3909,19 +3861,11 @@
     .line 77
     .line 78
     return-object p0
+    .line 79
 .end method
 
 .method public getAttributeNames(Ljava/util/HashSet;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "attributes"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -3960,20 +3904,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public load(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/constraintlayout/widget/R$styleable;->KeyTrigger:[I
@@ -4036,16 +3971,6 @@
 
 .method public setValue(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "tag",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;

@@ -69,20 +69,13 @@
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public copyFrom(Landroidx/constraintlayout/widget/ConstraintSet$PropertySet;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "src"
-        }
-    .end annotation
 
     .line 1
     iget-boolean v0, p1, Landroidx/constraintlayout/widget/ConstraintSet$PropertySet;->mApply:Z
@@ -134,16 +127,6 @@
 
 .method public fillFromAttributeList(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/constraintlayout/widget/R$styleable;->PropertySet:[I
@@ -478,4 +461,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

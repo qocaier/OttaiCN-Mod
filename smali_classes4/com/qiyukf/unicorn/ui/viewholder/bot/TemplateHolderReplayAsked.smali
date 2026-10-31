@@ -40,6 +40,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -88,6 +90,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFooterString()Ljava/lang/String;
@@ -116,6 +120,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getHeaderString()Ljava/lang/String;
@@ -154,6 +160,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onItemClick(Landroid/widget/TextView;Lcom/qiyukf/unicorn/protocol/attach/bot/notification/ReplayAskedTemplate$ReplayAskedItem;)V

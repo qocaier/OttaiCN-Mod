@@ -41,7 +41,7 @@
 
     iget-object v0, v0, Lcom/tencent/smtt/utils/d$1;->b:Landroid/content/Context;
 
-    const-string v1, "\u4e0b\u8f7d\u6210\u529f"
+    const-string/jumbo v1, "\u4e0b\u8f7d\u6210\u529f"
 
     const/4 v2, 0x0
 

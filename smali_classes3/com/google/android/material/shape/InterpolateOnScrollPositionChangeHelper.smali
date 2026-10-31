@@ -193,11 +193,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
@@ -232,7 +227,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMaterialShapeDrawable(Lcom/google/android/material/shape/MaterialShapeDrawable;)V
@@ -265,7 +259,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public startListeningForScrollChanges(Landroid/view/ViewTreeObserver;)V
@@ -304,7 +297,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public stopListeningForScrollChanges(Landroid/view/ViewTreeObserver;)V
@@ -343,7 +335,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateInterpolationForScreenPosition()V
@@ -1169,4 +1160,63 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method

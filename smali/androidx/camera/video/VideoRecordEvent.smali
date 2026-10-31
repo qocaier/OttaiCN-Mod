@@ -251,6 +251,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static finalizeWithError(Landroidx/camera/video/OutputOptions;Landroidx/camera/video/RecordingStats;Landroidx/camera/video/OutputResults;ILjava/lang/Throwable;)Landroidx/camera/video/VideoRecordEvent$Finalize;
@@ -1130,6 +1133,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRecordingStats()Landroidx/camera/video/RecordingStats;
@@ -1160,4 +1164,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -685,6 +685,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private registerDependency()V
@@ -839,6 +841,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private registerDependent(Landroidx/preference/Preference;)V
@@ -1062,6 +1066,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private unregisterDependent(Landroidx/preference/Preference;)V
@@ -1240,6 +1245,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public compareTo(Landroidx/preference/Preference;)I
@@ -1445,6 +1451,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public dispatchSaveInstanceState(Landroid/os/Bundle;)V
@@ -1569,6 +1576,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public findPreferenceInHierarchy(Ljava/lang/String;)Landroidx/preference/Preference;
@@ -1659,6 +1667,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDependency()Ljava/lang/String;
@@ -1689,6 +1698,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExtras()Landroid/os/Bundle;
@@ -1730,6 +1740,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFilterableStringBuilder()Ljava/lang/StringBuilder;
@@ -1873,6 +1884,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getFragment()Ljava/lang/String;
@@ -1903,6 +1916,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIcon()Landroid/graphics/drawable/Drawable;
@@ -1950,6 +1964,7 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
 .end method
 
 .method public getId()J
@@ -1978,6 +1993,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntent()Landroid/content/Intent;
@@ -2008,6 +2024,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getKey()Ljava/lang/String;
@@ -2036,6 +2053,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getLayoutResource()I
@@ -2064,6 +2082,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOnPreferenceChangeListener()Landroidx/preference/Preference$OnPreferenceChangeListener;
@@ -2094,6 +2113,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOnPreferenceClickListener()Landroidx/preference/Preference$OnPreferenceClickListener;
@@ -2124,6 +2144,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOrder()I
@@ -2152,6 +2173,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getParent()Landroidx/preference/PreferenceGroup;
@@ -2182,6 +2204,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPersistedBoolean(Z)Z
@@ -2302,6 +2325,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getPersistedFloat(F)F
@@ -2422,6 +2446,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getPersistedInt(I)I
@@ -2542,6 +2567,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getPersistedLong(J)J
@@ -2662,6 +2688,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getPersistedString(Ljava/lang/String;)Ljava/lang/String;
@@ -2782,6 +2809,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getPersistedStringSet(Ljava/util/Set;)Ljava/util/Set;
@@ -2913,6 +2941,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getPreferenceDataStore()Landroidx/preference/PreferenceDataStore;
@@ -2961,6 +2990,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreferenceManager()Landroidx/preference/PreferenceManager;
@@ -2989,6 +3019,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSharedPreferences()Landroid/content/SharedPreferences;
@@ -3042,6 +3073,7 @@
 
     .line 20
     return-object v0
+    .line 21
 .end method
 
 .method public getShouldDisableView()Z
@@ -3070,6 +3102,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSummary()Ljava/lang/CharSequence;
@@ -3117,6 +3150,7 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getSummaryProvider()Landroidx/preference/Preference$SummaryProvider;
@@ -3147,6 +3181,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTitle()Ljava/lang/CharSequence;
@@ -3177,6 +3212,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getWidgetLayoutResource()I
@@ -3205,6 +3241,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasKey()Z
@@ -3239,6 +3276,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isCopyingEnabled()Z
@@ -3267,6 +3305,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEnabled()Z
@@ -3312,6 +3351,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isIconSpaceReserved()Z
@@ -3340,6 +3380,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isPersistent()Z
@@ -3368,6 +3409,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSelectable()Z
@@ -3396,6 +3438,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isShown()Z
@@ -3534,6 +3577,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isSingleLineTitle()Z
@@ -3562,6 +3607,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isVisible()Z
@@ -3590,6 +3636,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public notifyChanged()V
@@ -3623,6 +3670,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public notifyDependencyChange(Z)V
@@ -3717,6 +3765,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onAttached()V
@@ -3745,6 +3794,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onAttachedToHierarchy(Landroidx/preference/PreferenceManager;)V
@@ -5629,6 +5679,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onGetDefaultValue(Landroid/content/res/TypedArray;I)Ljava/lang/Object;
@@ -5757,6 +5808,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -5849,6 +5901,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onSetInitialValue(Ljava/lang/Object;)V
@@ -5901,6 +5954,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public performClick()V
@@ -6138,6 +6192,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public persistFloat(F)Z
@@ -6274,6 +6329,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public persistInt(I)Z
@@ -6408,6 +6464,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public persistLong(J)Z
@@ -6544,6 +6601,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public persistString(Ljava/lang/String;)Z
@@ -6682,6 +6740,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public persistStringSet(Ljava/util/Set;)Z
@@ -6828,6 +6887,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public requireKey()V
@@ -6875,6 +6935,7 @@
     .line 19
     .line 20
     throw v0
+    .line 21
 .end method
 
 .method public restoreHierarchyState(Landroid/os/Bundle;)V
@@ -7965,6 +8026,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public shouldPersist()Z
@@ -8014,6 +8076,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -8050,6 +8113,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final wasDetached()Z
@@ -8078,4 +8142,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

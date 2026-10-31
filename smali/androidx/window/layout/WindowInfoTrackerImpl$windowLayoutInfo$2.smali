@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/p;
+.implements Lq8/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/window/layout/WindowInfoTrackerImpl;->windowLayoutInfo(Landroid/app/Activity;)Ljn/e;
+    value = Landroidx/window/layout/WindowInfoTrackerImpl;->windowLayoutInfo(Landroid/app/Activity;)Lkotlinx/coroutines/flow/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,30 +19,17 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Ljm/p<",
-        "Lkotlinx/coroutines/channels/j<",
-        "-",
-        "Landroidx/window/layout/WindowLayoutInfo;",
-        ">;",
-        "Lul/c<",
-        "-",
-        "Ljl/e2;",
-        ">;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lq8/p;"
     }
 .end annotation
 
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "androidx.window.layout.WindowInfoTrackerImpl$windowLayoutInfo$2"
     f = "WindowInfoTrackerImpl.kt"
-    i = {}
     l = {
         0x3f
     }
     m = "invokeSuspend"
-    n = {}
-    s = {}
 .end annotation
 
 
@@ -57,158 +44,43 @@
 
 
 # direct methods
-.method public constructor <init>(Landroidx/window/layout/WindowInfoTrackerImpl;Landroid/app/Activity;Lul/c;)V
+.method public constructor <init>(Landroidx/window/layout/WindowInfoTrackerImpl;Landroid/app/Activity;Lkotlin/coroutines/e;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/window/layout/WindowInfoTrackerImpl;",
             "Landroid/app/Activity;",
-            "Lul/c<",
-            "-",
-            "Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;",
-            ">;)V"
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;->this$0:Landroidx/window/layout/WindowInfoTrackerImpl;
 
-    .line 2
-    .line 3
     iput-object p2, p0, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;->$activity:Landroid/app/Activity;
 
-    .line 4
-    .line 5
     const/4 p1, 0x2
 
-    .line 6
-    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILul/c;)V
-
-    .line 7
-    .line 8
-    .line 9
-    return-void
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-.end method
-
-.method public static synthetic f(Lkotlinx/coroutines/channels/j;Landroidx/window/layout/WindowLayoutInfo;)V
-    .locals 0
-
-    .line 1
-    invoke-static {p0, p1}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;->invokeSuspend$lambda$0(Lkotlinx/coroutines/channels/j;Landroidx/window/layout/WindowLayoutInfo;)V
+    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/e;)V
 
     return-void
 .end method
 
-.method private static final invokeSuspend$lambda$0(Lkotlinx/coroutines/channels/j;Landroidx/window/layout/WindowLayoutInfo;)V
+.method public static synthetic c(Lkotlinx/coroutines/channels/q;Landroidx/window/layout/WindowLayoutInfo;)V
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Lkotlinx/coroutines/channels/k;->H(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;->invokeSuspend$lambda$0(Lkotlinx/coroutines/channels/q;Landroidx/window/layout/WindowLayoutInfo;)V
+
+    return-void
+.end method
+
+.method private static final invokeSuspend$lambda$0(Lkotlinx/coroutines/channels/q;Landroidx/window/layout/WindowLayoutInfo;)V
+    .locals 0
+
+    .line 1
+    invoke-interface {p0, p1}, Lkotlinx/coroutines/channels/s;->z(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -262,143 +134,66 @@
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lul/c;)Lul/c;
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
     .locals 3
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lul/c<",
-            "*>;)",
-            "Lul/c<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlin/coroutines/e;",
+            ")",
+            "Lkotlin/coroutines/e;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
     new-instance v0, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;
 
-    .line 2
-    .line 3
     iget-object v1, p0, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;->this$0:Landroidx/window/layout/WindowInfoTrackerImpl;
 
-    .line 4
-    .line 5
     iget-object v2, p0, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;->$activity:Landroid/app/Activity;
 
-    .line 6
-    .line 7
-    invoke-direct {v0, v1, v2, p2}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;-><init>(Landroidx/window/layout/WindowInfoTrackerImpl;Landroid/app/Activity;Lul/c;)V
+    invoke-direct {v0, v1, v2, p2}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;-><init>(Landroidx/window/layout/WindowInfoTrackerImpl;Landroid/app/Activity;Lkotlin/coroutines/e;)V
 
-    .line 8
-    .line 9
-    .line 10
     iput-object p1, v0, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;->L$0:Ljava/lang/Object;
 
-    .line 11
-    .line 12
     return-object v0
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlinx/coroutines/channels/j;
+    check-cast p1, Lkotlinx/coroutines/channels/q;
 
-    check-cast p2, Lul/c;
+    check-cast p2, Lkotlin/coroutines/e;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;->invoke(Lkotlinx/coroutines/channels/j;Lul/c;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;->invoke(Lkotlinx/coroutines/channels/q;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlinx/coroutines/channels/j;Lul/c;)Ljava/lang/Object;
+.method public final invoke(Lkotlinx/coroutines/channels/q;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
-    .param p1    # Lkotlinx/coroutines/channels/j;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/j<",
-            "-",
-            "Landroidx/window/layout/WindowLayoutInfo;",
-            ">;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlinx/coroutines/channels/q;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;->create(Ljava/lang/Object;Lul/c;)Lul/c;
+    invoke-virtual {p0, p1, p2}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;->create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
 
     move-result-object p1
 
     check-cast p1, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;
 
-    sget-object p2, Ljl/e2;->a:Ljl/e2;
+    sget-object p2, Lkotlin/j;->a:Lkotlin/j;
 
     invoke-virtual {p1, p2}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -409,15 +204,9 @@
 
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 6
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -440,7 +229,7 @@
 
     .line 11
     .line 12
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 13
     .line 14
@@ -466,7 +255,7 @@
 
     .line 24
     :cond_1
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 25
     .line 26
@@ -475,7 +264,7 @@
 
     .line 28
     .line 29
-    check-cast p1, Lkotlinx/coroutines/channels/j;
+    check-cast p1, Lkotlinx/coroutines/channels/q;
 
     .line 30
     .line 31
@@ -483,7 +272,7 @@
 
     .line 32
     .line 33
-    invoke-direct {v1, p1}, Landroidx/window/layout/b;-><init>(Lkotlinx/coroutines/channels/j;)V
+    invoke-direct {v1, p1}, Landroidx/window/layout/b;-><init>(Lkotlinx/coroutines/channels/q;)V
 
     .line 34
     .line 35
@@ -504,11 +293,11 @@
 
     .line 43
     .line 44
-    new-instance v5, Lt1/b;
+    new-instance v5, Landroidx/profileinstaller/b;
 
     .line 45
     .line 46
-    invoke-direct {v5}, Lt1/b;-><init>()V
+    invoke-direct {v5}, Landroidx/profileinstaller/b;-><init>()V
 
     .line 47
     .line 48
@@ -535,7 +324,7 @@
 
     .line 60
     .line 61
-    invoke-static {p1, v3, p0}, Lkotlinx/coroutines/channels/ProduceKt;->b(Lkotlinx/coroutines/channels/j;Ljm/a;Lul/c;)Ljava/lang/Object;
+    invoke-static {p1, v3, p0}, Lkotlinx/coroutines/channels/ProduceKt;->a(Lkotlinx/coroutines/channels/q;Lq8/a;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 62
     .line 63
@@ -552,7 +341,7 @@
     .line 68
     :cond_2
     :goto_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 69
     .line 70
@@ -565,4 +354,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

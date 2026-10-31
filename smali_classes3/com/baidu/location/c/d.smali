@@ -2575,7 +2575,7 @@
 
     if-eqz v0, :cond_3
 
-    sget-boolean v0, Lcom/baidu/location/f;->isServing:Z
+    sget-object v0, Lcom/baidu/location/f;->replaceFileName:Ljava/lang/String;
 
     :cond_3
     return-void

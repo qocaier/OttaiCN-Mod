@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lib/h;
+.implements Lcom/google/common/cache/g;
 .implements Ljava/io/Serializable;
 
 
@@ -26,8 +26,7 @@
         ">",
         "Lcom/google/common/cache/LocalCache$ManualSerializationProxy<",
         "TK;TV;>;",
-        "Lib/h<",
-        "TK;TV;>;",
+        "Lcom/google/common/cache/g;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -38,15 +37,11 @@
 
 
 # instance fields
-.field transient autoDelegate:Lib/h;
+.field transient autoDelegate:Lcom/google/common/cache/g;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lib/h<",
-            "TK;TV;>;"
+            "Lcom/google/common/cache/g;"
         }
-    .end annotation
-
-    .annotation runtime Lgl/a;
     .end annotation
 .end field
 
@@ -54,20 +49,11 @@
 # direct methods
 .method public constructor <init>(Lcom/google/common/cache/LocalCache;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "cache"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/google/common/cache/LocalCache<",
-            "TK;TV;>;)V"
+            "Lcom/google/common/cache/LocalCache;",
+            ")V"
         }
     .end annotation
 
@@ -98,20 +84,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private readObject(Ljava/io/ObjectInputStream;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "in"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;,
@@ -137,7 +113,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p1, v0}, Lcom/google/common/cache/CacheBuilder;->b(Lcom/google/common/cache/CacheLoader;)Lib/h;
+    invoke-virtual {p1, v0}, Lcom/google/common/cache/CacheBuilder;->b(Lcom/google/common/cache/CacheLoader;)Lcom/google/common/cache/g;
 
     .line 11
     .line 12
@@ -145,7 +121,7 @@
     move-result-object p1
 
     .line 14
-    iput-object p1, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lib/h;
+    iput-object p1, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/g;
 
     .line 15
     .line 16
@@ -158,14 +134,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private readResolve()Ljava/lang/Object;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lib/h;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/g;
 
     .line 2
     .line 3
@@ -189,22 +164,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "key"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;)TV;"
@@ -212,11 +177,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lib/h;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/g;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lib/h;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcom/google/common/cache/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -242,20 +207,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "key"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;)TV;"
@@ -269,11 +224,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lib/h;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/g;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lib/h;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcom/google/common/cache/g;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -299,20 +254,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getAll(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMap;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "keys"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -330,11 +275,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lib/h;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/g;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lib/h;->getAll(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMap;
+    invoke-interface {v0, p1}, Lcom/google/common/cache/g;->getAll(Ljava/lang/Iterable;)Lcom/google/common/collect/ImmutableMap;
 
     .line 4
     .line 5
@@ -360,20 +305,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getUnchecked(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "key"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;)TV;"
@@ -381,11 +316,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lib/h;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/g;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lib/h;->getUnchecked(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcom/google/common/cache/g;->getUnchecked(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -411,20 +346,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public refresh(Ljava/lang/Object;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "key"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;)V"
@@ -432,11 +357,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lib/h;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$LoadingSerializationProxy;->autoDelegate:Lcom/google/common/cache/g;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lib/h;->refresh(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Lcom/google/common/cache/g;->refresh(Ljava/lang/Object;)V
 
     .line 4
     .line 5
@@ -460,5 +385,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

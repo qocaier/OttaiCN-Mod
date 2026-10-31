@@ -160,11 +160,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static createFrom(Landroid/view/ViewGroup;)Lcom/google/android/material/internal/ViewGroupOverlayApi14;
@@ -201,7 +196,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -242,7 +236,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public remove(Landroid/view/View;)V
@@ -281,5 +274,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

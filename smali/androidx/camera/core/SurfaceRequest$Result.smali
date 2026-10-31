@@ -19,9 +19,6 @@
     }
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # static fields
 .field public static final RESULT_INVALID_SURFACE:I = 0x2
@@ -62,6 +59,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static of(ILandroid/view/Surface;)Landroidx/camera/core/SurfaceRequest$Result;

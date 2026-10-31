@@ -22,8 +22,4 @@
 .end method
 
 .method public abstract viewCreated(Landroid/view/View;)V
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method

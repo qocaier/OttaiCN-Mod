@@ -42,6 +42,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static isAppIdleMode(Landroid/content/Context;)Z
@@ -175,6 +177,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static isDozeIdleMode(Landroid/content/Context;)Z
@@ -322,6 +326,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static isInteractive(Landroid/content/Context;)Z
@@ -473,6 +479,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static isWhilteList(Landroid/content/Context;)Z
@@ -610,6 +618,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static readDataSaverMode(Landroid/content/Context;)I
@@ -773,6 +783,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static readPowerSaverMode(Landroid/content/Context;)I
@@ -933,4 +945,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

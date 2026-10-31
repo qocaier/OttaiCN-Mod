@@ -61,6 +61,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -214,6 +215,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V

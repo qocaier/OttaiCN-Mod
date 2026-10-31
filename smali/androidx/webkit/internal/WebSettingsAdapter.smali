@@ -79,6 +79,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBackForwardCacheEnabled()Z
@@ -111,6 +112,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDisabledActionModeMenuItems()I
@@ -143,6 +145,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEnterpriseAuthenticationAppLinkPolicyEnabled()Z
@@ -175,6 +178,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getForceDark()I
@@ -207,6 +211,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getForceDarkStrategy()I
@@ -239,6 +244,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOffscreenPreRaster()Z
@@ -271,6 +277,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRequestedWithHeaderOriginAllowList()Ljava/util/Set;
@@ -314,6 +321,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSafeBrowsingEnabled()Z
@@ -346,6 +354,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSpeculativeLoadingStatus()I
@@ -378,6 +387,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUserAgentMetadata()Landroidx/webkit/UserAgentMetadata;
@@ -416,6 +426,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWebAuthenticationSupport()I
@@ -448,6 +459,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWebViewMediaIntegrityApiStatus()Landroidx/webkit/WebViewMediaIntegrityApiStatusConfig;
@@ -564,6 +576,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isAlgorithmicDarkeningAllowed()Z
@@ -596,6 +610,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setAlgorithmicDarkeningAllowed(Z)V

@@ -68,7 +68,6 @@
     .line 21
     .line 22
     return-void
-    .line 23
 .end method
 
 
@@ -103,7 +102,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public citylimit(Ljava/lang/Boolean;)Lcom/baidu/mapapi/search/sug/SuggestionSearchOption;
@@ -136,7 +134,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public extendAdcode(Z)Lcom/baidu/mapapi/search/sug/SuggestionSearchOption;
@@ -169,7 +166,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public hotWord(Z)Lcom/baidu/mapapi/search/sug/SuggestionSearchOption;
@@ -202,7 +198,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isExtendAdcode()Z
@@ -233,7 +228,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public keyword(Ljava/lang/String;)Lcom/baidu/mapapi/search/sug/SuggestionSearchOption;
@@ -266,7 +260,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public language(Lcom/baidu/mapapi/search/base/LanguageType;)Lcom/baidu/mapapi/search/sug/SuggestionSearchOption;
@@ -299,7 +292,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public location(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/search/sug/SuggestionSearchOption;
@@ -332,5 +324,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

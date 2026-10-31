@@ -28,18 +28,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/core/app/JobIntentService;Landroid/content/Intent;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x0,
-            0x0
-        }
-        names = {
-            null,
-            null,
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/core/app/JobIntentService$CompatWorkItem;->this$0:Landroidx/core/app/JobIntentService;
@@ -163,6 +151,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -197,6 +188,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntent()Landroid/content/Intent;
@@ -225,4 +217,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

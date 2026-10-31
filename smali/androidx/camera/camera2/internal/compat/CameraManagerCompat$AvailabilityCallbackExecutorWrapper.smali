@@ -291,11 +291,11 @@
 
     .line 9
     .line 10
-    new-instance v2, Landroidx/camera/camera2/internal/compat/t;
+    new-instance v2, Landroidx/camera/camera2/internal/compat/w;
 
     .line 11
     .line 12
-    invoke-direct {v2, p0}, Landroidx/camera/camera2/internal/compat/t;-><init>(Landroidx/camera/camera2/internal/compat/CameraManagerCompat$AvailabilityCallbackExecutorWrapper;)V
+    invoke-direct {v2, p0}, Landroidx/camera/camera2/internal/compat/w;-><init>(Landroidx/camera/camera2/internal/compat/CameraManagerCompat$AvailabilityCallbackExecutorWrapper;)V
 
     .line 13
     .line 14
@@ -390,6 +390,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onCameraAvailable(Ljava/lang/String;)V
@@ -420,11 +422,11 @@
 
     .line 9
     .line 10
-    new-instance v2, Landroidx/camera/camera2/internal/compat/s;
+    new-instance v2, Landroidx/camera/camera2/internal/compat/v;
 
     .line 11
     .line 12
-    invoke-direct {v2, p0, p1}, Landroidx/camera/camera2/internal/compat/s;-><init>(Landroidx/camera/camera2/internal/compat/CameraManagerCompat$AvailabilityCallbackExecutorWrapper;Ljava/lang/String;)V
+    invoke-direct {v2, p0, p1}, Landroidx/camera/camera2/internal/compat/v;-><init>(Landroidx/camera/camera2/internal/compat/CameraManagerCompat$AvailabilityCallbackExecutorWrapper;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -490,11 +492,11 @@
 
     .line 9
     .line 10
-    new-instance v2, Landroidx/camera/camera2/internal/compat/u;
+    new-instance v2, Landroidx/camera/camera2/internal/compat/x;
 
     .line 11
     .line 12
-    invoke-direct {v2, p0, p1}, Landroidx/camera/camera2/internal/compat/u;-><init>(Landroidx/camera/camera2/internal/compat/CameraManagerCompat$AvailabilityCallbackExecutorWrapper;Ljava/lang/String;)V
+    invoke-direct {v2, p0, p1}, Landroidx/camera/camera2/internal/compat/x;-><init>(Landroidx/camera/camera2/internal/compat/CameraManagerCompat$AvailabilityCallbackExecutorWrapper;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -576,4 +578,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

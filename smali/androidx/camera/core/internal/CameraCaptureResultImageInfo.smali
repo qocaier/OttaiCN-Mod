@@ -86,6 +86,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRotationDegrees()I
@@ -126,6 +127,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTagBundle()Landroidx/camera/core/impl/TagBundle;
@@ -160,6 +162,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTimestamp()J
@@ -192,6 +195,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public populateExifData(Landroidx/camera/core/impl/utils/ExifData$Builder;)V

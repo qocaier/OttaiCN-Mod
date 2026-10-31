@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/flu_youzan_service/YouzanFragment;->v()V
+    value = Lcom/example/flu_youzan_service/YouzanFragment;->t()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -43,7 +43,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -53,11 +52,11 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "tradePayFinishedModel"
 
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/q;
+.implements Lq8/q;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/BufferedChannel;->L()Lpn/e;
+    value = Lkotlinx/coroutines/channels/BufferedChannel;->H()Lkotlinx/coroutines/selects/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,13 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/q<",
-        "Lkotlinx/coroutines/channels/BufferedChannel<",
-        "*>;",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lq8/q;"
     }
 .end annotation
 
@@ -87,8 +81,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/BufferedChannel<",
-            "*>;",
+            "Lkotlinx/coroutines/channels/BufferedChannel;",
             "Ljava/lang/Object;",
             "Ljava/lang/Object;",
             ")",
@@ -97,7 +90,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannel;->F(Lkotlinx/coroutines/channels/BufferedChannel;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannel;->A(Lkotlinx/coroutines/channels/BufferedChannel;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

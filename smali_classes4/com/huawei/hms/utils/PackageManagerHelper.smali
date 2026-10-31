@@ -53,6 +53,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private a(Ljava/lang/String;)[B
@@ -219,6 +221,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -356,6 +360,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getPackageFirstInstallTime(Ljava/lang/String;)J
@@ -407,6 +413,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getPackageSignature(Ljava/lang/String;)Ljava/lang/String;
@@ -467,6 +475,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getPackageSigningCertificate(Ljava/lang/String;)Ljava/lang/String;
@@ -521,7 +531,7 @@
     move-result-object p1
 
     .line 23
-    invoke-static {p1}, Lr0/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
+    invoke-static {p1}, Landroidx/core/content/pm/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
 
     .line 24
     .line 25
@@ -562,7 +572,7 @@
 
     .line 43
     :cond_1
-    invoke-static {p1}, Lr0/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
+    invoke-static {p1}, Landroidx/core/content/pm/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
 
     .line 44
     .line 45
@@ -570,7 +580,7 @@
     move-result-object p1
 
     .line 47
-    invoke-static {p1}, Ld5/b;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
+    invoke-static {p1}, Lcom/baidu/lbsapi/auth/s;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
 
     .line 48
     .line 49
@@ -859,27 +869,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public getPackageStates(Ljava/lang/String;)Lcom/huawei/hms/utils/PackageManagerHelper$PackageStates;
@@ -1019,6 +1008,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getPackageVersionCode(Ljava/lang/String;)I
@@ -1168,6 +1159,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getPackageVersionName(Ljava/lang/String;)Ljava/lang/String;
@@ -1296,6 +1289,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public hasProvider(Ljava/lang/String;Ljava/lang/String;)Z
@@ -1404,6 +1399,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public isPackageFreshInstall(Ljava/lang/String;)Z
@@ -1465,6 +1470,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public verifyPackageArchive(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
@@ -2396,4 +2403,59 @@
     .line 762
     .line 763
     .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
 .end method

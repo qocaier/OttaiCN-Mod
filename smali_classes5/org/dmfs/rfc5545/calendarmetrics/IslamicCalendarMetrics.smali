@@ -1,5 +1,5 @@
 .class public Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;
-.super Loq/a;
+.super Lz9/a;
 .source "SourceFile"
 
 
@@ -13,25 +13,13 @@
 
 
 # static fields
-.field public static final f:J = 0x2987L
+.field public static final f:[I
 
-.field public static final g:J = 0x5265c00L
+.field public static final g:[[B
 
-.field public static final h:J = 0xd5dbf68400L
+.field public static final h:[Lorg/dmfs/rfc5545/Weekday;
 
-.field public static final i:J = 0x26ac5419b000L
-
-.field public static final j:Ljava/lang/String; = "ISLAMIC-TLBA"
-
-.field public static final k:Ljava/lang/String; = "ISLAMIC-CIVIL"
-
-.field public static final l:[I
-
-.field public static final m:[[B
-
-.field public static final n:[Lorg/dmfs/rfc5545/Weekday;
-
-.field public static final o:Lorg/dmfs/rfc5545/calendarmetrics/a;
+.field public static final i:Lorg/dmfs/rfc5545/calendarmetrics/a;
 
 
 # instance fields
@@ -56,7 +44,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->l:[I
+    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->f:[I
 
     const/16 v0, 0x1f
 
@@ -80,13 +68,13 @@
 
     move-result-object v0
 
-    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->m:[[B
+    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->g:[[B
 
     invoke-static {}, Lorg/dmfs/rfc5545/Weekday;->values()[Lorg/dmfs/rfc5545/Weekday;
 
     move-result-object v0
 
-    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->n:[Lorg/dmfs/rfc5545/Weekday;
+    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->h:[Lorg/dmfs/rfc5545/Weekday;
 
     sget-object v0, Lorg/dmfs/rfc5545/calendarmetrics/b;->d:Lorg/dmfs/rfc5545/calendarmetrics/a$a;
 
@@ -96,7 +84,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->o:Lorg/dmfs/rfc5545/calendarmetrics/a;
+    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->i:Lorg/dmfs/rfc5545/calendarmetrics/a;
 
     return-void
 
@@ -246,7 +234,7 @@
 .method public constructor <init>(Lorg/dmfs/rfc5545/Weekday;ILorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics$LeapYearPattern;Z)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Loq/a;-><init>(Lorg/dmfs/rfc5545/Weekday;I)V
+    invoke-direct {p0, p1, p2}, Lz9/a;-><init>(Lorg/dmfs/rfc5545/Weekday;I)V
 
     invoke-virtual {p3}, Ljava/lang/Enum;->ordinal()I
 
@@ -261,7 +249,162 @@
 
 
 # virtual methods
-.method public N(JLjava/util/TimeZone;)J
+.method public d(III)I
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->v(II)I
+
+    move-result p1
+
+    add-int/2addr p1, p3
+
+    return p1
+.end method
+
+.method public e(II)I
+    .locals 2
+
+    .line 1
+    const/16 v0, 0xb
+
+    const/16 v1, 0x1e
+
+    if-ne p2, v0, :cond_0
+
+    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->w(I)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    return v1
+
+    :cond_0
+    and-int/lit8 p1, p2, 0x1
+
+    sub-int/2addr v1, p1
+
+    return v1
+.end method
+
+.method public f(I)I
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->w(I)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/16 p1, 0x163
+
+    return p1
+
+    :cond_0
+    const/16 p1, 0x162
+
+    return p1
+.end method
+
+.method public g(II)I
+    .locals 1
+
+    .line 1
+    :goto_0
+    const/4 v0, 0x1
+
+    if-ge p2, v0, :cond_0
+
+    add-int/lit8 p1, p1, -0x1
+
+    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->f(I)I
+
+    move-result v0
+
+    add-int/2addr p2, v0
+
+    goto :goto_0
+
+    :cond_0
+    :goto_1
+    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->f(I)I
+
+    move-result v0
+
+    if-le p2, v0, :cond_1
+
+    add-int/lit8 p1, p1, 0x1
+
+    sub-int/2addr p2, v0
+
+    goto :goto_1
+
+    :cond_1
+    const/16 v0, 0x163
+
+    if-ne p2, v0, :cond_2
+
+    const/16 v0, 0xb
+
+    goto :goto_2
+
+    :cond_2
+    add-int/lit8 v0, p2, -0x1
+
+    mul-int/lit8 v0, v0, 0x2
+
+    div-int/lit8 v0, v0, 0x3b
+
+    :goto_2
+    invoke-virtual {p0, p1, v0}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->v(II)I
+
+    move-result p1
+
+    sub-int/2addr p2, p1
+
+    invoke-static {v0, p2}, Lorg/dmfs/rfc5545/calendarmetrics/a;->i(II)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public h(I)I
+    .locals 3
+
+    .line 1
+    add-int/lit8 p1, p1, -0x1
+
+    rem-int/lit8 v0, p1, 0x1e
+
+    div-int/lit8 p1, p1, 0x1e
+
+    mul-int/lit8 p1, p1, 0x5
+
+    add-int/lit8 p1, p1, 0x5
+
+    mul-int/lit8 v1, v0, 0x4
+
+    add-int/2addr p1, v1
+
+    sget-object v1, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->g:[[B
+
+    iget v2, p0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->d:I
+
+    aget-object v1, v1, v2
+
+    aget-byte v0, v1, v0
+
+    add-int/2addr p1, v0
+
+    rem-int/lit8 p1, p1, 0x7
+
+    return p1
+.end method
+
+.method public r(JLjava/util/TimeZone;)J
     .locals 9
 
     .line 1
@@ -325,7 +468,7 @@
 
     mul-int/lit16 v1, v0, 0x162
 
-    sget-object v3, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->m:[[B
+    sget-object v3, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->g:[[B
 
     iget v4, p0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->d:I
 
@@ -351,14 +494,14 @@
 
     if-ne p1, v1, :cond_4
 
-    invoke-virtual {p0, p2}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->S(I)Z
+    invoke-virtual {p0, p2}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->w(I)Z
 
     move-result v1
 
     if-nez v1, :cond_4
 
     :cond_3
-    invoke-virtual {p0, p2}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->g(I)I
+    invoke-virtual {p0, p2}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->f(I)I
 
     move-result p2
 
@@ -371,7 +514,7 @@
 
     div-int v0, p3, v0
 
-    invoke-virtual {p0, p2, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->k(II)I
+    invoke-virtual {p0, p2, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->g(II)I
 
     move-result p1
 
@@ -379,7 +522,7 @@
 
     add-int v3, v2, p2
 
-    invoke-static {p1}, Lorg/dmfs/rfc5545/calendarmetrics/a;->C(I)I
+    invoke-static {p1}, Lorg/dmfs/rfc5545/calendarmetrics/a;->n(I)I
 
     move-result v4
 
@@ -395,14 +538,14 @@
 
     rem-int/lit8 v8, p3, 0x3c
 
-    invoke-static/range {v3 .. v8}, Lnq/c;->d(IIIIII)J
+    invoke-static/range {v3 .. v8}, Ly9/b;->c(IIIIII)J
 
     move-result-wide p1
 
     return-wide p1
 .end method
 
-.method public P(Ljava/util/TimeZone;IIIIIII)J
+.method public s(Ljava/util/TimeZone;IIIIIII)J
     .locals 9
 
     .line 1
@@ -418,27 +561,27 @@
 
     move v2, p4
 
-    invoke-static/range {v0 .. v5}, Lnq/c;->d(IIIIII)J
+    invoke-static/range {v0 .. v5}, Ly9/b;->c(IIIIII)J
 
     move-result-wide p2
 
-    invoke-virtual {p0, p2, p3}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->T(J)J
+    invoke-virtual {p0, p2, p3}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->x(J)J
 
     move-result-wide p2
 
-    invoke-static {p2, p3}, Lnq/c;->z(J)I
+    invoke-static {p2, p3}, Ly9/b;->p(J)I
 
     move-result v2
 
-    invoke-static {p2, p3}, Lnq/c;->h(J)I
+    invoke-static {p2, p3}, Ly9/b;->e(J)I
 
     move-result v3
 
-    invoke-static {p2, p3}, Lnq/c;->a(J)I
+    invoke-static {p2, p3}, Ly9/b;->a(J)I
 
     move-result v4
 
-    sget-object v0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->o:Lorg/dmfs/rfc5545/calendarmetrics/a;
+    sget-object v0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->i:Lorg/dmfs/rfc5545/calendarmetrics/a;
 
     move-object v1, p1
 
@@ -450,14 +593,14 @@
 
     move/from16 v8, p8
 
-    invoke-virtual/range {v0 .. v8}, Lorg/dmfs/rfc5545/calendarmetrics/a;->P(Ljava/util/TimeZone;IIIIIII)J
+    invoke-virtual/range {v0 .. v8}, Lorg/dmfs/rfc5545/calendarmetrics/a;->s(Ljava/util/TimeZone;IIIIIII)J
 
     move-result-wide p1
 
     return-wide p1
 .end method
 
-.method public R()I
+.method public t()I
     .locals 1
 
     .line 1
@@ -466,11 +609,26 @@
     return v0
 .end method
 
-.method public S(I)Z
+.method public v(II)I
+    .locals 0
+
+    .line 1
+    mul-int/lit8 p1, p2, 0x1d
+
+    add-int/lit8 p2, p2, 0x1
+
+    ushr-int/lit8 p2, p2, 0x1
+
+    add-int/2addr p1, p2
+
+    return p1
+.end method
+
+.method public w(I)Z
     .locals 2
 
     .line 1
-    sget-object v0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->l:[I
+    sget-object v0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->f:[I
 
     iget v1, p0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->d:I
 
@@ -498,19 +656,19 @@
     return p1
 .end method
 
-.method public T(J)J
+.method public x(J)J
     .locals 7
 
     .line 1
-    invoke-static {p1, p2}, Lnq/c;->z(J)I
+    invoke-static {p1, p2}, Ly9/b;->p(J)I
 
     move-result v0
 
-    invoke-static {p1, p2}, Lnq/c;->h(J)I
+    invoke-static {p1, p2}, Ly9/b;->e(J)I
 
     move-result v1
 
-    invoke-static {p1, p2}, Lnq/c;->a(J)I
+    invoke-static {p1, p2}, Ly9/b;->a(J)I
 
     move-result p1
 
@@ -528,7 +686,7 @@
 
     mul-int/lit16 p2, v2, 0x162
 
-    sget-object v5, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->m:[[B
+    sget-object v5, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->g:[[B
 
     iget v6, p0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->d:I
 
@@ -542,7 +700,7 @@
 
     add-long/2addr v3, v5
 
-    invoke-virtual {p0, v0, v1, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->e(III)I
+    invoke-virtual {p0, v0, v1, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->d(III)I
 
     move-result p1
 
@@ -575,429 +733,13 @@
     goto :goto_0
 
     :goto_1
-    sget-object p1, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->o:Lorg/dmfs/rfc5545/calendarmetrics/a;
+    sget-object p1, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->i:Lorg/dmfs/rfc5545/calendarmetrics/a;
 
     const/4 p2, 0x0
 
-    invoke-virtual {p1, v3, v4, p2}, Lorg/dmfs/rfc5545/calendarmetrics/a;->N(JLjava/util/TimeZone;)J
+    invoke-virtual {p1, v3, v4, p2}, Lorg/dmfs/rfc5545/calendarmetrics/a;->r(JLjava/util/TimeZone;)J
 
     move-result-wide p1
 
     return-wide p1
-.end method
-
-.method public b(II)I
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0, p1, p2}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->m(II)I
-
-    move-result v0
-
-    invoke-virtual {p0, p1, v0}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->u(II)I
-
-    move-result p1
-
-    sub-int/2addr p2, p1
-
-    return p2
-.end method
-
-.method public e(III)I
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0, p1, p2}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->u(II)I
-
-    move-result p1
-
-    add-int/2addr p1, p3
-
-    return p1
-.end method
-
-.method public f(II)I
-    .locals 2
-
-    .line 1
-    const/16 v0, 0xb
-
-    const/16 v1, 0x1e
-
-    if-ne p2, v0, :cond_0
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->S(I)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    return v1
-
-    :cond_0
-    and-int/lit8 p1, p2, 0x1
-
-    sub-int/2addr v1, p1
-
-    return v1
-.end method
-
-.method public g(I)I
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->S(I)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    const/16 p1, 0x163
-
-    return p1
-
-    :cond_0
-    const/16 p1, 0x162
-
-    return p1
-.end method
-
-.method public h()I
-    .locals 1
-
-    .line 1
-    const/16 v0, 0x1e
-
-    return v0
-.end method
-
-.method public i()I
-    .locals 1
-
-    .line 1
-    const/16 v0, 0x34
-
-    return v0
-.end method
-
-.method public j()I
-    .locals 1
-
-    .line 1
-    const/16 v0, 0x163
-
-    return v0
-.end method
-
-.method public k(II)I
-    .locals 1
-
-    .line 1
-    :goto_0
-    const/4 v0, 0x1
-
-    if-ge p2, v0, :cond_0
-
-    add-int/lit8 p1, p1, -0x1
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->g(I)I
-
-    move-result v0
-
-    add-int/2addr p2, v0
-
-    goto :goto_0
-
-    :cond_0
-    :goto_1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->g(I)I
-
-    move-result v0
-
-    if-le p2, v0, :cond_1
-
-    add-int/lit8 p1, p1, 0x1
-
-    sub-int/2addr p2, v0
-
-    goto :goto_1
-
-    :cond_1
-    const/16 v0, 0x163
-
-    if-ne p2, v0, :cond_2
-
-    const/16 v0, 0xb
-
-    goto :goto_2
-
-    :cond_2
-    add-int/lit8 v0, p2, -0x1
-
-    mul-int/lit8 v0, v0, 0x2
-
-    div-int/lit8 v0, v0, 0x3b
-
-    :goto_2
-    invoke-virtual {p0, p1, v0}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->u(II)I
-
-    move-result p1
-
-    sub-int/2addr p2, p1
-
-    invoke-static {v0, p2}, Lorg/dmfs/rfc5545/calendarmetrics/a;->w(II)I
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public m(II)I
-    .locals 2
-
-    .line 1
-    :goto_0
-    const/4 v0, 0x1
-
-    if-ge p2, v0, :cond_0
-
-    add-int/lit8 p1, p1, -0x1
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->g(I)I
-
-    move-result v0
-
-    add-int/2addr p2, v0
-
-    goto :goto_0
-
-    :cond_0
-    :goto_1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->g(I)I
-
-    move-result v1
-
-    if-le p2, v1, :cond_1
-
-    add-int/lit8 p1, p1, 0x1
-
-    sub-int/2addr p2, v1
-
-    goto :goto_1
-
-    :cond_1
-    const/16 p1, 0x163
-
-    if-ne p2, p1, :cond_2
-
-    const/16 p1, 0xb
-
-    return p1
-
-    :cond_2
-    sub-int/2addr p2, v0
-
-    mul-int/lit8 p2, p2, 0x2
-
-    div-int/lit8 p2, p2, 0x3b
-
-    return p2
-.end method
-
-.method public n(I)I
-    .locals 3
-
-    .line 1
-    add-int/lit8 p1, p1, -0x1
-
-    rem-int/lit8 v0, p1, 0x1e
-
-    div-int/lit8 p1, p1, 0x1e
-
-    mul-int/lit8 p1, p1, 0x5
-
-    add-int/lit8 p1, p1, 0x5
-
-    mul-int/lit8 v1, v0, 0x4
-
-    add-int/2addr p1, v1
-
-    sget-object v1, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->m:[[B
-
-    iget v2, p0, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->d:I
-
-    aget-object v1, v1, v2
-
-    aget-byte v0, v1, v0
-
-    add-int/2addr p1, v0
-
-    rem-int/lit8 p1, p1, 0x7
-
-    return p1
-.end method
-
-.method public o(II)I
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->r(I)I
-
-    move-result v0
-
-    if-ge p2, v0, :cond_0
-
-    add-int/lit8 p1, p1, -0x1
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->q(I)I
-
-    move-result p1
-
-    return p1
-
-    :cond_0
-    sub-int/2addr p2, v0
-
-    div-int/lit8 p2, p2, 0x7
-
-    add-int/lit8 p2, p2, 0x1
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->q(I)I
-
-    move-result p1
-
-    if-le p2, p1, :cond_1
-
-    sub-int/2addr p2, p1
-
-    :cond_1
-    return p2
-.end method
-
-.method public q(I)I
-    .locals 2
-
-    .line 1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->r(I)I
-
-    move-result v0
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->g(I)I
-
-    move-result p1
-
-    sub-int/2addr p1, v0
-
-    add-int/lit8 p1, p1, 0x1
-
-    div-int/lit8 v0, p1, 0x7
-
-    rem-int/lit8 p1, p1, 0x7
-
-    rsub-int/lit8 p1, p1, 0x7
-
-    iget v1, p0, Lorg/dmfs/rfc5545/calendarmetrics/a;->c:I
-
-    if-lt p1, v1, :cond_0
-
-    return v0
-
-    :cond_0
-    add-int/lit8 v0, v0, 0x1
-
-    return v0
-.end method
-
-.method public r(I)I
-    .locals 2
-
-    .line 1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->n(I)I
-
-    move-result p1
-
-    iget v0, p0, Lorg/dmfs/rfc5545/calendarmetrics/a;->b:I
-
-    sub-int/2addr v0, p1
-
-    add-int/lit8 p1, v0, 0x1
-
-    iget v1, p0, Lorg/dmfs/rfc5545/calendarmetrics/a;->c:I
-
-    if-le p1, v1, :cond_0
-
-    add-int/lit8 v0, v0, -0x6
-
-    return v0
-
-    :cond_0
-    add-int/lit8 v1, v1, -0x6
-
-    if-ge p1, v1, :cond_1
-
-    add-int/lit8 v0, v0, 0x8
-
-    return v0
-
-    :cond_1
-    return p1
-.end method
-
-.method public s(III)I
-    .locals 1
-
-    .line 1
-    mul-int/lit8 p2, p2, 0x7
-
-    add-int/lit8 p2, p2, -0x7
-
-    iget v0, p0, Lorg/dmfs/rfc5545/calendarmetrics/a;->b:I
-
-    sub-int/2addr p3, v0
-
-    add-int/lit8 p3, p3, 0x7
-
-    rem-int/lit8 p3, p3, 0x7
-
-    add-int/2addr p2, p3
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->r(I)I
-
-    move-result p1
-
-    add-int/2addr p2, p1
-
-    return p2
-.end method
-
-.method public t(II)I
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/IslamicCalendarMetrics;->r(I)I
-
-    move-result p1
-
-    add-int/lit8 p2, p2, -0x1
-
-    mul-int/lit8 p2, p2, 0x7
-
-    add-int/2addr p1, p2
-
-    return p1
-.end method
-
-.method public u(II)I
-    .locals 0
-
-    .line 1
-    mul-int/lit8 p1, p2, 0x1d
-
-    add-int/lit8 p2, p2, 0x1
-
-    ushr-int/lit8 p2, p2, 0x1
-
-    add-int/2addr p1, p2
-
-    return p1
 .end method

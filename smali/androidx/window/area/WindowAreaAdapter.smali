@@ -10,9 +10,6 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/window/area/WindowAreaAdapter;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -54,14 +51,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final translate$window_release(I)Landroidx/window/area/WindowAreaCapability$Status;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     if-eqz p1, :cond_3
@@ -178,4 +174,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

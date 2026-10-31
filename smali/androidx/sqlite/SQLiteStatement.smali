@@ -6,27 +6,11 @@
 .implements Ljava/lang/AutoCloseable;
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSQLiteStatement.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SQLiteStatement.kt\nandroidx/sqlite/SQLiteStatement\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,233:1\n1#2:234\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSQLiteStatement.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SQLiteStatement.kt\nandroidx/sqlite/SQLiteStatement\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,233:1\n1#2:234\n*E\n"
-    }
-.end annotation
-
-
 # virtual methods
 .method public abstract bindBlob(I[B)V
     .param p1    # I
         .annotation build Landroidx/annotation/IntRange;
             from = 0x1L
-        .end annotation
-    .end param
-    .param p2    # [B
-        .annotation build Lsq/k;
         .end annotation
     .end param
 .end method
@@ -258,10 +242,6 @@
             from = 0x1L
         .end annotation
     .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method
 
 .method public abstract clearBindings()V
@@ -276,8 +256,6 @@
             from = 0x0L
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public getBoolean(I)Z
@@ -342,8 +320,6 @@
             from = 0x0L
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public getColumnNames()Ljava/util/List;
@@ -355,9 +331,6 @@
             "Ljava/lang/String;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -469,6 +442,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public abstract getColumnType(I)I
@@ -585,8 +560,6 @@
             from = 0x0L
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract isNull(I)Z

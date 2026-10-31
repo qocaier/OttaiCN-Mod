@@ -5,19 +5,8 @@
 
 # static fields
 .field public static final a:Lcom/ottai/tag/ActionManager;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field public static final b:Ljava/lang/String; = "lastActionTime"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static c:Landroid/os/PowerManager$WakeLock;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
+.field public static b:Landroid/os/PowerManager$WakeLock;
 
 
 # direct methods
@@ -59,20 +48,17 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
 # virtual methods
 .method public final a(Landroid/content/Context;)V
     .locals 8
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "WakelockTimeout"
-        }
-    .end annotation
 
     .line 1
-    sget-object v0, Lcom/ottai/tag/ActionManager;->c:Landroid/os/PowerManager$WakeLock;
+    sget-object v0, Lcom/ottai/tag/ActionManager;->b:Landroid/os/PowerManager$WakeLock;
 
     .line 2
     .line 3
@@ -126,12 +112,12 @@
 
     .line 25
     :goto_0
-    sput-object v0, Lcom/ottai/tag/ActionManager;->c:Landroid/os/PowerManager$WakeLock;
+    sput-object v0, Lcom/ottai/tag/ActionManager;->b:Landroid/os/PowerManager$WakeLock;
 
     .line 26
     .line 27
     :cond_1
-    sget-object v0, Lcom/ottai/tag/ActionManager;->c:Landroid/os/PowerManager$WakeLock;
+    sget-object v0, Lcom/ottai/tag/ActionManager;->b:Landroid/os/PowerManager$WakeLock;
 
     .line 28
     .line 29
@@ -139,7 +125,7 @@
 
     .line 30
     .line 31
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 32
     .line 33
@@ -248,11 +234,11 @@
     :cond_2
     :goto_1
     :try_start_1
-    sget-object p1, Lcom/ottai/tag/ActionManager;->c:Landroid/os/PowerManager$WakeLock;
+    sget-object p1, Lcom/ottai/tag/ActionManager;->b:Landroid/os/PowerManager$WakeLock;
 
     .line 84
     .line 85
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 86
     .line 87
@@ -266,7 +252,7 @@
     .line 91
     .line 92
     .line 93
-    invoke-static {}, Lfn/t0;->c()Lfn/f0;
+    invoke-static {}, Lkotlinx/coroutines/v0;->b()Lkotlinx/coroutines/h0;
 
     .line 94
     .line 95
@@ -274,7 +260,7 @@
     move-result-object p1
 
     .line 97
-    invoke-static {p1}, Lkotlinx/coroutines/h;->a(Lkotlin/coroutines/d;)Lfn/i0;
+    invoke-static {p1}, Lkotlinx/coroutines/m0;->a(Lkotlin/coroutines/i;)Lkotlinx/coroutines/l0;
 
     .line 98
     .line 99
@@ -286,7 +272,7 @@
 
     .line 102
     .line 103
-    invoke-direct {v5, v1}, Lcom/ottai/tag/ActionManager$acquire$1;-><init>(Lul/c;)V
+    invoke-direct {v5, v1}, Lcom/ottai/tag/ActionManager$acquire$1;-><init>(Lkotlin/coroutines/e;)V
 
     .line 104
     .line 105
@@ -303,7 +289,7 @@
     const/4 v4, 0x0
 
     .line 110
-    invoke-static/range {v2 .. v7}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v2 .. v7}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -489,27 +475,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public final b()V
@@ -521,7 +486,7 @@
     .line 2
     .line 3
     :try_start_0
-    sget-object v1, Lcom/ottai/tag/ActionManager;->c:Landroid/os/PowerManager$WakeLock;
+    sget-object v1, Lcom/ottai/tag/ActionManager;->b:Landroid/os/PowerManager$WakeLock;
 
     .line 4
     .line 5
@@ -538,11 +503,11 @@
     .line 10
     .line 11
     .line 12
-    sget-object v1, Lcom/ottai/tag/ActionManager;->c:Landroid/os/PowerManager$WakeLock;
+    sget-object v1, Lcom/ottai/tag/ActionManager;->b:Landroid/os/PowerManager$WakeLock;
 
     .line 13
     .line 14
-    invoke-static {v1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 15
     .line 16
@@ -555,7 +520,7 @@
     const/4 v1, 0x0
 
     .line 21
-    sput-object v1, Lcom/ottai/tag/ActionManager;->c:Landroid/os/PowerManager$WakeLock;
+    sput-object v1, Lcom/ottai/tag/ActionManager;->b:Landroid/os/PowerManager$WakeLock;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -635,21 +600,18 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public final c(Landroid/content/Context;)Z
     .locals 8
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -794,4 +756,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

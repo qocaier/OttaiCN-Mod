@@ -91,7 +91,7 @@
     .end annotation
 .end field
 
-.field mOpenCaptureSessionFuture:Lub/u0;
+.field mOpenCaptureSessionFuture:Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/GuardedBy;
         value = "mLock"
     .end annotation
@@ -101,9 +101,7 @@
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -125,7 +123,7 @@
     .end annotation
 .end field
 
-.field private mStartingSurface:Lub/u0;
+.field private mStartingSurface:Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/GuardedBy;
         value = "mLock"
     .end annotation
@@ -135,10 +133,7 @@
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/util/List<",
-            "Landroid/view/Surface;",
-            ">;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -423,6 +418,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic a(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Landroidx/camera/camera2/internal/SynchronizedCaptureSession;)V
@@ -1140,7 +1141,7 @@
     .line 48
 .end method
 
-.method public static synthetic d(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Ljava/util/List;Ljava/util/List;)Lub/u0;
+.method public static synthetic d(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Ljava/util/List;Ljava/util/List;)Lcom/google/common/util/concurrent/t;
     .locals 2
 
     .line 1
@@ -1246,7 +1247,7 @@
     .line 53
     .line 54
     .line 55
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 56
     .line 57
@@ -1283,7 +1284,7 @@
     .line 71
     .line 72
     .line 73
-    invoke-static {p0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 74
     .line 75
@@ -1295,7 +1296,7 @@
 
     .line 78
     :cond_1
-    invoke-static {p2}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {p2}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 79
     .line 80
@@ -1335,6 +1336,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic e(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;)V
@@ -1415,6 +1419,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public captureBurstRequests(Ljava/util/List;Landroid/hardware/camera2/CameraCaptureSession$CaptureCallback;)I
@@ -1639,11 +1644,11 @@
     move-result-object v0
 
     .line 26
-    new-instance v1, Landroidx/camera/camera2/internal/o1;
+    new-instance v1, Landroidx/camera/camera2/internal/h2;
 
     .line 27
     .line 28
-    invoke-direct {v1, p0}, Landroidx/camera/camera2/internal/o1;-><init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;)V
+    invoke-direct {v1, p0}, Landroidx/camera/camera2/internal/h2;-><init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;)V
 
     .line 29
     .line 30
@@ -1704,6 +1709,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public createCaptureSessionCompat(Landroid/hardware/camera2/CameraCaptureSession;)V
@@ -1907,6 +1914,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public finishClose()V
@@ -1935,6 +1945,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDevice()Landroid/hardware/camera2/CameraDevice;
@@ -1977,6 +1988,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExecutor()Ljava/util/concurrent/Executor;
@@ -2007,6 +2019,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInputSurface()Landroid/view/Surface;
@@ -2049,9 +2062,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public getOpeningBlocker()Lub/u0;
+.method public getOpeningBlocker()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -2059,9 +2073,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -2069,7 +2081,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 3
     .line 4
@@ -2092,6 +2104,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStateCallback()Landroidx/camera/camera2/internal/SynchronizedCaptureSession$StateCallback;
@@ -2185,7 +2198,7 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lcom/google/common/util/concurrent/t;
 
     .line 5
     .line 6
@@ -2225,6 +2238,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onActive(Landroidx/camera/camera2/internal/SynchronizedCaptureSession;)V
@@ -2347,7 +2361,7 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lcom/google/common/util/concurrent/t;
 
     .line 12
     .line 13
@@ -2360,7 +2374,7 @@
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lcom/google/common/util/concurrent/t;
 
     .line 19
     .line 20
@@ -2393,11 +2407,11 @@
 
     .line 29
     .line 30
-    new-instance v0, Landroidx/camera/camera2/internal/p1;
+    new-instance v0, Landroidx/camera/camera2/internal/i2;
 
     .line 31
     .line 32
-    invoke-direct {v0, p0, p1}, Landroidx/camera/camera2/internal/p1;-><init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Landroidx/camera/camera2/internal/SynchronizedCaptureSession;)V
+    invoke-direct {v0, p0, p1}, Landroidx/camera/camera2/internal/i2;-><init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Landroidx/camera/camera2/internal/SynchronizedCaptureSession;)V
 
     .line 33
     .line 34
@@ -2410,7 +2424,7 @@
     move-result-object p1
 
     .line 39
-    invoke-interface {v1, v0, p1}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v1, v0, p1}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 40
     .line 41
@@ -2461,6 +2475,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onConfigureFailed(Landroidx/camera/camera2/internal/SynchronizedCaptureSession;)V
@@ -2633,7 +2648,7 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lcom/google/common/util/concurrent/t;
 
     .line 12
     .line 13
@@ -2646,7 +2661,7 @@
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lcom/google/common/util/concurrent/t;
 
     .line 19
     .line 20
@@ -2674,11 +2689,11 @@
 
     .line 26
     .line 27
-    new-instance v0, Landroidx/camera/camera2/internal/n1;
+    new-instance v0, Landroidx/camera/camera2/internal/g2;
 
     .line 28
     .line 29
-    invoke-direct {v0, p0, p1}, Landroidx/camera/camera2/internal/n1;-><init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Landroidx/camera/camera2/internal/SynchronizedCaptureSession;)V
+    invoke-direct {v0, p0, p1}, Landroidx/camera/camera2/internal/g2;-><init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Landroidx/camera/camera2/internal/SynchronizedCaptureSession;)V
 
     .line 30
     .line 31
@@ -2691,7 +2706,7 @@
     move-result-object p1
 
     .line 36
-    invoke-interface {v1, v0, p1}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v1, v0, p1}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 37
     .line 38
@@ -2745,6 +2760,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onSurfacePrepared(Landroidx/camera/camera2/internal/SynchronizedCaptureSession;Landroid/view/Surface;)V
@@ -2820,7 +2836,7 @@
     .line 48
 .end method
 
-.method public openCaptureSession(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)Lub/u0;
+.method public openCaptureSession(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)Lcom/google/common/util/concurrent/t;
     .locals 2
     .param p1    # Landroid/hardware/camera2/CameraDevice;
         .annotation build Landroidx/annotation/NonNull;
@@ -2845,9 +2861,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/DeferrableSurface;",
             ">;)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -2881,7 +2895,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 16
     .line 17
@@ -2924,16 +2938,16 @@
     move-result-object p1
 
     .line 34
-    new-instance v1, Landroidx/camera/camera2/internal/q1;
+    new-instance v1, Landroidx/camera/camera2/internal/j2;
 
     .line 35
     .line 36
-    invoke-direct {v1, p0, p3, p1, p2}, Landroidx/camera/camera2/internal/q1;-><init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Ljava/util/List;Landroidx/camera/camera2/internal/compat/CameraDeviceCompat;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;)V
+    invoke-direct {v1, p0, p3, p1, p2}, Landroidx/camera/camera2/internal/j2;-><init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Ljava/util/List;Landroidx/camera/camera2/internal/compat/CameraDeviceCompat;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;)V
 
     .line 37
     .line 38
     .line 39
-    invoke-static {v1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 40
     .line 41
@@ -2941,7 +2955,7 @@
     move-result-object p1
 
     .line 43
-    iput-object p1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lcom/google/common/util/concurrent/t;
 
     .line 44
     .line 45
@@ -2962,16 +2976,16 @@
     move-result-object p3
 
     .line 54
-    invoke-static {p1, p2, p3}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {p1, p2, p3}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 55
     .line 56
     .line 57
-    iget-object p1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lub/u0;
+    iget-object p1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mOpenCaptureSessionFuture:Lcom/google/common/util/concurrent/t;
 
     .line 58
     .line 59
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 60
     .line 61
@@ -3039,6 +3053,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public releaseDeferrableSurfaces()V
@@ -3098,6 +3115,7 @@
 
     .line 20
     throw v1
+    .line 21
 .end method
 
 .method public setRepeatingBurstRequests(Ljava/util/List;Landroid/hardware/camera2/CameraCaptureSession$CaptureCallback;)I
@@ -3271,7 +3289,7 @@
     return p1
 .end method
 
-.method public startWithDeferrableSurface(Ljava/util/List;J)Lub/u0;
+.method public startWithDeferrableSurface(Ljava/util/List;J)Lcom/google/common/util/concurrent/t;
     .locals 8
     .param p1    # Ljava/util/List;
         .annotation build Landroidx/annotation/NonNull;
@@ -3286,10 +3304,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/DeferrableSurface;",
             ">;J)",
-            "Lub/u0<",
-            "Ljava/util/List<",
-            "Landroid/view/Surface;",
-            ">;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -3323,7 +3338,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 16
     .line 17
@@ -3369,7 +3384,7 @@
     move-wide v4, p2
 
     .line 33
-    invoke-static/range {v2 .. v7}, Landroidx/camera/core/impl/DeferrableSurfaces;->surfaceListWithTimeout(Ljava/util/Collection;ZJLjava/util/concurrent/Executor;Ljava/util/concurrent/ScheduledExecutorService;)Lub/u0;
+    invoke-static/range {v2 .. v7}, Landroidx/camera/core/impl/DeferrableSurfaces;->surfaceListWithTimeout(Ljava/util/Collection;ZJLjava/util/concurrent/Executor;Ljava/util/concurrent/ScheduledExecutorService;)Lcom/google/common/util/concurrent/t;
 
     .line 34
     .line 35
@@ -3377,7 +3392,7 @@
     move-result-object p1
 
     .line 37
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/FutureChain;->from(Lub/u0;)Landroidx/camera/core/impl/utils/futures/FutureChain;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/FutureChain;->from(Lcom/google/common/util/concurrent/t;)Landroidx/camera/core/impl/utils/futures/FutureChain;
 
     .line 38
     .line 39
@@ -3385,11 +3400,11 @@
     move-result-object p1
 
     .line 41
-    new-instance p2, Landroidx/camera/camera2/internal/r1;
+    new-instance p2, Landroidx/camera/camera2/internal/k2;
 
     .line 42
     .line 43
-    invoke-direct {p2, p0, v2}, Landroidx/camera/camera2/internal/r1;-><init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Ljava/util/List;)V
+    invoke-direct {p2, p0, v2}, Landroidx/camera/camera2/internal/k2;-><init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Ljava/util/List;)V
 
     .line 44
     .line 45
@@ -3410,11 +3425,11 @@
     move-result-object p1
 
     .line 54
-    iput-object p1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mStartingSurface:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mStartingSurface:Lcom/google/common/util/concurrent/t;
 
     .line 55
     .line 56
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 57
     .line 58
@@ -3605,6 +3620,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public stop()Z
@@ -3636,7 +3654,7 @@
 
     .line 9
     .line 10
-    iget-object v3, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mStartingSurface:Lub/u0;
+    iget-object v3, p0, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->mStartingSurface:Lcom/google/common/util/concurrent/t;
 
     .line 11
     .line 12
@@ -3765,6 +3783,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public stopRepeating()V
@@ -3810,6 +3830,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toCameraCaptureSessionCompat()Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat;
@@ -3844,4 +3865,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -33,58 +33,39 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public adjustLayoutInDisplayCutoutMode(Landroid/view/Window;)V
     .locals 1
-    .param p1    # Landroid/view/Window;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "window"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
 
 .method public setUp(Landroidx/activity/SystemBarStyle;Landroidx/activity/SystemBarStyle;Landroid/view/Window;Landroid/view/View;ZZ)V
     .locals 0
-    .param p1    # Landroidx/activity/SystemBarStyle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/activity/SystemBarStyle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroid/view/Window;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string p5, "statusBarStyle"
 
-    invoke-static {p1, p5}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "navigationBarStyle"
 
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "window"
 
-    invoke-static {p3, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "view"
 
-    invoke-static {p4, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method

@@ -46,15 +46,6 @@
 .end method
 
 .method public abstract writeDelimitedTo(Ljava/io/OutputStream;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -63,15 +54,6 @@
 .end method
 
 .method public abstract writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -80,15 +62,6 @@
 .end method
 
 .method public abstract writeTo(Ljava/io/OutputStream;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

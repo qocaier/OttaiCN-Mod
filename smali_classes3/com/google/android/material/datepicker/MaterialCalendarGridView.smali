@@ -190,11 +190,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private getChildAtPosition(I)Landroid/view/View;
@@ -235,7 +230,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static horizontalMidPoint(Landroid/view/View;)I
@@ -282,7 +276,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static skipMonth(Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;)Z
@@ -593,6 +586,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 
@@ -672,7 +681,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final onDraw(Landroid/graphics/Canvas;)V
@@ -1509,6 +1517,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public onFocusChanged(ZILandroid/graphics/Rect;)V
@@ -1673,11 +1713,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -1803,11 +1838,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onMeasure(II)V
@@ -1903,11 +1933,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public bridge synthetic setAdapter(Landroid/widget/Adapter;)V
@@ -2088,6 +2113,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

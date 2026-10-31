@@ -36,7 +36,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lwn/d;)V
+.method public synthetic constructor <init>(Lnet/zetetic/database/sqlcipher/d;)V
     .locals 0
 
     .line 1

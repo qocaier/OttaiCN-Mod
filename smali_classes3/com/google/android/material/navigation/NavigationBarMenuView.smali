@@ -188,7 +188,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -729,6 +728,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/navigation/NavigationBarMenuView;)Lcom/google/android/material/navigation/NavigationBarPresenter;
@@ -761,7 +792,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/navigation/NavigationBarMenuView;)Landroidx/appcompat/view/menu/MenuBuilder;
@@ -794,7 +824,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private createItemActiveIndicatorDrawable()Landroid/graphics/drawable/Drawable;
@@ -849,6 +878,83 @@
 
     .line 23
     return-object v0
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method private getNewItem()Lcom/google/android/material/navigation/NavigationBarItemView;
@@ -896,7 +1002,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private isValidId(I)Z
@@ -1093,15 +1198,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private setBadgeIfNeeded(Lcom/google/android/material/navigation/NavigationBarItemView;)V
@@ -1164,6 +1260,72 @@
     :cond_1
     :goto_0
     return-void
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
 .end method
 
 .method private validateMenuItemId(I)V
@@ -1288,8 +1450,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -2252,6 +2412,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public createDefaultColorStateList(I)Landroid/content/res/ColorStateList;
@@ -2433,8 +2652,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public abstract createNavigationBarItemView(Landroid/content/Context;)Lcom/google/android/material/navigation/NavigationBarItemView;
@@ -2508,6 +2725,72 @@
 
     .line 25
     return-object p1
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
 .end method
 
 .method public getActiveIndicatorLabelPadding()I
@@ -2540,7 +2823,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBadge(I)Lcom/google/android/material/badge/BadgeDrawable;
@@ -2581,7 +2863,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getBadgeDrawables()Landroid/util/SparseArray;
@@ -2620,7 +2901,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIconTintList()Landroid/content/res/ColorStateList;
@@ -2653,7 +2933,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemActiveIndicatorColor()Landroid/content/res/ColorStateList;
@@ -2686,7 +2965,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemActiveIndicatorEnabled()Z
@@ -2717,7 +2995,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemActiveIndicatorHeight()I
@@ -2750,7 +3027,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemActiveIndicatorMarginHorizontal()I
@@ -2783,7 +3059,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemActiveIndicatorShapeAppearance()Lcom/google/android/material/shape/ShapeAppearanceModel;
@@ -2816,7 +3091,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemActiveIndicatorWidth()I
@@ -2849,7 +3123,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemBackground()Landroid/graphics/drawable/Drawable;
@@ -2901,7 +3174,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemBackgroundRes()I
@@ -2934,7 +3206,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemIconSize()I
@@ -2967,7 +3238,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemPaddingBottom()I
@@ -3000,7 +3270,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemPaddingTop()I
@@ -3033,7 +3302,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemRippleColor()Landroid/content/res/ColorStateList;
@@ -3066,7 +3334,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemTextAppearanceActive()I
@@ -3099,7 +3366,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemTextAppearanceInactive()I
@@ -3132,7 +3398,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemTextColor()Landroid/content/res/ColorStateList;
@@ -3165,7 +3430,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLabelVisibilityMode()I
@@ -3196,7 +3460,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMenu()Landroidx/appcompat/view/menu/MenuBuilder;
@@ -3229,7 +3492,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOrCreateBadge(I)Lcom/google/android/material/badge/BadgeDrawable;
@@ -3361,8 +3623,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public getSelectedItemId()I
@@ -3393,7 +3653,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSelectedItemPosition()I
@@ -3424,7 +3683,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWindowAnimations()I
@@ -3469,7 +3727,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isItemActiveIndicatorResizeable()Z
@@ -3500,7 +3757,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isShifting(II)Z
@@ -3657,8 +3913,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public removeBadge(I)V
@@ -3782,8 +4036,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public restoreBadgeDrawables(Landroid/util/SparseArray;)V
@@ -3958,8 +4210,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setActiveIndicatorLabelPadding(I)V
@@ -4016,7 +4266,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIconTintList(Landroid/content/res/ColorStateList;)V
@@ -4073,7 +4322,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemActiveIndicatorColor(Landroid/content/res/ColorStateList;)V
@@ -4134,7 +4382,6 @@
     :cond_0
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public setItemActiveIndicatorEnabled(Z)V
@@ -4187,7 +4434,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemActiveIndicatorHeight(I)V
@@ -4244,7 +4490,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemActiveIndicatorMarginHorizontal(I)V
@@ -4301,7 +4546,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemActiveIndicatorResizeable(Z)V
@@ -4354,7 +4598,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemActiveIndicatorShapeAppearance(Lcom/google/android/material/shape/ShapeAppearanceModel;)V
@@ -4415,7 +4658,6 @@
     :cond_0
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public setItemActiveIndicatorWidth(I)V
@@ -4472,7 +4714,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemBackground(Landroid/graphics/drawable/Drawable;)V
@@ -4529,7 +4770,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemBackgroundRes(I)V
@@ -4582,7 +4822,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemIconSize(I)V
@@ -4639,7 +4878,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemOnTouchListener(ILandroid/view/View$OnTouchListener;)V
@@ -4760,11 +4998,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setItemPaddingBottom(I)V
@@ -4821,7 +5054,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemPaddingTop(I)V
@@ -4878,7 +5110,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemRippleColor(Landroid/content/res/ColorStateList;)V
@@ -4935,7 +5166,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemTextAppearanceActive(I)V
@@ -5066,8 +5296,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setItemTextAppearanceActiveBoldEnabled(Z)V
@@ -5120,7 +5348,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemTextAppearanceInactive(I)V
@@ -5251,8 +5478,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setItemTextColor(Landroid/content/res/ColorStateList;)V
@@ -5309,7 +5534,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLabelVisibilityMode(I)V
@@ -5342,7 +5566,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPresenter(Lcom/google/android/material/navigation/NavigationBarPresenter;)V
@@ -5379,7 +5602,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public tryRestoreSelectedItemId(I)V
@@ -5516,8 +5738,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public updateMenuView()V
@@ -6322,4 +6542,63 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method

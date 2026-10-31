@@ -26,16 +26,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/core/app/JobIntentService$JobServiceEngineImpl;Landroid/app/job/JobWorkItem;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x0
-        }
-        names = {
-            null,
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;->this$0:Landroidx/core/app/JobIntentService$JobServiceEngineImpl;
@@ -128,7 +118,7 @@
 
     .line 13
     .line 14
-    invoke-static {v1, v2}, Lp0/i;->a(Landroid/app/job/JobParameters;Landroid/app/job/JobWorkItem;)V
+    invoke-static {v1, v2}, Landroidx/core/app/k;->a(Landroid/app/job/JobParameters;Landroid/app/job/JobWorkItem;)V
 
     .line 15
     .line 16
@@ -219,6 +209,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getIntent()Landroid/content/Intent;
@@ -229,7 +221,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lp0/h;->a(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
+    invoke-static {v0}, Landroidx/core/app/j;->a(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
 
     .line 4
     .line 5
@@ -251,4 +243,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

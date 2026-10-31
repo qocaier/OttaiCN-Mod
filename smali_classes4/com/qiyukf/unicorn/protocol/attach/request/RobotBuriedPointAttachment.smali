@@ -78,6 +78,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -108,6 +110,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuestionId()J
@@ -136,6 +140,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()J
@@ -164,6 +170,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTemplateId()J
@@ -192,6 +200,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -220,6 +230,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getType()I
@@ -248,6 +260,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setOperateType(I)V
@@ -281,6 +295,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setQuestionId(J)V
@@ -314,6 +330,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionId(J)V
@@ -347,6 +365,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTemplateId(J)V
@@ -380,6 +400,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTitle(Ljava/lang/String;)V
@@ -413,6 +435,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setType(I)V
@@ -446,4 +470,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

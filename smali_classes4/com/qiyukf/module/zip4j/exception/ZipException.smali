@@ -55,7 +55,7 @@
     invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     .line 8
-    sget-object p1, Lcom/qiyukf/module/zip4j/exception/ZipException$Type;->UNKNOWN:Lcom/qiyukf/module/zip4j/exception/ZipException$Type;
+    sget-object p1, Lcom/qiyukf/module/zip4j/exception/ZipException$Type;->WRONG_PASSWORD:Lcom/qiyukf/module/zip4j/exception/ZipException$Type;
 
     .line 9
     iput-object p2, p0, Lcom/qiyukf/module/zip4j/exception/ZipException;->type:Lcom/qiyukf/module/zip4j/exception/ZipException$Type;
@@ -84,7 +84,7 @@
     invoke-direct {p0, p1, p2}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 11
-    sget-object p1, Lcom/qiyukf/module/zip4j/exception/ZipException$Type;->UNKNOWN:Lcom/qiyukf/module/zip4j/exception/ZipException$Type;
+    sget-object p1, Lcom/qiyukf/module/zip4j/exception/ZipException$Type;->WRONG_PASSWORD:Lcom/qiyukf/module/zip4j/exception/ZipException$Type;
 
     .line 12
     iput-object p3, p0, Lcom/qiyukf/module/zip4j/exception/ZipException;->type:Lcom/qiyukf/module/zip4j/exception/ZipException$Type;
@@ -120,4 +120,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

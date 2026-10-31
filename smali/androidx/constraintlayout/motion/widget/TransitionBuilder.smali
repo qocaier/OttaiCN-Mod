@@ -34,28 +34,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static buildTransition(Landroidx/constraintlayout/motion/widget/MotionScene;IILandroidx/constraintlayout/widget/ConstraintSet;ILandroidx/constraintlayout/widget/ConstraintSet;)Landroidx/constraintlayout/motion/widget/MotionScene$Transition;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "scene",
-            "transitionId",
-            "startConstraintSetId",
-            "startConstraintSet",
-            "endConstraintSetId",
-            "endConstraintSet"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;
@@ -1076,20 +1059,6 @@
 
 .method private static updateConstraintSetInMotionScene(Landroidx/constraintlayout/motion/widget/MotionScene;Landroidx/constraintlayout/motion/widget/MotionScene$Transition;Landroidx/constraintlayout/widget/ConstraintSet;Landroidx/constraintlayout/widget/ConstraintSet;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "scene",
-            "transition",
-            "startConstraintSet",
-            "endConstraintSet"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->getStartConstraintSetId()I
@@ -1334,18 +1303,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static validate(Landroidx/constraintlayout/motion/widget/MotionLayout;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "layout"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -1477,4 +1444,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -13,24 +13,11 @@
     name = "Builder"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSplitPairRule.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SplitPairRule.kt\nandroidx/window/embedding/SplitPairRule$Builder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,338:1\n1#2:339\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSplitPairRule.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SplitPairRule.kt\nandroidx/window/embedding/SplitPairRule$Builder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,338:1\n1#2:339\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private clearTop:Z
 
 .field private defaultSplitAttributes:Landroidx/window/embedding/SplitAttributes;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final filters:Ljava/util/Set;
     .annotation system Ldalvik/annotation/Signature;
@@ -40,30 +27,15 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private finishPrimaryWithSecondary:Landroidx/window/embedding/SplitRule$FinishBehavior;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private finishSecondaryWithPrimary:Landroidx/window/embedding/SplitRule$FinishBehavior;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private maxAspectRatioInLandscape:Landroidx/window/embedding/EmbeddingAspectRatio;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private maxAspectRatioInPortrait:Landroidx/window/embedding/EmbeddingAspectRatio;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private minHeightDp:I
     .annotation build Landroidx/annotation/IntRange;
@@ -84,18 +56,11 @@
 .end field
 
 .field private tag:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/util/Set;)V
     .locals 1
-    .param p1    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -110,7 +75,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -226,14 +191,13 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
 # virtual methods
 .method public final build()Landroidx/window/embedding/SplitPairRule;
     .locals 12
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/window/embedding/SplitPairRule;
@@ -346,12 +310,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final setClearTop(Z)Landroidx/window/embedding/SplitPairRule$Builder;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput-boolean p1, p0, Landroidx/window/embedding/SplitPairRule$Builder;->clearTop:Z
@@ -385,19 +349,13 @@
 
 .method public final setDefaultSplitAttributes(Landroidx/window/embedding/SplitAttributes;)Landroidx/window/embedding/SplitPairRule$Builder;
     .locals 1
-    .param p1    # Landroidx/window/embedding/SplitAttributes;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "defaultSplitAttributes"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -428,19 +386,13 @@
 
 .method public final setFinishPrimaryWithSecondary(Landroidx/window/embedding/SplitRule$FinishBehavior;)Landroidx/window/embedding/SplitPairRule$Builder;
     .locals 1
-    .param p1    # Landroidx/window/embedding/SplitRule$FinishBehavior;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "finishPrimaryWithSecondary"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -471,19 +423,13 @@
 
 .method public final setFinishSecondaryWithPrimary(Landroidx/window/embedding/SplitRule$FinishBehavior;)Landroidx/window/embedding/SplitPairRule$Builder;
     .locals 1
-    .param p1    # Landroidx/window/embedding/SplitRule$FinishBehavior;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "finishSecondaryWithPrimary"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -514,19 +460,13 @@
 
 .method public final setMaxAspectRatioInLandscape(Landroidx/window/embedding/EmbeddingAspectRatio;)Landroidx/window/embedding/SplitPairRule$Builder;
     .locals 1
-    .param p1    # Landroidx/window/embedding/EmbeddingAspectRatio;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "aspectRatio"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -557,19 +497,13 @@
 
 .method public final setMaxAspectRatioInPortrait(Landroidx/window/embedding/EmbeddingAspectRatio;)Landroidx/window/embedding/SplitPairRule$Builder;
     .locals 1
-    .param p1    # Landroidx/window/embedding/EmbeddingAspectRatio;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "aspectRatio"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -605,8 +539,6 @@
             from = 0x0L
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/window/embedding/SplitPairRule$Builder;->minHeightDp:I
@@ -645,8 +577,6 @@
             from = 0x0L
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/window/embedding/SplitPairRule$Builder;->minSmallestWidthDp:I
@@ -685,8 +615,6 @@
             from = 0x0L
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/window/embedding/SplitPairRule$Builder;->minWidthDp:I
@@ -720,12 +648,6 @@
 
 .method public final setTag(Ljava/lang/String;)Landroidx/window/embedding/SplitPairRule$Builder;
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/window/embedding/SplitPairRule$Builder;->tag:Ljava/lang/String;

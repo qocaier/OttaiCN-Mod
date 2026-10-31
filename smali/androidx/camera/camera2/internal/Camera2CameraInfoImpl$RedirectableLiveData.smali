@@ -205,6 +205,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public redirectTo(Landroidx/lifecycle/LiveData;)V
@@ -240,11 +241,11 @@
 
     .line 9
     .line 10
-    new-instance v0, Landroidx/camera/camera2/internal/z;
+    new-instance v0, Landroidx/camera/camera2/internal/n0;
 
     .line 11
     .line 12
-    invoke-direct {v0, p0}, Landroidx/camera/camera2/internal/z;-><init>(Landroidx/camera/camera2/internal/Camera2CameraInfoImpl$RedirectableLiveData;)V
+    invoke-direct {v0, p0}, Landroidx/camera/camera2/internal/n0;-><init>(Landroidx/camera/camera2/internal/Camera2CameraInfoImpl$RedirectableLiveData;)V
 
     .line 13
     .line 14

@@ -92,6 +92,7 @@
 
     .line 20
     throw v0
+    .line 21
 .end method
 
 .method public getGeolocationPermissions()Landroid/webkit/GeolocationPermissions;
@@ -147,6 +148,7 @@
 
     .line 20
     throw v0
+    .line 21
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -196,6 +198,7 @@
 
     .line 20
     throw v0
+    .line 21
 .end method
 
 .method public getServiceWorkerController()Landroid/webkit/ServiceWorkerController;
@@ -251,6 +254,7 @@
 
     .line 20
     throw v0
+    .line 21
 .end method
 
 .method public getWebStorage()Landroid/webkit/WebStorage;
@@ -306,4 +310,5 @@
 
     .line 20
     throw v0
+    .line 21
 .end method

@@ -119,7 +119,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -1218,7 +1217,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getScrollRangeForDragFling(Landroid/view/View;)I
@@ -1262,7 +1260,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getTopBottomOffsetForScrollingSibling()I
@@ -1295,7 +1292,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onFlingFinished(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;)V
@@ -1637,11 +1633,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onTouchEvent(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/MotionEvent;)Z
@@ -2001,11 +1992,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public final scroll(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;III)I

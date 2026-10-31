@@ -1,9 +1,9 @@
-.class public Lio/reactivex/internal/schedulers/SchedulerWhen$b;
+.class public final Lio/reactivex/internal/schedulers/SchedulerWhen$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Lio/reactivex/disposables/b;
 
 
 # annotations
@@ -12,19 +12,13 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
+    accessFlags = 0x19
     name = "b"
 .end annotation
 
 
-# instance fields
-.field public final a:Ldk/d;
-
-.field public final b:Ljava/lang/Runnable;
-
-
 # direct methods
-.method public constructor <init>(Ljava/lang/Runnable;Ldk/d;)V
+.method public constructor <init>()V
     .locals 0
 
     .line 1
@@ -33,15 +27,11 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lio/reactivex/internal/schedulers/SchedulerWhen$b;->b:Ljava/lang/Runnable;
-
+    return-void
     .line 5
     .line 6
-    iput-object p2, p0, Lio/reactivex/internal/schedulers/SchedulerWhen$b;->a:Ldk/d;
-
     .line 7
     .line 8
-    return-void
     .line 9
     .line 10
     .line 11
@@ -75,55 +65,29 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
-.method public run()V
-    .locals 2
+.method public dispose()V
+    .locals 0
 
-    .line 1
-    :try_start_0
-    iget-object v0, p0, Lio/reactivex/internal/schedulers/SchedulerWhen$b;->b:Ljava/lang/Runnable;
-
-    .line 2
-    .line 3
-    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
-
-    .line 4
-    .line 5
-    .line 6
-    iget-object v0, p0, Lio/reactivex/internal/schedulers/SchedulerWhen$b;->a:Ldk/d;
-
-    .line 7
-    .line 8
-    invoke-interface {v0}, Ldk/d;->onComplete()V
-
-    .line 9
-    .line 10
-    .line 11
     return-void
+.end method
 
-    .line 12
-    :catchall_0
-    move-exception v0
+.method public isDisposed()Z
+    .locals 1
 
-    .line 13
-    iget-object v1, p0, Lio/reactivex/internal/schedulers/SchedulerWhen$b;->a:Ldk/d;
+    const/4 v0, 0x0
 
-    .line 14
-    .line 15
-    invoke-interface {v1}, Ldk/d;->onComplete()V
-
-    .line 16
-    .line 17
-    .line 18
-    throw v0
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
+    return v0
 .end method

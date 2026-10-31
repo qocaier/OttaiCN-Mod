@@ -159,6 +159,83 @@
     .line 22
     .line 23
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -507,15 +584,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getGravityTextAlignment()Landroid/text/Layout$Alignment;
@@ -654,15 +722,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getTextHeight()I
@@ -847,15 +906,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getTextLayoutWidth()I
@@ -998,15 +1048,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private isIconEnd()Z
@@ -1056,7 +1097,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private isIconStart()Z
@@ -1104,7 +1144,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private isIconTop()Z
@@ -1154,7 +1193,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private isLayoutRTL()Z
@@ -1196,7 +1234,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private isUsingOriginalBackground()Z
@@ -1242,7 +1279,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private resetIconDrawable()V
@@ -1388,15 +1424,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private updateIcon(Z)V
@@ -1942,6 +1969,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private updateIconPosition(II)V
@@ -2498,54 +2557,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 
@@ -2586,7 +2597,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public clearOnCheckedChangeListeners()V
@@ -2619,7 +2629,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getA11yClassName()Ljava/lang/String;
@@ -2759,15 +2768,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getBackgroundTintList()Landroid/content/res/ColorStateList;
@@ -2802,7 +2802,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -2837,7 +2836,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCornerRadius()I
@@ -2885,7 +2883,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIcon()Landroid/graphics/drawable/Drawable;
@@ -2916,7 +2913,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIconGravity()I
@@ -2947,7 +2943,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIconPadding()I
@@ -2980,7 +2975,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIconSize()I
@@ -3013,7 +3007,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIconTint()Landroid/content/res/ColorStateList;
@@ -3044,7 +3037,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIconTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -3075,7 +3067,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInsetBottom()I
@@ -3112,7 +3103,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInsetTop()I
@@ -3149,7 +3139,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRippleColor()Landroid/content/res/ColorStateList;
@@ -3197,7 +3186,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShapeAppearanceModel()Lcom/google/android/material/shape/ShapeAppearanceModel;
@@ -3249,7 +3237,6 @@
     .line 21
     throw v0
     .line 22
-    .line 23
 .end method
 
 .method public getStrokeColor()Landroid/content/res/ColorStateList;
@@ -3295,7 +3282,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStrokeWidth()I
@@ -3343,7 +3329,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSupportBackgroundTintList()Landroid/content/res/ColorStateList;
@@ -3399,7 +3384,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSupportBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -3455,7 +3439,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isCheckable()Z
@@ -3501,7 +3484,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isChecked()Z
@@ -3532,7 +3514,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isToggleCheckedStateOnClick()Z
@@ -3567,7 +3548,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAttachedToWindow()V
@@ -3613,7 +3593,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onCreateDrawableState(I)[I
@@ -3739,8 +3718,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
@@ -3789,7 +3766,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
@@ -3917,8 +3893,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onLayout(ZIIII)V
@@ -4940,7 +4914,6 @@
     .line 23
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -4983,7 +4956,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
@@ -5244,6 +5216,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public performClick()Z
@@ -5287,7 +5275,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public refreshDrawableState()V
@@ -5338,6 +5325,83 @@
     .line 23
     :cond_0
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method public removeOnCheckedChangeListener(Lcom/google/android/material/button/MaterialButton$OnCheckedChangeListener;)V
@@ -5376,7 +5440,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setA11yClassName(Ljava/lang/String;)V
@@ -5413,7 +5476,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackground(Landroid/graphics/drawable/Drawable;)V
@@ -5450,7 +5512,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundColor(I)V
@@ -5500,7 +5561,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -5644,8 +5704,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setBackgroundResource(I)V
@@ -5698,7 +5756,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundTintList(Landroid/content/res/ColorStateList;)V
@@ -5735,7 +5792,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -5772,7 +5828,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCheckable(Z)V
@@ -5814,7 +5869,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setChecked(Z)V
@@ -5994,8 +6048,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setCornerRadius(I)V
@@ -6041,7 +6093,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCornerRadiusResource(I)V
@@ -6093,7 +6144,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setElevation(F)V
@@ -6144,7 +6194,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIcon(Landroid/graphics/drawable/Drawable;)V
@@ -6200,7 +6249,6 @@
     return-void
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIconGravity(I)V
@@ -6248,7 +6296,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIconPadding(I)V
@@ -6292,7 +6339,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIconResource(I)V
@@ -6345,7 +6391,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIconSize(I)V
@@ -6402,7 +6447,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIconTint(Landroid/content/res/ColorStateList;)V
@@ -6448,7 +6492,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIconTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -6490,7 +6533,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIconTintResource(I)V
@@ -6535,7 +6577,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInsetBottom(I)V
@@ -6574,7 +6615,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInsetTop(I)V
@@ -6613,7 +6653,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInternalBackground(Landroid/graphics/drawable/Drawable;)V
@@ -6646,7 +6685,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnPressedChangeListenerInternal(Lcom/google/android/material/button/MaterialButton$OnPressedChangeListener;)V
@@ -6683,7 +6721,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPressed(Z)V
@@ -6723,7 +6760,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRippleColor(Landroid/content/res/ColorStateList;)V
@@ -6769,7 +6805,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRippleColorResource(I)V
@@ -6821,7 +6856,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShapeAppearanceModel(Lcom/google/android/material/shape/ShapeAppearanceModel;)V
@@ -6875,7 +6909,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShouldDrawSurfaceColorStroke(Z)V
@@ -6917,7 +6950,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStrokeColor(Landroid/content/res/ColorStateList;)V
@@ -6963,7 +6995,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStrokeColorResource(I)V
@@ -7015,7 +7046,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStrokeWidth(I)V
@@ -7061,7 +7091,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStrokeWidthResource(I)V
@@ -7113,7 +7142,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSupportBackgroundTintList(Landroid/content/res/ColorStateList;)V
@@ -7168,7 +7196,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSupportBackgroundTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -7223,7 +7250,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTextAlignment(I)V
@@ -7269,7 +7295,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setToggleCheckedStateOnClick(Z)V
@@ -7304,7 +7329,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public toggle()V
@@ -7339,5 +7363,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

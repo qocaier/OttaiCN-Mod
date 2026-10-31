@@ -13,16 +13,6 @@
     name = "Builder"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nActivityRule.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActivityRule.kt\nandroidx/window/embedding/ActivityRule$Builder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,109:1\n1#2:110\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nActivityRule.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActivityRule.kt\nandroidx/window/embedding/ActivityRule$Builder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,109:1\n1#2:110\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private alwaysExpand:Z
@@ -35,24 +25,14 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private tag:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/util/Set;)V
     .locals 1
-    .param p1    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -67,7 +47,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -102,8 +82,6 @@
 # virtual methods
 .method public final build()Landroidx/window/embedding/ActivityRule;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/window/embedding/ActivityRule;
@@ -136,12 +114,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setAlwaysExpand(Z)Landroidx/window/embedding/ActivityRule$Builder;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput-boolean p1, p0, Landroidx/window/embedding/ActivityRule$Builder;->alwaysExpand:Z
@@ -175,12 +152,6 @@
 
 .method public final setTag(Ljava/lang/String;)Landroidx/window/embedding/ActivityRule$Builder;
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/window/embedding/ActivityRule$Builder;->tag:Ljava/lang/String;

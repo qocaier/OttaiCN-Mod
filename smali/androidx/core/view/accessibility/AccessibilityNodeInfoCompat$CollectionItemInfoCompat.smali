@@ -124,6 +124,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getColumnSpan()I
@@ -158,6 +159,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getColumnTitle()Ljava/lang/String;
@@ -201,6 +203,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRowIndex()I
@@ -235,6 +238,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRowSpan()I
@@ -269,6 +273,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRowTitle()Ljava/lang/String;
@@ -312,6 +317,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isHeading()Z
@@ -348,6 +354,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSelected()Z
@@ -382,4 +389,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

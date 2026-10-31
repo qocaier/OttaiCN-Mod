@@ -179,6 +179,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDragToOpenListener()Landroid/view/View$OnTouchListener;
@@ -222,6 +223,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getGravity()I
@@ -254,6 +256,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMenu()Landroid/view/Menu;
@@ -284,6 +287,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMenuInflater()Landroid/view/MenuInflater;
@@ -318,6 +322,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMenuListView()Landroid/widget/ListView;
@@ -368,6 +373,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public inflate(I)V
@@ -585,4 +591,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

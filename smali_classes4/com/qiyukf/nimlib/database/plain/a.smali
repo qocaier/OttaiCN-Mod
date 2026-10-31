@@ -41,6 +41,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static a(Landroid/database/Cursor;)Lcom/qiyukf/nimlib/database/plain/a;
@@ -240,6 +242,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -345,6 +349,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public getBlob(I)[B
@@ -482,6 +496,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getColumnCount()I
@@ -619,6 +635,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getColumnIndex(Ljava/lang/String;)I
@@ -756,6 +773,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getColumnIndexOrThrow(Ljava/lang/String;)I
@@ -898,6 +917,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getColumnName(I)Ljava/lang/String;
@@ -1035,6 +1056,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getColumnNames()[Ljava/lang/String;
@@ -1172,6 +1195,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getCount()I
@@ -1309,6 +1333,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getDouble(I)D
@@ -1446,6 +1471,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getFloat(I)F
@@ -1583,6 +1610,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getInt(I)I
@@ -1720,6 +1749,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getLong(I)J
@@ -1857,6 +1888,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getPosition()I
@@ -1994,6 +2027,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getShort(I)S
@@ -2131,6 +2165,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getString(I)Ljava/lang/String;
@@ -2268,6 +2304,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public move(I)Z
@@ -2405,6 +2443,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public moveToFirst()Z
@@ -2542,6 +2582,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public moveToLast()Z
@@ -2679,6 +2720,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public moveToNext()Z
@@ -2816,6 +2858,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public moveToPosition(I)Z
@@ -2953,6 +2996,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public moveToPrevious()Z
@@ -3090,4 +3135,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

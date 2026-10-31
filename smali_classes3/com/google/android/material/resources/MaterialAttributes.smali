@@ -40,7 +40,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static resolve(Landroid/content/Context;I)Landroid/util/TypedValue;
@@ -138,11 +137,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static resolveBoolean(Landroid/content/Context;IZ)Z
@@ -330,11 +324,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static resolveBooleanOrThrow(Landroid/content/Context;ILjava/lang/String;)Z
@@ -513,11 +502,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static resolveDimension(Landroid/content/Context;II)I
@@ -727,11 +711,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static resolveInteger(Landroid/content/Context;II)I
@@ -910,11 +889,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static resolveMinimumAccessibleTouchTarget(Landroid/content/Context;)I
@@ -959,7 +933,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static resolveOrThrow(Landroid/content/Context;ILjava/lang/String;)I

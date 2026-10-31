@@ -48,6 +48,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static create()Landroidx/concurrent/futures/ResolvableFuture;
@@ -87,6 +88,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -170,18 +172,18 @@
     .line 25
 .end method
 
-.method public setFuture(Lub/u0;)Z
+.method public setFuture(Lcom/google/common/util/concurrent/t;)Z
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lub/u0<",
-            "+TV;>;)Z"
+            "Lcom/google/common/util/concurrent/t;",
+            ")Z"
         }
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;->setFuture(Lub/u0;)Z
+    invoke-super {p0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;->setFuture(Lcom/google/common/util/concurrent/t;)Z
 
     .line 2
     .line 3

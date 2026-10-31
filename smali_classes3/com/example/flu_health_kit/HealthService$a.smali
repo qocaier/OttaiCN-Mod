@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -37,21 +37,13 @@
 # virtual methods
 .method public final a(Landroid/content/Context;Lio/flutter/plugin/common/MethodCall;)V
     .locals 0
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Lio/flutter/plugin/common/MethodCall;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string p1, "call"
 
     .line 2
     .line 3
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -131,19 +123,10 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public final b(Landroid/content/Context;)V
     .locals 3
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     :try_start_0
@@ -176,7 +159,7 @@
 
     .line 15
     .line 16
-    invoke-static {p1, v0}, Le5/a;->a(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-static {p1, v0}, Lcom/baidu/location/a;->a(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 17
     .line 18
@@ -282,16 +265,10 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public final c(Landroid/content/Context;)V
     .locals 2
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     if-eqz p1, :cond_0
@@ -329,5 +306,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

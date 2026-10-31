@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/DataStoreImpl;-><init>(Landroidx/datastore/core/Storage;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lfn/i0;)V
+    value = Landroidx/datastore/core/DataStoreImpl;-><init>(Landroidx/datastore/core/Storage;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lkotlinx/coroutines/l0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "Ljava/lang/Throwable;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -68,17 +65,13 @@
 
     invoke-virtual {p0, p1}, Landroidx/datastore/core/DataStoreImpl$writeActor$1;->invoke(Ljava/lang/Throwable;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
 
 .method public final invoke(Ljava/lang/Throwable;)V
     .locals 2
-    .param p1    # Ljava/lang/Throwable;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     if-eqz p1, :cond_0
 
@@ -100,11 +93,11 @@
     :cond_0
     iget-object p1, p0, Landroidx/datastore/core/DataStoreImpl$writeActor$1;->this$0:Landroidx/datastore/core/DataStoreImpl;
 
-    invoke-static {p1}, Landroidx/datastore/core/DataStoreImpl;->access$getStorageConnectionDelegate$p(Landroidx/datastore/core/DataStoreImpl;)Ljl/c0;
+    invoke-static {p1}, Landroidx/datastore/core/DataStoreImpl;->access$getStorageConnectionDelegate$p(Landroidx/datastore/core/DataStoreImpl;)Lkotlin/c;
 
     move-result-object p1
 
-    invoke-interface {p1}, Ljl/c0;->isInitialized()Z
+    invoke-interface {p1}, Lkotlin/c;->isInitialized()Z
 
     move-result p1
 

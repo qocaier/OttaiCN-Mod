@@ -76,14 +76,6 @@
 
 .method public static decodeZigZag32(I)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "n"
-        }
-    .end annotation
 
     ushr-int/lit8 v0, p0, 0x1
 
@@ -98,14 +90,6 @@
 
 .method public static decodeZigZag64(J)J
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "n"
-        }
-    .end annotation
 
     const/4 v0, 0x1
 
@@ -124,14 +108,6 @@
 
 .method public static newInstance(Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/CodedInputStream;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "input"
-        }
-    .end annotation
 
     const/16 v0, 0x1000
 
@@ -145,16 +121,6 @@
 
 .method public static newInstance(Ljava/io/InputStream;I)Landroidx/datastore/preferences/protobuf/CodedInputStream;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x0
-        }
-        names = {
-            "input",
-            "bufferSize"
-        }
-    .end annotation
 
     if-lez p1, :cond_1
 
@@ -192,15 +158,6 @@
 
 .method public static newInstance(Ljava/lang/Iterable;)Landroidx/datastore/preferences/protobuf/CodedInputStream;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -242,17 +199,6 @@
 
 .method public static newInstance(Ljava/lang/Iterable;Z)Landroidx/datastore/preferences/protobuf/CodedInputStream;
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "bufs",
-            "bufferIsImmutable"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -349,14 +295,6 @@
 
 .method public static newInstance(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/CodedInputStream;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "buf"
-        }
-    .end annotation
 
     const/4 v0, 0x0
 
@@ -370,16 +308,6 @@
 
 .method public static newInstance(Ljava/nio/ByteBuffer;Z)Landroidx/datastore/preferences/protobuf/CodedInputStream;
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "buf",
-            "bufferIsImmutable"
-        }
-    .end annotation
 
     .line 20
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->hasArray()Z
@@ -466,14 +394,6 @@
 
 .method public static newInstance([B)Landroidx/datastore/preferences/protobuf/CodedInputStream;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "buf"
-        }
-    .end annotation
 
     .line 14
     array-length v0, p0
@@ -489,18 +409,6 @@
 
 .method public static newInstance([BII)Landroidx/datastore/preferences/protobuf/CodedInputStream;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "buf",
-            "off",
-            "len"
-        }
-    .end annotation
 
     const/4 v0, 0x0
 
@@ -514,20 +422,6 @@
 
 .method public static newInstance([BIIZ)Landroidx/datastore/preferences/protobuf/CodedInputStream;
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "buf",
-            "off",
-            "len",
-            "bufferIsImmutable"
-        }
-    .end annotation
 
     .line 16
     new-instance v0, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;
@@ -567,17 +461,6 @@
 
 .method public static readRawVarint32(ILjava/io/InputStream;)I
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "firstByte",
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -677,15 +560,6 @@
 
 .method public static readRawVarint32(Ljava/io/InputStream;)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -720,15 +594,6 @@
 
 # virtual methods
 .method public abstract checkLastTagWas(I)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -778,6 +643,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final discardUnknownFields()V
@@ -808,17 +674,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract enableAliasing(Z)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "enabled"
-        }
-    .end annotation
 .end method
 
 .method public abstract getBytesUntilLimit()I
@@ -839,26 +698,9 @@
 .end method
 
 .method public abstract popLimit(I)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "oldLimit"
-        }
-    .end annotation
 .end method
 
 .method public abstract pushLimit(I)I
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "byteLimit"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -939,19 +781,6 @@
 .end method
 
 .method public abstract readGroup(ILandroidx/datastore/preferences/protobuf/Parser;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/MessageLite;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "parser",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T::",
@@ -972,19 +801,6 @@
 .end method
 
 .method public abstract readGroup(ILandroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "builder",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1009,17 +825,6 @@
 .end method
 
 .method public abstract readMessage(Landroidx/datastore/preferences/protobuf/Parser;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/MessageLite;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "parser",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T::",
@@ -1040,17 +845,6 @@
 .end method
 
 .method public abstract readMessage(Landroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "builder",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1067,15 +861,6 @@
 .end method
 
 .method public abstract readRawBytes(I)[B
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "size"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1196,17 +981,6 @@
 .end method
 
 .method public abstract readUnknownGroup(ILandroidx/datastore/preferences/protobuf/MessageLite$Builder;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "builder"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1222,14 +996,6 @@
 
 .method public final setRecursionLimit(I)I
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "limit"
-        }
-    .end annotation
 
     .line 1
     if-ltz p1, :cond_0
@@ -1337,18 +1103,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final setSizeLimit(I)I
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "limit"
-        }
-    .end annotation
 
     .line 1
     if-ltz p1, :cond_0
@@ -1456,6 +1215,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final shouldDiscardUnknownFields()Z
@@ -1484,18 +1244,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract skipField(I)Z
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "tag"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1504,17 +1256,6 @@
 .end method
 
 .method public abstract skipField(ILandroidx/datastore/preferences/protobuf/CodedOutputStream;)Z
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "tag",
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1574,15 +1315,6 @@
 
 .method public skipMessage(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1629,15 +1361,6 @@
 .end method
 
 .method public abstract skipRawBytes(I)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "size"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1673,4 +1396,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

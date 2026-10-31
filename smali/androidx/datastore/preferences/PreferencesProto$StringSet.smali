@@ -96,6 +96,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -130,6 +131,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$2400()Landroidx/datastore/preferences/PreferencesProto$StringSet;
@@ -158,6 +160,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$2500(Landroidx/datastore/preferences/PreferencesProto$StringSet;ILjava/lang/String;)V
@@ -279,6 +282,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$2600(Landroidx/datastore/preferences/PreferencesProto$StringSet;Ljava/lang/String;)V
@@ -637,6 +643,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private ensureStringsIsMutable()V
@@ -678,6 +685,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getDefaultInstance()Landroidx/datastore/preferences/PreferencesProto$StringSet;
@@ -706,6 +714,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static newBuilder()Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;
@@ -1016,6 +1025,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private setStrings(ILjava/lang/String;)V
@@ -1321,6 +1331,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getStrings(I)Ljava/lang/String;
@@ -1435,6 +1448,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStringsList()Ljava/util/List;
@@ -1471,4 +1485,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

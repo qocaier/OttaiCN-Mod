@@ -176,35 +176,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            null,
-            null
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -269,11 +244,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic a()[Lcom/baseflow/geolocator/permission/LocationPermission;
@@ -314,19 +284,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/baseflow/geolocator/permission/LocationPermission;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8000
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     const-class v0, Lcom/baseflow/geolocator/permission/LocationPermission;
@@ -361,7 +322,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static values()[Lcom/baseflow/geolocator/permission/LocationPermission;
@@ -398,7 +358,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -540,13 +499,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

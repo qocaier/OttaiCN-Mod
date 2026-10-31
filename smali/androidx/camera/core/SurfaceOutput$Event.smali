@@ -19,9 +19,6 @@
     }
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # static fields
 .field public static final EVENT_REQUEST_CLOSE:I
@@ -54,6 +51,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static of(ILandroidx/camera/core/SurfaceOutput;)Landroidx/camera/core/SurfaceOutput$Event;

@@ -1,36 +1,16 @@
-.class public final synthetic Landroidx/core/view/d;
+.class public abstract synthetic Landroidx/core/view/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Landroid/view/WindowInsetsController$OnControllableInsetsChangedListener;
-
-
-# instance fields
-.field public final synthetic a:Ljava/util/concurrent/atomic/AtomicBoolean;
-
 
 # direct methods
-.method public synthetic constructor <init>(Ljava/util/concurrent/atomic/AtomicBoolean;)V
+.method public static bridge synthetic a(Landroid/view/ContentInfo$Builder;)Landroid/view/ContentInfo;
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-virtual {p0}, Landroid/view/ContentInfo$Builder;->build()Landroid/view/ContentInfo;
 
-    iput-object p1, p0, Landroidx/core/view/d;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
+    move-result-object p0
 
-    return-void
-.end method
-
-
-# virtual methods
-.method public final onControllableInsetsChanged(Landroid/view/WindowInsetsController;I)V
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Landroidx/core/view/d;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
-
-    invoke-static {v0, p1, p2}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl30;->b(Ljava/util/concurrent/atomic/AtomicBoolean;Landroid/view/WindowInsetsController;I)V
-
-    return-void
+    return-object p0
 .end method

@@ -3,18 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "ActivityTransitionEventCreator"
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$g;
-    value = {
-        0x3e8
-    }
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
@@ -32,34 +20,19 @@
 
 # instance fields
 .field public final a:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getActivityType"
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getTransitionType"
-        id = 0x2
-    .end annotation
-.end field
 
 .field public final c:J
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getElapsedRealTimeNanos"
-        id = 0x3
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lda/s0;
+    new-instance v0, Lj3/b0;
 
-    invoke-direct {v0}, Lda/s0;-><init>()V
+    invoke-direct {v0}, Lj3/b0;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/location/ActivityTransitionEvent;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -68,23 +41,6 @@
 
 .method public constructor <init>(IIJ)V
     .locals 0
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .param p3    # J
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x3
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -92,7 +48,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p2}, Lcom/google/android/gms/location/ActivityTransition;->u(I)V
+    invoke-static {p2}, Lcom/google/android/gms/location/ActivityTransition;->f(I)V
 
     .line 5
     .line 6
@@ -244,21 +200,30 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
 # virtual methods
+.method public d()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/google/android/gms/location/ActivityTransitionEvent;->a:I
+
+    return v0
+.end method
+
+.method public e()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/android/gms/location/ActivityTransitionEvent;->c:J
+
+    return-wide v0
+.end method
+
 .method public equals(Ljava/lang/Object;)Z
     .locals 7
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
     const/4 v0, 0x1
@@ -393,8 +358,15 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
+.end method
+
+.method public f()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/google/android/gms/location/ActivityTransitionEvent;->b:I
+
+    return v0
 .end method
 
 .method public hashCode()I
@@ -445,7 +417,7 @@
     move-result-object v0
 
     .line 23
-    invoke-static {v0}, Lh9/r;->c([Ljava/lang/Object;)I
+    invoke-static {v0}, Lt2/i;->b([Ljava/lang/Object;)I
 
     .line 24
     .line 25
@@ -527,39 +499,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-.end method
-
-.method public s()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/location/ActivityTransitionEvent;->a:I
-
-    return v0
-.end method
-
-.method public t()J
-    .locals 2
-
-    .line 1
-    iget-wide v0, p0, Lcom/google/android/gms/location/ActivityTransitionEvent;->c:J
-
-    return-wide v0
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 5
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -1321,31 +1264,77 @@
     .line 659
     .line 660
     .line 661
-.end method
-
-.method public u()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/location/ActivityTransitionEvent;->b:I
-
-    return v0
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1}, Lh9/t;->r(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lt2/j;->g(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 5
     .line 6
@@ -1356,7 +1345,7 @@
     const/4 v0, 0x1
 
     .line 9
-    invoke-virtual {p0}, Lcom/google/android/gms/location/ActivityTransitionEvent;->s()I
+    invoke-virtual {p0}, Lcom/google/android/gms/location/ActivityTransitionEvent;->d()I
 
     .line 10
     .line 11
@@ -1364,7 +1353,7 @@
     move-result v1
 
     .line 13
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 14
     .line 15
@@ -1372,7 +1361,7 @@
     const/4 v0, 0x2
 
     .line 17
-    invoke-virtual {p0}, Lcom/google/android/gms/location/ActivityTransitionEvent;->u()I
+    invoke-virtual {p0}, Lcom/google/android/gms/location/ActivityTransitionEvent;->f()I
 
     .line 18
     .line 19
@@ -1380,7 +1369,7 @@
     move-result v1
 
     .line 21
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 22
     .line 23
@@ -1388,7 +1377,7 @@
     const/4 v0, 0x3
 
     .line 25
-    invoke-virtual {p0}, Lcom/google/android/gms/location/ActivityTransitionEvent;->t()J
+    invoke-virtual {p0}, Lcom/google/android/gms/location/ActivityTransitionEvent;->e()J
 
     .line 26
     .line 27
@@ -1396,12 +1385,12 @@
     move-result-wide v1
 
     .line 29
-    invoke-static {p1, v0, v1, v2}, Lj9/a;->K(Landroid/os/Parcel;IJ)V
+    invoke-static {p1, v0, v1, v2}, Lu2/a;->l(Landroid/os/Parcel;IJ)V
 
     .line 30
     .line 31
     .line 32
-    invoke-static {p1, p2}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 33
     .line 34
@@ -1432,9 +1421,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

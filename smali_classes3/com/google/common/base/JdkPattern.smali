@@ -1,5 +1,5 @@
 .class final Lcom/google/common/base/JdkPattern;
-.super Lgb/e;
+.super Lcom/google/common/base/e;
 .source "SourceFile"
 
 # interfaces
@@ -11,12 +11,6 @@
     value = {
         Lcom/google/common/base/JdkPattern$a;
     }
-.end annotation
-
-.annotation build Lfb/c;
-.end annotation
-
-.annotation runtime Lgb/g;
 .end annotation
 
 
@@ -31,22 +25,14 @@
 # direct methods
 .method public constructor <init>(Ljava/util/regex/Pattern;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "pattern"
-        }
-    .end annotation
 
     .line 1
-    invoke-direct {p0}, Lgb/e;-><init>()V
+    invoke-direct {p0}, Lcom/google/common/base/e;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -75,7 +61,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -112,19 +97,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public matcher(Ljava/lang/CharSequence;)Lgb/d;
+.method public matcher(Ljava/lang/CharSequence;)Lcom/google/common/base/d;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "t"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Lcom/google/common/base/JdkPattern$a;
@@ -161,7 +137,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public pattern()Ljava/lang/String;
@@ -196,7 +171,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -231,5 +205,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

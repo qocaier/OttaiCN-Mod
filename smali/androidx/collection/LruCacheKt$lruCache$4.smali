@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/collection/LruCacheKt;->lruCache(ILjm/p;Ljm/l;Ljm/r;)Landroidx/collection/LruCache;
+    value = Landroidx/collection/LruCacheKt;->lruCache(ILq8/p;Lq8/l;Lq8/r;)Landroidx/collection/LruCache;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,82 +20,56 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLruCache.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LruCache.kt\nandroidx/collection/LruCacheKt$lruCache$4\n*L\n1#1,355:1\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nLruCache.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LruCache.kt\nandroidx/collection/LruCacheKt$lruCache$4\n*L\n1#1,355:1\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
-.field final synthetic $create:Ljm/l;
+.field final synthetic $create:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "TK;TV;>;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
-.field final synthetic $onEntryRemoved:Ljm/r;
+.field final synthetic $onEntryRemoved:Lq8/r;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/r<",
-            "Ljava/lang/Boolean;",
-            "TK;TV;TV;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/r;"
         }
     .end annotation
 .end field
 
-.field final synthetic $sizeOf:Ljm/p;
+.field final synthetic $sizeOf:Lq8/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/p<",
-            "TK;TV;",
-            "Ljava/lang/Integer;",
-            ">;"
+            "Lq8/p;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(ILjm/p;Ljm/l;Ljm/r;)V
+.method public constructor <init>(ILq8/p;Lq8/l;Lq8/r;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
-            "Ljm/p<",
-            "-TK;-TV;",
-            "Ljava/lang/Integer;",
-            ">;",
-            "Ljm/l<",
-            "-TK;+TV;>;",
-            "Ljm/r<",
-            "-",
-            "Ljava/lang/Boolean;",
-            "-TK;-TV;-TV;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/p;",
+            "Lq8/l;",
+            "Lq8/r;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p2, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$sizeOf:Ljm/p;
+    iput-object p2, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$sizeOf:Lq8/p;
 
     .line 2
     .line 3
-    iput-object p3, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$create:Ljm/l;
+    iput-object p3, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$create:Lq8/l;
 
     .line 4
     .line 5
-    iput-object p4, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$onEntryRemoved:Ljm/r;
+    iput-object p4, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$onEntryRemoved:Lq8/r;
 
     .line 6
     .line 7
@@ -325,23 +299,22 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
 # virtual methods
 .method public create(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;)TV;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -349,16 +322,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$create:Ljm/l;
+    iget-object v0, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$create:Lq8/l;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -384,18 +357,6 @@
 
 .method public entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
-    .param p2    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(ZTK;TV;TV;)V"
@@ -407,7 +368,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -416,12 +377,12 @@
 
     .line 7
     .line 8
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$onEntryRemoved:Ljm/r;
+    iget-object v0, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$onEntryRemoved:Lq8/r;
 
     .line 12
     .line 13
@@ -433,7 +394,7 @@
     move-result-object p1
 
     .line 17
-    invoke-interface {v0, p1, p2, p3, p4}, Ljm/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2, p3, p4}, Lq8/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -649,18 +610,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public sizeOf(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;TV;)I"
@@ -672,7 +631,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -681,16 +640,16 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$sizeOf:Ljm/p;
+    iget-object v0, p0, Landroidx/collection/LruCacheKt$lruCache$4;->$sizeOf:Lq8/p;
 
     .line 12
     .line 13
-    invoke-interface {v0, p1, p2}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15

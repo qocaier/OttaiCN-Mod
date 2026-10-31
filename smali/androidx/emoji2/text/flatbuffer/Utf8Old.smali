@@ -28,20 +28,20 @@
     .locals 2
 
     .line 1
-    new-instance v0, Ll1/a;
+    new-instance v0, Landroidx/emoji2/text/flatbuffer/a;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ll1/a;-><init>()V
+    invoke-direct {v0}, Landroidx/emoji2/text/flatbuffer/a;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Ll1/b;
+    new-instance v1, Landroidx/emoji2/text/flatbuffer/b;
 
     .line 7
     .line 8
-    invoke-direct {v1, v0}, Ll1/b;-><init>(Ljava/util/function/Supplier;)V
+    invoke-direct {v1, v0}, Landroidx/emoji2/text/flatbuffer/b;-><init>(Ljava/util/function/Supplier;)V
 
     .line 9
     .line 10
@@ -58,6 +58,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -86,6 +87,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a()Landroidx/emoji2/text/flatbuffer/Utf8Old$Cache;
@@ -116,6 +118,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -281,6 +284,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public encodeUtf8(Ljava/lang/CharSequence;Ljava/nio/ByteBuffer;)V
@@ -712,4 +718,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

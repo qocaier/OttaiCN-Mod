@@ -87,6 +87,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onClick()V
@@ -225,6 +227,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public setActionFontColor(I)V
@@ -258,6 +261,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUrl(Ljava/lang/String;)V
@@ -291,4 +296,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

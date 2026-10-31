@@ -31,9 +31,9 @@
 
     iput-object v0, p0, Lcom/hihonor/push/sdk/c;->e:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    new-instance v0, Lce/d;
+    new-instance v0, Ll5/d;
 
-    invoke-direct {v0, p0}, Lce/d;-><init>(Lcom/hihonor/push/sdk/c;)V
+    invoke-direct {v0, p0}, Ll5/d;-><init>(Lcom/hihonor/push/sdk/c;)V
 
     iput-object v0, p0, Lcom/hihonor/push/sdk/c;->f:Lcom/hihonor/push/sdk/BaseExtensionService$IExtensionCallback;
 
@@ -123,9 +123,9 @@
 .method private b()V
     .locals 2
 
-    new-instance v0, Lce/c;
+    new-instance v0, Ll5/c;
 
-    invoke-direct {v0, p0}, Lce/c;-><init>(Lcom/hihonor/push/sdk/c;)V
+    invoke-direct {v0, p0}, Ll5/c;-><init>(Lcom/hihonor/push/sdk/c;)V
 
     .line 2
     invoke-static {}, Lcom/hihonor/push/sdk/e1;->b()Ljava/util/concurrent/Executor;
@@ -358,15 +358,15 @@
     :cond_3
     iget-object v3, p0, Lcom/hihonor/push/sdk/c;->a:Lcom/hihonor/push/sdk/b;
 
-    new-instance v4, Lce/a;
+    new-instance v4, Ll5/a;
 
-    invoke-direct {v4, p0}, Lce/a;-><init>(Lcom/hihonor/push/sdk/c;)V
+    invoke-direct {v4, p0}, Ll5/a;-><init>(Lcom/hihonor/push/sdk/c;)V
 
     invoke-virtual {v3, v4, v1, v2}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    new-instance v1, Lce/b;
+    new-instance v1, Ll5/b;
 
-    invoke-direct {v1, p0, v0}, Lce/b;-><init>(Lcom/hihonor/push/sdk/c;Lcom/hihonor/push/sdk/BaseExtensionService;)V
+    invoke-direct {v1, p0, v0}, Ll5/b;-><init>(Lcom/hihonor/push/sdk/c;Lcom/hihonor/push/sdk/BaseExtensionService;)V
 
     .line 12
     invoke-static {}, Lcom/hihonor/push/sdk/e1;->b()Ljava/util/concurrent/Executor;

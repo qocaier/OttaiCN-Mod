@@ -32,7 +32,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static parseLong(Ljava/lang/Object;)Ljava/lang/Long;
@@ -91,5 +90,4 @@
 
     .line 24
     return-object p0
-    .line 25
 .end method

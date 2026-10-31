@@ -163,6 +163,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static declared-synchronized getInstance(Landroid/app/Application;)Lcom/alibaba/sdk/android/utils/AlicloudTrackerManager;
@@ -294,6 +295,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -603,6 +605,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public registerCrashDefend(Ljava/lang/String;Ljava/lang/String;IILcom/alibaba/sdk/android/utils/crashdefend/SDKMessageCallback;)Z

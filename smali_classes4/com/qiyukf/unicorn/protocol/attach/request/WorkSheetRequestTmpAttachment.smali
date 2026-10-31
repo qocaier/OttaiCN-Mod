@@ -62,6 +62,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -92,6 +94,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNeedRelationFilter()I
@@ -120,6 +124,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionid()J
@@ -148,6 +154,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTemplateId()J
@@ -176,6 +184,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setNeedCascadeDetail(I)V
@@ -209,6 +219,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNeedRelationFilter(I)V
@@ -242,6 +254,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionid(J)V
@@ -275,6 +289,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTemplateId(J)V
@@ -308,4 +324,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

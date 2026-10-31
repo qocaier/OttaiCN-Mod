@@ -3,18 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nScatterMap.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ScatterMap.kt\nandroidx/collection/ScatterMapKt\n*L\n1#1,1850:1\n1661#1:1851\n1661#1:1852\n1661#1:1853\n1715#1:1854\n*S KotlinDebug\n*F\n+ 1 ScatterMap.kt\nandroidx/collection/ScatterMapKt\n*L\n1680#1:1851\n1682#1:1852\n1685#1:1853\n1721#1:1854\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nScatterMap.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ScatterMap.kt\nandroidx/collection/ScatterMapKt\n*L\n1#1,1850:1\n1661#1:1851\n1661#1:1852\n1661#1:1853\n1715#1:1854\n*S KotlinDebug\n*F\n+ 1 ScatterMap.kt\nandroidx/collection/ScatterMapKt\n*L\n1680#1:1851\n1682#1:1852\n1685#1:1853\n1721#1:1854\n*E\n"
-    }
-.end annotation
-
-
 # static fields
 .field public static final AllEmpty:J = -0x7f7f7f7f7f7f7f80L
 
@@ -31,17 +19,8 @@
 .field public static final Empty:J = 0x80L
 
 .field public static final EmptyGroup:[J
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final EmptyScatterMap:Landroidx/collection/MutableScatterMap;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final GroupWidth:I = 0x8
 
@@ -99,6 +78,7 @@
         -0x1
     .end array-data
     .line 20
+    .line 21
 .end method
 
 .method public static final emptyScatterMap()Landroidx/collection/ScatterMap;
@@ -115,9 +95,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     sget-object v0, Landroidx/collection/ScatterMapKt;->EmptyScatterMap:Landroidx/collection/MutableScatterMap;
 
@@ -127,7 +104,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -145,6 +122,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final get(J)I
@@ -186,41 +164,31 @@
 
 .method public static synthetic getBitmaskLsb$annotations()V
     .locals 0
-    .annotation build Ljl/v0;
-    .end annotation
 
     return-void
 .end method
 
 .method public static synthetic getBitmaskMsb$annotations()V
     .locals 0
-    .annotation build Ljl/v0;
-    .end annotation
 
     return-void
 .end method
 
 .method public static synthetic getSentinel$annotations()V
     .locals 0
-    .annotation build Ljl/v0;
-    .end annotation
 
     return-void
 .end method
 
 .method public static final group([JI)J
     .locals 5
-    .param p0    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "metadata"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -337,10 +305,6 @@
 
 .method public static final hash(Ljava/lang/Object;)I
     .locals 1
-    .param p0    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     if-eqz p0, :cond_0
@@ -392,17 +356,13 @@
 
 .method public static final isDeleted([JI)Z
     .locals 2
-    .param p0    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "metadata"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -481,17 +441,13 @@
 
 .method public static final isEmpty([JI)Z
     .locals 2
-    .param p0    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "metadata"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -570,8 +526,6 @@
 
 .method public static final isFull(J)Z
     .locals 2
-    .annotation build Ljl/v0;
-    .end annotation
 
     .line 1
     const-wide/16 v0, 0x80
@@ -592,14 +546,10 @@
 
 .method public static final isFull([JI)Z
     .locals 2
-    .param p0    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "metadata"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     shr-int/lit8 v0, p1, 0x3
 
@@ -678,8 +628,6 @@
 
 .method public static final lowestBitSet(J)I
     .locals 0
-    .annotation build Ljl/v0;
-    .end annotation
 
     .line 1
     invoke-static {p0, p1}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
@@ -735,8 +683,6 @@
 
 .method public static final maskEmptyOrDeleted(J)J
     .locals 3
-    .annotation build Ljl/v0;
-    .end annotation
 
     not-long v0, p0
 
@@ -755,8 +701,6 @@
 
 .method public static final match(JI)J
     .locals 4
-    .annotation build Ljl/v0;
-    .end annotation
 
     int-to-long v0, p2
 
@@ -793,9 +737,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     new-instance v0, Landroidx/collection/MutableScatterMap;
 
@@ -805,17 +746,13 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableScatterMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableScatterMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     return-object v0
 .end method
 
 .method public static final varargs mutableScatterMapOf([Lkotlin/Pair;)Landroidx/collection/MutableScatterMap;
     .locals 2
-    .param p0    # [Lkotlin/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -830,12 +767,9 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "pairs"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Landroidx/collection/MutableScatterMap;
@@ -927,19 +861,13 @@
 
 .method public static final readRawMetadata([JI)J
     .locals 2
-    .param p0    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Ljl/v0;
-    .end annotation
 
     .line 1
     const-string v0, "data"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1051,17 +979,13 @@
 
 .method public static final writeRawMetadata([JIJ)V
     .locals 5
-    .param p0    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "data"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1196,4 +1120,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

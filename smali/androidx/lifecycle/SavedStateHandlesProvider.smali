@@ -6,55 +6,26 @@
 .implements Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSavedStateHandleSupport.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SavedStateHandleSupport.kt\nandroidx/lifecycle/SavedStateHandlesProvider\n+ 2 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,226:1\n215#2,2:227\n1#3:229\n*S KotlinDebug\n*F\n+ 1 SavedStateHandleSupport.kt\nandroidx/lifecycle/SavedStateHandlesProvider\n*L\n147#1:227,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSavedStateHandleSupport.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SavedStateHandleSupport.kt\nandroidx/lifecycle/SavedStateHandlesProvider\n+ 2 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,226:1\n215#2,2:227\n1#3:229\n*S KotlinDebug\n*F\n+ 1 SavedStateHandleSupport.kt\nandroidx/lifecycle/SavedStateHandlesProvider\n*L\n147#1:227,2\n*E\n"
-    }
-.end annotation
-
-
 # instance fields
 .field private restored:Z
 
 .field private restoredState:Landroid/os/Bundle;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field private final viewModel$delegate:Ljl/c0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final viewModel$delegate:Lkotlin/c;
 
 
 # direct methods
 .method public constructor <init>(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/ViewModelStoreOwner;)V
     .locals 1
-    .param p1    # Landroidx/savedstate/SavedStateRegistry;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/lifecycle/ViewModelStoreOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "savedStateRegistry"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -63,7 +34,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -86,7 +57,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {p1}, Lkotlin/e;->b(Ljm/a;)Ljl/c0;
+    invoke-static {p1}, Lkotlin/d;->b(Lq8/a;)Lkotlin/c;
 
     .line 22
     .line 23
@@ -94,7 +65,7 @@
     move-result-object p1
 
     .line 25
-    iput-object p1, p0, Landroidx/lifecycle/SavedStateHandlesProvider;->viewModel$delegate:Ljl/c0;
+    iput-object p1, p0, Landroidx/lifecycle/SavedStateHandlesProvider;->viewModel$delegate:Lkotlin/c;
 
     .line 26
     .line 27
@@ -126,11 +97,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/SavedStateHandlesProvider;->viewModel$delegate:Ljl/c0;
+    iget-object v0, p0, Landroidx/lifecycle/SavedStateHandlesProvider;->viewModel$delegate:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lkotlin/c;->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -154,25 +125,20 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final consumeRestoredStateForKey(Ljava/lang/String;)Landroid/os/Bundle;
     .locals 3
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const-string v0, "key"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -290,6 +256,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final performRestore()V
@@ -417,12 +384,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public saveState()Landroid/os/Bundle;
     .locals 5
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/os/Bundle;
@@ -550,7 +517,7 @@
 
     .line 62
     .line 63
-    invoke-static {v2, v4}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v4}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 64
     .line 65
@@ -587,4 +554,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

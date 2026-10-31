@@ -82,6 +82,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public get(I)B
@@ -440,6 +441,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public put(B)V
@@ -1167,4 +1169,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

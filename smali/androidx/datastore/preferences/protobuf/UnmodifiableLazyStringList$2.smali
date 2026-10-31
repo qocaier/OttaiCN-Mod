@@ -43,14 +43,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$2;->this$0:Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;
@@ -126,6 +118,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic next()Ljava/lang/Object;
@@ -182,4 +175,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

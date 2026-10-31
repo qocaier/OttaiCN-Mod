@@ -180,6 +180,7 @@
     :cond_0
     return-void
     .line 78
+    .line 79
 .end method
 
 .method public static createInstanceForTests(Landroid/view/View;)Landroidx/preference/PreferenceViewHolder;
@@ -318,6 +319,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isDividerAllowedBelow()Z
@@ -346,6 +348,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public resetState()V
@@ -482,6 +485,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setDividerAllowedAbove(Z)V

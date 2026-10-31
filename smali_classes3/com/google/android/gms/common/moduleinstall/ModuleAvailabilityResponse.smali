@@ -3,18 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "ModuleAvailabilityResponseCreator"
-.end annotation
-
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/common/moduleinstall/ModuleAvailabilityResponse$a;
-    }
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
@@ -32,27 +20,17 @@
 
 # instance fields
 .field public final a:Z
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "areModulesAvailable"
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getAvailabilityStatus"
-        id = 0x2
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lm9/f;
+    new-instance v0, Lw2/a;
 
-    invoke-direct {v0}, Lm9/f;-><init>()V
+    invoke-direct {v0}, Lw2/a;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/moduleinstall/ModuleAvailabilityResponse;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -61,21 +39,6 @@
 
 .method public constructor <init>(ZI)V
     .locals 0
-    .param p1    # Z
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .annotation build Lb9/a;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -144,16 +107,11 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
-.method public s()Z
+.method public d()Z
     .locals 1
 
     .line 1
@@ -162,10 +120,8 @@
     return v0
 .end method
 
-.method public t()I
+.method public e()I
     .locals 1
-    .annotation build Lcom/google/android/gms/common/moduleinstall/ModuleAvailabilityResponse$a;
-    .end annotation
 
     .line 1
     iget v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleAvailabilityResponse;->b:I
@@ -175,13 +131,9 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 2
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -192,7 +144,7 @@
     const/4 v0, 0x1
 
     .line 6
-    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleAvailabilityResponse;->s()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleAvailabilityResponse;->d()Z
 
     .line 7
     .line 8
@@ -200,7 +152,7 @@
     move-result v1
 
     .line 10
-    invoke-static {p1, v0, v1}, Lj9/a;->g(Landroid/os/Parcel;IZ)V
+    invoke-static {p1, v0, v1}, Lu2/a;->c(Landroid/os/Parcel;IZ)V
 
     .line 11
     .line 12
@@ -208,7 +160,7 @@
     const/4 v0, 0x2
 
     .line 14
-    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleAvailabilityResponse;->t()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleAvailabilityResponse;->e()I
 
     .line 15
     .line 16
@@ -216,12 +168,12 @@
     move-result v1
 
     .line 18
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 19
     .line 20
     .line 21
-    invoke-static {p1, p2}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 22
     .line 23
@@ -263,9 +215,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

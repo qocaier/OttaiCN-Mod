@@ -71,6 +71,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -103,6 +104,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static convertToRelativeDirection(II)I
@@ -174,6 +176,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getMaxDragScroll(Landroidx/recyclerview/widget/RecyclerView;)I
@@ -794,6 +797,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public clearView(Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
@@ -1242,6 +1251,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getBoundingBoxMargin()I

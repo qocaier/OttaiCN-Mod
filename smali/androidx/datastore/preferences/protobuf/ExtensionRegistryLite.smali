@@ -68,6 +68,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -88,14 +89,6 @@
 
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "other"
-        }
-    .end annotation
 
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -127,14 +120,6 @@
 
 .method public constructor <init>(Z)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "empty"
-        }
-    .end annotation
 
     .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -284,6 +269,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static isEagerlyParseMessageSets()Z
@@ -312,6 +299,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static newInstance()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
@@ -353,18 +341,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static setEagerlyParseMessageSets(Z)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "isEagerlyParse"
-        }
-    .end annotation
 
     .line 1
     sput-boolean p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->eagerlyParseMessageSets:Z
@@ -400,15 +381,6 @@
 # virtual methods
 .method public final add(Landroidx/datastore/preferences/protobuf/ExtensionLite;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "extension"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -504,15 +476,6 @@
 
 .method public final add(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "extension"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -545,17 +508,6 @@
 
 .method public findLiteExtensionByNumber(Landroidx/datastore/preferences/protobuf/MessageLite;I)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "containingTypeDefaultInstance",
-            "fieldNumber"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<ContainingType::",
@@ -657,4 +609,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

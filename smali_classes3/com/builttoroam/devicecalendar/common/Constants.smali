@@ -21,9 +21,6 @@
 .field public static final ATTENDEE_NAME_INDEX:I = 0x2
 
 .field private static final ATTENDEE_PROJECTION:[Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final ATTENDEE_RELATIONSHIP_INDEX:I = 0x5
 
@@ -32,14 +29,8 @@
 .field public static final ATTENDEE_TYPE_INDEX:I = 0x4
 
 .field public static final AVAILABILITY_UNAVAILABLE:Ljava/lang/String; = "UNAVAILABLE"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final CALENDAR_PROJECTION:[Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final CALENDAR_PROJECTION_ACCESS_LEVEL_INDEX:I = 0x5
 
@@ -56,21 +47,12 @@
 .field public static final CALENDAR_PROJECTION_IS_PRIMARY_INDEX:I = 0x7
 
 .field private static final CALENDAR_PROJECTION_OLDER_API:[Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final CALENDAR_PROJECTION_OWNER_ACCOUNT_INDEX:I = 0x4
 
 .field public static final Companion:Lcom/builttoroam/devicecalendar/common/Constants$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final EVENT_INSTANCE_DELETION:[Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final EVENT_INSTANCE_DELETION_BEGIN_INDEX:I = 0x3
 
@@ -83,9 +65,6 @@
 .field public static final EVENT_INSTANCE_DELETION_RRULE_INDEX:I = 0x1
 
 .field private static final EVENT_PROJECTION:[Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final EVENT_PROJECTION_ALL_DAY_INDEX:I = 0x8
 
@@ -114,16 +93,10 @@
 .field public static final EVENT_PROJECTION_TITLE_INDEX:I = 0x1
 
 .field public static final EVENT_STATUS_NONE:Ljava/lang/String; = "NONE"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final REMINDER_MINUTES_INDEX:I = 0x1
 
 .field private static final REMINDER_PROJECTION:[Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -138,7 +111,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Lcom/builttoroam/devicecalendar/common/Constants$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Lcom/builttoroam/devicecalendar/common/Constants$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -922,6 +895,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public constructor <init>()V
@@ -952,7 +984,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static final synthetic access$getATTENDEE_PROJECTION$cp()[Ljava/lang/String;
@@ -983,7 +1014,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static final synthetic access$getCALENDAR_PROJECTION$cp()[Ljava/lang/String;
@@ -1014,7 +1044,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static final synthetic access$getCALENDAR_PROJECTION_OLDER_API$cp()[Ljava/lang/String;
@@ -1045,7 +1074,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static final synthetic access$getEVENT_INSTANCE_DELETION$cp()[Ljava/lang/String;
@@ -1076,7 +1104,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static final synthetic access$getEVENT_PROJECTION$cp()[Ljava/lang/String;
@@ -1107,7 +1134,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static final synthetic access$getREMINDER_PROJECTION$cp()[Ljava/lang/String;
@@ -1138,5 +1164,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

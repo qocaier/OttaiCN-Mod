@@ -404,6 +404,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private forceSetProvider(Landroidx/camera/core/processing/SurfaceEdge;Landroidx/camera/core/impl/DeferrableSurface;Landroidx/camera/core/impl/SessionConfig;)V
@@ -573,6 +579,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static getChildFormat(Landroidx/camera/core/UseCase;)I
@@ -841,6 +850,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getChildTargetType(Landroidx/camera/core/UseCase;)I
@@ -1018,6 +1028,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private getUseCaseEdge(Landroidx/camera/core/UseCase;)Landroidx/camera/core/processing/SurfaceEdge;
@@ -1389,6 +1400,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public close()V
@@ -1421,6 +1434,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public createCameraCaptureCallback()Landroidx/camera/core/impl/CameraCaptureCallback;
@@ -1451,6 +1465,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public detachUseCases(Ljava/util/Collection;)V
@@ -1530,6 +1545,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraInfoInternal()Landroidx/camera/core/impl/CameraInfoInternal;
@@ -1564,6 +1580,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraState()Landroidx/camera/core/impl/Observable;
@@ -1607,6 +1624,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getChildren()Ljava/util/Set;
@@ -1646,6 +1664,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getChildrenOutConfigs(Landroidx/camera/core/processing/SurfaceEdge;)Ljava/util/Map;
@@ -1808,6 +1827,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getHasTransform()Z
@@ -1846,6 +1866,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mergeChildrenConfigs(Landroidx/camera/core/impl/MutableConfig;)V
@@ -2192,6 +2213,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public notifyStateAttached()V
@@ -2306,6 +2332,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public notifyStateDetached()V
@@ -2420,6 +2448,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onUseCaseActive(Landroidx/camera/core/UseCase;)V
@@ -2545,6 +2575,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onUseCaseInactive(Landroidx/camera/core/UseCase;)V
@@ -2726,6 +2757,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onUseCaseUpdated(Landroidx/camera/core/UseCase;)V
@@ -2848,6 +2880,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public open()V
@@ -2880,9 +2913,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public release()Lub/u0;
+.method public release()Lcom/google/common/util/concurrent/t;
     .locals 2
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -2890,9 +2924,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -2923,6 +2955,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public resetChildren()V
@@ -3039,6 +3072,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setChildrenEdges(Ljava/util/Map;)V
@@ -3202,6 +3237,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public unbindChildren()V
@@ -3316,4 +3352,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

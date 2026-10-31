@@ -7,21 +7,21 @@
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/Camera2CameraImpl;
+.field public final synthetic a:Landroidx/camera/core/impl/CameraCaptureCallback;
 
-.field public final synthetic b:Z
+.field public final synthetic b:Landroidx/camera/core/impl/CameraCaptureFailure;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CameraImpl;Z)V
+.method public synthetic constructor <init>(Landroidx/camera/core/impl/CameraCaptureCallback;Landroidx/camera/core/impl/CameraCaptureFailure;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/o;->a:Landroidx/camera/camera2/internal/Camera2CameraImpl;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/o;->a:Landroidx/camera/core/impl/CameraCaptureCallback;
 
-    iput-boolean p2, p0, Landroidx/camera/camera2/internal/o;->b:Z
+    iput-object p2, p0, Landroidx/camera/camera2/internal/o;->b:Landroidx/camera/core/impl/CameraCaptureFailure;
 
     return-void
 .end method
@@ -32,11 +32,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/o;->a:Landroidx/camera/camera2/internal/Camera2CameraImpl;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/o;->a:Landroidx/camera/core/impl/CameraCaptureCallback;
 
-    iget-boolean v1, p0, Landroidx/camera/camera2/internal/o;->b:Z
+    iget-object v1, p0, Landroidx/camera/camera2/internal/o;->b:Landroidx/camera/core/impl/CameraCaptureFailure;
 
-    invoke-static {v0, v1}, Landroidx/camera/camera2/internal/Camera2CameraImpl;->d(Landroidx/camera/camera2/internal/Camera2CameraImpl;Z)V
+    invoke-static {v0, v1}, Landroidx/camera/camera2/internal/Camera2CameraControlImpl$CameraCaptureCallbackSet;->b(Landroidx/camera/core/impl/CameraCaptureCallback;Landroidx/camera/core/impl/CameraCaptureFailure;)V
 
     return-void
 .end method

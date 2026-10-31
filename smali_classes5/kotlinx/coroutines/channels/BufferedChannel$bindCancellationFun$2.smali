@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/q;
+.implements Lq8/q;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/BufferedChannel;->U(Ljm/l;)Lum/i;
+    value = Lkotlinx/coroutines/channels/BufferedChannel;->M(Lq8/l;)Lkotlin/reflect/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,12 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/q<",
-        "Ljava/lang/Throwable;",
-        "TE;",
-        "Lkotlin/coroutines/d;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/q;"
     }
 .end annotation
 
@@ -60,23 +55,23 @@
     .line 1
     check-cast p1, Ljava/lang/Throwable;
 
-    check-cast p3, Lkotlin/coroutines/d;
+    check-cast p3, Lkotlin/coroutines/i;
 
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannel$bindCancellationFun$2;->invoke(Ljava/lang/Throwable;Ljava/lang/Object;Lkotlin/coroutines/d;)V
+    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannel$bindCancellationFun$2;->invoke(Ljava/lang/Throwable;Ljava/lang/Object;Lkotlin/coroutines/i;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
 
-.method public final invoke(Ljava/lang/Throwable;Ljava/lang/Object;Lkotlin/coroutines/d;)V
+.method public final invoke(Ljava/lang/Throwable;Ljava/lang/Object;Lkotlin/coroutines/i;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Throwable;",
-            "TE;",
-            "Lkotlin/coroutines/d;",
+            "Ljava/lang/Object;",
+            "Lkotlin/coroutines/i;",
             ")V"
         }
     .end annotation
@@ -86,7 +81,7 @@
 
     check-cast v0, Lkotlinx/coroutines/channels/BufferedChannel;
 
-    invoke-static {v0, p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannel;->u(Lkotlinx/coroutines/channels/BufferedChannel;Ljava/lang/Throwable;Ljava/lang/Object;Lkotlin/coroutines/d;)V
+    invoke-static {v0, p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannel;->r(Lkotlinx/coroutines/channels/BufferedChannel;Ljava/lang/Throwable;Ljava/lang/Object;Lkotlin/coroutines/i;)V
 
     return-void
 .end method

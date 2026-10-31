@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/Iterator;
-.implements Llm/d;
+.implements Lr8/a;
 
 
 # annotations
@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         "Ljava/util/Iterator<",
         "TE;>;",
-        "Llm/d;"
+        "Lr8/a;"
     }
 .end annotation
 
@@ -36,9 +36,6 @@
             "Ljava/util/Iterator<",
             "TE;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -87,12 +84,12 @@
     const/4 v1, 0x0
 
     .line 12
-    invoke-direct {v0, p1, p0, v1}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;-><init>(Landroidx/collection/MutableScatterSet;Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;Lul/c;)V
+    invoke-direct {v0, p1, p0, v1}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;-><init>(Landroidx/collection/MutableScatterSet;Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;Lkotlin/coroutines/e;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-static {v0}, Lvm/q;->a(Ljm/p;)Ljava/util/Iterator;
+    invoke-static {v0}, Lkotlin/sequences/j;->a(Lq8/p;)Ljava/util/Iterator;
 
     .line 16
     .line 17
@@ -139,6 +136,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getIterator()Ljava/util/Iterator;
@@ -149,9 +147,6 @@
             "Ljava/util/Iterator<",
             "TE;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -177,6 +172,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasNext()Z
@@ -209,6 +205,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public next()Ljava/lang/Object;
@@ -246,6 +243,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public remove()V
@@ -285,6 +283,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setCurrent(I)V

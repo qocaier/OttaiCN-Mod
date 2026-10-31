@@ -16,15 +16,6 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<O::",
-        "Lcom/google/android/gms/common/api/a$d;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final a:Lcom/google/android/gms/common/api/a$a;
@@ -37,33 +28,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Lcom/google/android/gms/common/api/a$a;Lcom/google/android/gms/common/api/a$g;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Lcom/google/android/gms/common/api/a$a;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p3    # Lcom/google/android/gms/common/api/a$g;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Lb9/a;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<C::",
-            "Lcom/google/android/gms/common/api/a$f;",
-            ">(",
-            "Ljava/lang/String;",
-            "Lcom/google/android/gms/common/api/a$a<",
-            "TC;TO;>;",
-            "Lcom/google/android/gms/common/api/a$g<",
-            "TC;>;)V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -75,7 +39,7 @@
 
     .line 5
     .line 6
-    invoke-static {p2, v0}, Lh9/t;->s(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2, v0}, Lt2/j;->h(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -84,7 +48,7 @@
 
     .line 10
     .line 11
-    invoke-static {p3, v0}, Lh9/t;->s(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p3, v0}, Lt2/j;->h(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -229,19 +193,12 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
 # virtual methods
 .method public final a()Lcom/google/android/gms/common/api/a$a;
     .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/a;->a:Lcom/google/android/gms/common/api/a$a;
@@ -249,32 +206,8 @@
     return-object v0
 .end method
 
-.method public final b()Lcom/google/android/gms/common/api/a$c;
+.method public final b()Ljava/lang/String;
     .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/a;->b:Lcom/google/android/gms/common/api/a$g;
-
-    return-object v0
-.end method
-
-.method public final c()Lcom/google/android/gms/common/api/a$e;
-    .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/a;->a:Lcom/google/android/gms/common/api/a$a;
-
-    return-object v0
-.end method
-
-.method public final d()Ljava/lang/String;
-    .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/api/a;->c:Ljava/lang/String;

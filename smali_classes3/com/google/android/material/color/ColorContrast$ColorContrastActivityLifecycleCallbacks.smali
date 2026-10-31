@@ -79,7 +79,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/color/ColorContrast$ColorContrastActivityLifecycleCallbacks;)Ljava/util/Set;
@@ -112,7 +111,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -196,7 +194,7 @@
 
     .line 29
     .line 30
-    invoke-static {p1, v0}, Lqa/b;->a(Landroid/app/UiModeManager;Landroid/app/UiModeManager$ContrastChangeListener;)V
+    invoke-static {p1, v0}, Lcom/google/android/material/color/b;->a(Landroid/app/UiModeManager;Landroid/app/UiModeManager$ContrastChangeListener;)V
 
     .line 31
     .line 32
@@ -265,8 +263,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onActivityPaused(Landroid/app/Activity;)V
@@ -368,7 +364,7 @@
 
     .line 39
     .line 40
-    invoke-static {p2, v0, v1}, Lqa/c;->a(Landroid/app/UiModeManager;Ljava/util/concurrent/Executor;Landroid/app/UiModeManager$ContrastChangeListener;)V
+    invoke-static {p2, v0, v1}, Lcom/google/android/material/color/c;->a(Landroid/app/UiModeManager;Ljava/util/concurrent/Executor;Landroid/app/UiModeManager$ContrastChangeListener;)V
 
     .line 41
     .line 42
@@ -403,11 +399,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onActivityResumed(Landroid/app/Activity;)V

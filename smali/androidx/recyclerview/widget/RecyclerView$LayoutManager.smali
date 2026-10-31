@@ -191,6 +191,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private addViewInt(Landroid/view/View;IZ)V
@@ -1314,6 +1316,169 @@
     .line 926
     .line 927
     .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
 .end method
 
 .method public static chooseSize(III)I
@@ -1465,6 +1630,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private detachViewInternal(ILandroid/view/View;)V
@@ -2058,6 +2226,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static getProperties(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroidx/recyclerview/widget/RecyclerView$LayoutManager$Properties;
@@ -2350,6 +2521,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private isFocusedChildVisibleAfterScrolling(Landroidx/recyclerview/widget/RecyclerView;II)Z
@@ -2547,6 +2724,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static isMeasurementUpToDate(III)Z
@@ -2714,6 +2894,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private scrapOrRecycleView(Landroidx/recyclerview/widget/RecyclerView$Recycler;ILandroid/view/View;)V
@@ -2885,6 +3068,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -3911,6 +4097,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public abstract generateDefaultLayoutParams()Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
@@ -4104,6 +4291,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getClipToPadding()Z
@@ -4145,6 +4333,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getColumnCountForAccessibility(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -4714,6 +4903,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getHeight()I
@@ -4744,6 +4935,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeightMode()I
@@ -4772,6 +4964,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getItemCount()I
@@ -4823,6 +5016,7 @@
     .line 19
     return v0
     .line 20
+    .line 21
 .end method
 
 .method public getItemViewType(Landroid/view/View;)I
@@ -4898,6 +5092,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLeftDecorationWidth(Landroid/view/View;)I
@@ -4977,6 +5172,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMinimumWidth()I
@@ -5011,6 +5207,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPaddingBottom()I
@@ -5052,6 +5249,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPaddingEnd()I
@@ -5093,6 +5291,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPaddingLeft()I
@@ -5134,6 +5333,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPaddingRight()I
@@ -5175,6 +5375,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPaddingStart()I
@@ -5216,6 +5417,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPaddingTop()I
@@ -5257,6 +5459,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPosition(Landroid/view/View;)I
@@ -6572,6 +6775,169 @@
     .line 926
     .line 927
     .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
 .end method
 
 .method public getWidth()I
@@ -6602,6 +6968,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWidthMode()I
@@ -6630,6 +6997,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasFlexibleChildInBothOrientations()Z
@@ -6757,6 +7125,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public hasFocus()Z
@@ -6800,6 +7170,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public ignoreView(Landroid/view/View;)V
@@ -6945,6 +7316,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public isAttachedToWindow()Z
@@ -6973,6 +7345,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isAutoMeasureEnabled()Z
@@ -7001,6 +7374,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isFocused()Z
@@ -7044,6 +7418,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isItemPrefetchEnabled()Z
@@ -7072,6 +7447,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isLayoutHierarchical(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)Z
@@ -7116,6 +7492,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSmoothScrolling()Z
@@ -7159,6 +7536,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isViewPartiallyVisible(Landroid/view/View;ZZ)Z
@@ -7317,6 +7695,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public layoutDecorated(Landroid/view/View;IIII)V
@@ -8671,6 +9052,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public measureChildWithMargins(Landroid/view/View;II)V
@@ -8907,6 +9291,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public moveView(II)V
@@ -9912,6 +10299,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onRequestChildFocus(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;Landroid/view/View;)Z
@@ -10405,6 +10798,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeAndRecycleAllViews(Landroidx/recyclerview/widget/RecyclerView$Recycler;)V
@@ -10524,6 +10918,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public removeAndRecycleScrapInt(Landroidx/recyclerview/widget/RecyclerView$Recycler;)V
@@ -10679,6 +11074,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public removeAndRecycleView(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$Recycler;)V
@@ -11107,6 +11503,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public requestSimpleAnimationsInNextLayout()V
@@ -11137,6 +11534,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public scrollHorizontallyBy(ILandroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -11789,6 +12187,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setMeasurementCacheEnabled(Z)V
@@ -11948,6 +12349,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public shouldMeasureChild(Landroid/view/View;IILandroidx/recyclerview/widget/RecyclerView$LayoutParams;)Z
@@ -12229,6 +12631,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public shouldMeasureTwice()Z
@@ -12512,6 +12920,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public smoothScrollToPosition(Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;I)V
@@ -12637,6 +13051,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public startSmoothScroll(Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;)V
@@ -12771,6 +13188,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public supportsPredictiveItemAnimations()Z

@@ -127,6 +127,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -615,6 +616,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
@@ -655,6 +661,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExtras()Landroid/os/Bundle;
@@ -685,6 +692,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIconBitmap()Landroid/graphics/Bitmap;
@@ -715,6 +723,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIconUri()Landroid/net/Uri;
@@ -745,6 +754,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMediaDescription()Ljava/lang/Object;
@@ -882,6 +892,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getMediaId()Ljava/lang/String;
@@ -912,6 +924,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMediaUri()Landroid/net/Uri;
@@ -942,6 +955,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSubtitle()Ljava/lang/CharSequence;
@@ -972,6 +986,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTitle()Ljava/lang/CharSequence;
@@ -1002,6 +1017,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1118,6 +1134,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V

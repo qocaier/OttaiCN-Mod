@@ -56,6 +56,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/profileinstaller/ProfileInstallerInitializer;Landroid/content/Context;)V
@@ -220,11 +221,11 @@
     .line 15
     .line 16
     .line 17
-    new-instance v1, Lt1/g;
+    new-instance v1, Landroidx/profileinstaller/g;
 
     .line 18
     .line 19
-    invoke-direct {v1, p0}, Lt1/g;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Landroidx/profileinstaller/g;-><init>(Landroid/content/Context;)V
 
     .line 20
     .line 21
@@ -291,11 +292,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lt1/f;
+    new-instance v0, Landroidx/profileinstaller/f;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Lt1/f;-><init>(Landroidx/profileinstaller/ProfileInstallerInitializer;Landroid/content/Context;)V
+    invoke-direct {v0, p0, p1}, Landroidx/profileinstaller/f;-><init>(Landroidx/profileinstaller/ProfileInstallerInitializer;Landroid/content/Context;)V
 
     .line 4
     .line 5
@@ -363,6 +364,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public installAfterDelay(Landroid/content/Context;)V
@@ -455,11 +457,11 @@
     move-result v1
 
     .line 41
-    new-instance v2, Lt1/e;
+    new-instance v2, Landroidx/profileinstaller/e;
 
     .line 42
     .line 43
-    invoke-direct {v2, p1}, Lt1/e;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p1}, Landroidx/profileinstaller/e;-><init>(Landroid/content/Context;)V
 
     .line 44
     .line 45
@@ -503,4 +505,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

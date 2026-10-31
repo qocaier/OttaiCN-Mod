@@ -58,6 +58,8 @@
     .line 19
     .line 20
     return-object v0
+    .line 21
+    .line 22
 .end method
 
 .method public static getId(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -118,101 +120,101 @@
 
     .line 28
     .line 29
-    const-string v1, "yyyyMMddHHmmssSSS"
+    const-string/jumbo v1, "yyyyMMddHHmmssSSS"
 
     .line 30
     .line 31
+    .line 32
     invoke-direct {p0, v1, p1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
-    .line 32
     .line 33
     .line 34
+    .line 35
     new-instance v1, Ljava/util/Date;
 
-    .line 35
     .line 36
+    .line 37
     invoke-direct {v1}, Ljava/util/Date;-><init>()V
 
-    .line 37
     .line 38
     .line 39
+    .line 40
     invoke-virtual {p0, v1}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
-    .line 40
     .line 41
     .line 42
-    move-result-object p0
-
     .line 43
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object p0
 
     .line 44
-    .line 45
-    .line 46
-    invoke-static {}, Lcom/huawei/hms/common/internal/TransactionIdCreater;->a()Ljava/security/SecureRandom;
-
-    .line 47
-    .line 48
-    .line 49
-    move-result-object p0
-
-    .line 50
-    const v1, 0xf4240
-
-    .line 51
-    .line 52
-    .line 53
-    invoke-virtual {p0, v1}, Ljava/util/Random;->nextInt(I)I
-
-    .line 54
-    .line 55
-    .line 56
-    move-result p0
-
-    .line 57
-    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    .line 58
-    .line 59
-    .line 60
-    move-result-object p0
-
-    .line 61
-    filled-new-array {p0}, [Ljava/lang/Object;
-
-    .line 62
-    .line 63
-    .line 64
-    move-result-object p0
-
-    .line 65
-    const-string v1, "%06d"
-
-    .line 66
-    .line 67
-    invoke-static {p1, v1, p0}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-
-    .line 68
-    .line 69
-    .line 70
-    move-result-object p0
-
-    .line 71
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 72
-    .line 73
-    .line 74
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    .line 45
+    .line 46
+    .line 47
+    invoke-static {}, Lcom/huawei/hms/common/internal/TransactionIdCreater;->a()Ljava/security/SecureRandom;
 
-    .line 75
-    .line 76
-    .line 77
+    .line 48
+    .line 49
+    .line 50
     move-result-object p0
 
+    .line 51
+    const v1, 0xf4240
+
+    .line 52
+    .line 53
+    .line 54
+    invoke-virtual {p0, v1}, Ljava/util/Random;->nextInt(I)I
+
+    .line 55
+    .line 56
+    .line 57
+    move-result p0
+
+    .line 58
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    .line 59
+    .line 60
+    .line 61
+    move-result-object p0
+
+    .line 62
+    filled-new-array {p0}, [Ljava/lang/Object;
+
+    .line 63
+    .line 64
+    .line 65
+    move-result-object p0
+
+    .line 66
+    const-string v1, "%06d"
+
+    .line 67
+    .line 68
+    invoke-static {p1, v1, p0}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    .line 69
+    .line 70
+    .line 71
+    move-result-object p0
+
+    .line 72
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 73
+    .line 74
+    .line 75
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 76
+    .line 77
     .line 78
-    return-object p0
+    move-result-object p0
+
     .line 79
+    return-object p0
     .line 80
     .line 81
     .line 82
@@ -397,4 +399,34 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method

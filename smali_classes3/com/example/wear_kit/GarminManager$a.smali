@@ -13,16 +13,6 @@
     name = "a"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nGarminManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GarminManager.kt\ncom/example/wear_kit/GarminManager$Companion\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,137:1\n1#2:138\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nGarminManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GarminManager.kt\ncom/example/wear_kit/GarminManager$Companion\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,137:1\n1#2:138\n*E\n"
-    }
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -34,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -46,9 +36,7 @@
 
 # virtual methods
 .method public final a()Lcom/example/wear_kit/GarminManager;
-    .locals 2
-    .annotation build Lsq/k;
-    .end annotation
+    .locals 1
 
     .line 1
     invoke-static {}, Lcom/example/wear_kit/GarminManager;->b()Lcom/example/wear_kit/GarminManager;
@@ -88,44 +76,42 @@
     .line 17
     .line 18
     .line 19
-    sget-object v1, Lcom/example/wear_kit/GarminManager;->h:Lcom/example/wear_kit/GarminManager$a;
-
-    .line 20
-    .line 21
     invoke-static {v0}, Lcom/example/wear_kit/GarminManager;->d(Lcom/example/wear_kit/GarminManager;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
+    .line 20
+    .line 21
     .line 22
-    .line 23
-    .line 24
     goto :goto_0
 
-    .line 25
+    .line 23
     :catchall_0
     move-exception v0
 
-    .line 26
+    .line 24
     goto :goto_1
 
-    .line 27
+    .line 25
     :cond_0
     :goto_0
     monitor-exit p0
 
-    .line 28
+    .line 26
     return-object v0
 
-    .line 29
+    .line 27
     :goto_1
     monitor-exit p0
 
-    .line 30
+    .line 28
     throw v0
 
-    .line 31
+    .line 29
     :cond_1
     return-object v0
+    .line 30
+    .line 31
     .line 32
     .line 33
     .line 34
@@ -195,13 +181,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

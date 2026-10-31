@@ -11,45 +11,24 @@
 
 # instance fields
 .field private final cancellationSignal:Landroid/os/CancellationSignal;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final params:Landroid/os/Bundle;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final profilingType:I
 
 .field private final tag:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(ILandroid/os/Bundle;Ljava/lang/String;Landroid/os/CancellationSignal;)V
     .locals 1
-    .param p2    # Landroid/os/Bundle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p4    # Landroid/os/CancellationSignal;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "params"
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -289,14 +268,18 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
 # virtual methods
 .method public final getCancellationSignal()Landroid/os/CancellationSignal;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/core/os/ProfilingRequest;->cancellationSignal:Landroid/os/CancellationSignal;
@@ -321,12 +304,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getParams()Landroid/os/Bundle;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/core/os/ProfilingRequest;->params:Landroid/os/Bundle;
@@ -351,6 +333,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getProfilingType()I
@@ -379,12 +362,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getTag()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/core/os/ProfilingRequest;->tag:Ljava/lang/String;
@@ -409,4 +391,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

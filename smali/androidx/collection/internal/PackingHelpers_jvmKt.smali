@@ -6,8 +6,6 @@
 # direct methods
 .method public static final floatFromBits(I)F
     .locals 0
-    .annotation build Ljl/v0;
-    .end annotation
 
     .line 1
     invoke-static {p0}, Ljava/lang/Float;->intBitsToFloat(I)F

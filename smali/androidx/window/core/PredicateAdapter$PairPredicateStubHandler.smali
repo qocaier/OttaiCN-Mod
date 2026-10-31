@@ -28,71 +28,41 @@
 
 
 # instance fields
-.field private final clazzT:Lum/d;
+.field private final clazzT:Lkotlin/reflect/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lum/d<",
-            "TT;>;"
+            "Lkotlin/reflect/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
-.field private final clazzU:Lum/d;
+.field private final clazzU:Lkotlin/reflect/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lum/d<",
-            "TU;>;"
+            "Lkotlin/reflect/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
-.field private final predicate:Ljm/p;
+.field private final predicate:Lq8/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/p<",
-            "TT;TU;",
-            "Ljava/lang/Boolean;",
-            ">;"
+            "Lq8/p;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lum/d;Lum/d;Ljm/p;)V
+.method public constructor <init>(Lkotlin/reflect/c;Lkotlin/reflect/c;Lq8/p;)V
     .locals 1
-    .param p1    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lum/d<",
-            "TT;>;",
-            "Lum/d<",
-            "TU;>;",
-            "Ljm/p<",
-            "-TT;-TU;",
-            "Ljava/lang/Boolean;",
-            ">;)V"
+            "Lkotlin/reflect/c;",
+            "Lkotlin/reflect/c;",
+            "Lq8/p;",
+            ")V"
         }
     .end annotation
 
@@ -101,7 +71,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -110,7 +80,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -119,7 +89,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -128,7 +98,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0}, Lkm/o0;->d(Ljava/lang/Class;)Lum/d;
+    invoke-static {v0}, Lkotlin/jvm/internal/m;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     .line 19
     .line 20
@@ -136,20 +106,20 @@
     move-result-object v0
 
     .line 22
-    invoke-direct {p0, v0}, Landroidx/window/core/PredicateAdapter$BaseHandler;-><init>(Lum/d;)V
+    invoke-direct {p0, v0}, Landroidx/window/core/PredicateAdapter$BaseHandler;-><init>(Lkotlin/reflect/c;)V
 
     .line 23
     .line 24
     .line 25
-    iput-object p1, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->clazzT:Lum/d;
+    iput-object p1, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->clazzT:Lkotlin/reflect/c;
 
     .line 26
     .line 27
-    iput-object p2, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->clazzU:Lum/d;
+    iput-object p2, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->clazzU:Lkotlin/reflect/c;
 
     .line 28
     .line 29
-    iput-object p3, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->predicate:Ljm/p;
+    iput-object p3, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->predicate:Lq8/p;
 
     .line 30
     .line 31
@@ -236,6 +206,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -244,7 +217,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->predicate:Ljm/p;
+    iget-object v0, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->predicate:Lq8/p;
 
     .line 2
     .line 3
@@ -270,18 +243,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invokeTest(Ljava/lang/Object;Landroid/util/Pair;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/util/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -293,34 +259,34 @@
 
     const-string v0, "obj"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "parameter"
 
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object p1, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->clazzT:Lum/d;
+    iget-object p1, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->clazzT:Lkotlin/reflect/c;
 
     iget-object v0, p2, Landroid/util/Pair;->first:Ljava/lang/Object;
 
-    invoke-static {p1, v0}, Lum/e;->a(Lum/d;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lkotlin/reflect/d;->a(Lkotlin/reflect/c;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     .line 3
-    iget-object v0, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->clazzU:Lum/d;
+    iget-object v0, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->clazzU:Lkotlin/reflect/c;
 
     iget-object p2, p2, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    invoke-static {v0, p2}, Lum/e;->a(Lum/d;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0, p2}, Lkotlin/reflect/d;->a(Lkotlin/reflect/c;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p2
 
     .line 4
-    iget-object v0, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->predicate:Ljm/p;
+    iget-object v0, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->predicate:Lq8/p;
 
-    invoke-interface {v0, p1, p2}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -348,11 +314,9 @@
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->predicate:Ljm/p;
+    iget-object v0, p0, Landroidx/window/core/PredicateAdapter$PairPredicateStubHandler;->predicate:Lq8/p;
 
     .line 2
     .line 3
@@ -378,4 +342,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

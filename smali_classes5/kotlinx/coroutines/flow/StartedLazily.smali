@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lkotlinx/coroutines/flow/a;
+.implements Lkotlinx/coroutines/flow/o1;
 
 
 # direct methods
@@ -36,30 +36,39 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
-.method public a(Ljn/y;)Ljn/e;
+.method public a(Lkotlinx/coroutines/flow/r1;)Lkotlinx/coroutines/flow/c;
     .locals 2
-    .param p1    # Ljn/y;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljn/y<",
-            "Ljava/lang/Integer;",
-            ">;)",
-            "Ljn/e<",
-            "Lkotlinx/coroutines/flow/SharingCommand;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Lkotlinx/coroutines/flow/StartedLazily$command$1;
@@ -69,12 +78,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, p1, v1}, Lkotlinx/coroutines/flow/StartedLazily$command$1;-><init>(Ljn/y;Lul/c;)V
+    invoke-direct {v0, p1, v1}, Lkotlinx/coroutines/flow/StartedLazily$command$1;-><init>(Lkotlinx/coroutines/flow/r1;Lkotlin/coroutines/e;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-static {v0}, Ljn/g;->K0(Ljm/p;)Ljn/e;
+    invoke-static {v0}, Lkotlinx/coroutines/flow/e;->x(Lq8/p;)Lkotlinx/coroutines/flow/c;
 
     .line 8
     .line 9
@@ -96,12 +105,43 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "SharingStarted.Lazily"
@@ -129,4 +169,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

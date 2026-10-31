@@ -57,34 +57,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    .line 3
-    .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
 .end method
 
 .method public static addStatusChangeListener(Lanet/channel/status/NetworkStatusHelper$INetworkStatusChangeListener;)V
@@ -148,6 +129,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getCarrier()Ljava/lang/String;
@@ -176,6 +158,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getDnsServerAddress()Ljava/lang/String;
@@ -295,6 +278,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getNetworkSubType()Ljava/lang/String;
@@ -323,6 +308,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getProxyType()Ljava/lang/String;
@@ -468,6 +454,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getRestrictBackgroundStatus()I
@@ -498,6 +486,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getSimOp()Ljava/lang/String;
@@ -526,6 +515,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getStatus()Lanet/channel/status/NetworkStatusHelper$NetworkStatus;
@@ -554,6 +544,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getUniqueId(Lanet/channel/status/NetworkStatusHelper$NetworkStatus;)Ljava/lang/String;
@@ -712,6 +703,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getWifiBSSID()Ljava/lang/String;
@@ -740,6 +732,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getWifiProxy()Landroid/util/Pair;
@@ -788,6 +781,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getWifiSSID()Ljava/lang/String;
@@ -816,6 +810,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static isConnected()Z
@@ -938,6 +933,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static isProxy()Z
@@ -1071,6 +1068,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static isRoaming()Z
@@ -1099,6 +1098,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static notifyStatusChanged(Lanet/channel/status/NetworkStatusHelper$NetworkStatus;)V
@@ -1652,6 +1652,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public static removeStatusChangeListener(Lanet/channel/status/NetworkStatusHelper$INetworkStatusChangeListener;)V
@@ -1810,6 +1862,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 

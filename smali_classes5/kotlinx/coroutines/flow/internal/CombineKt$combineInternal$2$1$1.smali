@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljn/f;
+.implements Lkotlinx/coroutines/flow/d;
 
 
 # annotations
@@ -16,46 +16,18 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljn/f;"
-    }
-.end annotation
-
 
 # instance fields
-.field public final synthetic a:Lkotlinx/coroutines/channels/e;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lkotlinx/coroutines/channels/e<",
-            "Lll/z0<",
-            "Ljava/lang/Object;",
-            ">;>;"
-        }
-    .end annotation
-.end field
+.field public final synthetic a:Lkotlinx/coroutines/channels/g;
 
 .field public final synthetic b:I
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/channels/e;I)V
+.method public constructor <init>(Lkotlinx/coroutines/channels/g;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lkotlinx/coroutines/channels/e<",
-            "Lll/z0<",
-            "Ljava/lang/Object;",
-            ">;>;I)V"
-        }
-    .end annotation
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$1$1;->a:Lkotlinx/coroutines/channels/e;
+    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$1$1;->a:Lkotlinx/coroutines/channels/g;
 
     iput p2, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$1$1;->b:I
 
@@ -66,18 +38,8 @@
 
 
 # virtual methods
-.method public final emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public final emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 6
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p2, Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$1$1$emit$1;
@@ -126,7 +88,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$1$1$emit$1;-><init>(Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$1$1;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$1$1$emit$1;-><init>(Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$1$1;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -136,7 +98,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -166,7 +128,7 @@
 
     .line 40
     .line 41
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 42
     .line 43
@@ -192,7 +154,7 @@
 
     .line 53
     :cond_2
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 54
     .line 55
@@ -201,16 +163,16 @@
 
     .line 57
     :cond_3
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 58
     .line 59
     .line 60
-    iget-object p2, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$1$1;->a:Lkotlinx/coroutines/channels/e;
+    iget-object p2, p0, Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$1$1;->a:Lkotlinx/coroutines/channels/g;
 
     .line 61
     .line 62
-    new-instance v2, Lll/z0;
+    new-instance v2, Lkotlin/collections/b0;
 
     .line 63
     .line 64
@@ -218,7 +180,7 @@
 
     .line 65
     .line 66
-    invoke-direct {v2, v5, p1}, Lll/z0;-><init>(ILjava/lang/Object;)V
+    invoke-direct {v2, v5, p1}, Lkotlin/collections/b0;-><init>(ILjava/lang/Object;)V
 
     .line 67
     .line 68
@@ -227,7 +189,7 @@
 
     .line 70
     .line 71
-    invoke-interface {p2, v2, v0}, Lkotlinx/coroutines/channels/k;->f0(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p2, v2, v0}, Lkotlinx/coroutines/channels/s;->X(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -248,7 +210,7 @@
 
     .line 79
     .line 80
-    invoke-static {v0}, Lfn/g3;->a(Lul/c;)Ljava/lang/Object;
+    invoke-static {v0}, Lkotlinx/coroutines/u2;->a(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 81
     .line 82
@@ -266,7 +228,7 @@
     .line 87
     :cond_5
     :goto_3
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 88
     .line 89
@@ -290,4 +252,20 @@
     .line 106
     .line 107
     .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method

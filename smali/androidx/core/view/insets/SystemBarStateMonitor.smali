@@ -138,11 +138,11 @@
     .line 49
     .line 50
     .line 51
-    new-instance v1, Landroidx/core/view/insets/a;
+    new-instance v1, Landroidx/core/view/insets/c;
 
     .line 52
     .line 53
-    invoke-direct {v1, p0}, Landroidx/core/view/insets/a;-><init>(Landroidx/core/view/insets/SystemBarStateMonitor;)V
+    invoke-direct {v1, p0}, Landroidx/core/view/insets/c;-><init>(Landroidx/core/view/insets/SystemBarStateMonitor;)V
 
     .line 54
     .line 55
@@ -180,6 +180,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic a(Landroidx/core/view/insets/SystemBarStateMonitor;)V
@@ -582,6 +583,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private getInsets(Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/graphics/Insets;
@@ -795,6 +799,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public detachFromWindow()V
@@ -805,11 +810,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Landroidx/core/view/insets/b;
+    new-instance v1, Landroidx/core/view/insets/d;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Landroidx/core/view/insets/b;-><init>(Landroidx/core/view/insets/SystemBarStateMonitor;)V
+    invoke-direct {v1, p0}, Landroidx/core/view/insets/d;-><init>(Landroidx/core/view/insets/SystemBarStateMonitor;)V
 
     .line 6
     .line 7
@@ -829,6 +834,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasCallback()Z
@@ -863,6 +869,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeCallback(Landroidx/core/view/insets/SystemBarStateMonitor$Callback;)V

@@ -57,11 +57,11 @@
 
     .line 10
     .line 11
-    new-instance p1, Landroidx/camera/core/f;
+    new-instance p1, Landroidx/camera/core/o;
 
     .line 12
     .line 13
-    invoke-direct {p1, p0}, Landroidx/camera/core/f;-><init>(Landroidx/camera/core/ImageAnalysisNonBlockingAnalyzer$CacheAnalyzingImageProxy;)V
+    invoke-direct {p1, p0}, Landroidx/camera/core/o;-><init>(Landroidx/camera/core/ImageAnalysisNonBlockingAnalyzer$CacheAnalyzingImageProxy;)V
 
     .line 14
     .line 15
@@ -131,11 +131,11 @@
 
     .line 12
     .line 13
-    new-instance v0, Landroidx/camera/core/g;
+    new-instance v0, Landroidx/camera/core/p;
 
     .line 14
     .line 15
-    invoke-direct {v0, p0}, Landroidx/camera/core/g;-><init>(Landroidx/camera/core/ImageAnalysisNonBlockingAnalyzer;)V
+    invoke-direct {v0, p0}, Landroidx/camera/core/p;-><init>(Landroidx/camera/core/ImageAnalysisNonBlockingAnalyzer;)V
 
     .line 16
     .line 17

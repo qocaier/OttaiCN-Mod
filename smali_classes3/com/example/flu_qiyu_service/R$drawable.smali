@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/example/flu_qiyu_service/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "drawable"
-.end annotation
-
-
 # static fields
 .field public static custom_dialog_background:I = 0x7f07009d
 

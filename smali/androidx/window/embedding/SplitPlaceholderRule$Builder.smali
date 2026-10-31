@@ -13,22 +13,9 @@
     name = "Builder"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSplitPlaceholderRule.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SplitPlaceholderRule.kt\nandroidx/window/embedding/SplitPlaceholderRule$Builder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,343:1\n1#2:344\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSplitPlaceholderRule.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SplitPlaceholderRule.kt\nandroidx/window/embedding/SplitPlaceholderRule$Builder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,343:1\n1#2:344\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private defaultSplitAttributes:Landroidx/window/embedding/SplitAttributes;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final filters:Ljava/util/Set;
     .annotation system Ldalvik/annotation/Signature;
@@ -38,27 +25,15 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private finishPrimaryWithPlaceholder:Landroidx/window/embedding/SplitRule$FinishBehavior;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private isSticky:Z
 
 .field private maxAspectRatioInLandscape:Landroidx/window/embedding/EmbeddingAspectRatio;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private maxAspectRatioInPortrait:Landroidx/window/embedding/EmbeddingAspectRatio;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private minHeightDp:I
     .annotation build Landroidx/annotation/IntRange;
@@ -79,27 +54,13 @@
 .end field
 
 .field private final placeholderIntent:Landroid/content/Intent;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private tag:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/util/Set;Landroid/content/Intent;)V
     .locals 1
-    .param p1    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/content/Intent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -116,7 +77,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -125,7 +86,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -389,14 +350,15 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
 # virtual methods
 .method public final build()Landroidx/window/embedding/SplitPlaceholderRule;
     .locals 12
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/window/embedding/SplitPlaceholderRule;
@@ -509,23 +471,19 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final setDefaultSplitAttributes(Landroidx/window/embedding/SplitAttributes;)Landroidx/window/embedding/SplitPlaceholderRule$Builder;
     .locals 1
-    .param p1    # Landroidx/window/embedding/SplitAttributes;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "defaultSplitAttributes"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -556,19 +514,13 @@
 
 .method public final setFinishPrimaryWithPlaceholder(Landroidx/window/embedding/SplitRule$FinishBehavior;)Landroidx/window/embedding/SplitPlaceholderRule$Builder;
     .locals 1
-    .param p1    # Landroidx/window/embedding/SplitRule$FinishBehavior;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "finishPrimaryWithPlaceholder"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -599,19 +551,13 @@
 
 .method public final setMaxAspectRatioInLandscape(Landroidx/window/embedding/EmbeddingAspectRatio;)Landroidx/window/embedding/SplitPlaceholderRule$Builder;
     .locals 1
-    .param p1    # Landroidx/window/embedding/EmbeddingAspectRatio;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "aspectRatio"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -642,19 +588,13 @@
 
 .method public final setMaxAspectRatioInPortrait(Landroidx/window/embedding/EmbeddingAspectRatio;)Landroidx/window/embedding/SplitPlaceholderRule$Builder;
     .locals 1
-    .param p1    # Landroidx/window/embedding/EmbeddingAspectRatio;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "aspectRatio"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -690,8 +630,6 @@
             from = 0x0L
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/window/embedding/SplitPlaceholderRule$Builder;->minHeightDp:I
@@ -730,8 +668,6 @@
             from = 0x0L
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/window/embedding/SplitPlaceholderRule$Builder;->minSmallestWidthDp:I
@@ -770,8 +706,6 @@
             from = 0x0L
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/window/embedding/SplitPlaceholderRule$Builder;->minWidthDp:I
@@ -805,8 +739,6 @@
 
 .method public final setSticky(Z)Landroidx/window/embedding/SplitPlaceholderRule$Builder;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput-boolean p1, p0, Landroidx/window/embedding/SplitPlaceholderRule$Builder;->isSticky:Z
@@ -840,12 +772,6 @@
 
 .method public final setTag(Ljava/lang/String;)Landroidx/window/embedding/SplitPlaceholderRule$Builder;
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/window/embedding/SplitPlaceholderRule$Builder;->tag:Ljava/lang/String;

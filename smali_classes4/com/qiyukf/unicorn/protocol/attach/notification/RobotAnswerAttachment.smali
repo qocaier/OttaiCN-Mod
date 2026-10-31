@@ -163,6 +163,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -681,27 +683,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public canInputEvaluateReason()Z
@@ -739,6 +720,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public countToUnread()Z
@@ -775,6 +758,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAnswerType()I
@@ -803,6 +788,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCategoryIndex()I
@@ -831,6 +818,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getContent()Ljava/lang/String;
@@ -878,6 +867,8 @@
     .line 19
     .line 20
     return-object v0
+    .line 21
+    .line 22
 .end method
 
 .method public getCopyText(Landroid/content/Context;)Ljava/lang/String;
@@ -1352,27 +1343,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public getEntryIndex()I
@@ -1401,6 +1371,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEvaluation()I
@@ -1429,6 +1401,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEvaluationContent()Ljava/lang/String;
@@ -1457,6 +1431,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEvaluationTag()I
@@ -1485,6 +1461,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEvaluationTags()Lorg/json/JSONArray;
@@ -1513,6 +1491,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEvaluationTagsArray()[Ljava/lang/String;
@@ -1642,6 +1622,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getEvaluation_guide(Landroid/content/Context;)Ljava/lang/String;
@@ -1692,6 +1673,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getOperatorHint()Ljava/lang/String;
@@ -1720,6 +1703,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQaList()Ljava/lang/String;
@@ -1748,6 +1733,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuestion()Ljava/lang/String;
@@ -1776,6 +1763,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuestionCategoryList()Ljava/util/List;
@@ -1812,6 +1801,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuestionList()Ljava/util/List;
@@ -1848,6 +1839,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuestionType()I
@@ -1876,6 +1869,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()J
@@ -1904,6 +1899,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStyle()I
@@ -1932,6 +1929,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTransferRgType()I
@@ -1960,6 +1959,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isAnswerRichText()Z
@@ -2007,6 +2008,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isHintRichText()Z
@@ -2048,6 +2051,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setCategoryIndex(I)V
@@ -2081,6 +2086,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEntryIndex(I)V
@@ -2114,6 +2121,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEvaluation(I)V
@@ -2147,6 +2156,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEvaluationContent(Ljava/lang/String;)V
@@ -2180,6 +2191,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEvaluationTag(I)V
@@ -2213,6 +2226,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEvaluationTags(Lorg/json/JSONArray;)V
@@ -2246,6 +2261,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionId(J)V
@@ -2279,6 +2296,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStyle(I)V
@@ -2312,6 +2331,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public toJsonObject(Z)Lorg/json/JSONObject;
@@ -2360,4 +2381,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

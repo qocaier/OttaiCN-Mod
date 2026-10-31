@@ -6,12 +6,6 @@
 # direct methods
 .method public static final blackhole()Lokio/Sink;
     .locals 1
-    .annotation build Lim/j;
-        name = "blackhole"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Lokio/BlackholeSink;
@@ -41,20 +35,41 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public static final buffer(Lokio/Sink;)Lokio/BufferedSink;
     .locals 1
-    .param p0    # Lokio/Sink;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Lokio/RealBufferedSink;
@@ -66,16 +81,10 @@
 
 .method public static final buffer(Lokio/Source;)Lokio/BufferedSource;
     .locals 1
-    .param p0    # Lokio/Source;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Lokio/RealBufferedSource;
@@ -85,12 +94,8 @@
     return-object v0
 .end method
 
-.method public static final use(Ljava/io/Closeable;Ljm/l;)Ljava/lang/Object;
+.method public static final use(Ljava/io/Closeable;Lq8/l;)Ljava/lang/Object;
     .locals 3
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T::",
@@ -98,8 +103,8 @@
             "R:",
             "Ljava/lang/Object;",
             ">(TT;",
-            "Ljm/l<",
-            "-TT;+TR;>;)TR;"
+            "Lq8/l;",
+            ")TR;"
         }
     .end annotation
 
@@ -108,7 +113,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -120,7 +125,7 @@
 
     .line 8
     :try_start_0
-    invoke-interface {p1, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -130,7 +135,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
     .line 12
-    invoke-static {v0}, Lkm/d0;->d(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 13
     .line 14
@@ -156,7 +161,7 @@
     .line 22
     :cond_0
     :goto_0
-    invoke-static {v0}, Lkm/d0;->c(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 23
     .line 24
@@ -177,7 +182,7 @@
     move-exception p1
 
     .line 30
-    invoke-static {v0}, Lkm/d0;->d(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 31
     .line 32
@@ -201,14 +206,14 @@
     move-exception p0
 
     .line 40
-    invoke-static {p1, p0}, Ljl/r;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    invoke-static {p1, p0}, Lkotlin/a;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     .line 41
     .line 42
     .line 43
     :cond_1
     :goto_1
-    invoke-static {v0}, Lkm/d0;->c(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 44
     .line 45
@@ -282,4 +287,20 @@
     .line 106
     .line 107
     .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method

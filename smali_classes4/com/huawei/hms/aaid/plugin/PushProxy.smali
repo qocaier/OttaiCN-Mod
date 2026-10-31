@@ -34,7 +34,7 @@
     .end annotation
 .end method
 
-.method public abstract subscribe(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lme/k;
+.method public abstract subscribe(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lq5/f;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -42,42 +42,36 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 .end method
 
-.method public abstract turnOff(Landroid/content/Context;Ljava/lang/String;)Lme/k;
+.method public abstract turnOff(Landroid/content/Context;Ljava/lang/String;)Lq5/f;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             "Ljava/lang/String;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 .end method
 
-.method public abstract turnOn(Landroid/content/Context;Ljava/lang/String;)Lme/k;
+.method public abstract turnOn(Landroid/content/Context;Ljava/lang/String;)Lq5/f;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             "Ljava/lang/String;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 .end method
 
-.method public abstract unsubscribe(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lme/k;
+.method public abstract unsubscribe(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lq5/f;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -85,9 +79,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 .end method

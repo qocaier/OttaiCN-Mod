@@ -3,31 +3,11 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSpannableStringBuilder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SpannableStringBuilder.kt\nandroidx/core/text/SpannableStringBuilderKt\n*L\n1#1,163:1\n74#1,4:164\n74#1,4:168\n74#1,4:172\n74#1,4:176\n74#1,4:180\n74#1,4:184\n74#1,4:188\n74#1,4:192\n74#1,4:196\n*S KotlinDebug\n*F\n+ 1 SpannableStringBuilder.kt\nandroidx/core/text/SpannableStringBuilderKt\n*L\n87#1:164,4\n96#1:168,4\n105#1:172,4\n115#1:176,4\n125#1:180,4\n134#1:184,4\n144#1:188,4\n153#1:192,4\n162#1:196,4\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSpannableStringBuilder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SpannableStringBuilder.kt\nandroidx/core/text/SpannableStringBuilderKt\n*L\n1#1,163:1\n74#1,4:164\n74#1,4:168\n74#1,4:172\n74#1,4:176\n74#1,4:180\n74#1,4:184\n74#1,4:188\n74#1,4:192\n74#1,4:196\n*S KotlinDebug\n*F\n+ 1 SpannableStringBuilder.kt\nandroidx/core/text/SpannableStringBuilderKt\n*L\n87#1:164,4\n96#1:168,4\n105#1:172,4\n115#1:176,4\n125#1:180,4\n134#1:184,4\n144#1:188,4\n153#1:192,4\n162#1:196,4\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
-.method public static final backgroundColor(Landroid/text/SpannableStringBuilder;ILjm/l;)Landroid/text/SpannableStringBuilder;
+.method public static final backgroundColor(Landroid/text/SpannableStringBuilder;ILq8/l;)Landroid/text/SpannableStringBuilder;
     .locals 2
-    .param p0    # Landroid/text/SpannableStringBuilder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/ColorInt;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -35,16 +15,10 @@
             "(",
             "Landroid/text/SpannableStringBuilder;",
             "I",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/SpannableStringBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/SpannableStringBuilder;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -65,7 +39,7 @@
     move-result p1
 
     .line 10
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -179,32 +153,21 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final bold(Landroid/text/SpannableStringBuilder;Ljm/l;)Landroid/text/SpannableStringBuilder;
+.method public static final bold(Landroid/text/SpannableStringBuilder;Lq8/l;)Landroid/text/SpannableStringBuilder;
     .locals 3
-    .param p0    # Landroid/text/SpannableStringBuilder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/text/SpannableStringBuilder;",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/SpannableStringBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/SpannableStringBuilder;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -228,7 +191,7 @@
     move-result v1
 
     .line 11
-    invoke-interface {p1, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -278,25 +241,15 @@
     .line 48
 .end method
 
-.method public static final buildSpannedString(Ljm/l;)Landroid/text/SpannedString;
+.method public static final buildSpannedString(Lq8/l;)Landroid/text/SpannedString;
     .locals 1
-    .param p0    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/SpannableStringBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/SpannedString;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -309,7 +262,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0, v0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -337,18 +290,10 @@
     .line 25
 .end method
 
-.method public static final color(Landroid/text/SpannableStringBuilder;ILjm/l;)Landroid/text/SpannableStringBuilder;
+.method public static final color(Landroid/text/SpannableStringBuilder;ILq8/l;)Landroid/text/SpannableStringBuilder;
     .locals 2
-    .param p0    # Landroid/text/SpannableStringBuilder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/ColorInt;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -356,16 +301,10 @@
             "(",
             "Landroid/text/SpannableStringBuilder;",
             "I",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/SpannableStringBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/SpannableStringBuilder;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -386,7 +325,7 @@
     move-result p1
 
     .line 10
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -500,37 +439,22 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final inSpans(Landroid/text/SpannableStringBuilder;Ljava/lang/Object;Ljm/l;)Landroid/text/SpannableStringBuilder;
+.method public static final inSpans(Landroid/text/SpannableStringBuilder;Ljava/lang/Object;Lq8/l;)Landroid/text/SpannableStringBuilder;
     .locals 2
-    .param p0    # Landroid/text/SpannableStringBuilder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/text/SpannableStringBuilder;",
             "Ljava/lang/Object;",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/SpannableStringBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/SpannableStringBuilder;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 4
@@ -539,7 +463,7 @@
     move-result v0
 
     .line 5
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
@@ -553,36 +477,18 @@
     return-object p0
 .end method
 
-.method public static final inSpans(Landroid/text/SpannableStringBuilder;[Ljava/lang/Object;Ljm/l;)Landroid/text/SpannableStringBuilder;
+.method public static final inSpans(Landroid/text/SpannableStringBuilder;[Ljava/lang/Object;Lq8/l;)Landroid/text/SpannableStringBuilder;
     .locals 5
-    .param p0    # Landroid/text/SpannableStringBuilder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # [Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/text/SpannableStringBuilder;",
             "[",
             "Ljava/lang/Object;",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/SpannableStringBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/SpannableStringBuilder;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -591,7 +497,7 @@
     move-result v0
 
     .line 2
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 3
     array-length p2, p1
@@ -619,30 +525,16 @@
     return-object p0
 .end method
 
-.method public static final italic(Landroid/text/SpannableStringBuilder;Ljm/l;)Landroid/text/SpannableStringBuilder;
+.method public static final italic(Landroid/text/SpannableStringBuilder;Lq8/l;)Landroid/text/SpannableStringBuilder;
     .locals 3
-    .param p0    # Landroid/text/SpannableStringBuilder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/text/SpannableStringBuilder;",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/SpannableStringBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/SpannableStringBuilder;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -666,7 +558,7 @@
     move-result v1
 
     .line 11
-    invoke-interface {p1, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -716,31 +608,17 @@
     .line 48
 .end method
 
-.method public static final scale(Landroid/text/SpannableStringBuilder;FLjm/l;)Landroid/text/SpannableStringBuilder;
+.method public static final scale(Landroid/text/SpannableStringBuilder;FLq8/l;)Landroid/text/SpannableStringBuilder;
     .locals 2
-    .param p0    # Landroid/text/SpannableStringBuilder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/text/SpannableStringBuilder;",
             "F",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/SpannableStringBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/SpannableStringBuilder;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -761,7 +639,7 @@
     move-result p1
 
     .line 10
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -875,32 +753,21 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final strikeThrough(Landroid/text/SpannableStringBuilder;Ljm/l;)Landroid/text/SpannableStringBuilder;
+.method public static final strikeThrough(Landroid/text/SpannableStringBuilder;Lq8/l;)Landroid/text/SpannableStringBuilder;
     .locals 3
-    .param p0    # Landroid/text/SpannableStringBuilder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/text/SpannableStringBuilder;",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/SpannableStringBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/SpannableStringBuilder;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -921,7 +788,7 @@
     move-result v1
 
     .line 10
-    invoke-interface {p1, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -972,30 +839,16 @@
     .line 48
 .end method
 
-.method public static final subscript(Landroid/text/SpannableStringBuilder;Ljm/l;)Landroid/text/SpannableStringBuilder;
+.method public static final subscript(Landroid/text/SpannableStringBuilder;Lq8/l;)Landroid/text/SpannableStringBuilder;
     .locals 3
-    .param p0    # Landroid/text/SpannableStringBuilder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/text/SpannableStringBuilder;",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/SpannableStringBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/SpannableStringBuilder;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1016,7 +869,7 @@
     move-result v1
 
     .line 10
-    invoke-interface {p1, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -1067,30 +920,16 @@
     .line 48
 .end method
 
-.method public static final superscript(Landroid/text/SpannableStringBuilder;Ljm/l;)Landroid/text/SpannableStringBuilder;
+.method public static final superscript(Landroid/text/SpannableStringBuilder;Lq8/l;)Landroid/text/SpannableStringBuilder;
     .locals 3
-    .param p0    # Landroid/text/SpannableStringBuilder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/text/SpannableStringBuilder;",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/SpannableStringBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/SpannableStringBuilder;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1111,7 +950,7 @@
     move-result v1
 
     .line 10
-    invoke-interface {p1, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -1162,30 +1001,16 @@
     .line 48
 .end method
 
-.method public static final underline(Landroid/text/SpannableStringBuilder;Ljm/l;)Landroid/text/SpannableStringBuilder;
+.method public static final underline(Landroid/text/SpannableStringBuilder;Lq8/l;)Landroid/text/SpannableStringBuilder;
     .locals 3
-    .param p0    # Landroid/text/SpannableStringBuilder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/text/SpannableStringBuilder;",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/SpannableStringBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/SpannableStringBuilder;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1206,7 +1031,7 @@
     move-result v1
 
     .line 10
-    invoke-interface {p1, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12

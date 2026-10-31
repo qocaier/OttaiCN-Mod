@@ -364,6 +364,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -485,6 +487,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public countToUnread()Z
@@ -521,6 +525,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getBefore()I
@@ -549,6 +555,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getBotActionList()Ljava/util/List;
@@ -585,6 +593,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCode()I
@@ -613,6 +623,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getContent()Ljava/lang/String;
@@ -725,6 +737,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getDisplayText()Ljava/lang/CharSequence;
@@ -1120,68 +1133,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method public getEnableOperator()I
@@ -1210,6 +1161,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEntranceChanged()I
@@ -1238,6 +1191,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEntryPosition()Ljava/lang/String;
@@ -1266,6 +1221,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExchange()Ljava/lang/String;
@@ -1294,6 +1251,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGroupId()J
@@ -1322,6 +1281,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGroupName()Ljava/lang/String;
@@ -1350,6 +1311,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getInqueueNotify()Ljava/lang/String;
@@ -1378,6 +1341,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLeaveType()I
@@ -1406,6 +1371,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMessage()Ljava/lang/String;
@@ -1434,6 +1401,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOldSessionid()J
@@ -1462,6 +1431,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPreInquiryFormId()J
@@ -1490,6 +1461,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRelatedSessionType()I
@@ -1518,6 +1491,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRichmessage()Ljava/lang/String;
@@ -1546,6 +1521,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRobotActionSetting()Z
@@ -1574,6 +1551,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRobotEvaluationConfig()Lcom/qiyukf/unicorn/protocol/attach/model/RobotEvaluationConfig;
@@ -1602,6 +1581,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRobotSessionId()J
@@ -1630,6 +1611,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getScopeOfConsultancy()Lcom/qiyukf/unicorn/protocol/attach/model/ScopeOfConsultancyConfig;
@@ -1658,6 +1641,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()J
@@ -1686,6 +1671,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionStage()I
@@ -1714,6 +1701,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionTransferMessage()Ljava/lang/String;
@@ -1742,6 +1731,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getShopInfo()Lcom/qiyukf/d20;
@@ -1770,6 +1761,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getShowEvaluationButton()I
@@ -1798,6 +1791,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSpkf()Ljava/lang/String;
@@ -1826,6 +1821,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStaffIcon()Ljava/lang/String;
@@ -1854,6 +1851,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStaffId()J
@@ -1882,6 +1881,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStaffName()Ljava/lang/String;
@@ -1910,6 +1911,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStaffNimId()Ljava/lang/String;
@@ -1938,6 +1941,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStaffType()I
@@ -1966,6 +1971,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUrlFilterOpen()I
@@ -1994,6 +2001,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUserName()Ljava/lang/String;
@@ -2022,6 +2031,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVideoCallError()Ljava/lang/String;
@@ -2050,6 +2061,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVideoCallQueueNum()I
@@ -2078,6 +2091,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVideoConfig()Lcom/qiyukf/unicorn/protocol/attach/model/VideoConfig;
@@ -2106,6 +2121,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVideoRoomName()Ljava/lang/String;
@@ -2134,6 +2151,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVipStaffPrompt()Ljava/lang/String;
@@ -2162,6 +2181,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVisitorForbiddenSet()Lcom/qiyukf/va0;
@@ -2190,6 +2211,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isFirstShortcut()Z
@@ -2224,6 +2247,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isInHumanSessionStage()Z
@@ -2261,6 +2286,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isOpenVideo()Z
@@ -2380,6 +2407,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public isPreInquiryForm()Z
@@ -2408,6 +2436,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isRobotInQueue()Z
@@ -2451,6 +2481,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isShowNum()Z
@@ -2488,6 +2520,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isVIPStaff()Z
@@ -2516,6 +2550,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isVideoCall()Z
@@ -2550,6 +2586,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public notHistorySessionTransferHuman()Z
@@ -2587,6 +2625,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setCode(I)V
@@ -2620,6 +2660,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setExchange(Ljava/lang/String;)V
@@ -2653,6 +2695,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setGroupId(J)V
@@ -2686,6 +2730,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMessage(Ljava/lang/String;)V
@@ -2719,6 +2765,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPreInquiryForm(Z)V
@@ -2752,6 +2800,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPreInquiryFormId(J)V
@@ -2785,6 +2835,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRichmessage(Ljava/lang/String;)V
@@ -2818,6 +2870,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRobotActionSetting(Z)V
@@ -2851,6 +2905,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setScopeOfConsultancy(Lcom/qiyukf/unicorn/protocol/attach/model/ScopeOfConsultancyConfig;)V
@@ -2884,6 +2940,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionId(J)V
@@ -2917,6 +2975,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionStage(I)V
@@ -2950,6 +3010,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSpkf(Ljava/lang/String;)V
@@ -2983,6 +3045,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStaffIcon(Ljava/lang/String;)V
@@ -3016,6 +3080,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStaffId(J)V
@@ -3049,6 +3115,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStaffName(Ljava/lang/String;)V
@@ -3082,6 +3150,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStaffNimId(Ljava/lang/String;)V
@@ -3115,6 +3185,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStaffType(I)V
@@ -3148,6 +3220,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUserName(Ljava/lang/String;)V
@@ -3181,6 +3255,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVIPStaff(Z)V
@@ -3214,6 +3290,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVideoCallError(Ljava/lang/String;)V
@@ -3247,6 +3325,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVideoCallQueueNum(I)V
@@ -3280,6 +3360,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVideoConfig(Lcom/qiyukf/unicorn/protocol/attach/model/VideoConfig;)V
@@ -3313,6 +3395,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVideoRoomName(Ljava/lang/String;)V
@@ -3346,6 +3430,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVipStaffPrompt(Ljava/lang/String;)V
@@ -3379,6 +3465,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVisitorForbiddenSet(Lcom/qiyukf/va0;)V
@@ -3412,4 +3500,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

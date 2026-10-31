@@ -70,6 +70,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -100,6 +102,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMsgId()J
@@ -128,6 +132,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMsgIdClient()Ljava/lang/String;
@@ -156,6 +162,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getType()Ljava/lang/String;
@@ -184,6 +192,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setContent(Ljava/lang/String;)V
@@ -217,6 +227,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMsgId(J)V
@@ -250,6 +262,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMsgIdClient(Ljava/lang/String;)V
@@ -283,6 +297,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setType(Ljava/lang/String;)V
@@ -316,4 +332,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

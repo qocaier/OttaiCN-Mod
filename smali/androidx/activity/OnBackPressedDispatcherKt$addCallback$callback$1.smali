@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/OnBackPressedDispatcherKt;->addCallback(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLjm/l;)Landroidx/activity/OnBackPressedCallback;
+    value = Landroidx/activity/OnBackPressedDispatcherKt;->addCallback(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLq8/l;)Landroidx/activity/OnBackPressedCallback;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,34 +15,28 @@
 
 
 # instance fields
-.field final synthetic $onBackPressed:Ljm/l;
+.field final synthetic $onBackPressed:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroidx/activity/OnBackPressedCallback;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(ZLjm/l;)V
+.method public constructor <init>(ZLq8/l;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z",
-            "Ljm/l<",
-            "-",
-            "Landroidx/activity/OnBackPressedCallback;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p2, p0, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;->$onBackPressed:Ljm/l;
+    iput-object p2, p0, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;->$onBackPressed:Lq8/l;
 
     .line 2
     .line 3
@@ -102,11 +96,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;->$onBackPressed:Ljm/l;
+    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;->$onBackPressed:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -126,4 +120,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

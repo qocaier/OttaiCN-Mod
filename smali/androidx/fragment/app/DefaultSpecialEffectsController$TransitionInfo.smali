@@ -18,30 +18,20 @@
 .field private final isOverlapAllowed:Z
 
 .field private final sharedElementTransition:Ljava/lang/Object;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final transition:Ljava/lang/Object;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/fragment/app/SpecialEffectsController$Operation;ZZ)V
     .locals 2
-    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Operation;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "operation"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -270,6 +260,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private final getHandlingImpl(Ljava/lang/Object;)Landroidx/fragment/app/FragmentTransitionImpl;
@@ -358,8 +351,6 @@
 # virtual methods
 .method public final getHandlingImpl()Landroidx/fragment/app/FragmentTransitionImpl;
     .locals 2
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionInfo;->transition:Ljava/lang/Object;
@@ -456,8 +447,6 @@
 
 .method public final getSharedElementTransition()Ljava/lang/Object;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionInfo;->sharedElementTransition:Ljava/lang/Object;
@@ -482,12 +471,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getTransition()Ljava/lang/Object;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionInfo;->transition:Ljava/lang/Object;
@@ -512,6 +500,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final hasSharedElementTransition()Z
@@ -549,6 +538,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isOverlapAllowed()Z
@@ -577,4 +567,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -222,8 +222,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic a(Lcom/google/android/material/search/SearchViewAnimationHelper;)V
@@ -345,8 +343,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/search/SearchViewAnimationHelper;)Lcom/google/android/material/search/SearchView;
@@ -379,7 +375,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/search/SearchViewAnimationHelper;)Lcom/google/android/material/internal/ClippableRoundedCornerLayout;
@@ -412,7 +407,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$200(Lcom/google/android/material/search/SearchViewAnimationHelper;F)V
@@ -481,11 +475,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$300(Lcom/google/android/material/search/SearchViewAnimationHelper;)Lcom/google/android/material/search/SearchBar;
@@ -518,7 +507,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private addActionMenuViewAnimatorIfNeeded(Landroid/animation/AnimatorSet;)V
@@ -695,8 +683,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private addBackButtonProgressAnimatorIfNeeded(Landroid/animation/AnimatorSet;)V
@@ -830,8 +816,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private addBackButtonTranslationAnimatorIfNeeded(Landroid/animation/AnimatorSet;)V
@@ -1008,8 +992,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private addDrawerArrowDrawableAnimatorIfNeeded(Landroid/animation/AnimatorSet;Landroid/graphics/drawable/Drawable;)V
@@ -1048,11 +1030,11 @@
     move-result-object v0
 
     .line 17
-    new-instance v1, Lcom/google/android/material/search/g;
+    new-instance v1, Lcom/google/android/material/search/y;
 
     .line 18
     .line 19
-    invoke-direct {v1, p2}, Lcom/google/android/material/search/g;-><init>(Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;)V
+    invoke-direct {v1, p2}, Lcom/google/android/material/search/y;-><init>(Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;)V
 
     .line 20
     .line 21
@@ -1115,11 +1097,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private addFadeThroughDrawableAnimatorIfNeeded(Landroid/animation/AnimatorSet;Landroid/graphics/drawable/Drawable;)V
@@ -1158,11 +1135,11 @@
     move-result-object v0
 
     .line 17
-    new-instance v1, Lcom/google/android/material/search/i;
+    new-instance v1, Lcom/google/android/material/search/a0;
 
     .line 18
     .line 19
-    invoke-direct {v1, p2}, Lcom/google/android/material/search/i;-><init>(Lcom/google/android/material/internal/FadeThroughDrawable;)V
+    invoke-direct {v1, p2}, Lcom/google/android/material/search/a0;-><init>(Lcom/google/android/material/internal/FadeThroughDrawable;)V
 
     .line 20
     .line 21
@@ -1225,11 +1202,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic b(Lcom/google/android/material/search/SearchViewAnimationHelper;FFLandroid/graphics/Rect;Landroid/animation/ValueAnimator;)V
@@ -2274,11 +2246,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic d(Lcom/google/android/material/search/SearchViewAnimationHelper;)V
@@ -2323,7 +2290,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic e(Lcom/google/android/material/internal/FadeThroughDrawable;Landroid/animation/ValueAnimator;)V
@@ -2402,11 +2368,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private getActionMenuViewsAlphaAnimator(Z)Landroid/animation/Animator;
@@ -2567,8 +2528,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getButtonsProgressAnimator(Z)Landroid/animation/AnimatorSet;
@@ -2692,8 +2651,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getButtonsTranslationAnimator(Z)Landroid/animation/AnimatorSet;
@@ -2819,8 +2776,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getClearButtonAnimator(Z)Landroid/animation/Animator;
@@ -2984,8 +2939,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getContentAlphaAnimator(Z)Landroid/animation/Animator;
@@ -3153,8 +3106,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getContentAnimator(Z)Landroid/animation/Animator;
@@ -3208,6 +3159,72 @@
     .line 24
     .line 25
     return-object v0
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
 .end method
 
 .method private getContentScaleAnimator(Z)Landroid/animation/Animator;
@@ -3359,8 +3376,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getDividerAnimator(Z)Landroid/animation/Animator;
@@ -3524,8 +3539,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getDummyToolbarAnimator(Z)Landroid/animation/Animator;
@@ -3564,7 +3577,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getEditTextAnimator(Z)Landroid/animation/Animator;
@@ -3603,7 +3615,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getExpandCollapseAnimatorSet(Z)Landroid/animation/AnimatorSet;
@@ -3783,8 +3794,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getFromTranslationXEnd(Landroid/view/View;)I
@@ -3927,8 +3936,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getFromTranslationXStart(Landroid/view/View;)I
@@ -4081,8 +4088,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getFromTranslationY()I
@@ -4223,15 +4228,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getHeaderContainerAnimator(Z)Landroid/animation/Animator;
@@ -4270,7 +4266,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getRootViewAnimator(Z)Landroid/animation/Animator;
@@ -4428,11 +4423,11 @@
     move-result-object v0
 
     .line 74
-    new-instance v1, Lcom/google/android/material/search/f;
+    new-instance v1, Lcom/google/android/material/search/x;
 
     .line 75
     .line 76
-    invoke-direct {v1, p0, v3, v4, v2}, Lcom/google/android/material/search/f;-><init>(Lcom/google/android/material/search/SearchViewAnimationHelper;FFLandroid/graphics/Rect;)V
+    invoke-direct {v1, p0, v3, v4, v2}, Lcom/google/android/material/search/x;-><init>(Lcom/google/android/material/search/SearchViewAnimationHelper;FFLandroid/graphics/Rect;)V
 
     .line 77
     .line 78
@@ -4789,6 +4784,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private getScrimAlphaAnimator(Z)Landroid/animation/Animator;
@@ -4942,8 +4969,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getSearchPrefixAnimator(Z)Landroid/animation/Animator;
@@ -4982,7 +5007,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getTranslateAnimatorSet(Z)Landroid/animation/AnimatorSet;
@@ -5116,8 +5140,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getTranslationAnimator(ZZLandroid/view/View;)Landroid/animation/Animator;
@@ -5373,11 +5395,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private getTranslationYAnimator()Landroid/animation/Animator;
@@ -5522,15 +5539,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private setActionMenuViewAlphaIfNeeded(F)V
@@ -5580,7 +5588,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setContentViewsAlpha(F)V
@@ -5625,7 +5632,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setFullDrawableProgressIfNeeded(Landroid/graphics/drawable/Drawable;)V
@@ -5678,7 +5684,6 @@
     return-void
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setMenuItemsNotClickable(Landroidx/appcompat/widget/Toolbar;)V
@@ -5808,8 +5813,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private setUpDummyToolbarIfNeeded()V
@@ -5974,15 +5977,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private startHideAnimationCollapse()Landroid/animation/AnimatorSet;
@@ -6116,15 +6110,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private startHideAnimationTranslate()Landroid/animation/AnimatorSet;
@@ -6258,15 +6243,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private startShowAnimationExpand()V
@@ -6379,11 +6355,11 @@
 
     .line 55
     .line 56
-    new-instance v1, Lcom/google/android/material/search/h;
+    new-instance v1, Lcom/google/android/material/search/z;
 
     .line 57
     .line 58
-    invoke-direct {v1, p0}, Lcom/google/android/material/search/h;-><init>(Lcom/google/android/material/search/SearchViewAnimationHelper;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/search/z;-><init>(Lcom/google/android/material/search/SearchViewAnimationHelper;)V
 
     .line 59
     .line 60
@@ -6430,15 +6406,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private startShowAnimationTranslate()V
@@ -6470,11 +6437,11 @@
     .line 12
     .line 13
     .line 14
-    new-instance v1, Lya/s;
+    new-instance v1, Lcom/google/android/material/search/b0;
 
     .line 15
     .line 16
-    invoke-direct {v1, v0}, Lya/s;-><init>(Lcom/google/android/material/search/SearchView;)V
+    invoke-direct {v1, v0}, Lcom/google/android/material/search/b0;-><init>(Lcom/google/android/material/search/SearchView;)V
 
     .line 17
     .line 18
@@ -6505,11 +6472,11 @@
 
     .line 31
     .line 32
-    new-instance v1, Lcom/google/android/material/search/j;
+    new-instance v1, Lcom/google/android/material/search/c0;
 
     .line 33
     .line 34
-    invoke-direct {v1, p0}, Lcom/google/android/material/search/j;-><init>(Lcom/google/android/material/search/SearchViewAnimationHelper;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/search/c0;-><init>(Lcom/google/android/material/search/SearchViewAnimationHelper;)V
 
     .line 35
     .line 36
@@ -6580,15 +6547,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -6621,7 +6579,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0}, Lya/r;->a(Landroid/animation/AnimatorSet;)V
+    invoke-static {v0}, Lcom/google/android/material/search/w;->a(Landroid/animation/AnimatorSet;)V
 
     .line 13
     .line 14
@@ -6639,7 +6597,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public finishBackProgress()V
@@ -6784,15 +6741,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getBackHelper()Lcom/google/android/material/motion/MaterialMainContainerBackHelper;
@@ -6823,13 +6771,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hide()Landroid/animation/AnimatorSet;
     .locals 1
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/android/material/search/SearchViewAnimationHelper;->searchBar:Lcom/google/android/material/search/SearchBar;
@@ -6869,7 +6814,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onHandleBackInvoked()Landroidx/activity/BackEventCompat;
@@ -6906,7 +6850,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setSearchBar(Lcom/google/android/material/search/SearchBar;)V
@@ -6939,7 +6882,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public show()V
@@ -6979,7 +6921,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public startBackProgress(Landroidx/activity/BackEventCompat;)V
@@ -7020,7 +6961,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateBackProgress(Landroidx/activity/BackEventCompat;)V
@@ -7195,7 +7135,7 @@
     float-to-long v1, p1
 
     .line 77
-    invoke-static {v0, v1, v2}, Lya/q;->a(Landroid/animation/AnimatorSet;J)V
+    invoke-static {v0, v1, v2}, Lcom/google/android/material/search/v;->a(Landroid/animation/AnimatorSet;J)V
 
     .line 78
     .line 79
@@ -7212,6 +7152,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

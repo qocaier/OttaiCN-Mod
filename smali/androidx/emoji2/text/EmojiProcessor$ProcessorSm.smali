@@ -170,6 +170,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static isEmojiStyle(I)Z
@@ -242,6 +245,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private shouldUseEmojiPresentationStyleForSingleCodepoint()Z
@@ -394,6 +398,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -759,6 +765,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public getCurrentMetadata()Landroidx/emoji2/text/EmojiMetadata;
@@ -791,6 +802,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFlushMetadata()Landroidx/emoji2/text/EmojiMetadata;
@@ -823,6 +835,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isInFlushableState()Z
@@ -945,4 +958,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

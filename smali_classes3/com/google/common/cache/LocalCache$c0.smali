@@ -13,29 +13,9 @@
     name = "c0"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/util/AbstractQueue<",
-        "Lcom/google/common/cache/d<",
-        "TK;TV;>;>;"
-    }
-.end annotation
-
 
 # instance fields
-.field public final a:Lcom/google/common/cache/d;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
-.end field
+.field public final a:Lcom/google/common/cache/k;
 
 
 # direct methods
@@ -57,7 +37,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iput-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 10
     .line 11
@@ -73,32 +53,15 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
-.method public a(Lcom/google/common/cache/d;)Z
+.method public a(Lcom/google/common/cache/k;)Z
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "entry"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)Z"
-        }
-    .end annotation
 
     .line 1
-    invoke-interface {p1}, Lcom/google/common/cache/d;->getPreviousInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {p1}, Lcom/google/common/cache/k;->getPreviousInWriteQueue()Lcom/google/common/cache/k;
 
     .line 2
     .line 3
@@ -106,7 +69,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {p1}, Lcom/google/common/cache/d;->getNextInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {p1}, Lcom/google/common/cache/k;->getNextInWriteQueue()Lcom/google/common/cache/k;
 
     .line 6
     .line 7
@@ -114,16 +77,16 @@
     move-result-object v1
 
     .line 9
-    invoke-static {v0, v1}, Lcom/google/common/cache/LocalCache;->d(Lcom/google/common/cache/d;Lcom/google/common/cache/d;)V
+    invoke-static {v0, v1}, Lcom/google/common/cache/LocalCache;->c(Lcom/google/common/cache/k;Lcom/google/common/cache/k;)V
 
     .line 10
     .line 11
     .line 12
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 13
     .line 14
-    invoke-interface {v0}, Lcom/google/common/cache/d;->getPreviousInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {v0}, Lcom/google/common/cache/k;->getPreviousInWriteQueue()Lcom/google/common/cache/k;
 
     .line 15
     .line 16
@@ -131,16 +94,16 @@
     move-result-object v0
 
     .line 18
-    invoke-static {v0, p1}, Lcom/google/common/cache/LocalCache;->d(Lcom/google/common/cache/d;Lcom/google/common/cache/d;)V
+    invoke-static {v0, p1}, Lcom/google/common/cache/LocalCache;->c(Lcom/google/common/cache/k;Lcom/google/common/cache/k;)V
 
     .line 19
     .line 20
     .line 21
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 22
     .line 23
-    invoke-static {p1, v0}, Lcom/google/common/cache/LocalCache;->d(Lcom/google/common/cache/d;Lcom/google/common/cache/d;)V
+    invoke-static {p1, v0}, Lcom/google/common/cache/LocalCache;->c(Lcom/google/common/cache/k;Lcom/google/common/cache/k;)V
 
     .line 24
     .line 25
@@ -213,29 +176,17 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public b()Lcom/google/common/cache/d;
+.method public b()Lcom/google/common/cache/k;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lcom/google/common/cache/d;->getNextInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {v0}, Lcom/google/common/cache/k;->getNextInWriteQueue()Lcom/google/common/cache/k;
 
     .line 4
     .line 5
@@ -243,7 +194,7 @@
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v1, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 8
     .line 9
@@ -266,28 +217,17 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public c()Lcom/google/common/cache/d;
+.method public c()Lcom/google/common/cache/k;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lcom/google/common/cache/d;->getNextInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {v0}, Lcom/google/common/cache/k;->getNextInWriteQueue()Lcom/google/common/cache/k;
 
     .line 4
     .line 5
@@ -295,7 +235,7 @@
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v1, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 8
     .line 9
@@ -322,18 +262,17 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public clear()V
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lcom/google/common/cache/d;->getNextInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {v0}, Lcom/google/common/cache/k;->getNextInWriteQueue()Lcom/google/common/cache/k;
 
     .line 4
     .line 5
@@ -342,7 +281,7 @@
 
     .line 7
     :goto_0
-    iget-object v1, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v1, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 8
     .line 9
@@ -350,7 +289,7 @@
 
     .line 10
     .line 11
-    invoke-interface {v0}, Lcom/google/common/cache/d;->getNextInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {v0}, Lcom/google/common/cache/k;->getNextInWriteQueue()Lcom/google/common/cache/k;
 
     .line 12
     .line 13
@@ -358,7 +297,7 @@
     move-result-object v1
 
     .line 15
-    invoke-static {v0}, Lcom/google/common/cache/LocalCache;->H(Lcom/google/common/cache/d;)V
+    invoke-static {v0}, Lcom/google/common/cache/LocalCache;->x(Lcom/google/common/cache/k;)V
 
     .line 16
     .line 17
@@ -370,16 +309,16 @@
 
     .line 20
     :cond_0
-    invoke-interface {v1, v1}, Lcom/google/common/cache/d;->setNextInWriteQueue(Lcom/google/common/cache/d;)V
+    invoke-interface {v1, v1}, Lcom/google/common/cache/k;->setNextInWriteQueue(Lcom/google/common/cache/k;)V
 
     .line 21
     .line 22
     .line 23
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 24
     .line 25
-    invoke-interface {v0, v0}, Lcom/google/common/cache/d;->setPreviousInWriteQueue(Lcom/google/common/cache/d;)V
+    invoke-interface {v0, v0}, Lcom/google/common/cache/k;->setPreviousInWriteQueue(Lcom/google/common/cache/k;)V
 
     .line 26
     .line 27
@@ -457,34 +396,17 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
-    check-cast p1, Lcom/google/common/cache/d;
+    check-cast p1, Lcom/google/common/cache/k;
 
     .line 2
     .line 3
-    invoke-interface {p1}, Lcom/google/common/cache/d;->getNextInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {p1}, Lcom/google/common/cache/k;->getNextInWriteQueue()Lcom/google/common/cache/k;
 
     .line 4
     .line 5
@@ -521,18 +443,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isEmpty()Z
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lcom/google/common/cache/d;->getNextInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {v0}, Lcom/google/common/cache/k;->getNextInWriteQueue()Lcom/google/common/cache/k;
 
     .line 4
     .line 5
@@ -540,7 +461,7 @@
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v1, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 8
     .line 9
@@ -567,26 +488,17 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public iterator()Ljava/util/Iterator;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Iterator<",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;>;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Lcom/google/common/cache/LocalCache$c0$b;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$c0;->b()Lcom/google/common/cache/d;
+    invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$c0;->b()Lcom/google/common/cache/k;
 
     .line 4
     .line 5
@@ -594,7 +506,7 @@
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, p0, v1}, Lcom/google/common/cache/LocalCache$c0$b;-><init>(Lcom/google/common/cache/LocalCache$c0;Lcom/google/common/cache/d;)V
+    invoke-direct {v0, p0, v1}, Lcom/google/common/cache/LocalCache$c0$b;-><init>(Lcom/google/common/cache/LocalCache$c0;Lcom/google/common/cache/k;)V
 
     .line 8
     .line 9
@@ -612,26 +524,17 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic offer(Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "entry"
-        }
-    .end annotation
 
     .line 1
-    check-cast p1, Lcom/google/common/cache/d;
+    check-cast p1, Lcom/google/common/cache/k;
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache$c0;->a(Lcom/google/common/cache/d;)Z
+    invoke-virtual {p0, p1}, Lcom/google/common/cache/LocalCache$c0;->a(Lcom/google/common/cache/k;)Z
 
     .line 4
     .line 5
@@ -657,16 +560,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic peek()Ljava/lang/Object;
     .locals 1
-    .annotation runtime Lgl/a;
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$c0;->b()Lcom/google/common/cache/d;
+    invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$c0;->b()Lcom/google/common/cache/k;
 
     .line 2
     .line 3
@@ -692,16 +592,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic poll()Ljava/lang/Object;
     .locals 1
-    .annotation runtime Lgl/a;
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$c0;->c()Lcom/google/common/cache/d;
+    invoke-virtual {p0}, Lcom/google/common/cache/LocalCache$c0;->c()Lcom/google/common/cache/k;
 
     .line 2
     .line 3
@@ -727,29 +624,17 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public remove(Ljava/lang/Object;)Z
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
-
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
-    check-cast p1, Lcom/google/common/cache/d;
+    check-cast p1, Lcom/google/common/cache/k;
 
     .line 2
     .line 3
-    invoke-interface {p1}, Lcom/google/common/cache/d;->getPreviousInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {p1}, Lcom/google/common/cache/k;->getPreviousInWriteQueue()Lcom/google/common/cache/k;
 
     .line 4
     .line 5
@@ -757,7 +642,7 @@
     move-result-object v0
 
     .line 7
-    invoke-interface {p1}, Lcom/google/common/cache/d;->getNextInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {p1}, Lcom/google/common/cache/k;->getNextInWriteQueue()Lcom/google/common/cache/k;
 
     .line 8
     .line 9
@@ -765,12 +650,12 @@
     move-result-object v1
 
     .line 11
-    invoke-static {v0, v1}, Lcom/google/common/cache/LocalCache;->d(Lcom/google/common/cache/d;Lcom/google/common/cache/d;)V
+    invoke-static {v0, v1}, Lcom/google/common/cache/LocalCache;->c(Lcom/google/common/cache/k;Lcom/google/common/cache/k;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-static {p1}, Lcom/google/common/cache/LocalCache;->H(Lcom/google/common/cache/d;)V
+    invoke-static {p1}, Lcom/google/common/cache/LocalCache;->x(Lcom/google/common/cache/k;)V
 
     .line 15
     .line 16
@@ -794,18 +679,17 @@
 
     .line 24
     return p1
-    .line 25
 .end method
 
 .method public size()I
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lcom/google/common/cache/d;->getNextInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {v0}, Lcom/google/common/cache/k;->getNextInWriteQueue()Lcom/google/common/cache/k;
 
     .line 4
     .line 5
@@ -817,7 +701,7 @@
 
     .line 8
     :goto_0
-    iget-object v2, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/d;
+    iget-object v2, p0, Lcom/google/common/cache/LocalCache$c0;->a:Lcom/google/common/cache/k;
 
     .line 9
     .line 10
@@ -829,7 +713,7 @@
 
     .line 13
     .line 14
-    invoke-interface {v0}, Lcom/google/common/cache/d;->getNextInWriteQueue()Lcom/google/common/cache/d;
+    invoke-interface {v0}, Lcom/google/common/cache/k;->getNextInWriteQueue()Lcom/google/common/cache/k;
 
     .line 15
     .line 16
@@ -845,5 +729,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

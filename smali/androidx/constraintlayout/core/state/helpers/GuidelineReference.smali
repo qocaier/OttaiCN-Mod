@@ -195,6 +195,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public end(Ljava/lang/Object;)Landroidx/constraintlayout/core/state/helpers/GuidelineReference;
@@ -281,6 +283,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFacade()Landroidx/constraintlayout/core/state/helpers/Facade;
@@ -317,6 +320,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOrientation()I
@@ -345,6 +349,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public percent(F)Landroidx/constraintlayout/core/state/helpers/GuidelineReference;

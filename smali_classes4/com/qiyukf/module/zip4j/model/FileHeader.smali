@@ -54,6 +54,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -84,6 +86,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExternalFileAttributes()[B
@@ -112,6 +116,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFileComment()Ljava/lang/String;
@@ -140,6 +146,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFileCommentLength()I
@@ -168,6 +176,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getInternalFileAttributes()[B
@@ -196,6 +206,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOffsetLocalHeader()J
@@ -224,6 +236,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVersionMadeBy()I
@@ -252,6 +266,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setDiskNumberStart(I)V
@@ -285,6 +301,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setExternalFileAttributes([B)V
@@ -318,6 +336,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFileComment(Ljava/lang/String;)V
@@ -351,6 +371,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFileCommentLength(I)V
@@ -384,6 +406,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setInternalFileAttributes([B)V
@@ -417,6 +441,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOffsetLocalHeader(J)V
@@ -450,6 +476,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVersionMadeBy(I)V
@@ -483,6 +511,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -513,4 +543,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

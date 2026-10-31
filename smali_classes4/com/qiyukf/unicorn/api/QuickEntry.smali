@@ -152,11 +152,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 
@@ -187,6 +182,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getId()J
@@ -215,6 +212,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -243,6 +242,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isHighLight()Z
@@ -284,6 +285,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setId(J)V
@@ -317,6 +320,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setName(Ljava/lang/String;)V
@@ -350,4 +355,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

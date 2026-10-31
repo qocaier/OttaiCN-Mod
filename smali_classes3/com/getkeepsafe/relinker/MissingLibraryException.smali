@@ -6,18 +6,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "library",
-            "wantedABIs",
-            "supportedABIs"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -207,9 +195,4 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method

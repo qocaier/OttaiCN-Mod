@@ -185,14 +185,6 @@
 # direct methods
 .method public constructor <init>(Landroid/view/View;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "view"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -531,20 +523,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private getAdjustedPosition(F[F)F
     .locals 10
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "position",
-            "velocity"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -929,24 +916,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static getInterpolator(Landroid/content/Context;ILjava/lang/String;I)Landroid/view/animation/Interpolator;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "type",
-            "interpolatorString",
-            "id"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, -0x2
@@ -1260,6 +1236,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private getPreCycleDistance()F
@@ -1857,18 +1839,62 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private insertKey(Landroidx/constraintlayout/motion/widget/MotionPaths;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "point"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mMotionPaths:Ljava/util/ArrayList;
@@ -1990,18 +2016,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private readView(Landroidx/constraintlayout/motion/widget/MotionPaths;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "motionPaths"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mView:Landroid/view/View;
@@ -2120,20 +2139,13 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
 # virtual methods
 .method public addKey(Landroidx/constraintlayout/motion/widget/Key;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "key"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mKeyList:Ljava/util/ArrayList;
@@ -2169,15 +2181,6 @@
 
 .method public addKeys(Ljava/util/ArrayList;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "list"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2221,16 +2224,6 @@
 
 .method public buildBounds([FI)V
     .locals 17
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "bounds",
-            "pointCount"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v0, p0
@@ -2713,20 +2706,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public buildKeyBounds([F[I)I
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "keyBounds",
-            "mode"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -3047,20 +3033,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public buildKeyFrames([F[I)I
     .locals 9
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "keyFrames",
-            "mode"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -3385,20 +3364,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public buildPath([FI)V
     .locals 25
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "points",
-            "pointCount"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v0, p0
@@ -5235,18 +5207,6 @@
 
 .method public buildRect(F[FI)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "p",
-            "path",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -5388,20 +5348,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public buildRectangles([FI)V
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "path",
-            "pointCount"
-        }
-    .end annotation
 
     .line 1
     add-int/lit8 v0, p2, -0x1
@@ -5506,14 +5459,6 @@
 
 .method public endTrigger(Z)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "start"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mView:Landroid/view/View;
@@ -5642,6 +5587,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getAnimateRelativeTo()I
@@ -5672,22 +5618,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAttributeValues(Ljava/lang/String;[FI)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "attributeType",
-            "points",
-            "pointCount"
-        }
-    .end annotation
 
     .line 1
     iget-object p3, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mAttributesMap:Ljava/util/HashMap;
@@ -5846,22 +5781,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getCenter(D[F[F)V
     .locals 9
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "p",
-            "pos",
-            "vel"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x4
@@ -6013,6 +5939,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getCenterX()F
@@ -6041,6 +5970,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCenterY()F
@@ -6069,24 +5999,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDpDt(FFF[F)V
     .locals 11
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "position",
-            "locationX",
-            "locationY",
-            "mAnchorDpDt"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mVelocity:[F
@@ -6488,6 +6405,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getDrawPath()I
@@ -6618,6 +6541,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getFinalHeight()F
@@ -6648,6 +6573,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFinalWidth()F
@@ -6678,6 +6604,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFinalX()F
@@ -6708,6 +6635,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFinalY()F
@@ -6738,18 +6666,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getKeyFrame(I)Landroidx/constraintlayout/motion/widget/MotionPaths;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "i"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mMotionPaths:Ljava/util/ArrayList;
@@ -6789,16 +6710,6 @@
 
 .method public getKeyFrameInfo(I[I)I
     .locals 12
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "type",
-            "info"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x2
@@ -7184,22 +7095,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getKeyFrameParameter(IFF)F
     .locals 9
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "type",
-            "x",
-            "y"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mEndMotionPath:Landroidx/constraintlayout/motion/widget/MotionPaths;
@@ -7461,20 +7363,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getKeyFramePositions([I[F)I
     .locals 11
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "type",
-            "pos"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mKeyList:Ljava/util/ArrayList;
@@ -7780,18 +7675,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getPos(D)[D
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "position"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mSpline:[Landroidx/constraintlayout/core/motion/utils/CurveFit;
@@ -7848,20 +7738,6 @@
 
 .method public getPositionKeyframe(IIFF)Landroidx/constraintlayout/motion/widget/KeyPositionBase;
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "layoutWidth",
-            "layoutHeight",
-            "x",
-            "y"
-        }
-    .end annotation
 
     .line 1
     new-instance v3, Landroid/graphics/RectF;
@@ -8210,28 +8086,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getPostLayoutDvDp(FIIFF[F)V
     .locals 20
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "position",
-            "width",
-            "height",
-            "locationX",
-            "locationY",
-            "mAnchorDpDt"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v0, p0
@@ -9701,6 +9565,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStartWidth()F
@@ -9731,6 +9596,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStartX()F
@@ -9761,6 +9627,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStartY()F
@@ -9791,6 +9658,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTransformPivotTarget()I
@@ -9819,6 +9687,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getView()Landroid/view/View;
@@ -9847,24 +9716,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public interpolate(Landroid/view/View;FJLandroidx/constraintlayout/core/motion/utils/KeyCache;)Z
     .locals 20
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "child",
-            "global_position",
-            "time",
-            "keyCache"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v0, p0
@@ -11980,91 +11836,10 @@
 
     .line 21
     return-object v0
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public positionKeyframe(Landroid/view/View;Landroidx/constraintlayout/motion/widget/KeyPositionBase;FF[Ljava/lang/String;[F)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "view",
-            "key",
-            "x",
-            "y",
-            "attribute",
-            "value"
-        }
-    .end annotation
 
     .line 1
     new-instance v2, Landroid/graphics/RectF;
@@ -13171,26 +12946,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public rotate(Landroid/graphics/Rect;Landroid/graphics/Rect;III)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "rect",
-            "out",
-            "rotation",
-            "preHeight",
-            "preWidth"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -13964,14 +13724,6 @@
 
 .method public setBothStates(Landroid/view/View;)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "v"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mStartMotionPath:Landroidx/constraintlayout/motion/widget/MotionPaths;
@@ -14118,18 +13870,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setDrawPath(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "debugMode"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mStartMotionPath:Landroidx/constraintlayout/motion/widget/MotionPaths;
@@ -14165,20 +13910,6 @@
 
 .method public setEndState(Landroid/graphics/Rect;Landroidx/constraintlayout/widget/ConstraintSet;II)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "cw",
-            "constraintSet",
-            "parentWidth",
-            "parentHeight"
-        }
-    .end annotation
 
     .line 1
     iget v3, p2, Landroidx/constraintlayout/widget/ConstraintSet;->mRotate:I
@@ -14487,18 +14218,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setPathMotionArc(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "arc"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mPathMotionArc:I
@@ -14532,14 +14261,6 @@
 
 .method public setStartCurrentState(Landroid/view/View;)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "v"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mStartMotionPath:Landroidx/constraintlayout/motion/widget/MotionPaths;
@@ -14654,24 +14375,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setStartState(Landroid/graphics/Rect;Landroidx/constraintlayout/widget/ConstraintSet;II)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "cw",
-            "constraintSet",
-            "parentWidth",
-            "parentHeight"
-        }
-    .end annotation
 
     .line 18
     iget v3, p2, Landroidx/constraintlayout/widget/ConstraintSet;->mRotate:I
@@ -14808,22 +14516,6 @@
 
 .method public setStartState(Landroidx/constraintlayout/motion/utils/ViewState;Landroid/view/View;III)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "rect",
-            "v",
-            "rotation",
-            "preWidth",
-            "preHeight"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mStartMotionPath:Landroidx/constraintlayout/motion/widget/MotionPaths;
@@ -15012,14 +14704,6 @@
 
 .method public setTransformPivotTarget(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "transformPivotTarget"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mTransformPivotTarget:I
@@ -15057,14 +14741,6 @@
 
 .method public setView(Landroid/view/View;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "view"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mView:Landroid/view/View;
@@ -15121,20 +14797,6 @@
 
 .method public setup(IIFJ)V
     .locals 17
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "parentWidth",
-            "parentHeight",
-            "transitionDuration",
-            "currentTime"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v0, p0
@@ -17874,14 +17536,6 @@
 
 .method public setupRelative(Landroidx/constraintlayout/motion/widget/MotionController;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "motionController"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mStartMotionPath:Landroidx/constraintlayout/motion/widget/MotionPaths;
@@ -18057,4 +17711,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

@@ -285,6 +285,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public static synthetic a(Lcom/huawei/hms/opendevice/g;)Landroid/content/Context;
@@ -296,15 +319,14 @@
     return-object p0
 .end method
 
-.method private a(Lcom/huawei/hms/common/internal/ResponseErrorCode;Lme/l;)V
+.method private a(Lcom/huawei/hms/common/internal/ResponseErrorCode;Lq5/g;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
-            "Lme/l<",
-            "Lcom/huawei/hms/aaid/entity/TokenResult;",
-            ">;)V"
+            "Lq5/g;",
+            ")V"
         }
     .end annotation
 
@@ -327,7 +349,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p2, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     return-void
 
@@ -349,7 +371,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p2, v0}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p2, v0}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     return-void
 .end method
@@ -369,7 +391,7 @@
 
 
 # virtual methods
-.method public a(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+.method public a(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -377,9 +399,8 @@
             "Lcom/huawei/hms/aaid/task/PushClient;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
             "Ljava/lang/String;",
-            "Lme/l<",
-            "Lcom/huawei/hms/aaid/entity/TokenResult;",
-            ">;)V"
+            "Lq5/g;",
+            ")V"
         }
     .end annotation
 
@@ -414,7 +435,7 @@
     invoke-static {p3, v0}, Lcom/huawei/hms/support/log/HMSLog;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4
-    invoke-direct {p0, p2, p4}, Lcom/huawei/hms/opendevice/g;->a(Lcom/huawei/hms/common/internal/ResponseErrorCode;Lme/l;)V
+    invoke-direct {p0, p2, p4}, Lcom/huawei/hms/opendevice/g;->a(Lcom/huawei/hms/common/internal/ResponseErrorCode;Lq5/g;)V
 
     goto/16 :goto_0
 
@@ -449,7 +470,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p4, p3}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p3}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 9
     sget-object p3, Lcom/huawei/hms/aaid/HmsInstanceId;->TAG:Ljava/lang/String;
@@ -512,7 +533,7 @@
     invoke-virtual {v0, v1}, Lcom/huawei/hms/aaid/entity/TokenResult;->setRetCode(I)V
 
     .line 14
-    invoke-virtual {p4, v0}, Lme/l;->d(Ljava/lang/Object;)V
+    invoke-virtual {p4, v0}, Lq5/g;->c(Ljava/lang/Object;)V
 
     .line 15
     invoke-virtual {p3}, Lcom/huawei/hms/aaid/entity/TokenResp;->getToken()Ljava/lang/String;
@@ -571,7 +592,7 @@
     return-void
 .end method
 
-.method public bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+.method public bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
     .locals 0
 
     .line 1
@@ -579,7 +600,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/opendevice/g;->a(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/opendevice/g;->a(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
 
     .line 4
     .line 5
@@ -829,6 +850,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public getMinApkVersion()I
@@ -870,4 +914,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

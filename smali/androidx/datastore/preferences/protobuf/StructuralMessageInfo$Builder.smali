@@ -60,14 +60,6 @@
 
 .method public constructor <init>(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "numFields"
-        }
-    .end annotation
 
     .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -237,18 +229,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public withCheckInitialized([I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "checkInitialized"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;->checkInitialized:[I
@@ -282,14 +268,6 @@
 
 .method public withDefaultInstance(Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "defaultInstance"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;->defaultInstance:Ljava/lang/Object;
@@ -323,14 +301,6 @@
 
 .method public withField(Landroidx/datastore/preferences/protobuf/FieldInfo;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "field"
-        }
-    .end annotation
 
     .line 1
     iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;->wasBuilt:Z
@@ -379,14 +349,6 @@
 
 .method public withMessageSetWireFormat(Z)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "messageSetWireFormat"
-        }
-    .end annotation
 
     .line 1
     iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;->messageSetWireFormat:Z
@@ -420,14 +382,6 @@
 
 .method public withSyntax(Landroidx/datastore/preferences/protobuf/ProtoSyntax;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "syntax"
-        }
-    .end annotation
 
     .line 1
     const-string v0, "syntax"

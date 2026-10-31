@@ -147,6 +147,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -191,6 +192,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCompoundPaddingLeft()I
@@ -230,6 +232,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportBackgroundTintList()Landroid/content/res/ColorStateList;
@@ -277,6 +280,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -324,6 +328,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportButtonTintList()Landroid/content/res/ColorStateList;
@@ -371,6 +376,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportButtonTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -418,6 +424,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportCompoundDrawablesTintList()Landroid/content/res/ColorStateList;
@@ -458,6 +465,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportCompoundDrawablesTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -498,6 +506,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEmojiCompatEnabled()Z
@@ -532,6 +541,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setAllCaps(Z)V
@@ -959,6 +969,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setCompoundDrawablesRelative(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
@@ -1223,6 +1239,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setEmojiCompatEnabled(Z)V

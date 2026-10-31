@@ -113,6 +113,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCurrent()Landroid/graphics/drawable/Drawable;
@@ -145,6 +146,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDrawable()Landroid/graphics/drawable/Drawable;
@@ -175,6 +177,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntrinsicHeight()I
@@ -207,6 +210,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntrinsicWidth()I
@@ -239,6 +243,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMinimumHeight()I
@@ -271,6 +276,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMinimumWidth()I
@@ -303,6 +309,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOpacity()I
@@ -335,6 +342,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPadding(Landroid/graphics/Rect;)Z
@@ -404,6 +412,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTransparentRegion()Landroid/graphics/Region;
@@ -436,6 +445,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invalidateDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -501,6 +511,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isStateful()Z
@@ -533,6 +544,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public jumpToCurrentState()V
@@ -563,6 +575,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onBoundsChange(Landroid/graphics/Rect;)V
@@ -756,6 +769,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public setAlpha(I)V
@@ -1315,6 +1331,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setState([I)Z

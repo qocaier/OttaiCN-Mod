@@ -30,7 +30,7 @@
 
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    invoke-static {p0, v0}, Lbe/b;->c(Landroid/content/Context;Ljava/util/List;)Z
+    invoke-static {p0, v0}, Lk5/a;->c(Landroid/content/Context;Ljava/util/List;)Z
 
     move-result p0
 
@@ -91,7 +91,7 @@
     :goto_0
     invoke-interface {v0, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    invoke-static {p0, v0}, Lbe/b;->c(Landroid/content/Context;Ljava/util/List;)Z
+    invoke-static {p0, v0}, Lk5/a;->c(Landroid/content/Context;Ljava/util/List;)Z
 
     move-result p0
 
@@ -153,7 +153,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p0, v0}, Lbe/b;->c(Landroid/content/Context;Ljava/util/List;)Z
+    invoke-static {p0, v0}, Lk5/a;->c(Landroid/content/Context;Ljava/util/List;)Z
 
     move-result p0
 
@@ -287,7 +287,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-static {p0, v9}, Lbe/b;->c(Landroid/content/Context;Ljava/util/List;)Z
+    invoke-static {p0, v9}, Lk5/a;->c(Landroid/content/Context;Ljava/util/List;)Z
 
     move-result p0
 

@@ -1,42 +1,16 @@
-.class public final synthetic Landroidx/core/view/e;
+.class public abstract synthetic Landroidx/core/view/e;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Landroid/view/WindowInsetsController$OnControllableInsetsChangedListener;
-
-
-# instance fields
-.field public final synthetic a:Landroidx/core/view/WindowInsetsControllerCompat$Impl30;
-
-.field public final synthetic b:Landroidx/core/view/WindowInsetsControllerCompat$OnControllableInsetsChangedListener;
-
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/core/view/WindowInsetsControllerCompat$Impl30;Landroidx/core/view/WindowInsetsControllerCompat$OnControllableInsetsChangedListener;)V
+.method public static bridge synthetic a(Landroid/view/ContentInfo$Builder;I)Landroid/view/ContentInfo$Builder;
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-virtual {p0, p1}, Landroid/view/ContentInfo$Builder;->setFlags(I)Landroid/view/ContentInfo$Builder;
 
-    iput-object p1, p0, Landroidx/core/view/e;->a:Landroidx/core/view/WindowInsetsControllerCompat$Impl30;
+    move-result-object p0
 
-    iput-object p2, p0, Landroidx/core/view/e;->b:Landroidx/core/view/WindowInsetsControllerCompat$OnControllableInsetsChangedListener;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final onControllableInsetsChanged(Landroid/view/WindowInsetsController;I)V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Landroidx/core/view/e;->a:Landroidx/core/view/WindowInsetsControllerCompat$Impl30;
-
-    iget-object v1, p0, Landroidx/core/view/e;->b:Landroidx/core/view/WindowInsetsControllerCompat$OnControllableInsetsChangedListener;
-
-    invoke-static {v0, v1, p1, p2}, Landroidx/core/view/WindowInsetsControllerCompat$Impl30;->a(Landroidx/core/view/WindowInsetsControllerCompat$Impl30;Landroidx/core/view/WindowInsetsControllerCompat$OnControllableInsetsChangedListener;Landroid/view/WindowInsetsController;I)V
-
-    return-void
+    return-object p0
 .end method

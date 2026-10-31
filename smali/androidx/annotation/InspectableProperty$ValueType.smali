@@ -23,7 +23,7 @@
 
 
 # static fields
-.field private static final synthetic $ENTRIES:Lyl/a;
+.field private static final synthetic $ENTRIES:Lkotlin/enums/a;
 
 .field private static final synthetic $VALUES:[Landroidx/annotation/InspectableProperty$ValueType;
 
@@ -223,7 +223,7 @@
 
     .line 76
     .line 77
-    invoke-static {v0}, Lkotlin/enums/a;->c([Ljava/lang/Enum;)Lyl/a;
+    invoke-static {v0}, Lkotlin/enums/b;->a([Ljava/lang/Enum;)Lkotlin/enums/a;
 
     .line 78
     .line 79
@@ -231,12 +231,14 @@
     move-result-object v0
 
     .line 81
-    sput-object v0, Landroidx/annotation/InspectableProperty$ValueType;->$ENTRIES:Lyl/a;
+    sput-object v0, Landroidx/annotation/InspectableProperty$ValueType;->$ENTRIES:Lkotlin/enums/a;
 
     .line 82
     .line 83
     return-void
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -300,43 +302,18 @@
     .line 48
 .end method
 
-.method public static getEntries()Lyl/a;
+.method public static getEntries()Lkotlin/enums/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lyl/a<",
-            "Landroidx/annotation/InspectableProperty$ValueType;",
-            ">;"
+            "Lkotlin/enums/a;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
+    sget-object v0, Landroidx/annotation/InspectableProperty$ValueType;->$ENTRIES:Lkotlin/enums/a;
 
-    .line 1
-    sget-object v0, Landroidx/annotation/InspectableProperty$ValueType;->$ENTRIES:Lyl/a;
-
-    .line 2
-    .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/annotation/InspectableProperty$ValueType;

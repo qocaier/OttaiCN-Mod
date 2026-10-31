@@ -30,23 +30,20 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
-.method public final withLock(Ljm/a;)Ljava/lang/Object;
+.method public final withLock(Lq8/a;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Ljm/a<",
-            "+TT;>;)TT;"
+            "Lq8/a;",
+            ")TT;"
         }
     .end annotation
 
@@ -55,7 +52,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -67,7 +64,7 @@
 
     .line 8
     :try_start_0
-    invoke-interface {p1}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -77,7 +74,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 12
-    invoke-static {v0}, Lkm/d0;->d(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 13
     .line 14
@@ -85,7 +82,7 @@
     monitor-exit p0
 
     .line 16
-    invoke-static {v0}, Lkm/d0;->c(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 17
     .line 18
@@ -97,7 +94,7 @@
     move-exception p1
 
     .line 21
-    invoke-static {v0}, Lkm/d0;->d(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 22
     .line 23
@@ -105,7 +102,7 @@
     monitor-exit p0
 
     .line 25
-    invoke-static {v0}, Lkm/d0;->c(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 26
     .line 27
@@ -161,4 +158,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

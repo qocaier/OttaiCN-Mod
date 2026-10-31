@@ -8,10 +8,6 @@
 
 # virtual methods
 .method public abstract bindBlob(I[B)V
-    .param p2    # [B
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method
 
 .method public abstract bindDouble(ID)V
@@ -24,10 +20,6 @@
 .end method
 
 .method public abstract bindString(ILjava/lang/String;)V
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method
 
 .method public abstract clearBindings()V

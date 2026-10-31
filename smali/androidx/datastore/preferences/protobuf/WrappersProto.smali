@@ -36,18 +36,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static registerAllExtensions(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "registry"
-        }
-    .end annotation
 
     return-void
 .end method

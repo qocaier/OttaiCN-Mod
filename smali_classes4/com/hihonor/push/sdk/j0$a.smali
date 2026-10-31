@@ -465,16 +465,14 @@
 
     .line 44
     :goto_4
-    sget-object p1, Lcom/hihonor/push/sdk/k;->g:Lcom/hihonor/push/sdk/k;
+    sget-object p1, Lcom/hihonor/push/sdk/k;->c:Lcom/hihonor/push/sdk/k;
 
     const v4, 0x7a19d2
 
-    .line 45
     :goto_5
-    sget-object p1, Lcom/hihonor/push/sdk/k;->c:Lcom/hihonor/push/sdk/k;
-
     if-eqz v4, :cond_4
 
+    .line 45
     invoke-virtual {p0, v4}, Lcom/hihonor/push/sdk/j0$a;->a(I)V
     :try_end_a
     .catchall {:try_start_a .. :try_end_a} :catchall_0

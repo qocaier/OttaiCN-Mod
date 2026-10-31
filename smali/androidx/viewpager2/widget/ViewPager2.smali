@@ -420,6 +420,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private initialize(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -825,6 +826,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private registerCurrentItemDataSetTracker(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
@@ -1033,6 +1037,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private setOrientation(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -1065,7 +1071,7 @@
 
     move-object v4, p2
 
-    invoke-static/range {v1 .. v7}, Lx1/a;->a(Landroidx/viewpager2/widget/ViewPager2;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;II)V
+    invoke-static/range {v1 .. v7}, Landroidx/viewpager2/widget/a;->a(Landroidx/viewpager2/widget/ViewPager2;Landroid/content/Context;[ILandroid/util/AttributeSet;Landroid/content/res/TypedArray;II)V
 
     goto :goto_0
 
@@ -1216,6 +1222,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public canScrollHorizontally(I)Z
@@ -1419,6 +1426,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public endFakeDrag()Z
@@ -1451,6 +1459,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public fakeDragBy(F)Z
@@ -1548,6 +1557,7 @@
 
     .line 20
     return-object v0
+    .line 21
 .end method
 
 .method public getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
@@ -1582,6 +1592,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCurrentItem()I
@@ -1610,6 +1621,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getItemDecorationAt(I)Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;
@@ -1681,6 +1693,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOffscreenPageLimit()I
@@ -1709,6 +1722,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOrientation()I
@@ -1741,6 +1755,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPageSize()I
@@ -1873,6 +1888,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getScrollState()I
@@ -1905,6 +1922,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invalidateItemDecorations()V
@@ -1935,6 +1953,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isFakeDragging()Z
@@ -1967,6 +1986,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isRtl()Z
@@ -2008,6 +2028,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isUserInputEnabled()Z
@@ -2036,6 +2057,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
@@ -2996,6 +3018,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -3105,6 +3130,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -3252,6 +3278,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onViewAdded(Landroid/view/View;)V
@@ -3360,6 +3388,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public performAccessibilityAction(ILandroid/os/Bundle;)Z
@@ -3682,6 +3711,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
@@ -3798,6 +3829,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setCurrentItem(I)V
@@ -4227,6 +4259,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setLayoutDirection(I)V
@@ -4492,6 +4527,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setUserInputEnabled(Z)V
@@ -4666,6 +4702,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public unregisterOnPageChangeCallback(Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;)V
@@ -4844,4 +4882,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

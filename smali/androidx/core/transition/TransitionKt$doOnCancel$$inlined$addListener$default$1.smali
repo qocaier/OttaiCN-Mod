@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/transition/TransitionKt;->doOnCancel(Landroid/transition/Transition;Ljm/l;)Landroid/transition/Transition$TransitionListener;
+    value = Landroidx/core/transition/TransitionKt;->doOnCancel(Landroid/transition/Transition;Lq8/l;)Landroid/transition/Transition$TransitionListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,27 +16,17 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nTransition.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Transition.kt\nandroidx/core/transition/TransitionKt$addListener$listener$1\n+ 2 Transition.kt\nandroidx/core/transition/TransitionKt$addListener$1\n+ 3 Transition.kt\nandroidx/core/transition/TransitionKt$addListener$4\n+ 4 Transition.kt\nandroidx/core/transition/TransitionKt$addListener$5\n+ 5 Transition.kt\nandroidx/core/transition/TransitionKt$addListener$2\n*L\n1#1,64:1\n48#2:65\n51#3:66\n52#4:67\n49#5:68\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nTransition.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Transition.kt\nandroidx/core/transition/TransitionKt$addListener$listener$1\n+ 2 Transition.kt\nandroidx/core/transition/TransitionKt$addListener$1\n+ 3 Transition.kt\nandroidx/core/transition/TransitionKt$addListener$4\n+ 4 Transition.kt\nandroidx/core/transition/TransitionKt$addListener$5\n+ 5 Transition.kt\nandroidx/core/transition/TransitionKt$addListener$2\n*L\n1#1,64:1\n48#2:65\n51#3:66\n52#4:67\n49#5:68\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
-.field final synthetic $onCancel:Ljm/l;
+.field final synthetic $onCancel:Lq8/l;
 
 
 # direct methods
-.method public constructor <init>(Ljm/l;)V
+.method public constructor <init>(Lq8/l;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/transition/TransitionKt$doOnCancel$$inlined$addListener$default$1;->$onCancel:Ljm/l;
+    iput-object p1, p0, Landroidx/core/transition/TransitionKt$doOnCancel$$inlined$addListener$default$1;->$onCancel:Lq8/l;
 
     .line 2
     .line 3
@@ -73,11 +63,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/transition/TransitionKt$doOnCancel$$inlined$addListener$default$1;->$onCancel:Ljm/l;
+    iget-object v0, p0, Landroidx/core/transition/TransitionKt$doOnCancel$$inlined$addListener$default$1;->$onCancel:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5

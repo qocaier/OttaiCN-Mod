@@ -16,7 +16,3 @@
 .annotation runtime Ljava/lang/annotation/Retention;
     value = .enum Ljava/lang/annotation/RetentionPolicy;->SOURCE:Ljava/lang/annotation/RetentionPolicy;
 .end annotation
-
-.annotation runtime Lkl/c;
-    value = .enum Lkotlin/annotation/AnnotationRetention;->SOURCE:Lkotlin/annotation/AnnotationRetention;
-.end annotation

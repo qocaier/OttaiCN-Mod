@@ -196,6 +196,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private getRotationDegrees(Landroidx/camera/core/impl/CaptureConfig;)I
@@ -259,7 +260,7 @@
 
 
 # virtual methods
-.method public submitStillCaptureRequests(Ljava/util/List;II)Lub/u0;
+.method public submitStillCaptureRequests(Ljava/util/List;II)Lcom/google/common/util/concurrent/t;
     .locals 1
     .param p1    # Ljava/util/List;
         .annotation build Landroidx/annotation/NonNull;
@@ -274,10 +275,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/CaptureConfig;",
             ">;II)",
-            "Lub/u0<",
-            "Ljava/util/List<",
-            "Ljava/lang/Void;",
-            ">;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -361,7 +359,7 @@
     move-result p1
 
     .line 38
-    invoke-interface {p2, v0, p1}, Landroidx/camera/core/streamsharing/StreamSharing$Control;->jpegSnapshot(II)Lub/u0;
+    invoke-interface {p2, v0, p1}, Landroidx/camera/core/streamsharing/StreamSharing$Control;->jpegSnapshot(II)Lcom/google/common/util/concurrent/t;
 
     .line 39
     .line 40
@@ -377,7 +375,7 @@
     move-result-object p1
 
     .line 46
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->allAsList(Ljava/util/Collection;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->allAsList(Ljava/util/Collection;)Lcom/google/common/util/concurrent/t;
 
     .line 47
     .line 48
@@ -449,4 +447,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

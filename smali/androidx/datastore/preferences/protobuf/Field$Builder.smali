@@ -54,15 +54,6 @@
 # virtual methods
 .method public addAllOptions(Ljava/lang/Iterable;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "values"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -112,16 +103,6 @@
 
 .method public addOptions(ILandroidx/datastore/preferences/protobuf/Option$Builder;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "builderForValue"
-        }
-    .end annotation
 
     .line 7
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -146,16 +127,6 @@
 
 .method public addOptions(ILandroidx/datastore/preferences/protobuf/Option;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "value"
-        }
-    .end annotation
 
     .line 3
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -172,14 +143,6 @@
 
 .method public addOptions(Landroidx/datastore/preferences/protobuf/Option$Builder;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "builderForValue"
-        }
-    .end annotation
 
     .line 5
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -202,14 +165,6 @@
 
 .method public addOptions(Landroidx/datastore/preferences/protobuf/Option;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -256,6 +211,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearDefaultValue()Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -290,6 +246,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearJsonName()Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -324,6 +281,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearKind()Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -358,6 +316,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearName()Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -392,6 +351,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearNumber()Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -426,6 +386,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearOneofIndex()Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -460,6 +421,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearOptions()Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -494,6 +456,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearPacked()Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -528,6 +491,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearTypeUrl()Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -562,6 +526,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCardinality()Landroidx/datastore/preferences/protobuf/Field$Cardinality;
@@ -596,6 +561,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCardinalityValue()I
@@ -630,6 +596,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDefaultValue()Ljava/lang/String;
@@ -664,6 +631,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDefaultValueBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -698,6 +666,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJsonName()Ljava/lang/String;
@@ -732,6 +701,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJsonNameBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -766,6 +736,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getKind()Landroidx/datastore/preferences/protobuf/Field$Kind;
@@ -800,6 +771,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getKindValue()I
@@ -834,6 +806,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -868,6 +841,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNameBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -902,6 +876,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNumber()I
@@ -936,6 +911,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOneofIndex()I
@@ -970,18 +946,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOptions(I)Landroidx/datastore/preferences/protobuf/Option;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
@@ -1051,6 +1020,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOptionsList()Ljava/util/List;
@@ -1097,6 +1067,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPacked()Z
@@ -1131,6 +1102,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTypeUrl()Ljava/lang/String;
@@ -1165,6 +1137,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTypeUrlBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1199,18 +1172,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeOptions(I)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1250,14 +1216,6 @@
 
 .method public setCardinality(Landroidx/datastore/preferences/protobuf/Field$Cardinality;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1297,14 +1255,6 @@
 
 .method public setCardinalityValue(I)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1344,14 +1294,6 @@
 
 .method public setDefaultValue(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1391,14 +1333,6 @@
 
 .method public setDefaultValueBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1438,14 +1372,6 @@
 
 .method public setJsonName(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1485,14 +1411,6 @@
 
 .method public setJsonNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1532,14 +1450,6 @@
 
 .method public setKind(Landroidx/datastore/preferences/protobuf/Field$Kind;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1579,14 +1489,6 @@
 
 .method public setKindValue(I)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1626,14 +1528,6 @@
 
 .method public setName(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1673,14 +1567,6 @@
 
 .method public setNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1720,14 +1606,6 @@
 
 .method public setNumber(I)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1767,14 +1645,6 @@
 
 .method public setOneofIndex(I)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1814,16 +1684,6 @@
 
 .method public setOptions(ILandroidx/datastore/preferences/protobuf/Option$Builder;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "builderForValue"
-        }
-    .end annotation
 
     .line 3
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1848,16 +1708,6 @@
 
 .method public setOptions(ILandroidx/datastore/preferences/protobuf/Option;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1874,14 +1724,6 @@
 
 .method public setPacked(Z)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1921,14 +1763,6 @@
 
 .method public setTypeUrl(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1968,14 +1802,6 @@
 
 .method public setTypeUrlBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V

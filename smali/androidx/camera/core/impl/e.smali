@@ -3,28 +3,36 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/camera/core/impl/UseCaseAttachState$AttachStateFilter;
+.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/core/impl/CameraRepository;
 
 
 # direct methods
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Landroidx/camera/core/impl/CameraRepository;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/camera/core/impl/e;->a:Landroidx/camera/core/impl/CameraRepository;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final filter(Landroidx/camera/core/impl/UseCaseAttachState$UseCaseAttachInfo;)Z
-    .locals 0
+.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    .locals 1
 
     .line 1
-    invoke-static {p1}, Landroidx/camera/core/impl/UseCaseAttachState;->b(Landroidx/camera/core/impl/UseCaseAttachState$UseCaseAttachInfo;)Z
+    iget-object v0, p0, Landroidx/camera/core/impl/e;->a:Landroidx/camera/core/impl/CameraRepository;
 
-    move-result p1
+    invoke-static {v0, p1}, Landroidx/camera/core/impl/CameraRepository;->b(Landroidx/camera/core/impl/CameraRepository;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
 
-    return p1
+    move-result-object p1
+
+    return-object p1
 .end method

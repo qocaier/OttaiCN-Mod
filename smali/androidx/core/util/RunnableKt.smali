@@ -4,24 +4,15 @@
 
 
 # direct methods
-.method public static final asRunnable(Lul/c;)Ljava/lang/Runnable;
+.method public static final asRunnable(Lkotlin/coroutines/e;)Ljava/lang/Runnable;
     .locals 1
-    .param p0    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Runnable;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -29,7 +20,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/util/ContinuationRunnable;-><init>(Lul/c;)V
+    invoke-direct {v0, p0}, Landroidx/core/util/ContinuationRunnable;-><init>(Lkotlin/coroutines/e;)V
 
     .line 4
     .line 5

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "TE;",
-        "Ljava/lang/CharSequence;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -67,9 +64,6 @@
             "(TE;)",
             "Ljava/lang/CharSequence;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 2

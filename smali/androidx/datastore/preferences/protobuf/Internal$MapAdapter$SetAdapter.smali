@@ -39,17 +39,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;Ljava/util/Set;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1010,
-            0x0
-        }
-        names = {
-            "this$0",
-            "realSet"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -162,6 +151,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public size()I
@@ -194,4 +184,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

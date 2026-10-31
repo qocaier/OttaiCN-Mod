@@ -2,15 +2,35 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroidx/core/app/SharedElementCallback$OnSharedElementsReadyListener;
+
+
+# instance fields
+.field public final synthetic a:Landroid/app/SharedElementCallback$OnSharedElementsReadyListener;
+
 
 # direct methods
-.method public static bridge synthetic a(Landroidx/core/app/JobIntentService$JobServiceEngineImpl;)Landroid/os/IBinder;
+.method public synthetic constructor <init>(Landroid/app/SharedElementCallback$OnSharedElementsReadyListener;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/job/JobServiceEngine;->getBinder()Landroid/os/IBinder;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    move-result-object p0
+    iput-object p1, p0, Landroidx/core/app/b;->a:Landroid/app/SharedElementCallback$OnSharedElementsReadyListener;
 
-    return-object p0
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onSharedElementsReady()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Landroidx/core/app/b;->a:Landroid/app/SharedElementCallback$OnSharedElementsReadyListener;
+
+    invoke-static {v0}, Landroidx/core/app/ActivityCompat$SharedElementCallback21Impl;->a(Landroid/app/SharedElementCallback$OnSharedElementsReadyListener;)V
+
+    return-void
 .end method

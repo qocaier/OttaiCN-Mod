@@ -122,6 +122,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSummaryOff()Ljava/lang/CharSequence;
@@ -152,6 +153,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSummaryOn()Ljava/lang/CharSequence;
@@ -182,6 +184,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isChecked()Z
@@ -210,6 +213,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onClick()V
@@ -321,6 +325,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onGetDefaultValue(Landroid/content/res/TypedArray;I)Ljava/lang/Object;
@@ -514,6 +520,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -629,6 +636,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onSetInitialValue(Ljava/lang/Object;)V
@@ -799,6 +808,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setDisableDependentsState(Z)V
@@ -1044,6 +1054,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public syncSummaryView(Landroid/view/View;)V

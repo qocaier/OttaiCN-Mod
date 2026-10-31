@@ -31,15 +31,6 @@
 
 # virtual methods
 .method public abstract getExtension(Landroidx/datastore/preferences/protobuf/ExtensionLite;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "extension"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<Type:",
@@ -52,17 +43,6 @@
 .end method
 
 .method public abstract getExtension(Landroidx/datastore/preferences/protobuf/ExtensionLite;I)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "extension",
-            "index"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<Type:",
@@ -77,15 +57,6 @@
 .end method
 
 .method public abstract getExtensionCount(Landroidx/datastore/preferences/protobuf/ExtensionLite;)I
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "extension"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<Type:",
@@ -100,15 +71,6 @@
 .end method
 
 .method public abstract hasExtension(Landroidx/datastore/preferences/protobuf/ExtensionLite;)Z
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "extension"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<Type:",

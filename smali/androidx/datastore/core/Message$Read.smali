@@ -32,19 +32,12 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/datastore/core/State;)V
     .locals 1
-    .param p1    # Landroidx/datastore/core/State;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -57,7 +50,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/core/Message;-><init>(Lkm/v;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/core/Message;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 3
     .line 4
@@ -99,9 +92,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
     iget-object v0, p0, Landroidx/datastore/core/Message$Read;->lastState:Landroidx/datastore/core/State;
 
@@ -125,4 +115,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

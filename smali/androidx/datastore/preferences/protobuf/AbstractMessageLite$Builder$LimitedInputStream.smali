@@ -21,16 +21,6 @@
 # direct methods
 .method public constructor <init>(Ljava/io/InputStream;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "in",
-            "limit"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V
@@ -128,6 +118,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public read()I
@@ -168,19 +159,6 @@
 
 .method public read([BII)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x0
-        }
-        names = {
-            "b",
-            "off",
-            "len"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -222,15 +200,6 @@
 
 .method public skip(J)J
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "n"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

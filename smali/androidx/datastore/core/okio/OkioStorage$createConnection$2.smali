@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
@@ -19,19 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Ljl/e2;",
-        ">;"
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOkioStorage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OkioStorage.kt\nandroidx/datastore/core/okio/OkioStorage$createConnection$2\n+ 2 Atomic.jvm.kt\nandroidx/datastore/core/okio/Synchronizer\n*L\n1#1,230:1\n49#2,2:231\n*S KotlinDebug\n*F\n+ 1 OkioStorage.kt\nandroidx/datastore/core/okio/OkioStorage$createConnection$2\n*L\n80#1:231,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nOkioStorage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OkioStorage.kt\nandroidx/datastore/core/okio/OkioStorage$createConnection$2\n+ 2 Atomic.jvm.kt\nandroidx/datastore/core/okio/Synchronizer\n*L\n1#1,230:1\n49#2,2:231\n*S KotlinDebug\n*F\n+ 1 OkioStorage.kt\nandroidx/datastore/core/okio/OkioStorage$createConnection$2\n*L\n80#1:231,2\n*E\n"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -75,7 +63,7 @@
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/core/okio/OkioStorage$createConnection$2;->invoke()V
 
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
 
     return-object v0
 .end method
@@ -112,7 +100,7 @@
     invoke-interface {v0, v2}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
 
     .line 5
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

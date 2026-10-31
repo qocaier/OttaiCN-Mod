@@ -1,4 +1,4 @@
-.class public synthetic Lorg/apache/commons/io/filefilter/WildcardFileFilter$a;
+.class public abstract synthetic Lorg/apache/commons/io/filefilter/WildcardFileFilter$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

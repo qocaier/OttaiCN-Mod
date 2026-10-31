@@ -148,6 +148,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>(FFFFFF[FFFF)V
@@ -1431,6 +1433,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getC()F
@@ -1459,6 +1462,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFl()F
@@ -1487,6 +1491,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFlRoot()F
@@ -1515,6 +1520,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getN()F
@@ -1543,6 +1549,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNbb()F
@@ -1571,6 +1578,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNc()F
@@ -1599,6 +1607,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNcb()F
@@ -1627,6 +1636,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRgbD()[F
@@ -1655,6 +1665,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getZ()F
@@ -1683,4 +1694,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

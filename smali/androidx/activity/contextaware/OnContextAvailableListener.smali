@@ -5,8 +5,4 @@
 
 # virtual methods
 .method public abstract onContextAvailable(Landroid/content/Context;)V
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method

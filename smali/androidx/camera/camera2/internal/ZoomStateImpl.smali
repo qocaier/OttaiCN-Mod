@@ -206,6 +206,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private getRatioByPercentage(F)F
@@ -346,6 +347,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -376,6 +378,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxZoomRatio()F
@@ -404,6 +407,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMinZoomRatio()F
@@ -432,6 +436,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getZoomRatio()F
@@ -460,6 +465,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setLinearZoom(F)V
@@ -594,6 +600,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setZoomRatio(F)V
@@ -744,4 +751,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

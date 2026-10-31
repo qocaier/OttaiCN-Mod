@@ -25,16 +25,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "alloc",
-            "chunkSize"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -123,6 +113,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private nextBuffer()V
@@ -140,14 +131,6 @@
 
 .method private nextBuffer(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "capacity"
-        }
-    .end annotation
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->newDirectBuffer(I)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
@@ -161,14 +144,6 @@
 
 .method private nextBuffer(Landroidx/datastore/preferences/protobuf/AllocatedBuffer;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "allocatedBuffer"
-        }
-    .end annotation
 
     .line 3
     invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer;->hasNioBuffer()Z
@@ -286,18 +261,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private writeVarint32FiveBytes(I)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->buffer:Ljava/nio/ByteBuffer;
@@ -438,18 +406,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private writeVarint32FourBytes(I)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->pos:I
@@ -574,18 +535,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private writeVarint32OneByte(I)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->buffer:Ljava/nio/ByteBuffer;
@@ -629,14 +583,6 @@
 
 .method private writeVarint32ThreeBytes(I)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->pos:I
@@ -749,18 +695,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private writeVarint32TwoBytes(I)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->pos:I
@@ -816,14 +755,6 @@
 
 .method private writeVarint64EightBytes(J)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->pos:I
@@ -1178,18 +1109,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private writeVarint64EightBytesWithSign(J)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->pos:I
@@ -1548,18 +1476,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private writeVarint64FiveBytes(J)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->pos:I
@@ -1716,18 +1641,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private writeVarint64FourBytes(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     long-to-int p1, p1
@@ -1763,14 +1681,6 @@
 
 .method private writeVarint64NineBytes(J)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->buffer:Ljava/nio/ByteBuffer;
@@ -1875,18 +1785,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private writeVarint64OneByte(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     long-to-int p1, p1
@@ -1922,14 +1825,6 @@
 
 .method private writeVarint64SevenBytes(J)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->pos:I
@@ -2272,18 +2167,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private writeVarint64SixBytes(J)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->pos:I
@@ -2614,18 +2506,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private writeVarint64TenBytes(J)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->buffer:Ljava/nio/ByteBuffer;
@@ -2756,18 +2645,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private writeVarint64ThreeBytes(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     long-to-int p1, p1
@@ -2803,14 +2685,6 @@
 
 .method private writeVarint64TwoBytes(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     long-to-int p1, p1
@@ -2967,6 +2841,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getTotalBytesWritten()I
@@ -3001,18 +2877,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public requireSpace(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "size"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->spaceLeft()I
@@ -3053,14 +2922,6 @@
 
 .method public write(B)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->buffer:Ljava/nio/ByteBuffer;
@@ -3078,14 +2939,6 @@
 
 .method public write(Ljava/nio/ByteBuffer;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 7
     invoke-virtual {p1}, Ljava/nio/Buffer;->remaining()I
@@ -3127,18 +2980,6 @@
 
 .method public write([BII)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "value",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->spaceLeft()I
@@ -3175,16 +3016,6 @@
 
 .method public writeBool(IZ)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     const/4 v0, 0x6
 
@@ -3206,14 +3037,6 @@
 
 .method public writeBool(Z)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     int-to-byte p1, p1
 
@@ -3225,16 +3048,6 @@
 
 .method public writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -3317,15 +3130,6 @@
 
 .method public writeEndGroup(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "fieldNumber"
-        }
-    .end annotation
-
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -3363,14 +3167,6 @@
 
 .method public writeFixed32(I)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 4
     iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->pos:I
@@ -3391,16 +3187,6 @@
 
 .method public writeFixed32(II)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     const/16 v0, 0x9
 
@@ -3420,16 +3206,6 @@
 
 .method public writeFixed64(IJ)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     const/16 v0, 0xd
 
@@ -3449,14 +3225,6 @@
 
 .method public writeFixed64(J)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 4
     iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->pos:I
@@ -3477,17 +3245,6 @@
 
 .method public writeGroup(ILjava/lang/Object;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3519,19 +3276,6 @@
 
 .method public writeGroup(ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Schema;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value",
-            "schema"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3556,14 +3300,6 @@
 
 .method public writeInt32(I)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     if-ltz p1, :cond_0
 
@@ -3583,16 +3319,6 @@
 
 .method public writeInt32(II)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     const/16 v0, 0xf
 
@@ -3612,14 +3338,6 @@
 
 .method public writeLazy(Ljava/nio/ByteBuffer;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 8
     invoke-virtual {p1}, Ljava/nio/Buffer;->remaining()I
@@ -3679,18 +3397,6 @@
 
 .method public writeLazy([BII)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "value",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->spaceLeft()I
@@ -3745,17 +3451,6 @@
 
 .method public writeMessage(ILjava/lang/Object;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3799,19 +3494,6 @@
 
 .method public writeMessage(ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Schema;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value",
-            "schema"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3851,14 +3533,6 @@
 
 .method public writeSInt32(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 4
     invoke-static {p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->encodeZigZag32(I)I
@@ -3872,16 +3546,6 @@
 
 .method public writeSInt32(II)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     const/16 v0, 0xa
 
@@ -3901,16 +3565,6 @@
 
 .method public writeSInt64(IJ)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     const/16 v0, 0xf
 
@@ -3930,14 +3584,6 @@
 
 .method public writeSInt64(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 4
     invoke-static {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->encodeZigZag64(J)J
@@ -3951,15 +3597,6 @@
 
 .method public writeStartGroup(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "fieldNumber"
-        }
-    .end annotation
-
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -3997,16 +3634,6 @@
 
 .method public writeString(ILjava/lang/String;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->getTotalBytesWritten()I
@@ -4041,14 +3668,6 @@
 
 .method public writeString(Ljava/lang/String;)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "in"
-        }
-    .end annotation
 
     .line 7
     invoke-virtual {p1}, Ljava/lang/String;->length()I
@@ -4393,16 +4012,6 @@
 
 .method public writeTag(II)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "wireType"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p1, p2}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
@@ -4463,16 +4072,6 @@
 
 .method public writeUInt32(II)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     const/16 v0, 0xa
@@ -4537,16 +4136,6 @@
 
 .method public writeUInt64(IJ)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     const/16 v0, 0xf
@@ -4611,14 +4200,6 @@
 
 .method public writeVarint32(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     and-int/lit8 v0, p1, -0x80
@@ -4741,18 +4322,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public writeVarint64(J)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->access$200(J)B
@@ -4903,4 +4477,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

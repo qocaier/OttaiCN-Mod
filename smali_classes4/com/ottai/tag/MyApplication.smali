@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic a(Lcom/ottai/tag/MyApplication;I)Lcom/qiyukf/unicorn/api/event/UnicornEventBase;
@@ -58,11 +60,11 @@
     .line 4
     .line 5
     :try_start_0
-    new-instance p1, Lyf/g;
+    new-instance p1, Lcom/ottai/tag/qiyu/g;
 
     .line 6
     .line 7
-    invoke-direct {p1, p0}, Lyf/g;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, p0}, Lcom/ottai/tag/qiyu/g;-><init>(Landroid/content/Context;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -118,6 +120,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -134,7 +146,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -155,7 +167,7 @@
 
     .line 15
     .line 16
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -180,7 +192,7 @@
     move-result-object v1
 
     .line 29
-    invoke-static {v1}, Lll/u1;->u([Ljava/lang/Object;)Ljava/util/Set;
+    invoke-static {v1}, Lkotlin/collections/j0;->f([Ljava/lang/Object;)Ljava/util/Set;
 
     .line 30
     .line 31
@@ -500,27 +512,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public final c()Lcom/qiyukf/unicorn/api/YSFOptions;
@@ -567,6 +558,8 @@
     :catch_0
     return-object v0
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final d(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/YSFOptions;
@@ -682,11 +675,11 @@
 
     .line 55
     .line 56
-    new-instance v1, Lxf/j;
+    new-instance v1, Lcom/ottai/tag/j;
 
     .line 57
     .line 58
-    invoke-direct {v1, p0}, Lxf/j;-><init>(Lcom/ottai/tag/MyApplication;)V
+    invoke-direct {v1, p0}, Lcom/ottai/tag/j;-><init>(Lcom/ottai/tag/MyApplication;)V
 
     .line 59
     .line 60
@@ -732,6 +725,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onCreate()V
@@ -744,7 +739,7 @@
     .line 3
     .line 4
     :try_start_0
-    invoke-static {p0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 5
     .line 6
@@ -765,11 +760,11 @@
     move-result-object v1
 
     .line 15
-    new-instance v2, Lyf/a;
+    new-instance v2, Lcom/ottai/tag/qiyu/a;
 
     .line 16
     .line 17
-    invoke-direct {v2, p0}, Lyf/a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p0}, Lcom/ottai/tag/qiyu/a;-><init>(Landroid/content/Context;)V
 
     .line 18
     .line 19
@@ -877,4 +872,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

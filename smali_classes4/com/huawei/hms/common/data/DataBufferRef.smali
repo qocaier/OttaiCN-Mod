@@ -80,6 +80,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -150,6 +160,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -271,6 +291,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getBoolean(Ljava/lang/String;)Z
@@ -327,6 +349,8 @@
     return p1
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getByteArray(Ljava/lang/String;)[B
@@ -379,6 +403,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getDataRow()I
@@ -407,6 +433,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getDouble(Ljava/lang/String;)D
@@ -463,6 +491,8 @@
     .line 24
     return-wide v0
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getFloat(Ljava/lang/String;)F
@@ -519,6 +549,8 @@
     .line 24
     return p1
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getInteger(Ljava/lang/String;)I
@@ -575,6 +607,8 @@
     return p1
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getLong(Ljava/lang/String;)J
@@ -631,6 +665,8 @@
     .line 24
     return-wide v0
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getString(Ljava/lang/String;)Ljava/lang/String;
@@ -683,6 +719,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public final getWindowIndex(I)V
@@ -805,6 +843,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public hasColumn(Ljava/lang/String;)Z
@@ -842,6 +882,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public hasNull(Ljava/lang/String;)Z
@@ -883,6 +925,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public hashCode()I
@@ -995,6 +1039,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public isDataValid()Z
@@ -1029,6 +1074,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public parseUri(Ljava/lang/String;)Landroid/net/Uri;
@@ -1085,4 +1132,6 @@
     return-object p1
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

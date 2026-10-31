@@ -118,7 +118,7 @@
     move-result-object v0
 
     .line 10
-    invoke-static {v0}, Lcom/xiaomi/mipush/sdk/a;->N(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/xiaomi/mipush/sdk/j;->D(Landroid/content/Context;)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -241,6 +241,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 

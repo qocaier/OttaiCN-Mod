@@ -1357,6 +1357,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private sendEvent(Ljava/lang/String;Landroid/os/Bundle;)V
@@ -1615,6 +1616,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private sendMetadata(Landroid/support/v4/media/MediaMetadataCompat;)V
@@ -1759,6 +1761,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private sendQueue(Ljava/util/List;)V
@@ -1911,6 +1914,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private sendQueueTitle(Ljava/lang/CharSequence;)V
@@ -2055,6 +2059,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private sendRepeatMode(I)V
@@ -2199,6 +2204,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private sendSessionDestroyed()V
@@ -2353,6 +2359,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private sendShuffleMode(I)V
@@ -2497,6 +2505,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private sendState(Landroid/support/v4/media/session/PlaybackStateCompat;)V
@@ -2641,6 +2650,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -4461,6 +4471,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCallingPackage()Ljava/lang/String;
@@ -4513,6 +4524,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMediaSession()Ljava/lang/Object;
@@ -4615,6 +4627,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRccStateFromState(I)I
@@ -4832,6 +4845,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isActive()Z
@@ -4860,6 +4874,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public postToHandler(IIILjava/lang/Object;Landroid/os/Bundle;)V
@@ -5568,6 +5583,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public sendSessionEvent(Ljava/lang/String;Landroid/os/Bundle;)V
@@ -5768,6 +5784,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setActive(Z)V
@@ -6128,6 +6145,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setCaptioningEnabled(Z)V
@@ -6454,6 +6474,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setPlaybackState(Landroid/support/v4/media/session/PlaybackStateCompat;)V
@@ -6597,6 +6618,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setPlaybackToLocal(I)V
@@ -6722,6 +6744,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setPlaybackToRemote(Landroidx/media/VolumeProviderCompat;)V
@@ -6864,6 +6887,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setQueue(Ljava/util/List;)V
@@ -7527,4 +7551,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

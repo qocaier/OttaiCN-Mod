@@ -23,7 +23,7 @@
 
     move-result-object v2
 
-    const-string v3, "yyyy-MM-dd HH:mm:ss"
+    const-string/jumbo v3, "yyyy-MM-dd HH:mm:ss"
 
     invoke-direct {v1, v3, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
@@ -1477,7 +1477,7 @@
 
     .line 66
     :catch_1
-    const-string v1, "zip or upload error"
+    const-string/jumbo v1, "zip or upload error"
 
     invoke-static {v6, v1}, Lcom/qiyukf/c;->c(Ljava/lang/String;Ljava/lang/String;)V
 

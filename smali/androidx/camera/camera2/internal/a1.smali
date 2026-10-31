@@ -3,34 +3,28 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
-
-
-# instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/FocusMeteringControl;
+.implements Landroidx/arch/core/util/Function;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/FocusMeteringControl;)V
+.method public synthetic constructor <init>()V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Landroidx/camera/camera2/internal/a1;->a:Landroidx/camera/camera2/internal/FocusMeteringControl;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
-    .locals 1
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/a1;->a:Landroidx/camera/camera2/internal/FocusMeteringControl;
+    check-cast p1, Landroid/hardware/camera2/TotalCaptureResult;
 
-    invoke-static {v0, p1}, Landroidx/camera/camera2/internal/FocusMeteringControl;->h(Landroidx/camera/camera2/internal/FocusMeteringControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$TorchTask;->d(Landroid/hardware/camera2/TotalCaptureResult;)Ljava/lang/Boolean;
 
     move-result-object p1
 

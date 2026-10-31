@@ -70,7 +70,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static compositeARGBWithAlpha(II)I
@@ -161,11 +160,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static getColor(Landroid/content/Context;II)I
@@ -647,11 +641,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static getColorStateListOrNull(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
@@ -761,11 +750,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static getSurfaceContainerFromSeed(Landroid/content/Context;I)I
@@ -868,11 +852,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static getSurfaceContainerHighFromSeed(Landroid/content/Context;I)I
@@ -975,11 +954,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static harmonize(II)I
@@ -1060,11 +1034,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static harmonizeWithPrimary(Landroid/content/Context;I)I
@@ -1157,11 +1126,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static isColorLight(I)Z
@@ -1215,7 +1179,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static isLightTheme(Landroid/content/Context;)Z
@@ -1258,7 +1221,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static layer(II)I
@@ -1480,11 +1442,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static resolveColorStateList(Landroid/content/Context;Landroid/util/TypedValue;)Landroid/content/res/ColorStateList;
@@ -1576,9 +1533,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

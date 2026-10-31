@@ -67,6 +67,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -105,6 +107,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEvaluatorScenes()I
@@ -133,6 +137,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExchange()Ljava/lang/String;
@@ -161,6 +167,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLastRemark()Ljava/lang/String;
@@ -189,6 +197,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLastSource()I
@@ -217,6 +227,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getResolvedEnabled()I
@@ -245,6 +257,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getResolvedRequired()I
@@ -273,6 +287,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()J
@@ -301,6 +317,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -329,6 +347,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getType()I
@@ -357,6 +377,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setEvaluationEntryList(Ljava/util/List;)V
@@ -398,6 +420,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEvaluatorScenes(I)V
@@ -431,6 +455,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setExchange(Ljava/lang/String;)V
@@ -464,6 +490,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLastRemark(Ljava/lang/String;)V
@@ -497,6 +525,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLastSource(I)V
@@ -530,6 +560,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setResolvedEnabled(I)V
@@ -563,6 +595,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setResolvedRequired(I)V
@@ -596,6 +630,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionId(J)V
@@ -629,6 +665,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTitle(Ljava/lang/String;)V
@@ -662,6 +700,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setType(I)V
@@ -695,4 +735,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

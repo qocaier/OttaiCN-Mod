@@ -3,81 +3,31 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nAnimator.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Animator.kt\nandroidx/core/animation/AnimatorKt\n*L\n1#1,123:1\n85#1,18:124\n85#1,18:142\n85#1,18:160\n85#1,18:178\n*S KotlinDebug\n*F\n+ 1 Animator.kt\nandroidx/core/animation/AnimatorKt\n*L\n29#1:124,18\n39#1:142,18\n49#1:160,18\n58#1:178,18\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nAnimator.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Animator.kt\nandroidx/core/animation/AnimatorKt\n*L\n1#1,123:1\n85#1,18:124\n85#1,18:142\n85#1,18:160\n85#1,18:178\n*S KotlinDebug\n*F\n+ 1 Animator.kt\nandroidx/core/animation/AnimatorKt\n*L\n29#1:124,18\n39#1:142,18\n49#1:160,18\n58#1:178,18\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
-.method public static synthetic a(Landroid/animation/Animator;)Ljl/e2;
+.method public static synthetic a(Landroid/animation/Animator;)Lkotlin/j;
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/animation/AnimatorKt;->addPauseListener$lambda$1(Landroid/animation/Animator;)Ljl/e2;
+    invoke-static {p0}, Landroidx/core/animation/AnimatorKt;->addPauseListener$lambda$1(Landroid/animation/Animator;)Lkotlin/j;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final addListener(Landroid/animation/Animator;Ljm/l;Ljm/l;Ljm/l;Ljm/l;)Landroid/animation/Animator$AnimatorListener;
+.method public static final addListener(Landroid/animation/Animator;Lq8/l;Lq8/l;Lq8/l;Lq8/l;)Landroid/animation/Animator$AnimatorListener;
     .locals 1
-    .param p0    # Landroid/animation/Animator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/animation/Animator;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            "Lq8/l;",
+            "Lq8/l;",
+            "Lq8/l;",
+            ")",
             "Landroid/animation/Animator$AnimatorListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -85,7 +35,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p4, p1, p3, p2}, Landroidx/core/animation/AnimatorKt$addListener$listener$1;-><init>(Ljm/l;Ljm/l;Ljm/l;Ljm/l;)V
+    invoke-direct {v0, p4, p1, p3, p2}, Landroidx/core/animation/AnimatorKt$addListener$listener$1;-><init>(Lq8/l;Lq8/l;Lq8/l;Lq8/l;)V
 
     .line 4
     .line 5
@@ -612,7 +562,7 @@
     .line 523
 .end method
 
-.method public static synthetic addListener$default(Landroid/animation/Animator;Ljm/l;Ljm/l;Ljm/l;Ljm/l;ILjava/lang/Object;)Landroid/animation/Animator$AnimatorListener;
+.method public static synthetic addListener$default(Landroid/animation/Animator;Lq8/l;Lq8/l;Lq8/l;Lq8/l;ILjava/lang/Object;)Landroid/animation/Animator$AnimatorListener;
     .locals 0
 
     .line 1
@@ -672,7 +622,7 @@
 
     .line 26
     .line 27
-    invoke-direct {p5, p4, p1, p3, p2}, Landroidx/core/animation/AnimatorKt$addListener$listener$1;-><init>(Ljm/l;Ljm/l;Ljm/l;Ljm/l;)V
+    invoke-direct {p5, p4, p1, p3, p2}, Landroidx/core/animation/AnimatorKt$addListener$listener$1;-><init>(Lq8/l;Lq8/l;Lq8/l;Lq8/l;)V
 
     .line 28
     .line 29
@@ -1268,39 +1218,17 @@
     .line 616
 .end method
 
-.method public static final addPauseListener(Landroid/animation/Animator;Ljm/l;Ljm/l;)Landroid/animation/Animator$AnimatorPauseListener;
+.method public static final addPauseListener(Landroid/animation/Animator;Lq8/l;Lq8/l;)Landroid/animation/Animator$AnimatorPauseListener;
     .locals 1
-    .param p0    # Landroid/animation/Animator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/animation/Animator;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            "Lq8/l;",
+            ")",
             "Landroid/animation/Animator$AnimatorPauseListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1308,7 +1236,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p2, p1}, Landroidx/core/animation/AnimatorKt$addPauseListener$listener$1;-><init>(Ljm/l;Ljm/l;)V
+    invoke-direct {v0, p2, p1}, Landroidx/core/animation/AnimatorKt$addPauseListener$listener$1;-><init>(Lq8/l;Lq8/l;)V
 
     .line 4
     .line 5
@@ -1423,9 +1351,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static synthetic addPauseListener$default(Landroid/animation/Animator;Ljm/l;Ljm/l;ILjava/lang/Object;)Landroid/animation/Animator$AnimatorPauseListener;
+.method public static synthetic addPauseListener$default(Landroid/animation/Animator;Lq8/l;Lq8/l;ILjava/lang/Object;)Landroid/animation/Animator$AnimatorPauseListener;
     .locals 0
 
     .line 1
@@ -1437,11 +1368,11 @@
 
     .line 4
     .line 5
-    new-instance p1, Lo0/a;
+    new-instance p1, Landroidx/core/animation/a;
 
     .line 6
     .line 7
-    invoke-direct {p1}, Lo0/a;-><init>()V
+    invoke-direct {p1}, Landroidx/core/animation/a;-><init>()V
 
     .line 8
     .line 9
@@ -1455,17 +1386,17 @@
 
     .line 13
     .line 14
-    new-instance p2, Lo0/b;
+    new-instance p2, Landroidx/core/animation/b;
 
     .line 15
     .line 16
-    invoke-direct {p2}, Lo0/b;-><init>()V
+    invoke-direct {p2}, Landroidx/core/animation/b;-><init>()V
 
     .line 17
     .line 18
     .line 19
     :cond_1
-    invoke-static {p0, p1, p2}, Landroidx/core/animation/AnimatorKt;->addPauseListener(Landroid/animation/Animator;Ljm/l;Ljm/l;)Landroid/animation/Animator$AnimatorPauseListener;
+    invoke-static {p0, p1, p2}, Landroidx/core/animation/AnimatorKt;->addPauseListener(Landroid/animation/Animator;Lq8/l;Lq8/l;)Landroid/animation/Animator$AnimatorPauseListener;
 
     .line 20
     .line 21
@@ -1976,11 +1907,11 @@
     .line 523
 .end method
 
-.method private static final addPauseListener$lambda$0(Landroid/animation/Animator;)Ljl/e2;
+.method private static final addPauseListener$lambda$0(Landroid/animation/Animator;)Lkotlin/j;
     .locals 0
 
     .line 1
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
 
     .line 2
     .line 3
@@ -2009,11 +1940,11 @@
     .line 25
 .end method
 
-.method private static final addPauseListener$lambda$1(Landroid/animation/Animator;)Ljl/e2;
+.method private static final addPauseListener$lambda$1(Landroid/animation/Animator;)Lkotlin/j;
     .locals 0
 
     .line 1
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
 
     .line 2
     .line 3
@@ -2042,41 +1973,27 @@
     .line 25
 .end method
 
-.method public static synthetic b(Landroid/animation/Animator;)Ljl/e2;
+.method public static synthetic b(Landroid/animation/Animator;)Lkotlin/j;
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/animation/AnimatorKt;->addPauseListener$lambda$0(Landroid/animation/Animator;)Ljl/e2;
+    invoke-static {p0}, Landroidx/core/animation/AnimatorKt;->addPauseListener$lambda$0(Landroid/animation/Animator;)Lkotlin/j;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final doOnCancel(Landroid/animation/Animator;Ljm/l;)Landroid/animation/Animator$AnimatorListener;
+.method public static final doOnCancel(Landroid/animation/Animator;Lq8/l;)Landroid/animation/Animator$AnimatorListener;
     .locals 1
-    .param p0    # Landroid/animation/Animator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/animation/Animator;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/animation/Animator$AnimatorListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -2084,7 +2001,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnCancel$$inlined$addListener$default$1;-><init>(Ljm/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnCancel$$inlined$addListener$default$1;-><init>(Lq8/l;)V
 
     .line 4
     .line 5
@@ -2136,30 +2053,16 @@
     .line 48
 .end method
 
-.method public static final doOnEnd(Landroid/animation/Animator;Ljm/l;)Landroid/animation/Animator$AnimatorListener;
+.method public static final doOnEnd(Landroid/animation/Animator;Lq8/l;)Landroid/animation/Animator$AnimatorListener;
     .locals 1
-    .param p0    # Landroid/animation/Animator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/animation/Animator;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/animation/Animator$AnimatorListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -2167,7 +2070,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnEnd$$inlined$addListener$default$1;-><init>(Ljm/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnEnd$$inlined$addListener$default$1;-><init>(Lq8/l;)V
 
     .line 4
     .line 5
@@ -2219,30 +2122,16 @@
     .line 48
 .end method
 
-.method public static final doOnPause(Landroid/animation/Animator;Ljm/l;)Landroid/animation/Animator$AnimatorPauseListener;
+.method public static final doOnPause(Landroid/animation/Animator;Lq8/l;)Landroid/animation/Animator$AnimatorPauseListener;
     .locals 2
-    .param p0    # Landroid/animation/Animator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/animation/Animator;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/animation/Animator$AnimatorPauseListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -2252,7 +2141,7 @@
     const/4 v1, 0x1
 
     .line 3
-    invoke-static {p0, v0, p1, v1, v0}, Landroidx/core/animation/AnimatorKt;->addPauseListener$default(Landroid/animation/Animator;Ljm/l;Ljm/l;ILjava/lang/Object;)Landroid/animation/Animator$AnimatorPauseListener;
+    invoke-static {p0, v0, p1, v1, v0}, Landroidx/core/animation/AnimatorKt;->addPauseListener$default(Landroid/animation/Animator;Lq8/l;Lq8/l;ILjava/lang/Object;)Landroid/animation/Animator$AnimatorPauseListener;
 
     .line 4
     .line 5
@@ -2304,30 +2193,16 @@
     .line 48
 .end method
 
-.method public static final doOnRepeat(Landroid/animation/Animator;Ljm/l;)Landroid/animation/Animator$AnimatorListener;
+.method public static final doOnRepeat(Landroid/animation/Animator;Lq8/l;)Landroid/animation/Animator$AnimatorListener;
     .locals 1
-    .param p0    # Landroid/animation/Animator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/animation/Animator;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/animation/Animator$AnimatorListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -2335,7 +2210,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnRepeat$$inlined$addListener$default$1;-><init>(Ljm/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnRepeat$$inlined$addListener$default$1;-><init>(Lq8/l;)V
 
     .line 4
     .line 5
@@ -2387,30 +2262,16 @@
     .line 48
 .end method
 
-.method public static final doOnResume(Landroid/animation/Animator;Ljm/l;)Landroid/animation/Animator$AnimatorPauseListener;
+.method public static final doOnResume(Landroid/animation/Animator;Lq8/l;)Landroid/animation/Animator$AnimatorPauseListener;
     .locals 2
-    .param p0    # Landroid/animation/Animator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/animation/Animator;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/animation/Animator$AnimatorPauseListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -2420,7 +2281,7 @@
     const/4 v1, 0x2
 
     .line 3
-    invoke-static {p0, p1, v0, v1, v0}, Landroidx/core/animation/AnimatorKt;->addPauseListener$default(Landroid/animation/Animator;Ljm/l;Ljm/l;ILjava/lang/Object;)Landroid/animation/Animator$AnimatorPauseListener;
+    invoke-static {p0, p1, v0, v1, v0}, Landroidx/core/animation/AnimatorKt;->addPauseListener$default(Landroid/animation/Animator;Lq8/l;Lq8/l;ILjava/lang/Object;)Landroid/animation/Animator$AnimatorPauseListener;
 
     .line 4
     .line 5
@@ -2472,30 +2333,16 @@
     .line 48
 .end method
 
-.method public static final doOnStart(Landroid/animation/Animator;Ljm/l;)Landroid/animation/Animator$AnimatorListener;
+.method public static final doOnStart(Landroid/animation/Animator;Lq8/l;)Landroid/animation/Animator$AnimatorListener;
     .locals 1
-    .param p0    # Landroid/animation/Animator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/animation/Animator;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/animation/Animator$AnimatorListener;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -2503,7 +2350,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnStart$$inlined$addListener$default$1;-><init>(Ljm/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/animation/AnimatorKt$doOnStart$$inlined$addListener$default$1;-><init>(Lq8/l;)V
 
     .line 4
     .line 5

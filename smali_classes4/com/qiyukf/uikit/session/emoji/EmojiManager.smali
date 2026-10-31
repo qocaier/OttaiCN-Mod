@@ -167,6 +167,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public constructor <init>()V
@@ -195,6 +196,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$100()Ljava/util/Map;
@@ -223,6 +226,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$200()Ljava/util/List;
@@ -251,6 +256,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getDisplayCount()I
@@ -283,6 +290,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getDisplayDrawable(I)Ljava/lang/String;
@@ -408,6 +417,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getDisplayText(I)Ljava/lang/String;
@@ -462,6 +473,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getDrawableUrl(Ljava/lang/String;)Ljava/lang/String;
@@ -583,6 +596,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getPattern()Ljava/util/regex/Pattern;
@@ -611,6 +626,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static load(Landroid/content/Context;Ljava/lang/String;)V
@@ -684,6 +701,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method private static makePattern()Ljava/util/regex/Pattern;
@@ -718,6 +745,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static patternOfDefault()Ljava/lang/String;
@@ -746,4 +775,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

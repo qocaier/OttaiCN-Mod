@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lpf/r;
+.implements Lcom/journeyapps/barcodescanner/r;
 
 
 # annotations
@@ -55,6 +55,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic b(Lcom/journeyapps/barcodescanner/CameraPreview$d;)V
@@ -90,6 +92,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -110,11 +114,11 @@
     move-result-object p1
 
     .line 7
-    new-instance v0, Lpf/d;
+    new-instance v0, Lcom/journeyapps/barcodescanner/c;
 
     .line 8
     .line 9
-    invoke-direct {v0, p0}, Lpf/d;-><init>(Lcom/journeyapps/barcodescanner/CameraPreview$d;)V
+    invoke-direct {v0, p0}, Lcom/journeyapps/barcodescanner/c;-><init>(Lcom/journeyapps/barcodescanner/CameraPreview$d;)V
 
     .line 10
     .line 11
@@ -137,4 +141,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

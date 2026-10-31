@@ -7,21 +7,21 @@
 
 
 # instance fields
-.field public final synthetic a:Landroid/view/Surface;
+.field public final synthetic a:Landroidx/camera/camera2/internal/Camera2CameraControlImpl$CameraControlSessionCallback;
 
-.field public final synthetic b:Landroid/graphics/SurfaceTexture;
+.field public final synthetic b:Landroid/hardware/camera2/TotalCaptureResult;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroid/view/Surface;Landroid/graphics/SurfaceTexture;)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CameraControlImpl$CameraControlSessionCallback;Landroid/hardware/camera2/TotalCaptureResult;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/q;->a:Landroid/view/Surface;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/q;->a:Landroidx/camera/camera2/internal/Camera2CameraControlImpl$CameraControlSessionCallback;
 
-    iput-object p2, p0, Landroidx/camera/camera2/internal/q;->b:Landroid/graphics/SurfaceTexture;
+    iput-object p2, p0, Landroidx/camera/camera2/internal/q;->b:Landroid/hardware/camera2/TotalCaptureResult;
 
     return-void
 .end method
@@ -32,11 +32,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/q;->a:Landroid/view/Surface;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/q;->a:Landroidx/camera/camera2/internal/Camera2CameraControlImpl$CameraControlSessionCallback;
 
-    iget-object v1, p0, Landroidx/camera/camera2/internal/q;->b:Landroid/graphics/SurfaceTexture;
+    iget-object v1, p0, Landroidx/camera/camera2/internal/q;->b:Landroid/hardware/camera2/TotalCaptureResult;
 
-    invoke-static {v0, v1}, Landroidx/camera/camera2/internal/Camera2CameraImpl;->n(Landroid/view/Surface;Landroid/graphics/SurfaceTexture;)V
+    invoke-static {v0, v1}, Landroidx/camera/camera2/internal/Camera2CameraControlImpl$CameraControlSessionCallback;->a(Landroidx/camera/camera2/internal/Camera2CameraControlImpl$CameraControlSessionCallback;Landroid/hardware/camera2/TotalCaptureResult;)V
 
     return-void
 .end method

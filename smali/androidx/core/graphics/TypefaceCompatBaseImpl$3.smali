@@ -33,14 +33,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/core/graphics/TypefaceCompatBaseImpl;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/core/graphics/TypefaceCompatBaseImpl$3;->this$0:Landroidx/core/graphics/TypefaceCompatBaseImpl;
@@ -89,14 +81,6 @@
 
 .method public bridge synthetic getWeight(Ljava/lang/Object;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;
@@ -121,14 +105,6 @@
 
 .method public bridge synthetic isItalic(Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;

@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/android/material/search/SearchBarAnimationHelper;->lambda$startExpandAnimation$0(Lcom/google/android/material/search/SearchBar;Landroid/view/View;Lcom/google/android/material/appbar/AppBarLayout;Z)V
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1
-    name = null
-.end annotation
-
-
 # instance fields
 .field final synthetic this$0:Lcom/google/android/material/search/SearchBarAnimationHelper;
 
@@ -51,7 +40,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -90,5 +78,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

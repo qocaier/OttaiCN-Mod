@@ -17,16 +17,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -93,32 +83,12 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
-.method public copyEntry(Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/d;Lcom/google/common/cache/d;Ljava/lang/Object;)Lcom/google/common/cache/d;
+.method public copyEntry(Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/k;Lcom/google/common/cache/k;Ljava/lang/Object;)Lcom/google/common/cache/k;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "segment",
-            "original",
-            "newNext",
-            "key"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -128,17 +98,15 @@
             ">(",
             "Lcom/google/common/cache/LocalCache$Segment<",
             "TK;TV;>;",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;TK;)",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
+            "Lcom/google/common/cache/k;",
+            "Lcom/google/common/cache/k;",
+            "TK;)",
+            "Lcom/google/common/cache/k;"
         }
     .end annotation
 
     .line 1
-    invoke-super {p0, p1, p2, p3, p4}, Lcom/google/common/cache/LocalCache$EntryFactory;->copyEntry(Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/d;Lcom/google/common/cache/d;Ljava/lang/Object;)Lcom/google/common/cache/d;
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/google/common/cache/LocalCache$EntryFactory;->copyEntry(Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/k;Lcom/google/common/cache/k;Ljava/lang/Object;)Lcom/google/common/cache/k;
 
     .line 2
     .line 3
@@ -146,7 +114,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p0, p2, p1}, Lcom/google/common/cache/LocalCache$EntryFactory;->copyWriteEntry(Lcom/google/common/cache/d;Lcom/google/common/cache/d;)V
+    invoke-virtual {p0, p2, p1}, Lcom/google/common/cache/LocalCache$EntryFactory;->copyWriteEntry(Lcom/google/common/cache/k;Lcom/google/common/cache/k;)V
 
     .line 6
     .line 7
@@ -386,29 +354,26 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
-.method public newEntry(Lcom/google/common/cache/LocalCache$Segment;Ljava/lang/Object;ILcom/google/common/cache/d;)Lcom/google/common/cache/d;
+.method public newEntry(Lcom/google/common/cache/LocalCache$Segment;Ljava/lang/Object;ILcom/google/common/cache/k;)Lcom/google/common/cache/k;
     .locals 1
-    .param p4    # Lcom/google/common/cache/d;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "segment",
-            "key",
-            "hash",
-            "next"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -418,10 +383,9 @@
             ">(",
             "Lcom/google/common/cache/LocalCache$Segment<",
             "TK;TV;>;TK;I",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
+            "Lcom/google/common/cache/k;",
+            ")",
+            "Lcom/google/common/cache/k;"
         }
     .end annotation
 
@@ -434,7 +398,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, p1, p2, p3, p4}, Lcom/google/common/cache/LocalCache$y;-><init>(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;ILcom/google/common/cache/d;)V
+    invoke-direct {v0, p1, p2, p3, p4}, Lcom/google/common/cache/LocalCache$y;-><init>(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;ILcom/google/common/cache/k;)V
 
     .line 6
     .line 7
@@ -674,4 +638,20 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method

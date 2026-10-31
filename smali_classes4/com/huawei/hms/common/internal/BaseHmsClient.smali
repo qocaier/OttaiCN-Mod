@@ -159,6 +159,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Lcom/huawei/hms/common/internal/ClientSettings;Lcom/huawei/hms/common/internal/BaseHmsClient$OnConnectionFailedListener;Lcom/huawei/hms/common/internal/BaseHmsClient$ConnectionCallbacks;)V
@@ -438,6 +439,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public static synthetic a(Lcom/huawei/hms/common/internal/BaseHmsClient;)Landroid/content/Context;
@@ -1330,6 +1354,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private e()V
@@ -1472,6 +1498,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private f()V
@@ -1586,6 +1613,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -1703,6 +1731,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public connect(I)V
@@ -1777,6 +1807,8 @@
     .line 24
     .line 25
     return-void
+    .line 26
+    .line 27
 .end method
 
 .method public final connectionConnected()V
@@ -1890,6 +1922,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public disconnect()V
@@ -2045,6 +2078,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getAdapter()Lcom/huawei/hms/adapter/BinderAdapter;
@@ -2190,6 +2224,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getApiNameList()Ljava/util/List;
@@ -2230,6 +2265,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAppID()Ljava/lang/String;
@@ -2258,6 +2295,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getClientSettings()Lcom/huawei/hms/common/internal/ClientSettings;
@@ -2286,6 +2325,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getConnectionStatus()I
@@ -2332,6 +2373,8 @@
     goto :goto_0
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getContext()Landroid/content/Context;
@@ -2360,6 +2403,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCpID()Ljava/lang/String;
@@ -2392,6 +2437,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMinApkVersion()I
@@ -2434,6 +2481,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRequestHmsVersionCode()I
@@ -2464,6 +2513,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getService()Lcom/huawei/hms/core/aidl/IAIDLInvoke;
@@ -2492,6 +2543,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getServiceAction()Ljava/lang/String;
@@ -2607,6 +2660,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getSessionId()Ljava/lang/String;
@@ -2635,6 +2689,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSubAppInfo()Lcom/huawei/hms/support/api/client/SubAppInfo;
@@ -2667,6 +2723,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTransportName()Ljava/lang/String;
@@ -2699,6 +2757,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isConnected()Z
@@ -2826,6 +2886,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public isConnecting()Z
@@ -2950,6 +3011,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public onConnecting()V
@@ -2978,6 +3040,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final setInternalRequest(Lcom/huawei/hms/common/HuaweiApi$RequestHandler;)V
@@ -3011,6 +3075,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setService(Lcom/huawei/hms/core/aidl/IAIDLInvoke;)V
@@ -3044,4 +3110,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

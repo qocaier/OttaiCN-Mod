@@ -112,6 +112,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -229,6 +231,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getDivider()I
@@ -257,6 +260,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFontColor()Ljava/lang/String;
@@ -376,6 +381,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getFontSize()I
@@ -505,6 +511,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getImageHeight()I
@@ -646,6 +653,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getPb()I
@@ -679,6 +687,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPl()I
@@ -712,6 +722,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPr()I
@@ -745,6 +757,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPt()I
@@ -778,6 +792,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSubFontColor()Ljava/lang/String;
@@ -897,6 +913,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getSubFontSize()I
@@ -1026,6 +1043,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getSunFontColor()Ljava/lang/String;
@@ -1145,4 +1163,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

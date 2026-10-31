@@ -15,15 +15,15 @@
 
 
 # instance fields
-.field final synthetic this$0:Lanetwork/channel/stat/a;
+.field final synthetic this$0:Lanetwork/channel/stat/c;
 
 
 # direct methods
-.method public constructor <init>(Lanetwork/channel/stat/a;)V
+.method public constructor <init>(Lanetwork/channel/stat/c;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lanetwork/channel/stat/NetworkStatCache$1;->this$0:Lanetwork/channel/stat/a;
+    iput-object p1, p0, Lanetwork/channel/stat/NetworkStatCache$1;->this$0:Lanetwork/channel/stat/c;
 
     .line 2
     .line 3

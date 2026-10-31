@@ -101,6 +101,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -220,6 +221,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static enqueueWork(Landroid/content/Context;Landroid/content/ComponentName;ILandroid/content/Intent;)V
@@ -572,6 +575,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -719,6 +728,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public doStopCurrentWork()Z
@@ -762,6 +773,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public ensureProcessorRunningLocked(Z)V
@@ -876,6 +888,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public isStopped()Z
@@ -904,6 +917,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
@@ -1077,6 +1091,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onDestroy()V
@@ -1198,6 +1214,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public abstract onHandleWork(Landroid/content/Intent;)V
@@ -1373,6 +1391,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onStopCurrentWork()Z
@@ -1526,6 +1547,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setInterruptIfStopped(Z)V

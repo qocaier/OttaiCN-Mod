@@ -63,6 +63,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -127,6 +128,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public insertAllOptions(Landroidx/camera/core/impl/Config;)Landroidx/camera/camera2/impl/Camera2ImplConfig$Builder;
@@ -249,6 +251,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setCaptureRequestOption(Landroid/hardware/camera2/CaptureRequest$Key;Ljava/lang/Object;)Landroidx/camera/camera2/impl/Camera2ImplConfig$Builder;
@@ -486,4 +489,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

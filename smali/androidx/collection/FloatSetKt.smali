@@ -3,28 +3,10 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFloatSet.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FloatSet.kt\nandroidx/collection/FloatSetKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,853:1\n1#2:854\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nFloatSet.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FloatSet.kt\nandroidx/collection/FloatSetKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,853:1\n1#2:854\n*E\n"
-    }
-.end annotation
-
-
 # static fields
 .field private static final EmptyFloatArray:[F
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final EmptyFloatSet:Landroidx/collection/MutableFloatSet;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -64,12 +46,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final emptyFloatSet()Landroidx/collection/FloatSet;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/collection/FloatSetKt;->EmptyFloatSet:Landroidx/collection/MutableFloatSet;
@@ -94,12 +75,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final floatSetOf()Landroidx/collection/FloatSet;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/collection/FloatSetKt;->EmptyFloatSet:Landroidx/collection/MutableFloatSet;
@@ -109,8 +89,6 @@
 
 .method public static final floatSetOf(F)Landroidx/collection/FloatSet;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     invoke-static {p0}, Landroidx/collection/FloatSetKt;->mutableFloatSetOf(F)Landroidx/collection/MutableFloatSet;
@@ -122,8 +100,6 @@
 
 .method public static final floatSetOf(FF)Landroidx/collection/FloatSet;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 3
     invoke-static {p0, p1}, Landroidx/collection/FloatSetKt;->mutableFloatSetOf(FF)Landroidx/collection/MutableFloatSet;
@@ -135,8 +111,6 @@
 
 .method public static final floatSetOf(FFF)Landroidx/collection/FloatSet;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     invoke-static {p0, p1, p2}, Landroidx/collection/FloatSetKt;->mutableFloatSetOf(FFF)Landroidx/collection/MutableFloatSet;
@@ -148,16 +122,10 @@
 
 .method public static final varargs floatSetOf([F)Landroidx/collection/FloatSet;
     .locals 2
-    .param p0    # [F
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "elements"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     new-instance v0, Landroidx/collection/MutableFloatSet;
@@ -173,8 +141,6 @@
 
 .method public static final getEmptyFloatArray()[F
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/collection/FloatSetKt;->EmptyFloatArray:[F
@@ -199,6 +165,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final hash(F)I
@@ -246,8 +213,6 @@
 
 .method public static final mutableFloatSetOf()Landroidx/collection/MutableFloatSet;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/collection/MutableFloatSet;
@@ -258,15 +223,13 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatSet;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatSet;-><init>(IILkotlin/jvm/internal/f;)V
 
     return-object v0
 .end method
 
 .method public static final mutableFloatSetOf(F)Landroidx/collection/MutableFloatSet;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroidx/collection/MutableFloatSet;
@@ -283,8 +246,6 @@
 
 .method public static final mutableFloatSetOf(FF)Landroidx/collection/MutableFloatSet;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     new-instance v0, Landroidx/collection/MutableFloatSet;
@@ -304,8 +265,6 @@
 
 .method public static final mutableFloatSetOf(FFF)Landroidx/collection/MutableFloatSet;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 7
     new-instance v0, Landroidx/collection/MutableFloatSet;
@@ -328,16 +287,10 @@
 
 .method public static final varargs mutableFloatSetOf([F)Landroidx/collection/MutableFloatSet;
     .locals 2
-    .param p0    # [F
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "elements"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     new-instance v0, Landroidx/collection/MutableFloatSet;

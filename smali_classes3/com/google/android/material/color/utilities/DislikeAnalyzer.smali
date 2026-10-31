@@ -44,7 +44,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static fixIfDisliked(Lcom/google/android/material/color/utilities/Hct;)Lcom/google/android/material/color/utilities/Hct;
@@ -96,7 +95,6 @@
     .line 24
     :cond_0
     return-object p0
-    .line 25
 .end method
 
 .method public static isDisliked(Lcom/google/android/material/color/utilities/Hct;)Z
@@ -295,6 +293,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

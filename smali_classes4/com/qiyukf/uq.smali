@@ -46,6 +46,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public constructor <init>()V
@@ -74,6 +76,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private a(Landroid/content/Context;Ljava/lang/String;Lcom/qiyukf/f;)Z
@@ -247,6 +251,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -808,6 +814,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public d()Lcom/qiyukf/wn;
@@ -847,6 +855,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public e()Ljava/lang/String;
@@ -875,6 +885,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public f()Z
@@ -918,6 +930,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public g()Z
@@ -1035,4 +1049,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

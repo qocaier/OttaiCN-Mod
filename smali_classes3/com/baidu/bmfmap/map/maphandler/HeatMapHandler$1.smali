@@ -30,21 +30,6 @@
 # direct methods
 .method public constructor <init>(Lcom/baidu/bmfmap/map/maphandler/HeatMapHandler;[ZLandroid/content/Context;Lio/flutter/plugin/common/MethodCall;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010,
-            0x1010,
-            0x1010
-        }
-        names = {
-            null,
-            null,
-            null,
-            null
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()V"
@@ -304,6 +289,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 
@@ -350,5 +351,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

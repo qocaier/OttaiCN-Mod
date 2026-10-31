@@ -713,7 +713,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lbf/h;->g(Landroid/content/Context;)Lbf/h;
+    invoke-static {v1}, Lw5/b;->b(Landroid/content/Context;)Lw5/b;
 
     move-result-object v0
     :try_end_0
@@ -761,9 +761,9 @@
 
     invoke-virtual {p0, v0}, Ljavax/net/ssl/HttpsURLConnection;->setSSLSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)V
 
-    new-instance v0, Lcf/b;
+    new-instance v0, Lx5/a;
 
-    invoke-direct {v0}, Lcf/b;-><init>()V
+    invoke-direct {v0}, Lx5/a;-><init>()V
 
     invoke-virtual {p0, v0}, Ljavax/net/ssl/HttpsURLConnection;->setHostnameVerifier(Ljavax/net/ssl/HostnameVerifier;)V
 

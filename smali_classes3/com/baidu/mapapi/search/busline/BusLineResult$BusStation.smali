@@ -72,7 +72,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -113,7 +112,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTransfers()Ljava/util/List;
@@ -152,7 +150,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setSubways(Ljava/util/List;)V
@@ -193,7 +190,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTransfers(Ljava/util/List;)V
@@ -234,5 +230,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

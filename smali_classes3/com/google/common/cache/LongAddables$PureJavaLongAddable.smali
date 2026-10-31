@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lib/j;
+.implements Lcom/google/common/cache/j;
 
 
 # annotations
@@ -40,14 +40,6 @@
 # virtual methods
 .method public add(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "x"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1, p2}, Ljava/util/concurrent/atomic/AtomicLong;->getAndAdd(J)J
@@ -76,7 +68,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public increment()V
@@ -107,7 +98,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public sum()J
@@ -140,5 +130,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

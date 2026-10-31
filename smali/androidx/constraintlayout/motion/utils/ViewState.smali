@@ -42,20 +42,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public getState(Landroid/view/View;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "v"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Landroid/view/View;->getLeft()I
@@ -166,6 +159,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public height()I
@@ -198,6 +192,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public width()I
@@ -230,4 +225,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

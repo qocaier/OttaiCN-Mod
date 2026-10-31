@@ -43,7 +43,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -86,7 +85,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public requestRecommendStop(Lcom/baidu/mapapi/search/recommendstop/RecommendStopSearchOption;)Z
@@ -135,7 +133,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnGetRecommendStopResultListener(Lcom/baidu/mapapi/search/recommendstop/OnGetRecommendStopResultListener;)V
@@ -176,5 +173,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

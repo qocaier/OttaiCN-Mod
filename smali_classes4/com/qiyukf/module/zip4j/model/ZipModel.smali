@@ -185,6 +185,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -222,6 +223,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCentralDirectory()Lcom/qiyukf/module/zip4j/model/CentralDirectory;
@@ -250,6 +253,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getDataDescriptors()Ljava/util/List;
@@ -286,6 +291,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEnd()J
@@ -314,6 +321,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEndOfCentralDirectoryRecord()Lcom/qiyukf/module/zip4j/model/EndOfCentralDirectoryRecord;
@@ -342,6 +351,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLocalFileHeaders()Ljava/util/List;
@@ -378,6 +389,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSplitLength()J
@@ -406,6 +419,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStart()J
@@ -434,6 +449,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getZip64EndOfCentralDirectoryLocator()Lcom/qiyukf/module/zip4j/model/Zip64EndOfCentralDirectoryLocator;
@@ -462,6 +479,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getZip64EndOfCentralDirectoryRecord()Lcom/qiyukf/module/zip4j/model/Zip64EndOfCentralDirectoryRecord;
@@ -490,6 +509,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getZipFile()Ljava/io/File;
@@ -518,6 +539,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isNestedZipFile()Z
@@ -546,6 +569,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isSplitArchive()Z
@@ -574,6 +599,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isZip64Format()Z
@@ -602,6 +629,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setCentralDirectory(Lcom/qiyukf/module/zip4j/model/CentralDirectory;)V
@@ -635,6 +664,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setDataDescriptors(Ljava/util/List;)V
@@ -676,6 +707,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEnd(J)V
@@ -709,6 +742,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEndOfCentralDirectoryRecord(Lcom/qiyukf/module/zip4j/model/EndOfCentralDirectoryRecord;)V
@@ -742,6 +777,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLocalFileHeaders(Ljava/util/List;)V
@@ -783,6 +820,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNestedZipFile(Z)V
@@ -816,6 +855,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSplitArchive(Z)V
@@ -849,6 +890,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSplitLength(J)V
@@ -882,6 +925,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStart(J)V
@@ -915,6 +960,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setZip64EndOfCentralDirectoryLocator(Lcom/qiyukf/module/zip4j/model/Zip64EndOfCentralDirectoryLocator;)V
@@ -948,6 +995,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setZip64EndOfCentralDirectoryRecord(Lcom/qiyukf/module/zip4j/model/Zip64EndOfCentralDirectoryRecord;)V
@@ -981,6 +1030,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setZip64Format(Z)V
@@ -1014,6 +1065,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setZipFile(Ljava/io/File;)V
@@ -1047,4 +1100,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

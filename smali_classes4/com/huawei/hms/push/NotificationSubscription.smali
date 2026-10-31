@@ -154,38 +154,38 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method private a(Ljava/lang/Exception;)Lme/k;
+.method private a(Ljava/lang/Exception;)Lq5/f;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Exception;",
             ")",
-            "Lme/k<",
-            "Lcom/huawei/hms/push/SubscribeResult;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
     .line 35
-    new-instance v0, Lme/l;
+    new-instance v0, Lq5/g;
 
-    invoke-direct {v0}, Lme/l;-><init>()V
+    invoke-direct {v0}, Lq5/g;-><init>()V
 
     .line 36
-    invoke-virtual {v0, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 37
-    invoke-virtual {v0}, Lme/l;->b()Lme/k;
+    invoke-virtual {v0}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method private a(Ljava/util/List;)Lme/k;
+.method private a(Ljava/util/List;)Lq5/f;
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -193,9 +193,7 @@
             "Ljava/util/List<",
             "Ljava/lang/String;",
             ">;)",
-            "Lme/k<",
-            "Lcom/huawei/hms/push/SubscribeResult;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -251,7 +249,7 @@
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lme/k;
+    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lq5/f;
 
     move-result-object p1
 
@@ -296,7 +294,7 @@
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lme/k;
+    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lq5/f;
 
     move-result-object p1
 
@@ -323,7 +321,7 @@
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lme/k;
+    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lq5/f;
 
     move-result-object p1
 
@@ -382,7 +380,7 @@
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lme/k;
+    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lq5/f;
 
     move-result-object p1
 
@@ -404,12 +402,12 @@
     .line 22
     iget-object p1, p0, Lcom/huawei/hms/push/NotificationSubscription;->c:Lcom/huawei/hms/common/HuaweiApi;
 
-    invoke-virtual {p1, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lme/k;
+    invoke-virtual {p1, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lq5/f;
 
     move-result-object p1
 
     .line 23
-    invoke-static {p1}, Lme/n;->c(Lme/k;)Ljava/lang/Object;
+    invoke-static {p1}, Lq5/i;->a(Lq5/f;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -444,7 +442,7 @@
     invoke-static {v2, v1, v0, v3}, Lcom/huawei/hms/push/utils/PushBiUtil;->reportExit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 29
-    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lme/k;
+    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lq5/f;
 
     move-result-object p1
 
@@ -463,7 +461,7 @@
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lme/k;
+    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lq5/f;
 
     move-result-object p1
 
@@ -490,7 +488,7 @@
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lme/k;
+    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/lang/Exception;)Lq5/f;
 
     move-result-object p1
 
@@ -640,6 +638,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getInstance(Landroid/app/Activity;)Lcom/huawei/hms/push/NotificationSubscription;
@@ -675,6 +675,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getSubscribeResult(Landroid/content/Intent;)Lcom/huawei/hms/push/SubscribeResult;
@@ -846,11 +848,13 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
 # virtual methods
-.method public requestSubscribeNotification(Ljava/util/List;)Lme/k;
+.method public requestSubscribeNotification(Ljava/util/List;)Lq5/f;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -858,9 +862,7 @@
             "Ljava/util/List<",
             "Ljava/lang/String;",
             ">;)",
-            "Lme/k<",
-            "Lcom/huawei/hms/push/SubscribeResult;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -878,7 +880,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/util/List;)Lme/k;
+    invoke-direct {p0, p1}, Lcom/huawei/hms/push/NotificationSubscription;->a(Ljava/util/List;)Lq5/f;
 
     .line 9
     .line 10
@@ -900,4 +902,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

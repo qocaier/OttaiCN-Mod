@@ -322,11 +322,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Landroidx/browser/trusted/b;
+    new-instance v0, Landroidx/browser/trusted/g;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/browser/trusted/b;-><init>()V
+    invoke-direct {v0}, Landroidx/browser/trusted/g;-><init>()V
 
     .line 4
     .line 5
@@ -609,6 +609,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static deserialize([B)Landroidx/browser/trusted/TokenContents;
@@ -808,6 +811,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -930,6 +935,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getFingerprint(I)[B
@@ -1052,6 +1058,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getFingerprintCount()I
@@ -1100,6 +1107,7 @@
     throw v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPackageName()Ljava/lang/String;
@@ -1144,6 +1152,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -1176,6 +1185,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public serialize()[B
@@ -1210,4 +1220,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

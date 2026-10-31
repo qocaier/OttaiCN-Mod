@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/huawei/hms/common/HuaweiApi;->disconnectService()Lme/k;
+    value = Lcom/huawei/hms/common/HuaweiApi;->disconnectService()Lq5/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,13 +20,13 @@
 # instance fields
 .field final synthetic a:Lcom/huawei/hms/common/HuaweiApi;
 
-.field final synthetic b:Lme/l;
+.field final synthetic b:Lq5/g;
 
 .field final synthetic c:Lcom/huawei/hms/common/HuaweiApi;
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/hms/common/HuaweiApi;Lcom/huawei/hms/common/HuaweiApi;Lme/l;)V
+.method public constructor <init>(Lcom/huawei/hms/common/HuaweiApi;Lcom/huawei/hms/common/HuaweiApi;Lq5/g;)V
     .locals 0
 
     .line 1
@@ -38,7 +38,7 @@
 
     .line 4
     .line 5
-    iput-object p3, p0, Lcom/huawei/hms/common/HuaweiApi$1;->b:Lme/l;
+    iput-object p3, p0, Lcom/huawei/hms/common/HuaweiApi$1;->b:Lq5/g;
 
     .line 6
     .line 7
@@ -163,11 +163,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 
@@ -184,11 +179,11 @@
 
     .line 4
     .line 5
-    iget-object v2, p0, Lcom/huawei/hms/common/HuaweiApi$1;->b:Lme/l;
+    iget-object v2, p0, Lcom/huawei/hms/common/HuaweiApi$1;->b:Lq5/g;
 
     .line 6
     .line 7
-    invoke-static {v0, v1, v2}, Lcom/huawei/hms/common/HuaweiApi;->a(Lcom/huawei/hms/common/HuaweiApi;Lcom/huawei/hms/common/HuaweiApi;Lme/l;)V
+    invoke-static {v0, v1, v2}, Lcom/huawei/hms/common/HuaweiApi;->a(Lcom/huawei/hms/common/HuaweiApi;Lcom/huawei/hms/common/HuaweiApi;Lq5/g;)V
 
     .line 8
     .line 9
@@ -204,4 +199,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

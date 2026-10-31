@@ -71,6 +71,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private constructor <init>()V
@@ -99,6 +101,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private agingCheck()V
@@ -244,6 +248,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static getInstance()Lcom/huawei/hms/api/FailedBinderCallBack;
@@ -372,6 +377,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private putCallBackInMap(Ljava/lang/Long;Lcom/huawei/hms/api/FailedBinderCallBack$BinderCallBack;)V
@@ -451,6 +457,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -505,6 +521,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCallBack(Ljava/lang/Long;Lcom/huawei/hms/api/FailedBinderCallBack$BinderCallBack;)V
@@ -567,4 +585,14 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method

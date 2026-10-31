@@ -86,6 +86,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -116,6 +118,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPageNo()I
@@ -144,6 +148,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPageSize()I
@@ -172,6 +178,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQueryType()I
@@ -200,6 +208,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRequestUrl()Ljava/lang/String;
@@ -228,6 +238,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()J
@@ -256,6 +268,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTabId()Ljava/lang/String;
@@ -284,6 +298,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isSearchBoxDisplay()Z
@@ -312,6 +328,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setKeyword(Ljava/lang/String;)V
@@ -345,6 +363,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPageNo(I)V
@@ -378,6 +398,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPageSize(I)V
@@ -411,6 +433,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setQueryType(I)V
@@ -444,6 +468,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRequestUrl(Ljava/lang/String;)V
@@ -477,6 +503,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSearchBoxDisplay(Z)V
@@ -510,6 +538,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionId(J)V
@@ -543,6 +573,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTabId(Ljava/lang/String;)V
@@ -576,4 +608,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

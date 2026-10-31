@@ -143,7 +143,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic addOnSliderTouchListener(Lcom/google/android/material/slider/BaseOnSliderTouchListener;)V
@@ -180,7 +179,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic clearOnChangeListeners()V
@@ -211,7 +209,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic clearOnSliderTouchListeners()V
@@ -242,7 +239,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic dispatchHoverEvent(Landroid/view/MotionEvent;)Z
@@ -281,7 +277,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic dispatchKeyEvent(Landroid/view/KeyEvent;)Z
@@ -320,7 +315,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic getAccessibilityClassName()Ljava/lang/CharSequence;
@@ -355,7 +349,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getActiveThumbIndex()I
@@ -388,7 +381,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getFocusedThumbIndex()I
@@ -421,7 +413,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getHaloRadius()I
@@ -456,7 +447,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getHaloTintList()Landroid/content/res/ColorStateList;
@@ -491,7 +481,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getLabelBehavior()I
@@ -524,7 +513,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getStepSize()F
@@ -557,7 +545,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getThumbElevation()F
@@ -590,7 +577,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getThumbRadius()I
@@ -625,7 +611,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getThumbStrokeColor()Landroid/content/res/ColorStateList;
@@ -658,7 +643,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getThumbStrokeWidth()F
@@ -691,7 +675,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getThumbTintList()Landroid/content/res/ColorStateList;
@@ -726,7 +709,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getTickActiveRadius()I
@@ -761,7 +743,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getTickActiveTintList()Landroid/content/res/ColorStateList;
@@ -796,7 +777,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getTickInactiveRadius()I
@@ -831,7 +811,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getTickInactiveTintList()Landroid/content/res/ColorStateList;
@@ -866,7 +845,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getTickTintList()Landroid/content/res/ColorStateList;
@@ -901,7 +879,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getTrackActiveTintList()Landroid/content/res/ColorStateList;
@@ -936,7 +913,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getTrackHeight()I
@@ -971,7 +947,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getTrackInactiveTintList()Landroid/content/res/ColorStateList;
@@ -1006,7 +981,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getTrackSidePadding()I
@@ -1041,7 +1015,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getTrackTintList()Landroid/content/res/ColorStateList;
@@ -1076,7 +1049,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getTrackWidth()I
@@ -1111,7 +1083,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getValue()F
@@ -1156,7 +1127,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getValueFrom()F
@@ -1189,7 +1159,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getValueTo()F
@@ -1222,7 +1191,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic hasLabelFormatter()Z
@@ -1255,7 +1223,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic isTickVisible()Z
@@ -1288,7 +1255,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -1363,11 +1329,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public bridge synthetic onKeyUp(ILandroid/view/KeyEvent;)Z
@@ -1442,11 +1403,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public bridge synthetic onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -1485,7 +1441,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public pickActiveThumb()Z
@@ -1531,7 +1486,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic removeOnChangeListener(Lcom/google/android/material/slider/BaseOnChangeListener;)V
@@ -1568,7 +1522,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic removeOnSliderTouchListener(Lcom/google/android/material/slider/BaseOnSliderTouchListener;)V
@@ -1605,7 +1558,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCustomThumbDrawable(I)V
@@ -1664,7 +1616,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setFocusedThumbIndex(I)V
@@ -1697,7 +1648,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setHaloRadius(I)V
@@ -1738,7 +1688,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setHaloRadiusResource(I)V
@@ -1775,7 +1724,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setHaloTintList(Landroid/content/res/ColorStateList;)V
@@ -1812,7 +1760,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setLabelBehavior(I)V
@@ -1845,7 +1792,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setLabelFormatter(Lcom/google/android/material/slider/LabelFormatter;)V
@@ -1882,7 +1828,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setStepSize(F)V
@@ -1915,7 +1860,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setThumbElevation(F)V
@@ -1948,7 +1892,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setThumbElevationResource(I)V
@@ -1985,7 +1928,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setThumbRadius(I)V
@@ -2026,7 +1968,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setThumbRadiusResource(I)V
@@ -2063,7 +2004,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setThumbStrokeColor(Landroid/content/res/ColorStateList;)V
@@ -2100,7 +2040,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setThumbStrokeColorResource(I)V
@@ -2137,7 +2076,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setThumbStrokeWidth(F)V
@@ -2170,7 +2108,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setThumbStrokeWidthResource(I)V
@@ -2207,7 +2144,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setThumbTintList(Landroid/content/res/ColorStateList;)V
@@ -2244,7 +2180,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setTickActiveRadius(I)V
@@ -2285,7 +2220,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setTickActiveTintList(Landroid/content/res/ColorStateList;)V
@@ -2322,7 +2256,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setTickInactiveRadius(I)V
@@ -2363,7 +2296,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setTickInactiveTintList(Landroid/content/res/ColorStateList;)V
@@ -2400,7 +2332,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setTickTintList(Landroid/content/res/ColorStateList;)V
@@ -2437,7 +2368,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setTickVisible(Z)V
@@ -2470,7 +2400,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setTrackActiveTintList(Landroid/content/res/ColorStateList;)V
@@ -2507,7 +2436,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setTrackHeight(I)V
@@ -2548,7 +2476,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setTrackInactiveTintList(Landroid/content/res/ColorStateList;)V
@@ -2585,7 +2512,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setTrackTintList(Landroid/content/res/ColorStateList;)V
@@ -2622,7 +2548,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setValue(F)V
@@ -2663,7 +2588,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setValueFrom(F)V
@@ -2696,7 +2620,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setValueTo(F)V
@@ -2729,5 +2652,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

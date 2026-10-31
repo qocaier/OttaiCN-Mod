@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/p;
+.implements Lq8/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/BufferedChannelKt;->y()Lum/i;
+    value = Lkotlinx/coroutines/channels/BufferedChannelKt;->y()Lkotlin/reflect/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,12 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/p<",
-        "Ljava/lang/Long;",
-        "Lhn/h<",
-        "TE;>;",
-        "Lhn/h<",
-        "TE;>;>;"
+        "Lq8/p;"
     }
 .end annotation
 
@@ -68,39 +63,38 @@
 
 
 # virtual methods
-.method public final invoke(JLhn/h;)Lhn/h;
-    .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(J",
-            "Lhn/h<",
-            "TE;>;)",
-            "Lhn/h<",
-            "TE;>;"
-        }
-    .end annotation
-
-    .line 1
-    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannelKt;->c(JLhn/h;)Lhn/h;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
 
-    .line 2
+    .line 1
     check-cast p1, Ljava/lang/Number;
 
     invoke-virtual {p1}, Ljava/lang/Number;->longValue()J
 
     move-result-wide v0
 
-    check-cast p2, Lhn/h;
+    check-cast p2, Lkotlinx/coroutines/channels/l;
 
-    invoke-virtual {p0, v0, v1, p2}, Lkotlinx/coroutines/channels/BufferedChannelKt$createSegmentFunction$1;->invoke(JLhn/h;)Lhn/h;
+    invoke-virtual {p0, v0, v1, p2}, Lkotlinx/coroutines/channels/BufferedChannelKt$createSegmentFunction$1;->invoke(JLkotlinx/coroutines/channels/l;)Lkotlinx/coroutines/channels/l;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invoke(JLkotlinx/coroutines/channels/l;)Lkotlinx/coroutines/channels/l;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(J",
+            "Lkotlinx/coroutines/channels/l;",
+            ")",
+            "Lkotlinx/coroutines/channels/l;"
+        }
+    .end annotation
+
+    .line 2
+    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannelKt;->c(JLkotlinx/coroutines/channels/l;)Lkotlinx/coroutines/channels/l;
 
     move-result-object p1
 

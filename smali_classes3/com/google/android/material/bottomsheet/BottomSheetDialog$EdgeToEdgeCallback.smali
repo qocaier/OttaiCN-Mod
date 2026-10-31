@@ -335,8 +335,6 @@
     return-void
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -375,7 +373,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onSlide(Landroid/view/View;F)V
@@ -448,11 +445,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onStateChanged(Landroid/view/View;I)V
@@ -525,11 +517,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setWindow(Landroid/view/Window;)V
@@ -591,5 +578,4 @@
     :cond_1
     :goto_0
     return-void
-    .line 25
 .end method

@@ -1,90 +1,118 @@
-.class public final Lkotlin/random/a;
-.super Ljava/lang/Object;
+.class public abstract Lkotlin/random/a;
+.super Lkotlin/random/Random;
 .source "SourceFile"
 
 
 # direct methods
-.method public static final a(Lkotlin/random/Random;)Ljava/util/Random;
-    .locals 1
-    .param p0    # Lkotlin/random/Random;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Ljl/x0;
-        version = "1.3"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
+.method public constructor <init>()V
+    .locals 0
 
     .line 1
-    const-string v0, "<this>"
+    invoke-direct {p0}, Lkotlin/random/Random;-><init>()V
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
     .line 4
+    return-void
     .line 5
     .line 6
-    instance-of v0, p0, Lrm/a;
-
     .line 7
     .line 8
-    if-eqz v0, :cond_0
-
     .line 9
     .line 10
-    move-object v0, p0
-
     .line 11
-    check-cast v0, Lrm/a;
-
     .line 12
     .line 13
-    goto :goto_0
-
     .line 14
-    :cond_0
-    const/4 v0, 0x0
-
     .line 15
-    :goto_0
-    if-eqz v0, :cond_2
-
     .line 16
     .line 17
-    invoke-virtual {v0}, Lrm/a;->getImpl()Ljava/util/Random;
-
     .line 18
     .line 19
     .line 20
-    move-result-object v0
-
     .line 21
-    if-nez v0, :cond_1
-
     .line 22
     .line 23
-    goto :goto_1
-
     .line 24
-    :cond_1
-    return-object v0
-
     .line 25
-    :cond_2
-    :goto_1
-    new-instance v0, Lkotlin/random/KotlinRandom;
-
     .line 26
     .line 27
-    invoke-direct {v0, p0}, Lkotlin/random/KotlinRandom;-><init>(Lkotlin/random/Random;)V
-
     .line 28
     .line 29
     .line 30
-    return-object v0
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+
+# virtual methods
+.method public abstract getImpl()Ljava/util/Random;
+.end method
+
+.method public nextBits(I)I
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/random/a;->getImpl()Ljava/util/Random;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Ljava/util/Random;->nextInt()I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    invoke-static {v0, p1}, Lkotlin/random/d;->f(II)I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p1
+
+    .line 13
+    return p1
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
     .line 31
     .line 32
     .line 33
@@ -112,108 +140,116 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public static final b(Ljava/util/Random;)Lkotlin/random/Random;
+.method public nextBoolean()Z
     .locals 1
-    .param p0    # Ljava/util/Random;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Ljl/x0;
-        version = "1.3"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    const-string v0, "<this>"
+    invoke-virtual {p0}, Lkotlin/random/a;->getImpl()Ljava/util/Random;
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Ljava/util/Random;->nextBoolean()Z
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    return v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public nextBytes([B)[B
+    .locals 1
+
+    .line 1
+    const-string v0, "array"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    instance-of v0, p0, Lkotlin/random/KotlinRandom;
+    invoke-virtual {p0}, Lkotlin/random/a;->getImpl()Ljava/util/Random;
 
     .line 7
     .line 8
-    if-eqz v0, :cond_0
-
     .line 9
+    move-result-object v0
+
     .line 10
-    move-object v0, p0
+    invoke-virtual {v0, p1}, Ljava/util/Random;->nextBytes([B)V
 
     .line 11
-    check-cast v0, Lkotlin/random/KotlinRandom;
-
     .line 12
     .line 13
-    goto :goto_0
-
+    return-object p1
     .line 14
-    :cond_0
-    const/4 v0, 0x0
-
     .line 15
-    :goto_0
-    if-eqz v0, :cond_2
-
     .line 16
     .line 17
-    invoke-virtual {v0}, Lkotlin/random/KotlinRandom;->getImpl()Lkotlin/random/Random;
-
     .line 18
     .line 19
     .line 20
-    move-result-object v0
-
     .line 21
-    if-nez v0, :cond_1
-
     .line 22
     .line 23
-    goto :goto_1
-
     .line 24
-    :cond_1
-    return-object v0
-
     .line 25
-    :cond_2
-    :goto_1
-    new-instance v0, Lkotlin/random/PlatformRandom;
-
     .line 26
     .line 27
-    invoke-direct {v0, p0}, Lkotlin/random/PlatformRandom;-><init>(Ljava/util/Random;)V
-
     .line 28
     .line 29
     .line 30
-    return-object v0
     .line 31
     .line 32
     .line 33
@@ -241,83 +277,226 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public static final c()Lkotlin/random/Random;
-    .locals 1
-    .annotation build Lam/f;
-    .end annotation
-
-    .line 1
-    sget-object v0, Lam/n;->a:Lam/m;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0}, Lam/m;->b()Lkotlin/random/Random;
-
-    .line 4
-    .line 5
-    .line 6
-    move-result-object v0
-
-    .line 7
-    return-object v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public static final d(II)D
+.method public nextDouble()D
     .locals 2
 
     .line 1
-    int-to-long v0, p0
+    invoke-virtual {p0}, Lkotlin/random/a;->getImpl()Ljava/util/Random;
 
-    const/16 p0, 0x1b
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
 
-    shl-long/2addr v0, p0
+    .line 5
+    invoke-virtual {v0}, Ljava/util/Random;->nextDouble()D
 
-    int-to-long p0, p1
+    .line 6
+    .line 7
+    .line 8
+    move-result-wide v0
 
-    add-long/2addr v0, p0
+    .line 9
+    return-wide v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
 
-    long-to-double p0, v0
+.method public nextFloat()F
+    .locals 1
 
-    const-wide/high16 v0, 0x4340000000000000L    # 9.007199254740992E15
+    .line 1
+    invoke-virtual {p0}, Lkotlin/random/a;->getImpl()Ljava/util/Random;
 
-    div-double/2addr p0, v0
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
 
-    return-wide p0
+    .line 5
+    invoke-virtual {v0}, Ljava/util/Random;->nextFloat()F
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    return v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public nextInt()I
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/random/a;->getImpl()Ljava/util/Random;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/util/Random;->nextInt()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public nextInt(I)I
+    .locals 1
+
+    .line 2
+    invoke-virtual {p0}, Lkotlin/random/a;->getImpl()Ljava/util/Random;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Ljava/util/Random;->nextInt(I)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public nextLong()J
+    .locals 2
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/random/a;->getImpl()Ljava/util/Random;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-virtual {v0}, Ljava/util/Random;->nextLong()J
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-wide v0
+
+    .line 9
+    return-wide v0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

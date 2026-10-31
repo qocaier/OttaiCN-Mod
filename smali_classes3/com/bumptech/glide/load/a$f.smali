@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/bumptech/glide/load/a;->a(Ljava/util/List;Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Le6/b;)I
+    value = Lcom/bumptech/glide/load/a;->a(Ljava/util/List;Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)I
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,11 +20,11 @@
 # instance fields
 .field public final synthetic a:Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;
 
-.field public final synthetic b:Le6/b;
+.field public final synthetic b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
 
 # direct methods
-.method public constructor <init>(Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Le6/b;)V
+.method public constructor <init>(Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)V
     .locals 0
 
     .line 1
@@ -32,7 +32,7 @@
 
     .line 2
     .line 3
-    iput-object p2, p0, Lcom/bumptech/glide/load/a$f;->b:Le6/b;
+    iput-object p2, p0, Lcom/bumptech/glide/load/a$f;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     .line 4
     .line 5
@@ -94,22 +94,12 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
 .method public a(Lcom/bumptech/glide/load/ImageHeaderParser;)I
     .locals 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -149,11 +139,11 @@
     .line 17
     .line 18
     .line 19
-    iget-object v3, p0, Lcom/bumptech/glide/load/a$f;->b:Le6/b;
+    iget-object v3, p0, Lcom/bumptech/glide/load/a$f;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     .line 20
     .line 21
-    invoke-direct {v1, v2, v3}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;-><init>(Ljava/io/InputStream;Le6/b;)V
+    invoke-direct {v1, v2, v3}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;-><init>(Ljava/io/InputStream;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
@@ -161,11 +151,11 @@
     .line 23
     .line 24
     :try_start_1
-    iget-object v0, p0, Lcom/bumptech/glide/load/a$f;->b:Le6/b;
+    iget-object v0, p0, Lcom/bumptech/glide/load/a$f;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     .line 25
     .line 26
-    invoke-interface {p1, v1, v0}, Lcom/bumptech/glide/load/ImageHeaderParser;->a(Ljava/io/InputStream;Le6/b;)I
+    invoke-interface {p1, v1, v0}, Lcom/bumptech/glide/load/ImageHeaderParser;->d(Ljava/io/InputStream;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)I
 
     .line 27
     .line 28
@@ -175,7 +165,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 30
-    invoke-virtual {v1}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->release()V
+    invoke-virtual {v1}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->c()V
 
     .line 31
     .line 32
@@ -211,7 +201,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {v0}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->release()V
+    invoke-virtual {v0}, Lcom/bumptech/glide/load/resource/bitmap/RecyclableBufferedInputStream;->c()V
 
     .line 46
     .line 47
@@ -265,6 +255,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

@@ -38,6 +38,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getLocales(Landroid/content/res/Configuration;)Landroidx/core/os/LocaleListCompat;

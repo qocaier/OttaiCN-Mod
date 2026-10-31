@@ -39,20 +39,8 @@
     .line 25
 .end method
 
-.method public static final trackPipAnimationHintView(Landroid/app/Activity;Landroid/view/View;Lul/c;)Ljava/lang/Object;
+.method public static final trackPipAnimationHintView(Landroid/app/Activity;Landroid/view/View;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 2
-    .param p0    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
@@ -62,15 +50,10 @@
             "(",
             "Landroid/app/Activity;",
             "Landroid/view/View;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -81,12 +64,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, p1, v1}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;-><init>(Landroid/view/View;Lul/c;)V
+    invoke-direct {v0, p1, v1}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;-><init>(Landroid/view/View;Lkotlin/coroutines/e;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-static {v0}, Ljn/g;->t(Ljm/p;)Ljn/e;
+    invoke-static {v0}, Lkotlinx/coroutines/flow/e;->f(Lq8/p;)Lkotlinx/coroutines/flow/c;
 
     .line 8
     .line 9
@@ -103,7 +86,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-interface {p1, v0, p2}, Ljn/e;->collect(Ljn/f;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p1, v0, p2}, Lkotlinx/coroutines/flow/c;->collect(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -111,7 +94,7 @@
     move-result-object p0
 
     .line 20
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -127,7 +110,7 @@
 
     .line 27
     :cond_0
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
 
     .line 28
     .line 29
@@ -216,6 +199,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static final trackPipAnimationHintView$positionInWindow(Landroid/view/View;)Landroid/graphics/Rect;

@@ -1,10 +1,9 @@
-.class public interface abstract Lcom/google/android/gms/common/api/a$d$a;
+.class public final Lcom/google/android/gms/common/api/a$d$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/google/android/gms/common/api/a$d$c;
-.implements Lcom/google/android/gms/common/api/a$d$e;
+.implements Lcom/google/android/gms/common/api/a$d;
 
 
 # annotations
@@ -13,13 +12,16 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x609
+    accessFlags = 0x19
     name = "a"
 .end annotation
 
 
-# virtual methods
-.method public abstract getAccount()Landroid/accounts/Account;
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
+# direct methods
+.method public synthetic constructor <init>(Lcom/google/android/gms/common/api/i;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
 .end method

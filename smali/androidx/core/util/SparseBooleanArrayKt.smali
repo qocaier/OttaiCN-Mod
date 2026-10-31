@@ -3,25 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSparseBooleanArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SparseBooleanArray.kt\nandroidx/core/util/SparseBooleanArrayKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,102:1\n78#1,4:104\n1#2:103\n*S KotlinDebug\n*F\n+ 1 SparseBooleanArray.kt\nandroidx/core/util/SparseBooleanArrayKt\n*L\n74#1:104,4\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSparseBooleanArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SparseBooleanArray.kt\nandroidx/core/util/SparseBooleanArrayKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,102:1\n78#1,4:104\n1#2:103\n*S KotlinDebug\n*F\n+ 1 SparseBooleanArray.kt\nandroidx/core/util/SparseBooleanArrayKt\n*L\n74#1:104,4\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final contains(Landroid/util/SparseBooleanArray;I)Z
     .locals 0
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/util/SparseBooleanArray;->indexOfKey(I)I
@@ -89,10 +73,6 @@
 
 .method public static final containsKey(Landroid/util/SparseBooleanArray;I)Z
     .locals 0
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/util/SparseBooleanArray;->indexOfKey(I)I
@@ -160,10 +140,6 @@
 
 .method public static final containsValue(Landroid/util/SparseBooleanArray;Z)Z
     .locals 0
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/util/SparseBooleanArray;->indexOfValue(Z)I
@@ -229,27 +205,14 @@
     .line 48
 .end method
 
-.method public static final forEach(Landroid/util/SparseBooleanArray;Ljm/p;)V
+.method public static final forEach(Landroid/util/SparseBooleanArray;Lq8/p;)V
     .locals 4
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/util/SparseBooleanArray;",
-            "Ljm/p<",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Boolean;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/p;",
+            ")V"
         }
     .end annotation
 
@@ -302,7 +265,7 @@
     move-result-object v3
 
     .line 24
-    invoke-interface {p1, v2, v3}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -338,10 +301,6 @@
 
 .method public static final getOrDefault(Landroid/util/SparseBooleanArray;IZ)Z
     .locals 0
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroid/util/SparseBooleanArray;->get(IZ)Z
@@ -461,26 +420,20 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final getOrElse(Landroid/util/SparseBooleanArray;ILjm/a;)Z
+.method public static final getOrElse(Landroid/util/SparseBooleanArray;ILq8/a;)Z
     .locals 0
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/util/SparseBooleanArray;",
             "I",
-            "Ljm/a<",
-            "Ljava/lang/Boolean;",
-            ">;)Z"
+            "Lq8/a;",
+            ")Z"
         }
     .end annotation
 
@@ -509,7 +462,7 @@
 
     .line 12
     :cond_0
-    invoke-interface {p2}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -621,14 +574,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final getSize(Landroid/util/SparseBooleanArray;)I
     .locals 0
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/util/SparseBooleanArray;->size()I
@@ -664,10 +616,6 @@
 
 .method public static final isEmpty(Landroid/util/SparseBooleanArray;)Z
     .locals 0
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/util/SparseBooleanArray;->size()I
@@ -712,10 +660,6 @@
 
 .method public static final isNotEmpty(Landroid/util/SparseBooleanArray;)Z
     .locals 0
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/util/SparseBooleanArray;->size()I
@@ -758,14 +702,8 @@
     .line 25
 .end method
 
-.method public static final keyIterator(Landroid/util/SparseBooleanArray;)Lll/c1;
+.method public static final keyIterator(Landroid/util/SparseBooleanArray;)Lkotlin/collections/c0;
     .locals 1
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/core/util/SparseBooleanArrayKt$keyIterator$1;
@@ -801,16 +739,6 @@
 
 .method public static final plus(Landroid/util/SparseBooleanArray;Landroid/util/SparseBooleanArray;)Landroid/util/SparseBooleanArray;
     .locals 3
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/util/SparseBooleanArray;
@@ -883,14 +811,6 @@
 
 .method public static final putAll(Landroid/util/SparseBooleanArray;Landroid/util/SparseBooleanArray;)V
     .locals 4
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p1}, Landroid/util/SparseBooleanArray;->size()I
@@ -969,10 +889,6 @@
 
 .method public static final remove(Landroid/util/SparseBooleanArray;IZ)Z
     .locals 1
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/util/SparseBooleanArray;->indexOfKey(I)I
@@ -1109,14 +1025,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final set(Landroid/util/SparseBooleanArray;IZ)V
     .locals 0
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroid/util/SparseBooleanArray;->put(IZ)V
@@ -1234,16 +1149,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final valueIterator(Landroid/util/SparseBooleanArray;)Lll/c0;
+.method public static final valueIterator(Landroid/util/SparseBooleanArray;)Lkotlin/collections/o;
     .locals 1
-    .param p0    # Landroid/util/SparseBooleanArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/core/util/SparseBooleanArrayKt$valueIterator$1;

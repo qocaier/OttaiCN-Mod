@@ -7,35 +7,21 @@
 
 
 # instance fields
-.field private final coroutineContext:Lkotlin/coroutines/d;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final coroutineContext:Lkotlin/coroutines/i;
 
 .field private final lifecycle:Landroidx/lifecycle/Lifecycle;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
-.method public constructor <init>(Landroidx/lifecycle/Lifecycle;Lkotlin/coroutines/d;)V
+.method public constructor <init>(Landroidx/lifecycle/Lifecycle;Lkotlin/coroutines/i;)V
     .locals 1
-    .param p1    # Landroidx/lifecycle/Lifecycle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "lifecycle"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -44,7 +30,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -58,7 +44,7 @@
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->coroutineContext:Lkotlin/coroutines/d;
+    iput-object p2, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->coroutineContext:Lkotlin/coroutines/i;
 
     .line 17
     .line 18
@@ -86,7 +72,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->getCoroutineContext()Lkotlin/coroutines/d;
+    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->getCoroutineContext()Lkotlin/coroutines/i;
 
     .line 31
     .line 32
@@ -100,7 +86,7 @@
     const/4 v0, 0x0
 
     .line 36
-    invoke-static {p1, v0, p2, v0}, Lfn/x1;->i(Lkotlin/coroutines/d;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
+    invoke-static {p1, v0, p2, v0}, Lkotlinx/coroutines/u1;->d(Lkotlin/coroutines/i;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
     .line 37
     .line 38
@@ -120,13 +106,11 @@
 
 
 # virtual methods
-.method public getCoroutineContext()Lkotlin/coroutines/d;
+.method public getCoroutineContext()Lkotlin/coroutines/i;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->coroutineContext:Lkotlin/coroutines/d;
+    iget-object v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->coroutineContext:Lkotlin/coroutines/i;
 
     .line 2
     .line 3
@@ -148,12 +132,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLifecycle$lifecycle_common()Landroidx/lifecycle/Lifecycle;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->lifecycle:Landroidx/lifecycle/Lifecycle;
@@ -178,25 +161,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 1
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/lifecycle/Lifecycle$Event;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "source"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -205,7 +181,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -255,7 +231,7 @@
     .line 32
     .line 33
     .line 34
-    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->getCoroutineContext()Lkotlin/coroutines/d;
+    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->getCoroutineContext()Lkotlin/coroutines/i;
 
     .line 35
     .line 36
@@ -269,7 +245,7 @@
     const/4 v0, 0x0
 
     .line 40
-    invoke-static {p1, v0, p2, v0}, Lfn/x1;->i(Lkotlin/coroutines/d;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
+    invoke-static {p1, v0, p2, v0}, Lkotlinx/coroutines/u1;->d(Lkotlin/coroutines/i;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
     .line 41
     .line 42
@@ -287,7 +263,7 @@
     .locals 7
 
     .line 1
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     .line 2
     .line 3
@@ -295,7 +271,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lfn/d2;->l()Lfn/d2;
+    invoke-virtual {v0}, Lkotlinx/coroutines/z1;->e()Lkotlinx/coroutines/z1;
 
     .line 6
     .line 7
@@ -310,7 +286,7 @@
     const/4 v0, 0x0
 
     .line 12
-    invoke-direct {v4, p0, v0}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScopeImpl;Lul/c;)V
+    invoke-direct {v4, p0, v0}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl$register$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScopeImpl;Lkotlin/coroutines/e;)V
 
     .line 13
     .line 14
@@ -327,7 +303,7 @@
     move-object v1, p0
 
     .line 19
-    invoke-static/range {v1 .. v6}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v1 .. v6}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 20
     .line 21
@@ -395,4 +371,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

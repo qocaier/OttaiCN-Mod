@@ -53,6 +53,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private synthetic a(Lcom/qiyukf/nimlib/sdk/msg/model/SessionAckInfo;)Ljava/lang/Boolean;
@@ -627,9 +629,9 @@
 
     .line 42
     :cond_2
-    new-instance v0, Lvg/f;
+    new-instance v0, Lcom/qiyukf/zd0;
 
-    invoke-direct {v0, p0}, Lvg/f;-><init>(Lcom/qiyukf/d5;)V
+    invoke-direct {v0, p0}, Lcom/qiyukf/zd0;-><init>(Lcom/qiyukf/d5;)V
 
     invoke-static {p2, v0}, Lcom/qiyukf/p4;->c(Ljava/util/Collection;Lcom/qiyukf/p4$a;)Ljava/util/List;
 

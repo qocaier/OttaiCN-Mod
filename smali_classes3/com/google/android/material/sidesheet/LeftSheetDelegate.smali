@@ -62,7 +62,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -101,7 +100,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public calculateSlideOffset(I)F
@@ -152,7 +150,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getCoplanarSiblingAdjacentMargin(Landroid/view/ViewGroup$MarginLayoutParams;)I
@@ -189,7 +186,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getExpandedOffset()I
@@ -238,7 +234,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHiddenOffset()I
@@ -283,7 +278,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMaxViewPositionHorizontal()I
@@ -318,7 +312,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMinViewPositionHorizontal()I
@@ -355,7 +348,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOuterEdge(Landroid/view/View;)I
@@ -409,7 +401,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getParentInnerEdge(Landroidx/coordinatorlayout/widget/CoordinatorLayout;)I
@@ -448,7 +439,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getSheetEdge()I
@@ -535,7 +525,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isSwipeSignificant(FF)Z
@@ -631,11 +620,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public shouldHide(Landroid/view/View;F)Z
@@ -743,11 +727,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public updateCoplanarSiblingAdjacentMargin(Landroid/view/ViewGroup$MarginLayoutParams;I)V
@@ -820,11 +799,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public updateCoplanarSiblingLayoutParams(Landroid/view/ViewGroup$MarginLayoutParams;II)V
@@ -993,9 +967,4 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method

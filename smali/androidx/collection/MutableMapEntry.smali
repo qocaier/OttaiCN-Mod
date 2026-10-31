@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/Map$Entry;
-.implements Llm/g$a;
+.implements Lr8/b$a;
 
 
 # annotations
@@ -18,7 +18,7 @@
         "Ljava/lang/Object;",
         "Ljava/util/Map$Entry<",
         "TK;TV;>;",
-        "Llm/g$a;"
+        "Lr8/b$a;"
     }
 .end annotation
 
@@ -27,34 +27,20 @@
 .field private final index:I
 
 .field private final keys:[Ljava/lang/Object;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final values:[Ljava/lang/Object;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>([Ljava/lang/Object;[Ljava/lang/Object;I)V
     .locals 1
-    .param p1    # [Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # [Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "keys"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -63,7 +49,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -179,6 +165,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic getKey$annotations()V
@@ -221,6 +210,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getKey()Ljava/lang/Object;
@@ -258,12 +248,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getKeys()[Ljava/lang/Object;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/collection/MutableMapEntry;->keys:[Ljava/lang/Object;
@@ -288,6 +277,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getValue()Ljava/lang/Object;
@@ -325,12 +315,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getValues()[Ljava/lang/Object;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/collection/MutableMapEntry;->values:[Ljava/lang/Object;
@@ -355,6 +344,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setValue(Ljava/lang/Object;)Ljava/lang/Object;

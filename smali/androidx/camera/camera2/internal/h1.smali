@@ -3,38 +3,46 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/arch/core/util/Function;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/ProcessingCaptureSession;
+.field public final synthetic a:Landroidx/camera/camera2/internal/ExposureControl;
+
+.field public final synthetic b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+
+.field public final synthetic c:I
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/ProcessingCaptureSession;)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/ExposureControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;I)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/h1;->a:Landroidx/camera/camera2/internal/ProcessingCaptureSession;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/h1;->a:Landroidx/camera/camera2/internal/ExposureControl;
+
+    iput-object p2, p0, Landroidx/camera/camera2/internal/h1;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+
+    iput p3, p0, Landroidx/camera/camera2/internal/h1;->c:I
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 1
+.method public final run()V
+    .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/h1;->a:Landroidx/camera/camera2/internal/ProcessingCaptureSession;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/h1;->a:Landroidx/camera/camera2/internal/ExposureControl;
 
-    check-cast p1, Ljava/lang/Void;
+    iget-object v1, p0, Landroidx/camera/camera2/internal/h1;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
-    invoke-static {v0, p1}, Landroidx/camera/camera2/internal/ProcessingCaptureSession;->a(Landroidx/camera/camera2/internal/ProcessingCaptureSession;Ljava/lang/Void;)Ljava/lang/Void;
+    iget v2, p0, Landroidx/camera/camera2/internal/h1;->c:I
 
-    move-result-object p1
+    invoke-static {v0, v1, v2}, Landroidx/camera/camera2/internal/ExposureControl;->a(Landroidx/camera/camera2/internal/ExposureControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;I)V
 
-    return-object p1
+    return-void
 .end method

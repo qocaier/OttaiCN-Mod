@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lum/j;
+.implements Lkotlin/reflect/k;
 
 
 # direct methods
@@ -18,9 +18,6 @@
 
 .method public constructor <init>(Ljava/lang/Object;)V
     .locals 0
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
 
     .line 2
     invoke-direct {p0, p1}, Lkotlin/jvm/internal/PropertyReference;-><init>(Ljava/lang/Object;)V
@@ -30,12 +27,17 @@
 
 .method public constructor <init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 0
-    .annotation build Ljl/x0;
-        version = "1.4"
-    .end annotation
 
     .line 3
     invoke-direct/range {p0 .. p5}, Lkotlin/jvm/internal/PropertyReference;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 
     return-void
+.end method
+
+
+# virtual methods
+.method public abstract synthetic getGetter()Lkotlin/reflect/k$a;
+.end method
+
+.method public abstract synthetic getSetter()Lkotlin/reflect/g;
 .end method

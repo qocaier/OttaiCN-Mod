@@ -48,7 +48,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static newInstance()Lcom/baidu/mapapi/search/poi/PoiSearch;
@@ -83,7 +82,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -131,7 +129,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public searchInBound(Lcom/baidu/mapapi/search/poi/PoiBoundSearchOption;)Z
@@ -265,8 +262,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public searchInCity(Lcom/baidu/mapapi/search/poi/PoiCitySearchOption;)Z
@@ -400,8 +395,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public searchNearby(Lcom/baidu/mapapi/search/poi/PoiNearbySearchOption;)Z
@@ -544,8 +537,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public searchPoiDetail(Lcom/baidu/mapapi/search/poi/PoiDetailSearchOption;)Z
@@ -679,8 +670,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public searchPoiIndoor(Lcom/baidu/mapapi/search/poi/PoiIndoorOption;)Z
@@ -814,8 +803,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setOnGetPoiSearchResultListener(Lcom/baidu/mapapi/search/poi/OnGetPoiSearchResultListener;)V
@@ -939,6 +926,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

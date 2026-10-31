@@ -83,7 +83,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -275,7 +274,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$200(Lcom/google/android/material/chip/ChipGroup;)Lcom/google/android/material/internal/CheckableGroup;
@@ -308,7 +306,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getVisibleChipCount()I
@@ -448,15 +445,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private isChildVisible(I)Z
@@ -504,7 +492,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -545,7 +532,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public checkLayoutParams(Landroid/view/ViewGroup$LayoutParams;)Z
@@ -593,7 +579,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public clearCheck()V
@@ -626,7 +611,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public generateDefaultLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -663,7 +647,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
@@ -730,7 +713,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCheckedChipIds()Ljava/util/List;
@@ -776,7 +758,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getChipSpacingHorizontal()I
@@ -809,7 +790,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getChipSpacingVertical()I
@@ -842,7 +822,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIndexOfChip(Landroid/view/View;)I
@@ -993,8 +972,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public isSelectionRequired()Z
@@ -1029,7 +1006,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isSingleLine()Z
@@ -1062,7 +1038,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isSingleSelection()Z
@@ -1097,7 +1072,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onFinishInflate()V
@@ -1139,7 +1113,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
@@ -1289,8 +1262,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setChipSpacing(I)V
@@ -1329,7 +1300,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setChipSpacingHorizontal(I)V
@@ -1375,7 +1345,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setChipSpacingHorizontalResource(I)V
@@ -1420,7 +1389,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setChipSpacingResource(I)V
@@ -1465,7 +1433,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setChipSpacingVertical(I)V
@@ -1511,7 +1478,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setChipSpacingVerticalResource(I)V
@@ -1556,7 +1522,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDividerDrawableHorizontal(Landroid/graphics/drawable/Drawable;)V
@@ -1595,7 +1560,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDividerDrawableVertical(Landroid/graphics/drawable/Drawable;)V
@@ -1638,7 +1602,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFlexWrap(I)V
@@ -1677,7 +1640,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnCheckedChangeListener(Lcom/google/android/material/chip/ChipGroup$OnCheckedChangeListener;)V
@@ -1729,7 +1691,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnCheckedStateChangeListener(Lcom/google/android/material/chip/ChipGroup$OnCheckedStateChangeListener;)V
@@ -1766,7 +1727,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnHierarchyChangeListener(Landroid/view/ViewGroup$OnHierarchyChangeListener;)V
@@ -1801,7 +1761,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSelectionRequired(Z)V
@@ -1836,7 +1795,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShowDividerHorizontal(I)V
@@ -1875,7 +1833,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShowDividerVertical(I)V
@@ -1914,7 +1871,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSingleLine(I)V

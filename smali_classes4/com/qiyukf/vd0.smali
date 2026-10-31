@@ -7,17 +7,17 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/qiyukf/u;
+.field public final synthetic a:Lcom/qiyukf/ca0$a;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/qiyukf/u;)V
+.method public synthetic constructor <init>(Lcom/qiyukf/ca0$a;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/qiyukf/vd0;->a:Lcom/qiyukf/u;
+    iput-object p1, p0, Lcom/qiyukf/vd0;->a:Lcom/qiyukf/ca0$a;
 
     return-void
 .end method
@@ -28,9 +28,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/qiyukf/vd0;->a:Lcom/qiyukf/u;
+    iget-object v0, p0, Lcom/qiyukf/vd0;->a:Lcom/qiyukf/ca0$a;
 
-    invoke-static {v0}, Lcom/qiyukf/u;->b(Lcom/qiyukf/u;)V
+    invoke-static {v0}, Lcom/qiyukf/ca0$a;->a(Lcom/qiyukf/ca0$a;)V
 
     return-void
 .end method

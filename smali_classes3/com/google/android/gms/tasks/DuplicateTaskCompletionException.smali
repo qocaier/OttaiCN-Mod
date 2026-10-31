@@ -4,12 +4,8 @@
 
 
 # direct methods
-.method private constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
-    .param p2    # Ljava/lang/Throwable;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -74,11 +70,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static of(Lcom/google/android/gms/tasks/Task;)Ljava/lang/IllegalStateException;
@@ -93,14 +84,14 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/google/android/gms/tasks/Task<",
-            "*>;)",
+            "Lcom/google/android/gms/tasks/Task;",
+            ")",
             "Ljava/lang/IllegalStateException;"
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->u()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->i()Z
 
     .line 2
     .line 3
@@ -129,7 +120,7 @@
 
     .line 15
     :cond_0
-    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->q()Ljava/lang/Exception;
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->f()Ljava/lang/Exception;
 
     .line 16
     .line 17
@@ -149,7 +140,7 @@
 
     .line 24
     :cond_1
-    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->v()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->j()Z
 
     .line 25
     .line 26
@@ -161,7 +152,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->r()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->g()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -193,7 +184,7 @@
 
     .line 45
     :cond_2
-    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->t()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->h()Z
 
     .line 46
     .line 47
@@ -264,6 +255,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

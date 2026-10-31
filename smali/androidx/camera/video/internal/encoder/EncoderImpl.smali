@@ -145,12 +145,10 @@
     .end annotation
 .end field
 
-.field private final mReleasedFuture:Lub/u0;
+.field private final mReleasedFuture:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -222,6 +220,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Ljava/util/concurrent/Executor;Landroidx/camera/video/internal/encoder/EncoderConfig;)V
@@ -747,16 +746,16 @@
     .line 261
     .line 262
     .line 263
-    new-instance p2, Lh0/h;
+    new-instance p2, Landroidx/camera/video/internal/encoder/i;
 
     .line 264
     .line 265
-    invoke-direct {p2, p1}, Lh0/h;-><init>(Ljava/util/concurrent/atomic/AtomicReference;)V
+    invoke-direct {p2, p1}, Landroidx/camera/video/internal/encoder/i;-><init>(Ljava/util/concurrent/atomic/AtomicReference;)V
 
     .line 266
     .line 267
     .line 268
-    invoke-static {p2}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {p2}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 269
     .line 270
@@ -764,7 +763,7 @@
     move-result-object p2
 
     .line 272
-    invoke-static {p2}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {p2}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 273
     .line 274
@@ -772,7 +771,7 @@
     move-result-object p2
 
     .line 276
-    iput-object p2, p0, Landroidx/camera/video/internal/encoder/EncoderImpl;->mReleasedFuture:Lub/u0;
+    iput-object p2, p0, Landroidx/camera/video/internal/encoder/EncoderImpl;->mReleasedFuture:Lcom/google/common/util/concurrent/t;
 
     .line 277
     .line 278
@@ -2145,11 +2144,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lh0/j;
+    new-instance v1, Landroidx/camera/video/internal/encoder/k;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Lh0/j;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
+    invoke-direct {v1, p0}, Landroidx/camera/video/internal/encoder/k;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
 
     .line 6
     .line 7
@@ -2484,6 +2483,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static createEncoderInfo(ZLandroid/media/MediaCodecInfo;Ljava/lang/String;)Landroidx/camera/video/internal/encoder/EncoderInfo;
@@ -2632,6 +2634,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic d(Landroidx/camera/video/internal/encoder/EncoderImpl;Ljava/util/List;Ljava/lang/Runnable;)V
@@ -2804,6 +2809,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic e(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
@@ -2926,6 +2934,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic f(Landroidx/camera/video/internal/encoder/EncoderImpl;ILjava/lang/String;Ljava/lang/Throwable;)V
@@ -3164,6 +3173,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic g(Landroidx/camera/video/internal/encoder/EncoderImpl;J)V
@@ -3516,6 +3531,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic h(Landroidx/camera/video/internal/encoder/EncoderCallback;ILjava/lang/String;Ljava/lang/Throwable;)V
@@ -3758,6 +3776,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static hasEndOfStreamFlag(Landroid/media/MediaCodec$BufferInfo;)Z
@@ -4291,11 +4315,11 @@
     move-result-object p1
 
     .line 162
-    new-instance p2, Lh0/q;
+    new-instance p2, Landroidx/camera/video/internal/encoder/r;
 
     .line 163
     .line 164
-    invoke-direct {p2, p0}, Lh0/q;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
+    invoke-direct {p2, p0}, Landroidx/camera/video/internal/encoder/r;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
 
     .line 165
     .line 166
@@ -5106,6 +5130,169 @@
     .line 926
     .line 927
     .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
 .end method
 
 .method public static synthetic m(Landroidx/camera/video/internal/encoder/EncoderImpl;J)V
@@ -7171,6 +7358,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private releaseInternal()V
@@ -7299,6 +7487,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private reset()V
@@ -7788,6 +7978,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private setState(Landroidx/camera/video/internal/encoder/EncoderImpl$InternalState;)V
@@ -7907,13 +8149,14 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private signalEndOfInputStream()V
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/camera/video/internal/encoder/EncoderImpl;->acquireInputBuffer()Lub/u0;
+    invoke-virtual {p0}, Landroidx/camera/video/internal/encoder/EncoderImpl;->acquireInputBuffer()Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -7934,7 +8177,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1, v2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {v0, v1, v2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 13
     .line 14
@@ -7945,11 +8188,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
-.method public acquireInputBuffer()Lub/u0;
+.method public acquireInputBuffer()Lcom/google/common/util/concurrent/t;
     .locals 4
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -7957,9 +8201,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Landroidx/camera/video/internal/encoder/InputBuffer;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -8050,7 +8292,7 @@
     .line 44
     .line 45
     .line 46
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 47
     .line 48
@@ -8075,7 +8317,7 @@
     .line 56
     .line 57
     .line 58
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 59
     .line 60
@@ -8096,16 +8338,16 @@
     .line 66
     .line 67
     .line 68
-    new-instance v1, Lh0/f;
+    new-instance v1, Landroidx/camera/video/internal/encoder/f;
 
     .line 69
     .line 70
-    invoke-direct {v1, v0}, Lh0/f;-><init>(Ljava/util/concurrent/atomic/AtomicReference;)V
+    invoke-direct {v1, v0}, Landroidx/camera/video/internal/encoder/f;-><init>(Ljava/util/concurrent/atomic/AtomicReference;)V
 
     .line 71
     .line 72
     .line 73
-    invoke-static {v1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 74
     .line 75
@@ -8146,11 +8388,11 @@
     .line 92
     .line 93
     .line 94
-    new-instance v2, Lh0/g;
+    new-instance v2, Landroidx/camera/video/internal/encoder/g;
 
     .line 95
     .line 96
-    invoke-direct {v2, p0, v0}, Lh0/g;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+    invoke-direct {v2, p0, v0}, Landroidx/camera/video/internal/encoder/g;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
 
     .line 97
     .line 98
@@ -8186,7 +8428,7 @@
     .line 113
     .line 114
     .line 115
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 116
     .line 117
@@ -8469,6 +8711,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public generatePresentationTimeUs()J
@@ -8501,6 +8795,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAdjustedTimeUs(Landroid/media/MediaCodec$BufferInfo;)J
@@ -8600,6 +8895,7 @@
     .line 19
     return v0
     .line 20
+    .line 21
 .end method
 
 .method public getEncoderInfo()Landroidx/camera/video/internal/encoder/EncoderInfo;
@@ -8630,6 +8926,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInput()Landroidx/camera/video/internal/encoder/Encoder$EncoderInput;
@@ -8660,9 +8957,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public getReleasedFuture()Lub/u0;
+.method public getReleasedFuture()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -8670,14 +8968,12 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/internal/encoder/EncoderImpl;->mReleasedFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/video/internal/encoder/EncoderImpl;->mReleasedFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -8699,6 +8995,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public handleEncodeError(ILjava/lang/String;Ljava/lang/Throwable;)V
@@ -8766,9 +9063,9 @@
     invoke-direct {p0, v0}, Landroidx/camera/video/internal/encoder/EncoderImpl;->setState(Landroidx/camera/video/internal/encoder/EncoderImpl$InternalState;)V
 
     .line 5
-    new-instance v0, Lh0/o;
+    new-instance v0, Landroidx/camera/video/internal/encoder/p;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Lh0/o;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;ILjava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/camera/video/internal/encoder/p;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;ILjava/lang/String;Ljava/lang/Throwable;)V
 
     invoke-virtual {p0, v0}, Landroidx/camera/video/internal/encoder/EncoderImpl;->stopMediaCodec(Ljava/lang/Runnable;)V
 
@@ -8945,6 +9242,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isInPauseRange(J)Z
@@ -9080,6 +9379,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public matchAcquisitionsAndFreeBufferIndexes()V
@@ -9206,7 +9506,7 @@
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v2}, Landroidx/camera/video/internal/encoder/InputBufferImpl;->getTerminationFuture()Lub/u0;
+    invoke-virtual {v2}, Landroidx/camera/video/internal/encoder/InputBufferImpl;->getTerminationFuture()Lcom/google/common/util/concurrent/t;
 
     .line 62
     .line 63
@@ -9214,11 +9514,11 @@
     move-result-object v0
 
     .line 65
-    new-instance v1, Landroidx/camera/video/internal/encoder/a;
+    new-instance v1, Landroidx/camera/video/internal/encoder/h;
 
     .line 66
     .line 67
-    invoke-direct {v1, p0, v2}, Landroidx/camera/video/internal/encoder/a;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;Landroidx/camera/video/internal/encoder/InputBufferImpl;)V
+    invoke-direct {v1, p0, v2}, Landroidx/camera/video/internal/encoder/h;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;Landroidx/camera/video/internal/encoder/InputBufferImpl;)V
 
     .line 68
     .line 69
@@ -9227,7 +9527,7 @@
 
     .line 71
     .line 72
-    invoke-interface {v0, v1, v2}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v0, v1, v2}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 73
     .line 74
@@ -9255,6 +9555,8 @@
     .line 84
     :cond_1
     return-void
+    .line 85
+    .line 86
 .end method
 
 .method public notifyError(ILjava/lang/String;Ljava/lang/Throwable;)V
@@ -9291,11 +9593,11 @@
 
     .line 9
     :try_start_1
-    new-instance v0, Lh0/c;
+    new-instance v0, Landroidx/camera/video/internal/encoder/c;
 
     .line 10
     .line 11
-    invoke-direct {v0, v1, p1, p2, p3}, Lh0/c;-><init>(Landroidx/camera/video/internal/encoder/EncoderCallback;ILjava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v0, v1, p1, p2, p3}, Landroidx/camera/video/internal/encoder/c;-><init>(Landroidx/camera/video/internal/encoder/EncoderCallback;ILjava/lang/String;Ljava/lang/Throwable;)V
 
     .line 12
     .line 13
@@ -9425,6 +9727,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public pause()V
@@ -9443,11 +9748,11 @@
 
     .line 6
     .line 7
-    new-instance v3, Lh0/i;
+    new-instance v3, Landroidx/camera/video/internal/encoder/j;
 
     .line 8
     .line 9
-    invoke-direct {v3, p0, v0, v1}, Lh0/i;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;J)V
+    invoke-direct {v3, p0, v0, v1}, Landroidx/camera/video/internal/encoder/j;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;J)V
 
     .line 10
     .line 11
@@ -9463,6 +9768,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public release()V
@@ -9473,11 +9779,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lh0/k;
+    new-instance v1, Landroidx/camera/video/internal/encoder/l;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Lh0/k;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
+    invoke-direct {v1, p0}, Landroidx/camera/video/internal/encoder/l;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
 
     .line 6
     .line 7
@@ -9497,6 +9803,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public requestKeyFrame()V
@@ -9507,11 +9814,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lh0/l;
+    new-instance v1, Landroidx/camera/video/internal/encoder/m;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Lh0/l;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
+    invoke-direct {v1, p0}, Landroidx/camera/video/internal/encoder/m;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
 
     .line 6
     .line 7
@@ -9531,6 +9838,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public requestKeyFrameToMediaCodec()V
@@ -9571,6 +9879,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setEncoderCallback(Landroidx/camera/video/internal/encoder/EncoderCallback;Ljava/util/concurrent/Executor;)V
@@ -9772,7 +10081,7 @@
 
     .line 35
     .line 36
-    invoke-interface {v2}, Landroidx/camera/video/internal/encoder/InputBuffer;->getTerminationFuture()Lub/u0;
+    invoke-interface {v2}, Landroidx/camera/video/internal/encoder/InputBuffer;->getTerminationFuture()Lcom/google/common/util/concurrent/t;
 
     .line 37
     .line 38
@@ -9789,7 +10098,7 @@
 
     .line 44
     :cond_0
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->successfulAsList(Ljava/util/Collection;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->successfulAsList(Ljava/util/Collection;)Lcom/google/common/util/concurrent/t;
 
     .line 45
     .line 46
@@ -9797,11 +10106,11 @@
     move-result-object v0
 
     .line 48
-    new-instance v1, Lh0/p;
+    new-instance v1, Landroidx/camera/video/internal/encoder/q;
 
     .line 49
     .line 50
-    invoke-direct {v1, p0}, Lh0/p;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
+    invoke-direct {v1, p0}, Landroidx/camera/video/internal/encoder/q;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
 
     .line 51
     .line 52
@@ -9810,7 +10119,7 @@
 
     .line 54
     .line 55
-    invoke-interface {v0, v1, v2}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v0, v1, v2}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 56
     .line 57
@@ -9868,6 +10177,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public signalSourceStopped()V
@@ -9878,11 +10189,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lh0/m;
+    new-instance v1, Landroidx/camera/video/internal/encoder/n;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Lh0/m;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
+    invoke-direct {v1, p0}, Landroidx/camera/video/internal/encoder/n;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
 
     .line 6
     .line 7
@@ -9902,6 +10213,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public start()V
@@ -9920,11 +10232,11 @@
 
     .line 6
     .line 7
-    new-instance v3, Lh0/d;
+    new-instance v3, Landroidx/camera/video/internal/encoder/d;
 
     .line 8
     .line 9
-    invoke-direct {v3, p0, v0, v1}, Lh0/d;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;J)V
+    invoke-direct {v3, p0, v0, v1}, Landroidx/camera/video/internal/encoder/d;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;J)V
 
     .line 10
     .line 11
@@ -9940,6 +10252,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public stop()V
@@ -9964,13 +10277,13 @@
     .line 3
     iget-object v6, p0, Landroidx/camera/video/internal/encoder/EncoderImpl;->mEncoderExecutor:Ljava/util/concurrent/Executor;
 
-    new-instance v0, Lh0/e;
+    new-instance v0, Landroidx/camera/video/internal/encoder/e;
 
     move-object v1, p0
 
     move-wide v2, p1
 
-    invoke-direct/range {v0 .. v5}, Lh0/e;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;JJ)V
+    invoke-direct/range {v0 .. v5}, Landroidx/camera/video/internal/encoder/e;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;JJ)V
 
     invoke-interface {v6, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
@@ -10031,7 +10344,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v2}, Landroidx/camera/video/internal/encoder/EncodedDataImpl;->getClosedFuture()Lub/u0;
+    invoke-virtual {v2}, Landroidx/camera/video/internal/encoder/EncodedDataImpl;->getClosedFuture()Lcom/google/common/util/concurrent/t;
 
     .line 25
     .line 26
@@ -10085,7 +10398,7 @@
 
     .line 49
     .line 50
-    invoke-interface {v2}, Landroidx/camera/video/internal/encoder/InputBuffer;->getTerminationFuture()Lub/u0;
+    invoke-interface {v2}, Landroidx/camera/video/internal/encoder/InputBuffer;->getTerminationFuture()Lcom/google/common/util/concurrent/t;
 
     .line 51
     .line 52
@@ -10193,7 +10506,7 @@
     .line 105
     .line 106
     :cond_2
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->successfulAsList(Ljava/util/Collection;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->successfulAsList(Ljava/util/Collection;)Lcom/google/common/util/concurrent/t;
 
     .line 107
     .line 108
@@ -10201,11 +10514,11 @@
     move-result-object v1
 
     .line 110
-    new-instance v2, Lh0/n;
+    new-instance v2, Landroidx/camera/video/internal/encoder/o;
 
     .line 111
     .line 112
-    invoke-direct {v2, p0, v0, p1}, Lh0/n;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;Ljava/util/List;Ljava/lang/Runnable;)V
+    invoke-direct {v2, p0, v0, p1}, Landroidx/camera/video/internal/encoder/o;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl;Ljava/util/List;Ljava/lang/Runnable;)V
 
     .line 113
     .line 114
@@ -10214,7 +10527,7 @@
 
     .line 116
     .line 117
-    invoke-interface {v1, v2, p1}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v1, v2, p1}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 118
     .line 119
@@ -10338,6 +10651,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public updateTotalPausedDuration(J)V
@@ -10672,4 +10990,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

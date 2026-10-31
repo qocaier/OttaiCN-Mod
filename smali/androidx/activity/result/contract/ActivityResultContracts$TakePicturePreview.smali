@@ -22,16 +22,6 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nActivityResultContracts.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActivityResultContracts.kt\nandroidx/activity/result/contract/ActivityResultContracts$TakePicturePreview\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,953:1\n1#2:954\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nActivityResultContracts.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActivityResultContracts.kt\nandroidx/activity/result/contract/ActivityResultContracts$TakePicturePreview\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,953:1\n1#2:954\n*E\n"
-    }
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -60,6 +50,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -79,23 +70,12 @@
 
 .method public createIntent(Landroid/content/Context;Ljava/lang/Void;)Landroid/content/Intent;
     .locals 0
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Void;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/CallSuper;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     const-string p2, "context"
 
-    invoke-static {p1, p2}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance p1, Landroid/content/Intent;
@@ -122,14 +102,6 @@
 
 .method public final getSynchronousResult(Landroid/content/Context;Ljava/lang/Void;)Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;
     .locals 0
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Void;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -142,13 +114,10 @@
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
     const-string p2, "context"
 
-    invoke-static {p1, p2}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -157,12 +126,6 @@
 
 .method public final parseResult(ILandroid/content/Intent;)Landroid/graphics/Bitmap;
     .locals 2
-    .param p2    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     const/4 v0, -0x1
 

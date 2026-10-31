@@ -45,7 +45,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private constructor <init>()V
@@ -76,7 +75,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/badge/BadgeDrawable;Landroid/view/View;)V
@@ -145,11 +143,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static attachBadgeContentDescription(Lcom/google/android/material/badge/BadgeDrawable;Landroid/view/View;)V
@@ -192,7 +185,7 @@
 
     .line 14
     .line 15
-    invoke-static {p1}, Lja/a;->a(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
+    invoke-static {p1}, Lcom/google/android/material/badge/a;->a(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
 
     .line 16
     .line 17
@@ -255,11 +248,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static attachBadgeDrawable(Lcom/google/android/material/badge/BadgeDrawable;Landroid/view/View;)V
@@ -524,11 +512,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static createParcelableBadgeStates(Landroid/util/SparseArray;)Lcom/google/android/material/internal/ParcelableSparseArray;
@@ -687,8 +670,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private static detachBadgeContentDescription(Landroid/view/View;)V
@@ -727,7 +708,7 @@
 
     .line 14
     .line 15
-    invoke-static {p0}, Lja/a;->a(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
+    invoke-static {p0}, Lcom/google/android/material/badge/a;->a(Landroid/view/View;)Landroid/view/View$AccessibilityDelegate;
 
     .line 16
     .line 17
@@ -819,8 +800,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static detachBadgeDrawable(Lcom/google/android/material/badge/BadgeDrawable;Landroid/view/View;)V
@@ -973,7 +952,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static setBadgeDrawableBounds(Lcom/google/android/material/badge/BadgeDrawable;Landroid/view/View;Landroid/widget/FrameLayout;)V
@@ -1149,11 +1127,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static setToolbarOffset(Lcom/google/android/material/badge/BadgeDrawable;Landroid/content/res/Resources;)V
@@ -1238,11 +1211,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static updateBadgeBounds(Landroid/graphics/Rect;FFFF)V

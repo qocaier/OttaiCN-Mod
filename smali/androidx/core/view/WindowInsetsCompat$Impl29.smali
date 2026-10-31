@@ -85,7 +85,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0}, Lc1/h2;->a(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/view/l2;->a(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
 
     .line 8
     .line 9
@@ -112,6 +112,7 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
 .end method
 
 .method public getSystemGestureInsets()Landroidx/core/graphics/Insets;
@@ -130,7 +131,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0}, Lc1/i2;->a(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/view/m2;->a(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
 
     .line 8
     .line 9
@@ -157,6 +158,7 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
 .end method
 
 .method public getTappableElementInsets()Landroidx/core/graphics/Insets;
@@ -175,7 +177,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0}, Lc1/f2;->a(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/view/j2;->a(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
 
     .line 8
     .line 9
@@ -202,6 +204,7 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
 .end method
 
 .method public inset(IIII)Landroidx/core/view/WindowInsetsCompat;
@@ -212,7 +215,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1, p2, p3, p4}, Lc1/g2;->a(Landroid/view/WindowInsets;IIII)Landroid/view/WindowInsets;
+    invoke-static {v0, p1, p2, p3, p4}, Landroidx/core/view/k2;->a(Landroid/view/WindowInsets;IIII)Landroid/view/WindowInsets;
 
     .line 4
     .line 5
@@ -448,6 +451,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setStableInsets(Landroidx/core/graphics/Insets;)V

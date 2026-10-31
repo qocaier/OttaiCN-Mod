@@ -58,7 +58,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -107,7 +106,6 @@
     .line 21
     return-void
     .line 22
-    .line 23
 .end method
 
 .method private a(F)F
@@ -246,7 +244,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private native updateCompass(I)V

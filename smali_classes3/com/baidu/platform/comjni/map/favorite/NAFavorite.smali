@@ -40,7 +40,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private native nativeAdd(JLjava/lang/String;Ljava/lang/String;)Z
@@ -425,5 +424,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

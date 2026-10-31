@@ -57,6 +57,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -85,9 +86,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public static synthetic a(Lub/u0;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+.method public static synthetic a(Lcom/google/common/util/concurrent/t;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
     .locals 3
 
     .line 1
@@ -106,7 +108,7 @@
     move-result-object v2
 
     .line 8
-    invoke-static {v1, p0, v0, p1, v2}, Landroidx/camera/core/impl/utils/futures/Futures;->propagateTransform(ZLub/u0;Landroidx/arch/core/util/Function;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/util/concurrent/Executor;)V
+    invoke-static {v1, p0, v0, p1, v2}, Landroidx/camera/core/impl/utils/futures/Futures;->propagateTransform(ZLcom/google/common/util/concurrent/t;Landroidx/arch/core/util/Function;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/util/concurrent/Executor;)V
 
     .line 9
     .line 10
@@ -169,9 +171,9 @@
     .line 48
 .end method
 
-.method public static addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+.method public static addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
     .locals 1
-    .param p0    # Lub/u0;
+    .param p0    # Lcom/google/common/util/concurrent/t;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
@@ -188,8 +190,7 @@
             "<V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lub/u0<",
-            "TV;>;",
+            "Lcom/google/common/util/concurrent/t;",
             "Landroidx/camera/core/impl/utils/futures/FutureCallback<",
             "-TV;>;",
             "Ljava/util/concurrent/Executor;",
@@ -212,7 +213,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-interface {p0, v0, p2}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {p0, v0, p2}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 10
     .line 11
@@ -319,9 +320,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static allAsList(Ljava/util/Collection;)Lub/u0;
+.method public static allAsList(Ljava/util/Collection;)Lcom/google/common/util/concurrent/t;
     .locals 3
     .param p0    # Ljava/util/Collection;
         .annotation build Landroidx/annotation/NonNull;
@@ -337,11 +341,9 @@
             ">(",
             "Ljava/util/Collection<",
             "+",
-            "Lub/u0<",
-            "+TV;>;>;)",
-            "Lub/u0<",
-            "Ljava/util/List<",
-            "TV;>;>;"
+            "Lcom/google/common/util/concurrent/t;",
+            ">;)",
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -515,6 +517,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getUninterruptibly(Ljava/util/concurrent/Future;)Ljava/lang/Object;
@@ -660,9 +663,10 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public static immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+.method public static immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
     .locals 1
     .param p0    # Ljava/lang/Throwable;
         .annotation build Landroidx/annotation/NonNull;
@@ -678,8 +682,7 @@
             ">(",
             "Ljava/lang/Throwable;",
             ")",
-            "Lub/u0<",
-            "TV;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -768,7 +771,7 @@
     .line 25
 .end method
 
-.method public static immediateFuture(Ljava/lang/Object;)Lub/u0;
+.method public static immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
     .locals 1
     .param p0    # Ljava/lang/Object;
         .annotation build Landroidx/annotation/Nullable;
@@ -782,8 +785,7 @@
             "<V:",
             "Ljava/lang/Object;",
             ">(TV;)",
-            "Lub/u0<",
-            "TV;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -792,7 +794,7 @@
 
     .line 2
     .line 3
-    invoke-static {}, Landroidx/camera/core/impl/utils/futures/ImmediateFuture;->nullFuture()Lub/u0;
+    invoke-static {}, Landroidx/camera/core/impl/utils/futures/ImmediateFuture;->nullFuture()Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -828,9 +830,9 @@
     .line 25
 .end method
 
-.method public static nonCancellationPropagating(Lub/u0;)Lub/u0;
+.method public static nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
     .locals 1
-    .param p0    # Lub/u0;
+    .param p0    # Lcom/google/common/util/concurrent/t;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
@@ -842,10 +844,9 @@
             "<V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lub/u0<",
-            "TV;>;)",
-            "Lub/u0<",
-            "TV;>;"
+            "Lcom/google/common/util/concurrent/t;",
+            ")",
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -871,16 +872,16 @@
 
     .line 11
     :cond_0
-    new-instance v0, Lw/a;
+    new-instance v0, Landroidx/camera/core/impl/utils/futures/a;
 
     .line 12
     .line 13
-    invoke-direct {v0, p0}, Lw/a;-><init>(Lub/u0;)V
+    invoke-direct {v0, p0}, Landroidx/camera/core/impl/utils/futures/a;-><init>(Lcom/google/common/util/concurrent/t;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 17
     .line 18
@@ -896,9 +897,9 @@
     .line 25
 .end method
 
-.method public static propagate(Lub/u0;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+.method public static propagate(Lcom/google/common/util/concurrent/t;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
     .locals 2
-    .param p0    # Lub/u0;
+    .param p0    # Lcom/google/common/util/concurrent/t;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
@@ -911,8 +912,7 @@
             "<V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lub/u0<",
-            "TV;>;",
+            "Lcom/google/common/util/concurrent/t;",
             "Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer<",
             "TV;>;)V"
         }
@@ -931,7 +931,7 @@
     move-result-object v1
 
     .line 7
-    invoke-static {p0, v0, p1, v1}, Landroidx/camera/core/impl/utils/futures/Futures;->propagateTransform(Lub/u0;Landroidx/arch/core/util/Function;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/util/concurrent/Executor;)V
+    invoke-static {p0, v0, p1, v1}, Landroidx/camera/core/impl/utils/futures/Futures;->propagateTransform(Lcom/google/common/util/concurrent/t;Landroidx/arch/core/util/Function;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/util/concurrent/Executor;)V
 
     .line 8
     .line 9
@@ -977,9 +977,9 @@
     .line 48
 .end method
 
-.method public static propagateTransform(Lub/u0;Landroidx/arch/core/util/Function;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/util/concurrent/Executor;)V
+.method public static propagateTransform(Lcom/google/common/util/concurrent/t;Landroidx/arch/core/util/Function;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/util/concurrent/Executor;)V
     .locals 1
-    .param p0    # Lub/u0;
+    .param p0    # Lcom/google/common/util/concurrent/t;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
@@ -1002,8 +1002,7 @@
             "O:",
             "Ljava/lang/Object;",
             ">(",
-            "Lub/u0<",
-            "TI;>;",
+            "Lcom/google/common/util/concurrent/t;",
             "Landroidx/arch/core/util/Function<",
             "-TI;+TO;>;",
             "Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer<",
@@ -1016,14 +1015,14 @@
     const/4 v0, 0x1
 
     .line 1
-    invoke-static {v0, p0, p1, p2, p3}, Landroidx/camera/core/impl/utils/futures/Futures;->propagateTransform(ZLub/u0;Landroidx/arch/core/util/Function;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/util/concurrent/Executor;)V
+    invoke-static {v0, p0, p1, p2, p3}, Landroidx/camera/core/impl/utils/futures/Futures;->propagateTransform(ZLcom/google/common/util/concurrent/t;Landroidx/arch/core/util/Function;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/util/concurrent/Executor;)V
 
     return-void
 .end method
 
-.method private static propagateTransform(ZLub/u0;Landroidx/arch/core/util/Function;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/util/concurrent/Executor;)V
+.method private static propagateTransform(ZLcom/google/common/util/concurrent/t;Landroidx/arch/core/util/Function;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/util/concurrent/Executor;)V
     .locals 1
-    .param p1    # Lub/u0;
+    .param p1    # Lcom/google/common/util/concurrent/t;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
@@ -1046,8 +1045,7 @@
             "O:",
             "Ljava/lang/Object;",
             ">(Z",
-            "Lub/u0<",
-            "TI;>;",
+            "Lcom/google/common/util/concurrent/t;",
             "Landroidx/arch/core/util/Function<",
             "-TI;+TO;>;",
             "Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer<",
@@ -1074,14 +1072,14 @@
 
     invoke-direct {v0, p3, p2}, Landroidx/camera/core/impl/utils/futures/Futures$3;-><init>(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/arch/core/util/Function;)V
 
-    invoke-static {p1, v0, p4}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {p1, v0, p4}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     if-eqz p0, :cond_0
 
     .line 7
     new-instance p0, Landroidx/camera/core/impl/utils/futures/Futures$4;
 
-    invoke-direct {p0, p1}, Landroidx/camera/core/impl/utils/futures/Futures$4;-><init>(Lub/u0;)V
+    invoke-direct {p0, p1}, Landroidx/camera/core/impl/utils/futures/Futures$4;-><init>(Lcom/google/common/util/concurrent/t;)V
 
     .line 8
     invoke-static {}, Landroidx/camera/core/impl/utils/executor/CameraXExecutors;->directExecutor()Ljava/util/concurrent/Executor;
@@ -1095,7 +1093,7 @@
     return-void
 .end method
 
-.method public static successfulAsList(Ljava/util/Collection;)Lub/u0;
+.method public static successfulAsList(Ljava/util/Collection;)Lcom/google/common/util/concurrent/t;
     .locals 3
     .param p0    # Ljava/util/Collection;
         .annotation build Landroidx/annotation/NonNull;
@@ -1111,11 +1109,9 @@
             ">(",
             "Ljava/util/Collection<",
             "+",
-            "Lub/u0<",
-            "+TV;>;>;)",
-            "Lub/u0<",
-            "Ljava/util/List<",
-            "TV;>;>;"
+            "Lcom/google/common/util/concurrent/t;",
+            ">;)",
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1161,9 +1157,9 @@
     .line 25
 .end method
 
-.method public static transform(Lub/u0;Landroidx/arch/core/util/Function;Ljava/util/concurrent/Executor;)Lub/u0;
+.method public static transform(Lcom/google/common/util/concurrent/t;Landroidx/arch/core/util/Function;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/t;
     .locals 1
-    .param p0    # Lub/u0;
+    .param p0    # Lcom/google/common/util/concurrent/t;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
@@ -1185,14 +1181,12 @@
             "O:",
             "Ljava/lang/Object;",
             ">(",
-            "Lub/u0<",
-            "TI;>;",
+            "Lcom/google/common/util/concurrent/t;",
             "Landroidx/arch/core/util/Function<",
             "-TI;+TO;>;",
             "Ljava/util/concurrent/Executor;",
             ")",
-            "Lub/u0<",
-            "TO;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1211,7 +1205,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-static {p0, v0, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->transformAsync(Lub/u0;Landroidx/camera/core/impl/utils/futures/AsyncFunction;Ljava/util/concurrent/Executor;)Lub/u0;
+    invoke-static {p0, v0, p2}, Landroidx/camera/core/impl/utils/futures/Futures;->transformAsync(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/AsyncFunction;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/t;
 
     .line 10
     .line 11
@@ -1320,11 +1314,14 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static transformAsync(Lub/u0;Landroidx/camera/core/impl/utils/futures/AsyncFunction;Ljava/util/concurrent/Executor;)Lub/u0;
+.method public static transformAsync(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/AsyncFunction;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/t;
     .locals 1
-    .param p0    # Lub/u0;
+    .param p0    # Lcom/google/common/util/concurrent/t;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
@@ -1346,14 +1343,12 @@
             "O:",
             "Ljava/lang/Object;",
             ">(",
-            "Lub/u0<",
-            "TI;>;",
+            "Lcom/google/common/util/concurrent/t;",
             "Landroidx/camera/core/impl/utils/futures/AsyncFunction<",
             "-TI;+TO;>;",
             "Ljava/util/concurrent/Executor;",
             ")",
-            "Lub/u0<",
-            "TO;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1362,12 +1357,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p0}, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;-><init>(Landroidx/camera/core/impl/utils/futures/AsyncFunction;Lub/u0;)V
+    invoke-direct {v0, p1, p0}, Landroidx/camera/core/impl/utils/futures/ChainingListenableFuture;-><init>(Landroidx/camera/core/impl/utils/futures/AsyncFunction;Lcom/google/common/util/concurrent/t;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0, v0, p2}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {p0, v0, p2}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 7
     .line 8
@@ -1477,4 +1472,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

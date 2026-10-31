@@ -74,7 +74,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMimeType()Ljava/lang/String;
@@ -105,7 +104,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -136,7 +134,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRawFile()Ljava/io/File;
@@ -167,7 +164,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setFile([B)V
@@ -200,7 +196,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMimeType(Ljava/lang/String;)V
@@ -233,7 +228,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setName(Ljava/lang/String;)V
@@ -266,7 +260,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRawFile(Ljava/io/File;)V
@@ -299,5 +292,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

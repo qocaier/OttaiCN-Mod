@@ -75,11 +75,11 @@
     .locals 4
 
     .line 1
-    new-instance v0, Lc0/z;
+    new-instance v0, Landroidx/camera/video/p0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lc0/z;-><init>()V
+    invoke-direct {v0}, Landroidx/camera/video/p0;-><init>()V
 
     .line 4
     .line 5
@@ -217,6 +217,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>()V
@@ -245,6 +247,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/camera/video/internal/encoder/VideoEncoderConfig;)Landroidx/camera/video/internal/encoder/VideoEncoderInfo;
@@ -314,11 +317,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lc0/y;
+    new-instance v0, Landroidx/camera/video/o0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lc0/y;-><init>()V
+    invoke-direct {v0}, Landroidx/camera/video/o0;-><init>()V
 
     .line 4
     .line 5
@@ -338,6 +341,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 

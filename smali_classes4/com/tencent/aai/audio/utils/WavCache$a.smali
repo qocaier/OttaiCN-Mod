@@ -85,7 +85,7 @@
 
     sget-object v1, Lcom/tencent/aai/audio/utils/WavCache;->TAG:Ljava/lang/String;
 
-    const-string v2, "\u521b\u5efa\u6587\u4ef6\u5939\u6210\u529f"
+    const-string/jumbo v2, "\u521b\u5efa\u6587\u4ef6\u5939\u6210\u529f"
 
     :goto_0
     invoke-static {v1, v2}, Lcom/tencent/aai/log/AAILogger;->info(Ljava/lang/String;Ljava/lang/String;)V
@@ -95,7 +95,7 @@
     :cond_0
     sget-object v1, Lcom/tencent/aai/audio/utils/WavCache;->TAG:Ljava/lang/String;
 
-    const-string v2, "\u521b\u5efa\u6587\u4ef6\u5939\u5931\u8d25"
+    const-string/jumbo v2, "\u521b\u5efa\u6587\u4ef6\u5939\u5931\u8d25"
 
     goto :goto_0
 
@@ -138,7 +138,7 @@
 
     sget-object v0, Lcom/tencent/aai/audio/utils/WavCache;->TAG:Ljava/lang/String;
 
-    const-string v2, "\u521b\u5efa\u6587\u4ef6\u6210\u529f"
+    const-string/jumbo v2, "\u521b\u5efa\u6587\u4ef6\u6210\u529f"
 
     :goto_2
     invoke-static {v0, v2}, Lcom/tencent/aai/log/AAILogger;->info(Ljava/lang/String;Ljava/lang/String;)V
@@ -153,7 +153,7 @@
     :cond_2
     sget-object v0, Lcom/tencent/aai/audio/utils/WavCache;->TAG:Ljava/lang/String;
 
-    const-string v2, "\u521b\u5efa\u6587\u4ef6\u5931\u8d25"
+    const-string/jumbo v2, "\u521b\u5efa\u6587\u4ef6\u5931\u8d25"
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 

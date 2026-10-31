@@ -113,383 +113,383 @@
 
     .line 27
     .line 28
-    const-string v3, "\u56fe\u7247"
+    const-string/jumbo v3, "\u56fe\u7247"
 
     .line 29
     .line 30
+    .line 31
     const-string v4, "image"
 
-    .line 31
     .line 32
+    .line 33
     const/4 v6, 0x2
 
-    .line 33
+    .line 34
     invoke-direct {v2, v4, v6, v5, v3}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
-    .line 34
     .line 35
     .line 36
+    .line 37
     sput-object v2, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->image:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
-    .line 37
     .line 38
+    .line 39
     new-instance v3, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
-    .line 39
     .line 40
-    const-string v4, "\u8bed\u97f3"
-
     .line 41
-    .line 42
-    const-string v5, "audio"
+    const-string/jumbo v4, "\u8bed\u97f3"
 
+    .line 42
     .line 43
     .line 44
-    const/4 v7, 0x3
+    const-string v5, "audio"
 
     .line 45
+    .line 46
+    const/4 v7, 0x3
+
+    .line 47
     invoke-direct {v3, v5, v7, v6, v4}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
-    .line 46
-    .line 47
     .line 48
-    sput-object v3, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->audio:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
-
     .line 49
     .line 50
-    new-instance v4, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    sput-object v3, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->audio:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 51
     .line 52
-    const-string v5, "\u89c6\u9891"
+    new-instance v4, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 53
     .line 54
-    const-string v6, "video"
+    const-string/jumbo v5, "\u89c6\u9891"
 
     .line 55
     .line 56
-    const/4 v8, 0x4
-
     .line 57
-    invoke-direct {v4, v6, v8, v7, v5}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+    const-string v6, "video"
 
     .line 58
     .line 59
+    const/4 v8, 0x4
+
     .line 60
-    sput-object v4, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->video:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    invoke-direct {v4, v6, v8, v7, v5}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     .line 61
     .line 62
+    .line 63
+    sput-object v4, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->video:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+
+    .line 64
+    .line 65
     new-instance v5, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
-    .line 63
-    .line 64
-    const-string v6, "\u4f4d\u7f6e"
-
-    .line 65
     .line 66
+    .line 67
+    const-string/jumbo v6, "\u4f4d\u7f6e"
+
+    .line 68
+    .line 69
+    .line 70
     const-string v7, "location"
 
-    .line 67
-    .line 68
-    const/4 v9, 0x5
-
-    .line 69
-    invoke-direct {v5, v7, v9, v8, v6}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
-
-    .line 70
     .line 71
     .line 72
-    sput-object v5, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->location:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    const/4 v9, 0x5
 
     .line 73
-    .line 74
-    new-instance v6, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    invoke-direct {v5, v7, v9, v8, v6}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
+    .line 74
     .line 75
     .line 76
-    const/4 v7, 0x6
+    sput-object v5, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->location:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 77
-    const-string v8, "\u6587\u4ef6"
-
     .line 78
-    .line 79
-    const-string v10, "file"
+    new-instance v6, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
+    .line 79
     .line 80
+    const/4 v7, 0x6
+
     .line 81
-    invoke-direct {v6, v10, v7, v7, v8}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+    const-string/jumbo v8, "\u6587\u4ef6"
 
     .line 82
     .line 83
     .line 84
-    sput-object v6, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->file:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    const-string v10, "file"
 
     .line 85
     .line 86
-    new-instance v7, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    invoke-direct {v6, v10, v7, v7, v8}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     .line 87
     .line 88
-    const/4 v8, 0x7
-
     .line 89
-    const-string v10, "\u97f3\u89c6\u9891\u901a\u8bdd"
+    sput-object v6, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->file:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 90
     .line 91
-    const-string v11, "avchat"
+    new-instance v7, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 92
     .line 93
-    invoke-direct {v7, v11, v8, v8, v10}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+    const/4 v8, 0x7
 
     .line 94
+    const-string/jumbo v10, "\u97f3\u89c6\u9891\u901a\u8bdd"
+
     .line 95
     .line 96
-    sput-object v7, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->avchat:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
-
     .line 97
+    const-string v11, "avchat"
+
     .line 98
-    new-instance v8, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
-
     .line 99
-    .line 100
-    const/16 v10, 0x8
+    invoke-direct {v7, v11, v8, v8, v10}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
+    .line 100
     .line 101
     .line 102
-    const-string v11, "\u901a\u77e5\u6d88\u606f"
+    sput-object v7, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->avchat:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 103
     .line 104
-    const-string v12, "notification"
+    new-instance v8, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 105
     .line 106
-    invoke-direct {v8, v12, v10, v9, v11}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+    const/16 v10, 0x8
 
     .line 107
     .line 108
-    .line 109
-    sput-object v8, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->notification:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    const-string/jumbo v11, "\u901a\u77e5\u6d88\u606f"
 
+    .line 109
     .line 110
     .line 111
-    new-instance v9, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    const-string v12, "notification"
 
     .line 112
     .line 113
-    const-string v10, "\u63d0\u9192\u6d88\u606f"
+    invoke-direct {v8, v12, v10, v9, v11}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     .line 114
     .line 115
-    const-string v11, "tip"
-
     .line 116
+    sput-object v8, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->notification:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+
     .line 117
-    const/16 v12, 0x9
-
     .line 118
+    new-instance v9, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+
     .line 119
-    const/16 v13, 0xa
-
     .line 120
-    .line 121
-    invoke-direct {v9, v11, v12, v13, v10}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+    const-string/jumbo v10, "\u63d0\u9192\u6d88\u606f"
 
+    .line 121
     .line 122
     .line 123
+    const-string v11, "tip"
+
     .line 124
-    sput-object v9, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->tip:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
-
     .line 125
+    const/16 v12, 0x9
+
     .line 126
-    new-instance v10, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
-
     .line 127
+    const/16 v13, 0xa
+
     .line 128
-    const-string v11, "\u673a\u5668\u4eba\u6d88\u606f"
-
     .line 129
-    .line 130
-    const-string v12, "robot"
+    invoke-direct {v9, v11, v12, v13, v10}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
+    .line 130
     .line 131
     .line 132
-    const/16 v14, 0xb
+    sput-object v9, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->tip:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 133
     .line 134
-    invoke-direct {v10, v12, v13, v14, v11}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+    new-instance v10, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 135
     .line 136
-    .line 137
-    sput-object v10, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->robot:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    const-string/jumbo v11, "\u673a\u5668\u4eba\u6d88\u606f"
 
+    .line 137
     .line 138
     .line 139
-    new-instance v11, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    const-string v12, "robot"
 
     .line 140
     .line 141
-    const-string v12, "\u901a\u8bdd\u8bb0\u5f55"
+    const/16 v14, 0xb
 
     .line 142
     .line 143
-    const-string v13, "nrtc_netcall"
+    invoke-direct {v10, v12, v13, v14, v11}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     .line 144
     .line 145
-    const/16 v15, 0xc
-
     .line 146
-    .line 147
-    invoke-direct {v11, v13, v14, v15, v12}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+    sput-object v10, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->robot:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
+    .line 147
     .line 148
+    new-instance v11, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+
     .line 149
     .line 150
-    sput-object v11, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->nrtc_netcall:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    const-string/jumbo v12, "\u901a\u8bdd\u8bb0\u5f55"
 
     .line 151
     .line 152
-    new-instance v12, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
-
     .line 153
+    const-string v13, "nrtc_netcall"
+
     .line 154
-    const/16 v13, 0x64
-
     .line 155
+    const/16 v15, 0xc
+
     .line 156
-    const-string v14, "\u81ea\u5b9a\u4e49\u6d88\u606f"
-
     .line 157
-    .line 158
-    move-object/from16 v16, v0
+    invoke-direct {v11, v13, v14, v15, v12}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
+    .line 158
     .line 159
     .line 160
-    const-string v0, "custom"
+    sput-object v11, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->nrtc_netcall:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 161
     .line 162
-    invoke-direct {v12, v0, v15, v13, v14}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+    new-instance v12, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 163
     .line 164
+    const/16 v13, 0x64
+
     .line 165
-    sput-object v12, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->custom:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
-
     .line 166
-    .line 167
-    new-instance v13, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    const-string/jumbo v14, "\u81ea\u5b9a\u4e49\u6d88\u606f"
 
+    .line 167
     .line 168
     .line 169
-    const/16 v0, 0x65
+    move-object/from16 v16, v0
 
     .line 170
     .line 171
-    const-string v14, "\u4e03\u9c7c\u63a5\u5165\u65b9\u81ea\u5b9a\u4e49\u6d88\u606f"
+    const-string v0, "custom"
 
     .line 172
     .line 173
-    const-string v15, "appCustom"
+    invoke-direct {v12, v0, v15, v13, v14}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     .line 174
     .line 175
-    move-object/from16 v17, v1
-
     .line 176
+    sput-object v12, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->custom:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+
     .line 177
-    const/16 v1, 0xd
-
     .line 178
-    .line 179
-    invoke-direct {v13, v15, v1, v0, v14}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+    new-instance v13, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
+    .line 179
     .line 180
+    const/16 v0, 0x65
+
     .line 181
     .line 182
-    sput-object v13, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->appCustom:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    const-string/jumbo v14, "\u4e03\u9c7c\u63a5\u5165\u65b9\u81ea\u5b9a\u4e49\u6d88\u606f"
 
     .line 183
     .line 184
-    new-instance v14, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
-
     .line 185
+    const-string v15, "appCustom"
+
     .line 186
-    const/16 v0, 0x66
-
     .line 187
+    move-object/from16 v17, v1
+
     .line 188
-    const-string v1, "\u4e03\u9c7ccustom\u6d88\u606f"
-
     .line 189
+    const/16 v1, 0xd
+
     .line 190
-    const-string v15, "qiyuCustom"
-
     .line 191
-    .line 192
-    move-object/from16 v18, v2
+    invoke-direct {v13, v15, v1, v0, v14}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
+    .line 192
     .line 193
     .line 194
-    const/16 v2, 0xe
+    sput-object v13, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->appCustom:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 195
     .line 196
-    invoke-direct {v14, v15, v2, v0, v1}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+    new-instance v14, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
 
     .line 197
     .line 198
+    const/16 v0, 0x66
+
     .line 199
-    sput-object v14, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->qiyuCustom:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
-
     .line 200
-    .line 201
-    move-object/from16 v0, v16
+    const-string/jumbo v1, "\u4e03\u9c7ccustom\u6d88\u606f"
 
+    .line 201
     .line 202
     .line 203
-    move-object/from16 v1, v17
+    const-string v15, "qiyuCustom"
 
     .line 204
     .line 205
-    move-object/from16 v2, v18
+    move-object/from16 v18, v2
 
     .line 206
     .line 207
-    filled-new-array/range {v0 .. v14}, [Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+    const/16 v2, 0xe
 
     .line 208
     .line 209
+    invoke-direct {v14, v15, v2, v0, v1}, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+
     .line 210
-    move-result-object v0
-
     .line 211
-    sput-object v0, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->$VALUES:[Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
-
     .line 212
+    sput-object v14, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->qiyuCustom:Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+
     .line 213
-    return-void
     .line 214
+    move-object/from16 v0, v16
+
     .line 215
     .line 216
+    move-object/from16 v1, v17
+
     .line 217
     .line 218
+    move-object/from16 v2, v18
+
     .line 219
     .line 220
+    filled-new-array/range {v0 .. v14}, [Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+
     .line 221
     .line 222
     .line 223
+    move-result-object v0
+
     .line 224
+    sput-object v0, Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;->$VALUES:[Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
+
     .line 225
     .line 226
+    return-void
     .line 227
     .line 228
     .line 229
@@ -545,68 +545,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method private constructor <init>(Ljava/lang/String;IILjava/lang/String;)V
@@ -876,6 +814,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
@@ -915,6 +876,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static values()[Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
@@ -949,6 +912,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -979,6 +944,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final getValue()I
@@ -1007,4 +974,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

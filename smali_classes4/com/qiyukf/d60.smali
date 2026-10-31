@@ -145,6 +145,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private synthetic a(S)V
@@ -333,9 +334,9 @@
     move-result-object v1
 
     .line 17
-    new-instance v6, Lvg/g;
+    new-instance v6, Lcom/qiyukf/ae0;
 
-    invoke-direct {v6, v0, v5}, Lvg/g;-><init>(Lcom/qiyukf/d60;S)V
+    invoke-direct {v6, v0, v5}, Lcom/qiyukf/ae0;-><init>(Lcom/qiyukf/d60;S)V
 
     move-object/from16 v19, v4
 

@@ -21,16 +21,6 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSpecialEffectsController.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SpecialEffectsController.kt\nandroidx/fragment/app/SpecialEffectsController$Operation\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,882:1\n1855#2,2:883\n1855#2,2:885\n*S KotlinDebug\n*F\n+ 1 SpecialEffectsController.kt\nandroidx/fragment/app/SpecialEffectsController$Operation\n*L\n643#1:883,2\n743#1:885,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSpecialEffectsController.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SpecialEffectsController.kt\nandroidx/fragment/app/SpecialEffectsController$Operation\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,882:1\n1855#2,2:883\n1855#2,2:885\n*S KotlinDebug\n*F\n+ 1 SpecialEffectsController.kt\nandroidx/fragment/app/SpecialEffectsController$Operation\n*L\n643#1:883,2\n743#1:885,2\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private final _effects:Ljava/util/List;
@@ -40,9 +30,6 @@
             "Landroidx/fragment/app/SpecialEffectsController$Effect;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -54,9 +41,6 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final effects:Ljava/util/List;
@@ -67,20 +51,11 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final fragment:Landroidx/fragment/app/Fragment;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private isAwaitingContainerChanges:Z
 
@@ -93,33 +68,18 @@
 .field private isStarted:Z
 
 .field private lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/fragment/app/SpecialEffectsController$Operation$State;Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;Landroidx/fragment/app/Fragment;)V
     .locals 1
-    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroidx/fragment/app/Fragment;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "finalState"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -128,7 +88,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -137,7 +97,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -266,23 +226,22 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
 # virtual methods
 .method public final addCompletionListener(Ljava/lang/Runnable;)V
     .locals 1
-    .param p1    # Ljava/lang/Runnable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "listener"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -315,17 +274,13 @@
 
 .method public final addEffect(Landroidx/fragment/app/SpecialEffectsController$Effect;)V
     .locals 1
-    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Effect;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "effect"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -358,14 +313,10 @@
 
 .method public final cancel(Landroid/view/ViewGroup;)V
     .locals 2
-    .param p1    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "container"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -405,7 +356,7 @@
 
     check-cast v0, Ljava/lang/Iterable;
 
-    invoke-static {v0}, Lll/r0;->a6(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {v0}, Lkotlin/collections/z;->f0(Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object v0
 
@@ -441,14 +392,10 @@
 
 .method public final cancel(Landroid/view/ViewGroup;Z)V
     .locals 1
-    .param p1    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "container"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     iget-boolean v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->isCanceled:Z
@@ -635,21 +582,19 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final completeEffect(Landroidx/fragment/app/SpecialEffectsController$Effect;)V
     .locals 1
-    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Effect;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "effect"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -706,9 +651,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->effects:Ljava/util/List;
 
@@ -732,12 +674,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getFinalState()Landroidx/fragment/app/SpecialEffectsController$Operation$State;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->finalState:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
@@ -762,12 +703,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getFragment()Landroidx/fragment/app/Fragment;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->fragment:Landroidx/fragment/app/Fragment;
@@ -792,12 +732,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getLifecycleImpact()Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/SpecialEffectsController$Operation;->lifecycleImpact:Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
@@ -822,6 +761,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isAwaitingContainerChanges()Z
@@ -850,6 +790,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isCanceled()Z
@@ -878,6 +819,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isComplete()Z
@@ -906,6 +848,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isSeeking()Z
@@ -934,6 +877,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isStarted()Z
@@ -962,25 +906,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final mergeWith(Landroidx/fragment/app/SpecialEffectsController$Operation$State;Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;)V
     .locals 5
-    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "finalState"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -989,7 +926,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1403,6 +1340,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onStart()V
@@ -1435,6 +1375,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setAwaitingContainerChanges(Z)V
@@ -1472,17 +1413,13 @@
 
 .method public final setFinalState(Landroidx/fragment/app/SpecialEffectsController$Operation$State;)V
     .locals 1
-    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<set-?>"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1513,17 +1450,13 @@
 
 .method public final setLifecycleImpact(Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;)V
     .locals 1
-    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<set-?>"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1554,8 +1487,6 @@
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
@@ -1692,4 +1623,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

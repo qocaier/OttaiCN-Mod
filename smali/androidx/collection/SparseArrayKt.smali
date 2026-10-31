@@ -6,10 +6,6 @@
 # direct methods
 .method public static final contains(Landroidx/collection/SparseArrayCompat;I)Z
     .locals 1
-    .param p0    # Landroidx/collection/SparseArrayCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -25,7 +21,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -79,16 +75,8 @@
     .line 48
 .end method
 
-.method public static final forEach(Landroidx/collection/SparseArrayCompat;Ljm/p;)V
+.method public static final forEach(Landroidx/collection/SparseArrayCompat;Lq8/p;)V
     .locals 4
-    .param p0    # Landroidx/collection/SparseArrayCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -96,12 +84,8 @@
             ">(",
             "Landroidx/collection/SparseArrayCompat<",
             "TT;>;",
-            "Ljm/p<",
-            "-",
-            "Ljava/lang/Integer;",
-            "-TT;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/p;",
+            ")V"
         }
     .end annotation
 
@@ -110,7 +94,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -119,7 +103,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -164,7 +148,7 @@
     move-result-object v3
 
     .line 30
-    invoke-interface {p1, v2, v3}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -194,10 +178,6 @@
 
 .method public static final getOrDefault(Landroidx/collection/SparseArrayCompat;ILjava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Landroidx/collection/SparseArrayCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -213,7 +193,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -330,18 +310,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final getOrElse(Landroidx/collection/SparseArrayCompat;ILjm/a;)Ljava/lang/Object;
+.method public static final getOrElse(Landroidx/collection/SparseArrayCompat;ILq8/a;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Landroidx/collection/SparseArrayCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -349,8 +324,8 @@
             ">(",
             "Landroidx/collection/SparseArrayCompat<",
             "TT;>;I",
-            "Ljm/a<",
-            "+TT;>;)TT;"
+            "Lq8/a;",
+            ")TT;"
         }
     .end annotation
 
@@ -359,7 +334,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -368,7 +343,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -385,7 +360,7 @@
 
     .line 16
     .line 17
-    invoke-interface {p2}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -487,14 +462,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final getSize(Landroidx/collection/SparseArrayCompat;)I
     .locals 1
-    .param p0    # Landroidx/collection/SparseArrayCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -510,7 +484,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -543,10 +517,6 @@
 
 .method public static final isNotEmpty(Landroidx/collection/SparseArrayCompat;)Z
     .locals 1
-    .param p0    # Landroidx/collection/SparseArrayCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -562,7 +532,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -595,12 +565,8 @@
     .line 25
 .end method
 
-.method public static final keyIterator(Landroidx/collection/SparseArrayCompat;)Lll/c1;
+.method public static final keyIterator(Landroidx/collection/SparseArrayCompat;)Lkotlin/collections/c0;
     .locals 1
-    .param p0    # Landroidx/collection/SparseArrayCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -608,11 +574,8 @@
             ">(",
             "Landroidx/collection/SparseArrayCompat<",
             "TT;>;)",
-            "Lll/c1;"
+            "Lkotlin/collections/c0;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -620,7 +583,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -653,14 +616,6 @@
 
 .method public static final plus(Landroidx/collection/SparseArrayCompat;Landroidx/collection/SparseArrayCompat;)Landroidx/collection/SparseArrayCompat;
     .locals 3
-    .param p0    # Landroidx/collection/SparseArrayCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/collection/SparseArrayCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -675,15 +630,12 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -692,7 +644,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -757,17 +709,13 @@
 
 .method public static final synthetic remove(Landroidx/collection/SparseArrayCompat;ILjava/lang/Object;)Z
     .locals 1
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->HIDDEN:Lkotlin/DeprecationLevel;
-        message = "Replaced with member function. Remove extension import!"
-    .end annotation
 
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -884,14 +832,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final set(Landroidx/collection/SparseArrayCompat;ILjava/lang/Object;)V
     .locals 1
-    .param p0    # Landroidx/collection/SparseArrayCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -907,7 +854,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1022,14 +969,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final valueIterator(Landroidx/collection/SparseArrayCompat;)Ljava/util/Iterator;
     .locals 1
-    .param p0    # Landroidx/collection/SparseArrayCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -1042,15 +988,12 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

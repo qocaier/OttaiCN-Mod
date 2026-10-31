@@ -4,16 +4,7 @@
 
 # interfaces
 .implements Ljava/io/Serializable;
-.implements Lib/j;
-
-
-# annotations
-.annotation build Lfb/b;
-    emulated = true
-.end annotation
-
-.annotation runtime Lib/e;
-.end annotation
+.implements Lcom/google/common/cache/j;
 
 
 # static fields
@@ -49,20 +40,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private readObject(Ljava/io/ObjectInputStream;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "s"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;,
@@ -111,20 +92,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private writeObject(Ljava/io/ObjectOutputStream;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "s"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -164,21 +135,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public add(J)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "x"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/common/cache/Striped64;->cells:[Lcom/google/common/cache/Striped64$b;
@@ -265,7 +227,7 @@
 
     .line 39
     .line 40
-    iget-wide v2, v0, Lcom/google/common/cache/Striped64$b;->h:J
+    iget-wide v2, v0, Lcom/google/common/cache/Striped64$b;->a:J
 
     .line 41
     .line 42
@@ -336,8 +298,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public decrement()V
@@ -370,7 +330,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public doubleValue()D
@@ -405,7 +364,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public floatValue()F
@@ -440,21 +398,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final fn(JJ)J
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "v",
-            "x"
-        }
-    .end annotation
 
     add-long/2addr p1, p3
 
@@ -491,7 +438,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public intValue()I
@@ -526,7 +472,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public longValue()J
@@ -559,7 +504,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public reset()V
@@ -592,7 +536,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public sum()J
@@ -630,7 +573,7 @@
 
     .line 14
     .line 15
-    iget-wide v5, v5, Lcom/google/common/cache/Striped64$b;->h:J
+    iget-wide v5, v5, Lcom/google/common/cache/Striped64$b;->a:J
 
     .line 16
     .line 17
@@ -648,7 +591,6 @@
     :cond_1
     return-wide v0
     .line 22
-    .line 23
 .end method
 
 .method public sumThenReset()J
@@ -694,14 +636,14 @@
 
     .line 18
     .line 19
-    iget-wide v8, v7, Lcom/google/common/cache/Striped64$b;->h:J
+    iget-wide v8, v7, Lcom/google/common/cache/Striped64$b;->a:J
 
     .line 20
     .line 21
     add-long/2addr v0, v8
 
     .line 22
-    iput-wide v3, v7, Lcom/google/common/cache/Striped64$b;->h:J
+    iput-wide v3, v7, Lcom/google/common/cache/Striped64$b;->a:J
 
     .line 23
     .line 24
@@ -788,15 +730,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -833,5 +766,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

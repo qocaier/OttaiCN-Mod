@@ -11,10 +11,4 @@
 .end method
 
 .method public abstract prepare(Ljava/lang/String;)Landroidx/sqlite/SQLiteStatement;
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 .end method

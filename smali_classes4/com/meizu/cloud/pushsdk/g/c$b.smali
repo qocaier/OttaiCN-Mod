@@ -55,6 +55,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic a(Lcom/meizu/cloud/pushsdk/g/c$b;)Lcom/meizu/cloud/pushsdk/g/b;
@@ -106,6 +108,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic d(Lcom/meizu/cloud/pushsdk/g/c$b;)Ljava/lang/String;
@@ -139,6 +143,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic e(Lcom/meizu/cloud/pushsdk/g/c$b;)Ljava/util/Map;
@@ -172,6 +178,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic f(Lcom/meizu/cloud/pushsdk/g/c$b;)Ljava/lang/Exception;
@@ -205,6 +213,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 

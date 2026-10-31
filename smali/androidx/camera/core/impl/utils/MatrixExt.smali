@@ -38,6 +38,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -66,6 +67,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static denormalize([FFF)V
@@ -195,6 +197,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static normalize([FFF)V
@@ -320,6 +325,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static postRotate([FFFF)V
@@ -631,6 +639,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static preRotate([FFFF)V
@@ -889,6 +903,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static preVerticalFlip([FF)V
@@ -1207,6 +1227,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static toString([FI)Ljava/lang/String;
@@ -1590,4 +1616,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

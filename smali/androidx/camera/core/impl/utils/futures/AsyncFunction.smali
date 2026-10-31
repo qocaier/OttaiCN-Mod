@@ -24,7 +24,7 @@
 
 
 # virtual methods
-.method public abstract apply(Ljava/lang/Object;)Lub/u0;
+.method public abstract apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
     .param p1    # Ljava/lang/Object;
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
@@ -35,8 +35,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TI;)",
-            "Lub/u0<",
-            "TO;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 

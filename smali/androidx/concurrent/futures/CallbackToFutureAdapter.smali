@@ -41,9 +41,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public static getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+.method public static getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
     .locals 3
     .param p0    # Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
         .annotation build Landroidx/annotation/NonNull;
@@ -59,8 +60,7 @@
             ">(",
             "Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver<",
             "TT;>;)",
-            "Lub/u0<",
-            "TT;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -178,4 +178,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

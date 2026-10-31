@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/flu_youzan_service/YouzanFragment;->v()V
+    value = Lcom/example/flu_youzan_service/YouzanFragment;->t()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -51,25 +51,19 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public call(Landroid/content/Context;Landroid/content/Intent;I)V
     .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroid/content/ActivityNotFoundException;
-        }
-    .end annotation
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -78,7 +72,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -224,9 +218,4 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method

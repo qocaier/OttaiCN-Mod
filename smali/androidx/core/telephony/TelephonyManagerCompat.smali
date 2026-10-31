@@ -46,6 +46,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getImei(Landroid/telephony/TelephonyManager;)Ljava/lang/String;
@@ -179,6 +180,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getSubscriptionId(Landroid/telephony/TelephonyManager;)I
@@ -339,4 +341,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

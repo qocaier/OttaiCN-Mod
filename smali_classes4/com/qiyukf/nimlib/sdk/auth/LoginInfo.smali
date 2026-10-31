@@ -84,6 +84,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -248,6 +250,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$102(Lcom/qiyukf/nimlib/sdk/auth/LoginInfo;Ljava/lang/String;)Ljava/lang/String;
@@ -310,6 +322,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$202(Lcom/qiyukf/nimlib/sdk/auth/LoginInfo;Ljava/lang/String;)Ljava/lang/String;
@@ -372,6 +394,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$302(Lcom/qiyukf/nimlib/sdk/auth/LoginInfo;I)I
@@ -434,6 +466,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static fromJson(Lorg/json/JSONObject;)Lcom/qiyukf/nimlib/sdk/auth/LoginInfo;
@@ -583,6 +625,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -765,6 +809,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getAccount()Ljava/lang/String;
@@ -793,6 +839,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAppKey()Ljava/lang/String;
@@ -821,6 +869,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAuthType()I
@@ -849,6 +899,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCustomClientType()I
@@ -877,6 +929,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLoginExt()Ljava/lang/String;
@@ -905,6 +959,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getToken()Ljava/lang/String;
@@ -933,6 +989,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public hashCode()I
@@ -1051,6 +1109,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public toJson()Lorg/json/JSONObject;
@@ -1199,6 +1258,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1331,6 +1391,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public valid()Z
@@ -1459,6 +1520,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -1543,4 +1605,14 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method

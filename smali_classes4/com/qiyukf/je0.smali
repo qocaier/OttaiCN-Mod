@@ -3,34 +3,30 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
-
-
-# instance fields
-.field public final synthetic a:Lcom/qiyukf/w;
+.implements Lcom/qiyukf/p4$a;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/qiyukf/w;)V
+.method public synthetic constructor <init>()V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/qiyukf/je0;->a:Lcom/qiyukf/w;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 1
+.method public final a(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
 
     .line 1
-    iget-object v0, p0, Lcom/qiyukf/je0;->a:Lcom/qiyukf/w;
+    check-cast p1, Lcom/qiyukf/tv;
 
-    invoke-static {v0}, Lcom/qiyukf/w;->c(Lcom/qiyukf/w;)V
+    invoke-static {p1}, Lcom/qiyukf/gp;->b(Lcom/qiyukf/tv;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
 
-    return-void
+    move-result-object p1
+
+    return-object p1
 .end method

@@ -159,6 +159,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -187,6 +189,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static checkDisabled()Z
@@ -236,28 +239,11 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public static validateProtobufGencodeVersion(Landroidx/datastore/preferences/protobuf/RuntimeVersion$RuntimeDomain;IIILjava/lang/String;Ljava/lang/String;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "domain",
-            "major",
-            "minor",
-            "patch",
-            "suffix",
-            "location"
-        }
-    .end annotation
 
     .line 1
     invoke-static {}, Landroidx/datastore/preferences/protobuf/RuntimeVersion;->checkDisabled()Z
@@ -1283,24 +1269,6 @@
 
 .method private static validateProtobufGencodeVersionImpl(Landroidx/datastore/preferences/protobuf/RuntimeVersion$RuntimeDomain;IIILjava/lang/String;Ljava/lang/String;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "domain",
-            "major",
-            "minor",
-            "patch",
-            "suffix",
-            "location"
-        }
-    .end annotation
 
     .line 1
     invoke-static {}, Landroidx/datastore/preferences/protobuf/RuntimeVersion;->checkDisabled()Z
@@ -2503,20 +2471,6 @@
 
 .method private static versionString(IIILjava/lang/String;)Ljava/lang/String;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "major",
-            "minor",
-            "patch",
-            "suffix"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -2771,4 +2725,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

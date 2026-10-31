@@ -82,34 +82,15 @@
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    .line 3
-    .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
 .end method
 
 .method public static addBucketInfo(Ljava/lang/String;Ljava/lang/String;)V
@@ -426,6 +407,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static getBucketInfo()Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -462,6 +446,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getContext()Landroid/content/Context;
@@ -490,6 +475,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getCurrentProcess()Ljava/lang/String;
@@ -518,6 +504,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getEnv()Lanet/channel/entity/ENV;
@@ -546,6 +533,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getInitTime()J
@@ -576,6 +564,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getStartType()I
@@ -621,6 +610,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getTtid()Ljava/lang/String;
@@ -649,6 +639,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getUserId()Ljava/lang/String;
@@ -677,6 +668,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getUtdid()Ljava/lang/String;
@@ -720,6 +712,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static isAppBackground()Z
@@ -757,6 +750,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static isTargetProcess()Z
@@ -1030,6 +1024,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static setCurrentProcess(Ljava/lang/String;)V
@@ -1316,6 +1311,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static setUserId(Ljava/lang/String;)V
@@ -1440,6 +1436,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static setUtdid(Ljava/lang/String;)V

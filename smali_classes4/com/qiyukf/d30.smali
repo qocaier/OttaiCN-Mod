@@ -132,6 +132,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExt()Ljava/lang/String;
@@ -160,6 +162,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()Ljava/lang/String;
@@ -188,6 +192,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionType()Lcom/qiyukf/nimlib/sdk/msg/constant/SessionTypeEnum;
@@ -216,6 +222,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUpdateTime()J
@@ -244,4 +252,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

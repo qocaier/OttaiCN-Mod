@@ -198,6 +198,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private post(Ljava/lang/Runnable;)V
@@ -357,6 +360,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -405,6 +409,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isRunning()Z
@@ -461,6 +466,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onDestruction()V
@@ -595,6 +601,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onInvokeRunnable(Ljava/lang/Runnable;)V
@@ -715,6 +723,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public postAndReply(Ljava/util/concurrent/Callable;Landroidx/core/provider/SelfDestructiveThread$ReplyCallback;)V
@@ -1161,4 +1170,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

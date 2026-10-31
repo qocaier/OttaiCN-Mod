@@ -552,7 +552,7 @@
 
     iget-object p1, p0, Lcom/baidu/location/LocationClient;->f:Landroid/content/Context;
 
-    invoke-static {p1, v0}, Le5/a;->a(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-static {p1, v0}, Lcom/baidu/location/a;->a(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
 
     goto :goto_0
 

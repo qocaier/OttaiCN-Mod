@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/location/pb/OffAuthReq;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -22,13 +22,13 @@
 
 
 # instance fields
-.field private ak_:Ljc/a;
+.field private ak_:Ll4/a;
 
 .field private cachedSize:I
 
-.field private clientInfo_:Ljc/a;
+.field private clientInfo_:Ll4/a;
 
-.field private cu_:Ljc/a;
+.field private cu_:Ll4/a;
 
 .field private gt_:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -64,7 +64,7 @@
 
 .field private loc_:Lcom/baidu/location/pb/Loc;
 
-.field private src_:Ljc/a;
+.field private src_:Ll4/a;
 
 .field private ts_:J
 
@@ -73,13 +73,13 @@
 .method public constructor <init>()V
     .locals 3
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->cu_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->cu_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->ak_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->ak_:Ll4/a;
 
     const/4 v1, 0x0
 
@@ -89,13 +89,13 @@
 
     iput-wide v1, p0, Lcom/baidu/location/pb/OffAuthReq;->ts_:J
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->src_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->src_:Ll4/a;
 
     sget-object v1, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
     iput-object v1, p0, Lcom/baidu/location/pb/OffAuthReq;->gt_:Ljava/util/List;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->clientInfo_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->clientInfo_:Ll4/a;
 
     iput-object v1, p0, Lcom/baidu/location/pb/OffAuthReq;->gtl_:Ljava/util/List;
 
@@ -106,7 +106,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/location/pb/OffAuthReq;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/location/pb/OffAuthReq;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -119,7 +119,7 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/OffAuthReq;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/location/pb/OffAuthReq;->mergeFrom(Ljc/b;)Lcom/baidu/location/pb/OffAuthReq;
+    invoke-virtual {v0, p0}, Lcom/baidu/location/pb/OffAuthReq;->mergeFrom(Ll4/b;)Lcom/baidu/location/pb/OffAuthReq;
 
     move-result-object p0
 
@@ -139,7 +139,7 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/OffAuthReq;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -242,9 +242,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/location/pb/OffAuthReq;->hasAk:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->ak_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->ak_:Ll4/a;
 
     return-object p0
 .end method
@@ -256,9 +256,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/location/pb/OffAuthReq;->hasClientInfo:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->clientInfo_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->clientInfo_:Ll4/a;
 
     return-object p0
 .end method
@@ -270,9 +270,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/location/pb/OffAuthReq;->hasCu:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->cu_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->cu_:Ll4/a;
 
     return-object p0
 .end method
@@ -318,9 +318,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/location/pb/OffAuthReq;->hasSrc:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->src_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->src_:Ll4/a;
 
     return-object p0
 .end method
@@ -339,11 +339,11 @@
     return-object p0
 .end method
 
-.method public getAk()Ljc/a;
+.method public getAk()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->ak_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->ak_:Ll4/a;
 
     .line 2
     .line 3
@@ -367,7 +367,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCachedSize()I
@@ -385,11 +384,11 @@
     return v0
 .end method
 
-.method public getClientInfo()Ljc/a;
+.method public getClientInfo()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->clientInfo_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->clientInfo_:Ll4/a;
 
     .line 2
     .line 3
@@ -413,14 +412,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getCu()Ljc/a;
+.method public getCu()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->cu_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->cu_:Ll4/a;
 
     .line 2
     .line 3
@@ -444,7 +442,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getGt(I)I
@@ -556,11 +553,11 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getCu()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getCu()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v0
 
@@ -578,11 +575,11 @@
 
     const/4 v2, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getAk()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getAk()Ll4/a;
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -601,7 +598,7 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v2, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -620,7 +617,7 @@
 
     move-result-wide v3
 
-    invoke-static {v2, v3, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v(IJ)I
+    invoke-static {v2, v3, v4}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->l(IJ)I
 
     move-result v2
 
@@ -635,11 +632,11 @@
 
     const/4 v2, 0x5
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getSrc()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getSrc()Ll4/a;
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v2, v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v2
 
@@ -671,7 +668,7 @@
 
     move-result v3
 
-    invoke-static {v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->u(I)I
+    invoke-static {v3}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->k(I)I
 
     move-result v3
 
@@ -700,11 +697,11 @@
 
     const/4 v1, 0x7
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getClientInfo()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getClientInfo()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -734,7 +731,7 @@
 
     const/16 v3, 0x8
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -748,11 +745,11 @@
     return v0
 .end method
 
-.method public getSrc()Ljc/a;
+.method public getSrc()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->src_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/location/pb/OffAuthReq;->src_:Ll4/a;
 
     .line 2
     .line 3
@@ -776,7 +773,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTs()J
@@ -843,7 +839,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/location/pb/OffAuthReq;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/location/pb/OffAuthReq;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -854,7 +850,7 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
@@ -892,7 +888,7 @@
 
     if-eq v0, v1, :cond_1
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -905,23 +901,23 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/GridTypeLen;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffAuthReq;->addGtl(Lcom/baidu/location/pb/GridTypeLen;)Lcom/baidu/location/pb/OffAuthReq;
 
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffAuthReq;->setClientInfo(Ljc/a;)Lcom/baidu/location/pb/OffAuthReq;
+    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffAuthReq;->setClientInfo(Ll4/a;)Lcom/baidu/location/pb/OffAuthReq;
 
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -930,16 +926,16 @@
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffAuthReq;->setSrc(Ljc/a;)Lcom/baidu/location/pb/OffAuthReq;
+    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffAuthReq;->setSrc(Ll4/a;)Lcom/baidu/location/pb/OffAuthReq;
 
     goto :goto_0
 
     :cond_5
-    invoke-virtual {p1}, Ljc/b;->t()J
+    invoke-virtual {p1}, Ll4/b;->l()J
 
     move-result-wide v0
 
@@ -952,27 +948,27 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/Loc;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffAuthReq;->setLoc(Lcom/baidu/location/pb/Loc;)Lcom/baidu/location/pb/OffAuthReq;
 
     goto :goto_0
 
     :cond_7
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffAuthReq;->setAk(Ljc/a;)Lcom/baidu/location/pb/OffAuthReq;
+    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffAuthReq;->setAk(Ll4/a;)Lcom/baidu/location/pb/OffAuthReq;
 
     goto :goto_0
 
     :cond_8
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffAuthReq;->setCu(Ljc/a;)Lcom/baidu/location/pb/OffAuthReq;
+    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffAuthReq;->setCu(Ll4/a;)Lcom/baidu/location/pb/OffAuthReq;
 
     goto :goto_0
 
@@ -981,7 +977,7 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -990,14 +986,14 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/location/pb/OffAuthReq;->mergeFrom(Ljc/b;)Lcom/baidu/location/pb/OffAuthReq;
+    invoke-virtual {p0, p1}, Lcom/baidu/location/pb/OffAuthReq;->mergeFrom(Ll4/b;)Lcom/baidu/location/pb/OffAuthReq;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public setAk(Ljc/a;)Lcom/baidu/location/pb/OffAuthReq;
+.method public setAk(Ll4/a;)Lcom/baidu/location/pb/OffAuthReq;
     .locals 1
 
     .line 1
@@ -1008,7 +1004,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/location/pb/OffAuthReq;->ak_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/location/pb/OffAuthReq;->ak_:Ll4/a;
 
     .line 5
     .line 6
@@ -1031,10 +1027,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setClientInfo(Ljc/a;)Lcom/baidu/location/pb/OffAuthReq;
+.method public setClientInfo(Ll4/a;)Lcom/baidu/location/pb/OffAuthReq;
     .locals 1
 
     .line 1
@@ -1045,7 +1040,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/location/pb/OffAuthReq;->clientInfo_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/location/pb/OffAuthReq;->clientInfo_:Ll4/a;
 
     .line 5
     .line 6
@@ -1068,10 +1063,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setCu(Ljc/a;)Lcom/baidu/location/pb/OffAuthReq;
+.method public setCu(Ll4/a;)Lcom/baidu/location/pb/OffAuthReq;
     .locals 1
 
     .line 1
@@ -1082,7 +1076,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/location/pb/OffAuthReq;->cu_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/location/pb/OffAuthReq;->cu_:Ll4/a;
 
     .line 5
     .line 6
@@ -1105,7 +1099,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGt(II)Lcom/baidu/location/pb/OffAuthReq;
@@ -1158,7 +1151,7 @@
     return-object p0
 .end method
 
-.method public setSrc(Ljc/a;)Lcom/baidu/location/pb/OffAuthReq;
+.method public setSrc(Ll4/a;)Lcom/baidu/location/pb/OffAuthReq;
     .locals 1
 
     .line 1
@@ -1169,7 +1162,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/location/pb/OffAuthReq;->src_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/location/pb/OffAuthReq;->src_:Ll4/a;
 
     .line 5
     .line 6
@@ -1192,7 +1185,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTs(J)Lcom/baidu/location/pb/OffAuthReq;
@@ -1223,11 +1215,11 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getCu()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getCu()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->hasAk()Z
@@ -1238,11 +1230,11 @@
 
     const/4 v0, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getAk()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getAk()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->hasLoc()Z
@@ -1257,7 +1249,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->hasTs()Z
@@ -1272,7 +1264,7 @@
 
     move-result-wide v1
 
-    invoke-virtual {p1, v0, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t0(IJ)V
+    invoke-virtual {p1, v0, v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->O(IJ)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->hasSrc()Z
@@ -1283,11 +1275,11 @@
 
     const/4 v0, 0x5
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getSrc()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getSrc()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_4
     invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getGtList()Ljava/util/List;
@@ -1317,7 +1309,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     goto :goto_0
 
@@ -1330,11 +1322,11 @@
 
     const/4 v0, 0x7
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getClientInfo()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getClientInfo()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_6
     invoke-virtual {p0}, Lcom/baidu/location/pb/OffAuthReq;->getGtlList()Ljava/util/List;
@@ -1360,7 +1352,7 @@
 
     const/16 v2, 0x8
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_1
 

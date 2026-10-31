@@ -538,6 +538,9 @@
     .line 112
     return-void
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private prepareDialog(Landroid/os/Bundle;)V
@@ -882,6 +885,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
@@ -920,6 +928,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dismiss()V
@@ -950,6 +959,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dismissAllowingStateLoss()V
@@ -982,6 +992,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dismissNow()V
@@ -1016,6 +1027,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDialog()Landroid/app/Dialog;
@@ -1046,6 +1058,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getShowsDialog()Z
@@ -1074,6 +1087,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTheme()I
@@ -1104,6 +1118,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isCancelable()Z
@@ -1132,6 +1147,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onActivityCreated(Landroid/os/Bundle;)V
@@ -1403,6 +1419,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
@@ -1535,6 +1552,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onDestroyView()V
@@ -1661,6 +1679,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onDetach()V
@@ -1776,6 +1796,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onDismiss(Landroid/content/DialogInterface;)V
@@ -1904,6 +1926,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onFindViewById(I)Landroid/view/View;
@@ -2324,6 +2347,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public onHasView()Z
@@ -2352,6 +2380,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -2510,6 +2539,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onStart()V
@@ -2631,6 +2661,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onStop()V
@@ -2668,6 +2700,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onViewStateRestored(Landroid/os/Bundle;)V
@@ -2882,6 +2915,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public final requireComponentDialog()Landroidx/activity/ComponentDialog;
@@ -3011,6 +3047,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final requireDialog()Landroid/app/Dialog;
@@ -3134,6 +3172,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setCancelable(Z)V
@@ -3508,6 +3548,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setupDialog(Landroid/app/Dialog;I)V

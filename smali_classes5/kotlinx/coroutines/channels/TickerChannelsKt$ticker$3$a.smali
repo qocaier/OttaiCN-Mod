@@ -1,4 +1,4 @@
-.class public final synthetic Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3$a;
+.class public abstract synthetic Lkotlinx/coroutines/channels/TickerChannelsKt$ticker$3$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

@@ -7,25 +7,21 @@
 
 
 # instance fields
-.field public final synthetic a:Lio/flutter/plugin/common/MethodCall;
+.field public final synthetic a:Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;
 
-.field public final synthetic b:Lio/flutter/plugin/common/MethodChannel$Result;
-
-.field public final synthetic c:Lcom/tekartik/sqflite/Database;
+.field public final synthetic b:Lcom/tekartik/sqflite/DatabaseWorker;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;Lcom/tekartik/sqflite/Database;)V
+.method public synthetic constructor <init>(Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;Lcom/tekartik/sqflite/DatabaseWorker;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/tekartik/sqflite/k;->a:Lio/flutter/plugin/common/MethodCall;
+    iput-object p1, p0, Lcom/tekartik/sqflite/k;->a:Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;
 
-    iput-object p2, p0, Lcom/tekartik/sqflite/k;->b:Lio/flutter/plugin/common/MethodChannel$Result;
-
-    iput-object p3, p0, Lcom/tekartik/sqflite/k;->c:Lcom/tekartik/sqflite/Database;
+    iput-object p2, p0, Lcom/tekartik/sqflite/k;->b:Lcom/tekartik/sqflite/DatabaseWorker;
 
     return-void
 .end method
@@ -33,16 +29,14 @@
 
 # virtual methods
 .method public final run()V
-    .locals 3
+    .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/tekartik/sqflite/k;->a:Lio/flutter/plugin/common/MethodCall;
+    iget-object v0, p0, Lcom/tekartik/sqflite/k;->a:Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;
 
-    iget-object v1, p0, Lcom/tekartik/sqflite/k;->b:Lio/flutter/plugin/common/MethodChannel$Result;
+    iget-object v1, p0, Lcom/tekartik/sqflite/k;->b:Lcom/tekartik/sqflite/DatabaseWorker;
 
-    iget-object v2, p0, Lcom/tekartik/sqflite/k;->c:Lcom/tekartik/sqflite/Database;
-
-    invoke-static {v0, v1, v2}, Lcom/tekartik/sqflite/SqflitePlugin;->h(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;Lcom/tekartik/sqflite/Database;)V
+    invoke-static {v0, v1}, Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;->a(Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;Lcom/tekartik/sqflite/DatabaseWorker;)V
 
     return-void
 .end method

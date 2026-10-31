@@ -233,6 +233,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDurationMillis()J
@@ -265,6 +266,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFraction()F
@@ -301,6 +303,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInterpolatedFraction()F
@@ -333,6 +336,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInterpolator()Landroid/view/animation/Interpolator;
@@ -365,6 +369,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTypeMask()I
@@ -397,6 +402,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setAlpha(F)V

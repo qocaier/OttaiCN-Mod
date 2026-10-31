@@ -491,6 +491,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEditor()Landroid/content/SharedPreferences$Editor;
@@ -624,6 +625,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getNextId()J
@@ -672,6 +675,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOnDisplayPreferenceDialogListener()Landroidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener;
@@ -702,6 +706,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOnNavigateToScreenListener()Landroidx/preference/PreferenceManager$OnNavigateToScreenListener;
@@ -732,6 +737,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOnPreferenceTreeClickListener()Landroidx/preference/PreferenceManager$OnPreferenceTreeClickListener;
@@ -762,6 +768,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreferenceComparisonCallback()Landroidx/preference/PreferenceManager$PreferenceComparisonCallback;
@@ -792,6 +799,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreferenceDataStore()Landroidx/preference/PreferenceDataStore;
@@ -822,6 +830,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreferenceScreen()Landroidx/preference/PreferenceScreen;
@@ -850,6 +859,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSharedPreferences()Landroid/content/SharedPreferences;
@@ -988,6 +998,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getSharedPreferencesMode()I
@@ -1016,6 +1028,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSharedPreferencesName()Ljava/lang/String;
@@ -1044,6 +1057,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public inflateFromResource(Landroid/content/Context;ILandroidx/preference/PreferenceScreen;)Landroidx/preference/PreferenceScreen;
@@ -1199,6 +1213,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public isStorageDefault()Z
@@ -1236,6 +1253,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isStorageDeviceProtected()Z
@@ -1273,6 +1291,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setOnDisplayPreferenceDialogListener(Landroidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener;)V
@@ -1615,6 +1634,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setStorageDeviceProtected()V
@@ -1649,6 +1669,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public shouldCommit()Z
@@ -1679,6 +1700,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public showDialog(Landroidx/preference/Preference;)V

@@ -16,6 +16,4 @@
 
 # virtual methods
 .method public abstract saveState()Landroid/os/Bundle;
-    .annotation build Lsq/k;
-    .end annotation
 .end method

@@ -3,28 +3,17 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/p;
+.implements Lq8/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/util/LruCacheKt;->lruCache$default(ILjm/p;Ljm/l;Ljm/r;ILjava/lang/Object;)Landroid/util/LruCache;
+    value = Landroidx/core/util/LruCacheKt;->lruCache$default(ILq8/p;Lq8/l;Lq8/r;ILjava/lang/Object;)Landroid/util/LruCache;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x19
     name = null
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljm/p<",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Integer;",
-        ">;"
-    }
 .end annotation
 
 
@@ -57,15 +46,6 @@
 # virtual methods
 .method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Integer;
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/Object;",
-            "Ljava/lang/Object;",
-            ")",
-            "Ljava/lang/Integer;"
-        }
-    .end annotation
 
     const/4 p1, 0x1
 

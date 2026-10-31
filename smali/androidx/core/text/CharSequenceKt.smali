@@ -6,10 +6,6 @@
 # direct methods
 .method public static final isDigitsOnly(Ljava/lang/CharSequence;)Z
     .locals 0
-    .param p0    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isDigitsOnly(Ljava/lang/CharSequence;)Z
@@ -45,10 +41,6 @@
 
 .method public static final trimmedLength(Ljava/lang/CharSequence;)I
     .locals 0
-    .param p0    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->getTrimmedLength(Ljava/lang/CharSequence;)I

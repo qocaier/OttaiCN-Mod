@@ -47,6 +47,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -77,6 +79,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExcludeMessageServerId()J
@@ -105,6 +109,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFromTime()J
@@ -133,6 +139,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLimit()I
@@ -161,6 +169,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getToTime()J
@@ -189,6 +199,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isPersist()Z
@@ -217,6 +229,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isValid()Z
@@ -338,6 +352,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public setDirection(Lcom/qiyukf/nimlib/sdk/msg/model/QueryDirectionEnum;)V
@@ -371,6 +386,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setExcludeMessageServerId(J)V
@@ -404,6 +421,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromTime(J)V
@@ -437,6 +456,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLimit(I)V
@@ -470,6 +491,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPersist(Z)V
@@ -503,6 +526,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setToTime(J)V
@@ -536,6 +561,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -686,4 +713,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

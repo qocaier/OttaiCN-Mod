@@ -46,6 +46,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getInstance()Landroidx/webkit/TracingController;
@@ -76,6 +77,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 

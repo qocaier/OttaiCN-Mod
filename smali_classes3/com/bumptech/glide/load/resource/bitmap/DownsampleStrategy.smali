@@ -32,15 +32,7 @@
 
 .field public static final g:Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;
 
-.field public static final h:La6/d;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "La6/d<",
-            "Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field public static final h:Lh0/c;
 
 .field public static final i:Z
 
@@ -136,7 +128,7 @@
 
     .line 46
     .line 47
-    invoke-static {v1, v0}, La6/d;->g(Ljava/lang/String;Ljava/lang/Object;)La6/d;
+    invoke-static {v1, v0}, Lh0/c;->f(Ljava/lang/String;Ljava/lang/Object;)Lh0/c;
 
     .line 48
     .line 49
@@ -144,7 +136,7 @@
     move-result-object v0
 
     .line 51
-    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;->h:La6/d;
+    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/DownsampleStrategy;->h:Lh0/c;
 
     .line 52
     .line 53
@@ -200,15 +192,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public constructor <init>()V
@@ -239,7 +222,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 

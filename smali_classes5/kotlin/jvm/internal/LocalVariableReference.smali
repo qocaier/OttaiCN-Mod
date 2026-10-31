@@ -3,12 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Ljl/x0;
-    version = "1.1"
-.end annotation
-
-
 # direct methods
 .method public constructor <init>()V
     .locals 0
@@ -39,17 +33,42 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
 .method public get()Ljava/lang/Object;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
-    invoke-static {}, Lkm/i0;->a()Ljava/lang/Void;
+    invoke-static {}, Lkotlin/jvm/internal/k;->a()Ljava/lang/Void;
 
     .line 2
     .line 3
@@ -78,15 +97,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public getOwner()Lum/h;
+.method public getOwner()Lkotlin/reflect/e;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    invoke-static {}, Lkm/i0;->a()Ljava/lang/Void;
+    invoke-static {}, Lkotlin/jvm/internal/k;->a()Ljava/lang/Void;
 
     .line 2
     .line 3
@@ -115,4 +159,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

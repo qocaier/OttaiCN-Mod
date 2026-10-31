@@ -163,6 +163,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic access$000(Landroidx/core/view/insets/Protection$Attributes;Landroidx/core/graphics/Insets;)V
@@ -1065,6 +1067,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDrawable()Landroid/graphics/drawable/Drawable;
@@ -1093,6 +1096,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeight()I
@@ -1121,6 +1125,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMargin()Landroidx/core/graphics/Insets;
@@ -1149,6 +1154,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTranslationX()F
@@ -1177,6 +1183,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTranslationY()F
@@ -1205,6 +1212,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWidth()I
@@ -1233,6 +1241,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isVisible()Z
@@ -1261,6 +1270,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setCallback(Landroidx/core/view/insets/Protection$Attributes$Callback;)V

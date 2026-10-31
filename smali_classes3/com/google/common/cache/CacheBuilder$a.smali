@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/google/common/cache/a$b;
+.implements Lcom/google/common/cache/b;
 
 
 # annotations
@@ -46,21 +46,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public a(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "count"
-        }
-    .end annotation
 
     .line 1
     return-void
@@ -68,14 +59,6 @@
 
 .method public b(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "count"
-        }
-    .end annotation
 
     .line 1
     return-void
@@ -90,14 +73,6 @@
 
 .method public d(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "loadTime"
-        }
-    .end annotation
 
     .line 1
     return-void
@@ -105,24 +80,16 @@
 
 .method public e(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "loadTime"
-        }
-    .end annotation
 
     .line 1
     return-void
 .end method
 
-.method public f()Lib/d;
+.method public f()Lcom/google/common/cache/e;
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/google/common/cache/CacheBuilder;->v:Lib/d;
+    sget-object v0, Lcom/google/common/cache/CacheBuilder;->r:Lcom/google/common/cache/e;
 
     .line 2
     .line 3
@@ -146,5 +113,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

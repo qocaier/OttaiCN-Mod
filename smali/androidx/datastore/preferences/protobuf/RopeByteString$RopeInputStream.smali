@@ -33,14 +33,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/RopeByteString;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$RopeInputStream;->this$0:Landroidx/datastore/preferences/protobuf/RopeByteString;
@@ -216,6 +208,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private availableInternal()I
@@ -256,6 +250,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private initialize()V
@@ -374,22 +369,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private readSkipInternal([BII)I
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "b",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 1
     move v0, p3
@@ -554,6 +539,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -591,18 +579,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mark(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "readAheadLimit"
-        }
-    .end annotation
 
     .line 1
     iget p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$RopeInputStream;->currentPieceOffsetInRope:I
@@ -687,18 +668,6 @@
 
 .method public read([BII)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "b",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -796,18 +765,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public skip(J)J
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "length"
-        }
-    .end annotation
 
     .line 1
     const-wide/16 v0, 0x0
@@ -922,4 +884,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

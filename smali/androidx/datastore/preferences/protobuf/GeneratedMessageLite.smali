@@ -89,6 +89,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -127,6 +128,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$000(Landroidx/datastore/preferences/protobuf/ExtensionLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;
@@ -704,15 +706,6 @@
 
 .method private static checkIsLite(Landroidx/datastore/preferences/protobuf/ExtensionLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "extension"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<MessageType:",
@@ -776,15 +769,6 @@
 
 .method private static checkMessageInitialized(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "message"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -856,15 +840,6 @@
 
 .method private computeSerializedSize(Landroidx/datastore/preferences/protobuf/Schema;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "nullableSchema"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -950,6 +925,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static emptyDoubleList()Landroidx/datastore/preferences/protobuf/Internal$DoubleList;
@@ -980,6 +956,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static emptyFloatList()Landroidx/datastore/preferences/protobuf/Internal$FloatList;
@@ -1010,6 +987,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static emptyIntList()Landroidx/datastore/preferences/protobuf/Internal$IntList;
@@ -1040,6 +1018,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static emptyLongList()Landroidx/datastore/preferences/protobuf/Internal$LongList;
@@ -1070,6 +1049,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static emptyProtobufList()Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
@@ -1109,6 +1089,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private ensureUnknownFieldsInitialized()V
@@ -1150,19 +1131,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getDefaultInstance(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "clazz"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -1328,22 +1301,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static varargs getMethodOrDie(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "clazz",
-            "name",
-            "params"
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -1503,22 +1465,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static varargs invokeOrDie(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "method",
-            "object",
-            "params"
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -1686,21 +1639,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final isInitialized(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Z)Z
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "message",
-            "shouldMemoize"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -1774,14 +1719,6 @@
 
 .method public static mutableCopy(Landroidx/datastore/preferences/protobuf/Internal$BooleanList;)Landroidx/datastore/preferences/protobuf/Internal$BooleanList;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "list"
-        }
-    .end annotation
 
     .line 9
     invoke-interface {p0}, Ljava/util/List;->size()I
@@ -1808,14 +1745,6 @@
 
 .method public static mutableCopy(Landroidx/datastore/preferences/protobuf/Internal$DoubleList;)Landroidx/datastore/preferences/protobuf/Internal$DoubleList;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "list"
-        }
-    .end annotation
 
     .line 7
     invoke-interface {p0}, Ljava/util/List;->size()I
@@ -1842,14 +1771,6 @@
 
 .method public static mutableCopy(Landroidx/datastore/preferences/protobuf/Internal$FloatList;)Landroidx/datastore/preferences/protobuf/Internal$FloatList;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "list"
-        }
-    .end annotation
 
     .line 5
     invoke-interface {p0}, Ljava/util/List;->size()I
@@ -1876,14 +1797,6 @@
 
 .method public static mutableCopy(Landroidx/datastore/preferences/protobuf/Internal$IntList;)Landroidx/datastore/preferences/protobuf/Internal$IntList;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "list"
-        }
-    .end annotation
 
     .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
@@ -1910,14 +1823,6 @@
 
 .method public static mutableCopy(Landroidx/datastore/preferences/protobuf/Internal$LongList;)Landroidx/datastore/preferences/protobuf/Internal$LongList;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "list"
-        }
-    .end annotation
 
     .line 3
     invoke-interface {p0}, Ljava/util/List;->size()I
@@ -1944,15 +1849,6 @@
 
 .method public static mutableCopy(Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "list"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -1990,18 +1886,6 @@
 
 .method public static newMessageInfo(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "info",
-            "objects"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/datastore/preferences/protobuf/RawMessageInfo;
@@ -2121,31 +2005,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static newRepeatedGeneratedExtension(Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;ILandroidx/datastore/preferences/protobuf/WireFormat$FieldType;ZLjava/lang/Class;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10,
-            0x10,
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "containingTypeDefaultInstance",
-            "messageDefaultInstance",
-            "enumTypeMap",
-            "number",
-            "type",
-            "isPacked",
-            "singularType"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<ContainingType::",
@@ -2814,27 +2680,6 @@
 
 .method public static newSingularGeneratedExtension(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;ILandroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10,
-            0x10,
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "containingTypeDefaultInstance",
-            "defaultValue",
-            "messageDefaultInstance",
-            "enumTypeMap",
-            "number",
-            "type",
-            "singularType"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<ContainingType::",
@@ -3502,17 +3347,6 @@
 
 .method public static parseDelimitedFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -3549,19 +3383,6 @@
 
 .method public static parseDelimitedFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "input",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -3594,17 +3415,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "data"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -3640,19 +3450,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "data",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -3684,17 +3481,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -3725,19 +3511,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "input",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -3769,17 +3542,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -3821,19 +3583,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "input",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -3870,17 +3619,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "data"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -3911,19 +3649,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "data",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -3960,17 +3685,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;[B)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "data"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -4009,19 +3723,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;[BLandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "data",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -4058,19 +3759,6 @@
 
 .method private static parsePartialDelimitedFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "input",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -4278,23 +3966,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static parsePartialFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "data",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -4345,17 +4023,6 @@
 
 .method public static parsePartialFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -4386,19 +4053,6 @@
 
 .method public static parsePartialFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "instance",
-            "input",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -4557,23 +4211,6 @@
 
 .method private static parsePartialFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;[BIILandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "input",
-            "offset",
-            "length",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -4735,17 +4372,6 @@
 
 .method public static registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "clazz",
-            "defaultInstance"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -4850,6 +4476,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearMemoizedHashCode()V
@@ -4880,6 +4507,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearMemoizedSerializedSize()V
@@ -4910,6 +4538,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public computeHashCode()I
@@ -4948,6 +4577,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final createBuilder()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
@@ -4976,15 +4606,6 @@
 
 .method public final createBuilder(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "prototype"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<MessageType:",
@@ -5009,14 +4630,6 @@
 
 .method public dynamicMethod(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$MethodToInvoke;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "method"
-        }
-    .end annotation
 
     const/4 v0, 0x0
 
@@ -5033,17 +4646,6 @@
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "method",
-            "arg0"
-        }
-    .end annotation
-
     const/4 v0, 0x0
 
     .line 1
@@ -5055,30 +4657,10 @@
 .end method
 
 .method public abstract dynamicMethod(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$MethodToInvoke;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "method",
-            "arg0",
-            "arg1"
-        }
-    .end annotation
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "other"
-        }
-    .end annotation
 
     .line 1
     if-ne p0, p1, :cond_0
@@ -5200,6 +4782,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getDefaultInstanceForType()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
@@ -5259,6 +4842,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMemoizedSerializedSize()I
@@ -5291,6 +4875,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getParserForType()Landroidx/datastore/preferences/protobuf/Parser;
@@ -5332,6 +4917,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSerializedSize()I
@@ -5349,14 +4935,6 @@
 
 .method public getSerializedSize(Landroidx/datastore/preferences/protobuf/Schema;)I
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "schema"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->isMutable()Z
@@ -5543,6 +5121,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public hashCodeIsNotMemoized()Z
@@ -5582,6 +5162,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isInitialized()Z
@@ -5636,6 +5217,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public makeImmutable()V
@@ -5674,6 +5256,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public markImmutable()V
@@ -5708,20 +5291,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mergeLengthDelimitedField(ILandroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->ensureUnknownFieldsInitialized()V
@@ -5782,14 +5356,6 @@
 
 .method public final mergeUnknownFields(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "unknownFields"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->unknownFields:Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
@@ -5829,16 +5395,6 @@
 
 .method public mergeVarintField(II)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "tag",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->ensureUnknownFieldsInitialized()V
@@ -5965,21 +5521,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public parseUnknownField(ILandroidx/datastore/preferences/protobuf/CodedInputStream;)Z
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "tag",
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -6060,14 +5606,6 @@
 
 .method public setMemoizedHashCode(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->memoizedHashCode:I
@@ -6101,14 +5639,6 @@
 
 .method public setMemoizedSerializedSize(I)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "size"
-        }
-    .end annotation
 
     .line 1
     if-ltz p1, :cond_0
@@ -6226,6 +5756,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final toBuilder()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
@@ -6296,19 +5827,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

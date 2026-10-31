@@ -27,12 +27,6 @@
     <!-- Приложение сможет подключаться к точкам доступа Wi-Fi и отключаться от них, а также изменять конфигурацию сетей Wi-Fi на устройстве. -->
     <uses-permission
         android:name="android.permission.CHANGE_WIFI_STATE" />
-    <!-- Приложение сможет считывать данные о контактах, сохраненных на вашем телефоне. Кроме того, у приложения будет доступ к аккаунтам на телефоне, в которых есть контакты. В их число могут входить аккаунты, созданные приложениями, которые вы установили. Получив возможность сохранять данные контактов, вредоносные программы смогут передавать их без вашего ведома. -->
-    <uses-permission
-        android:name="android.permission.READ_CONTACTS" />
-    <!-- Приложение сможет изменять сведения о контактах, сохраненных на вашем телефоне. Это разрешение позволяет приложениям удалять данные о контактах. -->
-    <uses-permission
-        android:name="android.permission.WRITE_CONTACTS" />
     <!-- Приложение сможет просматривать конфигурацию Bluetooth на телефоне, а также запрашивать и подтверждать соединение с другими устройствами. -->
     <uses-permission
         android:name="android.permission.BLUETOOTH"
@@ -138,20 +132,6 @@
         </intent>
         <package
             android:name="com.tencent.mm" />
-        <package
-            android:name="com.eg.android.AlipayGphone" />
-        <package
-            android:name="com.eg.android.AlipayGphoneRC" />
-        <package
-            android:name="hk.alipay.wallet" />
-        <intent>
-            <action
-                android:name="*" />
-            <data
-                android:scheme="tbopen" />
-        </intent>
-        <package
-            android:name="hk.alipay.walletRC" />
         <intent>
             <action
                 android:name="com.umeng.message.action.notify" />
@@ -186,6 +166,12 @@
     <!-- Приложение сможет показывать уведомления. -->
     <uses-permission
         android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Приложение сможет показывать уведомления в полноэкранном режиме на заблокированном устройстве -->
+    <uses-permission
+        android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <!-- Приложение сможет настраивать выполнение задач в нужное вам время и работать, даже когда вы не пользуетесь устройством. -->
+    <uses-permission
+        android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <permission-group
         android:name="com.ottai.tag.andpermission" />
     <uses-permission
@@ -238,12 +224,6 @@
     <uses-feature
         android:name="android.hardware.wifi"
         android:required="false" />
-    <supports-screens
-        android:anyDensity="true"
-        android:smallScreens="true"
-        android:normalScreens="true"
-        android:largeScreens="true"
-        android:resizeable="true" />
     <!-- Разрешает приложению издателя получать прямой или косвенный доступ к действующему рекламному идентификатору. -->
     <uses-permission
         android:name="com.google.android.gms.permission.AD_ID" />
@@ -429,6 +409,10 @@
             android:name="com.ottai.cn.flu_native_webview.OTWebviewActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
+        <activity
+            android:theme="@style/TransparentTheme"
+            android:name="com.example.flu_qiyu_service.QiyuNofificationPlaceholderActivity"
+            android:exported="false" />
         <activity
             android:theme="@style/DisablePreviewTheme"
             android:name="com.jarvan.fluwx.wxapi.FluwxWXEntryActivity"
@@ -845,42 +829,6 @@
             android:stateNotNeeded="true"
             android:screenOrientation="sensorLandscape"
             android:windowSoftInputMode="stateAlwaysHidden" />
-        <uses-library
-            android:name="org.apache.http.legacy"
-            android:required="false" />
-        <activity
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:name="com.alipay.sdk.app.H5PayActivity"
-            android:exported="false"
-            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" />
-        <activity
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:name="com.alipay.sdk.app.H5AuthActivity"
-            android:exported="false"
-            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" />
-        <activity
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:name="com.alipay.sdk.app.PayResultActivity"
-            android:exported="true"
-            android:launchMode="singleInstance"
-            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" />
-        <activity
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:name="com.alipay.sdk.app.AlipayResultActivity"
-            android:exported="true"
-            android:launchMode="singleTask"
-            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" />
-        <activity
-            android:name="com.alipay.sdk.app.H5OpenAuthActivity"
-            android:exported="false"
-            android:screenOrientation="behind"
-            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize"
-            android:windowSoftInputMode="adjustResize|stateHidden" />
-        <activity
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:name="com.alipay.sdk.app.APayEntranceActivity"
-            android:exported="false"
-            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|navigation|orientation|screenLayout|screenSize|smallestScreenSize" />
         <service
             android:name="com.umeng.message.component.UmengIntentService"
             android:exported="false">

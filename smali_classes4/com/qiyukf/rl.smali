@@ -69,6 +69,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private a(Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;IZJ)V
@@ -396,6 +398,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic d(Lcom/qiyukf/rl;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -429,6 +433,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic e(Lcom/qiyukf/rl;)Lcom/qiyukf/yu;
@@ -462,6 +468,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic f(Lcom/qiyukf/rl;)V
@@ -507,6 +515,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static h()Lcom/qiyukf/rl;
@@ -644,6 +654,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -876,4 +887,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

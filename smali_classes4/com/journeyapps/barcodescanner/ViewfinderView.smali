@@ -4,17 +4,7 @@
 
 
 # static fields
-.field public static final n:Ljava/lang/String; = "ViewfinderView"
-
-.field public static final o:[I
-
-.field public static final p:J = 0x50L
-
-.field public static final q:I = 0xa0
-
-.field public static final r:I = 0x14
-
-.field public static final s:I = 0x6
+.field public static final n:[I
 
 
 # instance fields
@@ -35,30 +25,14 @@
 .field public h:I
 
 .field public i:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Llc/l;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 .field public j:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Llc/l;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 .field public k:Lcom/journeyapps/barcodescanner/CameraPreview;
 
 .field public l:Landroid/graphics/Rect;
 
-.field public m:Lpf/v;
+.field public m:Lcom/journeyapps/barcodescanner/v;
 
 
 # direct methods
@@ -79,7 +53,7 @@
     .line 6
     .line 7
     .line 8
-    sput-object v0, Lcom/journeyapps/barcodescanner/ViewfinderView;->o:[I
+    sput-object v0, Lcom/journeyapps/barcodescanner/ViewfinderView;->n:[I
 
     .line 9
     .line 10
@@ -106,6 +80,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -483,11 +459,41 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 
 # virtual methods
-.method public a(Llc/l;)V
+.method public a(Lcom/google/zxing/i;)V
     .locals 2
 
     .line 1
@@ -531,83 +537,11 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public b(Landroid/graphics/Bitmap;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/journeyapps/barcodescanner/ViewfinderView;->b:Landroid/graphics/Bitmap;
-
-    .line 2
-    .line 3
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public c()V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/ViewfinderView;->b:Landroid/graphics/Bitmap;
-
-    .line 2
-    .line 3
-    const/4 v1, 0x0
-
-    .line 4
-    iput-object v1, p0, Lcom/journeyapps/barcodescanner/ViewfinderView;->b:Landroid/graphics/Bitmap;
-
-    .line 5
-    .line 6
-    if-eqz v0, :cond_0
-
-    .line 7
-    .line 8
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;->recycle()V
-
-    .line 9
-    .line 10
-    .line 11
-    :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public d()V
+.method public b()V
     .locals 2
 
     .line 1
@@ -635,7 +569,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v1}, Lcom/journeyapps/barcodescanner/CameraPreview;->getPreviewSize()Lpf/v;
+    invoke-virtual {v1}, Lcom/journeyapps/barcodescanner/CameraPreview;->getPreviewSize()Lcom/journeyapps/barcodescanner/v;
 
     .line 13
     .line 14
@@ -655,7 +589,7 @@
 
     .line 21
     .line 22
-    iput-object v1, p0, Lcom/journeyapps/barcodescanner/ViewfinderView;->m:Lpf/v;
+    iput-object v1, p0, Lcom/journeyapps/barcodescanner/ViewfinderView;->m:Lcom/journeyapps/barcodescanner/v;
 
     .line 23
     .line 24
@@ -722,13 +656,14 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
     .locals 11
 
     .line 1
-    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/ViewfinderView;->d()V
+    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/ViewfinderView;->b()V
 
     .line 2
     .line 3
@@ -741,7 +676,7 @@
 
     .line 7
     .line 8
-    iget-object v8, p0, Lcom/journeyapps/barcodescanner/ViewfinderView;->m:Lpf/v;
+    iget-object v8, p0, Lcom/journeyapps/barcodescanner/ViewfinderView;->m:Lcom/journeyapps/barcodescanner/v;
 
     .line 9
     .line 10
@@ -1007,7 +942,7 @@
 
     .line 131
     .line 132
-    sget-object v3, Lcom/journeyapps/barcodescanner/ViewfinderView;->o:[I
+    sget-object v3, Lcom/journeyapps/barcodescanner/ViewfinderView;->n:[I
 
     .line 133
     .line 134
@@ -1136,7 +1071,7 @@
     int-to-float v2, v2
 
     .line 190
-    iget v3, v8, Lpf/v;->a:I
+    iget v3, v8, Lcom/journeyapps/barcodescanner/v;->a:I
 
     .line 191
     .line 192
@@ -1157,7 +1092,7 @@
     int-to-float v3, v3
 
     .line 199
-    iget v4, v8, Lpf/v;->b:I
+    iget v4, v8, Lcom/journeyapps/barcodescanner/v;->b:I
 
     .line 200
     .line 201
@@ -1242,11 +1177,11 @@
     move-result-object v5
 
     .line 241
-    check-cast v5, Llc/l;
+    check-cast v5, Lcom/google/zxing/i;
 
     .line 242
     .line 243
-    invoke-virtual {v5}, Llc/l;->c()F
+    invoke-virtual {v5}, Lcom/google/zxing/i;->c()F
 
     .line 244
     .line 245
@@ -1263,7 +1198,7 @@
     int-to-float v6, v6
 
     .line 250
-    invoke-virtual {v5}, Llc/l;->d()F
+    invoke-virtual {v5}, Lcom/google/zxing/i;->d()F
 
     .line 251
     .line 252
@@ -1378,11 +1313,11 @@
     move-result-object v5
 
     .line 306
-    check-cast v5, Llc/l;
+    check-cast v5, Lcom/google/zxing/i;
 
     .line 307
     .line 308
-    invoke-virtual {v5}, Llc/l;->c()F
+    invoke-virtual {v5}, Lcom/google/zxing/i;->c()F
 
     .line 309
     .line 310
@@ -1399,7 +1334,7 @@
     int-to-float v6, v6
 
     .line 315
-    invoke-virtual {v5}, Llc/l;->d()F
+    invoke-virtual {v5}, Lcom/google/zxing/i;->d()F
 
     .line 316
     .line 317
@@ -2138,6 +2073,131 @@
     .line 997
     .line 998
     .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
+    .line 1092
+    .line 1093
+    .line 1094
+    .line 1095
+    .line 1096
+    .line 1097
+    .line 1098
+    .line 1099
+    .line 1100
+    .line 1101
+    .line 1102
+    .line 1103
+    .line 1104
+    .line 1105
+    .line 1106
+    .line 1107
+    .line 1108
+    .line 1109
+    .line 1110
+    .line 1111
+    .line 1112
+    .line 1113
+    .line 1114
+    .line 1115
+    .line 1116
+    .line 1117
+    .line 1118
+    .line 1119
+    .line 1120
+    .line 1121
+    .line 1122
+    .line 1123
+    .line 1124
 .end method
 
 .method public setCameraPreview(Lcom/journeyapps/barcodescanner/CameraPreview;)V
@@ -2177,6 +2237,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLaserVisibility(Z)V
@@ -2210,6 +2272,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMaskColor(I)V
@@ -2243,4 +2307,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

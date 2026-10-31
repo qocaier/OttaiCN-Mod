@@ -93,6 +93,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static d()Lcom/qiyukf/kz;
@@ -123,6 +125,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static e()Landroid/content/SharedPreferences;
@@ -241,6 +245,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private h()V
@@ -387,6 +392,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -674,6 +680,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public f()Z
@@ -702,6 +710,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public g()Z
@@ -730,4 +740,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

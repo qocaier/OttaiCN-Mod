@@ -70,6 +70,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public constructor <init>()V
@@ -98,6 +100,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static a()Ljava/lang/String;
@@ -337,6 +341,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static e()Lcom/qiyukf/nimlib/sdk/ModeCode;
@@ -365,6 +371,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static declared-synchronized f()Lcom/qiyukf/nimlib/sdk/StatusCode;
@@ -412,6 +420,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static g()Z
@@ -451,6 +461,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static h()Z
@@ -490,6 +502,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static i()Z
@@ -518,6 +532,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static j()Z
@@ -546,6 +562,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static k()Z
@@ -574,4 +592,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

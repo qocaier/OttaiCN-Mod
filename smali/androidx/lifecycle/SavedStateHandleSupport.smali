@@ -3,22 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSavedStateHandleSupport.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SavedStateHandleSupport.kt\nandroidx/lifecycle/SavedStateHandleSupport\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,226:1\n1#2:227\n*E\n"
-.end annotation
-
-.annotation build Lim/j;
-    name = "SavedStateHandleSupport"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSavedStateHandleSupport.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SavedStateHandleSupport.kt\nandroidx/lifecycle/SavedStateHandleSupport\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,226:1\n1#2:227\n*E\n"
-    }
-.end annotation
-
-
 # static fields
 .field public static final DEFAULT_ARGS_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
     .annotation system Ldalvik/annotation/Signature;
@@ -28,18 +12,9 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private static final SAVED_STATE_KEY:Ljava/lang/String; = "androidx.lifecycle.internal.SavedStateHandlesProvider"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final SAVED_STATE_REGISTRY_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
     .annotation system Ldalvik/annotation/Signature;
@@ -49,18 +24,9 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private static final VIEWMODEL_KEY:Ljava/lang/String; = "androidx.lifecycle.internal.SavedStateHandlesVM"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final VIEW_MODEL_STORE_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
     .annotation system Ldalvik/annotation/Signature;
@@ -69,12 +35,6 @@
             "Landroidx/lifecycle/ViewModelStoreOwner;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -186,23 +146,18 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static final createSavedStateHandle(Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/SavedStateHandle;
     .locals 4
-    .param p0    # Landroidx/lifecycle/viewmodel/CreationExtras;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
     sget-object v0, Landroidx/lifecycle/SavedStateHandleSupport;->SAVED_STATE_REGISTRY_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
@@ -343,10 +298,6 @@
 
 .method public static final enableSavedStateHandles(Landroidx/savedstate/SavedStateRegistryOwner;)V
     .locals 4
-    .param p0    # Landroidx/savedstate/SavedStateRegistryOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -365,7 +316,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -513,23 +464,18 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static final getSavedStateHandlesProvider(Landroidx/savedstate/SavedStateRegistryOwner;)Landroidx/lifecycle/SavedStateHandlesProvider;
     .locals 1
-    .param p0    # Landroidx/savedstate/SavedStateRegistryOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -640,23 +586,18 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static final getSavedStateHandlesVM(Landroidx/lifecycle/ViewModelStoreOwner;)Landroidx/lifecycle/SavedStateHandlesVM;
     .locals 2
-    .param p0    # Landroidx/lifecycle/ViewModelStoreOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -752,4 +693,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

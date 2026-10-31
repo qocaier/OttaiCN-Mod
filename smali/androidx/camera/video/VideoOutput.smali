@@ -108,6 +108,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStreamInfo()Landroidx/camera/core/impl/Observable;
@@ -153,6 +154,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onSourceStateChanged(Landroidx/camera/video/VideoOutput$SourceState;)V

@@ -96,7 +96,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Lmq/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+    invoke-static {v0, p0}, Lx9/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -108,11 +108,11 @@
 
     .line 8
     .line 9
-    new-instance v0, Ly1/g0;
+    new-instance v0, Landroidx/webkit/internal/g0;
 
     .line 10
     .line 11
-    invoke-direct {v0, p0}, Ly1/g0;-><init>(Lorg/chromium/support_lib_boundary/JsReplyProxyBoundaryInterface;)V
+    invoke-direct {v0, p0}, Landroidx/webkit/internal/g0;-><init>(Lorg/chromium/support_lib_boundary/JsReplyProxyBoundaryInterface;)V
 
     .line 12
     .line 13
@@ -202,7 +202,7 @@
     invoke-direct {v1, p1}, Landroidx/webkit/internal/WebMessagePayloadAdapter;-><init>([B)V
 
     .line 9
-    invoke-static {v1}, Lmq/a;->d(Ljava/lang/Object;)Ljava/lang/reflect/InvocationHandler;
+    invoke-static {v1}, Lx9/a;->c(Ljava/lang/Object;)Ljava/lang/reflect/InvocationHandler;
 
     move-result-object p1
 

@@ -156,6 +156,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAppID()Ljava/lang/String;
@@ -184,6 +186,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getClientClassName()Ljava/lang/String;
@@ -212,6 +216,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getClientPackageName()Ljava/lang/String;
@@ -240,6 +246,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCpActivity()Landroid/app/Activity;
@@ -281,6 +289,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCpID()Ljava/lang/String;
@@ -309,6 +319,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getInnerHmsPkg()Ljava/lang/String;
@@ -337,6 +349,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getScopes()Ljava/util/List;
@@ -373,6 +387,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSubAppID()Lcom/huawei/hms/support/api/client/SubAppInfo;
@@ -401,6 +417,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isHasActivity()Z
@@ -429,6 +447,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isUseInnerHms()Z
@@ -457,6 +477,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setApiName(Ljava/util/List;)V
@@ -498,6 +520,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setAppID(Ljava/lang/String;)V
@@ -531,6 +555,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setClientClassName(Ljava/lang/String;)V
@@ -564,6 +590,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setClientPackageName(Ljava/lang/String;)V
@@ -597,6 +625,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCpActivity(Landroid/app/Activity;)V
@@ -638,6 +668,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCpID(Ljava/lang/String;)V
@@ -671,6 +703,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setInnerHmsPkg(Ljava/lang/String;)V
@@ -704,6 +738,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setScopes(Ljava/util/List;)V
@@ -745,6 +781,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSubAppId(Lcom/huawei/hms/support/api/client/SubAppInfo;)V
@@ -778,6 +816,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUseInnerHms(Z)V
@@ -811,4 +851,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

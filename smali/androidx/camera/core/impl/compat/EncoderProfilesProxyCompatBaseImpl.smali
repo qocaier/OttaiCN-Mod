@@ -36,6 +36,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static from(Landroid/media/CamcorderProfile;)Landroidx/camera/core/impl/EncoderProfilesProxy;
@@ -218,6 +219,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static toVideoProfiles(Landroid/media/CamcorderProfile;)Ljava/util/List;
@@ -351,4 +353,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

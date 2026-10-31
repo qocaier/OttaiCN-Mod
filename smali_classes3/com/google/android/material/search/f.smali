@@ -3,52 +3,58 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroid/animation/ValueAnimator$AnimatorUpdateListener;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Lcom/google/android/material/search/SearchViewAnimationHelper;
+.field public final synthetic a:Lcom/google/android/material/search/SearchBarAnimationHelper;
 
-.field public final synthetic b:F
+.field public final synthetic b:Lcom/google/android/material/search/SearchBar;
 
-.field public final synthetic c:F
+.field public final synthetic c:Landroid/view/View;
 
-.field public final synthetic d:Landroid/graphics/Rect;
+.field public final synthetic d:Lcom/google/android/material/appbar/AppBarLayout;
+
+.field public final synthetic e:Z
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/google/android/material/search/SearchViewAnimationHelper;FFLandroid/graphics/Rect;)V
+.method public synthetic constructor <init>(Lcom/google/android/material/search/SearchBarAnimationHelper;Lcom/google/android/material/search/SearchBar;Landroid/view/View;Lcom/google/android/material/appbar/AppBarLayout;Z)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/material/search/f;->a:Lcom/google/android/material/search/SearchViewAnimationHelper;
+    iput-object p1, p0, Lcom/google/android/material/search/f;->a:Lcom/google/android/material/search/SearchBarAnimationHelper;
 
-    iput p2, p0, Lcom/google/android/material/search/f;->b:F
+    iput-object p2, p0, Lcom/google/android/material/search/f;->b:Lcom/google/android/material/search/SearchBar;
 
-    iput p3, p0, Lcom/google/android/material/search/f;->c:F
+    iput-object p3, p0, Lcom/google/android/material/search/f;->c:Landroid/view/View;
 
-    iput-object p4, p0, Lcom/google/android/material/search/f;->d:Landroid/graphics/Rect;
+    iput-object p4, p0, Lcom/google/android/material/search/f;->d:Lcom/google/android/material/appbar/AppBarLayout;
+
+    iput-boolean p5, p0, Lcom/google/android/material/search/f;->e:Z
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onAnimationUpdate(Landroid/animation/ValueAnimator;)V
-    .locals 4
+.method public final run()V
+    .locals 5
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/search/f;->a:Lcom/google/android/material/search/SearchViewAnimationHelper;
+    iget-object v0, p0, Lcom/google/android/material/search/f;->a:Lcom/google/android/material/search/SearchBarAnimationHelper;
 
-    iget v1, p0, Lcom/google/android/material/search/f;->b:F
+    iget-object v1, p0, Lcom/google/android/material/search/f;->b:Lcom/google/android/material/search/SearchBar;
 
-    iget v2, p0, Lcom/google/android/material/search/f;->c:F
+    iget-object v2, p0, Lcom/google/android/material/search/f;->c:Landroid/view/View;
 
-    iget-object v3, p0, Lcom/google/android/material/search/f;->d:Landroid/graphics/Rect;
+    iget-object v3, p0, Lcom/google/android/material/search/f;->d:Lcom/google/android/material/appbar/AppBarLayout;
 
-    invoke-static {v0, v1, v2, v3, p1}, Lcom/google/android/material/search/SearchViewAnimationHelper;->b(Lcom/google/android/material/search/SearchViewAnimationHelper;FFLandroid/graphics/Rect;Landroid/animation/ValueAnimator;)V
+    iget-boolean v4, p0, Lcom/google/android/material/search/f;->e:Z
+
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/google/android/material/search/SearchBarAnimationHelper;->b(Lcom/google/android/material/search/SearchBarAnimationHelper;Lcom/google/android/material/search/SearchBar;Landroid/view/View;Lcom/google/android/material/appbar/AppBarLayout;Z)V
 
     return-void
 .end method

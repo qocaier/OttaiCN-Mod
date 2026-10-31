@@ -14,12 +14,6 @@
     }
 .end annotation
 
-.annotation build Lfb/b;
-.end annotation
-
-.annotation runtime Lgb/g;
-.end annotation
-
 
 # static fields
 .field private static final serialVersionUID:J
@@ -38,15 +32,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "reference"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)V"
@@ -82,7 +67,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -126,23 +110,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "object"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Lcom/google/common/base/Present;
@@ -188,7 +159,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public get()Ljava/lang/Object;
@@ -224,7 +194,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hashCode()I
@@ -263,7 +232,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isPresent()Z
@@ -276,15 +244,6 @@
 
 .method public or(Lcom/google/common/base/Optional;)Lcom/google/common/base/Optional;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "secondChoice"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -296,32 +255,23 @@
     .end annotation
 
     .line 3
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
 .end method
 
-.method public or(Lgb/b0;)Ljava/lang/Object;
+.method public or(Lcom/google/common/base/s;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "supplier"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lgb/b0<",
-            "+TT;>;)TT;"
+            "Lcom/google/common/base/s;",
+            ")TT;"
         }
     .end annotation
 
     .line 4
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     iget-object p1, p0, Lcom/google/common/base/Present;->reference:Ljava/lang/Object;
@@ -331,15 +281,6 @@
 
 .method public or(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "defaultValue"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)TT;"
@@ -349,7 +290,7 @@
     .line 1
     const-string v0, "use Optional.orNull() instead of Optional.or(null)"
 
-    invoke-static {p1, v0}, Lgb/w;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/google/common/base/o;->q(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     iget-object p1, p0, Lcom/google/common/base/Present;->reference:Ljava/lang/Object;
@@ -390,7 +331,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -517,35 +457,17 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public transform(Lgb/n;)Lcom/google/common/base/Optional;
+.method public transform(Lcom/google/common/base/g;)Lcom/google/common/base/Optional;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "function"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lgb/n<",
-            "-TT;TV;>;)",
+            "Lcom/google/common/base/g;",
+            ")",
             "Lcom/google/common/base/Optional<",
             "TV;>;"
         }
@@ -560,7 +482,7 @@
 
     .line 4
     .line 5
-    invoke-interface {p1, v1}, Lgb/n;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lcom/google/common/base/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -572,7 +494,7 @@
 
     .line 10
     .line 11
-    invoke-static {p1, v1}, Lgb/w;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v1}, Lcom/google/common/base/o;->q(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -592,5 +514,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -3,21 +3,10 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/huawei/android/hms/push/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "layout"
-.end annotation
-
-
 # static fields
 .field public static activity_endisable_service:I = 0x7f0b001d
 
-.field public static hwpush_trans_activity:I = 0x7f0b0041
+.field public static hwpush_trans_activity:I = 0x7f0b0042
 
 
 # direct methods

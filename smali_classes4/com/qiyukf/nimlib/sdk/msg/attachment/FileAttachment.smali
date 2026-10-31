@@ -254,6 +254,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -284,6 +286,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExpire()J
@@ -312,6 +316,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExtension()Ljava/lang/String;
@@ -340,6 +346,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFileName()Ljava/lang/String;
@@ -466,6 +474,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getMd5()Ljava/lang/String;
@@ -494,6 +503,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNosTokenSceneKey()Ljava/lang/String;
@@ -522,6 +533,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPath()Ljava/lang/String;
@@ -567,6 +580,8 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPathForSave()Ljava/lang/String;
@@ -682,6 +697,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getSize()J
@@ -710,6 +726,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getThumbPath()Ljava/lang/String;
@@ -755,6 +773,8 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getThumbPathForSave()Ljava/lang/String;
@@ -791,6 +811,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUrl()Ljava/lang/String;
@@ -819,6 +841,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isForceUpload()Z
@@ -847,6 +871,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public load(Lorg/json/JSONObject;)V
@@ -892,6 +918,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setExtension(Ljava/lang/String;)V
@@ -925,6 +953,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setForceUpload(Z)V
@@ -958,6 +988,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMd5(Ljava/lang/String;)V
@@ -991,6 +1023,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNosTokenSceneKey(Ljava/lang/String;)V
@@ -1033,6 +1067,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPath(Ljava/lang/String;)V
@@ -1066,6 +1102,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSize(J)V
@@ -1099,6 +1137,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUrl(Ljava/lang/String;)V
@@ -1132,6 +1172,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public storageType()Lcom/qiyukf/fr;
@@ -1160,6 +1202,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public toJson(Z)Ljava/lang/String;
@@ -1585,25 +1629,4 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method

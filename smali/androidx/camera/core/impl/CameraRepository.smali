@@ -45,16 +45,14 @@
     .end annotation
 .end field
 
-.field private mDeinitFuture:Lub/u0;
+.field private mDeinitFuture:Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/GuardedBy;
         value = "mCamerasLock"
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -183,6 +181,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/impl/CameraRepository;Landroidx/camera/core/impl/CameraInternal;)V
@@ -247,7 +247,7 @@
 
     .line 29
     .line 30
-    iput-object v1, p0, Landroidx/camera/core/impl/CameraRepository;->mDeinitFuture:Lub/u0;
+    iput-object v1, p0, Landroidx/camera/core/impl/CameraRepository;->mDeinitFuture:Lcom/google/common/util/concurrent/t;
 
     .line 31
     .line 32
@@ -367,7 +367,7 @@
 
 
 # virtual methods
-.method public deinit()Lub/u0;
+.method public deinit()Lcom/google/common/util/concurrent/t;
     .locals 6
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -375,9 +375,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -406,7 +404,7 @@
 
     .line 11
     .line 12
-    iget-object v1, p0, Landroidx/camera/core/impl/CameraRepository;->mDeinitFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/camera/core/impl/CameraRepository;->mDeinitFuture:Lcom/google/common/util/concurrent/t;
 
     .line 13
     .line 14
@@ -417,7 +415,7 @@
     const/4 v1, 0x0
 
     .line 17
-    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 18
     .line 19
@@ -444,7 +442,7 @@
 
     .line 26
     :cond_1
-    iget-object v1, p0, Landroidx/camera/core/impl/CameraRepository;->mDeinitFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/camera/core/impl/CameraRepository;->mDeinitFuture:Lcom/google/common/util/concurrent/t;
 
     .line 27
     .line 28
@@ -452,16 +450,16 @@
 
     .line 29
     .line 30
-    new-instance v1, Lu/e;
+    new-instance v1, Landroidx/camera/core/impl/e;
 
     .line 31
     .line 32
-    invoke-direct {v1, p0}, Lu/e;-><init>(Landroidx/camera/core/impl/CameraRepository;)V
+    invoke-direct {v1, p0}, Landroidx/camera/core/impl/e;-><init>(Landroidx/camera/core/impl/CameraRepository;)V
 
     .line 33
     .line 34
     .line 35
-    invoke-static {v1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 36
     .line 37
@@ -469,7 +467,7 @@
     move-result-object v1
 
     .line 39
-    iput-object v1, p0, Landroidx/camera/core/impl/CameraRepository;->mDeinitFuture:Lub/u0;
+    iput-object v1, p0, Landroidx/camera/core/impl/CameraRepository;->mDeinitFuture:Lcom/google/common/util/concurrent/t;
 
     .line 40
     .line 41
@@ -540,7 +538,7 @@
 
     .line 73
     .line 74
-    invoke-interface {v3}, Landroidx/camera/core/impl/CameraInternal;->release()Lub/u0;
+    invoke-interface {v3}, Landroidx/camera/core/impl/CameraInternal;->release()Lcom/google/common/util/concurrent/t;
 
     .line 75
     .line 76
@@ -548,11 +546,11 @@
     move-result-object v4
 
     .line 78
-    new-instance v5, Lu/f;
+    new-instance v5, Landroidx/camera/core/impl/f;
 
     .line 79
     .line 80
-    invoke-direct {v5, p0, v3}, Lu/f;-><init>(Landroidx/camera/core/impl/CameraRepository;Landroidx/camera/core/impl/CameraInternal;)V
+    invoke-direct {v5, p0, v3}, Landroidx/camera/core/impl/f;-><init>(Landroidx/camera/core/impl/CameraRepository;Landroidx/camera/core/impl/CameraInternal;)V
 
     .line 81
     .line 82
@@ -565,7 +563,7 @@
     move-result-object v3
 
     .line 87
-    invoke-interface {v4, v5, v3}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v4, v5, v3}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 88
     .line 89
@@ -875,6 +873,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public getCamera(Ljava/lang/String;)Landroidx/camera/core/impl/CameraInternal;
@@ -1015,6 +1065,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getCameraIds()Ljava/util/Set;
@@ -1078,6 +1129,7 @@
     .line 19
     throw v1
     .line 20
+    .line 21
 .end method
 
 .method public getCameras()Ljava/util/LinkedHashSet;
@@ -1141,6 +1193,7 @@
     .line 19
     throw v1
     .line 20
+    .line 21
 .end method
 
 .method public init(Landroidx/camera/core/impl/CameraFactory;)V
@@ -1319,4 +1372,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

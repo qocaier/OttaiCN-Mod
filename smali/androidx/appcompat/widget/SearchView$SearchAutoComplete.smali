@@ -218,6 +218,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -267,6 +269,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public ensureImeVisible()V
@@ -383,6 +386,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isEmpty()Z
@@ -426,6 +431,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onCreateInputConnection(Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection;
@@ -590,6 +596,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onFocusChanged(ZILandroid/graphics/Rect;)V
@@ -715,6 +723,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onKeyPreIme(ILandroid/view/KeyEvent;)Z
@@ -1026,6 +1037,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onWindowFocusChanged(Z)V
@@ -1145,6 +1159,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public performCompletion()V
@@ -1293,6 +1308,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setSearchView(Landroidx/appcompat/widget/SearchView;)V
@@ -1474,4 +1490,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

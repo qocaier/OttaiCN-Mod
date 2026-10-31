@@ -112,363 +112,363 @@
 .end method
 
 .method public final toString()Ljava/lang/String;
-    .locals 10
+    .locals 11
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/f1;->a:[B
+    const/16 v0, 0xd0
 
     .line 2
     .line 3
-    sget v1, Lcom/baidu/mapauto/auth/org/spongycastle/util/d;->a:I
+    const/16 v1, 0xf0
 
     .line 4
     .line 5
-    const/4 v1, 0x0
+    const/16 v2, 0xe0
 
     .line 6
-    move v2, v1
-
     .line 7
-    move v3, v2
+    const/16 v3, 0xc0
 
     .line 8
-    :goto_0
-    array-length v4, v0
-
     .line 9
-    const/16 v5, 0xc0
+    iget-object v4, p0, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/f1;->a:[B
 
     .line 10
     .line 11
-    const/16 v6, 0xe0
+    sget v5, Lcom/baidu/mapauto/auth/org/spongycastle/util/d;->a:I
 
     .line 12
     .line 13
-    const/16 v7, 0xf0
+    const/4 v5, 0x0
 
     .line 14
+    move v6, v5
+
     .line 15
-    if-ge v2, v4, :cond_3
+    move v7, v6
 
     .line 16
+    :goto_0
+    array-length v8, v4
+
     .line 17
-    add-int/lit8 v4, v3, 0x1
+    if-ge v6, v8, :cond_3
 
     .line 18
     .line 19
-    aget-byte v8, v0, v2
+    add-int/lit8 v8, v7, 0x1
 
     .line 20
     .line 21
-    and-int/lit16 v9, v8, 0xf0
+    aget-byte v9, v4, v6
 
     .line 22
     .line 23
-    if-ne v9, v7, :cond_0
+    and-int/lit16 v10, v9, 0xf0
 
     .line 24
     .line 25
-    add-int/lit8 v3, v3, 0x2
+    if-ne v10, v1, :cond_0
 
     .line 26
     .line 27
-    add-int/lit8 v2, v2, 0x4
+    add-int/lit8 v7, v7, 0x2
 
     .line 28
     .line 29
-    goto :goto_0
+    add-int/lit8 v6, v6, 0x4
 
     .line 30
-    :cond_0
-    and-int/lit16 v3, v8, 0xe0
-
     .line 31
+    goto :goto_0
+
     .line 32
-    if-ne v3, v6, :cond_1
+    :cond_0
+    and-int/lit16 v7, v9, 0xe0
 
     .line 33
     .line 34
-    add-int/lit8 v2, v2, 0x3
+    if-ne v7, v2, :cond_1
 
     .line 35
     .line 36
-    :goto_1
-    move v3, v4
+    add-int/lit8 v6, v6, 0x3
 
     .line 37
-    goto :goto_0
-
     .line 38
-    :cond_1
-    and-int/lit16 v3, v8, 0xc0
+    :goto_1
+    move v7, v8
 
     .line 39
+    goto :goto_0
+
     .line 40
-    if-ne v3, v5, :cond_2
+    :cond_1
+    and-int/lit16 v7, v9, 0xc0
 
     .line 41
     .line 42
-    add-int/lit8 v2, v2, 0x2
+    if-ne v7, v3, :cond_2
 
     .line 43
     .line 44
-    goto :goto_1
+    add-int/lit8 v6, v6, 0x2
 
     .line 45
-    :cond_2
-    add-int/lit8 v2, v2, 0x1
-
     .line 46
-    .line 47
     goto :goto_1
 
-    .line 48
-    :cond_3
-    new-array v2, v3, [C
+    .line 47
+    :cond_2
+    add-int/lit8 v6, v6, 0x1
 
+    .line 48
     .line 49
+    goto :goto_1
+
     .line 50
-    move v3, v1
+    :cond_3
+    new-array v6, v7, [C
 
     .line 51
-    :goto_2
-    array-length v4, v0
-
     .line 52
-    if-ge v1, v4, :cond_8
+    move v7, v5
 
     .line 53
+    :goto_2
+    array-length v8, v4
+
     .line 54
-    aget-byte v4, v0, v1
+    if-ge v5, v8, :cond_8
 
     .line 55
     .line 56
-    and-int/lit16 v8, v4, 0xf0
+    aget-byte v8, v4, v5
 
     .line 57
     .line 58
-    if-ne v8, v7, :cond_4
+    and-int/lit16 v9, v8, 0xf0
 
     .line 59
     .line 60
-    and-int/lit8 v4, v4, 0x3
+    if-ne v9, v1, :cond_4
 
     .line 61
     .line 62
-    shl-int/lit8 v4, v4, 0x12
+    and-int/lit8 v8, v8, 0x3
 
     .line 63
     .line 64
-    add-int/lit8 v8, v1, 0x1
+    shl-int/lit8 v8, v8, 0x12
 
     .line 65
     .line 66
-    aget-byte v8, v0, v8
+    add-int/lit8 v9, v5, 0x1
 
     .line 67
     .line 68
-    and-int/lit8 v8, v8, 0x3f
+    aget-byte v9, v4, v9
 
     .line 69
     .line 70
-    shl-int/lit8 v8, v8, 0xc
+    and-int/lit8 v9, v9, 0x3f
 
     .line 71
     .line 72
-    or-int/2addr v4, v8
+    shl-int/lit8 v9, v9, 0xc
 
     .line 73
-    add-int/lit8 v8, v1, 0x2
-
     .line 74
+    or-int/2addr v8, v9
+
     .line 75
-    aget-byte v8, v0, v8
+    add-int/lit8 v9, v5, 0x2
 
     .line 76
     .line 77
-    and-int/lit8 v8, v8, 0x3f
+    aget-byte v9, v4, v9
 
     .line 78
     .line 79
-    shl-int/lit8 v8, v8, 0x6
+    and-int/lit8 v9, v9, 0x3f
 
     .line 80
     .line 81
-    or-int/2addr v4, v8
+    shl-int/lit8 v9, v9, 0x6
 
     .line 82
-    add-int/lit8 v8, v1, 0x3
-
     .line 83
+    or-int/2addr v8, v9
+
     .line 84
-    aget-byte v8, v0, v8
+    add-int/lit8 v9, v5, 0x3
 
     .line 85
     .line 86
-    and-int/lit8 v8, v8, 0x3f
+    aget-byte v9, v4, v9
 
     .line 87
     .line 88
-    or-int/2addr v4, v8
+    and-int/lit8 v9, v9, 0x3f
 
     .line 89
-    const/high16 v8, 0x10000
-
     .line 90
+    or-int/2addr v8, v9
+
     .line 91
-    sub-int/2addr v4, v8
+    const/high16 v9, 0x10000
 
     .line 92
-    shr-int/lit8 v8, v4, 0xa
-
     .line 93
+    sub-int/2addr v8, v9
+
     .line 94
-    const v9, 0xd800
+    shr-int/lit8 v9, v8, 0xa
 
     .line 95
     .line 96
+    const v10, 0xd800
+
     .line 97
-    or-int/2addr v8, v9
-
     .line 98
-    int-to-char v8, v8
-
     .line 99
-    and-int/lit16 v4, v4, 0x3ff
+    or-int/2addr v9, v10
 
     .line 100
+    int-to-char v9, v9
+
     .line 101
-    const v9, 0xdc00
+    and-int/lit16 v8, v8, 0x3ff
 
     .line 102
     .line 103
+    const v10, 0xdc00
+
     .line 104
-    or-int/2addr v4, v9
-
     .line 105
-    int-to-char v4, v4
-
     .line 106
-    add-int/lit8 v9, v3, 0x1
+    or-int/2addr v8, v10
 
     .line 107
+    int-to-char v8, v8
+
     .line 108
-    aput-char v8, v2, v3
+    add-int/lit8 v10, v7, 0x1
 
     .line 109
     .line 110
-    add-int/lit8 v1, v1, 0x4
+    aput-char v9, v6, v7
 
     .line 111
     .line 112
-    move v3, v9
+    add-int/lit8 v5, v5, 0x4
 
     .line 113
-    goto :goto_4
-
     .line 114
-    :cond_4
-    and-int/lit16 v8, v4, 0xe0
+    move v7, v10
 
     .line 115
+    goto :goto_4
+
     .line 116
-    if-ne v8, v6, :cond_5
+    :cond_4
+    and-int/lit16 v9, v8, 0xe0
 
     .line 117
     .line 118
-    and-int/lit8 v4, v4, 0xf
+    if-ne v9, v2, :cond_5
 
     .line 119
     .line 120
-    shl-int/lit8 v4, v4, 0xc
+    and-int/lit8 v8, v8, 0xf
 
     .line 121
     .line 122
-    add-int/lit8 v8, v1, 0x1
+    shl-int/lit8 v8, v8, 0xc
 
     .line 123
     .line 124
-    aget-byte v8, v0, v8
+    add-int/lit8 v9, v5, 0x1
 
     .line 125
     .line 126
-    and-int/lit8 v8, v8, 0x3f
+    aget-byte v9, v4, v9
 
     .line 127
     .line 128
-    shl-int/lit8 v8, v8, 0x6
+    and-int/lit8 v9, v9, 0x3f
 
     .line 129
     .line 130
-    or-int/2addr v4, v8
+    shl-int/lit8 v9, v9, 0x6
 
     .line 131
-    add-int/lit8 v8, v1, 0x2
-
     .line 132
+    or-int/2addr v8, v9
+
     .line 133
-    aget-byte v8, v0, v8
+    add-int/lit8 v9, v5, 0x2
 
     .line 134
     .line 135
-    and-int/lit8 v8, v8, 0x3f
+    aget-byte v9, v4, v9
 
     .line 136
     .line 137
-    or-int/2addr v4, v8
+    and-int/lit8 v9, v9, 0x3f
 
     .line 138
-    int-to-char v4, v4
-
     .line 139
-    add-int/lit8 v1, v1, 0x3
+    or-int/2addr v8, v9
 
     .line 140
+    int-to-char v8, v8
+
     .line 141
-    goto :goto_4
+    add-int/lit8 v5, v5, 0x3
 
     .line 142
-    :cond_5
-    and-int/lit16 v8, v4, 0xd0
-
     .line 143
+    goto :goto_4
+
     .line 144
-    const/16 v9, 0xd0
+    :cond_5
+    and-int/lit16 v9, v8, 0xd0
 
     .line 145
     .line 146
-    if-ne v8, v9, :cond_6
+    if-ne v9, v0, :cond_6
 
     .line 147
     .line 148
-    and-int/lit8 v4, v4, 0x1f
+    and-int/lit8 v8, v8, 0x1f
 
     .line 149
     .line 150
-    shl-int/lit8 v4, v4, 0x6
+    shl-int/lit8 v8, v8, 0x6
 
     .line 151
     .line 152
-    add-int/lit8 v8, v1, 0x1
+    add-int/lit8 v9, v5, 0x1
 
     .line 153
     .line 154
-    aget-byte v8, v0, v8
+    aget-byte v9, v4, v9
 
     .line 155
     .line 156
     :goto_3
-    and-int/lit8 v8, v8, 0x3f
+    and-int/lit8 v9, v9, 0x3f
 
     .line 157
     .line 158
-    or-int/2addr v4, v8
+    or-int/2addr v8, v9
 
     .line 159
-    int-to-char v4, v4
+    int-to-char v8, v8
 
     .line 160
-    add-int/lit8 v1, v1, 0x2
+    add-int/lit8 v5, v5, 0x2
 
     .line 161
     .line 162
@@ -476,27 +476,27 @@
 
     .line 163
     :cond_6
-    and-int/lit16 v8, v4, 0xc0
+    and-int/lit16 v9, v8, 0xc0
 
     .line 164
     .line 165
-    if-ne v8, v5, :cond_7
+    if-ne v9, v3, :cond_7
 
     .line 166
     .line 167
-    and-int/lit8 v4, v4, 0x1f
+    and-int/lit8 v8, v8, 0x1f
 
     .line 168
     .line 169
-    shl-int/lit8 v4, v4, 0x6
+    shl-int/lit8 v8, v8, 0x6
 
     .line 170
     .line 171
-    add-int/lit8 v8, v1, 0x1
+    add-int/lit8 v9, v5, 0x1
 
     .line 172
     .line 173
-    aget-byte v8, v0, v8
+    aget-byte v9, v4, v9
 
     .line 174
     .line 175
@@ -504,27 +504,27 @@
 
     .line 176
     :cond_7
-    and-int/lit16 v4, v4, 0xff
+    and-int/lit16 v8, v8, 0xff
 
     .line 177
     .line 178
-    int-to-char v4, v4
+    int-to-char v8, v8
 
     .line 179
-    add-int/lit8 v1, v1, 0x1
+    add-int/lit8 v5, v5, 0x1
 
     .line 180
     .line 181
     :goto_4
-    add-int/lit8 v8, v3, 0x1
+    add-int/lit8 v9, v7, 0x1
 
     .line 182
     .line 183
-    aput-char v4, v2, v3
+    aput-char v8, v6, v7
 
     .line 184
     .line 185
-    move v3, v8
+    move v7, v9
 
     .line 186
     goto/16 :goto_2
@@ -536,7 +536,7 @@
 
     .line 189
     .line 190
-    invoke-direct {v0, v2}, Ljava/lang/String;-><init>([C)V
+    invoke-direct {v0, v6}, Ljava/lang/String;-><init>([C)V
 
     .line 191
     .line 192
@@ -1010,4 +1010,63 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method

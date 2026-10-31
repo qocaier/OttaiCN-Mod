@@ -38,15 +38,14 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
-.method public abstract g()I
+.method public abstract e()I
 .end method
 
-.method public h()Lcom/youzan/androidsdkx5/YouzanBrowser;
+.method public f()Lcom/youzan/androidsdkx5/YouzanBrowser;
     .locals 1
 
     .line 1
@@ -83,10 +82,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public abstract i()I
+.method public abstract g()I
 .end method
 
 .method public onBackPressed()Z
@@ -99,10 +97,6 @@
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
     .locals 1
-    .param p1    # Landroid/view/LayoutInflater;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
     iget-object p3, p0, Lcom/example/flu_youzan_service/WebViewFragment;->d:Lcom/youzan/androidsdkx5/YouzanBrowser;
@@ -119,7 +113,7 @@
     .line 7
     .line 8
     :cond_0
-    invoke-virtual {p0}, Lcom/example/flu_youzan_service/WebViewFragment;->g()I
+    invoke-virtual {p0}, Lcom/example/flu_youzan_service/WebViewFragment;->e()I
 
     .line 9
     .line 10
@@ -138,7 +132,7 @@
     move-result-object p1
 
     .line 17
-    invoke-virtual {p0}, Lcom/example/flu_youzan_service/WebViewFragment;->i()I
+    invoke-virtual {p0}, Lcom/example/flu_youzan_service/WebViewFragment;->g()I
 
     .line 18
     .line 19
@@ -285,11 +279,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onDestroy()V
@@ -331,7 +320,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDestroyView()V
@@ -366,7 +354,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onPause()V
@@ -397,7 +384,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onResume()V
@@ -432,5 +418,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

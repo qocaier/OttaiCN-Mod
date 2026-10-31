@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/JobKt__JobKt;->A(Lkotlinx/coroutines/l;ZLfn/z1;)Lfn/w0;
+    value = Lkotlinx/coroutines/JobKt__JobKt;->i(Lkotlinx/coroutines/s1;ZLkotlinx/coroutines/v1;)Lkotlinx/coroutines/x0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/l<",
-        "Ljava/lang/Throwable;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -37,7 +34,7 @@
 
     const/4 v1, 0x1
 
-    const-class v3, Lfn/z1;
+    const-class v3, Lkotlinx/coroutines/v1;
 
     const-string v4, "invoke"
 
@@ -60,7 +57,7 @@
 
     invoke-virtual {p0, p1}, Lkotlinx/coroutines/JobKt__JobKt$invokeOnCompletion$1;->invoke(Ljava/lang/Throwable;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
@@ -71,9 +68,9 @@
     .line 2
     iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
 
-    check-cast v0, Lfn/z1;
+    check-cast v0, Lkotlinx/coroutines/v1;
 
-    invoke-virtual {v0, p1}, Lfn/z1;->D(Ljava/lang/Throwable;)V
+    invoke-virtual {v0, p1}, Lkotlinx/coroutines/v1;->v(Ljava/lang/Throwable;)V
 
     return-void
 .end method

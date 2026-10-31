@@ -24,14 +24,6 @@
 # direct methods
 .method public constructor <init>(Lcom/github/barteksc/pdfviewer/scroll/DefaultScrollHandle;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/github/barteksc/pdfviewer/scroll/DefaultScrollHandle$a;->a:Lcom/github/barteksc/pdfviewer/scroll/DefaultScrollHandle;
@@ -62,7 +54,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -97,5 +88,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

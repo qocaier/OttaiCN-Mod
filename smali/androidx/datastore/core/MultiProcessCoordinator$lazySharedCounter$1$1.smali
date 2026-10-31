@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Ljava/io/File;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -47,8 +45,6 @@
 # virtual methods
 .method public final invoke()Ljava/io/File;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator$lazySharedCounter$1$1;->this$0:Landroidx/datastore/core/MultiProcessCoordinator;

@@ -40,6 +40,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static database()Landroid/database/sqlite/SQLiteDatabase;
@@ -161,6 +163,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static init(Landroid/content/Context;)V
@@ -198,6 +201,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static queryShopInfo(Ljava/lang/String;)Lcom/qiyukf/d20;
@@ -368,6 +373,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static queryStaffInfo(Ljava/lang/String;)Lcom/qiyukf/u80;
@@ -538,6 +545,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static saveShopInfo(Lcom/qiyukf/d20;)V
@@ -688,6 +697,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static saveStaffInfo(Lcom/qiyukf/u80;)V
@@ -838,4 +849,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

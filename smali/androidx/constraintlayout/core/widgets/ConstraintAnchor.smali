@@ -441,6 +441,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -843,6 +846,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public findDependents(ILjava/util/ArrayList;Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;)V
@@ -1000,6 +1006,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getDependents()Ljava/util/HashSet;
@@ -1036,6 +1045,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFinalValue()I
@@ -1073,6 +1083,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMargin()I
@@ -1203,6 +1214,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final getOpposite()Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
@@ -1363,6 +1376,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getOwner()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
@@ -1391,6 +1406,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSolverVariable()Landroidx/constraintlayout/core/SolverVariable;
@@ -1419,6 +1435,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTarget()Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
@@ -1447,6 +1464,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getType()Landroidx/constraintlayout/core/widgets/ConstraintAnchor$Type;
@@ -1475,6 +1493,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasCenteredDependents()Z
@@ -1606,6 +1625,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public hasDependents()Z
@@ -1652,6 +1673,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasFinalValue()Z
@@ -1680,6 +1702,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isConnected()Z
@@ -1717,6 +1740,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isConnectionAllowed(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Z
@@ -1914,6 +1938,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isSimilarDimensionConnection(Landroidx/constraintlayout/core/widgets/ConstraintAnchor;)Z
@@ -2109,6 +2135,7 @@
         :pswitch_0
     .end packed-switch
     .line 78
+    .line 79
 .end method
 
 .method public isValidConnection(Landroidx/constraintlayout/core/widgets/ConstraintAnchor;)Z
@@ -2567,6 +2594,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public isVerticalAnchor()Z
@@ -2704,6 +2736,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public reset()V
@@ -2837,6 +2871,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public resetFinalResolution()V
@@ -2869,6 +2905,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public resetSolverVariable(Landroidx/constraintlayout/core/Cache;)V
@@ -3154,4 +3191,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

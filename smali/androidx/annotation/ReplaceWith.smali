@@ -25,14 +25,6 @@
     }
 .end annotation
 
-.annotation runtime Lkl/d;
-    allowedTargets = {
-        .enum Lkotlin/annotation/AnnotationTarget;->FUNCTION:Lkotlin/annotation/AnnotationTarget;,
-        .enum Lkotlin/annotation/AnnotationTarget;->FIELD:Lkotlin/annotation/AnnotationTarget;,
-        .enum Lkotlin/annotation/AnnotationTarget;->CONSTRUCTOR:Lkotlin/annotation/AnnotationTarget;
-    }
-.end annotation
-
 
 # virtual methods
 .method public abstract expression()Ljava/lang/String;

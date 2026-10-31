@@ -212,11 +212,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static synthetic a(Lcom/qiyukf/unicorn/widget/FullPopupMenu$DimHelper;)V
@@ -254,6 +249,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -300,11 +297,11 @@
 
     .line 20
     .line 21
-    new-instance v1, Lqh/c;
+    new-instance v1, Lcom/qiyukf/unicorn/widget/c;
 
     .line 22
     .line 23
-    invoke-direct {v1, p0}, Lqh/c;-><init>(Lcom/qiyukf/unicorn/widget/FullPopupMenu$DimHelper;)V
+    invoke-direct {v1, p0}, Lcom/qiyukf/unicorn/widget/c;-><init>(Lcom/qiyukf/unicorn/widget/FullPopupMenu$DimHelper;)V
 
     .line 24
     .line 25
@@ -372,6 +369,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public show(Landroid/view/View;)V
@@ -520,4 +518,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

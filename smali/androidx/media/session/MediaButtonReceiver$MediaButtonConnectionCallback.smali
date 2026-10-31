@@ -150,6 +150,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private finish()V
@@ -184,6 +187,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -302,6 +306,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onConnectionFailed()V
@@ -330,6 +336,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onConnectionSuspended()V
@@ -358,6 +365,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setMediaBrowser(Landroid/support/v4/media/MediaBrowserCompat;)V

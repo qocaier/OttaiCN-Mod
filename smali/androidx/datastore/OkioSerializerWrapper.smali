@@ -27,19 +27,12 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/datastore/core/Serializer;)V
     .locals 1
-    .param p1    # Landroidx/datastore/core/Serializer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -53,7 +46,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -121,29 +114,19 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public readFrom(Lokio/BufferedSource;Lul/c;)Ljava/lang/Object;
+.method public readFrom(Lokio/BufferedSource;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Lokio/BufferedSource;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lokio/BufferedSource;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -159,7 +142,7 @@
     move-result-object p1
 
     .line 7
-    invoke-interface {v0, p1, p2}, Landroidx/datastore/core/Serializer;->readFrom(Ljava/io/InputStream;Lul/c;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Landroidx/datastore/core/Serializer;->readFrom(Ljava/io/InputStream;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -207,29 +190,16 @@
     .line 48
 .end method
 
-.method public writeTo(Ljava/lang/Object;Lokio/BufferedSink;Lul/c;)Ljava/lang/Object;
+.method public writeTo(Ljava/lang/Object;Lokio/BufferedSink;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 1
-    .param p2    # Lokio/BufferedSink;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
             "Lokio/BufferedSink;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -245,7 +215,7 @@
     move-result-object p2
 
     .line 7
-    invoke-interface {v0, p1, p2, p3}, Landroidx/datastore/core/Serializer;->writeTo(Ljava/lang/Object;Ljava/io/OutputStream;Lul/c;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2, p3}, Landroidx/datastore/core/Serializer;->writeTo(Ljava/lang/Object;Ljava/io/OutputStream;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -253,7 +223,7 @@
     move-result-object p1
 
     .line 11
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -269,7 +239,7 @@
 
     .line 18
     :cond_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 19
     .line 20
@@ -367,4 +337,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

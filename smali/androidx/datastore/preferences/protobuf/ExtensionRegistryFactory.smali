@@ -47,6 +47,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -75,6 +76,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static create()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
@@ -116,6 +118,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static createEmpty()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
@@ -155,18 +158,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static final invokeSubclassFactory(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "methodName"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;->EXTENSION_REGISTRY_CLASS:Ljava/lang/Class;
@@ -229,14 +225,6 @@
 
 .method public static isFullRegistry(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "registry"
-        }
-    .end annotation
 
     .line 1
     sget-boolean v0, Landroidx/datastore/preferences/protobuf/Protobuf;->assumeLiteRuntime:Z
@@ -336,4 +324,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

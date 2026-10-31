@@ -12,49 +12,21 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEmbeddingAdapter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EmbeddingAdapter.kt\nandroidx/window/embedding/EmbeddingAdapter\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,524:1\n1549#2:525\n1620#2,3:526\n1549#2:529\n1620#2,3:530\n1747#2,3:533\n1747#2,3:536\n1747#2,3:539\n1747#2,3:542\n1747#2,3:545\n1747#2,3:548\n*S KotlinDebug\n*F\n+ 1 EmbeddingAdapter.kt\nandroidx/window/embedding/EmbeddingAdapter\n*L\n71#1:525\n71#1:526,3\n307#1:529\n307#1:530,3\n158#1:533,3\n164#1:536,3\n247#1:539,3\n250#1:542,3\n290#1:545,3\n293#1:548,3\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nEmbeddingAdapter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EmbeddingAdapter.kt\nandroidx/window/embedding/EmbeddingAdapter\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,524:1\n1549#2:525\n1620#2,3:526\n1549#2:529\n1620#2,3:530\n1747#2,3:533\n1747#2,3:536\n1747#2,3:539\n1747#2,3:542\n1747#2,3:545\n1747#2,3:548\n*S KotlinDebug\n*F\n+ 1 EmbeddingAdapter.kt\nandroidx/window/embedding/EmbeddingAdapter\n*L\n71#1:525\n71#1:526,3\n307#1:529\n307#1:530,3\n158#1:533,3\n164#1:536,3\n247#1:539,3\n250#1:542,3\n290#1:545,3\n293#1:548,3\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field public static final Companion:Landroidx/window/embedding/EmbeddingAdapter$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final INVALID_ACTIVITY_STACK_TOKEN:Landroid/os/Binder;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final INVALID_SPLIT_INFO_TOKEN:Landroid/os/Binder;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field private final api1Impl:Landroidx/window/embedding/EmbeddingAdapter$VendorApiLevel1Impl;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final api2Impl:Landroidx/window/embedding/EmbeddingAdapter$VendorApiLevel2Impl;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final predicateAdapter:Landroidx/window/core/PredicateAdapter;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -69,7 +41,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/window/embedding/EmbeddingAdapter$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/window/embedding/EmbeddingAdapter$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -166,21 +138,19 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(Landroidx/window/core/PredicateAdapter;)V
     .locals 1
-    .param p1    # Landroidx/window/core/PredicateAdapter;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "predicateAdapter"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -260,6 +230,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getINVALID_SPLIT_INFO_TOKEN$cp()Landroid/os/Binder;
@@ -288,6 +259,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic b(Landroidx/window/embedding/SplitPlaceholderRule;Landroid/content/Context;Landroid/view/WindowMetrics;)Z
@@ -323,11 +295,11 @@
     return p0
 .end method
 
-.method public static synthetic e(Landroidx/window/embedding/EmbeddingAdapter;Ljm/l;Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;)Landroidx/window/extensions/embedding/SplitAttributes;
+.method public static synthetic e(Landroidx/window/embedding/EmbeddingAdapter;Lq8/l;Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;)Landroidx/window/extensions/embedding/SplitAttributes;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/window/embedding/EmbeddingAdapter;->translateSplitAttributesCalculator$lambda$0(Landroidx/window/embedding/EmbeddingAdapter;Ljm/l;Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;)Landroidx/window/extensions/embedding/SplitAttributes;
+    invoke-static {p0, p1, p2}, Landroidx/window/embedding/EmbeddingAdapter;->translateSplitAttributesCalculator$lambda$0(Landroidx/window/embedding/EmbeddingAdapter;Lq8/l;Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;)Landroidx/window/extensions/embedding/SplitAttributes;
 
     move-result-object p0
 
@@ -390,6 +362,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic h(Landroidx/window/embedding/SplitPairRule;Landroid/util/Pair;)Z
@@ -437,7 +410,7 @@
 
     const-string v1, "splitInfo.primaryActivityStack"
 
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     invoke-virtual {p1}, Landroidx/window/extensions/embedding/SplitInfo;->getSecondaryActivityStack()Landroidx/window/extensions/embedding/ActivityStack;
@@ -446,7 +419,7 @@
 
     const-string v2, "splitInfo.secondaryActivityStack"
 
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     new-instance v2, Landroidx/window/embedding/SplitInfo;
@@ -461,7 +434,7 @@
 
     const-string v5, "primaryActivityStack.activities"
 
-    invoke-static {v4, v5}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     invoke-virtual {v0}, Landroidx/window/extensions/embedding/ActivityStack;->isEmpty()Z
@@ -481,7 +454,7 @@
 
     const-string v5, "secondaryActivityStack.activities"
 
-    invoke-static {v4, v5}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v5}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     invoke-virtual {v1}, Landroidx/window/extensions/embedding/ActivityStack;->isEmpty()Z
@@ -498,7 +471,7 @@
 
     const-string v4, "splitInfo.splitAttributes"
 
-    invoke-static {v1, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, v1}, Landroidx/window/embedding/EmbeddingAdapter;->translate$window_release(Landroidx/window/extensions/embedding/SplitAttributes;)Landroidx/window/embedding/SplitAttributes;
 
@@ -511,7 +484,7 @@
 
     const-string v4, "splitInfo.token"
 
-    invoke-static {p1, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 21
     invoke-direct {v2, v3, v0, v1, p1}, Landroidx/window/embedding/SplitInfo;-><init>(Landroidx/window/embedding/ActivityStack;Landroidx/window/embedding/ActivityStack;Landroidx/window/embedding/SplitAttributes;Landroid/os/IBinder;)V
@@ -583,20 +556,20 @@
 
     .line 15
     :cond_0
-    new-instance p2, La2/h;
+    new-instance p2, Landroidx/window/embedding/h;
 
     .line 16
     .line 17
-    invoke-direct {p2, p1}, La2/h;-><init>(Landroidx/window/embedding/ActivityRule;)V
+    invoke-direct {p2, p1}, Landroidx/window/embedding/h;-><init>(Landroidx/window/embedding/ActivityRule;)V
 
     .line 18
     .line 19
     .line 20
-    new-instance v0, La2/i;
+    new-instance v0, Landroidx/window/embedding/i;
 
     .line 21
     .line 22
-    invoke-direct {v0, p1}, La2/i;-><init>(Landroidx/window/embedding/ActivityRule;)V
+    invoke-direct {v0, p1}, Landroidx/window/embedding/i;-><init>(Landroidx/window/embedding/ActivityRule;)V
 
     .line 23
     .line 24
@@ -630,7 +603,7 @@
 
     .line 39
     .line 40
-    invoke-static {p2, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -665,7 +638,7 @@
 
     .line 57
     .line 58
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 59
     .line 60
@@ -843,6 +816,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static final translateActivityRule$lambda$13(Landroidx/window/embedding/ActivityRule;Landroid/app/Activity;)Z
@@ -853,7 +829,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -926,7 +902,7 @@
 
     .line 37
     .line 38
-    invoke-static {p1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -1135,6 +1111,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static final translateActivityRule$lambda$15(Landroidx/window/embedding/ActivityRule;Landroid/content/Intent;)Z
@@ -1145,7 +1124,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1218,7 +1197,7 @@
 
     .line 37
     .line 38
-    invoke-static {p1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -1427,9 +1406,12 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method private static final translateSplitAttributesCalculator$lambda$0(Landroidx/window/embedding/EmbeddingAdapter;Ljm/l;Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;)Landroidx/window/extensions/embedding/SplitAttributes;
+.method private static final translateSplitAttributesCalculator$lambda$0(Landroidx/window/embedding/EmbeddingAdapter;Lq8/l;Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;)Landroidx/window/extensions/embedding/SplitAttributes;
     .locals 1
 
     .line 1
@@ -1437,7 +1419,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1446,7 +1428,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1455,7 +1437,7 @@
 
     .line 12
     .line 13
-    invoke-static {p2, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -1468,7 +1450,7 @@
     move-result-object p2
 
     .line 20
-    invoke-interface {p1, p2}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -1572,6 +1554,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private final translateSplitPairRule(Landroid/content/Context;Landroidx/window/embedding/SplitPairRule;Ljava/lang/Class;)Landroidx/window/extensions/embedding/SplitPairRule;
@@ -1619,29 +1604,29 @@
 
     .line 15
     :cond_0
-    new-instance p3, La2/e;
+    new-instance p3, Landroidx/window/embedding/e;
 
     .line 16
     .line 17
-    invoke-direct {p3, p2}, La2/e;-><init>(Landroidx/window/embedding/SplitPairRule;)V
+    invoke-direct {p3, p2}, Landroidx/window/embedding/e;-><init>(Landroidx/window/embedding/SplitPairRule;)V
 
     .line 18
     .line 19
     .line 20
-    new-instance v0, La2/f;
+    new-instance v0, Landroidx/window/embedding/f;
 
     .line 21
     .line 22
-    invoke-direct {v0, p2}, La2/f;-><init>(Landroidx/window/embedding/SplitPairRule;)V
+    invoke-direct {v0, p2}, Landroidx/window/embedding/f;-><init>(Landroidx/window/embedding/SplitPairRule;)V
 
     .line 23
     .line 24
     .line 25
-    new-instance v1, La2/g;
+    new-instance v1, Landroidx/window/embedding/g;
 
     .line 26
     .line 27
-    invoke-direct {v1, p2, p1}, La2/g;-><init>(Landroidx/window/embedding/SplitPairRule;Landroid/content/Context;)V
+    invoke-direct {v1, p2, p1}, Landroidx/window/embedding/g;-><init>(Landroidx/window/embedding/SplitPairRule;Landroid/content/Context;)V
 
     .line 28
     .line 29
@@ -1755,7 +1740,7 @@
 
     .line 84
     .line 85
-    invoke-static {p2, p3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -1782,7 +1767,7 @@
 
     .line 98
     .line 99
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 100
     .line 101
@@ -1799,6 +1784,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static final translateSplitPairRule$lambda$3(Landroidx/window/embedding/SplitPairRule;Landroid/util/Pair;)Z
@@ -1809,7 +1797,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1886,7 +1874,7 @@
 
     .line 39
     .line 40
-    invoke-static {v2, v3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -1903,7 +1891,7 @@
 
     .line 48
     .line 49
-    invoke-static {v3, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -2103,6 +2091,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static final translateSplitPairRule$lambda$5(Landroidx/window/embedding/SplitPairRule;Landroid/util/Pair;)Z
@@ -2113,7 +2104,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2190,7 +2181,7 @@
 
     .line 39
     .line 40
-    invoke-static {v2, v3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -2207,7 +2198,7 @@
 
     .line 48
     .line 49
-    invoke-static {v3, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -2407,6 +2398,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static final translateSplitPairRule$lambda$6(Landroidx/window/embedding/SplitPairRule;Landroid/content/Context;Landroid/view/WindowMetrics;)Z
@@ -2417,7 +2411,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2426,7 +2420,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -2435,7 +2429,7 @@
 
     .line 12
     .line 13
-    invoke-static {p2, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -2542,6 +2536,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private final translateSplitPlaceholderRule(Landroid/content/Context;Landroidx/window/embedding/SplitPlaceholderRule;Ljava/lang/Class;)Landroidx/window/extensions/embedding/SplitPlaceholderRule;
@@ -2589,29 +2586,29 @@
 
     .line 15
     :cond_0
-    new-instance p3, La2/a;
+    new-instance p3, Landroidx/window/embedding/a;
 
     .line 16
     .line 17
-    invoke-direct {p3, p2}, La2/a;-><init>(Landroidx/window/embedding/SplitPlaceholderRule;)V
+    invoke-direct {p3, p2}, Landroidx/window/embedding/a;-><init>(Landroidx/window/embedding/SplitPlaceholderRule;)V
 
     .line 18
     .line 19
     .line 20
-    new-instance v0, La2/b;
+    new-instance v0, Landroidx/window/embedding/b;
 
     .line 21
     .line 22
-    invoke-direct {v0, p2}, La2/b;-><init>(Landroidx/window/embedding/SplitPlaceholderRule;)V
+    invoke-direct {v0, p2}, Landroidx/window/embedding/b;-><init>(Landroidx/window/embedding/SplitPlaceholderRule;)V
 
     .line 23
     .line 24
     .line 25
-    new-instance v1, La2/c;
+    new-instance v1, Landroidx/window/embedding/c;
 
     .line 26
     .line 27
-    invoke-direct {v1, p2, p1}, La2/c;-><init>(Landroidx/window/embedding/SplitPlaceholderRule;Landroid/content/Context;)V
+    invoke-direct {v1, p2, p1}, Landroidx/window/embedding/c;-><init>(Landroidx/window/embedding/SplitPlaceholderRule;Landroid/content/Context;)V
 
     .line 28
     .line 29
@@ -2709,7 +2706,7 @@
 
     .line 76
     .line 77
-    invoke-static {p2, p3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 78
     .line 79
@@ -2736,7 +2733,7 @@
 
     .line 90
     .line 91
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 92
     .line 93
@@ -2761,6 +2758,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static final translateSplitPlaceholderRule$lambda$10(Landroidx/window/embedding/SplitPlaceholderRule;Landroid/content/Intent;)Z
@@ -2771,7 +2771,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2844,7 +2844,7 @@
 
     .line 37
     .line 38
-    invoke-static {p1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -3053,6 +3053,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static final translateSplitPlaceholderRule$lambda$11(Landroidx/window/embedding/SplitPlaceholderRule;Landroid/content/Context;Landroid/view/WindowMetrics;)Z
@@ -3063,7 +3066,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -3072,7 +3075,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -3081,7 +3084,7 @@
 
     .line 12
     .line 13
-    invoke-static {p2, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -3188,6 +3191,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static final translateSplitPlaceholderRule$lambda$8(Landroidx/window/embedding/SplitPlaceholderRule;Landroid/app/Activity;)Z
@@ -3198,7 +3204,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -3271,7 +3277,7 @@
 
     .line 37
     .line 38
-    invoke-static {p1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -3480,6 +3486,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private final translateSplitType(Landroidx/window/embedding/SplitAttributes$SplitType;)Landroidx/window/extensions/embedding/SplitAttributes$SplitType;
@@ -3505,7 +3514,7 @@
 
     .line 9
     .line 10
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 11
     .line 12
@@ -3550,7 +3559,7 @@
 
     .line 31
     .line 32
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 33
     .line 34
@@ -3836,28 +3845,26 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
 # virtual methods
 .method public final translate(Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;)Landroidx/window/embedding/SplitAttributesCalculatorParams;
     .locals 9
-    .param p1    # Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "NewApi"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "params"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 24
     invoke-virtual {p1}, Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;->getParentWindowMetrics()Landroid/view/WindowMetrics;
@@ -3866,7 +3873,7 @@
 
     const-string v1, "params.parentWindowMetrics"
 
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 25
     invoke-virtual {p1}, Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;->getParentConfiguration()Landroid/content/res/Configuration;
@@ -3875,7 +3882,7 @@
 
     const-string v1, "params.parentConfiguration"
 
-    invoke-static {v4, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 26
     invoke-virtual {p1}, Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;->getParentWindowLayoutInfo()Landroidx/window/extensions/layout/WindowLayoutInfo;
@@ -3884,7 +3891,7 @@
 
     const-string v2, "params.parentWindowLayoutInfo"
 
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 27
     invoke-virtual {p1}, Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;->getDefaultSplitAttributes()Landroidx/window/extensions/embedding/SplitAttributes;
@@ -3893,7 +3900,7 @@
 
     const-string v3, "params.defaultSplitAttributes"
 
-    invoke-static {v2, v3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 28
     invoke-virtual {p1}, Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;->areDefaultConstraintsSatisfied()Z
@@ -3937,10 +3944,6 @@
 
 .method public final translate(Ljava/util/List;)Ljava/util/List;
     .locals 2
-    .param p1    # Ljava/util/List;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -3954,12 +3957,9 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "splitInfoList"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     check-cast p1, Ljava/lang/Iterable;
@@ -3969,7 +3969,7 @@
 
     const/16 v1, 0xa
 
-    invoke-static {p1, v1}, Lll/i0;->d0(Ljava/lang/Iterable;I)I
+    invoke-static {p1, v1}, Lkotlin/collections/s;->v(Ljava/lang/Iterable;I)I
 
     move-result v1
 
@@ -4010,14 +4010,6 @@
 
 .method public final translate(Landroid/content/Context;Ljava/util/Set;)Ljava/util/Set;
     .locals 4
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -4032,16 +4024,13 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "rules"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 35
     iget-object v0, p0, Landroidx/window/embedding/EmbeddingAdapter;->predicateAdapter:Landroidx/window/core/PredicateAdapter;
@@ -4052,7 +4041,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {}, Lll/u1;->k()Ljava/util/Set;
+    invoke-static {}, Lkotlin/collections/j0;->d()Ljava/util/Set;
 
     move-result-object p1
 
@@ -4064,7 +4053,7 @@
 
     const/16 v2, 0xa
 
-    invoke-static {p2, v2}, Lll/i0;->d0(Ljava/lang/Iterable;I)I
+    invoke-static {p2, v2}, Lkotlin/collections/s;->v(Ljava/lang/Iterable;I)I
 
     move-result v2
 
@@ -4153,7 +4142,7 @@
 
     .line 45
     :cond_4
-    invoke-static {v1}, Lll/r0;->f6(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {v1}, Lkotlin/collections/z;->j0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     move-result-object p1
 
@@ -4162,19 +4151,13 @@
 
 .method public final translate$window_release(Landroidx/window/extensions/embedding/SplitAttributes;)Landroidx/window/embedding/SplitAttributes;
     .locals 3
-    .param p1    # Landroidx/window/extensions/embedding/SplitAttributes;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "splitAttributes"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -4200,7 +4183,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -4558,21 +4541,22 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public final translateFinishBehavior(Landroidx/window/embedding/SplitRule$FinishBehavior;)I
     .locals 3
-    .param p1    # Landroidx/window/embedding/SplitRule$FinishBehavior;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "behavior"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -4581,7 +4565,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 9
     .line 10
@@ -4604,7 +4588,7 @@
 
     .line 17
     .line 18
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 19
     .line 20
@@ -4627,7 +4611,7 @@
 
     .line 27
     .line 28
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 29
     .line 30
@@ -4707,23 +4691,18 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final translateSplitAttributes(Landroidx/window/embedding/SplitAttributes;)Landroidx/window/extensions/embedding/SplitAttributes;
     .locals 3
-    .param p1    # Landroidx/window/embedding/SplitAttributes;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "splitAttributes"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -4788,7 +4767,7 @@
 
     .line 35
     .line 36
-    invoke-static {v1, v2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 37
     .line 38
@@ -4811,7 +4790,7 @@
 
     .line 45
     .line 46
-    invoke-static {v1, v2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 47
     .line 48
@@ -4834,7 +4813,7 @@
 
     .line 55
     .line 56
-    invoke-static {v1, v2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 57
     .line 58
@@ -4857,7 +4836,7 @@
 
     .line 65
     .line 66
-    invoke-static {v1, v2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 67
     .line 68
@@ -4880,7 +4859,7 @@
 
     .line 75
     .line 76
-    invoke-static {v1, v2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 77
     .line 78
@@ -4916,7 +4895,7 @@
 
     .line 92
     .line 93
-    invoke-static {p1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 94
     .line 95
@@ -5098,22 +5077,20 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
-.method public final translateSplitAttributesCalculator(Ljm/l;)Landroidx/window/extensions/core/util/function/Function;
+.method public final translateSplitAttributesCalculator(Lq8/l;)Landroidx/window/extensions/core/util/function/Function;
     .locals 1
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Landroidx/window/embedding/SplitAttributesCalculatorParams;",
-            "Landroidx/window/embedding/SplitAttributes;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/window/extensions/core/util/function/Function<",
             "Landroidx/window/extensions/embedding/SplitAttributesCalculatorParams;",
             "Landroidx/window/extensions/embedding/SplitAttributes;",
@@ -5121,24 +5098,21 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "calculator"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    new-instance v0, La2/d;
+    new-instance v0, Landroidx/window/embedding/d;
 
     .line 7
     .line 8
-    invoke-direct {v0, p0, p1}, La2/d;-><init>(Landroidx/window/embedding/EmbeddingAdapter;Ljm/l;)V
+    invoke-direct {v0, p0, p1}, Landroidx/window/embedding/d;-><init>(Landroidx/window/embedding/EmbeddingAdapter;Lq8/l;)V
 
     .line 9
     .line 10

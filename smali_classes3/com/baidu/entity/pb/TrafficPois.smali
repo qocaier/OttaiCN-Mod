@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/entity/pb/TrafficPois;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -72,7 +72,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
     const/4 v0, 0x0
 
@@ -101,7 +101,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/entity/pb/TrafficPois;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/entity/pb/TrafficPois;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -114,7 +114,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TrafficPois;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/TrafficPois;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/TrafficPois;
+    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/TrafficPois;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/TrafficPois;
 
     move-result-object p0
 
@@ -134,7 +134,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TrafficPois;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -359,7 +359,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -381,7 +381,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v1
 
@@ -400,7 +400,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v1
 
@@ -430,7 +430,7 @@
 
     const/4 v3, 0x4
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -451,7 +451,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -470,7 +470,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v1
 
@@ -489,7 +489,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -607,7 +607,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/TrafficPois;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/TrafficPois;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -618,7 +618,7 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
@@ -652,7 +652,7 @@
 
     if-eq v0, v1, :cond_1
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -661,7 +661,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -674,14 +674,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TrafficPois$ImageShow;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TrafficPois;->setImgeShow(Lcom/baidu/entity/pb/TrafficPois$ImageShow;)Lcom/baidu/entity/pb/TrafficPois;
 
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -694,7 +694,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TrafficPois$SuggestQuery;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TrafficPois;->addSuggestQuery(Lcom/baidu/entity/pb/TrafficPois$SuggestQuery;)Lcom/baidu/entity/pb/TrafficPois;
 
@@ -705,7 +705,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TrafficPois$Content;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TrafficPois;->setContent(Lcom/baidu/entity/pb/TrafficPois$Content;)Lcom/baidu/entity/pb/TrafficPois;
 
@@ -716,7 +716,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/CurrentCity;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TrafficPois;->setCurrentCity(Lcom/baidu/entity/pb/CurrentCity;)Lcom/baidu/entity/pb/TrafficPois;
 
@@ -727,7 +727,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TrafficPois$Option;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TrafficPois;->setOption(Lcom/baidu/entity/pb/TrafficPois$Option;)Lcom/baidu/entity/pb/TrafficPois;
 
@@ -738,7 +738,7 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -747,7 +747,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/TrafficPois;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/TrafficPois;
+    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/TrafficPois;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/TrafficPois;
 
     move-result-object p1
 
@@ -897,7 +897,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TrafficPois;->hasCurrentCity()Z
@@ -912,7 +912,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TrafficPois;->hasContent()Z
@@ -927,7 +927,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TrafficPois;->getSuggestQueryList()Ljava/util/List;
@@ -953,7 +953,7 @@
 
     const/4 v2, 0x4
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_0
 
@@ -970,7 +970,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_4
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TrafficPois;->hasImgeShow()Z
@@ -985,7 +985,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_5
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TrafficPois;->hasListType()Z
@@ -1000,7 +1000,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_6
     return-void

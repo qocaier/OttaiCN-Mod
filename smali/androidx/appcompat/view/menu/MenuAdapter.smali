@@ -276,6 +276,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -413,6 +419,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getAdapterMenu()Landroidx/appcompat/view/menu/MenuBuilder;
@@ -441,6 +449,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCount()I
@@ -568,6 +577,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getForceShowIcon()Z
@@ -596,6 +607,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getItem(I)Landroidx/appcompat/view/menu/MenuItemImpl;
@@ -861,6 +873,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public notifyDataSetChanged()V
@@ -891,6 +906,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setForceShowIcon(Z)V

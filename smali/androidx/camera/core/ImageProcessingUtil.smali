@@ -56,6 +56,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -84,6 +85,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/ImageProxy;Landroidx/camera/core/ImageProxy;Landroidx/camera/core/ImageProxy;)V
@@ -210,6 +212,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static applyPixelShiftForYUV(Landroidx/camera/core/ImageProxy;)Z
@@ -332,6 +337,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static applyPixelShiftInternal(Landroidx/camera/core/ImageProxy;)Landroidx/camera/core/ImageProcessingUtil$Result;
@@ -711,6 +717,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static synthetic b(Landroidx/camera/core/ImageProxy;Landroidx/camera/core/ImageProxy;Landroidx/camera/core/ImageProxy;)V
@@ -837,6 +848,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static convertJpegBytesToImage(Landroidx/camera/core/impl/ImageReaderProxy;[B)Landroidx/camera/core/ImageProxy;
@@ -1140,6 +1154,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static convertYUVToBitmap(Landroidx/camera/core/ImageProxy;)Landroid/graphics/Bitmap;
@@ -1538,6 +1555,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static convertYUVToRGB(Landroidx/camera/core/ImageProxy;Landroidx/camera/core/impl/ImageReaderProxy;Ljava/nio/ByteBuffer;IZ)Landroidx/camera/core/ImageProxy;
@@ -1792,11 +1814,11 @@
     .line 110
     .line 111
     .line 112
-    new-instance p3, Ls/o;
+    new-instance p3, Landroidx/camera/core/y;
 
     .line 113
     .line 114
-    invoke-direct {p3, p1, p0}, Ls/o;-><init>(Landroidx/camera/core/ImageProxy;Landroidx/camera/core/ImageProxy;)V
+    invoke-direct {p3, p1, p0}, Landroidx/camera/core/y;-><init>(Landroidx/camera/core/ImageProxy;Landroidx/camera/core/ImageProxy;)V
 
     .line 115
     .line 116
@@ -3172,6 +3194,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static copyBitmapToByteBuffer(Landroid/graphics/Bitmap;Ljava/nio/ByteBuffer;I)V
@@ -3321,6 +3349,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static copyByteBufferToBitmap(Landroid/graphics/Bitmap;Ljava/nio/ByteBuffer;I)V
@@ -3470,6 +3501,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static isSupportedRotationDegrees(I)Z
@@ -3868,11 +3902,11 @@
     .line 68
     .line 69
     .line 70
-    new-instance p2, Ls/p;
+    new-instance p2, Landroidx/camera/core/z;
 
     .line 71
     .line 72
-    invoke-direct {p2, p0, v3}, Ls/p;-><init>(Landroidx/camera/core/ImageProxy;Landroidx/camera/core/ImageProxy;)V
+    invoke-direct {p2, p0, v3}, Landroidx/camera/core/z;-><init>(Landroidx/camera/core/ImageProxy;Landroidx/camera/core/ImageProxy;)V
 
     .line 73
     .line 74

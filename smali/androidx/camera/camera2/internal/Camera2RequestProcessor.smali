@@ -349,6 +349,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private areRequestsValid(Ljava/util/List;)Z
@@ -475,6 +478,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private findSurface(I)Landroidx/camera/core/impl/DeferrableSurface;
@@ -591,6 +595,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private isRequestValid(Landroidx/camera/core/impl/RequestProcessor$Request;)Z
@@ -756,6 +761,7 @@
     .line 77
     return p1
     .line 78
+    .line 79
 .end method
 
 
@@ -795,6 +801,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public close()V
@@ -825,6 +832,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public findOutputConfigId(Landroid/view/Surface;)I
@@ -874,7 +882,7 @@
     .line 18
     .line 19
     :try_start_0
-    invoke-virtual {v1}, Landroidx/camera/core/impl/DeferrableSurface;->getSurface()Lub/u0;
+    invoke-virtual {v1}, Landroidx/camera/core/impl/DeferrableSurface;->getSurface()Lcom/google/common/util/concurrent/t;
 
     .line 20
     .line 21
@@ -956,6 +964,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setRepeating(Landroidx/camera/core/impl/RequestProcessor$Request;Landroidx/camera/core/impl/RequestProcessor$Callback;)I
@@ -1366,6 +1375,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public stopRepeating()V
@@ -1403,6 +1415,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public submit(Landroidx/camera/core/impl/RequestProcessor$Request;Landroidx/camera/core/impl/RequestProcessor$Callback;)I

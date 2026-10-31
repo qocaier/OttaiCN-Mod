@@ -74,6 +74,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -104,6 +106,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCustomFields()Lorg/json/JSONArray;
@@ -132,6 +136,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getDeviceid()Ljava/lang/String;
@@ -160,6 +166,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEmail()Ljava/lang/String;
@@ -188,6 +196,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMessage()Ljava/lang/String;
@@ -216,6 +226,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMobile()Ljava/lang/String;
@@ -244,6 +256,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setBid(Ljava/lang/String;)V
@@ -277,6 +291,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCustomFields(Lorg/json/JSONArray;)V
@@ -310,6 +326,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setDeviceid(Ljava/lang/String;)V
@@ -343,6 +361,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEmail(Ljava/lang/String;)V
@@ -376,6 +396,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMessage(Ljava/lang/String;)V
@@ -409,6 +431,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMobile(Ljava/lang/String;)V
@@ -442,4 +466,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

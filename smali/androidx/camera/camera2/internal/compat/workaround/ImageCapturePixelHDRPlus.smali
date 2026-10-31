@@ -42,6 +42,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -99,7 +100,7 @@
 
     .line 18
     :cond_1
-    invoke-static {}, Lp/a;->a()Landroid/hardware/camera2/CaptureRequest$Key;
+    invoke-static {}, Landroidx/camera/camera2/internal/compat/workaround/a;->a()Landroid/hardware/camera2/CaptureRequest$Key;
 
     .line 19
     .line 20
@@ -120,7 +121,7 @@
 
     .line 28
     :cond_2
-    invoke-static {}, Lp/a;->a()Landroid/hardware/camera2/CaptureRequest$Key;
+    invoke-static {}, Landroidx/camera/camera2/internal/compat/workaround/a;->a()Landroid/hardware/camera2/CaptureRequest$Key;
 
     .line 29
     .line 30

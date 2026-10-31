@@ -75,722 +75,722 @@
 
     .line 24
     .line 25
-    const-string v1, "zh"
+    const-string/jumbo v1, "zh"
 
     .line 26
     .line 27
+    .line 28
     invoke-virtual {v0, v1}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
-    .line 28
     .line 29
     .line 30
+    .line 31
     move-result v1
 
-    .line 31
+    .line 32
     if-eqz v1, :cond_1
 
-    .line 32
     .line 33
-    const-string v1, "\u6d88\u606f\u901a\u77e5"
-
     .line 34
-    .line 35
-    sput-object v1, Lcom/qiyukf/is;->a:Ljava/lang/String;
+    const-string/jumbo v1, "\u6d88\u606f\u901a\u77e5"
 
+    .line 35
     .line 36
     .line 37
-    sput-object v1, Lcom/qiyukf/is;->b:Ljava/lang/String;
+    sput-object v1, Lcom/qiyukf/is;->a:Ljava/lang/String;
 
     .line 38
     .line 39
-    const-string v1, "\u514d\u6253\u6270\u6d88\u606f\u901a\u77e5"
+    sput-object v1, Lcom/qiyukf/is;->b:Ljava/lang/String;
 
     .line 40
     .line 41
-    sput-object v1, Lcom/qiyukf/is;->c:Ljava/lang/String;
+    const-string/jumbo v1, "\u514d\u6253\u6270\u6d88\u606f\u901a\u77e5"
 
     .line 42
     .line 43
+    .line 44
+    sput-object v1, Lcom/qiyukf/is;->c:Ljava/lang/String;
+
+    .line 45
+    .line 46
     sput-object v1, Lcom/qiyukf/is;->d:Ljava/lang/String;
 
-    .line 44
-    .line 45
-    const-string v1, "\u4ec5\u54cd\u94c3\u6d88\u606f\u901a\u77e5"
-
-    .line 46
     .line 47
-    sput-object v1, Lcom/qiyukf/is;->e:Ljava/lang/String;
-
     .line 48
-    .line 49
-    sput-object v1, Lcom/qiyukf/is;->f:Ljava/lang/String;
+    const-string/jumbo v1, "\u4ec5\u54cd\u94c3\u6d88\u606f\u901a\u77e5"
 
+    .line 49
     .line 50
     .line 51
-    const-string v1, "\u4ec5\u9707\u52a8\u6d88\u606f\u901a\u77e5"
+    sput-object v1, Lcom/qiyukf/is;->e:Ljava/lang/String;
 
     .line 52
     .line 53
-    sput-object v1, Lcom/qiyukf/is;->g:Ljava/lang/String;
+    sput-object v1, Lcom/qiyukf/is;->f:Ljava/lang/String;
 
     .line 54
     .line 55
-    sput-object v1, Lcom/qiyukf/is;->h:Ljava/lang/String;
+    const-string/jumbo v1, "\u4ec5\u9707\u52a8\u6d88\u606f\u901a\u77e5"
 
     .line 56
     .line 57
+    .line 58
+    sput-object v1, Lcom/qiyukf/is;->g:Ljava/lang/String;
+
+    .line 59
+    .line 60
+    sput-object v1, Lcom/qiyukf/is;->h:Ljava/lang/String;
+
+    .line 61
+    .line 62
     :cond_1
     new-instance v1, Ljava/lang/StringBuilder;
 
-    .line 58
-    .line 59
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    .line 60
-    .line 61
-    .line 62
-    const-string v2, "language setting = "
-
     .line 63
     .line 64
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const-string v2, "language setting = "
 
     .line 68
     .line 69
-    .line 70
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 70
     .line 71
     .line 72
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 73
-    move-result-object v0
-
     .line 74
-    invoke-static {v0}, Lcom/qiyukf/c;->d(Ljava/lang/String;)V
-
     .line 75
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 76
     .line 77
-    const-string v0, "notification"
-
     .line 78
+    move-result-object v0
+
     .line 79
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/qiyukf/c;->d(Ljava/lang/String;)V
 
     .line 80
     .line 81
     .line 82
-    move-result-object p0
+    const-string v0, "notification"
 
     .line 83
-    check-cast p0, Landroid/app/NotificationManager;
-
     .line 84
-    .line 85
-    if-eqz p0, :cond_f
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
+    .line 85
     .line 86
     .line 87
-    const-string v0, "nim_message_channel_001"
+    move-result-object p0
 
     .line 88
-    .line 89
-    invoke-static {p0, v0}, Lk/a;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
+    check-cast p0, Landroid/app/NotificationManager;
 
+    .line 89
     .line 90
+    if-eqz p0, :cond_f
+
     .line 91
     .line 92
-    move-result-object v1
+    const-string v0, "nim_message_channel_001"
 
     .line 93
-    const/16 v2, 0x8
-
     .line 94
+    invoke-static {p0, v0}, Landroidx/browser/trusted/b;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
+
     .line 95
-    const/4 v3, 0x3
-
     .line 96
-    const/4 v4, -0x1
-
     .line 97
-    const/4 v5, 0x1
+    move-result-object v1
 
     .line 98
-    if-nez v1, :cond_5
+    const/16 v2, 0x8
 
     .line 99
     .line 100
-    invoke-static {}, Lb5/g;->a()V
+    const/4 v3, 0x3
 
     .line 101
+    const/4 v4, -0x1
+
     .line 102
+    const/4 v5, 0x1
+
     .line 103
-    sget-object v1, Lcom/qiyukf/is;->a:Ljava/lang/String;
+    if-nez v1, :cond_5
 
     .line 104
     .line 105
-    invoke-static {v0, v1, v3}, Lk/e;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
+    invoke-static {}, Lw/g;->a()V
 
     .line 106
     .line 107
     .line 108
-    move-result-object v0
+    sget-object v1, Lcom/qiyukf/is;->a:Ljava/lang/String;
 
     .line 109
-    sget-object v1, Lcom/qiyukf/is;->b:Ljava/lang/String;
-
     .line 110
-    .line 111
-    invoke-static {v0, v1}, Lg7/r;->a(Landroid/app/NotificationChannel;Ljava/lang/String;)V
+    invoke-static {v0, v1, v3}, Landroidx/browser/trusted/f;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
 
+    .line 111
     .line 112
     .line 113
+    move-result-object v0
+
     .line 114
-    invoke-static {}, Lcom/qiyukf/nimlib/b;->m()Lcom/qiyukf/nimlib/sdk/SDKOptions;
+    sget-object v1, Lcom/qiyukf/is;->b:Ljava/lang/String;
 
     .line 115
     .line 116
+    invoke-static {v0, v1}, Lcom/dexterous/flutterlocalnotifications/s;->a(Landroid/app/NotificationChannel;Ljava/lang/String;)V
+
     .line 117
-    move-result-object v1
-
     .line 118
-    iget-object v1, v1, Lcom/qiyukf/nimlib/sdk/SDKOptions;->statusBarNotificationConfig:Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;
-
     .line 119
-    .line 120
-    if-eqz v1, :cond_4
+    invoke-static {}, Lcom/qiyukf/nimlib/b;->m()Lcom/qiyukf/nimlib/sdk/SDKOptions;
 
+    .line 120
     .line 121
     .line 122
-    invoke-static {v0, v5}, Lb5/b;->a(Landroid/app/NotificationChannel;Z)V
+    move-result-object v1
 
     .line 123
+    iget-object v1, v1, Lcom/qiyukf/nimlib/sdk/SDKOptions;->statusBarNotificationConfig:Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;
+
     .line 124
     .line 125
-    iget-object v6, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->notificationSound:Ljava/lang/String;
+    if-eqz v1, :cond_4
 
     .line 126
     .line 127
-    invoke-static {v6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v0, v5}, Lw/b;->a(Landroid/app/NotificationChannel;Z)V
 
     .line 128
     .line 129
     .line 130
-    move-result v6
+    iget-object v6, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->notificationSound:Ljava/lang/String;
 
     .line 131
-    if-nez v6, :cond_2
-
     .line 132
-    .line 133
-    new-instance v6, Landroid/media/AudioAttributes$Builder;
+    invoke-static {v6}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
+    .line 133
     .line 134
     .line 135
-    invoke-direct {v6}, Landroid/media/AudioAttributes$Builder;-><init>()V
+    move-result v6
 
     .line 136
+    if-nez v6, :cond_2
+
     .line 137
     .line 138
-    invoke-virtual {v6, v2}, Landroid/media/AudioAttributes$Builder;->setUsage(I)Landroid/media/AudioAttributes$Builder;
+    new-instance v6, Landroid/media/AudioAttributes$Builder;
 
     .line 139
     .line 140
-    .line 141
-    iget-object v7, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->notificationSound:Ljava/lang/String;
+    invoke-direct {v6}, Landroid/media/AudioAttributes$Builder;-><init>()V
 
+    .line 141
     .line 142
     .line 143
-    invoke-static {v7}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-virtual {v6, v2}, Landroid/media/AudioAttributes$Builder;->setUsage(I)Landroid/media/AudioAttributes$Builder;
 
     .line 144
     .line 145
     .line 146
-    move-result-object v7
+    iget-object v7, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->notificationSound:Ljava/lang/String;
 
     .line 147
-    invoke-virtual {v6}, Landroid/media/AudioAttributes$Builder;->build()Landroid/media/AudioAttributes;
-
     .line 148
+    invoke-static {v7}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
     .line 149
     .line 150
-    move-result-object v6
-
     .line 151
-    invoke-static {v0, v7, v6}, Lg7/t;->a(Landroid/app/NotificationChannel;Landroid/net/Uri;Landroid/media/AudioAttributes;)V
+    move-result-object v7
 
     .line 152
+    invoke-virtual {v6}, Landroid/media/AudioAttributes$Builder;->build()Landroid/media/AudioAttributes;
+
     .line 153
     .line 154
-    :cond_2
-    iget v6, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
-
     .line 155
+    move-result-object v6
+
     .line 156
-    if-eq v6, v4, :cond_3
+    invoke-static {v0, v7, v6}, Lcom/dexterous/flutterlocalnotifications/u;->a(Landroid/app/NotificationChannel;Landroid/net/Uri;Landroid/media/AudioAttributes;)V
 
     .line 157
     .line 158
-    invoke-static {v0, v5}, Lb5/a;->a(Landroid/app/NotificationChannel;Z)V
-
     .line 159
+    :cond_2
+    iget v6, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
+
     .line 160
     .line 161
-    iget v6, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
+    if-eq v6, v4, :cond_3
 
     .line 162
     .line 163
-    invoke-static {v0, v6}, Lb5/c;->a(Landroid/app/NotificationChannel;I)V
+    invoke-static {v0, v5}, Lw/a;->a(Landroid/app/NotificationChannel;Z)V
 
     .line 164
     .line 165
     .line 166
-    :cond_3
-    iget-boolean v1, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->showBadge:Z
+    iget v6, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
 
     .line 167
     .line 168
-    invoke-static {v0, v1}, Lg7/v;->a(Landroid/app/NotificationChannel;Z)V
+    invoke-static {v0, v6}, Lw/c;->a(Landroid/app/NotificationChannel;I)V
 
     .line 169
     .line 170
     .line 171
-    :cond_4
-    const-string v1, "create NIM message notification channel, id=nim_message_channel_001"
+    :cond_3
+    iget-boolean v1, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->showBadge:Z
 
     .line 172
     .line 173
-    invoke-static {v1}, Lcom/qiyukf/c;->d(Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/dexterous/flutterlocalnotifications/w;->a(Landroid/app/NotificationChannel;Z)V
 
     .line 174
     .line 175
     .line 176
-    invoke-static {p0, v0}, Lk/c;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    :cond_4
+    const-string v1, "create NIM message notification channel, id=nim_message_channel_001"
 
     .line 177
     .line 178
-    .line 179
-    :cond_5
-    const-string v0, "nim_message_channel_003"
+    invoke-static {v1}, Lcom/qiyukf/c;->d(Ljava/lang/String;)V
 
+    .line 179
     .line 180
     .line 181
-    invoke-static {p0, v0}, Lk/a;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
+    invoke-static {p0, v0}, Landroidx/browser/trusted/d;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     .line 182
     .line 183
     .line 184
-    move-result-object v1
+    :cond_5
+    const-string v0, "nim_message_channel_003"
 
     .line 185
-    const/4 v6, 0x0
-
     .line 186
-    if-nez v1, :cond_9
+    invoke-static {p0, v0}, Landroidx/browser/trusted/b;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     .line 187
     .line 188
-    invoke-static {}, Lb5/g;->a()V
-
     .line 189
+    move-result-object v1
+
     .line 190
+    const/4 v6, 0x0
+
     .line 191
-    sget-object v1, Lcom/qiyukf/is;->e:Ljava/lang/String;
+    if-nez v1, :cond_9
 
     .line 192
     .line 193
-    invoke-static {v0, v1, v3}, Lk/e;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
+    invoke-static {}, Lw/g;->a()V
 
     .line 194
     .line 195
     .line 196
-    move-result-object v0
+    sget-object v1, Lcom/qiyukf/is;->e:Ljava/lang/String;
 
     .line 197
-    sget-object v1, Lcom/qiyukf/is;->f:Ljava/lang/String;
-
     .line 198
-    .line 199
-    invoke-static {v0, v1}, Lg7/r;->a(Landroid/app/NotificationChannel;Ljava/lang/String;)V
+    invoke-static {v0, v1, v3}, Landroidx/browser/trusted/f;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
 
+    .line 199
     .line 200
     .line 201
+    move-result-object v0
+
     .line 202
-    invoke-static {}, Lcom/qiyukf/nimlib/b;->m()Lcom/qiyukf/nimlib/sdk/SDKOptions;
+    sget-object v1, Lcom/qiyukf/is;->f:Ljava/lang/String;
 
     .line 203
     .line 204
+    invoke-static {v0, v1}, Lcom/dexterous/flutterlocalnotifications/s;->a(Landroid/app/NotificationChannel;Ljava/lang/String;)V
+
     .line 205
-    move-result-object v1
-
     .line 206
-    iget-object v1, v1, Lcom/qiyukf/nimlib/sdk/SDKOptions;->statusBarNotificationConfig:Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;
-
     .line 207
-    .line 208
-    if-eqz v1, :cond_8
+    invoke-static {}, Lcom/qiyukf/nimlib/b;->m()Lcom/qiyukf/nimlib/sdk/SDKOptions;
 
+    .line 208
     .line 209
     .line 210
-    invoke-static {v0, v6}, Lb5/b;->a(Landroid/app/NotificationChannel;Z)V
+    move-result-object v1
 
     .line 211
+    iget-object v1, v1, Lcom/qiyukf/nimlib/sdk/SDKOptions;->statusBarNotificationConfig:Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;
+
     .line 212
     .line 213
-    iget-object v7, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->notificationSound:Ljava/lang/String;
+    if-eqz v1, :cond_8
 
     .line 214
     .line 215
-    invoke-static {v7}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v0, v6}, Lw/b;->a(Landroid/app/NotificationChannel;Z)V
 
     .line 216
     .line 217
     .line 218
-    move-result v7
+    iget-object v7, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->notificationSound:Ljava/lang/String;
 
     .line 219
-    if-nez v7, :cond_6
-
     .line 220
-    .line 221
-    new-instance v7, Landroid/media/AudioAttributes$Builder;
+    invoke-static {v7}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
+    .line 221
     .line 222
     .line 223
-    invoke-direct {v7}, Landroid/media/AudioAttributes$Builder;-><init>()V
+    move-result v7
 
     .line 224
+    if-nez v7, :cond_6
+
     .line 225
     .line 226
-    invoke-virtual {v7, v2}, Landroid/media/AudioAttributes$Builder;->setUsage(I)Landroid/media/AudioAttributes$Builder;
+    new-instance v7, Landroid/media/AudioAttributes$Builder;
 
     .line 227
     .line 228
-    .line 229
-    iget-object v2, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->notificationSound:Ljava/lang/String;
+    invoke-direct {v7}, Landroid/media/AudioAttributes$Builder;-><init>()V
 
+    .line 229
     .line 230
     .line 231
-    invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-virtual {v7, v2}, Landroid/media/AudioAttributes$Builder;->setUsage(I)Landroid/media/AudioAttributes$Builder;
 
     .line 232
     .line 233
     .line 234
-    move-result-object v2
+    iget-object v2, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->notificationSound:Ljava/lang/String;
 
     .line 235
-    invoke-virtual {v7}, Landroid/media/AudioAttributes$Builder;->build()Landroid/media/AudioAttributes;
-
     .line 236
+    invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+
     .line 237
     .line 238
-    move-result-object v7
-
     .line 239
-    invoke-static {v0, v2, v7}, Lg7/t;->a(Landroid/app/NotificationChannel;Landroid/net/Uri;Landroid/media/AudioAttributes;)V
+    move-result-object v2
 
     .line 240
+    invoke-virtual {v7}, Landroid/media/AudioAttributes$Builder;->build()Landroid/media/AudioAttributes;
+
     .line 241
     .line 242
-    :cond_6
-    iget v2, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
-
     .line 243
+    move-result-object v7
+
     .line 244
-    if-eq v2, v4, :cond_7
+    invoke-static {v0, v2, v7}, Lcom/dexterous/flutterlocalnotifications/u;->a(Landroid/app/NotificationChannel;Landroid/net/Uri;Landroid/media/AudioAttributes;)V
 
     .line 245
     .line 246
-    invoke-static {v0, v5}, Lb5/a;->a(Landroid/app/NotificationChannel;Z)V
-
     .line 247
+    :cond_6
+    iget v2, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
+
     .line 248
     .line 249
-    iget v2, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
+    if-eq v2, v4, :cond_7
 
     .line 250
     .line 251
-    invoke-static {v0, v2}, Lb5/c;->a(Landroid/app/NotificationChannel;I)V
+    invoke-static {v0, v5}, Lw/a;->a(Landroid/app/NotificationChannel;Z)V
 
     .line 252
     .line 253
     .line 254
-    :cond_7
-    iget-boolean v1, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->showBadge:Z
+    iget v2, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
 
     .line 255
     .line 256
-    invoke-static {v0, v1}, Lg7/v;->a(Landroid/app/NotificationChannel;Z)V
+    invoke-static {v0, v2}, Lw/c;->a(Landroid/app/NotificationChannel;I)V
 
     .line 257
     .line 258
     .line 259
-    :cond_8
-    const-string v1, "create NIM message notification channel, id=nim_message_channel_003"
+    :cond_7
+    iget-boolean v1, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->showBadge:Z
 
     .line 260
     .line 261
-    invoke-static {v1}, Lcom/qiyukf/c;->d(Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/dexterous/flutterlocalnotifications/w;->a(Landroid/app/NotificationChannel;Z)V
 
     .line 262
     .line 263
     .line 264
-    invoke-static {p0, v0}, Lk/c;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    :cond_8
+    const-string v1, "create NIM message notification channel, id=nim_message_channel_003"
 
     .line 265
     .line 266
-    .line 267
-    :cond_9
-    const-string v0, "nim_message_channel_004"
+    invoke-static {v1}, Lcom/qiyukf/c;->d(Ljava/lang/String;)V
 
+    .line 267
     .line 268
     .line 269
-    invoke-static {p0, v0}, Lk/a;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
+    invoke-static {p0, v0}, Landroidx/browser/trusted/d;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     .line 270
     .line 271
     .line 272
-    move-result-object v1
+    :cond_9
+    const-string v0, "nim_message_channel_004"
 
     .line 273
-    const/4 v2, 0x0
-
     .line 274
-    if-nez v1, :cond_c
+    invoke-static {p0, v0}, Landroidx/browser/trusted/b;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     .line 275
     .line 276
-    invoke-static {}, Lb5/g;->a()V
-
     .line 277
+    move-result-object v1
+
     .line 278
+    const/4 v2, 0x0
+
     .line 279
-    sget-object v1, Lcom/qiyukf/is;->g:Ljava/lang/String;
+    if-nez v1, :cond_c
 
     .line 280
     .line 281
-    invoke-static {v0, v1, v3}, Lk/e;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
+    invoke-static {}, Lw/g;->a()V
 
     .line 282
     .line 283
     .line 284
-    move-result-object v0
+    sget-object v1, Lcom/qiyukf/is;->g:Ljava/lang/String;
 
     .line 285
-    sget-object v1, Lcom/qiyukf/is;->h:Ljava/lang/String;
-
     .line 286
-    .line 287
-    invoke-static {v0, v1}, Lg7/r;->a(Landroid/app/NotificationChannel;Ljava/lang/String;)V
+    invoke-static {v0, v1, v3}, Landroidx/browser/trusted/f;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
 
+    .line 287
     .line 288
     .line 289
+    move-result-object v0
+
     .line 290
-    invoke-static {}, Lcom/qiyukf/nimlib/b;->m()Lcom/qiyukf/nimlib/sdk/SDKOptions;
+    sget-object v1, Lcom/qiyukf/is;->h:Ljava/lang/String;
 
     .line 291
     .line 292
+    invoke-static {v0, v1}, Lcom/dexterous/flutterlocalnotifications/s;->a(Landroid/app/NotificationChannel;Ljava/lang/String;)V
+
     .line 293
-    move-result-object v1
-
     .line 294
-    iget-object v1, v1, Lcom/qiyukf/nimlib/sdk/SDKOptions;->statusBarNotificationConfig:Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;
-
     .line 295
-    .line 296
-    if-eqz v1, :cond_b
+    invoke-static {}, Lcom/qiyukf/nimlib/b;->m()Lcom/qiyukf/nimlib/sdk/SDKOptions;
 
+    .line 296
     .line 297
     .line 298
-    invoke-static {v0, v5}, Lb5/b;->a(Landroid/app/NotificationChannel;Z)V
+    move-result-object v1
 
     .line 299
+    iget-object v1, v1, Lcom/qiyukf/nimlib/sdk/SDKOptions;->statusBarNotificationConfig:Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;
+
     .line 300
     .line 301
-    invoke-static {v0, v2, v2}, Lg7/t;->a(Landroid/app/NotificationChannel;Landroid/net/Uri;Landroid/media/AudioAttributes;)V
+    if-eqz v1, :cond_b
 
     .line 302
     .line 303
-    .line 304
-    iget v3, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
+    invoke-static {v0, v5}, Lw/b;->a(Landroid/app/NotificationChannel;Z)V
 
+    .line 304
     .line 305
     .line 306
-    if-eq v3, v4, :cond_a
+    invoke-static {v0, v2, v2}, Lcom/dexterous/flutterlocalnotifications/u;->a(Landroid/app/NotificationChannel;Landroid/net/Uri;Landroid/media/AudioAttributes;)V
 
     .line 307
     .line 308
-    invoke-static {v0, v5}, Lb5/a;->a(Landroid/app/NotificationChannel;Z)V
-
     .line 309
+    iget v3, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
+
     .line 310
     .line 311
-    iget v3, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
+    if-eq v3, v4, :cond_a
 
     .line 312
     .line 313
-    invoke-static {v0, v3}, Lb5/c;->a(Landroid/app/NotificationChannel;I)V
+    invoke-static {v0, v5}, Lw/a;->a(Landroid/app/NotificationChannel;Z)V
 
     .line 314
     .line 315
     .line 316
-    :cond_a
-    iget-boolean v1, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->showBadge:Z
+    iget v3, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
 
     .line 317
     .line 318
-    invoke-static {v0, v1}, Lg7/v;->a(Landroid/app/NotificationChannel;Z)V
+    invoke-static {v0, v3}, Lw/c;->a(Landroid/app/NotificationChannel;I)V
 
     .line 319
     .line 320
     .line 321
-    :cond_b
-    const-string v1, "create NIM message notification channel, id=nim_message_channel_004"
+    :cond_a
+    iget-boolean v1, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->showBadge:Z
 
     .line 322
     .line 323
-    invoke-static {v1}, Lcom/qiyukf/c;->d(Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/dexterous/flutterlocalnotifications/w;->a(Landroid/app/NotificationChannel;Z)V
 
     .line 324
     .line 325
     .line 326
-    invoke-static {p0, v0}, Lk/c;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    :cond_b
+    const-string v1, "create NIM message notification channel, id=nim_message_channel_004"
 
     .line 327
     .line 328
-    .line 329
-    :cond_c
-    const-string v0, "nim_message_channel_002"
+    invoke-static {v1}, Lcom/qiyukf/c;->d(Ljava/lang/String;)V
 
+    .line 329
     .line 330
     .line 331
-    invoke-static {p0, v0}, Lk/a;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
+    invoke-static {p0, v0}, Landroidx/browser/trusted/d;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     .line 332
     .line 333
     .line 334
-    move-result-object v1
+    :cond_c
+    const-string v0, "nim_message_channel_002"
 
     .line 335
-    if-nez v1, :cond_f
-
     .line 336
-    .line 337
-    invoke-static {}, Lb5/g;->a()V
+    invoke-static {p0, v0}, Landroidx/browser/trusted/b;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
 
+    .line 337
     .line 338
     .line 339
+    move-result-object v1
+
     .line 340
-    sget-object v1, Lcom/qiyukf/is;->c:Ljava/lang/String;
+    if-nez v1, :cond_f
 
     .line 341
     .line 342
-    const/4 v3, 0x2
+    invoke-static {}, Lw/g;->a()V
 
     .line 343
-    invoke-static {v0, v1, v3}, Lk/e;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
-
     .line 344
     .line 345
-    .line 346
-    move-result-object v0
+    sget-object v1, Lcom/qiyukf/is;->c:Ljava/lang/String;
 
+    .line 346
     .line 347
-    sget-object v1, Lcom/qiyukf/is;->d:Ljava/lang/String;
+    const/4 v3, 0x2
 
     .line 348
-    .line 349
-    invoke-static {v0, v1}, Lg7/r;->a(Landroid/app/NotificationChannel;Ljava/lang/String;)V
+    invoke-static {v0, v1, v3}, Landroidx/browser/trusted/f;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
 
+    .line 349
     .line 350
     .line 351
+    move-result-object v0
+
     .line 352
-    invoke-static {}, Lcom/qiyukf/nimlib/b;->m()Lcom/qiyukf/nimlib/sdk/SDKOptions;
+    sget-object v1, Lcom/qiyukf/is;->d:Ljava/lang/String;
 
     .line 353
     .line 354
+    invoke-static {v0, v1}, Lcom/dexterous/flutterlocalnotifications/s;->a(Landroid/app/NotificationChannel;Ljava/lang/String;)V
+
     .line 355
-    move-result-object v1
-
     .line 356
-    iget-object v1, v1, Lcom/qiyukf/nimlib/sdk/SDKOptions;->statusBarNotificationConfig:Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;
-
     .line 357
-    .line 358
-    if-eqz v1, :cond_e
+    invoke-static {}, Lcom/qiyukf/nimlib/b;->m()Lcom/qiyukf/nimlib/sdk/SDKOptions;
 
+    .line 358
     .line 359
     .line 360
-    invoke-static {v0, v6}, Lb5/b;->a(Landroid/app/NotificationChannel;Z)V
+    move-result-object v1
 
     .line 361
+    iget-object v1, v1, Lcom/qiyukf/nimlib/sdk/SDKOptions;->statusBarNotificationConfig:Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;
+
     .line 362
     .line 363
-    invoke-static {v0, v2, v2}, Lg7/t;->a(Landroid/app/NotificationChannel;Landroid/net/Uri;Landroid/media/AudioAttributes;)V
+    if-eqz v1, :cond_e
 
     .line 364
     .line 365
-    .line 366
-    iget v2, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
+    invoke-static {v0, v6}, Lw/b;->a(Landroid/app/NotificationChannel;Z)V
 
+    .line 366
     .line 367
     .line 368
-    if-eq v2, v4, :cond_d
+    invoke-static {v0, v2, v2}, Lcom/dexterous/flutterlocalnotifications/u;->a(Landroid/app/NotificationChannel;Landroid/net/Uri;Landroid/media/AudioAttributes;)V
 
     .line 369
     .line 370
-    invoke-static {v0, v5}, Lb5/a;->a(Landroid/app/NotificationChannel;Z)V
-
     .line 371
+    iget v2, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
+
     .line 372
     .line 373
-    iget v2, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
+    if-eq v2, v4, :cond_d
 
     .line 374
     .line 375
-    invoke-static {v0, v2}, Lb5/c;->a(Landroid/app/NotificationChannel;I)V
+    invoke-static {v0, v5}, Lw/a;->a(Landroid/app/NotificationChannel;Z)V
 
     .line 376
     .line 377
     .line 378
-    :cond_d
-    iget-boolean v1, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->showBadge:Z
+    iget v2, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->ledARGB:I
 
     .line 379
     .line 380
-    invoke-static {v0, v1}, Lg7/v;->a(Landroid/app/NotificationChannel;Z)V
+    invoke-static {v0, v2}, Lw/c;->a(Landroid/app/NotificationChannel;I)V
 
     .line 381
     .line 382
     .line 383
-    :cond_e
-    const-string v1, "create NIM no disturbing message notification channel, id=nim_message_channel_002"
+    :cond_d
+    iget-boolean v1, v1, Lcom/qiyukf/nimlib/sdk/StatusBarNotificationConfig;->showBadge:Z
 
     .line 384
     .line 385
-    invoke-static {v1}, Lcom/qiyukf/c;->d(Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lcom/dexterous/flutterlocalnotifications/w;->a(Landroid/app/NotificationChannel;Z)V
 
     .line 386
     .line 387
     .line 388
-    invoke-static {p0, v0}, Lk/c;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    :cond_e
+    const-string v1, "create NIM no disturbing message notification channel, id=nim_message_channel_002"
 
     .line 389
     .line 390
+    invoke-static {v1}, Lcom/qiyukf/c;->d(Ljava/lang/String;)V
+
     .line 391
-    :cond_f
-    :goto_0
-    return-void
     .line 392
     .line 393
+    invoke-static {p0, v0}, Landroidx/browser/trusted/d;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+
     .line 394
     .line 395
     .line 396
+    :cond_f
+    :goto_0
+    return-void
     .line 397
     .line 398
     .line 399
@@ -1394,4 +1394,129 @@
     .line 997
     .line 998
     .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
+    .line 1092
+    .line 1093
+    .line 1094
+    .line 1095
+    .line 1096
+    .line 1097
+    .line 1098
+    .line 1099
+    .line 1100
+    .line 1101
+    .line 1102
+    .line 1103
+    .line 1104
+    .line 1105
+    .line 1106
+    .line 1107
+    .line 1108
+    .line 1109
+    .line 1110
+    .line 1111
+    .line 1112
+    .line 1113
+    .line 1114
+    .line 1115
+    .line 1116
+    .line 1117
+    .line 1118
+    .line 1119
+    .line 1120
+    .line 1121
+    .line 1122
+    .line 1123
+    .line 1124
 .end method

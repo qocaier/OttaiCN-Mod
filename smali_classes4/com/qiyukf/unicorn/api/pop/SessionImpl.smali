@@ -69,6 +69,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -99,6 +101,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getContactId()Ljava/lang/String;
@@ -127,6 +131,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getContent()Ljava/lang/String;
@@ -302,6 +308,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getFromAccount()Ljava/lang/String;
@@ -330,6 +337,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMsgStatus()Lcom/qiyukf/nimlib/sdk/msg/constant/MsgStatusEnum;
@@ -358,6 +367,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTime()J
@@ -386,6 +397,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTypeOfMsg()I
@@ -414,6 +427,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUnreadCount()I
@@ -442,6 +457,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAttachStr(Ljava/lang/String;)V
@@ -579,6 +596,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setAttachment(Lcom/qiyukf/nimlib/sdk/msg/attachment/MsgAttachment;)V
@@ -623,6 +642,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setContactId(Ljava/lang/String;)V
@@ -656,6 +677,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setContent(Ljava/lang/String;)V
@@ -689,6 +712,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromAccount(Ljava/lang/String;)V
@@ -722,6 +747,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMsgStatus(Lcom/qiyukf/nimlib/sdk/msg/constant/MsgStatusEnum;)V
@@ -755,6 +782,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMsgType(Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;)V
@@ -788,6 +817,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRecentMessageId(Ljava/lang/String;)V
@@ -821,6 +852,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionStatus(Lcom/qiyukf/unicorn/api/msg/SessionStatusEnum;)V
@@ -854,6 +887,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionType(Lcom/qiyukf/nimlib/sdk/msg/constant/SessionTypeEnum;)V
@@ -887,6 +922,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTime(J)V
@@ -920,6 +957,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTypeOfMsg(I)V
@@ -953,6 +992,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUnreadCount(I)V
@@ -986,4 +1027,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

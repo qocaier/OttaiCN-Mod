@@ -188,11 +188,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 
@@ -228,6 +223,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getCount()I
@@ -260,6 +257,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getItem(I)Ljava/lang/Object;
@@ -299,6 +298,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getItemId(I)J
@@ -737,222 +738,222 @@
     move-result-object v0
 
     .line 210
-    const-string v1, "zh"
+    const-string/jumbo v1, "zh"
 
     .line 211
     .line 212
+    .line 213
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 213
     .line 214
     .line 215
+    .line 216
     move-result v0
 
-    .line 216
+    .line 217
     if-eqz v0, :cond_6
 
-    .line 217
     .line 218
+    .line 219
     invoke-static {p3}, Lcom/qiyukf/jc0$a;->e(Lcom/qiyukf/jc0$a;)Landroid/widget/ImageView;
 
-    .line 219
     .line 220
     .line 221
-    move-result-object v0
-
     .line 222
-    sget v1, Lcom/qiyukf/unicorn/R$drawable;->ysf_ic_urge_back:I
+    move-result-object v0
 
     .line 223
+    sget v1, Lcom/qiyukf/unicorn/R$drawable;->ysf_ic_urge_back:I
+
     .line 224
+    .line 225
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 225
     .line 226
     .line 227
+    .line 228
     invoke-static {p3}, Lcom/qiyukf/jc0$a;->f(Lcom/qiyukf/jc0$a;)Landroid/widget/ImageView;
 
-    .line 228
     .line 229
     .line 230
+    .line 231
     move-result-object v0
 
-    .line 231
+    .line 232
     sget v1, Lcom/qiyukf/unicorn/R$drawable;->ysf_ic_supplement:I
 
-    .line 232
     .line 233
+    .line 234
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 234
     .line 235
     .line 236
+    .line 237
     goto :goto_3
 
-    .line 237
+    .line 238
     :cond_6
     invoke-static {p3}, Lcom/qiyukf/jc0$a;->e(Lcom/qiyukf/jc0$a;)Landroid/widget/ImageView;
 
-    .line 238
     .line 239
     .line 240
-    move-result-object v0
-
     .line 241
-    sget v1, Lcom/qiyukf/unicorn/R$drawable;->ysf_ic_urge_back_en:I
+    move-result-object v0
 
     .line 242
+    sget v1, Lcom/qiyukf/unicorn/R$drawable;->ysf_ic_urge_back_en:I
+
     .line 243
+    .line 244
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 244
     .line 245
     .line 246
+    .line 247
     invoke-static {p3}, Lcom/qiyukf/jc0$a;->f(Lcom/qiyukf/jc0$a;)Landroid/widget/ImageView;
 
-    .line 247
     .line 248
     .line 249
+    .line 250
     move-result-object v0
 
-    .line 250
+    .line 251
     sget v1, Lcom/qiyukf/unicorn/R$drawable;->ysf_ic_supplement_en:I
 
-    .line 251
     .line 252
+    .line 253
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    .line 253
     .line 254
     .line 255
+    .line 256
     :goto_3
     invoke-static {p3}, Lcom/qiyukf/jc0$a;->e(Lcom/qiyukf/jc0$a;)Landroid/widget/ImageView;
 
-    .line 256
     .line 257
     .line 258
+    .line 259
     move-result-object v0
 
-    .line 259
+    .line 260
     invoke-virtual {p1}, Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetListNotifyAttachment$ListBean;->getReminderStatus()I
 
-    .line 260
     .line 261
     .line 262
+    .line 263
     move-result v1
 
-    .line 263
+    .line 264
     const/4 v2, 0x1
 
-    .line 264
+    .line 265
     const/16 v3, 0x8
 
-    .line 265
     .line 266
+    .line 267
     if-ne v1, v2, :cond_7
 
-    .line 267
     .line 268
+    .line 269
     move v1, v4
 
-    .line 269
+    .line 270
     goto :goto_4
 
-    .line 270
+    .line 271
     :cond_7
     move v1, v3
 
-    .line 271
+    .line 272
     :goto_4
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 272
     .line 273
     .line 274
+    .line 275
     invoke-static {p3}, Lcom/qiyukf/jc0$a;->f(Lcom/qiyukf/jc0$a;)Landroid/widget/ImageView;
 
-    .line 275
     .line 276
     .line 277
+    .line 278
     move-result-object v0
 
-    .line 278
+    .line 279
     invoke-virtual {p1}, Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetListNotifyAttachment$ListBean;->getAppendFieldFlag()I
 
-    .line 279
     .line 280
     .line 281
+    .line 282
     move-result v1
 
-    .line 282
+    .line 283
     if-ne v1, v2, :cond_8
 
-    .line 283
     .line 284
+    .line 285
     move v1, v4
 
-    .line 285
+    .line 286
     goto :goto_5
 
-    .line 286
+    .line 287
     :cond_8
     move v1, v3
 
-    .line 287
+    .line 288
     :goto_5
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 288
     .line 289
     .line 290
+    .line 291
     invoke-static {p3}, Lcom/qiyukf/jc0$a;->g(Lcom/qiyukf/jc0$a;)Landroid/widget/TextView;
 
-    .line 291
     .line 292
     .line 293
+    .line 294
     move-result-object v0
 
-    .line 294
+    .line 295
     iget-boolean v1, p0, Lcom/qiyukf/jc0;->d:Z
 
-    .line 295
     .line 296
+    .line 297
     if-eqz v1, :cond_9
 
-    .line 297
     .line 298
+    .line 299
     move v4, v3
 
-    .line 299
+    .line 300
     :cond_9
     invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
 
-    .line 300
     .line 301
     .line 302
+    .line 303
     invoke-static {p3}, Lcom/qiyukf/jc0$a;->g(Lcom/qiyukf/jc0$a;)Landroid/widget/TextView;
 
-    .line 303
     .line 304
     .line 305
+    .line 306
     move-result-object p3
 
-    .line 306
+    .line 307
     invoke-virtual {p1}, Lcom/qiyukf/unicorn/protocol/attach/notification/SelectWorkSheetListNotifyAttachment$ListBean;->getComment()Ljava/lang/String;
 
-    .line 307
     .line 308
     .line 309
+    .line 310
     move-result-object p1
 
-    .line 310
+    .line 311
     invoke-virtual {p3, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 311
     .line 312
     .line 313
-    return-object p2
     .line 314
+    return-object p2
     .line 315
     .line 316
     .line 317
@@ -1403,4 +1404,59 @@
     .line 762
     .line 763
     .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
 .end method

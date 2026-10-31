@@ -10,68 +10,31 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSupportSQLiteQueryBuilder.android.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SupportSQLiteQueryBuilder.android.kt\nandroidx/sqlite/db/SupportSQLiteQueryBuilder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,169:1\n1#2:170\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSupportSQLiteQueryBuilder.android.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SupportSQLiteQueryBuilder.android.kt\nandroidx/sqlite/db/SupportSQLiteQueryBuilder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,169:1\n1#2:170\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field public static final Companion:Landroidx/sqlite/db/SupportSQLiteQueryBuilder$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final limitPattern:Ljava/util/regex/Pattern;
 
 
 # instance fields
 .field private bindArgs:[Ljava/lang/Object;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private columns:[Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private distinct:Z
 
 .field private groupBy:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private having:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private limit:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private orderBy:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private selection:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final table:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -86,7 +49,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/sqlite/db/SupportSQLiteQueryBuilder$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/sqlite/db/SupportSQLiteQueryBuilder$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -115,6 +78,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>(Ljava/lang/String;)V
@@ -128,7 +92,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;Lkm/v;)V
+.method public synthetic constructor <init>(Ljava/lang/String;Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -271,6 +235,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private final appendColumns(Ljava/lang/StringBuilder;[Ljava/lang/String;)V
@@ -356,15 +323,6 @@
 
 .method public static final builder(Ljava/lang/String;)Landroidx/sqlite/db/SupportSQLiteQueryBuilder;
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     sget-object v0, Landroidx/sqlite/db/SupportSQLiteQueryBuilder;->Companion:Landroidx/sqlite/db/SupportSQLiteQueryBuilder$Companion;
 
@@ -379,12 +337,6 @@
 # virtual methods
 .method public final columns([Ljava/lang/String;)Landroidx/sqlite/db/SupportSQLiteQueryBuilder;
     .locals 0
-    .param p1    # [Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/sqlite/db/SupportSQLiteQueryBuilder;->columns:[Ljava/lang/String;
@@ -418,8 +370,6 @@
 
 .method public final create()Landroidx/sqlite/db/SupportSQLiteQuery;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/sqlite/db/SupportSQLiteQueryBuilder;->groupBy:Ljava/lang/String;
@@ -544,7 +494,7 @@
 
     .line 59
     :cond_4
-    invoke-static {v1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 60
     .line 61
@@ -925,12 +875,62 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public final distinct()Landroidx/sqlite/db/SupportSQLiteQueryBuilder;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -957,16 +957,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final groupBy(Ljava/lang/String;)Landroidx/sqlite/db/SupportSQLiteQueryBuilder;
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/sqlite/db/SupportSQLiteQueryBuilder;->groupBy:Ljava/lang/String;
@@ -1000,12 +995,6 @@
 
 .method public final having(Ljava/lang/String;)Landroidx/sqlite/db/SupportSQLiteQueryBuilder;
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/sqlite/db/SupportSQLiteQueryBuilder;->having:Ljava/lang/String;
@@ -1039,19 +1028,13 @@
 
 .method public final limit(Ljava/lang/String;)Landroidx/sqlite/db/SupportSQLiteQueryBuilder;
     .locals 2
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "limit"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1178,16 +1161,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final orderBy(Ljava/lang/String;)Landroidx/sqlite/db/SupportSQLiteQueryBuilder;
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/sqlite/db/SupportSQLiteQueryBuilder;->orderBy:Ljava/lang/String;
@@ -1221,16 +1199,6 @@
 
 .method public final selection(Ljava/lang/String;[Ljava/lang/Object;)Landroidx/sqlite/db/SupportSQLiteQueryBuilder;
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # [Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/sqlite/db/SupportSQLiteQueryBuilder;->selection:Ljava/lang/String;

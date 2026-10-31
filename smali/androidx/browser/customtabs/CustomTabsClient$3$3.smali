@@ -26,17 +26,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/browser/customtabs/CustomTabsClient$3;Landroid/os/Bundle;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010
-        }
-        names = {
-            null,
-            null
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()V"
@@ -134,4 +123,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

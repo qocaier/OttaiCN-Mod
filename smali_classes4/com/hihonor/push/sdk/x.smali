@@ -224,7 +224,7 @@
 
     .line 93
     .line 94
-    sget-object v2, Lcom/hihonor/push/sdk/k;->l:Lcom/hihonor/push/sdk/k;
+    sget-object v2, Lcom/hihonor/push/sdk/k;->c:Lcom/hihonor/push/sdk/k;
 
     .line 95
     .line 96
@@ -245,7 +245,7 @@
 
     .line 103
     .line 104
-    sget-object v2, Lcom/hihonor/push/sdk/k;->k:Lcom/hihonor/push/sdk/k;
+    sget-object v2, Lcom/hihonor/push/sdk/k;->c:Lcom/hihonor/push/sdk/k;
 
     .line 105
     .line 106
@@ -266,7 +266,7 @@
 
     .line 113
     .line 114
-    sget-object v2, Lcom/hihonor/push/sdk/k;->j:Lcom/hihonor/push/sdk/k;
+    sget-object v2, Lcom/hihonor/push/sdk/k;->c:Lcom/hihonor/push/sdk/k;
 
     .line 115
     .line 116
@@ -440,66 +440,4 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method

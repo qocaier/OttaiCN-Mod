@@ -3,12 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "GoogleSignInOptionsExtensionCreator"
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
@@ -26,33 +20,19 @@
 
 # instance fields
 .field public final a:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$h;
-        id = 0x1
-    .end annotation
-.end field
 
 .field public b:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getType"
-        id = 0x2
-    .end annotation
-.end field
 
 .field public c:Landroid/os/Bundle;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getBundle"
-        id = 0x3
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lz8/c;
+    new-instance v0, Lp2/c;
 
-    invoke-direct {v0}, Lz8/c;-><init>()V
+    invoke-direct {v0}, Lp2/c;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -61,137 +41,45 @@
 
 .method public constructor <init>(IILandroid/os/Bundle;)V
     .locals 0
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .param p3    # Landroid/os/Bundle;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x3
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    iput p1, p0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->a:I
-
-    iput p2, p0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->b:I
-
-    iput-object p3, p0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->c:Landroid/os/Bundle;
-
-    return-void
-.end method
-
-.method public constructor <init>(Ly8/a;)V
-    .locals 2
-    .param p1    # Ly8/a;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    .line 2
-    invoke-interface {p1}, Ly8/a;->a()I
-
-    move-result v0
-
-    invoke-interface {p1}, Ly8/a;->toBundle()Landroid/os/Bundle;
-
-    move-result-object p1
-
-    const/4 v1, 0x1
-
-    invoke-direct {p0, v1, v0, p1}, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;-><init>(IILandroid/os/Bundle;)V
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public s()I
-    .locals 1
-    .annotation build Lb9/a;
-    .end annotation
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->b:I
-
-    return v0
-.end method
-
-.method public final writeToParcel(Landroid/os/Parcel;I)V
-    .locals 3
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    .line 1
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
-
     .line 2
     .line 3
     .line 4
-    move-result p2
+    iput p1, p0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->a:I
 
     .line 5
-    const/4 v0, 0x1
-
     .line 6
-    iget v1, p0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->a:I
+    iput p2, p0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->b:I
 
     .line 7
     .line 8
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    iput-object p3, p0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->c:Landroid/os/Bundle;
 
     .line 9
     .line 10
+    return-void
     .line 11
-    const/4 v0, 0x2
-
     .line 12
-    invoke-virtual {p0}, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->s()I
-
     .line 13
     .line 14
     .line 15
-    move-result v1
-
     .line 16
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
-
     .line 17
     .line 18
     .line 19
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->c:Landroid/os/Bundle;
-
     .line 20
     .line 21
-    const/4 v1, 0x0
-
     .line 22
-    const/4 v2, 0x3
-
     .line 23
-    invoke-static {p1, v2, v0, v1}, Lj9/a;->k(Landroid/os/Parcel;ILandroid/os/Bundle;Z)V
-
     .line 24
     .line 25
     .line 26
-    invoke-static {p1, p2}, Lj9/a;->b(Landroid/os/Parcel;I)V
-
     .line 27
     .line 28
     .line 29
-    return-void
     .line 30
     .line 31
     .line 32
@@ -228,4 +116,191 @@
     .line 63
     .line 64
     .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+.end method
+
+
+# virtual methods
+.method public d()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->b:I
+
+    return v0
+.end method
+
+.method public final writeToParcel(Landroid/os/Parcel;I)V
+    .locals 3
+
+    .line 1
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p2
+
+    .line 5
+    const/4 v0, 0x1
+
+    .line 6
+    iget v1, p0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->a:I
+
+    .line 7
+    .line 8
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
+
+    .line 9
+    .line 10
+    .line 11
+    const/4 v0, 0x2
+
+    .line 12
+    invoke-virtual {p0}, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->d()I
+
+    .line 13
+    .line 14
+    .line 15
+    move-result v1
+
+    .line 16
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
+
+    .line 17
+    .line 18
+    .line 19
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;->c:Landroid/os/Bundle;
+
+    .line 20
+    .line 21
+    const/4 v1, 0x0
+
+    .line 22
+    const/4 v2, 0x3
+
+    .line 23
+    invoke-static {p1, v2, v0, v1}, Lu2/a;->d(Landroid/os/Parcel;ILandroid/os/Bundle;Z)V
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-static {p1, p2}, Lu2/a;->b(Landroid/os/Parcel;I)V
+
+    .line 27
+    .line 28
+    .line 29
+    return-void
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
 .end method

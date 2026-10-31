@@ -70,6 +70,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -98,6 +99,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
@@ -445,6 +447,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getAttributionTag(Landroid/content/Context;)Ljava/lang/String;
@@ -779,6 +782,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getDataDir(Landroid/content/Context;)Ljava/io/File;
@@ -1487,7 +1491,7 @@
     .line 41
     .line 42
     .line 43
-    invoke-static {p0}, Lq0/a;->a(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/content/a;->a(Landroid/content/Context;)Ljava/lang/String;
 
     .line 44
     .line 45
@@ -1729,6 +1733,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static registerReceiver(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
@@ -2051,6 +2060,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static startForegroundService(Landroid/content/Context;Landroid/content/Intent;)V

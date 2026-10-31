@@ -32,7 +32,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -94,7 +93,6 @@
     :goto_0
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public shouldUseCompatClipping()Z

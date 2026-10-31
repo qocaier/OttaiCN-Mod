@@ -16,10 +16,6 @@
 .end method
 
 .method public abstract read(Lokio/Buffer;J)J
-    .param p1    # Lokio/Buffer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -28,6 +24,4 @@
 .end method
 
 .method public abstract timeout()Lokio/Timeout;
-    .annotation build Lsq/k;
-    .end annotation
 .end method

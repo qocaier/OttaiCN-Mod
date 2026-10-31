@@ -33,42 +33,17 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nActivityResultContracts.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActivityResultContracts.kt\nandroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,953:1\n1#2:954\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nActivityResultContracts.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActivityResultContracts.kt\nandroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,953:1\n1#2:954\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field public static final ACTION_SYSTEM_FALLBACK_PICK_IMAGES:Ljava/lang/String; = "androidx.activity.result.contract.action.PICK_IMAGES"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final Companion:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final EXTRA_SYSTEM_FALLBACK_PICK_IMAGES_MAX:Ljava/lang/String; = "androidx.activity.result.contract.extra.PICK_IMAGES_MAX"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final GMS_ACTION_PICK_IMAGES:Ljava/lang/String; = "com.google.android.gms.provider.action.PICK_IMAGES"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final GMS_EXTRA_PICK_IMAGES_MAX:Ljava/lang/String; = "com.google.android.gms.provider.extra.PICK_IMAGES_MAX"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -79,7 +54,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia;->Companion:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;
 
@@ -112,19 +87,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final getGmsPicker$activity_release(Landroid/content/Context;)Landroid/content/pm/ResolveInfo;
     .locals 1
-    .param p0    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 
     sget-object v0, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia;->Companion:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;
 
@@ -137,15 +104,6 @@
 
 .method public static final getSystemFallbackPicker$activity_release(Landroid/content/Context;)Landroid/content/pm/ResolveInfo;
     .locals 1
-    .param p0    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 
     sget-object v0, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia;->Companion:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;
 
@@ -158,12 +116,6 @@
 
 .method public static final isGmsPickerAvailable$activity_release(Landroid/content/Context;)Z
     .locals 1
-    .param p0    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
 
     sget-object v0, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia;->Companion:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;
 
@@ -183,17 +135,6 @@
         }
     .end annotation
 
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "This method is deprecated in favor of isPhotoPickerAvailable(context) to support the picker provided by updatable system apps"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "isPhotoPickerAvailable(context)"
-            imports = {}
-        .end subannotation
-    .end annotation
-
     .line 1
     sget-object v0, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia;->Companion:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;
 
@@ -206,18 +147,11 @@
 
 .method public static final isPhotoPickerAvailable(Landroid/content/Context;)Z
     .locals 1
-    .param p0    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "ClassVerificationFailure",
             "NewApi"
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
     .end annotation
 
     .line 2
@@ -232,12 +166,6 @@
 
 .method public static final isSystemFallbackPickerAvailable$activity_release(Landroid/content/Context;)Z
     .locals 1
-    .param p0    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
 
     sget-object v0, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia;->Companion:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;
 
@@ -257,9 +185,6 @@
         }
     .end annotation
 
-    .annotation runtime Lim/o;
-    .end annotation
-
     sget-object v0, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia;->Companion:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;
 
     invoke-virtual {v0}, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;->isSystemPickerAvailable$activity_release()Z
@@ -273,27 +198,16 @@
 # virtual methods
 .method public createIntent(Landroid/content/Context;Landroidx/activity/result/PickVisualMediaRequest;)Landroid/content/Intent;
     .locals 3
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/activity/result/PickVisualMediaRequest;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/CallSuper;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "input"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     sget-object v0, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia;->Companion:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$Companion;
@@ -497,14 +411,6 @@
 
 .method public final getSynchronousResult(Landroid/content/Context;Landroidx/activity/result/PickVisualMediaRequest;)Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;
     .locals 1
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/activity/result/PickVisualMediaRequest;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -517,17 +423,14 @@
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "input"
 
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -549,12 +452,6 @@
 
 .method public final parseResult(ILandroid/content/Intent;)Landroid/net/Uri;
     .locals 2
-    .param p2    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     const/4 v0, -0x1
 
@@ -583,7 +480,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lll/r0;->L2(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p1}, Lkotlin/collections/z;->M(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object p1
 

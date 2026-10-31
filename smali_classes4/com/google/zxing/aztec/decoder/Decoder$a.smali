@@ -1,4 +1,4 @@
-.class public synthetic Lcom/google/zxing/aztec/decoder/Decoder$a;
+.class public abstract synthetic Lcom/google/zxing/aztec/decoder/Decoder$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -195,4 +195,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

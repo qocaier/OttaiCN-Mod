@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static a()V
@@ -195,9 +197,9 @@
 
     move-result-object p1
 
-    new-instance v0, Lvg/c1;
+    new-instance v0, Lcom/qiyukf/xf0;
 
-    invoke-direct {v0}, Lvg/c1;-><init>()V
+    invoke-direct {v0}, Lcom/qiyukf/xf0;-><init>()V
 
     .line 15
     invoke-virtual {v1}, Lcom/qiyukf/nimlib/sdk/misc/model/NosConfig;->getDeadline()J

@@ -84,6 +84,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearRoot()Landroidx/datastore/preferences/protobuf/Mixin$Builder;
@@ -118,6 +119,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -152,6 +154,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNameBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -186,6 +189,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRoot()Ljava/lang/String;
@@ -220,6 +224,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRootBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -254,18 +259,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setName(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Mixin$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -305,14 +303,6 @@
 
 .method public setNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Mixin$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -352,14 +342,6 @@
 
 .method public setRoot(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Mixin$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -399,14 +381,6 @@
 
 .method public setRootBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Mixin$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V

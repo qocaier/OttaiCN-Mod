@@ -181,6 +181,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private a(Ljava/lang/String;)Ljava/lang/String;
@@ -204,29 +206,27 @@
     return-object p1
 .end method
 
-.method private a(Ljava/lang/Exception;)Lme/k;
+.method private a(Ljava/lang/Exception;)Lq5/f;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Exception;",
             ")",
-            "Lme/k<",
-            "Lcom/huawei/hms/aaid/entity/TokenResult;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
     .line 2
-    new-instance v0, Lme/l;
+    new-instance v0, Lq5/g;
 
-    invoke-direct {v0}, Lme/l;-><init>()V
+    invoke-direct {v0}, Lq5/g;-><init>()V
 
     .line 3
-    invoke-virtual {v0, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 4
-    invoke-virtual {v0}, Lme/l;->b()Lme/k;
+    invoke-virtual {v0}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -268,6 +268,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -419,6 +421,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getAAId(Ljava/lang/String;)Ljava/lang/String;
@@ -592,6 +596,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCreationTime(Ljava/lang/String;)J
@@ -745,16 +751,16 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method public getToken()Lme/k;
+.method public getToken()Lq5/f;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lme/k<",
-            "Lcom/huawei/hms/aaid/entity/TokenResult;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -805,11 +811,11 @@
     .line 22
     .line 23
     .line 24
-    new-instance v0, Lme/l;
+    new-instance v0, Lq5/g;
 
     .line 25
     .line 26
-    invoke-direct {v0}, Lme/l;-><init>()V
+    invoke-direct {v0}, Lq5/g;-><init>()V
 
     .line 27
     .line 28
@@ -823,12 +829,12 @@
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v0, v1}, Lme/l;->d(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lq5/g;->c(Ljava/lang/Object;)V
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {v0}, Lme/l;->b()Lme/k;
+    invoke-virtual {v0}, Lq5/g;->a()Lq5/f;
 
     .line 38
     .line 39
@@ -862,7 +868,7 @@
     move-result-object v0
 
     .line 50
-    invoke-direct {p0, v0}, Lcom/huawei/hms/aaid/HmsInstanceIdEx;->a(Ljava/lang/Exception;)Lme/k;
+    invoke-direct {p0, v0}, Lcom/huawei/hms/aaid/HmsInstanceIdEx;->a(Ljava/lang/Exception;)Lq5/f;
 
     .line 51
     .line 52
@@ -874,7 +880,7 @@
 
     .line 55
     :goto_0
-    invoke-direct {p0, v0}, Lcom/huawei/hms/aaid/HmsInstanceIdEx;->a(Ljava/lang/Exception;)Lme/k;
+    invoke-direct {p0, v0}, Lcom/huawei/hms/aaid/HmsInstanceIdEx;->a(Ljava/lang/Exception;)Lq5/f;
 
     .line 56
     .line 57
@@ -957,7 +963,7 @@
     .line 94
     .line 95
     .line 96
-    invoke-virtual {v3, v4}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lme/k;
+    invoke-virtual {v3, v4}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lq5/f;
 
     .line 97
     .line 98
@@ -993,7 +999,7 @@
     move-result-object v0
 
     .line 112
-    invoke-direct {p0, v0}, Lcom/huawei/hms/aaid/HmsInstanceIdEx;->a(Ljava/lang/Exception;)Lme/k;
+    invoke-direct {p0, v0}, Lcom/huawei/hms/aaid/HmsInstanceIdEx;->a(Ljava/lang/Exception;)Lq5/f;
 
     .line 113
     .line 114
@@ -1026,7 +1032,7 @@
     move-result-object v0
 
     .line 128
-    invoke-direct {p0, v0}, Lcom/huawei/hms/aaid/HmsInstanceIdEx;->a(Ljava/lang/Exception;)Lme/k;
+    invoke-direct {p0, v0}, Lcom/huawei/hms/aaid/HmsInstanceIdEx;->a(Ljava/lang/Exception;)Lq5/f;
 
     .line 129
     .line 130
@@ -1184,66 +1190,4 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method

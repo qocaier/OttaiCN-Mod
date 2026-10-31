@@ -7,8 +7,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/util/ArrayList<",
-        "Ln8/l<",
-        "*>;>;"
+        "Lf2/l;",
+        ">;"
     }
 .end annotation
 
@@ -22,8 +22,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/LinkedList<",
-            "Ln8/l<",
-            "*>;>;"
+            "Lf2/l;",
+            ">;"
         }
     .end annotation
 .end field
@@ -32,8 +32,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/LinkedList<",
-            "Ln8/l<",
-            "*>;>;"
+            "Lf2/l;",
+            ">;"
         }
     .end annotation
 .end field
@@ -42,8 +42,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/LinkedList<",
-            "Ln8/l<",
-            "*>;>;"
+            "Lf2/l;",
+            ">;"
         }
     .end annotation
 .end field
@@ -109,7 +109,7 @@
     move-result-object v1
 
     .line 8
-    invoke-static {v1}, Ln8/l;->a([B)Ln8/l;
+    invoke-static {v1}, Lf2/l;->b([B)Lf2/l;
 
     move-result-object v1
 
@@ -123,16 +123,16 @@
     if-eqz p2, :cond_0
 
     .line 10
-    instance-of v2, v1, Ln8/k;
+    instance-of v2, v1, Lf2/k;
 
     if-eqz v2, :cond_0
 
     .line 11
-    invoke-virtual {p0, v1, p2}, Lcom/garmin/monkeybrains/serialization/DataBlock;->a(Ln8/l;Lcom/garmin/monkeybrains/serialization/StringBlock;)V
+    invoke-virtual {p0, v1, p2}, Lcom/garmin/monkeybrains/serialization/DataBlock;->a(Lf2/l;Lcom/garmin/monkeybrains/serialization/StringBlock;)V
 
     .line 12
     :cond_0
-    invoke-virtual {v1}, Ln8/l;->d()I
+    invoke-virtual {v1}, Lf2/l;->d()I
 
     move-result v1
 
@@ -152,27 +152,18 @@
 
     .line 14
     :cond_2
-    invoke-virtual {p0}, Lcom/garmin/monkeybrains/serialization/DataBlock;->d()V
+    invoke-virtual {p0}, Lcom/garmin/monkeybrains/serialization/DataBlock;->f()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ln8/l;Lcom/garmin/monkeybrains/serialization/StringBlock;)V
+.method public final a(Lf2/l;Lcom/garmin/monkeybrains/serialization/StringBlock;)V
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ln8/l<",
-            "*>;",
-            "Lcom/garmin/monkeybrains/serialization/StringBlock;",
-            ")V"
-        }
-    .end annotation
 
     .line 1
-    instance-of v0, p1, Ln8/k;
+    instance-of v0, p1, Lf2/k;
 
     .line 2
     .line 3
@@ -188,11 +179,11 @@
     move-result-object p2
 
     .line 9
-    check-cast p1, Ln8/k;
+    check-cast p1, Lf2/k;
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Ln8/k;->g()I
+    invoke-virtual {p1}, Lf2/k;->g()I
 
     .line 12
     .line 13
@@ -220,7 +211,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p1, p2}, Ln8/k;->k(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Lf2/k;->k(Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -229,7 +220,7 @@
 
     .line 29
     :cond_0
-    instance-of v0, p1, Ln8/a;
+    instance-of v0, p1, Lf2/a;
 
     .line 30
     .line 31
@@ -237,11 +228,11 @@
 
     .line 32
     .line 33
-    check-cast p1, Ln8/a;
+    check-cast p1, Lf2/a;
 
     .line 34
     .line 35
-    invoke-virtual {p1}, Ln8/a;->g()Ljava/util/List;
+    invoke-virtual {p1}, Lf2/a;->h()Ljava/util/List;
 
     .line 36
     .line 37
@@ -278,11 +269,11 @@
     move-result-object v0
 
     .line 53
-    check-cast v0, Ln8/l;
+    check-cast v0, Lf2/l;
 
     .line 54
     .line 55
-    invoke-virtual {p0, v0, p2}, Lcom/garmin/monkeybrains/serialization/DataBlock;->a(Ln8/l;Lcom/garmin/monkeybrains/serialization/StringBlock;)V
+    invoke-virtual {p0, v0, p2}, Lcom/garmin/monkeybrains/serialization/DataBlock;->a(Lf2/l;Lcom/garmin/monkeybrains/serialization/StringBlock;)V
 
     .line 56
     .line 57
@@ -291,7 +282,7 @@
 
     .line 59
     :cond_1
-    instance-of v0, p1, Ln8/g;
+    instance-of v0, p1, Lf2/g;
 
     .line 60
     .line 61
@@ -299,11 +290,11 @@
 
     .line 62
     .line 63
-    check-cast p1, Ln8/g;
+    check-cast p1, Lf2/g;
 
     .line 64
     .line 65
-    invoke-virtual {p1}, Ln8/g;->g()Ljava/util/HashMap;
+    invoke-virtual {p1}, Lf2/g;->h()Ljava/util/HashMap;
 
     .line 66
     .line 67
@@ -360,11 +351,11 @@
     move-result-object v1
 
     .line 93
-    check-cast v1, Ln8/l;
+    check-cast v1, Lf2/l;
 
     .line 94
     .line 95
-    invoke-virtual {p0, v1, p2}, Lcom/garmin/monkeybrains/serialization/DataBlock;->a(Ln8/l;Lcom/garmin/monkeybrains/serialization/StringBlock;)V
+    invoke-virtual {p0, v1, p2}, Lcom/garmin/monkeybrains/serialization/DataBlock;->a(Lf2/l;Lcom/garmin/monkeybrains/serialization/StringBlock;)V
 
     .line 96
     .line 97
@@ -377,11 +368,11 @@
     move-result-object v0
 
     .line 102
-    check-cast v0, Ln8/l;
+    check-cast v0, Lf2/l;
 
     .line 103
     .line 104
-    invoke-virtual {p0, v0, p2}, Lcom/garmin/monkeybrains/serialization/DataBlock;->a(Ln8/l;Lcom/garmin/monkeybrains/serialization/StringBlock;)V
+    invoke-virtual {p0, v0, p2}, Lcom/garmin/monkeybrains/serialization/DataBlock;->a(Lf2/l;Lcom/garmin/monkeybrains/serialization/StringBlock;)V
 
     .line 105
     .line 106
@@ -614,76 +605,15 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
-.method public bridge synthetic add(Ljava/lang/Object;)Z
-    .locals 0
-
-    .line 1
-    check-cast p1, Ln8/l;
-
-    invoke-virtual {p0, p1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->add(Ln8/l;)Z
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public add(Ln8/l;)Z
+.method public add(Lf2/l;)Z
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ln8/l<",
-            "*>;)Z"
+            "Lf2/l;",
+            ")Z"
         }
     .end annotation
 
@@ -698,7 +628,7 @@
     :try_start_0
     iget v1, p0, Lcom/garmin/monkeybrains/serialization/DataBlock;->mTotalBytes:I
 
-    invoke-virtual {p1}, Ln8/l;->d()I
+    invoke-virtual {p1}, Lf2/l;->d()I
 
     move-result p1
 
@@ -713,7 +643,20 @@
     return v0
 .end method
 
-.method public final b(Ln8/a;)V
+.method public bridge synthetic add(Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 1
+    check-cast p1, Lf2/l;
+
+    invoke-virtual {p0, p1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->add(Lf2/l;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public final c(Lf2/a;)V
     .locals 3
 
     .line 1
@@ -721,7 +664,7 @@
 
     .line 2
     :goto_0
-    invoke-virtual {p1}, Ln8/a;->getChildCount()I
+    invoke-virtual {p1}, Lf2/a;->g()I
 
     .line 3
     .line 4
@@ -745,11 +688,11 @@
     move-result-object v1
 
     .line 14
-    check-cast v1, Ln8/l;
+    check-cast v1, Lf2/l;
 
     .line 15
     .line 16
-    instance-of v2, v1, Ln8/d;
+    instance-of v2, v1, Lf2/d;
 
     .line 17
     .line 18
@@ -757,13 +700,13 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, v1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->f(Ln8/l;)V
+    invoke-virtual {p0, v1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->h(Lf2/l;)V
 
     .line 21
     .line 22
     .line 23
     :cond_0
-    invoke-virtual {p1}, Ln8/a;->c()Ljava/util/List;
+    invoke-virtual {p1}, Lf2/a;->a()Ljava/util/List;
 
     .line 24
     .line 25
@@ -784,7 +727,7 @@
 
     .line 33
     :cond_1
-    invoke-virtual {p0}, Lcom/garmin/monkeybrains/serialization/DataBlock;->c()V
+    invoke-virtual {p0}, Lcom/garmin/monkeybrains/serialization/DataBlock;->e()V
 
     .line 34
     .line 35
@@ -845,11 +788,9 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public final c()V
+.method public final e()V
     .locals 2
 
     .line 1
@@ -866,7 +807,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, Ln8/l;
+    check-cast v0, Lf2/l;
 
     .line 8
     .line 9
@@ -874,7 +815,7 @@
 
     .line 10
     .line 11
-    instance-of v1, v0, Ln8/a;
+    instance-of v1, v0, Lf2/a;
 
     .line 12
     .line 13
@@ -885,11 +826,11 @@
     move-object v1, v0
 
     .line 16
-    check-cast v1, Ln8/a;
+    check-cast v1, Lf2/a;
 
     .line 17
     .line 18
-    invoke-virtual {p0, v1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->b(Ln8/a;)V
+    invoke-virtual {p0, v1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->c(Lf2/a;)V
 
     .line 19
     .line 20
@@ -898,7 +839,7 @@
 
     .line 22
     :cond_1
-    instance-of v1, v0, Ln8/g;
+    instance-of v1, v0, Lf2/g;
 
     .line 23
     .line 24
@@ -909,11 +850,11 @@
     move-object v1, v0
 
     .line 27
-    check-cast v1, Ln8/g;
+    check-cast v1, Lf2/g;
 
     .line 28
     .line 29
-    invoke-virtual {p0, v1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->e(Ln8/g;)V
+    invoke-virtual {p0, v1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->g(Lf2/g;)V
 
     .line 30
     .line 31
@@ -991,18 +932,9 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public final d()V
+.method public final f()V
     .locals 2
 
     .line 1
@@ -1019,7 +951,7 @@
     move-result-object v0
 
     .line 7
-    check-cast v0, Ln8/l;
+    check-cast v0, Lf2/l;
 
     .line 8
     .line 9
@@ -1027,7 +959,7 @@
 
     .line 10
     .line 11
-    instance-of v1, v0, Ln8/a;
+    instance-of v1, v0, Lf2/a;
 
     .line 12
     .line 13
@@ -1038,11 +970,11 @@
     move-object v1, v0
 
     .line 16
-    check-cast v1, Ln8/a;
+    check-cast v1, Lf2/a;
 
     .line 17
     .line 18
-    invoke-virtual {p0, v1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->b(Ln8/a;)V
+    invoke-virtual {p0, v1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->c(Lf2/a;)V
 
     .line 19
     .line 20
@@ -1051,7 +983,7 @@
 
     .line 22
     :cond_1
-    instance-of v1, v0, Ln8/g;
+    instance-of v1, v0, Lf2/g;
 
     .line 23
     .line 24
@@ -1062,18 +994,18 @@
     move-object v1, v0
 
     .line 27
-    check-cast v1, Ln8/g;
+    check-cast v1, Lf2/g;
 
     .line 28
     .line 29
-    invoke-virtual {p0, v1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->e(Ln8/g;)V
+    invoke-virtual {p0, v1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->g(Lf2/g;)V
 
     .line 30
     .line 31
     .line 32
     :cond_2
     :goto_0
-    invoke-virtual {p0, v0}, Lcom/garmin/monkeybrains/serialization/DataBlock;->add(Ln8/l;)Z
+    invoke-virtual {p0, v0}, Lcom/garmin/monkeybrains/serialization/DataBlock;->add(Lf2/l;)Z
 
     .line 33
     .line 34
@@ -1147,18 +1079,9 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public final e(Ln8/g;)V
+.method public final g(Lf2/g;)V
     .locals 4
 
     .line 1
@@ -1166,7 +1089,7 @@
 
     .line 2
     :goto_0
-    invoke-virtual {p1}, Ln8/g;->getChildCount()I
+    invoke-virtual {p1}, Lf2/g;->g()I
 
     .line 3
     .line 4
@@ -1190,11 +1113,11 @@
     move-result-object v1
 
     .line 14
-    check-cast v1, Ln8/l;
+    check-cast v1, Lf2/l;
 
     .line 15
     .line 16
-    instance-of v2, v1, Ln8/d;
+    instance-of v2, v1, Lf2/d;
 
     .line 17
     .line 18
@@ -1202,7 +1125,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, v1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->f(Ln8/l;)V
+    invoke-virtual {p0, v1}, Lcom/garmin/monkeybrains/serialization/DataBlock;->h(Lf2/l;)V
 
     .line 21
     .line 22
@@ -1220,11 +1143,11 @@
     move-result-object v2
 
     .line 29
-    check-cast v2, Ln8/l;
+    check-cast v2, Lf2/l;
 
     .line 30
     .line 31
-    instance-of v3, v2, Ln8/d;
+    instance-of v3, v2, Lf2/d;
 
     .line 32
     .line 33
@@ -1232,13 +1155,13 @@
 
     .line 34
     .line 35
-    invoke-virtual {p0, v2}, Lcom/garmin/monkeybrains/serialization/DataBlock;->f(Ln8/l;)V
+    invoke-virtual {p0, v2}, Lcom/garmin/monkeybrains/serialization/DataBlock;->h(Lf2/l;)V
 
     .line 36
     .line 37
     .line 38
     :cond_1
-    invoke-virtual {p1}, Ln8/g;->g()Ljava/util/HashMap;
+    invoke-virtual {p1}, Lf2/g;->h()Ljava/util/HashMap;
 
     .line 39
     .line 40
@@ -1259,7 +1182,7 @@
 
     .line 48
     :cond_2
-    invoke-virtual {p0}, Lcom/garmin/monkeybrains/serialization/DataBlock;->c()V
+    invoke-virtual {p0}, Lcom/garmin/monkeybrains/serialization/DataBlock;->e()V
 
     .line 49
     .line 50
@@ -1305,19 +1228,10 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public final f(Ln8/l;)V
+.method public final h(Lf2/l;)V
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ln8/l<",
-            "*>;)V"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/garmin/monkeybrains/serialization/DataBlock;->mComplexDeserialQueue:Ljava/util/LinkedList;
@@ -1348,7 +1262,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public serialize()[B
@@ -1403,7 +1316,7 @@
     move-result-object v1
 
     .line 23
-    check-cast v1, Ln8/l;
+    check-cast v1, Lf2/l;
 
     .line 24
     .line 25
@@ -1411,7 +1324,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {v1}, Ln8/l;->e()[B
+    invoke-virtual {v1}, Lf2/l;->e()[B
 
     .line 28
     .line 29
@@ -1424,7 +1337,7 @@
     .line 32
     .line 33
     .line 34
-    instance-of v2, v1, Ln8/d;
+    instance-of v2, v1, Lf2/d;
 
     .line 35
     .line 36
@@ -1439,11 +1352,11 @@
     move-object v3, v1
 
     .line 41
-    check-cast v3, Ln8/d;
+    check-cast v3, Lf2/d;
 
     .line 42
     .line 43
-    invoke-interface {v3}, Ln8/d;->c()Ljava/util/List;
+    invoke-interface {v3}, Lf2/d;->a()Ljava/util/List;
 
     .line 44
     .line 45
@@ -1514,13 +1427,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

@@ -59,6 +59,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -89,6 +91,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getForcePushList()Ljava/util/List;
@@ -125,6 +129,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isForcePush()Z
@@ -153,6 +159,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setForcePush(Z)V
@@ -186,6 +194,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setForcePushContent(Ljava/lang/String;)V
@@ -219,6 +229,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setForcePushList(Ljava/util/List;)V
@@ -260,4 +272,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

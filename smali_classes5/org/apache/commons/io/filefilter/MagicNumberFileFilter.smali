@@ -1,5 +1,5 @@
 .class public Lorg/apache/commons/io/filefilter/MagicNumberFileFilter;
-.super Lbp/a;
+.super Lv9/a;
 .source "SourceFile"
 
 # interfaces
@@ -32,7 +32,7 @@
     .locals 2
 
     .line 10
-    invoke-direct {p0}, Lbp/a;-><init>()V
+    invoke-direct {p0}, Lv9/a;-><init>()V
 
     .line 11
     const-string v0, "magicNumber"
@@ -104,7 +104,7 @@
     .locals 2
 
     .line 2
-    invoke-direct {p0}, Lbp/a;-><init>()V
+    invoke-direct {p0}, Lv9/a;-><init>()V
 
     .line 3
     const-string v0, "magicNumbers"
@@ -169,13 +169,13 @@
     .line 6
     new-array v0, p2, [Ljava/nio/file/LinkOption;
 
-    invoke-static {p1, v0}, Lzg/t;->a(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
+    invoke-static {p1, v0}, Lt6/t;->a(Ljava/nio/file/Path;[Ljava/nio/file/LinkOption;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
-    invoke-static {p1}, Lfm/q2;->a(Ljava/nio/file/Path;)Z
+    invoke-static {p1}, Lv9/h;->a(Ljava/nio/file/Path;)Z
 
     move-result v0
 
@@ -185,7 +185,7 @@
     :try_start_0
     new-array p2, p2, [Ljava/nio/file/OpenOption;
 
-    invoke-static {p1, p2}, Lro/i;->a(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/nio/channels/FileChannel;
+    invoke-static {p1, p2}, Lokio/d;->a(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/nio/channels/FileChannel;
 
     move-result-object p1
     :try_end_0
@@ -219,7 +219,7 @@
     if-eq v0, v2, :cond_0
 
     .line 12
-    invoke-static {}, Lfm/w0;->a()Ljava/nio/file/FileVisitResult;
+    invoke-static {}, Lkotlin/io/path/z;->a()Ljava/nio/file/FileVisitResult;
 
     move-result-object p2
     :try_end_1
@@ -250,7 +250,7 @@
 
     move-result p2
 
-    invoke-virtual {p0, p2}, Lbp/a;->toFileVisitResult(Z)Ljava/nio/file/FileVisitResult;
+    invoke-virtual {p0, p2}, Lv9/a;->toFileVisitResult(Z)Ljava/nio/file/FileVisitResult;
 
     move-result-object p2
     :try_end_3
@@ -284,7 +284,7 @@
     .line 16
     :catch_0
     :cond_2
-    invoke-static {}, Lfm/w0;->a()Ljava/nio/file/FileVisitResult;
+    invoke-static {}, Lkotlin/io/path/z;->a()Ljava/nio/file/FileVisitResult;
 
     move-result-object p1
 
@@ -327,7 +327,7 @@
 
     array-length v3, v0
 
-    invoke-static {p1, v1, v2, v3}, Lto/j1;->c(Ljava/io/RandomAccessFile;JI)[B
+    invoke-static {p1, v1, v2, v3}, Lr9/p;->a(Ljava/io/RandomAccessFile;JI)[B
 
     move-result-object v1
 
@@ -380,6 +380,50 @@
     return p1
 .end method
 
+.method public bridge synthetic and(Lv9/o;)Lv9/o;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lv9/o;->and(Lv9/o;)Lv9/o;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic matches(Ljava/nio/file/Path;)Z
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lv9/o;->matches(Ljava/nio/file/Path;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic negate()Lv9/o;
+    .locals 1
+
+    .line 1
+    invoke-super {p0}, Lv9/o;->negate()Lv9/o;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic or(Lv9/o;)Lv9/o;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lv9/o;->or(Lv9/o;)Lv9/o;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
 .method public toString()Ljava/lang/String;
     .locals 4
 
@@ -388,7 +432,7 @@
 
     .line 2
     .line 3
-    invoke-super {p0}, Lbp/a;->toString()Ljava/lang/String;
+    invoke-super {p0}, Lv9/a;->toString()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -474,54 +518,4 @@
     return-object v0
     .line 49
     .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
 .end method

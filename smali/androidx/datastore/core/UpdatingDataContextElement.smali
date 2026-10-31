@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lkotlin/coroutines/d$b;
+.implements Lkotlin/coroutines/i$b;
 
 
 # annotations
@@ -16,14 +16,8 @@
 
 # static fields
 .field public static final Companion:Landroidx/datastore/core/UpdatingDataContextElement$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final NESTED_UPDATE_ERROR_MESSAGE:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
@@ -34,15 +28,9 @@
             "*>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final parent:Landroidx/datastore/core/UpdatingDataContextElement;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -57,7 +45,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/datastore/core/UpdatingDataContextElement$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/datastore/core/UpdatingDataContextElement$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -82,18 +70,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroidx/datastore/core/UpdatingDataContextElement;Landroidx/datastore/core/DataStoreImpl;)V
     .locals 1
-    .param p1    # Landroidx/datastore/core/UpdatingDataContextElement;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/datastore/core/DataStoreImpl;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -108,7 +89,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -190,16 +171,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final checkNotUpdating(Landroidx/datastore/core/DataStore;)V
     .locals 1
-    .param p1    # Landroidx/datastore/core/DataStore;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -213,7 +191,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -315,28 +293,23 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public fold(Ljava/lang/Object;Ljm/p;)Ljava/lang/Object;
+.method public fold(Ljava/lang/Object;Lq8/p;)Ljava/lang/Object;
     .locals 0
-    .param p2    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(TR;",
-            "Ljm/p<",
-            "-TR;-",
-            "Lkotlin/coroutines/d$b;",
-            "+TR;>;)TR;"
+            "Lq8/p;",
+            ")TR;"
         }
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlin/coroutines/d$b$a;->a(Lkotlin/coroutines/d$b;Ljava/lang/Object;Ljm/p;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Lkotlin/coroutines/i$b$a;->a(Lkotlin/coroutines/i$b;Ljava/lang/Object;Lq8/p;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -390,27 +363,20 @@
     .line 48
 .end method
 
-.method public get(Lkotlin/coroutines/d$c;)Lkotlin/coroutines/d$b;
+.method public get(Lkotlin/coroutines/i$c;)Lkotlin/coroutines/i$b;
     .locals 0
-    .param p1    # Lkotlin/coroutines/d$c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E::",
-            "Lkotlin/coroutines/d$b;",
+            "Lkotlin/coroutines/i$b;",
             ">(",
-            "Lkotlin/coroutines/d$c<",
-            "TE;>;)TE;"
+            "Lkotlin/coroutines/i$c;",
+            ")TE;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
-    invoke-static {p0, p1}, Lkotlin/coroutines/d$b$a;->b(Lkotlin/coroutines/d$b;Lkotlin/coroutines/d$c;)Lkotlin/coroutines/d$b;
+    invoke-static {p0, p1}, Lkotlin/coroutines/i$b$a;->b(Lkotlin/coroutines/i$b;Lkotlin/coroutines/i$c;)Lkotlin/coroutines/i$b;
 
     .line 2
     .line 3
@@ -441,17 +407,13 @@
     .line 25
 .end method
 
-.method public getKey()Lkotlin/coroutines/d$c;
+.method public getKey()Lkotlin/coroutines/i$c;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/coroutines/d$c<",
-            "*>;"
+            "Lkotlin/coroutines/i$c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -477,28 +439,22 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public minusKey(Lkotlin/coroutines/d$c;)Lkotlin/coroutines/d;
+.method public minusKey(Lkotlin/coroutines/i$c;)Lkotlin/coroutines/i;
     .locals 0
-    .param p1    # Lkotlin/coroutines/d$c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/coroutines/d$c<",
-            "*>;)",
-            "Lkotlin/coroutines/d;"
+            "Lkotlin/coroutines/i$c;",
+            ")",
+            "Lkotlin/coroutines/i;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
-    invoke-static {p0, p1}, Lkotlin/coroutines/d$b$a;->c(Lkotlin/coroutines/d$b;Lkotlin/coroutines/d$c;)Lkotlin/coroutines/d;
+    invoke-static {p0, p1}, Lkotlin/coroutines/i$b$a;->c(Lkotlin/coroutines/i$b;Lkotlin/coroutines/i$c;)Lkotlin/coroutines/i;
 
     .line 2
     .line 3
@@ -529,17 +485,11 @@
     .line 25
 .end method
 
-.method public plus(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+.method public plus(Lkotlin/coroutines/i;)Lkotlin/coroutines/i;
     .locals 0
-    .param p1    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/coroutines/d$b$a;->d(Lkotlin/coroutines/d$b;Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+    invoke-static {p0, p1}, Lkotlin/coroutines/i$b$a;->d(Lkotlin/coroutines/i$b;Lkotlin/coroutines/i;)Lkotlin/coroutines/i;
 
     .line 2
     .line 3

@@ -101,6 +101,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFileSizeLimit()J
@@ -136,6 +137,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLocation()Landroid/location/Location;
@@ -170,4 +172,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

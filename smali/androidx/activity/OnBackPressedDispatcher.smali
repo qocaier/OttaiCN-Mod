@@ -13,52 +13,25 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOnBackPressedDispatcher.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnBackPressedDispatcher.kt\nandroidx/activity/OnBackPressedDispatcher\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,433:1\n1747#2,3:434\n533#2,6:437\n533#2,6:443\n533#2,6:449\n533#2,6:455\n*S KotlinDebug\n*F\n+ 1 OnBackPressedDispatcher.kt\nandroidx/activity/OnBackPressedDispatcher\n*L\n114#1:434,3\n233#1:437,6\n254#1:443,6\n274#1:449,6\n293#1:455,6\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nOnBackPressedDispatcher.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnBackPressedDispatcher.kt\nandroidx/activity/OnBackPressedDispatcher\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,433:1\n1747#2,3:434\n533#2,6:437\n533#2,6:443\n533#2,6:449\n533#2,6:455\n*S KotlinDebug\n*F\n+ 1 OnBackPressedDispatcher.kt\nandroidx/activity/OnBackPressedDispatcher\n*L\n114#1:434,3\n233#1:437,6\n254#1:443,6\n274#1:449,6\n293#1:455,6\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private backInvokedCallbackRegistered:Z
 
 .field private final fallbackOnBackPressed:Ljava/lang/Runnable;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private hasEnabledCallbacks:Z
 
 .field private inProgressCallback:Landroidx/activity/OnBackPressedCallback;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private invokedDispatcher:Landroid/window/OnBackInvokedDispatcher;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private onBackInvokedCallback:Landroid/window/OnBackInvokedCallback;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
-.field private final onBackPressedCallbacks:Lll/m;
+.field private final onBackPressedCallbacks:Lkotlin/collections/i;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lll/m<",
-            "Landroidx/activity/OnBackPressedCallback;",
-            ">;"
+            "Lkotlin/collections/i;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -70,36 +43,25 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end field
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 2
-    .annotation build Lim/k;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1, v0}, Landroidx/activity/OnBackPressedDispatcher;-><init>(Ljava/lang/Runnable;ILkm/v;)V
+    invoke-direct {p0, v0, v1, v0}, Landroidx/activity/OnBackPressedDispatcher;-><init>(Ljava/lang/Runnable;ILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/Runnable;)V
     .locals 1
-    .param p1    # Ljava/lang/Runnable;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lim/k;
-    .end annotation
 
     const/4 v0, 0x0
 
@@ -109,7 +71,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/Runnable;ILkm/v;)V
+.method public synthetic constructor <init>(Ljava/lang/Runnable;ILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p2, p2, 0x1
@@ -127,14 +89,6 @@
 
 .method public constructor <init>(Ljava/lang/Runnable;Landroidx/core/util/Consumer;)V
     .locals 3
-    .param p1    # Ljava/lang/Runnable;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/core/util/Consumer;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -155,11 +109,11 @@
     iput-object p2, p0, Landroidx/activity/OnBackPressedDispatcher;->onHasEnabledCallbacksChanged:Landroidx/core/util/Consumer;
 
     .line 5
-    new-instance p1, Lll/m;
+    new-instance p1, Lkotlin/collections/i;
 
-    invoke-direct {p1}, Lll/m;-><init>()V
+    invoke-direct {p1}, Lkotlin/collections/i;-><init>()V
 
-    iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lll/m;
+    iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lkotlin/collections/i;
 
     .line 6
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -191,7 +145,7 @@
 
     invoke-direct {v2, p0}, Landroidx/activity/OnBackPressedDispatcher$4;-><init>(Landroidx/activity/OnBackPressedDispatcher;)V
 
-    invoke-virtual {p1, p2, v0, v1, v2}, Landroidx/activity/OnBackPressedDispatcher$Api34Impl;->createOnBackAnimationCallback(Ljm/l;Ljm/l;Ljm/a;Ljm/a;)Landroid/window/OnBackInvokedCallback;
+    invoke-virtual {p1, p2, v0, v1, v2}, Landroidx/activity/OnBackPressedDispatcher$Api34Impl;->createOnBackAnimationCallback(Lq8/l;Lq8/l;Lq8/a;Lq8/a;)Landroid/window/OnBackInvokedCallback;
 
     move-result-object p1
 
@@ -205,7 +159,7 @@
 
     invoke-direct {p2, p0}, Landroidx/activity/OnBackPressedDispatcher$5;-><init>(Landroidx/activity/OnBackPressedDispatcher;)V
 
-    invoke-virtual {p1, p2}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;->createOnBackInvokedCallback(Ljm/a;)Landroid/window/OnBackInvokedCallback;
+    invoke-virtual {p1, p2}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;->createOnBackInvokedCallback(Lq8/a;)Landroid/window/OnBackInvokedCallback;
 
     move-result-object p1
 
@@ -250,11 +204,11 @@
     .line 25
 .end method
 
-.method public static final synthetic access$getOnBackPressedCallbacks$p(Landroidx/activity/OnBackPressedDispatcher;)Lll/m;
+.method public static final synthetic access$getOnBackPressedCallbacks$p(Landroidx/activity/OnBackPressedDispatcher;)Lkotlin/collections/i;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lll/m;
+    iget-object p0, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lkotlin/collections/i;
 
     .line 2
     .line 3
@@ -534,7 +488,7 @@
 
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lll/m;
+    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lkotlin/collections/i;
 
     .line 7
     .line 8
@@ -662,6 +616,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private final onBackProgressed(Landroidx/activity/BackEventCompat;)V
@@ -678,7 +634,7 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lll/m;
+    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lkotlin/collections/i;
 
     .line 6
     .line 7
@@ -799,6 +755,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final onBackStarted(Landroidx/activity/BackEventCompat;)V
@@ -807,7 +764,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lll/m;
+    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lkotlin/collections/i;
 
     .line 2
     .line 3
@@ -938,6 +895,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final updateBackInvokedCallbackState(Z)V
@@ -1065,6 +1023,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final updateEnabledCallbacks()V
@@ -1075,7 +1034,7 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lll/m;
+    iget-object v1, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lkotlin/collections/i;
 
     .line 4
     .line 5
@@ -1223,22 +1182,20 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
 # virtual methods
 .method public final addCallback(Landroidx/activity/OnBackPressedCallback;)V
     .locals 1
-    .param p1    # Landroidx/activity/OnBackPressedCallback;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
     const-string v0, "onBackPressedCallback"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/activity/OnBackPressedDispatcher;->addCancellableCallback$activity_release(Landroidx/activity/OnBackPressedCallback;)Landroidx/activity/Cancellable;
@@ -1248,24 +1205,16 @@
 
 .method public final addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V
     .locals 2
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/activity/OnBackPressedCallback;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
     const-string v0, "owner"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "onBackPressedCallback"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
@@ -1300,21 +1249,14 @@
 
     invoke-direct {p1, p0}, Landroidx/activity/OnBackPressedDispatcher$addCallback$1;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {p2, p1}, Landroidx/activity/OnBackPressedCallback;->setEnabledChangedCallback$activity_release(Ljm/a;)V
+    invoke-virtual {p2, p1}, Landroidx/activity/OnBackPressedCallback;->setEnabledChangedCallback$activity_release(Lq8/a;)V
 
     return-void
 .end method
 
 .method public final addCancellableCallback$activity_release(Landroidx/activity/OnBackPressedCallback;)Landroidx/activity/Cancellable;
     .locals 2
-    .param p1    # Landroidx/activity/OnBackPressedCallback;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1322,16 +1264,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lll/m;
+    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lkotlin/collections/i;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Lll/m;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Lkotlin/collections/i;->add(Ljava/lang/Object;)Z
 
     .line 9
     .line 10
@@ -1364,7 +1306,7 @@
     .line 25
     .line 26
     .line 27
-    invoke-virtual {p1, v1}, Landroidx/activity/OnBackPressedCallback;->setEnabledChangedCallback$activity_release(Ljm/a;)V
+    invoke-virtual {p1, v1}, Landroidx/activity/OnBackPressedCallback;->setEnabledChangedCallback$activity_release(Lq8/a;)V
 
     .line 28
     .line 29
@@ -1418,6 +1360,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final dispatchOnBackCancelled()V
@@ -1451,14 +1394,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final dispatchOnBackProgressed(Landroidx/activity/BackEventCompat;)V
     .locals 1
-    .param p1    # Landroidx/activity/BackEventCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -1470,7 +1410,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1501,10 +1441,6 @@
 
 .method public final dispatchOnBackStarted(Landroidx/activity/BackEventCompat;)V
     .locals 1
-    .param p1    # Landroidx/activity/BackEventCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -1516,7 +1452,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1573,6 +1509,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final onBackPressed()V
@@ -1592,7 +1529,7 @@
 
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lll/m;
+    iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->onBackPressedCallbacks:Lkotlin/collections/i;
 
     .line 7
     .line 8
@@ -1729,14 +1666,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final setOnBackInvokedDispatcher(Landroid/window/OnBackInvokedDispatcher;)V
     .locals 1
-    .param p1    # Landroid/window/OnBackInvokedDispatcher;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x21
     .end annotation
@@ -1746,7 +1681,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

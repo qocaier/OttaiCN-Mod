@@ -242,6 +242,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private forceOnClosedCaptureSessions()V
@@ -308,11 +310,11 @@
 
     .line 29
     .line 30
-    new-instance v2, Landroidx/camera/camera2/internal/r0;
+    new-instance v2, Landroidx/camera/camera2/internal/f1;
 
     .line 31
     .line 32
-    invoke-direct {v2, v0}, Landroidx/camera/camera2/internal/r0;-><init>(Ljava/util/LinkedHashSet;)V
+    invoke-direct {v2, v0}, Landroidx/camera/camera2/internal/f1;-><init>(Ljava/util/LinkedHashSet;)V
 
     .line 33
     .line 34
@@ -379,6 +381,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 

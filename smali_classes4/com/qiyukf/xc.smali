@@ -71,6 +71,8 @@
     .end array-data
 
     .line 20
+    .line 21
+    .line 22
     :array_1
     .array-data 4
         0x3c

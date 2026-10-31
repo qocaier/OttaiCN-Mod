@@ -48,6 +48,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(ILjava/lang/Integer;Ljava/lang/Integer;)I
@@ -219,6 +220,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static resolveAudioEncoderConfig(Landroidx/camera/video/internal/config/AudioMimeInfo;Landroidx/camera/core/impl/Timebase;Landroidx/camera/video/internal/audio/AudioSettings;Landroidx/camera/video/AudioSpec;)Landroidx/camera/video/internal/encoder/AudioEncoderConfig;
@@ -535,6 +539,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static resolveAudioMimeInfo(Landroidx/camera/video/MediaSpec;Landroidx/camera/video/internal/VideoValidatedEncoderProfilesProxy;)Landroidx/camera/video/internal/config/AudioMimeInfo;
@@ -987,6 +997,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static resolveAudioSettings(Landroidx/camera/video/internal/config/AudioMimeInfo;Landroidx/camera/video/AudioSpec;)Landroidx/camera/video/internal/audio/AudioSettings;
@@ -1210,6 +1223,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static resolveAudioSourceFormat(Landroidx/camera/video/AudioSpec;)I
@@ -1345,6 +1359,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static scaleAndClampBitrate(IIIIILandroid/util/Range;)I
@@ -2737,11 +2752,11 @@
     .line 118
     .line 119
     .line 120
-    new-instance v2, Lg0/a;
+    new-instance v2, Landroidx/camera/video/internal/config/a;
 
     .line 121
     .line 122
-    invoke-direct {v2, p3}, Lg0/a;-><init>(I)V
+    invoke-direct {v2, p3}, Landroidx/camera/video/internal/config/a;-><init>(I)V
 
     .line 123
     .line 124
@@ -2888,4 +2903,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

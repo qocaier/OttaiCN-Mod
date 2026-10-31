@@ -68,6 +68,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getColorId(Ljava/lang/String;)I
@@ -120,6 +122,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getDimenId(Ljava/lang/String;)I
@@ -172,6 +176,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getDrawable(Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
@@ -224,6 +230,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getDrawableId(Ljava/lang/String;)I
@@ -276,6 +284,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getIdId(Ljava/lang/String;)I
@@ -328,6 +338,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getLayoutId(Ljava/lang/String;)I
@@ -380,6 +392,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getString(Ljava/lang/String;)Ljava/lang/String;
@@ -492,6 +506,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getStyleId(Ljava/lang/String;)I
@@ -544,6 +560,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getmContext()Landroid/content/Context;
@@ -572,6 +590,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static setmContext(Landroid/content/Context;)V
@@ -626,4 +646,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

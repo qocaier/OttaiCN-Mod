@@ -73,7 +73,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private dismissAfterAnimation()V
@@ -113,7 +112,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private dismissWithAnimation(Lcom/google/android/material/bottomsheet/BottomSheetBehavior;Z)V
@@ -233,11 +231,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private tryDismissWithAnimation(Z)Z
@@ -370,8 +363,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -413,7 +404,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public dismissAllowingStateLoss()V
@@ -453,7 +443,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
@@ -502,5 +491,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

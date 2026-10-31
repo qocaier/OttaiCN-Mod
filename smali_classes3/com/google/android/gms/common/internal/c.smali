@@ -1,5 +1,5 @@
 .class public final Lcom/google/android/gms/common/internal/c;
-.super Laa/a;
+.super Lcom/google/android/gms/internal/common/a;
 .source "SourceFile"
 
 # interfaces
@@ -15,7 +15,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, v0}, Laa/a;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/common/a;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -39,24 +39,18 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
-.method public final o()Landroid/accounts/Account;
+.method public final R()Landroid/accounts/Account;
     .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroid/os/RemoteException;
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x2
 
     .line 2
-    invoke-virtual {p0}, Laa/a;->x0()Landroid/os/Parcel;
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/common/a;->M()Landroid/os/Parcel;
 
     .line 3
     .line 4
@@ -64,7 +58,7 @@
     move-result-object v1
 
     .line 6
-    invoke-virtual {p0, v0, v1}, Laa/a;->a(ILandroid/os/Parcel;)Landroid/os/Parcel;
+    invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/internal/common/a;->a(ILandroid/os/Parcel;)Landroid/os/Parcel;
 
     .line 7
     .line 8
@@ -76,7 +70,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1}, Laa/j;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
+    invoke-static {v0, v1}, Lcom/google/android/gms/internal/common/j;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
 
     .line 13
     .line 14
@@ -95,5 +89,4 @@
     .line 21
     return-object v1
     .line 22
-    .line 23
 .end method

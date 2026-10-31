@@ -8,12 +8,4 @@
 .end method
 
 .method public abstract setProgress(F)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "progress"
-        }
-    .end annotation
 .end method

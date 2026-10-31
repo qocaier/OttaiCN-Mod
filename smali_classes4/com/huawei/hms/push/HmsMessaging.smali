@@ -56,6 +56,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private constructor <init>(Landroid/content/Context;)V
@@ -196,9 +198,11 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method private a(Ljava/lang/String;Ljava/lang/String;)Lme/k;
+.method private a(Ljava/lang/String;Ljava/lang/String;)Lq5/f;
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -206,9 +210,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -265,7 +267,7 @@
 
     iget-object v1, p0, Lcom/huawei/hms/push/HmsMessaging;->a:Landroid/content/Context;
 
-    invoke-interface {p2, v1, p1, v0}, Lcom/huawei/hms/aaid/plugin/PushProxy;->subscribe(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lme/k;
+    invoke-interface {p2, v1, p1, v0}, Lcom/huawei/hms/aaid/plugin/PushProxy;->subscribe(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lq5/f;
 
     move-result-object p1
 
@@ -279,7 +281,7 @@
 
     iget-object v1, p0, Lcom/huawei/hms/push/HmsMessaging;->a:Landroid/content/Context;
 
-    invoke-interface {p2, v1, p1, v0}, Lcom/huawei/hms/aaid/plugin/PushProxy;->unsubscribe(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lme/k;
+    invoke-interface {p2, v1, p1, v0}, Lcom/huawei/hms/aaid/plugin/PushProxy;->unsubscribe(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Lq5/f;
 
     move-result-object p1
 
@@ -344,7 +346,7 @@
 
     invoke-direct {p2, v1, v2, v0}, Lcom/huawei/hms/push/task/BaseVoidTask;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lme/k;
+    invoke-virtual {p1, p2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lq5/f;
 
     move-result-object p1
 
@@ -368,7 +370,7 @@
 
     invoke-direct {p2, v1, v2, v0}, Lcom/huawei/hms/push/task/SubscribeTask;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p1, p2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lme/k;
+    invoke-virtual {p1, p2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lq5/f;
 
     move-result-object p1
 
@@ -402,9 +404,9 @@
 
     .line 19
     :catch_1
-    new-instance p1, Lme/l;
+    new-instance p1, Lq5/g;
 
-    invoke-direct {p1}, Lme/l;-><init>()V
+    invoke-direct {p1}, Lq5/g;-><init>()V
 
     .line 20
     sget-object p2, Lcom/huawei/hms/aaid/constant/ErrorEnum;->ERROR_INTERNAL_ERROR:Lcom/huawei/hms/aaid/constant/ErrorEnum;
@@ -413,7 +415,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p1, v2}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v2}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 21
     iget-object v2, p0, Lcom/huawei/hms/push/HmsMessaging;->a:Landroid/content/Context;
@@ -421,7 +423,7 @@
     invoke-static {v2, v1, v0, p2}, Lcom/huawei/hms/push/utils/PushBiUtil;->reportExit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/hms/aaid/constant/ErrorEnum;)V
 
     .line 22
-    invoke-virtual {p1}, Lme/l;->b()Lme/k;
+    invoke-virtual {p1}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -429,12 +431,12 @@
 
     .line 23
     :goto_0
-    new-instance p2, Lme/l;
+    new-instance p2, Lq5/g;
 
-    invoke-direct {p2}, Lme/l;-><init>()V
+    invoke-direct {p2}, Lq5/g;-><init>()V
 
     .line 24
-    invoke-virtual {p2, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p2, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 25
     iget-object v2, p0, Lcom/huawei/hms/push/HmsMessaging;->a:Landroid/content/Context;
@@ -446,7 +448,7 @@
     invoke-static {v2, v1, v0, p1}, Lcom/huawei/hms/push/utils/PushBiUtil;->reportExit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 26
-    invoke-virtual {p2}, Lme/l;->b()Lme/k;
+    invoke-virtual {p2}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -473,14 +475,12 @@
     throw p2
 .end method
 
-.method private a(Z)Lme/k;
+.method private a(Z)Lq5/f;
     .locals 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -526,9 +526,9 @@
     invoke-static {v3, p1}, Lcom/huawei/hms/support/log/HMSLog;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 65
-    new-instance p1, Lme/l;
+    new-instance p1, Lq5/g;
 
-    invoke-direct {p1}, Lme/l;-><init>()V
+    invoke-direct {p1}, Lq5/g;-><init>()V
 
     .line 66
     sget-object v2, Lcom/huawei/hms/aaid/constant/ErrorEnum;->ERROR_OPERATION_NOT_SUPPORTED:Lcom/huawei/hms/aaid/constant/ErrorEnum;
@@ -537,7 +537,7 @@
 
     move-result-object v3
 
-    invoke-virtual {p1, v3}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v3}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 67
     iget-object v3, p0, Lcom/huawei/hms/push/HmsMessaging;->a:Landroid/content/Context;
@@ -545,7 +545,7 @@
     invoke-static {v3, v1, v0, v2}, Lcom/huawei/hms/push/utils/PushBiUtil;->reportExit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lcom/huawei/hms/aaid/constant/ErrorEnum;)V
 
     .line 68
-    invoke-virtual {p1}, Lme/l;->b()Lme/k;
+    invoke-virtual {p1}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -624,7 +624,7 @@
 
     invoke-direct {v1, v2, p1, v0}, Lcom/huawei/hms/push/task/IntentCallable;-><init>(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lme/n;->f(Ljava/util/concurrent/Callable;)Lme/k;
+    invoke-static {v1}, Lq5/i;->b(Ljava/util/concurrent/Callable;)Lq5/f;
 
     move-result-object p1
 
@@ -738,7 +738,7 @@
 
     invoke-direct {p1, v2, v1, v0}, Lcom/huawei/hms/push/task/IntentCallable;-><init>(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)V
 
-    invoke-static {p1}, Lme/n;->f(Ljava/util/concurrent/Callable;)Lme/k;
+    invoke-static {p1}, Lq5/i;->b(Ljava/util/concurrent/Callable;)Lq5/f;
 
     move-result-object p1
 
@@ -766,9 +766,9 @@
     if-eqz v1, :cond_4
 
     .line 88
-    new-instance p1, Lme/l;
+    new-instance p1, Lq5/g;
 
-    invoke-direct {p1}, Lme/l;-><init>()V
+    invoke-direct {p1}, Lq5/g;-><init>()V
 
     .line 89
     sget-object v0, Lcom/huawei/hms/aaid/constant/ErrorEnum;->ERROR_NO_TOKEN:Lcom/huawei/hms/aaid/constant/ErrorEnum;
@@ -777,10 +777,10 @@
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v0}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 90
-    invoke-virtual {p1}, Lme/l;->b()Lme/k;
+    invoke-virtual {p1}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -850,7 +850,7 @@
 
     invoke-direct {p1, v2, v1, v0}, Lcom/huawei/hms/push/task/IntentCallable;-><init>(Landroid/content/Context;Landroid/content/Intent;Ljava/lang/String;)V
 
-    invoke-static {p1}, Lme/n;->f(Ljava/util/concurrent/Callable;)Lme/k;
+    invoke-static {p1}, Lq5/i;->b(Ljava/util/concurrent/Callable;)Lq5/f;
 
     move-result-object p1
 
@@ -892,7 +892,7 @@
 
     invoke-direct {v3, v1, v2, v0}, Lcom/huawei/hms/push/task/BaseVoidTask;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p1, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lme/k;
+    invoke-virtual {p1, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lq5/f;
 
     move-result-object p1
 
@@ -1046,7 +1046,7 @@
 
     invoke-direct {v3, v1, v2, v0}, Lcom/huawei/hms/push/task/BaseVoidTask;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p1, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lme/k;
+    invoke-virtual {p1, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lq5/f;
 
     return-void
 
@@ -1208,7 +1208,7 @@
     invoke-direct/range {v1 .. v6}, Lcom/huawei/hms/push/task/SendUpStreamTask;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 109
-    invoke-virtual {v0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lme/k;
+    invoke-virtual {v0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lq5/f;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -1323,6 +1323,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -1357,6 +1359,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public send(Lcom/huawei/hms/push/RemoteMessage;)V
@@ -1472,6 +1476,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setAutoInitEnabled(Z)V
@@ -1507,18 +1513,18 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public subscribe(Ljava/lang/String;)Lme/k;
+.method public subscribe(Ljava/lang/String;)Lq5/f;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -1540,7 +1546,7 @@
 
     .line 9
     .line 10
-    invoke-direct {p0, p1, v0}, Lcom/huawei/hms/push/HmsMessaging;->a(Ljava/lang/String;Ljava/lang/String;)Lme/k;
+    invoke-direct {p0, p1, v0}, Lcom/huawei/hms/push/HmsMessaging;->a(Ljava/lang/String;Ljava/lang/String;)Lq5/f;
 
     .line 11
     .line 12
@@ -1560,16 +1566,16 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public turnOffPush()Lme/k;
+.method public turnOffPush()Lq5/f;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -1614,7 +1620,7 @@
     const/4 v2, 0x0
 
     .line 21
-    invoke-interface {v0, v1, v2}, Lcom/huawei/hms/aaid/plugin/PushProxy;->turnOff(Landroid/content/Context;Ljava/lang/String;)Lme/k;
+    invoke-interface {v0, v1, v2}, Lcom/huawei/hms/aaid/plugin/PushProxy;->turnOff(Landroid/content/Context;Ljava/lang/String;)Lq5/f;
 
     .line 22
     .line 23
@@ -1638,7 +1644,7 @@
     const/4 v0, 0x0
 
     .line 32
-    invoke-direct {p0, v0}, Lcom/huawei/hms/push/HmsMessaging;->a(Z)Lme/k;
+    invoke-direct {p0, v0}, Lcom/huawei/hms/push/HmsMessaging;->a(Z)Lq5/f;
 
     .line 33
     .line 34
@@ -1695,16 +1701,15 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
-.method public turnOnPush()Lme/k;
+.method public turnOnPush()Lq5/f;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -1749,7 +1754,7 @@
     const/4 v2, 0x0
 
     .line 21
-    invoke-interface {v0, v1, v2}, Lcom/huawei/hms/aaid/plugin/PushProxy;->turnOn(Landroid/content/Context;Ljava/lang/String;)Lme/k;
+    invoke-interface {v0, v1, v2}, Lcom/huawei/hms/aaid/plugin/PushProxy;->turnOn(Landroid/content/Context;Ljava/lang/String;)Lq5/f;
 
     .line 22
     .line 23
@@ -1773,7 +1778,7 @@
     const/4 v0, 0x1
 
     .line 32
-    invoke-direct {p0, v0}, Lcom/huawei/hms/push/HmsMessaging;->a(Z)Lme/k;
+    invoke-direct {p0, v0}, Lcom/huawei/hms/push/HmsMessaging;->a(Z)Lq5/f;
 
     .line 33
     .line 34
@@ -1830,18 +1835,17 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
-.method public unsubscribe(Ljava/lang/String;)Lme/k;
+.method public unsubscribe(Ljava/lang/String;)Lq5/f;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -1863,7 +1867,7 @@
 
     .line 9
     .line 10
-    invoke-direct {p0, p1, v0}, Lcom/huawei/hms/push/HmsMessaging;->a(Ljava/lang/String;Ljava/lang/String;)Lme/k;
+    invoke-direct {p0, p1, v0}, Lcom/huawei/hms/push/HmsMessaging;->a(Ljava/lang/String;Ljava/lang/String;)Lq5/f;
 
     .line 11
     .line 12
@@ -1883,4 +1887,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

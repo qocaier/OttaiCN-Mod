@@ -173,6 +173,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getCanonicalFileIfChild(Ljava/io/File;Ljava/lang/String;)Ljava/io/File;
@@ -1112,4 +1113,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

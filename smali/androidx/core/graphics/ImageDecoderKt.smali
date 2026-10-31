@@ -4,16 +4,8 @@
 
 
 # direct methods
-.method public static final decodeBitmap(Landroid/graphics/ImageDecoder$Source;Ljm/q;)Landroid/graphics/Bitmap;
+.method public static final decodeBitmap(Landroid/graphics/ImageDecoder$Source;Lq8/q;)Landroid/graphics/Bitmap;
     .locals 1
-    .param p0    # Landroid/graphics/ImageDecoder$Source;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1c
     .end annotation
@@ -22,20 +14,10 @@
         value = {
             "(",
             "Landroid/graphics/ImageDecoder$Source;",
-            "Ljm/q<",
-            "-",
-            "Landroid/graphics/ImageDecoder;",
-            "-",
-            "Landroid/graphics/ImageDecoder$ImageInfo;",
-            "-",
-            "Landroid/graphics/ImageDecoder$Source;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/q;",
+            ")",
             "Landroid/graphics/Bitmap;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -43,12 +25,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/graphics/ImageDecoderKt$decodeBitmap$1;-><init>(Ljm/q;)V
+    invoke-direct {v0, p1}, Landroidx/core/graphics/ImageDecoderKt$decodeBitmap$1;-><init>(Lq8/q;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {v0}, Lu0/t;->a(Ljava/lang/Object;)Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;
+    invoke-static {v0}, Landroidx/core/graphics/t;->a(Ljava/lang/Object;)Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;
 
     .line 7
     .line 8
@@ -56,7 +38,7 @@
     move-result-object p1
 
     .line 10
-    invoke-static {p0, p1}, Lu0/v;->a(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1}, Landroidx/core/graphics/v;->a(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/Bitmap;
 
     .line 11
     .line 12
@@ -101,16 +83,8 @@
     .line 48
 .end method
 
-.method public static final decodeDrawable(Landroid/graphics/ImageDecoder$Source;Ljm/q;)Landroid/graphics/drawable/Drawable;
+.method public static final decodeDrawable(Landroid/graphics/ImageDecoder$Source;Lq8/q;)Landroid/graphics/drawable/Drawable;
     .locals 1
-    .param p0    # Landroid/graphics/ImageDecoder$Source;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1c
     .end annotation
@@ -119,20 +93,10 @@
         value = {
             "(",
             "Landroid/graphics/ImageDecoder$Source;",
-            "Ljm/q<",
-            "-",
-            "Landroid/graphics/ImageDecoder;",
-            "-",
-            "Landroid/graphics/ImageDecoder$ImageInfo;",
-            "-",
-            "Landroid/graphics/ImageDecoder$Source;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/q;",
+            ")",
             "Landroid/graphics/drawable/Drawable;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -140,12 +104,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/graphics/ImageDecoderKt$decodeDrawable$1;-><init>(Ljm/q;)V
+    invoke-direct {v0, p1}, Landroidx/core/graphics/ImageDecoderKt$decodeDrawable$1;-><init>(Lq8/q;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {v0}, Lu0/t;->a(Ljava/lang/Object;)Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;
+    invoke-static {v0}, Landroidx/core/graphics/t;->a(Ljava/lang/Object;)Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;
 
     .line 7
     .line 8
@@ -153,7 +117,7 @@
     move-result-object p1
 
     .line 10
-    invoke-static {p0, p1}, Lu0/u;->a(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, p1}, Landroidx/core/graphics/u;->a(Landroid/graphics/ImageDecoder$Source;Landroid/graphics/ImageDecoder$OnHeaderDecodedListener;)Landroid/graphics/drawable/Drawable;
 
     .line 11
     .line 12

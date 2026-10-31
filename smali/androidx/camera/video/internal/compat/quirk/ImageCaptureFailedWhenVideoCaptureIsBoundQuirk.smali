@@ -39,6 +39,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static isBluStudioX10()Z
@@ -156,6 +157,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static isItelW6004()Z
@@ -273,6 +276,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static isPositivoTwist2Pro()Z
@@ -390,6 +395,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static isVivo1805()Z
@@ -507,6 +514,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static load()Z
@@ -632,4 +641,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

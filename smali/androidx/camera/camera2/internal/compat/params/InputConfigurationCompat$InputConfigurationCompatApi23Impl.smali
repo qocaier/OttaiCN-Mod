@@ -141,6 +141,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeight()I
@@ -173,6 +174,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInputConfiguration()Ljava/lang/Object;
@@ -203,6 +205,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWidth()I
@@ -235,6 +238,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -267,6 +271,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isMultiResolution()Z
@@ -309,4 +314,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

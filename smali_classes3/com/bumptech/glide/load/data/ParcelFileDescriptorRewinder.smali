@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bumptech/glide/load/data/a;
+.implements Lcom/bumptech/glide/load/data/e;
 
 
 # annotations
@@ -11,15 +11,6 @@
     value = {
         Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder$InternalRewinder;,
         Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder$a;
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/bumptech/glide/load/data/a<",
-        "Landroid/os/ParcelFileDescriptor;",
-        ">;"
     }
 .end annotation
 
@@ -31,9 +22,6 @@
 # direct methods
 .method public constructor <init>(Landroid/os/ParcelFileDescriptor;)V
     .locals 1
-    .annotation build Landroidx/annotation/RequiresApi;
-        value = 0x15
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -68,7 +56,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static c()Z
@@ -114,25 +101,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public bridge synthetic a()Ljava/lang/Object;
     .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Landroidx/annotation/RequiresApi;
-        value = 0x15
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;->d()Landroid/os/ParcelFileDescriptor;
@@ -161,7 +135,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public b()V
@@ -173,18 +146,6 @@
 
 .method public d()Landroid/os/ParcelFileDescriptor;
     .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Landroidx/annotation/RequiresApi;
-        value = 0x15
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder;->a:Lcom/bumptech/glide/load/data/ParcelFileDescriptorRewinder$InternalRewinder;
@@ -215,5 +176,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

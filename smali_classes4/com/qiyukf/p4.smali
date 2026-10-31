@@ -28,9 +28,9 @@
     .end annotation
 
     .line 2
-    new-instance v0, Lvg/n0;
+    new-instance v0, Lcom/qiyukf/hf0;
 
-    invoke-direct {v0}, Lvg/n0;-><init>()V
+    invoke-direct {v0}, Lcom/qiyukf/hf0;-><init>()V
 
     invoke-static {p0, p1, v0}, Lcom/qiyukf/p4;->a(Ljava/util/Collection;Ljava/lang/String;Lcom/qiyukf/p4$a;)Ljava/lang/String;
 

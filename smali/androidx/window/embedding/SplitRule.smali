@@ -16,25 +16,10 @@
 
 # static fields
 .field public static final Companion:Landroidx/window/embedding/SplitRule$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final SPLIT_MAX_ASPECT_RATIO_LANDSCAPE_DEFAULT:Landroidx/window/embedding/EmbeddingAspectRatio;
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final SPLIT_MAX_ASPECT_RATIO_PORTRAIT_DEFAULT:Landroidx/window/embedding/EmbeddingAspectRatio;
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final SPLIT_MIN_DIMENSION_ALWAYS_ALLOW:I = 0x0
 
@@ -43,19 +28,10 @@
 
 # instance fields
 .field private final defaultSplitAttributes:Landroidx/window/embedding/SplitAttributes;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final maxAspectRatioInLandscape:Landroidx/window/embedding/EmbeddingAspectRatio;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final maxAspectRatioInPortrait:Landroidx/window/embedding/EmbeddingAspectRatio;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final minHeightDp:I
 
@@ -76,7 +52,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/window/embedding/SplitRule$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/window/embedding/SplitRule$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -175,14 +151,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(Ljava/lang/String;IIILandroidx/window/embedding/EmbeddingAspectRatio;Landroidx/window/embedding/EmbeddingAspectRatio;Landroidx/window/embedding/SplitAttributes;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .param p2    # I
         .annotation build Landroidx/annotation/IntRange;
             from = 0x0L
@@ -198,30 +172,18 @@
             from = 0x0L
         .end annotation
     .end param
-    .param p5    # Landroidx/window/embedding/EmbeddingAspectRatio;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p6    # Landroidx/window/embedding/EmbeddingAspectRatio;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p7    # Landroidx/window/embedding/SplitAttributes;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "maxAspectRatioInPortrait"
 
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "maxAspectRatioInLandscape"
 
-    invoke-static {p6, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p6, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "defaultSplitAttributes"
 
-    invoke-static {p7, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p7, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-direct {p0, p1}, Landroidx/window/embedding/EmbeddingRule;-><init>(Ljava/lang/String;)V
@@ -263,7 +225,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;IIILandroidx/window/embedding/EmbeddingAspectRatio;Landroidx/window/embedding/EmbeddingAspectRatio;Landroidx/window/embedding/SplitAttributes;ILkm/v;)V
+.method public synthetic constructor <init>(Ljava/lang/String;IIILandroidx/window/embedding/EmbeddingAspectRatio;Landroidx/window/embedding/EmbeddingAspectRatio;Landroidx/window/embedding/SplitAttributes;ILkotlin/jvm/internal/f;)V
     .locals 1
 
     and-int/lit8 p9, p8, 0x1
@@ -359,17 +321,13 @@
 # virtual methods
 .method public final checkParentBounds$window_release(FLandroid/graphics/Rect;)Z
     .locals 8
-    .param p2    # Landroid/graphics/Rect;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "bounds"
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -553,7 +511,7 @@
 
     .line 81
     .line 82
-    invoke-static {v6, v7}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v6, v7}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 83
     .line 84
@@ -624,7 +582,7 @@
 
     .line 110
     .line 111
-    invoke-static {v6, v7}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v6, v7}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 112
     .line 113
@@ -786,25 +744,20 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public final checkParentMetrics$window_release(Landroid/content/Context;Landroid/view/WindowMetrics;)Z
     .locals 3
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/view/WindowMetrics;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -813,7 +766,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1086,14 +1039,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     const/4 v0, 0x1
@@ -1198,7 +1150,7 @@
 
     .line 44
     .line 45
-    invoke-static {v1, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 46
     .line 47
@@ -1222,7 +1174,7 @@
 
     .line 55
     .line 56
-    invoke-static {v1, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 57
     .line 58
@@ -1246,7 +1198,7 @@
 
     .line 66
     .line 67
-    invoke-static {v1, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 68
     .line 69
@@ -1267,12 +1219,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getDefaultSplitAttributes()Landroidx/window/embedding/SplitAttributes;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/SplitRule;->defaultSplitAttributes:Landroidx/window/embedding/SplitAttributes;
@@ -1297,12 +1248,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getMaxAspectRatioInLandscape()Landroidx/window/embedding/EmbeddingAspectRatio;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/SplitRule;->maxAspectRatioInLandscape:Landroidx/window/embedding/EmbeddingAspectRatio;
@@ -1327,12 +1277,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getMaxAspectRatioInPortrait()Landroidx/window/embedding/EmbeddingAspectRatio;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/SplitRule;->maxAspectRatioInPortrait:Landroidx/window/embedding/EmbeddingAspectRatio;
@@ -1357,6 +1306,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getMinHeightDp()I
@@ -1385,6 +1335,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getMinSmallestWidthDp()I
@@ -1413,6 +1364,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getMinWidthDp()I
@@ -1441,6 +1393,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -1583,12 +1536,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -2047,4 +2000,56 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method

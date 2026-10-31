@@ -16,7 +16,7 @@
 .method public abstract release()V
 .end method
 
-.method public snapshot(II)Lub/u0;
+.method public snapshot(II)Lcom/google/common/util/concurrent/t;
     .locals 0
     .param p1    # I
         .annotation build Landroidx/annotation/IntRange;
@@ -36,9 +36,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -46,7 +44,7 @@
     const/4 p1, 0x0
 
     .line 2
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 3
     .line 4

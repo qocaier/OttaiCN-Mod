@@ -104,6 +104,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getKeyListener(Landroid/text/method/KeyListener;)Landroid/text/method/KeyListener;
@@ -175,6 +176,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEnabled()Z
@@ -207,6 +209,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onCreateInputConnection(Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection;

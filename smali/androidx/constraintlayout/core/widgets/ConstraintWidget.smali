@@ -1601,6 +1601,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private applyConstraints(Landroidx/constraintlayout/core/LinearSystem;ZZZZLandroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;ZLandroidx/constraintlayout/core/widgets/ConstraintAnchor;Landroidx/constraintlayout/core/widgets/ConstraintAnchor;IIIIFZZZZZIIIIFZ)V
@@ -3666,6 +3668,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private serializeAnchor(Ljava/lang/StringBuilder;Ljava/lang/String;Landroidx/constraintlayout/core/widgets/ConstraintAnchor;)V
@@ -3824,6 +3827,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private serializeAttribute(Ljava/lang/StringBuilder;Ljava/lang/String;FF)V
@@ -4034,6 +4040,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private serializeDimensionRatio(Ljava/lang/StringBuilder;Ljava/lang/String;FI)V
@@ -4301,6 +4310,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private serializeSize(Ljava/lang/StringBuilder;Ljava/lang/String;IIIIIIFF)V
@@ -5430,6 +5445,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public addToSolver(Landroidx/constraintlayout/core/LinearSystem;Z)V
@@ -8676,6 +8692,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public connect(Landroidx/constraintlayout/core/widgets/ConstraintAnchor$Type;Landroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/ConstraintAnchor$Type;)V
@@ -9461,6 +9478,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public copy(Landroidx/constraintlayout/core/widgets/ConstraintWidget;Ljava/util/HashMap;)V
@@ -11444,6 +11464,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public ensureMeasureRequested()V
@@ -11474,6 +11495,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public ensureWidgetRuns()V
@@ -11586,6 +11608,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getAnchor(Landroidx/constraintlayout/core/widgets/ConstraintAnchor$Type;)Landroidx/constraintlayout/core/widgets/ConstraintAnchor;
@@ -11748,6 +11772,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getAnchors()Ljava/util/ArrayList;
@@ -11784,6 +11809,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBaselineDistance()I
@@ -11812,6 +11838,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBiasPercent(I)F
@@ -11895,6 +11922,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCompanionWidget()Ljava/lang/Object;
@@ -11923,6 +11951,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContainerItemSkip()I
@@ -11951,6 +11980,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDebugName()Ljava/lang/String;
@@ -11979,6 +12009,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDimensionBehaviour(I)Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
@@ -12060,6 +12091,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDimensionRatioSide()I
@@ -12088,6 +12120,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHasBaseline()Z
@@ -12116,6 +12149,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeight()I
@@ -12155,6 +12189,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHorizontalBiasPercent()F
@@ -12183,6 +12218,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHorizontalChainControlWidget()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
@@ -12368,6 +12404,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getHorizontalChainStyle()I
@@ -12396,6 +12434,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHorizontalDimensionBehaviour()Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
@@ -12428,6 +12467,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHorizontalMargin()I
@@ -12475,6 +12515,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLastHorizontalMeasureSpec()I
@@ -12503,6 +12544,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLastVerticalMeasureSpec()I
@@ -12531,6 +12573,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLeft()I
@@ -12561,6 +12604,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLength(I)I
@@ -12646,6 +12690,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxWidth()I
@@ -12678,6 +12723,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMinHeight()I
@@ -12706,6 +12752,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMinWidth()I
@@ -12734,6 +12781,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNextChainMember(I)Landroidx/constraintlayout/core/widgets/ConstraintWidget;
@@ -12856,6 +12904,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getOptimizerWrapHeight()I
@@ -12992,6 +13041,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getOptimizerWrapWidth()I
@@ -13131,6 +13182,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getParent()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
@@ -13159,6 +13212,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreviousChainMember(I)Landroidx/constraintlayout/core/widgets/ConstraintWidget;
@@ -13281,6 +13335,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getRelativePositioning(I)I
@@ -13364,6 +13419,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRootX()I
@@ -13396,6 +13452,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRootY()I
@@ -13428,6 +13485,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRun(I)Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;
@@ -13781,6 +13839,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getType()Ljava/lang/String;
@@ -13809,6 +13868,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVerticalBiasPercent()F
@@ -13837,6 +13897,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVerticalChainControlWidget()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
@@ -14022,6 +14083,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getVerticalChainStyle()I
@@ -14050,6 +14113,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVerticalDimensionBehaviour()Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;
@@ -14082,6 +14146,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVerticalMargin()I
@@ -14133,6 +14198,7 @@
     .line 20
     :cond_1
     return v0
+    .line 21
 .end method
 
 .method public getVisibility()I
@@ -14161,6 +14227,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWidth()I
@@ -14200,6 +14267,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWrapBehaviorInParent()I
@@ -14228,6 +14296,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getX()I
@@ -14275,6 +14344,7 @@
     .line 19
     return v0
     .line 20
+    .line 21
 .end method
 
 .method public getY()I
@@ -14322,6 +14392,7 @@
     .line 19
     return v0
     .line 20
+    .line 21
 .end method
 
 .method public hasBaseline()Z
@@ -14350,6 +14421,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasDanglingDimension(I)Z
@@ -14531,6 +14603,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public hasDependencies()Z
@@ -14658,6 +14731,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public hasDimensionOverride()Z
@@ -14705,6 +14780,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasResolvedTargets(II)Z
@@ -15079,6 +15155,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public immediateConnect(Landroidx/constraintlayout/core/widgets/ConstraintAnchor$Type;Landroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/ConstraintAnchor$Type;II)V
@@ -15648,6 +15727,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isHeightWrapContent()Z
@@ -15676,6 +15756,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isHorizontalSolvingPassDone()Z
@@ -15704,6 +15785,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isInBarrier(I)Z
@@ -15858,6 +15940,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isInPlaceholder()Z
@@ -15886,6 +15970,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isInVerticalChain()Z
@@ -16005,6 +16090,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isInVirtualLayout()Z
@@ -16033,6 +16120,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isMeasureRequested()Z
@@ -16076,6 +16164,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isResolvedHorizontally()Z
@@ -16197,6 +16286,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isResolvedVertically()Z
@@ -16318,6 +16409,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isRoot()Z
@@ -16355,6 +16448,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSpreadHeight()Z
@@ -16480,6 +16574,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isSpreadWidth()Z
@@ -16605,6 +16701,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isVerticalSolvingPassDone()Z
@@ -16633,6 +16731,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isWidthWrapContent()Z
@@ -16661,6 +16760,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public markHorizontalSolvingPassDone()V
@@ -16691,6 +16791,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public markVerticalSolvingPassDone()V
@@ -16721,6 +16822,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public oppositeDimensionDependsOn(I)Z
@@ -16826,6 +16928,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public reset()V
@@ -17384,6 +17487,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public resetAllConstraints()V
@@ -17420,6 +17575,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public resetAnchor(Landroidx/constraintlayout/core/widgets/ConstraintAnchor;)V
@@ -19242,6 +19398,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public resetFinalResolution()V
@@ -19366,6 +19524,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public resetSolverVariables(Landroidx/constraintlayout/core/Cache;)V
@@ -19482,6 +19642,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public resetSolvingPassFlag()V
@@ -19514,6 +19675,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public serialize(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
@@ -19898,6 +20060,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setAnimated(Z)V
@@ -20435,6 +20602,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setDimension(II)V
@@ -20847,6 +21017,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setFinalFrame(IIIIII)V
@@ -22619,6 +22790,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setHasBaseline(Z)V
@@ -23165,6 +23339,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setHorizontalWeight(F)V
@@ -24337,6 +24517,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setVerticalWeight(F)V
@@ -25028,6 +25214,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -25515,6 +25707,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public updateFromRuns(ZZ)V
@@ -25911,6 +26155,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public updateFromSolver(Landroidx/constraintlayout/core/LinearSystem;Z)V
@@ -26260,4 +26507,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

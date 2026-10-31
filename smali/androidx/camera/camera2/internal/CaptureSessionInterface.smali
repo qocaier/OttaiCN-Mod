@@ -50,7 +50,7 @@
     .end annotation
 .end method
 
-.method public abstract open(Landroidx/camera/core/impl/SessionConfig;Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener;)Lub/u0;
+.method public abstract open(Landroidx/camera/core/impl/SessionConfig;Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener;)Lcom/google/common/util/concurrent/t;
     .param p1    # Landroidx/camera/core/impl/SessionConfig;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
@@ -73,23 +73,19 @@
             "Landroid/hardware/camera2/CameraDevice;",
             "Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener;",
             ")",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method
 
-.method public abstract release(Z)Lub/u0;
+.method public abstract release(Z)Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method

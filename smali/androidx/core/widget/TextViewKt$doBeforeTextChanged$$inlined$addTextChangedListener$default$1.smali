@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/widget/TextViewKt;->doBeforeTextChanged(Landroid/widget/TextView;Ljm/r;)Landroid/text/TextWatcher;
+    value = Landroidx/core/widget/TextViewKt;->doBeforeTextChanged(Landroid/widget/TextView;Lq8/r;)Landroid/text/TextWatcher;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,27 +16,17 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nTextView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextView.kt\nandroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1\n+ 2 TextView.kt\nandroidx/core/widget/TextViewKt$addTextChangedListener$3\n+ 3 TextView.kt\nandroidx/core/widget/TextViewKt$addTextChangedListener$2\n*L\n1#1,82:1\n63#2:83\n62#3:84\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nTextView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextView.kt\nandroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1\n+ 2 TextView.kt\nandroidx/core/widget/TextViewKt$addTextChangedListener$3\n+ 3 TextView.kt\nandroidx/core/widget/TextViewKt$addTextChangedListener$2\n*L\n1#1,82:1\n63#2:83\n62#3:84\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
-.field final synthetic $beforeTextChanged:Ljm/r;
+.field final synthetic $beforeTextChanged:Lq8/r;
 
 
 # direct methods
-.method public constructor <init>(Ljm/r;)V
+.method public constructor <init>(Lq8/r;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/widget/TextViewKt$doBeforeTextChanged$$inlined$addTextChangedListener$default$1;->$beforeTextChanged:Ljm/r;
+    iput-object p1, p0, Landroidx/core/widget/TextViewKt$doBeforeTextChanged$$inlined$addTextChangedListener$default$1;->$beforeTextChanged:Lq8/r;
 
     .line 2
     .line 3
@@ -79,7 +69,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewKt$doBeforeTextChanged$$inlined$addTextChangedListener$default$1;->$beforeTextChanged:Ljm/r;
+    iget-object v0, p0, Landroidx/core/widget/TextViewKt$doBeforeTextChanged$$inlined$addTextChangedListener$default$1;->$beforeTextChanged:Lq8/r;
 
     .line 2
     .line 3
@@ -107,7 +97,7 @@
     move-result-object p4
 
     .line 15
-    invoke-interface {v0, p1, p2, p3, p4}, Ljm/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2, p3, p4}, Lq8/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -325,6 +315,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onTextChanged(Ljava/lang/CharSequence;III)V

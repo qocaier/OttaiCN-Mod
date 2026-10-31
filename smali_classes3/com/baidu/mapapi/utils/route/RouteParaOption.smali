@@ -62,7 +62,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -97,7 +96,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public cityName(Ljava/lang/String;)Lcom/baidu/mapapi/utils/route/RouteParaOption;
@@ -130,7 +128,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public endName(Ljava/lang/String;)Lcom/baidu/mapapi/utils/route/RouteParaOption;
@@ -163,7 +160,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public endPoiId(Ljava/lang/String;)Lcom/baidu/mapapi/utils/route/RouteParaOption;
@@ -196,7 +192,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public endPoint(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/utils/route/RouteParaOption;
@@ -229,7 +224,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getBusStrategyType()Lcom/baidu/mapapi/utils/route/RouteParaOption$EBusStrategyType;
@@ -260,7 +254,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCityName()Ljava/lang/String;
@@ -291,7 +284,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndName()Ljava/lang/String;
@@ -322,7 +314,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndPoiId()Ljava/lang/String;
@@ -353,7 +344,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndPoint()Lcom/baidu/mapapi/model/LatLng;
@@ -384,7 +374,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStartName()Ljava/lang/String;
@@ -415,7 +404,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStartPoiId()Ljava/lang/String;
@@ -446,7 +434,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStartPoint()Lcom/baidu/mapapi/model/LatLng;
@@ -477,7 +464,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public startName(Ljava/lang/String;)Lcom/baidu/mapapi/utils/route/RouteParaOption;
@@ -510,7 +496,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public startPoiId(Ljava/lang/String;)Lcom/baidu/mapapi/utils/route/RouteParaOption;
@@ -543,7 +528,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public startPoint(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/utils/route/RouteParaOption;
@@ -576,5 +560,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

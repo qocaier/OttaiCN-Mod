@@ -13,35 +13,22 @@
 
 # instance fields
 .field private final handler:Landroid/os/Handler;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private lastDispatchRunnable:Landroidx/lifecycle/ServiceLifecycleDispatcher$DispatchRunnable;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final registry:Landroidx/lifecycle/LifecycleRegistry;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/lifecycle/LifecycleOwner;)V
     .locals 1
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "provider"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -121,7 +108,7 @@
 
     .line 18
     .line 19
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 20
     .line 21
@@ -138,8 +125,6 @@
 # virtual methods
 .method public getLifecycle()Landroidx/lifecycle/Lifecycle;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/ServiceLifecycleDispatcher;->registry:Landroidx/lifecycle/LifecycleRegistry;
@@ -164,6 +149,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onServicePreSuperOnBind()V
@@ -194,6 +180,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onServicePreSuperOnCreate()V
@@ -224,6 +211,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onServicePreSuperOnDestroy()V
@@ -258,6 +246,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onServicePreSuperOnStart()V
@@ -288,4 +277,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

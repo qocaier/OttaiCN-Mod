@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/bumptech/glide/load/a;->f(Ljava/util/List;Ljava/io/InputStream;Le6/b;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    value = Lcom/bumptech/glide/load/a;->f(Ljava/util/List;Ljava/io/InputStream;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -54,18 +54,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public a(Lcom/bumptech/glide/load/ImageHeaderParser;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
     .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -114,5 +108,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

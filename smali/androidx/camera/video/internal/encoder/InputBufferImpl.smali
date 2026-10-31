@@ -35,12 +35,10 @@
     .end annotation
 .end field
 
-.field private final mTerminationFuture:Lub/u0;
+.field private final mTerminationFuture:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -147,16 +145,16 @@
     .line 41
     .line 42
     .line 43
-    new-instance p2, Landroidx/camera/video/internal/encoder/u;
+    new-instance p2, Landroidx/camera/video/internal/encoder/o0;
 
     .line 44
     .line 45
-    invoke-direct {p2, p1}, Landroidx/camera/video/internal/encoder/u;-><init>(Ljava/util/concurrent/atomic/AtomicReference;)V
+    invoke-direct {p2, p1}, Landroidx/camera/video/internal/encoder/o0;-><init>(Ljava/util/concurrent/atomic/AtomicReference;)V
 
     .line 46
     .line 47
     .line 48
-    invoke-static {p2}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {p2}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 49
     .line 50
@@ -164,7 +162,7 @@
     move-result-object p2
 
     .line 52
-    iput-object p2, p0, Landroidx/camera/video/internal/encoder/InputBufferImpl;->mTerminationFuture:Lub/u0;
+    iput-object p2, p0, Landroidx/camera/video/internal/encoder/InputBufferImpl;->mTerminationFuture:Lcom/google/common/util/concurrent/t;
 
     .line 53
     .line 54
@@ -362,6 +360,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic a(Ljava/util/concurrent/atomic/AtomicReference;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -463,6 +464,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -603,6 +605,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getByteBuffer()Ljava/nio/ByteBuffer;
@@ -635,9 +639,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public getTerminationFuture()Lub/u0;
+.method public getTerminationFuture()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -645,18 +650,16 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/internal/encoder/InputBufferImpl;->mTerminationFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/video/internal/encoder/InputBufferImpl;->mTerminationFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -678,6 +681,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setEndOfStream(Z)V
@@ -921,4 +925,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

@@ -7,21 +7,21 @@
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/core/impl/Observable$Observer;
+.field public final synthetic a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-.field public final synthetic b:Landroidx/camera/video/internal/BufferProvider$State;
+.field public final synthetic b:J
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/core/impl/Observable$Observer;Landroidx/camera/video/internal/BufferProvider$State;)V
+.method public synthetic constructor <init>(Landroidx/camera/video/internal/encoder/EncoderImpl;J)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/video/internal/encoder/j;->a:Landroidx/camera/core/impl/Observable$Observer;
+    iput-object p1, p0, Landroidx/camera/video/internal/encoder/j;->a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-    iput-object p2, p0, Landroidx/camera/video/internal/encoder/j;->b:Landroidx/camera/video/internal/BufferProvider$State;
+    iput-wide p2, p0, Landroidx/camera/video/internal/encoder/j;->b:J
 
     return-void
 .end method
@@ -29,14 +29,14 @@
 
 # virtual methods
 .method public final run()V
-    .locals 2
+    .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/internal/encoder/j;->a:Landroidx/camera/core/impl/Observable$Observer;
+    iget-object v0, p0, Landroidx/camera/video/internal/encoder/j;->a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-    iget-object v1, p0, Landroidx/camera/video/internal/encoder/j;->b:Landroidx/camera/video/internal/BufferProvider$State;
+    iget-wide v1, p0, Landroidx/camera/video/internal/encoder/j;->b:J
 
-    invoke-static {v0, v1}, Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;->e(Landroidx/camera/core/impl/Observable$Observer;Landroidx/camera/video/internal/BufferProvider$State;)V
+    invoke-static {v0, v1, v2}, Landroidx/camera/video/internal/encoder/EncoderImpl;->g(Landroidx/camera/video/internal/encoder/EncoderImpl;J)V
 
     return-void
 .end method

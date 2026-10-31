@@ -42,7 +42,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static a(Landroid/content/Context;)I
@@ -92,7 +91,7 @@
     move-result-object v1
 
     .line 20
-    invoke-static {v1}, Lr0/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
+    invoke-static {v1}, Landroidx/core/content/pm/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
 
     .line 21
     .line 22
@@ -100,7 +99,7 @@
     move-result-object v1
 
     .line 24
-    invoke-static {v1}, Ld5/a;->a(Landroid/content/pm/SigningInfo;)Z
+    invoke-static {v1}, Lcom/baidu/lbsapi/auth/r;->a(Landroid/content/pm/SigningInfo;)Z
 
     .line 25
     .line 26
@@ -128,7 +127,7 @@
     move-result-object p0
 
     .line 38
-    invoke-static {p0}, Lr0/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
+    invoke-static {p0}, Landroidx/core/content/pm/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
 
     .line 39
     .line 40
@@ -136,7 +135,7 @@
     move-result-object p0
 
     .line 42
-    invoke-static {p0}, Ld5/b;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
+    invoke-static {p0}, Lcom/baidu/lbsapi/auth/s;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
 
     .line 43
     .line 44
@@ -164,7 +163,7 @@
     move-result-object p0
 
     .line 55
-    invoke-static {p0}, Lr0/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
+    invoke-static {p0}, Landroidx/core/content/pm/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
 
     .line 56
     .line 57
@@ -172,7 +171,7 @@
     move-result-object p0
 
     .line 59
-    invoke-static {p0}, Ld5/c;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
+    invoke-static {p0}, Lcom/baidu/lbsapi/auth/t;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
 
     .line 60
     .line 61
@@ -236,8 +235,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private static b(Landroid/content/Context;)Z
@@ -283,7 +280,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static verifySign(Landroid/content/Context;)Z
@@ -318,5 +314,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

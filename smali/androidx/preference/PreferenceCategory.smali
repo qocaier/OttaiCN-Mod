@@ -122,7 +122,7 @@
     const/4 v0, 0x1
 
     .line 13
-    invoke-static {p1, v0}, Ls1/a;->a(Landroid/view/View;Z)V
+    invoke-static {p1, v0}, Landroidx/preference/a;->a(Landroid/view/View;Z)V
 
     .line 14
     .line 15
@@ -170,4 +170,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/widget/TextViewKt;->addTextChangedListener(Landroid/widget/TextView;Ljm/r;Ljm/r;Ljm/l;)Landroid/text/TextWatcher;
+    value = Landroidx/core/widget/TextViewKt;->addTextChangedListener(Landroid/widget/TextView;Lq8/r;Lq8/r;Lq8/l;)Landroid/text/TextWatcher;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,92 +18,54 @@
 
 
 # instance fields
-.field final synthetic $afterTextChanged:Ljm/l;
+.field final synthetic $afterTextChanged:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/text/Editable;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
-.field final synthetic $beforeTextChanged:Ljm/r;
+.field final synthetic $beforeTextChanged:Lq8/r;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/r<",
-            "Ljava/lang/CharSequence;",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Integer;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/r;"
         }
     .end annotation
 .end field
 
-.field final synthetic $onTextChanged:Ljm/r;
+.field final synthetic $onTextChanged:Lq8/r;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/r<",
-            "Ljava/lang/CharSequence;",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Integer;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/r;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljm/l;Ljm/r;Ljm/r;)V
+.method public constructor <init>(Lq8/l;Lq8/r;Lq8/r;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/Editable;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/r<",
-            "-",
-            "Ljava/lang/CharSequence;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/r<",
-            "-",
-            "Ljava/lang/CharSequence;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            "Lq8/r;",
+            "Lq8/r;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$afterTextChanged:Ljm/l;
+    iput-object p1, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$afterTextChanged:Lq8/l;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$beforeTextChanged:Ljm/r;
+    iput-object p2, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$beforeTextChanged:Lq8/r;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$onTextChanged:Ljm/r;
+    iput-object p3, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$onTextChanged:Lq8/r;
 
     .line 6
     .line 7
@@ -216,6 +178,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -224,11 +189,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$afterTextChanged:Ljm/l;
+    iget-object v0, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$afterTextChanged:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -259,7 +224,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$beforeTextChanged:Ljm/r;
+    iget-object v0, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$beforeTextChanged:Lq8/r;
 
     .line 2
     .line 3
@@ -287,7 +252,7 @@
     move-result-object p4
 
     .line 15
-    invoke-interface {v0, p1, p2, p3, p4}, Ljm/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2, p3, p4}, Lq8/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -505,13 +470,19 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$onTextChanged:Ljm/r;
+    iget-object v0, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$onTextChanged:Lq8/r;
 
     .line 2
     .line 3
@@ -539,7 +510,7 @@
     move-result-object p4
 
     .line 15
-    invoke-interface {v0, p1, p2, p3, p4}, Ljm/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2, p3, p4}, Lq8/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -757,4 +728,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

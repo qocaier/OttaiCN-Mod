@@ -71,6 +71,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private getHandler()Landroid/os/Handler;
@@ -114,6 +116,8 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private init()V
@@ -256,6 +260,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -298,6 +303,8 @@
     return-void
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setMessage(Ljava/lang/String;)V
@@ -333,6 +340,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public show(J)V
@@ -383,6 +392,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public showProgress(Z)V
@@ -428,4 +439,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

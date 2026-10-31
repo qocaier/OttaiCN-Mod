@@ -17,7 +17,7 @@
 # static fields
 .field public static es_security_public_key:I = 0x7f11004b
 
-.field public static notification_security_public_key:I = 0x7f1100d4
+.field public static notification_security_public_key:I = 0x7f1100d1
 
 
 # direct methods

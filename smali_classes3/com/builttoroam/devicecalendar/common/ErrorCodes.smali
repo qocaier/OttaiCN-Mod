@@ -13,34 +13,16 @@
 
 # static fields
 .field public static final Companion:Lcom/builttoroam/devicecalendar/common/ErrorCodes$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final GENERIC_ERROR:Ljava/lang/String; = "500"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final INVALID_ARGUMENT:Ljava/lang/String; = "400"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final NOT_ALLOWED:Ljava/lang/String; = "405"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final NOT_AUTHORIZED:Ljava/lang/String; = "401"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final NOT_FOUND:Ljava/lang/String; = "404"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -51,7 +33,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/builttoroam/devicecalendar/common/ErrorCodes$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Lcom/builttoroam/devicecalendar/common/ErrorCodes$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Lcom/builttoroam/devicecalendar/common/ErrorCodes;->Companion:Lcom/builttoroam/devicecalendar/common/ErrorCodes$Companion;
 
@@ -86,5 +68,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

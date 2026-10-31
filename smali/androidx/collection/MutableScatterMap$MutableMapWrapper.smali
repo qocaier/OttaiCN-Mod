@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/Map;
-.implements Llm/g;
+.implements Lr8/b;
 
 
 # annotations
@@ -23,17 +23,7 @@
         "TK;TV;>.MapWrapper;",
         "Ljava/util/Map<",
         "TK;TV;>;",
-        "Llm/g;"
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nScatterMap.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ScatterMap.kt\nandroidx/collection/MutableScatterMap$MutableMapWrapper\n+ 2 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n*L\n1#1,1850:1\n215#2,2:1851\n*S KotlinDebug\n*F\n+ 1 ScatterMap.kt\nandroidx/collection/MutableScatterMap$MutableMapWrapper\n*L\n1590#1:1851,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nScatterMap.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ScatterMap.kt\nandroidx/collection/MutableScatterMap$MutableMapWrapper\n+ 2 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n*L\n1#1,1850:1\n215#2,2:1851\n*S KotlinDebug\n*F\n+ 1 ScatterMap.kt\nandroidx/collection/MutableScatterMap$MutableMapWrapper\n*L\n1590#1:1851,2\n*E\n"
+        "Lr8/b;"
     }
 .end annotation
 
@@ -120,6 +110,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEntries()Ljava/util/Set;
@@ -131,9 +122,6 @@
             "Ljava/util/Map$Entry<",
             "TK;TV;>;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -163,6 +151,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getKeys()Ljava/util/Set;
@@ -173,9 +162,6 @@
             "Ljava/util/Set<",
             "TK;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -205,6 +191,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getValues()Ljava/util/Collection;
@@ -215,9 +202,6 @@
             "Ljava/util/Collection<",
             "TV;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -247,6 +231,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -255,9 +240,6 @@
         value = {
             "(TK;TV;)TV;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -319,10 +301,6 @@
 
 .method public putAll(Ljava/util/Map;)V
     .locals 2
-    .param p1    # Ljava/util/Map;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -336,7 +314,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -448,6 +426,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public remove(Ljava/lang/Object;)Ljava/lang/Object;
@@ -458,9 +437,6 @@
             "Ljava/lang/Object;",
             ")TV;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1

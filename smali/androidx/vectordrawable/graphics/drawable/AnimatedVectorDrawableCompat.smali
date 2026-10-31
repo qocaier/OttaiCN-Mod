@@ -929,6 +929,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private setupAnimatorsForTarget(Ljava/lang/String;Landroid/animation/Animator;)V
@@ -1189,6 +1190,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static unregisterAnimationCallback(Landroid/graphics/drawable/Drawable;Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;)Z
@@ -1367,6 +1369,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearAnimationCallbacks()V
@@ -1428,6 +1431,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public draw(Landroid/graphics/Canvas;)V
@@ -1540,6 +1544,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getAlpha()I
@@ -1585,6 +1590,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getChangingConfigurations()I
@@ -1632,6 +1638,7 @@
     .line 19
     return v0
     .line 20
+    .line 21
 .end method
 
 .method public getColorFilter()Landroid/graphics/ColorFilter;
@@ -1677,6 +1684,7 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getConstantState()Landroid/graphics/drawable/Drawable$ConstantState;
@@ -1722,6 +1730,7 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic getCurrent()Landroid/graphics/drawable/Drawable;
@@ -1752,6 +1761,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntrinsicHeight()I
@@ -1797,6 +1807,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntrinsicWidth()I
@@ -1842,6 +1853,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic getMinimumHeight()I
@@ -1872,6 +1884,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic getMinimumWidth()I
@@ -1902,6 +1915,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOpacity()I
@@ -1947,6 +1961,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic getPadding(Landroid/graphics/Rect;)Z
@@ -2012,6 +2027,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic getTransparentRegion()Landroid/graphics/Region;
@@ -2042,6 +2058,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public inflate(Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;)V
@@ -2306,6 +2323,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isRunning()Z
@@ -2353,6 +2371,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public isStateful()Z
@@ -2398,6 +2417,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic jumpToCurrentState()V
@@ -2426,6 +2446,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mutate()Landroid/graphics/drawable/Drawable;
@@ -2459,6 +2480,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onBoundsChange(Landroid/graphics/Rect;)V
@@ -3171,6 +3193,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public bridge synthetic setState([I)Z
@@ -3541,6 +3569,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public stop()V
@@ -3584,6 +3614,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public unregisterAnimationCallback(Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;)Z

@@ -131,6 +131,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getHolder(Landroid/view/ViewGroup;)Landroidx/transition/GhostViewHolder;
@@ -318,6 +319,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getParents(Landroid/view/View;Ljava/util/ArrayList;)V
@@ -706,6 +708,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onViewAdded(Landroid/view/View;)V
@@ -881,6 +884,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public popToOverlayTop()V
@@ -1000,4 +1004,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

@@ -40,18 +40,6 @@
 
 # virtual methods
 .method public abstract equalsRange(Landroidx/datastore/preferences/protobuf/ByteString;II)Z
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "other",
-            "offset",
-            "length"
-        }
-    .end annotation
 .end method
 
 .method public final getTreeDepth()I
@@ -98,19 +86,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public writeToReverse(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "byteOutput"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

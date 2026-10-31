@@ -164,6 +164,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCallingActivityIcon()Landroid/graphics/drawable/Drawable;
@@ -289,6 +290,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCallingApplicationIcon()Landroid/graphics/drawable/Drawable;
@@ -414,6 +417,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCallingApplicationLabel()Ljava/lang/CharSequence;
@@ -545,6 +550,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCallingPackage()Ljava/lang/String;
@@ -573,6 +580,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEmailBcc()[Ljava/lang/String;
@@ -607,6 +615,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEmailCc()[Ljava/lang/String;
@@ -641,6 +650,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEmailTo()[Ljava/lang/String;
@@ -675,6 +685,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHtmlText()Ljava/lang/String;
@@ -799,6 +810,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getStream()Landroid/net/Uri;
@@ -1031,6 +1044,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getSubject()Ljava/lang/String;
@@ -1065,6 +1080,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getText()Ljava/lang/CharSequence;
@@ -1099,6 +1115,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getType()Ljava/lang/String;
@@ -1131,6 +1148,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isMultipleShare()Z
@@ -1169,6 +1187,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isShareIntent()Z
@@ -1292,6 +1311,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isSingleShare()Z
@@ -1330,4 +1351,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

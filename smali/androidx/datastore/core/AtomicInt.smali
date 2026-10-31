@@ -5,9 +5,6 @@
 
 # instance fields
 .field private final delegate:Ljava/util/concurrent/atomic/AtomicInteger;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -27,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(IILkm/v;)V
+.method public synthetic constructor <init>(IILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p2, p2, 0x1
@@ -75,6 +72,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final get()I
@@ -107,6 +105,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getAndIncrement()I
@@ -139,6 +138,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final incrementAndGet()I
@@ -171,4 +171,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

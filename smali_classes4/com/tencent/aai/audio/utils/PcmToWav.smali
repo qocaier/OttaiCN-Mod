@@ -245,7 +245,7 @@
     :cond_4
     new-instance p0, Ljava/text/SimpleDateFormat;
 
-    const-string p1, "yyyy-MM-dd hh:mm"
+    const-string/jumbo p1, "yyyy-MM-dd hh:mm"
 
     invoke-direct {p0, p1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
@@ -552,7 +552,7 @@
     :goto_6
     new-instance p0, Ljava/text/SimpleDateFormat;
 
-    const-string p1, "yyyy-MM-dd hh:mm"
+    const-string/jumbo p1, "yyyy-MM-dd hh:mm"
 
     invoke-direct {p0, p1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 

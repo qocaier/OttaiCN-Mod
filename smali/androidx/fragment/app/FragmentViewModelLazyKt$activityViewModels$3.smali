@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/FragmentViewModelLazyKt;->activityViewModels(Landroidx/fragment/app/Fragment;Ljm/a;)Ljl/c0;
+    value = Landroidx/fragment/app/FragmentViewModelLazyKt;->activityViewModels(Landroidx/fragment/app/Fragment;Lq8/a;)Lkotlin/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,19 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Landroidx/lifecycle/ViewModelProvider$Factory;",
-        ">;"
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFragmentViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$3\n*L\n1#1,222:1\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nFragmentViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$3\n*L\n1#1,222:1\n*E\n"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -57,8 +45,6 @@
 # virtual methods
 .method public final invoke()Landroidx/lifecycle/ViewModelProvider$Factory;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$3;->$this_activityViewModels:Landroidx/fragment/app/Fragment;
@@ -73,7 +59,7 @@
 
     const-string v1, "requireActivity().defaultViewModelProviderFactory"
 
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object v0
 .end method

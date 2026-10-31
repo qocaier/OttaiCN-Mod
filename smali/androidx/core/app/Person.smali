@@ -150,6 +150,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static fromAndroidPerson(Landroid/app/Person;)Landroidx/core/app/Person;
@@ -358,6 +359,7 @@
 
     .line 78
     return-object p0
+    .line 79
 .end method
 
 .method public static fromPersistableBundle(Landroid/os/PersistableBundle;)Landroidx/core/app/Person;
@@ -772,6 +774,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public getIcon()Landroidx/core/graphics/drawable/IconCompat;
@@ -800,6 +807,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getKey()Ljava/lang/String;
@@ -828,6 +836,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getName()Ljava/lang/CharSequence;
@@ -856,6 +865,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUri()Ljava/lang/String;
@@ -884,6 +894,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -1019,6 +1030,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isBot()Z
@@ -1047,6 +1060,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isImportant()Z
@@ -1075,6 +1089,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public resolveToLegacyUri()Ljava/lang/String;
@@ -1202,6 +1217,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public toAndroidPerson()Landroid/app/Person;
@@ -1241,6 +1258,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toBuilder()Landroidx/core/app/Person$Builder;
@@ -1271,6 +1289,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toBundle()Landroid/os/Bundle;
@@ -1413,6 +1432,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public toPersistableBundle()Landroid/os/PersistableBundle;
@@ -1452,4 +1473,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

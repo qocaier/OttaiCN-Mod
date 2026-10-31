@@ -84,6 +84,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearNumber()Landroidx/datastore/preferences/protobuf/DescriptorProtos$ExtensionRangeOptions$Declaration$Builder;
@@ -118,6 +119,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearRepeated()Landroidx/datastore/preferences/protobuf/DescriptorProtos$ExtensionRangeOptions$Declaration$Builder;
@@ -152,6 +154,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearReserved()Landroidx/datastore/preferences/protobuf/DescriptorProtos$ExtensionRangeOptions$Declaration$Builder;
@@ -186,6 +189,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearType()Landroidx/datastore/preferences/protobuf/DescriptorProtos$ExtensionRangeOptions$Declaration$Builder;
@@ -220,6 +224,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFullName()Ljava/lang/String;
@@ -254,6 +259,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFullNameBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -288,6 +294,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNumber()I
@@ -322,6 +329,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRepeated()Z
@@ -356,6 +364,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getReserved()Z
@@ -390,6 +399,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getType()Ljava/lang/String;
@@ -424,6 +434,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTypeBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -458,6 +469,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasFullName()Z
@@ -492,6 +504,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasNumber()Z
@@ -526,6 +539,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasRepeated()Z
@@ -560,6 +574,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasReserved()Z
@@ -594,6 +609,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasType()Z
@@ -628,18 +644,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setFullName(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$ExtensionRangeOptions$Declaration$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -679,14 +688,6 @@
 
 .method public setFullNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$ExtensionRangeOptions$Declaration$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -726,14 +727,6 @@
 
 .method public setNumber(I)Landroidx/datastore/preferences/protobuf/DescriptorProtos$ExtensionRangeOptions$Declaration$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -773,14 +766,6 @@
 
 .method public setRepeated(Z)Landroidx/datastore/preferences/protobuf/DescriptorProtos$ExtensionRangeOptions$Declaration$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -820,14 +805,6 @@
 
 .method public setReserved(Z)Landroidx/datastore/preferences/protobuf/DescriptorProtos$ExtensionRangeOptions$Declaration$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -867,14 +844,6 @@
 
 .method public setType(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$ExtensionRangeOptions$Declaration$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -914,14 +883,6 @@
 
 .method public setTypeBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$ExtensionRangeOptions$Declaration$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V

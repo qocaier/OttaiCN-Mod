@@ -88,6 +88,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -118,6 +120,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getDateList()Ljava/util/List;
@@ -154,6 +158,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLabel()Ljava/lang/String;
@@ -182,6 +188,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderNo()Ljava/lang/String;
@@ -210,6 +218,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStatus()Ljava/lang/String;
@@ -238,6 +248,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUrl()Ljava/lang/String;
@@ -266,6 +278,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUser_name()Ljava/lang/String;
@@ -294,4 +308,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

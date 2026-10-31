@@ -25,9 +25,9 @@
 
 .field public static TextAppearance_Compat_Notification_Title:I = 0x7f1201f7
 
-.field public static Widget_Compat_NotificationActionContainer:I = 0x7f12035e
+.field public static Widget_Compat_NotificationActionContainer:I = 0x7f12035f
 
-.field public static Widget_Compat_NotificationActionText:I = 0x7f12035f
+.field public static Widget_Compat_NotificationActionText:I = 0x7f120360
 
 
 # direct methods

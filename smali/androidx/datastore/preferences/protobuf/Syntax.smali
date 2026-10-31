@@ -198,23 +198,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>(Ljava/lang/String;II)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000,
-            0x0
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)V"
@@ -339,18 +328,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static forNumber(I)Landroidx/datastore/preferences/protobuf/Syntax;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     if-eqz p0, :cond_2
@@ -441,6 +425,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static internalGetVerifier()Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
@@ -469,19 +454,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static valueOf(I)Landroidx/datastore/preferences/protobuf/Syntax;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -495,14 +472,6 @@
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Syntax;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8000
-        }
-        names = {
-            "name"
-        }
-    .end annotation
 
     .line 1
     const-class v0, Landroidx/datastore/preferences/protobuf/Syntax;
@@ -548,6 +517,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -591,4 +561,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -40,18 +40,6 @@
 # virtual methods
 .method public copyFrom([BII)[B
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "bytes",
-            "offset",
-            "size"
-        }
-    .end annotation
 
     .line 1
     add-int/2addr p3, p2
@@ -173,4 +161,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

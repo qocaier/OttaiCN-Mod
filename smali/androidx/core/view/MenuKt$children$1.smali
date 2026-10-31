@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lvm/m;
+.implements Lkotlin/sequences/g;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/MenuKt;->getChildren(Landroid/view/Menu;)Lvm/m;
+    value = Landroidx/core/view/MenuKt;->getChildren(Landroid/view/Menu;)Lkotlin/sequences/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lvm/m<",
-        "Landroid/view/MenuItem;",
-        ">;"
+        "Lkotlin/sequences/g;"
     }
 .end annotation
 
@@ -106,4 +104,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

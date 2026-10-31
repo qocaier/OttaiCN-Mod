@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -37,10 +37,6 @@
 # virtual methods
 .method public final getRawSidecarDevicePosture(Landroidx/window/sidecar/SidecarDeviceState;)I
     .locals 4
-    .param p1    # Landroidx/window/sidecar/SidecarDeviceState;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "BanUncheckedReflection"
@@ -55,7 +51,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -111,7 +107,7 @@
 
     .line 27
     .line 28
-    invoke-static {p1, v1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -177,21 +173,18 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getSidecarDevicePosture$window_release(Landroidx/window/sidecar/SidecarDeviceState;)I
     .locals 1
-    .param p1    # Landroidx/window/sidecar/SidecarDeviceState;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "sidecarDeviceState"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -239,10 +232,6 @@
 
 .method public final getSidecarDisplayFeatures(Landroidx/window/sidecar/SidecarWindowLayoutInfo;)Ljava/util/List;
     .locals 4
-    .param p1    # Landroidx/window/sidecar/SidecarWindowLayoutInfo;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "BanUncheckedReflection"
@@ -263,15 +252,12 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "info"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -285,7 +271,7 @@
 
     .line 9
     .line 10
-    invoke-static {}, Lll/h0;->J()Ljava/util/List;
+    invoke-static {}, Lkotlin/collections/r;->l()Ljava/util/List;
 
     .line 11
     .line 12
@@ -343,7 +329,7 @@
 
     .line 34
     .line 35
-    invoke-static {p1, v0}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -360,7 +346,7 @@
 
     .line 41
     :catch_1
-    invoke-static {}, Lll/h0;->J()Ljava/util/List;
+    invoke-static {}, Lkotlin/collections/r;->l()Ljava/util/List;
 
     .line 42
     .line 43
@@ -402,14 +388,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final setSidecarDevicePosture(Landroidx/window/sidecar/SidecarDeviceState;I)V
     .locals 3
-    .param p1    # Landroidx/window/sidecar/SidecarDeviceState;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "BanUncheckedReflection"
@@ -424,7 +407,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -514,14 +497,6 @@
 
 .method public final setSidecarDisplayFeatures(Landroidx/window/sidecar/SidecarWindowLayoutInfo;Ljava/util/List;)V
     .locals 3
-    .param p1    # Landroidx/window/sidecar/SidecarWindowLayoutInfo;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/util/List;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "BanUncheckedReflection"
@@ -546,7 +521,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -555,7 +530,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/ChannelsKt__DeprecatedKt;->e0(Lkotlinx/coroutines/channels/ReceiveChannel;Lkotlinx/coroutines/channels/k;Lul/c;)Ljava/lang/Object;
+    value = Lkotlinx/coroutines/channels/ChannelsKt__DeprecatedKt;->s(Lkotlinx/coroutines/channels/ReceiveChannel;Lkotlinx/coroutines/channels/s;Lkotlin/coroutines/e;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,38 +18,20 @@
         "<E:",
         "Ljava/lang/Object;",
         "C::",
-        "Lkotlinx/coroutines/channels/k<",
-        "-TE;>;>",
+        "Lkotlinx/coroutines/channels/s;",
+        ">",
         "Lkotlin/coroutines/jvm/internal/ContinuationImpl;"
     }
 .end annotation
 
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt"
     f = "Deprecated.kt"
-    i = {
-        0x0,
-        0x0,
-        0x1,
-        0x1
-    }
     l = {
         0x202,
         0x134
     }
     m = "toChannel"
-    n = {
-        "destination",
-        "$this$consume$iv$iv",
-        "destination",
-        "$this$consume$iv$iv"
-    }
-    s = {
-        "L$0",
-        "L$1",
-        "L$0",
-        "L$1"
-    }
 .end annotation
 
 
@@ -66,57 +48,25 @@
 
 
 # direct methods
-.method public constructor <init>(Lul/c;)V
+.method public constructor <init>(Lkotlin/coroutines/e;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Lkotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$toChannel$1;",
-            ">;)V"
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
-    .line 1
-    invoke-direct {p0, p1}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lul/c;)V
+    invoke-direct {p0, p1}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/e;)V
 
-    .line 2
-    .line 3
-    .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
 .end method
 
 
 # virtual methods
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     iput-object p1, p0, Lkotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$toChannel$1;->result:Ljava/lang/Object;
 
@@ -130,7 +80,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {p1, p1, p0}, Lhn/i;->e0(Lkotlinx/coroutines/channels/ReceiveChannel;Lkotlinx/coroutines/channels/k;Lul/c;)Ljava/lang/Object;
+    invoke-static {p1, p1, p0}, Lkotlinx/coroutines/channels/m;->s(Lkotlinx/coroutines/channels/ReceiveChannel;Lkotlinx/coroutines/channels/s;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 

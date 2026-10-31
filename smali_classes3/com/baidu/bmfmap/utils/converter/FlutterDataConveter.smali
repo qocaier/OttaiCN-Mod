@@ -32,7 +32,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static bmfRectToLatLngBounds(Lcom/baidu/mapapi/map/BaiduMap;Ljava/util/Map;)Lcom/baidu/mapapi/model/LatLngBounds;
@@ -450,54 +449,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public static bmfRectToWinRound(Ljava/util/Map;)Lcom/baidu/mapapi/map/WinRound;
@@ -1037,6 +988,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public static getColor(Ljava/lang/String;)Ljava/lang/Integer;
@@ -1086,7 +1069,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static getColors(Ljava/util/List;)Ljava/util/List;
@@ -1255,8 +1237,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static getIcon(Ljava/lang/String;)Lcom/baidu/mapapi/map/BitmapDescriptor;
@@ -1388,8 +1368,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static getIcons(Ljava/util/List;)Ljava/util/List;
@@ -1549,8 +1527,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static insetsToWinRound(Ljava/util/Map;)Lcom/baidu/mapapi/map/WinRound;
@@ -2098,6 +2074,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private static intToHexValue(I)Ljava/lang/String;
@@ -2231,8 +2239,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static latLngToMap(Lcom/baidu/mapapi/model/LatLng;)Ljava/util/Map;
@@ -2392,8 +2398,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static latlngBoundsToMap(Lcom/baidu/mapapi/model/LatLngBounds;)Ljava/util/Map;
@@ -2533,8 +2537,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static mapToLatlng(Ljava/util/Map;)Lcom/baidu/mapapi/model/LatLng;
@@ -2701,8 +2703,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static mapToLatlngBounds(Ljava/util/Map;)Lcom/baidu/mapapi/model/LatLngBounds;
@@ -2883,8 +2883,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static mapToLatlngs(Ljava/util/List;)Ljava/util/List;
@@ -3051,8 +3049,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static mapToPoint(Ljava/util/Map;)Landroid/graphics/Point;
@@ -3225,8 +3221,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static mapToWeightedLatLngList(Ljava/util/List;)Ljava/util/List;
@@ -3432,8 +3426,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static pointToMap(Landroid/graphics/Point;)Ljava/util/Map;
@@ -3577,8 +3569,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static strColorToInteger(Ljava/lang/String;)I
@@ -3743,8 +3733,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static toBaiduMapOptions(Ljava/lang/Object;)Lcom/baidu/mapapi/map/BaiduMapOptions;
@@ -4545,6 +4533,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public static toBoolean(Ljava/lang/Object;)Ljava/lang/Boolean;
@@ -4584,7 +4604,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static toDouble(Ljava/lang/Object;)Ljava/lang/Double;
@@ -4632,7 +4651,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static toFloat(Ljava/lang/Object;)Ljava/lang/Float;
@@ -4680,7 +4698,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static toGraphicsPoint(Ljava/lang/Object;)Landroid/graphics/Point;
@@ -4832,8 +4849,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static toInt(Ljava/lang/Object;)Ljava/lang/Integer;
@@ -4881,7 +4896,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static toLatLng(Ljava/lang/Object;)Lcom/baidu/mapapi/model/LatLng;
@@ -5031,8 +5045,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static toLatLngBounds(Ljava/lang/Object;)Lcom/baidu/mapapi/model/LatLngBounds;
@@ -5195,8 +5207,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static toList(Ljava/lang/Object;)Ljava/util/List;
@@ -5238,7 +5248,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static toMap(Ljava/lang/Object;)Ljava/util/Map;
@@ -5287,5 +5296,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

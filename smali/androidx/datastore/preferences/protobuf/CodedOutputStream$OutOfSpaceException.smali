@@ -34,14 +34,6 @@
 
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "explanationMessage"
-        }
-    .end annotation
 
     .line 2
     new-instance v0, Ljava/lang/StringBuilder;
@@ -65,16 +57,6 @@
 
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "explanationMessage",
-            "cause"
-        }
-    .end annotation
 
     .line 4
     new-instance v0, Ljava/lang/StringBuilder;
@@ -98,14 +80,6 @@
 
 .method public constructor <init>(Ljava/lang/Throwable;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "cause"
-        }
-    .end annotation
 
     .line 3
     const-string v0, "CodedOutputStream was writing to a flat byte array and ran out of space."

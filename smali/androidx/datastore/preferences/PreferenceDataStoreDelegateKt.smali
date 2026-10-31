@@ -3,31 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lim/j;
-    name = "PreferenceDataStoreDelegateKt"
-.end annotation
-
-
 # direct methods
-.method public static final preferencesDataStore(Ljava/lang/String;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljm/l;Lfn/i0;)Lqm/e;
+.method public static final preferencesDataStore(Ljava/lang/String;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lq8/l;Lkotlinx/coroutines/l0;)Ls8/a;
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Lfn/i0;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -35,26 +13,11 @@
             "Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler<",
             "Landroidx/datastore/preferences/core/Preferences;",
             ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/content/Context;",
-            "+",
-            "Ljava/util/List<",
-            "+",
-            "Landroidx/datastore/core/DataMigration<",
-            "Landroidx/datastore/preferences/core/Preferences;",
-            ">;>;>;",
-            "Lfn/i0;",
+            "Lq8/l;",
+            "Lkotlinx/coroutines/l0;",
             ")",
-            "Lqm/e<",
-            "Landroid/content/Context;",
-            "Landroidx/datastore/core/DataStore<",
-            "Landroidx/datastore/preferences/core/Preferences;",
-            ">;>;"
+            "Ls8/a;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -62,7 +25,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -71,7 +34,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -80,7 +43,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -89,7 +52,7 @@
 
     .line 17
     .line 18
-    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/PreferenceDataStoreSingletonDelegate;-><init>(Ljava/lang/String;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljm/l;Lfn/i0;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/PreferenceDataStoreSingletonDelegate;-><init>(Ljava/lang/String;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lq8/l;Lkotlinx/coroutines/l0;)V
 
     .line 19
     .line 20
@@ -304,9 +267,15 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static synthetic preferencesDataStore$default(Ljava/lang/String;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljm/l;Lfn/i0;ILjava/lang/Object;)Lqm/e;
+.method public static synthetic preferencesDataStore$default(Ljava/lang/String;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lq8/l;Lkotlinx/coroutines/l0;ILjava/lang/Object;)Ls8/a;
     .locals 1
 
     .line 1
@@ -346,7 +315,7 @@
 
     .line 16
     .line 17
-    invoke-static {}, Lfn/t0;->c()Lfn/f0;
+    invoke-static {}, Lkotlinx/coroutines/v0;->b()Lkotlinx/coroutines/h0;
 
     .line 18
     .line 19
@@ -357,7 +326,7 @@
     const/4 p4, 0x1
 
     .line 22
-    invoke-static {v0, p4, v0}, Lfn/r2;->c(Lkotlinx/coroutines/l;ILjava/lang/Object;)Lkotlinx/coroutines/f;
+    invoke-static {v0, p4, v0}, Lkotlinx/coroutines/k2;->b(Lkotlinx/coroutines/s1;ILjava/lang/Object;)Lkotlinx/coroutines/y;
 
     .line 23
     .line 24
@@ -365,7 +334,7 @@
     move-result-object p4
 
     .line 26
-    invoke-virtual {p3, p4}, Lkotlin/coroutines/a;->plus(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+    invoke-virtual {p3, p4}, Lkotlin/coroutines/a;->plus(Lkotlin/coroutines/i;)Lkotlin/coroutines/i;
 
     .line 27
     .line 28
@@ -373,7 +342,7 @@
     move-result-object p3
 
     .line 30
-    invoke-static {p3}, Lkotlinx/coroutines/h;->a(Lkotlin/coroutines/d;)Lfn/i0;
+    invoke-static {p3}, Lkotlinx/coroutines/m0;->a(Lkotlin/coroutines/i;)Lkotlinx/coroutines/l0;
 
     .line 31
     .line 32
@@ -382,7 +351,7 @@
 
     .line 34
     :cond_2
-    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/PreferenceDataStoreDelegateKt;->preferencesDataStore(Ljava/lang/String;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljm/l;Lfn/i0;)Lqm/e;
+    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/PreferenceDataStoreDelegateKt;->preferencesDataStore(Ljava/lang/String;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lq8/l;Lkotlinx/coroutines/l0;)Ls8/a;
 
     .line 35
     .line 36

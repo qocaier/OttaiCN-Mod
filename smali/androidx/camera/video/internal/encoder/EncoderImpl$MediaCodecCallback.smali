@@ -189,6 +189,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic a(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Landroid/media/MediaCodec$BufferInfo;Landroid/media/MediaCodec;I)V
@@ -355,11 +356,11 @@
     .line 77
     .line 78
     .line 79
-    new-instance v0, Lh0/s;
+    new-instance v0, Landroidx/camera/video/internal/encoder/g0;
 
     .line 80
     .line 81
-    invoke-direct {v0, v2}, Lh0/s;-><init>(Landroidx/camera/video/internal/encoder/EncoderCallback;)V
+    invoke-direct {v0, v2}, Landroidx/camera/video/internal/encoder/g0;-><init>(Landroidx/camera/video/internal/encoder/EncoderCallback;)V
 
     .line 82
     .line 83
@@ -665,11 +666,11 @@
 
     .line 229
     .line 230
-    new-instance p2, Landroidx/camera/video/internal/encoder/o;
+    new-instance p2, Landroidx/camera/video/internal/encoder/h0;
 
     .line 231
     .line 232
-    invoke-direct {p2, p0, v1, v2}, Landroidx/camera/video/internal/encoder/o;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Ljava/util/concurrent/Executor;Landroidx/camera/video/internal/encoder/EncoderCallback;)V
+    invoke-direct {p2, p0, v1, v2}, Landroidx/camera/video/internal/encoder/h0;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Ljava/util/concurrent/Executor;Landroidx/camera/video/internal/encoder/EncoderCallback;)V
 
     .line 233
     .line 234
@@ -3541,11 +3542,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Landroidx/camera/video/internal/encoder/q;
+    new-instance v0, Landroidx/camera/video/internal/encoder/j0;
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/camera/video/internal/encoder/q;-><init>(Landroid/media/MediaFormat;)V
+    invoke-direct {v0, p1}, Landroidx/camera/video/internal/encoder/j0;-><init>(Landroid/media/MediaFormat;)V
 
     .line 4
     .line 5
@@ -3627,11 +3628,11 @@
     .line 11
     .line 12
     .line 13
-    new-instance v0, Lh0/r;
+    new-instance v0, Landroidx/camera/video/internal/encoder/f0;
 
     .line 14
     .line 15
-    invoke-direct {v0, p2}, Lh0/r;-><init>(Landroidx/camera/video/internal/encoder/EncoderCallback;)V
+    invoke-direct {v0, p2}, Landroidx/camera/video/internal/encoder/f0;-><init>(Landroidx/camera/video/internal/encoder/EncoderCallback;)V
 
     .line 16
     .line 17
@@ -3750,6 +3751,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic f(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Landroid/media/MediaFormat;)V
@@ -3896,11 +3900,11 @@
 
     .line 69
     :try_start_1
-    new-instance v0, Landroidx/camera/video/internal/encoder/r;
+    new-instance v0, Landroidx/camera/video/internal/encoder/k0;
 
     .line 70
     .line 71
-    invoke-direct {v0, v2, p1}, Landroidx/camera/video/internal/encoder/r;-><init>(Landroidx/camera/video/internal/encoder/EncoderCallback;Landroid/media/MediaFormat;)V
+    invoke-direct {v0, v2, p1}, Landroidx/camera/video/internal/encoder/k0;-><init>(Landroidx/camera/video/internal/encoder/EncoderCallback;Landroid/media/MediaFormat;)V
 
     .line 72
     .line 73
@@ -4109,6 +4113,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic g(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;I)V
@@ -4432,6 +4439,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic h(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Landroid/media/MediaCodec$CodecException;)V
@@ -4732,6 +4742,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private isEndOfStream(Landroid/media/MediaCodec$BufferInfo;)Z
@@ -4909,6 +4922,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private resolveOutputBufferInfo(Landroid/media/MediaCodec$BufferInfo;)Landroid/media/MediaCodec$BufferInfo;
@@ -5042,6 +5056,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private sendEncodedData(Landroidx/camera/video/internal/encoder/EncodedDataImpl;Landroidx/camera/video/internal/encoder/EncoderCallback;Ljava/util/concurrent/Executor;)V
@@ -5073,7 +5088,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/camera/video/internal/encoder/EncodedDataImpl;->getClosedFuture()Lub/u0;
+    invoke-virtual {p1}, Landroidx/camera/video/internal/encoder/EncodedDataImpl;->getClosedFuture()Lcom/google/common/util/concurrent/t;
 
     .line 9
     .line 10
@@ -5098,17 +5113,17 @@
 
     .line 20
     .line 21
-    invoke-static {v0, v1, v2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {v0, v1, v2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 22
     .line 23
     .line 24
     :try_start_0
-    new-instance v0, Landroidx/camera/video/internal/encoder/p;
+    new-instance v0, Landroidx/camera/video/internal/encoder/i0;
 
     .line 25
     .line 26
-    invoke-direct {v0, p2, p1}, Landroidx/camera/video/internal/encoder/p;-><init>(Landroidx/camera/video/internal/encoder/EncoderCallback;Landroidx/camera/video/internal/encoder/EncodedDataImpl;)V
+    invoke-direct {v0, p2, p1}, Landroidx/camera/video/internal/encoder/i0;-><init>(Landroidx/camera/video/internal/encoder/EncoderCallback;Landroidx/camera/video/internal/encoder/EncodedDataImpl;)V
 
     .line 27
     .line 28
@@ -5217,6 +5232,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private updatePauseRangeStateAndCheckIfBufferPaused(Landroid/media/MediaCodec$BufferInfo;)Z
@@ -5329,11 +5347,11 @@
     .line 48
     .line 49
     .line 50
-    new-instance v4, Lh0/t;
+    new-instance v4, Landroidx/camera/video/internal/encoder/l0;
 
     .line 51
     .line 52
-    invoke-direct {v4, v0}, Lh0/t;-><init>(Landroidx/camera/video/internal/encoder/EncoderCallback;)V
+    invoke-direct {v4, v0}, Landroidx/camera/video/internal/encoder/l0;-><init>(Landroidx/camera/video/internal/encoder/EncoderCallback;)V
 
     .line 53
     .line 54
@@ -5659,6 +5677,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
@@ -5683,11 +5706,11 @@
 
     .line 4
     .line 5
-    new-instance v0, Landroidx/camera/video/internal/encoder/s;
+    new-instance v0, Landroidx/camera/video/internal/encoder/m0;
 
     .line 6
     .line 7
-    invoke-direct {v0, p0, p2}, Landroidx/camera/video/internal/encoder/s;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Landroid/media/MediaCodec$CodecException;)V
+    invoke-direct {v0, p0, p2}, Landroidx/camera/video/internal/encoder/m0;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Landroid/media/MediaCodec$CodecException;)V
 
     .line 8
     .line 9
@@ -5751,11 +5774,11 @@
 
     .line 4
     .line 5
-    new-instance v0, Landroidx/camera/video/internal/encoder/l;
+    new-instance v0, Landroidx/camera/video/internal/encoder/c0;
 
     .line 6
     .line 7
-    invoke-direct {v0, p0, p2}, Landroidx/camera/video/internal/encoder/l;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;I)V
+    invoke-direct {v0, p0, p2}, Landroidx/camera/video/internal/encoder/c0;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;I)V
 
     .line 8
     .line 9
@@ -5823,11 +5846,11 @@
 
     .line 4
     .line 5
-    new-instance v1, Landroidx/camera/video/internal/encoder/n;
+    new-instance v1, Landroidx/camera/video/internal/encoder/e0;
 
     .line 6
     .line 7
-    invoke-direct {v1, p0, p3, p1, p2}, Landroidx/camera/video/internal/encoder/n;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Landroid/media/MediaCodec$BufferInfo;Landroid/media/MediaCodec;I)V
+    invoke-direct {v1, p0, p3, p1, p2}, Landroidx/camera/video/internal/encoder/e0;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Landroid/media/MediaCodec$BufferInfo;Landroid/media/MediaCodec;I)V
 
     .line 8
     .line 9
@@ -5938,6 +5961,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onOutputFormatChanged(Landroid/media/MediaCodec;Landroid/media/MediaFormat;)V
@@ -5960,11 +5986,11 @@
 
     .line 4
     .line 5
-    new-instance v0, Landroidx/camera/video/internal/encoder/m;
+    new-instance v0, Landroidx/camera/video/internal/encoder/d0;
 
     .line 6
     .line 7
-    invoke-direct {v0, p0, p2}, Landroidx/camera/video/internal/encoder/m;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Landroid/media/MediaFormat;)V
+    invoke-direct {v0, p0, p2}, Landroidx/camera/video/internal/encoder/d0;-><init>(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Landroid/media/MediaFormat;)V
 
     .line 8
     .line 9
@@ -6040,4 +6066,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

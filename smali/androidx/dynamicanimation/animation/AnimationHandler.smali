@@ -91,6 +91,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -209,6 +210,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private cleanUpList()V
@@ -337,6 +340,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getFrameTime()J
@@ -384,6 +389,7 @@
     .line 19
     .line 20
     return-wide v0
+    .line 21
 .end method
 
 .method public static getInstance()Landroidx/dynamicanimation/animation/AnimationHandler;
@@ -495,6 +501,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private isCallbackDue(Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallback;J)Z
@@ -871,6 +879,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public doAnimationFrame(J)V
@@ -1000,6 +1011,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getProvider()Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallbackProvider;
@@ -1041,6 +1053,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeCallback(Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallback;)V

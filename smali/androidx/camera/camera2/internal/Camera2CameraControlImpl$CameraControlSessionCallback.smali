@@ -237,11 +237,11 @@
 
     .line 2
     .line 3
-    new-instance p2, Landroidx/camera/camera2/internal/d;
+    new-instance p2, Landroidx/camera/camera2/internal/q;
 
     .line 4
     .line 5
-    invoke-direct {p2, p0, p3}, Landroidx/camera/camera2/internal/d;-><init>(Landroidx/camera/camera2/internal/Camera2CameraControlImpl$CameraControlSessionCallback;Landroid/hardware/camera2/TotalCaptureResult;)V
+    invoke-direct {p2, p0, p3}, Landroidx/camera/camera2/internal/q;-><init>(Landroidx/camera/camera2/internal/Camera2CameraControlImpl$CameraControlSessionCallback;Landroid/hardware/camera2/TotalCaptureResult;)V
 
     .line 6
     .line 7
@@ -354,6 +354,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public removeListener(Landroidx/camera/camera2/internal/Camera2CameraControlImpl$CaptureResultListener;)V

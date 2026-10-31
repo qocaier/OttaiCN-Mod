@@ -132,6 +132,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -416,7 +417,7 @@
     if-eqz p2, :cond_c
 
     .line 28
-    invoke-static {p1, v0}, Le5/a;->a(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-static {p1, v0}, Lcom/baidu/location/a;->a(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
 
     goto :goto_4
 

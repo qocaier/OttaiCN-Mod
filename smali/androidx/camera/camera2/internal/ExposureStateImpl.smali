@@ -135,6 +135,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExposureCompensationRange()Landroid/util/Range;
@@ -182,6 +183,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExposureCompensationStep()Landroid/util/Rational;
@@ -231,6 +233,7 @@
     .line 19
     .line 20
     return-object v0
+    .line 21
 .end method
 
 .method public isExposureCompensationSupported()Z
@@ -364,6 +367,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setExposureCompensationIndex(I)V

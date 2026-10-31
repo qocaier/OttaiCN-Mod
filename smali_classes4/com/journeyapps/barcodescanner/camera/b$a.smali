@@ -18,9 +18,9 @@
 
 
 # instance fields
-.field public a:Lqf/p;
+.field public a:Lc6/m;
 
-.field public b:Lpf/v;
+.field public b:Lcom/journeyapps/barcodescanner/v;
 
 .field public final synthetic c:Lcom/journeyapps/barcodescanner/camera/b;
 
@@ -59,15 +59,17 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
 # virtual methods
-.method public a(Lqf/p;)V
+.method public a(Lc6/m;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b$a;->a:Lqf/p;
+    iput-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b$a;->a:Lc6/m;
 
     .line 2
     .line 3
@@ -94,13 +96,15 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public b(Lpf/v;)V
+.method public b(Lcom/journeyapps/barcodescanner/v;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b$a;->b:Lpf/v;
+    iput-object p1, p0, Lcom/journeyapps/barcodescanner/camera/b$a;->b:Lcom/journeyapps/barcodescanner/v;
 
     .line 2
     .line 3
@@ -127,17 +131,19 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onPreviewFrame([BLandroid/hardware/Camera;)V
     .locals 8
 
     .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b$a;->b:Lpf/v;
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/camera/b$a;->b:Lcom/journeyapps/barcodescanner/v;
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b$a;->a:Lqf/p;
+    iget-object v1, p0, Lcom/journeyapps/barcodescanner/camera/b$a;->a:Lc6/m;
 
     .line 4
     .line 5
@@ -170,15 +176,15 @@
     move-result v6
 
     .line 19
-    new-instance v2, Lpf/w;
+    new-instance v2, Lcom/journeyapps/barcodescanner/w;
 
     .line 20
     .line 21
-    iget v4, v0, Lpf/v;->a:I
+    iget v4, v0, Lcom/journeyapps/barcodescanner/v;->a:I
 
     .line 22
     .line 23
-    iget v5, v0, Lpf/v;->b:I
+    iget v5, v0, Lcom/journeyapps/barcodescanner/v;->b:I
 
     .line 24
     .line 25
@@ -186,7 +192,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {p2}, Lcom/journeyapps/barcodescanner/camera/b;->h()I
+    invoke-virtual {p2}, Lcom/journeyapps/barcodescanner/camera/b;->f()I
 
     .line 28
     .line 29
@@ -197,7 +203,7 @@
     move-object v3, p1
 
     .line 32
-    invoke-direct/range {v2 .. v7}, Lpf/w;-><init>([BIIII)V
+    invoke-direct/range {v2 .. v7}, Lcom/journeyapps/barcodescanner/w;-><init>([BIIII)V
 
     .line 33
     .line 34
@@ -225,7 +231,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {v2, p2}, Lpf/w;->n(Z)V
+    invoke-virtual {v2, p2}, Lcom/journeyapps/barcodescanner/w;->e(Z)V
 
     .line 47
     .line 48
@@ -245,7 +251,7 @@
     .line 53
     :cond_0
     :goto_0
-    invoke-interface {v1, v2}, Lqf/p;->b(Lpf/w;)V
+    invoke-interface {v1, v2}, Lc6/m;->a(Lcom/journeyapps/barcodescanner/w;)V
 
     .line 54
     .line 55
@@ -290,7 +296,7 @@
     .line 72
     .line 73
     .line 74
-    invoke-interface {v1, p1}, Lqf/p;->a(Ljava/lang/Exception;)V
+    invoke-interface {v1, p1}, Lc6/m;->b(Ljava/lang/Exception;)V
 
     .line 75
     .line 76
@@ -333,7 +339,7 @@
     .line 94
     .line 95
     .line 96
-    invoke-interface {v1, p1}, Lqf/p;->a(Ljava/lang/Exception;)V
+    invoke-interface {v1, p1}, Lc6/m;->b(Ljava/lang/Exception;)V
 
     .line 97
     .line 98
@@ -505,4 +511,34 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method

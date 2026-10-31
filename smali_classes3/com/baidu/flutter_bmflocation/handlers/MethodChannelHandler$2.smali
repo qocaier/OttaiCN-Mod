@@ -34,18 +34,6 @@
 # direct methods
 .method public constructor <init>(Lcom/baidu/flutter_bmflocation/handlers/MethodChannelHandler;Ljava/lang/Object;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010,
-            0x1010
-        }
-        names = {
-            null,
-            null,
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/baidu/flutter_bmflocation/handlers/MethodChannelHandler$2;->this$0:Lcom/baidu/flutter_bmflocation/handlers/MethodChannelHandler;
@@ -215,9 +203,4 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method

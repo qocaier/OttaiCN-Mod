@@ -13,22 +13,9 @@
     name = "TransitionEffect"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDefaultSpecialEffectsController.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DefaultSpecialEffectsController.kt\nandroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1129:1\n1726#2,3:1130\n1726#2,3:1133\n1855#2,2:1136\n1549#2:1138\n1620#2,3:1139\n1855#2,2:1142\n1855#2,2:1145\n1549#2:1147\n1620#2,3:1148\n1855#2,2:1151\n1#3:1144\n*S KotlinDebug\n*F\n+ 1 DefaultSpecialEffectsController.kt\nandroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect\n*L\n722#1:1130,3\n731#1:1133,3\n739#1:1136,2\n768#1:1138\n768#1:1139,3\n768#1:1142,2\n824#1:1145,2\n845#1:1147\n845#1:1148,3\n845#1:1151,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nDefaultSpecialEffectsController.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DefaultSpecialEffectsController.kt\nandroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,1129:1\n1726#2,3:1130\n1726#2,3:1133\n1855#2,2:1136\n1549#2:1138\n1620#2,3:1139\n1855#2,2:1142\n1855#2,2:1145\n1549#2:1147\n1620#2,3:1148\n1855#2,2:1151\n1#3:1144\n*S KotlinDebug\n*F\n+ 1 DefaultSpecialEffectsController.kt\nandroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect\n*L\n722#1:1130,3\n731#1:1133,3\n739#1:1136,2\n768#1:1138\n768#1:1139,3\n768#1:1142,2\n824#1:1145,2\n845#1:1147\n845#1:1148,3\n845#1:1151,2\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private controller:Ljava/lang/Object;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final enteringNames:Ljava/util/ArrayList;
     .annotation system Ldalvik/annotation/Signature;
@@ -37,9 +24,6 @@
             "Ljava/lang/String;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -51,15 +35,9 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final firstOut:Landroidx/fragment/app/SpecialEffectsController$Operation;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final firstOutViews:Landroidx/collection/ArrayMap;
     .annotation system Ldalvik/annotation/Signature;
@@ -70,17 +48,11 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final isPop:Z
 
 .field private final lastIn:Landroidx/fragment/app/SpecialEffectsController$Operation;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final lastInViews:Landroidx/collection/ArrayMap;
     .annotation system Ldalvik/annotation/Signature;
@@ -90,9 +62,6 @@
             "Landroid/view/View;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -104,9 +73,6 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final sharedElementLastInViews:Ljava/util/ArrayList;
@@ -116,9 +82,6 @@
             "Landroid/view/View;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -131,20 +94,11 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final sharedElementTransition:Ljava/lang/Object;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final transitionImpl:Landroidx/fragment/app/FragmentTransitionImpl;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final transitionInfos:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -154,68 +108,14 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final transitionSignal:Landroidx/core/os/CancellationSignal;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/util/List;Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/FragmentTransitionImpl;Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/ArrayList;Landroidx/collection/ArrayMap;Ljava/util/ArrayList;Ljava/util/ArrayList;Landroidx/collection/ArrayMap;Landroidx/collection/ArrayMap;Z)V
     .locals 1
-    .param p1    # Ljava/util/List;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/fragment/app/SpecialEffectsController$Operation;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p3    # Landroidx/fragment/app/SpecialEffectsController$Operation;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p4    # Landroidx/fragment/app/FragmentTransitionImpl;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p6    # Ljava/util/ArrayList;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p7    # Ljava/util/ArrayList;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p8    # Landroidx/collection/ArrayMap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p9    # Ljava/util/ArrayList;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p10    # Ljava/util/ArrayList;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p11    # Landroidx/collection/ArrayMap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p12    # Landroidx/collection/ArrayMap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -255,39 +155,39 @@
 
     const-string v0, "transitionInfos"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transitionImpl"
 
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "sharedElementFirstOutViews"
 
-    invoke-static {p6, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p6, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "sharedElementLastInViews"
 
-    invoke-static {p7, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p7, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "sharedElementNameMapping"
 
-    invoke-static {p8, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p8, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "enteringNames"
 
-    invoke-static {p9, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p9, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "exitingNames"
 
-    invoke-static {p10, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p10, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "firstOutViews"
 
-    invoke-static {p11, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p11, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "lastInViews"
 
-    invoke-static {p12, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p12, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Landroidx/fragment/app/SpecialEffectsController$Effect;-><init>()V
@@ -470,7 +370,7 @@
 
     .line 42
     .line 43
-    invoke-static {v2, v3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -680,6 +580,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private final createMergedTransition(Landroid/view/ViewGroup;Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/SpecialEffectsController$Operation;)Lkotlin/Pair;
@@ -866,11 +769,11 @@
     .line 80
     .line 81
     .line 82
-    new-instance v11, Landroidx/fragment/app/b;
+    new-instance v11, Landroidx/fragment/app/c;
 
     .line 83
     .line 84
-    invoke-direct {v11, v2, v3, v0}, Landroidx/fragment/app/b;-><init>(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;)V
+    invoke-direct {v11, v2, v3, v0}, Landroidx/fragment/app/c;-><init>(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;)V
 
     .line 85
     .line 86
@@ -933,7 +836,7 @@
 
     .line 116
     .line 117
-    invoke-static {v9, v11}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v9, v11}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 118
     .line 119
@@ -1025,7 +928,7 @@
 
     .line 163
     .line 164
-    invoke-static {v11, v12}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v11, v12}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 165
     .line 166
@@ -1058,11 +961,11 @@
 
     .line 180
     .line 181
-    new-instance v12, Landroidx/fragment/app/c;
+    new-instance v12, Landroidx/fragment/app/d;
 
     .line 182
     .line 183
-    invoke-direct {v12, v10, v11, v5}, Landroidx/fragment/app/c;-><init>(Landroidx/fragment/app/FragmentTransitionImpl;Landroid/view/View;Landroid/graphics/Rect;)V
+    invoke-direct {v12, v10, v11, v5}, Landroidx/fragment/app/d;-><init>(Landroidx/fragment/app/FragmentTransitionImpl;Landroid/view/View;Landroid/graphics/Rect;)V
 
     .line 184
     .line 185
@@ -1268,7 +1171,7 @@
 
     .line 285
     .line 286
-    invoke-static {v11, v14}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v11, v14}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 287
     .line 288
@@ -1303,7 +1206,7 @@
 
     .line 303
     .line 304
-    invoke-static {v11}, Lll/r0;->f6(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {v11}, Lkotlin/collections/z;->j0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 305
     .line 306
@@ -1324,7 +1227,7 @@
 
     .line 313
     .line 314
-    invoke-static {v11}, Lll/r0;->f6(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {v11}, Lkotlin/collections/z;->j0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 315
     .line 316
@@ -1485,11 +1388,11 @@
     .line 394
     .line 395
     .line 396
-    new-instance v2, Landroidx/fragment/app/d;
+    new-instance v2, Landroidx/fragment/app/e;
 
     .line 397
     .line 398
-    invoke-direct {v2, v10}, Landroidx/fragment/app/d;-><init>(Ljava/util/ArrayList;)V
+    invoke-direct {v2, v10}, Landroidx/fragment/app/e;-><init>(Ljava/util/ArrayList;)V
 
     .line 399
     .line 400
@@ -1630,7 +1533,7 @@
     move-result-object v7
 
     .line 471
-    invoke-static {v7, v14}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v14}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 472
     .line 473
@@ -1770,7 +1673,7 @@
     move-result-object v7
 
     .line 545
-    invoke-static {v7, v14}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v7, v14}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 546
     .line 547
@@ -2255,6 +2158,169 @@
     .line 926
     .line 927
     .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
 .end method
 
 .method private static final createMergedTransition$lambda$12(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;)V
@@ -2265,7 +2331,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2394,6 +2460,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static final createMergedTransition$lambda$13(Landroidx/fragment/app/FragmentTransitionImpl;Landroid/view/View;Landroid/graphics/Rect;)V
@@ -2404,7 +2473,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2413,7 +2482,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -2523,6 +2592,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static final createMergedTransition$lambda$14(Ljava/util/ArrayList;)V
@@ -2533,7 +2605,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2605,7 +2677,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2614,7 +2686,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -2700,7 +2772,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2709,7 +2781,7 @@
 
     .line 7
     .line 8
-    check-cast p0, Ljm/a;
+    check-cast p0, Lq8/a;
 
     .line 9
     .line 10
@@ -2717,7 +2789,7 @@
 
     .line 11
     .line 12
-    invoke-interface {p0}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p0}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -2744,7 +2816,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2753,7 +2825,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -2831,7 +2903,7 @@
     return-void
 .end method
 
-.method private final runTransition(Ljava/util/ArrayList;Landroid/view/ViewGroup;Ljm/a;)V
+.method private final runTransition(Ljava/util/ArrayList;Landroid/view/ViewGroup;Lq8/a;)V
     .locals 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -2840,9 +2912,8 @@
             "Landroid/view/View;",
             ">;",
             "Landroid/view/ViewGroup;",
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/a;",
+            ")V"
         }
     .end annotation
 
@@ -2953,7 +3024,7 @@
 
     .line 53
     .line 54
-    invoke-static {v2, v5}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v5}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -3062,7 +3133,7 @@
 
     .line 110
     .line 111
-    invoke-static {v2, v5}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v5}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 112
     .line 113
@@ -3125,7 +3196,7 @@
 
     .line 145
     :cond_1
-    invoke-interface {p3}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p3}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 146
     .line 147
@@ -3937,14 +4008,175 @@
     .line 926
     .line 927
     .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
 .end method
 
 
 # virtual methods
 .method public final getController()Ljava/lang/Object;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->controller:Ljava/lang/Object;
@@ -3969,6 +4201,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getEnteringNames()Ljava/util/ArrayList;
@@ -3980,9 +4213,6 @@
             "Ljava/lang/String;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -4008,6 +4238,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getExitingNames()Ljava/util/ArrayList;
@@ -4019,9 +4250,6 @@
             "Ljava/lang/String;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -4047,12 +4275,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getFirstOut()Landroidx/fragment/app/SpecialEffectsController$Operation;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->firstOut:Landroidx/fragment/app/SpecialEffectsController$Operation;
@@ -4077,6 +4304,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getFirstOutViews()Landroidx/collection/ArrayMap;
@@ -4089,9 +4317,6 @@
             "Landroid/view/View;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -4117,12 +4342,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getLastIn()Landroidx/fragment/app/SpecialEffectsController$Operation;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->lastIn:Landroidx/fragment/app/SpecialEffectsController$Operation;
@@ -4147,6 +4371,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getLastInViews()Landroidx/collection/ArrayMap;
@@ -4159,9 +4384,6 @@
             "Landroid/view/View;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -4187,6 +4409,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getSharedElementFirstOutViews()Ljava/util/ArrayList;
@@ -4198,9 +4421,6 @@
             "Landroid/view/View;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -4226,6 +4446,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getSharedElementLastInViews()Ljava/util/ArrayList;
@@ -4237,9 +4458,6 @@
             "Landroid/view/View;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -4265,6 +4483,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getSharedElementNameMapping()Landroidx/collection/ArrayMap;
@@ -4277,9 +4496,6 @@
             "Ljava/lang/String;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -4305,12 +4521,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getSharedElementTransition()Ljava/lang/Object;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->sharedElementTransition:Ljava/lang/Object;
@@ -4335,12 +4550,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getTransitionImpl()Landroidx/fragment/app/FragmentTransitionImpl;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->transitionImpl:Landroidx/fragment/app/FragmentTransitionImpl;
@@ -4365,6 +4579,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getTransitionInfos()Ljava/util/List;
@@ -4376,9 +4591,6 @@
             "Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionInfo;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -4404,12 +4616,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getTransitionSignal()Landroidx/core/os/CancellationSignal;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->transitionSignal:Landroidx/core/os/CancellationSignal;
@@ -4434,6 +4645,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getTransitioning()Z
@@ -4581,6 +4793,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final isPop()Z
@@ -4609,6 +4823,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSeekingSupported()Z
@@ -4793,21 +5008,19 @@
     .line 83
     return v0
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onCancel(Landroid/view/ViewGroup;)V
     .locals 1
-    .param p1    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "container"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -4840,17 +5053,13 @@
 
 .method public onCommit(Landroid/view/ViewGroup;)V
     .locals 11
-    .param p1    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "container"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -5019,7 +5228,7 @@
 
     .line 88
     .line 89
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 90
     .line 91
@@ -5151,7 +5360,7 @@
 
     .line 157
     .line 158
-    invoke-static {v5, v7}, Lll/i0;->d0(Ljava/lang/Iterable;I)I
+    invoke-static {v5, v7}, Lkotlin/collections/s;->v(Ljava/lang/Iterable;I)I
 
     .line 159
     .line 160
@@ -5263,11 +5472,11 @@
 
     .line 212
     .line 213
-    new-instance v10, Landroidx/fragment/app/g;
+    new-instance v10, Landroidx/fragment/app/h;
 
     .line 214
     .line 215
-    invoke-direct {v10, v6, p0}, Landroidx/fragment/app/g;-><init>(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;)V
+    invoke-direct {v10, v6, p0}, Landroidx/fragment/app/h;-><init>(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;)V
 
     .line 216
     .line 217
@@ -5290,7 +5499,7 @@
     .line 225
     .line 226
     .line 227
-    invoke-direct {p0, v4, p1, v5}, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->runTransition(Ljava/util/ArrayList;Landroid/view/ViewGroup;Ljm/a;)V
+    invoke-direct {p0, v4, p1, v5}, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->runTransition(Ljava/util/ArrayList;Landroid/view/ViewGroup;Lq8/a;)V
 
     .line 228
     .line 229
@@ -6499,21 +6708,13 @@
 
 .method public onProgress(Landroidx/activity/BackEventCompat;Landroid/view/ViewGroup;)V
     .locals 1
-    .param p1    # Landroidx/activity/BackEventCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "backEvent"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -6522,7 +6723,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -6582,17 +6783,13 @@
 
 .method public onStart(Landroid/view/ViewGroup;)V
     .locals 10
-    .param p1    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "container"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -6935,7 +7132,7 @@
 
     .line 179
     .line 180
-    invoke-static {v1, v4}, Lll/i0;->d0(Ljava/lang/Iterable;I)I
+    invoke-static {v1, v4}, Lkotlin/collections/s;->v(Ljava/lang/Iterable;I)I
 
     .line 181
     .line 182
@@ -7031,11 +7228,11 @@
 
     .line 226
     .line 227
-    new-instance v7, Landroidx/fragment/app/e;
+    new-instance v7, Landroidx/fragment/app/f;
 
     .line 228
     .line 229
-    invoke-direct {v7, v0}, Landroidx/fragment/app/e;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;)V
+    invoke-direct {v7, v0}, Landroidx/fragment/app/f;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;)V
 
     .line 230
     .line 231
@@ -7068,11 +7265,11 @@
     move-object v9, v8
 
     .line 244
-    new-instance v8, Landroidx/fragment/app/f;
+    new-instance v8, Landroidx/fragment/app/g;
 
     .line 245
     .line 246
-    invoke-direct {v8, v9, p0}, Landroidx/fragment/app/f;-><init>(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;)V
+    invoke-direct {v8, v9, p0}, Landroidx/fragment/app/g;-><init>(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;)V
 
     .line 247
     .line 248
@@ -7095,7 +7292,7 @@
     .line 256
     .line 257
     .line 258
-    invoke-direct {p0, v2, p1, v1}, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->runTransition(Ljava/util/ArrayList;Landroid/view/ViewGroup;Ljm/a;)V
+    invoke-direct {p0, v2, p1, v1}, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->runTransition(Ljava/util/ArrayList;Landroid/view/ViewGroup;Lq8/a;)V
 
     .line 259
     .line 260
@@ -8243,10 +8440,6 @@
 
 .method public final setController(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->controller:Ljava/lang/Object;

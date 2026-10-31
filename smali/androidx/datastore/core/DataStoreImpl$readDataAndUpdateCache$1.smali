@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/DataStoreImpl;->readDataAndUpdateCache(ZLul/c;)Ljava/lang/Object;
+    value = Landroidx/datastore/core/DataStoreImpl;->readDataAndUpdateCache(ZLkotlin/coroutines/e;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,36 +13,15 @@
     name = null
 .end annotation
 
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "androidx.datastore.core.DataStoreImpl"
     f = "DataStoreImpl.kt"
-    i = {
-        0x0,
-        0x0,
-        0x0,
-        0x1,
-        0x2
-    }
     l = {
         0x11f,
         0x128,
         0x130
     }
     m = "readDataAndUpdateCache"
-    n = {
-        "this",
-        "currentState",
-        "requireLock",
-        "this",
-        "this"
-    }
-    s = {
-        "L$0",
-        "L$1",
-        "Z$0",
-        "L$0",
-        "L$0"
-    }
 .end annotation
 
 
@@ -68,85 +47,29 @@
 
 
 # direct methods
-.method public constructor <init>(Landroidx/datastore/core/DataStoreImpl;Lul/c;)V
+.method public constructor <init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/datastore/core/DataStoreImpl<",
             "TT;>;",
-            "Lul/c<",
-            "-",
-            "Landroidx/datastore/core/DataStoreImpl$readDataAndUpdateCache$1;",
-            ">;)V"
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl$readDataAndUpdateCache$1;->this$0:Landroidx/datastore/core/DataStoreImpl;
 
-    .line 2
-    .line 3
-    invoke-direct {p0, p2}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lul/c;)V
+    invoke-direct {p0, p2}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/e;)V
 
-    .line 4
-    .line 5
-    .line 6
     return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
 .end method
 
 
 # virtual methods
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl$readDataAndUpdateCache$1;->result:Ljava/lang/Object;
 
@@ -162,7 +85,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {p1, v0, p0}, Landroidx/datastore/core/DataStoreImpl;->access$readDataAndUpdateCache(Landroidx/datastore/core/DataStoreImpl;ZLul/c;)Ljava/lang/Object;
+    invoke-static {p1, v0, p0}, Landroidx/datastore/core/DataStoreImpl;->access$readDataAndUpdateCache(Landroidx/datastore/core/DataStoreImpl;ZLkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 

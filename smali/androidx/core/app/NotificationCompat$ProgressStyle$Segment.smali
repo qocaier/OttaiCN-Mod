@@ -102,6 +102,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getId()I
@@ -130,6 +131,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLength()I
@@ -161,6 +163,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setColor(I)Landroidx/core/app/NotificationCompat$ProgressStyle$Segment;

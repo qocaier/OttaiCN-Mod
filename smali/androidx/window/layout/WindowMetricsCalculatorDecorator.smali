@@ -13,10 +13,4 @@
 
 # virtual methods
 .method public abstract decorate(Landroidx/window/layout/WindowMetricsCalculator;)Landroidx/window/layout/WindowMetricsCalculator;
-    .param p1    # Landroidx/window/layout/WindowMetricsCalculator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 .end method

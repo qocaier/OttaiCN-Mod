@@ -283,6 +283,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private getCallbackBinderAssertNotNull()Landroid/os/IBinder;
@@ -326,6 +327,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -475,6 +477,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getCallback()Landroidx/browser/auth/AuthTabCallback;
@@ -503,6 +506,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCallbackBinder()Landroid/os/IBinder;
@@ -547,6 +551,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getId()Landroid/app/PendingIntent;
@@ -575,6 +580,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasId()Z
@@ -612,6 +618,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -657,6 +664,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isAssociatedWith(Landroidx/browser/auth/AuthTabSession;)Z

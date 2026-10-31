@@ -3,8 +3,8 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljn/f;
-.implements Lxl/c;
+.implements Lkotlinx/coroutines/flow/d;
+.implements Lk8/c;
 
 
 # annotations
@@ -14,95 +14,50 @@
         "Ljava/lang/Object;",
         ">",
         "Lkotlin/coroutines/jvm/internal/ContinuationImpl;",
-        "Ljn/f<",
-        "TT;>;",
-        "Lxl/c;"
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSafeCollector.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeCollector.kt\nkotlinx/coroutines/flow/internal/SafeCollector\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,182:1\n1#2:183\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSafeCollector.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SafeCollector.kt\nkotlinx/coroutines/flow/internal/SafeCollector\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,182:1\n1#2:183\n*E\n"
+        "Lkotlinx/coroutines/flow/d;",
+        "Lk8/c;"
     }
 .end annotation
 
 
 # instance fields
-.field public final collectContext:Lkotlin/coroutines/d;
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public final collectContext:Lkotlin/coroutines/i;
 
 .field public final collectContextSize:I
-    .annotation build Lim/g;
-    .end annotation
-.end field
 
-.field public final collector:Ljn/f;
+.field public final collector:Lkotlinx/coroutines/flow/d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljn/f<",
-            "TT;>;"
+            "Lkotlinx/coroutines/flow/d;"
         }
-    .end annotation
-
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
-.field private completion_:Lul/c;
+.field private completion_:Lkotlin/coroutines/e;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlin/coroutines/e;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end field
 
-.field private lastEmissionContext:Lkotlin/coroutines/d;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
+.field private lastEmissionContext:Lkotlin/coroutines/i;
 
 
 # direct methods
-.method public constructor <init>(Ljn/f;Lkotlin/coroutines/d;)V
+.method public constructor <init>(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/i;)V
     .locals 2
-    .param p1    # Ljn/f;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljn/f<",
-            "-TT;>;",
-            "Lkotlin/coroutines/d;",
+            "Lkotlinx/coroutines/flow/d;",
+            "Lkotlin/coroutines/i;",
             ")V"
         }
     .end annotation
 
     .line 1
-    sget-object v0, Lkn/j;->a:Lkn/j;
+    sget-object v0, Lkotlinx/coroutines/flow/internal/l;->a:Lkotlinx/coroutines/flow/internal/l;
 
     .line 2
     .line 3
@@ -110,16 +65,16 @@
 
     .line 4
     .line 5
-    invoke-direct {p0, v0, v1}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lul/c;Lkotlin/coroutines/d;)V
+    invoke-direct {p0, v0, v1}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/e;Lkotlin/coroutines/i;)V
 
     .line 6
     .line 7
     .line 8
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->collector:Ljn/f;
+    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->collector:Lkotlinx/coroutines/flow/d;
 
     .line 9
     .line 10
-    iput-object p2, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->collectContext:Lkotlin/coroutines/d;
+    iput-object p2, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->collectContext:Lkotlin/coroutines/i;
 
     .line 11
     .line 12
@@ -134,16 +89,16 @@
     move-result-object p1
 
     .line 17
-    new-instance v0, Lkn/m;
+    new-instance v0, Lkotlinx/coroutines/flow/internal/o;
 
     .line 18
     .line 19
-    invoke-direct {v0}, Lkn/m;-><init>()V
+    invoke-direct {v0}, Lkotlinx/coroutines/flow/internal/o;-><init>()V
 
     .line 20
     .line 21
     .line 22
-    invoke-interface {p2, p1, v0}, Lkotlin/coroutines/d;->fold(Ljava/lang/Object;Ljm/p;)Ljava/lang/Object;
+    invoke-interface {p2, p1, v0}, Lkotlin/coroutines/i;->fold(Ljava/lang/Object;Lq8/p;)Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -175,20 +130,103 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
-.method public static synthetic f(ILkotlin/coroutines/d$b;)I
+.method public static synthetic c(ILkotlin/coroutines/i$b;)I
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lkotlinx/coroutines/flow/internal/SafeCollector;->j(ILkotlin/coroutines/d$b;)I
+    invoke-static {p0, p1}, Lkotlinx/coroutines/flow/internal/SafeCollector;->g(ILkotlin/coroutines/i$b;)I
 
     move-result p0
 
     return p0
 .end method
 
-.method public static final j(ILkotlin/coroutines/d$b;)I
+.method public static final g(ILkotlin/coroutines/i$b;)I
     .locals 0
 
     .line 1
@@ -199,29 +237,20 @@
 
 
 # virtual methods
-.method public emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 1
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
     :try_start_0
-    invoke-virtual {p0, p2, p1}, Lkotlinx/coroutines/flow/internal/SafeCollector;->k(Lul/c;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p2, p1}, Lkotlinx/coroutines/flow/internal/SafeCollector;->h(Lkotlin/coroutines/e;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -231,7 +260,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 5
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -243,13 +272,13 @@
 
     .line 10
     .line 11
-    invoke-static {p2}, Lxl/f;->c(Lul/c;)V
+    invoke-static {p2}, Lk8/f;->c(Lkotlin/coroutines/e;)V
 
     .line 12
     .line 13
     .line 14
     :cond_0
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -265,7 +294,7 @@
 
     .line 21
     :cond_1
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 22
     .line 23
@@ -276,11 +305,11 @@
     move-exception p1
 
     .line 25
-    new-instance v0, Lkn/f;
+    new-instance v0, Lkotlinx/coroutines/flow/internal/g;
 
     .line 26
     .line 27
-    invoke-interface {p2}, Lul/c;->getContext()Lkotlin/coroutines/d;
+    invoke-interface {p2}, Lkotlin/coroutines/e;->getContext()Lkotlin/coroutines/i;
 
     .line 28
     .line 29
@@ -288,12 +317,12 @@
     move-result-object p2
 
     .line 31
-    invoke-direct {v0, p1, p2}, Lkn/f;-><init>(Ljava/lang/Throwable;Lkotlin/coroutines/d;)V
+    invoke-direct {v0, p1, p2}, Lkotlinx/coroutines/flow/internal/g;-><init>(Ljava/lang/Throwable;Lkotlin/coroutines/i;)V
 
     .line 32
     .line 33
     .line 34
-    iput-object v0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lkotlin/coroutines/d;
+    iput-object v0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lkotlin/coroutines/i;
 
     .line 35
     .line 36
@@ -303,113 +332,96 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
-.method public getCallerFrame()Lxl/c;
-    .locals 2
-    .annotation build Lsq/l;
-    .end annotation
+.method public final f(Lkotlin/coroutines/i;Lkotlin/coroutines/i;Ljava/lang/Object;)V
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->completion_:Lul/c;
-
-    .line 2
-    .line 3
-    instance-of v1, v0, Lxl/c;
-
-    .line 4
-    .line 5
-    if-eqz v1, :cond_0
-
-    .line 6
-    .line 7
-    check-cast v0, Lxl/c;
-
-    .line 8
-    .line 9
-    return-object v0
-
-    .line 10
-    :cond_0
-    const/4 v0, 0x0
-
-    .line 11
-    return-object v0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public getContext()Lkotlin/coroutines/d;
-    .locals 1
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lkotlin/coroutines/d;
-
-    .line 2
-    .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    sget-object v0, Lkotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lkotlin/coroutines/EmptyCoroutineContext;
-
-    .line 6
-    .line 7
-    :cond_0
-    return-object v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public getStackTraceElement()Ljava/lang/StackTraceElement;
-    .locals 1
-    .annotation build Lsq/l;
-    .end annotation
-
-    const/4 v0, 0x0
-
-    return-object v0
-.end method
-
-.method public final h(Lkotlin/coroutines/d;Lkotlin/coroutines/d;Ljava/lang/Object;)V
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lkotlin/coroutines/d;",
-            "Lkotlin/coroutines/d;",
-            "TT;)V"
-        }
-    .end annotation
-
-    .line 1
-    instance-of v0, p2, Lkn/f;
+    instance-of v0, p2, Lkotlinx/coroutines/flow/internal/g;
 
     .line 2
     .line 3
@@ -417,17 +429,17 @@
 
     .line 4
     .line 5
-    check-cast p2, Lkn/f;
+    check-cast p2, Lkotlinx/coroutines/flow/internal/g;
 
     .line 6
     .line 7
-    invoke-virtual {p0, p2, p3}, Lkotlinx/coroutines/flow/internal/SafeCollector;->l(Lkn/f;Ljava/lang/Object;)V
+    invoke-virtual {p0, p2, p3}, Lkotlinx/coroutines/flow/internal/SafeCollector;->i(Lkotlinx/coroutines/flow/internal/g;Ljava/lang/Object;)V
 
     .line 8
     .line 9
     .line 10
     :cond_0
-    invoke-static {p0, p1}, Lkotlinx/coroutines/flow/internal/SafeCollector_commonKt;->b(Lkotlinx/coroutines/flow/internal/SafeCollector;Lkotlin/coroutines/d;)V
+    invoke-static {p0, p1}, Lkotlinx/coroutines/flow/internal/r;->b(Lkotlinx/coroutines/flow/internal/SafeCollector;Lkotlin/coroutines/i;)V
 
     .line 11
     .line 12
@@ -498,75 +510,213 @@
     .line 76
     .line 77
     .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
 .end method
 
-.method public invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 3
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
+.method public getCallerFrame()Lk8/c;
+    .locals 2
 
     .line 1
-    invoke-static {p1}, Lkotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
+    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->completion_:Lkotlin/coroutines/e;
 
     .line 2
     .line 3
-    .line 4
-    move-result-object v0
+    instance-of v1, v0, Lk8/c;
 
+    .line 4
     .line 5
-    if-eqz v0, :cond_0
+    if-eqz v1, :cond_0
 
     .line 6
     .line 7
-    new-instance v1, Lkn/f;
+    check-cast v0, Lk8/c;
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Lkotlinx/coroutines/flow/internal/SafeCollector;->getContext()Lkotlin/coroutines/d;
+    return-object v0
 
     .line 10
+    :cond_0
+    const/4 v0, 0x0
+
     .line 11
+    return-object v0
     .line 12
-    move-result-object v2
-
     .line 13
-    invoke-direct {v1, v0, v2}, Lkn/f;-><init>(Ljava/lang/Throwable;Lkotlin/coroutines/d;)V
-
     .line 14
     .line 15
     .line 16
-    iput-object v1, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lkotlin/coroutines/d;
-
     .line 17
     .line 18
-    :cond_0
-    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->completion_:Lul/c;
-
     .line 19
     .line 20
-    if-eqz v0, :cond_1
-
     .line 21
     .line 22
-    invoke-interface {v0, p1}, Lul/c;->resumeWith(Ljava/lang/Object;)V
-
     .line 23
     .line 24
     .line 25
-    :cond_1
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
-
     .line 26
     .line 27
     .line 28
-    move-result-object p1
-
     .line 29
-    return-object p1
     .line 30
     .line 31
     .line 32
@@ -588,49 +738,84 @@
     .line 48
     .line 49
     .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public final k(Lul/c;Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;TT;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
+.method public getContext()Lkotlin/coroutines/i;
+    .locals 1
 
     .line 1
-    invoke-interface {p1}, Lul/c;->getContext()Lkotlin/coroutines/d;
+    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lkotlin/coroutines/i;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_0
+
+    .line 4
+    .line 5
+    sget-object v0, Lkotlin/coroutines/EmptyCoroutineContext;->INSTANCE:Lkotlin/coroutines/EmptyCoroutineContext;
+
+    .line 6
+    .line 7
+    :cond_0
+    return-object v0
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public getStackTraceElement()Ljava/lang/StackTraceElement;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public final h(Lkotlin/coroutines/e;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    invoke-interface {p1}, Lkotlin/coroutines/e;->getContext()Lkotlin/coroutines/i;
 
     .line 2
     .line 3
@@ -638,12 +823,12 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Lfn/x1;->y(Lkotlin/coroutines/d;)V
+    invoke-static {v0}, Lkotlinx/coroutines/u1;->f(Lkotlin/coroutines/i;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lkotlin/coroutines/d;
+    iget-object v1, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lkotlin/coroutines/i;
 
     .line 9
     .line 10
@@ -651,21 +836,21 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0, v0, v1, p2}, Lkotlinx/coroutines/flow/internal/SafeCollector;->h(Lkotlin/coroutines/d;Lkotlin/coroutines/d;Ljava/lang/Object;)V
+    invoke-virtual {p0, v0, v1, p2}, Lkotlinx/coroutines/flow/internal/SafeCollector;->f(Lkotlin/coroutines/i;Lkotlin/coroutines/i;Ljava/lang/Object;)V
 
     .line 13
     .line 14
     .line 15
-    iput-object v0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lkotlin/coroutines/d;
+    iput-object v0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lkotlin/coroutines/i;
 
     .line 16
     .line 17
     :cond_0
-    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->completion_:Lul/c;
+    iput-object p1, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->completion_:Lkotlin/coroutines/e;
 
     .line 18
     .line 19
-    invoke-static {}, Lkotlinx/coroutines/flow/internal/SafeCollectorKt;->a()Ljm/q;
+    invoke-static {}, Lkotlinx/coroutines/flow/internal/SafeCollectorKt;->a()Lq8/q;
 
     .line 20
     .line 21
@@ -673,7 +858,7 @@
     move-result-object p1
 
     .line 23
-    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->collector:Ljn/f;
+    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->collector:Lkotlinx/coroutines/flow/d;
 
     .line 24
     .line 25
@@ -681,7 +866,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0, v1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -690,12 +875,12 @@
 
     .line 31
     .line 32
-    invoke-static {p0, v1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 33
     .line 34
     .line 35
-    invoke-interface {p1, v0, p2, p0}, Ljm/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0, p2, p0}, Lq8/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -703,7 +888,7 @@
     move-result-object p1
 
     .line 39
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -711,7 +896,7 @@
     move-result-object p2
 
     .line 43
-    invoke-static {p1, p2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 44
     .line 45
@@ -726,7 +911,7 @@
     const/4 p2, 0x0
 
     .line 50
-    iput-object p2, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->completion_:Lul/c;
+    iput-object p2, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->completion_:Lkotlin/coroutines/e;
 
     .line 51
     .line 52
@@ -788,9 +973,25 @@
     .line 106
     .line 107
     .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
-.method public final l(Lkn/f;Ljava/lang/Object;)V
+.method public final i(Lkotlinx/coroutines/flow/internal/g;Ljava/lang/Object;)V
     .locals 3
 
     .line 1
@@ -816,7 +1017,7 @@
     .line 11
     .line 12
     .line 13
-    iget-object p1, p1, Lkn/f;->b:Ljava/lang/Throwable;
+    iget-object p1, p1, Lkotlinx/coroutines/flow/internal/g;->b:Ljava/lang/Throwable;
 
     .line 14
     .line 15
@@ -856,7 +1057,7 @@
     move-result-object p1
 
     .line 35
-    invoke-static {p1}, Lym/y;->v(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lkotlin/text/s;->j(Ljava/lang/String;)Ljava/lang/String;
 
     .line 36
     .line 37
@@ -940,6 +1141,113 @@
     .line 106
     .line 107
     .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+.end method
+
+.method public invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    invoke-static {p1}, Lkotlin/Result;->exceptionOrNull-impl(Ljava/lang/Object;)Ljava/lang/Throwable;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    if-eqz v0, :cond_0
+
+    .line 6
+    .line 7
+    new-instance v1, Lkotlinx/coroutines/flow/internal/g;
+
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Lkotlinx/coroutines/flow/internal/SafeCollector;->getContext()Lkotlin/coroutines/i;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v2
+
+    .line 13
+    invoke-direct {v1, v0, v2}, Lkotlinx/coroutines/flow/internal/g;-><init>(Ljava/lang/Throwable;Lkotlin/coroutines/i;)V
+
+    .line 14
+    .line 15
+    .line 16
+    iput-object v1, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->lastEmissionContext:Lkotlin/coroutines/i;
+
+    .line 17
+    .line 18
+    :cond_0
+    iget-object v0, p0, Lkotlinx/coroutines/flow/internal/SafeCollector;->completion_:Lkotlin/coroutines/e;
+
+    .line 19
+    .line 20
+    if-eqz v0, :cond_1
+
+    .line 21
+    .line 22
+    invoke-interface {v0, p1}, Lkotlin/coroutines/e;->resumeWith(Ljava/lang/Object;)V
+
+    .line 23
+    .line 24
+    .line 25
+    :cond_1
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-object p1
+
+    .line 29
+    return-object p1
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public releaseIntercepted()V
@@ -971,4 +1279,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

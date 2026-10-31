@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/preferences/core/PreferenceDataStoreFactory;->createWithPath(Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljava/util/List;Lfn/i0;Ljm/a;)Landroidx/datastore/core/DataStore;
+    value = Landroidx/datastore/preferences/core/PreferenceDataStoreFactory;->createWithPath(Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljava/util/List;Lkotlinx/coroutines/l0;Lq8/a;)Landroidx/datastore/core/DataStore;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,39 +19,34 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Ljava/io/File;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic $produceFile:Ljm/a;
+.field final synthetic $produceFile:Lq8/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/a<",
-            "Lokio/Path;",
-            ">;"
+            "Lq8/a;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljm/a;)V
+.method public constructor <init>(Lq8/a;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/a<",
-            "Lokio/Path;",
-            ">;)V"
+            "Lq8/a;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/core/PreferenceDataStoreFactory$createWithPath$1;->$produceFile:Ljm/a;
+    iput-object p1, p0, Landroidx/datastore/preferences/core/PreferenceDataStoreFactory$createWithPath$1;->$produceFile:Lq8/a;
 
     .line 2
     .line 3
@@ -88,13 +83,11 @@
 # virtual methods
 .method public final invoke()Ljava/io/File;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/core/PreferenceDataStoreFactory$createWithPath$1;->$produceFile:Ljm/a;
+    iget-object v0, p0, Landroidx/datastore/preferences/core/PreferenceDataStoreFactory$createWithPath$1;->$produceFile:Lq8/a;
 
-    invoke-interface {v0}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lq8/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "Landroidx/window/sidecar/SidecarDisplayFeature;",
-        "Ljava/lang/Boolean;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -58,16 +55,10 @@
 # virtual methods
 .method public final invoke(Landroidx/window/sidecar/SidecarDisplayFeature;)Ljava/lang/Boolean;
     .locals 2
-    .param p1    # Landroidx/window/sidecar/SidecarDisplayFeature;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "$this$require"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p1}, Landroidx/window/sidecar/SidecarDisplayFeature;->getType()I

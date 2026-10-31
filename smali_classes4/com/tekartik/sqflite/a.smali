@@ -1,42 +1,16 @@
-.class public final synthetic Lcom/tekartik/sqflite/a;
+.class public abstract synthetic Lcom/tekartik/sqflite/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/lang/Runnable;
-
-
-# instance fields
-.field public final synthetic a:Lcom/tekartik/sqflite/Database;
-
-.field public final synthetic b:Lcom/tekartik/sqflite/operation/Operation;
-
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
+.method public static bridge synthetic a(J)Landroid/content/pm/PackageManager$ApplicationInfoFlags;
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-static {p0, p1}, Landroid/content/pm/PackageManager$ApplicationInfoFlags;->of(J)Landroid/content/pm/PackageManager$ApplicationInfoFlags;
 
-    iput-object p1, p0, Lcom/tekartik/sqflite/a;->a:Lcom/tekartik/sqflite/Database;
+    move-result-object p0
 
-    iput-object p2, p0, Lcom/tekartik/sqflite/a;->b:Lcom/tekartik/sqflite/operation/Operation;
-
-    return-void
-.end method
-
-
-# virtual methods
-.method public final run()V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/tekartik/sqflite/a;->a:Lcom/tekartik/sqflite/Database;
-
-    iget-object v1, p0, Lcom/tekartik/sqflite/a;->b:Lcom/tekartik/sqflite/operation/Operation;
-
-    invoke-static {v0, v1}, Lcom/tekartik/sqflite/Database;->a(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
-
-    return-void
+    return-object p0
 .end method

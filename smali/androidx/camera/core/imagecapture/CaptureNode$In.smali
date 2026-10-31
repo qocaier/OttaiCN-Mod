@@ -13,9 +13,6 @@
     name = "In"
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # instance fields
 .field private mCameraCaptureCallback:Landroidx/camera/core/impl/CameraCaptureCallback;
@@ -62,6 +59,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static of(Landroid/util/Size;IIZLandroidx/camera/core/ImageReaderProxyProvider;)Landroidx/camera/core/imagecapture/CaptureNode$In;
@@ -651,6 +649,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract getErrorEdge()Landroidx/camera/core/processing/Edge;
@@ -725,6 +724,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract isVirtualCamera()Z
@@ -883,4 +883,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

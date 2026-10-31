@@ -89,7 +89,7 @@
     .locals 1
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/b;->a(Landroidx/core/app/JobIntentService$JobServiceEngineImpl;)Landroid/os/IBinder;
+    invoke-static {p0}, Landroidx/core/app/h;->a(Landroidx/core/app/JobIntentService$JobServiceEngineImpl;)Landroid/os/IBinder;
 
     .line 2
     .line 3
@@ -113,6 +113,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dequeueWork()Landroidx/core/app/JobIntentService$GenericWorkItem;
@@ -152,7 +153,7 @@
 
     .line 13
     :cond_0
-    invoke-static {v1}, Lp0/g;->a(Landroid/app/job/JobParameters;)Landroid/app/job/JobWorkItem;
+    invoke-static {v1}, Landroidx/core/app/i;->a(Landroid/app/job/JobParameters;)Landroid/app/job/JobWorkItem;
 
     .line 14
     .line 15
@@ -169,7 +170,7 @@
 
     .line 19
     .line 20
-    invoke-static {v1}, Lp0/h;->a(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
+    invoke-static {v1}, Landroidx/core/app/j;->a(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
 
     .line 21
     .line 22
@@ -261,6 +262,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onStartJob(Landroid/app/job/JobParameters;)Z

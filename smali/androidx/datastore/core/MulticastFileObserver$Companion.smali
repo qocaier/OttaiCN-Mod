@@ -13,16 +13,6 @@
     name = "Companion"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMulticastFileObserver.android.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MulticastFileObserver.android.kt\nandroidx/datastore/core/MulticastFileObserver$Companion\n+ 2 Maps.kt\nkotlin/collections/MapsKt__MapsKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,145:1\n372#2,7:146\n1855#3,2:153\n*S KotlinDebug\n*F\n+ 1 MulticastFileObserver.android.kt\nandroidx/datastore/core/MulticastFileObserver$Companion\n*L\n103#1:146,7\n137#1:153,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nMulticastFileObserver.android.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MulticastFileObserver.android.kt\nandroidx/datastore/core/MulticastFileObserver$Companion\n+ 2 Maps.kt\nkotlin/collections/MapsKt__MapsKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,145:1\n372#2,7:146\n1855#3,2:153\n*S KotlinDebug\n*F\n+ 1 MulticastFileObserver.android.kt\nandroidx/datastore/core/MulticastFileObserver$Companion\n*L\n103#1:146,7\n137#1:153,2\n*E\n"
-    }
-.end annotation
-
 
 # direct methods
 .method private constructor <init>()V
@@ -34,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -43,20 +33,20 @@
     return-void
 .end method
 
-.method public static synthetic a(Ljava/lang/String;Ljm/l;)V
+.method public static synthetic a(Ljava/lang/String;Lq8/l;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/datastore/core/MulticastFileObserver$Companion;->observe$lambda$4(Ljava/lang/String;Ljm/l;)V
+    invoke-static {p0, p1}, Landroidx/datastore/core/MulticastFileObserver$Companion;->observe$lambda$4(Ljava/lang/String;Lq8/l;)V
 
     return-void
 .end method
 
-.method public static final synthetic access$observe(Landroidx/datastore/core/MulticastFileObserver$Companion;Ljava/io/File;Ljm/l;)Lfn/w0;
+.method public static final synthetic access$observe(Landroidx/datastore/core/MulticastFileObserver$Companion;Ljava/io/File;Lq8/l;)Lkotlinx/coroutines/x0;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/core/MulticastFileObserver$Companion;->observe(Ljava/io/File;Ljm/l;)Lfn/w0;
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/core/MulticastFileObserver$Companion;->observe(Ljava/io/File;Lq8/l;)Lkotlinx/coroutines/x0;
 
     .line 2
     .line 3
@@ -173,6 +163,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic getFileObservers$datastore_core_release$annotations()V
@@ -183,7 +176,7 @@
     return-void
 .end method
 
-.method private final observe(Ljava/io/File;Ljm/l;)Lfn/w0;
+.method private final observe(Ljava/io/File;Lq8/l;)Lkotlinx/coroutines/x0;
     .locals 4
     .annotation build Landroidx/annotation/CheckResult;
     .end annotation
@@ -192,12 +185,9 @@
         value = {
             "(",
             "Ljava/io/File;",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/String;",
-            "Ljl/e2;",
-            ">;)",
-            "Lfn/w0;"
+            "Lq8/l;",
+            ")",
+            "Lkotlinx/coroutines/x0;"
         }
     .end annotation
 
@@ -227,7 +217,7 @@
 
     const-string v2, "key"
 
-    invoke-static {p1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -241,7 +231,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v2, p1, v3}, Landroidx/datastore/core/MulticastFileObserver;-><init>(Ljava/lang/String;Lkm/v;)V
+    invoke-direct {v2, p1, v3}, Landroidx/datastore/core/MulticastFileObserver;-><init>(Ljava/lang/String;Lkotlin/jvm/internal/f;)V
 
     .line 7
     invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -283,7 +273,7 @@
 
     .line 12
     :cond_1
-    sget-object v1, Ljl/e2;->a:Ljl/e2;
+    sget-object v1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -291,9 +281,9 @@
     monitor-exit v0
 
     .line 14
-    new-instance v0, Lj1/a;
+    new-instance v0, Landroidx/datastore/core/a;
 
-    invoke-direct {v0, p1, p2}, Lj1/a;-><init>(Ljava/lang/String;Ljm/l;)V
+    invoke-direct {v0, p1, p2}, Landroidx/datastore/core/a;-><init>(Ljava/lang/String;Lq8/l;)V
 
     return-object v0
 
@@ -304,7 +294,7 @@
     throw p1
 .end method
 
-.method private static final observe$lambda$4(Ljava/lang/String;Ljm/l;)V
+.method private static final observe$lambda$4(Ljava/lang/String;Lq8/l;)V
     .locals 4
 
     .line 1
@@ -312,7 +302,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -420,7 +410,7 @@
     .line 55
     :cond_0
     :goto_0
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -610,6 +600,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -624,9 +617,6 @@
             "Landroidx/datastore/core/MulticastFileObserver;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -654,14 +644,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public final observe(Ljava/io/File;)Ljn/e;
+.method public final observe(Ljava/io/File;)Lkotlinx/coroutines/flow/c;
     .locals 2
-    .param p1    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/CheckResult;
     .end annotation
 
@@ -670,27 +657,22 @@
             "(",
             "Ljava/io/File;",
             ")",
-            "Ljn/e<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlinx/coroutines/flow/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     const-string v0, "file"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroidx/datastore/core/MulticastFileObserver$Companion$observe$1;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Landroidx/datastore/core/MulticastFileObserver$Companion$observe$1;-><init>(Ljava/io/File;Lul/c;)V
+    invoke-direct {v0, p1, v1}, Landroidx/datastore/core/MulticastFileObserver$Companion$observe$1;-><init>(Ljava/io/File;Lkotlin/coroutines/e;)V
 
-    invoke-static {v0}, Ljn/g;->x(Ljm/p;)Ljn/e;
+    invoke-static {v0}, Lkotlinx/coroutines/flow/e;->h(Lq8/p;)Lkotlinx/coroutines/flow/c;
 
     move-result-object p1
 
@@ -805,7 +787,7 @@
     .line 47
     .line 48
     .line 49
-    sget-object v1, Ljl/e2;->a:Ljl/e2;
+    sget-object v1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -852,4 +834,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

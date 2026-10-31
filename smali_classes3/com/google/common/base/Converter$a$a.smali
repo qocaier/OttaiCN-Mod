@@ -16,24 +16,9 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljava/util/Iterator<",
-        "TB;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final a:Ljava/util/Iterator;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Iterator<",
-            "+TA;>;"
-        }
-    .end annotation
-.end field
 
 .field public final synthetic b:Lcom/google/common/base/Converter$a;
 
@@ -41,14 +26,6 @@
 # direct methods
 .method public constructor <init>(Lcom/google/common/base/Converter$a;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            "this$1"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/google/common/base/Converter$a$a;->b:Lcom/google/common/base/Converter$a;
@@ -87,7 +64,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -124,16 +100,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public next()Ljava/lang/Object;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TB;"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/common/base/Converter$a$a;->b:Lcom/google/common/base/Converter$a;
@@ -172,7 +142,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public remove()V
@@ -205,5 +174,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

@@ -16,14 +16,8 @@
 
 # instance fields
 .field private custom:Ljava/lang/Object;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private viewModelStore:Landroidx/lifecycle/ViewModelStore;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -53,14 +47,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final getCustom()Ljava/lang/Object;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->custom:Ljava/lang/Object;
@@ -85,12 +78,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getViewModelStore()Landroidx/lifecycle/ViewModelStore;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->viewModelStore:Landroidx/lifecycle/ViewModelStore;
@@ -115,14 +107,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setCustom(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->custom:Ljava/lang/Object;
@@ -156,10 +145,6 @@
 
 .method public final setViewModelStore(Landroidx/lifecycle/ViewModelStore;)V
     .locals 0
-    .param p1    # Landroidx/lifecycle/ViewModelStore;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Landroidx/activity/ComponentActivity$NonConfigurationInstances;->viewModelStore:Landroidx/lifecycle/ViewModelStore;

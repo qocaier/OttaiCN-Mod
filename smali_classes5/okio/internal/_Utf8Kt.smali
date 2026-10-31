@@ -3,34 +3,16 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\n-Utf8.kt\nKotlin\n*S Kotlin\n*F\n+ 1 -Utf8.kt\nokio/internal/_Utf8Kt\n+ 2 Utf8.kt\nokio/Utf8\n+ 3 Util.kt\nokio/-SegmentedByteString\n*L\n1#1,60:1\n260#2,16:61\n277#2:78\n397#2,9:79\n127#2:88\n406#2,20:90\n279#2,3:110\n440#2,4:113\n127#2:117\n446#2,10:118\n127#2:128\n456#2,5:129\n127#2:134\n461#2,24:135\n283#2,3:159\n500#2,3:162\n286#2,12:165\n503#2:177\n127#2:178\n506#2,2:179\n127#2:181\n510#2,10:182\n127#2:192\n520#2,5:193\n127#2:198\n525#2,5:199\n127#2:204\n530#2,28:205\n302#2,6:233\n138#2,67:239\n67#3:77\n73#3:89\n*S KotlinDebug\n*F\n+ 1 -Utf8.kt\nokio/internal/_Utf8Kt\n*L\n34#1:61,16\n34#1:78\n34#1:79,9\n34#1:88\n34#1:90,20\n34#1:110,3\n34#1:113,4\n34#1:117\n34#1:118,10\n34#1:128\n34#1:129,5\n34#1:134\n34#1:135,24\n34#1:159,3\n34#1:162,3\n34#1:165,12\n34#1:177\n34#1:178\n34#1:179,2\n34#1:181\n34#1:182,10\n34#1:192\n34#1:193,5\n34#1:198\n34#1:199,5\n34#1:204\n34#1:205,28\n34#1:233,6\n50#1:239,67\n34#1:77\n34#1:89\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\n-Utf8.kt\nKotlin\n*S Kotlin\n*F\n+ 1 -Utf8.kt\nokio/internal/_Utf8Kt\n+ 2 Utf8.kt\nokio/Utf8\n+ 3 Util.kt\nokio/-SegmentedByteString\n*L\n1#1,60:1\n260#2,16:61\n277#2:78\n397#2,9:79\n127#2:88\n406#2,20:90\n279#2,3:110\n440#2,4:113\n127#2:117\n446#2,10:118\n127#2:128\n456#2,5:129\n127#2:134\n461#2,24:135\n283#2,3:159\n500#2,3:162\n286#2,12:165\n503#2:177\n127#2:178\n506#2,2:179\n127#2:181\n510#2,10:182\n127#2:192\n520#2,5:193\n127#2:198\n525#2,5:199\n127#2:204\n530#2,28:205\n302#2,6:233\n138#2,67:239\n67#3:77\n73#3:89\n*S KotlinDebug\n*F\n+ 1 -Utf8.kt\nokio/internal/_Utf8Kt\n*L\n34#1:61,16\n34#1:78\n34#1:79,9\n34#1:88\n34#1:90,20\n34#1:110,3\n34#1:113,4\n34#1:117\n34#1:118,10\n34#1:128\n34#1:129,5\n34#1:134\n34#1:135,24\n34#1:159,3\n34#1:162,3\n34#1:165,12\n34#1:177\n34#1:178\n34#1:179,2\n34#1:181\n34#1:182,10\n34#1:192\n34#1:193,5\n34#1:198\n34#1:199,5\n34#1:204\n34#1:205,28\n34#1:233,6\n50#1:239,67\n34#1:77\n34#1:89\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final commonAsUtf8ToByteArray(Ljava/lang/String;)[B
     .locals 12
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -83,7 +65,7 @@
 
     .line 28
     .line 29
-    invoke-static {v4, v5}, Lkm/g0;->t(II)I
+    invoke-static {v4, v5}, Lkotlin/jvm/internal/j;->h(II)I
 
     .line 30
     .line 31
@@ -120,7 +102,7 @@
     move-result v6
 
     .line 46
-    invoke-static {v6, v5}, Lkm/g0;->t(II)I
+    invoke-static {v6, v5}, Lkotlin/jvm/internal/j;->h(II)I
 
     .line 47
     .line 48
@@ -163,7 +145,7 @@
     move-result v6
 
     .line 66
-    invoke-static {v6, v5}, Lkm/g0;->t(II)I
+    invoke-static {v6, v5}, Lkotlin/jvm/internal/j;->h(II)I
 
     .line 67
     .line 68
@@ -209,7 +191,7 @@
 
     .line 86
     .line 87
-    invoke-static {v6, v7}, Lkm/g0;->t(II)I
+    invoke-static {v6, v7}, Lkotlin/jvm/internal/j;->h(II)I
 
     .line 88
     .line 89
@@ -294,7 +276,7 @@
     .line 126
     .line 127
     .line 128
-    invoke-static {v6, v9}, Lkm/g0;->t(II)I
+    invoke-static {v6, v9}, Lkotlin/jvm/internal/j;->h(II)I
 
     .line 129
     .line 130
@@ -535,7 +517,7 @@
     move-result-object p0
 
     .line 238
-    invoke-static {p0, v3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 239
     .line 240
@@ -576,7 +558,7 @@
     move-result-object p0
 
     .line 257
-    invoke-static {p0, v3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 258
     .line 259
@@ -636,16 +618,130 @@
     .line 312
     .line 313
     .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
 .end method
 
 .method public static final commonToUtf8String([BII)Ljava/lang/String;
-    .locals 16
-    .param p0    # [B
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
+    .locals 18
 
     .line 1
     move-object/from16 v0, p0
@@ -660,1028 +756,1059 @@
 
     .line 6
     .line 7
-    const-string v3, "<this>"
+    const/4 v3, 0x4
 
     .line 8
+    const/4 v5, 0x2
+
     .line 9
-    invoke-static {v0, v3}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    const/4 v6, 0x1
 
     .line 10
+    const-string v7, "<this>"
+
     .line 11
     .line 12
-    if-ltz v1, :cond_19
+    invoke-static {v0, v7}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     .line 14
-    array-length v3, v0
-
     .line 15
-    if-gt v2, v3, :cond_19
+    if-ltz v1, :cond_19
 
     .line 16
     .line 17
-    if-gt v1, v2, :cond_19
+    array-length v7, v0
 
     .line 18
+    if-gt v2, v7, :cond_19
+
     .line 19
-    sub-int v3, v2, v1
-
     .line 20
+    if-gt v1, v2, :cond_19
+
     .line 21
-    new-array v3, v3, [C
-
     .line 22
-    .line 23
-    const/4 v4, 0x0
+    sub-int v7, v2, v1
 
+    .line 23
     .line 24
-    move v5, v4
+    new-array v7, v7, [C
 
     .line 25
+    .line 26
+    const/4 v8, 0x0
+
+    .line 27
+    move v9, v8
+
+    .line 28
     :goto_0
     if-ge v1, v2, :cond_18
 
-    .line 26
-    .line 27
-    aget-byte v6, v0, v1
-
-    .line 28
     .line 29
-    if-ltz v6, :cond_1
-
     .line 30
-    .line 31
-    int-to-char v6, v6
+    aget-byte v10, v0, v1
 
+    .line 31
     .line 32
-    add-int/lit8 v7, v5, 0x1
+    if-ltz v10, :cond_1
 
     .line 33
     .line 34
-    aput-char v6, v3, v5
+    int-to-char v10, v10
 
     .line 35
-    .line 36
-    add-int/lit8 v1, v1, 0x1
+    add-int/lit8 v11, v9, 0x1
 
+    .line 36
     .line 37
+    aput-char v10, v7, v9
+
     .line 38
+    .line 39
+    add-int/2addr v1, v6
+
+    .line 40
     :goto_1
     if-ge v1, v2, :cond_0
 
-    .line 39
-    .line 40
-    aget-byte v5, v0, v1
-
     .line 41
     .line 42
-    if-ltz v5, :cond_0
+    aget-byte v9, v0, v1
 
     .line 43
     .line 44
-    add-int/lit8 v1, v1, 0x1
+    if-ltz v9, :cond_0
 
     .line 45
     .line 46
-    int-to-char v5, v5
+    add-int/2addr v1, v6
 
     .line 47
-    add-int/lit8 v6, v7, 0x1
+    int-to-char v9, v9
 
     .line 48
+    add-int/lit8 v10, v11, 0x1
+
     .line 49
-    aput-char v5, v3, v7
-
     .line 50
-    .line 51
-    move v7, v6
+    aput-char v9, v7, v11
 
+    .line 51
     .line 52
-    goto :goto_1
+    move v11, v10
 
     .line 53
-    :cond_0
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
+    goto :goto_1
 
     .line 54
-    .line 55
-    :goto_2
-    move v5, v7
+    :cond_0
+    sget-object v9, Lkotlin/j;->a:Lkotlin/j;
 
+    .line 55
     .line 56
-    goto :goto_0
+    :goto_2
+    move/from16 v17, v5
 
     .line 57
-    :cond_1
-    shr-int/lit8 v7, v6, 0x5
-
     .line 58
+    move v9, v11
+
     .line 59
-    const/4 v8, -0x2
+    const/16 v16, 0x3
 
     .line 60
-    const/16 v10, 0x80
-
     .line 61
-    .line 62
-    const v11, 0xfffd
+    goto/16 :goto_12
 
+    .line 62
     .line 63
+    :cond_1
+    shr-int/lit8 v11, v10, 0x5
+
     .line 64
     .line 65
-    const/4 v12, 0x1
+    const/4 v12, -0x2
 
     .line 66
-    if-ne v7, v8, :cond_5
+    const/16 v13, 0x80
 
     .line 67
     .line 68
-    add-int/lit8 v7, v1, 0x1
+    const v14, 0xfffd
 
     .line 69
     .line 70
-    if-gt v2, v7, :cond_2
-
     .line 71
-    .line 72
-    int-to-char v6, v11
+    if-ne v11, v12, :cond_5
 
+    .line 72
     .line 73
-    add-int/lit8 v7, v5, 0x1
+    add-int/lit8 v11, v1, 0x1
 
     .line 74
     .line 75
-    aput-char v6, v3, v5
+    if-gt v2, v11, :cond_2
 
     .line 76
     .line 77
-    :goto_3
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
+    int-to-char v10, v14
 
     .line 78
-    .line 79
-    move v9, v12
+    add-int/lit8 v11, v9, 0x1
 
+    .line 79
     .line 80
-    goto :goto_6
+    aput-char v10, v7, v9
 
     .line 81
-    :cond_2
-    aget-byte v7, v0, v7
-
     .line 82
-    .line 83
-    and-int/lit16 v8, v7, 0xc0
+    :goto_3
+    sget-object v9, Lkotlin/j;->a:Lkotlin/j;
 
+    .line 83
     .line 84
+    move v9, v6
+
     .line 85
-    if-ne v8, v10, :cond_4
+    goto :goto_6
 
     .line 86
+    :cond_2
+    aget-byte v11, v0, v11
+
     .line 87
-    xor-int/lit16 v7, v7, 0xf80
-
     .line 88
+    and-int/lit16 v12, v11, 0xc0
+
     .line 89
-    shl-int/lit8 v6, v6, 0x6
-
     .line 90
-    .line 91
-    xor-int/2addr v6, v7
+    if-ne v12, v13, :cond_4
 
+    .line 91
     .line 92
-    if-ge v6, v10, :cond_3
+    xor-int/lit16 v11, v11, 0xf80
 
     .line 93
     .line 94
-    int-to-char v6, v11
+    shl-int/lit8 v10, v10, 0x6
 
     .line 95
-    add-int/lit8 v7, v5, 0x1
-
     .line 96
+    xor-int/2addr v10, v11
+
     .line 97
-    aput-char v6, v3, v5
+    if-ge v10, v13, :cond_3
 
     .line 98
     .line 99
-    :goto_4
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
+    int-to-char v10, v14
 
     .line 100
-    .line 101
-    goto :goto_5
+    add-int/lit8 v11, v9, 0x1
 
+    .line 101
     .line 102
-    :cond_3
-    int-to-char v6, v6
+    aput-char v10, v7, v9
 
     .line 103
-    add-int/lit8 v7, v5, 0x1
-
     .line 104
-    .line 105
-    aput-char v6, v3, v5
+    :goto_4
+    sget-object v9, Lkotlin/j;->a:Lkotlin/j;
 
+    .line 105
     .line 106
+    goto :goto_5
+
     .line 107
-    goto :goto_4
+    :cond_3
+    int-to-char v10, v10
 
     .line 108
-    :goto_5
-    const/4 v9, 0x2
+    add-int/lit8 v11, v9, 0x1
 
     .line 109
-    goto :goto_6
-
     .line 110
-    :cond_4
-    int-to-char v6, v11
+    aput-char v10, v7, v9
 
     .line 111
-    add-int/lit8 v7, v5, 0x1
-
     .line 112
+    goto :goto_4
+
     .line 113
-    aput-char v6, v3, v5
+    :goto_5
+    move v9, v5
 
     .line 114
+    goto :goto_6
+
     .line 115
-    goto :goto_3
+    :cond_4
+    int-to-char v10, v14
 
     .line 116
+    add-int/lit8 v11, v9, 0x1
+
+    .line 117
+    .line 118
+    aput-char v10, v7, v9
+
+    .line 119
+    .line 120
+    goto :goto_3
+
+    .line 121
     :goto_6
     add-int/2addr v1, v9
 
-    .line 117
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
-
-    .line 118
-    .line 119
+    .line 122
     goto :goto_2
 
-    .line 120
-    :cond_5
-    shr-int/lit8 v7, v6, 0x4
-
-    .line 121
-    .line 122
-    const v13, 0xe000
-
     .line 123
+    :cond_5
+    shr-int/lit8 v11, v10, 0x4
+
     .line 124
     .line 125
-    const v14, 0xd800
+    const v15, 0xe000
 
     .line 126
     .line 127
     .line 128
-    const/4 v15, 0x3
+    const v3, 0xd800
 
     .line 129
-    if-ne v7, v8, :cond_c
-
     .line 130
     .line 131
-    add-int/lit8 v7, v1, 0x2
+    if-ne v11, v12, :cond_c
 
     .line 132
     .line 133
-    if-gt v2, v7, :cond_7
+    add-int/lit8 v11, v1, 0x2
 
     .line 134
     .line 135
-    int-to-char v6, v11
+    if-gt v2, v11, :cond_7
 
     .line 136
-    add-int/lit8 v7, v5, 0x1
-
     .line 137
+    int-to-char v3, v14
+
     .line 138
-    aput-char v6, v3, v5
+    add-int/lit8 v10, v9, 0x1
 
     .line 139
     .line 140
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
+    aput-char v3, v7, v9
 
     .line 141
     .line 142
-    add-int/lit8 v5, v1, 0x1
+    sget-object v3, Lkotlin/j;->a:Lkotlin/j;
 
     .line 143
     .line 144
-    if-le v2, v5, :cond_6
+    add-int/lit8 v3, v1, 0x1
 
     .line 145
     .line 146
-    aget-byte v5, v0, v5
+    if-le v2, v3, :cond_6
 
     .line 147
     .line 148
-    and-int/lit16 v5, v5, 0xc0
+    aget-byte v3, v0, v3
 
     .line 149
     .line 150
-    if-ne v5, v10, :cond_6
+    and-int/lit16 v3, v3, 0xc0
 
     .line 151
     .line 152
-    :goto_7
-    const/4 v9, 0x2
+    if-ne v3, v13, :cond_6
 
     .line 153
-    goto :goto_b
-
     .line 154
-    :cond_6
-    :goto_8
-    move v9, v12
+    move v3, v5
 
     .line 155
-    goto :goto_b
+    :goto_7
+    const/16 v16, 0x3
 
     .line 156
-    :cond_7
-    add-int/lit8 v8, v1, 0x1
-
     .line 157
+    goto :goto_a
+
     .line 158
-    aget-byte v8, v0, v8
+    :cond_6
+    move v3, v6
 
     .line 159
+    goto :goto_7
+
     .line 160
-    and-int/lit16 v9, v8, 0xc0
+    :cond_7
+    add-int/lit8 v12, v1, 0x1
 
     .line 161
     .line 162
-    if-ne v9, v10, :cond_b
+    aget-byte v12, v0, v12
 
     .line 163
     .line 164
-    aget-byte v7, v0, v7
+    const/16 v16, 0x3
 
     .line 165
     .line 166
-    and-int/lit16 v9, v7, 0xc0
+    and-int/lit16 v4, v12, 0xc0
 
     .line 167
     .line 168
-    if-ne v9, v10, :cond_a
+    if-ne v4, v13, :cond_b
 
     .line 169
     .line 170
-    const v9, -0x1e080
+    aget-byte v4, v0, v11
 
     .line 171
     .line 172
-    .line 173
-    xor-int/2addr v7, v9
+    and-int/lit16 v11, v4, 0xc0
 
+    .line 173
     .line 174
-    shl-int/lit8 v8, v8, 0x6
+    if-ne v11, v13, :cond_a
 
     .line 175
     .line 176
-    xor-int/2addr v7, v8
+    const v11, -0x1e080
 
     .line 177
-    shl-int/lit8 v6, v6, 0xc
-
     .line 178
     .line 179
-    xor-int/2addr v6, v7
+    xor-int/2addr v4, v11
 
     .line 180
-    const/16 v7, 0x800
+    shl-int/lit8 v11, v12, 0x6
 
     .line 181
     .line 182
-    if-ge v6, v7, :cond_8
+    xor-int/2addr v4, v11
 
     .line 183
-    .line 184
-    int-to-char v6, v11
+    shl-int/lit8 v10, v10, 0xc
 
+    .line 184
     .line 185
-    add-int/lit8 v7, v5, 0x1
+    xor-int/2addr v4, v10
 
     .line 186
+    const/16 v10, 0x800
+
     .line 187
-    aput-char v6, v3, v5
-
     .line 188
-    .line 189
-    :goto_9
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
+    if-ge v4, v10, :cond_8
 
+    .line 189
     .line 190
+    int-to-char v3, v14
+
     .line 191
-    goto :goto_a
+    add-int/lit8 v4, v9, 0x1
 
     .line 192
-    :cond_8
-    if-gt v14, v6, :cond_9
-
     .line 193
+    aput-char v3, v7, v9
+
     .line 194
-    if-ge v6, v13, :cond_9
-
     .line 195
-    .line 196
-    int-to-char v6, v11
+    :goto_8
+    sget-object v3, Lkotlin/j;->a:Lkotlin/j;
 
+    .line 196
     .line 197
-    add-int/lit8 v7, v5, 0x1
+    move v10, v4
 
     .line 198
+    goto :goto_9
+
     .line 199
-    aput-char v6, v3, v5
+    :cond_8
+    if-gt v3, v4, :cond_9
 
     .line 200
     .line 201
-    goto :goto_9
+    if-ge v4, v15, :cond_9
 
     .line 202
-    :cond_9
-    int-to-char v6, v6
-
     .line 203
-    add-int/lit8 v7, v5, 0x1
+    int-to-char v3, v14
 
     .line 204
+    add-int/lit8 v4, v9, 0x1
+
     .line 205
-    aput-char v6, v3, v5
-
     .line 206
-    .line 207
-    goto :goto_9
+    aput-char v3, v7, v9
 
+    .line 207
     .line 208
-    :goto_a
-    move v9, v15
+    goto :goto_8
 
     .line 209
-    goto :goto_b
+    :cond_9
+    int-to-char v3, v4
 
     .line 210
-    :cond_a
-    int-to-char v6, v11
+    add-int/lit8 v4, v9, 0x1
 
     .line 211
-    add-int/lit8 v7, v5, 0x1
-
     .line 212
-    .line 213
-    aput-char v6, v3, v5
+    aput-char v3, v7, v9
 
+    .line 213
     .line 214
+    goto :goto_8
+
     .line 215
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
+    :goto_9
+    move/from16 v3, v16
 
     .line 216
     .line 217
-    goto :goto_7
+    goto :goto_a
 
     .line 218
-    :cond_b
-    int-to-char v6, v11
+    :cond_a
+    int-to-char v3, v14
 
     .line 219
-    add-int/lit8 v7, v5, 0x1
+    add-int/lit8 v10, v9, 0x1
 
     .line 220
     .line 221
-    aput-char v6, v3, v5
+    aput-char v3, v7, v9
 
     .line 222
     .line 223
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
+    sget-object v3, Lkotlin/j;->a:Lkotlin/j;
 
     .line 224
     .line 225
-    goto :goto_8
+    move v3, v5
 
     .line 226
-    :goto_b
-    add-int/2addr v1, v9
+    goto :goto_a
 
     .line 227
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
+    :cond_b
+    int-to-char v3, v14
 
     .line 228
+    add-int/lit8 v10, v9, 0x1
+
     .line 229
-    goto/16 :goto_2
-
     .line 230
+    aput-char v3, v7, v9
+
     .line 231
-    :cond_c
-    shr-int/lit8 v7, v6, 0x3
-
     .line 232
-    .line 233
-    if-ne v7, v8, :cond_17
+    sget-object v3, Lkotlin/j;->a:Lkotlin/j;
 
+    .line 233
     .line 234
+    move v3, v6
+
     .line 235
-    add-int/lit8 v7, v1, 0x3
+    :goto_a
+    add-int/2addr v1, v3
 
     .line 236
-    .line 237
-    if-gt v2, v7, :cond_f
+    move/from16 v17, v5
 
+    .line 237
     .line 238
+    move v9, v10
+
     .line 239
-    add-int/lit8 v6, v5, 0x1
+    goto/16 :goto_12
 
     .line 240
     .line 241
-    aput-char v11, v3, v5
+    :cond_c
+    const/16 v16, 0x3
 
     .line 242
     .line 243
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
+    shr-int/lit8 v4, v10, 0x3
 
     .line 244
     .line 245
-    add-int/lit8 v5, v1, 0x1
+    if-ne v4, v12, :cond_17
 
     .line 246
     .line 247
-    if-le v2, v5, :cond_e
+    add-int/lit8 v4, v1, 0x3
 
     .line 248
     .line 249
-    aget-byte v5, v0, v5
+    if-gt v2, v4, :cond_f
 
     .line 250
     .line 251
-    and-int/lit16 v5, v5, 0xc0
+    add-int/lit8 v3, v9, 0x1
 
     .line 252
     .line 253
-    if-ne v5, v10, :cond_e
+    aput-char v14, v7, v9
 
     .line 254
     .line 255
-    add-int/lit8 v5, v1, 0x2
+    sget-object v4, Lkotlin/j;->a:Lkotlin/j;
 
     .line 256
     .line 257
-    if-le v2, v5, :cond_d
+    add-int/lit8 v4, v1, 0x1
 
     .line 258
     .line 259
-    aget-byte v5, v0, v5
+    if-le v2, v4, :cond_e
 
     .line 260
     .line 261
-    and-int/lit16 v5, v5, 0xc0
+    aget-byte v4, v0, v4
 
     .line 262
     .line 263
-    if-ne v5, v10, :cond_d
+    and-int/lit16 v4, v4, 0xc0
 
     .line 264
     .line 265
-    :goto_c
-    move v9, v15
+    if-ne v4, v13, :cond_e
 
     .line 266
-    goto/16 :goto_12
-
     .line 267
-    .line 268
-    :cond_d
-    :goto_d
-    const/4 v9, 0x2
+    add-int/lit8 v4, v1, 0x2
 
+    .line 268
     .line 269
-    goto/16 :goto_12
+    if-le v2, v4, :cond_d
 
     .line 270
     .line 271
-    :cond_e
-    :goto_e
-    move v9, v12
+    aget-byte v4, v0, v4
 
     .line 272
-    goto/16 :goto_12
-
     .line 273
+    and-int/lit16 v4, v4, 0xc0
+
     .line 274
-    :cond_f
-    add-int/lit8 v8, v1, 0x1
-
     .line 275
+    if-ne v4, v13, :cond_d
+
     .line 276
-    aget-byte v8, v0, v8
-
     .line 277
+    move/from16 v17, v5
+
     .line 278
-    and-int/lit16 v9, v8, 0xc0
-
     .line 279
+    :goto_b
+    move/from16 v5, v16
+
     .line 280
-    if-ne v9, v10, :cond_16
-
     .line 281
+    goto/16 :goto_10
+
     .line 282
-    add-int/lit8 v9, v1, 0x2
-
     .line 283
+    :cond_d
+    move/from16 v17, v5
+
     .line 284
-    aget-byte v9, v0, v9
-
     .line 285
+    goto/16 :goto_10
+
     .line 286
-    and-int/lit16 v12, v9, 0xc0
-
     .line 287
-    .line 288
-    if-ne v12, v10, :cond_15
+    :cond_e
+    move/from16 v17, v5
 
+    .line 288
     .line 289
+    :goto_c
+    move v5, v6
+
     .line 290
-    aget-byte v7, v0, v7
+    goto/16 :goto_10
 
     .line 291
     .line 292
-    and-int/lit16 v12, v7, 0xc0
+    :cond_f
+    add-int/lit8 v11, v1, 0x1
 
     .line 293
     .line 294
-    if-ne v12, v10, :cond_14
+    aget-byte v11, v0, v11
 
     .line 295
     .line 296
-    const v10, 0x381f80
+    and-int/lit16 v12, v11, 0xc0
 
     .line 297
     .line 298
-    .line 299
-    xor-int/2addr v7, v10
+    if-ne v12, v13, :cond_16
 
+    .line 299
     .line 300
-    shl-int/lit8 v9, v9, 0x6
+    add-int/lit8 v12, v1, 0x2
 
     .line 301
     .line 302
-    xor-int/2addr v7, v9
+    aget-byte v12, v0, v12
 
     .line 303
-    shl-int/lit8 v8, v8, 0xc
-
     .line 304
-    .line 305
-    xor-int/2addr v7, v8
+    move/from16 v17, v5
 
+    .line 305
     .line 306
-    shl-int/lit8 v6, v6, 0x12
+    and-int/lit16 v5, v12, 0xc0
 
     .line 307
     .line 308
-    xor-int/2addr v6, v7
+    if-ne v5, v13, :cond_15
 
     .line 309
-    const v7, 0x10ffff
-
     .line 310
+    aget-byte v4, v0, v4
+
     .line 311
     .line 312
-    if-le v6, v7, :cond_10
+    and-int/lit16 v5, v4, 0xc0
 
     .line 313
     .line 314
-    add-int/lit8 v6, v5, 0x1
+    if-ne v5, v13, :cond_14
 
     .line 315
     .line 316
-    aput-char v11, v3, v5
+    const v5, 0x381f80
 
     .line 317
     .line 318
-    :goto_f
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
-
     .line 319
+    xor-int/2addr v4, v5
+
     .line 320
-    goto :goto_11
+    shl-int/lit8 v5, v12, 0x6
 
     .line 321
-    :cond_10
-    if-gt v14, v6, :cond_11
-
     .line 322
+    xor-int/2addr v4, v5
+
     .line 323
-    if-ge v6, v13, :cond_11
+    shl-int/lit8 v5, v11, 0xc
 
     .line 324
     .line 325
-    add-int/lit8 v6, v5, 0x1
+    xor-int/2addr v4, v5
 
     .line 326
-    .line 327
-    aput-char v11, v3, v5
+    shl-int/lit8 v5, v10, 0x12
 
+    .line 327
     .line 328
+    xor-int/2addr v4, v5
+
     .line 329
-    goto :goto_f
+    const v5, 0x10ffff
 
     .line 330
-    :cond_11
-    const/high16 v7, 0x10000
-
     .line 331
     .line 332
-    if-ge v6, v7, :cond_12
+    if-le v4, v5, :cond_10
 
     .line 333
     .line 334
-    add-int/lit8 v6, v5, 0x1
+    add-int/lit8 v3, v9, 0x1
 
     .line 335
     .line 336
-    aput-char v11, v3, v5
+    aput-char v14, v7, v9
 
     .line 337
     .line 338
-    goto :goto_f
+    :goto_d
+    sget-object v4, Lkotlin/j;->a:Lkotlin/j;
 
     .line 339
-    :cond_12
-    if-eq v6, v11, :cond_13
-
     .line 340
+    goto :goto_f
+
     .line 341
-    ushr-int/lit8 v7, v6, 0xa
+    :cond_10
+    if-gt v3, v4, :cond_11
 
     .line 342
     .line 343
-    const v8, 0xd7c0
+    if-ge v4, v15, :cond_11
 
     .line 344
     .line 345
-    .line 346
-    add-int/2addr v7, v8
+    add-int/lit8 v3, v9, 0x1
 
+    .line 346
     .line 347
-    int-to-char v7, v7
+    aput-char v14, v7, v9
 
     .line 348
-    add-int/lit8 v8, v5, 0x1
-
     .line 349
+    goto :goto_d
+
     .line 350
-    aput-char v7, v3, v5
+    :cond_11
+    const/high16 v3, 0x10000
 
     .line 351
     .line 352
-    and-int/lit16 v6, v6, 0x3ff
+    if-ge v4, v3, :cond_12
 
     .line 353
     .line 354
-    const v7, 0xdc00
+    add-int/lit8 v3, v9, 0x1
 
     .line 355
     .line 356
-    .line 357
-    add-int/2addr v6, v7
+    aput-char v14, v7, v9
 
+    .line 357
     .line 358
-    int-to-char v6, v6
+    goto :goto_d
 
     .line 359
-    add-int/lit8 v5, v5, 0x2
+    :cond_12
+    if-eq v4, v14, :cond_13
 
     .line 360
     .line 361
-    aput-char v6, v3, v8
+    ushr-int/lit8 v3, v4, 0xa
 
     .line 362
     .line 363
-    goto :goto_10
+    const v5, 0xd7c0
 
     .line 364
-    :cond_13
-    add-int/lit8 v6, v5, 0x1
-
     .line 365
     .line 366
-    aput-char v11, v3, v5
+    add-int/2addr v3, v5
 
     .line 367
+    int-to-char v3, v3
+
     .line 368
-    move v5, v6
+    add-int/lit8 v5, v9, 0x1
 
     .line 369
-    :goto_10
-    sget-object v6, Ljl/e2;->a:Ljl/e2;
-
     .line 370
-    .line 371
-    move v6, v5
+    aput-char v3, v7, v9
 
+    .line 371
     .line 372
-    :goto_11
-    const/4 v9, 0x4
+    and-int/lit16 v3, v4, 0x3ff
 
     .line 373
-    goto :goto_12
-
     .line 374
-    :cond_14
-    add-int/lit8 v6, v5, 0x1
+    const v4, 0xdc00
 
     .line 375
     .line 376
-    aput-char v11, v3, v5
-
     .line 377
+    add-int/2addr v3, v4
+
     .line 378
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
+    int-to-char v3, v3
 
     .line 379
-    .line 380
-    goto :goto_c
+    add-int/lit8 v9, v9, 0x2
 
+    .line 380
     .line 381
-    :cond_15
-    add-int/lit8 v6, v5, 0x1
+    aput-char v3, v7, v5
 
     .line 382
     .line 383
-    aput-char v11, v3, v5
-
-    .line 384
-    .line 385
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
-
-    .line 386
-    .line 387
-    goto :goto_d
-
-    .line 388
-    :cond_16
-    add-int/lit8 v6, v5, 0x1
-
-    .line 389
-    .line 390
-    aput-char v11, v3, v5
-
-    .line 391
-    .line 392
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
-
-    .line 393
-    .line 394
     goto :goto_e
 
-    .line 395
-    :goto_12
-    add-int/2addr v1, v9
+    .line 384
+    :cond_13
+    add-int/lit8 v3, v9, 0x1
 
+    .line 385
+    .line 386
+    aput-char v14, v7, v9
+
+    .line 387
+    .line 388
+    move v9, v3
+
+    .line 389
+    :goto_e
+    sget-object v3, Lkotlin/j;->a:Lkotlin/j;
+
+    .line 390
+    .line 391
+    move v3, v9
+
+    .line 392
+    :goto_f
+    const/4 v5, 0x4
+
+    .line 393
+    goto :goto_10
+
+    .line 394
+    :cond_14
+    add-int/lit8 v3, v9, 0x1
+
+    .line 395
     .line 396
-    sget-object v5, Ljl/e2;->a:Ljl/e2;
+    aput-char v14, v7, v9
 
     .line 397
     .line 398
-    :goto_13
-    move v5, v6
+    sget-object v4, Lkotlin/j;->a:Lkotlin/j;
 
     .line 399
-    goto/16 :goto_0
-
     .line 400
+    goto :goto_b
+
     .line 401
-    :cond_17
-    add-int/lit8 v6, v5, 0x1
+    :cond_15
+    add-int/lit8 v3, v9, 0x1
 
     .line 402
     .line 403
-    aput-char v11, v3, v5
+    aput-char v14, v7, v9
 
     .line 404
     .line 405
-    add-int/lit8 v1, v1, 0x1
+    sget-object v4, Lkotlin/j;->a:Lkotlin/j;
 
     .line 406
     .line 407
-    goto :goto_13
+    move/from16 v5, v17
 
     .line 408
-    :cond_18
-    invoke-static {v3, v4, v5}, Lym/f0;->M1([CII)Ljava/lang/String;
-
     .line 409
-    .line 410
-    .line 411
-    move-result-object v0
+    goto :goto_10
 
+    .line 410
+    :cond_16
+    move/from16 v17, v5
+
+    .line 411
     .line 412
-    return-object v0
+    add-int/lit8 v3, v9, 0x1
 
     .line 413
-    :cond_19
-    new-instance v3, Ljava/lang/ArrayIndexOutOfBoundsException;
-
     .line 414
+    aput-char v14, v7, v9
+
     .line 415
-    new-instance v4, Ljava/lang/StringBuilder;
-
     .line 416
-    .line 417
-    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
+    sget-object v4, Lkotlin/j;->a:Lkotlin/j;
 
+    .line 417
     .line 418
+    goto/16 :goto_c
+
     .line 419
     .line 420
-    const-string v5, "size="
+    :goto_10
+    add-int/2addr v1, v5
 
     .line 421
+    :goto_11
+    move v9, v3
+
     .line 422
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    goto :goto_12
 
     .line 423
+    :cond_17
+    move/from16 v17, v5
+
     .line 424
     .line 425
-    array-length v0, v0
+    add-int/lit8 v3, v9, 0x1
 
     .line 426
-    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
     .line 427
+    aput-char v14, v7, v9
+
     .line 428
     .line 429
-    const-string v0, " beginIndex="
+    add-int/2addr v1, v6
 
     .line 430
+    goto :goto_11
+
     .line 431
-    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    :goto_12
+    move/from16 v5, v17
 
     .line 432
     .line 433
+    const/4 v3, 0x4
+
     .line 434
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    goto/16 :goto_0
 
     .line 435
     .line 436
-    .line 437
-    const-string v0, " endIndex="
+    :cond_18
+    invoke-static {v7, v8, v9}, Lkotlin/text/z;->r([CII)Ljava/lang/String;
 
+    .line 437
     .line 438
     .line 439
-    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object v0
 
     .line 440
-    .line 441
-    .line 442
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    return-object v0
 
+    .line 441
+    :cond_19
+    new-instance v3, Ljava/lang/ArrayIndexOutOfBoundsException;
+
+    .line 442
     .line 443
+    new-instance v4, Ljava/lang/StringBuilder;
+
     .line 444
     .line 445
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 446
     .line 447
     .line 448
-    move-result-object v0
+    const-string v5, "size="
 
     .line 449
-    invoke-direct {v3, v0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
-
     .line 450
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 451
     .line 452
-    throw v3
     .line 453
+    array-length v0, v0
+
     .line 454
+    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
     .line 455
     .line 456
     .line 457
+    const-string v0, " beginIndex="
+
     .line 458
     .line 459
+    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 460
     .line 461
     .line 462
+    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
     .line 463
     .line 464
     .line 465
+    const-string v0, " endIndex="
+
     .line 466
     .line 467
+    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 468
     .line 469
     .line 470
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
     .line 471
     .line 472
     .line 473
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 474
     .line 475
     .line 476
+    move-result-object v0
+
     .line 477
+    invoke-direct {v3, v0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
+
     .line 478
     .line 479
     .line 480
+    throw v3
     .line 481
     .line 482
     .line 483
@@ -2011,63 +2138,4 @@
     .line 271
     .line 272
     .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
 .end method

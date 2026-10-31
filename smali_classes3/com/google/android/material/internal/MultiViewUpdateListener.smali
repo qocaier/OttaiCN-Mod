@@ -134,9 +134,9 @@
     .line 2
     new-instance v0, Lcom/google/android/material/internal/MultiViewUpdateListener;
 
-    new-instance v1, Lcom/google/android/material/internal/d;
+    new-instance v1, Lcom/google/android/material/internal/e;
 
-    invoke-direct {v1}, Lcom/google/android/material/internal/d;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/internal/e;-><init>()V
 
     invoke-direct {v0, v1, p0}, Lcom/google/android/material/internal/MultiViewUpdateListener;-><init>(Lcom/google/android/material/internal/MultiViewUpdateListener$Listener;Ljava/util/Collection;)V
 
@@ -155,9 +155,9 @@
     .line 1
     new-instance v0, Lcom/google/android/material/internal/MultiViewUpdateListener;
 
-    new-instance v1, Lcom/google/android/material/internal/d;
+    new-instance v1, Lcom/google/android/material/internal/e;
 
-    invoke-direct {v1}, Lcom/google/android/material/internal/d;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/internal/e;-><init>()V
 
     invoke-direct {v0, v1, p0}, Lcom/google/android/material/internal/MultiViewUpdateListener;-><init>(Lcom/google/android/material/internal/MultiViewUpdateListener$Listener;[Landroid/view/View;)V
 
@@ -213,9 +213,9 @@
     .line 2
     new-instance v0, Lcom/google/android/material/internal/MultiViewUpdateListener;
 
-    new-instance v1, Lcom/google/android/material/internal/b;
+    new-instance v1, Lcom/google/android/material/internal/c;
 
-    invoke-direct {v1}, Lcom/google/android/material/internal/b;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/internal/c;-><init>()V
 
     invoke-direct {v0, v1, p0}, Lcom/google/android/material/internal/MultiViewUpdateListener;-><init>(Lcom/google/android/material/internal/MultiViewUpdateListener$Listener;Ljava/util/Collection;)V
 
@@ -234,9 +234,9 @@
     .line 1
     new-instance v0, Lcom/google/android/material/internal/MultiViewUpdateListener;
 
-    new-instance v1, Lcom/google/android/material/internal/b;
+    new-instance v1, Lcom/google/android/material/internal/c;
 
-    invoke-direct {v1}, Lcom/google/android/material/internal/b;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/internal/c;-><init>()V
 
     invoke-direct {v0, v1, p0}, Lcom/google/android/material/internal/MultiViewUpdateListener;-><init>(Lcom/google/android/material/internal/MultiViewUpdateListener$Listener;[Landroid/view/View;)V
 
@@ -327,11 +327,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static setScale(Landroid/animation/ValueAnimator;Landroid/view/View;)V
@@ -424,11 +419,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static setTranslationX(Landroid/animation/ValueAnimator;Landroid/view/View;)V
@@ -515,11 +505,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static setTranslationY(Landroid/animation/ValueAnimator;Landroid/view/View;)V
@@ -606,11 +591,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static translationXListener(Ljava/util/Collection;)Lcom/google/android/material/internal/MultiViewUpdateListener;
@@ -635,9 +615,9 @@
     .line 2
     new-instance v0, Lcom/google/android/material/internal/MultiViewUpdateListener;
 
-    new-instance v1, Lcom/google/android/material/internal/a;
+    new-instance v1, Lcom/google/android/material/internal/b;
 
-    invoke-direct {v1}, Lcom/google/android/material/internal/a;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/internal/b;-><init>()V
 
     invoke-direct {v0, v1, p0}, Lcom/google/android/material/internal/MultiViewUpdateListener;-><init>(Lcom/google/android/material/internal/MultiViewUpdateListener$Listener;Ljava/util/Collection;)V
 
@@ -656,9 +636,9 @@
     .line 1
     new-instance v0, Lcom/google/android/material/internal/MultiViewUpdateListener;
 
-    new-instance v1, Lcom/google/android/material/internal/a;
+    new-instance v1, Lcom/google/android/material/internal/b;
 
-    invoke-direct {v1}, Lcom/google/android/material/internal/a;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/internal/b;-><init>()V
 
     invoke-direct {v0, v1, p0}, Lcom/google/android/material/internal/MultiViewUpdateListener;-><init>(Lcom/google/android/material/internal/MultiViewUpdateListener$Listener;[Landroid/view/View;)V
 
@@ -687,9 +667,9 @@
     .line 2
     new-instance v0, Lcom/google/android/material/internal/MultiViewUpdateListener;
 
-    new-instance v1, Lcom/google/android/material/internal/c;
+    new-instance v1, Lcom/google/android/material/internal/d;
 
-    invoke-direct {v1}, Lcom/google/android/material/internal/c;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/internal/d;-><init>()V
 
     invoke-direct {v0, v1, p0}, Lcom/google/android/material/internal/MultiViewUpdateListener;-><init>(Lcom/google/android/material/internal/MultiViewUpdateListener$Listener;Ljava/util/Collection;)V
 
@@ -708,9 +688,9 @@
     .line 1
     new-instance v0, Lcom/google/android/material/internal/MultiViewUpdateListener;
 
-    new-instance v1, Lcom/google/android/material/internal/c;
+    new-instance v1, Lcom/google/android/material/internal/d;
 
-    invoke-direct {v1}, Lcom/google/android/material/internal/c;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/internal/d;-><init>()V
 
     invoke-direct {v0, v1, p0}, Lcom/google/android/material/internal/MultiViewUpdateListener;-><init>(Lcom/google/android/material/internal/MultiViewUpdateListener$Listener;[Landroid/view/View;)V
 
@@ -771,5 +751,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

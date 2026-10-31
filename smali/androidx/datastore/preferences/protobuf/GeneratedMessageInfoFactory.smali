@@ -41,6 +41,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -69,6 +70,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getInstance()Landroidx/datastore/preferences/protobuf/GeneratedMessageInfoFactory;
@@ -97,21 +99,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public isSupported(Ljava/lang/Class;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "messageType"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -156,15 +150,6 @@
 
 .method public messageInfoFor(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/MessageInfo;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "messageType"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -330,4 +315,5 @@
     .line 77
     .line 78
     throw v0
+    .line 79
 .end method

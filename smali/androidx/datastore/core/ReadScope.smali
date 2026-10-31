@@ -19,20 +19,13 @@
 
 
 # virtual methods
-.method public abstract readData(Lul/c;)Ljava/lang/Object;
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract readData(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method

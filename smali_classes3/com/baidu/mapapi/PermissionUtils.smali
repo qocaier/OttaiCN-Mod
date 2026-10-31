@@ -60,7 +60,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -99,7 +98,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isBWNaviInfoAuthorized()Z
@@ -136,7 +134,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isBWNaviMultiMapAuthorized()Z
@@ -173,7 +170,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isBWNaviTrafficLightAuthorized()Z
@@ -210,7 +206,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isEnglishMapAuthorized()Z
@@ -247,7 +242,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isEnglishWalkBikeNaviAuthorized()Z
@@ -284,7 +278,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isIndoorNaviAuthorized()Z
@@ -321,7 +314,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isIntegralRoutePlanAuthorized()Z
@@ -358,7 +350,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isWalkARNaviAuthorized()Z
@@ -395,5 +386,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

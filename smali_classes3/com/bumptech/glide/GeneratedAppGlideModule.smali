@@ -1,5 +1,5 @@
 .class abstract Lcom/bumptech/glide/GeneratedAppGlideModule;
-.super Ls6/a;
+.super Lu0/a;
 .source "SourceFile"
 
 
@@ -8,7 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ls6/a;-><init>()V
+    invoke-direct {p0}, Lu0/a;-><init>()V
 
     .line 2
     .line 3
@@ -32,24 +32,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public d()Ljava/util/Set;
     .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Set<",
-            "Ljava/lang/Class<",
-            "*>;>;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/util/HashSet;
@@ -78,13 +66,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public e()Lr6/r$b;
+.method public e()Lt0/q$b;
     .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -111,5 +96,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

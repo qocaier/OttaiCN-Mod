@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static setFillWindowForwardOnly(Landroid/database/sqlite/SQLiteCursor;Z)V

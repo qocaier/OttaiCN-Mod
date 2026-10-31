@@ -12,9 +12,9 @@
 
 .field b:Landroid/content/Context;
 
-.field c:Lii/b;
+.field c:Lh7/b;
 
-.field d:Lii/a;
+.field d:Lh7/a;
 
 
 # direct methods
@@ -98,16 +98,9 @@
 
 # virtual methods
 .method public a(IILandroid/content/Intent;)V
-    .locals 1
+    .locals 0
 
     .line 2
-    iget-object v0, p0, Lcom/tencent/smtt/sdk/p;->c:Lii/b;
-
-    if-eqz v0, :cond_0
-
-    invoke-interface {v0, p1, p2, p3}, Lii/b;->b(IILandroid/content/Intent;)V
-
-    :cond_0
     return-void
 .end method
 
@@ -139,8 +132,8 @@
     return v0
 .end method
 
-.method public a(Ljava/lang/String;Landroid/os/Bundle;Lii/b;)Z
-    .locals 3
+.method public a(Ljava/lang/String;Landroid/os/Bundle;Lh7/b;)Z
+    .locals 2
 
     if-nez p2, :cond_0
 
@@ -161,64 +154,53 @@
     invoke-virtual {p2, v0, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
-    const/4 p1, 0x1
-
-    const-string v0, "callMode"
+    const/4 p1, 0x0
 
     if-eqz p3, :cond_3
 
-    iget-object v1, p0, Lcom/tencent/smtt/sdk/p;->a:Lcom/tencent/smtt/sdk/r;
+    iget-object p2, p0, Lcom/tencent/smtt/sdk/p;->a:Lcom/tencent/smtt/sdk/r;
 
-    invoke-virtual {v1}, Lcom/tencent/smtt/sdk/r;->a()V
+    invoke-virtual {p2}, Lcom/tencent/smtt/sdk/r;->a()V
 
-    iget-object v1, p0, Lcom/tencent/smtt/sdk/p;->a:Lcom/tencent/smtt/sdk/r;
+    iget-object p2, p0, Lcom/tencent/smtt/sdk/p;->a:Lcom/tencent/smtt/sdk/r;
 
-    invoke-virtual {v1}, Lcom/tencent/smtt/sdk/r;->b()Z
+    invoke-virtual {p2}, Lcom/tencent/smtt/sdk/r;->b()Z
 
-    move-result v1
+    move-result p2
 
-    if-nez v1, :cond_2
+    if-nez p2, :cond_2
 
     const/4 p1, 0x0
 
     return p1
 
     :cond_2
-    iput-object p3, p0, Lcom/tencent/smtt/sdk/p;->c:Lii/b;
+    new-instance p2, Lcom/tencent/smtt/sdk/p$1;
 
-    new-instance v1, Lcom/tencent/smtt/sdk/p$1;
+    invoke-direct {p2, p0}, Lcom/tencent/smtt/sdk/p$1;-><init>(Lcom/tencent/smtt/sdk/p;)V
 
-    invoke-direct {v1, p0}, Lcom/tencent/smtt/sdk/p$1;-><init>(Lcom/tencent/smtt/sdk/p;)V
+    iput-object p2, p0, Lcom/tencent/smtt/sdk/p;->d:Lh7/a;
 
-    iput-object v1, p0, Lcom/tencent/smtt/sdk/p;->d:Lii/a;
+    throw p1
 
-    iget-object v2, p0, Lcom/tencent/smtt/sdk/p;->c:Lii/b;
+    :cond_3
+    const-string v0, "callMode"
 
-    invoke-interface {v2, v1}, Lii/b;->a(Lii/a;)V
-
-    const/4 v1, 0x3
+    const/4 v1, 0x1
 
     invoke-virtual {p2, v0, v1}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
 
-    goto :goto_0
-
-    :cond_3
-    invoke-virtual {p2, v0, p1}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
-
-    :goto_0
     iget-object v0, p0, Lcom/tencent/smtt/sdk/p;->a:Lcom/tencent/smtt/sdk/r;
 
     if-nez p3, :cond_4
 
-    const/4 p3, 0x0
-
-    goto :goto_1
+    goto :goto_0
 
     :cond_4
-    move-object p3, p0
+    move-object p1, p0
 
-    :goto_1
-    invoke-virtual {v0, p2, p3}, Lcom/tencent/smtt/sdk/r;->a(Landroid/os/Bundle;Ljava/lang/Object;)V
+    :goto_0
+    invoke-virtual {v0, p2, p1}, Lcom/tencent/smtt/sdk/r;->a(Landroid/os/Bundle;Ljava/lang/Object;)V
 
-    return p1
+    return v1
 .end method

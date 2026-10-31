@@ -27,18 +27,6 @@
 # direct methods
 .method public constructor <init>([BII)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "bytes",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;-><init>([B)V
@@ -166,19 +154,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private readObject(Ljava/io/ObjectInputStream;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "in"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -223,14 +205,6 @@
 # virtual methods
 .method public byteAt(I)B
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;->size()I
@@ -276,20 +250,6 @@
 
 .method public copyToInternal([BIII)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "sourceOffset",
-            "targetOffset",
-            "numberToCopy"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
@@ -532,6 +492,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getOffsetIntoBytes()I
@@ -560,18 +526,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public internalByteAt(I)B
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
@@ -635,6 +594,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public writeReplace()Ljava/lang/Object;
@@ -669,4 +629,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

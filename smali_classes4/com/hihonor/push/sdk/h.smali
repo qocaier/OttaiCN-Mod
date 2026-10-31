@@ -545,15 +545,6 @@
 
 .method public static a(Lcom/hihonor/push/sdk/d1;)Ljava/lang/Object;
     .locals 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<TResult:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lcom/hihonor/push/sdk/d1<",
-            "TTResult;>;)TTResult;"
-        }
-    .end annotation
 
     const-string v0, "await must not be called on the UI thread"
 
@@ -690,19 +681,19 @@
 
     if-eqz p0, :cond_3
 
-    invoke-static {p0}, Lr0/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
+    invoke-static {p0}, Landroidx/core/content/pm/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
 
     move-result-object p0
 
     if-eqz p0, :cond_2
 
-    invoke-static {p0}, Ld5/a;->a(Landroid/content/pm/SigningInfo;)Z
+    invoke-static {p0}, Lcom/baidu/lbsapi/auth/r;->a(Landroid/content/pm/SigningInfo;)Z
 
     move-result p1
 
     if-eqz p1, :cond_1
 
-    invoke-static {p0}, Ld5/b;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
+    invoke-static {p0}, Lcom/baidu/lbsapi/auth/s;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
 
     move-result-object p0
 
@@ -717,7 +708,7 @@
     goto :goto_4
 
     :cond_1
-    invoke-static {p0}, Ld5/c;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
+    invoke-static {p0}, Lcom/baidu/lbsapi/auth/t;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
 
     move-result-object p0
     :try_end_1
@@ -1668,7 +1659,7 @@
     if-lt v1, v2, :cond_0
 
     :try_start_3
-    invoke-static {}, Lce/e;->a()Ljava/security/SecureRandom;
+    invoke-static {}, Ll5/e;->a()Ljava/security/SecureRandom;
 
     move-result-object v1
     :try_end_3
@@ -1966,15 +1957,6 @@
 
 .method public static b(Lcom/hihonor/push/sdk/d1;)Ljava/lang/Object;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<TResult:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lcom/hihonor/push/sdk/d1<",
-            "TTResult;>;)TTResult;"
-        }
-    .end annotation
 
     invoke-virtual {p0}, Lcom/hihonor/push/sdk/d1;->c()Z
 

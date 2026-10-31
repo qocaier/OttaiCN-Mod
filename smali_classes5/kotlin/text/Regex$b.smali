@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
@@ -14,26 +14,6 @@
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x19
     name = null
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljm/l<",
-        "Lkotlin/text/RegexOption;",
-        "Ljava/lang/Boolean;",
-        ">;"
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nRegex.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Regex.kt\nkotlin/text/RegexKt$fromInt$1$1\n*L\n1#1,404:1\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nRegex.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Regex.kt\nkotlin/text/RegexKt$fromInt$1$1\n*L\n1#1,404:1\n*E\n"
-    }
 .end annotation
 
 
@@ -56,25 +36,17 @@
 # virtual methods
 .method public final a(Ljava/lang/Enum;)Ljava/lang/Boolean;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lkotlin/text/RegexOption;",
-            ")",
-            "Ljava/lang/Boolean;"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Lkotlin/text/Regex$b;->a:I
 
     .line 2
     .line 3
-    check-cast p1, Lym/g;
+    check-cast p1, Lkotlin/text/f;
 
     .line 4
     .line 5
-    invoke-interface {p1}, Lym/g;->getMask()I
+    invoke-interface {p1}, Lkotlin/text/f;->getMask()I
 
     .line 6
     .line 7
@@ -85,7 +57,7 @@
     and-int/2addr v0, v1
 
     .line 10
-    invoke-interface {p1}, Lym/g;->getValue()I
+    invoke-interface {p1}, Lkotlin/text/f;->getValue()I
 
     .line 11
     .line 12
@@ -118,6 +90,39 @@
     .line 23
     return-object p1
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
@@ -154,4 +159,37 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method

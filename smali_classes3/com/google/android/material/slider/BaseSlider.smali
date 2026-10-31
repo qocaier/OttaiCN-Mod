@@ -353,7 +353,6 @@
     .line 21
     return-void
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -664,7 +663,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$200(Lcom/google/android/material/slider/BaseSlider;)Lcom/google/android/material/slider/BaseSlider$AccessibilityHelper;
@@ -697,7 +695,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$400(Lcom/google/android/material/slider/BaseSlider;F)Ljava/lang/String;
@@ -768,11 +765,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$500(Lcom/google/android/material/slider/BaseSlider;IF)Z
@@ -930,11 +922,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static synthetic access$600(Lcom/google/android/material/slider/BaseSlider;)V
@@ -967,7 +954,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$700(Lcom/google/android/material/slider/BaseSlider;I)F
@@ -1038,11 +1024,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private adjustCustomThumbDrawableBounds(Landroid/graphics/drawable/Drawable;)V
@@ -1189,8 +1170,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private attachLabelToContentView(Lcom/google/android/material/tooltip/TooltipDrawable;)V
@@ -1227,7 +1206,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private calculateIncrementForKey(I)Ljava/lang/Float;
@@ -1418,8 +1396,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private calculateStepIncrement()F
@@ -1618,15 +1594,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private createLabelAnimator(Z)Landroid/animation/ValueAnimator;
@@ -2159,6 +2126,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private createLabelPool()V
@@ -2976,6 +2975,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method private detachLabelFromContentView(Lcom/google/android/material/tooltip/TooltipDrawable;)V
@@ -3021,7 +3079,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private dimenToValue(F)F
@@ -3083,7 +3140,6 @@
     .line 23
     return p1
     .line 24
-    .line 25
 .end method
 
 .method private dispatchOnChangedFromUser(I)V
@@ -3232,8 +3288,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private dispatchOnChangedProgrammatically()V
@@ -3389,15 +3443,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private drawActiveTrack(Landroid/graphics/Canvas;II)V
@@ -3593,11 +3638,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private drawInactiveTrack(Landroid/graphics/Canvas;II)V
@@ -3837,11 +3877,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private drawThumbDrawable(Landroid/graphics/Canvas;IIFLandroid/graphics/drawable/Drawable;)V
@@ -5133,11 +5168,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private ensureLabelsAdded()V
@@ -5956,6 +5986,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method private ensureLabelsRemoved()V
@@ -6091,15 +6180,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private focusThumbOnFocusGained(I)V
@@ -6237,8 +6317,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private formatValue(F)Ljava/lang/String;
@@ -6379,8 +6457,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getActiveRange()[F
@@ -6561,15 +6637,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private static getAnimatorCurrentValueOrDefault(Landroid/animation/ValueAnimator;F)F
@@ -6657,11 +6724,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private getClampedValue(IF)F
@@ -7079,54 +7141,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method private getColorForState(Landroid/content/res/ColorStateList;)I
@@ -7175,7 +7189,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getValueOfTouchPosition()F
@@ -7315,15 +7328,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getValueOfTouchPositionAbsolute()F
@@ -7375,7 +7379,6 @@
     return v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private initializeCustomThumbDrawable(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
@@ -7420,7 +7423,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private invalidateTrack()V
@@ -7465,7 +7467,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private isInVerticalScrollingContainer()Z
@@ -7620,15 +7621,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private static isMouseEvent(Landroid/view/MotionEvent;)Z
@@ -7674,7 +7666,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private isMultipleOfStepSize(F)Z
@@ -7825,8 +7816,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private isPotentialVerticalScroll(Landroid/view/MotionEvent;)Z
@@ -7876,7 +7865,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private loadResources(Landroid/content/res/Resources;)V
@@ -8036,8 +8024,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private maybeCalculateTicksCoordinates()V
@@ -8256,15 +8242,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private maybeDrawCompatHalo(Landroid/graphics/Canvas;II)V
@@ -8507,11 +8484,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private maybeDrawTicks(Landroid/graphics/Canvas;)V
@@ -8682,8 +8654,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private maybeIncreaseTrackSidePadding()Z
@@ -8874,15 +8844,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private maybeIncreaseWidgetHeight()Z
@@ -9042,15 +9003,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private moveFocus(I)Z
@@ -9198,8 +9150,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private moveFocusInAbsoluteDirection(I)Z
@@ -9253,7 +9203,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private normalizeValue(F)F
@@ -9307,7 +9256,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private onKeyDownNoActiveThumb(ILandroid/view/KeyEvent;)Ljava/lang/Boolean;
@@ -9765,54 +9713,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method private onStartTrackingTouch()V
@@ -9866,6 +9766,83 @@
     .line 23
     :cond_0
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method private onStopTrackingTouch()V
@@ -9919,6 +9896,83 @@
     .line 23
     :cond_0
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method private static pivotIndex([FF)I
@@ -9999,11 +10053,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private processAttributes(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -11417,50 +11466,6 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method private scheduleAccessibilityEventSender(I)V
@@ -11586,8 +11591,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private setValueForLabel(Lcom/google/android/material/tooltip/TooltipDrawable;F)V
@@ -12003,54 +12006,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method private setValuesInternal(Ljava/util/ArrayList;)V
@@ -12218,8 +12173,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private shouldAlwaysShowLabel()Z
@@ -12261,7 +12214,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private shouldDrawCompatHalo()Z
@@ -12313,7 +12265,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private snapActiveThumbToValue(F)Z
@@ -12350,7 +12301,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private snapPosition(F)D
@@ -12485,8 +12435,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private snapThumbToValue(IF)Z
@@ -12602,11 +12550,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private snapTouchPosition()Z
@@ -12643,7 +12586,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private updateHaloHotspot()V
@@ -12819,15 +12761,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private updateTrackWidth(I)V
@@ -12874,7 +12807,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private updateWidgetLayout()V
@@ -12923,7 +12855,6 @@
     return-void
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private validateConfigurationIfDirty()V
@@ -13051,15 +12982,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private validateMinSeparation()V
@@ -13848,6 +13770,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method private validateStepSize()V
@@ -14009,15 +13990,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private validateValueFrom()V
@@ -14161,15 +14133,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private validateValueTo()V
@@ -14313,15 +14276,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private validateValues()V
@@ -15114,6 +15068,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method private valueLandsOnTick(F)Z
@@ -15152,7 +15165,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private valueToX(F)F
@@ -15199,7 +15211,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private warnAboutFloatingPointError()V
@@ -15405,15 +15416,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -15461,7 +15463,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addOnSliderTouchListener(Lcom/google/android/material/slider/BaseOnSliderTouchListener;)V
@@ -15505,7 +15506,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public clearOnChangeListeners()V
@@ -15538,7 +15538,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public clearOnSliderTouchListeners()V
@@ -15571,7 +15570,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public dispatchHoverEvent(Landroid/view/MotionEvent;)Z
@@ -15631,7 +15629,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
@@ -15670,7 +15667,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public drawableStateChanged()V
@@ -16448,6 +16444,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public forceDrawCompatHalo(Z)V
@@ -16482,7 +16537,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getAccessibilityClassName()Ljava/lang/CharSequence;
@@ -16519,7 +16573,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getAccessibilityFocusedVirtualViewId()I
@@ -16556,7 +16609,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getActiveThumbIndex()I
@@ -16587,7 +16639,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFocusedThumbIndex()I
@@ -16618,7 +16669,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHaloRadius()I
@@ -16651,7 +16701,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHaloTintList()Landroid/content/res/ColorStateList;
@@ -16684,7 +16733,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLabelBehavior()I
@@ -16715,7 +16763,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMinSeparation()F
@@ -16754,7 +16801,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThumbElevation()F
@@ -16789,7 +16835,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThumbRadius()I
@@ -16822,7 +16867,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThumbStrokeColor()Landroid/content/res/ColorStateList;
@@ -16857,7 +16901,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThumbStrokeWidth()F
@@ -16892,7 +16935,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThumbTintList()Landroid/content/res/ColorStateList;
@@ -16929,7 +16971,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTickActiveRadius()I
@@ -16962,7 +17003,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTickActiveTintList()Landroid/content/res/ColorStateList;
@@ -16995,7 +17035,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTickInactiveRadius()I
@@ -17028,7 +17067,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTickInactiveTintList()Landroid/content/res/ColorStateList;
@@ -17061,7 +17099,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTickTintList()Landroid/content/res/ColorStateList;
@@ -17113,7 +17150,6 @@
     .line 21
     throw v0
     .line 22
-    .line 23
 .end method
 
 .method public getTrackActiveTintList()Landroid/content/res/ColorStateList;
@@ -17146,7 +17182,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTrackHeight()I
@@ -17179,7 +17214,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTrackInactiveTintList()Landroid/content/res/ColorStateList;
@@ -17212,7 +17246,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTrackSidePadding()I
@@ -17245,7 +17278,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTrackTintList()Landroid/content/res/ColorStateList;
@@ -17297,7 +17329,6 @@
     .line 21
     throw v0
     .line 22
-    .line 23
 .end method
 
 .method public getTrackWidth()I
@@ -17330,7 +17361,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getValueFrom()F
@@ -17361,7 +17391,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getValueTo()F
@@ -17392,7 +17421,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getValues()Ljava/util/List;
@@ -17438,7 +17466,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hasLabelFormatter()Z
@@ -17478,7 +17505,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final isRtl()Z
@@ -17520,7 +17546,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isTickVisible()Z
@@ -17551,7 +17576,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAttachedToWindow()V
@@ -17684,15 +17708,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onDetachedFromWindow()V
@@ -17836,15 +17851,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -18362,6 +18368,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public onFocusChanged(ZILandroid/graphics/Rect;)V
@@ -18544,11 +18582,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -19046,54 +19079,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public onKeyUp(ILandroid/view/KeyEvent;)Z
@@ -19172,11 +19157,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onMeasure(II)V
@@ -19283,11 +19263,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -19416,8 +19391,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -19558,15 +19531,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onSizeChanged(IIII)V
@@ -19819,6 +19783,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -20499,6 +20479,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public onVisibilityChanged(Landroid/view/View;I)V
@@ -20607,11 +20619,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public pickActiveThumb()Z
@@ -21465,6 +21472,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public removeOnChangeListener(Lcom/google/android/material/slider/BaseOnChangeListener;)V
@@ -21510,7 +21576,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeOnSliderTouchListener(Lcom/google/android/material/slider/BaseOnSliderTouchListener;)V
@@ -21554,7 +21619,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setActiveThumbIndex(I)V
@@ -21587,7 +21651,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCustomThumbDrawable(I)V
@@ -21776,7 +21839,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFocusedThumbIndex(I)V
@@ -21901,8 +21963,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setHaloRadius(I)V
@@ -22042,8 +22102,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setHaloRadiusResource(I)V
@@ -22088,7 +22146,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHaloTintList(Landroid/content/res/ColorStateList;)V
@@ -22240,8 +22297,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setLabelBehavior(I)V
@@ -22281,7 +22336,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLabelFormatter(Lcom/google/android/material/slider/LabelFormatter;)V
@@ -22318,7 +22372,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSeparationUnit(I)V
@@ -22357,7 +22410,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStepSize(F)V
@@ -22509,8 +22561,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setThumbElevation(F)V
@@ -22545,7 +22595,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbElevationResource(I)V
@@ -22590,7 +22639,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbRadius(I)V
@@ -22770,8 +22818,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setThumbRadiusResource(I)V
@@ -22816,7 +22862,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbStrokeColor(Landroid/content/res/ColorStateList;)V
@@ -22857,7 +22902,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbStrokeColorResource(I)V
@@ -22905,7 +22949,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbStrokeWidth(F)V
@@ -22942,7 +22985,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbStrokeWidthResource(I)V
@@ -22990,7 +23032,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbTintList(Landroid/content/res/ColorStateList;)V
@@ -23046,7 +23087,6 @@
     return-void
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTickActiveRadius(I)V
@@ -23102,7 +23142,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTickActiveTintList(Landroid/content/res/ColorStateList;)V
@@ -23160,7 +23199,6 @@
     .line 23
     .line 24
     return-void
-    .line 25
 .end method
 
 .method public setTickInactiveRadius(I)V
@@ -23216,7 +23254,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTickInactiveTintList(Landroid/content/res/ColorStateList;)V
@@ -23274,7 +23311,6 @@
     .line 23
     .line 24
     return-void
-    .line 25
 .end method
 
 .method public setTickTintList(Landroid/content/res/ColorStateList;)V
@@ -23313,7 +23349,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTickVisible(Z)V
@@ -23353,7 +23388,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackActiveTintList(Landroid/content/res/ColorStateList;)V
@@ -23411,7 +23445,6 @@
     .line 23
     .line 24
     return-void
-    .line 25
 .end method
 
 .method public setTrackHeight(I)V
@@ -23461,7 +23494,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackInactiveTintList(Landroid/content/res/ColorStateList;)V
@@ -23519,7 +23551,6 @@
     .line 23
     .line 24
     return-void
-    .line 25
 .end method
 
 .method public setTrackTintList(Landroid/content/res/ColorStateList;)V
@@ -23558,7 +23589,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setValueFrom(F)V
@@ -23597,7 +23627,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setValueTo(F)V
@@ -23636,7 +23665,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setValues(Ljava/util/List;)V
@@ -23807,9 +23835,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

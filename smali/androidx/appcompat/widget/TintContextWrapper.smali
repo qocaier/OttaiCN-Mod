@@ -63,6 +63,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>(Landroid/content/Context;)V
@@ -198,6 +199,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static shouldWrap(Landroid/content/Context;)Z
@@ -323,6 +325,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static wrap(Landroid/content/Context;)Landroid/content/Context;
@@ -712,6 +715,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
@@ -746,6 +754,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getResources()Landroid/content/res/Resources;
@@ -774,6 +783,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTheme()Landroid/content/res/Resources$Theme;
@@ -809,6 +819,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setTheme(I)V

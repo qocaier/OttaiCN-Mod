@@ -119,7 +119,7 @@
 
     iget-object v1, p0, Lcom/tencent/aai/task/b$d;->c:Lcom/tencent/aai/task/b;
 
-    invoke-static {v1}, Lcom/tencent/aai/task/b;->f(Lcom/tencent/aai/task/b;)Lokhttp3/v;
+    invoke-static {v1}, Lcom/tencent/aai/task/b;->f(Lcom/tencent/aai/task/b;)La9/g0;
 
     move-result-object v1
 
@@ -137,13 +137,13 @@
 
     iget-object v0, p0, Lcom/tencent/aai/task/b$d;->c:Lcom/tencent/aai/task/b;
 
-    invoke-static {v0}, Lcom/tencent/aai/task/b;->f(Lcom/tencent/aai/task/b;)Lokhttp3/v;
+    invoke-static {v0}, Lcom/tencent/aai/task/b;->f(Lcom/tencent/aai/task/b;)La9/g0;
 
     move-result-object v0
 
-    const-string v1, "{\"type\": \"end\"}"
+    const-string/jumbo v1, "{\"type\": \"end\"}"
 
-    invoke-interface {v0, v1}, Lokhttp3/v;->b(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, La9/g0;->b(Ljava/lang/String;)Z
 
     return-void
 
@@ -156,11 +156,11 @@
 
     iget-object v2, p0, Lcom/tencent/aai/task/b$d;->c:Lcom/tencent/aai/task/b;
 
-    invoke-static {v2}, Lcom/tencent/aai/task/b;->f(Lcom/tencent/aai/task/b;)Lokhttp3/v;
+    invoke-static {v2}, Lcom/tencent/aai/task/b;->f(Lcom/tencent/aai/task/b;)La9/g0;
 
     move-result-object v2
 
-    invoke-interface {v2, v0}, Lokhttp3/v;->a(Lokio/ByteString;)Z
+    invoke-interface {v2, v0}, La9/g0;->a(Lokio/ByteString;)Z
 
     iget-object v0, p0, Lcom/tencent/aai/task/b$d;->a:Ljava/lang/String;
 

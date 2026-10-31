@@ -83,6 +83,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract getCameraControlInternal()Landroidx/camera/core/impl/CameraControlInternal;
@@ -120,6 +121,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract getCameraInfoInternal()Landroidx/camera/core/impl/CameraInfoInternal;
@@ -170,6 +172,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract getCameraState()Landroidx/camera/core/impl/Observable;
@@ -216,6 +219,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHasTransform()Z
@@ -267,21 +271,20 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract open()V
 .end method
 
-.method public abstract release()Lub/u0;
+.method public abstract release()Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method

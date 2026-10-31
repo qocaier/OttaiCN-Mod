@@ -22,16 +22,6 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nScatterMap.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ScatterMap.kt\nandroidx/collection/MutableScatterMap\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 ScatterMap.kt\nandroidx/collection/ScatterMapKt\n+ 4 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n+ 5 ScatterMap.kt\nandroidx/collection/ScatterMap\n+ 6 ScatterSet.kt\nandroidx/collection/ScatterSet\n+ 7 ObjectList.kt\nandroidx/collection/ObjectList\n*L\n1#1,1850:1\n1284#1,2:2019\n1288#1,5:2027\n1284#1,2:2058\n1288#1,5:2066\n1284#1,2:2083\n1288#1,5:2091\n1284#1,2:2097\n1288#1,5:2105\n1#2:1851\n1672#3,6:1852\n1826#3:1870\n1688#3:1874\n1605#3,3:1887\n1619#3:1891\n1615#3:1894\n1795#3,3:1899\n1809#3,3:1903\n1733#3:1907\n1721#3:1909\n1715#3:1910\n1728#3:1915\n1818#3:1917\n1605#3,3:1927\n1619#3:1931\n1615#3:1934\n1795#3,3:1939\n1809#3,3:1943\n1733#3:1947\n1721#3:1949\n1715#3:1950\n1728#3:1955\n1818#3:1957\n1826#3:1972\n1688#3:1976\n1826#3:1997\n1688#3:2001\n1672#3,6:2021\n1672#3,6:2032\n1605#3,3:2038\n1615#3:2041\n1619#3:2042\n1795#3,3:2043\n1809#3,3:2046\n1733#3:2049\n1721#3:2050\n1715#3:2051\n1728#3:2052\n1818#3:2053\n1682#3:2054\n1661#3:2055\n1680#3:2056\n1661#3:2057\n1672#3,6:2060\n1795#3,3:2071\n1826#3:2074\n1715#3:2075\n1685#3:2076\n1661#3:2077\n1605#3,3:2078\n1615#3:2081\n1619#3:2082\n1672#3,6:2085\n1661#3:2096\n1672#3,6:2099\n1672#3,6:2110\n1672#3,6:2116\n215#4,2:1858\n391#5,4:1860\n363#5,6:1864\n373#5,3:1871\n376#5,2:1875\n396#5,2:1877\n379#5,6:1879\n398#5:1885\n633#5:1886\n634#5:1890\n636#5,2:1892\n638#5,4:1895\n642#5:1902\n643#5:1906\n644#5:1908\n645#5,4:1911\n651#5:1916\n652#5,8:1918\n633#5:1926\n634#5:1930\n636#5,2:1932\n638#5,4:1935\n642#5:1942\n643#5:1946\n644#5:1948\n645#5,4:1951\n651#5:1956\n652#5,8:1958\n363#5,6:1966\n373#5,3:1973\n376#5,9:1977\n267#6,4:1986\n237#6,7:1990\n248#6,3:1998\n251#6,2:2002\n272#6,2:2004\n254#6,6:2006\n274#6:2012\n305#7,6:2013\n*S KotlinDebug\n*F\n+ 1 ScatterMap.kt\nandroidx/collection/MutableScatterMap\n*L\n1113#1:2019,2\n1113#1:2027,5\n1180#1:2058,2\n1180#1:2066,5\n1254#1:2083,2\n1254#1:2091,5\n1270#1:2097,2\n1270#1:2105,5\n848#1:1852,6\n972#1:1870\n972#1:1874\n1021#1:1887,3\n1021#1:1891\n1021#1:1894\n1021#1:1899,3\n1021#1:1903,3\n1021#1:1907\n1021#1:1909\n1021#1:1910\n1021#1:1915\n1021#1:1917\n1033#1:1927,3\n1033#1:1931\n1033#1:1934\n1033#1:1939,3\n1033#1:1943,3\n1033#1:1947\n1033#1:1949\n1033#1:1950\n1033#1:1955\n1033#1:1957\n1047#1:1972\n1047#1:1976\n1093#1:1997\n1093#1:2001\n1113#1:2021,6\n1129#1:2032,6\n1145#1:2038,3\n1146#1:2041\n1147#1:2042\n1154#1:2043,3\n1155#1:2046,3\n1156#1:2049\n1157#1:2050\n1157#1:2051\n1161#1:2052\n1164#1:2053\n1173#1:2054\n1173#1:2055\n1179#1:2056\n1179#1:2057\n1180#1:2060,6\n1195#1:2071,3\n1196#1:2074\n1198#1:2075\n1249#1:2076\n1249#1:2077\n1251#1:2078,3\n1252#1:2081\n1254#1:2082\n1254#1:2085,6\n1268#1:2096\n1270#1:2099,6\n1285#1:2110,6\n1291#1:2116,6\n963#1:1858,2\n972#1:1860,4\n972#1:1864,6\n972#1:1871,3\n972#1:1875,2\n972#1:1877,2\n972#1:1879,6\n972#1:1885\n1021#1:1886\n1021#1:1890\n1021#1:1892,2\n1021#1:1895,4\n1021#1:1902\n1021#1:1906\n1021#1:1908\n1021#1:1911,4\n1021#1:1916\n1021#1:1918,8\n1033#1:1926\n1033#1:1930\n1033#1:1932,2\n1033#1:1935,4\n1033#1:1942\n1033#1:1946\n1033#1:1948\n1033#1:1951,4\n1033#1:1956\n1033#1:1958,8\n1047#1:1966,6\n1047#1:1973,3\n1047#1:1977,9\n1093#1:1986,4\n1093#1:1990,7\n1093#1:1998,3\n1093#1:2002,2\n1093#1:2004,2\n1093#1:2006,6\n1093#1:2012\n1102#1:2013,6\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nScatterMap.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ScatterMap.kt\nandroidx/collection/MutableScatterMap\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 ScatterMap.kt\nandroidx/collection/ScatterMapKt\n+ 4 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n+ 5 ScatterMap.kt\nandroidx/collection/ScatterMap\n+ 6 ScatterSet.kt\nandroidx/collection/ScatterSet\n+ 7 ObjectList.kt\nandroidx/collection/ObjectList\n*L\n1#1,1850:1\n1284#1,2:2019\n1288#1,5:2027\n1284#1,2:2058\n1288#1,5:2066\n1284#1,2:2083\n1288#1,5:2091\n1284#1,2:2097\n1288#1,5:2105\n1#2:1851\n1672#3,6:1852\n1826#3:1870\n1688#3:1874\n1605#3,3:1887\n1619#3:1891\n1615#3:1894\n1795#3,3:1899\n1809#3,3:1903\n1733#3:1907\n1721#3:1909\n1715#3:1910\n1728#3:1915\n1818#3:1917\n1605#3,3:1927\n1619#3:1931\n1615#3:1934\n1795#3,3:1939\n1809#3,3:1943\n1733#3:1947\n1721#3:1949\n1715#3:1950\n1728#3:1955\n1818#3:1957\n1826#3:1972\n1688#3:1976\n1826#3:1997\n1688#3:2001\n1672#3,6:2021\n1672#3,6:2032\n1605#3,3:2038\n1615#3:2041\n1619#3:2042\n1795#3,3:2043\n1809#3,3:2046\n1733#3:2049\n1721#3:2050\n1715#3:2051\n1728#3:2052\n1818#3:2053\n1682#3:2054\n1661#3:2055\n1680#3:2056\n1661#3:2057\n1672#3,6:2060\n1795#3,3:2071\n1826#3:2074\n1715#3:2075\n1685#3:2076\n1661#3:2077\n1605#3,3:2078\n1615#3:2081\n1619#3:2082\n1672#3,6:2085\n1661#3:2096\n1672#3,6:2099\n1672#3,6:2110\n1672#3,6:2116\n215#4,2:1858\n391#5,4:1860\n363#5,6:1864\n373#5,3:1871\n376#5,2:1875\n396#5,2:1877\n379#5,6:1879\n398#5:1885\n633#5:1886\n634#5:1890\n636#5,2:1892\n638#5,4:1895\n642#5:1902\n643#5:1906\n644#5:1908\n645#5,4:1911\n651#5:1916\n652#5,8:1918\n633#5:1926\n634#5:1930\n636#5,2:1932\n638#5,4:1935\n642#5:1942\n643#5:1946\n644#5:1948\n645#5,4:1951\n651#5:1956\n652#5,8:1958\n363#5,6:1966\n373#5,3:1973\n376#5,9:1977\n267#6,4:1986\n237#6,7:1990\n248#6,3:1998\n251#6,2:2002\n272#6,2:2004\n254#6,6:2006\n274#6:2012\n305#7,6:2013\n*S KotlinDebug\n*F\n+ 1 ScatterMap.kt\nandroidx/collection/MutableScatterMap\n*L\n1113#1:2019,2\n1113#1:2027,5\n1180#1:2058,2\n1180#1:2066,5\n1254#1:2083,2\n1254#1:2091,5\n1270#1:2097,2\n1270#1:2105,5\n848#1:1852,6\n972#1:1870\n972#1:1874\n1021#1:1887,3\n1021#1:1891\n1021#1:1894\n1021#1:1899,3\n1021#1:1903,3\n1021#1:1907\n1021#1:1909\n1021#1:1910\n1021#1:1915\n1021#1:1917\n1033#1:1927,3\n1033#1:1931\n1033#1:1934\n1033#1:1939,3\n1033#1:1943,3\n1033#1:1947\n1033#1:1949\n1033#1:1950\n1033#1:1955\n1033#1:1957\n1047#1:1972\n1047#1:1976\n1093#1:1997\n1093#1:2001\n1113#1:2021,6\n1129#1:2032,6\n1145#1:2038,3\n1146#1:2041\n1147#1:2042\n1154#1:2043,3\n1155#1:2046,3\n1156#1:2049\n1157#1:2050\n1157#1:2051\n1161#1:2052\n1164#1:2053\n1173#1:2054\n1173#1:2055\n1179#1:2056\n1179#1:2057\n1180#1:2060,6\n1195#1:2071,3\n1196#1:2074\n1198#1:2075\n1249#1:2076\n1249#1:2077\n1251#1:2078,3\n1252#1:2081\n1254#1:2082\n1254#1:2085,6\n1268#1:2096\n1270#1:2099,6\n1285#1:2110,6\n1291#1:2116,6\n963#1:1858,2\n972#1:1860,4\n972#1:1864,6\n972#1:1871,3\n972#1:1875,2\n972#1:1877,2\n972#1:1879,6\n972#1:1885\n1021#1:1886\n1021#1:1890\n1021#1:1892,2\n1021#1:1895,4\n1021#1:1902\n1021#1:1906\n1021#1:1908\n1021#1:1911,4\n1021#1:1916\n1021#1:1918,8\n1033#1:1926\n1033#1:1930\n1033#1:1932,2\n1033#1:1935,4\n1033#1:1942\n1033#1:1946\n1033#1:1948\n1033#1:1951,4\n1033#1:1956\n1033#1:1958,8\n1047#1:1966,6\n1047#1:1973,3\n1047#1:1977,9\n1093#1:1986,4\n1093#1:1990,7\n1093#1:1998,3\n1093#1:2002,2\n1093#1:2004,2\n1093#1:2006,6\n1093#1:2012\n1102#1:2013,6\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private growthLimit:I
@@ -48,7 +38,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableScatterMap;-><init>(IILkm/v;)V
+    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableScatterMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
@@ -59,7 +49,7 @@
     const/4 v0, 0x0
 
     .line 3
-    invoke-direct {p0, v0}, Landroidx/collection/ScatterMap;-><init>(Lkm/v;)V
+    invoke-direct {p0, v0}, Landroidx/collection/ScatterMap;-><init>(Lkotlin/jvm/internal/f;)V
 
     if-ltz p1, :cond_0
 
@@ -83,7 +73,7 @@
     throw p1
 .end method
 
-.method public synthetic constructor <init>(IILkm/v;)V
+.method public synthetic constructor <init>(IILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p2, p2, 0x1
@@ -122,7 +112,7 @@
     int-to-long v0, v0
 
     .line 10
-    invoke-static {v0, v1}, Ljl/u1;->l(J)J
+    invoke-static {v0, v1}, Lkotlin/h;->a(J)J
 
     .line 11
     .line 12
@@ -137,7 +127,7 @@
     mul-long/2addr v0, v2
 
     .line 17
-    invoke-static {v0, v1}, Ljl/u1;->l(J)J
+    invoke-static {v0, v1}, Lkotlin/h;->a(J)J
 
     .line 18
     .line 19
@@ -152,7 +142,7 @@
     int-to-long v2, v2
 
     .line 24
-    invoke-static {v2, v3}, Ljl/u1;->l(J)J
+    invoke-static {v2, v3}, Lkotlin/h;->a(J)J
 
     .line 25
     .line 26
@@ -167,7 +157,7 @@
     mul-long/2addr v2, v4
 
     .line 31
-    invoke-static {v2, v3}, Ljl/u1;->l(J)J
+    invoke-static {v2, v3}, Lkotlin/h;->a(J)J
 
     .line 32
     .line 33
@@ -175,7 +165,7 @@
     move-result-wide v2
 
     .line 35
-    invoke-static {v0, v1, v2, v3}, Li0/a;->a(JJ)I
+    invoke-static {v0, v1, v2, v3}, Landroidx/collection/a;->a(JJ)I
 
     .line 36
     .line 37
@@ -246,6 +236,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private final findFirstAvailableSlot(I)I
@@ -406,6 +398,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final initializeGrowth()V
@@ -446,6 +439,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final initializeMetadata(I)V
@@ -499,7 +493,7 @@
     const/4 v5, 0x0
 
     .line 23
-    invoke-static/range {v1 .. v7}, Lll/q;->U1([JJIIILjava/lang/Object;)V
+    invoke-static/range {v1 .. v7}, Lkotlin/collections/l;->s([JJIIILjava/lang/Object;)V
 
     .line 24
     .line 25
@@ -584,6 +578,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final initializeStorage(I)V
@@ -698,6 +693,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final removeDeletedMarkers()V
@@ -881,6 +877,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private final resizeStorage(I)V
@@ -1269,6 +1267,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private final writeMetadata(IJ)V
@@ -1391,9 +1394,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     new-instance v0, Landroidx/collection/MutableScatterMap$MutableMapWrapper;
 
@@ -1419,6 +1419,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final clear()V
@@ -1463,7 +1464,7 @@
     const/4 v5, 0x0
 
     .line 19
-    invoke-static/range {v1 .. v7}, Lll/q;->U1([JJIIILjava/lang/Object;)V
+    invoke-static/range {v1 .. v7}, Lkotlin/collections/l;->s([JJIIILjava/lang/Object;)V
 
     .line 20
     .line 21
@@ -1524,7 +1525,7 @@
     const/4 v3, 0x0
 
     .line 47
-    invoke-static {v1, v3, v0, v2}, Lll/q;->M1([Ljava/lang/Object;Ljava/lang/Object;II)V
+    invoke-static {v1, v3, v0, v2}, Lkotlin/collections/l;->r([Ljava/lang/Object;Ljava/lang/Object;II)V
 
     .line 48
     .line 49
@@ -1537,7 +1538,7 @@
 
     .line 53
     .line 54
-    invoke-static {v1, v3, v0, v2}, Lll/q;->M1([Ljava/lang/Object;Ljava/lang/Object;II)V
+    invoke-static {v1, v3, v0, v2}, Lkotlin/collections/l;->r([Ljava/lang/Object;Ljava/lang/Object;II)V
 
     .line 55
     .line 56
@@ -1572,19 +1573,17 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method public final compute(Ljava/lang/Object;Ljm/p;)Ljava/lang/Object;
+.method public final compute(Ljava/lang/Object;Lq8/p;)Ljava/lang/Object;
     .locals 3
-    .param p2    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;",
-            "Ljm/p<",
-            "-TK;-TV;+TV;>;)TV;"
+            "Lq8/p;",
+            ")TV;"
         }
     .end annotation
 
@@ -1593,7 +1592,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1641,7 +1640,7 @@
     .line 22
     .line 23
     :goto_1
-    invoke-interface {p2, p1, v2}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1, v2}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -1698,9 +1697,6 @@
         value = {
             "(TK;)I"
         }
-    .end annotation
-
-    .annotation build Ljl/v0;
     .end annotation
 
     .line 1
@@ -1910,7 +1906,7 @@
 
     .line 96
     .line 97
-    invoke-static {v12, v1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v12, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 98
     .line 99
@@ -2220,19 +2216,20 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
-.method public final getOrPut(Ljava/lang/Object;Ljm/a;)Ljava/lang/Object;
+.method public final getOrPut(Ljava/lang/Object;Lq8/a;)Ljava/lang/Object;
     .locals 1
-    .param p2    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;",
-            "Ljm/a<",
-            "+TV;>;)TV;"
+            "Lq8/a;",
+            ")TV;"
         }
     .end annotation
 
@@ -2241,7 +2238,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2258,7 +2255,7 @@
 
     .line 11
     .line 12
-    invoke-interface {p2}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -2308,10 +2305,6 @@
 
 .method public final minusAssign(Landroidx/collection/ObjectList;)V
     .locals 3
-    .param p1    # Landroidx/collection/ObjectList;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2322,7 +2315,7 @@
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     iget-object v0, p1, Landroidx/collection/ObjectList;->content:[Ljava/lang/Object;
@@ -2351,10 +2344,6 @@
 
 .method public final minusAssign(Landroidx/collection/ScatterSet;)V
     .locals 13
-    .param p1    # Landroidx/collection/ScatterSet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2365,7 +2354,7 @@
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     iget-object v0, p1, Landroidx/collection/ScatterSet;->elements:[Ljava/lang/Object;
@@ -2462,10 +2451,6 @@
 
 .method public final minusAssign(Ljava/lang/Iterable;)V
     .locals 1
-    .param p1    # Ljava/lang/Iterable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2476,7 +2461,7 @@
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -2517,26 +2502,22 @@
     return-void
 .end method
 
-.method public final minusAssign(Lvm/m;)V
+.method public final minusAssign(Lkotlin/sequences/g;)V
     .locals 1
-    .param p1    # Lvm/m;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lvm/m<",
-            "+TK;>;)V"
+            "Lkotlin/sequences/g;",
+            ")V"
         }
     .end annotation
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
-    invoke-interface {p1}, Lvm/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Lkotlin/sequences/g;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
@@ -2562,10 +2543,6 @@
 
 .method public final minusAssign([Ljava/lang/Object;)V
     .locals 3
-    .param p1    # [Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([TK;)V"
@@ -2574,7 +2551,7 @@
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     array-length v0, p1
@@ -2599,10 +2576,6 @@
 
 .method public final plusAssign(Landroidx/collection/ScatterMap;)V
     .locals 1
-    .param p1    # Landroidx/collection/ScatterMap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2613,7 +2586,7 @@
 
     const-string v0, "from"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     invoke-virtual {p0, p1}, Landroidx/collection/MutableScatterMap;->putAll(Landroidx/collection/ScatterMap;)V
@@ -2623,10 +2596,6 @@
 
 .method public final plusAssign(Ljava/lang/Iterable;)V
     .locals 1
-    .param p1    # Ljava/lang/Iterable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2639,7 +2608,7 @@
 
     const-string v0, "pairs"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-virtual {p0, p1}, Landroidx/collection/MutableScatterMap;->putAll(Ljava/lang/Iterable;)V
@@ -2649,10 +2618,6 @@
 
 .method public final plusAssign(Ljava/util/Map;)V
     .locals 1
-    .param p1    # Ljava/util/Map;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2663,7 +2628,7 @@
 
     const-string v0, "from"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     invoke-virtual {p0, p1}, Landroidx/collection/MutableScatterMap;->putAll(Ljava/util/Map;)V
@@ -2673,10 +2638,6 @@
 
 .method public final plusAssign(Lkotlin/Pair;)V
     .locals 1
-    .param p1    # Lkotlin/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2687,7 +2648,7 @@
 
     const-string v0, "pair"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Lkotlin/Pair;->getFirst()Ljava/lang/Object;
@@ -2703,38 +2664,28 @@
     return-void
 .end method
 
-.method public final plusAssign(Lvm/m;)V
+.method public final plusAssign(Lkotlin/sequences/g;)V
     .locals 1
-    .param p1    # Lvm/m;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lvm/m<",
-            "+",
-            "Lkotlin/Pair<",
-            "+TK;+TV;>;>;)V"
+            "Lkotlin/sequences/g;",
+            ")V"
         }
     .end annotation
 
     const-string v0, "pairs"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableScatterMap;->putAll(Lvm/m;)V
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableScatterMap;->putAll(Lkotlin/sequences/g;)V
 
     return-void
 .end method
 
 .method public final plusAssign([Lkotlin/Pair;)V
     .locals 1
-    .param p1    # [Lkotlin/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
@@ -2745,7 +2696,7 @@
 
     const-string v0, "pairs"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/collection/MutableScatterMap;->putAll([Lkotlin/Pair;)V
@@ -2759,9 +2710,6 @@
         value = {
             "(TK;TV;)TV;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -2836,10 +2784,6 @@
 
 .method public final putAll(Landroidx/collection/ScatterMap;)V
     .locals 14
-    .param p1    # Landroidx/collection/ScatterMap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2850,7 +2794,7 @@
 
     const-string v0, "from"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     iget-object v0, p1, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
@@ -2952,10 +2896,6 @@
 
 .method public final putAll(Ljava/lang/Iterable;)V
     .locals 2
-    .param p1    # Ljava/lang/Iterable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2968,7 +2908,7 @@
 
     const-string v0, "pairs"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
@@ -3007,10 +2947,6 @@
 
 .method public final putAll(Ljava/util/Map;)V
     .locals 2
-    .param p1    # Ljava/util/Map;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -3021,7 +2957,7 @@
 
     const-string v0, "from"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
@@ -3063,28 +2999,22 @@
     return-void
 .end method
 
-.method public final putAll(Lvm/m;)V
+.method public final putAll(Lkotlin/sequences/g;)V
     .locals 2
-    .param p1    # Lvm/m;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lvm/m<",
-            "+",
-            "Lkotlin/Pair<",
-            "+TK;+TV;>;>;)V"
+            "Lkotlin/sequences/g;",
+            ")V"
         }
     .end annotation
 
     const-string v0, "pairs"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
-    invoke-interface {p1}, Lvm/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Lkotlin/sequences/g;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
@@ -3120,10 +3050,6 @@
 
 .method public final putAll([Lkotlin/Pair;)V
     .locals 4
-    .param p1    # [Lkotlin/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
@@ -3134,7 +3060,7 @@
 
     const-string v0, "pairs"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     array-length v0, p1
@@ -3171,9 +3097,6 @@
         value = {
             "(TK;)TV;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     const/4 v0, 0x0
@@ -3284,7 +3207,7 @@
 
     aget-object v11, v11, v10
 
-    invoke-static {v11, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v11, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v11
 
@@ -3465,7 +3388,7 @@
 
     aget-object v15, v15, v11
 
-    invoke-static {v15, v1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v15, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v15
 
@@ -3509,7 +3432,7 @@
 
     move-object/from16 v7, p2
 
-    invoke-static {v1, v7}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v7}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -3535,19 +3458,13 @@
     goto :goto_1
 .end method
 
-.method public final removeIf(Ljm/p;)V
+.method public final removeIf(Lq8/p;)V
     .locals 13
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-TK;-TV;",
-            "Ljava/lang/Boolean;",
-            ">;)V"
+            "Lq8/p;",
+            ")V"
         }
     .end annotation
 
@@ -3556,7 +3473,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -3686,7 +3603,7 @@
 
     .line 62
     .line 63
-    invoke-interface {p1, v10, v11}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v10, v11}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 64
     .line 65
@@ -3894,6 +3811,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public final removeValueAt(I)Ljava/lang/Object;
@@ -3902,12 +3824,6 @@
         value = {
             "(I)TV;"
         }
-    .end annotation
-
-    .annotation build Ljl/v0;
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -4063,6 +3979,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final set(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -4254,4 +4171,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

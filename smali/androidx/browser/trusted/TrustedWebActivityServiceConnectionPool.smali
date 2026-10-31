@@ -624,11 +624,17 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
 # virtual methods
-.method public connect(Landroid/net/Uri;Ljava/util/Set;Ljava/util/concurrent/Executor;)Lub/u0;
+.method public connect(Landroid/net/Uri;Ljava/util/Set;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/t;
     .locals 2
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
@@ -642,9 +648,7 @@
             ">;",
             "Ljava/util/concurrent/Executor;",
             ")",
-            "Lub/u0<",
-            "Landroidx/browser/trusted/TrustedWebActivityServiceConnection;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -669,7 +673,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Landroidx/browser/trusted/ConnectionHolder;->getServiceWrapper()Lub/u0;
+    invoke-virtual {v0}, Landroidx/browser/trusted/ConnectionHolder;->getServiceWrapper()Lcom/google/common/util/concurrent/t;
 
     .line 12
     .line 13
@@ -713,7 +717,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-static {p1}, Landroidx/browser/trusted/FutureUtils;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/browser/trusted/FutureUtils;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 33
     .line 34
@@ -729,11 +733,11 @@
 
     .line 38
     .line 39
-    new-instance v1, Lk/f;
+    new-instance v1, Landroidx/browser/trusted/h;
 
     .line 40
     .line 41
-    invoke-direct {v1, p0, p1}, Lk/f;-><init>(Landroidx/browser/trusted/TrustedWebActivityServiceConnectionPool;Landroid/net/Uri;)V
+    invoke-direct {v1, p0, p1}, Landroidx/browser/trusted/h;-><init>(Landroidx/browser/trusted/TrustedWebActivityServiceConnectionPool;Landroid/net/Uri;)V
 
     .line 42
     .line 43
@@ -777,7 +781,7 @@
     .line 63
     .line 64
     .line 65
-    invoke-virtual {v0}, Landroidx/browser/trusted/ConnectionHolder;->getServiceWrapper()Lub/u0;
+    invoke-virtual {v0}, Landroidx/browser/trusted/ConnectionHolder;->getServiceWrapper()Lcom/google/common/util/concurrent/t;
 
     .line 66
     .line 67
@@ -830,6 +834,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public serviceExistsForScope(Landroid/net/Uri;Ljava/util/Set;)Z
@@ -1046,4 +1053,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

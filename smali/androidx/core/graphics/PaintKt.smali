@@ -6,14 +6,6 @@
 # direct methods
 .method public static final setBlendMode(Landroid/graphics/Paint;Landroidx/core/graphics/BlendModeCompat;)Z
     .locals 0
-    .param p0    # Landroid/graphics/Paint;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/core/graphics/BlendModeCompat;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     invoke-static {p0, p1}, Landroidx/core/graphics/PaintCompat;->setBlendMode(Landroid/graphics/Paint;Landroidx/core/graphics/BlendModeCompat;)Z

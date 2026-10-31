@@ -43,6 +43,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static buildMediaButtonPendingIntent(Landroid/content/Context;J)Landroid/app/PendingIntent;
@@ -315,6 +316,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getServiceComponentByAction(Landroid/content/Context;Ljava/lang/String;)Landroid/content/ComponentName;
@@ -640,6 +642,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static handleIntent(Landroid/support/v4/media/session/MediaSessionCompat;Landroid/content/Intent;)Landroid/view/KeyEvent;
@@ -776,7 +781,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-static {p2}, Lr1/a;->a(Landroid/app/ForegroundServiceStartNotAllowedException;)Ljava/lang/String;
+    invoke-static {p2}, Landroidx/media/session/a;->a(Landroid/app/ForegroundServiceStartNotAllowedException;)Ljava/lang/String;
 
     .line 12
     .line 13
@@ -1195,4 +1200,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

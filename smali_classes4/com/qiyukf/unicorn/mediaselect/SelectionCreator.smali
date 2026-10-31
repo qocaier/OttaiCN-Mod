@@ -178,11 +178,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 
@@ -309,6 +304,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public autoHideToolbarOnSingleTap(Z)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -344,6 +341,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public capture(Z)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -379,6 +378,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public captureStrategy(Lcom/qiyukf/unicorn/mediaselect/internal/entity/CaptureStrategy;)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -414,6 +415,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public countable(Z)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -449,6 +452,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public forResult(I)V
@@ -571,6 +576,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public gridExpectedSize(I)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -606,6 +613,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public imageEngine(Lcom/qiyukf/unicorn/mediaselect/engine/ImageEngine;)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -641,6 +650,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public maxOriginalSize(I)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -676,6 +687,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public maxSelectable(I)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -800,6 +813,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public maxSelectablePerMediaType(II)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -885,6 +900,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public originalEnable(Z)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -920,6 +945,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public restrictOrientation(I)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -955,6 +982,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOnCheckedListener(Lcom/qiyukf/unicorn/mediaselect/listener/OnCheckedListener;)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -994,6 +1023,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOnSelectedListener(Lcom/qiyukf/unicorn/mediaselect/listener/OnSelectedListener;)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -1035,6 +1066,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public showSingleMediaType(Z)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -1070,6 +1103,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public spanCount(I)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -1118,6 +1153,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public theme(I)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -1157,6 +1194,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public thumbnailScale(F)Lcom/qiyukf/unicorn/mediaselect/SelectionCreator;
@@ -1213,4 +1252,6 @@
     .line 24
     throw p1
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -43,6 +43,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic a(Lcom/vivo/push/h/z;)Landroid/content/Context;
@@ -85,6 +87,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic c(Lcom/vivo/push/h/z;)Landroid/content/Context;
@@ -118,6 +122,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic d(Lcom/vivo/push/h/z;)Landroid/content/Context;
@@ -151,6 +157,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic e(Lcom/vivo/push/h/z;)Landroid/content/Context;
@@ -184,6 +192,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic f(Lcom/vivo/push/h/z;)Landroid/content/Context;
@@ -217,6 +227,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic g(Lcom/vivo/push/h/z;)Landroid/content/Context;
@@ -250,6 +262,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic h(Lcom/vivo/push/h/z;)Landroid/content/Context;
@@ -283,6 +297,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic i(Lcom/vivo/push/h/z;)Landroid/content/Context;
@@ -316,6 +332,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic j(Lcom/vivo/push/h/z;)Landroid/content/Context;
@@ -349,6 +367,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -673,7 +693,7 @@
     .line 34
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v1, "\u901a\u77e5\u5185\u5bb9\u4e3a\u7a7a\uff0c"
+    const-string/jumbo v1, "\u901a\u77e5\u5185\u5bb9\u4e3a\u7a7a\uff0c"
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

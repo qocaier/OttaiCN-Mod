@@ -40,6 +40,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private addInputItem(Lcom/qiyukf/unicorn/protocol/attach/request/InquiryFormRequestAttachment$FormFieldInfos;)V
@@ -202,44 +204,44 @@
     .line 77
     .line 78
     .line 79
-    const-string p1, "\uff1a"
+    const-string/jumbo p1, "\uff1a"
 
     .line 80
     .line 81
+    .line 82
     invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 82
     .line 83
     .line 84
+    .line 85
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 85
     .line 86
     .line 87
+    .line 88
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 88
     .line 89
     .line 90
+    .line 91
     move-result-object p1
 
-    .line 91
+    .line 92
     invoke-virtual {v2, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 92
     .line 93
     .line 94
+    .line 95
     iget-object p1, p0, Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderInquiryForm;->ysfVhInquiryFormSubmitSuccessItemParent:Landroid/widget/LinearLayout;
 
-    .line 95
     .line 96
+    .line 97
     invoke-virtual {p1, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 97
     .line 98
     .line 99
-    return-void
     .line 100
+    return-void
     .line 101
     .line 102
     .line 103
@@ -424,27 +426,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method private initHolderUI()V
@@ -610,6 +591,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private rightBgResId()I
@@ -638,6 +620,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -845,141 +829,141 @@
 
     .line 98
     .line 99
-    const-string v7, "yyyy-MM-dd HH:mm"
+    const-string/jumbo v7, "yyyy-MM-dd HH:mm"
 
     .line 100
     .line 101
+    .line 102
     invoke-direct {v5, v7}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    .line 102
     .line 103
     .line 104
+    .line 105
     invoke-virtual {v5, v6}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
-    .line 105
     .line 106
     .line 107
+    .line 108
     move-result-object v5
 
-    .line 108
+    .line 109
     invoke-virtual {v4, v5}, Lcom/qiyukf/unicorn/protocol/attach/request/InquiryFormRequestAttachment$FormFieldInfos;->setValue(Ljava/lang/String;)V
 
-    .line 109
     .line 110
     .line 111
+    .line 112
     goto :goto_1
 
-    .line 112
+    .line 113
     :catch_0
     move-exception v0
 
-    .line 113
+    .line 114
     goto :goto_2
 
-    .line 114
+    .line 115
     :cond_0
     invoke-static {v5, v8}, Lcom/qiyukf/di;->g(Lorg/json/JSONObject;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 115
     .line 116
     .line 117
+    .line 118
     move-result-object v5
 
-    .line 118
+    .line 119
     invoke-virtual {v4, v5}, Lcom/qiyukf/unicorn/protocol/attach/request/InquiryFormRequestAttachment$FormFieldInfos;->setValue(Ljava/lang/String;)V
 
-    .line 119
     .line 120
     .line 121
+    .line 122
     :cond_1
     :goto_1
     invoke-virtual {v1, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
     :try_end_1
     .catch Lorg/json/JSONException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 122
     .line 123
     .line 124
+    .line 125
     add-int/lit8 v3, v3, 0x1
 
-    .line 125
     .line 126
+    .line 127
     goto :goto_0
 
-    .line 127
+    .line 128
     :goto_2
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
-    .line 128
     .line 129
     .line 130
+    .line 131
     :cond_2
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
-    .line 131
     .line 132
     .line 133
+    .line 134
     move-result v0
 
-    .line 134
+    .line 135
     if-nez v0, :cond_3
 
-    .line 135
     .line 136
+    .line 137
     goto :goto_4
 
-    .line 137
+    .line 138
     :cond_3
     iget-object v0, p0, Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderInquiryForm;->ysfVhInquiryFormSubmitSuccessItemParent:Landroid/widget/LinearLayout;
 
-    .line 138
     .line 139
+    .line 140
     invoke-virtual {v0}, Landroid/view/ViewGroup;->removeAllViews()V
 
-    .line 140
     .line 141
     .line 142
+    .line 143
     :goto_3
     invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
-    .line 143
     .line 144
     .line 145
+    .line 146
     move-result v0
 
-    .line 146
+    .line 147
     if-ge v2, v0, :cond_4
 
-    .line 147
     .line 148
+    .line 149
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
-    .line 149
     .line 150
     .line 151
+    .line 152
     move-result-object v0
 
-    .line 152
+    .line 153
     check-cast v0, Lcom/qiyukf/unicorn/protocol/attach/request/InquiryFormRequestAttachment$FormFieldInfos;
 
-    .line 153
     .line 154
+    .line 155
     invoke-direct {p0, v0}, Lcom/qiyukf/unicorn/ui/viewholder/MsgViewHolderInquiryForm;->addInputItem(Lcom/qiyukf/unicorn/protocol/attach/request/InquiryFormRequestAttachment$FormFieldInfos;)V
 
-    .line 155
     .line 156
     .line 157
+    .line 158
     add-int/lit8 v2, v2, 0x1
 
-    .line 158
     .line 159
+    .line 160
     goto :goto_3
 
-    .line 160
+    .line 161
     :cond_4
     :goto_4
     return-void
-    .line 161
     .line 162
     .line 163
     .line 164
@@ -1100,68 +1084,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method public getContentResId()I
@@ -1190,6 +1112,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public inflateContentView()V
@@ -1320,6 +1244,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public rightBackground()I

@@ -943,6 +943,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -2246,7 +2305,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic f(Lcom/baidu/mapapi/map/TextureMapView;)V
@@ -2279,7 +2337,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static setCustomMapStylePath(Ljava/lang/String;)V
@@ -2417,8 +2474,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static setIconCustom(I)V
@@ -2453,7 +2508,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static setLoadCustomMapStyleFileMode(I)V
@@ -2488,7 +2542,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static setMapCustomEnable(Z)V
@@ -2587,11 +2640,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public final getLogoPosition()Lcom/baidu/mapapi/map/LogoPosition;
@@ -2747,15 +2795,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public final getMap()Lcom/baidu/mapapi/map/BaiduMap;
@@ -2788,7 +2827,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getMapLevel()I
@@ -2921,15 +2959,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getScaleControlPosition()Landroid/graphics/Point;
@@ -2960,7 +2989,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScaleControlViewHeight()I
@@ -2991,7 +3019,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScaleControlViewWidth()I
@@ -3022,7 +3049,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onCreate(Landroid/content/Context;Landroid/os/Bundle;)V
@@ -3453,54 +3479,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public final onDestroy()V
@@ -3686,15 +3664,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public final onLayout(ZIIII)V
@@ -5457,7 +5426,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final onResume()V
@@ -5490,7 +5458,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -5667,8 +5634,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public removeView(Landroid/view/View;)V
@@ -5792,8 +5757,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setCustomStyleFilePathAndMode(Ljava/lang/String;I)V
@@ -5852,7 +5815,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMapCustomStyle(Lcom/baidu/mapapi/map/MapCustomStyleOptions;Lcom/baidu/mapapi/map/CustomMapStyleCallBack;)V
@@ -5973,11 +5935,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setMapCustomStyleEnable(Z)V
@@ -6031,7 +5988,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMapCustomStylePath(Ljava/lang/String;)V
@@ -6066,7 +6022,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPadding(IIII)V
@@ -6323,6 +6278,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public setScaleControlPosition(Landroid/graphics/Point;)V
@@ -6453,8 +6424,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setZoomControlsPosition(Landroid/graphics/Point;)V
@@ -6585,8 +6554,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public showScaleControl(Z)V
@@ -6633,7 +6600,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public showZoomControls(Z)V
@@ -6689,7 +6655,6 @@
     return-void
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateScaleUI(F)V
@@ -7264,4 +7229,36 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method

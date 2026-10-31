@@ -30,6 +30,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroid/content/UriMatcher;Landroid/net/Uri;)Z
@@ -115,11 +116,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lq0/w;
+    new-instance v0, Landroidx/core/content/x;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lq0/w;-><init>(Landroid/content/UriMatcher;)V
+    invoke-direct {v0, p0}, Landroidx/core/content/x;-><init>(Landroid/content/UriMatcher;)V
 
     .line 4
     .line 5

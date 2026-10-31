@@ -308,8 +308,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public getDoubleX()D
@@ -340,7 +338,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDoubleY()D
@@ -371,7 +368,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIntX()I
@@ -402,7 +398,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIntY()I
@@ -433,7 +428,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getmPtx()I
@@ -464,7 +458,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getmPty()I
@@ -495,7 +488,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hashCode()I
@@ -538,7 +530,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setDoubleX(D)V
@@ -571,7 +562,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDoubleY(D)V
@@ -604,7 +594,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIntX(I)V
@@ -637,7 +626,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIntY(I)V
@@ -670,7 +658,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTo(DD)V
@@ -738,7 +725,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setmPty(I)V
@@ -771,7 +757,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public toQuery()Ljava/lang/String;
@@ -904,15 +889,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1051,13 +1027,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

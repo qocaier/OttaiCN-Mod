@@ -1,16 +1,14 @@
-.class public final synthetic Lf/a;
+.class public abstract synthetic Lf/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # direct methods
-.method public static bridge synthetic a()I
-    .locals 1
+.method public static bridge synthetic a(Ljava/lang/Object;)Landroid/view/autofill/AutofillId;
+    .locals 0
 
     .line 1
-    invoke-static {}, Landroid/provider/MediaStore;->getPickImagesMaxLimit()I
+    check-cast p0, Landroid/view/autofill/AutofillId;
 
-    move-result v0
-
-    return v0
+    return-object p0
 .end method

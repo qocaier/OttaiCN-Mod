@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/transition/TransitionKt;->addListener(Landroid/transition/Transition;Ljm/l;Ljm/l;Ljm/l;Ljm/l;Ljm/l;)Landroid/transition/Transition$TransitionListener;
+    value = Landroidx/core/transition/TransitionKt;->addListener(Landroid/transition/Transition;Lq8/l;Lq8/l;Lq8/l;Lq8/l;Lq8/l;)Landroid/transition/Transition$TransitionListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,114 +18,80 @@
 
 
 # instance fields
-.field final synthetic $onCancel:Ljm/l;
+.field final synthetic $onCancel:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
-.field final synthetic $onEnd:Ljm/l;
+.field final synthetic $onEnd:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
-.field final synthetic $onPause:Ljm/l;
+.field final synthetic $onPause:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
-.field final synthetic $onResume:Ljm/l;
+.field final synthetic $onResume:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
-.field final synthetic $onStart:Ljm/l;
+.field final synthetic $onStart:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljm/l;Ljm/l;Ljm/l;Ljm/l;Ljm/l;)V
+.method public constructor <init>(Lq8/l;Lq8/l;Lq8/l;Lq8/l;Lq8/l;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/transition/Transition;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            "Lq8/l;",
+            "Lq8/l;",
+            "Lq8/l;",
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onEnd:Ljm/l;
+    iput-object p1, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onEnd:Lq8/l;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onResume:Ljm/l;
+    iput-object p2, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onResume:Lq8/l;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onPause:Ljm/l;
+    iput-object p3, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onPause:Lq8/l;
 
     .line 6
     .line 7
-    iput-object p4, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onCancel:Ljm/l;
+    iput-object p4, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onCancel:Lq8/l;
 
     .line 8
     .line 9
-    iput-object p5, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onStart:Ljm/l;
+    iput-object p5, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onStart:Lq8/l;
 
     .line 10
     .line 11
@@ -652,11 +618,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onCancel:Ljm/l;
+    iget-object v0, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onCancel:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -687,11 +653,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onEnd:Ljm/l;
+    iget-object v0, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onEnd:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -722,11 +688,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onPause:Ljm/l;
+    iget-object v0, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onPause:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -757,11 +723,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onResume:Ljm/l;
+    iget-object v0, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onResume:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -792,11 +758,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onStart:Ljm/l;
+    iget-object v0, p0, Landroidx/core/transition/TransitionKt$addListener$listener$1;->$onStart:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5

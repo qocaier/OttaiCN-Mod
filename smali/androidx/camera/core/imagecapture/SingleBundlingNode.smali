@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/imagecapture/SingleBundlingNode;Landroidx/camera/core/imagecapture/ProcessingRequest;)V
@@ -403,6 +404,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private trackIncomingRequest(Landroidx/camera/core/imagecapture/ProcessingRequest;)V
@@ -491,7 +497,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {p1}, Landroidx/camera/core/imagecapture/ProcessingRequest;->getCaptureFuture()Lub/u0;
+    invoke-virtual {p1}, Landroidx/camera/core/imagecapture/ProcessingRequest;->getCaptureFuture()Lcom/google/common/util/concurrent/t;
 
     .line 37
     .line 38
@@ -516,7 +522,7 @@
     move-result-object p1
 
     .line 49
-    invoke-static {v0, v1, p1}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {v0, v1, p1}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 50
     .line 51
@@ -548,6 +554,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -572,9 +579,9 @@
 
     move-result-object v0
 
-    new-instance v1, Landroidx/camera/core/imagecapture/l;
+    new-instance v1, Landroidx/camera/core/imagecapture/m;
 
-    invoke-direct {v1, p0}, Landroidx/camera/core/imagecapture/l;-><init>(Landroidx/camera/core/imagecapture/SingleBundlingNode;)V
+    invoke-direct {v1, p0}, Landroidx/camera/core/imagecapture/m;-><init>(Landroidx/camera/core/imagecapture/SingleBundlingNode;)V
 
     invoke-virtual {v0, v1}, Landroidx/camera/core/processing/Edge;->setListener(Landroidx/core/util/Consumer;)V
 
@@ -583,9 +590,9 @@
 
     move-result-object v0
 
-    new-instance v1, Landroidx/camera/core/imagecapture/m;
+    new-instance v1, Landroidx/camera/core/imagecapture/n;
 
-    invoke-direct {v1, p0}, Landroidx/camera/core/imagecapture/m;-><init>(Landroidx/camera/core/imagecapture/SingleBundlingNode;)V
+    invoke-direct {v1, p0}, Landroidx/camera/core/imagecapture/n;-><init>(Landroidx/camera/core/imagecapture/SingleBundlingNode;)V
 
     invoke-virtual {v0, v1}, Landroidx/camera/core/processing/Edge;->setListener(Landroidx/core/util/Consumer;)V
 

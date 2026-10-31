@@ -1,14 +1,16 @@
-.class public final synthetic Lc/b;
+.class public abstract synthetic Lc/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # direct methods
-.method public static bridge synthetic a(Landroid/media/session/MediaController$TransportControls;F)V
+.method public static bridge synthetic a(I)I
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/media/session/MediaController$TransportControls;->setPlaybackSpeed(F)V
+    invoke-static {p0}, Landroid/os/ext/SdkExtensions;->getExtensionVersion(I)I
 
-    return-void
+    move-result p0
+
+    return p0
 .end method

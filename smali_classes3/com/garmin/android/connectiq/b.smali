@@ -4,11 +4,11 @@
 
 
 # instance fields
-.field public A:Lk8/a;
+.field public h:Z
 
-.field public B:Landroid/content/ServiceConnection;
+.field public i:Ld2/a;
 
-.field public z:Z
+.field public j:Landroid/content/ServiceConnection;
 
 
 # direct methods
@@ -24,7 +24,7 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Lcom/garmin/android/connectiq/b;->z:Z
+    iput-boolean v0, p0, Lcom/garmin/android/connectiq/b;->h:Z
 
     .line 6
     .line 7
@@ -37,7 +37,7 @@
     .line 10
     .line 11
     .line 12
-    iput-object v0, p0, Lcom/garmin/android/connectiq/b;->B:Landroid/content/ServiceConnection;
+    iput-object v0, p0, Lcom/garmin/android/connectiq/b;->j:Landroid/content/ServiceConnection;
 
     .line 13
     .line 14
@@ -50,14 +50,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public static synthetic D(Lcom/garmin/android/connectiq/b;Lk8/a;)Lk8/a;
+.method public static synthetic o(Lcom/garmin/android/connectiq/b;Ld2/a;)Ld2/a;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/garmin/android/connectiq/b;->A:Lk8/a;
+    iput-object p1, p0, Lcom/garmin/android/connectiq/b;->i:Ld2/a;
 
     .line 2
     .line 3
@@ -119,18 +118,13 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public static synthetic E(Lcom/garmin/android/connectiq/b;Z)Z
+.method public static synthetic p(Lcom/garmin/android/connectiq/b;Z)Z
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lcom/garmin/android/connectiq/b;->z:Z
+    iput-boolean p1, p0, Lcom/garmin/android/connectiq/b;->h:Z
 
     .line 2
     .line 3
@@ -192,309 +186,20 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
-.method public e(Ljava/lang/String;Lcom/garmin/android/connectiq/IQDevice;Lcom/garmin/android/connectiq/ConnectIQ$f;)V
-    .locals 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/garmin/android/connectiq/exception/InvalidStateException;,
-            Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->C()V
-
-    .line 2
-    .line 3
-    .line 4
-    invoke-virtual {p1}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
-
-    .line 5
-    .line 6
-    .line 7
-    move-result-object p1
-
-    .line 8
-    const-string v0, "[\\s\\-]"
-
-    .line 9
-    .line 10
-    const-string v1, ""
-
-    .line 11
-    .line 12
-    invoke-virtual {p1, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 13
-    .line 14
-    .line 15
-    move-result-object p1
-
-    .line 16
-    iget-boolean v0, p0, Lcom/garmin/android/connectiq/b;->z:Z
-
-    .line 17
-    .line 18
-    if-eqz v0, :cond_3
-
-    .line 19
-    .line 20
-    if-nez p2, :cond_1
-
-    .line 21
-    .line 22
-    if-eqz p3, :cond_0
-
-    .line 23
-    .line 24
-    invoke-interface {p3, p1}, Lcom/garmin/android/connectiq/ConnectIQ$f;->a(Ljava/lang/String;)V
-
-    .line 25
-    .line 26
-    .line 27
-    :cond_0
-    return-void
-
-    .line 28
-    :cond_1
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->k()Lcom/garmin/android/connectiq/d;
-
-    .line 29
-    .line 30
-    .line 31
-    move-result-object v0
-
-    .line 32
-    invoke-virtual {p2}, Lcom/garmin/android/connectiq/IQDevice;->a()J
-
-    .line 33
-    .line 34
-    .line 35
-    move-result-wide v1
-
-    .line 36
-    invoke-virtual {v0, v1, v2}, Lcom/garmin/android/connectiq/d;->e(J)Lcom/garmin/android/connectiq/c;
-
-    .line 37
-    .line 38
-    .line 39
-    move-result-object v0
-
-    .line 40
-    if-eqz v0, :cond_2
-
-    .line 41
-    .line 42
-    invoke-virtual {v0, p1, p3}, Lcom/garmin/android/connectiq/c;->l(Ljava/lang/String;Lcom/garmin/android/connectiq/ConnectIQ$f;)V
-
-    .line 43
-    .line 44
-    .line 45
-    goto :goto_0
-
-    .line 46
-    :cond_2
-    new-instance v0, Lcom/garmin/android/connectiq/c;
-
-    .line 47
-    .line 48
-    invoke-virtual {p2}, Lcom/garmin/android/connectiq/IQDevice;->a()J
-
-    .line 49
-    .line 50
-    .line 51
-    move-result-wide v1
-
-    .line 52
-    invoke-direct {v0, v1, v2}, Lcom/garmin/android/connectiq/c;-><init>(J)V
-
-    .line 53
-    .line 54
-    .line 55
-    invoke-virtual {v0, p1, p3}, Lcom/garmin/android/connectiq/c;->l(Ljava/lang/String;Lcom/garmin/android/connectiq/ConnectIQ$f;)V
-
-    .line 56
-    .line 57
-    .line 58
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->k()Lcom/garmin/android/connectiq/d;
-
-    .line 59
-    .line 60
-    .line 61
-    move-result-object p3
-
-    .line 62
-    invoke-virtual {p2}, Lcom/garmin/android/connectiq/IQDevice;->a()J
-
-    .line 63
-    .line 64
-    .line 65
-    move-result-wide v1
-
-    .line 66
-    invoke-virtual {p3, v1, v2, v0}, Lcom/garmin/android/connectiq/d;->a(JLcom/garmin/android/connectiq/c;)V
-
-    .line 67
-    .line 68
-    .line 69
-    :goto_0
-    :try_start_0
-    iget-object p3, p0, Lcom/garmin/android/connectiq/b;->A:Lk8/a;
-
-    .line 70
-    .line 71
-    iget-object v0, p0, Lcom/garmin/android/connectiq/ConnectIQ;->a:Landroid/content/Context;
-
-    .line 72
-    .line 73
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    .line 74
-    .line 75
-    .line 76
-    move-result-object v0
-
-    .line 77
-    const-string v1, "com.garmin.android.connectiq.APPLICATION_INFO"
-
-    .line 78
-    .line 79
-    invoke-interface {p3, v0, v1, p2, p1}, Lk8/a;->e0(Ljava/lang/String;Ljava/lang/String;Lcom/garmin/android/connectiq/IQDevice;Ljava/lang/String;)V
-    :try_end_0
-    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 80
-    .line 81
-    .line 82
-    return-void
-
-    .line 83
-    :catch_0
-    move-exception p1
-
-    .line 84
-    new-instance p2, Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-
-    .line 85
-    .line 86
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    .line 87
-    .line 88
-    .line 89
-    move-result-object p1
-
-    .line 90
-    invoke-direct {p2, p1}, Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;-><init>(Ljava/lang/String;)V
-
-    .line 91
-    .line 92
-    .line 93
-    throw p2
-
-    .line 94
-    :cond_3
-    new-instance p1, Lcom/garmin/android/connectiq/exception/InvalidStateException;
-
-    .line 95
-    .line 96
-    const-string p2, "SDK not initialized.  Did you forget to call ConnectIQ::initialize()?"
-
-    .line 97
-    .line 98
-    invoke-direct {p1, p2}, Lcom/garmin/android/connectiq/exception/InvalidStateException;-><init>(Ljava/lang/String;)V
-
-    .line 99
-    .line 100
-    .line 101
-    throw p1
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-.end method
-
-.method public f()Ljava/util/List;
+.method public d()Ljava/util/List;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lcom/garmin/android/connectiq/IQDevice;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/garmin/android/connectiq/exception/InvalidStateException;,
-            Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-        }
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->C()V
+    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->n()V
 
     .line 2
     .line 3
     .line 4
-    iget-boolean v0, p0, Lcom/garmin/android/connectiq/b;->z:Z
+    iget-boolean v0, p0, Lcom/garmin/android/connectiq/b;->h:Z
 
     .line 5
     .line 6
@@ -503,11 +208,11 @@
     .line 7
     .line 8
     :try_start_0
-    iget-object v0, p0, Lcom/garmin/android/connectiq/b;->A:Lk8/a;
+    iget-object v0, p0, Lcom/garmin/android/connectiq/b;->i:Ld2/a;
 
     .line 9
     .line 10
-    invoke-interface {v0}, Lk8/a;->F()Ljava/util/List;
+    invoke-interface {v0}, Ld2/a;->m()Ljava/util/List;
 
     .line 11
     .line 12
@@ -626,342 +331,9 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public g(Lcom/garmin/android/connectiq/IQDevice;)Lcom/garmin/android/connectiq/IQDevice$IQDeviceStatus;
-    .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/garmin/android/connectiq/exception/InvalidStateException;,
-            Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->C()V
-
-    .line 2
-    .line 3
-    .line 4
-    iget-boolean v0, p0, Lcom/garmin/android/connectiq/b;->z:Z
-
-    .line 5
-    .line 6
-    if-eqz v0, :cond_0
-
-    .line 7
-    .line 8
-    sget-object v0, Lcom/garmin/android/connectiq/IQDevice$IQDeviceStatus;->UNKNOWN:Lcom/garmin/android/connectiq/IQDevice$IQDeviceStatus;
-
-    .line 9
-    .line 10
-    :try_start_0
-    iget-object v1, p0, Lcom/garmin/android/connectiq/b;->A:Lk8/a;
-
-    .line 11
-    .line 12
-    invoke-interface {v1, p1}, Lk8/a;->Z(Lcom/garmin/android/connectiq/IQDevice;)I
-
-    .line 13
-    .line 14
-    .line 15
-    move-result p1
-
-    .line 16
-    invoke-static {}, Lcom/garmin/android/connectiq/IQDevice$IQDeviceStatus;->values()[Lcom/garmin/android/connectiq/IQDevice$IQDeviceStatus;
-
-    .line 17
-    .line 18
-    .line 19
-    move-result-object v1
-
-    .line 20
-    aget-object p1, v1, p1
-    :try_end_0
-    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
-    .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_1
-
-    .line 21
-    .line 22
-    return-object p1
-
-    .line 23
-    :catch_0
-    move-exception p1
-
-    .line 24
-    goto :goto_0
-
-    .line 25
-    :catch_1
-    return-object v0
-
-    .line 26
-    :goto_0
-    new-instance v0, Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-
-    .line 27
-    .line 28
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    .line 29
-    .line 30
-    .line 31
-    move-result-object p1
-
-    .line 32
-    invoke-direct {v0, p1}, Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;-><init>(Ljava/lang/String;)V
-
-    .line 33
-    .line 34
-    .line 35
-    throw v0
-
-    .line 36
-    :cond_0
-    new-instance p1, Lcom/garmin/android/connectiq/exception/InvalidStateException;
-
-    .line 37
-    .line 38
-    const-string v0, "SDK not initialized.  Did you forget to call ConnectIQ::initialize()?"
-
-    .line 39
-    .line 40
-    invoke-direct {p1, v0}, Lcom/garmin/android/connectiq/exception/InvalidStateException;-><init>(Ljava/lang/String;)V
-
-    .line 41
-    .line 42
-    .line 43
-    throw p1
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-.end method
-
-.method public j()Ljava/util/List;
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lcom/garmin/android/connectiq/IQDevice;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/garmin/android/connectiq/exception/InvalidStateException;,
-            Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->C()V
-
-    .line 2
-    .line 3
-    .line 4
-    iget-boolean v0, p0, Lcom/garmin/android/connectiq/b;->z:Z
-
-    .line 5
-    .line 6
-    if-eqz v0, :cond_0
-
-    .line 7
-    .line 8
-    :try_start_0
-    iget-object v0, p0, Lcom/garmin/android/connectiq/b;->A:Lk8/a;
-
-    .line 9
-    .line 10
-    invoke-interface {v0}, Lk8/a;->B0()Ljava/util/List;
-
-    .line 11
-    .line 12
-    .line 13
-    move-result-object v0
-    :try_end_0
-    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 14
-    return-object v0
-
-    .line 15
-    :catch_0
-    move-exception v0
-
-    .line 16
-    new-instance v1, Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-
-    .line 17
-    .line 18
-    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    .line 19
-    .line 20
-    .line 21
-    move-result-object v0
-
-    .line 22
-    invoke-direct {v1, v0}, Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;-><init>(Ljava/lang/String;)V
-
-    .line 23
-    .line 24
-    .line 25
-    throw v1
-
-    .line 26
-    :cond_0
-    new-instance v0, Lcom/garmin/android/connectiq/exception/InvalidStateException;
-
-    .line 27
-    .line 28
-    const-string v1, "SDK not initialized.  Did you forget to call ConnectIQ::initialize()?"
-
-    .line 29
-    .line 30
-    invoke-direct {v0, v1}, Lcom/garmin/android/connectiq/exception/InvalidStateException;-><init>(Ljava/lang/String;)V
-
-    .line 31
-    .line 32
-    .line 33
-    throw v0
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-.end method
-
-.method public l(Landroid/content/Context;ZLcom/garmin/android/connectiq/ConnectIQ$d;)V
+.method public h(Landroid/content/Context;ZLcom/garmin/android/connectiq/ConnectIQ$d;)V
     .locals 9
 
     .line 1
@@ -977,7 +349,7 @@
 
     .line 6
     .line 7
-    invoke-super {p0, p1, p2, p3}, Lcom/garmin/android/connectiq/ConnectIQ;->l(Landroid/content/Context;ZLcom/garmin/android/connectiq/ConnectIQ$d;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/garmin/android/connectiq/ConnectIQ;->h(Landroid/content/Context;ZLcom/garmin/android/connectiq/ConnectIQ$d;)V
 
     .line 8
     .line 9
@@ -1244,7 +616,7 @@
 
     .line 136
     .line 137
-    iget-object v4, p0, Lcom/garmin/android/connectiq/b;->B:Landroid/content/ServiceConnection;
+    iget-object v4, p0, Lcom/garmin/android/connectiq/b;->j:Landroid/content/ServiceConnection;
 
     .line 138
     .line 139
@@ -1454,7 +826,7 @@
     .line 234
     .line 235
     :cond_c
-    invoke-super {p0, p1, p2, p3}, Lcom/garmin/android/connectiq/ConnectIQ;->l(Landroid/content/Context;ZLcom/garmin/android/connectiq/ConnectIQ$d;)V
+    invoke-super {p0, p1, p2, p3}, Lcom/garmin/android/connectiq/ConnectIQ;->h(Landroid/content/Context;ZLcom/garmin/android/connectiq/ConnectIQ$d;)V
 
     .line 236
     .line 237
@@ -2269,900 +1641,18 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
-.method public m(Lcom/garmin/android/connectiq/IQDevice;Lcom/garmin/android/connectiq/IQApp;Lcom/garmin/android/connectiq/ConnectIQ$h;)V
+.method public k(Lcom/garmin/android/connectiq/IQDevice;Lcom/garmin/android/connectiq/IQApp;[BLcom/garmin/android/connectiq/ConnectIQ$i;)V
     .locals 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/garmin/android/connectiq/exception/InvalidStateException;,
-            Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-        }
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->C()V
+    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->n()V
 
     .line 2
     .line 3
     .line 4
-    iget-boolean v0, p0, Lcom/garmin/android/connectiq/b;->z:Z
-
-    .line 5
-    .line 6
-    if-eqz v0, :cond_3
-
-    .line 7
-    .line 8
-    if-nez p1, :cond_1
-
-    .line 9
-    .line 10
-    if-eqz p3, :cond_0
-
-    .line 11
-    .line 12
-    sget-object v0, Lcom/garmin/android/connectiq/ConnectIQ$IQOpenApplicationStatus;->APP_IS_NOT_INSTALLED:Lcom/garmin/android/connectiq/ConnectIQ$IQOpenApplicationStatus;
-
-    .line 13
-    .line 14
-    invoke-interface {p3, p1, p2, v0}, Lcom/garmin/android/connectiq/ConnectIQ$h;->a(Lcom/garmin/android/connectiq/IQDevice;Lcom/garmin/android/connectiq/IQApp;Lcom/garmin/android/connectiq/ConnectIQ$IQOpenApplicationStatus;)V
-
-    .line 15
-    .line 16
-    .line 17
-    :cond_0
-    return-void
-
-    .line 18
-    :cond_1
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->k()Lcom/garmin/android/connectiq/d;
-
-    .line 19
-    .line 20
-    .line 21
-    move-result-object v0
-
-    .line 22
-    invoke-virtual {p1}, Lcom/garmin/android/connectiq/IQDevice;->a()J
-
-    .line 23
-    .line 24
-    .line 25
-    move-result-wide v1
-
-    .line 26
-    invoke-virtual {v0, v1, v2}, Lcom/garmin/android/connectiq/d;->e(J)Lcom/garmin/android/connectiq/c;
-
-    .line 27
-    .line 28
-    .line 29
-    move-result-object v0
-
-    .line 30
-    if-eqz v0, :cond_2
-
-    .line 31
-    .line 32
-    invoke-virtual {p2}, Lcom/garmin/android/connectiq/IQApp;->a()Ljava/lang/String;
-
-    .line 33
-    .line 34
-    .line 35
-    move-result-object v1
-
-    .line 36
-    invoke-virtual {v0, v1, p3}, Lcom/garmin/android/connectiq/c;->n(Ljava/lang/String;Lcom/garmin/android/connectiq/ConnectIQ$h;)V
-
-    .line 37
-    .line 38
-    .line 39
-    goto :goto_0
-
-    .line 40
-    :cond_2
-    new-instance v0, Lcom/garmin/android/connectiq/c;
-
-    .line 41
-    .line 42
-    invoke-virtual {p1}, Lcom/garmin/android/connectiq/IQDevice;->a()J
-
-    .line 43
-    .line 44
-    .line 45
-    move-result-wide v1
-
-    .line 46
-    invoke-direct {v0, v1, v2}, Lcom/garmin/android/connectiq/c;-><init>(J)V
-
-    .line 47
-    .line 48
-    .line 49
-    invoke-virtual {p2}, Lcom/garmin/android/connectiq/IQApp;->a()Ljava/lang/String;
-
-    .line 50
-    .line 51
-    .line 52
-    move-result-object v1
-
-    .line 53
-    invoke-virtual {v0, v1, p3}, Lcom/garmin/android/connectiq/c;->n(Ljava/lang/String;Lcom/garmin/android/connectiq/ConnectIQ$h;)V
-
-    .line 54
-    .line 55
-    .line 56
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->k()Lcom/garmin/android/connectiq/d;
-
-    .line 57
-    .line 58
-    .line 59
-    move-result-object p3
-
-    .line 60
-    invoke-virtual {p1}, Lcom/garmin/android/connectiq/IQDevice;->a()J
-
-    .line 61
-    .line 62
-    .line 63
-    move-result-wide v1
-
-    .line 64
-    invoke-virtual {p3, v1, v2, v0}, Lcom/garmin/android/connectiq/d;->a(JLcom/garmin/android/connectiq/c;)V
-
-    .line 65
-    .line 66
-    .line 67
-    :goto_0
-    :try_start_0
-    iget-object p3, p0, Lcom/garmin/android/connectiq/b;->A:Lk8/a;
-
-    .line 68
-    .line 69
-    iget-object v0, p0, Lcom/garmin/android/connectiq/ConnectIQ;->a:Landroid/content/Context;
-
-    .line 70
-    .line 71
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    .line 72
-    .line 73
-    .line 74
-    move-result-object v0
-
-    .line 75
-    const-string v1, "com.garmin.android.connectiq.OPEN_APPLICATION"
-
-    .line 76
-    .line 77
-    invoke-interface {p3, v0, v1, p1, p2}, Lk8/a;->w0(Ljava/lang/String;Ljava/lang/String;Lcom/garmin/android/connectiq/IQDevice;Lcom/garmin/android/connectiq/IQApp;)V
-    :try_end_0
-    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 78
-    .line 79
-    .line 80
-    return-void
-
-    .line 81
-    :catch_0
-    move-exception p1
-
-    .line 82
-    new-instance p2, Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-
-    .line 83
-    .line 84
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    .line 85
-    .line 86
-    .line 87
-    move-result-object p1
-
-    .line 88
-    invoke-direct {p2, p1}, Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;-><init>(Ljava/lang/String;)V
-
-    .line 89
-    .line 90
-    .line 91
-    throw p2
-
-    .line 92
-    :cond_3
-    new-instance p1, Lcom/garmin/android/connectiq/exception/InvalidStateException;
-
-    .line 93
-    .line 94
-    const-string p2, "SDK not initialized.  Did you forget to call ConnectIQ::initialize()?"
-
-    .line 95
-    .line 96
-    invoke-direct {p1, p2}, Lcom/garmin/android/connectiq/exception/InvalidStateException;-><init>(Ljava/lang/String;)V
-
-    .line 97
-    .line 98
-    .line 99
-    throw p1
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-.end method
-
-.method public n(Ljava/lang/String;)Z
-    .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/IllegalArgumentException;,
-            Lcom/garmin/android/connectiq/exception/InvalidStateException;,
-            Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->C()V
-
-    .line 2
-    .line 3
-    .line 4
-    iget-boolean v0, p0, Lcom/garmin/android/connectiq/b;->z:Z
-
-    .line 5
-    .line 6
-    if-eqz v0, :cond_2
-
-    .line 7
-    .line 8
-    if-eqz p1, :cond_1
-
-    .line 9
-    .line 10
-    :try_start_0
-    invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
-
-    .line 11
-    .line 12
-    .line 13
-    move-result v0
-
-    .line 14
-    if-nez v0, :cond_1
-
-    .line 15
-    .line 16
-    const-string v0, "-"
-
-    .line 17
-    .line 18
-    invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-
-    .line 19
-    .line 20
-    .line 21
-    move-result v0
-
-    .line 22
-    if-nez v0, :cond_0
-
-    .line 23
-    .line 24
-    const-string v0, "(\\w{8})(\\w{4})(\\w{4})(\\w{4})(\\w{12})"
-
-    .line 25
-    .line 26
-    const-string v1, "$1-$2-$3-$4-$5"
-
-    .line 27
-    .line 28
-    invoke-virtual {p1, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    .line 29
-    .line 30
-    .line 31
-    move-result-object p1
-
-    .line 32
-    goto :goto_0
-
-    .line 33
-    :catch_0
-    move-exception p1
-
-    .line 34
-    goto :goto_1
-
-    .line 35
-    :cond_0
-    :goto_0
-    invoke-static {p1}, Ljava/util/UUID;->fromString(Ljava/lang/String;)Ljava/util/UUID;
-
-    .line 36
-    .line 37
-    .line 38
-    move-result-object p1
-
-    .line 39
-    invoke-virtual {p1}, Ljava/util/UUID;->toString()Ljava/lang/String;
-
-    .line 40
-    .line 41
-    .line 42
-    move-result-object p1
-
-    .line 43
-    iget-object v0, p0, Lcom/garmin/android/connectiq/b;->A:Lk8/a;
-
-    .line 44
-    .line 45
-    invoke-interface {v0, p1}, Lk8/a;->q(Ljava/lang/String;)Z
-
-    .line 46
-    .line 47
-    .line 48
-    move-result p1
-
-    .line 49
-    return p1
-
-    .line 50
-    :cond_1
-    iget-object p1, p0, Lcom/garmin/android/connectiq/b;->A:Lk8/a;
-
-    .line 51
-    .line 52
-    const/4 v0, 0x0
-
-    .line 53
-    invoke-interface {p1, v0}, Lk8/a;->q(Ljava/lang/String;)Z
-
-    .line 54
-    .line 55
-    .line 56
-    move-result p1
-    :try_end_0
-    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 57
-    return p1
-
-    .line 58
-    :goto_1
-    new-instance v0, Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-
-    .line 59
-    .line 60
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    .line 61
-    .line 62
-    .line 63
-    move-result-object p1
-
-    .line 64
-    invoke-direct {v0, p1}, Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;-><init>(Ljava/lang/String;)V
-
-    .line 65
-    .line 66
-    .line 67
-    throw v0
-
-    .line 68
-    :cond_2
-    new-instance p1, Lcom/garmin/android/connectiq/exception/InvalidStateException;
-
-    .line 69
-    .line 70
-    const-string v0, "SDK not initialized.  Did you forget to call ConnectIQ::initialize()?"
-
-    .line 71
-    .line 72
-    invoke-direct {p1, v0}, Lcom/garmin/android/connectiq/exception/InvalidStateException;-><init>(Ljava/lang/String;)V
-
-    .line 73
-    .line 74
-    .line 75
-    throw p1
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-.end method
-
-.method public r(Lcom/garmin/android/connectiq/IQDevice;Lcom/garmin/android/connectiq/IQApp;)V
-    .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/garmin/android/connectiq/exception/InvalidStateException;,
-            Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->C()V
-
-    .line 2
-    .line 3
-    .line 4
-    iget-boolean p1, p0, Lcom/garmin/android/connectiq/b;->z:Z
-
-    .line 5
-    .line 6
-    if-eqz p1, :cond_0
-
-    .line 7
-    .line 8
-    :try_start_0
-    iget-object p1, p0, Lcom/garmin/android/connectiq/b;->A:Lk8/a;
-
-    .line 9
-    .line 10
-    const-string v0, "com.garmin.android.connectiq.INCOMING_MESSAGE"
-
-    .line 11
-    .line 12
-    iget-object v1, p0, Lcom/garmin/android/connectiq/ConnectIQ;->a:Landroid/content/Context;
-
-    .line 13
-    .line 14
-    invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    .line 15
-    .line 16
-    .line 17
-    move-result-object v1
-
-    .line 18
-    invoke-interface {p1, p2, v0, v1}, Lk8/a;->X(Lcom/garmin/android/connectiq/IQApp;Ljava/lang/String;Ljava/lang/String;)V
-    :try_end_0
-    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 19
-    .line 20
-    .line 21
-    return-void
-
-    .line 22
-    :catch_0
-    move-exception p1
-
-    .line 23
-    new-instance p2, Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-
-    .line 24
-    .line 25
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    .line 26
-    .line 27
-    .line 28
-    move-result-object p1
-
-    .line 29
-    invoke-direct {p2, p1}, Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;-><init>(Ljava/lang/String;)V
-
-    .line 30
-    .line 31
-    .line 32
-    throw p2
-
-    .line 33
-    :cond_0
-    new-instance p1, Lcom/garmin/android/connectiq/exception/InvalidStateException;
-
-    .line 34
-    .line 35
-    const-string p2, "SDK not initialized.  Did you forget to call ConnectIQ::initialize()?"
-
-    .line 36
-    .line 37
-    invoke-direct {p1, p2}, Lcom/garmin/android/connectiq/exception/InvalidStateException;-><init>(Ljava/lang/String;)V
-
-    .line 38
-    .line 39
-    .line 40
-    throw p1
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-.end method
-
-.method public s(Lcom/garmin/android/connectiq/IQDevice;Lcom/garmin/android/connectiq/IQApp;[BLcom/garmin/android/connectiq/ConnectIQ$i;)V
-    .locals 0
-
-    .line 1
-    new-instance p1, Ljava/lang/UnsupportedOperationException;
-
-    .line 2
-    .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
-
-    .line 4
-    .line 5
-    .line 6
-    throw p1
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-.end method
-
-.method public v(Lcom/garmin/android/connectiq/IQDevice;Lcom/garmin/android/connectiq/IQApp;[BLcom/garmin/android/connectiq/ConnectIQ$j;)V
-    .locals 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/garmin/android/connectiq/exception/InvalidStateException;,
-            Lcom/garmin/android/connectiq/exception/ServiceUnavailableException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->C()V
-
-    .line 2
-    .line 3
-    .line 4
-    iget-boolean v0, p0, Lcom/garmin/android/connectiq/b;->z:Z
+    iget-boolean v0, p0, Lcom/garmin/android/connectiq/b;->h:Z
 
     .line 5
     .line 6
@@ -3182,7 +1672,7 @@
 
     .line 13
     .line 14
-    invoke-interface {p4, p1, p2, p3}, Lcom/garmin/android/connectiq/ConnectIQ$j;->a(Lcom/garmin/android/connectiq/IQDevice;Lcom/garmin/android/connectiq/IQApp;Lcom/garmin/android/connectiq/ConnectIQ$IQMessageStatus;)V
+    invoke-interface {p4, p1, p2, p3}, Lcom/garmin/android/connectiq/ConnectIQ$i;->a(Lcom/garmin/android/connectiq/IQDevice;Lcom/garmin/android/connectiq/IQApp;Lcom/garmin/android/connectiq/ConnectIQ$IQMessageStatus;)V
 
     .line 15
     .line 16
@@ -3192,7 +1682,7 @@
 
     .line 18
     :cond_1
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->k()Lcom/garmin/android/connectiq/d;
+    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->g()Lcom/garmin/android/connectiq/d;
 
     .line 19
     .line 20
@@ -3200,7 +1690,7 @@
     move-result-object v0
 
     .line 22
-    invoke-virtual {p1}, Lcom/garmin/android/connectiq/IQDevice;->a()J
+    invoke-virtual {p1}, Lcom/garmin/android/connectiq/IQDevice;->b()J
 
     .line 23
     .line 24
@@ -3220,7 +1710,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {p2}, Lcom/garmin/android/connectiq/IQApp;->a()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/garmin/android/connectiq/IQApp;->b()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -3228,7 +1718,7 @@
     move-result-object v1
 
     .line 36
-    invoke-virtual {v0, v1, p4}, Lcom/garmin/android/connectiq/c;->o(Ljava/lang/String;Lcom/garmin/android/connectiq/ConnectIQ$j;)V
+    invoke-virtual {v0, v1, p4}, Lcom/garmin/android/connectiq/c;->k(Ljava/lang/String;Lcom/garmin/android/connectiq/ConnectIQ$i;)V
 
     .line 37
     .line 38
@@ -3241,7 +1731,7 @@
 
     .line 41
     .line 42
-    invoke-virtual {p1}, Lcom/garmin/android/connectiq/IQDevice;->a()J
+    invoke-virtual {p1}, Lcom/garmin/android/connectiq/IQDevice;->b()J
 
     .line 43
     .line 44
@@ -3254,7 +1744,7 @@
     .line 47
     .line 48
     .line 49
-    invoke-virtual {p2}, Lcom/garmin/android/connectiq/IQApp;->a()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/garmin/android/connectiq/IQApp;->b()Ljava/lang/String;
 
     .line 50
     .line 51
@@ -3262,12 +1752,12 @@
     move-result-object v1
 
     .line 53
-    invoke-virtual {v0, v1, p4}, Lcom/garmin/android/connectiq/c;->o(Ljava/lang/String;Lcom/garmin/android/connectiq/ConnectIQ$j;)V
+    invoke-virtual {v0, v1, p4}, Lcom/garmin/android/connectiq/c;->k(Ljava/lang/String;Lcom/garmin/android/connectiq/ConnectIQ$i;)V
 
     .line 54
     .line 55
     .line 56
-    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->k()Lcom/garmin/android/connectiq/d;
+    invoke-virtual {p0}, Lcom/garmin/android/connectiq/ConnectIQ;->g()Lcom/garmin/android/connectiq/d;
 
     .line 57
     .line 58
@@ -3275,7 +1765,7 @@
     move-result-object p4
 
     .line 60
-    invoke-virtual {p1}, Lcom/garmin/android/connectiq/IQDevice;->a()J
+    invoke-virtual {p1}, Lcom/garmin/android/connectiq/IQDevice;->b()J
 
     .line 61
     .line 62
@@ -3315,11 +1805,11 @@
     .line 78
     .line 79
     .line 80
-    iget-object p3, p0, Lcom/garmin/android/connectiq/b;->A:Lk8/a;
+    iget-object p3, p0, Lcom/garmin/android/connectiq/b;->i:Ld2/a;
 
     .line 81
     .line 82
-    invoke-interface {p3, p4, p1, p2}, Lk8/a;->Y0(Lcom/garmin/android/connectiq/IQMessage;Lcom/garmin/android/connectiq/IQDevice;Lcom/garmin/android/connectiq/IQApp;)V
+    invoke-interface {p3, p4, p1, p2}, Ld2/a;->O(Lcom/garmin/android/connectiq/IQMessage;Lcom/garmin/android/connectiq/IQDevice;Lcom/garmin/android/connectiq/IQApp;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -3506,23 +1996,34 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
-.method public x(Landroid/content/Context;)V
+.method public l(Landroid/content/Context;)V
     .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/garmin/android/connectiq/exception/InvalidStateException;
-        }
-    .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Lcom/garmin/android/connectiq/ConnectIQ;->x(Landroid/content/Context;)V
+    invoke-super {p0, p1}, Lcom/garmin/android/connectiq/ConnectIQ;->l(Landroid/content/Context;)V
 
     .line 2
     .line 3
     .line 4
-    iget-boolean p1, p0, Lcom/garmin/android/connectiq/b;->z:Z
+    iget-boolean p1, p0, Lcom/garmin/android/connectiq/b;->h:Z
 
     .line 5
     .line 6
@@ -3534,7 +2035,7 @@
 
     .line 9
     .line 10
-    iget-object v0, p0, Lcom/garmin/android/connectiq/b;->B:Landroid/content/ServiceConnection;
+    iget-object v0, p0, Lcom/garmin/android/connectiq/b;->j:Landroid/content/ServiceConnection;
 
     .line 11
     .line 12
@@ -3554,5 +2055,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -84,6 +84,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearEditionDeprecated()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$FeatureSupport$Builder;
@@ -118,6 +119,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearEditionIntroduced()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$FeatureSupport$Builder;
@@ -152,6 +154,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearEditionRemoved()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$FeatureSupport$Builder;
@@ -186,6 +189,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDeprecationWarning()Ljava/lang/String;
@@ -220,6 +224,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDeprecationWarningBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -254,6 +259,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEditionDeprecated()Landroidx/datastore/preferences/protobuf/DescriptorProtos$Edition;
@@ -288,6 +294,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEditionIntroduced()Landroidx/datastore/preferences/protobuf/DescriptorProtos$Edition;
@@ -322,6 +329,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEditionRemoved()Landroidx/datastore/preferences/protobuf/DescriptorProtos$Edition;
@@ -356,6 +364,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasDeprecationWarning()Z
@@ -390,6 +399,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasEditionDeprecated()Z
@@ -424,6 +434,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasEditionIntroduced()Z
@@ -458,6 +469,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasEditionRemoved()Z
@@ -492,18 +504,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setDeprecationWarning(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$FeatureSupport$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -543,14 +548,6 @@
 
 .method public setDeprecationWarningBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$FeatureSupport$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -590,14 +587,6 @@
 
 .method public setEditionDeprecated(Landroidx/datastore/preferences/protobuf/DescriptorProtos$Edition;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$FeatureSupport$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -637,14 +626,6 @@
 
 .method public setEditionIntroduced(Landroidx/datastore/preferences/protobuf/DescriptorProtos$Edition;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$FeatureSupport$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -684,14 +665,6 @@
 
 .method public setEditionRemoved(Landroidx/datastore/preferences/protobuf/DescriptorProtos$Edition;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FieldOptions$FeatureSupport$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V

@@ -136,6 +136,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setHost(Ljava/net/URL;)V
@@ -169,6 +171,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setIsUnitBusiness(Z)V
@@ -202,6 +206,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTag(Ljava/lang/String;)V
@@ -235,6 +241,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTarget(Ljava/lang/String;)V
@@ -268,6 +276,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTargetServiceName(Ljava/lang/String;)V
@@ -301,6 +311,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTimeOut(I)V
@@ -334,4 +346,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

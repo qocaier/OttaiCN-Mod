@@ -33,6 +33,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private a(Ljava/util/List;)Ljava/util/List;
@@ -164,6 +166,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -210,6 +214,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRobotInfo(Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/robot/model/NimRobotInfo;
@@ -245,6 +251,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getRobotInfoList(Ljava/util/List;)Ljava/util/List;
@@ -295,6 +303,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public isRobot(Ljava/lang/String;)Z
@@ -330,6 +340,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public pullAllRobots()Lcom/qiyukf/nimlib/sdk/InvocationFuture;
@@ -453,4 +465,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

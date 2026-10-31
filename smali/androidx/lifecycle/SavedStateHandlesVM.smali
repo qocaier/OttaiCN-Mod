@@ -13,9 +13,6 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
@@ -52,6 +49,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -66,9 +64,6 @@
             "Landroidx/lifecycle/SavedStateHandle;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -94,4 +89,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

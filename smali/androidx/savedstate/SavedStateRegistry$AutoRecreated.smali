@@ -16,8 +16,4 @@
 
 # virtual methods
 .method public abstract onRecreated(Landroidx/savedstate/SavedStateRegistryOwner;)V
-    .param p1    # Landroidx/savedstate/SavedStateRegistryOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method

@@ -82,6 +82,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -112,6 +113,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getContentMimeTypes(Landroid/view/inputmethod/EditorInfo;)[Ljava/lang/String;
@@ -130,7 +132,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Lg1/b;->a(Landroid/view/inputmethod/EditorInfo;)[Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/view/inputmethod/b;->a(Landroid/view/inputmethod/EditorInfo;)[Ljava/lang/String;
 
     .line 8
     .line 9
@@ -249,6 +251,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getInitialSelectedText(Landroid/view/inputmethod/EditorInfo;I)Ljava/lang/CharSequence;
@@ -591,6 +594,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static getInitialTextAfterCursor(Landroid/view/inputmethod/EditorInfo;II)Ljava/lang/CharSequence;
@@ -780,6 +786,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static getInitialTextBeforeCursor(Landroid/view/inputmethod/EditorInfo;II)Ljava/lang/CharSequence;
@@ -963,6 +972,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static getProtocol(Landroid/view/inputmethod/EditorInfo;)I
@@ -1104,6 +1116,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static isCutOnSurrogate(Ljava/lang/CharSequence;II)Z
@@ -1253,6 +1266,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static isPasswordInputType(I)Z
@@ -1404,6 +1420,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static setContentMimeTypes(Landroid/view/inputmethod/EditorInfo;[Ljava/lang/String;)V
@@ -1422,7 +1439,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Lg1/a;->a(Landroid/view/inputmethod/EditorInfo;[Ljava/lang/String;)V
+    invoke-static {p0, p1}, Landroidx/core/view/inputmethod/a;->a(Landroid/view/inputmethod/EditorInfo;[Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -1695,6 +1712,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static setInitialSurroundingText(Landroid/view/inputmethod/EditorInfo;Ljava/lang/CharSequence;)V
@@ -2121,6 +2141,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static trimLongSurroundingText(Landroid/view/inputmethod/EditorInfo;Ljava/lang/CharSequence;II)V
@@ -2477,4 +2503,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

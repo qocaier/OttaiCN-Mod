@@ -78,7 +78,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private constructor <init>(Lcom/google/android/material/color/DynamicColorsOptions$Builder;)V
@@ -188,7 +187,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic access$600()Lcom/google/android/material/color/DynamicColors$OnAppliedCallback;
@@ -219,7 +217,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static extractSeedColorFromImage(Landroid/graphics/Bitmap;)I
@@ -363,8 +360,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -399,7 +394,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnAppliedCallback()Lcom/google/android/material/color/DynamicColors$OnAppliedCallback;
@@ -432,7 +426,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPrecondition()Lcom/google/android/material/color/DynamicColors$Precondition;
@@ -465,7 +458,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThemeOverlay()I
@@ -498,5 +490,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

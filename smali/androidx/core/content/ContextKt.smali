@@ -24,7 +24,7 @@
 
     .line 3
     .line 4
-    invoke-static {v0, v1}, Lkm/g0;->y(ILjava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->l(ILjava/lang/String;)V
 
     .line 5
     .line 6
@@ -56,22 +56,10 @@
     .line 25
 .end method
 
-.method public static final withStyledAttributes(Landroid/content/Context;I[ILjm/l;)V
+.method public static final withStyledAttributes(Landroid/content/Context;I[ILq8/l;)V
     .locals 0
-    .param p0    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleRes;
-        .end annotation
-    .end param
-    .param p2    # [I
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/l;
-        .annotation build Lsq/k;
         .end annotation
     .end param
     .annotation system Ldalvik/annotation/Signature;
@@ -79,11 +67,8 @@
             "(",
             "Landroid/content/Context;",
             "I[I",
-            "Ljm/l<",
-            "-",
-            "Landroid/content/res/TypedArray;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -92,27 +77,15 @@
 
     move-result-object p0
 
-    invoke-interface {p3, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
 
     return-void
 .end method
 
-.method public static final withStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[IIILjm/l;)V
+.method public static final withStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[IIILq8/l;)V
     .locals 0
-    .param p0    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/util/AttributeSet;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # [I
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p3    # I
         .annotation build Landroidx/annotation/AttrRes;
         .end annotation
@@ -121,21 +94,14 @@
         .annotation build Landroidx/annotation/StyleRes;
         .end annotation
     .end param
-    .param p5    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             "Landroid/util/AttributeSet;",
             "[III",
-            "Ljm/l<",
-            "-",
-            "Landroid/content/res/TypedArray;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -144,14 +110,14 @@
 
     move-result-object p0
 
-    invoke-interface {p5, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
 
     return-void
 .end method
 
-.method public static synthetic withStyledAttributes$default(Landroid/content/Context;Landroid/util/AttributeSet;[IIILjm/l;ILjava/lang/Object;)V
+.method public static synthetic withStyledAttributes$default(Landroid/content/Context;Landroid/util/AttributeSet;[IIILq8/l;ILjava/lang/Object;)V
     .locals 1
 
     .line 1
@@ -202,7 +168,7 @@
     move-result-object p0
 
     .line 21
-    invoke-interface {p5, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23

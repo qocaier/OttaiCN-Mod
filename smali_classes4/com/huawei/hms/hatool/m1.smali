@@ -111,7 +111,7 @@
 
     move-result-wide v0
 
-    invoke-static {v2}, Lze/b;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lv5/b;->e(I)Ljava/lang/String;
 
     move-result-object p2
 
@@ -146,7 +146,7 @@
 
     if-lez p2, :cond_2
 
-    invoke-static {v2}, Lze/b;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lv5/b;->e(I)Ljava/lang/String;
 
     move-result-object p2
 

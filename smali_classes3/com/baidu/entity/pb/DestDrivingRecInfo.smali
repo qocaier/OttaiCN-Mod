@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/entity/pb/DestDrivingRecInfo;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -30,7 +30,7 @@
     .end annotation
 .end field
 
-.field private broadcastContent_:Ljc/a;
+.field private broadcastContent_:Ll4/a;
 
 .field private cachedSize:I
 
@@ -42,7 +42,7 @@
 
 .field private hasTranshipInfo:Z
 
-.field private recParkingText_:Ljc/a;
+.field private recParkingText_:Ll4/a;
 
 .field private rectBoardItems_:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -73,7 +73,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
     const/4 v0, 0x1
 
@@ -83,11 +83,11 @@
 
     iput-object v0, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->tabPoiInfo_:Ljava/util/List;
 
-    sget-object v1, Ljc/a;->c:Ljc/a;
+    sget-object v1, Ll4/a;->c:Ll4/a;
 
-    iput-object v1, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->recParkingText_:Ljc/a;
+    iput-object v1, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->recParkingText_:Ll4/a;
 
-    iput-object v1, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->broadcastContent_:Ljc/a;
+    iput-object v1, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->broadcastContent_:Ll4/a;
 
     iput-object v0, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->boardItems_:Ljava/util/List;
 
@@ -104,7 +104,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -117,7 +117,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
+    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
 
     move-result-object p0
 
@@ -137,7 +137,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -279,9 +279,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->hasBroadcastContent:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->broadcastContent_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->broadcastContent_:Ll4/a;
 
     return-object p0
 .end method
@@ -293,9 +293,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->hasRecParkingText:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->recParkingText_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->recParkingText_:Ll4/a;
 
     return-object p0
 .end method
@@ -390,11 +390,11 @@
     return-object v0
 .end method
 
-.method public getBroadcastContent()Ljc/a;
+.method public getBroadcastContent()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->broadcastContent_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->broadcastContent_:Ll4/a;
 
     .line 2
     .line 3
@@ -418,7 +418,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCachedSize()I
@@ -436,11 +435,11 @@
     return v0
 .end method
 
-.method public getRecParkingText()Ljc/a;
+.method public getRecParkingText()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->recParkingText_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->recParkingText_:Ll4/a;
 
     .line 2
     .line 3
@@ -464,7 +463,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRectBoardItems(I)Lcom/baidu/entity/pb/RectBoard;
@@ -532,7 +530,7 @@
 
     move-result v1
 
-    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v0
 
@@ -565,7 +563,7 @@
 
     const/4 v3, 0x2
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -582,11 +580,11 @@
 
     const/4 v1, 0x3
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->getRecParkingText()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->getRecParkingText()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -601,11 +599,11 @@
 
     const/4 v1, 0x4
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->getBroadcastContent()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->getBroadcastContent()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -635,7 +633,7 @@
 
     const/4 v3, 0x5
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -656,7 +654,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v1
 
@@ -686,7 +684,7 @@
 
     const/4 v3, 0x7
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -841,7 +839,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -852,7 +850,7 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
@@ -886,7 +884,7 @@
 
     if-eq v0, v1, :cond_1
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -899,7 +897,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/RectBoard;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->addRectBoardItems(Lcom/baidu/entity/pb/RectBoard;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
 
@@ -910,7 +908,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TranshipInfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->setTranshipInfo(Lcom/baidu/entity/pb/TranshipInfo;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
 
@@ -921,27 +919,27 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/DestItems;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->addBoardItems(Lcom/baidu/entity/pb/DestItems;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
 
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->setBroadcastContent(Ljc/a;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->setBroadcastContent(Ll4/a;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
 
     goto :goto_0
 
     :cond_5
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->setRecParkingText(Ljc/a;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->setRecParkingText(Ll4/a;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
 
     goto :goto_0
 
@@ -950,14 +948,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TabPoiInfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->addTabPoiInfo(Lcom/baidu/entity/pb/TabPoiInfo;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
 
     goto :goto_0
 
     :cond_7
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -970,7 +968,7 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -979,7 +977,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
+    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
 
     move-result-object p1
 
@@ -1001,7 +999,7 @@
     return-object p0
 .end method
 
-.method public setBroadcastContent(Ljc/a;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
+.method public setBroadcastContent(Ll4/a;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
     .locals 1
 
     .line 1
@@ -1012,7 +1010,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->broadcastContent_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->broadcastContent_:Ll4/a;
 
     .line 5
     .line 6
@@ -1035,10 +1033,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setRecParkingText(Ljc/a;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
+.method public setRecParkingText(Ll4/a;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
     .locals 1
 
     .line 1
@@ -1049,7 +1046,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->recParkingText_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/DestDrivingRecInfo;->recParkingText_:Ll4/a;
 
     .line 5
     .line 6
@@ -1072,7 +1069,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRectBoardItems(ILcom/baidu/entity/pb/RectBoard;)Lcom/baidu/entity/pb/DestDrivingRecInfo;
@@ -1158,7 +1154,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->getTabPoiInfoList()Ljava/util/List;
@@ -1184,7 +1180,7 @@
 
     const/4 v2, 0x2
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_0
 
@@ -1197,11 +1193,11 @@
 
     const/4 v0, 0x3
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->getRecParkingText()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->getRecParkingText()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->hasBroadcastContent()Z
@@ -1212,11 +1208,11 @@
 
     const/4 v0, 0x4
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->getBroadcastContent()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->getBroadcastContent()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->getBoardItemsList()Ljava/util/List;
@@ -1242,7 +1238,7 @@
 
     const/4 v2, 0x5
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_1
 
@@ -1259,7 +1255,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_5
     invoke-virtual {p0}, Lcom/baidu/entity/pb/DestDrivingRecInfo;->getRectBoardItemsList()Ljava/util/List;
@@ -1285,7 +1281,7 @@
 
     const/4 v2, 0x7
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_2
 

@@ -19,18 +19,6 @@
 # direct methods
 .method public constructor <init>(ILjava/lang/reflect/Field;Ljava/lang/reflect/Field;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "id",
-            "caseField",
-            "valueField"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -154,6 +142,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -184,6 +175,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getId()I
@@ -212,6 +204,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getValueField()Ljava/lang/reflect/Field;
@@ -240,4 +233,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -943,7 +943,7 @@
 
     if-eqz p0, :cond_0
 
-    const-string p0, "\u521b\u5efa\u6587\u4ef6\u5939\u6210\u529f"
+    const-string/jumbo p0, "\u521b\u5efa\u6587\u4ef6\u5939\u6210\u529f"
 
     :goto_0
     invoke-static {v1, p0}, Lcom/tencent/aai/log/AAILogger;->info(Ljava/lang/String;Ljava/lang/String;)V
@@ -951,7 +951,7 @@
     goto :goto_1
 
     :cond_0
-    const-string p0, "\u521b\u5efa\u6587\u4ef6\u5939\u5931\u8d25"
+    const-string/jumbo p0, "\u521b\u5efa\u6587\u4ef6\u5939\u5931\u8d25"
 
     goto :goto_0
 
@@ -974,7 +974,7 @@
 
     if-eqz p1, :cond_2
 
-    const-string p1, "\u521b\u5efa\u6587\u4ef6\u6210\u529f"
+    const-string/jumbo p1, "\u521b\u5efa\u6587\u4ef6\u6210\u529f"
 
     :goto_2
     invoke-static {v1, p1}, Lcom/tencent/aai/log/AAILogger;->info(Ljava/lang/String;Ljava/lang/String;)V
@@ -987,7 +987,7 @@
     goto :goto_3
 
     :cond_2
-    const-string p1, "\u521b\u5efa\u6587\u4ef6\u5931\u8d25"
+    const-string/jumbo p1, "\u521b\u5efa\u6587\u4ef6\u5931\u8d25"
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1008,7 +1008,7 @@
     :goto_4
     const-string p1, "WavCache"
 
-    const-string v0, "\u751f\u6210\u6587\u4ef6"
+    const-string/jumbo v0, "\u751f\u6210\u6587\u4ef6"
 
     invoke-static {p1, v0}, Lcom/tencent/aai/log/AAILogger;->info(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -1459,7 +1459,7 @@
 
     new-instance v1, Ljava/text/SimpleDateFormat;
 
-    const-string v2, "yyyy-MM-dd hh:mm"
+    const-string/jumbo v2, "yyyy-MM-dd hh:mm"
 
     invoke-direct {v1, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
@@ -1587,7 +1587,7 @@
 
     new-instance p1, Ljava/text/SimpleDateFormat;
 
-    const-string v0, "yyyy-MM-dd hh:mm"
+    const-string/jumbo v0, "yyyy-MM-dd hh:mm"
 
     invoke-direct {p1, v0}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
@@ -2759,7 +2759,7 @@
 
     invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string p2, "\u5f55\u97f3\u5931\u8d25----"
+    const-string/jumbo p2, "\u5f55\u97f3\u5931\u8d25----"
 
     invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

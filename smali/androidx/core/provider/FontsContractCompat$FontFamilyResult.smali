@@ -157,6 +157,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFontsWithFallbacks()Ljava/util/List;
@@ -194,6 +195,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStatusCode()I
@@ -222,6 +224,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasFallback()Z
@@ -263,4 +266,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

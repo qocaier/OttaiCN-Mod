@@ -64,7 +64,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -85,7 +84,7 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v0, v1}, Lma/b;->a(Landroid/view/inspector/PropertyMapper;Ljava/lang/String;I)I
+    invoke-static {p1, v0, v1}, Lcom/google/android/material/button/b;->a(Landroid/view/inspector/PropertyMapper;Ljava/lang/String;I)I
 
     .line 6
     .line 7
@@ -115,7 +114,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public readProperties(Lcom/google/android/material/button/MaterialButton;Landroid/view/inspector/PropertyReader;)V
@@ -141,13 +139,13 @@
 
     move-result p1
 
-    invoke-static {p2, v0, p1}, Lma/a;->a(Landroid/view/inspector/PropertyReader;II)V
+    invoke-static {p2, v0, p1}, Lcom/google/android/material/button/a;->a(Landroid/view/inspector/PropertyReader;II)V
 
     return-void
 
     .line 4
     :cond_0
-    invoke-static {}, Lma/c;->a()Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;
+    invoke-static {}, Lcom/google/android/material/button/c;->a()Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;
 
     move-result-object p1
 

@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/entity/pb/cloud_yellow_tips_t;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -25,7 +25,7 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
     sget-object v0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
@@ -38,7 +38,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/entity/pb/cloud_yellow_tips_t;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/entity/pb/cloud_yellow_tips_t;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -51,7 +51,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/cloud_yellow_tips_t;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/cloud_yellow_tips_t;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/cloud_yellow_tips_t;
+    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/cloud_yellow_tips_t;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/cloud_yellow_tips_t;
 
     move-result-object p0
 
@@ -71,7 +71,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/cloud_yellow_tips_t;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -219,7 +219,7 @@
 
     const/4 v3, 0x1
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -273,7 +273,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/cloud_yellow_tips_t;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/cloud_yellow_tips_t;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -284,7 +284,7 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
@@ -294,7 +294,7 @@
 
     if-eq v0, v1, :cond_1
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -307,7 +307,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/yellow_tips_t;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/cloud_yellow_tips_t;->addCloudYellowTips(Lcom/baidu/entity/pb/yellow_tips_t;)Lcom/baidu/entity/pb/cloud_yellow_tips_t;
 
@@ -318,7 +318,7 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -327,7 +327,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/cloud_yellow_tips_t;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/cloud_yellow_tips_t;
+    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/cloud_yellow_tips_t;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/cloud_yellow_tips_t;
 
     move-result-object p1
 
@@ -380,7 +380,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_0
 

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
@@ -14,15 +14,6 @@
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x19
     name = null
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;",
-        ">;"
-    }
 .end annotation
 
 
@@ -61,15 +52,6 @@
 # virtual methods
 .method public final invoke()Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;

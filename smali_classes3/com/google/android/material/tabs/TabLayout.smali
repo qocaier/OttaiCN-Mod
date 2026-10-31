@@ -293,7 +293,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -1053,7 +1052,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1200(Lcom/google/android/material/tabs/TabLayout;)I
@@ -1086,7 +1084,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1300(Lcom/google/android/material/tabs/TabLayout;)I
@@ -1119,7 +1116,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1600(Lcom/google/android/material/tabs/TabLayout;)I
@@ -1152,7 +1148,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1700(Lcom/google/android/material/tabs/TabLayout;)Lcom/google/android/material/tabs/TabIndicatorInterpolator;
@@ -1185,7 +1180,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1900(Lcom/google/android/material/tabs/TabLayout;)Landroid/animation/TimeInterpolator;
@@ -1218,7 +1212,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private addTabFromItemView(Lcom/google/android/material/tabs/TabItem;)V
@@ -1364,8 +1357,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private addTabView(Lcom/google/android/material/tabs/TabLayout$Tab;)V
@@ -1420,7 +1411,6 @@
     .line 23
     return-void
     .line 24
-    .line 25
 .end method
 
 .method private addViewInternal(Landroid/view/View;)V
@@ -1468,7 +1458,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private animateToTab(I)V
@@ -1637,8 +1626,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private applyGravityForModeScrollable(I)V
@@ -1769,8 +1756,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private applyModeAndGravity()V
@@ -1949,15 +1934,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private calculateScrollXForTab(IF)I
@@ -2397,54 +2373,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method private configureTab(Lcom/google/android/material/tabs/TabLayout$Tab;I)V
@@ -2570,11 +2498,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static createColorStateList(II)Landroid/content/res/ColorStateList;
@@ -2669,11 +2592,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private createLayoutParamsForTabs()Landroid/widget/LinearLayout$LayoutParams;
@@ -2714,7 +2632,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private createTabView(Lcom/google/android/material/tabs/TabLayout$Tab;)Lcom/google/android/material/tabs/TabLayout$TabView;
@@ -2882,8 +2799,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private dispatchTabReselected(Lcom/google/android/material/tabs/TabLayout$Tab;)V
@@ -2945,6 +2860,72 @@
     .line 25
     :cond_0
     return-void
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
 .end method
 
 .method private dispatchTabSelected(Lcom/google/android/material/tabs/TabLayout$Tab;)V
@@ -3006,6 +2987,72 @@
     .line 25
     :cond_0
     return-void
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
 .end method
 
 .method private dispatchTabUnselected(Lcom/google/android/material/tabs/TabLayout$Tab;)V
@@ -3067,6 +3114,72 @@
     .line 25
     :cond_0
     return-void
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
 .end method
 
 .method private ensureScrollAnimator()V
@@ -3204,15 +3317,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getDefaultHeight()I
@@ -3375,15 +3479,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getTabMinWidth()I
@@ -3440,7 +3535,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getTabScrollRange()I
@@ -3577,15 +3671,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private isScrollingEnabled()Z
@@ -3639,7 +3724,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private removeTabViewAt(I)V
@@ -3760,8 +3844,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private setSelectedTabView(I)V
@@ -3962,8 +4044,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private setupWithViewPager(Landroidx/viewpager/widget/ViewPager;ZZ)V
@@ -4243,15 +4323,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private updateTabViewLayoutParams(Landroid/widget/LinearLayout$LayoutParams;)V
@@ -4315,7 +4386,6 @@
     .line 23
     .line 24
     return-void
-    .line 25
 .end method
 
 
@@ -4520,7 +4590,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public createTabFromPool()Lcom/google/android/material/tabs/TabLayout$Tab;
@@ -4564,7 +4633,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
@@ -4628,7 +4696,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTabAt(I)Lcom/google/android/material/tabs/TabLayout$Tab;
@@ -4686,7 +4753,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getTabCount()I
@@ -4721,7 +4787,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTabGravity()I
@@ -4752,7 +4817,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTabIconTint()Landroid/content/res/ColorStateList;
@@ -4785,7 +4849,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTabIndicatorAnimationMode()I
@@ -4816,7 +4879,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTabIndicatorGravity()I
@@ -4847,7 +4909,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTabMaxWidth()I
@@ -4878,7 +4939,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTabMode()I
@@ -4909,7 +4969,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTabRippleColor()Landroid/content/res/ColorStateList;
@@ -4942,7 +5001,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTabSelectedIndicator()Landroid/graphics/drawable/Drawable;
@@ -4975,7 +5033,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTabTextColors()Landroid/content/res/ColorStateList;
@@ -5008,7 +5065,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hasUnboundedRipple()Z
@@ -5039,7 +5095,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isInlineLabel()Z
@@ -5070,7 +5125,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isTabIndicatorFullWidth()Z
@@ -5101,7 +5155,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public newTab()Lcom/google/android/material/tabs/TabLayout$Tab;
@@ -5239,15 +5292,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onAttachedToWindow()V
@@ -5377,15 +5421,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onDetachedFromWindow()V
@@ -5429,7 +5464,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -5564,8 +5598,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
@@ -5620,7 +5652,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
@@ -5670,7 +5701,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onMeasure(II)V
@@ -6203,54 +6233,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -6309,7 +6291,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public populateFromPagerAdapter()V
@@ -6483,15 +6464,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public releaseFromTabPool(Lcom/google/android/material/tabs/TabLayout$Tab;)Z
@@ -6528,7 +6500,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeAllTabs()V
@@ -6685,15 +6656,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public removeOnTabSelectedListener(Lcom/google/android/material/tabs/TabLayout$BaseOnTabSelectedListener;)V
@@ -6777,7 +6739,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeTabAt(I)V
@@ -7307,6 +7268,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public selectTab(Lcom/google/android/material/tabs/TabLayout$Tab;)V
@@ -7458,7 +7451,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInlineLabel(Z)V
@@ -7596,8 +7588,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setInlineLabelResource(I)V
@@ -7642,7 +7632,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnTabSelectedListener(Lcom/google/android/material/tabs/TabLayout$BaseOnTabSelectedListener;)V
@@ -7793,11 +7782,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setScrollAnimatorListener(Landroid/animation/Animator$AnimatorListener;)V
@@ -7834,7 +7818,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScrollPosition(IFZ)V
@@ -8171,7 +8154,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSelectedTabIndicatorGravity(I)V
@@ -8213,7 +8195,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSelectedTabIndicatorHeight(I)V
@@ -8252,7 +8233,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTabGravity(I)V
@@ -8292,7 +8272,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTabIconTint(Landroid/content/res/ColorStateList;)V
@@ -8336,7 +8315,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTabIconTintResource(I)V
@@ -8381,7 +8359,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTabIndicatorAnimationMode(I)V
@@ -8536,8 +8513,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setTabIndicatorFullWidth(Z)V
@@ -8578,7 +8553,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTabMode(I)V
@@ -8618,7 +8592,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTabRippleColor(Landroid/content/res/ColorStateList;)V
@@ -8761,8 +8734,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setTabRippleColorResource(I)V
@@ -8807,7 +8778,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTabTextColors(II)V
@@ -8883,7 +8853,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUnboundedRipple(Z)V
@@ -9022,8 +8991,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setUnboundedRippleResource(I)V
@@ -9068,7 +9035,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setupWithViewPager(Landroidx/viewpager/widget/ViewPager;)V
@@ -9140,7 +9106,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public updateTabViews(Z)V
@@ -9279,8 +9244,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public updateViewPagerScrollState(I)V
@@ -9313,5 +9276,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

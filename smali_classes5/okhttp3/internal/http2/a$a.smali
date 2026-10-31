@@ -19,9 +19,6 @@
 
 # static fields
 .field public static final a:Lokhttp3/internal/http2/a$a;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -66,36 +63,55 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
-.method public a(ILjo/a;J)V
+.method public a(ILj9/a;J)V
     .locals 0
-    .param p2    # Ljo/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string p1, "windowCounter"
 
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public b(Ljo/a;)V
+.method public b(Lj9/a;)V
     .locals 1
-    .param p1    # Ljo/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "windowCounter"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method

@@ -68,6 +68,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -98,6 +100,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLoadingText()Ljava/lang/String;
@@ -126,6 +130,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuestionMsgId()J
@@ -154,6 +160,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()J
@@ -182,6 +190,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTimeoutPrompt()Ljava/lang/String;
@@ -210,6 +220,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setDelayReplyTime(J)V
@@ -243,6 +255,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLoadingText(Ljava/lang/String;)V
@@ -276,6 +290,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setQuestionMsgId(J)V
@@ -309,6 +325,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionId(J)V
@@ -342,6 +360,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTimeoutPrompt(Ljava/lang/String;)V
@@ -375,4 +395,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

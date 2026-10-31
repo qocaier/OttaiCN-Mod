@@ -1,28 +1,11 @@
-.class public final synthetic Li/b;
+.class public interface abstract Li/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/concurrent/Executor;
-
-
-# direct methods
-.method public synthetic constructor <init>()V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
+.implements Li/f;
 
 
 # virtual methods
-.method public final execute(Ljava/lang/Runnable;)V
-    .locals 0
-
-    .line 1
-    invoke-static {p1}, Landroidx/arch/core/executor/ArchTaskExecutor;->b(Ljava/lang/Runnable;)V
-
-    return-void
+.method public abstract a(Lanetwork/channel/aidl/c;Ljava/lang/Object;)V
 .end method

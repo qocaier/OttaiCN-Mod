@@ -52,6 +52,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public constructor <init>()V
@@ -80,6 +82,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getOnlineClients(Lcom/qiyukf/nimlib/sdk/event/model/Event;)Ljava/util/List;
@@ -253,6 +257,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getOnlineStateEventValue(Lcom/qiyukf/nimlib/sdk/event/model/Event;)Lcom/qiyukf/nimlib/sdk/event/model/NimOnlineStateEvent$OnlineStateEventValue;
@@ -303,6 +309,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static isOnlineStateEvent(Lcom/qiyukf/nimlib/sdk/event/model/Event;)Z
@@ -351,4 +359,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

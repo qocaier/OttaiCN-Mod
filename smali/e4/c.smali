@@ -1,63 +1,26 @@
-.class public Le4/c;
+.class public interface abstract annotation Le4/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-
-# static fields
-.field public static final a:Ljava/lang/String; = "status"
-
-.field public static final b:Ljava/lang/String; = "msg"
-
-.field public static final c:Ljava/lang/String; = "form"
-
-.field public static final d:Ljava/lang/String; = "onload"
-
-.field public static final e:Ljava/lang/String; = "name"
-
-.field public static final f:Ljava/lang/String; = "host"
-
-.field public static final g:Ljava/lang/String; = "params"
-
-.field public static final h:Ljava/lang/String; = "enctype"
-
-.field public static final i:Ljava/lang/String; = "request_param"
-
-.field public static final j:Ljava/lang/String; = "validate"
-
-.field public static final k:Ljava/lang/String; = "formSubmit"
-
-.field public static final l:Ljava/lang/String; = "namespace"
-
-.field public static final m:Ljava/lang/String; = "apiVersion"
-
-.field public static final n:Ljava/lang/String; = "apiName"
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
 
 
-# direct methods
-.method public constructor <init>()V
-    .locals 0
+# annotations
+.annotation system Ldalvik/annotation/AnnotationDefault;
+    value = .subannotation Le4/c;
+        alternate = {}
+    .end subannotation
+.end annotation
 
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->RUNTIME:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
 
-    .line 2
-    .line 3
-    .line 4
-    return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
+
+# virtual methods
+.method public abstract alternate()[Ljava/lang/String;
+.end method
+
+.method public abstract value()Ljava/lang/String;
 .end method

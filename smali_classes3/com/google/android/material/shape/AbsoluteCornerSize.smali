@@ -43,7 +43,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -105,7 +104,6 @@
     return v2
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getCornerSize()F
@@ -170,5 +168,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

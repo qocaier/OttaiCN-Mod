@@ -189,6 +189,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private getLifecycleCameraRepositoryObserver(Landroidx/lifecycle/LifecycleOwner;)Landroidx/camera/lifecycle/LifecycleCameraRepository$LifecycleCameraRepositoryObserver;
@@ -332,6 +334,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private hasUseCaseBound(Landroidx/lifecycle/LifecycleOwner;)Z
@@ -504,6 +507,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private registerCamera(Landroidx/camera/lifecycle/LifecycleCamera;)V
@@ -668,6 +672,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private suspendUseCases(Landroidx/lifecycle/LifecycleOwner;)V
@@ -826,6 +831,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private unsuspendUseCases(Landroidx/lifecycle/LifecycleOwner;)V
@@ -988,6 +994,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -1873,6 +1880,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public createLifecycleCamera(Landroidx/lifecycle/LifecycleOwner;Landroidx/camera/core/internal/CameraUseCaseAdapter;)Landroidx/camera/lifecycle/LifecycleCamera;
@@ -2210,6 +2219,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getLifecycleCamera(Landroidx/lifecycle/LifecycleOwner;Landroidx/camera/core/internal/CameraUseCaseAdapter$CameraId;)Landroidx/camera/lifecycle/LifecycleCamera;
@@ -2354,6 +2366,7 @@
     throw v1
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setActive(Landroidx/lifecycle/LifecycleOwner;)V
@@ -2524,6 +2537,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setInactive(Landroidx/lifecycle/LifecycleOwner;)V
@@ -2655,6 +2669,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public unbind(Ljava/util/Collection;)V
@@ -2833,6 +2848,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public unbindAll()V
@@ -2984,6 +3000,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public unregisterLifecycle(Landroidx/lifecycle/LifecycleOwner;)V
@@ -3146,4 +3164,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -175,6 +175,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private constructor <init>(Ljava/lang/String;IB)V
@@ -315,11 +316,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static eventOfValue(B)Lcom/qiyukf/nimlib/sdk/friend/model/AddFriendNotify$Event;
@@ -380,6 +376,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/friend/model/AddFriendNotify$Event;
@@ -419,6 +417,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static values()[Lcom/qiyukf/nimlib/sdk/friend/model/AddFriendNotify$Event;
@@ -453,6 +453,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -483,4 +485,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

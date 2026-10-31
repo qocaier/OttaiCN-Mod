@@ -5,39 +5,22 @@
 
 # instance fields
 .field private final consumerAdapter:Landroidx/window/core/ConsumerAdapter;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final loader:Ljava/lang/ClassLoader;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final safeWindowExtensionsProvider:Landroidx/window/SafeWindowExtensionsProvider;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/ClassLoader;Landroidx/window/core/ConsumerAdapter;)V
     .locals 1
-    .param p1    # Ljava/lang/ClassLoader;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/core/ConsumerAdapter;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "loader"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -46,7 +29,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -370,6 +353,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private final getFoldingFeatureClass()Ljava/lang/Class;
@@ -403,7 +388,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -415,6 +400,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final getWindowLayoutComponentClass()Ljava/lang/Class;
@@ -448,7 +434,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -460,6 +446,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final isFoldingFeatureValid()Z
@@ -479,7 +466,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 9
     .line 10
@@ -496,6 +483,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final isMethodWindowLayoutInfoListenerJavaConsumerValid()Z
@@ -563,7 +551,7 @@
     .line 32
     .line 33
     .line 34
-    invoke-static {v0, v1}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v0, v1}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 35
     .line 36
@@ -618,6 +606,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private final isMethodWindowLayoutInfoListenerWindowConsumerValid()Z
@@ -685,7 +675,7 @@
     .line 32
     .line 33
     .line 34
-    invoke-static {v0, v1}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v0, v1}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 35
     .line 36
@@ -740,6 +730,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private final isWindowLayoutProviderValid()Z
@@ -759,7 +751,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 9
     .line 10
@@ -776,14 +768,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final getWindowLayoutComponent()Landroidx/window/extensions/layout/WindowLayoutComponent;
     .locals 2
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->canUseWindowLayoutComponent()Z
@@ -827,6 +818,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final hasValidVendorApiLevel1$window_release()Z
@@ -859,6 +851,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final hasValidVendorApiLevel2$window_release()Z
@@ -906,6 +899,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isWindowLayoutComponentAccessible$window_release()Z
@@ -1025,4 +1019,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

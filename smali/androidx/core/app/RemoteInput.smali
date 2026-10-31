@@ -971,6 +971,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static addResultsToIntent([Landroidx/core/app/RemoteInput;Landroid/content/Intent;Landroid/os/Bundle;)V
@@ -1162,6 +1165,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static fromCompat(Landroidx/core/app/RemoteInput;)Landroid/app/RemoteInput;
@@ -1396,6 +1402,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getDataResultsFromIntent(Landroid/content/Intent;Ljava/lang/String;)Ljava/util/Map;
@@ -1761,6 +1768,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static getExtraResultsKeyForData(Ljava/lang/String;)Ljava/lang/String;
@@ -1959,6 +1969,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static setResultsSource(Landroid/content/Intent;I)V
@@ -2077,6 +2088,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAllowedDataTypes()Ljava/util/Set;
@@ -2113,6 +2125,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getChoices()[Ljava/lang/CharSequence;
@@ -2141,6 +2154,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEditChoicesBeforeSending()I
@@ -2169,6 +2183,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExtras()Landroid/os/Bundle;
@@ -2197,6 +2212,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLabel()Ljava/lang/CharSequence;
@@ -2225,6 +2241,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getResultKey()Ljava/lang/String;
@@ -2253,6 +2270,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isDataOnly()Z
@@ -2387,4 +2405,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

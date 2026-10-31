@@ -294,6 +294,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static create(Ljava/lang/Class;Ljava/lang/CharSequence;)Landroidx/emoji2/text/SpannableBuilder;
@@ -505,6 +507,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private getWatcherFor(Ljava/lang/Object;)Landroidx/emoji2/text/SpannableBuilder$WatcherWrapper;
@@ -622,6 +626,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private isWatcher(Ljava/lang/Class;)Z
@@ -797,6 +802,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -1017,6 +1024,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic delete(II)Landroid/text/Editable;
@@ -1082,6 +1090,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSpanEnd(Ljava/lang/Object;)I
@@ -1429,6 +1438,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public bridge synthetic insert(ILjava/lang/CharSequence;)Landroid/text/Editable;
@@ -1628,6 +1640,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public removeSpan(Ljava/lang/Object;)V
@@ -1746,6 +1761,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public bridge synthetic replace(IILjava/lang/CharSequence;)Landroid/text/Editable;
@@ -2079,6 +2095,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public subSequence(II)Ljava/lang/CharSequence;

@@ -1,20 +1,16 @@
 .class public Lorg/dmfs/rfc5545/calendarmetrics/b;
-.super Loq/a;
+.super Lz9/a;
 .source "SourceFile"
 
 
 # static fields
 .field public static final d:Lorg/dmfs/rfc5545/calendarmetrics/a$a;
 
-.field public static final e:Ljava/lang/String; = "GREGORIAN"
+.field public static final e:[I
 
-.field public static final f:Ljava/lang/String; = "GREGORY"
+.field public static final f:[I
 
-.field public static final g:[I
-
-.field public static final h:[I
-
-.field public static final i:[Lorg/dmfs/rfc5545/Weekday;
+.field public static final g:[Lorg/dmfs/rfc5545/Weekday;
 
 
 # direct methods
@@ -33,19 +29,19 @@
 
     fill-array-data v1, :array_0
 
-    sput-object v1, Lorg/dmfs/rfc5545/calendarmetrics/b;->g:[I
+    sput-object v1, Lorg/dmfs/rfc5545/calendarmetrics/b;->e:[I
 
     new-array v0, v0, [I
 
     fill-array-data v0, :array_1
 
-    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/b;->h:[I
+    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/b;->f:[I
 
     invoke-static {}, Lorg/dmfs/rfc5545/Weekday;->values()[Lorg/dmfs/rfc5545/Weekday;
 
     move-result-object v0
 
-    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/b;->i:[Lorg/dmfs/rfc5545/Weekday;
+    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/b;->g:[Lorg/dmfs/rfc5545/Weekday;
 
     return-void
 
@@ -85,14 +81,172 @@
 .method public constructor <init>(Lorg/dmfs/rfc5545/Weekday;I)V
     .locals 0
 
-    invoke-direct {p0, p1, p2}, Loq/a;-><init>(Lorg/dmfs/rfc5545/Weekday;I)V
+    invoke-direct {p0, p1, p2}, Lz9/a;-><init>(Lorg/dmfs/rfc5545/Weekday;I)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public N(JLjava/util/TimeZone;)J
+.method public d(III)I
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lorg/dmfs/rfc5545/calendarmetrics/b;->w(II)I
+
+    move-result p1
+
+    add-int/2addr p1, p3
+
+    return p1
+.end method
+
+.method public e(II)I
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    if-ne p2, v0, :cond_0
+
+    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->x(I)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    sget-object p1, Lorg/dmfs/rfc5545/calendarmetrics/b;->e:[I
+
+    aget p1, p1, p2
+
+    add-int/2addr p1, v0
+
+    return p1
+
+    :cond_0
+    sget-object p1, Lorg/dmfs/rfc5545/calendarmetrics/b;->e:[I
+
+    aget p1, p1, p2
+
+    return p1
+.end method
+
+.method public f(I)I
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->x(I)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/16 p1, 0x16e
+
+    return p1
+
+    :cond_0
+    const/16 p1, 0x16d
+
+    return p1
+.end method
+
+.method public g(II)I
+    .locals 3
+
+    .line 1
+    :goto_0
+    const/4 v0, 0x1
+
+    if-ge p2, v0, :cond_0
+
+    add-int/lit8 p1, p1, -0x1
+
+    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->f(I)I
+
+    move-result v0
+
+    add-int/2addr p2, v0
+
+    goto :goto_0
+
+    :cond_0
+    :goto_1
+    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->f(I)I
+
+    move-result v0
+
+    if-le p2, v0, :cond_1
+
+    add-int/lit8 p1, p1, 0x1
+
+    sub-int/2addr p2, v0
+
+    goto :goto_1
+
+    :cond_1
+    shr-int/lit8 v0, p2, 0x5
+
+    add-int/lit8 v1, v0, 0x1
+
+    const/16 v2, 0xc
+
+    if-ge v1, v2, :cond_2
+
+    invoke-virtual {p0, p1, v1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->w(II)I
+
+    move-result v2
+
+    if-ge v2, p2, :cond_2
+
+    add-int/lit8 v1, v0, 0x2
+
+    :cond_2
+    add-int/lit8 v1, v1, -0x1
+
+    invoke-virtual {p0, p1, v1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->w(II)I
+
+    move-result p1
+
+    sub-int/2addr p2, p1
+
+    invoke-static {v1, p2}, Lorg/dmfs/rfc5545/calendarmetrics/a;->i(II)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public h(I)I
+    .locals 2
+
+    .line 1
+    add-int/lit8 p1, p1, -0x1
+
+    and-int/lit8 v0, p1, 0x3
+
+    mul-int/lit8 v0, v0, 0x5
+
+    add-int/lit8 v0, v0, 0x1
+
+    rem-int/lit8 v1, p1, 0x64
+
+    mul-int/lit8 v1, v1, 0x4
+
+    add-int/2addr v0, v1
+
+    rem-int/lit16 p1, p1, 0x190
+
+    mul-int/lit8 p1, p1, 0x6
+
+    add-int/2addr v0, p1
+
+    rem-int/lit8 v0, v0, 0x7
+
+    return v0
+.end method
+
+.method public r(JLjava/util/TimeZone;)J
     .locals 7
 
     .line 1
@@ -192,7 +346,7 @@
 
     add-int/lit8 v1, v0, 0x1
 
-    invoke-virtual {p0, v1, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->k(II)I
+    invoke-virtual {p0, v1, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->g(II)I
 
     move-result p1
 
@@ -200,7 +354,7 @@
 
     div-int p2, p3, p2
 
-    invoke-static {p1}, Lorg/dmfs/rfc5545/calendarmetrics/a;->C(I)I
+    invoke-static {p1}, Lorg/dmfs/rfc5545/calendarmetrics/a;->n(I)I
 
     move-result v2
 
@@ -216,14 +370,14 @@
 
     rem-int/lit8 v6, p3, 0x3c
 
-    invoke-static/range {v1 .. v6}, Lnq/c;->d(IIIIII)J
+    invoke-static/range {v1 .. v6}, Ly9/b;->c(IIIIII)J
 
     move-result-wide p1
 
     return-wide p1
 .end method
 
-.method public P(Ljava/util/TimeZone;IIIIIII)J
+.method public s(Ljava/util/TimeZone;IIIIIII)J
     .locals 14
 
     .line 1
@@ -245,7 +399,7 @@
 
     add-int v6, v0, p8
 
-    invoke-virtual {p0, v1, v3, v4}, Lorg/dmfs/rfc5545/calendarmetrics/a;->d(III)I
+    invoke-virtual {p0, v1, v3, v4}, Lorg/dmfs/rfc5545/calendarmetrics/a;->c(III)I
 
     move-result v7
 
@@ -293,7 +447,7 @@
     move/from16 v1, p2
 
     :goto_0
-    invoke-virtual {p0, v1, v9, v10}, Lorg/dmfs/rfc5545/calendarmetrics/b;->e(III)I
+    invoke-virtual {p0, v1, v9, v10}, Lorg/dmfs/rfc5545/calendarmetrics/b;->d(III)I
 
     move-result v2
 
@@ -307,7 +461,7 @@
 
     move/from16 v6, p8
 
-    invoke-virtual/range {v0 .. v6}, Lorg/dmfs/rfc5545/calendarmetrics/b;->S(IIIIII)J
+    invoke-virtual/range {v0 .. v6}, Lorg/dmfs/rfc5545/calendarmetrics/b;->v(IIIIII)J
 
     move-result-wide v2
 
@@ -331,14 +485,14 @@
 
     add-int/lit8 v1, v1, -0x1
 
-    invoke-virtual {p0, v1}, Loq/a;->l(I)I
+    invoke-virtual {p0, v1}, Lz9/a;->u(I)I
 
     move-result v4
 
     sub-int/2addr v4, v5
 
     :cond_1
-    invoke-virtual {p0, v1, v4}, Lorg/dmfs/rfc5545/calendarmetrics/b;->f(II)I
+    invoke-virtual {p0, v1, v4}, Lorg/dmfs/rfc5545/calendarmetrics/b;->e(II)I
 
     move-result v9
 
@@ -361,7 +515,7 @@
 
     add-int/lit8 v4, v10, 0x1
 
-    invoke-virtual {p0, v1, v9}, Lorg/dmfs/rfc5545/calendarmetrics/b;->f(II)I
+    invoke-virtual {p0, v1, v9}, Lorg/dmfs/rfc5545/calendarmetrics/b;->e(II)I
 
     move-result v10
 
@@ -369,7 +523,7 @@
 
     add-int/lit8 v4, v9, 0x1
 
-    invoke-virtual {p0, v1}, Loq/a;->l(I)I
+    invoke-virtual {p0, v1}, Lz9/a;->u(I)I
 
     move-result v9
 
@@ -430,7 +584,7 @@
     return-wide v2
 .end method
 
-.method public R()I
+.method public t()I
     .locals 1
 
     .line 1
@@ -439,7 +593,7 @@
     return v0
 .end method
 
-.method public S(IIIIII)J
+.method public v(IIIIII)J
     .locals 4
 
     .line 1
@@ -457,7 +611,7 @@
 
     sub-long/2addr v0, v2
 
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->U(I)I
+    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->y(I)I
 
     move-result p1
 
@@ -498,7 +652,37 @@
     return-wide v0
 .end method
 
-.method public T(I)Z
+.method public w(II)I
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    if-le p2, v0, :cond_0
+
+    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->x(I)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    sget-object p1, Lorg/dmfs/rfc5545/calendarmetrics/b;->f:[I
+
+    aget p1, p1, p2
+
+    add-int/2addr p1, v0
+
+    return p1
+
+    :cond_0
+    sget-object p1, Lorg/dmfs/rfc5545/calendarmetrics/b;->f:[I
+
+    aget p1, p1, p2
+
+    return p1
+.end method
+
+.method public x(I)Z
     .locals 1
 
     .line 1
@@ -526,7 +710,7 @@
     return p1
 .end method
 
-.method public U(I)I
+.method public y(I)I
     .locals 2
 
     .line 1
@@ -549,442 +733,4 @@
     add-int/2addr v0, v1
 
     return v0
-.end method
-
-.method public b(II)I
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0, p1, p2}, Lorg/dmfs/rfc5545/calendarmetrics/b;->m(II)I
-
-    move-result v0
-
-    invoke-virtual {p0, p1, v0}, Lorg/dmfs/rfc5545/calendarmetrics/b;->u(II)I
-
-    move-result p1
-
-    sub-int/2addr p2, p1
-
-    return p2
-.end method
-
-.method public e(III)I
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0, p1, p2}, Lorg/dmfs/rfc5545/calendarmetrics/b;->u(II)I
-
-    move-result p1
-
-    add-int/2addr p1, p3
-
-    return p1
-.end method
-
-.method public f(II)I
-    .locals 1
-
-    .line 1
-    const/4 v0, 0x1
-
-    if-ne p2, v0, :cond_0
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->T(I)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    sget-object p1, Lorg/dmfs/rfc5545/calendarmetrics/b;->g:[I
-
-    aget p1, p1, p2
-
-    add-int/2addr p1, v0
-
-    return p1
-
-    :cond_0
-    sget-object p1, Lorg/dmfs/rfc5545/calendarmetrics/b;->g:[I
-
-    aget p1, p1, p2
-
-    return p1
-.end method
-
-.method public g(I)I
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->T(I)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    const/16 p1, 0x16e
-
-    return p1
-
-    :cond_0
-    const/16 p1, 0x16d
-
-    return p1
-.end method
-
-.method public h()I
-    .locals 1
-
-    .line 1
-    const/16 v0, 0x1f
-
-    return v0
-.end method
-
-.method public i()I
-    .locals 1
-
-    .line 1
-    const/16 v0, 0x35
-
-    return v0
-.end method
-
-.method public j()I
-    .locals 1
-
-    .line 1
-    const/16 v0, 0x16e
-
-    return v0
-.end method
-
-.method public k(II)I
-    .locals 3
-
-    .line 1
-    :goto_0
-    const/4 v0, 0x1
-
-    if-ge p2, v0, :cond_0
-
-    add-int/lit8 p1, p1, -0x1
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->g(I)I
-
-    move-result v0
-
-    add-int/2addr p2, v0
-
-    goto :goto_0
-
-    :cond_0
-    :goto_1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->g(I)I
-
-    move-result v0
-
-    if-le p2, v0, :cond_1
-
-    add-int/lit8 p1, p1, 0x1
-
-    sub-int/2addr p2, v0
-
-    goto :goto_1
-
-    :cond_1
-    shr-int/lit8 v0, p2, 0x5
-
-    add-int/lit8 v1, v0, 0x1
-
-    const/16 v2, 0xc
-
-    if-ge v1, v2, :cond_2
-
-    invoke-virtual {p0, p1, v1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->u(II)I
-
-    move-result v2
-
-    if-ge v2, p2, :cond_2
-
-    add-int/lit8 v1, v0, 0x2
-
-    :cond_2
-    add-int/lit8 v1, v1, -0x1
-
-    invoke-virtual {p0, p1, v1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->u(II)I
-
-    move-result p1
-
-    sub-int/2addr p2, p1
-
-    invoke-static {v1, p2}, Lorg/dmfs/rfc5545/calendarmetrics/a;->w(II)I
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public m(II)I
-    .locals 4
-
-    .line 1
-    :goto_0
-    const/4 v0, 0x1
-
-    if-ge p2, v0, :cond_0
-
-    add-int/lit8 p1, p1, -0x1
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->g(I)I
-
-    move-result v0
-
-    add-int/2addr p2, v0
-
-    goto :goto_0
-
-    :cond_0
-    :goto_1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->g(I)I
-
-    move-result v1
-
-    if-le p2, v1, :cond_1
-
-    add-int/lit8 p1, p1, 0x1
-
-    sub-int/2addr p2, v1
-
-    goto :goto_1
-
-    :cond_1
-    shr-int/lit8 v1, p2, 0x5
-
-    add-int/lit8 v2, v1, 0x1
-
-    const/16 v3, 0xc
-
-    if-ge v2, v3, :cond_2
-
-    invoke-virtual {p0, p1, v2}, Lorg/dmfs/rfc5545/calendarmetrics/b;->u(II)I
-
-    move-result p1
-
-    if-ge p1, p2, :cond_2
-
-    add-int/lit8 v2, v1, 0x2
-
-    :cond_2
-    sub-int/2addr v2, v0
-
-    return v2
-.end method
-
-.method public n(I)I
-    .locals 2
-
-    .line 1
-    add-int/lit8 p1, p1, -0x1
-
-    and-int/lit8 v0, p1, 0x3
-
-    mul-int/lit8 v0, v0, 0x5
-
-    add-int/lit8 v0, v0, 0x1
-
-    rem-int/lit8 v1, p1, 0x64
-
-    mul-int/lit8 v1, v1, 0x4
-
-    add-int/2addr v0, v1
-
-    rem-int/lit16 p1, p1, 0x190
-
-    mul-int/lit8 p1, p1, 0x6
-
-    add-int/2addr v0, p1
-
-    rem-int/lit8 v0, v0, 0x7
-
-    return v0
-.end method
-
-.method public o(II)I
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->r(I)I
-
-    move-result v0
-
-    if-ge p2, v0, :cond_0
-
-    add-int/lit8 p1, p1, -0x1
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->q(I)I
-
-    move-result p1
-
-    return p1
-
-    :cond_0
-    sub-int/2addr p2, v0
-
-    div-int/lit8 p2, p2, 0x7
-
-    add-int/lit8 p2, p2, 0x1
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->q(I)I
-
-    move-result p1
-
-    if-le p2, p1, :cond_1
-
-    sub-int/2addr p2, p1
-
-    :cond_1
-    return p2
-.end method
-
-.method public q(I)I
-    .locals 2
-
-    .line 1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->r(I)I
-
-    move-result v0
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->g(I)I
-
-    move-result p1
-
-    sub-int/2addr p1, v0
-
-    add-int/lit8 p1, p1, 0x1
-
-    div-int/lit8 v0, p1, 0x7
-
-    rem-int/lit8 p1, p1, 0x7
-
-    rsub-int/lit8 p1, p1, 0x7
-
-    iget v1, p0, Lorg/dmfs/rfc5545/calendarmetrics/a;->c:I
-
-    if-lt p1, v1, :cond_0
-
-    return v0
-
-    :cond_0
-    add-int/lit8 v0, v0, 0x1
-
-    return v0
-.end method
-
-.method public r(I)I
-    .locals 2
-
-    .line 1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->n(I)I
-
-    move-result p1
-
-    iget v0, p0, Lorg/dmfs/rfc5545/calendarmetrics/a;->b:I
-
-    sub-int/2addr v0, p1
-
-    add-int/lit8 p1, v0, 0x1
-
-    iget v1, p0, Lorg/dmfs/rfc5545/calendarmetrics/a;->c:I
-
-    if-le p1, v1, :cond_0
-
-    add-int/lit8 v0, v0, -0x6
-
-    return v0
-
-    :cond_0
-    add-int/lit8 v1, v1, -0x6
-
-    if-ge p1, v1, :cond_1
-
-    add-int/lit8 v0, v0, 0x8
-
-    return v0
-
-    :cond_1
-    return p1
-.end method
-
-.method public s(III)I
-    .locals 1
-
-    .line 1
-    mul-int/lit8 p2, p2, 0x7
-
-    add-int/lit8 p2, p2, -0x7
-
-    iget v0, p0, Lorg/dmfs/rfc5545/calendarmetrics/a;->b:I
-
-    sub-int/2addr p3, v0
-
-    add-int/lit8 p3, p3, 0x7
-
-    rem-int/lit8 p3, p3, 0x7
-
-    add-int/2addr p2, p3
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->r(I)I
-
-    move-result p1
-
-    add-int/2addr p2, p1
-
-    return p2
-.end method
-
-.method public t(II)I
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->r(I)I
-
-    move-result p1
-
-    add-int/lit8 p2, p2, -0x1
-
-    mul-int/lit8 p2, p2, 0x7
-
-    add-int/2addr p1, p2
-
-    return p1
-.end method
-
-.method public u(II)I
-    .locals 1
-
-    .line 1
-    const/4 v0, 0x1
-
-    if-le p2, v0, :cond_0
-
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->T(I)Z
-
-    move-result p1
-
-    if-eqz p1, :cond_0
-
-    sget-object p1, Lorg/dmfs/rfc5545/calendarmetrics/b;->h:[I
-
-    aget p1, p1, p2
-
-    add-int/2addr p1, v0
-
-    return p1
-
-    :cond_0
-    sget-object p1, Lorg/dmfs/rfc5545/calendarmetrics/b;->h:[I
-
-    aget p1, p1, p2
-
-    return p1
 .end method

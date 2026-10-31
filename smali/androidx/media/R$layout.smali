@@ -15,23 +15,23 @@
 
 
 # static fields
-.field public static notification_media_action:I = 0x7f0b007a
+.field public static notification_media_action:I = 0x7f0b007b
 
-.field public static notification_media_cancel_action:I = 0x7f0b007b
+.field public static notification_media_cancel_action:I = 0x7f0b007c
 
-.field public static notification_template_big_media:I = 0x7f0b007c
+.field public static notification_template_big_media:I = 0x7f0b007d
 
-.field public static notification_template_big_media_custom:I = 0x7f0b007d
+.field public static notification_template_big_media_custom:I = 0x7f0b007e
 
-.field public static notification_template_big_media_narrow:I = 0x7f0b007e
+.field public static notification_template_big_media_narrow:I = 0x7f0b007f
 
-.field public static notification_template_big_media_narrow_custom:I = 0x7f0b007f
+.field public static notification_template_big_media_narrow_custom:I = 0x7f0b0080
 
-.field public static notification_template_lines_media:I = 0x7f0b0082
+.field public static notification_template_lines_media:I = 0x7f0b0083
 
-.field public static notification_template_media:I = 0x7f0b0083
+.field public static notification_template_media:I = 0x7f0b0084
 
-.field public static notification_template_media_custom:I = 0x7f0b0084
+.field public static notification_template_media_custom:I = 0x7f0b0085
 
 
 # direct methods

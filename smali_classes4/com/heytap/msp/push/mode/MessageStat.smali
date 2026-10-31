@@ -297,7 +297,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lbe/g;->s(Ljava/lang/String;)V
+    invoke-static {p0}, Lk5/f;->d(Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -605,7 +605,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lbe/g;->s(Ljava/lang/String;)V
+    invoke-static {v1}, Lk5/f;->d(Ljava/lang/String;)V
 
     :cond_4
     :goto_2

@@ -1,6 +1,0 @@
-.class public interface abstract Llm/c;
-.super Ljava/lang/Object;
-.source "SourceFile"
-
-# interfaces
-.implements Llm/a;

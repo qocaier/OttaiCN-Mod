@@ -344,11 +344,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static reverse(Lcom/google/android/material/carousel/KeylineState;)Lcom/google/android/material/carousel/KeylineState;
@@ -542,8 +537,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -584,7 +577,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFirstFocalKeylineIndex()I
@@ -615,7 +607,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFirstKeyline()Lcom/google/android/material/carousel/KeylineState$Keyline;
@@ -654,7 +645,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemSize()F
@@ -685,7 +675,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getKeylines()Ljava/util/List;
@@ -724,7 +713,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLastFocalKeyline()Lcom/google/android/material/carousel/KeylineState$Keyline;
@@ -763,7 +751,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLastFocalKeylineIndex()I
@@ -794,7 +781,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLastKeyline()Lcom/google/android/material/carousel/KeylineState$Keyline;
@@ -837,5 +823,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

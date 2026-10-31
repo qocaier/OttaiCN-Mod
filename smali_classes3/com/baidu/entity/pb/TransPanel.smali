@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/entity/pb/TransPanel;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
 
 .field private cachedSize:I
 
-.field private content_:Ljc/a;
+.field private content_:Ll4/a;
 
 .field private displayDuration_:I
 
@@ -60,20 +60,20 @@
 
 .field private sceneId_:I
 
-.field private subContent_:Ljc/a;
+.field private subContent_:Ll4/a;
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/TransPanel;->content_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/TransPanel;->content_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/TransPanel;->subContent_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/TransPanel;->subContent_:Ll4/a;
 
     const/4 v0, 0x0
 
@@ -98,7 +98,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/entity/pb/TransPanel;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/entity/pb/TransPanel;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -111,7 +111,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TransPanel;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/TransPanel;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/TransPanel;
+    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/TransPanel;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/TransPanel;
 
     move-result-object p0
 
@@ -131,7 +131,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/TransPanel;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -189,9 +189,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/TransPanel;->hasContent:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/TransPanel;->content_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/TransPanel;->content_:Ll4/a;
 
     return-object p0
 .end method
@@ -275,9 +275,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/TransPanel;->hasSubContent:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/TransPanel;->subContent_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/TransPanel;->subContent_:Ll4/a;
 
     return-object p0
 .end method
@@ -305,11 +305,11 @@
     return v0
 .end method
 
-.method public getContent()Ljc/a;
+.method public getContent()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/TransPanel;->content_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/TransPanel;->content_:Ll4/a;
 
     .line 2
     .line 3
@@ -333,7 +333,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDisplayDuration()I
@@ -395,11 +394,11 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->getContent()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->getContent()Ll4/a;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v0
 
@@ -417,11 +416,11 @@
 
     const/4 v1, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->getSubContent()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->getSubContent()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -440,7 +439,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -459,7 +458,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -478,7 +477,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -497,7 +496,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -516,7 +515,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -535,7 +534,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -554,7 +553,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -566,11 +565,11 @@
     return v0
 .end method
 
-.method public getSubContent()Ljc/a;
+.method public getSubContent()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/TransPanel;->subContent_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/TransPanel;->subContent_:Ll4/a;
 
     .line 2
     .line 3
@@ -594,7 +593,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hasBaseMapType()Z
@@ -677,7 +675,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/TransPanel;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/TransPanel;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -688,7 +686,7 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
@@ -730,7 +728,7 @@
 
     if-eq v0, v1, :cond_1
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -739,7 +737,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -748,7 +746,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -757,7 +755,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -766,7 +764,7 @@
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -775,7 +773,7 @@
     goto :goto_0
 
     :cond_5
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -784,7 +782,7 @@
     goto :goto_0
 
     :cond_6
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -793,7 +791,7 @@
     goto :goto_0
 
     :cond_7
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -802,20 +800,20 @@
     goto :goto_0
 
     :cond_8
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TransPanel;->setSubContent(Ljc/a;)Lcom/baidu/entity/pb/TransPanel;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TransPanel;->setSubContent(Ll4/a;)Lcom/baidu/entity/pb/TransPanel;
 
     goto :goto_0
 
     :cond_9
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TransPanel;->setContent(Ljc/a;)Lcom/baidu/entity/pb/TransPanel;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/TransPanel;->setContent(Ll4/a;)Lcom/baidu/entity/pb/TransPanel;
 
     goto :goto_0
 
@@ -824,7 +822,7 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -833,7 +831,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/TransPanel;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/TransPanel;
+    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/TransPanel;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/TransPanel;
 
     move-result-object p1
 
@@ -852,7 +850,7 @@
     return-object p0
 .end method
 
-.method public setContent(Ljc/a;)Lcom/baidu/entity/pb/TransPanel;
+.method public setContent(Ll4/a;)Lcom/baidu/entity/pb/TransPanel;
     .locals 1
 
     .line 1
@@ -863,7 +861,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/TransPanel;->content_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/TransPanel;->content_:Ll4/a;
 
     .line 5
     .line 6
@@ -886,7 +884,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDisplayDuration(I)Lcom/baidu/entity/pb/TransPanel;
@@ -961,7 +958,7 @@
     return-object p0
 .end method
 
-.method public setSubContent(Ljc/a;)Lcom/baidu/entity/pb/TransPanel;
+.method public setSubContent(Ll4/a;)Lcom/baidu/entity/pb/TransPanel;
     .locals 1
 
     .line 1
@@ -972,7 +969,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/TransPanel;->subContent_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/TransPanel;->subContent_:Ll4/a;
 
     .line 5
     .line 6
@@ -995,7 +992,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeTo(Lcom/google/protobuf/micro/CodedOutputStreamMicro;)V
@@ -1014,11 +1010,11 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->getContent()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->getContent()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->hasSubContent()Z
@@ -1029,11 +1025,11 @@
 
     const/4 v0, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->getSubContent()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->getSubContent()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->hasDisplayDuration()Z
@@ -1048,7 +1044,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->hasPattern()Z
@@ -1063,7 +1059,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->hasIconId()Z
@@ -1078,7 +1074,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_4
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->hasIsDefaultChoose()Z
@@ -1093,7 +1089,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_5
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->hasSceneId()Z
@@ -1108,7 +1104,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_6
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->hasBaseMapType()Z
@@ -1123,7 +1119,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_7
     invoke-virtual {p0}, Lcom/baidu/entity/pb/TransPanel;->hasDisplayTimeType()Z
@@ -1138,7 +1134,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_8
     return-void

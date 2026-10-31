@@ -6,10 +6,6 @@
 # direct methods
 .method public static final component1(Landroid/location/Location;)D
     .locals 2
-    .param p0    # Landroid/location/Location;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/location/Location;->getLatitude()D
@@ -45,10 +41,6 @@
 
 .method public static final component2(Landroid/location/Location;)D
     .locals 2
-    .param p0    # Landroid/location/Location;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/location/Location;->getLongitude()D

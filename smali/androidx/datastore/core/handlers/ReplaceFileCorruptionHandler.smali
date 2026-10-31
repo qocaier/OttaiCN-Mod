@@ -20,34 +20,23 @@
 
 
 # instance fields
-.field private final produceNewData:Ljm/l;
+.field private final produceNewData:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroidx/datastore/core/CorruptionException;",
-            "TT;>;"
+            "Lq8/l;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljm/l;)V
+.method public constructor <init>(Lq8/l;)V
     .locals 1
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Landroidx/datastore/core/CorruptionException;",
-            "+TT;>;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -56,7 +45,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -66,7 +55,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;->produceNewData:Ljm/l;
+    iput-object p1, p0, Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;->produceNewData:Lq8/l;
 
     .line 10
     .line 11
@@ -89,22 +78,14 @@
 
 
 # virtual methods
-.method public handleCorruption(Landroidx/datastore/core/CorruptionException;Lul/c;)Ljava/lang/Object;
+.method public handleCorruption(Landroidx/datastore/core/CorruptionException;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
-    .param p1    # Landroidx/datastore/core/CorruptionException;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/datastore/core/CorruptionException;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
@@ -115,15 +96,12 @@
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
-    iget-object p2, p0, Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;->produceNewData:Ljm/l;
+    iget-object p2, p0, Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;->produceNewData:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {p2, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5

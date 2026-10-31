@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Landroidx/lifecycle/SavedStateHandlesVM;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -47,8 +45,6 @@
 # virtual methods
 .method public final invoke()Landroidx/lifecycle/SavedStateHandlesVM;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     iget-object v0, p0, Landroidx/lifecycle/SavedStateHandlesProvider$viewModel$2;->$viewModelStoreOwner:Landroidx/lifecycle/ViewModelStoreOwner;

@@ -38,6 +38,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static byteArrayContains([[B[B)Z
@@ -269,7 +270,7 @@
     move-result-object p0
 
     .line 13
-    invoke-static {p0}, Lr0/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
+    invoke-static {p0}, Landroidx/core/content/pm/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
 
     .line 14
     .line 15
@@ -534,6 +535,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static hasSignatures(Landroid/content/pm/PackageManager;Ljava/lang/String;Ljava/util/Map;Z)Z

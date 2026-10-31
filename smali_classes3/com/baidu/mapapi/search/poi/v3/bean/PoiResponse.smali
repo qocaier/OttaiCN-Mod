@@ -84,7 +84,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -117,7 +116,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getQueryType()Ljava/lang/String;
@@ -148,7 +146,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getResultType()Ljava/lang/String;
@@ -179,7 +176,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getResults()Ljava/util/List;
@@ -218,7 +214,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStatus()I
@@ -249,7 +244,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTotal()I
@@ -280,7 +274,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setMessage(Ljava/lang/String;)V
@@ -313,7 +306,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setQueryType(Ljava/lang/String;)V
@@ -346,7 +338,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setResultType(Ljava/lang/String;)V
@@ -379,7 +370,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setResults(Ljava/util/List;)V
@@ -420,7 +410,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStatus(I)V
@@ -453,7 +442,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTotal(I)V
@@ -486,5 +474,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

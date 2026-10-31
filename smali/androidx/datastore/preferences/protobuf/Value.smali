@@ -92,6 +92,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -124,6 +125,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$000()Landroidx/datastore/preferences/protobuf/Value;
@@ -152,6 +154,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$100(Landroidx/datastore/preferences/protobuf/Value;)V
@@ -984,6 +987,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearKind()V
@@ -1018,6 +1022,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearListValue()V
@@ -1059,6 +1064,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearNullValue()V
@@ -1100,6 +1106,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearNumberValue()V
@@ -1141,6 +1148,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearStringValue()V
@@ -1182,6 +1190,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearStructValue()V
@@ -1223,6 +1232,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getDefaultInstance()Landroidx/datastore/preferences/protobuf/Value;
@@ -1251,18 +1261,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private mergeListValue(Landroidx/datastore/preferences/protobuf/ListValue;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -1387,18 +1390,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private mergeStructValue(Landroidx/datastore/preferences/protobuf/Struct;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -1523,6 +1519,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static newBuilder()Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -1542,14 +1539,6 @@
 
 .method public static newBuilder(Landroidx/datastore/preferences/protobuf/Value;)Landroidx/datastore/preferences/protobuf/Value$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "prototype"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/Value;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Value;
@@ -1565,15 +1554,6 @@
 
 .method public static parseDelimitedFrom(Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/Value;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1594,17 +1574,6 @@
 
 .method public static parseDelimitedFrom(Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/Value;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "input",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1625,15 +1594,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Value;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "data"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -1654,17 +1614,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/Value;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "data",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -1685,15 +1634,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/Value;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1714,17 +1654,6 @@
 
 .method public static parseFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/Value;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "input",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1745,15 +1674,6 @@
 
 .method public static parseFrom(Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/Value;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1774,17 +1694,6 @@
 
 .method public static parseFrom(Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/Value;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "input",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -1805,15 +1714,6 @@
 
 .method public static parseFrom(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/Value;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "data"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -1834,17 +1734,6 @@
 
 .method public static parseFrom(Ljava/nio/ByteBuffer;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/Value;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "data",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -1865,15 +1754,6 @@
 
 .method public static parseFrom([B)Landroidx/datastore/preferences/protobuf/Value;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "data"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -1894,17 +1774,6 @@
 
 .method public static parseFrom([BLandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/Value;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "data",
-            "extensionRegistry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -1961,18 +1830,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private setBoolValue(Z)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x4
@@ -2014,14 +1876,6 @@
 
 .method private setListValue(Landroidx/datastore/preferences/protobuf/ListValue;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -2061,14 +1915,6 @@
 
 .method private setNullValue(Landroidx/datastore/preferences/protobuf/NullValue;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/NullValue;->getNumber()I
@@ -2114,14 +1960,6 @@
 
 .method private setNullValueValue(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -2163,14 +2001,6 @@
 
 .method private setNumberValue(D)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x2
@@ -2212,14 +2042,6 @@
 
 .method private setStringValue(Ljava/lang/String;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -2259,14 +2081,6 @@
 
 .method private setStringValueBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->checkByteStringIsUtf8(Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -2310,14 +2124,6 @@
 
 .method private setStructValue(Landroidx/datastore/preferences/protobuf/Struct;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -2359,18 +2165,6 @@
 # virtual methods
 .method public final dynamicMethod(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$MethodToInvoke;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "method",
-            "arg0",
-            "arg1"
-        }
-    .end annotation
 
     .line 1
     sget-object p2, Landroidx/datastore/preferences/protobuf/Value$1;->$SwitchMap$com$google$protobuf$GeneratedMessageLite$MethodToInvoke:[I
@@ -2614,6 +2408,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getBoolValue()Z
@@ -2659,6 +2456,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getKindCase()Landroidx/datastore/preferences/protobuf/Value$KindCase;
@@ -2691,6 +2489,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getListValue()Landroidx/datastore/preferences/protobuf/ListValue;
@@ -2734,6 +2533,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNullValue()Landroidx/datastore/preferences/protobuf/NullValue;
@@ -2852,6 +2652,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getNullValueValue()I
@@ -2897,6 +2699,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNumberValue()D
@@ -2942,6 +2745,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStringValue()Ljava/lang/String;
@@ -2983,6 +2787,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStringValueBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -3029,6 +2834,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStructValue()Landroidx/datastore/preferences/protobuf/Struct;
@@ -3072,6 +2878,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasBoolValue()Z
@@ -3111,6 +2918,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasListValue()Z
@@ -3150,6 +2958,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasNullValue()Z
@@ -3187,6 +2996,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasNumberValue()Z
@@ -3226,6 +3036,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasStringValue()Z
@@ -3265,6 +3076,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasStructValue()Z
@@ -3304,4 +3116,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

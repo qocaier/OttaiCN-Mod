@@ -90,6 +90,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -151,6 +153,8 @@
     .line 24
     return p1
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getAesExtraDataRecord()Lcom/qiyukf/module/zip4j/model/AESExtraDataRecord;
@@ -179,6 +183,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCompressedSize()J
@@ -207,6 +213,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCompressionMethod()Lcom/qiyukf/module/zip4j/model/enums/CompressionMethod;
@@ -235,6 +243,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCrc()J
@@ -263,6 +273,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCrcRawData()[B
@@ -291,6 +303,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEncryptionMethod()Lcom/qiyukf/module/zip4j/model/enums/EncryptionMethod;
@@ -319,6 +333,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExtraDataRecords()Ljava/util/List;
@@ -355,6 +371,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExtraFieldLength()I
@@ -383,6 +401,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFileName()Ljava/lang/String;
@@ -411,6 +431,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFileNameLength()I
@@ -439,6 +461,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGeneralPurposeFlag()[B
@@ -467,6 +491,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLastModifiedTime()J
@@ -495,6 +521,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLastModifiedTimeEpoch()J
@@ -527,6 +555,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUncompressedSize()J
@@ -555,6 +585,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVersionNeededToExtract()I
@@ -583,6 +615,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getZip64ExtendedInfo()Lcom/qiyukf/module/zip4j/model/Zip64ExtendedInfo;
@@ -611,6 +645,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isDataDescriptorExists()Z
@@ -639,6 +675,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isDirectory()Z
@@ -667,6 +705,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isEncrypted()Z
@@ -695,6 +735,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isFileNameUTF8Encoded()Z
@@ -723,6 +765,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAesExtraDataRecord(Lcom/qiyukf/module/zip4j/model/AESExtraDataRecord;)V
@@ -756,6 +800,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCompressedSize(J)V
@@ -789,6 +835,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCompressionMethod(Lcom/qiyukf/module/zip4j/model/enums/CompressionMethod;)V
@@ -822,6 +870,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCrc(J)V
@@ -855,6 +905,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCrcRawData([B)V
@@ -888,6 +940,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setDataDescriptorExists(Z)V
@@ -921,6 +975,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setDirectory(Z)V
@@ -954,6 +1010,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEncrypted(Z)V
@@ -987,6 +1045,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEncryptionMethod(Lcom/qiyukf/module/zip4j/model/enums/EncryptionMethod;)V
@@ -1020,6 +1080,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setExtraDataRecords(Ljava/util/List;)V
@@ -1061,6 +1123,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setExtraFieldLength(I)V
@@ -1094,6 +1158,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFileName(Ljava/lang/String;)V
@@ -1127,6 +1193,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFileNameLength(I)V
@@ -1160,6 +1228,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFileNameUTF8Encoded(Z)V
@@ -1193,6 +1263,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setGeneralPurposeFlag([B)V
@@ -1226,6 +1298,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLastModifiedTime(J)V
@@ -1259,6 +1333,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUncompressedSize(J)V
@@ -1292,6 +1368,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVersionNeededToExtract(I)V
@@ -1325,6 +1403,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setZip64ExtendedInfo(Lcom/qiyukf/module/zip4j/model/Zip64ExtendedInfo;)V
@@ -1358,4 +1438,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

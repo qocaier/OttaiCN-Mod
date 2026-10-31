@@ -42,7 +42,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getAppVersion()Ljava/lang/String;
@@ -183,15 +182,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static getAvailableMemory()J
@@ -322,15 +312,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static getCachePath()Ljava/lang/String;
@@ -367,7 +348,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getCellId()Ljava/lang/String;
@@ -408,7 +388,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getCurrentNetworkType()I
@@ -457,7 +436,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getFreeSpace()J
@@ -594,15 +572,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static getImei()Ljava/lang/String;
@@ -653,7 +622,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getLac()Ljava/lang/String;
@@ -702,7 +670,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getNetworkInfo(I)Lcom/baidu/vi/VNetworkInfo;
@@ -852,8 +819,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static getOsVersion()Ljava/lang/String;
@@ -1015,15 +980,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static getScreenDensity()F
@@ -1168,15 +1124,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static getScreenDensityDpi()I
@@ -1327,15 +1274,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static getSdcardFreeSpace()J
@@ -1472,15 +1410,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static getSdcardPath()Ljava/lang/String;
@@ -1517,7 +1446,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getSdcardTotalSpace()J
@@ -1654,15 +1582,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static getSystemMetricsX()F
@@ -1809,15 +1728,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static getSystemMetricsY()F
@@ -1964,15 +1874,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static getTelecomInfo()I
@@ -2136,15 +2037,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static getTotalSpace()J
@@ -2281,15 +2173,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static getWifiHotpot()[Landroid/net/wifi/ScanResult;
@@ -2435,15 +2318,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static makeCall(Ljava/lang/String;)V
@@ -2499,7 +2373,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static sendMMS(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
@@ -2642,15 +2515,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static setScreenAlwaysOn(Z)V
@@ -2702,5 +2566,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

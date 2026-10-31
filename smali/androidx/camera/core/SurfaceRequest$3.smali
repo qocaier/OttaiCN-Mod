@@ -33,11 +33,11 @@
 
 .field final synthetic val$surfaceRequestString:Ljava/lang/String;
 
-.field final synthetic val$terminationFuture:Lub/u0;
+.field final synthetic val$terminationFuture:Lcom/google/common/util/concurrent/t;
 
 
 # direct methods
-.method public constructor <init>(Landroidx/camera/core/SurfaceRequest;Lub/u0;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/lang/String;)V
+.method public constructor <init>(Landroidx/camera/core/SurfaceRequest;Lcom/google/common/util/concurrent/t;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/lang/String;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -50,7 +50,7 @@
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/camera/core/SurfaceRequest$3;->val$terminationFuture:Lub/u0;
+    iput-object p2, p0, Landroidx/camera/core/SurfaceRequest$3;->val$terminationFuture:Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -286,6 +286,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -417,6 +423,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onSuccess(Landroid/view/Surface;)V
@@ -427,11 +434,11 @@
     .end param
 
     .line 2
-    iget-object p1, p0, Landroidx/camera/core/SurfaceRequest$3;->val$terminationFuture:Lub/u0;
+    iget-object p1, p0, Landroidx/camera/core/SurfaceRequest$3;->val$terminationFuture:Lcom/google/common/util/concurrent/t;
 
     iget-object v0, p0, Landroidx/camera/core/SurfaceRequest$3;->val$sessionStatusCompleter:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
-    invoke-static {p1, v0}, Landroidx/camera/core/impl/utils/futures/Futures;->propagate(Lub/u0;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+    invoke-static {p1, v0}, Landroidx/camera/core/impl/utils/futures/Futures;->propagate(Lcom/google/common/util/concurrent/t;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
 
     return-void
 .end method

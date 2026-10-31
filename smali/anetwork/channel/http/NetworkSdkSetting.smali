@@ -7,24 +7,13 @@
 
 
 # static fields
-.field public static CURRENT_ENV:Lanet/channel/entity/ENV; = null
+.field public static CURRENT_ENV:Lanet/channel/entity/ENV;
 
-.field public static final a:Ljava/lang/String; = "anet.NetworkSdkSetting"
+.field public static a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-.field public static b:Ljava/util/concurrent/atomic/AtomicBoolean;
+.field public static b:Landroid/content/Context;
 
-.field public static c:Landroid/content/Context;
-
-.field public static d:Ljava/util/HashMap;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/HashMap<",
-            "Ljava/lang/String;",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field public static c:Ljava/util/HashMap;
 
 
 # direct methods
@@ -52,14 +41,14 @@
     .line 9
     .line 10
     .line 11
-    sput-object v0, Lanetwork/channel/http/NetworkSdkSetting;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
+    sput-object v0, Lanetwork/channel/http/NetworkSdkSetting;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 12
     .line 13
     const/4 v0, 0x0
 
     .line 14
-    sput-object v0, Lanetwork/channel/http/NetworkSdkSetting;->d:Ljava/util/HashMap;
+    sput-object v0, Lanetwork/channel/http/NetworkSdkSetting;->c:Ljava/util/HashMap;
 
     .line 15
     .line 16
@@ -68,34 +57,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    .line 3
-    .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
 .end method
 
 .method public static a()V
@@ -134,11 +104,11 @@
     move-result-object v4
 
     .line 16
-    sget-object v5, Lanetwork/channel/http/NetworkSdkSetting;->c:Landroid/content/Context;
+    sget-object v5, Lanetwork/channel/http/NetworkSdkSetting;->b:Landroid/content/Context;
 
     .line 17
     .line 18
-    sget-object v6, Lanetwork/channel/http/NetworkSdkSetting;->d:Ljava/util/HashMap;
+    sget-object v6, Lanetwork/channel/http/NetworkSdkSetting;->c:Ljava/util/HashMap;
 
     .line 19
     .line 20
@@ -236,13 +206,15 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getContext()Landroid/content/Context;
     .locals 1
 
     .line 1
-    sget-object v0, Lanetwork/channel/http/NetworkSdkSetting;->c:Landroid/content/Context;
+    sget-object v0, Lanetwork/channel/http/NetworkSdkSetting;->b:Landroid/content/Context;
 
     .line 2
     .line 3
@@ -264,6 +236,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static init(Landroid/app/Application;Ljava/util/HashMap;)V
@@ -339,7 +312,7 @@
 
     invoke-direct {v1, p1}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
 
-    sput-object v1, Lanetwork/channel/http/NetworkSdkSetting;->d:Ljava/util/HashMap;
+    sput-object v1, Lanetwork/channel/http/NetworkSdkSetting;->c:Ljava/util/HashMap;
 
     .line 22
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
@@ -349,7 +322,7 @@
     invoke-static {p0}, Lanetwork/channel/http/NetworkSdkSetting;->init(Landroid/content/Context;)V
 
     .line 23
-    sput-object v0, Lanetwork/channel/http/NetworkSdkSetting;->d:Ljava/util/HashMap;
+    sput-object v0, Lanetwork/channel/http/NetworkSdkSetting;->c:Ljava/util/HashMap;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -387,7 +360,7 @@
 
     .line 2
     :try_start_0
-    sget-object v3, Lanetwork/channel/http/NetworkSdkSetting;->b:Ljava/util/concurrent/atomic/AtomicBoolean;
+    sget-object v3, Lanetwork/channel/http/NetworkSdkSetting;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v4, 0x1
 
@@ -405,7 +378,7 @@
     invoke-static {v0, v3, v1, v4}, Lanet/channel/util/ALog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 4
-    sput-object p0, Lanetwork/channel/http/NetworkSdkSetting;->c:Landroid/content/Context;
+    sput-object p0, Lanetwork/channel/http/NetworkSdkSetting;->b:Landroid/content/Context;
 
     .line 5
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -418,13 +391,13 @@
     invoke-static {p0}, Lanet/channel/GlobalAppRuntimeInfo;->setContext(Landroid/content/Context;)V
 
     .line 7
-    invoke-static {}, Lk2/b;->e()V
+    invoke-static {}, Lm/b;->c()V
 
     .line 8
     invoke-static {}, Lanetwork/channel/http/NetworkSdkSetting;->a()V
 
     .line 9
-    invoke-static {}, Lr2/a;->f()V
+    invoke-static {}, Ls/a;->a()V
 
     .line 10
     invoke-static {}, Lanet/channel/AwcnConfig;->isTbNextLaunch()Z
@@ -434,7 +407,7 @@
     if-nez v3, :cond_1
 
     .line 11
-    invoke-static {p0}, Ll2/a;->n(Landroid/content/Context;)V
+    invoke-static {p0}, Ln/a;->n(Landroid/content/Context;)V
 
     goto :goto_0
 

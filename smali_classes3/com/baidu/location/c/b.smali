@@ -404,7 +404,7 @@
 
     const-string v7, "android.permission.ACCESS_FINE_LOCATION"
 
-    invoke-static/range {v4 .. v9}, Lf5/a;->a(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;Ljava/lang/String;Landroid/os/Handler;I)Landroid/content/Intent;
+    invoke-static/range {v4 .. v9}, Lcom/baidu/location/c/g;->a(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;Ljava/lang/String;Landroid/os/Handler;I)Landroid/content/Intent;
 
     goto :goto_0
 

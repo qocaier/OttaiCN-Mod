@@ -181,6 +181,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private createProfilesFromCamcorderProfile(I)Landroidx/camera/core/impl/EncoderProfilesProxy;
@@ -311,6 +312,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private getProfilesInternal(I)Landroidx/camera/core/impl/EncoderProfilesProxy;
@@ -455,6 +457,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -602,6 +605,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public hasProfile(I)Z

@@ -19,10 +19,6 @@
     name = "ExtraData"
 .end annotation
 
-.annotation runtime Ljl/n;
-    message = "Store the object you want to save directly by using\n      {@link View#setTag(int, Object)} with the window\'s decor view."
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -51,4 +47,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -7,21 +7,25 @@
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/Camera2CameraImpl;
+.field public final synthetic a:Landroidx/camera/camera2/internal/Camera2CameraControlImpl;
 
-.field public final synthetic b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+.field public final synthetic b:Ljava/util/concurrent/Executor;
+
+.field public final synthetic c:Landroidx/camera/core/impl/CameraCaptureCallback;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CameraImpl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CameraControlImpl;Ljava/util/concurrent/Executor;Landroidx/camera/core/impl/CameraCaptureCallback;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/f;->a:Landroidx/camera/camera2/internal/Camera2CameraImpl;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/f;->a:Landroidx/camera/camera2/internal/Camera2CameraControlImpl;
 
-    iput-object p2, p0, Landroidx/camera/camera2/internal/f;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+    iput-object p2, p0, Landroidx/camera/camera2/internal/f;->b:Ljava/util/concurrent/Executor;
+
+    iput-object p3, p0, Landroidx/camera/camera2/internal/f;->c:Landroidx/camera/core/impl/CameraCaptureCallback;
 
     return-void
 .end method
@@ -29,14 +33,16 @@
 
 # virtual methods
 .method public final run()V
-    .locals 2
+    .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/f;->a:Landroidx/camera/camera2/internal/Camera2CameraImpl;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/f;->a:Landroidx/camera/camera2/internal/Camera2CameraControlImpl;
 
-    iget-object v1, p0, Landroidx/camera/camera2/internal/f;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+    iget-object v1, p0, Landroidx/camera/camera2/internal/f;->b:Ljava/util/concurrent/Executor;
 
-    invoke-static {v0, v1}, Landroidx/camera/camera2/internal/Camera2CameraImpl;->k(Landroidx/camera/camera2/internal/Camera2CameraImpl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+    iget-object v2, p0, Landroidx/camera/camera2/internal/f;->c:Landroidx/camera/core/impl/CameraCaptureCallback;
+
+    invoke-static {v0, v1, v2}, Landroidx/camera/camera2/internal/Camera2CameraControlImpl;->i(Landroidx/camera/camera2/internal/Camera2CameraControlImpl;Ljava/util/concurrent/Executor;Landroidx/camera/core/impl/CameraCaptureCallback;)V
 
     return-void
 .end method

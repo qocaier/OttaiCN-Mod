@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/example/flu_youzan_service/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "string"
-.end annotation
-
-
 # static fields
 .field public static app_name:I = 0x7f11001c
 
@@ -21,11 +10,11 @@
 
 .field public static clear:I = 0x7f110030
 
-.field public static loading_page:I = 0x7f11006d
+.field public static loading_page:I = 0x7f11006a
 
-.field public static open_page:I = 0x7f1100d5
+.field public static open_page:I = 0x7f1100d2
 
-.field public static share:I = 0x7f1100e2
+.field public static share:I = 0x7f1100df
 
 
 # direct methods

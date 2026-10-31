@@ -103,7 +103,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/tabs/TabLayout$Tab;)I
@@ -136,7 +135,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1500(Lcom/google/android/material/tabs/TabLayout$Tab;)I
@@ -169,7 +167,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$300(Lcom/google/android/material/tabs/TabLayout$Tab;)Ljava/lang/CharSequence;
@@ -202,7 +199,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$400(Lcom/google/android/material/tabs/TabLayout$Tab;)Ljava/lang/CharSequence;
@@ -235,7 +231,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -274,7 +269,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContentDescription()Ljava/lang/CharSequence;
@@ -318,7 +312,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCustomView()Landroid/view/View;
@@ -351,7 +344,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIcon()Landroid/graphics/drawable/Drawable;
@@ -384,7 +376,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getId()I
@@ -415,7 +406,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOrCreateBadge()Lcom/google/android/material/badge/BadgeDrawable;
@@ -452,7 +442,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPosition()I
@@ -483,7 +472,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTabLabelVisibility()I
@@ -516,7 +504,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTag()Ljava/lang/Object;
@@ -549,7 +536,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getText()Ljava/lang/CharSequence;
@@ -582,7 +568,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isSelected()Z
@@ -721,15 +706,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public removeBadge()V
@@ -762,7 +738,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public reset()V
@@ -813,7 +788,6 @@
     .line 21
     return-void
     .line 22
-    .line 23
 .end method
 
 .method public select()V
@@ -857,7 +831,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setContentDescription(I)Lcom/google/android/material/tabs/TabLayout$Tab;
@@ -867,9 +840,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -912,9 +882,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
     .line 4
     iput-object p1, p0, Lcom/google/android/material/tabs/TabLayout$Tab;->contentDesc:Ljava/lang/CharSequence;
 
@@ -931,9 +898,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 3
@@ -972,9 +936,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
     .line 1
     iput-object p1, p0, Lcom/google/android/material/tabs/TabLayout$Tab;->customView:Landroid/view/View;
 
@@ -991,9 +952,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 9
@@ -1034,9 +992,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1106,9 +1061,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
     .line 1
     iput p1, p0, Lcom/google/android/material/tabs/TabLayout$Tab;->id:I
 
@@ -1143,7 +1095,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPosition(I)V
@@ -1176,7 +1127,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTabLabelVisibility(I)Lcom/google/android/material/tabs/TabLayout$Tab;
@@ -1186,9 +1136,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1334,8 +1281,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setTag(Ljava/lang/Object;)Lcom/google/android/material/tabs/TabLayout$Tab;
@@ -1345,9 +1290,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1377,7 +1319,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setText(I)Lcom/google/android/material/tabs/TabLayout$Tab;
@@ -1387,9 +1328,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 5
@@ -1430,9 +1368,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1498,5 +1433,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

@@ -283,17 +283,6 @@
     .line 223
     .line 224
     .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
 .end method
 
 .method private calculateLargeSize(FIFII)F
@@ -383,7 +372,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static findLowestCostArrangement(FFFF[IF[IF[I)Lcom/google/android/material/carousel/Arrangement;
@@ -1687,6 +1675,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private getSpace()F
@@ -1743,7 +1747,6 @@
     .line 21
     return v0
     .line 22
-    .line 23
 .end method
 
 .method private isValid()Z
@@ -1906,15 +1909,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -2101,13 +2095,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

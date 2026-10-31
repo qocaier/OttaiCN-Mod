@@ -16,24 +16,12 @@
 
 # instance fields
 .field private final activity:Landroid/app/Activity;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final context:Landroid/content/Context;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final fragmentManager:Landroidx/fragment/app/FragmentManager;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final handler:Landroid/os/Handler;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final windowAnimations:I
 
@@ -41,26 +29,14 @@
 # direct methods
 .method public constructor <init>(Landroid/app/Activity;Landroid/content/Context;Landroid/os/Handler;I)V
     .locals 1
-    .param p1    # Landroid/app/Activity;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroid/os/Handler;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "context"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "handler"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Landroidx/fragment/app/FragmentContainer;-><init>()V
@@ -89,22 +65,14 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroid/os/Handler;I)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/os/Handler;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "handler"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
     instance-of v0, p1, Landroid/app/Activity;
@@ -129,14 +97,10 @@
 
 .method public constructor <init>(Landroidx/fragment/app/FragmentActivity;)V
     .locals 2
-    .param p1    # Landroidx/fragment/app/FragmentActivity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     new-instance v0, Landroid/os/Handler;
@@ -159,9 +123,6 @@
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -187,6 +148,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getContext()Landroid/content/Context;
@@ -195,9 +157,6 @@
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -223,6 +182,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getFragmentManager()Landroidx/fragment/app/FragmentManager;
@@ -231,9 +191,6 @@
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -259,6 +216,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getHandler()Landroid/os/Handler;
@@ -267,9 +225,6 @@
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -295,42 +250,25 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onDump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/io/FileDescriptor;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p3    # Ljava/io/PrintWriter;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # [Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     const-string p2, "prefix"
 
-    invoke-static {p1, p2}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "writer"
 
-    invoke-static {p3, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
 
 .method public onFindViewById(I)Landroid/view/View;
     .locals 0
-    .annotation build Lsq/l;
-    .end annotation
 
     const/4 p1, 0x0
 
@@ -347,8 +285,6 @@
 
 .method public onGetLayoutInflater()Landroid/view/LayoutInflater;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/FragmentHostCallback;->context:Landroid/content/Context;
@@ -367,7 +303,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -381,6 +317,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onGetWindowAnimations()I
@@ -409,6 +346,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onHasView()Z
@@ -429,39 +367,24 @@
 
 .method public onRequestPermissionsFromFragment(Landroidx/fragment/app/Fragment;[Ljava/lang/String;I)V
     .locals 0
-    .param p1    # Landroidx/fragment/app/Fragment;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # [Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Ljl/n;
-        message = "Have your FragmentHostCallback implement {@link ActivityResultRegistryOwner}\n      to allow Fragments to use\n      {@link Fragment#registerForActivityResult(ActivityResultContract, ActivityResultCallback)}\n      with {@link RequestMultiplePermissions}. This method will still be called when Fragments\n      call the deprecated <code>requestPermissions()</code> method."
-    .end annotation
 
     const-string p3, "fragment"
 
-    invoke-static {p1, p3}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "permissions"
 
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
 
 .method public onShouldSaveFragmentState(Landroidx/fragment/app/Fragment;)Z
     .locals 1
-    .param p1    # Landroidx/fragment/app/Fragment;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "fragment"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
@@ -470,14 +393,10 @@
 
 .method public onShouldShowRequestPermissionRationale(Ljava/lang/String;)Z
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "permission"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -486,22 +405,14 @@
 
 .method public onStartActivityFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/Intent;I)V
     .locals 1
-    .param p1    # Landroidx/fragment/app/Fragment;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/content/Intent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "fragment"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "intent"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -513,26 +424,14 @@
 
 .method public onStartActivityFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
     .locals 1
-    .param p1    # Landroidx/fragment/app/Fragment;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/content/Intent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroid/os/Bundle;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     const-string v0, "fragment"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "intent"
 
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, -0x1
 
@@ -558,30 +457,10 @@
 
 .method public onStartIntentSenderFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
     .locals 9
-    .param p1    # Landroidx/fragment/app/Fragment;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/content/IntentSender;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p8    # Landroid/os/Bundle;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroid/content/IntentSender$SendIntentException;
         }
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Have your FragmentHostCallback implement {@link ActivityResultRegistryOwner}\n      to allow Fragments to use\n      {@link Fragment#registerForActivityResult(ActivityResultContract, ActivityResultCallback)}\n      with {@link StartIntentSenderForResult}. This method will still be called when Fragments\n      call the deprecated <code>startIntentSenderForResult()</code> method."
     .end annotation
 
     .line 1
@@ -589,7 +468,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -598,7 +477,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10

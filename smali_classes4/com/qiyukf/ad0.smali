@@ -384,27 +384,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static b(Landroid/content/Context;)Ljava/lang/String;
@@ -559,449 +538,449 @@
 
     .line 69
     .line 70
-    const-string p0, "zh-tw"
+    const-string/jumbo p0, "zh-tw"
 
     .line 71
     .line 72
-    return-object p0
-
     .line 73
-    :cond_2
-    const-string p0, "zh-cn"
+    return-object p0
 
     .line 74
+    :cond_2
+    const-string/jumbo p0, "zh-cn"
+
     .line 75
+    .line 76
+    .line 77
     return-object p0
 
-    .line 76
+    .line 78
     :cond_3
     sget-object p0, Ljava/util/Locale;->GERMAN:Ljava/util/Locale;
 
-    .line 77
-    .line 78
-    invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
-
     .line 79
     .line 80
+    invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
+
     .line 81
+    .line 82
+    .line 83
     move-result-object p0
 
-    .line 82
+    .line 84
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 83
-    .line 84
     .line 85
+    .line 86
+    .line 87
     move-result-object v1
 
-    .line 86
+    .line 88
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 87
-    .line 88
     .line 89
+    .line 90
+    .line 91
     move-result p0
 
-    .line 90
-    if-eqz p0, :cond_4
-
-    .line 91
     .line 92
-    const-string p0, "de"
+    if-eqz p0, :cond_4
 
     .line 93
     .line 94
-    return-object p0
+    const-string p0, "de"
 
     .line 95
+    .line 96
+    return-object p0
+
+    .line 97
     :cond_4
     sget-object p0, Ljava/util/Locale;->FRENCH:Ljava/util/Locale;
 
-    .line 96
-    .line 97
-    invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
-
     .line 98
     .line 99
+    invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
+
     .line 100
+    .line 101
+    .line 102
     move-result-object p0
 
-    .line 101
+    .line 103
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 102
-    .line 103
     .line 104
+    .line 105
+    .line 106
     move-result-object v1
 
-    .line 105
+    .line 107
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 106
-    .line 107
     .line 108
+    .line 109
+    .line 110
     move-result p0
 
-    .line 109
-    if-eqz p0, :cond_5
-
-    .line 110
     .line 111
-    const-string p0, "fr"
+    if-eqz p0, :cond_5
 
     .line 112
     .line 113
-    return-object p0
+    const-string p0, "fr"
 
     .line 114
+    .line 115
+    return-object p0
+
+    .line 116
     :cond_5
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 115
-    .line 116
     .line 117
+    .line 118
+    .line 119
     move-result-object p0
 
-    .line 118
-    const-string v1, "in"
-
-    .line 119
     .line 120
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v1, "in"
 
     .line 121
     .line 122
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 123
+    .line 124
+    .line 125
     move-result p0
 
-    .line 124
-    if-eqz p0, :cond_6
-
-    .line 125
     .line 126
-    const-string p0, "id"
+    if-eqz p0, :cond_6
 
     .line 127
     .line 128
-    return-object p0
+    const-string p0, "id"
 
     .line 129
+    .line 130
+    return-object p0
+
+    .line 131
     :cond_6
     sget-object p0, Ljava/util/Locale;->JAPANESE:Ljava/util/Locale;
 
-    .line 130
-    .line 131
-    invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
-
     .line 132
     .line 133
+    invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
+
     .line 134
+    .line 135
+    .line 136
     move-result-object p0
 
-    .line 135
+    .line 137
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 136
-    .line 137
     .line 138
+    .line 139
+    .line 140
     move-result-object v1
 
-    .line 139
+    .line 141
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 140
-    .line 141
     .line 142
+    .line 143
+    .line 144
     move-result p0
 
-    .line 143
-    if-eqz p0, :cond_7
-
-    .line 144
     .line 145
-    const-string p0, "ja"
+    if-eqz p0, :cond_7
 
     .line 146
     .line 147
-    return-object p0
+    const-string p0, "ja"
 
     .line 148
+    .line 149
+    return-object p0
+
+    .line 150
     :cond_7
     sget-object p0, Ljava/util/Locale;->KOREAN:Ljava/util/Locale;
 
-    .line 149
-    .line 150
-    invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
-
     .line 151
     .line 152
+    invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
+
     .line 153
+    .line 154
+    .line 155
     move-result-object p0
 
-    .line 154
+    .line 156
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 155
-    .line 156
     .line 157
+    .line 158
+    .line 159
     move-result-object v1
 
-    .line 158
+    .line 160
     invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 159
-    .line 160
     .line 161
+    .line 162
+    .line 163
     move-result p0
 
-    .line 162
-    if-eqz p0, :cond_8
-
-    .line 163
     .line 164
-    const-string p0, "ko"
+    if-eqz p0, :cond_8
 
     .line 165
     .line 166
-    return-object p0
+    const-string p0, "ko"
 
     .line 167
+    .line 168
+    return-object p0
+
+    .line 169
     :cond_8
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 168
-    .line 169
     .line 170
+    .line 171
+    .line 172
     move-result-object p0
 
-    .line 171
-    const-string v1, "th"
-
-    .line 172
     .line 173
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v1, "th"
 
     .line 174
     .line 175
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 176
+    .line 177
+    .line 178
     move-result p0
 
-    .line 177
+    .line 179
     if-eqz p0, :cond_9
 
-    .line 178
-    .line 179
+    .line 180
+    .line 181
     return-object v1
 
-    .line 180
+    .line 182
     :cond_9
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 181
-    .line 182
     .line 183
+    .line 184
+    .line 185
     move-result-object p0
 
-    .line 184
-    const-string v1, "fil"
-
-    .line 185
     .line 186
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v1, "fil"
 
     .line 187
     .line 188
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 189
+    .line 190
+    .line 191
     move-result p0
 
-    .line 190
-    if-eqz p0, :cond_a
-
-    .line 191
     .line 192
-    const-string p0, "tl"
+    if-eqz p0, :cond_a
 
     .line 193
     .line 194
-    return-object p0
+    const-string p0, "tl"
 
     .line 195
+    .line 196
+    return-object p0
+
+    .line 197
     :cond_a
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 196
-    .line 197
     .line 198
+    .line 199
+    .line 200
     move-result-object p0
 
-    .line 199
-    const-string v1, "vi"
-
-    .line 200
     .line 201
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v1, "vi"
 
     .line 202
     .line 203
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 204
+    .line 205
+    .line 206
     move-result p0
 
-    .line 205
+    .line 207
     if-eqz p0, :cond_b
 
-    .line 206
-    .line 207
+    .line 208
+    .line 209
     return-object v1
 
-    .line 208
+    .line 210
     :cond_b
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 209
-    .line 210
     .line 211
+    .line 212
+    .line 213
     move-result-object p0
 
-    .line 212
-    const-string v1, "ru"
-
-    .line 213
     .line 214
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v1, "ru"
 
     .line 215
     .line 216
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 217
+    .line 218
+    .line 219
     move-result p0
 
-    .line 218
+    .line 220
     if-eqz p0, :cond_c
 
-    .line 219
-    .line 220
+    .line 221
+    .line 222
     return-object v1
 
-    .line 221
+    .line 223
     :cond_c
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 222
-    .line 223
     .line 224
+    .line 225
+    .line 226
     move-result-object p0
 
-    .line 225
-    const-string v1, "ar"
-
-    .line 226
     .line 227
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v1, "ar"
 
     .line 228
     .line 229
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 230
+    .line 231
+    .line 232
     move-result p0
 
-    .line 231
+    .line 233
     if-eqz p0, :cond_d
 
-    .line 232
-    .line 233
+    .line 234
+    .line 235
     return-object v1
 
-    .line 234
+    .line 236
     :cond_d
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 235
-    .line 236
     .line 237
+    .line 238
+    .line 239
     move-result-object p0
 
-    .line 238
-    const-string v1, "tr"
-
-    .line 239
     .line 240
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v1, "tr"
 
     .line 241
     .line 242
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 243
+    .line 244
+    .line 245
     move-result p0
 
-    .line 244
+    .line 246
     if-eqz p0, :cond_e
 
-    .line 245
-    .line 246
+    .line 247
+    .line 248
     return-object v1
 
-    .line 247
+    .line 249
     :cond_e
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 248
-    .line 249
     .line 250
+    .line 251
+    .line 252
     move-result-object p0
 
-    .line 251
-    const-string v1, "es"
-
-    .line 252
     .line 253
-    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v1, "es"
 
     .line 254
     .line 255
+    invoke-virtual {v1, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 256
+    .line 257
+    .line 258
     move-result p0
 
-    .line 257
+    .line 259
     if-eqz p0, :cond_f
 
-    .line 258
-    .line 259
+    .line 260
+    .line 261
     return-object v1
 
-    .line 260
+    .line 262
     :cond_f
     invoke-virtual {v0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
-    .line 261
-    .line 262
     .line 263
+    .line 264
+    .line 265
     move-result-object p0
 
-    .line 264
-    const-string v0, "pt"
-
-    .line 265
     .line 266
-    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    const-string v0, "pt"
 
     .line 267
     .line 268
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
     .line 269
+    .line 270
+    .line 271
     move-result p0
 
-    .line 270
+    .line 272
     if-eqz p0, :cond_10
 
-    .line 271
-    .line 272
+    .line 273
+    .line 274
     return-object v0
 
-    .line 273
+    .line 275
     :cond_10
     const-string p0, "en"
 
-    .line 274
-    .line 275
-    return-object p0
     .line 276
     .line 277
+    return-object p0
     .line 278
     .line 279
     .line 280
@@ -1009,27 +988,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static c(Landroid/content/Context;)Ljava/util/Locale;
@@ -1157,4 +1115,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

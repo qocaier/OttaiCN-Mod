@@ -66,6 +66,7 @@
     .line 19
     .line 20
     return-void
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -1050,6 +1051,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCardElevation()F
@@ -1084,6 +1086,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentPaddingBottom()I
@@ -1116,6 +1119,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentPaddingLeft()I
@@ -1148,6 +1152,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentPaddingRight()I
@@ -1180,6 +1185,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentPaddingTop()I
@@ -1212,6 +1218,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxCardElevation()F
@@ -1246,6 +1253,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreventCornerOverlap()Z
@@ -1274,6 +1282,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRadius()F
@@ -1308,6 +1317,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUseCompatPadding()Z
@@ -1336,6 +1346,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onMeasure(II)V
@@ -1668,6 +1679,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setCardBackgroundColor(I)V
@@ -2005,6 +2019,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setMaxCardElevation(F)V

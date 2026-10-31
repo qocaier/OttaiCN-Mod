@@ -33,6 +33,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -180,6 +182,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getPushNoDisturbConfig()Lcom/qiyukf/nimlib/sdk/settings/model/NoDisturbConfig;
@@ -210,6 +214,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isEnable()Z
@@ -240,6 +246,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isFCMIntent(Landroid/content/Intent;)Z
@@ -296,6 +304,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public isPushNoDisturbConfigExist()Z
@@ -330,6 +340,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isPushShowNoDetail()Z
@@ -364,6 +376,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public parseFCMPayload(Landroid/content/Intent;)Ljava/lang/String;
@@ -422,6 +436,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPushNoDisturbConfig(ZLjava/lang/String;Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/InvocationFuture;
@@ -631,11 +647,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public setPushShowNoDetail(Z)Lcom/qiyukf/nimlib/sdk/InvocationFuture;
@@ -760,4 +771,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

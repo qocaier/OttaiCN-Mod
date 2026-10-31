@@ -1,25 +1,10 @@
-.class public final Lb/b;
+.class public abstract Lb/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCoroutineDebugging.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CoroutineDebugging.kt\n_COROUTINE/CoroutineDebuggingKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,62:1\n1#2:63\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nCoroutineDebugging.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CoroutineDebugging.kt\n_COROUTINE/CoroutineDebuggingKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,62:1\n1#2:63\n*E\n"
-    }
-.end annotation
-
-
 # static fields
 .field public static final a:Ljava/lang/String; = "_COROUTINE"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -47,6 +32,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic a(Ljava/lang/Throwable;Ljava/lang/String;)Ljava/lang/StackTraceElement;
@@ -199,34 +185,4 @@
     .line 46
     .line 47
     .line 48
-.end method
-
-.method public static final c()Ljava/lang/String;
-    .locals 1
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    sget-object v0, Lb/b;->a:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
 .end method

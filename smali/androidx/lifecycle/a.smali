@@ -3,34 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/lifecycle/Observer;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Lkotlinx/coroutines/channels/j;
+.field public final synthetic a:Landroidx/lifecycle/ComputableLiveData;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lkotlinx/coroutines/channels/j;)V
+.method public synthetic constructor <init>(Landroidx/lifecycle/ComputableLiveData;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/lifecycle/a;->a:Lkotlinx/coroutines/channels/j;
+    iput-object p1, p0, Landroidx/lifecycle/a;->a:Landroidx/lifecycle/ComputableLiveData;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onChanged(Ljava/lang/Object;)V
+.method public final run()V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/a;->a:Lkotlinx/coroutines/channels/j;
+    iget-object v0, p0, Landroidx/lifecycle/a;->a:Landroidx/lifecycle/ComputableLiveData;
 
-    invoke-static {v0, p1}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->f(Lkotlinx/coroutines/channels/j;Ljava/lang/Object;)V
+    invoke-static {v0}, Landroidx/lifecycle/ComputableLiveData;->a(Landroidx/lifecycle/ComputableLiveData;)V
 
     return-void
 .end method

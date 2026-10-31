@@ -3,31 +3,10 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nIntList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IntList.kt\nandroidx/collection/IntList\n*L\n1#1,969:1\n253#1,6:970\n279#1,6:976\n253#1,6:982\n75#1:988\n253#1,6:989\n253#1,6:995\n253#1,6:1001\n266#1,6:1007\n279#1,6:1013\n293#1,6:1019\n70#1:1025\n70#1:1026\n266#1,6:1027\n266#1,6:1033\n293#1,6:1039\n70#1:1045\n279#1,6:1046\n293#1,6:1052\n266#1,6:1058\n266#1,6:1064\n253#1,6:1070\n75#1:1076\n467#1,10:1077\n266#1,4:1087\n477#1,9:1091\n271#1:1100\n486#1,2:1101\n467#1,10:1103\n266#1,4:1113\n477#1,9:1117\n271#1:1126\n486#1,2:1127\n467#1,10:1129\n266#1,4:1139\n477#1,9:1143\n271#1:1152\n486#1,2:1153\n467#1,10:1155\n266#1,4:1165\n477#1,9:1169\n271#1:1178\n486#1,2:1179\n467#1,10:1181\n266#1,4:1191\n477#1,9:1195\n271#1:1204\n486#1,2:1205\n*S KotlinDebug\n*F\n+ 1 IntList.kt\nandroidx/collection/IntList\n*L\n96#1:970,6\n110#1:976,6\n122#1:982,6\n135#1:988\n153#1:989,6\n175#1:995,6\n192#1:1001,6\n208#1:1007,6\n225#1:1013,6\n241#1:1019,6\n306#1:1025\n317#1:1026\n343#1:1027,6\n357#1:1033,6\n371#1:1039,6\n397#1:1045\n407#1:1046,6\n420#1:1052,6\n445#1:1058,6\n476#1:1064,6\n494#1:1070,6\n510#1:1076\n-1#1:1077,10\n-1#1:1087,4\n-1#1:1091,9\n-1#1:1100\n-1#1:1101,2\n-1#1:1103,10\n-1#1:1113,4\n-1#1:1117,9\n-1#1:1126\n-1#1:1127,2\n-1#1:1129,10\n-1#1:1139,4\n-1#1:1143,9\n-1#1:1152\n-1#1:1153,2\n-1#1:1155,10\n-1#1:1165,4\n-1#1:1169,9\n-1#1:1178\n-1#1:1179,2\n-1#1:1181,10\n-1#1:1191,4\n-1#1:1195,9\n-1#1:1204\n-1#1:1205,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nIntList.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IntList.kt\nandroidx/collection/IntList\n*L\n1#1,969:1\n253#1,6:970\n279#1,6:976\n253#1,6:982\n75#1:988\n253#1,6:989\n253#1,6:995\n253#1,6:1001\n266#1,6:1007\n279#1,6:1013\n293#1,6:1019\n70#1:1025\n70#1:1026\n266#1,6:1027\n266#1,6:1033\n293#1,6:1039\n70#1:1045\n279#1,6:1046\n293#1,6:1052\n266#1,6:1058\n266#1,6:1064\n253#1,6:1070\n75#1:1076\n467#1,10:1077\n266#1,4:1087\n477#1,9:1091\n271#1:1100\n486#1,2:1101\n467#1,10:1103\n266#1,4:1113\n477#1,9:1117\n271#1:1126\n486#1,2:1127\n467#1,10:1129\n266#1,4:1139\n477#1,9:1143\n271#1:1152\n486#1,2:1153\n467#1,10:1155\n266#1,4:1165\n477#1,9:1169\n271#1:1178\n486#1,2:1179\n467#1,10:1181\n266#1,4:1191\n477#1,9:1195\n271#1:1204\n486#1,2:1205\n*S KotlinDebug\n*F\n+ 1 IntList.kt\nandroidx/collection/IntList\n*L\n96#1:970,6\n110#1:976,6\n122#1:982,6\n135#1:988\n153#1:989,6\n175#1:995,6\n192#1:1001,6\n208#1:1007,6\n225#1:1013,6\n241#1:1019,6\n306#1:1025\n317#1:1026\n343#1:1027,6\n357#1:1033,6\n371#1:1039,6\n397#1:1045\n407#1:1046,6\n420#1:1052,6\n445#1:1058,6\n476#1:1064,6\n494#1:1070,6\n510#1:1076\n-1#1:1077,10\n-1#1:1087,4\n-1#1:1091,9\n-1#1:1100\n-1#1:1101,2\n-1#1:1103,10\n-1#1:1113,4\n-1#1:1117,9\n-1#1:1126\n-1#1:1127,2\n-1#1:1129,10\n-1#1:1139,4\n-1#1:1143,9\n-1#1:1152\n-1#1:1153,2\n-1#1:1155,10\n-1#1:1165,4\n-1#1:1169,9\n-1#1:1178\n-1#1:1179,2\n-1#1:1181,10\n-1#1:1191,4\n-1#1:1195,9\n-1#1:1204\n-1#1:1205,2\n*E\n"
-    }
-.end annotation
-
-
 # instance fields
 .field public _size:I
-    .annotation build Lim/g;
-    .end annotation
-.end field
 
 .field public content:[I
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -57,7 +36,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(ILkm/v;)V
+.method public synthetic constructor <init>(ILkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -68,16 +47,12 @@
 
 .method public static synthetic getContent$annotations()V
     .locals 0
-    .annotation build Ljl/v0;
-    .end annotation
 
     return-void
 .end method
 
 .method public static synthetic get_size$annotations()V
     .locals 0
-    .annotation build Ljl/v0;
-    .end annotation
 
     return-void
 .end method
@@ -156,7 +131,7 @@
     throw p0
 .end method
 
-.method public static synthetic joinToString$default(Landroidx/collection/IntList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Ljm/l;ILjava/lang/Object;)Ljava/lang/String;
+.method public static synthetic joinToString$default(Landroidx/collection/IntList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lq8/l;ILjava/lang/Object;)Ljava/lang/String;
     .locals 1
 
     if-nez p8, :cond_8
@@ -204,23 +179,23 @@
     :cond_4
     const-string p7, "separator"
 
-    invoke-static {p1, p7}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p7}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p7, "prefix"
 
-    invoke-static {p2, p7}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p7}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p7, "postfix"
 
-    invoke-static {p3, p7}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p7}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p7, "truncated"
 
-    invoke-static {p5, p7}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, p7}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p7, "transform"
 
-    invoke-static {p6, p7}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p6, p7}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     new-instance p7, Ljava/lang/StringBuilder;
@@ -263,7 +238,7 @@
 
     move-result-object v0
 
-    invoke-interface {p6, v0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p6, v0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -287,7 +262,7 @@
 
     const-string p1, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p0, p1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 
@@ -315,26 +290,19 @@
     return v0
 .end method
 
-.method public final any(Ljm/l;)Z
+.method public final any(Lq8/l;)Z
     .locals 5
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Boolean;",
-            ">;)Z"
+            "Lq8/l;",
+            ")Z"
         }
     .end annotation
 
     const-string v0, "predicate"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Landroidx/collection/IntList;->content:[I
@@ -357,7 +325,7 @@
 
     move-result-object v4
 
-    invoke-interface {p1, v4}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v4}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
@@ -440,17 +408,13 @@
 
 .method public final containsAll(Landroidx/collection/IntList;)Z
     .locals 4
-    .param p1    # Landroidx/collection/IntList;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "elements"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -462,7 +426,7 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-static {v1, v0}, Ltm/u;->W1(II)Ltm/l;
+    invoke-static {v1, v0}, Lu8/f;->j(II)Lu8/d;
 
     .line 10
     .line 11
@@ -470,7 +434,7 @@
     move-result-object v0
 
     .line 13
-    invoke-virtual {v0}, Ltm/j;->c()I
+    invoke-virtual {v0}, Lu8/b;->a()I
 
     .line 14
     .line 15
@@ -478,7 +442,7 @@
     move-result v2
 
     .line 17
-    invoke-virtual {v0}, Ltm/j;->d()I
+    invoke-virtual {v0}, Lu8/b;->b()I
 
     .line 18
     .line 19
@@ -569,6 +533,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final count()I
@@ -580,26 +545,19 @@
     return v0
 .end method
 
-.method public final count(Ljm/l;)I
+.method public final count(Lq8/l;)I
     .locals 5
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Boolean;",
-            ">;)I"
+            "Lq8/l;",
+            ")I"
         }
     .end annotation
 
     const-string v0, "predicate"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Landroidx/collection/IntList;->content:[I
@@ -622,7 +580,7 @@
 
     move-result-object v4
 
-    invoke-interface {p1, v4}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v4}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
@@ -773,27 +731,21 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public final elementAtOrElse(ILjm/l;)I
+.method public final elementAtOrElse(ILq8/l;)I
     .locals 1
     .param p1    # I
         .annotation build Landroidx/annotation/IntRange;
             from = 0x0L
         .end annotation
     .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Integer;",
-            ">;)I"
+            "Lq8/l;",
+            ")I"
         }
     .end annotation
 
@@ -802,7 +754,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -839,7 +791,7 @@
     move-result-object p1
 
     .line 21
-    invoke-interface {p2, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -881,10 +833,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     instance-of v0, p1, Landroidx/collection/IntList;
@@ -926,7 +874,7 @@
 
     .line 18
     .line 19
-    invoke-static {v1, v2}, Ltm/u;->W1(II)Ltm/l;
+    invoke-static {v1, v2}, Lu8/f;->j(II)Lu8/d;
 
     .line 20
     .line 21
@@ -934,7 +882,7 @@
     move-result-object v2
 
     .line 23
-    invoke-virtual {v2}, Ltm/j;->c()I
+    invoke-virtual {v2}, Lu8/b;->a()I
 
     .line 24
     .line 25
@@ -942,7 +890,7 @@
     move-result v3
 
     .line 27
-    invoke-virtual {v2}, Ltm/j;->d()I
+    invoke-virtual {v2}, Lu8/b;->b()I
 
     .line 28
     .line 29
@@ -1023,6 +971,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final first()I
@@ -1055,26 +1004,19 @@
     throw v0
 .end method
 
-.method public final first(Ljm/l;)I
+.method public final first(Lq8/l;)I
     .locals 5
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Boolean;",
-            ">;)I"
+            "Lq8/l;",
+            ")I"
         }
     .end annotation
 
     const-string v0, "predicate"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     iget-object v0, p0, Landroidx/collection/IntList;->content:[I
@@ -1095,7 +1037,7 @@
 
     move-result-object v4
 
-    invoke-interface {p1, v4}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v4}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
@@ -1125,21 +1067,15 @@
     throw p1
 .end method
 
-.method public final fold(Ljava/lang/Object;Ljm/p;)Ljava/lang/Object;
+.method public final fold(Ljava/lang/Object;Lq8/p;)Ljava/lang/Object;
     .locals 4
-    .param p2    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(TR;",
-            "Ljm/p<",
-            "-TR;-",
-            "Ljava/lang/Integer;",
-            "+TR;>;)TR;"
+            "Lq8/p;",
+            ")TR;"
         }
     .end annotation
 
@@ -1148,7 +1084,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1181,7 +1117,7 @@
     move-result-object v3
 
     .line 19
-    invoke-interface {p2, p1, v3}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1, v3}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -1222,23 +1158,15 @@
     .line 48
 .end method
 
-.method public final foldIndexed(Ljava/lang/Object;Ljm/q;)Ljava/lang/Object;
+.method public final foldIndexed(Ljava/lang/Object;Lq8/q;)Ljava/lang/Object;
     .locals 5
-    .param p2    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(TR;",
-            "Ljm/q<",
-            "-",
-            "Ljava/lang/Integer;",
-            "-TR;-",
-            "Ljava/lang/Integer;",
-            "+TR;>;)TR;"
+            "Lq8/q;",
+            ")TR;"
         }
     .end annotation
 
@@ -1247,7 +1175,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1288,7 +1216,7 @@
     move-result-object v3
 
     .line 23
-    invoke-interface {p2, v4, p1, v3}, Ljm/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v4, p1, v3}, Lq8/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -1325,21 +1253,15 @@
     .line 48
 .end method
 
-.method public final foldRight(Ljava/lang/Object;Ljm/p;)Ljava/lang/Object;
+.method public final foldRight(Ljava/lang/Object;Lq8/p;)Ljava/lang/Object;
     .locals 3
-    .param p2    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(TR;",
-            "Ljm/p<",
-            "-",
-            "Ljava/lang/Integer;",
-            "-TR;+TR;>;)TR;"
+            "Lq8/p;",
+            ")TR;"
         }
     .end annotation
 
@@ -1348,7 +1270,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1385,7 +1307,7 @@
     move-result-object v2
 
     .line 21
-    invoke-interface {p2, v2, p1}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v2, p1}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -1424,23 +1346,15 @@
     .line 48
 .end method
 
-.method public final foldRightIndexed(Ljava/lang/Object;Ljm/q;)Ljava/lang/Object;
+.method public final foldRightIndexed(Ljava/lang/Object;Lq8/q;)Ljava/lang/Object;
     .locals 4
-    .param p2    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(TR;",
-            "Ljm/q<",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-TR;+TR;>;)TR;"
+            "Lq8/q;",
+            ")TR;"
         }
     .end annotation
 
@@ -1449,7 +1363,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1494,7 +1408,7 @@
     move-result-object v2
 
     .line 25
-    invoke-interface {p2, v3, v2, p1}, Ljm/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v3, v2, p1}, Lq8/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -1529,20 +1443,13 @@
     .line 48
 .end method
 
-.method public final forEach(Ljm/l;)V
+.method public final forEach(Lq8/l;)V
     .locals 4
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -1551,7 +1458,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1584,7 +1491,7 @@
     move-result-object v3
 
     .line 19
-    invoke-interface {p1, v3}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -1600,22 +1507,13 @@
     return-void
 .end method
 
-.method public final forEachIndexed(Ljm/p;)V
+.method public final forEachIndexed(Lq8/p;)V
     .locals 5
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/p;",
+            ")V"
         }
     .end annotation
 
@@ -1624,7 +1522,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1665,7 +1563,7 @@
     move-result-object v4
 
     .line 23
-    invoke-interface {p1, v3, v4}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v3, v4}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -1728,22 +1626,16 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public final forEachReversed(Ljm/l;)V
+.method public final forEachReversed(Lq8/l;)V
     .locals 3
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -1752,7 +1644,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1789,7 +1681,7 @@
     move-result-object v2
 
     .line 21
-    invoke-interface {p1, v2}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -1854,24 +1746,16 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public final forEachReversedIndexed(Ljm/p;)V
+.method public final forEachReversedIndexed(Lq8/p;)V
     .locals 4
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/p;",
+            ")V"
         }
     .end annotation
 
@@ -1880,7 +1764,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1925,7 +1809,7 @@
     move-result-object v3
 
     .line 25
-    invoke-interface {p1, v2, v3}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -1986,6 +1870,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final get(I)I
@@ -2116,12 +2001,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public final getIndices()Ltm/l;
+.method public final getIndices()Lu8/d;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -2131,7 +2015,7 @@
 
     .line 3
     .line 4
-    invoke-static {v0, v1}, Ltm/u;->W1(II)Ltm/l;
+    invoke-static {v0, v1}, Lu8/f;->j(II)Lu8/d;
 
     .line 5
     .line 6
@@ -2152,6 +2036,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getLastIndex()I
@@ -2185,6 +2070,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getSize()I
@@ -2216,6 +2102,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -2269,69 +2156,6 @@
     .line 21
     :cond_0
     return v3
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public final indexOf(I)I
@@ -2388,20 +2212,13 @@
     .line 25
 .end method
 
-.method public final indexOfFirst(Ljm/l;)I
+.method public final indexOfFirst(Lq8/l;)I
     .locals 4
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Boolean;",
-            ">;)I"
+            "Lq8/l;",
+            ")I"
         }
     .end annotation
 
@@ -2410,7 +2227,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2443,7 +2260,7 @@
     move-result-object v3
 
     .line 19
-    invoke-interface {p1, v3}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -2525,22 +2342,16 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public final indexOfLast(Ljm/l;)I
+.method public final indexOfLast(Lq8/l;)I
     .locals 3
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Boolean;",
-            ">;)I"
+            "Lq8/l;",
+            ")I"
         }
     .end annotation
 
@@ -2549,7 +2360,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2586,7 +2397,7 @@
     move-result-object v2
 
     .line 21
-    invoke-interface {p1, v2}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -2664,6 +2475,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final isEmpty()Z
@@ -2701,6 +2513,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isNotEmpty()Z
@@ -2738,15 +2551,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final joinToString()Ljava/lang/String;
     .locals 8
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const/16 v6, 0x1f
@@ -2774,20 +2583,11 @@
 
 .method public final joinToString(Ljava/lang/CharSequence;)Ljava/lang/String;
     .locals 9
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x1e
 
@@ -2814,28 +2614,15 @@
 
 .method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
     .locals 9
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 3
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x1c
 
@@ -2862,36 +2649,19 @@
 
 .method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
     .locals 9
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x18
 
@@ -2918,36 +2688,19 @@
 
 .method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;I)Ljava/lang/String;
     .locals 9
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 5
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x10
 
@@ -2974,43 +2727,22 @@
 
 .method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;)Ljava/lang/String;
     .locals 4
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "truncated"
 
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     new-instance v0, Ljava/lang/StringBuilder;
@@ -3067,33 +2799,13 @@
 
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Ljm/l;)Ljava/lang/String;
+.method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lq8/l;)Ljava/lang/String;
     .locals 4
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p6    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -3102,41 +2814,31 @@
             "Ljava/lang/CharSequence;",
             "I",
             "Ljava/lang/CharSequence;",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "+",
-            "Ljava/lang/CharSequence;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Ljava/lang/String;"
         }
     .end annotation
 
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "truncated"
 
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p6, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p6, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     new-instance v0, Ljava/lang/StringBuilder;
@@ -3179,7 +2881,7 @@
 
     move-result-object v3
 
-    invoke-interface {p6, v3}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p6, v3}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -3203,29 +2905,13 @@
 
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjm/l;)Ljava/lang/String;
+.method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILq8/l;)Ljava/lang/String;
     .locals 4
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -3233,37 +2919,27 @@
             "Ljava/lang/CharSequence;",
             "Ljava/lang/CharSequence;",
             "I",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "+",
-            "Ljava/lang/CharSequence;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Ljava/lang/String;"
         }
     .end annotation
 
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 26
     new-instance v0, Ljava/lang/StringBuilder;
@@ -3308,7 +2984,7 @@
 
     move-result-object v3
 
-    invoke-interface {p5, v3}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, v3}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -3332,66 +3008,40 @@
 
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljm/l;)Ljava/lang/String;
+.method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Lq8/l;)Ljava/lang/String;
     .locals 5
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/CharSequence;",
             "Ljava/lang/CharSequence;",
             "Ljava/lang/CharSequence;",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "+",
-            "Ljava/lang/CharSequence;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Ljava/lang/String;"
         }
     .end annotation
 
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 36
     new-instance v0, Ljava/lang/StringBuilder;
@@ -3438,7 +3088,7 @@
 
     move-result-object v3
 
-    invoke-interface {p4, v3}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, v3}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -3462,57 +3112,35 @@
 
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljm/l;)Ljava/lang/String;
+.method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Lq8/l;)Ljava/lang/String;
     .locals 5
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/CharSequence;",
             "Ljava/lang/CharSequence;",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "+",
-            "Ljava/lang/CharSequence;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Ljava/lang/String;"
         }
     .end annotation
 
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 46
     new-instance v0, Ljava/lang/StringBuilder;
@@ -3559,7 +3187,7 @@
 
     move-result-object v3
 
-    invoke-interface {p3, v3}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v3}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -3585,48 +3213,30 @@
 
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final joinToString(Ljava/lang/CharSequence;Ljm/l;)Ljava/lang/String;
+.method public final joinToString(Ljava/lang/CharSequence;Lq8/l;)Ljava/lang/String;
     .locals 7
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/CharSequence;",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "+",
-            "Ljava/lang/CharSequence;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Ljava/lang/String;"
         }
     .end annotation
 
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 56
     new-instance v0, Ljava/lang/StringBuilder;
@@ -3675,7 +3285,7 @@
 
     move-result-object v5
 
-    invoke-interface {p2, v5}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v5}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
@@ -3699,39 +3309,25 @@
 
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public final joinToString(Ljm/l;)Ljava/lang/String;
+.method public final joinToString(Lq8/l;)Ljava/lang/String;
     .locals 7
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "+",
-            "Ljava/lang/CharSequence;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Ljava/lang/String;"
         }
     .end annotation
 
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "transform"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 66
     new-instance v0, Ljava/lang/StringBuilder;
@@ -3782,7 +3378,7 @@
 
     move-result-object v5
 
-    invoke-interface {p1, v5}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v5}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
@@ -3806,7 +3402,7 @@
 
     const-string v0, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
@@ -3844,26 +3440,19 @@
     throw v0
 .end method
 
-.method public final last(Ljm/l;)I
+.method public final last(Lq8/l;)I
     .locals 4
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Boolean;",
-            ">;)I"
+            "Lq8/l;",
+            ")I"
         }
     .end annotation
 
     const-string v0, "predicate"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     iget-object v0, p0, Landroidx/collection/IntList;->content:[I
@@ -3886,7 +3475,7 @@
 
     move-result-object v3
 
-    invoke-interface {p1, v3}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -3998,22 +3587,16 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public final reversedAny(Ljm/l;)Z
+.method public final reversedAny(Lq8/l;)Z
     .locals 4
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljava/lang/Boolean;",
-            ">;)Z"
+            "Lq8/l;",
+            ")Z"
         }
     .end annotation
 
@@ -4022,7 +3605,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -4061,7 +3644,7 @@
     move-result-object v3
 
     .line 21
-    invoke-interface {p1, v3}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -4141,12 +3724,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 8
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const/16 v6, 0x19
@@ -4189,4 +3771,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

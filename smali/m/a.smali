@@ -1,14 +1,11 @@
-.class public final synthetic Lm/a;
+.class public interface abstract Lm/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# direct methods
-.method public static bridge synthetic a()Landroid/hardware/camera2/CaptureRequest$Key;
-    .locals 1
+# virtual methods
+.method public abstract register()V
+.end method
 
-    .line 1
-    sget-object v0, Landroid/hardware/camera2/CaptureRequest;->CONTROL_ZOOM_RATIO:Landroid/hardware/camera2/CaptureRequest$Key;
-
-    return-object v0
+.method public abstract unRegister()V
 .end method

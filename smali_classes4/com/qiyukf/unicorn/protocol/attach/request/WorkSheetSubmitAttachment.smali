@@ -74,6 +74,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -104,6 +106,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFromUser()I
@@ -132,6 +136,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNeedRelationFilter()I
@@ -160,6 +166,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getParams()Ljava/lang/String;
@@ -188,6 +196,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()J
@@ -216,6 +226,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getWorkSheetRequestTmp()Lcom/qiyukf/unicorn/protocol/attach/request/WorkSheetRequestTmp;
@@ -244,6 +256,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setFromType(Ljava/lang/String;)V
@@ -277,6 +291,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromUser(I)V
@@ -310,6 +326,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNeedRelationFilter(I)V
@@ -343,6 +361,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setParams(Ljava/lang/String;)V
@@ -376,6 +396,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionId(J)V
@@ -409,6 +431,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setWorkSheetRequestTmp(Lcom/qiyukf/unicorn/protocol/attach/request/WorkSheetRequestTmp;)V
@@ -442,4 +466,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

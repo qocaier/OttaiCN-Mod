@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract jpegSnapshot(II)Lub/u0;
+.method public abstract jpegSnapshot(II)Lcom/google/common/util/concurrent/t;
     .param p1    # I
         .annotation build Landroidx/annotation/IntRange;
             from = 0x0L
@@ -34,9 +34,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method

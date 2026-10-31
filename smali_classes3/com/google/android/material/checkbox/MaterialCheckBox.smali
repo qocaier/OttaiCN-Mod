@@ -307,15 +307,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -594,41 +585,6 @@
     return-void
 .end method
 
-.method public static synthetic a(Lcom/google/android/material/checkbox/MaterialCheckBox;)V
-    .locals 0
-
-    .line 1
-    iget-object p0, p0, Lcom/google/android/material/checkbox/MaterialCheckBox;->buttonIconDrawable:Landroid/graphics/drawable/Drawable;
-
-    .line 2
-    .line 3
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->jumpToCurrentState()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
 .method public static synthetic access$000(Lcom/google/android/material/checkbox/MaterialCheckBox;)[I
     .locals 0
 
@@ -659,7 +615,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getButtonStateDescription()Ljava/lang/String;
@@ -812,15 +767,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getMaterialThemeColorsTintList()Landroid/content/res/ColorStateList;
@@ -1016,15 +962,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getSuperButtonTintList()Landroid/content/res/ColorStateList;
@@ -1079,7 +1016,6 @@
     .line 21
     return-object v0
     .line 22
-    .line 23
 .end method
 
 .method private isButtonDrawableLegacy(Landroidx/appcompat/widget/TintTypedArray;)Z
@@ -1135,7 +1071,6 @@
     return v1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private refreshButtonDrawable()V
@@ -1284,15 +1219,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private setDefaultStateDescription()V
@@ -1338,7 +1264,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private setUpDefaultButtonDrawableAnimationIfNeeded()V
@@ -1501,15 +1426,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private updateButtonTints()V
@@ -1561,6 +1477,83 @@
     .line 23
     :cond_1
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method private updateIconTintIfNeeded()V
@@ -1607,7 +1600,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addOnErrorChangedListener(Lcom/google/android/material/checkbox/MaterialCheckBox$OnErrorChangedListener;)V
@@ -1646,7 +1638,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public clearOnCheckedStateChangedListeners()V
@@ -1679,7 +1670,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public clearOnErrorChangedListeners()V
@@ -1712,7 +1702,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getButtonDrawable()Landroid/graphics/drawable/Drawable;
@@ -1745,7 +1734,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getButtonIconDrawable()Landroid/graphics/drawable/Drawable;
@@ -1778,7 +1766,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getButtonIconTintList()Landroid/content/res/ColorStateList;
@@ -1811,7 +1798,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getButtonIconTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -1844,7 +1830,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getButtonTintList()Landroid/content/res/ColorStateList;
@@ -1877,7 +1862,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCheckedState()I
@@ -1908,7 +1892,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getErrorAccessibilityLabel()Ljava/lang/CharSequence;
@@ -1941,7 +1924,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isCenterIfNoTextEnabled()Z
@@ -1972,7 +1954,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isChecked()Z
@@ -2012,7 +1993,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isErrorShown()Z
@@ -2043,7 +2023,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isUseMaterialThemeColors()Z
@@ -2074,7 +2053,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAttachedToWindow()V
@@ -2122,7 +2100,6 @@
     return-void
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onCreateDrawableState(I)[I
@@ -2258,8 +2235,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -2453,8 +2428,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
@@ -2595,8 +2568,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -2652,7 +2623,6 @@
     .line 23
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -2697,7 +2667,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public removeOnCheckedStateChangedListener(Lcom/google/android/material/checkbox/MaterialCheckBox$OnCheckedStateChangedListener;)V
@@ -2736,7 +2705,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeOnErrorChangedListener(Lcom/google/android/material/checkbox/MaterialCheckBox$OnErrorChangedListener;)V
@@ -2775,7 +2743,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setButtonDrawable(I)V
@@ -2856,7 +2823,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setButtonIconDrawableResource(I)V
@@ -2901,7 +2867,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setButtonIconTintList(Landroid/content/res/ColorStateList;)V
@@ -2947,7 +2912,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setButtonIconTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -2993,7 +2957,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setButtonTintList(Landroid/content/res/ColorStateList;)V
@@ -3039,7 +3002,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setButtonTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -3078,7 +3040,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCenterIfNoTextEnabled(Z)V
@@ -3111,7 +3072,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setChecked(Z)V
@@ -3144,7 +3104,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCheckedState(I)V
@@ -3322,7 +3281,7 @@
     move-result-object p1
 
     .line 82
-    invoke-static {}, Loa/a;->a()Ljava/lang/Class;
+    invoke-static {}, Lcom/google/android/material/checkbox/a;->a()Ljava/lang/Class;
 
     .line 83
     .line 84
@@ -3338,7 +3297,7 @@
     move-result-object p1
 
     .line 90
-    invoke-static {p1}, Loa/b;->a(Ljava/lang/Object;)Landroid/view/autofill/AutofillManager;
+    invoke-static {p1}, Lcom/google/android/material/checkbox/b;->a(Ljava/lang/Object;)Landroid/view/autofill/AutofillManager;
 
     .line 91
     .line 92
@@ -3350,7 +3309,7 @@
 
     .line 95
     .line 96
-    invoke-static {p1, p0}, Loa/c;->a(Landroid/view/autofill/AutofillManager;Landroid/view/View;)V
+    invoke-static {p1, p0}, Lcom/google/android/material/checkbox/c;->a(Landroid/view/autofill/AutofillManager;Landroid/view/View;)V
 
     .line 97
     .line 98
@@ -3670,6 +3629,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public setEnabled(Z)V
@@ -3704,7 +3695,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setErrorAccessibilityLabel(Ljava/lang/CharSequence;)V
@@ -3741,7 +3731,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setErrorAccessibilityLabelResource(I)V
@@ -3794,7 +3783,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setErrorShown(Z)V
@@ -3930,8 +3918,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
@@ -3968,7 +3954,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStateDescription(Ljava/lang/CharSequence;)V
@@ -4017,7 +4002,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUseMaterialThemeColors(Z)V
@@ -4065,7 +4049,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public toggle()V
@@ -4102,5 +4085,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

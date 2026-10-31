@@ -32,7 +32,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static orCombineFlags(Ljava/util/ArrayList;)I
@@ -176,8 +175,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -214,7 +211,7 @@
 
     .line 10
     .line 11
-    invoke-static {p1, v0, p3}, Lg7/y;->a(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Class;)Ljava/io/Serializable;
+    invoke-static {p1, v0, p3}, Lcom/dexterous/flutterlocalnotifications/z;->a(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Class;)Ljava/io/Serializable;
 
     .line 12
     .line 13
@@ -299,7 +296,7 @@
     move-result v0
 
     .line 52
-    invoke-static {p0, p2, p3, v0}, Lg7/z;->a(Lcom/dexterous/flutterlocalnotifications/ForegroundService;ILandroid/app/Notification;I)V
+    invoke-static {p0, p2, p3, v0}, Lcom/dexterous/flutterlocalnotifications/a0;->a(Lcom/dexterous/flutterlocalnotifications/ForegroundService;ILandroid/app/Notification;I)V
 
     .line 53
     .line 54
@@ -413,9 +410,4 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method

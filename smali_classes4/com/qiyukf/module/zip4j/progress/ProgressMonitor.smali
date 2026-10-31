@@ -54,6 +54,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private reset()V
@@ -88,6 +90,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -168,6 +172,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getException()Ljava/lang/Exception;
@@ -196,6 +202,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFileName()Ljava/lang/String;
@@ -224,6 +232,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getResult()Lcom/qiyukf/module/zip4j/progress/enums/Result;
@@ -252,6 +262,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getState()Lcom/qiyukf/module/zip4j/progress/enums/State;
@@ -280,6 +292,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isCancelAllTasks()Z
@@ -308,6 +322,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setCurrentTask(Lcom/qiyukf/module/zip4j/progress/enums/Task;)V
@@ -341,6 +357,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setException(Ljava/lang/Exception;)V
@@ -374,6 +392,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFileName(Ljava/lang/String;)V
@@ -407,6 +427,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setResult(Lcom/qiyukf/module/zip4j/progress/enums/Result;)V
@@ -440,6 +462,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setState(Lcom/qiyukf/module/zip4j/progress/enums/State;)V
@@ -473,6 +497,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTotalWork(J)V
@@ -506,6 +532,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public updateWorkCompleted(J)V
@@ -643,4 +671,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

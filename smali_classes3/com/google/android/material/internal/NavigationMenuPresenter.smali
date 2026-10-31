@@ -249,15 +249,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/internal/NavigationMenuPresenter;)I
@@ -290,7 +281,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private hasHeader()Z
@@ -332,7 +322,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private updateTopPadding()V
@@ -467,15 +456,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -526,7 +506,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public collapseItemActionView(Landroidx/appcompat/view/menu/MenuBuilder;Landroidx/appcompat/view/menu/MenuItemImpl;)Z
@@ -667,8 +646,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public expandItemActionView(Landroidx/appcompat/view/menu/MenuBuilder;Landroidx/appcompat/view/menu/MenuItemImpl;)Z
@@ -721,7 +698,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDividerInsetEnd()I
@@ -754,7 +730,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDividerInsetStart()I
@@ -787,7 +762,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHeaderCount()I
@@ -822,7 +796,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHeaderView(I)Landroid/view/View;
@@ -859,7 +832,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getId()I
@@ -890,7 +862,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemBackground()Landroid/graphics/drawable/Drawable;
@@ -923,7 +894,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemHorizontalPadding()I
@@ -954,7 +924,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemIconPadding()I
@@ -985,7 +954,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemMaxLines()I
@@ -1016,7 +984,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemTextColor()Landroid/content/res/ColorStateList;
@@ -1049,7 +1016,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemTintList()Landroid/content/res/ColorStateList;
@@ -1082,7 +1048,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemVerticalPadding()I
@@ -1115,7 +1080,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMenuView(Landroid/view/ViewGroup;)Landroidx/appcompat/view/menu/MenuView;
@@ -1288,8 +1252,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public getSubheaderInsetEnd()I
@@ -1322,7 +1284,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSubheaderInsetStart()I
@@ -1355,7 +1316,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public inflateHeaderView(I)Landroid/view/View;
@@ -1402,7 +1362,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public initForMenu(Landroid/content/Context;Landroidx/appcompat/view/menu/MenuBuilder;)V
@@ -1497,11 +1456,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public isBehindStatusBar()Z
@@ -1532,7 +1486,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V
@@ -1606,11 +1559,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -1753,8 +1701,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -1914,15 +1860,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onSubMenuSelected(Landroidx/appcompat/view/menu/SubMenuBuilder;)Z
@@ -1988,7 +1925,6 @@
     .line 24
     :cond_0
     return-void
-    .line 25
 .end method
 
 .method public setBehindStatusBar(Z)V
@@ -2028,7 +1964,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCallback(Landroidx/appcompat/view/menu/MenuPresenter$Callback;)V
@@ -2061,7 +1996,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCheckedItem(Landroidx/appcompat/view/menu/MenuItemImpl;)V
@@ -2100,7 +2034,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDividerInsetEnd(I)V
@@ -2141,7 +2074,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDividerInsetStart(I)V
@@ -2182,7 +2114,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setId(I)V
@@ -2215,7 +2146,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemBackground(Landroid/graphics/drawable/Drawable;)V
@@ -2256,7 +2186,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemForeground(Landroid/graphics/drawable/RippleDrawable;)V
@@ -2297,7 +2226,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemHorizontalPadding(I)V
@@ -2334,7 +2262,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemIconPadding(I)V
@@ -2371,7 +2298,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemIconSize(I)V
@@ -2421,7 +2347,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemIconTintList(Landroid/content/res/ColorStateList;)V
@@ -2462,7 +2387,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemMaxLines(I)V
@@ -2499,7 +2423,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemTextAppearance(I)V
@@ -2540,7 +2463,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemTextAppearanceActiveBoldEnabled(Z)V
@@ -2577,7 +2499,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemTextColor(Landroid/content/res/ColorStateList;)V
@@ -2618,7 +2539,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setItemVerticalPadding(I)V
@@ -2659,7 +2579,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOverScrollMode(I)V
@@ -2699,7 +2618,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSubheaderColor(Landroid/content/res/ColorStateList;)V
@@ -2740,7 +2658,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSubheaderInsetEnd(I)V
@@ -2781,7 +2698,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSubheaderInsetStart(I)V
@@ -2822,7 +2738,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSubheaderTextAppearance(I)V
@@ -2863,7 +2778,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUpdateSuspended(Z)V
@@ -2901,7 +2815,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateMenuView(Z)V
@@ -2939,5 +2852,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

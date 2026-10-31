@@ -3,40 +3,42 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/core/impl/SessionConfig$ErrorListener;
+.field public final synthetic a:Landroidx/camera/camera2/internal/Camera2CameraControlImpl;
 
-.field public final synthetic b:Landroidx/camera/core/impl/SessionConfig;
+.field public final synthetic b:J
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/core/impl/SessionConfig$ErrorListener;Landroidx/camera/core/impl/SessionConfig;)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CameraControlImpl;J)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/h;->a:Landroidx/camera/core/impl/SessionConfig$ErrorListener;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/h;->a:Landroidx/camera/camera2/internal/Camera2CameraControlImpl;
 
-    iput-object p2, p0, Landroidx/camera/camera2/internal/h;->b:Landroidx/camera/core/impl/SessionConfig;
+    iput-wide p2, p0, Landroidx/camera/camera2/internal/h;->b:J
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 2
+.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/h;->a:Landroidx/camera/core/impl/SessionConfig$ErrorListener;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/h;->a:Landroidx/camera/camera2/internal/Camera2CameraControlImpl;
 
-    iget-object v1, p0, Landroidx/camera/camera2/internal/h;->b:Landroidx/camera/core/impl/SessionConfig;
+    iget-wide v1, p0, Landroidx/camera/camera2/internal/h;->b:J
 
-    invoke-static {v0, v1}, Landroidx/camera/camera2/internal/Camera2CameraImpl;->b(Landroidx/camera/core/impl/SessionConfig$ErrorListener;Landroidx/camera/core/impl/SessionConfig;)V
+    invoke-static {v0, v1, v2, p1}, Landroidx/camera/camera2/internal/Camera2CameraControlImpl;->a(Landroidx/camera/camera2/internal/Camera2CameraControlImpl;JLandroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
 
-    return-void
+    move-result-object p1
+
+    return-object p1
 .end method

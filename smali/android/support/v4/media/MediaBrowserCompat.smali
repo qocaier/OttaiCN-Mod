@@ -86,6 +86,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/content/ComponentName;Landroid/support/v4/media/MediaBrowserCompat$ConnectionCallback;Landroid/os/Bundle;)V
@@ -345,6 +346,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -383,6 +390,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public disconnect()V
@@ -413,6 +421,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExtras()Landroid/os/Bundle;
@@ -447,6 +456,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getItem(Ljava/lang/String;Landroid/support/v4/media/MediaBrowserCompat$ItemCallback;)V
@@ -553,6 +563,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRoot()Ljava/lang/String;
@@ -587,6 +598,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getServiceComponent()Landroid/content/ComponentName;
@@ -621,6 +633,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSessionToken()Landroid/support/v4/media/session/MediaSessionCompat$Token;
@@ -655,6 +668,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isConnected()Z
@@ -687,6 +701,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public search(Ljava/lang/String;Landroid/os/Bundle;Landroid/support/v4/media/MediaBrowserCompat$SearchCallback;)V
@@ -844,6 +859,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public sendCustomAction(Ljava/lang/String;Landroid/os/Bundle;Landroid/support/v4/media/MediaBrowserCompat$CustomActionCallback;)V
@@ -990,6 +1008,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public subscribe(Ljava/lang/String;Landroid/os/Bundle;Landroid/support/v4/media/MediaBrowserCompat$SubscriptionCallback;)V

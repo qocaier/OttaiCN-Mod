@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Landroid/os/Parcelable;
-.implements Lg2/e$a;
+.implements Li/e;
 
 
 # static fields
@@ -38,11 +38,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lanetwork/channel/aidl/h;
+    new-instance v0, Lj/d;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lanetwork/channel/aidl/h;-><init>()V
+    invoke-direct {v0}, Lj/d;-><init>()V
 
     .line 4
     .line 5
@@ -64,6 +64,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(I)V
@@ -82,7 +83,7 @@
 
     if-eqz p3, :cond_0
 
-    .line 3
+    .line 2
     iget-object v0, p3, Lanet/channel/request/Request;->a:Lanet/channel/statist/RequestStatistic;
 
     goto :goto_0
@@ -99,24 +100,24 @@
 .method public constructor <init>(ILjava/lang/String;Lanet/channel/request/Request;Lanet/channel/statist/RequestStatistic;)V
     .locals 1
 
-    .line 4
+    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
+    .line 4
     new-instance v0, Lanetwork/channel/statist/StatisticData;
 
     invoke-direct {v0}, Lanetwork/channel/statist/StatisticData;-><init>()V
 
     iput-object v0, p0, Lanetwork/channel/aidl/DefaultFinishEvent;->d:Lanetwork/channel/statist/StatisticData;
 
-    .line 6
+    .line 5
     iput p1, p0, Lanetwork/channel/aidl/DefaultFinishEvent;->b:I
 
     if-eqz p2, :cond_0
 
     goto :goto_0
 
-    .line 7
+    .line 6
     :cond_0
     invoke-static {p1}, Lanet/channel/util/ErrorConstant;->getErrMsg(I)Ljava/lang/String;
 
@@ -125,22 +126,11 @@
     :goto_0
     iput-object p2, p0, Lanetwork/channel/aidl/DefaultFinishEvent;->c:Ljava/lang/String;
 
-    .line 8
+    .line 7
     iput-object p3, p0, Lanetwork/channel/aidl/DefaultFinishEvent;->f:Lanet/channel/request/Request;
 
-    .line 9
+    .line 8
     iput-object p4, p0, Lanetwork/channel/aidl/DefaultFinishEvent;->e:Lanet/channel/statist/RequestStatistic;
-
-    return-void
-.end method
-
-.method public constructor <init>(ILjava/lang/String;Lanet/channel/statist/RequestStatistic;)V
-    .locals 1
-
-    const/4 v0, 0x0
-
-    .line 2
-    invoke-direct {p0, p1, p2, v0, p3}, Lanetwork/channel/aidl/DefaultFinishEvent;-><init>(ILjava/lang/String;Lanet/channel/request/Request;Lanet/channel/statist/RequestStatistic;)V
 
     return-void
 .end method
@@ -257,66 +247,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
 # virtual methods
-.method public a()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lanetwork/channel/aidl/DefaultFinishEvent;->b:I
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public c()Ljava/lang/Object;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lanetwork/channel/aidl/DefaultFinishEvent;->a:Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
 .method public d(Ljava/lang/Object;)V
     .locals 0
 
@@ -358,35 +293,7 @@
     return v0
 .end method
 
-.method public e()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lanetwork/channel/aidl/DefaultFinishEvent;->c:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public g()Lanetwork/channel/statist/StatisticData;
+.method public e()Lanetwork/channel/statist/StatisticData;
     .locals 1
 
     .line 1
@@ -412,6 +319,65 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+.end method
+
+.method public f()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lanetwork/channel/aidl/DefaultFinishEvent;->c:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+.end method
+
+.method public g()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lanetwork/channel/aidl/DefaultFinishEvent;->b:I
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -548,6 +514,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V

@@ -183,6 +183,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCropRect()Landroid/graphics/Rect;
@@ -217,6 +218,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFormat()I
@@ -249,6 +251,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeight()I
@@ -281,6 +284,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImage()Landroid/media/Image;
@@ -318,6 +322,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImageInfo()Landroidx/camera/core/ImageInfo;
@@ -352,6 +357,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPlanes()[Landroidx/camera/core/ImageProxy$PlaneProxy;
@@ -386,6 +392,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWidth()I
@@ -418,6 +425,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public notifyOnImageCloseListeners()V
@@ -555,6 +563,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setCropRect(Landroid/graphics/Rect;)V

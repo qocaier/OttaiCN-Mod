@@ -231,7 +231,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -364,15 +363,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/datepicker/MaterialDatePicker;)Ljava/util/LinkedHashSet;
@@ -405,7 +395,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/datepicker/MaterialDatePicker;)Ljava/util/LinkedHashSet;
@@ -438,7 +427,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$200(Lcom/google/android/material/datepicker/MaterialDatePicker;)Lcom/google/android/material/datepicker/DateSelector;
@@ -473,7 +461,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$300(Lcom/google/android/material/datepicker/MaterialDatePicker;)Landroid/widget/Button;
@@ -506,7 +493,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static createHeaderToggleDrawable(Landroid/content/Context;)Landroid/graphics/drawable/Drawable;
@@ -636,8 +622,105 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
+.end method
+
+.method public static synthetic e(Lcom/google/android/material/datepicker/MaterialDatePicker;Landroid/view/View;)V
+    .locals 1
+
+    .line 1
+    iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->confirmButton:Landroid/widget/Button;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Lcom/google/android/material/datepicker/MaterialDatePicker;->getDateSelector()Lcom/google/android/material/datepicker/DateSelector;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    invoke-interface {v0}, Lcom/google/android/material/datepicker/DateSelector;->isSelectionComplete()Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v0
+
+    .line 11
+    invoke-virtual {p1, v0}, Landroid/view/View;->setEnabled(Z)V
+
+    .line 12
+    .line 13
+    .line 14
+    iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->headerToggleButton:Lcom/google/android/material/internal/CheckableImageButton;
+
+    .line 15
+    .line 16
+    invoke-virtual {p1}, Lcom/google/android/material/internal/CheckableImageButton;->toggle()V
+
+    .line 17
+    .line 18
+    .line 19
+    iget p1, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->inputMode:I
+
+    .line 20
+    .line 21
+    const/4 v0, 0x1
+
+    .line 22
+    if-ne p1, v0, :cond_0
+
+    .line 23
+    .line 24
+    const/4 v0, 0x0
+
+    .line 25
+    :cond_0
+    iput v0, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->inputMode:I
+
+    .line 26
+    .line 27
+    iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->headerToggleButton:Lcom/google/android/material/internal/CheckableImageButton;
+
+    .line 28
+    .line 29
+    invoke-direct {p0, p1}, Lcom/google/android/material/datepicker/MaterialDatePicker;->updateToggleContentDescription(Lcom/google/android/material/internal/CheckableImageButton;)V
+
+    .line 30
+    .line 31
+    .line 32
+    invoke-direct {p0}, Lcom/google/android/material/datepicker/MaterialDatePicker;->startPickerFragment()V
+
+    .line 33
+    .line 34
+    .line 35
+    return-void
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
 .end method
 
 .method private enableEdgeToEdgeIfNeeded(Landroid/view/Window;)V
@@ -780,112 +863,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
-.end method
-
-.method public static synthetic g(Lcom/google/android/material/datepicker/MaterialDatePicker;Landroid/view/View;)V
-    .locals 1
-
-    .line 1
-    iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->confirmButton:Landroid/widget/Button;
-
-    .line 2
-    .line 3
-    invoke-direct {p0}, Lcom/google/android/material/datepicker/MaterialDatePicker;->getDateSelector()Lcom/google/android/material/datepicker/DateSelector;
-
-    .line 4
-    .line 5
-    .line 6
-    move-result-object v0
-
-    .line 7
-    invoke-interface {v0}, Lcom/google/android/material/datepicker/DateSelector;->isSelectionComplete()Z
-
-    .line 8
-    .line 9
-    .line 10
-    move-result v0
-
-    .line 11
-    invoke-virtual {p1, v0}, Landroid/view/View;->setEnabled(Z)V
-
-    .line 12
-    .line 13
-    .line 14
-    iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->headerToggleButton:Lcom/google/android/material/internal/CheckableImageButton;
-
-    .line 15
-    .line 16
-    invoke-virtual {p1}, Lcom/google/android/material/internal/CheckableImageButton;->toggle()V
-
-    .line 17
-    .line 18
-    .line 19
-    iget p1, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->inputMode:I
-
-    .line 20
-    .line 21
-    const/4 v0, 0x1
-
-    .line 22
-    if-ne p1, v0, :cond_0
-
-    .line 23
-    .line 24
-    const/4 v0, 0x0
-
-    .line 25
-    :cond_0
-    iput v0, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->inputMode:I
-
-    .line 26
-    .line 27
-    iget-object p1, p0, Lcom/google/android/material/datepicker/MaterialDatePicker;->headerToggleButton:Lcom/google/android/material/internal/CheckableImageButton;
-
-    .line 28
-    .line 29
-    invoke-direct {p0, p1}, Lcom/google/android/material/datepicker/MaterialDatePicker;->updateToggleContentDescription(Lcom/google/android/material/internal/CheckableImageButton;)V
-
-    .line 30
-    .line 31
-    .line 32
-    invoke-direct {p0}, Lcom/google/android/material/datepicker/MaterialDatePicker;->startPickerFragment()V
-
-    .line 33
-    .line 34
-    .line 35
-    return-void
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private getDateSelector()Lcom/google/android/material/datepicker/DateSelector;
@@ -942,7 +919,6 @@
     .line 21
     return-object v0
     .line 22
-    .line 23
 .end method
 
 .method private static getFirstLineBySeparator(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
@@ -1007,7 +983,6 @@
     return-object p0
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getHeaderContentDescription()Ljava/lang/String;
@@ -1048,7 +1023,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static getPaddedPickerWidth(Landroid/content/Context;)I
@@ -1190,8 +1164,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getThemeResId(Landroid/content/Context;)I
@@ -1237,7 +1209,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private initHeaderToggle(Landroid/content/Context;)V
@@ -1327,11 +1298,11 @@
 
     .line 41
     .line 42
-    new-instance v0, Lsa/c;
+    new-instance v0, Lcom/google/android/material/datepicker/e;
 
     .line 43
     .line 44
-    invoke-direct {v0, p0}, Lsa/c;-><init>(Lcom/google/android/material/datepicker/MaterialDatePicker;)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/datepicker/e;-><init>(Lcom/google/android/material/datepicker/MaterialDatePicker;)V
 
     .line 45
     .line 46
@@ -1383,8 +1354,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static isFullscreen(Landroid/content/Context;)Z
@@ -1425,7 +1394,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private isLandscape()Z
@@ -1475,7 +1443,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static isNestedScrollable(Landroid/content/Context;)Z
@@ -1516,7 +1483,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static newInstance(Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;)Lcom/google/android/material/datepicker/MaterialDatePicker;
@@ -1708,8 +1674,6 @@
     .line 90
     .line 91
     return-object v0
-    .line 92
-    .line 93
 .end method
 
 .method public static readMaterialCalendarStyleBoolean(Landroid/content/Context;I)Z
@@ -1808,11 +1772,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private startPickerFragment()V
@@ -1992,15 +1951,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static thisMonthInUtcMilliseconds()J
@@ -2035,7 +1985,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static todayInUtcMilliseconds()J
@@ -2072,7 +2021,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private updateTitle()V
@@ -2125,7 +2073,6 @@
     .line 21
     .line 22
     return-void
-    .line 23
 .end method
 
 .method private updateToggleContentDescription(Lcom/google/android/material/internal/CheckableImageButton;)V
@@ -2261,8 +2208,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -2301,7 +2246,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)Z
@@ -2338,7 +2282,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addOnNegativeButtonClickListener(Landroid/view/View$OnClickListener;)Z
@@ -2375,7 +2318,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addOnPositiveButtonClickListener(Lcom/google/android/material/datepicker/MaterialPickerOnPositiveButtonClickListener;)Z
@@ -2419,7 +2361,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public clearOnCancelListeners()V
@@ -2452,7 +2393,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public clearOnDismissListeners()V
@@ -2485,7 +2425,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public clearOnNegativeButtonClickListeners()V
@@ -2518,7 +2457,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public clearOnPositiveButtonClickListeners()V
@@ -2551,7 +2489,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHeaderText()Ljava/lang/String;
@@ -2592,7 +2529,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInputMode()I
@@ -2623,7 +2559,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getSelection()Ljava/lang/Object;
@@ -2668,7 +2603,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final onCancel(Landroid/content/DialogInterface;)V
@@ -2796,8 +2730,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public final onCreate(Landroid/os/Bundle;)V
@@ -3349,6 +3281,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public final onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
@@ -3538,8 +3502,6 @@
     .line 90
     .line 91
     return-object p1
-    .line 92
-    .line 93
 .end method
 
 .method public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
@@ -4818,50 +4780,6 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method public final onDismiss(Landroid/content/DialogInterface;)V
@@ -5000,8 +4918,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public final onSaveInstanceState(Landroid/os/Bundle;)V
@@ -5517,6 +5433,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public onStart()V
@@ -5699,15 +5647,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onStop()V
@@ -5742,7 +5681,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public removeOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)Z
@@ -5779,7 +5717,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeOnDismissListener(Landroid/content/DialogInterface$OnDismissListener;)Z
@@ -5816,7 +5753,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeOnNegativeButtonClickListener(Landroid/view/View$OnClickListener;)Z
@@ -5853,7 +5789,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeOnPositiveButtonClickListener(Lcom/google/android/material/datepicker/MaterialPickerOnPositiveButtonClickListener;)Z
@@ -5897,7 +5832,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateHeader(Ljava/lang/String;)V
@@ -5942,5 +5876,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

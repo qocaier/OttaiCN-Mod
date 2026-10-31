@@ -134,6 +134,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImportantForAccessibilityItemCount()I
@@ -177,6 +178,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getItemCount()I
@@ -220,6 +222,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRowCount()I
@@ -254,6 +257,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSelectionMode()I
@@ -288,6 +292,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isHierarchical()Z
@@ -322,4 +327,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

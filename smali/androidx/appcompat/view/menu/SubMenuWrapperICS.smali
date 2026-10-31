@@ -107,6 +107,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getItem()Landroid/view/MenuItem;
@@ -143,6 +144,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setHeaderIcon(I)Landroid/view/SubMenu;

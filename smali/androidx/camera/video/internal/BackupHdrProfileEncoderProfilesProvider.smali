@@ -60,11 +60,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Ld0/a;
+    new-instance v0, Landroidx/camera/video/internal/a;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ld0/a;-><init>()V
+    invoke-direct {v0}, Landroidx/camera/video/internal/a;-><init>()V
 
     .line 4
     .line 5
@@ -90,6 +90,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroidx/camera/core/impl/EncoderProfilesProvider;Landroidx/arch/core/util/Function;)V
@@ -400,6 +401,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static deriveCodec(I)I
@@ -529,6 +533,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static deriveMediaType(I)Ljava/lang/String;
@@ -707,6 +712,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static generateBackupProfile(Landroidx/camera/core/impl/EncoderProfilesProxy$VideoProfileProxy;II)Landroidx/camera/core/impl/EncoderProfilesProxy$VideoProfileProxy;
@@ -912,6 +918,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private getProfilesInternal(I)Landroidx/camera/core/impl/EncoderProfilesProxy;
@@ -1060,6 +1069,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static modifyBitrate(Landroidx/camera/core/impl/EncoderProfilesProxy$VideoProfileProxy;I)Landroidx/camera/core/impl/EncoderProfilesProxy$VideoProfileProxy;
@@ -1337,6 +1347,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static toVideoEncoderConfig(Landroidx/camera/core/impl/EncoderProfilesProxy$VideoProfileProxy;)Landroidx/camera/video/internal/encoder/VideoEncoderConfig;
@@ -1492,6 +1505,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static validateOrAdapt(Landroidx/camera/core/impl/EncoderProfilesProxy$VideoProfileProxy;)Landroidx/camera/core/impl/EncoderProfilesProxy$VideoProfileProxy;
@@ -1634,6 +1648,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 

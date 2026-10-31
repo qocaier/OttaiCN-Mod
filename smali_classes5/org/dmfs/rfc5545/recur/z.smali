@@ -1,49 +1,56 @@
 .class public final Lorg/dmfs/rfc5545/recur/z;
-.super Lorg/dmfs/rfc5545/recur/ByExpander;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Lorg/dmfs/rfc5545/recur/f;
 
 
 # instance fields
-.field public final i:[I
+.field public final a:[I
+
+.field public final b:Lorg/dmfs/rfc5545/calendarmetrics/a;
 
 
 # direct methods
-.method public constructor <init>(Lorg/dmfs/rfc5545/recur/RecurrenceRule;Lpq/g;Lorg/dmfs/rfc5545/calendarmetrics/a;J)V
+.method public constructor <init>(Lorg/dmfs/rfc5545/recur/RecurrenceRule;Lorg/dmfs/rfc5545/calendarmetrics/a;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p2, p3, p4, p5}, Lorg/dmfs/rfc5545/recur/ByExpander;-><init>(Lpq/g;Lorg/dmfs/rfc5545/calendarmetrics/a;J)V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    sget-object p2, Lorg/dmfs/rfc5545/recur/RecurrenceRule$Part;->BYYEARDAY:Lorg/dmfs/rfc5545/recur/RecurrenceRule$Part;
+    iput-object p2, p0, Lorg/dmfs/rfc5545/recur/z;->b:Lorg/dmfs/rfc5545/calendarmetrics/a;
 
     .line 5
     .line 6
-    invoke-virtual {p1, p2}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->d(Lorg/dmfs/rfc5545/recur/RecurrenceRule$Part;)Ljava/util/List;
+    sget-object p2, Lorg/dmfs/rfc5545/recur/RecurrenceRule$Part;->BYYEARDAY:Lorg/dmfs/rfc5545/recur/RecurrenceRule$Part;
 
     .line 7
     .line 8
+    invoke-virtual {p1, p2}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->d(Lorg/dmfs/rfc5545/recur/RecurrenceRule$Part;)Ljava/util/List;
+
     .line 9
-    move-result-object p1
-
     .line 10
-    invoke-static {p1}, Lpq/j;->b(Ljava/util/List;)[I
-
     .line 11
-    .line 12
-    .line 13
     move-result-object p1
 
-    .line 14
-    iput-object p1, p0, Lorg/dmfs/rfc5545/recur/z;->i:[I
+    .line 12
+    invoke-static {p1}, Lorg/dmfs/rfc5545/recur/i0;->a(Ljava/util/List;)[I
 
+    .line 13
+    .line 14
     .line 15
+    move-result-object p1
+
     .line 16
-    return-void
+    iput-object p1, p0, Lorg/dmfs/rfc5545/recur/z;->a:[I
+
     .line 17
     .line 18
+    return-void
     .line 19
     .line 20
     .line 21
@@ -150,274 +157,4 @@
     .line 122
     .line 123
     .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-.end method
-
-
-# virtual methods
-.method public f(JJ)V
-    .locals 9
-
-    .line 1
-    invoke-static {p1, p2}, Lnq/c;->z(J)I
-
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
-
-    .line 5
-    invoke-static {p1, p2}, Lnq/c;->h(J)I
-
-    .line 6
-    .line 7
-    .line 8
-    move-result v1
-
-    .line 9
-    iget-object v2, p0, Lorg/dmfs/rfc5545/recur/ByExpander;->e:Lorg/dmfs/rfc5545/calendarmetrics/a;
-
-    .line 10
-    .line 11
-    invoke-virtual {v2, v0}, Lorg/dmfs/rfc5545/calendarmetrics/a;->g(I)I
-
-    .line 12
-    .line 13
-    .line 14
-    move-result v2
-
-    .line 15
-    iget-object v3, p0, Lorg/dmfs/rfc5545/recur/ByExpander;->e:Lorg/dmfs/rfc5545/calendarmetrics/a;
-
-    .line 16
-    .line 17
-    invoke-static {p3, p4}, Lnq/c;->z(J)I
-
-    .line 18
-    .line 19
-    .line 20
-    move-result v4
-
-    .line 21
-    invoke-static {p3, p4}, Lnq/c;->h(J)I
-
-    .line 22
-    .line 23
-    .line 24
-    move-result v5
-
-    .line 25
-    invoke-static {p3, p4}, Lnq/c;->a(J)I
-
-    .line 26
-    .line 27
-    .line 28
-    move-result v6
-
-    .line 29
-    invoke-virtual {v3, v4, v5, v6}, Lorg/dmfs/rfc5545/calendarmetrics/a;->e(III)I
-
-    .line 30
-    .line 31
-    .line 32
-    move-result v3
-
-    .line 33
-    iget-object v4, p0, Lorg/dmfs/rfc5545/recur/z;->i:[I
-
-    .line 34
-    .line 35
-    array-length v5, v4
-
-    .line 36
-    const/4 v6, 0x0
-
-    .line 37
-    :goto_0
-    if-ge v6, v5, :cond_3
-
-    .line 38
-    .line 39
-    aget v7, v4, v6
-
-    .line 40
-    .line 41
-    if-gez v7, :cond_0
-
-    .line 42
-    .line 43
-    add-int/2addr v7, v2
-
-    .line 44
-    add-int/lit8 v7, v7, 0x1
-
-    .line 45
-    .line 46
-    :cond_0
-    if-lez v7, :cond_2
-
-    .line 47
-    .line 48
-    if-gt v7, v2, :cond_2
-
-    .line 49
-    .line 50
-    if-ge v7, v3, :cond_1
-
-    .line 51
-    .line 52
-    invoke-static {p3, p4}, Lnq/c;->z(J)I
-
-    .line 53
-    .line 54
-    .line 55
-    move-result v8
-
-    .line 56
-    if-eq v0, v8, :cond_2
-
-    .line 57
-    .line 58
-    :cond_1
-    iget-object v8, p0, Lorg/dmfs/rfc5545/recur/ByExpander;->e:Lorg/dmfs/rfc5545/calendarmetrics/a;
-
-    .line 59
-    .line 60
-    invoke-virtual {v8, v0, v7}, Lorg/dmfs/rfc5545/calendarmetrics/a;->k(II)I
-
-    .line 61
-    .line 62
-    .line 63
-    move-result v7
-
-    .line 64
-    invoke-static {v7}, Lorg/dmfs/rfc5545/calendarmetrics/a;->C(I)I
-
-    .line 65
-    .line 66
-    .line 67
-    move-result v8
-
-    .line 68
-    if-ne v8, v1, :cond_2
-
-    .line 69
-    .line 70
-    invoke-static {v7}, Lorg/dmfs/rfc5545/calendarmetrics/a;->a(I)I
-
-    .line 71
-    .line 72
-    .line 73
-    move-result v7
-
-    .line 74
-    invoke-static {p1, p2, v8, v7}, Lnq/c;->o(JII)J
-
-    .line 75
-    .line 76
-    .line 77
-    move-result-wide v7
-
-    .line 78
-    invoke-virtual {p0, v7, v8}, Lorg/dmfs/rfc5545/recur/ByExpander;->e(J)V
-
-    .line 79
-    .line 80
-    .line 81
-    :cond_2
-    add-int/lit8 v6, v6, 0x1
-
-    .line 82
-    .line 83
-    goto :goto_0
-
-    .line 84
-    :cond_3
-    return-void
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
 .end method

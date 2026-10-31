@@ -153,6 +153,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public varargs constructor <init>([Ljava/util/Locale;)V
@@ -515,6 +517,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private computeFirstMatch(Ljava/util/Collection;Z)Ljava/util/Locale;
@@ -930,6 +937,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private findFirstMatchIndex(Ljava/util/Locale;)I
@@ -1432,6 +1442,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static toLanguageTag(Ljava/lang/StringBuilder;Ljava/util/Locale;)V
@@ -1661,6 +1674,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public get(I)Ljava/util/Locale;
@@ -1808,6 +1822,7 @@
     .line 20
     :cond_0
     return v2
+    .line 21
 .end method
 
 .method public indexOf(Ljava/util/Locale;)I
@@ -1905,6 +1920,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public size()I
@@ -1935,6 +1951,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toLanguageTags()Ljava/lang/String;
@@ -1963,6 +1980,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -2100,4 +2118,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

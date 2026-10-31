@@ -70,6 +70,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/module/zip4j/tasks/RenameFilesTask$RenameFilesTaskParameters;)Ljava/util/Map;
@@ -103,4 +105,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

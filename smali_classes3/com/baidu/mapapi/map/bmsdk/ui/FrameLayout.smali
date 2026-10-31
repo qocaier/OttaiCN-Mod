@@ -44,7 +44,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -90,7 +89,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getBmBaseUI()Lcom/baidu/platform/comapi/bmsdk/ui/BmBaseUI;
@@ -121,7 +119,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setBackground(Lcom/baidu/mapapi/map/BitmapDescriptor;)V
@@ -169,7 +166,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundColor(I)V
@@ -204,7 +200,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setClickable(Z)V
@@ -239,7 +234,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGravity(I)V
@@ -274,7 +268,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMargin(IIII)V
@@ -527,6 +520,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public setPadding(IIII)V
@@ -779,6 +788,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public updateAddView(Lcom/baidu/mapapi/map/bmsdk/ui/BaseUI;Lcom/baidu/mapapi/map/Overlay;)V
@@ -874,11 +899,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public updateBackground(Lcom/baidu/mapapi/map/BitmapDescriptor;Lcom/baidu/mapapi/map/Overlay;)V
@@ -978,11 +998,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public updateBackgroundColor(ILcom/baidu/mapapi/map/Overlay;)V
@@ -1072,11 +1087,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public updateClickable(ZLcom/baidu/mapapi/map/Overlay;)V
@@ -1166,11 +1176,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public updateGravity(ILcom/baidu/mapapi/map/Overlay;)V
@@ -1260,9 +1265,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

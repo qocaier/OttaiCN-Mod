@@ -4,15 +4,11 @@
 
 
 # static fields
-.field public static final k:Lorg/dmfs/rfc5545/calendarmetrics/a$a;
-
-.field public static final l:Ljava/lang/String; = "JULIAN"
-
-.field public static final m:Ljava/lang/String; = "JULIUS"
+.field public static final i:Lorg/dmfs/rfc5545/calendarmetrics/a$a;
 
 
 # instance fields
-.field public j:Lorg/dmfs/rfc5545/calendarmetrics/b;
+.field public h:Lorg/dmfs/rfc5545/calendarmetrics/b;
 
 
 # direct methods
@@ -23,7 +19,7 @@
 
     invoke-direct {v0}, Lorg/dmfs/rfc5545/calendarmetrics/c$a;-><init>()V
 
-    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/c;->k:Lorg/dmfs/rfc5545/calendarmetrics/a$a;
+    sput-object v0, Lorg/dmfs/rfc5545/calendarmetrics/c;->i:Lorg/dmfs/rfc5545/calendarmetrics/a$a;
 
     return-void
 .end method
@@ -38,7 +34,43 @@
 
 
 # virtual methods
-.method public N(JLjava/util/TimeZone;)J
+.method public b(II)I
+    .locals 0
+
+    .line 1
+    add-int/lit8 p1, p1, -0x1
+
+    add-int/lit8 p2, p2, 0x5
+
+    add-int/2addr p2, p1
+
+    shr-int/lit8 p1, p1, 0x2
+
+    add-int/2addr p2, p1
+
+    rem-int/lit8 p2, p2, 0x7
+
+    return p2
+.end method
+
+.method public h(I)I
+    .locals 1
+
+    .line 1
+    add-int/lit8 v0, p1, -0x1
+
+    add-int/lit8 p1, p1, 0x5
+
+    shr-int/lit8 v0, v0, 0x2
+
+    add-int/2addr p1, v0
+
+    rem-int/lit8 p1, p1, 0x7
+
+    return p1
+.end method
+
+.method public r(JLjava/util/TimeZone;)J
     .locals 6
 
     .line 1
@@ -106,7 +138,7 @@
 
     add-int/lit8 v0, p2, 0x1
 
-    invoke-virtual {p0, v0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->k(II)I
+    invoke-virtual {p0, v0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/b;->g(II)I
 
     move-result p1
 
@@ -114,7 +146,7 @@
 
     div-int p2, p3, p2
 
-    invoke-static {p1}, Lorg/dmfs/rfc5545/calendarmetrics/a;->C(I)I
+    invoke-static {p1}, Lorg/dmfs/rfc5545/calendarmetrics/a;->n(I)I
 
     move-result v1
 
@@ -130,14 +162,14 @@
 
     rem-int/lit8 v5, p3, 0x3c
 
-    invoke-static/range {v0 .. v5}, Lnq/c;->d(IIIIII)J
+    invoke-static/range {v0 .. v5}, Ly9/b;->c(IIIIII)J
 
     move-result-wide p1
 
     return-wide p1
 .end method
 
-.method public P(Ljava/util/TimeZone;IIIIIII)J
+.method public s(Ljava/util/TimeZone;IIIIIII)J
     .locals 17
 
     .line 1
@@ -194,7 +226,7 @@
 
     :cond_1
     :goto_0
-    iget-object v5, v0, Lorg/dmfs/rfc5545/calendarmetrics/c;->j:Lorg/dmfs/rfc5545/calendarmetrics/b;
+    iget-object v5, v0, Lorg/dmfs/rfc5545/calendarmetrics/c;->h:Lorg/dmfs/rfc5545/calendarmetrics/b;
 
     if-nez v5, :cond_2
 
@@ -206,12 +238,12 @@
 
     invoke-direct {v5, v6, v7}, Lorg/dmfs/rfc5545/calendarmetrics/b;-><init>(Lorg/dmfs/rfc5545/Weekday;I)V
 
-    iput-object v5, v0, Lorg/dmfs/rfc5545/calendarmetrics/c;->j:Lorg/dmfs/rfc5545/calendarmetrics/b;
+    iput-object v5, v0, Lorg/dmfs/rfc5545/calendarmetrics/c;->h:Lorg/dmfs/rfc5545/calendarmetrics/b;
 
     :cond_2
     move-object v8, v5
 
-    invoke-virtual {v0, v1, v2}, Lorg/dmfs/rfc5545/calendarmetrics/b;->f(II)I
+    invoke-virtual {v0, v1, v2}, Lorg/dmfs/rfc5545/calendarmetrics/b;->e(II)I
 
     move-result v5
 
@@ -261,7 +293,7 @@
     move v2, v6
 
     :cond_5
-    invoke-virtual {v8, v1, v2}, Lorg/dmfs/rfc5545/calendarmetrics/b;->f(II)I
+    invoke-virtual {v8, v1, v2}, Lorg/dmfs/rfc5545/calendarmetrics/b;->e(II)I
 
     move-result v3
 
@@ -270,14 +302,14 @@
     goto :goto_1
 
     :goto_2
-    invoke-virtual/range {v8 .. v16}, Lorg/dmfs/rfc5545/calendarmetrics/b;->P(Ljava/util/TimeZone;IIIIIII)J
+    invoke-virtual/range {v8 .. v16}, Lorg/dmfs/rfc5545/calendarmetrics/b;->s(Ljava/util/TimeZone;IIIIIII)J
 
     move-result-wide v1
 
     return-wide v1
 .end method
 
-.method public S(IIIIII)J
+.method public v(IIIIII)J
     .locals 4
 
     .line 1
@@ -295,7 +327,7 @@
 
     sub-long/2addr v0, v2
 
-    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/c;->U(I)I
+    invoke-virtual {p0, p1}, Lorg/dmfs/rfc5545/calendarmetrics/c;->y(I)I
 
     move-result p1
 
@@ -340,7 +372,7 @@
     return-wide v0
 .end method
 
-.method public T(I)Z
+.method public x(I)Z
     .locals 0
 
     .line 1
@@ -358,7 +390,7 @@
     return p1
 .end method
 
-.method public U(I)I
+.method public y(I)I
     .locals 0
 
     .line 1
@@ -367,42 +399,6 @@
     shr-int/lit8 p1, p1, 0x2
 
     add-int/lit16 p1, p1, -0x1ec
-
-    return p1
-.end method
-
-.method public c(II)I
-    .locals 0
-
-    .line 1
-    add-int/lit8 p1, p1, -0x1
-
-    add-int/lit8 p2, p2, 0x5
-
-    add-int/2addr p2, p1
-
-    shr-int/lit8 p1, p1, 0x2
-
-    add-int/2addr p2, p1
-
-    rem-int/lit8 p2, p2, 0x7
-
-    return p2
-.end method
-
-.method public n(I)I
-    .locals 1
-
-    .line 1
-    add-int/lit8 v0, p1, -0x1
-
-    add-int/lit8 p1, p1, 0x5
-
-    shr-int/lit8 v0, v0, 0x2
-
-    add-int/2addr p1, v0
-
-    rem-int/lit8 p1, p1, 0x7
 
     return p1
 .end method

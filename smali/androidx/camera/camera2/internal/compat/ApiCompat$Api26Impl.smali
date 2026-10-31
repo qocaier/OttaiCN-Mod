@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static newOutputConfiguration(Landroid/util/Size;Ljava/lang/Class;)Landroid/hardware/camera2/params/OutputConfiguration;
@@ -76,7 +77,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Ln/b;->a(Landroid/util/Size;Ljava/lang/Class;)Landroid/hardware/camera2/params/OutputConfiguration;
+    invoke-static {p0, p1}, Landroidx/camera/camera2/internal/compat/b;->a(Landroid/util/Size;Ljava/lang/Class;)Landroid/hardware/camera2/params/OutputConfiguration;
 
     .line 2
     .line 3
@@ -144,7 +145,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Ln/a;->a(Landroid/hardware/camera2/CameraCaptureSession$StateCallback;Landroid/hardware/camera2/CameraCaptureSession;)V
+    invoke-static {p0, p1}, Landroidx/camera/camera2/internal/compat/a;->a(Landroid/hardware/camera2/CameraCaptureSession$StateCallback;Landroid/hardware/camera2/CameraCaptureSession;)V
 
     .line 2
     .line 3

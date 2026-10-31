@@ -13,16 +13,6 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCircularArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CircularArray.kt\nandroidx/collection/CircularArray\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 CollectionPlatformUtils.jvm.kt\nandroidx/collection/CollectionPlatformUtils\n*L\n1#1,270:1\n1#2:271\n26#3:272\n26#3:273\n26#3:274\n26#3:275\n26#3:276\n26#3:277\n26#3:278\n*S KotlinDebug\n*F\n+ 1 CircularArray.kt\nandroidx/collection/CircularArray\n*L\n104#1:272\n122#1:273\n152#1:274\n187#1:275\n221#1:276\n235#1:277\n249#1:278\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nCircularArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CircularArray.kt\nandroidx/collection/CircularArray\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 CollectionPlatformUtils.jvm.kt\nandroidx/collection/CollectionPlatformUtils\n*L\n1#1,270:1\n1#2:271\n26#3:272\n26#3:273\n26#3:274\n26#3:275\n26#3:276\n26#3:277\n26#3:278\n*S KotlinDebug\n*F\n+ 1 CircularArray.kt\nandroidx/collection/CircularArray\n*L\n104#1:272\n122#1:273\n152#1:274\n187#1:275\n221#1:276\n235#1:277\n249#1:278\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private capacityBitmask:I
@@ -32,9 +22,6 @@
         value = {
             "[TE;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -46,8 +33,6 @@
 # direct methods
 .method public constructor <init>()V
     .locals 3
-    .annotation build Lim/k;
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -56,15 +41,13 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/CircularArray;-><init>(IILkm/v;)V
+    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/CircularArray;-><init>(IILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
 
 .method public constructor <init>(I)V
     .locals 2
-    .annotation build Lim/k;
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -127,7 +110,7 @@
     throw p1
 .end method
 
-.method public synthetic constructor <init>(IILkm/v;)V
+.method public synthetic constructor <init>(IILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p2, p2, 0x1
@@ -177,7 +160,7 @@
     const/4 v6, 0x0
 
     .line 15
-    invoke-static {v0, v5, v6, v2, v1}, Lll/q;->B0([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v0, v5, v6, v2, v1}, Lkotlin/collections/l;->h([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -190,7 +173,7 @@
 
     .line 21
     .line 22
-    invoke-static {v0, v5, v3, v6, v2}, Lll/q;->B0([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v0, v5, v3, v6, v2}, Lkotlin/collections/l;->h([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -274,6 +257,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -422,6 +407,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final get(I)Ljava/lang/Object;
@@ -471,7 +457,7 @@
 
     .line 18
     .line 19
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 20
     .line 21
@@ -542,6 +528,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getFirst()Ljava/lang/Object;
@@ -573,7 +560,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 12
     .line 13
@@ -658,6 +645,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final getLast()Ljava/lang/Object;
@@ -700,7 +689,7 @@
 
     .line 15
     .line 16
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 17
     .line 18
@@ -780,6 +769,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final isEmpty()Z
@@ -819,6 +810,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final popFirst()Ljava/lang/Object;
@@ -945,6 +937,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final popLast()Ljava/lang/Object;
@@ -1071,6 +1065,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final removeFromEnd(I)V
@@ -1241,6 +1237,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final removeFromStart(I)V
@@ -1406,6 +1403,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final size()I
@@ -1442,4 +1440,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

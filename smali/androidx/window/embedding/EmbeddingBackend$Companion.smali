@@ -17,19 +17,11 @@
 # static fields
 .field static final synthetic $$INSTANCE:Landroidx/window/embedding/EmbeddingBackend$Companion;
 
-.field private static decorator:Ljm/l;
+.field private static decorator:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "-",
-            "Landroidx/window/embedding/EmbeddingBackend;",
-            "+",
-            "Landroidx/window/embedding/EmbeddingBackend;",
-            ">;"
+            "Lq8/l;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -56,7 +48,7 @@
 
     .line 9
     .line 10
-    sput-object v0, Landroidx/window/embedding/EmbeddingBackend$Companion;->decorator:Ljm/l;
+    sput-object v0, Landroidx/window/embedding/EmbeddingBackend$Companion;->decorator:Lq8/l;
 
     .line 11
     .line 12
@@ -69,6 +61,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -97,26 +90,17 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final getInstance(Landroid/content/Context;)Landroidx/window/embedding/EmbeddingBackend;
     .locals 2
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -124,12 +108,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/window/embedding/EmbeddingBackend$Companion;->decorator:Ljm/l;
+    sget-object v0, Landroidx/window/embedding/EmbeddingBackend$Companion;->decorator:Lq8/l;
 
     .line 7
     .line 8
@@ -145,7 +129,7 @@
     move-result-object p1
 
     .line 14
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -167,17 +151,10 @@
 
 .method public final overrideDecorator(Landroidx/window/embedding/EmbeddingBackendDecorator;)V
     .locals 1
-    .param p1    # Landroidx/window/embedding/EmbeddingBackendDecorator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
     .end annotation
 
     .line 1
@@ -185,7 +162,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -199,7 +176,7 @@
     .line 9
     .line 10
     .line 11
-    sput-object v0, Landroidx/window/embedding/EmbeddingBackend$Companion;->decorator:Ljm/l;
+    sput-object v0, Landroidx/window/embedding/EmbeddingBackend$Companion;->decorator:Lq8/l;
 
     .line 12
     .line 13
@@ -226,15 +203,12 @@
         }
     .end annotation
 
-    .annotation runtime Lim/o;
-    .end annotation
-
     .line 1
     sget-object v0, Landroidx/window/embedding/EmbeddingBackend$Companion$reset$1;->INSTANCE:Landroidx/window/embedding/EmbeddingBackend$Companion$reset$1;
 
     .line 2
     .line 3
-    sput-object v0, Landroidx/window/embedding/EmbeddingBackend$Companion;->decorator:Ljm/l;
+    sput-object v0, Landroidx/window/embedding/EmbeddingBackend$Companion;->decorator:Lq8/l;
 
     .line 4
     .line 5
@@ -254,4 +228,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

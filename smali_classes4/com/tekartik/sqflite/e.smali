@@ -9,11 +9,9 @@
 # instance fields
 .field public final synthetic a:Lcom/tekartik/sqflite/Database;
 
-.field public final synthetic b:Lcom/tekartik/sqflite/operation/Operation;
-
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
+.method public synthetic constructor <init>(Lcom/tekartik/sqflite/Database;)V
     .locals 0
 
     .line 1
@@ -21,22 +19,18 @@
 
     iput-object p1, p0, Lcom/tekartik/sqflite/e;->a:Lcom/tekartik/sqflite/Database;
 
-    iput-object p2, p0, Lcom/tekartik/sqflite/e;->b:Lcom/tekartik/sqflite/operation/Operation;
-
     return-void
 .end method
 
 
 # virtual methods
 .method public final run()V
-    .locals 2
+    .locals 1
 
     .line 1
     iget-object v0, p0, Lcom/tekartik/sqflite/e;->a:Lcom/tekartik/sqflite/Database;
 
-    iget-object v1, p0, Lcom/tekartik/sqflite/e;->b:Lcom/tekartik/sqflite/operation/Operation;
-
-    invoke-static {v0, v1}, Lcom/tekartik/sqflite/Database;->e(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
+    invoke-static {v0}, Lcom/tekartik/sqflite/Database;->b(Lcom/tekartik/sqflite/Database;)V
 
     return-void
 .end method

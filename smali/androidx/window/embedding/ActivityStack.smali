@@ -12,9 +12,6 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final isEmpty:Z
@@ -23,10 +20,6 @@
 # direct methods
 .method public constructor <init>(Ljava/util/List;Z)V
     .locals 1
-    .param p1    # Ljava/util/List;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
@@ -48,7 +41,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -108,17 +101,13 @@
 # virtual methods
 .method public final contains(Landroid/app/Activity;)Z
     .locals 1
-    .param p1    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "activity"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -153,10 +142,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     const/4 v0, 0x1
@@ -197,7 +182,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -277,6 +262,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getActivitiesInProcess$window_release()Ljava/util/List;
@@ -288,9 +274,6 @@
             "Landroid/app/Activity;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -316,6 +299,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -358,6 +342,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isEmpty()Z
@@ -386,12 +371,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -506,4 +490,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

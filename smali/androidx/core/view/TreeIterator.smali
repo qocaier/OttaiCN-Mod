@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/Iterator;
-.implements Llm/a;
+.implements Lr8/a;
 
 
 # annotations
@@ -16,23 +16,17 @@
         "Ljava/lang/Object;",
         "Ljava/util/Iterator<",
         "TT;>;",
-        "Llm/a;"
+        "Lr8/a;"
     }
 .end annotation
 
 
 # instance fields
-.field private final getChildIterator:Ljm/l;
+.field private final getChildIterator:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "TT;",
-            "Ljava/util/Iterator<",
-            "TT;>;>;"
+            "Lq8/l;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -42,9 +36,6 @@
             "Ljava/util/Iterator<",
             "+TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -56,32 +47,19 @@
             "TT;>;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljava/util/Iterator;Ljm/l;)V
+.method public constructor <init>(Ljava/util/Iterator;Lq8/l;)V
     .locals 0
-    .param p1    # Ljava/util/Iterator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/Iterator<",
             "+TT;>;",
-            "Ljm/l<",
-            "-TT;+",
-            "Ljava/util/Iterator<",
-            "+TT;>;>;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -91,7 +69,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Landroidx/core/view/TreeIterator;->getChildIterator:Ljm/l;
+    iput-object p2, p0, Landroidx/core/view/TreeIterator;->getChildIterator:Lq8/l;
 
     .line 5
     .line 6
@@ -157,11 +135,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/TreeIterator;->getChildIterator:Ljm/l;
+    iget-object v0, p0, Landroidx/core/view/TreeIterator;->getChildIterator:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -251,7 +229,7 @@
 
     .line 46
     .line 47
-    invoke-static {p1}, Lll/r0;->u3(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p1}, Lkotlin/collections/z;->S(Ljava/util/List;)Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -271,7 +249,7 @@
 
     .line 56
     .line 57
-    invoke-static {p1}, Lll/m0;->Q0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p1}, Lkotlin/collections/w;->C(Ljava/util/List;)Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -298,6 +276,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -332,6 +311,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public next()Ljava/lang/Object;
@@ -371,6 +351,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public remove()V

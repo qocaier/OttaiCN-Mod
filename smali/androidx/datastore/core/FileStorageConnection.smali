@@ -18,43 +18,19 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFileStorage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FileStorage.kt\nandroidx/datastore/core/FileStorageConnection\n+ 2 Closeable.kt\nandroidx/datastore/core/CloseableKt\n+ 3 Mutex.kt\nkotlinx/coroutines/sync/MutexKt\n+ 4 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,208:1\n38#2,23:209\n38#2,23:240\n120#3,8:232\n129#3:263\n1#4:264\n*S KotlinDebug\n*F\n+ 1 FileStorage.kt\nandroidx/datastore/core/FileStorageConnection\n*L\n100#1:209,23\n117#1:240,23\n114#1:232,8\n114#1:263\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nFileStorage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FileStorage.kt\nandroidx/datastore/core/FileStorageConnection\n+ 2 Closeable.kt\nandroidx/datastore/core/CloseableKt\n+ 3 Mutex.kt\nkotlinx/coroutines/sync/MutexKt\n+ 4 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,208:1\n38#2,23:209\n38#2,23:240\n120#3,8:232\n129#3:263\n1#4:264\n*S KotlinDebug\n*F\n+ 1 FileStorage.kt\nandroidx/datastore/core/FileStorageConnection\n*L\n100#1:209,23\n117#1:240,23\n114#1:232,8\n114#1:263\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private final closed:Ljava/util/concurrent/atomic/AtomicBoolean;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final coordinator:Landroidx/datastore/core/InterProcessCoordinator;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final file:Ljava/io/File;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field private final onClose:Ljm/a;
+.field private final onClose:Lq8/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/a;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -65,36 +41,14 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
-.field private final transactionMutex:Lrn/a;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final transactionMutex:Lkotlinx/coroutines/sync/a;
 
 
 # direct methods
-.method public constructor <init>(Ljava/io/File;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/InterProcessCoordinator;Ljm/a;)V
+.method public constructor <init>(Ljava/io/File;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/InterProcessCoordinator;Lq8/a;)V
     .locals 1
-    .param p1    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/datastore/core/Serializer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroidx/datastore/core/InterProcessCoordinator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -102,9 +56,8 @@
             "Landroidx/datastore/core/Serializer<",
             "TT;>;",
             "Landroidx/datastore/core/InterProcessCoordinator;",
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/a;",
+            ")V"
         }
     .end annotation
 
@@ -113,7 +66,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -122,7 +75,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -131,7 +84,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -140,7 +93,7 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -162,7 +115,7 @@
 
     .line 29
     .line 30
-    iput-object p4, p0, Landroidx/datastore/core/FileStorageConnection;->onClose:Ljm/a;
+    iput-object p4, p0, Landroidx/datastore/core/FileStorageConnection;->onClose:Lq8/a;
 
     .line 31
     .line 32
@@ -188,7 +141,7 @@
     const/4 p3, 0x0
 
     .line 42
-    invoke-static {p2, p1, p3}, Lkotlinx/coroutines/sync/MutexKt;->b(ZILjava/lang/Object;)Lrn/a;
+    invoke-static {p2, p1, p3}, Lkotlinx/coroutines/sync/MutexKt;->b(ZILjava/lang/Object;)Lkotlinx/coroutines/sync/a;
 
     .line 43
     .line 44
@@ -196,7 +149,7 @@
     move-result-object p1
 
     .line 46
-    iput-object p1, p0, Landroidx/datastore/core/FileStorageConnection;->transactionMutex:Lrn/a;
+    iput-object p1, p0, Landroidx/datastore/core/FileStorageConnection;->transactionMutex:Lkotlinx/coroutines/sync/a;
 
     .line 47
     .line 48
@@ -383,6 +336,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private final checkNotClosed()V
@@ -426,6 +385,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final createParentDirectories(Ljava/io/File;)V
@@ -553,6 +513,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -573,11 +534,11 @@
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/datastore/core/FileStorageConnection;->onClose:Ljm/a;
+    iget-object v0, p0, Landroidx/datastore/core/FileStorageConnection;->onClose:Lq8/a;
 
     .line 8
     .line 9
-    invoke-interface {v0}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -591,12 +552,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCoordinator()Landroidx/datastore/core/InterProcessCoordinator;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/core/FileStorageConnection;->coordinator:Landroidx/datastore/core/InterProcessCoordinator;
@@ -621,40 +581,21 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public readScope(Ljm/q;Lul/c;)Ljava/lang/Object;
+.method public readScope(Lq8/q;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 7
-    .param p1    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Ljm/q<",
-            "-",
-            "Landroidx/datastore/core/ReadScope<",
-            "TT;>;-",
-            "Ljava/lang/Boolean;",
-            "-",
-            "Lul/c<",
-            "-TR;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-TR;>;)",
+            "Lq8/q;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -704,7 +645,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/FileStorageConnection$readScope$1;-><init>(Landroidx/datastore/core/FileStorageConnection;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/FileStorageConnection$readScope$1;-><init>(Landroidx/datastore/core/FileStorageConnection;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -714,7 +655,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -761,7 +702,7 @@
     .line 48
     .line 49
     :try_start_0
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -796,7 +737,7 @@
 
     .line 63
     :cond_2
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 64
     .line 65
@@ -806,11 +747,11 @@
     .line 67
     .line 68
     .line 69
-    iget-object p2, p0, Landroidx/datastore/core/FileStorageConnection;->transactionMutex:Lrn/a;
+    iget-object p2, p0, Landroidx/datastore/core/FileStorageConnection;->transactionMutex:Lkotlinx/coroutines/sync/a;
 
     .line 70
     .line 71
-    invoke-static {p2, v4, v3, v4}, Lrn/a$a;->c(Lrn/a;Ljava/lang/Object;ILjava/lang/Object;)Z
+    invoke-static {p2, v4, v3, v4}, Lkotlinx/coroutines/sync/a$a;->a(Lkotlinx/coroutines/sync/a;Ljava/lang/Object;ILjava/lang/Object;)Z
 
     .line 72
     .line 73
@@ -839,7 +780,7 @@
     .line 83
     .line 84
     :try_start_2
-    invoke-static {p2}, Lxl/a;->a(Z)Ljava/lang/Boolean;
+    invoke-static {p2}, Lk8/a;->a(Z)Ljava/lang/Boolean;
 
     .line 85
     .line 86
@@ -863,7 +804,7 @@
 
     .line 95
     .line 96
-    invoke-interface {p1, v2, v5, v0}, Ljm/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v5, v0}, Lq8/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 97
     .line 98
@@ -924,11 +865,11 @@
 
     .line 117
     .line 118
-    iget-object p1, v0, Landroidx/datastore/core/FileStorageConnection;->transactionMutex:Lrn/a;
+    iget-object p1, v0, Landroidx/datastore/core/FileStorageConnection;->transactionMutex:Lkotlinx/coroutines/sync/a;
 
     .line 119
     .line 120
-    invoke-static {p1, v4, v3, v4}, Lrn/a$a;->d(Lrn/a;Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-static {p1, v4, v3, v4}, Lkotlinx/coroutines/sync/a$a;->b(Lkotlinx/coroutines/sync/a;Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 121
     .line 122
@@ -987,7 +928,7 @@
 
     .line 138
     :try_start_6
-    invoke-static {p2, v1}, Ljl/r;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    invoke-static {p2, v1}, Lkotlin/a;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     .line 139
     .line 140
@@ -1019,11 +960,11 @@
 
     .line 148
     .line 149
-    iget-object p1, v0, Landroidx/datastore/core/FileStorageConnection;->transactionMutex:Lrn/a;
+    iget-object p1, v0, Landroidx/datastore/core/FileStorageConnection;->transactionMutex:Lkotlinx/coroutines/sync/a;
 
     .line 150
     .line 151
-    invoke-static {p1, v4, v3, v4}, Lrn/a$a;->d(Lrn/a;Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-static {p1, v4, v3, v4}, Lkotlinx/coroutines/sync/a$a;->b(Lkotlinx/coroutines/sync/a;Ljava/lang/Object;ILjava/lang/Object;)V
 
     .line 152
     .line 153
@@ -1109,40 +1050,21 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public writeScope(Ljm/p;Lul/c;)Ljava/lang/Object;
+.method public writeScope(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 9
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-",
-            "Landroidx/datastore/core/WriteScope<",
-            "TT;>;-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -1192,7 +1114,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/FileStorageConnection$writeScope$1;-><init>(Landroidx/datastore/core/FileStorageConnection;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/FileStorageConnection$writeScope$1;-><init>(Landroidx/datastore/core/FileStorageConnection;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -1202,7 +1124,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -1255,7 +1177,7 @@
 
     .line 51
     .line 52
-    check-cast v2, Lrn/a;
+    check-cast v2, Lkotlinx/coroutines/sync/a;
 
     .line 53
     .line 54
@@ -1268,7 +1190,7 @@
     .line 57
     .line 58
     :try_start_0
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1309,7 +1231,7 @@
 
     .line 75
     .line 76
-    check-cast p1, Lrn/a;
+    check-cast p1, Lkotlinx/coroutines/sync/a;
 
     .line 77
     .line 78
@@ -1317,7 +1239,7 @@
 
     .line 79
     .line 80
-    check-cast v2, Ljm/p;
+    check-cast v2, Lq8/p;
 
     .line 81
     .line 82
@@ -1329,7 +1251,7 @@
 
     .line 85
     .line 86
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 87
     .line 88
@@ -1347,7 +1269,7 @@
 
     .line 93
     :cond_3
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 94
     .line 95
@@ -1366,7 +1288,7 @@
     .line 102
     .line 103
     .line 104
-    iget-object p2, p0, Landroidx/datastore/core/FileStorageConnection;->transactionMutex:Lrn/a;
+    iget-object p2, p0, Landroidx/datastore/core/FileStorageConnection;->transactionMutex:Lkotlinx/coroutines/sync/a;
 
     .line 105
     .line 106
@@ -1386,7 +1308,7 @@
 
     .line 113
     .line 114
-    invoke-interface {p2, v5, v0}, Lrn/a;->e(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p2, v5, v0}, Lkotlinx/coroutines/sync/a;->b(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 115
     .line 116
@@ -1502,7 +1424,7 @@
 
     .line 167
     .line 168
-    invoke-interface {p1, v6, v0}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v6, v0}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 169
     .line 170
@@ -1532,7 +1454,7 @@
     .line 178
     :goto_3
     :try_start_4
-    sget-object p2, Ljl/e2;->a:Ljl/e2;
+    sget-object p2, Lkotlin/j;->a:Lkotlin/j;
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
@@ -1687,20 +1609,24 @@
     :cond_7
     :goto_5
     :try_start_7
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_2
 
     .line 247
     .line 248
-    invoke-interface {v2, v5}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {v2, v5}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 249
     .line 250
     .line 251
-    return-object p1
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 252
+    .line 253
+    return-object p1
+
+    .line 254
     :cond_8
     :try_start_8
     throw p1
@@ -1708,87 +1634,85 @@
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_0
     .catchall {:try_start_8 .. :try_end_8} :catchall_2
 
-    .line 253
+    .line 255
     :catchall_3
     move-exception p1
 
-    .line 254
+    .line 256
     move-object v1, p2
 
-    .line 255
+    .line 257
     move-object p2, p1
 
-    .line 256
+    .line 258
     move-object p1, v6
 
-    .line 257
+    .line 259
     :goto_6
     :try_start_9
     invoke-interface {p1}, Landroidx/datastore/core/Closeable;->close()V
     :try_end_9
     .catchall {:try_start_9 .. :try_end_9} :catchall_4
 
-    .line 258
-    .line 259
     .line 260
+    .line 261
+    .line 262
     goto :goto_7
 
-    .line 261
+    .line 263
     :catchall_4
     move-exception p1
 
-    .line 262
-    :try_start_a
-    invoke-static {p2, p1}, Ljl/r;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
-
-    .line 263
     .line 264
+    :try_start_a
+    invoke-static {p2, p1}, Lkotlin/a;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+
     .line 265
+    .line 266
+    .line 267
     :goto_7
     throw p2
     :try_end_a
     .catch Ljava/io/IOException; {:try_start_a .. :try_end_a} :catch_0
     .catchall {:try_start_a .. :try_end_a} :catchall_2
 
-    .line 266
+    .line 268
     :catch_1
     move-exception p1
 
-    .line 267
+    .line 269
     :goto_8
     :try_start_b
     invoke-virtual {p2}, Ljava/io/File;->exists()Z
 
-    .line 268
-    .line 269
     .line 270
+    .line 271
+    .line 272
     move-result v0
 
-    .line 271
-    if-eqz v0, :cond_9
-
-    .line 272
     .line 273
-    invoke-virtual {p2}, Ljava/io/File;->delete()Z
+    if-eqz v0, :cond_9
 
     .line 274
     .line 275
+    invoke-virtual {p2}, Ljava/io/File;->delete()Z
+
     .line 276
+    .line 277
+    .line 278
     :cond_9
     throw p1
     :try_end_b
     .catchall {:try_start_b .. :try_end_b} :catchall_2
 
-    .line 277
-    :goto_9
-    invoke-interface {v2, v5}, Lrn/a;->g(Ljava/lang/Object;)V
-
-    .line 278
     .line 279
+    :goto_9
+    invoke-interface {v2, v5}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
+
     .line 280
-    throw p1
     .line 281
     .line 282
+    throw p1
     .line 283
     .line 284
     .line 285

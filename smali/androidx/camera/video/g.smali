@@ -9,17 +9,11 @@
 # instance fields
 .field public final synthetic a:Landroidx/camera/video/Recorder;
 
-.field public final synthetic b:Landroidx/camera/video/Recorder$RecordingRecord;
-
-.field public final synthetic c:J
-
-.field public final synthetic d:I
-
-.field public final synthetic e:Ljava/lang/Throwable;
+.field public final synthetic b:Landroidx/camera/video/VideoOutput$SourceState;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/video/Recorder;Landroidx/camera/video/Recorder$RecordingRecord;JILjava/lang/Throwable;)V
+.method public synthetic constructor <init>(Landroidx/camera/video/Recorder;Landroidx/camera/video/VideoOutput$SourceState;)V
     .locals 0
 
     .line 1
@@ -27,13 +21,7 @@
 
     iput-object p1, p0, Landroidx/camera/video/g;->a:Landroidx/camera/video/Recorder;
 
-    iput-object p2, p0, Landroidx/camera/video/g;->b:Landroidx/camera/video/Recorder$RecordingRecord;
-
-    iput-wide p3, p0, Landroidx/camera/video/g;->c:J
-
-    iput p5, p0, Landroidx/camera/video/g;->d:I
-
-    iput-object p6, p0, Landroidx/camera/video/g;->e:Ljava/lang/Throwable;
+    iput-object p2, p0, Landroidx/camera/video/g;->b:Landroidx/camera/video/VideoOutput$SourceState;
 
     return-void
 .end method
@@ -41,20 +29,14 @@
 
 # virtual methods
 .method public final run()V
-    .locals 6
+    .locals 2
 
     .line 1
     iget-object v0, p0, Landroidx/camera/video/g;->a:Landroidx/camera/video/Recorder;
 
-    iget-object v1, p0, Landroidx/camera/video/g;->b:Landroidx/camera/video/Recorder$RecordingRecord;
+    iget-object v1, p0, Landroidx/camera/video/g;->b:Landroidx/camera/video/VideoOutput$SourceState;
 
-    iget-wide v2, p0, Landroidx/camera/video/g;->c:J
-
-    iget v4, p0, Landroidx/camera/video/g;->d:I
-
-    iget-object v5, p0, Landroidx/camera/video/g;->e:Ljava/lang/Throwable;
-
-    invoke-static/range {v0 .. v5}, Landroidx/camera/video/Recorder;->i(Landroidx/camera/video/Recorder;Landroidx/camera/video/Recorder$RecordingRecord;JILjava/lang/Throwable;)V
+    invoke-static {v0, v1}, Landroidx/camera/video/Recorder;->h(Landroidx/camera/video/Recorder;Landroidx/camera/video/VideoOutput$SourceState;)V
 
     return-void
 .end method

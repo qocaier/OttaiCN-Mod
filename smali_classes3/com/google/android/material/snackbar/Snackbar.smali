@@ -91,7 +91,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/view/View;Lcom/google/android/material/snackbar/ContentViewCallback;)V
@@ -372,6 +371,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static synthetic a(Lcom/google/android/material/snackbar/Snackbar;Landroid/view/View$OnClickListener;Landroid/view/View;)V
@@ -533,11 +548,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private static findSuitableParent(Landroid/view/View;)Landroid/view/ViewGroup;
@@ -694,8 +704,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getActionView()Landroid/widget/Button;
@@ -732,7 +740,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getContentLayout()Lcom/google/android/material/snackbar/SnackbarContentLayout;
@@ -771,7 +778,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getMessageView()Landroid/widget/TextView;
@@ -808,7 +814,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static hasSnackbarButtonStyleAttr(Landroid/content/Context;)Z
@@ -868,7 +873,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static hasSnackbarContentStyleAttrs(Landroid/content/Context;)Z
@@ -999,8 +1003,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static make(Landroid/content/Context;Landroid/view/View;Ljava/lang/CharSequence;I)Lcom/google/android/material/snackbar/Snackbar;
@@ -1396,6 +1398,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 
@@ -1428,7 +1446,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDuration()I
@@ -1493,7 +1510,7 @@
 
     .line 25
     .line 26
-    invoke-static {v2, v0, v1}, Lab/a;->a(Landroid/view/accessibility/AccessibilityManager;II)I
+    invoke-static {v2, v0, v1}, Lcom/google/android/material/snackbar/a;->a(Landroid/view/accessibility/AccessibilityManager;II)I
 
     .line 27
     .line 28
@@ -1590,15 +1607,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public isShown()Z
@@ -1631,7 +1639,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAction(ILandroid/view/View$OnClickListener;)Lcom/google/android/material/snackbar/Snackbar;
@@ -1641,9 +1648,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1673,9 +1677,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 2
@@ -1709,9 +1710,9 @@
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 7
-    new-instance p1, Lab/b;
+    new-instance p1, Lcom/google/android/material/snackbar/b;
 
-    invoke-direct {p1, p0, p2}, Lab/b;-><init>(Lcom/google/android/material/snackbar/Snackbar;Landroid/view/View$OnClickListener;)V
+    invoke-direct {p1, p0, p2}, Lcom/google/android/material/snackbar/b;-><init>(Lcom/google/android/material/snackbar/Snackbar;Landroid/view/View$OnClickListener;)V
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -1744,9 +1745,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
     .line 2
     invoke-direct {p0}, Lcom/google/android/material/snackbar/Snackbar;->getActionView()Landroid/widget/Button;
 
@@ -1760,9 +1758,6 @@
 .method public setActionTextColor(Landroid/content/res/ColorStateList;)Lcom/google/android/material/snackbar/Snackbar;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1782,9 +1777,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1820,7 +1812,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundTintList(Landroid/content/res/ColorStateList;)Lcom/google/android/material/snackbar/Snackbar;
@@ -1830,9 +1821,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1864,7 +1852,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundTintMode(Landroid/graphics/PorterDuff$Mode;)Lcom/google/android/material/snackbar/Snackbar;
@@ -1874,9 +1861,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1908,7 +1892,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCallback(Lcom/google/android/material/snackbar/Snackbar$Callback;)Lcom/google/android/material/snackbar/Snackbar;
@@ -1921,9 +1904,6 @@
     .end annotation
 
     .annotation runtime Ljava/lang/Deprecated;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1965,7 +1945,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMaxInlineActionWidth(I)Lcom/google/android/material/snackbar/Snackbar;
@@ -1975,9 +1954,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -2011,7 +1987,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setText(I)Lcom/google/android/material/snackbar/Snackbar;
@@ -2021,9 +1996,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 2
@@ -2051,9 +2023,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
     .line 1
     invoke-direct {p0}, Lcom/google/android/material/snackbar/Snackbar;->getMessageView()Landroid/widget/TextView;
 
@@ -2073,9 +2042,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
     .line 2
     invoke-direct {p0}, Lcom/google/android/material/snackbar/Snackbar;->getMessageView()Landroid/widget/TextView;
 
@@ -2091,9 +2057,6 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
     .line 1
     invoke-direct {p0}, Lcom/google/android/material/snackbar/Snackbar;->getMessageView()Landroid/widget/TextView;
 
@@ -2107,9 +2070,6 @@
 .method public setTextMaxLines(I)Lcom/google/android/material/snackbar/Snackbar;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -2143,7 +2103,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public show()V
@@ -2174,5 +2133,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

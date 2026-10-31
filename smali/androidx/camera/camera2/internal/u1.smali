@@ -3,34 +3,32 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
-
-
-# instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/SynchronizedCaptureSessionImpl;
+.implements Ljava/util/Comparator;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionImpl;)V
+.method public synthetic constructor <init>()V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Landroidx/camera/camera2/internal/u1;->a:Landroidx/camera/camera2/internal/SynchronizedCaptureSessionImpl;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 1
+.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 0
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/u1;->a:Landroidx/camera/camera2/internal/SynchronizedCaptureSessionImpl;
+    check-cast p1, Landroid/util/Size;
 
-    invoke-static {v0}, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionImpl;->g(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionImpl;)V
+    check-cast p2, Landroid/util/Size;
 
-    return-void
+    invoke-static {p1, p2}, Landroidx/camera/camera2/internal/MeteringRepeatingSession;->b(Landroid/util/Size;Landroid/util/Size;)I
+
+    move-result p1
+
+    return p1
 .end method

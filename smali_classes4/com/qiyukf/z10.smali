@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private a(Landroid/util/Pair;Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/msg/model/RevokeMsgNotification;

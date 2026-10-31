@@ -20,7 +20,7 @@
 # instance fields
 .field final synthetic this$0:Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter;
 
-.field final synthetic val$bitmapFuture:Lub/u0;
+.field final synthetic val$bitmapFuture:Lcom/google/common/util/concurrent/t;
 
 .field final synthetic val$titleText:Ljava/lang/String;
 
@@ -28,23 +28,8 @@
 
 
 # direct methods
-.method public constructor <init>(Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter;Ljava/lang/String;Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$ViewHolderItem;Lub/u0;)V
+.method public constructor <init>(Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter;Ljava/lang/String;Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$ViewHolderItem;Lcom/google/common/util/concurrent/t;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010,
-            0x1010,
-            0x1010
-        }
-        names = {
-            null,
-            null,
-            null,
-            null
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()V"
@@ -64,7 +49,7 @@
 
     .line 6
     .line 7
-    iput-object p4, p0, Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$1;->val$bitmapFuture:Lub/u0;
+    iput-object p4, p0, Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$1;->val$bitmapFuture:Lcom/google/common/util/concurrent/t;
 
     .line 8
     .line 9
@@ -292,6 +277,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -340,7 +331,7 @@
 
     .line 19
     :try_start_0
-    iget-object v1, p0, Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$1;->val$bitmapFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/browser/browseractions/BrowserActionsFallbackMenuAdapter$1;->val$bitmapFuture:Lcom/google/common/util/concurrent/t;
 
     .line 20
     .line 21
@@ -457,4 +448,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

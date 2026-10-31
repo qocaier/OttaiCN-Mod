@@ -54,7 +54,7 @@
     .locals 0
 
     .line 2
-    invoke-static {p1}, Lue/d;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lt5/b;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

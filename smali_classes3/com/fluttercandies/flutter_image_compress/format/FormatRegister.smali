@@ -5,9 +5,6 @@
 
 # static fields
 .field public static final INSTANCE:Lcom/fluttercandies/flutter_image_compress/format/FormatRegister;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final formatMap:Landroid/util/SparseArray;
     .annotation system Ldalvik/annotation/Signature;
@@ -16,9 +13,6 @@
             "Lcom/fluttercandies/flutter_image_compress/handle/FormatHandler;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -62,7 +56,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private constructor <init>()V
@@ -93,15 +86,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public final findFormat(I)Lcom/fluttercandies/flutter_image_compress/handle/FormatHandler;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     sget-object v0, Lcom/fluttercandies/flutter_image_compress/format/FormatRegister;->formatMap:Landroid/util/SparseArray;
@@ -136,22 +126,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final registerFormat(Lcom/fluttercandies/flutter_image_compress/handle/FormatHandler;)V
     .locals 2
-    .param p1    # Lcom/fluttercandies/flutter_image_compress/handle/FormatHandler;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "handler"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -183,5 +168,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

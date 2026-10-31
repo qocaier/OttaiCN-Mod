@@ -68,6 +68,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static collapseActionView(Landroid/view/MenuItem;)Z
@@ -884,6 +885,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static setContentDescription(Landroid/view/MenuItem;Ljava/lang/CharSequence;)V
@@ -1245,6 +1249,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static setOnActionExpandListener(Landroid/view/MenuItem;Landroidx/core/view/MenuItemCompat$OnActionExpandListener;)Landroid/view/MenuItem;

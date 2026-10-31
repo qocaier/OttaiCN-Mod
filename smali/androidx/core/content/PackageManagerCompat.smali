@@ -57,6 +57,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static areUnusedAppRestrictionsAvailable(Landroid/content/pm/PackageManager;)Z
@@ -201,6 +202,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getPermissionRevocationVerifierApp(Landroid/content/pm/PackageManager;)Ljava/lang/String;
@@ -358,18 +360,17 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public static getUnusedAppRestrictionsStatus(Landroid/content/Context;)Lub/u0;
+.method public static getUnusedAppRestrictionsStatus(Landroid/content/Context;)Lcom/google/common/util/concurrent/t;
     .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lub/u0<",
-            "Ljava/lang/Integer;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -623,11 +624,11 @@
     .line 118
     .line 119
     .line 120
-    new-instance p0, Landroidx/core/content/a;
+    new-instance p0, Landroidx/core/content/w;
 
     .line 121
     .line 122
-    invoke-direct {p0, v1}, Landroidx/core/content/a;-><init>(Landroidx/core/content/UnusedAppRestrictionsBackportServiceConnection;)V
+    invoke-direct {p0, v1}, Landroidx/core/content/w;-><init>(Landroidx/core/content/UnusedAppRestrictionsBackportServiceConnection;)V
 
     .line 123
     .line 124
@@ -754,4 +755,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

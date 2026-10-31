@@ -66,6 +66,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -382,6 +384,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public g()V
@@ -518,6 +522,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -554,48 +559,48 @@
     .line 15
     .line 16
     .line 17
-    const-string v1, "{"
+    const-string/jumbo v1, "{"
 
     .line 18
     .line 19
+    .line 20
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 20
     .line 21
     .line 22
+    .line 23
     invoke-virtual {p0}, Lcom/qiyukf/lr;->f()Ljava/lang/String;
 
-    .line 23
     .line 24
     .line 25
+    .line 26
     move-result-object v1
 
-    .line 26
+    .line 27
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 27
     .line 28
     .line 29
-    const-string v1, "}"
-
     .line 30
-    .line 31
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const-string/jumbo v1, "}"
 
+    .line 31
     .line 32
     .line 33
-    .line 34
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 34
     .line 35
     .line 36
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 37
+    .line 38
+    .line 39
     move-result-object v0
 
-    .line 38
-    return-object v0
-    .line 39
     .line 40
+    return-object v0
     .line 41
     .line 42
     .line 43
@@ -640,4 +645,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

@@ -42,6 +42,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static copyNotificationOntoChannel(Landroid/content/Context;Landroid/app/NotificationManager;Landroid/app/Notification;Ljava/lang/String;Ljava/lang/String;)Landroid/app/Notification;
@@ -51,7 +52,7 @@
     const/4 v0, 0x3
 
     .line 2
-    invoke-static {p3, p4, v0}, Lk/e;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
+    invoke-static {p3, p4, v0}, Landroidx/browser/trusted/f;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
 
     .line 3
     .line 4
@@ -59,12 +60,12 @@
     move-result-object p4
 
     .line 6
-    invoke-static {p1, p4}, Lk/c;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    invoke-static {p1, p4}, Landroidx/browser/trusted/d;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-static {p1, p3}, Lk/a;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
+    invoke-static {p1, p3}, Landroidx/browser/trusted/b;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     .line 10
     .line 11
@@ -72,7 +73,7 @@
     move-result-object p1
 
     .line 13
-    invoke-static {p1}, Lk/b;->a(Landroid/app/NotificationChannel;)I
+    invoke-static {p1}, Landroidx/browser/trusted/c;->a(Landroid/app/NotificationChannel;)I
 
     .line 14
     .line 15
@@ -99,7 +100,7 @@
     move-result-object p0
 
     .line 25
-    invoke-static {p0, p3}, Lk/d;->a(Landroid/app/Notification$Builder;Ljava/lang/String;)Landroid/app/Notification$Builder;
+    invoke-static {p0, p3}, Landroidx/browser/trusted/e;->a(Landroid/app/Notification$Builder;Ljava/lang/String;)Landroid/app/Notification$Builder;
 
     .line 26
     .line 27
@@ -610,7 +611,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lk/a;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
+    invoke-static {p0, p1}, Landroidx/browser/trusted/b;->a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     .line 2
     .line 3
@@ -622,7 +623,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Lk/b;->a(Landroid/app/NotificationChannel;)I
+    invoke-static {p0}, Landroidx/browser/trusted/c;->a(Landroid/app/NotificationChannel;)I
 
     .line 8
     .line 9

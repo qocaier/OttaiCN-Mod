@@ -23,14 +23,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/ByteString$NioByteString;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$NioByteString$1;->this$0:Landroidx/datastore/preferences/protobuf/ByteString$NioByteString;
@@ -111,18 +103,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mark(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "readlimit"
-        }
-    .end annotation
 
     .line 1
     iget-object p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$NioByteString$1;->buf:Ljava/nio/ByteBuffer;
@@ -200,19 +185,6 @@
 
 .method public read([BII)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "bytes",
-            "off",
-            "len"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -297,4 +269,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

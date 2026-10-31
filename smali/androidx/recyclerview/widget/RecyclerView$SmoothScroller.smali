@@ -78,6 +78,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -209,6 +210,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public findViewByPosition(I)Landroid/view/View;
@@ -282,6 +284,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getChildPosition(Landroid/view/View;)I
@@ -349,6 +352,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTargetPosition()I
@@ -377,6 +381,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public instantScrollToPosition(I)V
@@ -442,6 +447,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isRunning()Z
@@ -470,6 +476,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public normalize(Landroid/graphics/PointF;)V
@@ -920,6 +927,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onChildAttachedToWindow(Landroid/view/View;)V
@@ -1378,6 +1388,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public final stop()V
@@ -1505,4 +1518,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

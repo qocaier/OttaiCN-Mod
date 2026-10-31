@@ -57,6 +57,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static a()Ljava/lang/String;
@@ -449,7 +451,7 @@
     move-object v5, p3
 
     .line 2
-    invoke-static/range {v2 .. v7}, Lze/a;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)[B
+    invoke-static/range {v2 .. v7}, Lv5/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)[B
 
     move-result-object p0
 
@@ -469,7 +471,7 @@
     const/4 v5, 0x0
 
     .line 3
-    invoke-static/range {v0 .. v5}, Lze/a;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)[B
+    invoke-static/range {v0 .. v5}, Lv5/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)[B
 
     move-result-object p0
 
@@ -618,7 +620,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lze/e;->b(Ljava/lang/String;[B)Ljava/lang/String;
+    invoke-static {v0, v1}, Lv5/e;->b(Ljava/lang/String;[B)Ljava/lang/String;
 
     move-result-object v0
 
@@ -762,7 +764,7 @@
     if-eqz v2, :cond_1
 
     .line 8
-    invoke-static {v0}, Lef/e;->i(Ljava/io/File;)V
+    invoke-static {v0}, Lcom/huawei/secure/android/common/util/a;->a(Ljava/io/File;)V
 
     .line 9
     sget-object v0, Lcom/huawei/hms/opendevice/l;->a:Ljava/lang/String;
@@ -775,22 +777,22 @@
     const/16 v0, 0x20
 
     .line 10
-    invoke-static {v0}, Lze/b;->d(I)[B
+    invoke-static {v0}, Lv5/b;->d(I)[B
 
     move-result-object v2
 
     .line 11
-    invoke-static {v0}, Lze/b;->d(I)[B
+    invoke-static {v0}, Lv5/b;->d(I)[B
 
     move-result-object v3
 
     .line 12
-    invoke-static {v0}, Lze/b;->d(I)[B
+    invoke-static {v0}, Lv5/b;->d(I)[B
 
     move-result-object v4
 
     .line 13
-    invoke-static {v0}, Lze/b;->d(I)[B
+    invoke-static {v0}, Lv5/b;->d(I)[B
 
     move-result-object v5
 
@@ -815,7 +817,7 @@
     move-result-object v9
 
     .line 18
-    invoke-static {v0}, Lze/b;->d(I)[B
+    invoke-static {v0}, Lv5/b;->d(I)[B
 
     move-result-object v0
 
@@ -828,7 +830,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lze/e;->j(Ljava/lang/String;[B)Ljava/lang/String;
+    invoke-static {v0, v2}, Lv5/e;->c(Ljava/lang/String;[B)Ljava/lang/String;
 
     move-result-object v10
 
@@ -1082,7 +1084,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lze/e;->b(Ljava/lang/String;[B)Ljava/lang/String;
+    invoke-static {v0, v2}, Lv5/e;->b(Ljava/lang/String;[B)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1124,11 +1126,11 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/huawei/hms/opendevice/l;->h()Lze/d;
+    invoke-static {}, Lcom/huawei/hms/opendevice/l;->h()Lv5/d;
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lze/e;->a(Ljava/lang/String;Lze/d;)Ljava/lang/String;
+    invoke-static {v0, v2}, Lv5/e;->a(Ljava/lang/String;Lv5/d;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1155,7 +1157,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lze/e;->j(Ljava/lang/String;[B)Ljava/lang/String;
+    invoke-static {v0, v2}, Lv5/e;->c(Ljava/lang/String;[B)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1191,7 +1193,7 @@
 
     const/4 v7, 0x0
 
-    invoke-static/range {v2 .. v7}, Lze/a;->h(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)[B
+    invoke-static/range {v2 .. v7}, Lv5/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IZ)[B
 
     move-result-object v0
 
@@ -1200,7 +1202,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v0}, Lze/e;->b(Ljava/lang/String;[B)Ljava/lang/String;
+    invoke-static {v2, v0}, Lv5/e;->b(Ljava/lang/String;[B)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1227,7 +1229,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lze/e;->j(Ljava/lang/String;[B)Ljava/lang/String;
+    invoke-static {v0, v2}, Lv5/e;->c(Ljava/lang/String;[B)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1297,6 +1299,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static g()Ljava/lang/String;
@@ -1329,9 +1333,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method private static h()Lze/d;
+.method private static h()Lv5/d;
     .locals 4
 
     .line 1
@@ -1367,7 +1373,7 @@
     move-result-object v3
 
     .line 17
-    invoke-static {v0, v1, v2, v3}, Lze/d;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lze/d;
+    invoke-static {v0, v1, v2, v3}, Lv5/d;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lv5/d;
 
     .line 18
     .line 19
@@ -1377,68 +1383,6 @@
     .line 21
     return-object v0
     .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method private static i()Z
@@ -1475,4 +1419,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

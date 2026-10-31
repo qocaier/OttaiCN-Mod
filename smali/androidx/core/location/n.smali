@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic a:Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
 
-.field public final synthetic b:Landroid/location/Location;
+.field public final synthetic b:Ljava/util/List;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Landroid/location/Location;)V
+.method public synthetic constructor <init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/util/List;)V
     .locals 0
 
     .line 1
@@ -21,7 +21,7 @@
 
     iput-object p1, p0, Landroidx/core/location/n;->a:Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
 
-    iput-object p2, p0, Landroidx/core/location/n;->b:Landroid/location/Location;
+    iput-object p2, p0, Landroidx/core/location/n;->b:Ljava/util/List;
 
     return-void
 .end method
@@ -34,9 +34,9 @@
     .line 1
     iget-object v0, p0, Landroidx/core/location/n;->a:Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
 
-    iget-object v1, p0, Landroidx/core/location/n;->b:Landroid/location/Location;
+    iget-object v1, p0, Landroidx/core/location/n;->b:Ljava/util/List;
 
-    invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->c(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Landroid/location/Location;)V
+    invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->d(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/util/List;)V
 
     return-void
 .end method

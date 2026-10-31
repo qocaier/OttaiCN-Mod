@@ -44,7 +44,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -79,7 +78,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public to(Lcom/baidu/mapapi/search/route/PlanNode;)Lcom/baidu/mapapi/search/route/WalkingRoutePlanOption;
@@ -112,5 +110,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

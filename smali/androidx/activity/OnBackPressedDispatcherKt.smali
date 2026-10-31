@@ -4,36 +4,18 @@
 
 
 # direct methods
-.method public static final addCallback(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLjm/l;)Landroidx/activity/OnBackPressedCallback;
+.method public static final addCallback(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLq8/l;)Landroidx/activity/OnBackPressedCallback;
     .locals 1
-    .param p0    # Landroidx/activity/OnBackPressedDispatcher;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p3    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/activity/OnBackPressedDispatcher;",
             "Landroidx/lifecycle/LifecycleOwner;",
             "Z",
-            "Ljm/l<",
-            "-",
-            "Landroidx/activity/OnBackPressedCallback;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/activity/OnBackPressedCallback;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -41,7 +23,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -50,7 +32,7 @@
 
     .line 7
     .line 8
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -59,7 +41,7 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, p2, p3}, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;-><init>(ZLjm/l;)V
+    invoke-direct {v0, p2, p3}, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;-><init>(ZLq8/l;)V
 
     .line 14
     .line 15
@@ -288,9 +270,15 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static synthetic addCallback$default(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLjm/l;ILjava/lang/Object;)Landroidx/activity/OnBackPressedCallback;
+.method public static synthetic addCallback$default(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLq8/l;ILjava/lang/Object;)Landroidx/activity/OnBackPressedCallback;
     .locals 0
 
     .line 1
@@ -318,7 +306,7 @@
 
     .line 11
     :cond_1
-    invoke-static {p0, p1, p2, p3}, Landroidx/activity/OnBackPressedDispatcherKt;->addCallback(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLjm/l;)Landroidx/activity/OnBackPressedCallback;
+    invoke-static {p0, p1, p2, p3}, Landroidx/activity/OnBackPressedDispatcherKt;->addCallback(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLq8/l;)Landroidx/activity/OnBackPressedCallback;
 
     .line 12
     .line 13

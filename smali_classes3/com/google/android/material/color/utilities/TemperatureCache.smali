@@ -149,11 +149,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private getColdest()Lcom/google/android/material/color/utilities/Hct;
@@ -194,7 +189,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getHctsByHue()Ljava/util/List;
@@ -362,15 +356,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getHctsByTemp()Ljava/util/List;
@@ -423,20 +408,20 @@
     .line 18
     .line 19
     .line 20
-    new-instance v1, Lra/q5;
+    new-instance v1, Lcom/google/android/material/color/utilities/q5;
 
     .line 21
     .line 22
-    invoke-direct {v1, p0}, Lra/q5;-><init>(Lcom/google/android/material/color/utilities/TemperatureCache;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/color/utilities/q5;-><init>(Lcom/google/android/material/color/utilities/TemperatureCache;)V
 
     .line 23
     .line 24
     .line 25
-    new-instance v2, Lra/r5;
+    new-instance v2, Lcom/google/android/material/color/utilities/r5;
 
     .line 26
     .line 27
-    invoke-direct {v2}, Lra/r5;-><init>()V
+    invoke-direct {v2}, Lcom/google/android/material/color/utilities/r5;-><init>()V
 
     .line 28
     .line 29
@@ -520,15 +505,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getTempsByHct()Ljava/util/Map;
@@ -699,15 +675,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getWarmest()Lcom/google/android/material/color/utilities/Hct;
@@ -756,7 +723,6 @@
     .line 21
     return-object v0
     .line 22
-    .line 23
 .end method
 
 .method private static isBetween(DDD)Z
@@ -965,8 +931,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -2259,6 +2223,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public getRelativeTemperature(Lcom/google/android/material/color/utilities/Hct;)D
@@ -2441,6 +2464,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/camera/core/impl/utils/futures/Futures;->transform(Lub/u0;Landroidx/arch/core/util/Function;Ljava/util/concurrent/Executor;)Lub/u0;
+    value = Landroidx/camera/core/impl/utils/futures/Futures;->transform(Lcom/google/common/util/concurrent/t;Landroidx/arch/core/util/Function;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/t;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -72,7 +72,7 @@
 
 
 # virtual methods
-.method public apply(Ljava/lang/Object;)Lub/u0;
+.method public apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -80,8 +80,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TI;)",
-            "Lub/u0<",
-            "TO;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -98,7 +97,7 @@
     move-result-object p1
 
     .line 7
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 8
     .line 9

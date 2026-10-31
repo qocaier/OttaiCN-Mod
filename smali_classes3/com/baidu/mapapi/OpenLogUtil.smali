@@ -48,7 +48,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getMapLogFilePath()Ljava/lang/String;
@@ -79,7 +78,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static isMapLogEnable()Z
@@ -110,7 +108,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static isNativeLogAnalysisEnable()Z
@@ -141,7 +138,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static setMapLogEnable(Z)V
@@ -174,7 +170,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static setMapLogFilePath(Ljava/lang/String;)V
@@ -207,7 +202,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static setModuleLogEnable(Lcom/baidu/mapapi/ModuleName;Z)V
@@ -282,11 +276,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static setNativeLogAnalysisEnable(Z)V
@@ -319,5 +308,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

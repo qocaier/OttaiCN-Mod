@@ -153,6 +153,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static createFromXml(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroidx/core/content/res/ComplexColorCompat;
@@ -385,6 +388,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static from(I)Landroidx/core/content/res/ComplexColorCompat;
@@ -577,6 +583,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -609,6 +618,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getShader()Landroid/graphics/Shader;
@@ -637,6 +647,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isGradient()Z
@@ -674,6 +685,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isStateful()Z
@@ -721,6 +733,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onStateChanged([I)Z
@@ -834,6 +847,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setColor(I)V
@@ -918,4 +932,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

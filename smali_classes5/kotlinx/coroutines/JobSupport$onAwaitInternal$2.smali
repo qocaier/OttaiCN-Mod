@@ -3,28 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/q;
+.implements Lq8/q;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/JobSupport;->a1()Lpn/e;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1001
-    name = null
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/q<",
-        "Lkotlinx/coroutines/JobSupport;",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lq8/q;"
     }
 .end annotation
 
@@ -55,7 +41,7 @@
 
     const/4 v1, 0x3
 
-    const-class v2, Lkotlinx/coroutines/JobSupport;
+    const-class v2, Lkotlinx/coroutines/w1;
 
     const-string v3, "onAwaitInternalProcessResFunc"
 
@@ -72,20 +58,20 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlinx/coroutines/JobSupport;
+    check-cast p1, Lkotlinx/coroutines/w1;
 
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/JobSupport$onAwaitInternal$2;->invoke(Lkotlinx/coroutines/JobSupport;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/JobSupport$onAwaitInternal$2;->invoke(Lkotlinx/coroutines/w1;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlinx/coroutines/JobSupport;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+.method public final invoke(Lkotlinx/coroutines/w1;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
     .line 2
-    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/JobSupport;->s0(Lkotlinx/coroutines/JobSupport;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/w1;->e0(Lkotlinx/coroutines/w1;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

@@ -17,44 +17,19 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nExtensionEmbeddingBackend.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ExtensionEmbeddingBackend.kt\nandroidx/window/embedding/ExtensionEmbeddingBackend\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,433:1\n1#2:434\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nExtensionEmbeddingBackend.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ExtensionEmbeddingBackend.kt\nandroidx/window/embedding/ExtensionEmbeddingBackend\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,433:1\n1#2:434\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field public static final Companion:Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final TAG:Ljava/lang/String; = "EmbeddingBackend"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static volatile globalInstance:Landroidx/window/embedding/ExtensionEmbeddingBackend;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private static final globalLock:Ljava/util/concurrent/locks/ReentrantLock;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field private final applicationContext:Landroid/content/Context;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
     .annotation build Landroidx/annotation/GuardedBy;
@@ -63,17 +38,11 @@
 
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end field
 
 .field private final ruleTracker:Landroidx/window/embedding/ExtensionEmbeddingBackend$RuleTracker;
     .annotation build Landroidx/annotation/GuardedBy;
         value = "globalLock"
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -85,20 +54,11 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final splitInfoEmbeddingCallback:Landroidx/window/embedding/ExtensionEmbeddingBackend$EmbeddingCallbackImpl;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field private final splitSupportStatus$delegate:Ljl/c0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final splitSupportStatus$delegate:Lkotlin/c;
 
 
 # direct methods
@@ -113,7 +73,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -140,18 +100,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroidx/window/embedding/EmbeddingInterfaceCompat;)V
     .locals 1
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/embedding/EmbeddingInterfaceCompat;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
@@ -160,7 +113,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -240,7 +193,7 @@
     .line 44
     .line 45
     .line 46
-    invoke-static {p1}, Lkotlin/e;->b(Ljm/a;)Ljl/c0;
+    invoke-static {p1}, Lkotlin/d;->b(Lq8/a;)Lkotlin/c;
 
     .line 47
     .line 48
@@ -248,7 +201,7 @@
     move-result-object p1
 
     .line 50
-    iput-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitSupportStatus$delegate:Ljl/c0;
+    iput-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitSupportStatus$delegate:Lkotlin/c;
 
     .line 51
     .line 52
@@ -434,6 +387,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static final synthetic access$areExtensionsAvailable(Landroidx/window/embedding/ExtensionEmbeddingBackend;)Z
@@ -530,6 +486,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getGlobalLock$cp()Ljava/util/concurrent/locks/ReentrantLock;
@@ -558,6 +515,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$setGlobalInstance$cp(Landroidx/window/embedding/ExtensionEmbeddingBackend;)V
@@ -628,6 +586,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic getSplitChangeCallbacks$annotations()V
@@ -642,10 +601,6 @@
 # virtual methods
 .method public addRule(Landroidx/window/embedding/EmbeddingRule;)V
     .locals 5
-    .param p1    # Landroidx/window/embedding/EmbeddingRule;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/GuardedBy;
         value = "globalLock"
     .end annotation
@@ -655,7 +610,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -737,7 +692,7 @@
     .line 41
     :cond_0
     :goto_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -786,22 +741,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public addSplitListenerForActivity(Landroid/app/Activity;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
     .locals 2
-    .param p1    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/util/concurrent/Executor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroidx/core/util/Consumer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -819,7 +763,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -828,7 +772,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -837,7 +781,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -873,7 +817,7 @@
     .line 30
     .line 31
     .line 32
-    invoke-static {}, Lll/h0;->J()Ljava/util/List;
+    invoke-static {}, Lkotlin/collections/r;->l()Ljava/util/List;
 
     .line 33
     .line 34
@@ -951,7 +895,7 @@
     move-result-object p1
 
     .line 69
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 70
     .line 71
@@ -965,7 +909,7 @@
 
     .line 76
     :cond_1
-    invoke-static {}, Lll/h0;->J()Ljava/util/List;
+    invoke-static {}, Lkotlin/collections/r;->l()Ljava/util/List;
 
     .line 77
     .line 78
@@ -979,7 +923,7 @@
     .line 82
     .line 83
     :goto_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1021,6 +965,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public clearSplitAttributesCalculator()V
@@ -1053,7 +1000,7 @@
     .line 11
     .line 12
     .line 13
-    sget-object v1, Ljl/e2;->a:Ljl/e2;
+    sget-object v1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1145,23 +1092,19 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getActivityStack(Landroid/app/Activity;)Landroidx/window/embedding/ActivityStack;
     .locals 5
-    .param p1    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const-string v0, "activity"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1504,12 +1447,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public final getEmbeddingExtension()Landroidx/window/embedding/EmbeddingInterfaceCompat;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
@@ -1534,6 +1480,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRules()Ljava/util/Set;
@@ -1549,9 +1496,6 @@
             "Landroidx/window/embedding/EmbeddingRule;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1577,7 +1521,7 @@
     move-result-object v1
 
     .line 12
-    invoke-static {v1}, Lll/r0;->f6(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {v1}, Lkotlin/collections/z;->j0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 13
     .line 14
@@ -1665,6 +1609,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final getSplitChangeCallbacks()Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -1676,9 +1622,6 @@
             "Landroidx/window/embedding/ExtensionEmbeddingBackend$SplitListenerWrapper;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1704,19 +1647,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSplitSupportStatus()Landroidx/window/embedding/SplitController$SplitSupportStatus;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitSupportStatus$delegate:Ljl/c0;
+    iget-object v0, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->splitSupportStatus$delegate:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lkotlin/c;->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1740,6 +1682,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invalidateTopVisibleSplitAttributes()V
@@ -1776,21 +1719,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isActivityEmbedded(Landroid/app/Activity;)Z
     .locals 1
-    .param p1    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "activity"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1832,10 +1772,6 @@
 
 .method public removeRule(Landroidx/window/embedding/EmbeddingRule;)V
     .locals 2
-    .param p1    # Landroidx/window/embedding/EmbeddingRule;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/GuardedBy;
         value = "globalLock"
     .end annotation
@@ -1845,7 +1781,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1918,7 +1854,7 @@
     .line 38
     :cond_0
     :goto_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1970,14 +1906,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public removeSplitListenerForActivity(Landroidx/core/util/Consumer;)V
     .locals 4
-    .param p1    # Landroidx/core/util/Consumer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1993,7 +1926,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2053,7 +1986,7 @@
     move-result-object v3
 
     .line 33
-    invoke-static {v3, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 34
     .line 35
@@ -2086,7 +2019,7 @@
     .line 47
     :cond_1
     :goto_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2129,14 +2062,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final setEmbeddingExtension(Landroidx/window/embedding/EmbeddingInterfaceCompat;)V
     .locals 0
-    .param p1    # Landroidx/window/embedding/EmbeddingInterfaceCompat;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->embeddingExtension:Landroidx/window/embedding/EmbeddingInterfaceCompat;
@@ -2170,19 +2100,8 @@
 
 .method public setLaunchingActivityStack(Landroid/app/ActivityOptions;Landroid/os/IBinder;)Landroid/app/ActivityOptions;
     .locals 1
-    .param p1    # Landroid/app/ActivityOptions;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/os/IBinder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/window/RequiresWindowSdkExtension;
         version = 0x3
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -2190,7 +2109,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2199,7 +2118,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -2263,10 +2182,6 @@
 
 .method public setRules(Ljava/util/Set;)V
     .locals 2
-    .param p1    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/GuardedBy;
         value = "globalLock"
     .end annotation
@@ -2286,7 +2201,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2331,7 +2246,7 @@
     .line 25
     .line 26
     .line 27
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2403,14 +2318,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public setSplitAttributesCalculator(Ljm/l;)V
+.method public setSplitAttributesCalculator(Lq8/l;)V
     .locals 2
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/window/RequiresWindowSdkExtension;
         version = 0x2
     .end annotation
@@ -2418,11 +2330,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Landroidx/window/embedding/SplitAttributesCalculatorParams;",
-            "Landroidx/window/embedding/SplitAttributes;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -2431,7 +2340,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2454,12 +2363,12 @@
 
     .line 14
     .line 15
-    invoke-interface {v1, p1}, Landroidx/window/embedding/EmbeddingInterfaceCompat;->setSplitAttributesCalculator(Ljm/l;)V
+    invoke-interface {v1, p1}, Landroidx/window/embedding/EmbeddingInterfaceCompat;->setSplitAttributesCalculator(Lq8/l;)V
 
     .line 16
     .line 17
     .line 18
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2540,18 +2449,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public updateSplitAttributes(Landroidx/window/embedding/SplitInfo;Landroidx/window/embedding/SplitAttributes;)V
     .locals 1
-    .param p1    # Landroidx/window/embedding/SplitInfo;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/embedding/SplitAttributes;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/window/RequiresWindowSdkExtension;
         version = 0x3
     .end annotation
@@ -2561,7 +2463,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2570,7 +2472,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10

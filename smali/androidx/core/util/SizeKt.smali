@@ -6,10 +6,6 @@
 # direct methods
 .method public static final component1(Landroid/util/SizeF;)F
     .locals 0
-    .param p0    # Landroid/util/SizeF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
     .end annotation
@@ -24,10 +20,6 @@
 
 .method public static final component1(Landroidx/core/util/SizeFCompat;)F
     .locals 0
-    .param p0    # Landroidx/core/util/SizeFCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 3
     invoke-virtual {p0}, Landroidx/core/util/SizeFCompat;->getWidth()F
@@ -39,10 +31,6 @@
 
 .method public static final component1(Landroid/util/Size;)I
     .locals 0
-    .param p0    # Landroid/util/Size;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
     .end annotation
@@ -57,10 +45,6 @@
 
 .method public static final component2(Landroid/util/SizeF;)F
     .locals 0
-    .param p0    # Landroid/util/SizeF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
     .end annotation
@@ -75,10 +59,6 @@
 
 .method public static final component2(Landroidx/core/util/SizeFCompat;)F
     .locals 0
-    .param p0    # Landroidx/core/util/SizeFCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 3
     invoke-virtual {p0}, Landroidx/core/util/SizeFCompat;->getHeight()F
@@ -90,10 +70,6 @@
 
 .method public static final component2(Landroid/util/Size;)I
     .locals 0
-    .param p0    # Landroid/util/Size;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
     .end annotation

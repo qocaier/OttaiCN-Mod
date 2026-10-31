@@ -214,6 +214,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic b(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;JJ)V
@@ -987,6 +990,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic d(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;IJ)V
@@ -1227,6 +1236,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic e(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/view/Surface;J)V
@@ -2000,6 +2015,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic g(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/CaptureResult;)V
@@ -2240,6 +2261,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -2267,7 +2294,7 @@
 
     .line 2
     .line 3
-    new-instance v1, Landroidx/camera/camera2/internal/compat/f;
+    new-instance v1, Landroidx/camera/camera2/internal/compat/i;
 
     .line 4
     .line 5
@@ -2286,7 +2313,7 @@
     move-wide v6, p4
 
     .line 10
-    invoke-direct/range {v1 .. v7}, Landroidx/camera/camera2/internal/compat/f;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/view/Surface;J)V
+    invoke-direct/range {v1 .. v7}, Landroidx/camera/camera2/internal/compat/i;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/view/Surface;J)V
 
     .line 11
     .line 12
@@ -2511,6 +2538,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onCaptureCompleted(Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/TotalCaptureResult;)V
@@ -2533,11 +2566,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Landroidx/camera/camera2/internal/compat/b;
+    new-instance v1, Landroidx/camera/camera2/internal/compat/e;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1, p2, p3}, Landroidx/camera/camera2/internal/compat/b;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/TotalCaptureResult;)V
+    invoke-direct {v1, p0, p1, p2, p3}, Landroidx/camera/camera2/internal/compat/e;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/TotalCaptureResult;)V
 
     .line 6
     .line 7
@@ -2650,6 +2683,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onCaptureFailed(Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/CaptureFailure;)V
@@ -2672,11 +2708,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Landroidx/camera/camera2/internal/compat/e;
+    new-instance v1, Landroidx/camera/camera2/internal/compat/h;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1, p2, p3}, Landroidx/camera/camera2/internal/compat/e;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/CaptureFailure;)V
+    invoke-direct {v1, p0, p1, p2, p3}, Landroidx/camera/camera2/internal/compat/h;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/CaptureFailure;)V
 
     .line 6
     .line 7
@@ -2789,6 +2825,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onCaptureProgressed(Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/CaptureResult;)V
@@ -2811,11 +2850,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Landroidx/camera/camera2/internal/compat/c;
+    new-instance v1, Landroidx/camera/camera2/internal/compat/f;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1, p2, p3}, Landroidx/camera/camera2/internal/compat/c;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/CaptureResult;)V
+    invoke-direct {v1, p0, p1, p2, p3}, Landroidx/camera/camera2/internal/compat/f;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/CaptureResult;)V
 
     .line 6
     .line 7
@@ -2928,6 +2967,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onCaptureSequenceAborted(Landroid/hardware/camera2/CameraCaptureSession;I)V
@@ -2942,11 +2984,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Landroidx/camera/camera2/internal/compat/g;
+    new-instance v1, Landroidx/camera/camera2/internal/compat/j;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1, p2}, Landroidx/camera/camera2/internal/compat/g;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;I)V
+    invoke-direct {v1, p0, p1, p2}, Landroidx/camera/camera2/internal/compat/j;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;I)V
 
     .line 6
     .line 7
@@ -3008,7 +3050,7 @@
 
     .line 2
     .line 3
-    new-instance v1, Landroidx/camera/camera2/internal/compat/d;
+    new-instance v1, Landroidx/camera/camera2/internal/compat/g;
 
     .line 4
     .line 5
@@ -3024,7 +3066,7 @@
     move-wide v5, p3
 
     .line 9
-    invoke-direct/range {v1 .. v6}, Landroidx/camera/camera2/internal/compat/d;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;IJ)V
+    invoke-direct/range {v1 .. v6}, Landroidx/camera/camera2/internal/compat/g;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;IJ)V
 
     .line 10
     .line 11
@@ -3133,6 +3175,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onCaptureStarted(Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;JJ)V
@@ -3151,7 +3196,7 @@
 
     .line 2
     .line 3
-    new-instance v1, Landroidx/camera/camera2/internal/compat/a;
+    new-instance v1, Landroidx/camera/camera2/internal/compat/d;
 
     .line 4
     .line 5
@@ -3170,7 +3215,7 @@
     move-wide v7, p5
 
     .line 10
-    invoke-direct/range {v1 .. v8}, Landroidx/camera/camera2/internal/compat/a;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;JJ)V
+    invoke-direct/range {v1 .. v8}, Landroidx/camera/camera2/internal/compat/d;-><init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;JJ)V
 
     .line 11
     .line 12
@@ -3395,4 +3440,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

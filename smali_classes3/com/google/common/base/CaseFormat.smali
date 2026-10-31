@@ -18,12 +18,6 @@
     }
 .end annotation
 
-.annotation build Lfb/b;
-.end annotation
-
-.annotation runtime Lgb/g;
-.end annotation
-
 
 # static fields
 .field public static final enum LOWER_CAMEL:Lcom/google/common/base/CaseFormat;
@@ -40,7 +34,7 @@
 
 
 # instance fields
-.field private final wordBoundary:Lgb/b;
+.field private final wordBoundary:Lcom/google/common/base/b;
 
 .field private final wordSeparator:Ljava/lang/String;
 
@@ -58,7 +52,7 @@
 
     .line 4
     .line 5
-    invoke-static {v1}, Lgb/b;->q(C)Lgb/b;
+    invoke-static {v1}, Lcom/google/common/base/b;->f(C)Lcom/google/common/base/b;
 
     .line 6
     .line 7
@@ -77,7 +71,7 @@
     const/4 v4, 0x0
 
     .line 14
-    invoke-direct {v0, v3, v4, v1, v2}, Lcom/google/common/base/CaseFormat$1;-><init>(Ljava/lang/String;ILgb/b;Ljava/lang/String;)V
+    invoke-direct {v0, v3, v4, v1, v2}, Lcom/google/common/base/CaseFormat$1;-><init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -94,7 +88,7 @@
 
     .line 22
     .line 23
-    invoke-static {v2}, Lgb/b;->q(C)Lgb/b;
+    invoke-static {v2}, Lcom/google/common/base/b;->f(C)Lcom/google/common/base/b;
 
     .line 24
     .line 25
@@ -113,7 +107,7 @@
 
     .line 31
     .line 32
-    invoke-direct {v1, v5, v6, v3, v7}, Lcom/google/common/base/CaseFormat$2;-><init>(Ljava/lang/String;ILgb/b;Ljava/lang/String;)V
+    invoke-direct {v1, v5, v6, v3, v7}, Lcom/google/common/base/CaseFormat$2;-><init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -134,7 +128,7 @@
 
     .line 42
     .line 43
-    invoke-static {v5, v8}, Lgb/b;->m(CC)Lgb/b;
+    invoke-static {v5, v8}, Lcom/google/common/base/b;->d(CC)Lcom/google/common/base/b;
 
     .line 44
     .line 45
@@ -153,7 +147,7 @@
 
     .line 51
     .line 52
-    invoke-direct {v3, v10, v11, v9, v12}, Lcom/google/common/base/CaseFormat$3;-><init>(Ljava/lang/String;ILgb/b;Ljava/lang/String;)V
+    invoke-direct {v3, v10, v11, v9, v12}, Lcom/google/common/base/CaseFormat$3;-><init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -169,7 +163,7 @@
     const/4 v10, 0x3
 
     .line 60
-    invoke-static {v5, v8}, Lgb/b;->m(CC)Lgb/b;
+    invoke-static {v5, v8}, Lcom/google/common/base/b;->d(CC)Lcom/google/common/base/b;
 
     .line 61
     .line 62
@@ -181,7 +175,7 @@
 
     .line 65
     .line 66
-    invoke-direct {v9, v8, v10, v5, v12}, Lcom/google/common/base/CaseFormat$4;-><init>(Ljava/lang/String;ILgb/b;Ljava/lang/String;)V
+    invoke-direct {v9, v8, v10, v5, v12}, Lcom/google/common/base/CaseFormat$4;-><init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;)V
 
     .line 67
     .line 68
@@ -197,7 +191,7 @@
     const/4 v8, 0x4
 
     .line 74
-    invoke-static {v2}, Lgb/b;->q(C)Lgb/b;
+    invoke-static {v2}, Lcom/google/common/base/b;->f(C)Lcom/google/common/base/b;
 
     .line 75
     .line 76
@@ -209,7 +203,7 @@
 
     .line 79
     .line 80
-    invoke-direct {v5, v12, v8, v2, v7}, Lcom/google/common/base/CaseFormat$5;-><init>(Ljava/lang/String;ILgb/b;Ljava/lang/String;)V
+    invoke-direct {v5, v12, v8, v2, v7}, Lcom/google/common/base/CaseFormat$5;-><init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;)V
 
     .line 81
     .line 82
@@ -250,48 +244,16 @@
     .line 99
     .line 100
     return-void
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public constructor <init>(Ljava/lang/String;ILgb/b;Ljava/lang/String;)V
+.method public constructor <init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000,
-            0x0,
-            0x0
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal",
-            "wordBoundary",
-            "wordSeparator"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lgb/b;",
-            "Ljava/lang/String;",
-            ")V"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 3
-    iput-object p3, p0, Lcom/google/common/base/CaseFormat;->wordBoundary:Lgb/b;
+    iput-object p3, p0, Lcom/google/common/base/CaseFormat;->wordBoundary:Lcom/google/common/base/b;
 
     .line 4
     iput-object p4, p0, Lcom/google/common/base/CaseFormat;->wordSeparator:Ljava/lang/String;
@@ -299,25 +261,17 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;ILgb/b;Ljava/lang/String;Lcom/google/common/base/CaseFormat$1;)V
+.method public synthetic constructor <init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;Lcom/google/common/base/CaseFormat$1;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/common/base/CaseFormat;-><init>(Ljava/lang/String;ILgb/b;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/common/base/CaseFormat;-><init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;)V
 
     return-void
 .end method
 
 .method public static a(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "word"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
@@ -356,7 +310,7 @@
     move-result v1
 
     .line 18
-    invoke-static {v1}, Lgb/a;->h(C)C
+    invoke-static {v1}, Lcom/google/common/base/a;->d(C)C
 
     .line 19
     .line 20
@@ -380,7 +334,7 @@
     move-result-object p0
 
     .line 30
-    invoke-static {p0}, Lgb/a;->g(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/google/common/base/a;->c(Ljava/lang/String;)Ljava/lang/String;
 
     .line 31
     .line 32
@@ -452,8 +406,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic access$100(Ljava/lang/String;)Ljava/lang/String;
@@ -488,19 +440,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/base/CaseFormat;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8000
-        }
-        names = {
-            "name"
-        }
-    .end annotation
 
     .line 1
     const-class v0, Lcom/google/common/base/CaseFormat;
@@ -535,7 +478,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static values()[Lcom/google/common/base/CaseFormat;
@@ -572,23 +514,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public convert(Lcom/google/common/base/CaseFormat;Ljava/lang/String;)Ljava/lang/String;
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "format",
-            "s"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -604,7 +535,7 @@
 
     .line 5
     :goto_0
-    iget-object v4, p0, Lcom/google/common/base/CaseFormat;->wordBoundary:Lgb/b;
+    iget-object v4, p0, Lcom/google/common/base/CaseFormat;->wordBoundary:Lcom/google/common/base/b;
 
     .line 6
     .line 7
@@ -612,7 +543,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v4, p2, v3}, Lgb/b;->o(Ljava/lang/CharSequence;I)I
+    invoke-virtual {v4, p2, v3}, Lcom/google/common/base/b;->e(Ljava/lang/CharSequence;I)I
 
     .line 10
     .line 11
@@ -1027,76 +958,16 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public converterTo(Lcom/google/common/base/CaseFormat;)Lcom/google/common/base/Converter;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "targetFormat"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/google/common/base/CaseFormat;",
             ")",
-            "Lcom/google/common/base/Converter<",
-            "Ljava/lang/String;",
-            "Ljava/lang/String;",
-            ">;"
+            "Lcom/google/common/base/Converter;"
         }
     .end annotation
 
@@ -1129,19 +1000,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public normalizeFirstWord(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "word"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Lcom/google/common/base/CaseFormat;->normalizeWord(Ljava/lang/String;)Ljava/lang/String;
@@ -1172,40 +1034,21 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public abstract normalizeWord(Ljava/lang/String;)Ljava/lang/String;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "word"
-        }
-    .end annotation
 .end method
 
 .method public final to(Lcom/google/common/base/CaseFormat;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "format",
-            "str"
-        }
-    .end annotation
 
     .line 1
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p2}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -1273,9 +1116,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/camera/camera2/internal/CaptureSession;->open(Landroidx/camera/core/impl/SessionConfig;Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener;)Lub/u0;
+    value = Landroidx/camera/camera2/internal/CaptureSession;->open(Landroidx/camera/core/impl/SessionConfig;Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener;)Lcom/google/common/util/concurrent/t;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -242,6 +242,7 @@
     throw p1
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public bridge synthetic onSuccess(Ljava/lang/Object;)V

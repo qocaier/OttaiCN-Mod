@@ -171,6 +171,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getItem(I)Ljava/lang/Object;
@@ -253,6 +254,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onCurrentListChanged(Ljava/util/List;Ljava/util/List;)V

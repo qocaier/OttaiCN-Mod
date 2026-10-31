@@ -187,6 +187,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -219,6 +220,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNavigationBarDividerColor()Ljava/lang/Integer;
@@ -249,6 +251,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getToolbarColor()Ljava/lang/Integer;
@@ -279,6 +282,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toBundle()Landroid/os/Bundle;
@@ -412,6 +416,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public withDefaults(Landroidx/browser/auth/AuthTabColorSchemeParams;)Landroidx/browser/auth/AuthTabColorSchemeParams;

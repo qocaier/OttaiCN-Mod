@@ -19,9 +19,6 @@
 
 # static fields
 .field public static final Companion:Landroidx/core/flagging/Flags$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final aconfigCache:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
@@ -32,9 +29,6 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end field
 
 .field private static final missingPackageCache:Ljava/util/Set;
@@ -44,9 +38,6 @@
             "Ljava/lang/String;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end field
 
@@ -63,7 +54,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/core/flagging/Flags$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/core/flagging/Flags$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -175,6 +166,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>()V
@@ -203,6 +196,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getAconfigCache$cp()Ljava/util/Map;
@@ -231,6 +225,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getMissingPackageCache$cp()Ljava/util/Set;
@@ -259,23 +254,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final getBooleanFlagValue(Ljava/lang/String;Ljava/lang/String;)Z
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/core/flagging/Flags;->Companion:Landroidx/core/flagging/Flags$Companion;
@@ -289,19 +272,6 @@
 
 .method public static final getBooleanFlagValue(Ljava/lang/String;Ljava/lang/String;Z)Z
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/core/flagging/Flags;->Companion:Landroidx/core/flagging/Flags$Companion;

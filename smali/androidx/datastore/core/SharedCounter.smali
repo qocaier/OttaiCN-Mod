@@ -13,14 +13,8 @@
 
 # static fields
 .field public static final Factory:Landroidx/datastore/core/SharedCounter$Factory;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final nativeSharedCounter:Landroidx/datastore/core/NativeSharedCounter;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
@@ -39,7 +33,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/datastore/core/SharedCounter$Factory;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/datastore/core/SharedCounter$Factory;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -66,6 +60,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>(J)V
@@ -80,7 +75,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(JLkm/v;)V
+.method public synthetic constructor <init>(JLkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -115,6 +110,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -151,6 +147,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final incrementAndGetValue()I
@@ -185,4 +182,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

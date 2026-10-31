@@ -23,14 +23,6 @@
 .field public i:I
 
 .field public j:Ljava/util/ArrayList;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/ArrayList<",
-            "Landroid/graphics/PointF;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 .field public k:I
 
@@ -38,15 +30,6 @@
 # direct methods
 .method public constructor <init>(Landroid/content/Context;Ljava/util/List;FIFFI)V
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Ljava/util/List<",
-            "Ljava/lang/Double;",
-            ">;FIFFI)V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
@@ -118,7 +101,7 @@
 
     .line 37
     .line 38
-    sget p7, Lwh/b;->l:I
+    sget p7, Lz6/b;->l:I
 
     .line 39
     .line 40
@@ -897,6 +880,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -1343,39 +1336,10 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public c(Ljava/util/List;)V
     .locals 11
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Ljava/lang/Double;",
-            ">;)V"
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -1562,6 +1526,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final d(Landroid/graphics/Canvas;)V
@@ -1949,27 +1915,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -2023,4 +1968,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

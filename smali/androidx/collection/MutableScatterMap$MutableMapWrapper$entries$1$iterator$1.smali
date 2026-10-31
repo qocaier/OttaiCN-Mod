@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/Iterator;
-.implements Llm/d;
+.implements Lr8/a;
 
 
 # annotations
@@ -23,7 +23,7 @@
         "Ljava/util/Iterator<",
         "Ljava/util/Map$Entry<",
         "TK;TV;>;>;",
-        "Llm/d;"
+        "Lr8/a;"
     }
 .end annotation
 
@@ -39,9 +39,6 @@
             "Ljava/util/Map$Entry<",
             "TK;TV;>;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -90,12 +87,12 @@
     const/4 v1, 0x0
 
     .line 12
-    invoke-direct {v0, p1, p0, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$entries$1$iterator$1$1;-><init>(Landroidx/collection/MutableScatterMap;Landroidx/collection/MutableScatterMap$MutableMapWrapper$entries$1$iterator$1;Lul/c;)V
+    invoke-direct {v0, p1, p0, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$entries$1$iterator$1$1;-><init>(Landroidx/collection/MutableScatterMap;Landroidx/collection/MutableScatterMap$MutableMapWrapper$entries$1$iterator$1;Lkotlin/coroutines/e;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-static {v0}, Lvm/q;->a(Ljm/p;)Ljava/util/Iterator;
+    invoke-static {v0}, Lkotlin/sequences/j;->a(Lq8/p;)Ljava/util/Iterator;
 
     .line 16
     .line 17
@@ -142,6 +139,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getIterator()Ljava/util/Iterator;
@@ -153,9 +151,6 @@
             "Ljava/util/Map$Entry<",
             "TK;TV;>;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -181,6 +176,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasNext()Z
@@ -213,6 +209,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic next()Ljava/lang/Object;
@@ -234,9 +231,6 @@
             "Ljava/util/Map$Entry<",
             "TK;TV;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 2
@@ -288,6 +282,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setCurrent(I)V
@@ -325,10 +320,6 @@
 
 .method public final setIterator(Ljava/util/Iterator;)V
     .locals 1
-    .param p1    # Ljava/util/Iterator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -344,7 +335,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

@@ -39,6 +39,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -54,16 +55,9 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract contains(Landroidx/datastore/preferences/core/Preferences$Key;)Z
-    .param p1    # Landroidx/datastore/preferences/core/Preferences$Key;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -76,10 +70,6 @@
 .end method
 
 .method public abstract get(Landroidx/datastore/preferences/core/Preferences$Key;)Ljava/lang/Object;
-    .param p1    # Landroidx/datastore/preferences/core/Preferences$Key;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -89,15 +79,10 @@
             "TT;>;)TT;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end method
 
 .method public final toMutablePreferences()Landroidx/datastore/preferences/core/MutablePreferences;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/datastore/preferences/core/MutablePreferences;
@@ -112,7 +97,7 @@
     move-result-object v1
 
     .line 7
-    invoke-static {v1}, Lkotlin/collections/a;->J0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v1}, Lkotlin/collections/g0;->q(Ljava/util/Map;)Ljava/util/Map;
 
     .line 8
     .line 9
@@ -134,12 +119,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final toPreferences()Landroidx/datastore/preferences/core/Preferences;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/datastore/preferences/core/MutablePreferences;
@@ -154,7 +138,7 @@
     move-result-object v1
 
     .line 7
-    invoke-static {v1}, Lkotlin/collections/a;->J0(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v1}, Lkotlin/collections/g0;->q(Ljava/util/Map;)Ljava/util/Map;
 
     .line 8
     .line 9
@@ -176,4 +160,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

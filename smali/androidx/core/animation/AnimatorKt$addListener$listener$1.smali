@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/animation/AnimatorKt;->addListener(Landroid/animation/Animator;Ljm/l;Ljm/l;Ljm/l;Ljm/l;)Landroid/animation/Animator$AnimatorListener;
+    value = Landroidx/core/animation/AnimatorKt;->addListener(Landroid/animation/Animator;Lq8/l;Lq8/l;Lq8/l;Lq8/l;)Landroid/animation/Animator$AnimatorListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,94 +18,67 @@
 
 
 # instance fields
-.field final synthetic $onCancel:Ljm/l;
+.field final synthetic $onCancel:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
-.field final synthetic $onEnd:Ljm/l;
+.field final synthetic $onEnd:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
-.field final synthetic $onRepeat:Ljm/l;
+.field final synthetic $onRepeat:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
-.field final synthetic $onStart:Ljm/l;
+.field final synthetic $onStart:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljm/l;Ljm/l;Ljm/l;Ljm/l;)V
+.method public constructor <init>(Lq8/l;Lq8/l;Lq8/l;Lq8/l;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/animation/Animator;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            "Lq8/l;",
+            "Lq8/l;",
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onRepeat:Ljm/l;
+    iput-object p1, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onRepeat:Lq8/l;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onEnd:Ljm/l;
+    iput-object p2, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onEnd:Lq8/l;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onCancel:Ljm/l;
+    iput-object p3, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onCancel:Lq8/l;
 
     .line 6
     .line 7
-    iput-object p4, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onStart:Ljm/l;
+    iput-object p4, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onStart:Lq8/l;
 
     .line 8
     .line 9
@@ -333,6 +306,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -341,11 +320,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onCancel:Ljm/l;
+    iget-object v0, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onCancel:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -376,11 +355,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onEnd:Ljm/l;
+    iget-object v0, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onEnd:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -411,11 +390,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onRepeat:Ljm/l;
+    iget-object v0, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onRepeat:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -446,11 +425,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onStart:Ljm/l;
+    iget-object v0, p0, Landroidx/core/animation/AnimatorKt$addListener$listener$1;->$onStart:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5

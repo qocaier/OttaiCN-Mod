@@ -3,34 +3,36 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/activity/result/ActivityResultCallback;
+.implements Landroidx/camera/core/CameraFilter;
 
 
 # instance fields
-.field public final synthetic a:Ljm/l;
+.field public final synthetic a:Ljava/lang/String;
 
 
 # direct methods
-.method public synthetic constructor <init>(Ljm/l;)V
+.method public synthetic constructor <init>(Ljava/lang/String;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Le/a;->a:Ljm/l;
+    iput-object p1, p0, Le/a;->a:Ljava/lang/String;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onActivityResult(Ljava/lang/Object;)V
+.method public final filter(Ljava/util/List;)Ljava/util/List;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Le/a;->a:Ljm/l;
+    iget-object v0, p0, Le/a;->a:Ljava/lang/String;
 
-    invoke-static {v0, p1}, Landroidx/activity/result/ActivityResultCallerKt;->a(Ljm/l;Ljava/lang/Object;)V
+    invoke-static {v0, p1}, Landroidx/camera/camera2/internal/concurrent/Camera2CameraCoordinator;->a(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;
 
-    return-void
+    move-result-object p1
+
+    return-object p1
 .end method

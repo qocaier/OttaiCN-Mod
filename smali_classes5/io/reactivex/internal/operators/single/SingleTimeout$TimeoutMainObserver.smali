@@ -3,21 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ldk/l0;
+.implements Lb8/r;
 .implements Ljava/lang/Runnable;
-.implements Lfk/b;
+.implements Lio/reactivex/disposables/b;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lio/reactivex/internal/operators/single/SingleTimeout;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "TimeoutMainObserver"
-.end annotation
-
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver$TimeoutFallbackObserver;
@@ -30,12 +21,11 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/util/concurrent/atomic/AtomicReference<",
-        "Lfk/b;",
+        "Lio/reactivex/disposables/b;",
         ">;",
-        "Ldk/l0<",
-        "TT;>;",
+        "Lb8/r;",
         "Ljava/lang/Runnable;",
-        "Lfk/b;"
+        "Lio/reactivex/disposables/b;"
     }
 .end annotation
 
@@ -45,11 +35,10 @@
 
 
 # instance fields
-.field final downstream:Ldk/l0;
+.field final downstream:Lb8/r;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ldk/l0<",
-            "-TT;>;"
+            "Lb8/r;"
         }
     .end annotation
 .end field
@@ -63,11 +52,10 @@
     .end annotation
 .end field
 
-.field other:Ldk/o0;
+.field other:Lb8/s;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ldk/o0<",
-            "+TT;>;"
+            "Lb8/s;"
         }
     .end annotation
 .end field
@@ -76,7 +64,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/concurrent/atomic/AtomicReference<",
-            "Lfk/b;",
+            "Lio/reactivex/disposables/b;",
             ">;"
         }
     .end annotation
@@ -88,15 +76,14 @@
 
 
 # direct methods
-.method public constructor <init>(Ldk/l0;Ldk/o0;JLjava/util/concurrent/TimeUnit;)V
+.method public constructor <init>(Lb8/r;Lb8/s;JLjava/util/concurrent/TimeUnit;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ldk/l0<",
-            "-TT;>;",
-            "Ldk/o0<",
-            "+TT;>;J",
+            "Lb8/r;",
+            "Lb8/s;",
+            "J",
             "Ljava/util/concurrent/TimeUnit;",
             ")V"
         }
@@ -108,64 +95,62 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->downstream:Ldk/l0;
+    iput-object p1, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->downstream:Lb8/r;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->other:Ldk/o0;
+    iput-wide p3, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->timeout:J
 
     .line 7
     .line 8
-    iput-wide p3, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->timeout:J
+    iput-object p5, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->unit:Ljava/util/concurrent/TimeUnit;
 
     .line 9
     .line 10
-    iput-object p5, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->unit:Ljava/util/concurrent/TimeUnit;
+    new-instance p3, Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 11
     .line 12
-    new-instance p3, Ljava/util/concurrent/atomic/AtomicReference;
+    invoke-direct {p3}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
 
     .line 13
     .line 14
-    invoke-direct {p3}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
-
     .line 15
+    iput-object p3, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->task:Ljava/util/concurrent/atomic/AtomicReference;
+
     .line 16
     .line 17
-    iput-object p3, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->task:Ljava/util/concurrent/atomic/AtomicReference;
+    if-eqz p2, :cond_0
 
     .line 18
     .line 19
-    if-eqz p2, :cond_0
+    new-instance p2, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver$TimeoutFallbackObserver;
 
     .line 20
     .line 21
-    new-instance p2, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver$TimeoutFallbackObserver;
+    invoke-direct {p2, p1}, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver$TimeoutFallbackObserver;-><init>(Lb8/r;)V
 
     .line 22
     .line 23
-    invoke-direct {p2, p1}, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver$TimeoutFallbackObserver;-><init>(Ldk/l0;)V
-
     .line 24
-    .line 25
-    .line 26
     iput-object p2, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->fallback:Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver$TimeoutFallbackObserver;
 
-    .line 27
-    .line 28
+    .line 25
+    .line 26
     return-void
 
-    .line 29
+    .line 27
     :cond_0
     const/4 p1, 0x0
 
-    .line 30
+    .line 28
     iput-object p1, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->fallback:Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver$TimeoutFallbackObserver;
 
+    .line 29
+    .line 30
+    return-void
     .line 31
     .line 32
-    return-void
     .line 33
     .line 34
     .line 35
@@ -321,6 +306,216 @@
     .line 185
     .line 186
     .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
 .end method
 
 
@@ -365,6 +560,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public isDisposed()Z
@@ -379,11 +601,11 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Lfk/b;
+    check-cast v0, Lio/reactivex/disposables/b;
 
     .line 6
     .line 7
-    invoke-static {v0}, Lio/reactivex/internal/disposables/DisposableHelper;->isDisposed(Lfk/b;)Z
+    invoke-static {v0}, Lio/reactivex/internal/disposables/DisposableHelper;->isDisposed(Lio/reactivex/disposables/b;)Z
 
     .line 8
     .line 9
@@ -404,6 +626,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onError(Ljava/lang/Throwable;)V
@@ -418,7 +667,7 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Lfk/b;
+    check-cast v0, Lio/reactivex/disposables/b;
 
     .line 6
     .line 7
@@ -451,11 +700,11 @@
     .line 20
     .line 21
     .line 22
-    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->downstream:Ldk/l0;
+    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->downstream:Lb8/r;
 
     .line 23
     .line 24
-    invoke-interface {v0, p1}, Ldk/l0;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, p1}, Lb8/r;->onError(Ljava/lang/Throwable;)V
 
     .line 25
     .line 26
@@ -464,7 +713,7 @@
 
     .line 28
     :cond_0
-    invoke-static {p1}, Lbl/a;->Y(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lh8/a;->e(Ljava/lang/Throwable;)V
 
     .line 29
     .line 30
@@ -496,32 +745,13 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public onSubscribe(Lfk/b;)V
+.method public onSubscribe(Lio/reactivex/disposables/b;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Lfk/b;)Z
+    invoke-static {p0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Lio/reactivex/disposables/b;)Z
 
     .line 2
     .line 3
@@ -547,6 +777,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public onSuccess(Ljava/lang/Object;)V
@@ -566,7 +829,7 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Lfk/b;
+    check-cast v0, Lio/reactivex/disposables/b;
 
     .line 6
     .line 7
@@ -599,11 +862,11 @@
     .line 20
     .line 21
     .line 22
-    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->downstream:Ldk/l0;
+    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->downstream:Lb8/r;
 
     .line 23
     .line 24
-    invoke-interface {v0, p1}, Ldk/l0;->onSuccess(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Lb8/r;->onSuccess(Ljava/lang/Object;)V
 
     .line 25
     .line 26
@@ -640,25 +903,6 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
 .method public run()V
@@ -673,7 +917,7 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Lfk/b;
+    check-cast v0, Lio/reactivex/disposables/b;
 
     .line 6
     .line 7
@@ -681,7 +925,7 @@
 
     .line 8
     .line 9
-    if-eq v0, v1, :cond_2
+    if-eq v0, v1, :cond_1
 
     .line 10
     .line 11
@@ -693,7 +937,7 @@
     move-result v1
 
     .line 15
-    if-eqz v1, :cond_2
+    if-eqz v1, :cond_1
 
     .line 16
     .line 17
@@ -701,121 +945,56 @@
 
     .line 18
     .line 19
-    invoke-interface {v0}, Lfk/b;->dispose()V
+    invoke-interface {v0}, Lio/reactivex/disposables/b;->dispose()V
 
     .line 20
     .line 21
     .line 22
     :cond_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->other:Ldk/o0;
+    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->downstream:Lb8/r;
 
     .line 23
     .line 24
-    if-nez v0, :cond_1
+    new-instance v1, Ljava/util/concurrent/TimeoutException;
 
     .line 25
     .line 26
-    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->downstream:Ldk/l0;
+    iget-wide v2, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->timeout:J
 
     .line 27
     .line 28
-    new-instance v1, Ljava/util/concurrent/TimeoutException;
+    iget-object v4, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->unit:Ljava/util/concurrent/TimeUnit;
 
     .line 29
     .line 30
-    iget-wide v2, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->timeout:J
+    invoke-static {v2, v3, v4}, Lio/reactivex/internal/util/ExceptionHelper;->c(JLjava/util/concurrent/TimeUnit;)Ljava/lang/String;
 
     .line 31
     .line 32
-    iget-object v4, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->unit:Ljava/util/concurrent/TimeUnit;
-
     .line 33
+    move-result-object v2
+
     .line 34
-    invoke-static {v2, v3, v4}, Lio/reactivex/internal/util/ExceptionHelper;->e(JLjava/util/concurrent/TimeUnit;)Ljava/lang/String;
+    invoke-direct {v1, v2}, Ljava/util/concurrent/TimeoutException;-><init>(Ljava/lang/String;)V
 
     .line 35
     .line 36
     .line 37
-    move-result-object v2
+    invoke-interface {v0, v1}, Lb8/r;->onError(Ljava/lang/Throwable;)V
 
     .line 38
-    invoke-direct {v1, v2}, Ljava/util/concurrent/TimeoutException;-><init>(Ljava/lang/String;)V
-
     .line 39
     .line 40
+    :cond_1
+    return-void
     .line 41
-    invoke-interface {v0, v1}, Ldk/l0;->onError(Ljava/lang/Throwable;)V
-
     .line 42
     .line 43
     .line 44
-    return-void
-
     .line 45
-    :cond_1
-    const/4 v1, 0x0
-
     .line 46
-    iput-object v1, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->other:Ldk/o0;
-
     .line 47
     .line 48
-    iget-object v1, p0, Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver;->fallback:Lio/reactivex/internal/operators/single/SingleTimeout$TimeoutMainObserver$TimeoutFallbackObserver;
-
     .line 49
     .line 50
-    invoke-interface {v0, v1}, Ldk/o0;->a(Ldk/l0;)V
-
-    .line 51
-    .line 52
-    .line 53
-    :cond_2
-    return-void
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
 .end method

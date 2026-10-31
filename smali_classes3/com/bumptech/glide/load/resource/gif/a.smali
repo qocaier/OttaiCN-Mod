@@ -6,7 +6,6 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bumptech/glide/load/resource/gif/a$d;,
         Lcom/bumptech/glide/load/resource/gif/a$a;,
         Lcom/bumptech/glide/load/resource/gif/a$c;,
         Lcom/bumptech/glide/load/resource/gif/a$b;
@@ -15,23 +14,15 @@
 
 
 # instance fields
-.field public final a:Lz5/a;
+.field public final a:Lg0/a;
 
 .field public final b:Landroid/os/Handler;
 
 .field public final c:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Lcom/bumptech/glide/load/resource/gif/a$b;",
-            ">;"
-        }
-    .end annotation
-.end field
 
-.field public final d:Lu5/e;
+.field public final d:Lcom/bumptech/glide/h;
 
-.field public final e:Le6/e;
+.field public final e:Lcom/bumptech/glide/load/engine/bitmap_recycle/d;
 
 .field public f:Z
 
@@ -39,15 +30,7 @@
 
 .field public h:Z
 
-.field public i:Lu5/d;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lu5/d<",
-            "Landroid/graphics/Bitmap;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field public i:Lcom/bumptech/glide/g;
 
 .field public j:Lcom/bumptech/glide/load/resource/gif/a$a;
 
@@ -57,71 +40,45 @@
 
 .field public m:Landroid/graphics/Bitmap;
 
-.field public n:La6/h;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "La6/h<",
-            "Landroid/graphics/Bitmap;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field public n:Lh0/g;
 
 .field public o:Lcom/bumptech/glide/load/resource/gif/a$a;
 
-.field public p:Lcom/bumptech/glide/load/resource/gif/a$d;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
+.field public p:I
 
 .field public q:I
 
 .field public r:I
 
-.field public s:I
-
 
 # direct methods
-.method public constructor <init>(Lcom/bumptech/glide/a;Lz5/a;IILa6/h;Landroid/graphics/Bitmap;)V
+.method public constructor <init>(Lcom/bumptech/glide/b;Lg0/a;IILh0/g;Landroid/graphics/Bitmap;)V
     .locals 8
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/bumptech/glide/a;",
-            "Lz5/a;",
-            "II",
-            "La6/h<",
-            "Landroid/graphics/Bitmap;",
-            ">;",
-            "Landroid/graphics/Bitmap;",
-            ")V"
-        }
-    .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/bumptech/glide/a;->h()Le6/e;
+    invoke-virtual {p1}, Lcom/bumptech/glide/b;->g()Lcom/bumptech/glide/load/engine/bitmap_recycle/d;
 
     move-result-object v1
 
     .line 2
-    invoke-virtual {p1}, Lcom/bumptech/glide/a;->j()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/bumptech/glide/b;->i()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/bumptech/glide/a;->E(Landroid/content/Context;)Lu5/e;
+    invoke-static {v0}, Lcom/bumptech/glide/b;->u(Landroid/content/Context;)Lcom/bumptech/glide/h;
 
     move-result-object v2
 
     .line 3
-    invoke-virtual {p1}, Lcom/bumptech/glide/a;->j()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/bumptech/glide/b;->i()Landroid/content/Context;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/bumptech/glide/a;->E(Landroid/content/Context;)Lu5/e;
+    invoke-static {p1}, Lcom/bumptech/glide/b;->u(Landroid/content/Context;)Lcom/bumptech/glide/h;
 
     move-result-object p1
 
-    invoke-static {p1, p3, p4}, Lcom/bumptech/glide/load/resource/gif/a;->k(Lu5/e;II)Lu5/d;
+    invoke-static {p1, p3, p4}, Lcom/bumptech/glide/load/resource/gif/a;->i(Lcom/bumptech/glide/h;II)Lcom/bumptech/glide/g;
 
     move-result-object v5
 
@@ -136,30 +93,13 @@
     move-object v7, p6
 
     .line 4
-    invoke-direct/range {v0 .. v7}, Lcom/bumptech/glide/load/resource/gif/a;-><init>(Le6/e;Lu5/e;Lz5/a;Landroid/os/Handler;Lu5/d;La6/h;Landroid/graphics/Bitmap;)V
+    invoke-direct/range {v0 .. v7}, Lcom/bumptech/glide/load/resource/gif/a;-><init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/d;Lcom/bumptech/glide/h;Lg0/a;Landroid/os/Handler;Lcom/bumptech/glide/g;Lh0/g;Landroid/graphics/Bitmap;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Le6/e;Lu5/e;Lz5/a;Landroid/os/Handler;Lu5/d;La6/h;Landroid/graphics/Bitmap;)V
+.method public constructor <init>(Lcom/bumptech/glide/load/engine/bitmap_recycle/d;Lcom/bumptech/glide/h;Lg0/a;Landroid/os/Handler;Lcom/bumptech/glide/g;Lh0/g;Landroid/graphics/Bitmap;)V
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Le6/e;",
-            "Lu5/e;",
-            "Lz5/a;",
-            "Landroid/os/Handler;",
-            "Lu5/d<",
-            "Landroid/graphics/Bitmap;",
-            ">;",
-            "La6/h<",
-            "Landroid/graphics/Bitmap;",
-            ">;",
-            "Landroid/graphics/Bitmap;",
-            ")V"
-        }
-    .end annotation
 
     .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -172,7 +112,7 @@
     iput-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->c:Ljava/util/List;
 
     .line 7
-    iput-object p2, p0, Lcom/bumptech/glide/load/resource/gif/a;->d:Lu5/e;
+    iput-object p2, p0, Lcom/bumptech/glide/load/resource/gif/a;->d:Lcom/bumptech/glide/h;
 
     if-nez p4, :cond_0
 
@@ -191,28 +131,28 @@
 
     .line 9
     :cond_0
-    iput-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->e:Le6/e;
+    iput-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->e:Lcom/bumptech/glide/load/engine/bitmap_recycle/d;
 
     .line 10
     iput-object p4, p0, Lcom/bumptech/glide/load/resource/gif/a;->b:Landroid/os/Handler;
 
     .line 11
-    iput-object p5, p0, Lcom/bumptech/glide/load/resource/gif/a;->i:Lu5/d;
+    iput-object p5, p0, Lcom/bumptech/glide/load/resource/gif/a;->i:Lcom/bumptech/glide/g;
 
     .line 12
-    iput-object p3, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lz5/a;
+    iput-object p3, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lg0/a;
 
     .line 13
-    invoke-virtual {p0, p6, p7}, Lcom/bumptech/glide/load/resource/gif/a;->q(La6/h;Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, p6, p7}, Lcom/bumptech/glide/load/resource/gif/a;->o(Lh0/g;Landroid/graphics/Bitmap;)V
 
     return-void
 .end method
 
-.method public static g()La6/b;
+.method public static g()Lh0/b;
     .locals 3
 
     .line 1
-    new-instance v0, Lx6/e;
+    new-instance v0, Ly0/d;
 
     .line 2
     .line 3
@@ -232,7 +172,7 @@
     move-result-object v1
 
     .line 11
-    invoke-direct {v0, v1}, Lx6/e;-><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, v1}, Ly0/d;-><init>(Ljava/lang/Object;)V
 
     .line 12
     .line 13
@@ -246,24 +186,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public static k(Lu5/e;II)Lu5/d;
+.method public static i(Lcom/bumptech/glide/h;II)Lcom/bumptech/glide/g;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lu5/e;",
-            "II)",
-            "Lu5/d<",
-            "Landroid/graphics/Bitmap;",
-            ">;"
-        }
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lu5/e;->u()Lu5/d;
+    invoke-virtual {p0}, Lcom/bumptech/glide/h;->b()Lcom/bumptech/glide/g;
 
     .line 2
     .line 3
@@ -271,11 +200,11 @@
     move-result-object p0
 
     .line 5
-    sget-object v0, Ld6/c;->b:Ld6/c;
+    sget-object v0, Lcom/bumptech/glide/load/engine/h;->b:Lcom/bumptech/glide/load/engine/h;
 
     .line 6
     .line 7
-    invoke-static {v0}, Lu6/g;->b1(Ld6/c;)Lu6/g;
+    invoke-static {v0}, Lcom/bumptech/glide/request/g;->i0(Lcom/bumptech/glide/load/engine/h;)Lcom/bumptech/glide/request/g;
 
     .line 8
     .line 9
@@ -286,7 +215,7 @@
     const/4 v1, 0x1
 
     .line 12
-    invoke-virtual {v0, v1}, Lu6/a;->U0(Z)Lu6/a;
+    invoke-virtual {v0, v1}, Lcom/bumptech/glide/request/a;->g0(Z)Lcom/bumptech/glide/request/a;
 
     .line 13
     .line 14
@@ -294,11 +223,11 @@
     move-result-object v0
 
     .line 16
-    check-cast v0, Lu6/g;
+    check-cast v0, Lcom/bumptech/glide/request/g;
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Lu6/a;->K0(Z)Lu6/a;
+    invoke-virtual {v0, v1}, Lcom/bumptech/glide/request/a;->a0(Z)Lcom/bumptech/glide/request/a;
 
     .line 19
     .line 20
@@ -306,11 +235,11 @@
     move-result-object v0
 
     .line 22
-    check-cast v0, Lu6/g;
+    check-cast v0, Lcom/bumptech/glide/request/g;
 
     .line 23
     .line 24
-    invoke-virtual {v0, p1, p2}, Lu6/a;->y0(II)Lu6/a;
+    invoke-virtual {v0, p1, p2}, Lcom/bumptech/glide/request/a;->R(II)Lcom/bumptech/glide/request/a;
 
     .line 25
     .line 26
@@ -318,7 +247,7 @@
     move-result-object p1
 
     .line 28
-    invoke-virtual {p0, p1}, Lu5/d;->X0(Lu6/a;)Lu5/d;
+    invoke-virtual {p0, p1}, Lcom/bumptech/glide/g;->i0(Lcom/bumptech/glide/request/a;)Lcom/bumptech/glide/g;
 
     .line 29
     .line 30
@@ -442,11 +371,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
@@ -464,12 +388,12 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->p()V
+    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->n()V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->u()V
+    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->q()V
 
     .line 10
     .line 11
@@ -485,11 +409,11 @@
 
     .line 16
     .line 17
-    iget-object v2, p0, Lcom/bumptech/glide/load/resource/gif/a;->d:Lu5/e;
+    iget-object v2, p0, Lcom/bumptech/glide/load/resource/gif/a;->d:Lcom/bumptech/glide/h;
 
     .line 18
     .line 19
-    invoke-virtual {v2, v0}, Lu5/e;->z(Lv6/p;)V
+    invoke-virtual {v2, v0}, Lcom/bumptech/glide/h;->m(Lw0/i;)V
 
     .line 20
     .line 21
@@ -507,11 +431,11 @@
 
     .line 27
     .line 28
-    iget-object v2, p0, Lcom/bumptech/glide/load/resource/gif/a;->d:Lu5/e;
+    iget-object v2, p0, Lcom/bumptech/glide/load/resource/gif/a;->d:Lcom/bumptech/glide/h;
 
     .line 29
     .line 30
-    invoke-virtual {v2, v0}, Lu5/e;->z(Lv6/p;)V
+    invoke-virtual {v2, v0}, Lcom/bumptech/glide/h;->m(Lw0/i;)V
 
     .line 31
     .line 32
@@ -529,11 +453,11 @@
 
     .line 38
     .line 39
-    iget-object v2, p0, Lcom/bumptech/glide/load/resource/gif/a;->d:Lu5/e;
+    iget-object v2, p0, Lcom/bumptech/glide/load/resource/gif/a;->d:Lcom/bumptech/glide/h;
 
     .line 40
     .line 41
-    invoke-virtual {v2, v0}, Lu5/e;->z(Lv6/p;)V
+    invoke-virtual {v2, v0}, Lcom/bumptech/glide/h;->m(Lw0/i;)V
 
     .line 42
     .line 43
@@ -543,11 +467,11 @@
     .line 45
     .line 46
     :cond_2
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lz5/a;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lg0/a;
 
     .line 47
     .line 48
-    invoke-interface {v0}, Lz5/a;->clear()V
+    invoke-interface {v0}, Lg0/a;->clear()V
 
     .line 49
     .line 50
@@ -606,26 +530,17 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public b()Ljava/nio/ByteBuffer;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lz5/a;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lg0/a;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lz5/a;->getData()Ljava/nio/ByteBuffer;
+    invoke-interface {v0}, Lg0/a;->getData()Ljava/nio/ByteBuffer;
 
     .line 4
     .line 5
@@ -653,7 +568,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public c()Landroid/graphics/Bitmap;
@@ -668,7 +582,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Lcom/bumptech/glide/load/resource/gif/a$a;->c()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Lcom/bumptech/glide/load/resource/gif/a$a;->a()Landroid/graphics/Bitmap;
 
     .line 6
     .line 7
@@ -695,7 +609,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public d()I
@@ -735,7 +648,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public e()Landroid/graphics/Bitmap;
@@ -766,18 +678,17 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public f()I
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lz5/a;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lg0/a;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lz5/a;->c()I
+    invoke-interface {v0}, Lg0/a;->c()I
 
     .line 4
     .line 5
@@ -801,154 +712,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public h()La6/h;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "La6/h<",
-            "Landroid/graphics/Bitmap;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->n:La6/h;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public i()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->s:I
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public j()I
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lz5/a;
-
-    .line 2
-    .line 3
-    invoke-interface {v0}, Lz5/a;->g()I
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v0
-
-    .line 7
-    return v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public l()I
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lz5/a;
-
-    .line 2
-    .line 3
-    invoke-interface {v0}, Lz5/a;->p()I
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v0
-
-    .line 7
-    iget v1, p0, Lcom/bumptech/glide/load/resource/gif/a;->q:I
-
-    .line 8
-    .line 9
-    add-int/2addr v0, v1
-
-    .line 10
-    return v0
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public m()I
+.method public h()I
     .locals 1
 
     .line 1
@@ -976,10 +742,77 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public final n()V
+.method public j()I
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lg0/a;
+
+    .line 2
+    .line 3
+    invoke-interface {v0}, Lg0/a;->h()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    iget v1, p0, Lcom/bumptech/glide/load/resource/gif/a;->p:I
+
+    .line 8
+    .line 9
+    add-int/2addr v0, v1
+
+    .line 10
+    return v0
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public k()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->q:I
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public final l()V
     .locals 5
 
     .line 1
@@ -1040,16 +873,16 @@
 
     .line 24
     .line 25
-    invoke-static {v0, v3}, Ly6/l;->a(ZLjava/lang/String;)V
+    invoke-static {v0, v3}, Lz0/j;->a(ZLjava/lang/String;)V
 
     .line 26
     .line 27
     .line 28
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lz5/a;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lg0/a;
 
     .line 29
     .line 30
-    invoke-interface {v0}, Lz5/a;->j()V
+    invoke-interface {v0}, Lg0/a;->f()V
 
     .line 31
     .line 32
@@ -1074,7 +907,7 @@
 
     .line 41
     .line 42
-    invoke-virtual {p0, v0}, Lcom/bumptech/glide/load/resource/gif/a;->o(Lcom/bumptech/glide/load/resource/gif/a$a;)V
+    invoke-virtual {p0, v0}, Lcom/bumptech/glide/load/resource/gif/a;->m(Lcom/bumptech/glide/load/resource/gif/a$a;)V
 
     .line 43
     .line 44
@@ -1087,11 +920,11 @@
 
     .line 47
     .line 48
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lz5/a;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lg0/a;
 
     .line 49
     .line 50
-    invoke-interface {v0}, Lz5/a;->i()I
+    invoke-interface {v0}, Lg0/a;->e()I
 
     .line 51
     .line 52
@@ -1113,11 +946,11 @@
     add-long/2addr v1, v3
 
     .line 60
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lz5/a;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lg0/a;
 
     .line 61
     .line 62
-    invoke-interface {v0}, Lz5/a;->b()V
+    invoke-interface {v0}, Lg0/a;->b()V
 
     .line 63
     .line 64
@@ -1130,11 +963,11 @@
 
     .line 68
     .line 69
-    iget-object v4, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lz5/a;
+    iget-object v4, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lg0/a;
 
     .line 70
     .line 71
-    invoke-interface {v4}, Lz5/a;->k()I
+    invoke-interface {v4}, Lg0/a;->g()I
 
     .line 72
     .line 73
@@ -1151,11 +984,11 @@
 
     .line 79
     .line 80
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->i:Lu5/d;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->i:Lcom/bumptech/glide/g;
 
     .line 81
     .line 82
-    invoke-static {}, Lcom/bumptech/glide/load/resource/gif/a;->g()La6/b;
+    invoke-static {}, Lcom/bumptech/glide/load/resource/gif/a;->g()Lh0/b;
 
     .line 83
     .line 84
@@ -1163,7 +996,7 @@
     move-result-object v1
 
     .line 86
-    invoke-static {v1}, Lu6/g;->s1(La6/b;)Lu6/g;
+    invoke-static {v1}, Lcom/bumptech/glide/request/g;->j0(Lh0/b;)Lcom/bumptech/glide/request/g;
 
     .line 87
     .line 88
@@ -1171,7 +1004,7 @@
     move-result-object v1
 
     .line 90
-    invoke-virtual {v0, v1}, Lu5/d;->X0(Lu6/a;)Lu5/d;
+    invoke-virtual {v0, v1}, Lcom/bumptech/glide/g;->i0(Lcom/bumptech/glide/request/a;)Lcom/bumptech/glide/g;
 
     .line 91
     .line 92
@@ -1179,11 +1012,11 @@
     move-result-object v0
 
     .line 94
-    iget-object v1, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lz5/a;
+    iget-object v1, p0, Lcom/bumptech/glide/load/resource/gif/a;->a:Lg0/a;
 
     .line 95
     .line 96
-    invoke-virtual {v0, v1}, Lu5/d;->y1(Ljava/lang/Object;)Lu5/d;
+    invoke-virtual {v0, v1}, Lcom/bumptech/glide/g;->w0(Ljava/lang/Object;)Lcom/bumptech/glide/g;
 
     .line 97
     .line 98
@@ -1195,7 +1028,7 @@
 
     .line 101
     .line 102
-    invoke-virtual {v0, v1}, Lu5/d;->n1(Lv6/p;)Lv6/p;
+    invoke-virtual {v0, v1}, Lcom/bumptech/glide/g;->q0(Lw0/i;)Lw0/i;
 
     .line 103
     .line 104
@@ -1203,226 +1036,6 @@
     :cond_4
     :goto_1
     return-void
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-.end method
-
-.method public o(Lcom/bumptech/glide/load/resource/gif/a$a;)V
-    .locals 3
-    .annotation build Landroidx/annotation/VisibleForTesting;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->p:Lcom/bumptech/glide/load/resource/gif/a$d;
-
-    .line 2
-    .line 3
-    if-eqz v0, :cond_0
-
-    .line 4
-    .line 5
-    invoke-interface {v0}, Lcom/bumptech/glide/load/resource/gif/a$d;->a()V
-
-    .line 6
-    .line 7
-    .line 8
-    :cond_0
-    const/4 v0, 0x0
-
-    .line 9
-    iput-boolean v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->g:Z
-
-    .line 10
-    .line 11
-    iget-boolean v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->k:Z
-
-    .line 12
-    .line 13
-    const/4 v1, 0x2
-
-    .line 14
-    if-eqz v0, :cond_1
-
-    .line 15
-    .line 16
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->b:Landroid/os/Handler;
-
-    .line 17
-    .line 18
-    invoke-virtual {v0, v1, p1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
-
-    .line 19
-    .line 20
-    .line 21
-    move-result-object p1
-
-    .line 22
-    invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
-
-    .line 23
-    .line 24
-    .line 25
-    return-void
-
-    .line 26
-    :cond_1
-    iget-boolean v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->f:Z
-
-    .line 27
-    .line 28
-    if-nez v0, :cond_3
-
-    .line 29
-    .line 30
-    iget-boolean v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->h:Z
-
-    .line 31
-    .line 32
-    if-eqz v0, :cond_2
-
-    .line 33
-    .line 34
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->b:Landroid/os/Handler;
-
-    .line 35
-    .line 36
-    invoke-virtual {v0, v1, p1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
-
-    .line 37
-    .line 38
-    .line 39
-    move-result-object p1
-
-    .line 40
-    invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
-
-    .line 41
-    .line 42
-    .line 43
-    return-void
-
-    .line 44
-    :cond_2
-    iput-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->o:Lcom/bumptech/glide/load/resource/gif/a$a;
-
-    .line 45
-    .line 46
-    return-void
-
-    .line 47
-    :cond_3
-    invoke-virtual {p1}, Lcom/bumptech/glide/load/resource/gif/a$a;->c()Landroid/graphics/Bitmap;
-
-    .line 48
-    .line 49
-    .line 50
-    move-result-object v0
-
-    .line 51
-    if-eqz v0, :cond_5
-
-    .line 52
-    .line 53
-    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->p()V
-
-    .line 54
-    .line 55
-    .line 56
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->j:Lcom/bumptech/glide/load/resource/gif/a$a;
-
-    .line 57
-    .line 58
-    iput-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->j:Lcom/bumptech/glide/load/resource/gif/a$a;
-
-    .line 59
-    .line 60
-    iget-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->c:Ljava/util/List;
-
-    .line 61
-    .line 62
-    invoke-interface {p1}, Ljava/util/List;->size()I
-
-    .line 63
-    .line 64
-    .line 65
-    move-result p1
-
-    .line 66
-    add-int/lit8 p1, p1, -0x1
-
-    .line 67
-    .line 68
-    :goto_0
-    if-ltz p1, :cond_4
-
-    .line 69
-    .line 70
-    iget-object v2, p0, Lcom/bumptech/glide/load/resource/gif/a;->c:Ljava/util/List;
-
-    .line 71
-    .line 72
-    invoke-interface {v2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    .line 73
-    .line 74
-    .line 75
-    move-result-object v2
-
-    .line 76
-    check-cast v2, Lcom/bumptech/glide/load/resource/gif/a$b;
-
-    .line 77
-    .line 78
-    invoke-interface {v2}, Lcom/bumptech/glide/load/resource/gif/a$b;->a()V
-
-    .line 79
-    .line 80
-    .line 81
-    add-int/lit8 p1, p1, -0x1
-
-    .line 82
-    .line 83
-    goto :goto_0
-
-    .line 84
-    :cond_4
-    if-eqz v0, :cond_5
-
-    .line 85
-    .line 86
-    iget-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->b:Landroid/os/Handler;
-
-    .line 87
-    .line 88
-    invoke-virtual {p1, v1, v0}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
-
-    .line 89
-    .line 90
-    .line 91
-    move-result-object p1
-
-    .line 92
-    invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
-
-    .line 93
-    .line 94
-    .line 95
-    :cond_5
-    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->n()V
-
-    .line 96
-    .line 97
-    .line 98
-    return-void
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
     .line 106
     .line 107
     .line 108
@@ -1726,9 +1339,514 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
+    .line 441
+    .line 442
+    .line 443
+    .line 444
+    .line 445
+    .line 446
+    .line 447
+    .line 448
+    .line 449
+    .line 450
+    .line 451
+    .line 452
+    .line 453
+    .line 454
+    .line 455
+    .line 456
+    .line 457
+    .line 458
+    .line 459
+    .line 460
+    .line 461
+    .line 462
+    .line 463
+    .line 464
+    .line 465
+    .line 466
+    .line 467
+    .line 468
+    .line 469
+    .line 470
+    .line 471
+    .line 472
+    .line 473
+    .line 474
+    .line 475
+    .line 476
+    .line 477
+    .line 478
+    .line 479
+    .line 480
+    .line 481
+    .line 482
+    .line 483
+    .line 484
+    .line 485
+    .line 486
+    .line 487
+    .line 488
+    .line 489
+    .line 490
+    .line 491
+    .line 492
+    .line 493
+    .line 494
+    .line 495
+    .line 496
+    .line 497
+    .line 498
+    .line 499
+    .line 500
+    .line 501
+    .line 502
+    .line 503
+    .line 504
+    .line 505
+    .line 506
+    .line 507
+    .line 508
+    .line 509
+    .line 510
+    .line 511
+    .line 512
+    .line 513
+    .line 514
+    .line 515
+    .line 516
+    .line 517
+    .line 518
+    .line 519
+    .line 520
+    .line 521
+    .line 522
+    .line 523
+    .line 524
+    .line 525
+    .line 526
+    .line 527
+    .line 528
+    .line 529
+    .line 530
+    .line 531
+    .line 532
+    .line 533
+    .line 534
+    .line 535
+    .line 536
+    .line 537
+    .line 538
+    .line 539
+    .line 540
+    .line 541
+    .line 542
+    .line 543
+    .line 544
+    .line 545
+    .line 546
+    .line 547
+    .line 548
+    .line 549
+    .line 550
+    .line 551
+    .line 552
+    .line 553
+    .line 554
+    .line 555
+    .line 556
+    .line 557
+    .line 558
+    .line 559
+    .line 560
+    .line 561
+    .line 562
+    .line 563
+    .line 564
+    .line 565
+    .line 566
+    .line 567
+    .line 568
+    .line 569
+    .line 570
+    .line 571
+    .line 572
+    .line 573
+    .line 574
+    .line 575
+    .line 576
+    .line 577
+    .line 578
+    .line 579
+    .line 580
+    .line 581
+    .line 582
+    .line 583
+    .line 584
+    .line 585
+    .line 586
+    .line 587
+    .line 588
+    .line 589
+    .line 590
+    .line 591
+    .line 592
+    .line 593
+    .line 594
+    .line 595
+    .line 596
+    .line 597
+    .line 598
+    .line 599
+    .line 600
+    .line 601
+    .line 602
+    .line 603
+    .line 604
+    .line 605
+    .line 606
+    .line 607
+    .line 608
+    .line 609
+    .line 610
+    .line 611
+    .line 612
+    .line 613
+    .line 614
+    .line 615
+    .line 616
+    .line 617
+    .line 618
+    .line 619
+    .line 620
+    .line 621
+    .line 622
+    .line 623
+    .line 624
+    .line 625
+    .line 626
+    .line 627
+    .line 628
+    .line 629
+    .line 630
+    .line 631
+    .line 632
+    .line 633
+    .line 634
+    .line 635
+    .line 636
+    .line 637
+    .line 638
+    .line 639
+    .line 640
+    .line 641
+    .line 642
+    .line 643
+    .line 644
+    .line 645
+    .line 646
+    .line 647
+    .line 648
+    .line 649
+    .line 650
+    .line 651
+    .line 652
+    .line 653
+    .line 654
+    .line 655
+    .line 656
+    .line 657
+    .line 658
+    .line 659
+    .line 660
+    .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
-.method public final p()V
+.method public m(Lcom/bumptech/glide/load/resource/gif/a$a;)V
+    .locals 3
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    iput-boolean v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->g:Z
+
+    .line 3
+    .line 4
+    iget-boolean v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->k:Z
+
+    .line 5
+    .line 6
+    const/4 v1, 0x2
+
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->b:Landroid/os/Handler;
+
+    .line 10
+    .line 11
+    invoke-virtual {v0, v1, p1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p1
+
+    .line 15
+    invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
+
+    .line 16
+    .line 17
+    .line 18
+    return-void
+
+    .line 19
+    :cond_0
+    iget-boolean v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->f:Z
+
+    .line 20
+    .line 21
+    if-nez v0, :cond_2
+
+    .line 22
+    .line 23
+    iget-boolean v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->h:Z
+
+    .line 24
+    .line 25
+    if-eqz v0, :cond_1
+
+    .line 26
+    .line 27
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->b:Landroid/os/Handler;
+
+    .line 28
+    .line 29
+    invoke-virtual {v0, v1, p1}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object p1
+
+    .line 33
+    invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
+
+    .line 34
+    .line 35
+    .line 36
+    return-void
+
+    .line 37
+    :cond_1
+    iput-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->o:Lcom/bumptech/glide/load/resource/gif/a$a;
+
+    .line 38
+    .line 39
+    return-void
+
+    .line 40
+    :cond_2
+    invoke-virtual {p1}, Lcom/bumptech/glide/load/resource/gif/a$a;->a()Landroid/graphics/Bitmap;
+
+    .line 41
+    .line 42
+    .line 43
+    move-result-object v0
+
+    .line 44
+    if-eqz v0, :cond_4
+
+    .line 45
+    .line 46
+    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->n()V
+
+    .line 47
+    .line 48
+    .line 49
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->j:Lcom/bumptech/glide/load/resource/gif/a$a;
+
+    .line 50
+    .line 51
+    iput-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->j:Lcom/bumptech/glide/load/resource/gif/a$a;
+
+    .line 52
+    .line 53
+    iget-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->c:Ljava/util/List;
+
+    .line 54
+    .line 55
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    .line 56
+    .line 57
+    .line 58
+    move-result p1
+
+    .line 59
+    add-int/lit8 p1, p1, -0x1
+
+    .line 60
+    .line 61
+    :goto_0
+    if-ltz p1, :cond_3
+
+    .line 62
+    .line 63
+    iget-object v2, p0, Lcom/bumptech/glide/load/resource/gif/a;->c:Ljava/util/List;
+
+    .line 64
+    .line 65
+    invoke-interface {v2, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 66
+    .line 67
+    .line 68
+    move-result-object v2
+
+    .line 69
+    check-cast v2, Lcom/bumptech/glide/load/resource/gif/a$b;
+
+    .line 70
+    .line 71
+    invoke-interface {v2}, Lcom/bumptech/glide/load/resource/gif/a$b;->a()V
+
+    .line 72
+    .line 73
+    .line 74
+    add-int/lit8 p1, p1, -0x1
+
+    .line 75
+    .line 76
+    goto :goto_0
+
+    .line 77
+    :cond_3
+    if-eqz v0, :cond_4
+
+    .line 78
+    .line 79
+    iget-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->b:Landroid/os/Handler;
+
+    .line 80
+    .line 81
+    invoke-virtual {p1, v1, v0}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+
+    .line 82
+    .line 83
+    .line 84
+    move-result-object p1
+
+    .line 85
+    invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
+
+    .line 86
+    .line 87
+    .line 88
+    :cond_4
+    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->l()V
+
+    .line 89
+    .line 90
+    .line 91
+    return-void
+.end method
+
+.method public final n()V
     .locals 2
 
     .line 1
@@ -1740,11 +1858,11 @@
 
     .line 4
     .line 5
-    iget-object v1, p0, Lcom/bumptech/glide/load/resource/gif/a;->e:Le6/e;
+    iget-object v1, p0, Lcom/bumptech/glide/load/resource/gif/a;->e:Lcom/bumptech/glide/load/engine/bitmap_recycle/d;
 
     .line 6
     .line 7
-    invoke-interface {v1, v0}, Le6/e;->c(Landroid/graphics/Bitmap;)V
+    invoke-interface {v1, v0}, Lcom/bumptech/glide/load/engine/bitmap_recycle/d;->b(Landroid/graphics/Bitmap;)V
 
     .line 8
     .line 9
@@ -1767,24 +1885,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public q(La6/h;Landroid/graphics/Bitmap;)V
+.method public o(Lh0/g;Landroid/graphics/Bitmap;)V
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "La6/h<",
-            "Landroid/graphics/Bitmap;",
-            ">;",
-            "Landroid/graphics/Bitmap;",
-            ")V"
-        }
-    .end annotation
 
     .line 1
-    invoke-static {p1}, Ly6/l;->d(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lz0/j;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1792,15 +1899,15 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, La6/h;
+    check-cast v0, Lh0/g;
 
     .line 6
     .line 7
-    iput-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->n:La6/h;
+    iput-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->n:Lh0/g;
 
     .line 8
     .line 9
-    invoke-static {p2}, Ly6/l;->d(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Lz0/j;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -1816,20 +1923,20 @@
 
     .line 16
     .line 17
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->i:Lu5/d;
+    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->i:Lcom/bumptech/glide/g;
 
     .line 18
     .line 19
-    new-instance v1, Lu6/g;
+    new-instance v1, Lcom/bumptech/glide/request/g;
 
     .line 20
     .line 21
-    invoke-direct {v1}, Lu6/g;-><init>()V
+    invoke-direct {v1}, Lcom/bumptech/glide/request/g;-><init>()V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v1, p1}, Lu6/a;->N0(La6/h;)Lu6/a;
+    invoke-virtual {v1, p1}, Lcom/bumptech/glide/request/a;->d0(Lh0/g;)Lcom/bumptech/glide/request/a;
 
     .line 25
     .line 26
@@ -1837,7 +1944,7 @@
     move-result-object p1
 
     .line 28
-    invoke-virtual {v0, p1}, Lu5/d;->X0(Lu6/a;)Lu5/d;
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/g;->i0(Lcom/bumptech/glide/request/a;)Lcom/bumptech/glide/g;
 
     .line 29
     .line 30
@@ -1845,11 +1952,11 @@
     move-result-object p1
 
     .line 32
-    iput-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->i:Lu5/d;
+    iput-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->i:Lcom/bumptech/glide/g;
 
     .line 33
     .line 34
-    invoke-static {p2}, Ly6/n;->h(Landroid/graphics/Bitmap;)I
+    invoke-static {p2}, Lz0/k;->h(Landroid/graphics/Bitmap;)I
 
     .line 35
     .line 36
@@ -1857,7 +1964,7 @@
     move-result p1
 
     .line 38
-    iput p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->q:I
+    iput p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->p:I
 
     .line 39
     .line 40
@@ -1869,7 +1976,7 @@
     move-result p1
 
     .line 44
-    iput p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->r:I
+    iput p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->q:I
 
     .line 45
     .line 46
@@ -1881,7 +1988,7 @@
     move-result p1
 
     .line 50
-    iput p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->s:I
+    iput p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->r:I
 
     .line 51
     .line 52
@@ -1894,193 +2001,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public r()V
-    .locals 3
-
-    .line 1
-    iget-boolean v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->f:Z
-
-    .line 2
-    .line 3
-    const/4 v1, 0x1
-
-    .line 4
-    xor-int/2addr v0, v1
-
-    .line 5
-    const-string v2, "Can\'t restart a running animation"
-
-    .line 6
-    .line 7
-    invoke-static {v0, v2}, Ly6/l;->a(ZLjava/lang/String;)V
-
-    .line 8
-    .line 9
-    .line 10
-    iput-boolean v1, p0, Lcom/bumptech/glide/load/resource/gif/a;->h:Z
-
-    .line 11
-    .line 12
-    iget-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->o:Lcom/bumptech/glide/load/resource/gif/a$a;
-
-    .line 13
-    .line 14
-    if-eqz v0, :cond_0
-
-    .line 15
-    .line 16
-    iget-object v1, p0, Lcom/bumptech/glide/load/resource/gif/a;->d:Lu5/e;
-
-    .line 17
-    .line 18
-    invoke-virtual {v1, v0}, Lu5/e;->z(Lv6/p;)V
-
-    .line 19
-    .line 20
-    .line 21
-    const/4 v0, 0x0
-
-    .line 22
-    iput-object v0, p0, Lcom/bumptech/glide/load/resource/gif/a;->o:Lcom/bumptech/glide/load/resource/gif/a$a;
-
-    .line 23
-    .line 24
-    :cond_0
-    return-void
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-.end method
-
-.method public s(Lcom/bumptech/glide/load/resource/gif/a$d;)V
-    .locals 0
-    .param p1    # Lcom/bumptech/glide/load/resource/gif/a$d;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/VisibleForTesting;
-    .end annotation
-
-    .line 1
-    iput-object p1, p0, Lcom/bumptech/glide/load/resource/gif/a;->p:Lcom/bumptech/glide/load/resource/gif/a$d;
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public final t()V
+.method public final p()V
     .locals 1
 
     .line 1
@@ -2110,7 +2033,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->n()V
+    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->l()V
 
     .line 13
     .line 14
@@ -2123,10 +2046,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public final u()V
+.method public final q()V
     .locals 1
 
     .line 1
@@ -2156,10 +2078,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public v(Lcom/bumptech/glide/load/resource/gif/a$b;)V
+.method public r(Lcom/bumptech/glide/load/resource/gif/a$b;)V
     .locals 2
 
     .line 1
@@ -2212,7 +2133,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->t()V
+    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->p()V
 
     .line 27
     .line 28
@@ -2299,11 +2220,9 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public w(Lcom/bumptech/glide/load/resource/gif/a$b;)V
+.method public s(Lcom/bumptech/glide/load/resource/gif/a$b;)V
     .locals 1
 
     .line 1
@@ -2332,7 +2251,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->u()V
+    invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/a;->q()V
 
     .line 15
     .line 16
@@ -2346,5 +2265,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

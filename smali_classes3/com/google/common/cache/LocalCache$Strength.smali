@@ -179,35 +179,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -226,14 +201,6 @@
 
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/cache/LocalCache$Strength;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8000
-        }
-        names = {
-            "name"
-        }
-    .end annotation
 
     .line 1
     const-class v0, Lcom/google/common/cache/LocalCache$Strength;
@@ -268,7 +235,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static values()[Lcom/google/common/cache/LocalCache$Strength;
@@ -305,7 +271,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -314,29 +279,12 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/google/common/base/Equivalence<",
-            "Ljava/lang/Object;",
-            ">;"
+            "Lcom/google/common/base/Equivalence;"
         }
     .end annotation
 .end method
 
-.method public abstract referenceValue(Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/d;Ljava/lang/Object;I)Lcom/google/common/cache/LocalCache$s;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "segment",
-            "entry",
-            "value",
-            "weight"
-        }
-    .end annotation
-
+.method public abstract referenceValue(Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/k;Ljava/lang/Object;I)Lcom/google/common/cache/LocalCache$s;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -346,10 +294,9 @@
             ">(",
             "Lcom/google/common/cache/LocalCache$Segment<",
             "TK;TV;>;",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;TV;I)",
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;"
+            "Lcom/google/common/cache/k;",
+            "TV;I)",
+            "Lcom/google/common/cache/LocalCache$s;"
         }
     .end annotation
 .end method

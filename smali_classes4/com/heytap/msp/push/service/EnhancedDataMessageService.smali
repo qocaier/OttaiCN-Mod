@@ -9,7 +9,7 @@
 # instance fields
 .field private a:Ljava/lang/String;
 
-.field private final b:Lrf/a$b;
+.field private final b:Lcom/mcs/aidl/a$a;
 
 
 # direct methods
@@ -26,7 +26,7 @@
 
     invoke-direct {v0, p0}, Lcom/heytap/msp/push/service/EnhancedDataMessageService$1;-><init>(Lcom/heytap/msp/push/service/EnhancedDataMessageService;)V
 
-    iput-object v0, p0, Lcom/heytap/msp/push/service/EnhancedDataMessageService;->b:Lrf/a$b;
+    iput-object v0, p0, Lcom/heytap/msp/push/service/EnhancedDataMessageService;->b:Lcom/mcs/aidl/a$a;
 
     return-void
 .end method
@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lbe/e;->f(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lk5/d;->f(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -60,9 +60,9 @@
 
     invoke-direct {v0, p0, p1}, Lcom/heytap/msp/push/service/EnhancedDataMessageService$2;-><init>(Lcom/heytap/msp/push/service/EnhancedDataMessageService;Landroid/content/Intent;)V
 
-    invoke-static {v0}, Lbe/i;->a(Ljava/lang/Runnable;)V
+    invoke-static {v0}, Lk5/h;->a(Ljava/lang/Runnable;)V
 
-    iget-object p1, p0, Lcom/heytap/msp/push/service/EnhancedDataMessageService;->b:Lrf/a$b;
+    iget-object p1, p0, Lcom/heytap/msp/push/service/EnhancedDataMessageService;->b:Lcom/mcs/aidl/a$a;
 
     return-object p1
 .end method
@@ -88,7 +88,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lbe/g;->g(Ljava/lang/String;)V
+    invoke-static {p1}, Lk5/f;->b(Ljava/lang/String;)V
 
     return-void
 .end method

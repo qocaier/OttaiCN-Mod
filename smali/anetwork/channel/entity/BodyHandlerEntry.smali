@@ -19,7 +19,7 @@
 
 
 # instance fields
-.field public a:Lh2/a;
+.field public a:Lj/b;
 
 
 # direct methods
@@ -27,11 +27,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lanetwork/channel/entity/a;
+    new-instance v0, Lp/a;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lanetwork/channel/entity/a;-><init>()V
+    invoke-direct {v0}, Lp/a;-><init>()V
 
     .line 4
     .line 5
@@ -53,32 +53,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
-    .locals 1
-
-    .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    const/4 v0, 0x0
-
-    .line 6
-    iput-object v0, p0, Lanetwork/channel/entity/BodyHandlerEntry;->a:Lh2/a;
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>(Lanetwork/channel/entity/a;)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Lanetwork/channel/entity/BodyHandlerEntry;-><init>()V
-
-    return-void
-.end method
-
-.method public constructor <init>(Lg2/b;)V
     .locals 1
 
     .line 2
@@ -87,14 +65,16 @@
     const/4 v0, 0x0
 
     .line 3
-    iput-object v0, p0, Lanetwork/channel/entity/BodyHandlerEntry;->a:Lh2/a;
+    iput-object v0, p0, Lanetwork/channel/entity/BodyHandlerEntry;->a:Lj/b;
 
-    .line 4
-    new-instance v0, Li2/b;
+    return-void
+.end method
 
-    invoke-direct {v0, p1}, Li2/b;-><init>(Lg2/b;)V
+.method public synthetic constructor <init>(Lp/a;)V
+    .locals 0
 
-    iput-object v0, p0, Lanetwork/channel/entity/BodyHandlerEntry;->a:Lh2/a;
+    .line 1
+    invoke-direct {p0}, Lanetwork/channel/entity/BodyHandlerEntry;-><init>()V
 
     return-void
 .end method
@@ -119,11 +99,6 @@
 
 .method public writeTo(Ljava/io/OutputStream;)I
     .locals 5
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -150,11 +125,11 @@
 
     .line 11
     :goto_0
-    iget-object v3, p0, Lanetwork/channel/entity/BodyHandlerEntry;->a:Lh2/a;
+    iget-object v3, p0, Lanetwork/channel/entity/BodyHandlerEntry;->a:Lj/b;
 
     .line 12
     .line 13
-    invoke-interface {v3}, Lh2/a;->d()Z
+    invoke-interface {v3}, Lj/b;->d()Z
 
     .line 14
     .line 15
@@ -166,7 +141,7 @@
 
     .line 18
     .line 19
-    iget-object v3, p0, Lanetwork/channel/entity/BodyHandlerEntry;->a:Lh2/a;
+    iget-object v3, p0, Lanetwork/channel/entity/BodyHandlerEntry;->a:Lj/b;
 
     .line 20
     .line 21
@@ -178,7 +153,7 @@
     move-result-object v4
 
     .line 25
-    invoke-interface {v3, v4}, Lh2/a;->read([B)I
+    invoke-interface {v3, v4}, Lj/b;->read([B)I
 
     .line 26
     .line 27
@@ -265,13 +240,14 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
 
     .line 1
-    iget-object p2, p0, Lanetwork/channel/entity/BodyHandlerEntry;->a:Lh2/a;
+    iget-object p2, p0, Lanetwork/channel/entity/BodyHandlerEntry;->a:Lj/b;
 
     .line 2
     .line 3

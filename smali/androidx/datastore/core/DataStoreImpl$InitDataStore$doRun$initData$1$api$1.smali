@@ -24,16 +24,6 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDataStoreImpl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DataStoreImpl.kt\nandroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1$api$1\n+ 2 Mutex.kt\nkotlinx/coroutines/sync/MutexKt\n*L\n1#1,538:1\n120#2,10:539\n*S KotlinDebug\n*F\n+ 1 DataStoreImpl.kt\nandroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1$api$1\n*L\n441#1:539,10\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nDataStoreImpl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DataStoreImpl.kt\nandroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1$api$1\n+ 2 Mutex.kt\nkotlinx/coroutines/sync/MutexKt\n*L\n1#1,538:1\n120#2,10:539\n*S KotlinDebug\n*F\n+ 1 DataStoreImpl.kt\nandroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1$api$1\n*L\n441#1:539,10\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field final synthetic $currentData:Lkotlin/jvm/internal/Ref$ObjectRef;
@@ -47,7 +37,7 @@
 
 .field final synthetic $initializationComplete:Lkotlin/jvm/internal/Ref$BooleanRef;
 
-.field final synthetic $updateLock:Lrn/a;
+.field final synthetic $updateLock:Lkotlinx/coroutines/sync/a;
 
 .field final synthetic this$0:Landroidx/datastore/core/DataStoreImpl;
     .annotation system Ldalvik/annotation/Signature;
@@ -60,12 +50,12 @@
 
 
 # direct methods
-.method public constructor <init>(Lrn/a;Lkotlin/jvm/internal/Ref$BooleanRef;Lkotlin/jvm/internal/Ref$ObjectRef;Landroidx/datastore/core/DataStoreImpl;)V
+.method public constructor <init>(Lkotlinx/coroutines/sync/a;Lkotlin/jvm/internal/Ref$BooleanRef;Lkotlin/jvm/internal/Ref$ObjectRef;Landroidx/datastore/core/DataStoreImpl;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lrn/a;",
+            "Lkotlinx/coroutines/sync/a;",
             "Lkotlin/jvm/internal/Ref$BooleanRef;",
             "Lkotlin/jvm/internal/Ref$ObjectRef<",
             "TT;>;",
@@ -75,7 +65,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1$api$1;->$updateLock:Lrn/a;
+    iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1$api$1;->$updateLock:Lkotlinx/coroutines/sync/a;
 
     .line 2
     .line 3
@@ -315,36 +305,26 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
 # virtual methods
-.method public updateData(Ljm/p;Lul/c;)Ljava/lang/Object;
+.method public updateData(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 9
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-TT;-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -394,7 +374,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1$api$1$updateData$1;-><init>(Landroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1$api$1;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1$api$1$updateData$1;-><init>(Landroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1$api$1;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -404,7 +384,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -460,12 +440,12 @@
 
     .line 52
     .line 53
-    check-cast v0, Lrn/a;
+    check-cast v0, Lkotlinx/coroutines/sync/a;
 
     .line 54
     .line 55
     :try_start_0
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -522,12 +502,12 @@
 
     .line 80
     .line 81
-    check-cast v4, Lrn/a;
+    check-cast v4, Lkotlinx/coroutines/sync/a;
 
     .line 82
     .line 83
     :try_start_1
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
@@ -577,7 +557,7 @@
 
     .line 104
     .line 105
-    check-cast v7, Lrn/a;
+    check-cast v7, Lkotlinx/coroutines/sync/a;
 
     .line 106
     .line 107
@@ -585,11 +565,11 @@
 
     .line 108
     .line 109
-    check-cast v8, Ljm/p;
+    check-cast v8, Lq8/p;
 
     .line 110
     .line 111
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 112
     .line 113
@@ -610,12 +590,12 @@
 
     .line 119
     :cond_4
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 120
     .line 121
     .line 122
-    iget-object p2, p0, Landroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1$api$1;->$updateLock:Lrn/a;
+    iget-object p2, p0, Landroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1$api$1;->$updateLock:Lkotlinx/coroutines/sync/a;
 
     .line 123
     .line 124
@@ -655,7 +635,7 @@
 
     .line 141
     .line 142
-    invoke-interface {p2, v6, v0}, Lrn/a;->e(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p2, v6, v0}, Lkotlinx/coroutines/sync/a;->b(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 143
     .line 144
@@ -715,7 +695,7 @@
 
     .line 168
     .line 169
-    invoke-interface {p1, v5, v0}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v5, v0}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 170
     .line 171
@@ -748,7 +728,7 @@
 
     .line 180
     .line 181
-    invoke-static {p2, v5}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v5}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 182
     .line 183
@@ -779,7 +759,7 @@
     const/4 v3, 0x0
 
     .line 196
-    invoke-virtual {p1, p2, v3, v0}, Landroidx/datastore/core/DataStoreImpl;->writeData$datastore_core_release(Ljava/lang/Object;ZLul/c;)Ljava/lang/Object;
+    invoke-virtual {p1, p2, v3, v0}, Landroidx/datastore/core/DataStoreImpl;->writeData$datastore_core_release(Ljava/lang/Object;ZLkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 197
     .line 198
@@ -830,7 +810,7 @@
 
     .line 212
     .line 213
-    invoke-interface {v0, v6}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {v0, v6}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 214
     .line 215
@@ -869,7 +849,7 @@
 
     .line 228
     :goto_6
-    invoke-interface {v0, v6}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {v0, v6}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 229
     .line 230
@@ -877,4 +857,7 @@
     throw p1
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

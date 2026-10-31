@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/p;
+.implements Lq8/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__DelayKt;->j(Lfn/i0;J)Lkotlinx/coroutines/channels/ReceiveChannel;
+    value = Lkotlinx/coroutines/flow/FlowKt__DelayKt;->a(Lkotlinx/coroutines/l0;J)Lkotlinx/coroutines/channels/ReceiveChannel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,44 +19,19 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Ljm/p<",
-        "Lkotlinx/coroutines/channels/j<",
-        "-",
-        "Ljl/e2;",
-        ">;",
-        "Lul/c<",
-        "-",
-        "Ljl/e2;",
-        ">;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lq8/p;"
     }
 .end annotation
 
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "kotlinx.coroutines.flow.FlowKt__DelayKt$fixedPeriodTicker$1"
     f = "Delay.kt"
-    i = {
-        0x0,
-        0x1,
-        0x2
-    }
     l = {
         0x133,
         0x135,
         0x136
     }
     m = "invokeSuspend"
-    n = {
-        "$this$produce",
-        "$this$produce",
-        "$this$produce"
-    }
-    s = {
-        "L$0",
-        "L$0",
-        "L$0"
-    }
 .end annotation
 
 
@@ -69,176 +44,85 @@
 
 
 # direct methods
-.method public constructor <init>(JLul/c;)V
+.method public constructor <init>(JLkotlin/coroutines/e;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(J",
-            "Lul/c<",
-            "-",
-            "Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;",
-            ">;)V"
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
-    .line 1
     iput-wide p1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;->$delayMillis:J
 
-    .line 2
-    .line 3
     const/4 p1, 0x2
 
-    .line 4
-    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILul/c;)V
+    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/e;)V
 
-    .line 5
-    .line 6
-    .line 7
     return-void
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lul/c;)Lul/c;
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lul/c<",
-            "*>;)",
-            "Lul/c<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlin/coroutines/e;",
+            ")",
+            "Lkotlin/coroutines/e;"
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;
 
-    .line 2
-    .line 3
     iget-wide v1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;->$delayMillis:J
 
-    .line 4
-    .line 5
-    invoke-direct {v0, v1, v2, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;-><init>(JLul/c;)V
+    invoke-direct {v0, v1, v2, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;-><init>(JLkotlin/coroutines/e;)V
 
-    .line 6
-    .line 7
-    .line 8
     iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;->L$0:Ljava/lang/Object;
 
-    .line 9
-    .line 10
     return-object v0
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlinx/coroutines/channels/j;
+    check-cast p1, Lkotlinx/coroutines/channels/q;
 
-    check-cast p2, Lul/c;
+    check-cast p2, Lkotlin/coroutines/e;
 
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;->invoke(Lkotlinx/coroutines/channels/j;Lul/c;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;->invoke(Lkotlinx/coroutines/channels/q;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlinx/coroutines/channels/j;Lul/c;)Ljava/lang/Object;
+.method public final invoke(Lkotlinx/coroutines/channels/q;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/j<",
-            "-",
-            "Ljl/e2;",
-            ">;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlinx/coroutines/channels/q;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;->create(Ljava/lang/Object;Lul/c;)Lul/c;
+    invoke-virtual {p0, p1, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;->create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
 
     move-result-object p1
 
     check-cast p1, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;
 
-    sget-object p2, Ljl/e2;->a:Ljl/e2;
+    sget-object p2, Lkotlin/j;->a:Lkotlin/j;
 
     invoke-virtual {p1, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$fixedPeriodTicker$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -251,7 +135,7 @@
     .locals 7
 
     .line 1
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -313,11 +197,11 @@
 
     .line 28
     .line 29
-    check-cast v1, Lkotlinx/coroutines/channels/j;
+    check-cast v1, Lkotlinx/coroutines/channels/q;
 
     .line 30
     .line 31
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 32
     .line 33
@@ -331,11 +215,11 @@
 
     .line 36
     .line 37
-    check-cast v1, Lkotlinx/coroutines/channels/j;
+    check-cast v1, Lkotlinx/coroutines/channels/q;
 
     .line 38
     .line 39
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 40
     .line 41
@@ -344,7 +228,7 @@
 
     .line 43
     :cond_3
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 44
     .line 45
@@ -356,7 +240,7 @@
     move-object v1, p1
 
     .line 49
-    check-cast v1, Lkotlinx/coroutines/channels/j;
+    check-cast v1, Lkotlinx/coroutines/channels/q;
 
     .line 50
     .line 51
@@ -372,7 +256,7 @@
 
     .line 56
     .line 57
-    invoke-static {v5, v6, p0}, Lkotlinx/coroutines/DelayKt;->b(JLul/c;)Ljava/lang/Object;
+    invoke-static {v5, v6, p0}, Lkotlinx/coroutines/DelayKt;->b(JLkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -389,7 +273,7 @@
     .line 64
     :cond_4
     :goto_1
-    invoke-interface {v1}, Lkotlinx/coroutines/channels/j;->e()Lkotlinx/coroutines/channels/k;
+    invoke-interface {v1}, Lkotlinx/coroutines/channels/q;->o()Lkotlinx/coroutines/channels/s;
 
     .line 65
     .line 66
@@ -397,7 +281,7 @@
     move-result-object p1
 
     .line 68
-    sget-object v4, Ljl/e2;->a:Ljl/e2;
+    sget-object v4, Lkotlin/j;->a:Lkotlin/j;
 
     .line 69
     .line 70
@@ -409,7 +293,7 @@
 
     .line 73
     .line 74
-    invoke-interface {p1, v4, p0}, Lkotlinx/coroutines/channels/k;->f0(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p1, v4, p0}, Lkotlinx/coroutines/channels/s;->X(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 75
     .line 76
@@ -438,7 +322,7 @@
 
     .line 86
     .line 87
-    invoke-static {v4, v5, p0}, Lkotlinx/coroutines/DelayKt;->b(JLul/c;)Ljava/lang/Object;
+    invoke-static {v4, v5, p0}, Lkotlinx/coroutines/DelayKt;->b(JLkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 88
     .line 89
@@ -673,4 +557,124 @@
     .line 312
     .line 313
     .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
 .end method

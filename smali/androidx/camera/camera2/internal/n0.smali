@@ -3,28 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener$Checker;
+.implements Landroidx/lifecycle/Observer;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/camera2/internal/Camera2CameraInfoImpl$RedirectableLiveData;
 
 
 # direct methods
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CameraInfoImpl$RedirectableLiveData;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/camera/camera2/internal/n0;->a:Landroidx/camera/camera2/internal/Camera2CameraInfoImpl$RedirectableLiveData;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final check(Landroid/hardware/camera2/TotalCaptureResult;)Z
-    .locals 0
+.method public final onChanged(Ljava/lang/Object;)V
+    .locals 1
 
     .line 1
-    invoke-static {p1}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$TorchTask;->c(Landroid/hardware/camera2/TotalCaptureResult;)Z
+    iget-object v0, p0, Landroidx/camera/camera2/internal/n0;->a:Landroidx/camera/camera2/internal/Camera2CameraInfoImpl$RedirectableLiveData;
 
-    move-result p1
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    return p1
+    return-void
 .end method

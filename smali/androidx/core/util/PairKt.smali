@@ -6,10 +6,6 @@
 # direct methods
 .method public static final component1(Landroid/util/Pair;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Landroid/util/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "UnknownNullness"
@@ -36,10 +32,6 @@
 
 .method public static final component1(Landroidx/core/util/Pair;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Landroidx/core/util/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "UnknownNullness"
@@ -66,10 +58,6 @@
 
 .method public static final component2(Landroid/util/Pair;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Landroid/util/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "UnknownNullness"
@@ -96,10 +84,6 @@
 
 .method public static final component2(Landroidx/core/util/Pair;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Landroidx/core/util/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "UnknownNullness"
@@ -126,10 +110,6 @@
 
 .method public static final toAndroidPair(Lkotlin/Pair;)Landroid/util/Pair;
     .locals 2
-    .param p0    # Lkotlin/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<F:",
@@ -142,9 +122,6 @@
             "Landroid/util/Pair<",
             "TF;TS;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -189,10 +166,6 @@
 
 .method public static final toAndroidXPair(Lkotlin/Pair;)Landroidx/core/util/Pair;
     .locals 2
-    .param p0    # Lkotlin/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<F:",
@@ -205,9 +178,6 @@
             "Landroidx/core/util/Pair<",
             "TF;TS;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -252,10 +222,6 @@
 
 .method public static final toKotlinPair(Landroid/util/Pair;)Lkotlin/Pair;
     .locals 2
-    .param p0    # Landroid/util/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<F:",
@@ -268,9 +234,6 @@
             "Lkotlin/Pair<",
             "TF;TS;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 2
@@ -287,10 +250,6 @@
 
 .method public static final toKotlinPair(Landroidx/core/util/Pair;)Lkotlin/Pair;
     .locals 2
-    .param p0    # Landroidx/core/util/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<F:",
@@ -303,9 +262,6 @@
             "Lkotlin/Pair<",
             "TF;TS;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1

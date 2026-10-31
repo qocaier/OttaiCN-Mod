@@ -3,46 +3,40 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/camera/video/internal/encoder/Encoder$SurfaceInput$OnSurfaceUpdateListener;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/video/VideoEncoderSession;
+.field public final synthetic a:Landroidx/camera/video/Recorder;
 
-.field public final synthetic b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
-
-.field public final synthetic c:Landroidx/camera/core/SurfaceRequest;
+.field public final synthetic b:Landroidx/camera/video/Recorder$RecordingRecord;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/video/VideoEncoderSession;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/camera/core/SurfaceRequest;)V
+.method public synthetic constructor <init>(Landroidx/camera/video/Recorder;Landroidx/camera/video/Recorder$RecordingRecord;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/video/p;->a:Landroidx/camera/video/VideoEncoderSession;
+    iput-object p1, p0, Landroidx/camera/video/p;->a:Landroidx/camera/video/Recorder;
 
-    iput-object p2, p0, Landroidx/camera/video/p;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
-
-    iput-object p3, p0, Landroidx/camera/video/p;->c:Landroidx/camera/core/SurfaceRequest;
+    iput-object p2, p0, Landroidx/camera/video/p;->b:Landroidx/camera/video/Recorder$RecordingRecord;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onSurfaceUpdate(Landroid/view/Surface;)V
-    .locals 3
+.method public final run()V
+    .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/p;->a:Landroidx/camera/video/VideoEncoderSession;
+    iget-object v0, p0, Landroidx/camera/video/p;->a:Landroidx/camera/video/Recorder;
 
-    iget-object v1, p0, Landroidx/camera/video/p;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+    iget-object v1, p0, Landroidx/camera/video/p;->b:Landroidx/camera/video/Recorder$RecordingRecord;
 
-    iget-object v2, p0, Landroidx/camera/video/p;->c:Landroidx/camera/core/SurfaceRequest;
-
-    invoke-static {v0, v1, v2, p1}, Landroidx/camera/video/VideoEncoderSession;->g(Landroidx/camera/video/VideoEncoderSession;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/camera/core/SurfaceRequest;Landroid/view/Surface;)V
+    invoke-static {v0, v1}, Landroidx/camera/video/Recorder;->a(Landroidx/camera/video/Recorder;Landroidx/camera/video/Recorder$RecordingRecord;)V
 
     return-void
 .end method

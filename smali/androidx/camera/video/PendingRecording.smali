@@ -181,6 +181,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -218,6 +221,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getApplicationContext()Landroid/content/Context;
@@ -248,6 +252,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEventListener()Landroidx/core/util/Consumer;
@@ -287,6 +292,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getListenerExecutor()Ljava/util/concurrent/Executor;
@@ -317,6 +323,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOutputOptions()Landroidx/camera/video/OutputOptions;
@@ -347,6 +354,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRecorder()Landroidx/camera/video/Recorder;
@@ -377,6 +385,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isAudioEnabled()Z
@@ -405,6 +414,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isPersistent()Z
@@ -433,6 +443,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public start(Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)Landroidx/camera/video/Recording;
@@ -660,4 +671,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

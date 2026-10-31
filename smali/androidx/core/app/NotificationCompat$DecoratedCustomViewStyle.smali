@@ -53,6 +53,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private createRemoteViews(Landroid/widget/RemoteViews;Z)Landroid/widget/RemoteViews;
@@ -367,6 +368,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private generateActionButton(Landroidx/core/app/NotificationCompat$Action;)Landroid/widget/RemoteViews;
@@ -523,6 +527,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getNonContextualActions(Ljava/util/List;)Ljava/util/List;
@@ -658,6 +663,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getTextsFromContentView(Landroid/content/Context;Landroid/app/Notification;)Ljava/util/List;
@@ -1017,6 +1023,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static getTextsFromViewTraversal(Landroid/view/View;Ljava/util/ArrayList;)V
@@ -1325,6 +1334,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -1419,6 +1431,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public makeBigContentView(Landroidx/core/app/NotificationBuilderWithBuilderAccessor;)Landroid/widget/RemoteViews;

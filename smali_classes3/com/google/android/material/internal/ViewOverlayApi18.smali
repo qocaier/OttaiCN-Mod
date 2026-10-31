@@ -57,7 +57,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -98,7 +97,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public remove(Landroid/graphics/drawable/Drawable;)V
@@ -137,5 +135,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

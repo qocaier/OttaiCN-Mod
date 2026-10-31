@@ -63,6 +63,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getCurrentNetworkType()I
@@ -91,6 +93,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getDnsServerIps(Landroid/content/Context;)Ljava/lang/String;
@@ -130,6 +134,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private static getDnsServerIpsFromConnectionManager(Landroid/content/Context;)[Ljava/lang/String;
@@ -616,27 +622,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static getHost(Ljava/lang/String;)Ljava/lang/String;
@@ -663,7 +648,7 @@
 
     .line 10
     :cond_0
-    invoke-static {p0}, Lff/e;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/huawei/secure/android/common/webview/d;->b(Ljava/lang/String;)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -683,6 +668,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getInfoWithReflect(Landroid/telephony/SignalStrength;Ljava/lang/String;)I
@@ -1082,6 +1069,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public static getLteCqi(Landroid/content/Context;)I
@@ -1121,7 +1138,7 @@
 
     .line 15
     .line 16
-    invoke-static {p0, v0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 17
     .line 18
@@ -1156,7 +1173,7 @@
 
     .line 32
     .line 33
-    invoke-static {p0}, Lg5/k;->a(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {p0}, Lcom/baidu/location/f/v;->a(Landroid/telephony/CellSignalStrengthLte;)I
 
     .line 34
     .line 35
@@ -1254,6 +1271,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getLteRsrp(Landroid/content/Context;)I
@@ -1293,7 +1312,7 @@
 
     .line 15
     .line 16
-    invoke-static {p0, v0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 17
     .line 18
@@ -1328,7 +1347,7 @@
 
     .line 32
     .line 33
-    invoke-static {p0}, Lg5/h;->a(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {p0}, Lcom/baidu/location/f/s;->a(Landroid/telephony/CellSignalStrengthLte;)I
 
     .line 34
     .line 35
@@ -1426,6 +1445,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getLteRsrq(Landroid/content/Context;)I
@@ -1465,7 +1486,7 @@
 
     .line 15
     .line 16
-    invoke-static {p0, v0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 17
     .line 18
@@ -1500,7 +1521,7 @@
 
     .line 32
     .line 33
-    invoke-static {p0}, Lg5/i;->a(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {p0}, Lcom/baidu/location/f/t;->a(Landroid/telephony/CellSignalStrengthLte;)I
 
     .line 34
     .line 35
@@ -1598,6 +1619,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getLteRssi(Landroid/content/Context;)I
@@ -1637,7 +1660,7 @@
 
     .line 15
     .line 16
-    invoke-static {p0, v0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 17
     .line 18
@@ -1672,7 +1695,7 @@
 
     .line 32
     .line 33
-    invoke-static {p0}, Lg5/g;->a(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {p0}, Lcom/baidu/location/f/r;->a(Landroid/telephony/CellSignalStrengthLte;)I
 
     .line 34
     .line 35
@@ -1761,6 +1784,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getLteRssnr(Landroid/content/Context;)I
@@ -1800,7 +1825,7 @@
 
     .line 15
     .line 16
-    invoke-static {p0, v0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 17
     .line 18
@@ -1835,7 +1860,7 @@
 
     .line 32
     .line 33
-    invoke-static {p0}, Lg5/j;->a(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {p0}, Lcom/baidu/location/f/u;->a(Landroid/telephony/CellSignalStrengthLte;)I
 
     .line 34
     .line 35
@@ -1933,6 +1958,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getLteSignalInfo(Landroid/content/Context;)Ljava/util/Map;
@@ -2016,7 +2043,7 @@
 
     .line 31
     .line 32
-    invoke-static {p0, v1}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v1}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 33
     .line 34
@@ -2084,7 +2111,7 @@
 
     .line 65
     .line 66
-    invoke-static {v2}, Lg5/h;->a(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {v2}, Lcom/baidu/location/f/s;->a(Landroid/telephony/CellSignalStrengthLte;)I
 
     .line 67
     .line 68
@@ -2117,7 +2144,7 @@
 
     .line 82
     .line 83
-    invoke-static {v2}, Lg5/i;->a(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {v2}, Lcom/baidu/location/f/t;->a(Landroid/telephony/CellSignalStrengthLte;)I
 
     .line 84
     .line 85
@@ -2150,7 +2177,7 @@
 
     .line 99
     .line 100
-    invoke-static {v2}, Lg5/j;->a(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {v2}, Lcom/baidu/location/f/u;->a(Landroid/telephony/CellSignalStrengthLte;)I
 
     .line 101
     .line 102
@@ -2183,7 +2210,7 @@
 
     .line 116
     .line 117
-    invoke-static {v2}, Lg5/k;->a(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {v2}, Lcom/baidu/location/f/v;->a(Landroid/telephony/CellSignalStrengthLte;)I
 
     .line 118
     .line 119
@@ -2220,7 +2247,7 @@
 
     .line 135
     .line 136
-    invoke-static {p0}, Lg5/g;->a(Landroid/telephony/CellSignalStrengthLte;)I
+    invoke-static {p0}, Lcom/baidu/location/f/r;->a(Landroid/telephony/CellSignalStrengthLte;)I
 
     .line 137
     .line 138
@@ -2476,27 +2503,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static getMNC(Landroid/content/Context;)Ljava/lang/String;
@@ -2946,27 +2952,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static getMobileRsrp(Landroid/content/Context;)I
@@ -3120,6 +3105,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static getMobileSingalStrengthUpPPlatfrom(Landroid/content/Context;)I
@@ -3201,7 +3188,7 @@
     .line 34
     :cond_2
     :try_start_0
-    invoke-static {}, Loe/a;->a()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/hms/framework/common/a;->a()Ljava/lang/Class;
 
     .line 35
     .line 36
@@ -3209,7 +3196,7 @@
     move-result-object p0
 
     .line 38
-    invoke-static {v0, p0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {v0, p0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 39
     .line 40
@@ -3237,7 +3224,7 @@
     move-result-object p0
 
     .line 52
-    invoke-static {p0}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 53
     .line 54
@@ -3245,7 +3232,7 @@
     move-result-object p0
 
     .line 56
-    invoke-static {p0}, Lh5/o;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/baidu/location/f/a/q;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 57
     .line 58
@@ -3268,7 +3255,7 @@
 
     .line 64
     .line 65
-    invoke-static {v0, p0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {v0, p0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 66
     .line 67
@@ -3316,7 +3303,7 @@
 
     .line 87
     .line 88
-    invoke-static {v0, p0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {v0, p0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 89
     .line 90
@@ -3360,7 +3347,7 @@
 
     .line 109
     :cond_5
-    invoke-static {}, Loe/d;->a()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/hms/framework/common/d;->a()Ljava/lang/Class;
 
     .line 110
     .line 111
@@ -3368,7 +3355,7 @@
     move-result-object p0
 
     .line 113
-    invoke-static {v0, p0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {v0, p0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 114
     .line 115
@@ -3396,7 +3383,7 @@
     move-result-object p0
 
     .line 127
-    invoke-static {p0}, Loe/e;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthTdscdma;
+    invoke-static {p0}, Lcom/huawei/hms/framework/common/e;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthTdscdma;
 
     .line 128
     .line 129
@@ -3404,7 +3391,7 @@
     move-result-object p0
 
     .line 131
-    invoke-static {p0}, Loe/f;->a(Landroid/telephony/CellSignalStrengthTdscdma;)I
+    invoke-static {p0}, Lcom/huawei/hms/framework/common/f;->a(Landroid/telephony/CellSignalStrengthTdscdma;)I
 
     .line 132
     .line 133
@@ -3420,7 +3407,7 @@
 
     .line 137
     .line 138
-    invoke-static {v0, p0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {v0, p0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 139
     .line 140
@@ -3616,27 +3603,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static getNetWorkNSAorSA()Ljava/lang/String;
@@ -3794,6 +3760,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static getNetworkInfo(Landroid/content/Context;)Landroid/net/NetworkInfo;
@@ -3954,6 +3921,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getNetworkStatus(Landroid/content/Context;)Landroid/net/NetworkInfo$DetailedState;
@@ -4345,27 +4314,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static getNetworkType(Landroid/content/Context;)I
@@ -4591,7 +4539,7 @@
 
     .line 14
     :cond_0
-    invoke-static {}, Loe/a;->a()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/hms/framework/common/a;->a()Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -4599,7 +4547,7 @@
     move-result-object v0
 
     .line 18
-    invoke-static {p0, v0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 19
     .line 20
@@ -4630,7 +4578,7 @@
     move-result-object p0
 
     .line 33
-    invoke-static {p0}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 34
     .line 35
@@ -4638,7 +4586,7 @@
     move-result-object p0
 
     .line 37
-    invoke-static {p0}, Lh5/k;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/baidu/location/f/a/m;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 38
     .line 39
@@ -4723,6 +4671,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getNrCsiRsrq(Landroid/content/Context;)I
@@ -4758,7 +4708,7 @@
 
     .line 14
     :cond_0
-    invoke-static {}, Loe/a;->a()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/hms/framework/common/a;->a()Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -4766,7 +4716,7 @@
     move-result-object v0
 
     .line 18
-    invoke-static {p0, v0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 19
     .line 20
@@ -4797,7 +4747,7 @@
     move-result-object p0
 
     .line 33
-    invoke-static {p0}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 34
     .line 35
@@ -4805,7 +4755,7 @@
     move-result-object p0
 
     .line 37
-    invoke-static {p0}, Lh5/m;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/baidu/location/f/a/o;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 38
     .line 39
@@ -4890,6 +4840,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getNrCsiSinr(Landroid/content/Context;)I
@@ -4925,7 +4877,7 @@
 
     .line 14
     :cond_0
-    invoke-static {}, Loe/a;->a()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/hms/framework/common/a;->a()Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -4933,7 +4885,7 @@
     move-result-object v0
 
     .line 18
-    invoke-static {p0, v0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 19
     .line 20
@@ -4964,7 +4916,7 @@
     move-result-object p0
 
     .line 33
-    invoke-static {p0}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 34
     .line 35
@@ -4972,7 +4924,7 @@
     move-result-object p0
 
     .line 37
-    invoke-static {p0}, Lh5/n;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/baidu/location/f/a/p;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 38
     .line 39
@@ -5057,6 +5009,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getNrSignalInfo(Landroid/content/Context;)Ljava/util/Map;
@@ -5113,7 +5067,7 @@
 
     .line 19
     .line 20
-    invoke-static {}, Loe/a;->a()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/hms/framework/common/a;->a()Ljava/lang/Class;
 
     .line 21
     .line 22
@@ -5121,7 +5075,7 @@
     move-result-object v1
 
     .line 24
-    invoke-static {p0, v1}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v1}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 25
     .line 26
@@ -5156,7 +5110,7 @@
     move-result-object v3
 
     .line 41
-    invoke-static {v3}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {v3}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 42
     .line 43
@@ -5164,7 +5118,7 @@
     move-result-object v3
 
     .line 45
-    invoke-static {v3}, Lh5/o;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {v3}, Lcom/baidu/location/f/a/q;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 46
     .line 47
@@ -5197,7 +5151,7 @@
     move-result-object v3
 
     .line 62
-    invoke-static {v3}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {v3}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 63
     .line 64
@@ -5205,7 +5159,7 @@
     move-result-object v3
 
     .line 66
-    invoke-static {v3}, Lh5/k;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {v3}, Lcom/baidu/location/f/a/m;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 67
     .line 68
@@ -5238,7 +5192,7 @@
     move-result-object v3
 
     .line 83
-    invoke-static {v3}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {v3}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 84
     .line 85
@@ -5246,7 +5200,7 @@
     move-result-object v3
 
     .line 87
-    invoke-static {v3}, Lh5/m;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {v3}, Lcom/baidu/location/f/a/o;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 88
     .line 89
@@ -5279,7 +5233,7 @@
     move-result-object v3
 
     .line 104
-    invoke-static {v3}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {v3}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 105
     .line 106
@@ -5287,7 +5241,7 @@
     move-result-object v3
 
     .line 108
-    invoke-static {v3}, Lh5/n;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {v3}, Lcom/baidu/location/f/a/p;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 109
     .line 110
@@ -5320,7 +5274,7 @@
     move-result-object v3
 
     .line 125
-    invoke-static {v3}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {v3}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 126
     .line 127
@@ -5328,7 +5282,7 @@
     move-result-object v3
 
     .line 129
-    invoke-static {v3}, Lh5/q;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {v3}, Lcom/baidu/location/f/a/s;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 130
     .line 131
@@ -5361,7 +5315,7 @@
     move-result-object v3
 
     .line 146
-    invoke-static {v3}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {v3}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 147
     .line 148
@@ -5369,7 +5323,7 @@
     move-result-object v3
 
     .line 150
-    invoke-static {v3}, Lh5/r;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {v3}, Lcom/baidu/location/f/a/t;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 151
     .line 152
@@ -5402,7 +5356,7 @@
     move-result-object p0
 
     .line 167
-    invoke-static {p0}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 168
     .line 169
@@ -5410,7 +5364,7 @@
     move-result-object p0
 
     .line 171
-    invoke-static {p0}, Lh5/s;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/baidu/location/f/a/u;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 172
     .line 173
@@ -5565,27 +5519,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static getNrSsRsrp(Landroid/content/Context;)I
@@ -5621,7 +5554,7 @@
 
     .line 14
     :cond_0
-    invoke-static {}, Loe/a;->a()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/hms/framework/common/a;->a()Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -5629,7 +5562,7 @@
     move-result-object v0
 
     .line 18
-    invoke-static {p0, v0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 19
     .line 20
@@ -5660,7 +5593,7 @@
     move-result-object p0
 
     .line 33
-    invoke-static {p0}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 34
     .line 35
@@ -5668,7 +5601,7 @@
     move-result-object p0
 
     .line 37
-    invoke-static {p0}, Lh5/q;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/baidu/location/f/a/s;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 38
     .line 39
@@ -5753,6 +5686,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getNrSsRsrq(Landroid/content/Context;)I
@@ -5788,7 +5723,7 @@
 
     .line 14
     :cond_0
-    invoke-static {}, Loe/a;->a()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/hms/framework/common/a;->a()Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -5796,7 +5731,7 @@
     move-result-object v0
 
     .line 18
-    invoke-static {p0, v0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 19
     .line 20
@@ -5827,7 +5762,7 @@
     move-result-object p0
 
     .line 33
-    invoke-static {p0}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 34
     .line 35
@@ -5835,7 +5770,7 @@
     move-result-object p0
 
     .line 37
-    invoke-static {p0}, Lh5/r;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/baidu/location/f/a/t;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 38
     .line 39
@@ -5920,6 +5855,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getNrSsSinr(Landroid/content/Context;)I
@@ -5955,7 +5892,7 @@
 
     .line 14
     :cond_0
-    invoke-static {}, Loe/a;->a()Ljava/lang/Class;
+    invoke-static {}, Lcom/huawei/hms/framework/common/a;->a()Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -5963,7 +5900,7 @@
     move-result-object v0
 
     .line 18
-    invoke-static {p0, v0}, Loe/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
+    invoke-static {p0, v0}, Lcom/huawei/hms/framework/common/b;->a(Landroid/telephony/SignalStrength;Ljava/lang/Class;)Ljava/util/List;
 
     .line 19
     .line 20
@@ -5994,7 +5931,7 @@
     move-result-object p0
 
     .line 33
-    invoke-static {p0}, Lh5/i;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
+    invoke-static {p0}, Lcom/baidu/location/f/a/k;->a(Ljava/lang/Object;)Landroid/telephony/CellSignalStrengthNr;
 
     .line 34
     .line 35
@@ -6002,7 +5939,7 @@
     move-result-object p0
 
     .line 37
-    invoke-static {p0}, Lh5/s;->a(Landroid/telephony/CellSignalStrengthNr;)I
+    invoke-static {p0}, Lcom/baidu/location/f/a/u;->a(Landroid/telephony/CellSignalStrengthNr;)I
 
     .line 38
     .line 39
@@ -6087,6 +6024,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getPrimaryNetworkType(Landroid/content/Context;)I
@@ -6154,7 +6093,7 @@
     move-result-object p0
 
     .line 13
-    invoke-static {p0}, Lg5/b;->a(Landroid/telephony/TelephonyManager;)Landroid/telephony/SignalStrength;
+    invoke-static {p0}, Lcom/baidu/location/f/m;->a(Landroid/telephony/TelephonyManager;)Landroid/telephony/SignalStrength;
 
     .line 14
     .line 15
@@ -6176,6 +6115,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getTrafficCardTelephonyManager(Landroid/content/Context;)Landroid/telephony/TelephonyManager;
@@ -6234,6 +6175,8 @@
 
     .line 25
     return-object p0
+    .line 26
+    .line 27
 .end method
 
 .method public static getWifiGatewayIp(Landroid/content/Context;)Ljava/lang/String;
@@ -6648,27 +6591,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static getWifiRssi(Landroid/content/Context;)I
@@ -6770,7 +6692,7 @@
 
     .line 45
     .line 46
-    invoke-static {v4}, Loe/c;->a(Landroid/net/NetworkCapabilities;)Landroid/net/TransportInfo;
+    invoke-static {v4}, Lcom/huawei/hms/framework/common/c;->a(Landroid/net/NetworkCapabilities;)Landroid/net/TransportInfo;
 
     .line 47
     .line 48
@@ -7077,27 +6999,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static getWifiRssiLevel(Landroid/content/Context;)I
@@ -7139,6 +7040,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private static groupNetworkType(I)I
@@ -7267,6 +7170,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static isConnectTypeChange(Landroid/net/NetworkInfo;Landroid/net/NetworkInfo;)Z
@@ -7364,6 +7277,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static isForeground()Z
@@ -7453,6 +7376,8 @@
     .line 25
     :cond_1
     return v1
+    .line 26
+    .line 27
 .end method
 
 .method public static isSimReady(Landroid/content/Context;)Z
@@ -7521,63 +7446,6 @@
 
     .line 27
     return p0
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public static isSupportIpv6Net()Z
@@ -7811,6 +7679,8 @@
 
     .line 25
     return p0
+    .line 26
+    .line 27
 .end method
 
 .method public static netWork(Landroid/content/Context;)I
@@ -7963,6 +7833,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static networkStatus(Landroid/content/Context;)Landroid/net/NetworkInfo$DetailedState;
@@ -8000,6 +7872,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static readDataSaverMode(Landroid/content/Context;)I
@@ -8154,6 +8028,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static updateCurrentNetworkType()V
@@ -8301,4 +8177,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

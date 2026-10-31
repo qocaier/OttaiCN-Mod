@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/q;
+.implements Lq8/q;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/StorageConnectionKt;->readData(Landroidx/datastore/core/StorageConnection;Lul/c;)Ljava/lang/Object;
+    value = Landroidx/datastore/core/StorageConnectionKt;->readData(Landroidx/datastore/core/StorageConnection;Lkotlin/coroutines/e;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,27 +19,17 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Ljm/q<",
-        "Landroidx/datastore/core/ReadScope<",
-        "TT;>;",
-        "Ljava/lang/Boolean;",
-        "Lul/c<",
-        "-TT;>;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lq8/q;"
     }
 .end annotation
 
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "androidx.datastore.core.StorageConnectionKt$readData$2"
     f = "StorageConnection.kt"
-    i = {}
     l = {
         0x4a
     }
     m = "invokeSuspend"
-    n = {}
-    s = {}
 .end annotation
 
 
@@ -50,84 +40,46 @@
 
 
 # direct methods
-.method public constructor <init>(Lul/c;)V
+.method public constructor <init>(Lkotlin/coroutines/e;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Landroidx/datastore/core/StorageConnectionKt$readData$2;",
-            ">;)V"
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
-    .line 1
     const/4 v0, 0x3
 
-    .line 2
-    invoke-direct {p0, v0, p1}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILul/c;)V
+    invoke-direct {p0, v0, p1}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/e;)V
 
-    .line 3
-    .line 4
-    .line 5
     return-void
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
 
 # virtual methods
-.method public final invoke(Landroidx/datastore/core/ReadScope;ZLul/c;)Ljava/lang/Object;
+.method public final invoke(Landroidx/datastore/core/ReadScope;ZLkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
-    .param p1    # Landroidx/datastore/core/ReadScope;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Lul/c;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/datastore/core/ReadScope<",
             "TT;>;Z",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
     new-instance p2, Landroidx/datastore/core/StorageConnectionKt$readData$2;
 
-    invoke-direct {p2, p3}, Landroidx/datastore/core/StorageConnectionKt$readData$2;-><init>(Lul/c;)V
+    invoke-direct {p2, p3}, Landroidx/datastore/core/StorageConnectionKt$readData$2;-><init>(Lkotlin/coroutines/e;)V
 
     iput-object p1, p2, Landroidx/datastore/core/StorageConnectionKt$readData$2;->L$0:Ljava/lang/Object;
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     invoke-virtual {p2, p1}, Landroidx/datastore/core/StorageConnectionKt$readData$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -148,9 +100,9 @@
 
     move-result p2
 
-    check-cast p3, Lul/c;
+    check-cast p3, Lkotlin/coroutines/e;
 
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/core/StorageConnectionKt$readData$2;->invoke(Landroidx/datastore/core/ReadScope;ZLul/c;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/core/StorageConnectionKt$readData$2;->invoke(Landroidx/datastore/core/ReadScope;ZLkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -159,15 +111,9 @@
 
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 3
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -190,7 +136,7 @@
 
     .line 11
     .line 12
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 13
     .line 14
@@ -216,7 +162,7 @@
 
     .line 24
     :cond_1
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 25
     .line 26
@@ -233,7 +179,7 @@
 
     .line 32
     .line 33
-    invoke-interface {p1, p0}, Landroidx/datastore/core/ReadScope;->readData(Lul/c;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Landroidx/datastore/core/ReadScope;->readData(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -288,4 +234,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

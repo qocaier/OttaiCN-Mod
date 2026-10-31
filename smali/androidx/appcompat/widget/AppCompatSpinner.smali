@@ -95,6 +95,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -869,6 +870,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public drawableStateChanged()V
@@ -904,6 +908,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDropDownHorizontalOffset()I
@@ -945,6 +950,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDropDownVerticalOffset()I
@@ -986,6 +992,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDropDownWidth()I
@@ -1025,6 +1032,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getInternalPopup()Landroidx/appcompat/widget/AppCompatSpinner$SpinnerPopup;
@@ -1055,6 +1063,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPopupBackground()Landroid/graphics/drawable/Drawable;
@@ -1096,6 +1105,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPopupContext()Landroid/content/Context;
@@ -1124,6 +1134,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPrompt()Ljava/lang/CharSequence;
@@ -1165,6 +1176,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportBackgroundTintList()Landroid/content/res/ColorStateList;
@@ -1212,6 +1224,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -1259,6 +1272,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onDetachedFromWindow()V
@@ -1302,6 +1316,7 @@
     :cond_0
     return-void
     .line 20
+    .line 21
 .end method
 
 .method public onMeasure(II)V
@@ -1590,6 +1605,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -1699,6 +1717,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -1817,6 +1836,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -1915,6 +1936,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public bridge synthetic setAdapter(Landroid/widget/Adapter;)V
@@ -2454,4 +2476,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

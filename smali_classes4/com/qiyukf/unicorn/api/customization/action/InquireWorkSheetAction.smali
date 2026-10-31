@@ -160,6 +160,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public setOpenUrge(Z)V
@@ -193,6 +194,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTemplateIds(Ljava/util/List;)V
@@ -234,4 +237,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

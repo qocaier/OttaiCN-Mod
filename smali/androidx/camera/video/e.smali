@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
 
 
 # instance fields
@@ -11,11 +11,9 @@
 
 .field public final synthetic b:Landroidx/camera/video/Recorder$RecordingRecord;
 
-.field public final synthetic c:Z
-
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/video/Recorder;Landroidx/camera/video/Recorder$RecordingRecord;Z)V
+.method public synthetic constructor <init>(Landroidx/camera/video/Recorder;Landroidx/camera/video/Recorder$RecordingRecord;)V
     .locals 0
 
     .line 1
@@ -25,24 +23,22 @@
 
     iput-object p2, p0, Landroidx/camera/video/e;->b:Landroidx/camera/video/Recorder$RecordingRecord;
 
-    iput-boolean p3, p0, Landroidx/camera/video/e;->c:Z
-
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 3
+.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    .locals 2
 
     .line 1
     iget-object v0, p0, Landroidx/camera/video/e;->a:Landroidx/camera/video/Recorder;
 
     iget-object v1, p0, Landroidx/camera/video/e;->b:Landroidx/camera/video/Recorder$RecordingRecord;
 
-    iget-boolean v2, p0, Landroidx/camera/video/e;->c:Z
+    invoke-static {v0, v1, p1}, Landroidx/camera/video/Recorder;->o(Landroidx/camera/video/Recorder;Landroidx/camera/video/Recorder$RecordingRecord;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
 
-    invoke-static {v0, v1, v2}, Landroidx/camera/video/Recorder;->l(Landroidx/camera/video/Recorder;Landroidx/camera/video/Recorder$RecordingRecord;Z)V
+    move-result-object p1
 
-    return-void
+    return-object p1
 .end method

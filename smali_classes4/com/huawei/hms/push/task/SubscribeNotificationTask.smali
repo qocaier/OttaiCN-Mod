@@ -281,17 +281,39 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
-.method private a(Lcom/huawei/hms/common/internal/ResponseErrorCode;Lme/l;)V
+.method private a(Lcom/huawei/hms/common/internal/ResponseErrorCode;Lq5/g;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
-            "Lme/l<",
-            "Lcom/huawei/hms/push/SubscribeResult;",
-            ">;)V"
+            "Lq5/g;",
+            ")V"
         }
     .end annotation
 
@@ -314,7 +336,7 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p2, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     return-void
 
@@ -336,7 +358,7 @@
 
     invoke-direct {v0, v1}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p2, v0}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p2, v0}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     return-void
 .end method
@@ -398,7 +420,7 @@
 
 
 # virtual methods
-.method public doExecute(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+.method public doExecute(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -406,9 +428,8 @@
             "Lcom/huawei/hms/aaid/task/PushClient;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
             "Ljava/lang/String;",
-            "Lme/l<",
-            "Lcom/huawei/hms/push/SubscribeResult;",
-            ">;)V"
+            "Lq5/g;",
+            ")V"
         }
     .end annotation
 
@@ -443,7 +464,7 @@
     invoke-static {v0, p3}, Lcom/huawei/hms/support/log/HMSLog;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4
-    invoke-direct {p0, p2, p4}, Lcom/huawei/hms/push/task/SubscribeNotificationTask;->a(Lcom/huawei/hms/common/internal/ResponseErrorCode;Lme/l;)V
+    invoke-direct {p0, p2, p4}, Lcom/huawei/hms/push/task/SubscribeNotificationTask;->a(Lcom/huawei/hms/common/internal/ResponseErrorCode;Lq5/g;)V
 
     goto :goto_0
 
@@ -479,7 +500,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p4, p3}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p3}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 10
     new-instance p3, Ljava/lang/StringBuilder;
@@ -531,7 +552,7 @@
     invoke-virtual {v0, p3}, Lcom/huawei/hms/push/SubscribeResult;->setSubscribedItems(Ljava/util/List;)V
 
     .line 14
-    invoke-virtual {p4, v0}, Lme/l;->d(Ljava/lang/Object;)V
+    invoke-virtual {p4, v0}, Lq5/g;->c(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -549,7 +570,7 @@
     invoke-direct {p3}, Lcom/huawei/hms/push/SubscribeResult;-><init>()V
 
     .line 17
-    invoke-virtual {p4, p3}, Lme/l;->d(Ljava/lang/Object;)V
+    invoke-virtual {p4, p3}, Lq5/g;->c(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -561,7 +582,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p4, p3}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p3}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 19
     :goto_0
@@ -578,13 +599,13 @@
     return-void
 .end method
 
-.method public bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+.method public bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
     .locals 0
 
     .line 1
     check-cast p1, Lcom/huawei/hms/aaid/task/PushClient;
 
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/push/task/SubscribeNotificationTask;->doExecute(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/push/task/SubscribeNotificationTask;->doExecute(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
 
     return-void
 .end method

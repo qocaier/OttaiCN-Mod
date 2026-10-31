@@ -1124,6 +1124,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public addToBackStack(Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
@@ -1331,6 +1334,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public doAddOp(ILandroidx/fragment/app/Fragment;Ljava/lang/String;I)V
@@ -1786,6 +1790,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public hide(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
@@ -1859,6 +1869,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEmpty()Z
@@ -1891,6 +1902,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public remove(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/text/Regex;->findAll(Ljava/lang/CharSequence;I)Lvm/m;
+    value = Lkotlin/text/Regex;->findAll(Ljava/lang/CharSequence;I)Lkotlin/sequences/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/l<",
-        "Lym/o;",
-        "Lym/o;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -53,7 +50,7 @@
 
     const/4 v1, 0x1
 
-    const-class v2, Lym/o;
+    const-class v2, Lkotlin/text/k;
 
     const-string v3, "next"
 
@@ -70,24 +67,24 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lym/o;
+    check-cast p1, Lkotlin/text/k;
 
-    invoke-virtual {p0, p1}, Lkotlin/text/Regex$findAll$2;->invoke(Lym/o;)Lym/o;
+    invoke-virtual {p0, p1}, Lkotlin/text/Regex$findAll$2;->invoke(Lkotlin/text/k;)Lkotlin/text/k;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Lym/o;)Lym/o;
+.method public final invoke(Lkotlin/text/k;)Lkotlin/text/k;
     .locals 1
 
     const-string v0, "p0"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-interface {p1}, Lym/o;->next()Lym/o;
+    invoke-interface {p1}, Lkotlin/text/k;->next()Lkotlin/text/k;
 
     move-result-object p1
 

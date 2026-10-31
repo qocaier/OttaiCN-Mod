@@ -7,25 +7,25 @@
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;
+.field public final synthetic a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-.field public final synthetic b:Ljava/util/concurrent/Executor;
+.field public final synthetic b:Ljava/util/List;
 
-.field public final synthetic c:Landroidx/camera/video/internal/encoder/EncoderCallback;
+.field public final synthetic c:Ljava/lang/Runnable;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Ljava/util/concurrent/Executor;Landroidx/camera/video/internal/encoder/EncoderCallback;)V
+.method public synthetic constructor <init>(Landroidx/camera/video/internal/encoder/EncoderImpl;Ljava/util/List;Ljava/lang/Runnable;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/video/internal/encoder/o;->a:Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;
+    iput-object p1, p0, Landroidx/camera/video/internal/encoder/o;->a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-    iput-object p2, p0, Landroidx/camera/video/internal/encoder/o;->b:Ljava/util/concurrent/Executor;
+    iput-object p2, p0, Landroidx/camera/video/internal/encoder/o;->b:Ljava/util/List;
 
-    iput-object p3, p0, Landroidx/camera/video/internal/encoder/o;->c:Landroidx/camera/video/internal/encoder/EncoderCallback;
+    iput-object p3, p0, Landroidx/camera/video/internal/encoder/o;->c:Ljava/lang/Runnable;
 
     return-void
 .end method
@@ -36,13 +36,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/internal/encoder/o;->a:Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;
+    iget-object v0, p0, Landroidx/camera/video/internal/encoder/o;->a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-    iget-object v1, p0, Landroidx/camera/video/internal/encoder/o;->b:Ljava/util/concurrent/Executor;
+    iget-object v1, p0, Landroidx/camera/video/internal/encoder/o;->b:Ljava/util/List;
 
-    iget-object v2, p0, Landroidx/camera/video/internal/encoder/o;->c:Landroidx/camera/video/internal/encoder/EncoderCallback;
+    iget-object v2, p0, Landroidx/camera/video/internal/encoder/o;->c:Ljava/lang/Runnable;
 
-    invoke-static {v0, v1, v2}, Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;->e(Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;Ljava/util/concurrent/Executor;Landroidx/camera/video/internal/encoder/EncoderCallback;)V
+    invoke-static {v0, v1, v2}, Landroidx/camera/video/internal/encoder/EncoderImpl;->d(Landroidx/camera/video/internal/encoder/EncoderImpl;Ljava/util/List;Ljava/lang/Runnable;)V
 
     return-void
 .end method

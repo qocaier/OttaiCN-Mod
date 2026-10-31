@@ -349,6 +349,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public expandItemActionView(Landroidx/appcompat/view/menu/MenuBuilder;Landroidx/appcompat/view/menu/MenuItemImpl;)Z
@@ -717,6 +720,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public flagActionItems()Z
@@ -968,4 +974,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

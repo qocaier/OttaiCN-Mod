@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bumptech/glide/load/engine/e$a;
+.implements Lcom/bumptech/glide/load/engine/g$a;
 
 
 # annotations
@@ -14,17 +14,6 @@
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x11
     name = "c"
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<Z:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/bumptech/glide/load/engine/e$a<",
-        "TZ;>;"
-    }
 .end annotation
 
 
@@ -105,33 +94,12 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
-.method public a(Ld6/j;)Ld6/j;
+.method public a(Lcom/bumptech/glide/load/engine/s;)Lcom/bumptech/glide/load/engine/s;
     .locals 2
-    .param p1    # Ld6/j;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ld6/j<",
-            "TZ;>;)",
-            "Ld6/j<",
-            "TZ;>;"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/bumptech/glide/load/engine/DecodeJob$c;->b:Lcom/bumptech/glide/load/engine/DecodeJob;
@@ -142,7 +110,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1, p1}, Lcom/bumptech/glide/load/engine/DecodeJob;->z(Lcom/bumptech/glide/load/DataSource;Ld6/j;)Ld6/j;
+    invoke-virtual {v0, v1, p1}, Lcom/bumptech/glide/load/engine/DecodeJob;->v(Lcom/bumptech/glide/load/DataSource;Lcom/bumptech/glide/load/engine/s;)Lcom/bumptech/glide/load/engine/s;
 
     .line 6
     .line 7
@@ -166,5 +134,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

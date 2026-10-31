@@ -141,6 +141,8 @@
     .line 19
     return-void
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static a(Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;)Ljava/lang/String;
@@ -1128,6 +1130,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAttachStr()Ljava/lang/String;
@@ -1160,6 +1164,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAttachment()Lcom/qiyukf/nimlib/sdk/msg/attachment/MsgAttachment;
@@ -1188,6 +1194,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCallbackExtension()Ljava/lang/String;
@@ -1216,6 +1224,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getConfig()Lcom/qiyukf/nimlib/sdk/msg/model/CustomMessageConfig;
@@ -1244,6 +1254,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getContent()Ljava/lang/String;
@@ -1272,6 +1284,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getDirect()Lcom/qiyukf/nimlib/sdk/msg/constant/MsgDirectionEnum;
@@ -1300,6 +1314,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEnv()Ljava/lang/String;
@@ -1328,6 +1344,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFromAccount()Ljava/lang/String;
@@ -1356,6 +1374,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFromClientType()I
@@ -1384,6 +1404,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFromNick()Ljava/lang/String;
@@ -1521,6 +1543,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getLocalExtension()Ljava/util/Map;
@@ -1562,6 +1585,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMemberPushOption()Lcom/qiyukf/nimlib/sdk/msg/model/MemberPushOption;
@@ -1590,6 +1615,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMessageKey()Lcom/qiyukf/nimlib/sdk/msg/model/MessageKey;
@@ -1634,6 +1661,8 @@
     .line 19
     .line 20
     return-object v0
+    .line 21
+    .line 22
 .end method
 
 .method public getMsgType()Lcom/qiyukf/nimlib/sdk/msg/constant/MsgTypeEnum;
@@ -1666,6 +1695,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNIMAntiSpamOption()Lcom/qiyukf/nimlib/sdk/msg/model/NIMAntiSpamOption;
@@ -1694,6 +1725,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPushContent()Ljava/lang/String;
@@ -1722,6 +1755,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPushPayload()Ljava/util/Map;
@@ -1763,6 +1798,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuickCommentUpdateTime()J
@@ -1791,6 +1828,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRemoteExtension()Ljava/util/Map;
@@ -1832,6 +1871,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getServerId()J
@@ -1860,6 +1901,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()Ljava/lang/String;
@@ -1888,6 +1931,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionType()Lcom/qiyukf/nimlib/sdk/msg/constant/SessionTypeEnum;
@@ -1916,6 +1961,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStatus()Lcom/qiyukf/nimlib/sdk/msg/constant/MsgStatusEnum;
@@ -1944,6 +1991,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSubtype()I
@@ -1972,6 +2021,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTeamMsgAckCount()I
@@ -2015,6 +2066,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTeamMsgUnAckCount()I
@@ -2058,6 +2111,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getThreadOption()Lcom/qiyukf/nimlib/sdk/msg/model/MsgThreadOption;
@@ -2086,6 +2141,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTime()J
@@ -2114,6 +2171,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUuid()Ljava/lang/String;
@@ -2142,6 +2201,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getYidunAntiCheating()Ljava/lang/String;
@@ -2170,6 +2231,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getYidunAntiSpamExt()Ljava/lang/String;
@@ -2198,6 +2261,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getYidunAntiSpamRes()Ljava/lang/String;
@@ -2226,6 +2291,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public h()Ljava/lang/String;
@@ -2272,6 +2339,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public i()Ljava/lang/String;
@@ -2318,6 +2387,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isDeleted()Z
@@ -2346,6 +2417,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isInBlackList()Z
@@ -2374,6 +2447,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isRemoteRead()Z
@@ -2510,6 +2585,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public isSessionUpdate()Z
@@ -2538,6 +2614,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isTheSame(Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;)Z
@@ -2675,6 +2753,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isThread()Z
@@ -2726,6 +2806,8 @@
     .line 19
     return v0
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public j()Ljava/lang/String;
@@ -2807,6 +2889,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public needMsgAck()Z
@@ -2835,6 +2919,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAttachStatus(Lcom/qiyukf/nimlib/sdk/msg/constant/AttachStatusEnum;)V
@@ -2868,6 +2954,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setAttachment(Lcom/qiyukf/nimlib/sdk/msg/attachment/MsgAttachment;)V
@@ -2901,6 +2989,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setChecked(Ljava/lang/Boolean;)V
@@ -2934,6 +3024,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setClientAntiSpam(Z)V
@@ -2967,6 +3059,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setConfig(Lcom/qiyukf/nimlib/sdk/msg/model/CustomMessageConfig;)V
@@ -3387,27 +3481,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public setContent(Ljava/lang/String;)V
@@ -3441,6 +3514,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setDirect(Lcom/qiyukf/nimlib/sdk/msg/constant/MsgDirectionEnum;)V
@@ -3474,6 +3549,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEnv(Ljava/lang/String;)V
@@ -3507,6 +3584,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setForceUploadFile(Z)V
@@ -3549,6 +3628,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromAccount(Ljava/lang/String;)V
@@ -3582,6 +3663,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLocalExtension(Ljava/util/Map;)V
@@ -3628,6 +3711,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMemberPushOption(Lcom/qiyukf/nimlib/sdk/msg/model/MemberPushOption;)V
@@ -3785,6 +3870,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setMsgAck()V
@@ -3815,6 +3902,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setNIMAntiSpamOption(Lcom/qiyukf/nimlib/sdk/msg/model/NIMAntiSpamOption;)V
@@ -3947,6 +4036,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setPushContent(Ljava/lang/String;)V
@@ -3980,6 +4071,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPushPayload(Ljava/util/Map;)V
@@ -4026,6 +4119,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRemoteExtension(Ljava/util/Map;)V
@@ -4072,6 +4167,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionUpdate(Z)V
@@ -4105,6 +4202,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStatus(Lcom/qiyukf/nimlib/sdk/msg/constant/MsgStatusEnum;)V
@@ -4138,6 +4237,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSubtype(I)V
@@ -4171,6 +4272,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setThreadOption(Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;)V
@@ -4608,27 +4711,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public setYidunAntiCheating(Ljava/lang/String;)V
@@ -4662,6 +4744,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setYidunAntiSpamExt(Ljava/lang/String;)V
@@ -4695,4 +4779,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

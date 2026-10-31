@@ -149,6 +149,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxSharedSurfaceCount()I
@@ -185,6 +186,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOutputConfiguration()Ljava/lang/Object;
@@ -225,6 +227,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPhysicalCameraId()Ljava/lang/String;

@@ -27,47 +27,42 @@
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    .line 2
+    .line 3
+    .line 4
     const/4 v0, 0x0
 
+    .line 5
     iput-boolean v0, p0, Lcom/google/android/gms/location/DeviceOrientationRequest$a;->b:Z
 
+    .line 6
+    .line 7
     invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/location/DeviceOrientationRequest$a;->b(J)Lcom/google/android/gms/location/DeviceOrientationRequest$a;
 
+    .line 8
+    .line 9
+    .line 10
     return-void
-.end method
-
-.method public constructor <init>(Lcom/google/android/gms/location/DeviceOrientationRequest;)V
-    .locals 2
-    .param p1    # Lcom/google/android/gms/location/DeviceOrientationRequest;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    .line 2
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    invoke-virtual {p1}, Lcom/google/android/gms/location/DeviceOrientationRequest;->t()J
-
-    move-result-wide v0
-
-    iput-wide v0, p0, Lcom/google/android/gms/location/DeviceOrientationRequest$a;->a:J
-
-    .line 3
-    invoke-virtual {p1}, Lcom/google/android/gms/location/DeviceOrientationRequest;->u()Z
-
-    move-result p1
-
-    iput-boolean p1, p0, Lcom/google/android/gms/location/DeviceOrientationRequest$a;->b:Z
-
-    return-void
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
 .end method
 
 
 # virtual methods
 .method public a()Lcom/google/android/gms/location/DeviceOrientationRequest;
     .locals 4
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     new-instance v0, Lcom/google/android/gms/location/DeviceOrientationRequest;
@@ -100,13 +95,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public b(J)Lcom/google/android/gms/location/DeviceOrientationRequest$a;
     .locals 4
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     const-wide/16 v0, 0x0
@@ -203,7 +195,7 @@
     move-result-object v0
 
     .line 50
-    invoke-static {v1, v0}, Lba/q3;->b(ZLjava/lang/Object;)V
+    invoke-static {v1, v0}, Lcom/google/android/gms/internal/location/n0;->b(ZLjava/lang/Object;)V
 
     .line 51
     .line 52
@@ -249,6 +241,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

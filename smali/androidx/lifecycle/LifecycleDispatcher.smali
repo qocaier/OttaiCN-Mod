@@ -13,14 +13,8 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/lifecycle/LifecycleDispatcher;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final initialized:Ljava/util/concurrent/atomic/AtomicBoolean;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -62,6 +56,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -90,23 +85,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final init(Landroid/content/Context;)V
     .locals 2
-    .param p0    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -146,7 +136,7 @@
 
     .line 21
     .line 22
-    invoke-static {p0, v0}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -213,4 +203,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

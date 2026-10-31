@@ -3,31 +3,21 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ldk/l0;
-.implements Lfk/b;
+.implements Lb8/r;
+.implements Lio/reactivex/disposables/b;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lio/reactivex/internal/operators/single/SingleResumeNext;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "ResumeMainSingleObserver"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T:",
         "Ljava/lang/Object;",
         ">",
         "Ljava/util/concurrent/atomic/AtomicReference<",
-        "Lfk/b;",
+        "Lio/reactivex/disposables/b;",
         ">;",
-        "Ldk/l0<",
-        "TT;>;",
-        "Lfk/b;"
+        "Lb8/r;",
+        "Lio/reactivex/disposables/b;"
     }
 .end annotation
 
@@ -37,43 +27,32 @@
 
 
 # instance fields
-.field final downstream:Ldk/l0;
+.field final downstream:Lb8/r;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ldk/l0<",
-            "-TT;>;"
+            "Lb8/r;"
         }
     .end annotation
 .end field
 
-.field final nextFunction:Lik/o;
+.field final nextFunction:Ld8/h;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lik/o<",
-            "-",
-            "Ljava/lang/Throwable;",
-            "+",
-            "Ldk/o0<",
-            "+TT;>;>;"
+            "Ld8/h;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ldk/l0;Lik/o;)V
+.method public constructor <init>(Lb8/r;Ld8/h;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ldk/l0<",
-            "-TT;>;",
-            "Lik/o<",
-            "-",
-            "Ljava/lang/Throwable;",
-            "+",
-            "Ldk/o0<",
-            "+TT;>;>;)V"
+            "Lb8/r;",
+            "Ld8/h;",
+            ")V"
         }
     .end annotation
 
@@ -83,11 +62,11 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->downstream:Ldk/l0;
+    iput-object p1, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->downstream:Lb8/r;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->nextFunction:Lik/o;
+    iput-object p2, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->nextFunction:Ld8/h;
 
     .line 7
     .line 8
@@ -125,6 +104,89 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
 
@@ -158,6 +220,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public isDisposed()Z
@@ -172,11 +261,11 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Lfk/b;
+    check-cast v0, Lio/reactivex/disposables/b;
 
     .line 6
     .line 7
-    invoke-static {v0}, Lio/reactivex/internal/disposables/DisposableHelper;->isDisposed(Lfk/b;)Z
+    invoke-static {v0}, Lio/reactivex/internal/disposables/DisposableHelper;->isDisposed(Lio/reactivex/disposables/b;)Z
 
     .line 8
     .line 9
@@ -197,6 +286,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onError(Ljava/lang/Throwable;)V
@@ -204,11 +320,11 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->nextFunction:Lik/o;
+    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->nextFunction:Ld8/h;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lik/o;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ld8/h;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -220,7 +336,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lkk/a;->g(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, v1}, Lio/reactivex/internal/functions/a;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -228,69 +344,69 @@
     move-result-object v0
 
     .line 13
-    check-cast v0, Ldk/o0;
+    invoke-static {v0}, Lk/d;->a(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 14
     .line 15
-    new-instance p1, Lmk/o;
-
     .line 16
+    new-instance p1, Lio/reactivex/internal/observers/b;
+
     .line 17
-    iget-object v1, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->downstream:Ldk/l0;
-
     .line 18
-    .line 19
-    invoke-direct {p1, p0, v1}, Lmk/o;-><init>(Ljava/util/concurrent/atomic/AtomicReference;Ldk/l0;)V
+    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->downstream:Lb8/r;
 
+    .line 19
     .line 20
+    invoke-direct {p1, p0, v0}, Lio/reactivex/internal/observers/b;-><init>(Ljava/util/concurrent/atomic/AtomicReference;Lb8/r;)V
+
     .line 21
     .line 22
-    invoke-interface {v0, p1}, Ldk/o0;->a(Ldk/l0;)V
-
     .line 23
-    .line 24
-    .line 25
-    return-void
+    const/4 p1, 0x0
 
-    .line 26
+    .line 24
+    throw p1
+
+    .line 25
     :catchall_0
     move-exception v0
 
-    .line 27
-    invoke-static {v0}, Lgk/a;->b(Ljava/lang/Throwable;)V
+    .line 26
+    invoke-static {v0}, Lio/reactivex/exceptions/a;->a(Ljava/lang/Throwable;)V
 
+    .line 27
     .line 28
     .line 29
-    .line 30
-    iget-object v1, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->downstream:Ldk/l0;
+    iget-object v1, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->downstream:Lb8/r;
 
+    .line 30
     .line 31
-    .line 32
     new-instance v2, Lio/reactivex/exceptions/CompositeException;
 
+    .line 32
     .line 33
-    .line 34
     filled-new-array {p1, v0}, [Ljava/lang/Throwable;
 
+    .line 34
     .line 35
     .line 36
-    .line 37
     move-result-object p1
 
-    .line 38
+    .line 37
     invoke-direct {v2, p1}, Lio/reactivex/exceptions/CompositeException;-><init>([Ljava/lang/Throwable;)V
 
+    .line 38
     .line 39
     .line 40
-    .line 41
-    invoke-interface {v1, v2}, Ldk/l0;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v1, v2}, Lb8/r;->onError(Ljava/lang/Throwable;)V
 
+    .line 41
     .line 42
     .line 43
-    .line 44
     return-void
+    .line 44
     .line 45
     .line 46
     .line 47
@@ -304,32 +420,13 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public onSubscribe(Lfk/b;)V
+.method public onSubscribe(Lio/reactivex/disposables/b;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Lfk/b;)Z
+    invoke-static {p0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Lio/reactivex/disposables/b;)Z
 
     .line 2
     .line 3
@@ -341,11 +438,11 @@
 
     .line 6
     .line 7
-    iget-object p1, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->downstream:Ldk/l0;
+    iget-object p1, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->downstream:Lb8/r;
 
     .line 8
     .line 9
-    invoke-interface {p1, p0}, Ldk/l0;->onSubscribe(Lfk/b;)V
+    invoke-interface {p1, p0}, Lb8/r;->onSubscribe(Lio/reactivex/disposables/b;)V
 
     .line 10
     .line 11
@@ -364,6 +461,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public onSuccess(Ljava/lang/Object;)V
@@ -375,11 +505,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->downstream:Ldk/l0;
+    iget-object v0, p0, Lio/reactivex/internal/operators/single/SingleResumeNext$ResumeMainSingleObserver;->downstream:Lb8/r;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ldk/l0;->onSuccess(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Lb8/r;->onSuccess(Ljava/lang/Object;)V
 
     .line 4
     .line 5
@@ -403,4 +533,37 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method

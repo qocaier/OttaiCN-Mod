@@ -3,10 +3,6 @@
 .source "SourceFile"
 
 
-# static fields
-.field private static final a:J = 0xc6af626b2b015a6L
-
-
 # direct methods
 .method public constructor <init>()V
     .locals 0

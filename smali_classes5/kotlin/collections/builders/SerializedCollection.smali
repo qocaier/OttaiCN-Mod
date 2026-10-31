@@ -13,22 +13,9 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nListBuilder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ListBuilder.kt\nkotlin/collections/builders/SerializedCollection\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,722:1\n1#2:723\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nListBuilder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ListBuilder.kt\nkotlin/collections/builders/SerializedCollection\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,722:1\n1#2:723\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field public static final Companion:Lkotlin/collections/builders/SerializedCollection$a;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final serialVersionUID:J = 0x0L
 
@@ -45,9 +32,6 @@
             "*>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final tag:I
@@ -61,7 +45,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkotlin/collections/builders/SerializedCollection$a;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Lkotlin/collections/builders/SerializedCollection$a;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Lkotlin/collections/builders/SerializedCollection;->Companion:Lkotlin/collections/builders/SerializedCollection$a;
 
@@ -72,7 +56,7 @@
     .locals 2
 
     .line 4
-    invoke-static {}, Lll/h0;->J()Ljava/util/List;
+    invoke-static {}, Lkotlin/collections/r;->l()Ljava/util/List;
 
     move-result-object v0
 
@@ -87,10 +71,6 @@
 
 .method public constructor <init>(Ljava/util/Collection;I)V
     .locals 1
-    .param p1    # Ljava/util/Collection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -101,7 +81,7 @@
 
     const-string v0, "collection"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -144,23 +124,46 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
 .method public readExternal(Ljava/io/ObjectInput;)V
     .locals 5
-    .param p1    # Ljava/io/ObjectInput;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "input"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -215,7 +218,7 @@
 
     .line 29
     .line 30
-    invoke-static {v0}, Lll/t1;->e(I)Ljava/util/Set;
+    invoke-static {v0}, Lkotlin/collections/i0;->b(I)Ljava/util/Set;
 
     .line 31
     .line 32
@@ -249,7 +252,7 @@
 
     .line 46
     :cond_0
-    invoke-static {v1}, Lll/t1;->a(Ljava/util/Set;)Ljava/util/Set;
+    invoke-static {v1}, Lkotlin/collections/i0;->a(Ljava/util/Set;)Ljava/util/Set;
 
     .line 47
     .line 48
@@ -310,7 +313,7 @@
 
     .line 77
     :cond_2
-    invoke-static {v0}, Lll/g0;->k(I)Ljava/util/List;
+    invoke-static {v0}, Lkotlin/collections/q;->d(I)Ljava/util/List;
 
     .line 78
     .line 79
@@ -344,7 +347,7 @@
 
     .line 93
     :cond_3
-    invoke-static {v1}, Lll/g0;->b(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v1}, Lkotlin/collections/q;->a(Ljava/util/List;)Ljava/util/List;
 
     .line 94
     .line 95
@@ -621,21 +624,137 @@
     .line 312
     .line 313
     .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
 .end method
 
 .method public writeExternal(Ljava/io/ObjectOutput;)V
     .locals 2
-    .param p1    # Ljava/io/ObjectOutput;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "output"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -726,23 +845,4 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
 
 
 # instance fields
@@ -28,7 +28,7 @@
 
 
 # virtual methods
-.method public final run()V
+.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
     .locals 2
 
     .line 1
@@ -36,7 +36,9 @@
 
     iget-object v1, p0, Landroidx/camera/video/d;->b:Landroidx/camera/video/Recorder$RecordingRecord;
 
-    invoke-static {v0, v1}, Landroidx/camera/video/Recorder;->c(Landroidx/camera/video/Recorder;Landroidx/camera/video/Recorder$RecordingRecord;)V
+    invoke-static {v0, v1, p1}, Landroidx/camera/video/Recorder;->n(Landroidx/camera/video/Recorder;Landroidx/camera/video/Recorder$RecordingRecord;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
 
-    return-void
+    move-result-object p1
+
+    return-object p1
 .end method

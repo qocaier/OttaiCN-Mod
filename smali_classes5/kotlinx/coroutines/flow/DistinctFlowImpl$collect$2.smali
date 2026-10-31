@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljn/f;
+.implements Lkotlinx/coroutines/flow/d;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/DistinctFlowImpl;->collect(Ljn/f;Lul/c;)Ljava/lang/Object;
+    value = Lkotlinx/coroutines/flow/DistinctFlowImpl;->collect(Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/e;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,166 +16,34 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljn/f;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final synthetic a:Lkotlinx/coroutines/flow/DistinctFlowImpl;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lkotlinx/coroutines/flow/DistinctFlowImpl<",
-            "TT;>;"
-        }
-    .end annotation
-.end field
 
 .field public final synthetic b:Lkotlin/jvm/internal/Ref$ObjectRef;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lkotlin/jvm/internal/Ref$ObjectRef<",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
-.end field
 
-.field public final synthetic c:Ljn/f;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljn/f<",
-            "TT;>;"
-        }
-    .end annotation
-.end field
+.field public final synthetic c:Lkotlinx/coroutines/flow/d;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/flow/DistinctFlowImpl;Lkotlin/jvm/internal/Ref$ObjectRef;Ljn/f;)V
+.method public constructor <init>(Lkotlinx/coroutines/flow/DistinctFlowImpl;Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlinx/coroutines/flow/d;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lkotlinx/coroutines/flow/DistinctFlowImpl<",
-            "TT;>;",
-            "Lkotlin/jvm/internal/Ref$ObjectRef<",
-            "Ljava/lang/Object;",
-            ">;",
-            "Ljn/f<",
-            "-TT;>;)V"
-        }
-    .end annotation
 
-    .line 1
     iput-object p1, p0, Lkotlinx/coroutines/flow/DistinctFlowImpl$collect$2;->a:Lkotlinx/coroutines/flow/DistinctFlowImpl;
 
-    .line 2
-    .line 3
     iput-object p2, p0, Lkotlinx/coroutines/flow/DistinctFlowImpl$collect$2;->b:Lkotlin/jvm/internal/Ref$ObjectRef;
 
-    .line 4
-    .line 5
-    iput-object p3, p0, Lkotlinx/coroutines/flow/DistinctFlowImpl$collect$2;->c:Ljn/f;
+    iput-object p3, p0, Lkotlinx/coroutines/flow/DistinctFlowImpl$collect$2;->c:Lkotlinx/coroutines/flow/d;
 
-    .line 6
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
-    .line 9
-    .line 10
     return-void
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
 .end method
 
 
 # virtual methods
-.method public final emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public final emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 5
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p2, Lkotlinx/coroutines/flow/DistinctFlowImpl$collect$2$emit$1;
@@ -224,7 +92,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Lkotlinx/coroutines/flow/DistinctFlowImpl$collect$2$emit$1;-><init>(Lkotlinx/coroutines/flow/DistinctFlowImpl$collect$2;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Lkotlinx/coroutines/flow/DistinctFlowImpl$collect$2$emit$1;-><init>(Lkotlinx/coroutines/flow/DistinctFlowImpl$collect$2;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -234,7 +102,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -257,7 +125,7 @@
 
     .line 37
     .line 38
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 39
     .line 40
@@ -283,7 +151,7 @@
 
     .line 50
     :cond_2
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 51
     .line 52
@@ -292,11 +160,11 @@
 
     .line 54
     .line 55
-    iget-object p2, p2, Lkotlinx/coroutines/flow/DistinctFlowImpl;->b:Ljm/l;
+    iget-object p2, p2, Lkotlinx/coroutines/flow/DistinctFlowImpl;->b:Lq8/l;
 
     .line 56
     .line 57
-    invoke-interface {p2, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -312,7 +180,7 @@
 
     .line 64
     .line 65
-    sget-object v4, Lkn/l;->a:Lmn/u0;
+    sget-object v4, Lkotlinx/coroutines/flow/internal/n;->a:Lkotlinx/coroutines/internal/b0;
 
     .line 66
     .line 67
@@ -324,11 +192,11 @@
 
     .line 70
     .line 71
-    iget-object v4, v4, Lkotlinx/coroutines/flow/DistinctFlowImpl;->c:Ljm/p;
+    iget-object v4, v4, Lkotlinx/coroutines/flow/DistinctFlowImpl;->c:Lq8/p;
 
     .line 72
     .line 73
-    invoke-interface {v4, v2, p2}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v4, v2, p2}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -356,7 +224,7 @@
 
     .line 86
     :cond_3
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 87
     .line 88
@@ -373,7 +241,7 @@
 
     .line 92
     .line 93
-    iget-object p2, p0, Lkotlinx/coroutines/flow/DistinctFlowImpl$collect$2;->c:Ljn/f;
+    iget-object p2, p0, Lkotlinx/coroutines/flow/DistinctFlowImpl$collect$2;->c:Lkotlinx/coroutines/flow/d;
 
     .line 94
     .line 95
@@ -381,7 +249,7 @@
 
     .line 96
     .line 97
-    invoke-interface {p2, p1, v0}, Ljn/f;->emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p2, p1, v0}, Lkotlinx/coroutines/flow/d;->emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 98
     .line 99
@@ -398,11 +266,27 @@
     .line 104
     :cond_5
     :goto_2
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 105
     .line 106
     return-object p1
     .line 107
     .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/p;
+.implements Lq8/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/DataStoreImpl;->updateData(Ljm/p;Lul/c;)Ljava/lang/Object;
+    value = Landroidx/datastore/core/DataStoreImpl;->updateData(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,38 +19,25 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Ljm/p<",
-        "Lfn/i0;",
-        "Lul/c<",
-        "-TT;>;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lq8/p;"
     }
 .end annotation
 
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "androidx.datastore.core.DataStoreImpl$updateData$2"
     f = "DataStoreImpl.kt"
-    i = {}
     l = {
         0xa9
     }
     m = "invokeSuspend"
-    n = {}
-    s = {}
 .end annotation
 
 
 # instance fields
-.field final synthetic $transform:Ljm/p;
+.field final synthetic $transform:Lq8/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/p<",
-            "TT;",
-            "Lul/c<",
-            "-TT;>;",
-            "Ljava/lang/Object;",
-            ">;"
+            "Lq8/p;"
         }
     .end annotation
 .end field
@@ -70,23 +57,16 @@
 
 
 # direct methods
-.method public constructor <init>(Landroidx/datastore/core/DataStoreImpl;Ljm/p;Lul/c;)V
+.method public constructor <init>(Landroidx/datastore/core/DataStoreImpl;Lq8/p;Lkotlin/coroutines/e;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/datastore/core/DataStoreImpl<",
             "TT;>;",
-            "Ljm/p<",
-            "-TT;-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-",
-            "Landroidx/datastore/core/DataStoreImpl$updateData$2;",
-            ">;)V"
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
@@ -95,14 +75,14 @@
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/datastore/core/DataStoreImpl$updateData$2;->$transform:Ljm/p;
+    iput-object p2, p0, Landroidx/datastore/core/DataStoreImpl$updateData$2;->$transform:Lq8/p;
 
     .line 4
     .line 5
     const/4 p1, 0x2
 
     .line 6
-    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILul/c;)V
+    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/e;)V
 
     .line 7
     .line 8
@@ -212,127 +192,73 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lul/c;)Lul/c;
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
     .locals 3
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lul/c<",
-            "*>;)",
-            "Lul/c<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlin/coroutines/e;",
+            ")",
+            "Lkotlin/coroutines/e;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
     new-instance v0, Landroidx/datastore/core/DataStoreImpl$updateData$2;
 
-    .line 2
-    .line 3
     iget-object v1, p0, Landroidx/datastore/core/DataStoreImpl$updateData$2;->this$0:Landroidx/datastore/core/DataStoreImpl;
 
-    .line 4
-    .line 5
-    iget-object v2, p0, Landroidx/datastore/core/DataStoreImpl$updateData$2;->$transform:Ljm/p;
+    iget-object v2, p0, Landroidx/datastore/core/DataStoreImpl$updateData$2;->$transform:Lq8/p;
 
-    .line 6
-    .line 7
-    invoke-direct {v0, v1, v2, p2}, Landroidx/datastore/core/DataStoreImpl$updateData$2;-><init>(Landroidx/datastore/core/DataStoreImpl;Ljm/p;Lul/c;)V
+    invoke-direct {v0, v1, v2, p2}, Landroidx/datastore/core/DataStoreImpl$updateData$2;-><init>(Landroidx/datastore/core/DataStoreImpl;Lq8/p;Lkotlin/coroutines/e;)V
 
-    .line 8
-    .line 9
-    .line 10
     iput-object p1, v0, Landroidx/datastore/core/DataStoreImpl$updateData$2;->L$0:Ljava/lang/Object;
 
-    .line 11
-    .line 12
     return-object v0
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
 .end method
 
-.method public final invoke(Lfn/i0;Lul/c;)Ljava/lang/Object;
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .param p1    # Lfn/i0;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
+
+    .line 1
+    check-cast p1, Lkotlinx/coroutines/l0;
+
+    check-cast p2, Lkotlin/coroutines/e;
+
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl$updateData$2;->invoke(Lkotlinx/coroutines/l0;Lkotlin/coroutines/e;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invoke(Lkotlinx/coroutines/l0;Lkotlin/coroutines/e;)Ljava/lang/Object;
+    .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lfn/i0;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlinx/coroutines/l0;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl$updateData$2;->create(Ljava/lang/Object;Lul/c;)Lul/c;
+    .line 2
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl$updateData$2;->create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
 
     move-result-object p1
 
     check-cast p1, Landroidx/datastore/core/DataStoreImpl$updateData$2;
 
-    sget-object p2, Ljl/e2;->a:Ljl/e2;
+    sget-object p2, Lkotlin/j;->a:Lkotlin/j;
 
     invoke-virtual {p1, p2}, Landroidx/datastore/core/DataStoreImpl$updateData$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -341,32 +267,11 @@
     return-object p1
 .end method
 
-.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
-
-    .line 2
-    check-cast p1, Lfn/i0;
-
-    check-cast p2, Lul/c;
-
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl$updateData$2;->invoke(Lfn/i0;Lul/c;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 6
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -389,7 +294,7 @@
 
     .line 11
     .line 12
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 13
     .line 14
@@ -415,7 +320,7 @@
 
     .line 24
     :cond_1
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 25
     .line 26
@@ -424,14 +329,14 @@
 
     .line 28
     .line 29
-    check-cast p1, Lfn/i0;
+    check-cast p1, Lkotlinx/coroutines/l0;
 
     .line 30
     .line 31
     const/4 v1, 0x0
 
     .line 32
-    invoke-static {v1, v2, v1}, Lfn/t;->c(Lkotlinx/coroutines/l;ILjava/lang/Object;)Lkotlinx/coroutines/e;
+    invoke-static {v1, v2, v1}, Lkotlinx/coroutines/x;->b(Lkotlinx/coroutines/s1;ILjava/lang/Object;)Lkotlinx/coroutines/v;
 
     .line 33
     .line 34
@@ -463,11 +368,11 @@
 
     .line 47
     .line 48
-    iget-object v5, p0, Landroidx/datastore/core/DataStoreImpl$updateData$2;->$transform:Ljm/p;
+    iget-object v5, p0, Landroidx/datastore/core/DataStoreImpl$updateData$2;->$transform:Lq8/p;
 
     .line 49
     .line 50
-    invoke-interface {p1}, Lfn/i0;->getCoroutineContext()Lkotlin/coroutines/d;
+    invoke-interface {p1}, Lkotlinx/coroutines/l0;->getCoroutineContext()Lkotlin/coroutines/i;
 
     .line 51
     .line 52
@@ -475,7 +380,7 @@
     move-result-object p1
 
     .line 54
-    invoke-direct {v4, v5, v1, v3, p1}, Landroidx/datastore/core/Message$Update;-><init>(Ljm/p;Lkotlinx/coroutines/e;Landroidx/datastore/core/State;Lkotlin/coroutines/d;)V
+    invoke-direct {v4, v5, v1, v3, p1}, Landroidx/datastore/core/Message$Update;-><init>(Lq8/p;Lkotlinx/coroutines/v;Landroidx/datastore/core/State;Lkotlin/coroutines/i;)V
 
     .line 55
     .line 56
@@ -501,7 +406,7 @@
 
     .line 67
     .line 68
-    invoke-interface {v1, p0}, Lkotlinx/coroutines/i;->o0(Lul/c;)Ljava/lang/Object;
+    invoke-interface {v1, p0}, Lkotlinx/coroutines/q0;->m(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 69
     .line 70
@@ -521,4 +426,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

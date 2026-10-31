@@ -172,27 +172,29 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static a(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
     .line 33
-    invoke-static {p0}, Lfe/a;->e(Landroid/content/Context;)Lfe/a;
+    invoke-static {p0}, Ln5/a;->c(Landroid/content/Context;)Ln5/a;
 
     move-result-object p0
 
     .line 34
     const-string v0, "client/project_id"
 
-    invoke-interface {p0, v0}, Lde/e;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p0, v0}, Lm5/d;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method private a(ILjava/lang/String;ILjava/lang/String;)Lme/k;
+.method private a(ILjava/lang/String;ILjava/lang/String;)Lq5/f;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -201,9 +203,7 @@
             "I",
             "Ljava/lang/String;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -215,9 +215,9 @@
     if-nez v0, :cond_0
 
     .line 2
-    new-instance p1, Lme/l;
+    new-instance p1, Lq5/g;
 
-    invoke-direct {p1}, Lme/l;-><init>()V
+    invoke-direct {p1}, Lq5/g;-><init>()V
 
     .line 3
     sget-object p2, Lcom/huawei/hms/aaid/constant/ErrorEnum;->ERROR_OPERATION_NOT_SUPPORTED:Lcom/huawei/hms/aaid/constant/ErrorEnum;
@@ -226,10 +226,10 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p1, p2}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 4
-    invoke-virtual {p1}, Lme/l;->b()Lme/k;
+    invoke-virtual {p1}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -265,9 +265,9 @@
     invoke-static {p1, p2}, Lcom/huawei/hms/support/log/HMSLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 9
-    new-instance p1, Lme/l;
+    new-instance p1, Lq5/g;
 
-    invoke-direct {p1}, Lme/l;-><init>()V
+    invoke-direct {p1}, Lq5/g;-><init>()V
 
     .line 10
     sget-object p2, Lcom/huawei/hms/aaid/constant/ErrorEnum;->ERROR_MISSING_PROJECT_ID:Lcom/huawei/hms/aaid/constant/ErrorEnum;
@@ -276,10 +276,10 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p1, p2}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 11
-    invoke-virtual {p1}, Lme/l;->b()Lme/k;
+    invoke-virtual {p1}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -335,7 +335,7 @@
     invoke-virtual {v0, p2}, Lcom/huawei/hms/support/api/entity/push/ProfileReq;->setSubjectId(Ljava/lang/String;)V
 
     .line 20
-    invoke-static {p4}, Lue/d;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p4}, Lt5/b;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 
@@ -361,7 +361,7 @@
 
     invoke-direct {p4, p3, v0, p1}, Lcom/huawei/hms/push/task/ProfileTask;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-virtual {p2, p4}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lme/k;
+    invoke-virtual {p2, p4}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lq5/f;
 
     move-result-object p1
     :try_end_0
@@ -382,9 +382,9 @@
     if-eqz p4, :cond_4
 
     .line 24
-    new-instance p4, Lme/l;
+    new-instance p4, Lq5/g;
 
-    invoke-direct {p4}, Lme/l;-><init>()V
+    invoke-direct {p4}, Lq5/g;-><init>()V
 
     .line 25
     invoke-virtual {p2}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
@@ -394,7 +394,7 @@
     check-cast p2, Lcom/huawei/hms/common/ApiException;
 
     .line 26
-    invoke-virtual {p4, p2}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p2}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 27
     iget-object v0, p0, Lcom/huawei/hms/push/HmsProfile;->a:Landroid/content/Context;
@@ -406,7 +406,7 @@
     invoke-static {v0, p3, p1, p2}, Lcom/huawei/hms/push/utils/PushBiUtil;->reportExit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 28
-    invoke-virtual {p4}, Lme/l;->b()Lme/k;
+    invoke-virtual {p4}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -414,9 +414,9 @@
 
     .line 29
     :cond_4
-    new-instance p2, Lme/l;
+    new-instance p2, Lq5/g;
 
-    invoke-direct {p2}, Lme/l;-><init>()V
+    invoke-direct {p2}, Lq5/g;-><init>()V
 
     .line 30
     iget-object p4, p0, Lcom/huawei/hms/push/HmsProfile;->a:Landroid/content/Context;
@@ -430,10 +430,10 @@
 
     move-result-object p1
 
-    invoke-virtual {p2, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p2, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 32
-    invoke-virtual {p2}, Lme/l;->b()Lme/k;
+    invoke-virtual {p2}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -486,6 +486,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getInstance(Landroid/content/Context;)Lcom/huawei/hms/push/HmsProfile;
@@ -521,34 +523,34 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
 # virtual methods
-.method public addProfile(ILjava/lang/String;)Lme/k;
+.method public addProfile(ILjava/lang/String;)Lq5/f;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
             "Ljava/lang/String;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
     .line 1
     const-string v0, ""
 
-    invoke-virtual {p0, v0, p1, p2}, Lcom/huawei/hms/push/HmsProfile;->addProfile(Ljava/lang/String;ILjava/lang/String;)Lme/k;
+    invoke-virtual {p0, v0, p1, p2}, Lcom/huawei/hms/push/HmsProfile;->addProfile(Ljava/lang/String;ILjava/lang/String;)Lq5/f;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public addProfile(Ljava/lang/String;ILjava/lang/String;)Lme/k;
+.method public addProfile(Ljava/lang/String;ILjava/lang/String;)Lq5/f;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -557,9 +559,7 @@
             "I",
             "Ljava/lang/String;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -579,9 +579,9 @@
     invoke-static {p1, p2}, Lcom/huawei/hms/support/log/HMSLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3
-    new-instance p1, Lme/l;
+    new-instance p1, Lq5/g;
 
-    invoke-direct {p1}, Lme/l;-><init>()V
+    invoke-direct {p1}, Lq5/g;-><init>()V
 
     .line 4
     sget-object p2, Lcom/huawei/hms/aaid/constant/ErrorEnum;->ERROR_PUSH_ARGUMENTS_INVALID:Lcom/huawei/hms/aaid/constant/ErrorEnum;
@@ -590,10 +590,10 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p1, p2}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 5
-    invoke-virtual {p1}, Lme/l;->b()Lme/k;
+    invoke-virtual {p1}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -615,9 +615,9 @@
     invoke-static {p1, p2}, Lcom/huawei/hms/support/log/HMSLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
-    new-instance p1, Lme/l;
+    new-instance p1, Lq5/g;
 
-    invoke-direct {p1}, Lme/l;-><init>()V
+    invoke-direct {p1}, Lq5/g;-><init>()V
 
     .line 9
     sget-object p2, Lcom/huawei/hms/aaid/constant/ErrorEnum;->ERROR_PUSH_ARGUMENTS_INVALID:Lcom/huawei/hms/aaid/constant/ErrorEnum;
@@ -626,10 +626,10 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p1, p2}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 10
-    invoke-virtual {p1}, Lme/l;->b()Lme/k;
+    invoke-virtual {p1}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -639,37 +639,35 @@
     const/4 v0, 0x0
 
     .line 11
-    invoke-direct {p0, v0, p1, p2, p3}, Lcom/huawei/hms/push/HmsProfile;->a(ILjava/lang/String;ILjava/lang/String;)Lme/k;
+    invoke-direct {p0, v0, p1, p2, p3}, Lcom/huawei/hms/push/HmsProfile;->a(ILjava/lang/String;ILjava/lang/String;)Lq5/f;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public deleteProfile(Ljava/lang/String;)Lme/k;
+.method public deleteProfile(Ljava/lang/String;)Lq5/f;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
     .line 1
     const-string v0, ""
 
-    invoke-virtual {p0, v0, p1}, Lcom/huawei/hms/push/HmsProfile;->deleteProfile(Ljava/lang/String;Ljava/lang/String;)Lme/k;
+    invoke-virtual {p0, v0, p1}, Lcom/huawei/hms/push/HmsProfile;->deleteProfile(Ljava/lang/String;Ljava/lang/String;)Lq5/f;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public deleteProfile(Ljava/lang/String;Ljava/lang/String;)Lme/k;
+.method public deleteProfile(Ljava/lang/String;Ljava/lang/String;)Lq5/f;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -677,9 +675,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -698,9 +694,9 @@
     invoke-static {p1, p2}, Lcom/huawei/hms/support/log/HMSLog;->e(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4
-    new-instance p1, Lme/l;
+    new-instance p1, Lq5/g;
 
-    invoke-direct {p1}, Lme/l;-><init>()V
+    invoke-direct {p1}, Lq5/g;-><init>()V
 
     .line 5
     sget-object p2, Lcom/huawei/hms/aaid/constant/ErrorEnum;->ERROR_PUSH_ARGUMENTS_INVALID:Lcom/huawei/hms/aaid/constant/ErrorEnum;
@@ -709,10 +705,10 @@
 
     move-result-object p2
 
-    invoke-virtual {p1, p2}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p1, p2}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 6
-    invoke-virtual {p1}, Lme/l;->b()Lme/k;
+    invoke-virtual {p1}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -724,7 +720,7 @@
     const/4 v1, -0x1
 
     .line 7
-    invoke-direct {p0, v0, p1, v1, p2}, Lcom/huawei/hms/push/HmsProfile;->a(ILjava/lang/String;ILjava/lang/String;)Lme/k;
+    invoke-direct {p0, v0, p1, v1, p2}, Lcom/huawei/hms/push/HmsProfile;->a(ILjava/lang/String;ILjava/lang/String;)Lq5/f;
 
     move-result-object p1
 
@@ -863,4 +859,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

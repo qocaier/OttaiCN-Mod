@@ -196,6 +196,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic a(Landroidx/camera/camera2/internal/ExposureControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;I)V
@@ -301,11 +304,11 @@
     .line 46
     .line 47
     .line 48
-    new-instance v0, Lm/o;
+    new-instance v0, Landroidx/camera/camera2/internal/g1;
 
     .line 49
     .line 50
-    invoke-direct {v0, p2, p1}, Lm/o;-><init>(ILandroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+    invoke-direct {v0, p2, p1}, Landroidx/camera/camera2/internal/g1;-><init>(ILandroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
 
     .line 51
     .line 52
@@ -383,6 +386,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic b(Landroidx/camera/camera2/internal/ExposureControl;ILandroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -393,11 +399,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lm/p;
+    new-instance v1, Landroidx/camera/camera2/internal/h1;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p2, p1}, Lm/p;-><init>(Landroidx/camera/camera2/internal/ExposureControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;I)V
+    invoke-direct {v1, p0, p2, p1}, Landroidx/camera/camera2/internal/h1;-><init>(Landroidx/camera/camera2/internal/ExposureControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;I)V
 
     .line 6
     .line 7
@@ -528,6 +534,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic c(ILandroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroid/hardware/camera2/TotalCaptureResult;)Z
@@ -723,6 +732,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private clearRunningTask()V
@@ -841,6 +853,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getDefaultExposureState(Landroidx/camera/camera2/internal/compat/CameraCharacteristicsCompat;)Landroidx/camera/core/ExposureState;
@@ -910,6 +924,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setActive(Z)V
@@ -1018,7 +1033,7 @@
     .line 25
 .end method
 
-.method public setExposureCompensationIndex(I)Lub/u0;
+.method public setExposureCompensationIndex(I)Lcom/google/common/util/concurrent/t;
     .locals 4
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -1026,9 +1041,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
-            "Lub/u0<",
-            "Ljava/lang/Integer;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1062,7 +1075,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 17
     .line 18
@@ -1199,7 +1212,7 @@
     .line 86
     .line 87
     .line 88
-    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 89
     .line 90
@@ -1220,16 +1233,16 @@
     .line 96
     .line 97
     .line 98
-    new-instance v0, Lm/q;
+    new-instance v0, Landroidx/camera/camera2/internal/i1;
 
     .line 99
     .line 100
-    invoke-direct {v0, p0, p1}, Lm/q;-><init>(Landroidx/camera/camera2/internal/ExposureControl;I)V
+    invoke-direct {v0, p0, p1}, Landroidx/camera/camera2/internal/i1;-><init>(Landroidx/camera/camera2/internal/ExposureControl;I)V
 
     .line 101
     .line 102
     .line 103
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 104
     .line 105
@@ -1237,7 +1250,7 @@
     move-result-object p1
 
     .line 107
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 108
     .line 109
@@ -1373,4 +1386,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

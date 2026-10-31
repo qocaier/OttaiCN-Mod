@@ -37,13 +37,13 @@
 
     iput-object v0, p0, Lcom/meizu/cloud/pushsdk/k/b;->a:Ljava/lang/String;
 
-    new-instance v8, Lvf/b;
+    new-instance v8, Lcom/meizu/cloud/pushsdk/k/d;
 
-    invoke-direct {v8}, Lvf/b;-><init>()V
+    invoke-direct {v8}, Lcom/meizu/cloud/pushsdk/k/d;-><init>()V
 
-    new-instance v9, Lvf/c;
+    new-instance v9, Lcom/meizu/cloud/pushsdk/k/e;
 
-    invoke-direct {v9, p0}, Lvf/c;-><init>(Lcom/meizu/cloud/pushsdk/k/b;)V
+    invoke-direct {v9, p0}, Lcom/meizu/cloud/pushsdk/k/e;-><init>(Lcom/meizu/cloud/pushsdk/k/b;)V
 
     new-instance v1, Ljava/util/concurrent/ThreadPoolExecutor;
 
@@ -167,4 +167,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

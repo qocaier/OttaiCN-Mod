@@ -65,7 +65,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private constructor <init>()V
@@ -96,7 +95,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static addAuthResultListener(Lcom/baidu/mapapi/c;)V
@@ -129,7 +127,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static getAgreePrivacy()Z
@@ -162,7 +159,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getCommonInfo()Lcom/baidu/mapapi/CommonInfo;
@@ -195,7 +191,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getCoordType()Lcom/baidu/mapapi/CoordType;
@@ -226,7 +221,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getDebugMode()Z
@@ -257,7 +251,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static initialize(Landroid/content/Context;)V
@@ -372,7 +365,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static isInitialized()Z
@@ -405,7 +397,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static onBackground()V
@@ -436,7 +427,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static onForeground()V
@@ -467,7 +457,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static removeAuthResultListener(Lcom/baidu/mapapi/c;)V
@@ -500,7 +489,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static setAgreePrivacy(Landroid/content/Context;Z)V
@@ -569,11 +557,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static setApiKey(Ljava/lang/String;)V
@@ -606,7 +589,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static setCommonInfo(Lcom/baidu/mapapi/CommonInfo;)V
@@ -639,7 +621,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static setCoordType(Lcom/baidu/mapapi/CoordType;)V
@@ -672,7 +653,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static setDebugMode(Z)V
@@ -705,7 +685,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static setHttpsEnable(Z)V
@@ -749,5 +728,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

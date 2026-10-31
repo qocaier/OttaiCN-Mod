@@ -521,11 +521,11 @@
 
     .line 105
     .line 106
-    new-instance v1, Lm1/h;
+    new-instance v1, Landroidx/fragment/app/p;
 
     .line 107
     .line 108
-    invoke-direct {v1, p0}, Lm1/h;-><init>(Landroidx/fragment/app/FragmentManager;)V
+    invoke-direct {v1, p0}, Landroidx/fragment/app/p;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
     .line 109
     .line 110
@@ -534,11 +534,11 @@
 
     .line 112
     .line 113
-    new-instance v1, Lm1/i;
+    new-instance v1, Landroidx/fragment/app/q;
 
     .line 114
     .line 115
-    invoke-direct {v1, p0}, Lm1/i;-><init>(Landroidx/fragment/app/FragmentManager;)V
+    invoke-direct {v1, p0}, Landroidx/fragment/app/q;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
     .line 116
     .line 117
@@ -547,11 +547,11 @@
 
     .line 119
     .line 120
-    new-instance v1, Lm1/j;
+    new-instance v1, Landroidx/fragment/app/r;
 
     .line 121
     .line 122
-    invoke-direct {v1, p0}, Lm1/j;-><init>(Landroidx/fragment/app/FragmentManager;)V
+    invoke-direct {v1, p0}, Landroidx/fragment/app/r;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
     .line 123
     .line 124
@@ -560,11 +560,11 @@
 
     .line 126
     .line 127
-    new-instance v1, Lm1/k;
+    new-instance v1, Landroidx/fragment/app/s;
 
     .line 128
     .line 129
-    invoke-direct {v1, p0}, Lm1/k;-><init>(Landroidx/fragment/app/FragmentManager;)V
+    invoke-direct {v1, p0}, Landroidx/fragment/app/s;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
     .line 130
     .line 131
@@ -856,6 +856,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public static synthetic a(Landroidx/fragment/app/FragmentManager;Ljava/lang/Integer;)V
@@ -1206,6 +1258,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private cleanupExec()V
@@ -1244,6 +1297,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearBackStackStateViewModels()V
@@ -1734,6 +1788,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private collectAllSpecialEffectsController()Ljava/util/Set;
@@ -1881,6 +1987,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic d(Landroidx/fragment/app/FragmentManager;Landroidx/core/app/MultiWindowModeChangedInfo;)V
@@ -2141,6 +2249,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private doPendingDeferredStart()V
@@ -2178,6 +2287,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic e(Landroidx/fragment/app/FragmentManager;Landroid/content/res/Configuration;)V
@@ -2429,6 +2539,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private ensureExecReady(Z)V
@@ -2759,6 +2871,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private static executeOps(Ljava/util/ArrayList;Ljava/util/ArrayList;II)V
@@ -3056,6 +3173,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private executeOpsTogether(Ljava/util/ArrayList;Ljava/util/ArrayList;II)V
@@ -5971,6 +6094,169 @@
     .line 926
     .line 927
     .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
 .end method
 
 .method public static findFragment(Landroid/view/View;)Landroidx/fragment/app/Fragment;
@@ -6102,6 +6388,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static findFragmentManager(Landroid/view/View;)Landroidx/fragment/app/FragmentManager;
@@ -6463,6 +6750,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static findViewFragment(Landroid/view/View;)Landroidx/fragment/app/Fragment;
@@ -6648,6 +6940,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private generateOpsForPendingActions(Ljava/util/ArrayList;Ljava/util/ArrayList;)Z
@@ -7012,6 +7306,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private getChildNonConfig(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentManagerViewModel;
@@ -7184,6 +7481,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getViewFragment(Landroid/view/View;)Landroidx/fragment/app/Fragment;
@@ -7479,6 +7777,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private popBackStackImmediate(Ljava/lang/String;II)Z
@@ -7955,6 +8255,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private reportBackStackChanged()V
@@ -8071,6 +8374,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static reverseTransit(I)I
@@ -8260,6 +8565,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private startPendingDeferredFragments()V
@@ -8378,6 +8684,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private throwException(Ljava/lang/RuntimeException;)V
@@ -8526,6 +8834,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private updateOnBackPressedCallbackEnabled()V
@@ -9040,6 +9349,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 
@@ -9239,6 +9600,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public addFragmentOnAttachListener(Landroidx/fragment/app/FragmentOnAttachListener;)V
@@ -9388,6 +9750,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public attachController(Landroidx/fragment/app/FragmentHostCallback;Landroidx/fragment/app/FragmentContainer;Landroidx/fragment/app/Fragment;)V
@@ -9674,11 +10037,11 @@
     move-result-object p1
 
     .line 126
-    new-instance p2, Lm1/l;
+    new-instance p2, Landroidx/fragment/app/t;
 
     .line 127
     .line 128
-    invoke-direct {p2, p0}, Lm1/l;-><init>(Landroidx/fragment/app/FragmentManager;)V
+    invoke-direct {p2, p0}, Landroidx/fragment/app/t;-><init>(Landroidx/fragment/app/FragmentManager;)V
 
     .line 129
     .line 130
@@ -10705,6 +11068,169 @@
     .line 926
     .line 927
     .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
 .end method
 
 .method public attachFragment(Landroidx/fragment/app/Fragment;)V
@@ -11030,6 +11556,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public beginTransaction()Landroidx/fragment/app/FragmentTransaction;
@@ -11062,6 +11593,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public cancelBackStackTransition()V
@@ -11188,6 +11720,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public checkForMenus()Z
@@ -11319,6 +11853,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public clearBackStack(Ljava/lang/String;)V
@@ -11533,6 +12069,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public final clearFragmentResult(Ljava/lang/String;)V
@@ -11652,6 +12191,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final clearFragmentResultListener(Ljava/lang/String;)V
@@ -11780,6 +12320,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public collectChangedControllers(Ljava/util/ArrayList;II)Ljava/util/Set;
@@ -11969,6 +12510,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public createOrGetFragmentStateManager(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentStateManager;
@@ -12096,6 +12640,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public detachFragment(Landroidx/fragment/app/Fragment;)V
@@ -12422,6 +12967,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public dispatchActivityCreated()V
@@ -12462,6 +13012,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dispatchAttach()V
@@ -12500,6 +13051,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dispatchConfigurationChanged(Landroid/content/res/Configuration;Z)V
@@ -12799,6 +13351,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public dispatchContextItemSelected(Landroid/view/MenuItem;)Z
@@ -12932,6 +13487,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public dispatchCreate()V
@@ -12972,6 +13528,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dispatchCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)Z
@@ -13326,6 +13883,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public dispatchDestroy()V
@@ -13827,6 +14387,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public dispatchDestroyView()V
@@ -13857,6 +14469,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dispatchLowMemory(Z)V
@@ -13997,6 +14610,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public dispatchMultiWindowModeChanged(ZZ)V
@@ -14292,6 +14906,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public dispatchOnAttachFragment(Landroidx/fragment/app/Fragment;)V
@@ -14480,6 +15097,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public dispatchOptionsItemSelected(Landroid/view/MenuItem;)Z
@@ -14613,6 +15232,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public dispatchOptionsMenuClosed(Landroid/view/Menu;)V
@@ -14742,6 +15362,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public dispatchPause()V
@@ -14772,6 +15393,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dispatchPictureInPictureModeChanged(ZZ)V
@@ -15067,6 +15689,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public dispatchPrepareOptionsMenu(Landroid/view/Menu;)Z
@@ -15209,6 +15834,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public dispatchPrimaryNavigationFragmentChanged()V
@@ -15241,6 +15867,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dispatchResume()V
@@ -15281,6 +15908,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dispatchStart()V
@@ -15321,6 +15949,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dispatchStop()V
@@ -15359,6 +15988,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dispatchViewCreated()V
@@ -15389,6 +16019,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
@@ -17366,6 +17997,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public execPendingActions(Z)Z
@@ -17498,6 +18132,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public execSingleAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V
@@ -17801,6 +18436,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public executePendingTransactions()Z
@@ -17837,6 +18475,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public findActiveFragment(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
@@ -18144,6 +18783,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getActiveFragmentCount()I
@@ -18176,6 +18816,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getActiveFragments()Ljava/util/List;
@@ -18219,6 +18860,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBackStackEntryAt(I)Landroidx/fragment/app/FragmentManager$BackStackEntry;
@@ -18335,6 +18977,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getBackStackEntryCount()I
@@ -18381,6 +19024,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContainer()Landroidx/fragment/app/FragmentContainer;
@@ -18411,6 +19055,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFragment(Landroid/os/Bundle;Ljava/lang/String;)Landroidx/fragment/app/Fragment;
@@ -18569,6 +19214,7 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
 .end method
 
 .method public getFragmentStore()Landroidx/fragment/app/FragmentStore;
@@ -18599,6 +19245,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFragments()Ljava/util/List;
@@ -18642,6 +19289,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHost()Landroidx/fragment/app/FragmentHostCallback;
@@ -18686,6 +19334,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLayoutInflaterFactory()Landroid/view/LayoutInflater$Factory2;
@@ -18716,6 +19365,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLifecycleCallbacksDispatcher()Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;
@@ -18746,6 +19396,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getParent()Landroidx/fragment/app/Fragment;
@@ -18776,6 +19427,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPrimaryNavigationFragment()Landroidx/fragment/app/Fragment;
@@ -18806,6 +19458,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSpecialEffectsControllerFactory()Landroidx/fragment/app/SpecialEffectsControllerFactory;
@@ -18856,6 +19509,7 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
 .end method
 
 .method public getStrictModePolicy()Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy;
@@ -18886,6 +19540,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getViewModelStore(Landroidx/fragment/app/Fragment;)Landroidx/lifecycle/ViewModelStore;
@@ -19544,6 +20199,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public hideFragment(Landroidx/fragment/app/Fragment;)V
@@ -19676,6 +20383,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public invalidateMenuForFragment(Landroidx/fragment/app/Fragment;)V
@@ -19754,6 +20462,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isParentHidden(Landroidx/fragment/app/Fragment;)Z
@@ -19966,6 +20675,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public isStateAtLeast(I)Z
@@ -20053,6 +20763,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public launchRequestPermissions(Landroidx/fragment/app/Fragment;[Ljava/lang/String;I)V
@@ -20205,6 +20916,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public launchStartActivityForResult(Landroidx/fragment/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
@@ -20485,6 +21199,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public launchStartIntentSenderForResult(Landroidx/fragment/app/Fragment;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
@@ -21558,6 +22278,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public noteStateNotSaved()V
@@ -21697,6 +22420,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onContainerAvailable(Landroidx/fragment/app/FragmentContainerView;)V
@@ -21838,6 +22563,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public openTransaction()Landroidx/fragment/app/FragmentTransaction;
@@ -21879,6 +22605,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public performPendingDeferredStart(Landroidx/fragment/app/FragmentStateManager;)V
@@ -23035,6 +23762,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public prepareBackStackTransition()V
@@ -23069,6 +23799,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public putFragment(Landroid/os/Bundle;Ljava/lang/String;Landroidx/fragment/app/Fragment;)V
@@ -23233,6 +23964,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public registerFragmentLifecycleCallbacks(Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;Z)V
@@ -23454,6 +24188,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public removeFragmentOnAttachListener(Landroidx/fragment/app/FragmentOnAttachListener;)V
@@ -23950,6 +24685,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public restoreSaveState(Landroid/os/Parcelable;)V
@@ -26102,6 +26840,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public saveAllState()Landroid/os/Parcelable;
@@ -26220,6 +26960,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public saveAllStateInternal()Landroid/os/Bundle;
@@ -26892,6 +27634,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public saveBackStack(Ljava/lang/String;)V
@@ -28373,6 +29167,169 @@
     .line 926
     .line 927
     .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
 .end method
 
 .method public saveFragmentInstanceState(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/Fragment$SavedState;
@@ -28513,6 +29470,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public scheduleCommit()V
@@ -28658,6 +29616,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setExitAnimationOrder(Landroidx/fragment/app/Fragment;Z)V
@@ -29078,6 +30038,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public final setFragmentResultListener(Ljava/lang/String;Landroidx/lifecycle/LifecycleOwner;Landroidx/fragment/app/FragmentResultListener;)V
@@ -29286,6 +30249,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public setMaxLifecycle(Landroidx/fragment/app/Fragment;Landroidx/lifecycle/Lifecycle$State;)V
@@ -29583,6 +30549,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setPrimaryNavigationFragment(Landroidx/fragment/app/Fragment;)V
@@ -29734,6 +30703,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setSpecialEffectsControllerFactory(Landroidx/fragment/app/SpecialEffectsControllerFactory;)V
@@ -29938,6 +30908,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -30431,6 +31402,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public unregisterFragmentLifecycleCallbacks(Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;)V

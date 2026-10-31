@@ -3,42 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/ZoomControl;
-
-.field public final synthetic b:Landroidx/camera/core/ZoomState;
+.field public final synthetic a:Landroidx/camera/camera2/internal/ProcessingCaptureSession;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/camera/core/ZoomState;)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/ProcessingCaptureSession;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/z1;->a:Landroidx/camera/camera2/internal/ZoomControl;
-
-    iput-object p2, p0, Landroidx/camera/camera2/internal/z1;->b:Landroidx/camera/core/ZoomState;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/z1;->a:Landroidx/camera/camera2/internal/ProcessingCaptureSession;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
-    .locals 2
+.method public final run()V
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/z1;->a:Landroidx/camera/camera2/internal/ZoomControl;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/z1;->a:Landroidx/camera/camera2/internal/ProcessingCaptureSession;
 
-    iget-object v1, p0, Landroidx/camera/camera2/internal/z1;->b:Landroidx/camera/core/ZoomState;
+    invoke-static {v0}, Landroidx/camera/camera2/internal/ProcessingCaptureSession;->e(Landroidx/camera/camera2/internal/ProcessingCaptureSession;)V
 
-    invoke-static {v0, v1, p1}, Landroidx/camera/camera2/internal/ZoomControl;->d(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/camera/core/ZoomState;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
-
-    move-result-object p1
-
-    return-object p1
+    return-void
 .end method

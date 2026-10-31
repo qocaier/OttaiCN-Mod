@@ -54,15 +54,6 @@
 # virtual methods
 .method public addAllUninterpretedOption(Ljava/lang/Iterable;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "values"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -112,16 +103,6 @@
 
 .method public addUninterpretedOption(ILandroidx/datastore/preferences/protobuf/DescriptorProtos$UninterpretedOption$Builder;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "builderForValue"
-        }
-    .end annotation
 
     .line 7
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -146,16 +127,6 @@
 
 .method public addUninterpretedOption(ILandroidx/datastore/preferences/protobuf/DescriptorProtos$UninterpretedOption;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "value"
-        }
-    .end annotation
 
     .line 3
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -172,14 +143,6 @@
 
 .method public addUninterpretedOption(Landroidx/datastore/preferences/protobuf/DescriptorProtos$UninterpretedOption$Builder;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "builderForValue"
-        }
-    .end annotation
 
     .line 5
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -202,14 +165,6 @@
 
 .method public addUninterpretedOption(Landroidx/datastore/preferences/protobuf/DescriptorProtos$UninterpretedOption;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -256,6 +211,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearCcGenericServices()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -290,6 +246,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearCsharpNamespace()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -324,6 +281,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearDeprecated()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -358,6 +316,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearFeatures()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -392,6 +351,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearGoPackage()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -426,6 +386,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearJavaGenerateEqualsAndHash()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -462,6 +423,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearJavaGenericServices()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -496,6 +458,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearJavaMultipleFiles()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -530,6 +493,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearJavaOuterClassname()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -564,6 +528,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearJavaPackage()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -598,6 +563,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearJavaStringCheckUtf8()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -632,6 +598,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearObjcClassPrefix()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -666,6 +633,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearOptimizeFor()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -700,6 +668,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearPhpClassPrefix()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -734,6 +703,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearPhpMetadataNamespace()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -768,6 +738,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearPhpNamespace()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -802,6 +773,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearPyGenericServices()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -836,6 +808,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearRubyPackage()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -870,6 +843,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearSwiftPrefix()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -904,6 +878,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearUninterpretedOption()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
@@ -938,6 +913,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCcEnableArenas()Z
@@ -972,6 +948,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCcGenericServices()Z
@@ -1006,6 +983,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCsharpNamespace()Ljava/lang/String;
@@ -1040,6 +1018,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCsharpNamespaceBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1074,6 +1053,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDeprecated()Z
@@ -1108,6 +1088,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFeatures()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet;
@@ -1142,6 +1123,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getGoPackage()Ljava/lang/String;
@@ -1176,6 +1158,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getGoPackageBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1210,6 +1193,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJavaGenerateEqualsAndHash()Z
@@ -1246,6 +1230,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJavaGenericServices()Z
@@ -1280,6 +1265,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJavaMultipleFiles()Z
@@ -1314,6 +1300,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJavaOuterClassname()Ljava/lang/String;
@@ -1348,6 +1335,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJavaOuterClassnameBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1382,6 +1370,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJavaPackage()Ljava/lang/String;
@@ -1416,6 +1405,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJavaPackageBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1450,6 +1440,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJavaStringCheckUtf8()Z
@@ -1484,6 +1475,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getObjcClassPrefix()Ljava/lang/String;
@@ -1518,6 +1510,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getObjcClassPrefixBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1552,6 +1545,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOptimizeFor()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$OptimizeMode;
@@ -1586,6 +1580,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPhpClassPrefix()Ljava/lang/String;
@@ -1620,6 +1615,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPhpClassPrefixBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1654,6 +1650,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPhpMetadataNamespace()Ljava/lang/String;
@@ -1688,6 +1685,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPhpMetadataNamespaceBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1722,6 +1720,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPhpNamespace()Ljava/lang/String;
@@ -1756,6 +1755,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPhpNamespaceBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1790,6 +1790,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPyGenericServices()Z
@@ -1824,6 +1825,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRubyPackage()Ljava/lang/String;
@@ -1858,6 +1860,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRubyPackageBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1892,6 +1895,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSwiftPrefix()Ljava/lang/String;
@@ -1926,6 +1930,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSwiftPrefixBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -1960,18 +1965,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUninterpretedOption(I)Landroidx/datastore/preferences/protobuf/DescriptorProtos$UninterpretedOption;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
@@ -2041,6 +2039,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUninterpretedOptionList()Ljava/util/List;
@@ -2087,6 +2086,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasCcEnableArenas()Z
@@ -2121,6 +2121,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasCcGenericServices()Z
@@ -2155,6 +2156,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasCsharpNamespace()Z
@@ -2189,6 +2191,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasDeprecated()Z
@@ -2223,6 +2226,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasFeatures()Z
@@ -2257,6 +2261,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasGoPackage()Z
@@ -2291,6 +2296,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasJavaGenerateEqualsAndHash()Z
@@ -2327,6 +2333,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasJavaGenericServices()Z
@@ -2361,6 +2368,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasJavaMultipleFiles()Z
@@ -2395,6 +2403,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasJavaOuterClassname()Z
@@ -2429,6 +2438,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasJavaPackage()Z
@@ -2463,6 +2473,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasJavaStringCheckUtf8()Z
@@ -2497,6 +2508,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasObjcClassPrefix()Z
@@ -2531,6 +2543,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasOptimizeFor()Z
@@ -2565,6 +2578,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasPhpClassPrefix()Z
@@ -2599,6 +2613,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasPhpMetadataNamespace()Z
@@ -2633,6 +2648,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasPhpNamespace()Z
@@ -2667,6 +2683,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasPyGenericServices()Z
@@ -2701,6 +2718,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasRubyPackage()Z
@@ -2735,6 +2753,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasSwiftPrefix()Z
@@ -2769,18 +2788,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mergeFeatures(Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -2820,14 +2832,6 @@
 
 .method public removeUninterpretedOption(I)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -2867,14 +2871,6 @@
 
 .method public setCcEnableArenas(Z)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -2914,14 +2910,6 @@
 
 .method public setCcGenericServices(Z)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -2961,14 +2949,6 @@
 
 .method public setCsharpNamespace(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3008,14 +2988,6 @@
 
 .method public setCsharpNamespaceBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3055,14 +3027,6 @@
 
 .method public setDeprecated(Z)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3102,14 +3066,6 @@
 
 .method public setFeatures(Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Builder;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "builderForValue"
-        }
-    .end annotation
 
     .line 3
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3132,14 +3088,6 @@
 
 .method public setFeatures(Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3156,14 +3104,6 @@
 
 .method public setGoPackage(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3203,14 +3143,6 @@
 
 .method public setGoPackageBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3250,15 +3182,6 @@
 
 .method public setJavaGenerateEqualsAndHash(Z)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -3300,14 +3223,6 @@
 
 .method public setJavaGenericServices(Z)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3347,14 +3262,6 @@
 
 .method public setJavaMultipleFiles(Z)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3394,14 +3301,6 @@
 
 .method public setJavaOuterClassname(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3441,14 +3340,6 @@
 
 .method public setJavaOuterClassnameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3488,14 +3379,6 @@
 
 .method public setJavaPackage(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3535,14 +3418,6 @@
 
 .method public setJavaPackageBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3582,14 +3457,6 @@
 
 .method public setJavaStringCheckUtf8(Z)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3629,14 +3496,6 @@
 
 .method public setObjcClassPrefix(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3676,14 +3535,6 @@
 
 .method public setObjcClassPrefixBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3723,14 +3574,6 @@
 
 .method public setOptimizeFor(Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$OptimizeMode;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3770,14 +3613,6 @@
 
 .method public setPhpClassPrefix(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3817,14 +3652,6 @@
 
 .method public setPhpClassPrefixBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3864,14 +3691,6 @@
 
 .method public setPhpMetadataNamespace(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3911,14 +3730,6 @@
 
 .method public setPhpMetadataNamespaceBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -3958,14 +3769,6 @@
 
 .method public setPhpNamespace(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -4005,14 +3808,6 @@
 
 .method public setPhpNamespaceBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -4052,14 +3847,6 @@
 
 .method public setPyGenericServices(Z)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -4099,14 +3886,6 @@
 
 .method public setRubyPackage(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -4146,14 +3925,6 @@
 
 .method public setRubyPackageBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -4193,14 +3964,6 @@
 
 .method public setSwiftPrefix(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -4240,14 +4003,6 @@
 
 .method public setSwiftPrefixBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -4287,16 +4042,6 @@
 
 .method public setUninterpretedOption(ILandroidx/datastore/preferences/protobuf/DescriptorProtos$UninterpretedOption$Builder;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "builderForValue"
-        }
-    .end annotation
 
     .line 3
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -4321,16 +4066,6 @@
 
 .method public setUninterpretedOption(ILandroidx/datastore/preferences/protobuf/DescriptorProtos$UninterpretedOption;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FileOptions$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V

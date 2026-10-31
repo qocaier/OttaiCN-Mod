@@ -3,29 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/q;
+.implements Lq8/q;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/JobSupport;->a1()Lpn/e;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1001
-    name = null
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/q<",
-        "Lkotlinx/coroutines/JobSupport;",
-        "Lpn/j<",
-        "*>;",
-        "Ljava/lang/Object;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/q;"
     }
 .end annotation
 
@@ -56,7 +41,7 @@
 
     const/4 v1, 0x3
 
-    const-class v2, Lkotlinx/coroutines/JobSupport;
+    const-class v2, Lkotlinx/coroutines/w1;
 
     const-string v3, "onAwaitInternalRegFunc"
 
@@ -73,32 +58,31 @@
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlinx/coroutines/JobSupport;
+    check-cast p1, Lkotlinx/coroutines/w1;
 
-    check-cast p2, Lpn/j;
+    check-cast p2, Lkotlinx/coroutines/selects/j;
 
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/JobSupport$onAwaitInternal$1;->invoke(Lkotlinx/coroutines/JobSupport;Lpn/j;Ljava/lang/Object;)V
+    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/JobSupport$onAwaitInternal$1;->invoke(Lkotlinx/coroutines/w1;Lkotlinx/coroutines/selects/j;Ljava/lang/Object;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlinx/coroutines/JobSupport;Lpn/j;Ljava/lang/Object;)V
+.method public final invoke(Lkotlinx/coroutines/w1;Lkotlinx/coroutines/selects/j;Ljava/lang/Object;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/JobSupport;",
-            "Lpn/j<",
-            "*>;",
+            "Lkotlinx/coroutines/w1;",
+            "Lkotlinx/coroutines/selects/j;",
             "Ljava/lang/Object;",
             ")V"
         }
     .end annotation
 
     .line 2
-    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/JobSupport;->t0(Lkotlinx/coroutines/JobSupport;Lpn/j;Ljava/lang/Object;)V
+    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/w1;->f0(Lkotlinx/coroutines/w1;Lkotlinx/coroutines/selects/j;Ljava/lang/Object;)V
 
     return-void
 .end method

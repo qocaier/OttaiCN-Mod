@@ -3,44 +3,27 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lmf/b;
+.implements Lcom/jarvan/fluwx/io/b;
 
 
 # instance fields
 .field public final b:Ljava/lang/Object;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public final c:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public d:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/Object;Ljava/lang/String;)V
     .locals 2
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "source"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -49,7 +32,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -67,7 +50,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Lcom/jarvan/fluwx/io/WeChatNetworkFile;->getSource()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcom/jarvan/fluwx/io/WeChatNetworkFile;->d()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -83,7 +66,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0}, Lcom/jarvan/fluwx/io/WeChatNetworkFile;->getSource()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcom/jarvan/fluwx/io/WeChatNetworkFile;->d()Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -107,7 +90,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {p0}, Lcom/jarvan/fluwx/io/WeChatNetworkFile;->getSource()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcom/jarvan/fluwx/io/WeChatNetworkFile;->d()Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -362,6 +345,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public static final synthetic c(Lcom/jarvan/fluwx/io/WeChatNetworkFile;)Ljava/lang/String;
@@ -395,74 +408,14 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
 # virtual methods
-.method public a(Lul/c;)Ljava/lang/Object;
-    .locals 3
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lul/c<",
-            "-[B>;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
-
-    .line 1
-    invoke-static {}, Lfn/t0;->c()Lfn/f0;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
-
-    .line 5
-    new-instance v1, Lcom/jarvan/fluwx/io/WeChatNetworkFile$readByteArray$2;
-
-    .line 6
-    .line 7
-    const/4 v2, 0x0
-
-    .line 8
-    invoke-direct {v1, p0, v2}, Lcom/jarvan/fluwx/io/WeChatNetworkFile$readByteArray$2;-><init>(Lcom/jarvan/fluwx/io/WeChatNetworkFile;Lul/c;)V
-
-    .line 9
-    .line 10
-    .line 11
-    invoke-static {v0, v1, p1}, Lfn/g;->h(Lkotlin/coroutines/d;Ljm/p;Lul/c;)Ljava/lang/Object;
-
-    .line 12
-    .line 13
-    .line 14
-    move-result-object p1
-
-    .line 15
-    return-object p1
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public b()Ljava/lang/String;
+.method public a()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/jarvan/fluwx/io/WeChatNetworkFile;->c:Ljava/lang/String;
@@ -487,12 +440,59 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public getSource()Ljava/lang/Object;
+.method public b(Lkotlin/coroutines/e;)Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    invoke-static {}, Lkotlinx/coroutines/v0;->b()Lkotlinx/coroutines/h0;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    new-instance v1, Lcom/jarvan/fluwx/io/WeChatNetworkFile$readByteArray$2;
+
+    .line 6
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    invoke-direct {v1, p0, v2}, Lcom/jarvan/fluwx/io/WeChatNetworkFile$readByteArray$2;-><init>(Lcom/jarvan/fluwx/io/WeChatNetworkFile;Lkotlin/coroutines/e;)V
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-static {v0, v1, p1}, Lkotlinx/coroutines/g;->e(Lkotlin/coroutines/i;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p1
+
+    .line 15
+    return-object p1
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+.end method
+
+.method public d()Ljava/lang/Object;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/jarvan/fluwx/io/WeChatNetworkFile;->b:Ljava/lang/Object;
@@ -517,4 +517,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

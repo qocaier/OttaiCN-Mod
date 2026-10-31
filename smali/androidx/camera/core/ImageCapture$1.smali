@@ -89,9 +89,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public submitStillCaptureRequests(Ljava/util/List;)Lub/u0;
+.method public submitStillCaptureRequests(Ljava/util/List;)Lcom/google/common/util/concurrent/t;
     .locals 1
     .param p1    # Ljava/util/List;
         .annotation build Landroidx/annotation/NonNull;
@@ -109,9 +110,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/CaptureConfig;",
             ">;)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -120,7 +119,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/camera/core/ImageCapture;->submitStillCaptureRequest(Ljava/util/List;)Lub/u0;
+    invoke-virtual {v0, p1}, Landroidx/camera/core/ImageCapture;->submitStillCaptureRequest(Ljava/util/List;)Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -179,4 +178,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

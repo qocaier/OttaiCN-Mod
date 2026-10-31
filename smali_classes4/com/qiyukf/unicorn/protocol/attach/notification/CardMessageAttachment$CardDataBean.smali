@@ -172,6 +172,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -202,6 +204,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getContent()Ljava/lang/String;
@@ -230,6 +234,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCount()Ljava/lang/String;
@@ -258,6 +264,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCurrent()I
@@ -286,6 +294,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getData()Ljava/lang/String;
@@ -314,6 +324,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getDesc()Ljava/lang/String;
@@ -342,6 +354,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFocusIframe()Ljava/lang/String;
@@ -370,6 +384,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGoodsCId()Ljava/lang/String;
@@ -398,6 +414,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGoodsCName()Ljava/lang/String;
@@ -426,6 +444,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGoodsId()Ljava/lang/String;
@@ -454,6 +474,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getId()Ljava/lang/String;
@@ -482,6 +504,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLabel()Ljava/lang/String;
@@ -510,6 +534,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOptionId()Ljava/lang/String;
@@ -538,6 +564,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPayMoney()Ljava/lang/String;
@@ -566,6 +594,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPicture()Ljava/lang/String;
@@ -594,6 +624,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPrice()Ljava/lang/String;
@@ -622,6 +654,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSku()Ljava/lang/String;
@@ -650,6 +684,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStatus()Ljava/lang/String;
@@ -678,6 +714,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSubtitle()Ljava/lang/String;
@@ -706,6 +744,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -734,6 +774,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUrl()Ljava/lang/String;
@@ -762,4 +804,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

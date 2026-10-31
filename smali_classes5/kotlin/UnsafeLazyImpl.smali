@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljl/c0;
+.implements Lkotlin/c;
 .implements Ljava/io/Serializable;
 
 
@@ -14,8 +14,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Ljl/c0<",
-        "TT;>;",
+        "Lkotlin/c;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -23,35 +22,24 @@
 
 # instance fields
 .field private _value:Ljava/lang/Object;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
-.field private initializer:Ljm/a;
+.field private initializer:Lq8/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/a<",
-            "+TT;>;"
+            "Lq8/a;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljm/a;)V
+.method public constructor <init>(Lq8/a;)V
     .locals 1
-    .param p1    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/a<",
-            "+TT;>;)V"
+            "Lq8/a;",
+            ")V"
         }
     .end annotation
 
@@ -60,7 +48,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -70,11 +58,11 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Lkotlin/UnsafeLazyImpl;->initializer:Ljm/a;
+    iput-object p1, p0, Lkotlin/UnsafeLazyImpl;->initializer:Lq8/a;
 
     .line 10
     .line 11
-    sget-object p1, Ljl/y1;->a:Ljl/y1;
+    sget-object p1, Lkotlin/i;->a:Lkotlin/i;
 
     .line 12
     .line 13
@@ -92,6 +80,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method private final readObject(Ljava/io/ObjectInputStream;)V
@@ -128,6 +149,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method private final writeReplace()Ljava/lang/Object;
@@ -165,6 +219,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
@@ -182,7 +263,7 @@
 
     .line 2
     .line 3
-    sget-object v1, Ljl/y1;->a:Ljl/y1;
+    sget-object v1, Lkotlin/i;->a:Lkotlin/i;
 
     .line 4
     .line 5
@@ -190,16 +271,16 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lkotlin/UnsafeLazyImpl;->initializer:Ljm/a;
+    iget-object v0, p0, Lkotlin/UnsafeLazyImpl;->initializer:Lq8/a;
 
     .line 8
     .line 9
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-interface {v0}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -214,7 +295,7 @@
     const/4 v0, 0x0
 
     .line 19
-    iput-object v0, p0, Lkotlin/UnsafeLazyImpl;->initializer:Ljm/a;
+    iput-object v0, p0, Lkotlin/UnsafeLazyImpl;->initializer:Lq8/a;
 
     .line 20
     .line 21
@@ -224,6 +305,33 @@
     .line 22
     .line 23
     return-object v0
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public isInitialized()Z
@@ -234,7 +342,7 @@
 
     .line 2
     .line 3
-    sget-object v1, Ljl/y1;->a:Ljl/y1;
+    sget-object v1, Lkotlin/i;->a:Lkotlin/i;
 
     .line 4
     .line 5
@@ -266,12 +374,37 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Lkotlin/UnsafeLazyImpl;->isInitialized()Z
@@ -316,4 +449,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

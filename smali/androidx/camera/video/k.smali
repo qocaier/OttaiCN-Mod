@@ -3,36 +3,28 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/core/util/Consumer;
-
-
-# instance fields
-.field public final synthetic a:Landroid/os/ParcelFileDescriptor;
+.implements Landroidx/camera/video/internal/encoder/EncoderFactory;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroid/os/ParcelFileDescriptor;)V
+.method public synthetic constructor <init>()V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Landroidx/camera/video/k;->a:Landroid/os/ParcelFileDescriptor;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;)V
+.method public final createEncoder(Ljava/util/concurrent/Executor;Landroidx/camera/video/internal/encoder/EncoderConfig;)Landroidx/camera/video/internal/encoder/Encoder;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/k;->a:Landroid/os/ParcelFileDescriptor;
+    new-instance v0, Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-    check-cast p1, Landroid/net/Uri;
+    invoke-direct {v0, p1, p2}, Landroidx/camera/video/internal/encoder/EncoderImpl;-><init>(Ljava/util/concurrent/Executor;Landroidx/camera/video/internal/encoder/EncoderConfig;)V
 
-    invoke-static {v0, p1}, Landroidx/camera/video/Recorder$RecordingRecord;->h(Landroid/os/ParcelFileDescriptor;Landroid/net/Uri;)V
-
-    return-void
+    return-object v0
 .end method

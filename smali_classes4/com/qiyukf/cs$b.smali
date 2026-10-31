@@ -501,6 +501,134 @@
     .line 434
     .line 435
     .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
+    .line 441
+    .line 442
+    .line 443
+    .line 444
+    .line 445
+    .line 446
+    .line 447
+    .line 448
+    .line 449
+    .line 450
+    .line 451
+    .line 452
+    .line 453
+    .line 454
+    .line 455
+    .line 456
+    .line 457
+    .line 458
+    .line 459
+    .line 460
+    .line 461
+    .line 462
+    .line 463
+    .line 464
+    .line 465
+    .line 466
+    .line 467
+    .line 468
+    .line 469
+    .line 470
+    .line 471
+    .line 472
+    .line 473
+    .line 474
+    .line 475
+    .line 476
+    .line 477
+    .line 478
+    .line 479
+    .line 480
+    .line 481
+    .line 482
+    .line 483
+    .line 484
+    .line 485
+    .line 486
+    .line 487
+    .line 488
+    .line 489
+    .line 490
+    .line 491
+    .line 492
+    .line 493
+    .line 494
+    .line 495
+    .line 496
+    .line 497
+    .line 498
+    .line 499
+    .line 500
+    .line 501
+    .line 502
+    .line 503
+    .line 504
+    .line 505
+    .line 506
+    .line 507
+    .line 508
+    .line 509
+    .line 510
+    .line 511
+    .line 512
+    .line 513
+    .line 514
+    .line 515
+    .line 516
+    .line 517
+    .line 518
+    .line 519
+    .line 520
+    .line 521
+    .line 522
+    .line 523
+    .line 524
+    .line 525
+    .line 526
+    .line 527
+    .line 528
+    .line 529
+    .line 530
+    .line 531
+    .line 532
+    .line 533
+    .line 534
+    .line 535
+    .line 536
+    .line 537
+    .line 538
+    .line 539
+    .line 540
+    .line 541
+    .line 542
+    .line 543
+    .line 544
+    .line 545
+    .line 546
+    .line 547
+    .line 548
+    .line 549
+    .line 550
+    .line 551
+    .line 552
+    .line 553
+    .line 554
+    .line 555
+    .line 556
+    .line 557
+    .line 558
+    .line 559
+    .line 560
+    .line 561
+    .line 562
+    .line 563
+    .line 564
 .end method
 
 
@@ -741,6 +869,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public c(Lcom/qiyukf/n3;)V
@@ -1150,334 +1280,334 @@
 
     .line 202
     .line 203
-    const-string v8, "{bucket}-nosdn.netease.im/{object}"
+    const-string/jumbo v8, "{bucket}-nosdn.netease.im/{object}"
 
     .line 204
     .line 205
+    .line 206
     :cond_5
     invoke-static {v8}, Lcom/qiyukf/sr;->a(Ljava/lang/String;)Z
 
-    .line 206
     .line 207
     .line 208
+    .line 209
     move-result v11
 
-    .line 209
+    .line 210
     if-eqz v11, :cond_6
 
-    .line 210
     .line 211
-    const-string v9, "{bucket}"
-
     .line 212
-    .line 213
-    invoke-virtual {v8, v9, v5}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+    const-string/jumbo v9, "{bucket}"
 
+    .line 213
     .line 214
     .line 215
+    invoke-virtual {v8, v9, v5}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
     .line 216
+    .line 217
+    .line 218
     move-result-object v5
 
-    .line 217
-    const-string v8, "{object}"
-
-    .line 218
     .line 219
-    invoke-virtual {v5, v8, v4}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+    const-string/jumbo v8, "{object}"
 
     .line 220
     .line 221
     .line 222
-    move-result-object v4
+    invoke-virtual {v5, v8, v4}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     .line 223
+    .line 224
+    .line 225
+    move-result-object v4
+
+    .line 226
     goto :goto_3
 
-    .line 224
+    .line 227
     :cond_6
     new-instance v8, Ljava/lang/StringBuilder;
 
-    .line 225
-    .line 226
-    invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
-
-    .line 227
     .line 228
     .line 229
-    invoke-static {}, Lcom/qiyukf/nimlib/b;->e()Lcom/qiyukf/nimlib/sdk/ServerAddresses;
+    invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 230
     .line 231
     .line 232
-    move-result-object v11
+    invoke-static {}, Lcom/qiyukf/nimlib/b;->e()Lcom/qiyukf/nimlib/sdk/ServerAddresses;
 
     .line 233
-    if-nez v11, :cond_7
-
     .line 234
     .line 235
-    goto :goto_2
+    move-result-object v11
 
     .line 236
-    :cond_7
-    invoke-static {}, Lcom/qiyukf/nimlib/b;->e()Lcom/qiyukf/nimlib/sdk/ServerAddresses;
+    if-nez v11, :cond_7
 
     .line 237
     .line 238
+    goto :goto_2
+
     .line 239
-    move-result-object v9
+    :cond_7
+    invoke-static {}, Lcom/qiyukf/nimlib/b;->e()Lcom/qiyukf/nimlib/sdk/ServerAddresses;
 
     .line 240
-    iget-object v9, v9, Lcom/qiyukf/nimlib/sdk/ServerAddresses;->nosDownload:Ljava/lang/String;
-
     .line 241
     .line 242
+    move-result-object v9
+
+    .line 243
+    iget-object v9, v9, Lcom/qiyukf/nimlib/sdk/ServerAddresses;->nosDownload:Ljava/lang/String;
+
+    .line 244
+    .line 245
     :goto_2
     invoke-static {v9}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 243
-    .line 244
-    .line 245
-    move-result v11
-
     .line 246
-    if-eqz v11, :cond_8
-
     .line 247
     .line 248
-    const-string v9, "nos.netease.com"
+    move-result v11
 
     .line 249
-    .line 250
-    :cond_8
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    if-eqz v11, :cond_8
 
+    .line 250
     .line 251
+    const-string v9, "nos.netease.com"
+
     .line 252
     .line 253
-    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    :cond_8
+    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 254
     .line 255
     .line 256
-    invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 257
     .line 258
     .line 259
-    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 260
     .line 261
     .line 262
-    invoke-virtual {v8, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v8, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 263
     .line 264
     .line 265
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v8, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 266
     .line 267
     .line 268
-    move-result-object v4
+    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 269
+    .line 270
+    .line 271
+    move-result-object v4
+
+    .line 272
     :goto_3
     new-instance v5, Ljava/lang/StringBuilder;
 
-    .line 270
-    .line 271
-    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
-
-    .line 272
     .line 273
     .line 274
-    if-eqz v2, :cond_9
+    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 275
     .line 276
-    const-string v2, "https://"
-
     .line 277
-    .line 278
-    goto :goto_4
+    if-eqz v2, :cond_9
 
+    .line 278
     .line 279
-    :cond_9
-    const-string v2, "http://"
+    const-string v2, "https://"
 
     .line 280
     .line 281
-    :goto_4
-    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    goto :goto_4
 
     .line 282
+    :cond_9
+    const-string v2, "http://"
+
     .line 283
     .line 284
-    invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    :goto_4
+    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 285
     .line 286
     .line 287
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 288
     .line 289
     .line 290
-    move-result-object v4
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 291
-    new-instance v2, Ljava/lang/StringBuilder;
-
     .line 292
     .line 293
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+    move-result-object v4
 
     .line 294
+    new-instance v2, Ljava/lang/StringBuilder;
+
     .line 295
     .line 296
-    const-string v5, "replaced raw url is: "
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 297
     .line 298
-    invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 299
+    const-string v5, "replaced raw url is: "
+
     .line 300
     .line 301
-    invoke-static {v4, v3}, Lcom/qiyukf/sj;->a(Ljava/lang/String;Lcom/qiyukf/nimlib/sdk/misc/model/LogDesensitizationConfig;)Ljava/lang/String;
+    invoke-virtual {v2, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 302
     .line 303
     .line 304
-    move-result-object v3
+    invoke-static {v4, v3}, Lcom/qiyukf/sj;->a(Ljava/lang/String;Lcom/qiyukf/nimlib/sdk/misc/model/LogDesensitizationConfig;)Ljava/lang/String;
 
     .line 305
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 306
     .line 307
+    move-result-object v3
+
     .line 308
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 309
     .line 310
     .line 311
-    move-result-object v2
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 312
-    invoke-static {v6, v2}, Lcom/qiyukf/c;->c(Ljava/lang/String;Ljava/lang/String;)V
-
     .line 313
     .line 314
+    move-result-object v2
+
     .line 315
-    invoke-virtual {v1}, Lcom/qiyukf/zr;->c()J
+    invoke-static {v6, v2}, Lcom/qiyukf/c;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 316
     .line 317
     .line 318
-    move-result-wide v2
+    invoke-virtual {v1}, Lcom/qiyukf/zr;->c()J
 
     .line 319
-    const-wide/16 v5, 0x0
-
     .line 320
     .line 321
-    cmp-long v2, v2, v5
+    move-result-wide v2
 
     .line 322
+    const-wide/16 v5, 0x0
+
     .line 323
-    if-gtz v2, :cond_a
-
     .line 324
-    .line 325
-    goto :goto_5
+    cmp-long v2, v2, v5
 
+    .line 325
     .line 326
-    :cond_a
-    invoke-virtual {v1}, Lcom/qiyukf/zr;->c()J
+    if-gtz v2, :cond_a
 
     .line 327
     .line 328
-    .line 329
-    move-result-wide v1
-
-    .line 330
-    invoke-virtual {v4, v7}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
-
-    .line 331
-    .line 332
-    .line 333
-    move-result v3
-
-    .line 334
-    xor-int/lit8 v3, v3, 0x1
-
-    .line 335
-    .line 336
-    invoke-static {v1, v2, v3}, Lcom/qiyukf/ae;->a(JZ)Ljava/lang/String;
-
-    .line 337
-    .line 338
-    .line 339
-    move-result-object v1
-
-    .line 340
-    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
-
-    .line 341
-    .line 342
-    .line 343
-    move-result v2
-
-    .line 344
-    if-eqz v2, :cond_b
-
-    .line 345
-    .line 346
     goto :goto_5
 
+    .line 329
+    :cond_a
+    invoke-virtual {v1}, Lcom/qiyukf/zr;->c()J
+
+    .line 330
+    .line 331
+    .line 332
+    move-result-wide v1
+
+    .line 333
+    invoke-virtual {v4, v7}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    .line 334
+    .line 335
+    .line 336
+    move-result v3
+
+    .line 337
+    xor-int/lit8 v3, v3, 0x1
+
+    .line 338
+    .line 339
+    invoke-static {v1, v2, v3}, Lcom/qiyukf/ae;->a(JZ)Ljava/lang/String;
+
+    .line 340
+    .line 341
+    .line 342
+    move-result-object v1
+
+    .line 343
+    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    .line 344
+    .line 345
+    .line 346
+    move-result v2
+
     .line 347
-    :cond_b
-    new-instance v2, Ljava/lang/StringBuilder;
+    if-eqz v2, :cond_b
 
     .line 348
     .line 349
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+    goto :goto_5
 
     .line 350
+    :cond_b
+    new-instance v2, Ljava/lang/StringBuilder;
+
     .line 351
     .line 352
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 353
     .line 354
     .line 355
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 356
     .line 357
     .line 358
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 359
     .line 360
     .line 361
-    move-result-object v4
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 362
+    .line 363
+    .line 364
+    move-result-object v4
+
+    .line 365
     :goto_5
     invoke-interface {v0, p1, v4}, Lcom/qiyukf/v90;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 363
-    .line 364
-    .line 365
-    :cond_c
-    return-void
     .line 366
     .line 367
     .line 368
+    :cond_c
+    return-void
     .line 369
     .line 370
     .line 371
@@ -2109,4 +2239,129 @@
     .line 997
     .line 998
     .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
+    .line 1092
+    .line 1093
+    .line 1094
+    .line 1095
+    .line 1096
+    .line 1097
+    .line 1098
+    .line 1099
+    .line 1100
+    .line 1101
+    .line 1102
+    .line 1103
+    .line 1104
+    .line 1105
+    .line 1106
+    .line 1107
+    .line 1108
+    .line 1109
+    .line 1110
+    .line 1111
+    .line 1112
+    .line 1113
+    .line 1114
+    .line 1115
+    .line 1116
+    .line 1117
+    .line 1118
+    .line 1119
+    .line 1120
+    .line 1121
+    .line 1122
+    .line 1123
+    .line 1124
 .end method

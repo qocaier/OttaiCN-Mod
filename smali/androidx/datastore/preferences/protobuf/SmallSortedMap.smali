@@ -305,15 +305,6 @@
 
 .method private binarySearchInArray(Ljava/lang/Comparable;)I
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "key"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;)I"
@@ -488,6 +479,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private checkMutable()V
@@ -525,6 +517,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private ensureEntryArrayMutable()V
@@ -640,6 +633,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private getOverflowEntriesMutable()Ljava/util/SortedMap;
@@ -770,6 +765,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static newFieldMap()Landroidx/datastore/preferences/protobuf/SmallSortedMap;
@@ -811,6 +808,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static newInstanceForTest()Landroidx/datastore/preferences/protobuf/SmallSortedMap;
@@ -852,19 +850,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private removeArrayEntryAt(I)Ljava/lang/Object;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)TV;"
@@ -1001,6 +991,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -1121,18 +1112,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/Comparable;
@@ -1236,6 +1221,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public entrySet()Ljava/util/Set;
@@ -1285,18 +1271,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -1637,19 +1616,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public get(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1766,19 +1741,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getArrayEntryAt(I)Ljava/util/Map$Entry;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
@@ -1853,6 +1820,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNumOverflowEntries()I
@@ -1885,6 +1853,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOverflowEntries()Ljava/lang/Iterable;
@@ -1938,6 +1907,7 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -2073,6 +2043,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isImmutable()Z
@@ -2101,6 +2073,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public makeImmutable()V
@@ -2244,21 +2217,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "key",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;TV;)TV;"
@@ -2366,16 +2330,6 @@
 
 .method public bridge synthetic put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "key",
-            "value"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/Comparable;
@@ -2389,15 +2343,6 @@
 
 .method public remove(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2521,6 +2466,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public size()I
@@ -2561,4 +2507,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

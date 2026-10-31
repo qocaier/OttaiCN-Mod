@@ -99,7 +99,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTopAndBottomOffset()I
@@ -141,7 +140,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isHorizontalOffsetEnabled()Z
@@ -187,7 +185,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isVerticalOffsetEnabled()Z
@@ -233,7 +230,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public layoutChild(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)V
@@ -404,11 +400,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onLayoutChild(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z
@@ -624,11 +615,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public setHorizontalOffsetEnabled(Z)V
@@ -666,7 +652,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLeftAndRightOffset(I)Z
@@ -712,7 +697,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTopAndBottomOffset(I)Z
@@ -758,7 +742,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVerticalOffsetEnabled(Z)V
@@ -796,5 +779,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

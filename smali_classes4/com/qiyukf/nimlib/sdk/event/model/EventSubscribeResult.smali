@@ -40,6 +40,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -70,6 +72,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExpiry()J
@@ -98,6 +102,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPublisherAccount()Ljava/lang/String;
@@ -126,6 +132,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTime()J
@@ -154,4 +162,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

@@ -137,6 +137,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -165,19 +167,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getClassForName(Ljava/lang/String;)Ljava/lang/Class;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "name"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -263,6 +257,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static isOnAndroidDevice()Z
@@ -312,4 +307,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

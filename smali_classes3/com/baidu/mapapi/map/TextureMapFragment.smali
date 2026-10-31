@@ -104,7 +104,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMapView()Lcom/baidu/mapapi/map/TextureMapView;
@@ -135,7 +134,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onActivityCreated(Landroid/os/Bundle;)V
@@ -168,7 +166,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onAttach(Landroid/app/Activity;)V
@@ -201,7 +198,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -234,7 +230,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -267,7 +262,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
@@ -433,11 +427,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onDestroy()V
@@ -468,7 +457,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDestroyView()V
@@ -503,7 +491,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDetach()V
@@ -534,7 +521,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onPause()V
@@ -569,7 +555,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onResume()V
@@ -604,7 +589,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -637,7 +621,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onStart()V
@@ -668,7 +651,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onStop()V
@@ -699,7 +681,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -768,9 +749,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

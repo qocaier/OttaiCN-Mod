@@ -13,23 +13,14 @@
 
 # static fields
 .field public static final Companion:Landroidx/savedstate/SavedStateRegistryController$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field private attached:Z
 
 .field private final owner:Landroidx/savedstate/SavedStateRegistryOwner;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -40,7 +31,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/savedstate/SavedStateRegistryController$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/savedstate/SavedStateRegistryController$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/savedstate/SavedStateRegistryController;->Companion:Landroidx/savedstate/SavedStateRegistryController$Companion;
 
@@ -65,7 +56,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroidx/savedstate/SavedStateRegistryOwner;Lkm/v;)V
+.method public synthetic constructor <init>(Landroidx/savedstate/SavedStateRegistryOwner;Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -76,15 +67,6 @@
 
 .method public static final create(Landroidx/savedstate/SavedStateRegistryOwner;)Landroidx/savedstate/SavedStateRegistryController;
     .locals 1
-    .param p0    # Landroidx/savedstate/SavedStateRegistryOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     sget-object v0, Landroidx/savedstate/SavedStateRegistryController;->Companion:Landroidx/savedstate/SavedStateRegistryController$Companion;
 
@@ -99,8 +81,6 @@
 # virtual methods
 .method public final getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/savedstate/SavedStateRegistryController;->savedStateRegistry:Landroidx/savedstate/SavedStateRegistry;
@@ -125,6 +105,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final performAttach()V
@@ -256,14 +237,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final performRestore(Landroid/os/Bundle;)V
     .locals 3
-    .param p1    # Landroid/os/Bundle;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -404,14 +383,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final performSave(Landroid/os/Bundle;)V
     .locals 1
-    .param p1    # Landroid/os/Bundle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -420,7 +396,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

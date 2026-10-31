@@ -13,39 +13,22 @@
 
 # instance fields
 .field private final context:Landroid/content/Context;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final presentation:Landroidx/window/extensions/area/ExtensionWindowAreaPresentation;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final windowAreaComponent:Landroidx/window/extensions/area/WindowAreaComponent;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/window/extensions/area/WindowAreaComponent;Landroidx/window/extensions/area/ExtensionWindowAreaPresentation;)V
     .locals 1
-    .param p1    # Landroidx/window/extensions/area/WindowAreaComponent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/extensions/area/ExtensionWindowAreaPresentation;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "windowAreaComponent"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -54,7 +37,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -84,7 +67,7 @@
 
     .line 23
     .line 24
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -145,12 +128,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContext()Landroid/content/Context;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/area/RearDisplayPresentationSessionPresenterImpl;->context:Landroid/content/Context;
@@ -175,21 +157,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setContentView(Landroid/view/View;)V
     .locals 1
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "view"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

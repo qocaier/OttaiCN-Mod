@@ -3,31 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nRegion.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Region.kt\nandroidx/core/graphics/RegionKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,117:1\n51#1:119\n31#1:121\n36#1:123\n1#2:118\n1#2:120\n1#2:122\n1#2:124\n*S KotlinDebug\n*F\n+ 1 Region.kt\nandroidx/core/graphics/RegionKt\n*L\n55#1:119\n58#1:121\n61#1:123\n55#1:120\n58#1:122\n61#1:124\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nRegion.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Region.kt\nandroidx/core/graphics/RegionKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,117:1\n51#1:119\n31#1:121\n36#1:123\n1#2:118\n1#2:120\n1#2:122\n1#2:124\n*S KotlinDebug\n*F\n+ 1 Region.kt\nandroidx/core/graphics/RegionKt\n*L\n55#1:119\n58#1:121\n61#1:123\n55#1:120\n58#1:122\n61#1:124\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final and(Landroid/graphics/Region;Landroid/graphics/Rect;)Landroid/graphics/Region;
     .locals 1
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Rect;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Region;
@@ -43,16 +21,6 @@
 
 .method public static final and(Landroid/graphics/Region;Landroid/graphics/Region;)Landroid/graphics/Region;
     .locals 1
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroid/graphics/Region;
@@ -68,14 +36,6 @@
 
 .method public static final contains(Landroid/graphics/Region;Landroid/graphics/Point;)Z
     .locals 1
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     iget v0, p1, Landroid/graphics/Point;->x:I
@@ -136,25 +96,14 @@
     .line 48
 .end method
 
-.method public static final forEach(Landroid/graphics/Region;Ljm/l;)V
+.method public static final forEach(Landroid/graphics/Region;Lq8/l;)V
     .locals 2
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Region;",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Rect;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -194,7 +143,7 @@
 
     .line 18
     :cond_0
-    invoke-interface {p1, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -231,10 +180,6 @@
 
 .method public static final iterator(Landroid/graphics/Region;)Ljava/util/Iterator;
     .locals 1
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -244,9 +189,6 @@
             "Landroid/graphics/Rect;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -283,16 +225,6 @@
 
 .method public static final minus(Landroid/graphics/Region;Landroid/graphics/Rect;)Landroid/graphics/Region;
     .locals 1
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Rect;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Region;
@@ -308,16 +240,6 @@
 
 .method public static final minus(Landroid/graphics/Region;Landroid/graphics/Region;)Landroid/graphics/Region;
     .locals 1
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroid/graphics/Region;
@@ -333,12 +255,6 @@
 
 .method public static final not(Landroid/graphics/Region;)Landroid/graphics/Region;
     .locals 2
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Region;
@@ -382,16 +298,6 @@
 
 .method public static final or(Landroid/graphics/Region;Landroid/graphics/Rect;)Landroid/graphics/Region;
     .locals 1
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Rect;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Region;
@@ -405,16 +311,6 @@
 
 .method public static final or(Landroid/graphics/Region;Landroid/graphics/Region;)Landroid/graphics/Region;
     .locals 1
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroid/graphics/Region;
@@ -430,16 +326,6 @@
 
 .method public static final plus(Landroid/graphics/Region;Landroid/graphics/Rect;)Landroid/graphics/Region;
     .locals 1
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Rect;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Region;
@@ -453,16 +339,6 @@
 
 .method public static final plus(Landroid/graphics/Region;Landroid/graphics/Region;)Landroid/graphics/Region;
     .locals 1
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroid/graphics/Region;
@@ -478,12 +354,6 @@
 
 .method public static final unaryMinus(Landroid/graphics/Region;)Landroid/graphics/Region;
     .locals 2
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Region;
@@ -527,16 +397,6 @@
 
 .method public static final xor(Landroid/graphics/Region;Landroid/graphics/Rect;)Landroid/graphics/Region;
     .locals 1
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Rect;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/Region;
@@ -552,16 +412,6 @@
 
 .method public static final xor(Landroid/graphics/Region;Landroid/graphics/Region;)Landroid/graphics/Region;
     .locals 1
-    .param p0    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Region;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroid/graphics/Region;

@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static synthetic a(Lcom/qiyukf/tv;)Ljava/lang/Boolean;
@@ -135,9 +137,9 @@
     move-result-object p1
 
     .line 50
-    new-instance v1, Lvg/x0;
+    new-instance v1, Lcom/qiyukf/sf0;
 
-    invoke-direct {v1, v0, p1}, Lvg/x0;-><init>(Ljava/lang/String;Lcom/qiyukf/nimlib/sdk/msg/constant/SessionTypeEnum;)V
+    invoke-direct {v1, v0, p1}, Lcom/qiyukf/sf0;-><init>(Ljava/lang/String;Lcom/qiyukf/nimlib/sdk/msg/constant/SessionTypeEnum;)V
 
     invoke-static {p0, v1}, Lcom/qiyukf/p4;->a(Ljava/util/Collection;Lcom/qiyukf/p4$a;)Z
 
@@ -161,9 +163,9 @@
     move-result-object v0
 
     .line 36
-    new-instance v1, Lvg/y0;
+    new-instance v1, Lcom/qiyukf/tf0;
 
-    invoke-direct {v1}, Lvg/y0;-><init>()V
+    invoke-direct {v1}, Lcom/qiyukf/tf0;-><init>()V
 
     const/4 v2, 0x0
 
@@ -195,18 +197,18 @@
     move-result-object v1
 
     .line 41
-    new-instance v2, Lvg/z0;
+    new-instance v2, Lcom/qiyukf/uf0;
 
-    invoke-direct {v2, v0}, Lvg/z0;-><init>(Ljava/util/ArrayList;)V
+    invoke-direct {v2, v0}, Lcom/qiyukf/uf0;-><init>(Ljava/util/ArrayList;)V
 
     invoke-static {v1, v2}, Lcom/qiyukf/p4;->c(Ljava/util/Collection;Lcom/qiyukf/p4$a;)Ljava/util/List;
 
     move-result-object v1
 
     .line 42
-    new-instance v2, Lvg/a1;
+    new-instance v2, Lcom/qiyukf/vf0;
 
-    invoke-direct {v2}, Lvg/a1;-><init>()V
+    invoke-direct {v2}, Lcom/qiyukf/vf0;-><init>()V
 
     .line 43
     invoke-static {v1}, Lcom/qiyukf/p4;->a(Ljava/util/Collection;)Z

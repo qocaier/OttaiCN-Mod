@@ -45,14 +45,6 @@
 # direct methods
 .method private constructor <init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntryIterator;->this$0:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
@@ -201,6 +193,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -328,6 +322,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public bridge synthetic next()Ljava/lang/Object;
@@ -426,4 +422,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

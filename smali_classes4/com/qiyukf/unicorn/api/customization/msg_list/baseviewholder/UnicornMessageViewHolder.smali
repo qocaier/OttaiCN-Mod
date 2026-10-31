@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -90,6 +92,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public final getContentResId()I
@@ -120,6 +124,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public abstract getViewHolderResId()I
@@ -151,6 +157,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public abstract inflateFindView()V
@@ -184,6 +192,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isReceivedMessage()Z
@@ -214,6 +224,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public leftBackground()I
@@ -244,6 +256,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onItemClick()V
@@ -272,6 +286,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onItemLongClick()Z
@@ -302,6 +318,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public rightBackground()I
@@ -332,6 +350,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public showAvatar()Z
@@ -362,4 +382,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

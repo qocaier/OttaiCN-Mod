@@ -121,7 +121,7 @@
     return-void
 .end method
 
-.method public static openYunboVideo(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Lii/b;)Z
+.method public static openYunboVideo(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Lh7/b;)Z
     .locals 1
 
     .line 1
@@ -145,7 +145,7 @@
     move-result-object p0
 
     .line 11
-    invoke-virtual {p0, p1, p2, p3}, Lcom/tencent/smtt/sdk/p;->a(Ljava/lang/String;Landroid/os/Bundle;Lii/b;)Z
+    invoke-virtual {p0, p1, p2, p3}, Lcom/tencent/smtt/sdk/p;->a(Ljava/lang/String;Landroid/os/Bundle;Lh7/b;)Z
 
     .line 12
     .line 13
@@ -394,4 +394,27 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method

@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/ListIterator;
-.implements Llm/f;
+.implements Lr8/a;
 
 
 # annotations
@@ -25,7 +25,7 @@
         "Ljava/lang/Object;",
         "Ljava/util/ListIterator<",
         "TT;>;",
-        "Llm/f;"
+        "Lr8/a;"
     }
 .end annotation
 
@@ -38,9 +38,6 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private prevIndex:I
@@ -49,10 +46,6 @@
 # direct methods
 .method public constructor <init>(Ljava/util/List;I)V
     .locals 1
-    .param p1    # Ljava/util/List;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -66,7 +59,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -215,6 +208,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasPrevious()Z
@@ -252,6 +246,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public next()Ljava/lang/Object;
@@ -295,6 +290,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public nextIndex()I
@@ -325,6 +321,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public previous()Ljava/lang/Object;
@@ -368,6 +365,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public previousIndex()I
@@ -396,6 +394,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public remove()V
@@ -434,6 +433,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public set(Ljava/lang/Object;)V

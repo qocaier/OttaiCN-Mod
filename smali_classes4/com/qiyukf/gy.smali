@@ -157,11 +157,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method private a(Lcom/qiyukf/fy;)V
@@ -169,9 +164,9 @@
 
     .line 7
     :try_start_0
-    new-instance v0, Lvg/q;
+    new-instance v0, Lcom/qiyukf/ke0;
 
-    invoke-direct {v0, p0, p1}, Lvg/q;-><init>(Lcom/qiyukf/gy;Lcom/qiyukf/fy;)V
+    invoke-direct {v0, p0, p1}, Lcom/qiyukf/ke0;-><init>(Lcom/qiyukf/gy;Lcom/qiyukf/fy;)V
 
     .line 8
     instance-of v1, p0, Lcom/qiyukf/hy;

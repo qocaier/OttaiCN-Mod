@@ -49,7 +49,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -82,7 +81,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getUid()Ljava/lang/String;
@@ -113,7 +111,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setName(Ljava/lang/String;)V
@@ -146,7 +143,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUid(Ljava/lang/String;)V
@@ -179,5 +175,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

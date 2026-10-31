@@ -102,6 +102,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroidx/camera/core/impl/PreviewConfig;)V
@@ -249,11 +250,11 @@
     .line 13
     .line 14
     :cond_0
-    new-instance v0, Ls/v;
+    new-instance v0, Landroidx/camera/core/i0;
 
     .line 15
     .line 16
-    invoke-direct {v0, p0, p2, p3, p4}, Ls/v;-><init>(Landroidx/camera/core/Preview;Ljava/lang/String;Landroidx/camera/core/impl/PreviewConfig;Landroidx/camera/core/impl/StreamSpec;)V
+    invoke-direct {v0, p0, p2, p3, p4}, Landroidx/camera/core/i0;-><init>(Landroidx/camera/core/Preview;Ljava/lang/String;Landroidx/camera/core/impl/PreviewConfig;Landroidx/camera/core/impl/StreamSpec;)V
 
     .line 17
     .line 18
@@ -472,6 +473,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic b(Landroidx/camera/core/Preview;Ljava/lang/String;Landroidx/camera/core/impl/PreviewConfig;Landroidx/camera/core/impl/StreamSpec;Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/SessionConfig$SessionError;)V
@@ -1626,6 +1633,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private clearPipeline()V
@@ -1747,6 +1757,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private createPipeline(Ljava/lang/String;Landroidx/camera/core/impl/PreviewConfig;Landroidx/camera/core/impl/StreamSpec;)Landroidx/camera/core/impl/SessionConfig$Builder;
@@ -1950,11 +1962,11 @@
 
     .line 90
     .line 91
-    new-instance v1, Ls/t;
+    new-instance v1, Landroidx/camera/core/g0;
 
     .line 92
     .line 93
-    invoke-direct {v1, p0}, Ls/t;-><init>(Landroidx/camera/core/Preview;)V
+    invoke-direct {v1, p0}, Landroidx/camera/core/g0;-><init>(Landroidx/camera/core/Preview;)V
 
     .line 94
     .line 95
@@ -2025,11 +2037,11 @@
     .line 128
     .line 129
     .line 130
-    new-instance v1, Ls/u;
+    new-instance v1, Landroidx/camera/core/h0;
 
     .line 131
     .line 132
-    invoke-direct {v1, p0, p3, v0}, Ls/u;-><init>(Landroidx/camera/core/Preview;Landroidx/camera/core/processing/SurfaceEdge;Landroidx/camera/core/impl/CameraInternal;)V
+    invoke-direct {v1, p0, p3, v0}, Landroidx/camera/core/h0;-><init>(Landroidx/camera/core/Preview;Landroidx/camera/core/processing/SurfaceEdge;Landroidx/camera/core/impl/CameraInternal;)V
 
     .line 133
     .line 134
@@ -2075,11 +2087,11 @@
 
     .line 154
     .line 155
-    new-instance v1, Ls/t;
+    new-instance v1, Landroidx/camera/core/g0;
 
     .line 156
     .line 157
-    invoke-direct {v1, p0}, Ls/t;-><init>(Landroidx/camera/core/Preview;)V
+    invoke-direct {v1, p0}, Landroidx/camera/core/g0;-><init>(Landroidx/camera/core/Preview;)V
 
     .line 158
     .line 159
@@ -2906,6 +2918,169 @@
     .line 926
     .line 927
     .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
 .end method
 
 .method private getCropRect(Landroid/util/Size;)Landroid/graphics/Rect;
@@ -3030,6 +3205,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private onAppEdgeInvalidated(Landroidx/camera/core/processing/SurfaceEdge;Landroidx/camera/core/impl/CameraInternal;)V
@@ -3158,11 +3334,11 @@
 
     .line 21
     .line 22
-    new-instance v3, Ls/s;
+    new-instance v3, Landroidx/camera/core/f0;
 
     .line 23
     .line 24
-    invoke-direct {v3, v0, v1}, Ls/s;-><init>(Landroidx/camera/core/Preview$SurfaceProvider;Landroidx/camera/core/SurfaceRequest;)V
+    invoke-direct {v3, v0, v1}, Landroidx/camera/core/f0;-><init>(Landroidx/camera/core/Preview$SurfaceProvider;Landroidx/camera/core/SurfaceRequest;)V
 
     .line 25
     .line 26
@@ -3227,6 +3403,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private sendTransformationInfoIfReady()V
@@ -3342,6 +3520,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private shouldMirror(Landroidx/camera/core/impl/CameraInternal;)Z
@@ -3539,6 +3719,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -3582,6 +3765,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDefaultConfig(ZLandroidx/camera/core/impl/UseCaseConfigFactory;)Landroidx/camera/core/impl/UseCaseConfig;
@@ -3815,6 +3999,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getResolutionSelector()Landroidx/camera/core/resolutionselector/ResolutionSelector;
@@ -3855,6 +4040,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportedEffectTargets()Ljava/util/Set;
@@ -3910,6 +4096,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTargetFrameRate()Landroid/util/Range;
@@ -3951,6 +4138,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTargetRotation()I
@@ -3981,6 +4169,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUseCaseConfigBuilder(Landroidx/camera/core/impl/Config;)Landroidx/camera/core/impl/UseCaseConfig$Builder;
@@ -4261,6 +4450,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onSuggestedStreamSpecUpdated(Landroidx/camera/core/impl/StreamSpec;)Landroidx/camera/core/impl/StreamSpec;
@@ -4349,6 +4539,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setSurfaceProvider(Landroidx/camera/core/Preview$SurfaceProvider;)V
@@ -4631,4 +4822,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

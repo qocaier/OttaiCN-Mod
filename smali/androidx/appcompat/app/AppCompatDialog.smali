@@ -43,9 +43,9 @@
     invoke-direct {p0, p1, v0}, Landroidx/activity/ComponentDialog;-><init>(Landroid/content/Context;I)V
 
     .line 3
-    new-instance v0, Lg/j;
+    new-instance v0, Landroidx/appcompat/app/k;
 
-    invoke-direct {v0, p0}, Lg/j;-><init>(Landroidx/appcompat/app/AppCompatDialog;)V
+    invoke-direct {v0, p0}, Landroidx/appcompat/app/k;-><init>(Landroidx/appcompat/app/AppCompatDialog;)V
 
     iput-object v0, p0, Landroidx/appcompat/app/AppCompatDialog;->mKeyDispatcher:Landroidx/core/view/KeyEventDispatcher$Component;
 
@@ -84,9 +84,9 @@
     invoke-direct {p0, p1}, Landroidx/activity/ComponentDialog;-><init>(Landroid/content/Context;)V
 
     .line 8
-    new-instance p1, Lg/j;
+    new-instance p1, Landroidx/appcompat/app/k;
 
-    invoke-direct {p1, p0}, Lg/j;-><init>(Landroidx/appcompat/app/AppCompatDialog;)V
+    invoke-direct {p1, p0}, Landroidx/appcompat/app/k;-><init>(Landroidx/appcompat/app/AppCompatDialog;)V
 
     iput-object p1, p0, Landroidx/appcompat/app/AppCompatDialog;->mKeyDispatcher:Landroidx/core/view/KeyEventDispatcher$Component;
 
@@ -272,6 +272,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
@@ -411,6 +412,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportActionBar()Landroidx/appcompat/app/ActionBar;
@@ -445,6 +447,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invalidateOptionsMenu()V
@@ -482,6 +485,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -561,6 +565,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onSupportActionModeFinished(Landroidx/appcompat/view/ActionMode;)V

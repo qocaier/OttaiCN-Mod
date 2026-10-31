@@ -36,7 +36,7 @@
 
     iget-object v1, p0, Landroidx/fragment/app/g;->b:Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;
 
-    invoke-static {v0, v1}, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->e(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;)V
+    invoke-static {v0, v1}, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;->f(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect;)V
 
     return-void
 .end method

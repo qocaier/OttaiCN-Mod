@@ -9,17 +9,6 @@
 
 # virtual methods
 .method public abstract buffer()Lokio/Buffer;
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->WARNING:Lkotlin/DeprecationLevel;
-        message = "moved to val: use getBuffer() instead"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "buffer"
-            imports = {}
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract exhausted()Z
@@ -31,8 +20,6 @@
 .end method
 
 .method public abstract getBuffer()Lokio/Buffer;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract indexOf(B)J
@@ -60,10 +47,6 @@
 .end method
 
 .method public abstract indexOf(Lokio/ByteString;)J
-    .param p1    # Lokio/ByteString;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -72,10 +55,6 @@
 .end method
 
 .method public abstract indexOf(Lokio/ByteString;J)J
-    .param p1    # Lokio/ByteString;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -84,10 +63,6 @@
 .end method
 
 .method public abstract indexOf(Lokio/ByteString;JJ)J
-    .param p1    # Lokio/ByteString;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -96,10 +71,6 @@
 .end method
 
 .method public abstract indexOfElement(Lokio/ByteString;)J
-    .param p1    # Lokio/ByteString;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -108,10 +79,6 @@
 .end method
 
 .method public abstract indexOfElement(Lokio/ByteString;J)J
-    .param p1    # Lokio/ByteString;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -120,20 +87,12 @@
 .end method
 
 .method public abstract inputStream()Ljava/io/InputStream;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract peek()Lokio/BufferedSource;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract rangeEquals(JLokio/ByteString;)Z
-    .param p3    # Lokio/ByteString;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -142,10 +101,6 @@
 .end method
 
 .method public abstract rangeEquals(JLokio/ByteString;II)Z
-    .param p3    # Lokio/ByteString;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -154,10 +109,6 @@
 .end method
 
 .method public abstract read([B)I
-    .param p1    # [B
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -166,10 +117,6 @@
 .end method
 
 .method public abstract read([BII)I
-    .param p1    # [B
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -178,10 +125,6 @@
 .end method
 
 .method public abstract readAll(Lokio/Sink;)J
-    .param p1    # Lokio/Sink;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -203,9 +146,6 @@
             Ljava/io/IOException;
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract readByteArray(J)[B
@@ -213,9 +153,6 @@
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
@@ -225,9 +162,6 @@
             Ljava/io/IOException;
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract readByteString(J)Lokio/ByteString;
@@ -235,9 +169,6 @@
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
@@ -250,10 +181,6 @@
 .end method
 
 .method public abstract readFully(Lokio/Buffer;J)V
-    .param p1    # Lokio/Buffer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -262,10 +189,6 @@
 .end method
 
 .method public abstract readFully([B)V
-    .param p1    # [B
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -330,32 +253,18 @@
 .end method
 
 .method public abstract readString(JLjava/nio/charset/Charset;)Ljava/lang/String;
-    .param p3    # Ljava/nio/charset/Charset;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
 .method public abstract readString(Ljava/nio/charset/Charset;)Ljava/lang/String;
-    .param p1    # Ljava/nio/charset/Charset;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
@@ -365,9 +274,6 @@
             Ljava/io/IOException;
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract readUtf8(J)Ljava/lang/String;
@@ -375,9 +281,6 @@
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
@@ -395,9 +298,6 @@
             Ljava/io/IOException;
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end method
 
 .method public abstract readUtf8LineStrict()Ljava/lang/String;
@@ -406,9 +306,6 @@
             Ljava/io/IOException;
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract readUtf8LineStrict(J)Ljava/lang/String;
@@ -416,9 +313,6 @@
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
@@ -439,10 +333,6 @@
 .end method
 
 .method public abstract select(Lokio/Options;)I
-    .param p1    # Lokio/Options;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -451,10 +341,6 @@
 .end method
 
 .method public abstract select(Lokio/TypedOptions;)Ljava/lang/Object;
-    .param p1    # Lokio/TypedOptions;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -469,9 +355,6 @@
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method
 

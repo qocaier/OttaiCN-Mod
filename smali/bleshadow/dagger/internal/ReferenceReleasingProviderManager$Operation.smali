@@ -4,15 +4,6 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lbleshadow/dagger/internal/ReferenceReleasingProviderManager;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4409
-    name = "Operation"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Enum<",
@@ -149,26 +140,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -176,7 +153,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;ILbleshadow/dagger/internal/ReferenceReleasingProviderManager$a;)V
+.method public synthetic constructor <init>(Ljava/lang/String;ILbleshadow/dagger/internal/c;)V
     .locals 0
 
     .line 2
@@ -187,14 +164,6 @@
 
 .method public static valueOf(Ljava/lang/String;)Lbleshadow/dagger/internal/ReferenceReleasingProviderManager$Operation;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8000
-        }
-        names = {
-            "name"
-        }
-    .end annotation
 
     .line 1
     const-class v0, Lbleshadow/dagger/internal/ReferenceReleasingProviderManager$Operation;
@@ -264,25 +233,17 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
-.method public abstract execute(Lw2/n;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "provider"
-        }
-    .end annotation
-
+.method public abstract execute(Lbleshadow/dagger/internal/b;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lw2/n<",
-            "*>;)V"
+            "Lbleshadow/dagger/internal/b;",
+            ")V"
         }
     .end annotation
 .end method

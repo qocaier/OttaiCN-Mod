@@ -17,20 +17,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;ILandroidx/datastore/preferences/protobuf/WireFormat$JavaType;I)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000,
-            0x10,
-            0x10
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal",
-            "javaType",
-            "wireType"
-        }
-    .end annotation
 
     .line 1
     const/4 v5, 0x0
@@ -277,6 +263,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 

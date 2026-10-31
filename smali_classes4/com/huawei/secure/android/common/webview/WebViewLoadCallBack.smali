@@ -9,8 +9,3 @@
         Lcom/huawei/secure/android/common/webview/WebViewLoadCallBack$ErrorCode;
     }
 .end annotation
-
-
-# virtual methods
-.method public abstract a(Ljava/lang/String;Lcom/huawei/secure/android/common/webview/WebViewLoadCallBack$ErrorCode;)V
-.end method

@@ -58,6 +58,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getCurrentLocation(Landroid/location/LocationManager;Ljava/lang/String;Landroid/os/CancellationSignal;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
@@ -88,11 +89,11 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lw0/b;
+    new-instance v0, Landroidx/core/location/c;
 
     .line 5
     .line 6
-    invoke-direct {v0, p4}, Lw0/b;-><init>(Landroidx/core/util/Consumer;)V
+    invoke-direct {v0, p4}, Landroidx/core/location/c;-><init>(Landroidx/core/util/Consumer;)V
 
     .line 7
     .line 8
@@ -908,6 +909,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static tryRequestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroidx/core/location/LocationRequestCompat;Ljava/util/concurrent/Executor;Landroidx/core/location/LocationListenerCompat;)Z

@@ -22,11 +22,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lvg/a2;
+    new-instance v0, Lcom/qiyukf/lh0;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lvg/a2;-><init>()V
+    invoke-direct {v0}, Lcom/qiyukf/lh0;-><init>()V
 
     .line 4
     .line 5
@@ -48,6 +48,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static synthetic a(Ljava/lang/String;Ljava/lang/String;)I

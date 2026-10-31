@@ -301,8 +301,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private applyWindowInsets()V
@@ -337,7 +335,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private makeMinHeightSpec(I)I
@@ -474,8 +471,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private shouldDrawCompatibilityTopDivider()Z
@@ -532,7 +527,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getMaxItemCount()I
@@ -579,7 +573,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onMeasure(II)V
@@ -652,11 +645,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setItemHorizontalTranslationEnabled(Z)V
@@ -710,7 +698,6 @@
     .line 24
     :cond_0
     return-void
-    .line 25
 .end method
 
 .method public setOnNavigationItemReselectedListener(Lcom/google/android/material/bottomnavigation/BottomNavigationView$OnNavigationItemReselectedListener;)V
@@ -749,7 +736,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnNavigationItemSelectedListener(Lcom/google/android/material/bottomnavigation/BottomNavigationView$OnNavigationItemSelectedListener;)V
@@ -788,5 +774,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

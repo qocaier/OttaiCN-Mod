@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/flu_youzan_service/YouzanFragment;->v()V
+    value = Lcom/example/flu_youzan_service/YouzanFragment;->t()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -43,22 +43,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public call(Landroid/content/Context;Ljava/util/List;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            "Ljava/util/List<",
-            "Lcom/youzan/androidsdk/model/goods/GoodsOfSettleModel;",
-            ">;)V"
-        }
-    .end annotation
 
     return-void
 .end method

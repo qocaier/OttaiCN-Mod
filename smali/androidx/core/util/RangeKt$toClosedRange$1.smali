@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ltm/g;
+.implements Lu8/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/util/RangeKt;->toClosedRange(Landroid/util/Range;)Ltm/g;
+    value = Landroidx/core/util/RangeKt;->toClosedRange(Landroid/util/Range;)Lu8/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,8 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Ltm/g<",
-        "TT;>;"
+        "Lu8/a;"
     }
 .end annotation
 
@@ -90,7 +89,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Ltm/g$a;->a(Ltm/g;Ljava/lang/Comparable;)Z
+    invoke-static {p0, p1}, Lu8/a$a;->a(Lu8/a;Ljava/lang/Comparable;)Z
 
     .line 2
     .line 3
@@ -156,6 +155,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStart()Ljava/lang/Comparable;
@@ -193,13 +193,14 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEmpty()Z
     .locals 1
 
     .line 1
-    invoke-static {p0}, Ltm/g$a;->b(Ltm/g;)Z
+    invoke-static {p0}, Lu8/a$a;->b(Lu8/a;)Z
 
     .line 2
     .line 3
@@ -223,4 +224,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -16,16 +16,6 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCoroutineExceptionHandler.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CoroutineExceptionHandler.kt\nkotlinx/coroutines/CoroutineExceptionHandlerKt$CoroutineExceptionHandler$1\n+ 2 CalendarDelegate.kt\ncom/builttoroam/devicecalendar/CalendarDelegate\n*L\n1#1,110:1\n393#2,4:111\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nCoroutineExceptionHandler.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CoroutineExceptionHandler.kt\nkotlinx/coroutines/CoroutineExceptionHandlerKt$CoroutineExceptionHandler$1\n+ 2 CalendarDelegate.kt\ncom/builttoroam/devicecalendar/CalendarDelegate\n*L\n1#1,110:1\n393#2,4:111\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field final synthetic $pendingChannelResult$inlined:Lio/flutter/plugin/common/MethodChannel$Result;
@@ -34,7 +24,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/CoroutineExceptionHandler$b;Lcom/builttoroam/devicecalendar/CalendarDelegate;Lio/flutter/plugin/common/MethodChannel$Result;)V
+.method public constructor <init>(Lkotlinx/coroutines/CoroutineExceptionHandler$a;Lcom/builttoroam/devicecalendar/CalendarDelegate;Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 0
 
     .line 1
@@ -46,7 +36,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0, p1}, Lkotlin/coroutines/a;-><init>(Lkotlin/coroutines/d$c;)V
+    invoke-direct {p0, p1}, Lkotlin/coroutines/a;-><init>(Lkotlin/coroutines/i$c;)V
 
     .line 6
     .line 7
@@ -191,25 +181,12 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
 # virtual methods
-.method public handleException(Lkotlin/coroutines/d;Ljava/lang/Throwable;)V
+.method public handleException(Lkotlin/coroutines/i;Ljava/lang/Throwable;)V
     .locals 3
-    .param p1    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Throwable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     iget-object p1, p0, Lcom/builttoroam/devicecalendar/CalendarDelegate$createOrUpdateEvent$$inlined$CoroutineExceptionHandler$1;->this$0:Lcom/builttoroam/devicecalendar/CalendarDelegate;
@@ -288,9 +265,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

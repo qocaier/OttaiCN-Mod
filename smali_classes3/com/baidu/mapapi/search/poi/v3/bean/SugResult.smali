@@ -125,7 +125,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -158,7 +157,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAddress()Ljava/lang/String;
@@ -189,7 +187,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getChildren()Ljava/util/List;
@@ -228,7 +225,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCity()Ljava/lang/String;
@@ -259,7 +255,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDistrict()Ljava/lang/String;
@@ -290,7 +285,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLocation()Lcom/baidu/mapapi/model/LatLng;
@@ -440,15 +434,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -479,7 +464,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getProvince()Ljava/lang/String;
@@ -510,7 +494,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTag()Ljava/lang/String;
@@ -541,7 +524,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTown()Ljava/lang/String;
@@ -572,7 +554,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTownCode()I
@@ -603,7 +584,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getUid()Ljava/lang/String;
@@ -634,7 +614,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAdcode(I)V
@@ -667,7 +646,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAddress(Ljava/lang/String;)V
@@ -700,7 +678,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setChildren(Ljava/util/List;)V
@@ -741,7 +718,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCity(Ljava/lang/String;)V
@@ -774,7 +750,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDistrict(Ljava/lang/String;)V
@@ -807,7 +782,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLocation(Lcom/baidu/mapapi/model/LatLng;)V
@@ -851,7 +825,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setName(Ljava/lang/String;)V
@@ -884,7 +857,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setProvince(Ljava/lang/String;)V
@@ -917,7 +889,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTag(Ljava/lang/String;)V
@@ -950,7 +921,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTown(Ljava/lang/String;)V
@@ -983,7 +953,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTownCode(I)V
@@ -1016,7 +985,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUid(Ljava/lang/String;)V
@@ -1049,5 +1017,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

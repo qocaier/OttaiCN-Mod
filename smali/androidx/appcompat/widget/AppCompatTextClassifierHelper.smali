@@ -112,6 +112,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setTextClassifier(Landroid/view/textclassifier/TextClassifier;)V

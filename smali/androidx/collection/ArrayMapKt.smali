@@ -18,9 +18,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     new-instance v0, Landroidx/collection/ArrayMap;
 
@@ -31,10 +28,6 @@
 
 .method public static final varargs arrayMapOf([Lkotlin/Pair;)Landroidx/collection/ArrayMap;
     .locals 5
-    .param p0    # [Lkotlin/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -49,12 +42,9 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "pairs"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Landroidx/collection/ArrayMap;

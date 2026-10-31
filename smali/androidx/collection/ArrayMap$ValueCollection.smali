@@ -181,6 +181,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public contains(Ljava/lang/Object;)Z
@@ -325,6 +326,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public iterator()Ljava/util/Iterator;
@@ -367,6 +369,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public remove(Ljava/lang/Object;)Z
@@ -555,6 +558,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public retainAll(Ljava/util/Collection;)Z
@@ -693,6 +697,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public size()I
@@ -725,6 +730,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toArray()[Ljava/lang/Object;

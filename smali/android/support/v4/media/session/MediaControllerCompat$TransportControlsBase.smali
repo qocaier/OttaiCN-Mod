@@ -98,6 +98,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public pause()V
@@ -142,6 +143,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public play()V
@@ -186,6 +188,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public playFromMediaId(Ljava/lang/String;Landroid/os/Bundle;)V
@@ -446,6 +449,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public prepareFromMediaId(Ljava/lang/String;Landroid/os/Bundle;)V
@@ -706,6 +710,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public seekTo(J)V
@@ -963,6 +968,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setRating(Landroid/support/v4/media/RatingCompat;)V
@@ -1157,6 +1163,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public skipToPrevious()V
@@ -1201,6 +1208,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public skipToQueueItem(J)V
@@ -1294,4 +1302,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

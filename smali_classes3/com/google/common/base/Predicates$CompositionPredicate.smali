@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lgb/x;
+.implements Lcom/google/common/base/p;
 .implements Ljava/io/Serializable;
 
 
@@ -25,8 +25,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lgb/x<",
-        "TA;>;",
+        "Lcom/google/common/base/p;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -37,78 +36,56 @@
 
 
 # instance fields
-.field final f:Lgb/n;
+.field final f:Lcom/google/common/base/g;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lgb/n<",
-            "TA;+TB;>;"
+            "Lcom/google/common/base/g;"
         }
     .end annotation
 .end field
 
-.field final p:Lgb/x;
+.field final p:Lcom/google/common/base/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lgb/x<",
-            "TB;>;"
+            "Lcom/google/common/base/p;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lgb/x;Lgb/n;)V
+.method public constructor <init>(Lcom/google/common/base/p;Lcom/google/common/base/g;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "p",
-            "f"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lgb/x<",
-            "TB;>;",
-            "Lgb/n<",
-            "TA;+TB;>;)V"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lgb/x;
+    check-cast p1, Lcom/google/common/base/p;
 
-    iput-object p1, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->p:Lgb/x;
+    iput-object p1, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->p:Lcom/google/common/base/p;
 
     .line 4
-    invoke-static {p2}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lgb/n;
+    check-cast p1, Lcom/google/common/base/g;
 
-    iput-object p1, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->f:Lgb/n;
+    iput-object p1, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->f:Lcom/google/common/base/g;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lgb/x;Lgb/n;Lcom/google/common/base/Predicates$a;)V
+.method public synthetic constructor <init>(Lcom/google/common/base/p;Lcom/google/common/base/g;Lcom/google/common/base/Predicates$a;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/google/common/base/Predicates$CompositionPredicate;-><init>(Lgb/x;Lgb/n;)V
+    invoke-direct {p0, p1, p2}, Lcom/google/common/base/Predicates$CompositionPredicate;-><init>(Lcom/google/common/base/p;Lcom/google/common/base/g;)V
 
     return-void
 .end method
@@ -117,19 +94,6 @@
 # virtual methods
 .method public apply(Ljava/lang/Object;)Z
     .locals 2
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgb/u;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "a"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TA;)Z"
@@ -137,15 +101,15 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->p:Lgb/x;
+    iget-object v0, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->p:Lcom/google/common/base/p;
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->f:Lgb/n;
+    iget-object v1, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->f:Lcom/google/common/base/g;
 
     .line 4
     .line 5
-    invoke-interface {v1, p1}, Lgb/n;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcom/google/common/base/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -153,7 +117,7 @@
     move-result-object p1
 
     .line 9
-    invoke-interface {v0, p1}, Lgb/x;->apply(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Lcom/google/common/base/p;->apply(Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -173,23 +137,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "obj"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Lcom/google/common/base/Predicates$CompositionPredicate;
@@ -207,15 +158,15 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->f:Lgb/n;
+    iget-object v0, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->f:Lcom/google/common/base/g;
 
     .line 9
     .line 10
-    iget-object v2, p1, Lcom/google/common/base/Predicates$CompositionPredicate;->f:Lgb/n;
+    iget-object v2, p1, Lcom/google/common/base/Predicates$CompositionPredicate;->f:Lcom/google/common/base/g;
 
     .line 11
     .line 12
-    invoke-interface {v0, v2}, Lgb/n;->equals(Ljava/lang/Object;)Z
+    invoke-interface {v0, v2}, Lcom/google/common/base/g;->equals(Ljava/lang/Object;)Z
 
     .line 13
     .line 14
@@ -227,15 +178,15 @@
 
     .line 17
     .line 18
-    iget-object v0, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->p:Lgb/x;
+    iget-object v0, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->p:Lcom/google/common/base/p;
 
     .line 19
     .line 20
-    iget-object p1, p1, Lcom/google/common/base/Predicates$CompositionPredicate;->p:Lgb/x;
+    iget-object p1, p1, Lcom/google/common/base/Predicates$CompositionPredicate;->p:Lcom/google/common/base/p;
 
     .line 21
     .line 22
-    invoke-interface {v0, p1}, Lgb/x;->equals(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Lcom/google/common/base/p;->equals(Ljava/lang/Object;)Z
 
     .line 23
     .line 24
@@ -316,15 +267,13 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public hashCode()I
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->f:Lgb/n;
+    iget-object v0, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->f:Lcom/google/common/base/g;
 
     .line 2
     .line 3
@@ -336,7 +285,7 @@
     move-result v0
 
     .line 7
-    iget-object v1, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->p:Lgb/x;
+    iget-object v1, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->p:Lcom/google/common/base/p;
 
     .line 8
     .line 9
@@ -360,7 +309,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -376,7 +324,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->p:Lgb/x;
+    iget-object v1, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->p:Lcom/google/common/base/p;
 
     .line 7
     .line 8
@@ -394,7 +342,7 @@
     .line 14
     .line 15
     .line 16
-    iget-object v1, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->f:Lgb/n;
+    iget-object v1, p0, Lcom/google/common/base/Predicates$CompositionPredicate;->f:Lcom/google/common/base/g;
 
     .line 17
     .line 18
@@ -491,13 +439,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

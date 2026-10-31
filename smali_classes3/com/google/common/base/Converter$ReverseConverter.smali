@@ -23,8 +23,7 @@
         "B:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/google/common/base/Converter<",
-        "TB;TA;>;",
+        "Lcom/google/common/base/Converter;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -38,8 +37,7 @@
 .field final original:Lcom/google/common/base/Converter;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/google/common/base/Converter<",
-            "TA;TB;>;"
+            "Lcom/google/common/base/Converter;"
         }
     .end annotation
 .end field
@@ -48,20 +46,11 @@
 # direct methods
 .method public constructor <init>(Lcom/google/common/base/Converter;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "original"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/google/common/base/Converter<",
-            "TA;TB;>;)V"
+            "Lcom/google/common/base/Converter;",
+            ")V"
         }
     .end annotation
 
@@ -94,33 +83,16 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public correctedDoBackward(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "a"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TA;)TB;"
         }
-    .end annotation
-
-    .annotation runtime Lgl/a;
     .end annotation
 
     .line 1
@@ -154,31 +126,14 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public correctedDoForward(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "b"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TB;)TA;"
         }
-    .end annotation
-
-    .annotation runtime Lgl/a;
     .end annotation
 
     .line 1
@@ -212,20 +167,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public doBackward(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "a"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TA;)TB;"
@@ -261,20 +206,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public doForward(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "b"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TB;)TA;"
@@ -310,23 +245,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "object"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Lcom/google/common/base/Converter$ReverseConverter;
@@ -372,7 +294,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public hashCode()I
@@ -409,7 +330,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public reverse()Lcom/google/common/base/Converter;
@@ -417,8 +337,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/google/common/base/Converter<",
-            "TA;TB;>;"
+            "Lcom/google/common/base/Converter;"
         }
     .end annotation
 
@@ -447,7 +366,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -492,5 +410,4 @@
     return-object v0
     .line 21
     .line 22
-    .line 23
 .end method

@@ -6,27 +6,14 @@
 .implements Lcom/qiyukf/pe;
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<Emit::",
-        "Landroid/os/Parcelable;",
-        "Subscriber::",
-        "Lcom/qiyukf/nf<",
-        "TEmit;>;>",
-        "Lcom/qiyukf/i<",
-        "Lcom/qiyukf/jf<",
-        "TEmit;>;>;"
-    }
-.end annotation
-
-
 # instance fields
 .field protected final c:Ljava/util/Set;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/Set<",
-            "TSubscriber;>;"
+            "Lcom/qiyukf/nf<",
+            "Ljava/lang/Object;",
+            ">;>;"
         }
     .end annotation
 .end field
@@ -43,7 +30,8 @@
         value = {
             "(",
             "Lcom/qiyukf/jf<",
-            "TEmit;>;)V"
+            "Landroid/os/Parcelable;",
+            ">;)V"
         }
     .end annotation
 
@@ -85,6 +73,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private a(Lcom/qiyukf/kf;Z)Z
@@ -97,7 +87,8 @@
         value = {
             "(",
             "Lcom/qiyukf/kf<",
-            "TEmit;>;Z)Z"
+            "Landroid/os/Parcelable;",
+            ">;Z)Z"
         }
     .end annotation
 
@@ -296,7 +287,8 @@
         value = {
             "(",
             "Lcom/qiyukf/kf<",
-            "TEmit;>;)V"
+            "Landroid/os/Parcelable;",
+            ">;)V"
         }
     .end annotation
 
@@ -345,7 +337,9 @@
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(TEmit;)Z"
+            "(",
+            "Landroid/os/Parcelable;",
+            ")Z"
         }
     .end annotation
 
@@ -389,7 +383,10 @@
     .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(TSubscriber;)Z"
+            "(",
+            "Lcom/qiyukf/nf<",
+            "Ljava/lang/Object;",
+            ">;)Z"
         }
     .end annotation
 

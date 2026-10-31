@@ -18,12 +18,10 @@
 
 
 # instance fields
-.field final synthetic $$this$callbackFlow:Lkotlinx/coroutines/channels/j;
+.field final synthetic $$this$callbackFlow:Lkotlinx/coroutines/channels/q;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlinx/coroutines/channels/j<",
-            "Landroid/graphics/Rect;",
-            ">;"
+            "Lkotlinx/coroutines/channels/q;"
         }
     .end annotation
 .end field
@@ -36,15 +34,12 @@
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/channels/j;Landroid/view/View;Landroid/view/ViewTreeObserver$OnScrollChangedListener;Landroid/view/View$OnLayoutChangeListener;)V
+.method public constructor <init>(Lkotlinx/coroutines/channels/q;Landroid/view/View;Landroid/view/ViewTreeObserver$OnScrollChangedListener;Landroid/view/View$OnLayoutChangeListener;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/j<",
-            "-",
-            "Landroid/graphics/Rect;",
-            ">;",
+            "Lkotlinx/coroutines/channels/q;",
             "Landroid/view/View;",
             "Landroid/view/ViewTreeObserver$OnScrollChangedListener;",
             "Landroid/view/View$OnLayoutChangeListener;",
@@ -53,7 +48,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;->$$this$callbackFlow:Lkotlinx/coroutines/channels/j;
+    iput-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;->$$this$callbackFlow:Lkotlinx/coroutines/channels/q;
 
     .line 2
     .line 3
@@ -293,28 +288,30 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
 # virtual methods
 .method public onViewAttachedToWindow(Landroid/view/View;)V
     .locals 1
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "v"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;->$$this$callbackFlow:Lkotlinx/coroutines/channels/j;
+    iget-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;->$$this$callbackFlow:Lkotlinx/coroutines/channels/q;
 
     .line 7
     .line 8
@@ -330,7 +327,7 @@
     move-result-object v0
 
     .line 14
-    invoke-interface {p1, v0}, Lkotlinx/coroutines/channels/k;->H(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lkotlinx/coroutines/channels/s;->z(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -413,21 +410,18 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onViewDetachedFromWindow(Landroid/view/View;)V
     .locals 2
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "v"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

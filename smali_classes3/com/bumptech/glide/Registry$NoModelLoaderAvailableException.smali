@@ -108,8 +108,8 @@
             "Ljava/lang/Object;",
             ">(TM;",
             "Ljava/util/List<",
-            "Li6/o<",
-            "TM;*>;>;)V"
+            "Ll0/n;",
+            ">;)V"
         }
     .end annotation
 

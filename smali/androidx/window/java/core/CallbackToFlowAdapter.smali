@@ -10,19 +10,13 @@
             "Ljava/util/Map<",
             "Landroidx/core/util/Consumer<",
             "*>;",
-            "Lkotlinx/coroutines/l;",
+            "Lkotlinx/coroutines/s1;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
 .field private final lock:Ljava/util/concurrent/locks/ReentrantLock;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -64,24 +58,13 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
-.method public final connect(Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;Ljn/e;)V
+.method public final connect(Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;Lkotlinx/coroutines/flow/c;)V
     .locals 8
-    .param p1    # Ljava/util/concurrent/Executor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/core/util/Consumer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljn/e;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -90,8 +73,8 @@
             "Ljava/util/concurrent/Executor;",
             "Landroidx/core/util/Consumer<",
             "TT;>;",
-            "Ljn/e<",
-            "+TT;>;)V"
+            "Lkotlinx/coroutines/flow/c;",
+            ")V"
         }
     .end annotation
 
@@ -100,7 +83,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -109,7 +92,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -118,7 +101,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -149,7 +132,7 @@
 
     .line 28
     .line 29
-    invoke-static {p1}, Lfn/j1;->c(Ljava/util/concurrent/Executor;)Lfn/f0;
+    invoke-static {p1}, Lkotlinx/coroutines/k1;->a(Ljava/util/concurrent/Executor;)Lkotlinx/coroutines/h0;
 
     .line 30
     .line 31
@@ -157,7 +140,7 @@
     move-result-object p1
 
     .line 33
-    invoke-static {p1}, Lkotlinx/coroutines/h;->a(Lkotlin/coroutines/d;)Lfn/i0;
+    invoke-static {p1}, Lkotlinx/coroutines/m0;->a(Lkotlin/coroutines/i;)Lkotlinx/coroutines/l0;
 
     .line 34
     .line 35
@@ -176,7 +159,7 @@
     const/4 v0, 0x0
 
     .line 42
-    invoke-direct {v5, p3, p2, v0}, Landroidx/window/java/core/CallbackToFlowAdapter$connect$1$1;-><init>(Ljn/e;Landroidx/core/util/Consumer;Lul/c;)V
+    invoke-direct {v5, p3, p2, v0}, Landroidx/window/java/core/CallbackToFlowAdapter$connect$1$1;-><init>(Lkotlinx/coroutines/flow/c;Landroidx/core/util/Consumer;Lkotlin/coroutines/e;)V
 
     .line 43
     .line 44
@@ -193,7 +176,7 @@
     const/4 v4, 0x0
 
     .line 49
-    invoke-static/range {v2 .. v7}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v2 .. v7}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 50
     .line 51
@@ -221,7 +204,7 @@
     .line 60
     :cond_0
     :goto_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -286,14 +269,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public final disconnect(Landroidx/core/util/Consumer;)V
     .locals 4
-    .param p1    # Landroidx/core/util/Consumer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -307,7 +289,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -334,7 +316,7 @@
     move-result-object v1
 
     .line 17
-    check-cast v1, Lkotlinx/coroutines/l;
+    check-cast v1, Lkotlinx/coroutines/s1;
 
     .line 18
     .line 19
@@ -348,7 +330,7 @@
     const/4 v3, 0x0
 
     .line 23
-    invoke-static {v1, v3, v2, v3}, Lkotlinx/coroutines/l$a;->b(Lkotlinx/coroutines/l;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
+    invoke-static {v1, v3, v2, v3}, Lkotlinx/coroutines/s1$a;->a(Lkotlinx/coroutines/s1;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
     .line 24
     .line 25
@@ -377,7 +359,7 @@
     move-result-object p1
 
     .line 35
-    check-cast p1, Lkotlinx/coroutines/l;
+    check-cast p1, Lkotlinx/coroutines/s1;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -432,4 +414,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

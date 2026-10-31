@@ -235,11 +235,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 
@@ -281,6 +276,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getItem(I)Ljava/lang/Object;
@@ -334,6 +331,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getItemId(I)J
@@ -497,6 +496,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getItems()Ljava/util/List;
@@ -532,6 +533,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTag()Ljava/lang/Object;
@@ -560,6 +563,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
@@ -663,6 +668,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isEnabled(I)Z
@@ -700,6 +707,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public isMutable()Z
@@ -728,6 +737,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onMutable(Z)V
@@ -865,6 +876,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onRefreshView(I)V
@@ -923,6 +936,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTag(Ljava/lang/Object;)V
@@ -956,6 +971,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public viewAtPosition(I)Landroid/view/View;
@@ -1088,4 +1105,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

@@ -62,6 +62,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static addNotifyListener(Lcom/taobao/agoo/BaseNotifyClickActivity$INotifyListener;)V
@@ -108,6 +110,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -161,6 +165,8 @@
     return-void
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onMessage(Landroid/content/Intent;)V
@@ -214,4 +220,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

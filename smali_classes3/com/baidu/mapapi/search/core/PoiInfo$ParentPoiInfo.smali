@@ -78,7 +78,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -194,7 +193,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParentPoiDirection()Ljava/lang/String;
@@ -225,7 +223,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParentPoiDistance()I
@@ -256,7 +253,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParentPoiLocation()Lcom/baidu/mapapi/model/LatLng;
@@ -287,7 +283,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParentPoiName()Ljava/lang/String;
@@ -318,7 +313,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParentPoiTag()Ljava/lang/String;
@@ -349,7 +343,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParentPoiUid()Ljava/lang/String;
@@ -380,7 +373,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setParentPoiAddress(Ljava/lang/String;)V
@@ -413,7 +405,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setParentPoiDirection(Ljava/lang/String;)V
@@ -446,7 +437,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setParentPoiDistance(I)V
@@ -479,7 +469,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setParentPoiLocation(Lcom/baidu/mapapi/model/LatLng;)V
@@ -512,7 +501,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setParentPoiName(Ljava/lang/String;)V
@@ -545,7 +533,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setParentPoiTag(Ljava/lang/String;)V
@@ -578,7 +565,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setParentPoiUid(Ljava/lang/String;)V
@@ -611,7 +597,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -706,9 +691,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

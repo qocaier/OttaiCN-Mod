@@ -48,23 +48,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;ILandroidx/datastore/preferences/protobuf/WireFormat$FieldType;ZZ)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "enumTypeMap",
-            "number",
-            "type",
-            "isRepeated",
-            "isPacked"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -617,14 +600,6 @@
 # virtual methods
 .method public compareTo(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "other"
-        }
-    .end annotation
 
     .line 2
     iget v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;->number:I
@@ -638,14 +613,6 @@
 
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "other"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
@@ -690,6 +657,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLiteJavaType()Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
@@ -722,6 +690,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLiteType()Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
@@ -750,6 +719,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNumber()I
@@ -778,20 +748,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public internalMergeFrom(Landroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "to",
-            "from"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
@@ -878,6 +839,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isRepeated()Z
@@ -906,4 +868,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

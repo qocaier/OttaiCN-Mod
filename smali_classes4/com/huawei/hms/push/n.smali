@@ -85,7 +85,7 @@
     .line 57
     const-string p2, "HwPushChannelID"
 
-    invoke-static {v0, p2}, Lk/d;->a(Landroid/app/Notification$Builder;Ljava/lang/String;)Landroid/app/Notification$Builder;
+    invoke-static {v0, p2}, Landroidx/browser/trusted/e;->a(Landroid/app/Notification$Builder;Ljava/lang/String;)Landroid/app/Notification$Builder;
 
     .line 58
     :cond_1
@@ -706,18 +706,18 @@
     move-result-object v4
 
     .line 30
-    invoke-static {}, Lb5/g;->a()V
+    invoke-static {}, Lw/g;->a()V
 
     const-string v5, "HwPushChannelID"
 
     const/4 v6, 0x3
 
-    invoke-static {v5, v4, v6}, Lk/e;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
+    invoke-static {v5, v4, v6}, Landroidx/browser/trusted/f;->a(Ljava/lang/String;Ljava/lang/CharSequence;I)Landroid/app/NotificationChannel;
 
     move-result-object v4
 
     .line 31
-    invoke-static {v3, v4}, Lk/c;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
+    invoke-static {v3, v4}, Landroidx/browser/trusted/d;->a(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
 
     .line 32
     :cond_7
@@ -1127,4 +1127,14 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method

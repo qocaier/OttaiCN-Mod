@@ -53,7 +53,7 @@
     .end array-data
 .end method
 
-.method constructor <init>(Lj$/time/temporal/o;IILj$/time/format/z;)V
+.method constructor <init>(Lj$/time/temporal/r;IILj$/time/format/z;)V
     .locals 0
 
     .line 2666
@@ -81,7 +81,7 @@
     return-void
 .end method
 
-.method protected constructor <init>(Lj$/time/temporal/o;IILj$/time/format/z;I)V
+.method protected constructor <init>(Lj$/time/temporal/r;IILj$/time/format/z;I)V
     .locals 0
 
     .line 2685
@@ -181,7 +181,7 @@
 
     const/4 v7, -0x1
 
-    invoke-direct/range {v2 .. v7}, Lj$/time/format/i;-><init>(Lj$/time/temporal/o;IILj$/time/format/z;I)V
+    invoke-direct/range {v2 .. v7}, Lj$/time/format/i;-><init>(Lj$/time/temporal/r;IILj$/time/format/z;I)V
 
     return-object v2
 .end method
@@ -204,7 +204,7 @@
 
     iget v2, p0, Lj$/time/format/i;->b:I
 
-    invoke-direct/range {v0 .. v5}, Lj$/time/format/i;-><init>(Lj$/time/temporal/o;IILj$/time/format/z;I)V
+    invoke-direct/range {v0 .. v5}, Lj$/time/format/i;-><init>(Lj$/time/temporal/r;IILj$/time/format/z;I)V
 
     return-object v0
 .end method
@@ -215,7 +215,7 @@
     .line 2718
     iget-object v0, p0, Lj$/time/format/i;->a:Ljava/lang/Enum;
 
-    invoke-virtual {p1, v0}, Lj$/time/format/t;->e(Lj$/time/temporal/o;)Ljava/lang/Long;
+    invoke-virtual {p1, v0}, Lj$/time/format/t;->e(Lj$/time/temporal/r;)Ljava/lang/Long;
 
     move-result-object v1
 
@@ -966,7 +966,7 @@
     move-object/from16 v2, p1
 
     .line 2898
-    invoke-virtual/range {v2 .. v7}, Lj$/time/format/q;->n(Lj$/time/temporal/o;JII)I
+    invoke-virtual/range {v2 .. v7}, Lj$/time/format/q;->n(Lj$/time/temporal/r;JII)I
 
     move-result v1
 
@@ -976,7 +976,7 @@
     move-object/from16 v2, p1
 
     .line 2898
-    invoke-virtual/range {v2 .. v7}, Lj$/time/format/q;->n(Lj$/time/temporal/o;JII)I
+    invoke-virtual/range {v2 .. v7}, Lj$/time/format/q;->n(Lj$/time/temporal/r;JII)I
 
     move-result v1
 

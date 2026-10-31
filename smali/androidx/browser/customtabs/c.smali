@@ -9,11 +9,13 @@
 # instance fields
 .field public final synthetic a:Landroidx/browser/auth/AuthTabCallback;
 
-.field public final synthetic b:Landroid/os/Bundle;
+.field public final synthetic b:Ljava/lang/String;
+
+.field public final synthetic c:Landroid/os/Bundle;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/browser/auth/AuthTabCallback;Landroid/os/Bundle;)V
+.method public synthetic constructor <init>(Landroidx/browser/auth/AuthTabCallback;Ljava/lang/String;Landroid/os/Bundle;)V
     .locals 0
 
     .line 1
@@ -21,7 +23,9 @@
 
     iput-object p1, p0, Landroidx/browser/customtabs/c;->a:Landroidx/browser/auth/AuthTabCallback;
 
-    iput-object p2, p0, Landroidx/browser/customtabs/c;->b:Landroid/os/Bundle;
+    iput-object p2, p0, Landroidx/browser/customtabs/c;->b:Ljava/lang/String;
+
+    iput-object p3, p0, Landroidx/browser/customtabs/c;->c:Landroid/os/Bundle;
 
     return-void
 .end method
@@ -29,14 +33,16 @@
 
 # virtual methods
 .method public final run()V
-    .locals 2
+    .locals 3
 
     .line 1
     iget-object v0, p0, Landroidx/browser/customtabs/c;->a:Landroidx/browser/auth/AuthTabCallback;
 
-    iget-object v1, p0, Landroidx/browser/customtabs/c;->b:Landroid/os/Bundle;
+    iget-object v1, p0, Landroidx/browser/customtabs/c;->b:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Landroidx/browser/customtabs/CustomTabsClient$2;->a(Landroidx/browser/auth/AuthTabCallback;Landroid/os/Bundle;)V
+    iget-object v2, p0, Landroidx/browser/customtabs/c;->c:Landroid/os/Bundle;
+
+    invoke-static {v0, v1, v2}, Landroidx/browser/customtabs/CustomTabsClient$2;->M(Landroidx/browser/auth/AuthTabCallback;Ljava/lang/String;Landroid/os/Bundle;)V
 
     return-void
 .end method

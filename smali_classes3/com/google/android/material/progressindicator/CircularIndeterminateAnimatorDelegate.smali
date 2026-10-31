@@ -244,15 +244,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public constructor <init>(Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;)V
@@ -307,7 +298,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/progressindicator/CircularIndeterminateAnimatorDelegate;)I
@@ -340,7 +330,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$002(Lcom/google/android/material/progressindicator/CircularIndeterminateAnimatorDelegate;I)I
@@ -409,11 +398,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/progressindicator/CircularIndeterminateAnimatorDelegate;)Lcom/google/android/material/progressindicator/BaseProgressIndicatorSpec;
@@ -446,7 +430,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$200(Lcom/google/android/material/progressindicator/CircularIndeterminateAnimatorDelegate;)F
@@ -481,7 +464,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$300(Lcom/google/android/material/progressindicator/CircularIndeterminateAnimatorDelegate;)F
@@ -516,7 +498,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$400(Lcom/google/android/material/progressindicator/CircularIndeterminateAnimatorDelegate;F)V
@@ -585,11 +566,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private getAnimationFraction()F
@@ -620,7 +596,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getCompleteEndFraction()F
@@ -651,7 +626,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private maybeInitializeAnimators()V
@@ -850,15 +824,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private maybeUpdateSegmentColors(I)V
@@ -1388,6 +1353,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private setCompleteEndFraction(F)V
@@ -1420,7 +1417,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private updateSegmentPositions(I)V
@@ -1947,6 +1943,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 
@@ -1984,7 +2012,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public invalidateSpecValues()V
@@ -2015,7 +2042,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public registerAnimatorsCompleteCallback(Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;)V
@@ -2052,7 +2078,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public requestCancelAnimatorAfterCurrentCycle()V
@@ -2191,15 +2216,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public resetPropertiesForNewStart()V
@@ -2336,15 +2352,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public setAnimationFraction(F)V
@@ -2393,7 +2400,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public startAnimator()V
@@ -2430,7 +2436,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public unregisterAnimatorsCompleteCallback()V
@@ -2463,5 +2468,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

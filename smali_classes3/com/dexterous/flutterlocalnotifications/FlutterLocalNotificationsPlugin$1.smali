@@ -1,5 +1,5 @@
 .class Lcom/dexterous/flutterlocalnotifications/FlutterLocalNotificationsPlugin$1;
-.super Lhc/a;
+.super Lj4/a;
 .source "SourceFile"
 
 
@@ -15,10 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lhc/a<",
-        "Ljava/util/ArrayList<",
-        "Lcom/dexterous/flutterlocalnotifications/models/NotificationDetails;",
-        ">;>;"
+        "Lj4/a;"
     }
 .end annotation
 
@@ -28,7 +25,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lhc/a;-><init>()V
+    invoke-direct {p0}, Lj4/a;-><init>()V
 
     .line 2
     .line 3
@@ -52,5 +49,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

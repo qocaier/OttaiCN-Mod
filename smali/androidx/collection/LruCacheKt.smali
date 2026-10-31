@@ -4,20 +4,8 @@
 
 
 # direct methods
-.method public static final lruCache(ILjm/p;Ljm/l;Ljm/r;)Landroidx/collection/LruCache;
+.method public static final lruCache(ILq8/p;Lq8/l;Lq8/r;)Landroidx/collection/LruCache;
     .locals 1
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/r;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -25,24 +13,13 @@
             "V:",
             "Ljava/lang/Object;",
             ">(I",
-            "Ljm/p<",
-            "-TK;-TV;",
-            "Ljava/lang/Integer;",
-            ">;",
-            "Ljm/l<",
-            "-TK;+TV;>;",
-            "Ljm/r<",
-            "-",
-            "Ljava/lang/Boolean;",
-            "-TK;-TV;-TV;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/p;",
+            "Lq8/l;",
+            "Lq8/r;",
+            ")",
             "Landroidx/collection/LruCache<",
             "TK;TV;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -50,7 +27,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -59,7 +36,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -68,7 +45,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -77,7 +54,7 @@
 
     .line 17
     .line 18
-    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/collection/LruCacheKt$lruCache$4;-><init>(ILjm/p;Ljm/l;Ljm/r;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/collection/LruCacheKt$lruCache$4;-><init>(ILq8/p;Lq8/l;Lq8/r;)V
 
     .line 19
     .line 20
@@ -292,9 +269,15 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static synthetic lruCache$default(ILjm/p;Ljm/l;Ljm/r;ILjava/lang/Object;)Landroidx/collection/LruCache;
+.method public static synthetic lruCache$default(ILq8/p;Lq8/l;Lq8/r;ILjava/lang/Object;)Landroidx/collection/LruCache;
     .locals 0
 
     .line 1
@@ -341,7 +324,7 @@
 
     .line 20
     .line 21
-    invoke-static {p1, p4}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -350,7 +333,7 @@
 
     .line 25
     .line 26
-    invoke-static {p2, p4}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -359,7 +342,7 @@
 
     .line 30
     .line 31
-    invoke-static {p3, p4}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -368,7 +351,7 @@
 
     .line 35
     .line 36
-    invoke-direct {p4, p0, p1, p2, p3}, Landroidx/collection/LruCacheKt$lruCache$4;-><init>(ILjm/p;Ljm/l;Ljm/r;)V
+    invoke-direct {p4, p0, p1, p2, p3}, Landroidx/collection/LruCacheKt$lruCache$4;-><init>(ILq8/p;Lq8/l;Lq8/r;)V
 
     .line 37
     .line 38

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/window/core/ConsumerAdapter;->createSubscription(Ljava/lang/Object;Lum/d;Ljava/lang/String;Ljava/lang/String;Landroid/app/Activity;Ljm/l;)Landroidx/window/core/ConsumerAdapter$Subscription;
+    value = Landroidx/window/core/ConsumerAdapter;->createSubscription(Ljava/lang/Object;Lkotlin/reflect/c;Ljava/lang/String;Ljava/lang/String;Landroid/app/Activity;Lq8/l;)Landroidx/window/core/ConsumerAdapter$Subscription;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -151,6 +151,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -191,4 +194,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

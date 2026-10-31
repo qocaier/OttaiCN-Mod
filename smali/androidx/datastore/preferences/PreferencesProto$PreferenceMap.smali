@@ -98,6 +98,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -132,6 +133,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$000()Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;
@@ -160,6 +162,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$100(Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;)Ljava/util/Map;
@@ -223,6 +226,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getMutablePreferencesMap()Ljava/util/Map;
@@ -262,6 +266,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private internalGetMutablePreferences()Landroidx/datastore/preferences/protobuf/MapFieldLite;
@@ -316,6 +321,7 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
 .end method
 
 .method private internalGetPreferences()Landroidx/datastore/preferences/protobuf/MapFieldLite;
@@ -353,6 +359,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static newBuilder()Landroidx/datastore/preferences/PreferencesProto$PreferenceMap$Builder;
@@ -663,6 +670,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -949,6 +957,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getPreferences()Ljava/util/Map;
@@ -991,6 +1002,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreferencesCount()I
@@ -1025,6 +1037,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreferencesMap()Ljava/util/Map;
@@ -1068,6 +1081,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreferencesOrDefault(Ljava/lang/String;Landroidx/datastore/preferences/PreferencesProto$Value;)Landroidx/datastore/preferences/PreferencesProto$Value;
@@ -1252,4 +1266,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

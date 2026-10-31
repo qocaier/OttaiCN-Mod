@@ -1,9 +1,6 @@
-.class public interface abstract annotation Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$a;
+.class public Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
-
-# interfaces
-.implements Ljava/lang/annotation/Annotation;
 
 
 # annotations
@@ -12,28 +9,88 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x2609
+    accessFlags = 0x9
     name = "a"
 .end annotation
 
-.annotation runtime Ljava/lang/annotation/Retention;
-    value = .enum Ljava/lang/annotation/RetentionPolicy;->CLASS:Ljava/lang/annotation/RetentionPolicy;
-.end annotation
+
+# instance fields
+.field public final a:J
+
+.field public final b:J
 
 
-# static fields
-.field public static final h:I = 0x0
+# direct methods
+.method public constructor <init>(JJ)V
+    .locals 0
 
-.field public static final i:I = 0x1
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-.field public static final j:I = 0x2
+    .line 2
+    .line 3
+    .line 4
+    invoke-static {p3, p4}, Lt2/j;->i(J)J
 
-.field public static final k:I = 0x3
+    .line 5
+    .line 6
+    .line 7
+    iput-wide p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$a;->a:J
 
-.field public static final l:I = 0x4
+    .line 8
+    .line 9
+    iput-wide p3, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$a;->b:J
 
-.field public static final m:I = 0x5
-
-.field public static final n:I = 0x6
-
-.field public static final o:I = 0x7
+    .line 10
+    .line 11
+    return-void
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+.end method

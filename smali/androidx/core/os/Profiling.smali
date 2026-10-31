@@ -3,42 +3,18 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lim/j;
-    name = "Profiling"
-.end annotation
-
-
 # static fields
 .field private static final KEY_BUFFER_FILL_POLICY:Ljava/lang/String; = "KEY_BUFFER_FILL_POLICY"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final KEY_DURATION_MS:Ljava/lang/String; = "KEY_DURATION_MS"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final KEY_FREQUENCY_HZ:Ljava/lang/String; = "KEY_FREQUENCY_HZ"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final KEY_SAMPLING_INTERVAL_BYTES:Ljava/lang/String; = "KEY_SAMPLING_INTERVAL_BYTES"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final KEY_SIZE_KB:Ljava/lang/String; = "KEY_SIZE_KB"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final KEY_TRACK_JAVA_ALLOCATIONS:Ljava/lang/String; = "KEY_TRACK_JAVA_ALLOCATIONS"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final VALUE_BUFFER_FILL_POLICY_DISCARD:I = 0x1
 
@@ -46,12 +22,8 @@
 
 
 # direct methods
-.method public static final registerForAllProfilingResults(Landroid/content/Context;)Ljn/e;
+.method public static final registerForAllProfilingResults(Landroid/content/Context;)Lkotlinx/coroutines/flow/c;
     .locals 2
-    .param p0    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         api = 0x23
     .end annotation
@@ -61,27 +33,22 @@
             "(",
             "Landroid/content/Context;",
             ")",
-            "Ljn/e<",
-            "Landroid/os/ProfilingResult;",
-            ">;"
+            "Lkotlinx/coroutines/flow/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, v1}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;-><init>(Landroid/content/Context;Lul/c;)V
+    invoke-direct {v0, p0, v1}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;-><init>(Landroid/content/Context;Lkotlin/coroutines/e;)V
 
-    invoke-static {v0}, Ljn/g;->t(Ljm/p;)Ljn/e;
+    invoke-static {v0}, Lkotlinx/coroutines/flow/e;->f(Lq8/p;)Lkotlinx/coroutines/flow/c;
 
     move-result-object p0
 
@@ -90,18 +57,6 @@
 
 .method public static final registerForAllProfilingResults(Landroid/content/Context;Ljava/util/concurrent/Executor;Ljava/util/function/Consumer;)V
     .locals 1
-    .param p0    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/util/concurrent/Executor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/util/function/Consumer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         api = 0x23
     .end annotation
@@ -119,18 +74,18 @@
 
     const-string v0, "context"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "executor"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "listener"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-static {}, Lx0/c;->a()Ljava/lang/Class;
+    invoke-static {}, Landroidx/core/os/c;->a()Ljava/lang/Class;
 
     move-result-object v0
 
@@ -138,34 +93,18 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lx0/d;->a(Ljava/lang/Object;)Landroid/os/ProfilingManager;
+    invoke-static {p0}, Landroidx/core/os/d;->a(Ljava/lang/Object;)Landroid/os/ProfilingManager;
 
     move-result-object p0
 
     .line 3
-    invoke-static {p0, p1, p2}, Lx0/g;->a(Landroid/os/ProfilingManager;Ljava/util/concurrent/Executor;Ljava/util/function/Consumer;)V
+    invoke-static {p0, p1, p2}, Landroidx/core/os/g;->a(Landroid/os/ProfilingManager;Ljava/util/concurrent/Executor;Ljava/util/function/Consumer;)V
 
     return-void
 .end method
 
 .method public static final requestProfiling(Landroid/content/Context;Landroidx/core/os/ProfilingRequest;Ljava/util/concurrent/Executor;Ljava/util/function/Consumer;)V
     .locals 7
-    .param p0    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/core/os/ProfilingRequest;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/util/concurrent/Executor;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p3    # Ljava/util/function/Consumer;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         api = 0x23
     .end annotation
@@ -187,7 +126,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -196,12 +135,12 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {}, Lx0/c;->a()Ljava/lang/Class;
+    invoke-static {}, Landroidx/core/os/c;->a()Ljava/lang/Class;
 
     .line 12
     .line 13
@@ -217,7 +156,7 @@
     move-result-object p0
 
     .line 19
-    invoke-static {p0}, Lx0/d;->a(Ljava/lang/Object;)Landroid/os/ProfilingManager;
+    invoke-static {p0}, Landroidx/core/os/d;->a(Ljava/lang/Object;)Landroid/os/ProfilingManager;
 
     .line 20
     .line 21
@@ -263,7 +202,7 @@
     move-object v6, p3
 
     .line 41
-    invoke-static/range {v0 .. v6}, Lx0/f;->a(Landroid/os/ProfilingManager;ILandroid/os/Bundle;Ljava/lang/String;Landroid/os/CancellationSignal;Ljava/util/concurrent/Executor;Ljava/util/function/Consumer;)V
+    invoke-static/range {v0 .. v6}, Landroidx/core/os/f;->a(Landroid/os/ProfilingManager;ILandroid/os/Bundle;Ljava/lang/String;Landroid/os/CancellationSignal;Ljava/util/concurrent/Executor;Ljava/util/function/Consumer;)V
 
     .line 42
     .line 43
@@ -455,18 +394,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static final unregisterForAllProfilingResults(Landroid/content/Context;Ljava/util/function/Consumer;)V
     .locals 1
-    .param p0    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/util/function/Consumer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         api = 0x23
     .end annotation
@@ -486,7 +423,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -495,12 +432,12 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {}, Lx0/c;->a()Ljava/lang/Class;
+    invoke-static {}, Landroidx/core/os/c;->a()Ljava/lang/Class;
 
     .line 12
     .line 13
@@ -516,7 +453,7 @@
     move-result-object p0
 
     .line 19
-    invoke-static {p0}, Lx0/d;->a(Ljava/lang/Object;)Landroid/os/ProfilingManager;
+    invoke-static {p0}, Landroidx/core/os/d;->a(Ljava/lang/Object;)Landroid/os/ProfilingManager;
 
     .line 20
     .line 21
@@ -524,7 +461,7 @@
     move-result-object p0
 
     .line 23
-    invoke-static {p0, p1}, Lx0/e;->a(Landroid/os/ProfilingManager;Ljava/util/function/Consumer;)V
+    invoke-static {p0, p1}, Landroidx/core/os/e;->a(Landroid/os/ProfilingManager;Ljava/util/function/Consumer;)V
 
     .line 24
     .line 25

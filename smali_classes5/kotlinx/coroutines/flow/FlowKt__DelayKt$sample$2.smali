@@ -3,81 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/q;
+.implements Lq8/q;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/flow/FlowKt__DelayKt;->k(Ljn/e;J)Ljn/e;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = null
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Ljm/q<",
-        "Lfn/i0;",
-        "Ljn/f<",
-        "-TT;>;",
-        "Lul/c<",
-        "-",
-        "Ljl/e2;",
-        ">;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lq8/q;"
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDelay.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Delay.kt\nkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2\n+ 2 Select.kt\nkotlinx/coroutines/selects/SelectKt\n*L\n1#1,407:1\n54#2,5:408\n*S KotlinDebug\n*F\n+ 1 Delay.kt\nkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2\n*L\n278#1:408,5\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nDelay.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Delay.kt\nkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2\n+ 2 Select.kt\nkotlinx/coroutines/selects/SelectKt\n*L\n1#1,407:1\n54#2,5:408\n*S KotlinDebug\n*F\n+ 1 Delay.kt\nkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2\n*L\n278#1:408,5\n*E\n"
-    }
-.end annotation
-
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "kotlinx.coroutines.flow.FlowKt__DelayKt$sample$2"
     f = "Delay.kt"
-    i = {
-        0x0,
-        0x0,
-        0x0,
-        0x0
-    }
     l = {
         0x19c
     }
     m = "invokeSuspend"
-    n = {
-        "downstream",
-        "values",
-        "lastValue",
-        "ticker"
-    }
-    s = {
-        "L$0",
-        "L$1",
-        "L$2",
-        "L$3"
-    }
 .end annotation
 
 
 # instance fields
 .field final synthetic $periodMillis:J
 
-.field final synthetic $this_sample:Ljn/e;
+.field final synthetic $this_sample:Lkotlinx/coroutines/flow/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljn/e<",
-            "TT;>;"
+            "Lkotlinx/coroutines/flow/c;"
         }
     .end annotation
 .end field
@@ -94,160 +47,76 @@
 
 
 # direct methods
-.method public constructor <init>(JLjn/e;Lul/c;)V
+.method public constructor <init>(JLkotlinx/coroutines/flow/c;Lkotlin/coroutines/e;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(J",
-            "Ljn/e<",
-            "+TT;>;",
-            "Lul/c<",
-            "-",
-            "Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;",
-            ">;)V"
+            "Lkotlinx/coroutines/flow/c;",
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
-    .line 1
     iput-wide p1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->$periodMillis:J
 
-    .line 2
-    .line 3
-    iput-object p3, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->$this_sample:Ljn/e;
+    iput-object p3, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->$this_sample:Lkotlinx/coroutines/flow/c;
 
-    .line 4
-    .line 5
     const/4 p1, 0x3
 
-    .line 6
-    invoke-direct {p0, p1, p4}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILul/c;)V
+    invoke-direct {p0, p1, p4}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/e;)V
 
-    .line 7
-    .line 8
-    .line 9
     return-void
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
 .end method
 
 
 # virtual methods
-.method public final invoke(Lfn/i0;Ljn/f;Lul/c;)Ljava/lang/Object;
-    .locals 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lfn/i0;",
-            "Ljn/f<",
-            "-TT;>;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
 
     .line 1
-    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;
+    check-cast p1, Lkotlinx/coroutines/l0;
 
-    iget-wide v1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->$periodMillis:J
+    check-cast p2, Lkotlinx/coroutines/flow/d;
 
-    iget-object v3, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->$this_sample:Ljn/e;
+    check-cast p3, Lkotlin/coroutines/e;
 
-    invoke-direct {v0, v1, v2, v3, p3}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;-><init>(JLjn/e;Lul/c;)V
-
-    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->L$0:Ljava/lang/Object;
-
-    iput-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->L$1:Ljava/lang/Object;
-
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
-
-    invoke-virtual {v0, p1}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->invoke(Lkotlinx/coroutines/l0;Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 0
+.method public final invoke(Lkotlinx/coroutines/l0;Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/e;)Ljava/lang/Object;
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlinx/coroutines/l0;",
+            "Lkotlinx/coroutines/flow/d;",
+            "Lkotlin/coroutines/e;",
+            ")",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
 
     .line 2
-    check-cast p1, Lfn/i0;
+    new-instance v0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;
 
-    check-cast p2, Ljn/f;
+    iget-wide v1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->$periodMillis:J
 
-    check-cast p3, Lul/c;
+    iget-object v3, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->$this_sample:Lkotlinx/coroutines/flow/c;
 
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->invoke(Lfn/i0;Ljn/f;Lul/c;)Ljava/lang/Object;
+    invoke-direct {v0, v1, v2, v3, p3}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;-><init>(JLkotlinx/coroutines/flow/c;Lkotlin/coroutines/e;)V
+
+    iput-object p1, v0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->L$0:Ljava/lang/Object;
+
+    iput-object p2, v0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->L$1:Ljava/lang/Object;
+
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
+
+    invoke-virtual {v0, p1}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -258,7 +127,7 @@
     .locals 10
 
     .line 1
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -312,11 +181,11 @@
 
     .line 26
     .line 27
-    check-cast v6, Ljn/f;
+    check-cast v6, Lkotlinx/coroutines/flow/d;
 
     .line 28
     .line 29
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 30
     .line 31
@@ -342,7 +211,7 @@
 
     .line 41
     :cond_1
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 42
     .line 43
@@ -354,7 +223,7 @@
     move-object v4, p1
 
     .line 47
-    check-cast v4, Lfn/i0;
+    check-cast v4, Lkotlinx/coroutines/l0;
 
     .line 48
     .line 49
@@ -362,7 +231,7 @@
 
     .line 50
     .line 51
-    check-cast p1, Ljn/f;
+    check-cast p1, Lkotlinx/coroutines/flow/d;
 
     .line 52
     .line 53
@@ -370,11 +239,11 @@
 
     .line 54
     .line 55
-    iget-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->$this_sample:Ljn/e;
+    iget-object v1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2;->$this_sample:Lkotlinx/coroutines/flow/c;
 
     .line 56
     .line 57
-    invoke-direct {v7, v1, v3}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$values$1;-><init>(Ljn/e;Lul/c;)V
+    invoke-direct {v7, v1, v3}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$values$1;-><init>(Lkotlinx/coroutines/flow/c;Lkotlin/coroutines/e;)V
 
     .line 58
     .line 59
@@ -391,7 +260,7 @@
     const/4 v6, -0x1
 
     .line 64
-    invoke-static/range {v4 .. v9}, Lkotlinx/coroutines/channels/ProduceKt;->h(Lfn/i0;Lkotlin/coroutines/d;ILjm/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/ReceiveChannel;
+    invoke-static/range {v4 .. v9}, Lkotlinx/coroutines/channels/ProduceKt;->e(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;ILq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/channels/ReceiveChannel;
 
     .line 65
     .line 66
@@ -412,7 +281,7 @@
 
     .line 74
     .line 75
-    invoke-static {v4, v6, v7}, Ljn/g;->A0(Lfn/i0;J)Lkotlinx/coroutines/channels/ReceiveChannel;
+    invoke-static {v4, v6, v7}, Lkotlinx/coroutines/flow/e;->w(Lkotlinx/coroutines/l0;J)Lkotlinx/coroutines/channels/ReceiveChannel;
 
     .line 76
     .line 77
@@ -441,7 +310,7 @@
 
     .line 85
     .line 86
-    sget-object v7, Lkn/l;->c:Lmn/u0;
+    sget-object v7, Lkotlinx/coroutines/flow/internal/n;->c:Lkotlinx/coroutines/internal/b0;
 
     .line 87
     .line 88
@@ -453,7 +322,7 @@
 
     .line 91
     .line 92
-    invoke-interface {p0}, Lul/c;->getContext()Lkotlin/coroutines/d;
+    invoke-interface {p0}, Lkotlin/coroutines/e;->getContext()Lkotlin/coroutines/i;
 
     .line 93
     .line 94
@@ -461,12 +330,12 @@
     move-result-object v7
 
     .line 96
-    invoke-direct {p1, v7}, Lkotlinx/coroutines/selects/SelectImplementation;-><init>(Lkotlin/coroutines/d;)V
+    invoke-direct {p1, v7}, Lkotlinx/coroutines/selects/SelectImplementation;-><init>(Lkotlin/coroutines/i;)V
 
     .line 97
     .line 98
     .line 99
-    invoke-interface {v5}, Lkotlinx/coroutines/channels/ReceiveChannel;->L()Lpn/e;
+    invoke-interface {v5}, Lkotlinx/coroutines/channels/ReceiveChannel;->H()Lkotlinx/coroutines/selects/g;
 
     .line 100
     .line 101
@@ -478,17 +347,17 @@
 
     .line 104
     .line 105
-    invoke-direct {v8, v4, v1, v3}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$1$1;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlinx/coroutines/channels/ReceiveChannel;Lul/c;)V
+    invoke-direct {v8, v4, v1, v3}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$1$1;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlinx/coroutines/channels/ReceiveChannel;Lkotlin/coroutines/e;)V
 
     .line 106
     .line 107
     .line 108
-    invoke-interface {p1, v7, v8}, Lkotlinx/coroutines/selects/a;->c(Lpn/e;Ljm/p;)V
+    invoke-interface {p1, v7, v8}, Lkotlinx/coroutines/selects/c;->d(Lkotlinx/coroutines/selects/g;Lq8/p;)V
 
     .line 109
     .line 110
     .line 111
-    invoke-interface {v1}, Lkotlinx/coroutines/channels/ReceiveChannel;->K()Lpn/e;
+    invoke-interface {v1}, Lkotlinx/coroutines/channels/ReceiveChannel;->F()Lkotlinx/coroutines/selects/g;
 
     .line 112
     .line 113
@@ -500,12 +369,12 @@
 
     .line 116
     .line 117
-    invoke-direct {v8, v4, v6, v3}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$1$2;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Ljn/f;Lul/c;)V
+    invoke-direct {v8, v4, v6, v3}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$1$2;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/e;)V
 
     .line 118
     .line 119
     .line 120
-    invoke-interface {p1, v7, v8}, Lkotlinx/coroutines/selects/a;->c(Lpn/e;Ljm/p;)V
+    invoke-interface {p1, v7, v8}, Lkotlinx/coroutines/selects/c;->d(Lkotlinx/coroutines/selects/g;Lq8/p;)V
 
     .line 121
     .line 122
@@ -530,7 +399,7 @@
 
     .line 132
     .line 133
-    invoke-virtual {p1, p0}, Lkotlinx/coroutines/selects/SelectImplementation;->w(Lul/c;)Ljava/lang/Object;
+    invoke-virtual {p1, p0}, Lkotlinx/coroutines/selects/SelectImplementation;->p(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 134
     .line 135
@@ -546,7 +415,7 @@
 
     .line 140
     :cond_3
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 141
     .line 142
@@ -723,4 +592,124 @@
     .line 312
     .line 313
     .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
 .end method

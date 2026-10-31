@@ -46,6 +46,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getInstance()Landroidx/webkit/ProxyController;
@@ -93,6 +94,7 @@
     .line 19
     throw v0
     .line 20
+    .line 21
 .end method
 
 

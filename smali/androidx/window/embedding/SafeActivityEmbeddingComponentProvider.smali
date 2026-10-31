@@ -5,48 +5,24 @@
 
 # instance fields
 .field private final consumerAdapter:Landroidx/window/core/ConsumerAdapter;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final loader:Ljava/lang/ClassLoader;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final safeWindowExtensionsProvider:Landroidx/window/SafeWindowExtensionsProvider;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final windowExtensions:Landroidx/window/extensions/WindowExtensions;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/ClassLoader;Landroidx/window/core/ConsumerAdapter;Landroidx/window/extensions/WindowExtensions;)V
     .locals 1
-    .param p1    # Ljava/lang/ClassLoader;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/core/ConsumerAdapter;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroidx/window/extensions/WindowExtensions;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "loader"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -55,7 +31,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -64,7 +40,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -181,6 +157,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final synthetic access$getActivityEmbeddingComponentClass(Landroidx/window/embedding/SafeActivityEmbeddingComponentProvider;)Ljava/lang/Class;
@@ -415,6 +394,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private final getActivityEmbeddingComponentClass()Ljava/lang/Class;
@@ -448,7 +429,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -460,6 +441,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final isActivityEmbeddingComponentValid()Z
@@ -479,7 +461,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 9
     .line 10
@@ -496,6 +478,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final isMethodClearSplitInfoCallbackValid()Z
@@ -515,7 +498,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 9
     .line 10
@@ -532,6 +515,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final isMethodIsActivityEmbeddedValid()Z
@@ -551,7 +535,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 9
     .line 10
@@ -568,6 +552,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final isMethodSetEmbeddingRulesValid()Z
@@ -587,7 +572,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 9
     .line 10
@@ -604,6 +589,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final isMethodSetSplitInfoCallbackJavaConsumerValid()Z
@@ -623,7 +609,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 9
     .line 10
@@ -640,6 +626,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final isMethodSetSplitInfoCallbackWindowConsumerValid()Z
@@ -659,7 +646,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 9
     .line 10
@@ -676,6 +663,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final isMethodSplitAttributesCalculatorValid()Z
@@ -695,7 +683,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 9
     .line 10
@@ -712,14 +700,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final getActivityEmbeddingComponent()Landroidx/window/extensions/embedding/ActivityEmbeddingComponent;
     .locals 2
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Landroidx/window/embedding/SafeActivityEmbeddingComponentProvider;->canUseActivityEmbeddingComponent()Z
@@ -761,6 +748,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final hasValidVendorApiLevel1$window_release()Z
@@ -878,6 +866,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final hasValidVendorApiLevel2$window_release()Z
@@ -1001,6 +991,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final isActivityEmbeddingComponentAccessible$window_release()Z
@@ -1050,4 +1042,5 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method

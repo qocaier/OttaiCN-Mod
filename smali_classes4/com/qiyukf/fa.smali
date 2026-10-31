@@ -181,6 +181,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static a()Lcom/qiyukf/fa;
@@ -407,6 +408,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static e(Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;)Z
@@ -541,6 +544,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 

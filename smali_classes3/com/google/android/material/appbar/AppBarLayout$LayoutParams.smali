@@ -278,7 +278,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -313,7 +312,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScrollFlags()I
@@ -344,7 +342,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScrollInterpolator()Landroid/view/animation/Interpolator;
@@ -375,7 +372,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isCollapsible()Z
@@ -421,7 +417,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setScrollEffect(I)V
@@ -480,7 +475,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScrollInterpolator(Landroid/view/animation/Interpolator;)V
@@ -513,5 +507,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

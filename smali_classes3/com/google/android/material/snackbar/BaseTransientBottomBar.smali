@@ -305,15 +305,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;Landroid/view/View;Lcom/google/android/material/snackbar/ContentViewCallback;)V
@@ -619,7 +610,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)I
@@ -654,7 +644,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1200(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
@@ -687,7 +676,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1300(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
@@ -720,7 +708,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1400(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)I
@@ -753,7 +740,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1500(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)I
@@ -786,7 +772,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1600(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)Lcom/google/android/material/snackbar/ContentViewCallback;
@@ -819,7 +804,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1700()Z
@@ -850,7 +834,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic access$1800(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)I
@@ -883,7 +866,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1900(ILcom/google/android/material/shape/ShapeAppearanceModel;)Lcom/google/android/material/shape/MaterialShapeDrawable;
@@ -954,11 +936,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$200(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)I
@@ -991,7 +968,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$2000(ILandroid/content/res/Resources;)Landroid/graphics/drawable/GradientDrawable;
@@ -1062,11 +1038,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$2100(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)Z
@@ -1099,7 +1070,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$2200(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
@@ -1132,7 +1102,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$302(Lcom/google/android/material/snackbar/BaseTransientBottomBar;I)I
@@ -1201,11 +1170,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$400()Ljava/lang/String;
@@ -1236,7 +1200,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic access$602(Lcom/google/android/material/snackbar/BaseTransientBottomBar;I)I
@@ -1305,11 +1268,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$702(Lcom/google/android/material/snackbar/BaseTransientBottomBar;I)I
@@ -1378,11 +1336,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$802(Lcom/google/android/material/snackbar/BaseTransientBottomBar;I)I
@@ -1451,11 +1404,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$900(Lcom/google/android/material/snackbar/BaseTransientBottomBar;)V
@@ -1488,7 +1436,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private animateViewOut(I)V
@@ -1536,7 +1483,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private calculateBottomMarginForAnchorView()I
@@ -1686,15 +1632,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private static createGradientDrawableBackground(ILandroid/content/res/Resources;)Landroid/graphics/drawable/GradientDrawable;
@@ -1789,11 +1726,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static createMaterialShapeDrawableBackground(ILcom/google/android/material/shape/ShapeAppearanceModel;)Lcom/google/android/material/shape/MaterialShapeDrawable;
@@ -1880,11 +1812,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private varargs getAlphaAnimator([F)Landroid/animation/ValueAnimator;
@@ -1929,7 +1856,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private varargs getScaleAnimator([F)Landroid/animation/ValueAnimator;
@@ -1974,7 +1900,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getTranslationYBottom()I
@@ -2026,7 +1951,6 @@
     .line 22
     :cond_0
     return v0
-    .line 23
 .end method
 
 .method private getViewAbsoluteBottom()I
@@ -2075,7 +1999,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private isSwipeDismissable()Z
@@ -2209,15 +2132,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private recalculateAndUpdateMargins()V
@@ -2254,7 +2168,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private setUpBehavior(Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;)V
@@ -2391,8 +2304,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private shouldUpdateGestureInset()Z
@@ -2442,7 +2353,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private showViewImpl()V
@@ -2577,15 +2487,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private startFadeInAnimation()V
@@ -2754,15 +2655,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private startFadeOutAnimation(I)V
@@ -2890,8 +2782,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private startSlideInAnimation()V
@@ -3056,15 +2946,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private startSlideOutAnimation(I)V
@@ -3202,8 +3083,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private updateMargins()V
@@ -4054,6 +3933,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 
@@ -4120,7 +4058,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public animateViewIn()V
@@ -4157,7 +4094,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public dismiss()V
@@ -4190,7 +4126,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public dispatchDismiss(I)V
@@ -4229,7 +4164,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getAnchorView()Landroid/view/View;
@@ -4273,7 +4207,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnimationMode()I
@@ -4308,7 +4241,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBehavior()Lcom/google/android/material/snackbar/BaseTransientBottomBar$Behavior;
@@ -4339,7 +4271,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContext()Landroid/content/Context;
@@ -4372,7 +4303,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDuration()I
@@ -4403,7 +4333,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getNewBehavior()Lcom/google/android/material/behavior/SwipeDismissBehavior;
@@ -4448,7 +4377,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSnackbarBaseLayoutResId()I
@@ -4492,7 +4420,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getView()Landroid/view/View;
@@ -4525,7 +4452,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hasSnackbarStyleAttr()Z
@@ -4579,7 +4505,6 @@
     .line 22
     :cond_0
     return v1
-    .line 23
 .end method
 
 .method public final hideView(I)V
@@ -4631,7 +4556,6 @@
     return-void
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isAnchorViewLayoutListenerEnabled()Z
@@ -4662,7 +4586,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isGestureInsetBottomIgnored()Z
@@ -4693,7 +4616,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isShown()Z
@@ -4732,7 +4654,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isShownOrQueued()Z
@@ -4771,7 +4692,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAttachedToWindow()V
@@ -4806,7 +4726,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0}, Lc1/h2;->a(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/view/l2;->a(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
 
     .line 16
     .line 17
@@ -4814,7 +4734,7 @@
     move-result-object v0
 
     .line 19
-    invoke-static {v0}, Lh/f;->a(Landroid/graphics/Insets;)I
+    invoke-static {v0}, Landroidx/appcompat/widget/f;->a(Landroid/graphics/Insets;)I
 
     .line 20
     .line 21
@@ -4905,15 +4825,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onDetachedFromWindow()V
@@ -4957,7 +4868,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onLayoutChange()V
@@ -4997,7 +4907,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onViewHidden(I)V
@@ -5148,8 +5057,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onViewShown()V
@@ -5292,15 +5199,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public removeCallback(Lcom/google/android/material/snackbar/BaseTransientBottomBar$BaseCallback;)Lcom/google/android/material/snackbar/BaseTransientBottomBar;
@@ -5360,7 +5258,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAnchorView(I)Lcom/google/android/material/snackbar/BaseTransientBottomBar;
@@ -5491,7 +5388,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAnimationMode(I)Lcom/google/android/material/snackbar/BaseTransientBottomBar;
@@ -5534,7 +5430,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBehavior(Lcom/google/android/material/snackbar/BaseTransientBottomBar$Behavior;)Lcom/google/android/material/snackbar/BaseTransientBottomBar;
@@ -5577,7 +5472,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDuration(I)Lcom/google/android/material/snackbar/BaseTransientBottomBar;
@@ -5618,7 +5512,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGestureInsetBottomIgnored(Z)Lcom/google/android/material/snackbar/BaseTransientBottomBar;
@@ -5659,7 +5552,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public shouldAnimate()Z
@@ -5714,7 +5606,6 @@
     .line 21
     return v0
     .line 22
-    .line 23
 .end method
 
 .method public show()V
@@ -5755,7 +5646,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final showView()V
@@ -5917,13 +5807,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

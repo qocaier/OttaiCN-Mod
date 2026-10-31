@@ -264,6 +264,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -378,6 +380,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public canSkipToEnd()Z
@@ -421,6 +424,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAcceleration(FF)F
@@ -509,6 +513,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isAtEquilibrium(FF)Z
@@ -741,6 +746,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public start()V
@@ -781,6 +788,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public updateValueAndVelocity(J)Z
@@ -1196,4 +1204,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

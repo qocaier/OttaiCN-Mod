@@ -70,6 +70,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPkgName()Ljava/lang/String;
@@ -98,6 +100,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getProfileId()Ljava/lang/String;
@@ -126,6 +130,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSubjectId()Ljava/lang/String;
@@ -154,6 +160,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getType()I
@@ -182,6 +190,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setOperation(I)V
@@ -215,6 +225,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPkgName(Ljava/lang/String;)V
@@ -248,6 +260,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setProfileId(Ljava/lang/String;)V
@@ -281,6 +295,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSubjectId(Ljava/lang/String;)V
@@ -314,6 +330,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setType(I)V
@@ -347,6 +365,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -383,98 +403,98 @@
     .line 15
     .line 16
     .line 17
-    const-string v1, "{ pkgName: "
+    const-string/jumbo v1, "{ pkgName: "
 
     .line 18
     .line 19
+    .line 20
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 20
     .line 21
     .line 22
+    .line 23
     iget-object v1, p0, Lcom/huawei/hms/support/api/entity/push/ProfileReq;->pkgName:Ljava/lang/String;
 
-    .line 23
     .line 24
+    .line 25
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 25
     .line 26
     .line 27
+    .line 28
     const-string v1, ",subjectId: "
 
-    .line 28
     .line 29
+    .line 30
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 30
     .line 31
     .line 32
+    .line 33
     iget-object v1, p0, Lcom/huawei/hms/support/api/entity/push/ProfileReq;->subjectId:Ljava/lang/String;
 
-    .line 33
     .line 34
+    .line 35
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 35
     .line 36
     .line 37
+    .line 38
     const-string v1, ",operation: "
 
-    .line 38
     .line 39
+    .line 40
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 40
     .line 41
     .line 42
+    .line 43
     iget v1, p0, Lcom/huawei/hms/support/api/entity/push/ProfileReq;->operation:I
 
-    .line 43
     .line 44
+    .line 45
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 45
     .line 46
     .line 47
+    .line 48
     const-string v1, " type: "
 
-    .line 48
     .line 49
+    .line 50
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 50
     .line 51
     .line 52
+    .line 53
     iget v1, p0, Lcom/huawei/hms/support/api/entity/push/ProfileReq;->type:I
 
-    .line 53
     .line 54
+    .line 55
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 55
     .line 56
     .line 57
-    const-string v1, "}"
-
     .line 58
-    .line 59
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const-string/jumbo v1, "}"
 
+    .line 59
     .line 60
     .line 61
-    .line 62
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 62
     .line 63
     .line 64
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 65
+    .line 66
+    .line 67
     move-result-object v0
 
-    .line 66
-    return-object v0
-    .line 67
     .line 68
+    return-object v0
     .line 69
     .line 70
     .line 71
@@ -491,4 +511,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

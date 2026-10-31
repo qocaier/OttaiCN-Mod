@@ -107,6 +107,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEvent()Lcom/qiyukf/nimlib/sdk/friend/model/AddFriendNotify$Event;
@@ -135,6 +137,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMsg()Ljava/lang/String;
@@ -163,6 +167,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getServerExt()Ljava/lang/String;
@@ -191,4 +197,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

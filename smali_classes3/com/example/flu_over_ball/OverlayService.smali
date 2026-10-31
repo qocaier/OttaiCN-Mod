@@ -13,16 +13,10 @@
 
 # static fields
 .field public static final b:Lcom/example/flu_over_ball/OverlayService$a;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field public final a:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -33,7 +27,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/example/flu_over_ball/OverlayService$a;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Lcom/example/flu_over_ball/OverlayService$a;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Lcom/example/flu_over_ball/OverlayService;->b:Lcom/example/flu_over_ball/OverlayService$a;
 
@@ -72,7 +66,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -98,7 +91,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -128,11 +121,11 @@
 
     .line 24
     .line 25
-    sget-object v1, Lcom/example/flu_over_ball/c;->a:Lcom/example/flu_over_ball/c;
+    sget-object v1, Lh1/c;->a:Lh1/c;
 
     .line 26
     .line 27
-    invoke-virtual {v1}, Lcom/example/flu_over_ball/c;->m()I
+    invoke-virtual {v1}, Lh1/c;->k()I
 
     .line 28
     .line 29
@@ -152,7 +145,7 @@
 
     .line 36
     .line 37
-    invoke-static {p0, v1, v0, v2}, Li7/b;->a(Lcom/example/flu_over_ball/OverlayService;ILandroid/app/Notification;I)V
+    invoke-static {p0, v1, v0, v2}, Lh1/b;->a(Lcom/example/flu_over_ball/OverlayService;ILandroid/app/Notification;I)V
 
     .line 38
     .line 39
@@ -168,11 +161,11 @@
 
     .line 43
     :cond_0
-    sget-object v1, Lcom/example/flu_over_ball/c;->a:Lcom/example/flu_over_ball/c;
+    sget-object v1, Lh1/c;->a:Lh1/c;
 
     .line 44
     .line 45
-    invoke-virtual {v1}, Lcom/example/flu_over_ball/c;->m()I
+    invoke-virtual {v1}, Lh1/c;->k()I
 
     .line 46
     .line 47
@@ -251,29 +244,14 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .locals 1
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     const-string v0, "intent"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -282,17 +260,13 @@
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 1
-    .param p1    # Landroid/content/res/Configuration;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "newConfig"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -314,7 +288,7 @@
     move-result-object v0
 
     .line 15
-    invoke-virtual {v0, p1}, Lcom/example/flu_over_ball/a;->r(Landroid/content/res/Configuration;)V
+    invoke-virtual {v0, p1}, Lcom/example/flu_over_ball/a;->p(Landroid/content/res/Configuration;)V
 
     .line 16
     .line 17
@@ -326,14 +300,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onCreate()V
     .locals 4
-    .annotation build Landroidx/annotation/RequiresApi;
-        value = 0x15
-    .end annotation
 
     .line 1
     invoke-super {p0}, Landroid/app/Service;->onCreate()V
@@ -370,12 +340,12 @@
 
     .line 18
     .line 19
-    invoke-static {v2, v3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v1, v2}, Lcom/example/flu_over_ball/a;->m(Landroid/app/Application;)V
+    invoke-virtual {v1, v2}, Lcom/example/flu_over_ball/a;->k(Landroid/app/Application;)V
 
     .line 23
     .line 24
@@ -388,7 +358,7 @@
     move-result-object v0
 
     .line 29
-    invoke-virtual {v0, p0}, Lcom/example/flu_over_ball/a;->s(Landroid/content/Context;)V
+    invoke-virtual {v0, p0}, Lcom/example/flu_over_ball/a;->q(Landroid/content/Context;)V
 
     .line 30
     .line 31
@@ -462,22 +432,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onDestroy()V
     .locals 3
-    .annotation build Landroidx/annotation/RequiresApi;
-        api = 0x17
-    .end annotation
 
     .line 1
     sget-object v0, Lcom/example/flu_over_ball/a;->r:Lcom/example/flu_over_ball/a$a;
@@ -504,12 +462,12 @@
 
     .line 12
     .line 13
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, v1}, Lcom/example/flu_over_ball/a;->i(Landroid/app/Application;)V
+    invoke-virtual {v0, v1}, Lcom/example/flu_over_ball/a;->g(Landroid/app/Application;)V
 
     .line 17
     .line 18
@@ -520,19 +478,14 @@
     .line 21
     .line 22
     return-void
-    .line 23
 .end method
 
 .method public onStartCommand(Landroid/content/Intent;II)I
     .locals 0
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string p2, "intent"
 
-    invoke-static {p1, p2}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x2
 
@@ -541,17 +494,13 @@
 
 .method public onTaskRemoved(Landroid/content/Intent;)V
     .locals 3
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "rootIntent"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -580,12 +529,12 @@
 
     .line 17
     .line 18
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Lcom/example/flu_over_ball/a;->i(Landroid/app/Application;)V
+    invoke-virtual {v0, v1}, Lcom/example/flu_over_ball/a;->g(Landroid/app/Application;)V
 
     .line 22
     .line 23
@@ -660,23 +609,17 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onUnbind(Landroid/content/Intent;)Z
     .locals 1
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "intent"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -704,5 +647,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

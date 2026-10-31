@@ -13,24 +13,6 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
-
-.annotation build Lfb/b;
-    emulated = true
-.end annotation
-
-.annotation runtime Lib/e;
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -61,22 +43,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static asyncReloading(Lcom/google/common/cache/CacheLoader;Ljava/util/concurrent/Executor;)Lcom/google/common/cache/CacheLoader;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "loader",
-            "executor"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -84,25 +54,20 @@
             "V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lcom/google/common/cache/CacheLoader<",
-            "TK;TV;>;",
+            "Lcom/google/common/cache/CacheLoader;",
             "Ljava/util/concurrent/Executor;",
             ")",
-            "Lcom/google/common/cache/CacheLoader<",
-            "TK;TV;>;"
+            "Lcom/google/common/cache/CacheLoader;"
         }
     .end annotation
 
-    .annotation build Lfb/c;
-    .end annotation
-
     .line 1
-    invoke-static {p0}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -165,56 +130,10 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public static from(Lgb/b0;)Lcom/google/common/cache/CacheLoader;
+.method public static from(Lcom/google/common/base/g;)Lcom/google/common/cache/CacheLoader;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "supplier"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<V:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lgb/b0<",
-            "TV;>;)",
-            "Lcom/google/common/cache/CacheLoader<",
-            "Ljava/lang/Object;",
-            "TV;>;"
-        }
-    .end annotation
-
-    .line 2
-    new-instance v0, Lcom/google/common/cache/CacheLoader$SupplierToCacheLoader;
-
-    invoke-direct {v0, p0}, Lcom/google/common/cache/CacheLoader$SupplierToCacheLoader;-><init>(Lgb/b0;)V
-
-    return-object v0
-.end method
-
-.method public static from(Lgb/n;)Lcom/google/common/cache/CacheLoader;
-    .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "function"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -222,17 +141,37 @@
             "V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lgb/n<",
-            "TK;TV;>;)",
-            "Lcom/google/common/cache/CacheLoader<",
-            "TK;TV;>;"
+            "Lcom/google/common/base/g;",
+            ")",
+            "Lcom/google/common/cache/CacheLoader;"
         }
     .end annotation
 
     .line 1
     new-instance v0, Lcom/google/common/cache/CacheLoader$FunctionToCacheLoader;
 
-    invoke-direct {v0, p0}, Lcom/google/common/cache/CacheLoader$FunctionToCacheLoader;-><init>(Lgb/n;)V
+    invoke-direct {v0, p0}, Lcom/google/common/cache/CacheLoader$FunctionToCacheLoader;-><init>(Lcom/google/common/base/g;)V
+
+    return-object v0
+.end method
+
+.method public static from(Lcom/google/common/base/s;)Lcom/google/common/cache/CacheLoader;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<V:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lcom/google/common/base/s;",
+            ")",
+            "Lcom/google/common/cache/CacheLoader;"
+        }
+    .end annotation
+
+    .line 2
+    new-instance v0, Lcom/google/common/cache/CacheLoader$SupplierToCacheLoader;
+
+    invoke-direct {v0, p0}, Lcom/google/common/cache/CacheLoader$SupplierToCacheLoader;-><init>(Lcom/google/common/base/s;)V
 
     return-object v0
 .end method
@@ -240,46 +179,20 @@
 
 # virtual methods
 .method public abstract load(Ljava/lang/Object;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "key"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TK;)TV;"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
 .end method
 
 .method public loadAll(Ljava/lang/Iterable;)Ljava/util/Map;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "keys"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Iterable<",
-            "+TK;>;)",
+            "Ljava/lang/Object;",
+            ">;)",
             "Ljava/util/Map<",
-            "TK;TV;>;"
+            "Ljava/lang/Object;",
+            "Ljava/lang/Object;",
+            ">;"
         }
     .end annotation
 
@@ -318,27 +231,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public reload(Ljava/lang/Object;Ljava/lang/Object;)Lub/u0;
+.method public reload(Ljava/lang/Object;Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "key",
-            "oldValue"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "(TK;TV;)",
-            "Lub/u0<",
-            "TV;>;"
+            "(",
+            "Ljava/lang/Object;",
+            "Ljava/lang/Object;",
+            ")",
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -348,16 +251,13 @@
         }
     .end annotation
 
-    .annotation build Lfb/c;
-    .end annotation
-
     .line 1
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p2}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -370,7 +270,7 @@
     move-result-object p1
 
     .line 11
-    invoke-static {p1}, Lcom/google/common/util/concurrent/l;->o(Ljava/lang/Object;)Lub/u0;
+    invoke-static {p1}, Lcom/google/common/util/concurrent/k;->d(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 12
     .line 13
@@ -424,9 +324,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "Landroid/view/WindowMetrics;",
-        "Ljava/lang/Boolean;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -52,16 +49,10 @@
 # virtual methods
 .method public final invoke(Landroid/view/WindowMetrics;)Ljava/lang/Boolean;
     .locals 2
-    .param p1    # Landroid/view/WindowMetrics;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "windowMetrics"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Landroidx/window/embedding/EmbeddingAdapter$VendorApiLevel1Impl$translateParentMetricsPredicate$1;->$splitRule:Landroidx/window/embedding/SplitRule;
@@ -83,7 +74,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, La2/k;->a(Ljava/lang/Object;)Landroid/view/WindowMetrics;
+    invoke-static {p1}, Landroidx/window/embedding/k;->a(Ljava/lang/Object;)Landroid/view/WindowMetrics;
 
     move-result-object p1
 

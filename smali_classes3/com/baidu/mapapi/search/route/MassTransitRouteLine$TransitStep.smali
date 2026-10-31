@@ -99,7 +99,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -488,8 +487,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -530,7 +527,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCoachInfo()Lcom/baidu/mapapi/search/core/CoachInfo;
@@ -561,7 +557,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndLocation()Lcom/baidu/mapapi/model/LatLng;
@@ -592,7 +587,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInstructions()Ljava/lang/String;
@@ -623,7 +617,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPlaneInfo()Lcom/baidu/mapapi/search/core/PlaneInfo;
@@ -654,7 +647,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStartLocation()Lcom/baidu/mapapi/model/LatLng;
@@ -685,7 +677,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTrafficConditions()Ljava/util/List;
@@ -724,7 +715,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTrainInfo()Lcom/baidu/mapapi/search/core/TrainInfo;
@@ -755,7 +745,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getVehileType()Lcom/baidu/mapapi/search/route/MassTransitRouteLine$TransitStep$StepVehicleInfoType;
@@ -786,7 +775,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWayPoints()Ljava/util/List;
@@ -838,7 +826,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setBusInfo(Lcom/baidu/mapapi/search/core/BusInfo;)V
@@ -871,7 +858,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCoachInfo(Lcom/baidu/mapapi/search/core/CoachInfo;)V
@@ -904,7 +890,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndLocation(Lcom/baidu/mapapi/model/LatLng;)V
@@ -937,7 +922,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInstructions(Ljava/lang/String;)V
@@ -970,7 +954,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPathString(Ljava/lang/String;)V
@@ -1003,7 +986,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPlaneInfo(Lcom/baidu/mapapi/search/core/PlaneInfo;)V
@@ -1036,7 +1018,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStartLocation(Lcom/baidu/mapapi/model/LatLng;)V
@@ -1069,7 +1050,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrafficConditions(Ljava/util/List;)V
@@ -1110,7 +1090,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrainInfo(Lcom/baidu/mapapi/search/core/TrainInfo;)V
@@ -1143,7 +1122,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVehileType(Lcom/baidu/mapapi/search/route/MassTransitRouteLine$TransitStep$StepVehicleInfoType;)V
@@ -1176,7 +1154,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -1289,9 +1266,4 @@
     return-void
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

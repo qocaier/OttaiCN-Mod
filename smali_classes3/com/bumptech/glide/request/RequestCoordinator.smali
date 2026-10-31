@@ -15,20 +15,20 @@
 .method public abstract a()Z
 .end method
 
-.method public abstract b(Lu6/d;)V
+.method public abstract b(Lcom/bumptech/glide/request/d;)Z
 .end method
 
-.method public abstract d(Lu6/d;)Z
+.method public abstract c(Lcom/bumptech/glide/request/d;)Z
 .end method
 
-.method public abstract f(Lu6/d;)Z
+.method public abstract d(Lcom/bumptech/glide/request/d;)V
+.end method
+
+.method public abstract f(Lcom/bumptech/glide/request/d;)V
 .end method
 
 .method public abstract getRoot()Lcom/bumptech/glide/request/RequestCoordinator;
 .end method
 
-.method public abstract h(Lu6/d;)V
-.end method
-
-.method public abstract j(Lu6/d;)Z
+.method public abstract j(Lcom/bumptech/glide/request/d;)Z
 .end method

@@ -54,15 +54,6 @@
 # virtual methods
 .method public addAllPath(Ljava/lang/Iterable;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "values"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -112,14 +103,6 @@
 
 .method public addPath(I)Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -189,6 +172,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearEnd()Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Builder;
@@ -223,6 +207,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearPath()Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Builder;
@@ -257,6 +242,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearSemantic()Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Builder;
@@ -291,6 +277,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearSourceFile()Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Builder;
@@ -325,6 +312,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBegin()I
@@ -359,6 +347,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEnd()I
@@ -393,18 +382,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPath(I)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->instance:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
@@ -474,6 +456,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPathList()Ljava/util/List;
@@ -520,6 +503,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSemantic()Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Semantic;
@@ -554,6 +538,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSourceFile()Ljava/lang/String;
@@ -588,6 +573,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSourceFileBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -622,6 +608,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasBegin()Z
@@ -656,6 +643,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasEnd()Z
@@ -690,6 +678,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasSemantic()Z
@@ -724,6 +713,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasSourceFile()Z
@@ -758,18 +748,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setBegin(I)Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -809,14 +792,6 @@
 
 .method public setEnd(I)Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -856,16 +831,6 @@
 
 .method public setPath(II)Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -928,14 +893,6 @@
 
 .method public setSemantic(Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Semantic;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -975,14 +932,6 @@
 
 .method public setSourceFile(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1022,14 +971,6 @@
 
 .method public setSourceFileBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$GeneratedCodeInfo$Annotation$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V

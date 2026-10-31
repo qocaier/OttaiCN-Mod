@@ -3,15 +3,21 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/camera/core/streamsharing/StreamSharing$Control;
+.implements Landroidx/camera/core/impl/SessionConfig$ErrorListener;
 
 
 # instance fields
 .field public final synthetic a:Landroidx/camera/core/streamsharing/StreamSharing;
 
+.field public final synthetic b:Ljava/lang/String;
+
+.field public final synthetic c:Landroidx/camera/core/impl/UseCaseConfig;
+
+.field public final synthetic d:Landroidx/camera/core/impl/StreamSpec;
+
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/core/streamsharing/StreamSharing;)V
+.method public synthetic constructor <init>(Landroidx/camera/core/streamsharing/StreamSharing;Ljava/lang/String;Landroidx/camera/core/impl/UseCaseConfig;Landroidx/camera/core/impl/StreamSpec;)V
     .locals 0
 
     .line 1
@@ -19,20 +25,34 @@
 
     iput-object p1, p0, Landroidx/camera/core/streamsharing/a;->a:Landroidx/camera/core/streamsharing/StreamSharing;
 
+    iput-object p2, p0, Landroidx/camera/core/streamsharing/a;->b:Ljava/lang/String;
+
+    iput-object p3, p0, Landroidx/camera/core/streamsharing/a;->c:Landroidx/camera/core/impl/UseCaseConfig;
+
+    iput-object p4, p0, Landroidx/camera/core/streamsharing/a;->d:Landroidx/camera/core/impl/StreamSpec;
+
     return-void
 .end method
 
 
 # virtual methods
-.method public final jpegSnapshot(II)Lub/u0;
-    .locals 1
+.method public final onError(Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/SessionConfig$SessionError;)V
+    .locals 6
 
     .line 1
     iget-object v0, p0, Landroidx/camera/core/streamsharing/a;->a:Landroidx/camera/core/streamsharing/StreamSharing;
 
-    invoke-static {v0, p1, p2}, Landroidx/camera/core/streamsharing/StreamSharing;->b(Landroidx/camera/core/streamsharing/StreamSharing;II)Lub/u0;
+    iget-object v1, p0, Landroidx/camera/core/streamsharing/a;->b:Ljava/lang/String;
 
-    move-result-object p1
+    iget-object v2, p0, Landroidx/camera/core/streamsharing/a;->c:Landroidx/camera/core/impl/UseCaseConfig;
 
-    return-object p1
+    iget-object v3, p0, Landroidx/camera/core/streamsharing/a;->d:Landroidx/camera/core/impl/StreamSpec;
+
+    move-object v4, p1
+
+    move-object v5, p2
+
+    invoke-static/range {v0 .. v5}, Landroidx/camera/core/streamsharing/StreamSharing;->a(Landroidx/camera/core/streamsharing/StreamSharing;Ljava/lang/String;Landroidx/camera/core/impl/UseCaseConfig;Landroidx/camera/core/impl/StreamSpec;Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/SessionConfig$SessionError;)V
+
+    return-void
 .end method

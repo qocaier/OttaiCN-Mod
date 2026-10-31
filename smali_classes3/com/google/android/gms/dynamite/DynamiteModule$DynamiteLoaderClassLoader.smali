@@ -7,23 +7,10 @@
 .annotation build Lcom/google/android/gms/common/util/DynamiteApi;
 .end annotation
 
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/gms/dynamite/DynamiteModule;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "DynamiteLoaderClassLoader"
-.end annotation
-
 
 # static fields
 .field public static sClassLoader:Ljava/lang/ClassLoader;
     .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lyb/a;
-        value = "DynamiteLoaderClassLoader.class"
     .end annotation
 .end field
 

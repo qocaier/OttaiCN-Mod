@@ -2025,6 +2025,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public downgradeSchemeAndLock()V
@@ -2152,6 +2154,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getPort()I
@@ -2180,6 +2184,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public host()Ljava/lang/String;
@@ -2208,6 +2213,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSchemeLocked()Z
@@ -2236,6 +2242,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public lockScheme()V
@@ -2266,6 +2273,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public path()Ljava/lang/String;
@@ -2294,6 +2302,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public replaceIpAndPort(Ljava/lang/String;I)V
@@ -2655,6 +2664,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public scheme()Ljava/lang/String;
@@ -2683,6 +2695,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setScheme(Ljava/lang/String;)V
@@ -2818,6 +2831,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public simpleUrlString()Ljava/lang/String;
@@ -2846,6 +2860,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -2874,6 +2889,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toURL()Ljava/net/URL;
@@ -2914,6 +2930,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public urlString()Ljava/lang/String;
@@ -2942,4 +2959,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

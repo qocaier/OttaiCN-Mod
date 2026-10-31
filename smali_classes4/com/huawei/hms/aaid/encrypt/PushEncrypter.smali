@@ -44,7 +44,7 @@
     move-result-object p0
 
     .line 14
-    invoke-static {p1, p0}, Lte/a;->k(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p0}, Ls5/a;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -89,6 +89,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static encrypter(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
@@ -123,7 +133,7 @@
     move-result-object p0
 
     .line 14
-    invoke-static {p1, p0}, Lte/a;->t(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p0}, Ls5/a;->j(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -168,6 +178,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static encrypterOld(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
@@ -202,7 +222,7 @@
     move-result-object p0
 
     .line 14
-    invoke-static {p1, p0}, Lte/a;->v(Ljava/lang/String;[B)Ljava/lang/String;
+    invoke-static {p1, p0}, Ls5/a;->k(Ljava/lang/String;[B)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -247,4 +267,14 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method

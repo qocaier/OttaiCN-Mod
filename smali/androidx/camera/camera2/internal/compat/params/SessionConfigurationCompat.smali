@@ -247,6 +247,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static transformToCompat(Ljava/util/List;)Ljava/util/List;
@@ -384,6 +385,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static wrap(Ljava/lang/Object;)Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;
@@ -535,6 +537,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInputConfiguration()Landroidx/camera/camera2/internal/compat/params/InputConfigurationCompat;
@@ -569,6 +572,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOutputConfigurations()Ljava/util/List;
@@ -612,6 +616,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSessionParameters()Landroid/hardware/camera2/CaptureRequest;
@@ -646,6 +651,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSessionType()I
@@ -678,6 +684,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStateCallback()Landroid/hardware/camera2/CameraCaptureSession$StateCallback;
@@ -712,6 +719,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -744,6 +752,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setInputConfiguration(Landroidx/camera/camera2/internal/compat/params/InputConfigurationCompat;)V
@@ -856,4 +865,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

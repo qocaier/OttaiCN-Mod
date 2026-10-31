@@ -142,6 +142,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -168,15 +171,6 @@
     .locals 0
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1c
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            null
-        }
     .end annotation
 
     .line 1
@@ -209,17 +203,6 @@
         value = 0x1c
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            null,
-            null
-        }
-    .end annotation
-
     .line 1
     check-cast p2, Ljava/lang/Boolean;
 
@@ -243,16 +226,6 @@
 
 .method public bridge synthetic shouldUpdate(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            null,
-            null
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/Boolean;

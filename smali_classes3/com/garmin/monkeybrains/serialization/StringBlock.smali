@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/util/ArrayList<",
-        "Ln8/k;",
+        "Lf2/k;",
         ">;"
     }
 .end annotation
@@ -115,13 +115,8 @@
 
 
 # virtual methods
-.method public final a(Ln8/k;)I
+.method public final a(Lf2/k;)I
     .locals 4
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/UnsupportedEncodingException;
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -151,11 +146,11 @@
     move-result-object v2
 
     .line 13
-    check-cast v2, Ln8/k;
+    check-cast v2, Lf2/k;
 
     .line 14
     .line 15
-    invoke-virtual {v2, p1}, Ln8/k;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Lf2/k;->equals(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -179,11 +174,11 @@
     move-result-object v2
 
     .line 26
-    check-cast v2, Ln8/k;
+    check-cast v2, Lf2/k;
 
     .line 27
     .line 28
-    invoke-virtual {v2}, Ln8/k;->h()Ljava/lang/String;
+    invoke-virtual {v2}, Lf2/k;->h()Ljava/lang/String;
 
     .line 29
     .line 30
@@ -269,11 +264,9 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public addString(Ln8/k;)I
+.method public addString(Lf2/k;)I
     .locals 3
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -282,7 +275,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/garmin/monkeybrains/serialization/StringBlock;->a(Ln8/k;)I
+    invoke-virtual {p0, p1}, Lcom/garmin/monkeybrains/serialization/StringBlock;->a(Lf2/k;)I
 
     .line 2
     .line 3
@@ -290,7 +283,7 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p1, v0}, Ln8/k;->j(I)V
+    invoke-virtual {p1, v0}, Lf2/k;->j(I)V
 
     .line 6
     .line 7
@@ -316,7 +309,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Ln8/k;->h()Ljava/lang/String;
+    invoke-virtual {p1}, Lf2/k;->h()Ljava/lang/String;
 
     .line 20
     .line 21
@@ -408,8 +401,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public getDeserializedStrings()Ljava/util/HashMap;
@@ -449,7 +440,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public serialize()[B
@@ -497,11 +487,11 @@
     move-result-object v2
 
     .line 18
-    check-cast v2, Ln8/k;
+    check-cast v2, Lf2/k;
 
     .line 19
     .line 20
-    invoke-virtual {v2}, Ln8/k;->i()[B
+    invoke-virtual {v2}, Lf2/k;->i()[B
 
     .line 21
     .line 22
@@ -597,13 +587,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

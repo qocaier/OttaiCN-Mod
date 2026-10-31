@@ -620,7 +620,7 @@
     :try_start_0
     new-instance v0, Ljava/text/SimpleDateFormat;
 
-    const-string v1, "yyyy-MM-dd HH:mm:ss"
+    const-string/jumbo v1, "yyyy-MM-dd HH:mm:ss"
 
     sget-object v2, Ljava/util/Locale;->US:Ljava/util/Locale;
 
@@ -1062,7 +1062,7 @@
     :try_start_0
     new-instance v0, Ljava/text/SimpleDateFormat;
 
-    const-string v1, "yyyy-MM-dd HH:mm:ss"
+    const-string/jumbo v1, "yyyy-MM-dd HH:mm:ss"
 
     sget-object v2, Ljava/util/Locale;->US:Ljava/util/Locale;
 

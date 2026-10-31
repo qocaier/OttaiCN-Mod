@@ -62,21 +62,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static addAll(Ljava/lang/Iterable;Ljava/util/List;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "values",
-            "list"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -144,15 +134,6 @@
 
 .method public static checkByteStringIsUtf8(Landroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "byteString"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/lang/IllegalArgumentException;
@@ -204,14 +185,6 @@
 
 .method private getSerializingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "target"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -324,6 +297,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -356,18 +330,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSerializedSize(Landroidx/datastore/preferences/protobuf/Schema;)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "schema"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->getMemoizedSerializedSize()I
@@ -442,18 +409,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setMemoizedSerializedSize(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "size"
-        }
-    .end annotation
 
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -607,6 +567,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public toByteString()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -733,19 +695,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public writeDelimitedTo(Ljava/io/OutputStream;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -855,19 +810,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public writeTo(Ljava/io/OutputStream;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

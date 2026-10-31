@@ -21,14 +21,6 @@
 # direct methods
 .method public constructor <init>(Ljava/nio/ByteBuffer;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "buffer"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -115,15 +107,6 @@
 
 .method private readObject(Ljava/io/ObjectInputStream;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "in"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -166,16 +149,6 @@
 
 .method private slice(II)Ljava/nio/ByteBuffer;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "beginIndex",
-            "endIndex"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$NioByteString;->buffer:Ljava/nio/ByteBuffer;
@@ -480,6 +453,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private writeReplace()Ljava/lang/Object;
@@ -516,6 +492,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -550,6 +527,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public asReadOnlyByteBufferList()Ljava/util/List;
@@ -592,18 +570,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public byteAt(I)B
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -669,14 +640,6 @@
 
 .method public copyTo(Ljava/nio/ByteBuffer;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "target"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$NioByteString;->buffer:Ljava/nio/ByteBuffer;
@@ -716,20 +679,6 @@
 
 .method public copyToInternal([BIII)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "sourceOffset",
-            "targetOffset",
-            "numberToCopy"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$NioByteString;->buffer:Ljava/nio/ByteBuffer;
@@ -972,18 +921,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "other"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -1144,22 +1091,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public equalsRange(Landroidx/datastore/preferences/protobuf/ByteString;II)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "other",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -1291,18 +1227,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public internalByteAt(I)B
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/ByteString$NioByteString;->byteAt(I)B
@@ -1366,6 +1297,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public newCodedInput()Landroidx/datastore/preferences/protobuf/CodedInputStream;
@@ -1400,6 +1332,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public newInput()Ljava/io/InputStream;
@@ -1430,22 +1363,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public partialHash(III)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "h",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 1
     move v0, p2
@@ -1583,22 +1505,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public partialIsValidUtf8(III)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "state",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$NioByteString;->buffer:Ljava/nio/ByteBuffer;
@@ -1722,6 +1635,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public size()I
@@ -1754,20 +1670,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public substring(II)Landroidx/datastore/preferences/protobuf/ByteString;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "beginIndex",
-            "endIndex"
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -1858,14 +1765,6 @@
 
 .method public toStringInternal(Ljava/nio/charset/Charset;)Ljava/lang/String;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "charset"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$NioByteString;->buffer:Ljava/nio/ByteBuffer;
@@ -1996,19 +1895,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public writeTo(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -2029,15 +1920,6 @@
 
 .method public writeTo(Ljava/io/OutputStream;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "out"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -2056,19 +1938,6 @@
 
 .method public writeToInternal(Ljava/io/OutputStream;II)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "out",
-            "sourceOffset",
-            "numberToWrite"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -2232,4 +2101,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

@@ -656,6 +656,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private constructor <init>()V
@@ -684,6 +736,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$000(Ljava/lang/Throwable;)V
@@ -747,6 +800,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$200(Ljava/lang/Object;J)B
@@ -984,6 +1038,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$500(Ljava/lang/Object;JB)V
@@ -1105,6 +1162,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$600(Ljava/lang/Object;J)Z
@@ -1342,6 +1402,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$900(Ljava/lang/Object;JZ)V
@@ -1463,18 +1526,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static addressOffset(Ljava/nio/ByteBuffer;)J
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "buffer"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -1514,15 +1572,6 @@
 
 .method public static allocateInstance(Ljava/lang/Class;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "clazz"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -1581,15 +1630,6 @@
 
 .method private static arrayBaseOffset(Ljava/lang/Class;)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "clazz"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1643,15 +1683,6 @@
 
 .method private static arrayIndexScale(Ljava/lang/Class;)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "clazz"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1831,24 +1862,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static copyMemory(J[BJJ)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "srcOffset",
-            "target",
-            "targetIndex",
-            "length"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -1868,20 +1887,6 @@
 
 .method public static copyMemory([BJJJ)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "src",
-            "srcIndex",
-            "targetOffset",
-            "length"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -1901,22 +1906,6 @@
 
 .method public static copyMemory([BJ[BJJ)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "src",
-            "srcIndex",
-            "target",
-            "targetIndex",
-            "length"
-        }
-    .end annotation
 
     long-to-int p1, p1
 
@@ -1932,15 +1921,6 @@
 
 .method public static determineAndroidSupportByAddressSize(Ljava/lang/Class;)Z
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "addressClass"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2283,21 +2263,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private static field(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "clazz",
-            "fieldName"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -2374,14 +2348,6 @@
 
 .method private static fieldOffset(Ljava/lang/reflect/Field;)J
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "field"
-        }
-    .end annotation
 
     .line 1
     if-eqz p0, :cond_1
@@ -2432,16 +2398,6 @@
 
 .method private static firstDifferingByteIndexNativeEndian(JJ)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "left",
-            "right"
-        }
-    .end annotation
 
     .line 1
     sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->IS_BIG_ENDIAN:Z
@@ -2518,16 +2474,6 @@
 
 .method public static getBoolean(Ljava/lang/Object;J)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -2541,16 +2487,6 @@
 
 .method public static getBoolean([ZJ)Z
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -2572,16 +2508,6 @@
 
 .method private static getBooleanBigEndian(Ljava/lang/Object;J)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByteBigEndian(Ljava/lang/Object;J)B
@@ -2649,16 +2575,6 @@
 
 .method private static getBooleanLittleEndian(Ljava/lang/Object;J)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByteLittleEndian(Ljava/lang/Object;J)B
@@ -2726,14 +2642,6 @@
 
 .method public static getByte(J)B
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "address"
-        }
-    .end annotation
 
     .line 3
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -2747,16 +2655,6 @@
 
 .method public static getByte(Ljava/lang/Object;J)B
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -2770,16 +2668,6 @@
 
 .method public static getByte([BJ)B
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -2797,16 +2685,6 @@
 
 .method private static getByteBigEndian(Ljava/lang/Object;J)B
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     const-wide/16 v0, -0x4
@@ -2887,16 +2765,6 @@
 
 .method private static getByteLittleEndian(Ljava/lang/Object;J)B
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     const-wide/16 v0, -0x4
@@ -2975,16 +2843,6 @@
 
 .method public static getDouble(Ljava/lang/Object;J)D
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -2998,16 +2856,6 @@
 
 .method public static getDouble([DJ)D
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -3029,16 +2877,6 @@
 
 .method public static getFloat(Ljava/lang/Object;J)F
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -3052,16 +2890,6 @@
 
 .method public static getFloat([FJ)F
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -3083,14 +2911,6 @@
 
 .method public static getInt(J)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "address"
-        }
-    .end annotation
 
     .line 3
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -3104,16 +2924,6 @@
 
 .method public static getInt(Ljava/lang/Object;J)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -3127,16 +2937,6 @@
 
 .method public static getInt([IJ)I
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -3158,14 +2958,6 @@
 
 .method public static getLong(J)J
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "address"
-        }
-    .end annotation
 
     .line 3
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -3179,16 +2971,6 @@
 
 .method public static getLong(Ljava/lang/Object;J)J
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -3202,16 +2984,6 @@
 
 .method public static getLong([JJ)J
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -3361,20 +3133,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getObject(Ljava/lang/Object;J)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -3388,16 +3152,6 @@
 
 .method public static getObject([Ljava/lang/Object;J)Ljava/lang/Object;
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -3419,14 +3173,6 @@
 
 .method public static getStaticObject(Ljava/lang/reflect/Field;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "field"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -3504,6 +3250,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static hasUnsafeArrayOperations()Z
@@ -3532,6 +3279,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static hasUnsafeByteBufferOperations()Z
@@ -3560,6 +3308,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static isAndroid64()Z
@@ -3588,18 +3337,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static logMissingMethod(Ljava/lang/Throwable;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "e"
-        }
-    .end annotation
 
     .line 1
     const-class v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
@@ -3708,26 +3450,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static mismatch([BI[BII)I
     .locals 10
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "left",
-            "leftOff",
-            "right",
-            "rightOff",
-            "length"
-        }
-    .end annotation
 
     .line 1
     if-ltz p1, :cond_6
@@ -4395,14 +4122,6 @@
 
 .method public static objectFieldOffset(Ljava/lang/reflect/Field;)J
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "field"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -4440,18 +4159,6 @@
 
 .method public static putBoolean(Ljava/lang/Object;JZ)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -4463,18 +4170,6 @@
 
 .method public static putBoolean([ZJZ)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index",
-            "value"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -4494,18 +4189,6 @@
 
 .method private static putBooleanBigEndian(Ljava/lang/Object;JZ)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     int-to-byte p3, p3
@@ -4625,22 +4308,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static putBooleanLittleEndian(Ljava/lang/Object;JZ)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     int-to-byte p3, p3
@@ -4760,20 +4434,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static putByte(JB)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "address",
-            "value"
-        }
-    .end annotation
 
     .line 3
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -4785,18 +4452,6 @@
 
 .method public static putByte(Ljava/lang/Object;JB)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -4808,18 +4463,6 @@
 
 .method public static putByte([BJB)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index",
-            "value"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -4835,18 +4478,6 @@
 
 .method private static putByteBigEndian(Ljava/lang/Object;JB)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     const-wide/16 v0, -0x4
@@ -4994,22 +4625,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static putByteLittleEndian(Ljava/lang/Object;JB)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     const-wide/16 v0, -0x4
@@ -5155,22 +4777,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static putDouble(Ljava/lang/Object;JD)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -5188,18 +4801,6 @@
 
 .method public static putDouble([DJD)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index",
-            "value"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -5223,18 +4824,6 @@
 
 .method public static putFloat(Ljava/lang/Object;JF)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -5246,18 +4835,6 @@
 
 .method public static putFloat([FJF)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index",
-            "value"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -5277,16 +4854,6 @@
 
 .method public static putInt(JI)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "address",
-            "value"
-        }
-    .end annotation
 
     .line 3
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -5298,18 +4865,6 @@
 
 .method public static putInt(Ljava/lang/Object;JI)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -5321,18 +4876,6 @@
 
 .method public static putInt([IJI)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index",
-            "value"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -5352,16 +4895,6 @@
 
 .method public static putLong(JJ)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "address",
-            "value"
-        }
-    .end annotation
 
     .line 3
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -5373,18 +4906,6 @@
 
 .method public static putLong(Ljava/lang/Object;JJ)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -5402,18 +4923,6 @@
 
 .method public static putLong([JJJ)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index",
-            "value"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -5437,18 +4946,6 @@
 
 .method public static putObject(Ljava/lang/Object;JLjava/lang/Object;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -5460,18 +4957,6 @@
 
 .method public static putObject([Ljava/lang/Object;JLjava/lang/Object;)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "index",
-            "value"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
@@ -5526,6 +5011,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static supportsUnsafeByteBufferOperations()Z
@@ -5565,4 +5051,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

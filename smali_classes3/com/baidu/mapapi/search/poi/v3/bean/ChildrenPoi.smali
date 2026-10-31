@@ -76,7 +76,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -109,7 +108,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getClassifiedPoiTag()Ljava/lang/String;
@@ -140,7 +138,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLocation()Lcom/baidu/mapapi/model/LatLng;
@@ -290,15 +287,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -329,7 +317,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShowName()Ljava/lang/String;
@@ -360,7 +347,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getUid()Ljava/lang/String;
@@ -391,7 +377,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAddress(Ljava/lang/String;)V
@@ -424,7 +409,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setClassifiedPoiTag(Ljava/lang/String;)V
@@ -457,7 +441,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLocation(Lcom/baidu/mapapi/model/LatLng;)V
@@ -501,7 +484,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setName(Ljava/lang/String;)V
@@ -534,7 +516,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShowName(Ljava/lang/String;)V
@@ -567,7 +548,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUid(Ljava/lang/String;)V
@@ -600,5 +580,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

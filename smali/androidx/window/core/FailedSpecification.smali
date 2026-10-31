@@ -20,37 +20,15 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSpecificationComputer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SpecificationComputer.kt\nandroidx/window/core/FailedSpecification\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,174:1\n37#2,2:175\n*S KotlinDebug\n*F\n+ 1 SpecificationComputer.kt\nandroidx/window/core/FailedSpecification\n*L\n146#1:175,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSpecificationComputer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SpecificationComputer.kt\nandroidx/window/core/FailedSpecification\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,174:1\n37#2,2:175\n*S KotlinDebug\n*F\n+ 1 SpecificationComputer.kt\nandroidx/window/core/FailedSpecification\n*L\n146#1:175,2\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private final exception:Landroidx/window/core/WindowStrictModeException;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final logger:Landroidx/window/core/Logger;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final message:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final tag:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final value:Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
@@ -58,40 +36,14 @@
             "TT;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final verificationMode:Landroidx/window/core/VerificationMode;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Landroidx/window/core/Logger;Landroidx/window/core/VerificationMode;)V
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroidx/window/core/Logger;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Landroidx/window/core/VerificationMode;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
@@ -108,7 +60,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -117,7 +69,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -126,7 +78,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -135,7 +87,7 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -144,7 +96,7 @@
 
     .line 22
     .line 23
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -203,7 +155,7 @@
 
     .line 53
     .line 54
-    invoke-static {p1, p3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 55
     .line 56
@@ -211,7 +163,7 @@
     const/4 p3, 0x2
 
     .line 58
-    invoke-static {p1, p3}, Lll/a0;->D9([Ljava/lang/Object;I)Ljava/util/List;
+    invoke-static {p1, p3}, Lkotlin/collections/m;->C([Ljava/lang/Object;I)Ljava/util/List;
 
     .line 59
     .line 60
@@ -709,9 +661,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
     iget-object v0, p0, Landroidx/window/core/FailedSpecification;->verificationMode:Landroidx/window/core/VerificationMode;
 
@@ -850,12 +799,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final getException()Landroidx/window/core/WindowStrictModeException;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/core/FailedSpecification;->exception:Landroidx/window/core/WindowStrictModeException;
@@ -880,12 +829,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getLogger()Landroidx/window/core/Logger;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/core/FailedSpecification;->logger:Landroidx/window/core/Logger;
@@ -910,12 +858,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getMessage()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/core/FailedSpecification;->message:Ljava/lang/String;
@@ -940,12 +887,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getTag()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/core/FailedSpecification;->tag:Ljava/lang/String;
@@ -970,6 +916,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getValue()Ljava/lang/Object;
@@ -978,9 +925,6 @@
         value = {
             "()TT;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1006,12 +950,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getVerificationMode()Landroidx/window/core/VerificationMode;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/core/FailedSpecification;->verificationMode:Landroidx/window/core/VerificationMode;
@@ -1036,42 +979,30 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public require(Ljava/lang/String;Ljm/l;)Landroidx/window/core/SpecificationComputer;
+.method public require(Ljava/lang/String;Lq8/l;)Landroidx/window/core/SpecificationComputer;
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
-            "Ljm/l<",
-            "-TT;",
-            "Ljava/lang/Boolean;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/window/core/SpecificationComputer<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "message"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "condition"
 
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method

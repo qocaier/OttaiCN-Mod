@@ -101,6 +101,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$700(Lcom/qiyukf/unicorn/ui/queryproduct/QueryProductTabEntryAdapter;)Lcom/qiyukf/unicorn/ui/queryproduct/QueryProductDialog$ClickCallback;
@@ -134,6 +144,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private initItemView(Lcom/qiyukf/unicorn/protocol/attach/notification/QueryProductNotifyAttachment$OrderList;Lcom/qiyukf/unicorn/ui/queryproduct/QueryProductTabEntryAdapter$ViewHolder;)V
@@ -1762,6 +1774,7 @@
     .line 1290
     .line 1291
     .line 1292
+    .line 1293
 .end method
 
 
@@ -1809,6 +1822,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getCount()I
@@ -1841,6 +1856,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getItem(I)Lcom/qiyukf/unicorn/protocol/attach/notification/QueryProductNotifyAttachment$OrderList;
@@ -2041,11 +2058,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public setCallback(Lcom/qiyukf/unicorn/ui/queryproduct/QueryProductDialog$ClickCallback;)V
@@ -2079,4 +2091,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

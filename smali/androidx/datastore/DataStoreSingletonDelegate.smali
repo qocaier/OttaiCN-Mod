@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lqm/e;
+.implements Ls8/a;
 
 
 # annotations
@@ -13,10 +13,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lqm/e<",
-        "Landroid/content/Context;",
-        "Landroidx/datastore/core/DataStore<",
-        "TT;>;>;"
+        "Ls8/a;"
     }
 .end annotation
 
@@ -33,9 +30,6 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end field
 
 .field private final corruptionHandler:Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;
@@ -45,40 +39,21 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end field
 
 .field private final fileName:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final lock:Ljava/lang/Object;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field private final produceMigrations:Ljm/l;
+.field private final produceMigrations:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/content/Context;",
-            "Ljava/util/List<",
-            "Landroidx/datastore/core/DataMigration<",
-            "TT;>;>;>;"
+            "Lq8/l;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
-.field private final scope:Lfn/i0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final scope:Lkotlinx/coroutines/l0;
 
 .field private final serializer:Landroidx/datastore/core/okio/OkioSerializer;
     .annotation system Ldalvik/annotation/Signature;
@@ -87,35 +62,12 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Landroidx/datastore/core/okio/OkioSerializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljm/l;Lfn/i0;)V
+.method public constructor <init>(Ljava/lang/String;Landroidx/datastore/core/okio/OkioSerializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lq8/l;Lkotlinx/coroutines/l0;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/datastore/core/okio/OkioSerializer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p4    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Lfn/i0;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -124,15 +76,8 @@
             "TT;>;",
             "Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler<",
             "TT;>;",
-            "Ljm/l<",
-            "-",
-            "Landroid/content/Context;",
-            "+",
-            "Ljava/util/List<",
-            "+",
-            "Landroidx/datastore/core/DataMigration<",
-            "TT;>;>;>;",
-            "Lfn/i0;",
+            "Lq8/l;",
+            "Lkotlinx/coroutines/l0;",
             ")V"
         }
     .end annotation
@@ -142,7 +87,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -151,7 +96,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -160,7 +105,7 @@
 
     .line 12
     .line 13
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -169,7 +114,7 @@
 
     .line 17
     .line 18
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -191,11 +136,11 @@
 
     .line 29
     .line 30
-    iput-object p4, p0, Landroidx/datastore/DataStoreSingletonDelegate;->produceMigrations:Ljm/l;
+    iput-object p4, p0, Landroidx/datastore/DataStoreSingletonDelegate;->produceMigrations:Lq8/l;
 
     .line 31
     .line 32
-    iput-object p5, p0, Landroidx/datastore/DataStoreSingletonDelegate;->scope:Lfn/i0;
+    iput-object p5, p0, Landroidx/datastore/DataStoreSingletonDelegate;->scope:Lkotlinx/coroutines/l0;
 
     .line 33
     .line 34
@@ -732,37 +677,26 @@
 
 
 # virtual methods
-.method public getValue(Landroid/content/Context;Lum/n;)Landroidx/datastore/core/DataStore;
+.method public getValue(Landroid/content/Context;Lkotlin/reflect/k;)Landroidx/datastore/core/DataStore;
     .locals 8
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lum/n;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
-            "Lum/n<",
-            "*>;)",
+            "Lkotlin/reflect/k;",
+            ")",
             "Landroidx/datastore/core/DataStore<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "thisRef"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "property"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object p2, p0, Landroidx/datastore/DataStoreSingletonDelegate;->INSTANCE:Landroidx/datastore/core/DataStore;
@@ -806,29 +740,29 @@
     const/4 v4, 0x0
 
     .line 8
-    invoke-direct/range {v1 .. v7}, Landroidx/datastore/core/okio/OkioStorage;-><init>(Lokio/FileSystem;Landroidx/datastore/core/okio/OkioSerializer;Ljm/p;Ljm/a;ILkm/v;)V
+    invoke-direct/range {v1 .. v7}, Landroidx/datastore/core/okio/OkioStorage;-><init>(Lokio/FileSystem;Landroidx/datastore/core/okio/OkioSerializer;Lq8/p;Lq8/a;ILkotlin/jvm/internal/f;)V
 
     .line 9
     iget-object v2, p0, Landroidx/datastore/DataStoreSingletonDelegate;->corruptionHandler:Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;
 
     .line 10
-    iget-object v3, p0, Landroidx/datastore/DataStoreSingletonDelegate;->produceMigrations:Ljm/l;
+    iget-object v3, p0, Landroidx/datastore/DataStoreSingletonDelegate;->produceMigrations:Lq8/l;
 
     const-string v4, "applicationContext"
 
-    invoke-static {p1, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-interface {v3, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v3, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Ljava/util/List;
 
     .line 11
-    iget-object v3, p0, Landroidx/datastore/DataStoreSingletonDelegate;->scope:Lfn/i0;
+    iget-object v3, p0, Landroidx/datastore/DataStoreSingletonDelegate;->scope:Lkotlinx/coroutines/l0;
 
     .line 12
-    invoke-virtual {v0, v1, v2, p1, v3}, Landroidx/datastore/core/DataStoreFactory;->create(Landroidx/datastore/core/Storage;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljava/util/List;Lfn/i0;)Landroidx/datastore/core/DataStore;
+    invoke-virtual {v0, v1, v2, p1, v3}, Landroidx/datastore/core/DataStoreFactory;->create(Landroidx/datastore/core/Storage;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljava/util/List;Lkotlinx/coroutines/l0;)Landroidx/datastore/core/DataStore;
 
     move-result-object p1
 
@@ -848,7 +782,7 @@
     :goto_0
     iget-object p1, p0, Landroidx/datastore/DataStoreSingletonDelegate;->INSTANCE:Landroidx/datastore/core/DataStore;
 
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -866,13 +800,13 @@
     return-object p2
 .end method
 
-.method public bridge synthetic getValue(Ljava/lang/Object;Lum/n;)Ljava/lang/Object;
+.method public bridge synthetic getValue(Ljava/lang/Object;Lkotlin/reflect/k;)Ljava/lang/Object;
     .locals 0
 
     .line 1
     check-cast p1, Landroid/content/Context;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/DataStoreSingletonDelegate;->getValue(Landroid/content/Context;Lum/n;)Landroidx/datastore/core/DataStore;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/DataStoreSingletonDelegate;->getValue(Landroid/content/Context;Lkotlin/reflect/k;)Landroidx/datastore/core/DataStore;
 
     move-result-object p1
 

@@ -13,16 +13,6 @@
     name = "a"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBallManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BallManager.kt\ncom/example/flu_over_ball/BallManager$Companion\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,512:1\n1#2:513\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nBallManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BallManager.kt\ncom/example/flu_over_ball/BallManager$Companion\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,512:1\n1#2:513\n*E\n"
-    }
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -34,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -46,9 +36,7 @@
 
 # virtual methods
 .method public final a()Lcom/example/flu_over_ball/a;
-    .locals 2
-    .annotation build Lsq/k;
-    .end annotation
+    .locals 1
 
     .line 1
     invoke-static {}, Lcom/example/flu_over_ball/a;->b()Lcom/example/flu_over_ball/a;
@@ -88,44 +76,42 @@
     .line 17
     .line 18
     .line 19
-    sget-object v1, Lcom/example/flu_over_ball/a;->r:Lcom/example/flu_over_ball/a$a;
-
-    .line 20
-    .line 21
-    invoke-static {v0}, Lcom/example/flu_over_ball/a;->e(Lcom/example/flu_over_ball/a;)V
+    invoke-static {v0}, Lcom/example/flu_over_ball/a;->d(Lcom/example/flu_over_ball/a;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
+    .line 20
+    .line 21
     .line 22
-    .line 23
-    .line 24
     goto :goto_0
 
-    .line 25
+    .line 23
     :catchall_0
     move-exception v0
 
-    .line 26
+    .line 24
     goto :goto_1
 
-    .line 27
+    .line 25
     :cond_0
     :goto_0
     monitor-exit p0
 
-    .line 28
+    .line 26
     return-object v0
 
-    .line 29
+    .line 27
     :goto_1
     monitor-exit p0
 
-    .line 30
+    .line 28
     throw v0
 
-    .line 31
+    .line 29
     :cond_1
     return-object v0
+    .line 30
+    .line 31
     .line 32
     .line 33
     .line 34
@@ -195,15 +181,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public final b()Z
@@ -236,47 +213,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public final c()Z
-    .locals 1
-
-    .line 1
-    invoke-static {}, Lcom/example/flu_over_ball/a;->d()Z
-
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
-
-    .line 5
-    return v0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public final d(Z)V
+.method public final c(Z)V
     .locals 0
 
     .line 1
-    invoke-static {p1}, Lcom/example/flu_over_ball/a;->f(Z)V
+    invoke-static {p1}, Lcom/example/flu_over_ball/a;->e(Z)V
 
     .line 2
     .line 3
@@ -302,38 +245,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
-.end method
-
-.method public final e(Z)V
-    .locals 0
-
-    .line 1
-    invoke-static {p1}, Lcom/example/flu_over_ball/a;->g(Z)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method

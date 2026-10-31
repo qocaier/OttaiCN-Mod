@@ -14,9 +14,6 @@
     }
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # static fields
 .field public static final AUDIO_AMPLITUDE_NONE:D = 0.0
@@ -175,6 +172,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>()V
@@ -203,6 +202,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static of(ILjava/lang/Throwable;D)Landroidx/camera/video/AudioStats;
@@ -332,6 +332,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -388,6 +391,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract getAudioAmplitudeInternal()D
@@ -443,6 +447,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasError()Z
@@ -483,4 +488,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

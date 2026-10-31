@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/github/barteksc/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "attr"
-.end annotation
-
-
 # static fields
 .field public static sb_handlerColor:I = 0x7f0303e9
 

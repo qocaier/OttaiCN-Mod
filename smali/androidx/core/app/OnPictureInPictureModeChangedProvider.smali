@@ -5,10 +5,6 @@
 
 # virtual methods
 .method public abstract addOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
-    .param p1    # Landroidx/core/util/Consumer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -20,10 +16,6 @@
 .end method
 
 .method public abstract removeOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
-    .param p1    # Landroidx/core/util/Consumer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

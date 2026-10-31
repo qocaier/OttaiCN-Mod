@@ -5,43 +5,22 @@
 
 # instance fields
 .field private final file:Ljava/io/File;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final other:Ljava/io/File;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final reason:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/io/File;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     const-string v0, "file"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-static {p1, p2, p3}, Ldm/e;->a(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p2, p3}, Lkotlin/io/c;->a(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -60,7 +39,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILkm/v;)V
+.method public synthetic constructor <init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILkotlin/jvm/internal/f;)V
     .locals 1
 
     and-int/lit8 p5, p4, 0x2
@@ -89,8 +68,6 @@
 # virtual methods
 .method public final getFile()Ljava/io/File;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lkotlin/io/FileSystemException;->file:Ljava/io/File;
@@ -118,12 +95,37 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final getOther()Ljava/io/File;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lkotlin/io/FileSystemException;->other:Ljava/io/File;
@@ -151,12 +153,37 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final getReason()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lkotlin/io/FileSystemException;->reason:Ljava/lang/String;
@@ -184,4 +211,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

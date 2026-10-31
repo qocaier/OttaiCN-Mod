@@ -24,7 +24,7 @@
 
     .line 3
     .line 4
-    invoke-static {v0, v1}, Lkm/g0;->y(ILjava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->l(ILjava/lang/String;)V
 
     .line 5
     .line 6
@@ -142,6 +142,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic getSpans$default(Landroid/text/Spanned;IIILjava/lang/Object;)[Ljava/lang/Object;
@@ -184,7 +187,7 @@
 
     .line 16
     .line 17
-    invoke-static {p3, p4}, Lkm/g0;->y(ILjava/lang/String;)V
+    invoke-static {p3, p4}, Lkotlin/jvm/internal/j;->l(ILjava/lang/String;)V
 
     .line 18
     .line 19
@@ -703,12 +706,6 @@
 
 .method public static final toSpanned(Ljava/lang/CharSequence;)Landroid/text/Spanned;
     .locals 0
-    .param p0    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroid/text/SpannedString;->valueOf(Ljava/lang/CharSequence;)Landroid/text/SpannedString;

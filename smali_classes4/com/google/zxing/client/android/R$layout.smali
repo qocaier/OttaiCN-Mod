@@ -3,35 +3,24 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/zxing/client/android/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "layout"
-.end annotation
-
-
 # static fields
-.field public static custom_dialog:I = 0x7f0b0028
+.field public static custom_dialog:I = 0x7f0b0029
 
-.field public static notification_action:I = 0x7f0b0078
+.field public static notification_action:I = 0x7f0b0079
 
-.field public static notification_action_tombstone:I = 0x7f0b0079
+.field public static notification_action_tombstone:I = 0x7f0b007a
 
-.field public static notification_template_custom_big:I = 0x7f0b0080
+.field public static notification_template_custom_big:I = 0x7f0b0081
 
-.field public static notification_template_icon_group:I = 0x7f0b0081
+.field public static notification_template_icon_group:I = 0x7f0b0082
 
-.field public static notification_template_part_chronometer:I = 0x7f0b0085
+.field public static notification_template_part_chronometer:I = 0x7f0b0086
 
-.field public static notification_template_part_time:I = 0x7f0b0086
+.field public static notification_template_part_time:I = 0x7f0b0087
 
-.field public static zxing_barcode_scanner:I = 0x7f0b017a
+.field public static zxing_barcode_scanner:I = 0x7f0b017b
 
-.field public static zxing_capture:I = 0x7f0b017b
+.field public static zxing_capture:I = 0x7f0b017c
 
 
 # direct methods

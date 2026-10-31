@@ -42,14 +42,6 @@
 
 .method public constructor <init>(Z)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "isMutable"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
@@ -64,17 +56,6 @@
 # virtual methods
 .method public add(ILjava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(ITE;)V"
@@ -92,15 +73,6 @@
 
 .method public add(Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "e"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TE;)Z"
@@ -120,17 +92,6 @@
 
 .method public addAll(ILjava/util/Collection;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "c"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -152,15 +113,6 @@
 
 .method public addAll(Ljava/util/Collection;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "c"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -208,6 +160,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public ensureIsMutable()V
@@ -245,18 +198,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -406,6 +352,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public hashCode()I
@@ -524,6 +471,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isModifiable()Z
@@ -552,6 +501,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final makeImmutable()V
@@ -587,19 +537,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public remove(I)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)TE;"
@@ -619,14 +561,6 @@
 
 .method public remove(Ljava/lang/Object;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 3
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
@@ -655,15 +589,6 @@
 
 .method public removeAll(Ljava/util/Collection;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "c"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -708,15 +633,6 @@
 
 .method public retainAll(Ljava/util/Collection;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "c"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -761,17 +677,6 @@
 
 .method public set(ILjava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(ITE;)TE;"

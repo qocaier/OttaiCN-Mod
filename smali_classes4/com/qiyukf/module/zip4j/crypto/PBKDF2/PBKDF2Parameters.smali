@@ -119,6 +119,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getHashAlgorithm()Ljava/lang/String;
@@ -147,6 +149,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getHashCharset()Ljava/lang/String;
@@ -175,6 +179,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getIterationCount()I
@@ -203,6 +209,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSalt()[B
@@ -231,6 +239,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setDerivedKey([B)V
@@ -264,6 +274,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setHashAlgorithm(Ljava/lang/String;)V
@@ -297,6 +309,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setHashCharset(Ljava/lang/String;)V
@@ -330,6 +344,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setIterationCount(I)V
@@ -363,6 +379,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSalt([B)V
@@ -396,4 +414,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -62,7 +62,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -131,11 +130,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/baidu/mapapi/ModuleName;
@@ -174,7 +168,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static values()[Lcom/baidu/mapapi/ModuleName;
@@ -211,5 +204,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

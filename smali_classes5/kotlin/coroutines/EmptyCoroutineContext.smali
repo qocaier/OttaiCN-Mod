@@ -3,21 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lkotlin/coroutines/d;
+.implements Lkotlin/coroutines/i;
 .implements Ljava/io/Serializable;
-
-
-# annotations
-.annotation build Ljl/x0;
-    version = "1.3"
-.end annotation
 
 
 # static fields
 .field public static final INSTANCE:Lkotlin/coroutines/EmptyCoroutineContext;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final serialVersionUID:J
 
@@ -64,6 +55,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method private final readResolve()Ljava/lang/Object;
@@ -95,58 +113,72 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
-.method public fold(Ljava/lang/Object;Ljm/p;)Ljava/lang/Object;
+.method public fold(Ljava/lang/Object;Lq8/p;)Ljava/lang/Object;
     .locals 1
-    .param p2    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(TR;",
-            "Ljm/p<",
-            "-TR;-",
-            "Lkotlin/coroutines/d$b;",
-            "+TR;>;)TR;"
+            "Lq8/p;",
+            ")TR;"
         }
     .end annotation
 
     .line 1
     const-string v0, "operation"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
-.method public get(Lkotlin/coroutines/d$c;)Lkotlin/coroutines/d$b;
+.method public get(Lkotlin/coroutines/i$c;)Lkotlin/coroutines/i$b;
     .locals 1
-    .param p1    # Lkotlin/coroutines/d$c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E::",
-            "Lkotlin/coroutines/d$b;",
+            "Lkotlin/coroutines/i$b;",
             ">(",
-            "Lkotlin/coroutines/d$c<",
-            "TE;>;)TE;"
+            "Lkotlin/coroutines/i$c;",
+            ")TE;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -161,51 +193,36 @@
     return v0
 .end method
 
-.method public minusKey(Lkotlin/coroutines/d$c;)Lkotlin/coroutines/d;
+.method public minusKey(Lkotlin/coroutines/i$c;)Lkotlin/coroutines/i;
     .locals 1
-    .param p1    # Lkotlin/coroutines/d$c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlin/coroutines/d$c<",
-            "*>;)",
-            "Lkotlin/coroutines/d;"
+            "Lkotlin/coroutines/i$c;",
+            ")",
+            "Lkotlin/coroutines/i;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
 
-.method public plus(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+.method public plus(Lkotlin/coroutines/i;)Lkotlin/coroutines/i;
     .locals 1
-    .param p1    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "EmptyCoroutineContext"
@@ -233,4 +250,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

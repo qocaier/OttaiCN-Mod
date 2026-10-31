@@ -75,7 +75,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -204,7 +203,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDate()Ljava/lang/String;
@@ -235,7 +233,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHighestTemp()I
@@ -266,7 +263,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLowestTemp()I
@@ -297,7 +293,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPhenomenonDay()Ljava/lang/String;
@@ -328,7 +323,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPhenomenonNight()Ljava/lang/String;
@@ -359,7 +353,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWeek()Ljava/lang/String;
@@ -390,7 +383,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWindDirectionDay()Ljava/lang/String;
@@ -421,7 +413,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWindDirectionNight()Ljava/lang/String;
@@ -452,7 +443,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWindPowerDay()Ljava/lang/String;
@@ -483,7 +473,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWindPowerNight()Ljava/lang/String;
@@ -514,7 +503,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAirQualityIndex(I)V
@@ -547,7 +535,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDate(Ljava/lang/String;)V
@@ -580,7 +567,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHighestTemp(I)V
@@ -613,7 +599,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLowestTemp(I)V
@@ -646,7 +631,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPhenomenonDay(Ljava/lang/String;)V
@@ -679,7 +663,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPhenomenonNight(Ljava/lang/String;)V
@@ -712,7 +695,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWeek(Ljava/lang/String;)V
@@ -745,7 +727,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWindDirectionDay(Ljava/lang/String;)V
@@ -778,7 +759,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWindDirectionNight(Ljava/lang/String;)V
@@ -811,7 +791,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWindPowerDay(Ljava/lang/String;)V
@@ -844,7 +823,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWindPowerNight(Ljava/lang/String;)V
@@ -877,7 +855,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -984,9 +961,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

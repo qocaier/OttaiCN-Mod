@@ -6,23 +6,13 @@
 # direct methods
 .method public static final synthetic findViewTreeViewModelStoreOwner(Landroid/view/View;)Landroidx/lifecycle/ViewModelStoreOwner;
     .locals 1
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->HIDDEN:Lkotlin/DeprecationLevel;
-        message = "Replaced by View.findViewTreeViewModelStoreOwner in ViewTreeViewModelStoreOwner"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "View.findViewTreeViewModelStoreOwner"
-            imports = {
-                "androidx.lifecycle.ViewTreeViewModelStoreOwner"
-            }
-        .end subannotation
-    .end annotation
 
     .line 1
     const-string v0, "view"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

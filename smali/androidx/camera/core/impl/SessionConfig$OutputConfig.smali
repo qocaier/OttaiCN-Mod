@@ -19,9 +19,6 @@
     }
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # static fields
 .field public static final SURFACE_GROUP_ID_NONE:I = -0x1
@@ -54,6 +51,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static builder(Landroidx/camera/core/impl/DeferrableSurface;)Landroidx/camera/core/impl/SessionConfig$OutputConfig$Builder;
@@ -176,6 +174,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 

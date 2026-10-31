@@ -153,6 +153,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -197,6 +198,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAutoSizeMaxTextSize()I
@@ -252,6 +254,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public getAutoSizeMinTextSize()I
@@ -307,6 +310,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public getAutoSizeStepGranularity()I
@@ -362,6 +366,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public getAutoSizeTextAvailableSizes()[I
@@ -483,6 +488,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getAutoSizeTextType()I
@@ -615,6 +622,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCustomSelectionActionModeCallback()Landroid/view/ActionMode$Callback;
@@ -651,6 +660,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportBackgroundTintList()Landroid/content/res/ColorStateList;
@@ -698,6 +708,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -745,6 +756,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportCompoundDrawablesTintList()Landroid/content/res/ColorStateList;
@@ -785,6 +797,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportCompoundDrawablesTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -825,6 +838,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEmojiCompatEnabled()Z
@@ -859,6 +873,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
@@ -1748,6 +1763,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setAllCaps(Z)V
@@ -2050,6 +2071,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setAutoSizeTextTypeUniformWithPresetSizes([II)V

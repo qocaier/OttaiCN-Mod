@@ -56,6 +56,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static d(Ljava/lang/String;Ljava/lang/String;)V
@@ -220,6 +221,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static i(Ljava/lang/String;Ljava/lang/String;)V
@@ -577,6 +579,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static setMinLogLevel(I)V

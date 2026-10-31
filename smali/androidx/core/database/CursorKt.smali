@@ -6,12 +6,6 @@
 # direct methods
 .method public static final getBlobOrNull(Landroid/database/Cursor;I)[B
     .locals 1
-    .param p0    # Landroid/database/Cursor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
@@ -81,12 +75,6 @@
 
 .method public static final getDoubleOrNull(Landroid/database/Cursor;I)Ljava/lang/Double;
     .locals 1
-    .param p0    # Landroid/database/Cursor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
@@ -160,12 +148,6 @@
 
 .method public static final getFloatOrNull(Landroid/database/Cursor;I)Ljava/lang/Float;
     .locals 1
-    .param p0    # Landroid/database/Cursor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
@@ -239,12 +221,6 @@
 
 .method public static final getIntOrNull(Landroid/database/Cursor;I)Ljava/lang/Integer;
     .locals 1
-    .param p0    # Landroid/database/Cursor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
@@ -318,12 +294,6 @@
 
 .method public static final getLongOrNull(Landroid/database/Cursor;I)Ljava/lang/Long;
     .locals 1
-    .param p0    # Landroid/database/Cursor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
@@ -397,12 +367,6 @@
 
 .method public static final getShortOrNull(Landroid/database/Cursor;I)Ljava/lang/Short;
     .locals 1
-    .param p0    # Landroid/database/Cursor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
@@ -476,12 +440,6 @@
 
 .method public static final getStringOrNull(Landroid/database/Cursor;I)Ljava/lang/String;
     .locals 1
-    .param p0    # Landroid/database/Cursor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z

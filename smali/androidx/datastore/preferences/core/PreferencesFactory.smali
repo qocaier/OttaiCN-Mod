@@ -3,29 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nPreferencesFactory.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PreferencesFactory.kt\nandroidx/datastore/preferences/core/PreferencesFactory\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,59:1\n1#2:60\n*E\n"
-.end annotation
-
-.annotation build Lim/j;
-    name = "PreferencesFactory"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nPreferencesFactory.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PreferencesFactory.kt\nandroidx/datastore/preferences/core/PreferencesFactory\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,59:1\n1#2:60\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final varargs create([Landroidx/datastore/preferences/core/Preferences$Pair;)Landroidx/datastore/preferences/core/Preferences;
     .locals 1
-    .param p0    # [Landroidx/datastore/preferences/core/Preferences$Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
@@ -35,19 +15,12 @@
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "create"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "pairs"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -88,12 +61,6 @@
 
 .method public static final createEmpty()Landroidx/datastore/preferences/core/Preferences;
     .locals 3
-    .annotation build Lim/j;
-        name = "createEmpty"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/datastore/preferences/core/MutablePreferences;
@@ -106,7 +73,7 @@
     const/4 v2, 0x1
 
     .line 5
-    invoke-direct {v0, v1, v2, v2, v1}, Landroidx/datastore/preferences/core/MutablePreferences;-><init>(Ljava/util/Map;ZILkm/v;)V
+    invoke-direct {v0, v1, v2, v2, v1}, Landroidx/datastore/preferences/core/MutablePreferences;-><init>(Ljava/util/Map;ZILkotlin/jvm/internal/f;)V
 
     .line 6
     .line 7
@@ -124,14 +91,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final varargs createMutable([Landroidx/datastore/preferences/core/Preferences$Pair;)Landroidx/datastore/preferences/core/MutablePreferences;
     .locals 4
-    .param p0    # [Landroidx/datastore/preferences/core/Preferences$Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
@@ -141,19 +105,12 @@
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "createMutable"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "pairs"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -171,7 +128,7 @@
     const/4 v3, 0x0
 
     .line 11
-    invoke-direct {v0, v3, v1, v2, v3}, Landroidx/datastore/preferences/core/MutablePreferences;-><init>(Ljava/util/Map;ZILkm/v;)V
+    invoke-direct {v0, v3, v1, v2, v3}, Landroidx/datastore/preferences/core/MutablePreferences;-><init>(Ljava/util/Map;ZILkotlin/jvm/internal/f;)V
 
     .line 12
     .line 13

@@ -3,34 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/google/android/material/button/MaterialButtonToggleGroup$OnButtonCheckedListener;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Lcom/google/android/material/timepicker/TimePickerTextInputPresenter;
+.field public final synthetic a:Lcom/google/android/material/timepicker/RadialViewGroup;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/google/android/material/timepicker/TimePickerTextInputPresenter;)V
+.method public synthetic constructor <init>(Lcom/google/android/material/timepicker/RadialViewGroup;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/material/timepicker/c;->a:Lcom/google/android/material/timepicker/TimePickerTextInputPresenter;
+    iput-object p1, p0, Lcom/google/android/material/timepicker/c;->a:Lcom/google/android/material/timepicker/RadialViewGroup;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onButtonChecked(Lcom/google/android/material/button/MaterialButtonToggleGroup;IZ)V
+.method public final run()V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/timepicker/c;->a:Lcom/google/android/material/timepicker/TimePickerTextInputPresenter;
+    iget-object v0, p0, Lcom/google/android/material/timepicker/c;->a:Lcom/google/android/material/timepicker/RadialViewGroup;
 
-    invoke-static {v0, p1, p2, p3}, Lcom/google/android/material/timepicker/TimePickerTextInputPresenter;->a(Lcom/google/android/material/timepicker/TimePickerTextInputPresenter;Lcom/google/android/material/button/MaterialButtonToggleGroup;IZ)V
+    invoke-virtual {v0}, Lcom/google/android/material/timepicker/RadialViewGroup;->updateLayoutParams()V
 
     return-void
 .end method

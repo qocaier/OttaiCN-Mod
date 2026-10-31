@@ -3,36 +3,40 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/video/VideoEncoderSession;
+.field public final synthetic a:Landroidx/camera/video/Recorder;
+
+.field public final synthetic b:Landroidx/camera/video/internal/encoder/Encoder;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/video/VideoEncoderSession;)V
+.method public synthetic constructor <init>(Landroidx/camera/video/Recorder;Landroidx/camera/video/internal/encoder/Encoder;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/video/t;->a:Landroidx/camera/video/VideoEncoderSession;
+    iput-object p1, p0, Landroidx/camera/video/t;->a:Landroidx/camera/video/Recorder;
+
+    iput-object p2, p0, Landroidx/camera/video/t;->b:Landroidx/camera/video/internal/encoder/Encoder;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
-    .locals 1
+.method public final run()V
+    .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/t;->a:Landroidx/camera/video/VideoEncoderSession;
+    iget-object v0, p0, Landroidx/camera/video/t;->a:Landroidx/camera/video/Recorder;
 
-    invoke-static {v0, p1}, Landroidx/camera/video/VideoEncoderSession;->f(Landroidx/camera/video/VideoEncoderSession;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/camera/video/t;->b:Landroidx/camera/video/internal/encoder/Encoder;
 
-    move-result-object p1
+    invoke-static {v0, v1}, Landroidx/camera/video/Recorder;->k(Landroidx/camera/video/Recorder;Landroidx/camera/video/internal/encoder/Encoder;)V
 
-    return-object p1
+    return-void
 .end method

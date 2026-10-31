@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static synthetic a(Lcom/qiyukf/nimlib/sdk/msg/model/MsgDeleteSelfOption;Lcom/qiyukf/nimlib/sdk/msg/model/MsgDeleteSelfOption;)I
@@ -222,9 +224,9 @@
 
     .line 52
     :cond_1
-    new-instance v0, Lvg/t0;
+    new-instance v0, Lcom/qiyukf/nf0;
 
-    invoke-direct {v0, p0}, Lvg/t0;-><init>(Lcom/qiyukf/q6;)V
+    invoke-direct {v0, p0}, Lcom/qiyukf/nf0;-><init>(Lcom/qiyukf/q6;)V
 
     .line 53
     invoke-static {p1, v1, v0}, Lcom/qiyukf/p4;->b(Ljava/util/Collection;ZLcom/qiyukf/p4$a;)Ljava/util/ArrayList;
@@ -282,9 +284,9 @@
 
     .line 26
     :cond_0
-    new-instance v0, Lvg/u0;
+    new-instance v0, Lcom/qiyukf/of0;
 
-    invoke-direct {v0}, Lvg/u0;-><init>()V
+    invoke-direct {v0}, Lcom/qiyukf/of0;-><init>()V
 
     .line 27
     invoke-static {p1, v3, v0}, Lcom/qiyukf/p4;->b(Ljava/util/Collection;ZLcom/qiyukf/p4$a;)Ljava/util/ArrayList;
@@ -336,9 +338,9 @@
     move-result-object p1
 
     .line 32
-    new-instance v0, Lvg/u0;
+    new-instance v0, Lcom/qiyukf/of0;
 
-    invoke-direct {v0}, Lvg/u0;-><init>()V
+    invoke-direct {v0}, Lcom/qiyukf/of0;-><init>()V
 
     const/4 v1, 0x1
 
@@ -347,9 +349,9 @@
     move-result-object v0
 
     .line 33
-    new-instance v2, Lvg/v0;
+    new-instance v2, Lcom/qiyukf/pf0;
 
-    invoke-direct {v2}, Lvg/v0;-><init>()V
+    invoke-direct {v2}, Lcom/qiyukf/pf0;-><init>()V
 
     .line 34
     invoke-static {v0}, Lcom/qiyukf/p4;->a(Ljava/util/Collection;)Z

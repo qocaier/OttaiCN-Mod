@@ -40,14 +40,6 @@
 # direct methods
 .method public constructor <init>(Landroid/view/View;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "view"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -153,18 +145,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private sideToString(I)Ljava/lang/String;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "side"
-        }
-    .end annotation
 
     .line 1
     packed-switch p1, :pswitch_data_0
@@ -297,22 +282,13 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
 # virtual methods
 .method public addToHorizontalChain(II)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "leftId",
-            "rightId"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x2
@@ -632,20 +608,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public addToHorizontalChainRTL(II)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "leftId",
-            "rightId"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x7
@@ -965,20 +934,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public addToVerticalChain(II)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "topId",
-            "bottomId"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x4
@@ -1298,18 +1260,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public alpha(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "alpha"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -1351,26 +1308,6 @@
 
 .method public center(IIIIIIF)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "firstID",
-            "firstSide",
-            "firstMargin",
-            "secondId",
-            "secondSide",
-            "secondMargin",
-            "bias"
-        }
-    .end annotation
 
     .line 1
     const-string v0, "margin must be > 0"
@@ -2092,14 +2029,6 @@
 
 .method public centerHorizontally(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 16
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "toView"
-        }
-    .end annotation
 
     if-nez p1, :cond_0
 
@@ -2149,26 +2078,6 @@
 
 .method public centerHorizontally(IIIIIIF)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "leftId",
-            "leftSide",
-            "leftMargin",
-            "rightId",
-            "rightSide",
-            "rightMargin",
-            "bias"
-        }
-    .end annotation
 
     const/4 v0, 0x1
 
@@ -2190,14 +2099,6 @@
 
 .method public centerHorizontallyRtl(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 16
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "toView"
-        }
-    .end annotation
 
     if-nez p1, :cond_0
 
@@ -2247,26 +2148,6 @@
 
 .method public centerHorizontallyRtl(IIIIIIF)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "startId",
-            "startSide",
-            "startMargin",
-            "endId",
-            "endSide",
-            "endMargin",
-            "bias"
-        }
-    .end annotation
 
     const/4 v0, 0x6
 
@@ -2288,14 +2169,6 @@
 
 .method public centerVertically(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 16
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "toView"
-        }
-    .end annotation
 
     if-nez p1, :cond_0
 
@@ -2345,26 +2218,6 @@
 
 .method public centerVertically(IIIIIIF)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "topId",
-            "topSide",
-            "topMargin",
-            "bottomId",
-            "bottomSide",
-            "bottomMargin",
-            "bias"
-        }
-    .end annotation
 
     const/4 v0, 0x3
 
@@ -2386,20 +2239,6 @@
 
 .method public connect(IIII)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 9
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "startSide",
-            "endID",
-            "endSide",
-            "margin"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x2
@@ -4220,14 +4059,6 @@
 
 .method public constrainDefaultHeight(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "height"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -4263,14 +4094,6 @@
 
 .method public constrainDefaultWidth(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "width"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -4306,14 +4129,6 @@
 
 .method public constrainHeight(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "height"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -4349,14 +4164,6 @@
 
 .method public constrainMaxHeight(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "height"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -4392,14 +4199,6 @@
 
 .method public constrainMaxWidth(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "width"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -4435,14 +4234,6 @@
 
 .method public constrainMinHeight(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "height"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -4478,14 +4269,6 @@
 
 .method public constrainMinWidth(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "width"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -4521,14 +4304,6 @@
 
 .method public constrainWidth(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "width"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -4564,14 +4339,6 @@
 
 .method public dimensionRatio(Ljava/lang/String;)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "ratio"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -4607,14 +4374,6 @@
 
 .method public elevation(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "elevation"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -4650,16 +4409,6 @@
 
 .method public goneMargin(II)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "anchor",
-            "value"
-        }
-    .end annotation
 
     .line 1
     packed-switch p1, :pswitch_data_0
@@ -4967,18 +4716,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public horizontalBias(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bias"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -5014,14 +4758,6 @@
 
 .method public horizontalChainStyle(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "chainStyle"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -5057,14 +4793,6 @@
 
 .method public horizontalWeight(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "weight"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -5100,16 +4828,6 @@
 
 .method public margin(II)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "anchor",
-            "value"
-        }
-    .end annotation
 
     .line 1
     packed-switch p1, :pswitch_data_0
@@ -5417,18 +5135,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public removeConstraints(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "anchor"
-        }
-    .end annotation
 
     .line 1
     const/high16 v0, -0x80000000
@@ -5783,6 +5496,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public removeFromHorizontalChain()Landroidx/constraintlayout/widget/ConstraintProperties;
@@ -6347,6 +6065,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public removeFromVerticalChain()Landroidx/constraintlayout/widget/ConstraintProperties;
@@ -6821,18 +6591,62 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public rotation(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "rotation"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -6868,14 +6682,6 @@
 
 .method public rotationX(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "rotationX"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -6911,14 +6717,6 @@
 
 .method public rotationY(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "rotationY"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -6954,14 +6752,6 @@
 
 .method public scaleX(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "scaleX"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -6997,30 +6787,12 @@
 
 .method public scaleY(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "scaleY"
-        }
-    .end annotation
 
     return-object p0
 .end method
 
 .method public transformPivot(FF)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "transformPivotX",
-            "transformPivotY"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -7083,14 +6855,6 @@
 
 .method public transformPivotX(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "transformPivotX"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -7126,14 +6890,6 @@
 
 .method public transformPivotY(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "transformPivotY"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -7169,16 +6925,6 @@
 
 .method public translation(FF)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "translationX",
-            "translationY"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -7241,14 +6987,6 @@
 
 .method public translationX(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "translationX"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -7284,14 +7022,6 @@
 
 .method public translationY(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "translationY"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -7327,14 +7057,6 @@
 
 .method public translationZ(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "translationZ"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;
@@ -7370,14 +7092,6 @@
 
 .method public verticalBias(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bias"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -7413,14 +7127,6 @@
 
 .method public verticalChainStyle(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "chainStyle"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -7456,14 +7162,6 @@
 
 .method public verticalWeight(F)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "weight"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mParams:Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;
@@ -7499,14 +7197,6 @@
 
 .method public visibility(I)Landroidx/constraintlayout/widget/ConstraintProperties;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "visibility"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/widget/ConstraintProperties;->mView:Landroid/view/View;

@@ -4,21 +4,9 @@
 
 
 # annotations
-.annotation build Lb9/a;
-.end annotation
-
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Lcom/google/android/gms/dynamic/RemoteCreator$RemoteCreatorException;
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
     }
 .end annotation
 
@@ -32,12 +20,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Lb9/a;
-    .end annotation
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,50 +31,10 @@
 
 # virtual methods
 .method public abstract a(Landroid/os/IBinder;)Ljava/lang/Object;
-    .param p1    # Landroid/os/IBinder;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lb9/a;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/os/IBinder;",
-            ")TT;"
-        }
-    .end annotation
 .end method
 
 .method public final b(Landroid/content/Context;)Ljava/lang/Object;
     .locals 2
-    .param p1    # Landroid/content/Context;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lb9/a;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Landroid/content/Context;",
-            ")TT;"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/google/android/gms/dynamic/RemoteCreator$RemoteCreatorException;
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/android/gms/dynamic/RemoteCreator;->b:Ljava/lang/Object;
@@ -103,12 +45,12 @@
 
     .line 4
     .line 5
-    invoke-static {p1}, Lh9/t;->r(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lt2/j;->g(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
     .line 8
-    invoke-static {p1}, Lcom/google/android/gms/common/b;->i(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p1}, Lq2/e;->b(Landroid/content/Context;)Landroid/content/Context;
 
     .line 9
     .line 10
@@ -282,6 +224,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

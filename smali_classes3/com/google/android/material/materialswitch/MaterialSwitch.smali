@@ -109,7 +109,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -468,15 +467,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private refreshTrackDrawable()V
@@ -653,15 +643,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private static setInterpolatedDrawableTintIfPossible(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;[I[IF)V
@@ -1837,15 +1818,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -1880,7 +1852,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThumbIconDrawable()Landroid/graphics/drawable/Drawable;
@@ -1913,7 +1884,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThumbIconSize()I
@@ -1946,7 +1916,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThumbIconTintList()Landroid/content/res/ColorStateList;
@@ -1979,7 +1948,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThumbIconTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -2012,7 +1980,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThumbTintList()Landroid/content/res/ColorStateList;
@@ -2045,7 +2012,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTrackDecorationDrawable()Landroid/graphics/drawable/Drawable;
@@ -2078,7 +2044,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTrackDecorationTintList()Landroid/content/res/ColorStateList;
@@ -2111,7 +2076,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTrackDecorationTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -2144,7 +2108,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTrackDrawable()Landroid/graphics/drawable/Drawable;
@@ -2177,7 +2140,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTrackTintList()Landroid/content/res/ColorStateList;
@@ -2210,7 +2172,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public invalidate()V
@@ -2243,7 +2204,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onCreateDrawableState(I)[I
@@ -2368,8 +2328,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setThumbDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -2408,7 +2366,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbIconDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -2447,7 +2404,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbIconResource(I)V
@@ -2492,7 +2448,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbIconSize(I)V
@@ -2536,7 +2491,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbIconTintList(Landroid/content/res/ColorStateList;)V
@@ -2575,7 +2529,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbIconTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -2614,7 +2567,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbTintList(Landroid/content/res/ColorStateList;)V
@@ -2653,7 +2605,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setThumbTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -2692,7 +2643,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackDecorationDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -2731,7 +2681,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackDecorationResource(I)V
@@ -2776,7 +2725,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackDecorationTintList(Landroid/content/res/ColorStateList;)V
@@ -2815,7 +2763,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackDecorationTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -2854,7 +2801,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -2893,7 +2839,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackTintList(Landroid/content/res/ColorStateList;)V
@@ -2932,7 +2877,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -2971,5 +2915,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

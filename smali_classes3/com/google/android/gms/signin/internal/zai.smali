@@ -3,12 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "SignInRequestCreator"
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation system Ldalvik/annotation/Signature;
@@ -23,26 +17,17 @@
 
 # instance fields
 .field public final a:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$h;
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:Lcom/google/android/gms/common/internal/zat;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getResolveAccountRequest"
-        id = 0x2
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lga/h;
+    new-instance v0, Ll3/h;
 
-    invoke-direct {v0}, Lga/h;-><init>()V
+    invoke-direct {v0}, Ll3/h;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/signin/internal/zai;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -51,18 +36,6 @@
 
 .method public constructor <init>(ILcom/google/android/gms/common/internal/zat;)V
     .locals 0
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # Lcom/google/android/gms/common/internal/zat;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -131,11 +104,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -144,7 +112,7 @@
     .locals 4
 
     .line 1
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -159,7 +127,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v1, v2}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v1, v2}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 9
     .line 10
@@ -174,12 +142,12 @@
     const/4 v3, 0x2
 
     .line 15
-    invoke-static {p1, v3, v1, p2, v2}, Lj9/a;->S(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v3, v1, p2, v2}, Lu2/a;->o(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 16
     .line 17
     .line 18
-    invoke-static {p1, v0}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 19
     .line 20
@@ -224,9 +192,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

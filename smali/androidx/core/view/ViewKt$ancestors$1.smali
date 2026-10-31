@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewKt;->getAncestors(Landroid/view/View;)Lvm/m;
+    value = Landroidx/core/view/ViewKt;->getAncestors(Landroid/view/View;)Lkotlin/sequences/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/l<",
-        "Landroid/view/ViewParent;",
-        "Landroid/view/ViewParent;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 

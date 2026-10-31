@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -37,8 +37,6 @@
 # virtual methods
 .method public final getINVALID_ACTIVITY_STACK_TOKEN()Landroid/os/Binder;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Landroidx/window/embedding/EmbeddingAdapter;->access$getINVALID_ACTIVITY_STACK_TOKEN$cp()Landroid/os/Binder;
@@ -65,12 +63,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getINVALID_SPLIT_INFO_TOKEN()Landroid/os/Binder;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Landroidx/window/embedding/EmbeddingAdapter;->access$getINVALID_SPLIT_INFO_TOKEN$cp()Landroid/os/Binder;
@@ -97,4 +94,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

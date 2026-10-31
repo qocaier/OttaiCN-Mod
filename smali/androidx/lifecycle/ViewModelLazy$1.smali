@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/ViewModelLazy;-><init>(Lum/d;Ljm/a;Ljm/a;Ljm/a;ILkm/v;)V
+    value = Landroidx/lifecycle/ViewModelLazy;-><init>(Lkotlin/reflect/c;Lq8/a;Lq8/a;Lq8/a;ILkotlin/jvm/internal/f;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Landroidx/lifecycle/viewmodel/CreationExtras$Empty;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -57,8 +55,6 @@
 # virtual methods
 .method public final invoke()Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;

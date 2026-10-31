@@ -3,25 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLongSparseArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LongSparseArray.kt\nandroidx/core/util/LongSparseArrayKt\n*L\n1#1,101:1\n77#1,4:102\n*S KotlinDebug\n*F\n+ 1 LongSparseArray.kt\nandroidx/core/util/LongSparseArrayKt\n*L\n73#1:102,4\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nLongSparseArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LongSparseArray.kt\nandroidx/core/util/LongSparseArrayKt\n*L\n1#1,101:1\n77#1,4:102\n*S KotlinDebug\n*F\n+ 1 LongSparseArray.kt\nandroidx/core/util/LongSparseArrayKt\n*L\n73#1:102,4\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final contains(Landroid/util/LongSparseArray;J)Z
     .locals 0
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -98,10 +82,6 @@
 
 .method public static final containsKey(Landroid/util/LongSparseArray;J)Z
     .locals 0
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -178,10 +158,6 @@
 
 .method public static final containsValue(Landroid/util/LongSparseArray;Ljava/lang/Object;)Z
     .locals 0
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -256,16 +232,8 @@
     .line 48
 .end method
 
-.method public static final forEach(Landroid/util/LongSparseArray;Ljm/p;)V
+.method public static final forEach(Landroid/util/LongSparseArray;Lq8/p;)V
     .locals 4
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -273,12 +241,8 @@
             ">(",
             "Landroid/util/LongSparseArray<",
             "TT;>;",
-            "Ljm/p<",
-            "-",
-            "Ljava/lang/Long;",
-            "-TT;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/p;",
+            ")V"
         }
     .end annotation
 
@@ -323,7 +287,7 @@
     move-result-object v3
 
     .line 20
-    invoke-interface {p1, v2, v3}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -363,10 +327,6 @@
 
 .method public static final getOrDefault(Landroid/util/LongSparseArray;JLjava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -500,18 +460,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final getOrElse(Landroid/util/LongSparseArray;JLjm/a;)Ljava/lang/Object;
+.method public static final getOrElse(Landroid/util/LongSparseArray;JLq8/a;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -519,8 +474,8 @@
             ">(",
             "Landroid/util/LongSparseArray<",
             "TT;>;J",
-            "Ljm/a<",
-            "+TT;>;)TT;"
+            "Lq8/a;",
+            ")TT;"
         }
     .end annotation
 
@@ -537,7 +492,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p3}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p3}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -649,14 +604,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final getSize(Landroid/util/LongSparseArray;)I
     .locals 0
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -701,10 +655,6 @@
 
 .method public static final isEmpty(Landroid/util/LongSparseArray;)Z
     .locals 0
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -758,10 +708,6 @@
 
 .method public static final isNotEmpty(Landroid/util/LongSparseArray;)Z
     .locals 0
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -813,12 +759,8 @@
     .line 25
 .end method
 
-.method public static final keyIterator(Landroid/util/LongSparseArray;)Lll/d1;
+.method public static final keyIterator(Landroid/util/LongSparseArray;)Lkotlin/collections/d0;
     .locals 1
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -826,11 +768,8 @@
             ">(",
             "Landroid/util/LongSparseArray<",
             "TT;>;)",
-            "Lll/d1;"
+            "Lkotlin/collections/d0;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -867,14 +806,6 @@
 
 .method public static final plus(Landroid/util/LongSparseArray;Landroid/util/LongSparseArray;)Landroid/util/LongSparseArray;
     .locals 3
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -887,9 +818,6 @@
             "Landroid/util/LongSparseArray<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -963,14 +891,6 @@
 
 .method public static final putAll(Landroid/util/LongSparseArray;Landroid/util/LongSparseArray;)V
     .locals 5
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -1060,10 +980,6 @@
 
 .method public static final remove(Landroid/util/LongSparseArray;JLjava/lang/Object;)Z
     .locals 0
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -1095,7 +1011,7 @@
     move-result-object p2
 
     .line 11
-    invoke-static {p3, p2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p3, p2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -1213,14 +1129,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final set(Landroid/util/LongSparseArray;JLjava/lang/Object;)V
     .locals 0
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -1347,14 +1262,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final valueIterator(Landroid/util/LongSparseArray;)Ljava/util/Iterator;
     .locals 1
-    .param p0    # Landroid/util/LongSparseArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -1365,9 +1279,6 @@
             "Ljava/util/Iterator<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1

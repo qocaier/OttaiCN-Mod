@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/entity/pb/end_button_info;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -26,15 +26,15 @@
 
 .field private borderColor_:I
 
-.field private btnTitle_:Ljc/a;
+.field private btnTitle_:Ll4/a;
 
 .field private cachedSize:I
 
 .field private cityid_:I
 
-.field private cname_:Ljc/a;
+.field private cname_:Ll4/a;
 
-.field private endInput_:Ljc/a;
+.field private endInput_:Ll4/a;
 
 .field private hasBackgroundColor:Z
 
@@ -54,28 +54,28 @@
 
 .field private showPoint_:Lcom/baidu/entity/pb/yellow_tip_point;
 
-.field private uid_:Ljc/a;
+.field private uid_:Ll4/a;
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->btnTitle_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->btnTitle_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->endInput_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->endInput_:Ll4/a;
 
     const/4 v1, 0x0
 
     iput-object v1, p0, Lcom/baidu/entity/pb/end_button_info;->showPoint_:Lcom/baidu/entity/pb/yellow_tip_point;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->uid_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->uid_:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->cname_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->cname_:Ll4/a;
 
     const/4 v0, 0x0
 
@@ -92,7 +92,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/entity/pb/end_button_info;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/entity/pb/end_button_info;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -105,7 +105,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/end_button_info;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/end_button_info;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/end_button_info;
+    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/end_button_info;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/end_button_info;
 
     move-result-object p0
 
@@ -125,7 +125,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/end_button_info;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -193,9 +193,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/end_button_info;->hasBtnTitle:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->btnTitle_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->btnTitle_:Ll4/a;
 
     return-object p0
 .end method
@@ -219,9 +219,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/end_button_info;->hasCname:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->cname_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->cname_:Ll4/a;
 
     return-object p0
 .end method
@@ -233,9 +233,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/end_button_info;->hasEndInput:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->endInput_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->endInput_:Ll4/a;
 
     return-object p0
 .end method
@@ -261,9 +261,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/entity/pb/end_button_info;->hasUid:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->uid_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->uid_:Ll4/a;
 
     return-object p0
 .end method
@@ -284,11 +284,11 @@
     return v0
 .end method
 
-.method public getBtnTitle()Ljc/a;
+.method public getBtnTitle()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->btnTitle_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->btnTitle_:Ll4/a;
 
     .line 2
     .line 3
@@ -312,7 +312,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCachedSize()I
@@ -338,11 +337,11 @@
     return v0
 .end method
 
-.method public getCname()Ljc/a;
+.method public getCname()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->cname_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->cname_:Ll4/a;
 
     .line 2
     .line 3
@@ -366,14 +365,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getEndInput()Ljc/a;
+.method public getEndInput()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->endInput_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->endInput_:Ll4/a;
 
     .line 2
     .line 3
@@ -397,7 +395,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSerializedSize()I
@@ -411,11 +408,11 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getBtnTitle()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getBtnTitle()Ll4/a;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v0
 
@@ -433,11 +430,11 @@
 
     const/4 v1, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getEndInput()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getEndInput()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -456,7 +453,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v1
 
@@ -471,11 +468,11 @@
 
     const/4 v1, 0x4
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getUid()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getUid()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -490,11 +487,11 @@
 
     const/4 v1, 0x5
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getCname()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getCname()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -513,7 +510,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -532,7 +529,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -551,7 +548,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -571,11 +568,11 @@
     return-object v0
 .end method
 
-.method public getUid()Ljc/a;
+.method public getUid()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->uid_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/entity/pb/end_button_info;->uid_:Ll4/a;
 
     .line 2
     .line 3
@@ -599,7 +596,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hasBackgroundColor()Z
@@ -674,7 +670,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/end_button_info;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/end_button_info;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -685,7 +681,7 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
@@ -723,7 +719,7 @@
 
     if-eq v0, v1, :cond_1
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -732,7 +728,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -741,7 +737,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -750,7 +746,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -759,20 +755,20 @@
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/end_button_info;->setCname(Ljc/a;)Lcom/baidu/entity/pb/end_button_info;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/end_button_info;->setCname(Ll4/a;)Lcom/baidu/entity/pb/end_button_info;
 
     goto :goto_0
 
     :cond_5
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/end_button_info;->setUid(Ljc/a;)Lcom/baidu/entity/pb/end_button_info;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/end_button_info;->setUid(Ll4/a;)Lcom/baidu/entity/pb/end_button_info;
 
     goto :goto_0
 
@@ -781,27 +777,27 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/yellow_tip_point;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/end_button_info;->setShowPoint(Lcom/baidu/entity/pb/yellow_tip_point;)Lcom/baidu/entity/pb/end_button_info;
 
     goto :goto_0
 
     :cond_7
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/end_button_info;->setEndInput(Ljc/a;)Lcom/baidu/entity/pb/end_button_info;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/end_button_info;->setEndInput(Ll4/a;)Lcom/baidu/entity/pb/end_button_info;
 
     goto :goto_0
 
     :cond_8
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/end_button_info;->setBtnTitle(Ljc/a;)Lcom/baidu/entity/pb/end_button_info;
+    invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/end_button_info;->setBtnTitle(Ll4/a;)Lcom/baidu/entity/pb/end_button_info;
 
     goto :goto_0
 
@@ -810,7 +806,7 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -819,7 +815,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/end_button_info;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/end_button_info;
+    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/end_button_info;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/end_button_info;
 
     move-result-object p1
 
@@ -850,7 +846,7 @@
     return-object p0
 .end method
 
-.method public setBtnTitle(Ljc/a;)Lcom/baidu/entity/pb/end_button_info;
+.method public setBtnTitle(Ll4/a;)Lcom/baidu/entity/pb/end_button_info;
     .locals 1
 
     .line 1
@@ -861,7 +857,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/end_button_info;->btnTitle_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/end_button_info;->btnTitle_:Ll4/a;
 
     .line 5
     .line 6
@@ -884,7 +880,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCityid(I)Lcom/baidu/entity/pb/end_button_info;
@@ -899,7 +894,7 @@
     return-object p0
 .end method
 
-.method public setCname(Ljc/a;)Lcom/baidu/entity/pb/end_button_info;
+.method public setCname(Ll4/a;)Lcom/baidu/entity/pb/end_button_info;
     .locals 1
 
     .line 1
@@ -910,7 +905,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/end_button_info;->cname_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/end_button_info;->cname_:Ll4/a;
 
     .line 5
     .line 6
@@ -933,10 +928,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setEndInput(Ljc/a;)Lcom/baidu/entity/pb/end_button_info;
+.method public setEndInput(Ll4/a;)Lcom/baidu/entity/pb/end_button_info;
     .locals 1
 
     .line 1
@@ -947,7 +941,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/end_button_info;->endInput_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/end_button_info;->endInput_:Ll4/a;
 
     .line 5
     .line 6
@@ -970,7 +964,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShowPoint(Lcom/baidu/entity/pb/yellow_tip_point;)Lcom/baidu/entity/pb/end_button_info;
@@ -994,7 +987,7 @@
     return-object p0
 .end method
 
-.method public setUid(Ljc/a;)Lcom/baidu/entity/pb/end_button_info;
+.method public setUid(Ll4/a;)Lcom/baidu/entity/pb/end_button_info;
     .locals 1
 
     .line 1
@@ -1005,7 +998,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/entity/pb/end_button_info;->uid_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/entity/pb/end_button_info;->uid_:Ll4/a;
 
     .line 5
     .line 6
@@ -1028,7 +1021,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeTo(Lcom/google/protobuf/micro/CodedOutputStreamMicro;)V
@@ -1047,11 +1039,11 @@
 
     const/4 v0, 0x1
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getBtnTitle()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getBtnTitle()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->hasEndInput()Z
@@ -1062,11 +1054,11 @@
 
     const/4 v0, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getEndInput()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getEndInput()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->hasShowPoint()Z
@@ -1081,7 +1073,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->hasUid()Z
@@ -1092,11 +1084,11 @@
 
     const/4 v0, 0x4
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getUid()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getUid()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->hasCname()Z
@@ -1107,11 +1099,11 @@
 
     const/4 v0, 0x5
 
-    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getCname()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->getCname()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_4
     invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->hasCityid()Z
@@ -1126,7 +1118,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_5
     invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->hasBorderColor()Z
@@ -1141,7 +1133,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_6
     invoke-virtual {p0}, Lcom/baidu/entity/pb/end_button_info;->hasBackgroundColor()Z
@@ -1156,7 +1148,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_7
     return-void

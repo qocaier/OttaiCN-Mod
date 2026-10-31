@@ -9,6 +9,8 @@
 
 
 # static fields
+.field public static final synthetic a:I
+
 .field private static applicationContext:Landroid/content/Context;
 
 
@@ -45,6 +47,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -73,6 +76,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static native copyAssetToFilesDir(Ljava/lang/String;)Ljava/lang/String;
@@ -198,6 +202,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static native openFileDescriptorNative(Ljava/lang/String;)I

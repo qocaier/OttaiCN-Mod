@@ -8,30 +8,12 @@
 
 # static fields
 .field public static c:Landroid/os/Parcelable$Creator;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Landroid/os/Parcelable$Creator<",
-            "Lanetwork/channel/aidl/ParcelableHeader;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 
 # instance fields
 .field public a:I
 
 .field public b:Ljava/util/Map;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;>;"
-        }
-    .end annotation
-.end field
 
 
 # direct methods
@@ -39,11 +21,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lanetwork/channel/aidl/k;
+    new-instance v0, Lj/g;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lanetwork/channel/aidl/k;-><init>()V
+    invoke-direct {v0}, Lj/g;-><init>()V
 
     .line 4
     .line 5
@@ -65,6 +47,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -78,16 +61,6 @@
 
 .method public constructor <init>(ILjava/util/Map;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(I",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;>;)V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -101,7 +74,7 @@
     return-void
 .end method
 
-.method public static a(Landroid/os/Parcel;)Lanetwork/channel/aidl/ParcelableHeader;
+.method public static b(Landroid/os/Parcel;)Lanetwork/channel/aidl/ParcelableHeader;
     .locals 5
 
     .line 1
@@ -240,22 +213,13 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
 # virtual methods
-.method public b()Ljava/util/Map;
+.method public d()Ljava/util/Map;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;>;"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lanetwork/channel/aidl/ParcelableHeader;->b:Ljava/util/Map;
@@ -280,9 +244,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public c()I
+.method public describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public e()I
     .locals 1
 
     .line 1
@@ -308,14 +281,7 @@
     .line 18
     .line 19
     .line 20
-.end method
-
-.method public describeContents()I
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -434,6 +400,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V

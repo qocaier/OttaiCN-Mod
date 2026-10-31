@@ -1,5 +1,5 @@
 .class public final Lokio/Options;
-.super Lll/d;
+.super Lkotlin/collections/d;
 .source "SourceFile"
 
 # interfaces
@@ -15,9 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lll/d<",
-        "Lokio/ByteString;",
-        ">;",
+        "Lkotlin/collections/d;",
         "Ljava/util/RandomAccess;"
     }
 .end annotation
@@ -25,21 +23,12 @@
 
 # static fields
 .field public static final Companion:Lokio/Options$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field private final byteStrings:[Lokio/ByteString;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final trie:[I
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -50,7 +39,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lokio/Options$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Lokio/Options$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Lokio/Options;->Companion:Lokio/Options$Companion;
 
@@ -61,7 +50,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lll/d;-><init>()V
+    invoke-direct {p0}, Lkotlin/collections/d;-><init>()V
 
     .line 3
     iput-object p1, p0, Lokio/Options;->byteStrings:[Lokio/ByteString;
@@ -72,7 +61,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>([Lokio/ByteString;[ILkm/v;)V
+.method public synthetic constructor <init>([Lokio/ByteString;[ILkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -83,15 +72,6 @@
 
 .method public static final varargs of([Lokio/ByteString;)Lokio/Options;
     .locals 1
-    .param p0    # [Lokio/ByteString;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     sget-object v0, Lokio/Options;->Companion:Lokio/Options$Companion;
 
@@ -130,7 +110,7 @@
     .locals 0
 
     .line 2
-    invoke-super {p0, p1}, Lll/b;->contains(Ljava/lang/Object;)Z
+    invoke-super {p0, p1}, Lkotlin/collections/b;->contains(Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -150,8 +130,6 @@
 
 .method public get(I)Lokio/ByteString;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     iget-object v0, p0, Lokio/Options;->byteStrings:[Lokio/ByteString;
@@ -163,8 +141,6 @@
 
 .method public final getByteStrings$okio()[Lokio/ByteString;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lokio/Options;->byteStrings:[Lokio/ByteString;
@@ -192,6 +168,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public getSize()I
@@ -225,12 +228,37 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final getTrie$okio()[I
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lokio/Options;->trie:[I
@@ -258,6 +286,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final bridge indexOf(Ljava/lang/Object;)I
@@ -286,7 +341,7 @@
     .locals 0
 
     .line 2
-    invoke-super {p0, p1}, Lll/d;->indexOf(Ljava/lang/Object;)I
+    invoke-super {p0, p1}, Lkotlin/collections/d;->indexOf(Ljava/lang/Object;)I
 
     move-result p1
 
@@ -319,7 +374,7 @@
     .locals 0
 
     .line 2
-    invoke-super {p0, p1}, Lll/d;->lastIndexOf(Ljava/lang/Object;)I
+    invoke-super {p0, p1}, Lkotlin/collections/d;->lastIndexOf(Ljava/lang/Object;)I
 
     move-result p1
 

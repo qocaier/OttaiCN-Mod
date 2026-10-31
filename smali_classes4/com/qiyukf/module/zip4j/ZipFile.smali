@@ -301,6 +301,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private createNewZipModel()V
@@ -337,6 +338,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private initializeRandomAccessFileForHeaderReading()Ljava/io/RandomAccessFile;
@@ -475,6 +478,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private readZipInfo()V
@@ -692,264 +696,6 @@
     .line 84
     .line 85
     throw v0
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-    .line 251
-    .line 252
-    .line 253
-    .line 254
-    .line 255
-    .line 256
-    .line 257
-    .line 258
-    .line 259
-    .line 260
-    .line 261
-    .line 262
-    .line 263
-    .line 264
-    .line 265
-    .line 266
-    .line 267
-    .line 268
-    .line 269
-    .line 270
-    .line 271
-    .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method private verifyAllSplitFilesOfZipExists(Ljava/util/List;)Z
@@ -1021,63 +767,6 @@
     .line 26
     return p1
     .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 
@@ -1625,33 +1314,790 @@
 
     .line 76
     .line 77
-    const-string p2, "zip parameters are null"
+    const-string/jumbo p2, "zip parameters are null"
 
     .line 78
     .line 79
+    .line 80
     invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+
+    .line 81
+    .line 82
+    .line 83
+    throw p1
+
+    .line 84
+    :cond_4
+    new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
+
+    .line 85
+    .line 86
+    const-string p2, "inputstream is null, cannot add file to zip"
+
+    .line 87
+    .line 88
+    invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+
+    .line 89
+    .line 90
+    .line 91
+    throw p1
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+.end method
+
+.method public createSplitZipFile(Ljava/util/List;Lcom/qiyukf/module/zip4j/model/ZipParameters;ZJ)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Ljava/io/File;",
+            ">;",
+            "Lcom/qiyukf/module/zip4j/model/ZipParameters;",
+            "ZJ)V"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/qiyukf/module/zip4j/exception/ZipException;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipFile:Ljava/io/File;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/io/File;->exists()Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-nez v0, :cond_1
+
+    .line 8
+    .line 9
+    if-eqz p1, :cond_0
+
+    .line 10
+    .line 11
+    invoke-interface {p1}, Ljava/util/List;->size()I
+
+    .line 12
+    .line 13
+    .line 14
+    move-result v0
+
+    .line 15
+    if-eqz v0, :cond_0
+
+    .line 16
+    .line 17
+    invoke-direct {p0}, Lcom/qiyukf/module/zip4j/ZipFile;->createNewZipModel()V
+
+    .line 18
+    .line 19
+    .line 20
+    iget-object v0, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipModel:Lcom/qiyukf/module/zip4j/model/ZipModel;
+
+    .line 21
+    .line 22
+    invoke-virtual {v0, p3}, Lcom/qiyukf/module/zip4j/model/ZipModel;->setSplitArchive(Z)V
+
+    .line 23
+    .line 24
+    .line 25
+    iget-object p3, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipModel:Lcom/qiyukf/module/zip4j/model/ZipModel;
+
+    .line 26
+    .line 27
+    invoke-virtual {p3, p4, p5}, Lcom/qiyukf/module/zip4j/model/ZipModel;->setSplitLength(J)V
+
+    .line 28
+    .line 29
+    .line 30
+    new-instance p3, Lcom/qiyukf/module/zip4j/tasks/AddFilesToZipTask;
+
+    .line 31
+    .line 32
+    iget-object p4, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipModel:Lcom/qiyukf/module/zip4j/model/ZipModel;
+
+    .line 33
+    .line 34
+    iget-object p5, p0, Lcom/qiyukf/module/zip4j/ZipFile;->password:[C
+
+    .line 35
+    .line 36
+    iget-object v0, p0, Lcom/qiyukf/module/zip4j/ZipFile;->headerWriter:Lcom/qiyukf/module/zip4j/headers/HeaderWriter;
+
+    .line 37
+    .line 38
+    invoke-direct {p0}, Lcom/qiyukf/module/zip4j/ZipFile;->buildAsyncParameters()Lcom/qiyukf/module/zip4j/tasks/AsyncZipTask$AsyncTaskParameters;
+
+    .line 39
+    .line 40
+    .line 41
+    move-result-object v1
+
+    .line 42
+    invoke-direct {p3, p4, p5, v0, v1}, Lcom/qiyukf/module/zip4j/tasks/AddFilesToZipTask;-><init>(Lcom/qiyukf/module/zip4j/model/ZipModel;[CLcom/qiyukf/module/zip4j/headers/HeaderWriter;Lcom/qiyukf/module/zip4j/tasks/AsyncZipTask$AsyncTaskParameters;)V
+
+    .line 43
+    .line 44
+    .line 45
+    new-instance p4, Lcom/qiyukf/module/zip4j/tasks/AddFilesToZipTask$AddFilesToZipTaskParameters;
+
+    .line 46
+    .line 47
+    iget-object p5, p0, Lcom/qiyukf/module/zip4j/ZipFile;->charset:Ljava/nio/charset/Charset;
+
+    .line 48
+    .line 49
+    invoke-direct {p4, p1, p2, p5}, Lcom/qiyukf/module/zip4j/tasks/AddFilesToZipTask$AddFilesToZipTaskParameters;-><init>(Ljava/util/List;Lcom/qiyukf/module/zip4j/model/ZipParameters;Ljava/nio/charset/Charset;)V
+
+    .line 50
+    .line 51
+    .line 52
+    invoke-virtual {p3, p4}, Lcom/qiyukf/module/zip4j/tasks/AsyncZipTask;->execute(Ljava/lang/Object;)V
+
+    .line 53
+    .line 54
+    .line 55
+    return-void
+
+    .line 56
+    :cond_0
+    new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
+
+    .line 57
+    .line 58
+    const-string p2, "input file List is null, cannot create zip file"
+
+    .line 59
+    .line 60
+    invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+
+    .line 61
+    .line 62
+    .line 63
+    throw p1
+
+    .line 64
+    :cond_1
+    new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
+
+    .line 65
+    .line 66
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    .line 67
+    .line 68
+    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 69
+    .line 70
+    .line 71
+    const-string/jumbo p3, "zip file: "
+
+    .line 72
+    .line 73
+    .line 74
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 75
+    .line 76
+    .line 77
+    iget-object p3, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipFile:Ljava/io/File;
+
+    .line 78
+    .line 79
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 80
     .line 81
     .line 82
-    throw p1
+    const-string p3, " already exists. To add files to existing zip file use addFile method"
 
     .line 83
-    :cond_4
-    new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
-
     .line 84
-    .line 85
-    const-string p2, "inputstream is null, cannot add file to zip"
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 85
     .line 86
     .line 87
-    invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 88
     .line 89
     .line 90
+    move-result-object p2
+
+    .line 91
+    invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+
+    .line 92
+    .line 93
+    .line 94
     throw p1
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+.end method
+
+.method public createSplitZipFileFromFolder(Ljava/io/File;Lcom/qiyukf/module/zip4j/model/ZipParameters;ZJ)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/qiyukf/module/zip4j/exception/ZipException;
+        }
+    .end annotation
+
+    .line 1
+    if-eqz p1, :cond_3
+
+    .line 2
+    .line 3
+    if-eqz p2, :cond_2
+
+    .line 4
+    .line 5
+    iget-object v0, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipFile:Ljava/io/File;
+
+    .line 6
+    .line 7
+    invoke-virtual {v0}, Ljava/io/File;->exists()Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v0
+
+    .line 11
+    if-nez v0, :cond_1
+
+    .line 12
+    .line 13
+    invoke-direct {p0}, Lcom/qiyukf/module/zip4j/ZipFile;->createNewZipModel()V
+
+    .line 14
+    .line 15
+    .line 16
+    iget-object v0, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipModel:Lcom/qiyukf/module/zip4j/model/ZipModel;
+
+    .line 17
+    .line 18
+    invoke-virtual {v0, p3}, Lcom/qiyukf/module/zip4j/model/ZipModel;->setSplitArchive(Z)V
+
+    .line 19
+    .line 20
+    .line 21
+    if-eqz p3, :cond_0
+
+    .line 22
+    .line 23
+    iget-object p3, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipModel:Lcom/qiyukf/module/zip4j/model/ZipModel;
+
+    .line 24
+    .line 25
+    invoke-virtual {p3, p4, p5}, Lcom/qiyukf/module/zip4j/model/ZipModel;->setSplitLength(J)V
+
+    .line 26
+    .line 27
+    .line 28
+    :cond_0
+    const/4 p3, 0x0
+
+    .line 29
+    invoke-direct {p0, p1, p2, p3}, Lcom/qiyukf/module/zip4j/ZipFile;->addFolder(Ljava/io/File;Lcom/qiyukf/module/zip4j/model/ZipParameters;Z)V
+
+    .line 30
+    .line 31
+    .line 32
+    return-void
+
+    .line 33
+    :cond_1
+    new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
+
+    .line 34
+    .line 35
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    .line 36
+    .line 37
+    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 38
+    .line 39
+    .line 40
+    const-string/jumbo p3, "zip file: "
+
+    .line 41
+    .line 42
+    .line 43
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 44
+    .line 45
+    .line 46
+    iget-object p3, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipFile:Ljava/io/File;
+
+    .line 47
+    .line 48
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 49
+    .line 50
+    .line 51
+    const-string p3, " already exists. To add files to existing zip file use addFolder method"
+
+    .line 52
+    .line 53
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 54
+    .line 55
+    .line 56
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 57
+    .line 58
+    .line 59
+    move-result-object p2
+
+    .line 60
+    invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+
+    .line 61
+    .line 62
+    .line 63
+    throw p1
+
+    .line 64
+    :cond_2
+    new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
+
+    .line 65
+    .line 66
+    const-string p2, "input parameters are null, cannot create zip file from folder"
+
+    .line 67
+    .line 68
+    invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+
+    .line 69
+    .line 70
+    .line 71
+    throw p1
+
+    .line 72
+    :cond_3
+    new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
+
+    .line 73
+    .line 74
+    const-string p2, "folderToAdd is null, cannot create zip file from folder"
+
+    .line 75
+    .line 76
+    invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+
+    .line 77
+    .line 78
+    .line 79
+    throw p1
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
     .line 91
     .line 92
     .line 93
@@ -1825,697 +2271,16 @@
     .line 261
     .line 262
     .line 263
-.end method
-
-.method public createSplitZipFile(Ljava/util/List;Lcom/qiyukf/module/zip4j/model/ZipParameters;ZJ)V
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Ljava/io/File;",
-            ">;",
-            "Lcom/qiyukf/module/zip4j/model/ZipParameters;",
-            "ZJ)V"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/qiyukf/module/zip4j/exception/ZipException;
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipFile:Ljava/io/File;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0}, Ljava/io/File;->exists()Z
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v0
-
-    .line 7
-    if-nez v0, :cond_1
-
-    .line 8
-    .line 9
-    if-eqz p1, :cond_0
-
-    .line 10
-    .line 11
-    invoke-interface {p1}, Ljava/util/List;->size()I
-
-    .line 12
-    .line 13
-    .line 14
-    move-result v0
-
-    .line 15
-    if-eqz v0, :cond_0
-
-    .line 16
-    .line 17
-    invoke-direct {p0}, Lcom/qiyukf/module/zip4j/ZipFile;->createNewZipModel()V
-
-    .line 18
-    .line 19
-    .line 20
-    iget-object v0, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipModel:Lcom/qiyukf/module/zip4j/model/ZipModel;
-
-    .line 21
-    .line 22
-    invoke-virtual {v0, p3}, Lcom/qiyukf/module/zip4j/model/ZipModel;->setSplitArchive(Z)V
-
-    .line 23
-    .line 24
-    .line 25
-    iget-object p3, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipModel:Lcom/qiyukf/module/zip4j/model/ZipModel;
-
-    .line 26
-    .line 27
-    invoke-virtual {p3, p4, p5}, Lcom/qiyukf/module/zip4j/model/ZipModel;->setSplitLength(J)V
-
-    .line 28
-    .line 29
-    .line 30
-    new-instance p3, Lcom/qiyukf/module/zip4j/tasks/AddFilesToZipTask;
-
-    .line 31
-    .line 32
-    iget-object p4, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipModel:Lcom/qiyukf/module/zip4j/model/ZipModel;
-
-    .line 33
-    .line 34
-    iget-object p5, p0, Lcom/qiyukf/module/zip4j/ZipFile;->password:[C
-
-    .line 35
-    .line 36
-    iget-object v0, p0, Lcom/qiyukf/module/zip4j/ZipFile;->headerWriter:Lcom/qiyukf/module/zip4j/headers/HeaderWriter;
-
-    .line 37
-    .line 38
-    invoke-direct {p0}, Lcom/qiyukf/module/zip4j/ZipFile;->buildAsyncParameters()Lcom/qiyukf/module/zip4j/tasks/AsyncZipTask$AsyncTaskParameters;
-
-    .line 39
-    .line 40
-    .line 41
-    move-result-object v1
-
-    .line 42
-    invoke-direct {p3, p4, p5, v0, v1}, Lcom/qiyukf/module/zip4j/tasks/AddFilesToZipTask;-><init>(Lcom/qiyukf/module/zip4j/model/ZipModel;[CLcom/qiyukf/module/zip4j/headers/HeaderWriter;Lcom/qiyukf/module/zip4j/tasks/AsyncZipTask$AsyncTaskParameters;)V
-
-    .line 43
-    .line 44
-    .line 45
-    new-instance p4, Lcom/qiyukf/module/zip4j/tasks/AddFilesToZipTask$AddFilesToZipTaskParameters;
-
-    .line 46
-    .line 47
-    iget-object p5, p0, Lcom/qiyukf/module/zip4j/ZipFile;->charset:Ljava/nio/charset/Charset;
-
-    .line 48
-    .line 49
-    invoke-direct {p4, p1, p2, p5}, Lcom/qiyukf/module/zip4j/tasks/AddFilesToZipTask$AddFilesToZipTaskParameters;-><init>(Ljava/util/List;Lcom/qiyukf/module/zip4j/model/ZipParameters;Ljava/nio/charset/Charset;)V
-
-    .line 50
-    .line 51
-    .line 52
-    invoke-virtual {p3, p4}, Lcom/qiyukf/module/zip4j/tasks/AsyncZipTask;->execute(Ljava/lang/Object;)V
-
-    .line 53
-    .line 54
-    .line 55
-    return-void
-
-    .line 56
-    :cond_0
-    new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
-
-    .line 57
-    .line 58
-    const-string p2, "input file List is null, cannot create zip file"
-
-    .line 59
-    .line 60
-    invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
-
-    .line 61
-    .line 62
-    .line 63
-    throw p1
-
-    .line 64
-    :cond_1
-    new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
-
-    .line 65
-    .line 66
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    .line 67
-    .line 68
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
-
-    .line 69
-    .line 70
-    .line 71
-    const-string p3, "zip file: "
-
-    .line 72
-    .line 73
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 74
-    .line 75
-    .line 76
-    iget-object p3, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipFile:Ljava/io/File;
-
-    .line 77
-    .line 78
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    .line 79
-    .line 80
-    .line 81
-    const-string p3, " already exists. To add files to existing zip file use addFile method"
-
-    .line 82
-    .line 83
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 84
-    .line 85
-    .line 86
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 87
-    .line 88
-    .line 89
-    move-result-object p2
-
-    .line 90
-    invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
-
-    .line 91
-    .line 92
-    .line 93
-    throw p1
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-.end method
-
-.method public createSplitZipFileFromFolder(Ljava/io/File;Lcom/qiyukf/module/zip4j/model/ZipParameters;ZJ)V
-    .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Lcom/qiyukf/module/zip4j/exception/ZipException;
-        }
-    .end annotation
-
-    .line 1
-    if-eqz p1, :cond_3
-
-    .line 2
-    .line 3
-    if-eqz p2, :cond_2
-
-    .line 4
-    .line 5
-    iget-object v0, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipFile:Ljava/io/File;
-
-    .line 6
-    .line 7
-    invoke-virtual {v0}, Ljava/io/File;->exists()Z
-
-    .line 8
-    .line 9
-    .line 10
-    move-result v0
-
-    .line 11
-    if-nez v0, :cond_1
-
-    .line 12
-    .line 13
-    invoke-direct {p0}, Lcom/qiyukf/module/zip4j/ZipFile;->createNewZipModel()V
-
-    .line 14
-    .line 15
-    .line 16
-    iget-object v0, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipModel:Lcom/qiyukf/module/zip4j/model/ZipModel;
-
-    .line 17
-    .line 18
-    invoke-virtual {v0, p3}, Lcom/qiyukf/module/zip4j/model/ZipModel;->setSplitArchive(Z)V
-
-    .line 19
-    .line 20
-    .line 21
-    if-eqz p3, :cond_0
-
-    .line 22
-    .line 23
-    iget-object p3, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipModel:Lcom/qiyukf/module/zip4j/model/ZipModel;
-
-    .line 24
-    .line 25
-    invoke-virtual {p3, p4, p5}, Lcom/qiyukf/module/zip4j/model/ZipModel;->setSplitLength(J)V
-
-    .line 26
-    .line 27
-    .line 28
-    :cond_0
-    const/4 p3, 0x0
-
-    .line 29
-    invoke-direct {p0, p1, p2, p3}, Lcom/qiyukf/module/zip4j/ZipFile;->addFolder(Ljava/io/File;Lcom/qiyukf/module/zip4j/model/ZipParameters;Z)V
-
-    .line 30
-    .line 31
-    .line 32
-    return-void
-
-    .line 33
-    :cond_1
-    new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
-
-    .line 34
-    .line 35
-    new-instance p2, Ljava/lang/StringBuilder;
-
-    .line 36
-    .line 37
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
-
-    .line 38
-    .line 39
-    .line 40
-    const-string p3, "zip file: "
-
-    .line 41
-    .line 42
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 43
-    .line 44
-    .line 45
-    iget-object p3, p0, Lcom/qiyukf/module/zip4j/ZipFile;->zipFile:Ljava/io/File;
-
-    .line 46
-    .line 47
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    .line 48
-    .line 49
-    .line 50
-    const-string p3, " already exists. To add files to existing zip file use addFolder method"
-
-    .line 51
-    .line 52
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 53
-    .line 54
-    .line 55
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    .line 56
-    .line 57
-    .line 58
-    move-result-object p2
-
-    .line 59
-    invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
-
-    .line 60
-    .line 61
-    .line 62
-    throw p1
-
-    .line 63
-    :cond_2
-    new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
-
-    .line 64
-    .line 65
-    const-string p2, "input parameters are null, cannot create zip file from folder"
-
-    .line 66
-    .line 67
-    invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
-
-    .line 68
-    .line 69
-    .line 70
-    throw p1
-
-    .line 71
-    :cond_3
-    new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
-
-    .line 72
-    .line 73
-    const-string p2, "folderToAdd is null, cannot create zip file from folder"
-
-    .line 74
-    .line 75
-    invoke-direct {p1, p2}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
-
-    .line 76
-    .line 77
-    .line 78
-    throw p1
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-    .line 153
-    .line 154
-    .line 155
-    .line 156
-    .line 157
-    .line 158
-    .line 159
-    .line 160
-    .line 161
-    .line 162
-    .line 163
-    .line 164
-    .line 165
-    .line 166
-    .line 167
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
-    .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public extractAll(Ljava/lang/String;)V
@@ -2904,27 +2669,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public extractFile(Lcom/qiyukf/module/zip4j/model/FileHeader;Ljava/lang/String;)V
@@ -3141,6 +2885,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getComment()Ljava/lang/String;
@@ -3238,35 +2984,35 @@
 
     .line 42
     .line 43
-    const-string v1, "zip model is null, cannot read comment"
+    const-string/jumbo v1, "zip model is null, cannot read comment"
 
     .line 44
     .line 45
+    .line 46
     invoke-direct {v0, v1}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
 
-    .line 46
     .line 47
     .line 48
+    .line 49
     throw v0
 
-    .line 49
+    .line 50
     :cond_2
     new-instance v0, Lcom/qiyukf/module/zip4j/exception/ZipException;
 
-    .line 50
     .line 51
-    const-string v1, "zip file does not exist, cannot read comment"
-
     .line 52
-    .line 53
-    invoke-direct {v0, v1}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+    const-string/jumbo v1, "zip file does not exist, cannot read comment"
 
+    .line 53
     .line 54
     .line 55
+    invoke-direct {v0, v1}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+
     .line 56
-    throw v0
     .line 57
     .line 58
+    throw v0
     .line 59
     .line 60
     .line 61
@@ -3293,6 +3039,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getExecutorService()Ljava/util/concurrent/ExecutorService;
@@ -3321,6 +3068,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFile()Ljava/io/File;
@@ -3349,6 +3098,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFileHeader(Ljava/lang/String;)Lcom/qiyukf/module/zip4j/model/FileHeader;
@@ -3486,6 +3237,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getFileHeaders()Ljava/util/List;
@@ -3621,6 +3374,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getInputStream(Lcom/qiyukf/module/zip4j/model/FileHeader;)Lcom/qiyukf/module/zip4j/io/inputstream/ZipInputStream;
@@ -3669,34 +3423,34 @@
 
     .line 18
     .line 19
-    const-string v0, "zip model is null, cannot get inputstream"
+    const-string/jumbo v0, "zip model is null, cannot get inputstream"
 
     .line 20
     .line 21
+    .line 22
     invoke-direct {p1, v0}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
 
-    .line 22
     .line 23
     .line 24
+    .line 25
     throw p1
 
-    .line 25
+    .line 26
     :cond_1
     new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
 
-    .line 26
     .line 27
+    .line 28
     const-string v0, "FileHeader is null, cannot get InputStream"
 
-    .line 28
     .line 29
+    .line 30
     invoke-direct {p1, v0}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
 
-    .line 30
     .line 31
     .line 32
-    throw p1
     .line 33
+    throw p1
     .line 34
     .line 35
     .line 36
@@ -3748,6 +3502,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getProgressMonitor()Lcom/qiyukf/module/zip4j/progress/ProgressMonitor;
@@ -3776,6 +3532,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSplitZipFiles()Ljava/util/List;
@@ -3824,6 +3582,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isEncrypted()Z
@@ -4210,68 +3970,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method public isRunInThread()Z
@@ -4300,6 +3998,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isSplitArchive()Z
@@ -4424,6 +4124,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public isValidZipFile()Z
@@ -4558,6 +4259,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public mergeSplitFiles(Ljava/io/File;)V
@@ -4641,51 +4343,51 @@
 
     .line 37
     .line 38
-    const-string v0, "zip model is null, corrupt zip file?"
+    const-string/jumbo v0, "zip model is null, corrupt zip file?"
 
     .line 39
     .line 40
+    .line 41
     invoke-direct {p1, v0}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
 
-    .line 41
     .line 42
     .line 43
+    .line 44
     throw p1
 
-    .line 44
+    .line 45
     :cond_1
     new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
 
-    .line 45
     .line 46
+    .line 47
     const-string v0, "output Zip File already exists"
 
-    .line 47
     .line 48
+    .line 49
     invoke-direct {p1, v0}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
 
-    .line 49
     .line 50
     .line 51
+    .line 52
     throw p1
 
-    .line 52
+    .line 53
     :cond_2
     new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
 
-    .line 53
     .line 54
+    .line 55
     const-string v0, "outputZipFile is null, cannot merge split files"
 
-    .line 55
     .line 56
+    .line 57
     invoke-direct {p1, v0}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
 
-    .line 57
     .line 58
     .line 59
-    throw p1
     .line 60
+    throw p1
     .line 61
     .line 62
     .line 63
@@ -4710,6 +4412,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public removeFile(Lcom/qiyukf/module/zip4j/model/FileHeader;)V
@@ -4943,6 +4647,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public renameFile(Lcom/qiyukf/module/zip4j/model/FileHeader;Ljava/lang/String;)V
@@ -5193,6 +4899,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setCharset(Ljava/nio/charset/Charset;)V
@@ -5242,6 +4950,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setComment(Ljava/lang/String;)V
@@ -5362,57 +5072,59 @@
 
     .line 55
     .line 56
-    const-string v0, "zipModel is null, cannot update zip file"
+    const-string/jumbo v0, "zipModel is null, cannot update zip file"
 
     .line 57
     .line 58
+    .line 59
     invoke-direct {p1, v0}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
 
-    .line 59
     .line 60
     .line 61
+    .line 62
     throw p1
 
-    .line 62
+    .line 63
     :cond_2
     new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
 
-    .line 63
     .line 64
-    const-string v0, "zip file does not exist, cannot set comment for zip file"
-
     .line 65
-    .line 66
-    invoke-direct {p1, v0}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+    const-string/jumbo v0, "zip file does not exist, cannot set comment for zip file"
 
+    .line 66
     .line 67
     .line 68
+    invoke-direct {p1, v0}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+
     .line 69
+    .line 70
+    .line 71
     throw p1
 
-    .line 70
+    .line 72
     :cond_3
     new-instance p1, Lcom/qiyukf/module/zip4j/exception/ZipException;
 
-    .line 71
-    .line 72
-    const-string v0, "input comment is null, cannot update zip file"
-
     .line 73
     .line 74
-    invoke-direct {p1, v0}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+    const-string v0, "input comment is null, cannot update zip file"
 
     .line 75
     .line 76
+    invoke-direct {p1, v0}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
+
     .line 77
-    throw p1
     .line 78
     .line 79
+    throw p1
     .line 80
     .line 81
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setPassword([C)V
@@ -5446,6 +5158,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRunInThread(Z)V
@@ -5479,6 +5193,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setThreadFactory(Ljava/util/concurrent/ThreadFactory;)V
@@ -5512,6 +5228,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -5544,4 +5262,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

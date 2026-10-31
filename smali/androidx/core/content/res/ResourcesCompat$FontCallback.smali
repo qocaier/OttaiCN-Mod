@@ -41,6 +41,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/core/content/res/ResourcesCompat$FontCallback;Landroid/graphics/Typeface;)V
@@ -221,11 +222,11 @@
     move-result-object p2
 
     .line 5
-    new-instance v0, Ls0/b;
+    new-instance v0, Landroidx/core/content/res/b;
 
     .line 6
     .line 7
-    invoke-direct {v0, p0, p1}, Ls0/b;-><init>(Landroidx/core/content/res/ResourcesCompat$FontCallback;I)V
+    invoke-direct {v0, p0, p1}, Landroidx/core/content/res/b;-><init>(Landroidx/core/content/res/ResourcesCompat$FontCallback;I)V
 
     .line 8
     .line 9
@@ -290,11 +291,11 @@
     move-result-object p2
 
     .line 5
-    new-instance v0, Ls0/a;
+    new-instance v0, Landroidx/core/content/res/a;
 
     .line 6
     .line 7
-    invoke-direct {v0, p0, p1}, Ls0/a;-><init>(Landroidx/core/content/res/ResourcesCompat$FontCallback;Landroid/graphics/Typeface;)V
+    invoke-direct {v0, p0, p1}, Landroidx/core/content/res/a;-><init>(Landroidx/core/content/res/ResourcesCompat$FontCallback;Landroid/graphics/Typeface;)V
 
     .line 8
     .line 9

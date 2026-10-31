@@ -3,36 +3,16 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDataStoreImpl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DataStoreImpl.kt\nandroidx/datastore/core/RunOnce\n+ 2 Mutex.kt\nkotlinx/coroutines/sync/MutexKt\n*L\n1#1,538:1\n120#2,10:539\n*S KotlinDebug\n*F\n+ 1 DataStoreImpl.kt\nandroidx/datastore/core/RunOnce\n*L\n495#1:539,10\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nDataStoreImpl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DataStoreImpl.kt\nandroidx/datastore/core/RunOnce\n+ 2 Mutex.kt\nkotlinx/coroutines/sync/MutexKt\n*L\n1#1,538:1\n120#2,10:539\n*S KotlinDebug\n*F\n+ 1 DataStoreImpl.kt\nandroidx/datastore/core/RunOnce\n*L\n495#1:539,10\n*E\n"
-    }
-.end annotation
-
-
 # instance fields
-.field private final didRun:Lkotlinx/coroutines/e;
+.field private final didRun:Lkotlinx/coroutines/v;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlinx/coroutines/e<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlinx/coroutines/v;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
-.field private final runMutex:Lrn/a;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final runMutex:Lkotlinx/coroutines/sync/a;
 
 
 # direct methods
@@ -54,7 +34,7 @@
     const/4 v2, 0x0
 
     .line 7
-    invoke-static {v0, v1, v2}, Lkotlinx/coroutines/sync/MutexKt;->b(ZILjava/lang/Object;)Lrn/a;
+    invoke-static {v0, v1, v2}, Lkotlinx/coroutines/sync/MutexKt;->b(ZILjava/lang/Object;)Lkotlinx/coroutines/sync/a;
 
     .line 8
     .line 9
@@ -62,11 +42,11 @@
     move-result-object v0
 
     .line 11
-    iput-object v0, p0, Landroidx/datastore/core/RunOnce;->runMutex:Lrn/a;
+    iput-object v0, p0, Landroidx/datastore/core/RunOnce;->runMutex:Lkotlinx/coroutines/sync/a;
 
     .line 12
     .line 13
-    invoke-static {v2, v1, v2}, Lfn/t;->c(Lkotlinx/coroutines/l;ILjava/lang/Object;)Lkotlinx/coroutines/e;
+    invoke-static {v2, v1, v2}, Lkotlinx/coroutines/x;->b(Lkotlinx/coroutines/s1;ILjava/lang/Object;)Lkotlinx/coroutines/v;
 
     .line 14
     .line 15
@@ -74,42 +54,34 @@
     move-result-object v0
 
     .line 17
-    iput-object v0, p0, Landroidx/datastore/core/RunOnce;->didRun:Lkotlinx/coroutines/e;
+    iput-object v0, p0, Landroidx/datastore/core/RunOnce;->didRun:Lkotlinx/coroutines/v;
 
     .line 18
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
-.method public final awaitComplete(Lul/c;)Ljava/lang/Object;
+.method public final awaitComplete(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/RunOnce;->didRun:Lkotlinx/coroutines/e;
+    iget-object v0, p0, Landroidx/datastore/core/RunOnce;->didRun:Lkotlinx/coroutines/v;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lkotlinx/coroutines/i;->o0(Lul/c;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lkotlinx/coroutines/q0;->m(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -117,7 +89,7 @@
     move-result-object p1
 
     .line 7
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -133,7 +105,7 @@
 
     .line 14
     :cond_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 15
     .line 16
@@ -149,44 +121,26 @@
     .line 25
 .end method
 
-.method public abstract doRun(Lul/c;)Ljava/lang/Object;
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract doRun(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method
 
-.method public final runIfNeeded(Lul/c;)Ljava/lang/Object;
+.method public final runIfNeeded(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 6
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -236,7 +190,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/core/RunOnce$runIfNeeded$1;-><init>(Landroidx/datastore/core/RunOnce;Lul/c;)V
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/core/RunOnce$runIfNeeded$1;-><init>(Landroidx/datastore/core/RunOnce;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -246,7 +200,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -283,7 +237,7 @@
 
     .line 43
     .line 44
-    check-cast v1, Lrn/a;
+    check-cast v1, Lkotlinx/coroutines/sync/a;
 
     .line 45
     .line 46
@@ -296,7 +250,7 @@
     .line 49
     .line 50
     :try_start_0
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -335,7 +289,7 @@
 
     .line 65
     .line 66
-    check-cast v2, Lrn/a;
+    check-cast v2, Lkotlinx/coroutines/sync/a;
 
     .line 67
     .line 68
@@ -347,7 +301,7 @@
 
     .line 71
     .line 72
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 73
     .line 74
@@ -359,16 +313,16 @@
 
     .line 77
     :cond_3
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 78
     .line 79
     .line 80
-    iget-object p1, p0, Landroidx/datastore/core/RunOnce;->didRun:Lkotlinx/coroutines/e;
+    iget-object p1, p0, Landroidx/datastore/core/RunOnce;->didRun:Lkotlinx/coroutines/v;
 
     .line 81
     .line 82
-    invoke-interface {p1}, Lkotlinx/coroutines/l;->d()Z
+    invoke-interface {p1}, Lkotlinx/coroutines/s1;->d()Z
 
     .line 83
     .line 84
@@ -380,7 +334,7 @@
 
     .line 87
     .line 88
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 89
     .line 90
@@ -388,7 +342,7 @@
 
     .line 91
     :cond_4
-    iget-object p1, p0, Landroidx/datastore/core/RunOnce;->runMutex:Lrn/a;
+    iget-object p1, p0, Landroidx/datastore/core/RunOnce;->runMutex:Lkotlinx/coroutines/sync/a;
 
     .line 92
     .line 93
@@ -404,7 +358,7 @@
 
     .line 98
     .line 99
-    invoke-interface {p1, v5, v0}, Lrn/a;->e(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p1, v5, v0}, Lkotlinx/coroutines/sync/a;->b(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 100
     .line 101
@@ -425,11 +379,11 @@
     .line 107
     :goto_1
     :try_start_1
-    iget-object v2, v4, Landroidx/datastore/core/RunOnce;->didRun:Lkotlinx/coroutines/e;
+    iget-object v2, v4, Landroidx/datastore/core/RunOnce;->didRun:Lkotlinx/coroutines/v;
 
     .line 108
     .line 109
-    invoke-interface {v2}, Lkotlinx/coroutines/l;->d()Z
+    invoke-interface {v2}, Lkotlinx/coroutines/s1;->d()Z
 
     .line 110
     .line 111
@@ -441,13 +395,13 @@
 
     .line 114
     .line 115
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
     .line 116
     .line 117
-    invoke-interface {p1, v5}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {p1, v5}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 118
     .line 119
@@ -482,7 +436,7 @@
 
     .line 130
     .line 131
-    invoke-virtual {v4, v0}, Landroidx/datastore/core/RunOnce;->doRun(Lul/c;)Ljava/lang/Object;
+    invoke-virtual {v4, v0}, Landroidx/datastore/core/RunOnce;->doRun(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 132
     .line 133
@@ -509,22 +463,22 @@
     .line 140
     :goto_3
     :try_start_3
-    iget-object p1, v0, Landroidx/datastore/core/RunOnce;->didRun:Lkotlinx/coroutines/e;
+    iget-object p1, v0, Landroidx/datastore/core/RunOnce;->didRun:Lkotlinx/coroutines/v;
 
     .line 141
     .line 142
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
 
     .line 143
     .line 144
-    invoke-interface {p1, v0}, Lkotlinx/coroutines/e;->U(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Lkotlinx/coroutines/v;->v(Ljava/lang/Object;)Z
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
     .line 145
     .line 146
     .line 147
-    invoke-interface {v1, v5}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {v1, v5}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 148
     .line 149
@@ -533,7 +487,7 @@
 
     .line 151
     :goto_4
-    invoke-interface {v1, v5}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {v1, v5}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 152
     .line 153
@@ -623,4 +577,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

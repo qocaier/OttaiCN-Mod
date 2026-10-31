@@ -157,6 +157,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>(Landroid/view/WindowInsets;)V
@@ -1120,6 +1122,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public consumeStableInsets()Landroidx/core/view/WindowInsetsCompat;
@@ -1154,6 +1157,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public consumeSystemWindowInsets()Landroidx/core/view/WindowInsetsCompat;
@@ -1188,6 +1192,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public copyRootViewBounds(Landroid/view/View;)V
@@ -1312,6 +1317,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInsets(I)Landroidx/core/graphics/Insets;
@@ -1420,6 +1426,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPrivacyIndicatorBounds()Landroid/graphics/Rect;
@@ -1452,6 +1459,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRoundedCorner(I)Landroidx/core/view/RoundedCornerCompat;
@@ -1525,6 +1533,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStableInsetLeft()I
@@ -1561,6 +1570,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStableInsetRight()I
@@ -1597,6 +1607,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStableInsetTop()I
@@ -1633,6 +1644,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStableInsets()Landroidx/core/graphics/Insets;
@@ -1667,6 +1679,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSystemGestureInsets()Landroidx/core/graphics/Insets;
@@ -1701,6 +1714,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSystemWindowInsetBottom()I
@@ -1737,6 +1751,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSystemWindowInsetLeft()I
@@ -1773,6 +1788,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSystemWindowInsetRight()I
@@ -1809,6 +1825,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSystemWindowInsetTop()I
@@ -1845,6 +1862,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSystemWindowInsets()Landroidx/core/graphics/Insets;
@@ -1879,6 +1897,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTappableElementInsets()Landroidx/core/graphics/Insets;
@@ -1913,6 +1932,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasInsets()Z
@@ -2056,6 +2076,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public hasStableInsets()Z
@@ -2098,6 +2120,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasSystemWindowInsets()Z
@@ -2140,6 +2163,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -2179,6 +2203,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public inset(IIII)Landroidx/core/view/WindowInsetsCompat;
@@ -2263,6 +2288,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isRound()Z
@@ -2295,6 +2321,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isVisible(I)Z
@@ -2605,4 +2632,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

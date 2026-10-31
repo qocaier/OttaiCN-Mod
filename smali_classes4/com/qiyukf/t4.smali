@@ -182,6 +182,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static c(Landroid/content/Context;)Lcom/qiyukf/nimlib/sdk/mixpush/VivoPushMessageReceiver;
@@ -232,4 +234,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

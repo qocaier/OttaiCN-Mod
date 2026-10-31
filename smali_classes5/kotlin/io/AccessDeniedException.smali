@@ -6,22 +6,10 @@
 # direct methods
 .method public constructor <init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/io/File;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     const-string v0, "file"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p1, p2, p3}, Lkotlin/io/FileSystemException;-><init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V
@@ -29,7 +17,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILkm/v;)V
+.method public synthetic constructor <init>(Ljava/io/File;Ljava/io/File;Ljava/lang/String;ILkotlin/jvm/internal/f;)V
     .locals 1
 
     and-int/lit8 p5, p4, 0x2

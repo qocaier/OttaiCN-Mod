@@ -3,17 +3,8 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation runtime Ljl/n;
-    message = "changed in Okio 2.x"
-.end annotation
-
-
 # static fields
 .field public static final INSTANCE:Lokio/-DeprecatedOkio;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -58,36 +49,46 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
 .method public final appendingSink(Ljava/io/File;)Lokio/Sink;
     .locals 1
-    .param p1    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "moved to extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "file.appendingSink()"
-            imports = {
-                "okio.appendingSink"
-            }
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "file"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -115,23 +116,43 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public final blackhole()Lokio/Sink;
     .locals 1
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "moved to extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "blackholeSink()"
-            imports = {
-                "okio.blackholeSink"
-            }
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Lokio/Okio;->blackhole()Lokio/Sink;
@@ -161,31 +182,41 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final buffer(Lokio/Sink;)Lokio/BufferedSink;
     .locals 1
-    .param p1    # Lokio/Sink;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "moved to extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "sink.buffer()"
-            imports = {
-                "okio.buffer"
-            }
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "sink"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Lokio/Okio;->buffer(Lokio/Sink;)Lokio/BufferedSink;
@@ -197,27 +228,10 @@
 
 .method public final buffer(Lokio/Source;)Lokio/BufferedSource;
     .locals 1
-    .param p1    # Lokio/Source;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "moved to extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "source.buffer()"
-            imports = {
-                "okio.buffer"
-            }
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "source"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-static {p1}, Lokio/Okio;->buffer(Lokio/Source;)Lokio/BufferedSource;
@@ -229,27 +243,10 @@
 
 .method public final sink(Ljava/io/File;)Lokio/Sink;
     .locals 3
-    .param p1    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "moved to extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "file.sink()"
-            imports = {
-                "okio.sink"
-            }
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "file"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -267,27 +264,10 @@
 
 .method public final sink(Ljava/io/OutputStream;)Lokio/Sink;
     .locals 1
-    .param p1    # Ljava/io/OutputStream;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "moved to extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "outputStream.sink()"
-            imports = {
-                "okio.sink"
-            }
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "outputStream"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-static {p1}, Lokio/Okio;->sink(Ljava/io/OutputStream;)Lokio/Sink;
@@ -299,27 +279,10 @@
 
 .method public final sink(Ljava/net/Socket;)Lokio/Sink;
     .locals 1
-    .param p1    # Ljava/net/Socket;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "moved to extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "socket.sink()"
-            imports = {
-                "okio.sink"
-            }
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "socket"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-static {p1}, Lokio/Okio;->sink(Ljava/net/Socket;)Lokio/Sink;
@@ -331,35 +294,14 @@
 
 .method public final varargs sink(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Lokio/Sink;
     .locals 1
-    .param p1    # Ljava/nio/file/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # [Ljava/nio/file/OpenOption;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "moved to extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "path.sink(*options)"
-            imports = {
-                "okio.sink"
-            }
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "path"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "options"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     array-length v0, p2
@@ -379,27 +321,10 @@
 
 .method public final source(Ljava/io/File;)Lokio/Source;
     .locals 1
-    .param p1    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "moved to extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "file.source()"
-            imports = {
-                "okio.source"
-            }
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "file"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-static {p1}, Lokio/Okio;->source(Ljava/io/File;)Lokio/Source;
@@ -411,27 +336,10 @@
 
 .method public final source(Ljava/io/InputStream;)Lokio/Source;
     .locals 1
-    .param p1    # Ljava/io/InputStream;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "moved to extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "inputStream.source()"
-            imports = {
-                "okio.source"
-            }
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "inputStream"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-static {p1}, Lokio/Okio;->source(Ljava/io/InputStream;)Lokio/Source;
@@ -443,27 +351,10 @@
 
 .method public final source(Ljava/net/Socket;)Lokio/Source;
     .locals 1
-    .param p1    # Ljava/net/Socket;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "moved to extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "socket.source()"
-            imports = {
-                "okio.source"
-            }
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "socket"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-static {p1}, Lokio/Okio;->source(Ljava/net/Socket;)Lokio/Source;
@@ -475,35 +366,14 @@
 
 .method public final varargs source(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Lokio/Source;
     .locals 1
-    .param p1    # Ljava/nio/file/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # [Ljava/nio/file/OpenOption;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->ERROR:Lkotlin/DeprecationLevel;
-        message = "moved to extension function"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "path.source(*options)"
-            imports = {
-                "okio.source"
-            }
-        .end subannotation
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "path"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "options"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     array-length v0, p2

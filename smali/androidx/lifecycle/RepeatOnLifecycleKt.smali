@@ -4,48 +4,18 @@
 
 
 # direct methods
-.method public static final repeatOnLifecycle(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Ljm/p;Lul/c;)Ljava/lang/Object;
+.method public static final repeatOnLifecycle(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 2
-    .param p0    # Landroidx/lifecycle/Lifecycle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/lifecycle/Lifecycle$State;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/lifecycle/Lifecycle;",
             "Landroidx/lifecycle/Lifecycle$State;",
-            "Ljm/p<",
-            "-",
-            "Lfn/i0;",
-            "-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -63,7 +33,7 @@
     if-ne v0, v1, :cond_0
 
     .line 3
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p0
 
@@ -73,13 +43,13 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, p1, p2, v1}, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Ljm/p;Lul/c;)V
+    invoke-direct {v0, p0, p1, p2, v1}, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lq8/p;Lkotlin/coroutines/e;)V
 
-    invoke-static {v0, p3}, Lkotlinx/coroutines/h;->g(Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-static {v0, p3}, Lkotlinx/coroutines/m0;->b(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p0
 
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -88,7 +58,7 @@
     return-object p0
 
     :cond_1
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p0
 
@@ -103,48 +73,18 @@
     throw p0
 .end method
 
-.method public static final repeatOnLifecycle(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$State;Ljm/p;Lul/c;)Ljava/lang/Object;
+.method public static final repeatOnLifecycle(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$State;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/lifecycle/Lifecycle$State;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/lifecycle/LifecycleOwner;",
             "Landroidx/lifecycle/Lifecycle$State;",
-            "Ljm/p<",
-            "-",
-            "Lfn/i0;",
-            "-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 6
@@ -152,11 +92,11 @@
 
     move-result-object p0
 
-    invoke-static {p0, p1, p2, p3}, Landroidx/lifecycle/RepeatOnLifecycleKt;->repeatOnLifecycle(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2, p3}, Landroidx/lifecycle/RepeatOnLifecycleKt;->repeatOnLifecycle(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p0
 
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -165,7 +105,7 @@
     return-object p0
 
     :cond_0
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p0
 .end method

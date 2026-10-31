@@ -73,6 +73,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -122,6 +124,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLimit()I
@@ -150,6 +154,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStatus()I
@@ -178,6 +184,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isEnabled()Z
@@ -215,6 +223,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isHasConfirmedSelection()Z
@@ -243,6 +253,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isRequired()Z
@@ -280,6 +292,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setContents(Ljava/util/List;)V
@@ -321,6 +335,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setHasConfirmedSelection(Z)V
@@ -354,6 +370,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLimit(I)V
@@ -387,6 +405,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRequired(I)V
@@ -420,6 +440,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStatus(I)V
@@ -453,4 +475,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

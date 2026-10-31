@@ -525,6 +525,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private constructor <init>()V
@@ -553,6 +605,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static clearCache()V
@@ -591,6 +644,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static create(Landroid/content/Context;Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
@@ -923,6 +977,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static createFromFontInfoWithFallback(Landroid/content/Context;Landroid/os/CancellationSignal;Ljava/util/List;I)Landroid/graphics/Typeface;
@@ -1203,6 +1263,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static createFromResourcesFamilyXml(Landroid/content/Context;Landroidx/core/content/res/FontResourcesParserCompat$FamilyResourceEntry;Landroid/content/res/Resources;IILandroidx/core/content/res/ResourcesCompat$FontCallback;Landroid/os/Handler;Z)Landroid/graphics/Typeface;
@@ -2224,6 +2290,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static getSystemFontFamily(Ljava/lang/String;)Landroid/graphics/Typeface;
@@ -2350,6 +2419,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getSystemFontFamilyWithFallback(Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;)Landroid/graphics/Typeface;
@@ -2600,7 +2670,7 @@
     move-result-object p0
 
     .line 114
-    invoke-static {v0, p0}, Lu0/w;->a(Landroid/graphics/Typeface$CustomFallbackBuilder;Ljava/lang/String;)Landroid/graphics/Typeface$CustomFallbackBuilder;
+    invoke-static {v0, p0}, Landroidx/core/graphics/w;->a(Landroid/graphics/Typeface$CustomFallbackBuilder;Ljava/lang/String;)Landroid/graphics/Typeface$CustomFallbackBuilder;
 
     .line 115
     .line 116
@@ -2719,17 +2789,17 @@
     .line 173
     .line 174
     :try_start_0
-    invoke-static {}, Lu0/z;->a()V
+    invoke-static {}, Landroidx/core/graphics/z;->a()V
 
     .line 175
     .line 176
     .line 177
-    invoke-static {}, Lu0/a0;->a()V
+    invoke-static {}, Landroidx/core/graphics/a0;->a()V
 
     .line 178
     .line 179
     .line 180
-    invoke-static {v5}, Lu0/j0;->a(Landroid/graphics/fonts/Font;)Landroid/graphics/fonts/Font$Builder;
+    invoke-static {v5}, Landroidx/core/graphics/j0;->a(Landroid/graphics/fonts/Font;)Landroid/graphics/fonts/Font$Builder;
 
     .line 181
     .line 182
@@ -2745,7 +2815,7 @@
     move-result-object v3
 
     .line 188
-    invoke-static {v5, v3}, Lu0/b0;->a(Landroid/graphics/fonts/Font$Builder;Ljava/lang/String;)Landroid/graphics/fonts/Font$Builder;
+    invoke-static {v5, v3}, Landroidx/core/graphics/b0;->a(Landroid/graphics/fonts/Font$Builder;Ljava/lang/String;)Landroid/graphics/fonts/Font$Builder;
 
     .line 189
     .line 190
@@ -2753,7 +2823,7 @@
     move-result-object v3
 
     .line 192
-    invoke-static {v3}, Lu0/c0;->a(Landroid/graphics/fonts/Font$Builder;)Landroid/graphics/fonts/Font;
+    invoke-static {v3}, Landroidx/core/graphics/c0;->a(Landroid/graphics/fonts/Font$Builder;)Landroid/graphics/fonts/Font;
 
     .line 193
     .line 194
@@ -2761,7 +2831,7 @@
     move-result-object v3
 
     .line 196
-    invoke-static {v3}, Lu0/x;->a(Landroid/graphics/fonts/Font;)Landroid/graphics/fonts/FontFamily$Builder;
+    invoke-static {v3}, Landroidx/core/graphics/x;->a(Landroid/graphics/fonts/Font;)Landroid/graphics/fonts/FontFamily$Builder;
 
     .line 197
     .line 198
@@ -2769,7 +2839,7 @@
     move-result-object v3
 
     .line 200
-    invoke-static {v3}, Lu0/d0;->a(Landroid/graphics/fonts/FontFamily$Builder;)Landroid/graphics/fonts/FontFamily;
+    invoke-static {v3}, Landroidx/core/graphics/d0;->a(Landroid/graphics/fonts/FontFamily$Builder;)Landroid/graphics/fonts/FontFamily;
 
     .line 201
     .line 202
@@ -2796,7 +2866,7 @@
 
     .line 211
     :cond_7
-    invoke-static {v5}, Lu0/x;->a(Landroid/graphics/fonts/Font;)Landroid/graphics/fonts/FontFamily$Builder;
+    invoke-static {v5}, Landroidx/core/graphics/x;->a(Landroid/graphics/fonts/Font;)Landroid/graphics/fonts/FontFamily$Builder;
 
     .line 212
     .line 213
@@ -2804,7 +2874,7 @@
     move-result-object v3
 
     .line 215
-    invoke-static {v3}, Lu0/d0;->a(Landroid/graphics/fonts/FontFamily$Builder;)Landroid/graphics/fonts/FontFamily;
+    invoke-static {v3}, Landroidx/core/graphics/d0;->a(Landroid/graphics/fonts/FontFamily$Builder;)Landroid/graphics/fonts/FontFamily;
 
     .line 216
     .line 217
@@ -2817,7 +2887,7 @@
 
     .line 220
     .line 221
-    invoke-static {v3}, Lu0/y;->a(Landroid/graphics/fonts/FontFamily;)Landroid/graphics/Typeface$CustomFallbackBuilder;
+    invoke-static {v3}, Landroidx/core/graphics/y;->a(Landroid/graphics/fonts/FontFamily;)Landroid/graphics/Typeface$CustomFallbackBuilder;
 
     .line 222
     .line 223
@@ -2829,7 +2899,7 @@
 
     .line 226
     :cond_8
-    invoke-static {v0, v3}, Lu0/e0;->a(Landroid/graphics/Typeface$CustomFallbackBuilder;Landroid/graphics/fonts/FontFamily;)Landroid/graphics/Typeface$CustomFallbackBuilder;
+    invoke-static {v0, v3}, Landroidx/core/graphics/e0;->a(Landroid/graphics/Typeface$CustomFallbackBuilder;Landroid/graphics/fonts/FontFamily;)Landroid/graphics/Typeface$CustomFallbackBuilder;
 
     .line 227
     .line 228
@@ -2845,7 +2915,7 @@
     .line 233
     :cond_9
     :goto_4
-    invoke-static {v0}, Lu0/f0;->a(Landroid/graphics/Typeface$CustomFallbackBuilder;)Landroid/graphics/Typeface;
+    invoke-static {v0}, Landroidx/core/graphics/f0;->a(Landroid/graphics/Typeface$CustomFallbackBuilder;)Landroid/graphics/Typeface;
 
     .line 234
     .line 235
@@ -2855,6 +2925,11 @@
     .line 237
     return-object p0
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static guessPrimaryFont(Landroid/graphics/Typeface;)Landroid/graphics/fonts/Font;
@@ -2943,7 +3018,7 @@
     const/4 v7, 0x0
 
     .line 35
-    invoke-static/range {v1 .. v9}, Lu0/g0;->a(Ljava/lang/CharSequence;IIIIFFZLandroid/graphics/Paint;)Landroid/graphics/text/PositionedGlyphs;
+    invoke-static/range {v1 .. v9}, Landroidx/core/graphics/g0;->a(Ljava/lang/CharSequence;IIIIFFZLandroid/graphics/Paint;)Landroid/graphics/text/PositionedGlyphs;
 
     .line 36
     .line 37
@@ -2951,7 +3026,7 @@
     move-result-object p0
 
     .line 39
-    invoke-static {p0}, Lu0/h0;->a(Landroid/graphics/text/PositionedGlyphs;)I
+    invoke-static {p0}, Landroidx/core/graphics/h0;->a(Landroid/graphics/text/PositionedGlyphs;)I
 
     .line 40
     .line 41
@@ -2973,7 +3048,7 @@
     const/4 v0, 0x0
 
     .line 48
-    invoke-static {p0, v0}, Lu0/i0;->a(Landroid/graphics/text/PositionedGlyphs;I)Landroid/graphics/fonts/Font;
+    invoke-static {p0, v0}, Landroidx/core/graphics/i0;->a(Landroid/graphics/text/PositionedGlyphs;I)Landroid/graphics/fonts/Font;
 
     .line 49
     .line 50
@@ -3008,4 +3083,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

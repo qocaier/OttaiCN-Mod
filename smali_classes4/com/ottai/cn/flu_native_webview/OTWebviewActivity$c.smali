@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->M()V
+    value = Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->K()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -52,6 +52,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -64,7 +66,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -73,7 +75,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -82,7 +84,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 14
     .line 15
@@ -102,7 +104,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->D()Z
+    invoke-virtual {p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->C()Z
 
     .line 24
     .line 25
@@ -118,7 +120,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->E()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->D()Landroid/view/View;
 
     .line 32
     .line 33
@@ -139,7 +141,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->E()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->D()Landroid/view/View;
 
     .line 42
     .line 43
@@ -166,6 +168,16 @@
     .line 53
     .line 54
     return-void
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public onPageStarted(Landroid/webkit/WebView;Ljava/lang/String;Landroid/graphics/Bitmap;)V
@@ -176,7 +188,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -185,7 +197,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -194,7 +206,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 14
     .line 15
@@ -217,7 +229,7 @@
     const/4 v2, 0x0
 
     .line 24
-    invoke-virtual {v0, v2}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->W(Z)V
+    invoke-virtual {v0, v2}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->S(Z)V
 
     .line 25
     .line 26
@@ -226,7 +238,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->E()Landroid/view/View;
+    invoke-virtual {v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->D()Landroid/view/View;
 
     .line 30
     .line 31
@@ -331,11 +343,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onReceivedError(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V
@@ -346,7 +353,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -355,7 +362,7 @@
 
     .line 7
     .line 8
-    invoke-static {p3, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -364,7 +371,7 @@
 
     .line 12
     .line 13
-    invoke-static {p4, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -376,7 +383,7 @@
     const/4 p2, 0x1
 
     .line 19
-    invoke-virtual {p1, p2}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->W(Z)V
+    invoke-virtual {p1, p2}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->S(Z)V
 
     .line 20
     .line 21
@@ -610,6 +617,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public onReceivedHttpError(Landroid/webkit/WebView;Landroid/webkit/WebResourceRequest;Landroid/webkit/WebResourceResponse;)V
@@ -628,7 +658,7 @@
     const/4 p2, 0x1
 
     .line 7
-    invoke-virtual {p1, p2}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->W(Z)V
+    invoke-virtual {p1, p2}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->S(Z)V
 
     .line 8
     .line 9
@@ -749,11 +779,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onReceivedSslError(Landroid/webkit/WebView;Landroid/webkit/SslErrorHandler;Landroid/net/http/SslError;)V
@@ -890,11 +915,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
@@ -905,7 +925,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -914,7 +934,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -967,4 +987,14 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method

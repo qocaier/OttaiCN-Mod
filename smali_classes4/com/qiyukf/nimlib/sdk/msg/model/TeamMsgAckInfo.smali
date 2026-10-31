@@ -151,6 +151,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAckCount()I
@@ -190,6 +192,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMsgId()Ljava/lang/String;
@@ -218,6 +222,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNewReaderAccount()Ljava/lang/String;
@@ -246,6 +252,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTeamId()Ljava/lang/String;
@@ -274,6 +282,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUnAckAccountList()Ljava/util/List;
@@ -310,6 +320,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUnAckCount()I
@@ -349,6 +361,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public newInstanceFromPartOfAccount(Ljava/util/Set;)Lcom/qiyukf/nimlib/sdk/msg/model/TeamMsgAckInfo;
@@ -466,11 +480,11 @@
     .line 49
     .line 50
     .line 51
-    new-instance v1, Lgh/a;
+    new-instance v1, Lcom/qiyukf/nimlib/sdk/msg/model/a;
 
     .line 52
     .line 53
-    invoke-direct {v1, p1}, Lgh/a;-><init>(Ljava/util/Set;)V
+    invoke-direct {v1, p1}, Lcom/qiyukf/nimlib/sdk/msg/model/a;-><init>(Ljava/util/Set;)V
 
     .line 54
     .line 55
@@ -487,11 +501,11 @@
 
     .line 61
     .line 62
-    new-instance v2, Lgh/a;
+    new-instance v2, Lcom/qiyukf/nimlib/sdk/msg/model/a;
 
     .line 63
     .line 64
-    invoke-direct {v2, p1}, Lgh/a;-><init>(Ljava/util/Set;)V
+    invoke-direct {v2, p1}, Lcom/qiyukf/nimlib/sdk/msg/model/a;-><init>(Ljava/util/Set;)V
 
     .line 65
     .line 66
@@ -526,4 +540,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

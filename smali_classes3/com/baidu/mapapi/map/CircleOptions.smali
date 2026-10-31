@@ -212,15 +212,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -255,7 +246,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addHoleOptions(Ljava/util/List;)Lcom/baidu/mapapi/map/CircleOptions;
@@ -297,7 +287,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bloomAlpha(I)Lcom/baidu/mapapi/map/CircleOptions;
@@ -340,7 +329,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bloomType(Lcom/baidu/mapapi/map/LineBloomType;)Lcom/baidu/mapapi/map/CircleOptions;
@@ -373,7 +361,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bloomWidth(I)Lcom/baidu/mapapi/map/CircleOptions;
@@ -411,7 +398,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public center(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/map/CircleOptions;
@@ -455,7 +441,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public dottedStroke(Z)Lcom/baidu/mapapi/map/CircleOptions;
@@ -488,7 +473,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public dottedStrokeType(Lcom/baidu/mapapi/map/CircleDottedStrokeType;)Lcom/baidu/mapapi/map/CircleOptions;
@@ -525,7 +509,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public extraInfo(Landroid/os/Bundle;)Lcom/baidu/mapapi/map/CircleOptions;
@@ -558,7 +541,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public fillColor(I)Lcom/baidu/mapapi/map/CircleOptions;
@@ -591,7 +573,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getCenter()Lcom/baidu/mapapi/model/LatLng;
@@ -622,7 +603,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCenterColor()I
@@ -653,7 +633,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getColorWeight()F
@@ -684,7 +663,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExtraInfo()Landroid/os/Bundle;
@@ -715,7 +693,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFillColor()I
@@ -746,7 +723,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLineBloomDirection()Lcom/baidu/mapapi/map/LineBloomDirection;
@@ -777,7 +753,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOverlay()Lcom/baidu/mapapi/map/Overlay;
@@ -984,15 +959,6 @@
     .line 99
     .line 100
     return-object v0
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getRadius()I
@@ -1023,7 +989,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRadiusWeight()F
@@ -1054,7 +1019,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSideColor()I
@@ -1085,7 +1049,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStroke()Lcom/baidu/mapapi/map/Stroke;
@@ -1116,7 +1079,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getZIndex()I
@@ -1147,7 +1109,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isIsGradientCircle()Z
@@ -1178,7 +1139,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isVisible()Z
@@ -1209,7 +1169,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public lineBloomDirection(Lcom/baidu/mapapi/map/LineBloomDirection;)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1242,7 +1201,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public radius(I)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1275,7 +1233,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBloomBlurTimes(I)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1322,7 +1279,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBloomGradientASpeed(F)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1373,7 +1329,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCenterColor(I)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1406,7 +1361,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setClickable(Z)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1439,7 +1393,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setColorWeight(F)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1485,7 +1438,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIsGradientCircle(Z)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1518,7 +1470,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRadiusWeight(F)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1564,7 +1515,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSideColor(I)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1597,7 +1547,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public stroke(Lcom/baidu/mapapi/map/Stroke;)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1630,7 +1579,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public visible(Z)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1663,7 +1611,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public zIndex(I)Lcom/baidu/mapapi/map/CircleOptions;
@@ -1696,5 +1643,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

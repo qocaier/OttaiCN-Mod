@@ -15,13 +15,5 @@
 
 
 # virtual methods
-.method public abstract o()Landroid/accounts/Account;
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroid/os/RemoteException;
-        }
-    .end annotation
+.method public abstract R()Landroid/accounts/Account;
 .end method

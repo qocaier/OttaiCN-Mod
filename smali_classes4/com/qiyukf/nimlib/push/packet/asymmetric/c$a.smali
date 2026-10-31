@@ -150,7 +150,7 @@
     :cond_0
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    const-string p2, "\u6784\u9020SM2PublicKey\u5931\u8d25\uff0cbuffer\u4f4d\u6570\u4e0d\u5bf9"
+    const-string/jumbo p2, "\u6784\u9020SM2PublicKey\u5931\u8d25\uff0cbuffer\u4f4d\u6570\u4e0d\u5bf9"
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -320,6 +320,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -350,6 +352,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEncoded()[B
@@ -382,6 +386,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFormat()Ljava/lang/String;
@@ -414,6 +420,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -450,4 +458,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

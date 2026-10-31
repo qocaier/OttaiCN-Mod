@@ -74,6 +74,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/unicorn/util/a;)Landroid/os/Handler;
@@ -107,6 +109,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -161,6 +165,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onPostExecute(Ljava/lang/Object;)V

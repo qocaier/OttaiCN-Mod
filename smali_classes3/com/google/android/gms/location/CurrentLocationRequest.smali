@@ -3,24 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "CurrentLocationRequestCreator"
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$g;
-    value = {
-        0x8
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/google/android/gms/location/CurrentLocationRequest$a;
-    }
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
@@ -38,79 +20,29 @@
 
 # instance fields
 .field public final a:J
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValueUnchecked = "Long.MAX_VALUE"
-        getter = "getMaxUpdateAgeMillis"
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValueUnchecked = "Granularity.GRANULARITY_PERMISSION_LEVEL"
-        getter = "getGranularity"
-        id = 0x2
-    .end annotation
-.end field
 
 .field public final c:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValueUnchecked = "Priority.PRIORITY_BALANCED_POWER_ACCURACY"
-        getter = "getPriority"
-        id = 0x3
-    .end annotation
-.end field
 
 .field public final d:J
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValueUnchecked = "Long.MAX_VALUE"
-        getter = "getDurationMillis"
-        id = 0x4
-    .end annotation
-.end field
 
 .field public final e:Z
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValue = "false"
-        getter = "isBypass"
-        id = 0x5
-    .end annotation
-.end field
 
 .field public final f:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValueUnchecked = "ThrottleBehavior.THROTTLE_BACKGROUND"
-        getter = "getThrottleBehavior"
-        id = 0x7
-    .end annotation
-.end field
 
 .field public final g:Landroid/os/WorkSource;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValueUnchecked = "new android.os.WorkSource()"
-        getter = "getWorkSource"
-        id = 0x6
-    .end annotation
-.end field
 
 .field public final h:Lcom/google/android/gms/internal/location/zze;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getImpersonation"
-        id = 0x9
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lda/w0;
+    new-instance v0, Lj3/f0;
 
-    invoke-direct {v0}, Lda/w0;-><init>()V
+    invoke-direct {v0}, Lj3/f0;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/location/CurrentLocationRequest;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -119,51 +51,6 @@
 
 .method public constructor <init>(JIIJZILandroid/os/WorkSource;Lcom/google/android/gms/internal/location/zze;)V
     .locals 0
-    .param p1    # J
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p3    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .param p4    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x3
-        .end annotation
-    .end param
-    .param p5    # J
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x4
-        .end annotation
-    .end param
-    .param p7    # Z
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x5
-        .end annotation
-    .end param
-    .param p8    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x7
-        .end annotation
-    .end param
-    .param p9    # Landroid/os/WorkSource;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x6
-        .end annotation
-    .end param
-    .param p10    # Lcom/google/android/gms/internal/location/zze;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x9
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -370,40 +257,26 @@
 
 
 # virtual methods
-.method public final A()Landroid/os/WorkSource;
-    .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation runtime Lorg/checkerframework/dataflow/qual/Pure;
-    .end annotation
+.method public d()J
+    .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/location/CurrentLocationRequest;->g:Landroid/os/WorkSource;
+    iget-wide v0, p0, Lcom/google/android/gms/location/CurrentLocationRequest;->d:J
 
-    return-object v0
+    return-wide v0
 .end method
 
-.method public final E()Lcom/google/android/gms/internal/location/zze;
+.method public e()I
     .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation runtime Lorg/checkerframework/dataflow/qual/Pure;
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/location/CurrentLocationRequest;->h:Lcom/google/android/gms/internal/location/zze;
+    iget v0, p0, Lcom/google/android/gms/location/CurrentLocationRequest;->b:I
 
-    return-object v0
+    return v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
     instance-of v0, p1, Lcom/google/android/gms/location/CurrentLocationRequest;
@@ -513,7 +386,7 @@
 
     .line 52
     .line 53
-    invoke-static {v0, v2}, Lh9/r;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v2}, Lt2/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 54
     .line 55
@@ -533,7 +406,7 @@
 
     .line 62
     .line 63
-    invoke-static {v0, p1}, Lh9/r;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lt2/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 64
     .line 65
@@ -573,8 +446,24 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
+.end method
+
+.method public f()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/android/gms/location/CurrentLocationRequest;->a:J
+
+    return-wide v0
+.end method
+
+.method public g()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/google/android/gms/location/CurrentLocationRequest;->c:I
+
+    return v0
 .end method
 
 .method public hashCode()I
@@ -637,7 +526,7 @@
     move-result-object v0
 
     .line 29
-    invoke-static {v0}, Lh9/r;->c([Ljava/lang/Object;)I
+    invoke-static {v0}, Lt2/i;->b([Ljava/lang/Object;)I
 
     .line 30
     .line 31
@@ -713,43 +602,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-.end method
-
-.method public s()J
-    .locals 2
-    .annotation runtime Lorg/checkerframework/dataflow/qual/Pure;
-    .end annotation
-
-    .line 1
-    iget-wide v0, p0, Lcom/google/android/gms/location/CurrentLocationRequest;->d:J
-
-    return-wide v0
-.end method
-
-.method public t()I
-    .locals 1
-    .annotation runtime Lorg/checkerframework/dataflow/qual/Pure;
-    .end annotation
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/location/CurrentLocationRequest;->b:I
-
-    return v0
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 5
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -774,7 +630,7 @@
 
     .line 12
     .line 13
-    invoke-static {v1}, Lda/j0;->b(I)Ljava/lang/String;
+    invoke-static {v1}, Lj3/s;->b(I)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -819,7 +675,7 @@
 
     .line 37
     .line 38
-    invoke-static {v1, v2, v0}, Lba/n3;->c(JLjava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+    invoke-static {v1, v2, v0}, Lcom/google/android/gms/internal/location/k0;->c(JLjava/lang/StringBuilder;)Ljava/lang/StringBuilder;
 
     .line 39
     .line 40
@@ -886,7 +742,7 @@
 
     .line 72
     .line 73
-    invoke-static {v1}, Lda/d1;->b(I)Ljava/lang/String;
+    invoke-static {v1}, Lj3/m0;->b(I)Ljava/lang/String;
 
     .line 74
     .line 75
@@ -935,7 +791,7 @@
 
     .line 97
     .line 98
-    invoke-static {v1}, Lda/n0;->b(I)Ljava/lang/String;
+    invoke-static {v1}, Lj3/w;->b(I)Ljava/lang/String;
 
     .line 99
     .line 100
@@ -953,7 +809,7 @@
 
     .line 106
     .line 107
-    invoke-static {v1}, Lu9/d0;->h(Landroid/os/WorkSource;)Z
+    invoke-static {v1}, Lc3/i;->b(Landroid/os/WorkSource;)Z
 
     .line 108
     .line 109
@@ -1544,50 +1400,72 @@
     .line 659
     .line 660
     .line 661
-.end method
-
-.method public u()J
-    .locals 2
-    .annotation runtime Lorg/checkerframework/dataflow/qual/Pure;
-    .end annotation
-
-    .line 1
-    iget-wide v0, p0, Lcom/google/android/gms/location/CurrentLocationRequest;->a:J
-
-    return-wide v0
-.end method
-
-.method public v()I
-    .locals 1
-    .annotation runtime Lorg/checkerframework/dataflow/qual/Pure;
-    .end annotation
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/location/CurrentLocationRequest;->c:I
-
-    return v0
-.end method
-
-.method public final w()Z
-    .locals 1
-    .annotation runtime Lorg/checkerframework/dataflow/qual/Pure;
-    .end annotation
-
-    .line 1
-    iget-boolean v0, p0, Lcom/google/android/gms/location/CurrentLocationRequest;->e:Z
-
-    return v0
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -1598,7 +1476,7 @@
     const/4 v1, 0x1
 
     .line 6
-    invoke-virtual {p0}, Lcom/google/android/gms/location/CurrentLocationRequest;->u()J
+    invoke-virtual {p0}, Lcom/google/android/gms/location/CurrentLocationRequest;->f()J
 
     .line 7
     .line 8
@@ -1606,7 +1484,7 @@
     move-result-wide v2
 
     .line 10
-    invoke-static {p1, v1, v2, v3}, Lj9/a;->K(Landroid/os/Parcel;IJ)V
+    invoke-static {p1, v1, v2, v3}, Lu2/a;->l(Landroid/os/Parcel;IJ)V
 
     .line 11
     .line 12
@@ -1614,7 +1492,7 @@
     const/4 v1, 0x2
 
     .line 14
-    invoke-virtual {p0}, Lcom/google/android/gms/location/CurrentLocationRequest;->t()I
+    invoke-virtual {p0}, Lcom/google/android/gms/location/CurrentLocationRequest;->e()I
 
     .line 15
     .line 16
@@ -1622,7 +1500,7 @@
     move-result v2
 
     .line 18
-    invoke-static {p1, v1, v2}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v1, v2}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 19
     .line 20
@@ -1630,7 +1508,7 @@
     const/4 v1, 0x3
 
     .line 22
-    invoke-virtual {p0}, Lcom/google/android/gms/location/CurrentLocationRequest;->v()I
+    invoke-virtual {p0}, Lcom/google/android/gms/location/CurrentLocationRequest;->g()I
 
     .line 23
     .line 24
@@ -1638,7 +1516,7 @@
     move-result v2
 
     .line 26
-    invoke-static {p1, v1, v2}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v1, v2}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 27
     .line 28
@@ -1646,7 +1524,7 @@
     const/4 v1, 0x4
 
     .line 30
-    invoke-virtual {p0}, Lcom/google/android/gms/location/CurrentLocationRequest;->s()J
+    invoke-virtual {p0}, Lcom/google/android/gms/location/CurrentLocationRequest;->d()J
 
     .line 31
     .line 32
@@ -1654,7 +1532,7 @@
     move-result-wide v2
 
     .line 34
-    invoke-static {p1, v1, v2, v3}, Lj9/a;->K(Landroid/os/Parcel;IJ)V
+    invoke-static {p1, v1, v2, v3}, Lu2/a;->l(Landroid/os/Parcel;IJ)V
 
     .line 35
     .line 36
@@ -1666,7 +1544,7 @@
 
     .line 39
     .line 40
-    invoke-static {p1, v1, v2}, Lj9/a;->g(Landroid/os/Parcel;IZ)V
+    invoke-static {p1, v1, v2}, Lu2/a;->c(Landroid/os/Parcel;IZ)V
 
     .line 41
     .line 42
@@ -1681,7 +1559,7 @@
     const/4 v3, 0x0
 
     .line 47
-    invoke-static {p1, v2, v1, p2, v3}, Lj9/a;->S(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v2, v1, p2, v3}, Lu2/a;->o(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 48
     .line 49
@@ -1693,7 +1571,7 @@
 
     .line 52
     .line 53
-    invoke-static {p1, v1, v2}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v1, v2}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 54
     .line 55
@@ -1706,12 +1584,12 @@
 
     .line 59
     .line 60
-    invoke-static {p1, v1, v2, p2, v3}, Lj9/a;->S(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v1, v2, p2, v3}, Lu2/a;->o(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 61
     .line 62
     .line 63
-    invoke-static {p1, v0}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 64
     .line 65
@@ -1982,63 +1860,4 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
-.end method
-
-.method public final z()I
-    .locals 1
-    .annotation runtime Lorg/checkerframework/dataflow/qual/Pure;
-    .end annotation
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/location/CurrentLocationRequest;->f:I
-
-    return v0
 .end method

@@ -69,7 +69,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -365,11 +364,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static withCityCodeAndPlaceName(ILjava/lang/String;)Lcom/baidu/mapapi/search/route/PlanNode;
@@ -446,11 +440,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static withCityCodeAndPlaceNameAndPoiId(ILjava/lang/String;Ljava/lang/String;)Lcom/baidu/mapapi/search/route/PlanNode;
@@ -620,11 +609,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static withCityNameAndPlaceName(Ljava/lang/String;Ljava/lang/String;)Lcom/baidu/mapapi/search/route/PlanNode;
@@ -697,11 +681,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static withCityNameAndPlaceNameAndPoiId(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/baidu/mapapi/search/route/PlanNode;
@@ -869,11 +848,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static withLocation(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/search/route/PlanNode;
@@ -910,7 +884,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static withLocationAndFloorAndBid(Lcom/baidu/mapapi/model/LatLng;Ljava/lang/String;Ljava/lang/String;)Lcom/baidu/mapapi/search/route/PlanNode;
@@ -1080,11 +1053,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static withLocationAndPoiId(Lcom/baidu/mapapi/model/LatLng;Ljava/lang/String;)Lcom/baidu/mapapi/search/route/PlanNode;
@@ -1165,11 +1133,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -1210,7 +1173,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCity()Ljava/lang/String;
@@ -1241,7 +1203,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCityCode()Ljava/lang/String;
@@ -1272,7 +1233,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCityName()Ljava/lang/String;
@@ -1303,7 +1263,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFloor()Ljava/lang/String;
@@ -1334,7 +1293,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLocation()Lcom/baidu/mapapi/model/LatLng;
@@ -1365,7 +1323,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -1396,7 +1353,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPoiId()Ljava/lang/String;
@@ -1427,7 +1383,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -1506,9 +1461,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

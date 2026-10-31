@@ -24,14 +24,6 @@
 # direct methods
 .method public constructor <init>(Lcom/baidu/bmfmap/map/overlayhandler/TraceHandler$1;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/baidu/bmfmap/map/overlayhandler/TraceHandler$1$1;->this$1:Lcom/baidu/bmfmap/map/overlayhandler/TraceHandler$1;
@@ -62,7 +54,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -259,11 +250,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public notImplemented()V
@@ -319,5 +305,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -66,6 +66,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static final a(Lcom/qiyukf/tv;)Lcom/qiyukf/bb;
@@ -603,6 +605,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public g()Lcom/qiyukf/nimlib/sdk/friend/constant/FriendSource;
@@ -639,6 +643,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAccount()Ljava/lang/String;
@@ -667,6 +673,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAlias()Ljava/lang/String;
@@ -695,6 +703,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExtension()Ljava/util/Map;
@@ -732,6 +742,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getServerExtension()Ljava/lang/String;
@@ -760,6 +772,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public h()Ljava/lang/Long;
@@ -788,4 +802,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

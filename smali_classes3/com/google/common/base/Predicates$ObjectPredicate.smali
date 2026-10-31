@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lgb/x;
+.implements Lcom/google/common/base/p;
 
 
 # annotations
@@ -21,9 +21,7 @@
         "Ljava/lang/Enum<",
         "Lcom/google/common/base/Predicates$ObjectPredicate;",
         ">;",
-        "Lgb/x<",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lcom/google/common/base/p;"
     }
 .end annotation
 
@@ -199,35 +197,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -246,14 +219,6 @@
 
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/base/Predicates$ObjectPredicate;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8000
-        }
-        names = {
-            "name"
-        }
-    .end annotation
 
     .line 1
     const-class v0, Lcom/google/common/base/Predicates$ObjectPredicate;
@@ -288,7 +253,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static values()[Lcom/google/common/base/Predicates$ObjectPredicate;
@@ -325,45 +289,23 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
-.method public withNarrowedType()Lgb/x;
+.method public abstract synthetic apply(Ljava/lang/Object;)Z
+.end method
+
+.method public withNarrowedType()Lcom/google/common/base/p;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">()",
-            "Lgb/x<",
-            "TT;>;"
+            "Lcom/google/common/base/p;"
         }
     .end annotation
 
-    .line 1
     return-object p0
-    .line 2
-    .line 3
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method

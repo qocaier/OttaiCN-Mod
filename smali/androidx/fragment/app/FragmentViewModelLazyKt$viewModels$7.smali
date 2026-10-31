@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/FragmentViewModelLazyKt;->viewModels(Landroidx/fragment/app/Fragment;Ljm/a;Ljm/a;Ljm/a;)Ljl/c0;
+    value = Landroidx/fragment/app/FragmentViewModelLazyKt;->viewModels(Landroidx/fragment/app/Fragment;Lq8/a;Lq8/a;Lq8/a;)Lkotlin/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,68 +19,47 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Landroidx/lifecycle/viewmodel/CreationExtras;",
-        ">;"
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFragmentViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt$viewModels$7\n*L\n1#1,222:1\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nFragmentViewModelLazy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FragmentViewModelLazy.kt\nandroidx/fragment/app/FragmentViewModelLazyKt$viewModels$7\n*L\n1#1,222:1\n*E\n"
+        "Lq8/a;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic $extrasProducer:Ljm/a;
+.field final synthetic $extrasProducer:Lq8/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/a<",
-            "Landroidx/lifecycle/viewmodel/CreationExtras;",
-            ">;"
+            "Lq8/a;"
         }
     .end annotation
 .end field
 
-.field final synthetic $owner$delegate:Ljl/c0;
+.field final synthetic $owner$delegate:Lkotlin/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljl/c0<",
-            "Landroidx/lifecycle/ViewModelStoreOwner;",
-            ">;"
+            "Lkotlin/c;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljm/a;Ljl/c0;)V
+.method public constructor <init>(Lq8/a;Lkotlin/c;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/a<",
-            "+",
-            "Landroidx/lifecycle/viewmodel/CreationExtras;",
-            ">;",
-            "Ljl/c0<",
-            "+",
-            "Landroidx/lifecycle/ViewModelStoreOwner;",
-            ">;)V"
+            "Lq8/a;",
+            "Lkotlin/c;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$7;->$extrasProducer:Ljm/a;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$7;->$extrasProducer:Lq8/a;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$7;->$owner$delegate:Ljl/c0;
+    iput-object p2, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$7;->$owner$delegate:Lkotlin/c;
 
     .line 4
     .line 5
@@ -138,15 +117,13 @@
 # virtual methods
 .method public final invoke()Landroidx/lifecycle/viewmodel/CreationExtras;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$7;->$extrasProducer:Ljm/a;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$7;->$extrasProducer:Lq8/a;
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lq8/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -162,9 +139,9 @@
     .line 3
     :cond_1
     :goto_0
-    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$7;->$owner$delegate:Ljl/c0;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$7;->$owner$delegate:Lkotlin/c;
 
-    invoke-static {v0}, Landroidx/fragment/app/FragmentViewModelLazyKt;->access$viewModels$lambda-1(Ljl/c0;)Landroidx/lifecycle/ViewModelStoreOwner;
+    invoke-static {v0}, Landroidx/fragment/app/FragmentViewModelLazyKt;->access$viewModels$lambda-1(Lkotlin/c;)Landroidx/lifecycle/ViewModelStoreOwner;
 
     move-result-object v0
 

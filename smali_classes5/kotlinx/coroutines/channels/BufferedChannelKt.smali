@@ -1,143 +1,46 @@
-.class public final Lkotlinx/coroutines/channels/BufferedChannelKt;
+.class public abstract Lkotlinx/coroutines/channels/BufferedChannelKt;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # static fields
-.field public static final A:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final B:I = 0x0
-
-.field public static final C:I = 0x1
-
-.field public static final D:I = 0x2
-
-.field public static final E:I = 0x3
-
-.field public static final F:I = 0x3c
-
-.field public static final G:J = 0xfffffffffffffffL
-
-.field public static final H:J = 0x4000000000000000L
-
-.field public static final I:J = 0x3fffffffffffffffL
-
-.field public static final a:Lhn/h;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lhn/h<",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final a:Lkotlinx/coroutines/channels/l;
 
 .field public static final b:I
-    .annotation build Lim/g;
-    .end annotation
-.end field
 
 .field public static final c:I
 
-.field public static final d:J = 0x0L
+.field public static final d:Lkotlinx/coroutines/internal/b0;
 
-.field public static final e:J = 0x7fffffffffffffffL
+.field public static final e:Lkotlinx/coroutines/internal/b0;
 
-.field public static final f:Lmn/u0;
-    .annotation build Lim/g;
-    .end annotation
+.field public static final f:Lkotlinx/coroutines/internal/b0;
 
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final g:Lkotlinx/coroutines/internal/b0;
 
-.field public static final g:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final h:Lkotlinx/coroutines/internal/b0;
 
-.field public static final h:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final i:Lkotlinx/coroutines/internal/b0;
 
-.field public static final i:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final j:Lkotlinx/coroutines/internal/b0;
 
-.field public static final j:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final k:Lkotlinx/coroutines/internal/b0;
 
-.field public static final k:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final l:Lkotlinx/coroutines/internal/b0;
 
-.field public static final l:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final m:Lkotlinx/coroutines/internal/b0;
 
-.field public static final m:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final n:Lkotlinx/coroutines/internal/b0;
 
-.field public static final n:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final o:Lkotlinx/coroutines/internal/b0;
 
-.field public static final o:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final p:Lkotlinx/coroutines/internal/b0;
 
-.field public static final p:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final q:Lkotlinx/coroutines/internal/b0;
 
-.field public static final q:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final r:Lkotlinx/coroutines/internal/b0;
 
-.field public static final r:I = 0x0
-
-.field public static final s:I = 0x1
-
-.field public static final t:I = 0x2
-
-.field public static final u:I = 0x3
-
-.field public static final v:I = 0x4
-
-.field public static final w:I = 0x5
-
-.field public static final x:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final y:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final z:Lmn/u0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final s:Lkotlinx/coroutines/internal/b0;
 
 
 # direct methods
@@ -145,7 +48,7 @@
     .locals 7
 
     .line 1
-    new-instance v0, Lhn/h;
+    new-instance v0, Lkotlinx/coroutines/channels/l;
 
     .line 2
     .line 3
@@ -162,12 +65,12 @@
     const/4 v3, 0x0
 
     .line 8
-    invoke-direct/range {v0 .. v5}, Lhn/h;-><init>(JLhn/h;Lkotlinx/coroutines/channels/BufferedChannel;I)V
+    invoke-direct/range {v0 .. v5}, Lkotlinx/coroutines/channels/l;-><init>(JLkotlinx/coroutines/channels/l;Lkotlinx/coroutines/channels/BufferedChannel;I)V
 
     .line 9
     .line 10
     .line 11
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->a:Lhn/h;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->a:Lkotlinx/coroutines/channels/l;
 
     .line 12
     .line 13
@@ -192,7 +95,7 @@
     const/4 v4, 0x0
 
     .line 22
-    invoke-static/range {v1 .. v6}, Lmn/x0;->g(Ljava/lang/String;IIIILjava/lang/Object;)I
+    invoke-static/range {v1 .. v6}, Lkotlinx/coroutines/internal/c0;->g(Ljava/lang/String;IIIILjava/lang/Object;)I
 
     .line 23
     .line 24
@@ -212,7 +115,7 @@
 
     .line 31
     .line 32
-    invoke-static/range {v1 .. v6}, Lmn/x0;->g(Ljava/lang/String;IIIILjava/lang/Object;)I
+    invoke-static/range {v1 .. v6}, Lkotlinx/coroutines/internal/c0;->g(Ljava/lang/String;IIIILjava/lang/Object;)I
 
     .line 33
     .line 34
@@ -224,7 +127,7 @@
 
     .line 37
     .line 38
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 39
     .line 40
@@ -232,16 +135,16 @@
 
     .line 41
     .line 42
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 43
     .line 44
     .line 45
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->f:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->d:Lkotlinx/coroutines/internal/b0;
 
     .line 46
     .line 47
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 48
     .line 49
@@ -249,16 +152,16 @@
 
     .line 50
     .line 51
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 52
     .line 53
     .line 54
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->g:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->e:Lkotlinx/coroutines/internal/b0;
 
     .line 55
     .line 56
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 57
     .line 58
@@ -266,16 +169,16 @@
 
     .line 59
     .line 60
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 61
     .line 62
     .line 63
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->h:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->f:Lkotlinx/coroutines/internal/b0;
 
     .line 64
     .line 65
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 66
     .line 67
@@ -283,16 +186,16 @@
 
     .line 68
     .line 69
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 70
     .line 71
     .line 72
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->i:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->g:Lkotlinx/coroutines/internal/b0;
 
     .line 73
     .line 74
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 75
     .line 76
@@ -300,16 +203,16 @@
 
     .line 77
     .line 78
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 79
     .line 80
     .line 81
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->j:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->h:Lkotlinx/coroutines/internal/b0;
 
     .line 82
     .line 83
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 84
     .line 85
@@ -317,16 +220,16 @@
 
     .line 86
     .line 87
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 88
     .line 89
     .line 90
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->k:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->i:Lkotlinx/coroutines/internal/b0;
 
     .line 91
     .line 92
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 93
     .line 94
@@ -334,16 +237,16 @@
 
     .line 95
     .line 96
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 97
     .line 98
     .line 99
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->l:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->j:Lkotlinx/coroutines/internal/b0;
 
     .line 100
     .line 101
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 102
     .line 103
@@ -351,16 +254,16 @@
 
     .line 104
     .line 105
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 106
     .line 107
     .line 108
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->m:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->k:Lkotlinx/coroutines/internal/b0;
 
     .line 109
     .line 110
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 111
     .line 112
@@ -368,16 +271,16 @@
 
     .line 113
     .line 114
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 115
     .line 116
     .line 117
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->n:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->l:Lkotlinx/coroutines/internal/b0;
 
     .line 118
     .line 119
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 120
     .line 121
@@ -385,16 +288,16 @@
 
     .line 122
     .line 123
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 124
     .line 125
     .line 126
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->o:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->m:Lkotlinx/coroutines/internal/b0;
 
     .line 127
     .line 128
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 129
     .line 130
@@ -402,16 +305,16 @@
 
     .line 131
     .line 132
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 133
     .line 134
     .line 135
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->p:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->n:Lkotlinx/coroutines/internal/b0;
 
     .line 136
     .line 137
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 138
     .line 139
@@ -419,16 +322,16 @@
 
     .line 140
     .line 141
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 142
     .line 143
     .line 144
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->q:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->o:Lkotlinx/coroutines/internal/b0;
 
     .line 145
     .line 146
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 147
     .line 148
@@ -436,16 +339,16 @@
 
     .line 149
     .line 150
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 151
     .line 152
     .line 153
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->x:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->p:Lkotlinx/coroutines/internal/b0;
 
     .line 154
     .line 155
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 156
     .line 157
@@ -453,16 +356,16 @@
 
     .line 158
     .line 159
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 160
     .line 161
     .line 162
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->y:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->q:Lkotlinx/coroutines/internal/b0;
 
     .line 163
     .line 164
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 165
     .line 166
@@ -470,16 +373,16 @@
 
     .line 167
     .line 168
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 169
     .line 170
     .line 171
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->z:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->r:Lkotlinx/coroutines/internal/b0;
 
     .line 172
     .line 173
-    new-instance v0, Lmn/u0;
+    new-instance v0, Lkotlinx/coroutines/internal/b0;
 
     .line 174
     .line 175
@@ -487,12 +390,12 @@
 
     .line 176
     .line 177
-    invoke-direct {v0, v1}, Lmn/u0;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkotlinx/coroutines/internal/b0;-><init>(Ljava/lang/String;)V
 
     .line 178
     .line 179
     .line 180
-    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->A:Lmn/u0;
+    sput-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->s:Lkotlinx/coroutines/internal/b0;
 
     .line 181
     .line 182
@@ -787,143 +690,9 @@
     .line 470
     .line 471
     .line 472
-    .line 473
-    .line 474
-    .line 475
-    .line 476
-    .line 477
-    .line 478
-    .line 479
-    .line 480
-    .line 481
-    .line 482
-    .line 483
-    .line 484
-    .line 485
-    .line 486
-    .line 487
-    .line 488
-    .line 489
-    .line 490
-    .line 491
-    .line 492
-    .line 493
-    .line 494
-    .line 495
-    .line 496
-    .line 497
-    .line 498
-    .line 499
-    .line 500
-    .line 501
-    .line 502
-    .line 503
-    .line 504
-    .line 505
-    .line 506
-    .line 507
-    .line 508
-    .line 509
-    .line 510
-    .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
 .end method
 
-.method public static final A(J)J
-    .locals 2
-
-    .line 1
-    const-wide v0, 0x3fffffffffffffffL    # 1.9999999999999998
-
-    and-long/2addr p0, v0
-
-    return-wide p0
-.end method
-
-.method public static final B(J)Z
-    .locals 2
-
-    .line 1
-    const-wide/high16 v0, 0x4000000000000000L    # 2.0
-
-    and-long/2addr p0, v0
-
-    const-wide/16 v0, 0x0
-
-    cmp-long p0, p0, v0
-
-    if-eqz p0, :cond_0
-
-    const/4 p0, 0x1
-
-    return p0
-
-    :cond_0
-    const/4 p0, 0x0
-
-    return p0
-.end method
-
-.method public static final C(J)I
-    .locals 1
-
-    .line 1
-    const/16 v0, 0x3c
-
-    shr-long/2addr p0, v0
-
-    long-to-int p0, p0
-
-    return p0
-.end method
-
-.method public static final D(J)J
-    .locals 2
-
-    .line 1
-    const-wide v0, 0xfffffffffffffffL
-
-    and-long/2addr p0, v0
-
-    return-wide p0
-.end method
-
-.method public static final E(I)J
+.method public static final A(I)J
     .locals 2
 
     .line 1
@@ -948,30 +717,14 @@
     return-wide v0
 .end method
 
-.method public static final F(Lfn/k;Ljava/lang/Object;Ljm/q;)Z
+.method public static final B(Lkotlinx/coroutines/l;Ljava/lang/Object;Lq8/q;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lfn/k<",
-            "-TT;>;TT;",
-            "Ljm/q<",
-            "-",
-            "Ljava/lang/Throwable;",
-            "-TT;-",
-            "Lkotlin/coroutines/d;",
-            "Ljl/e2;",
-            ">;)Z"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
 
     .line 2
-    invoke-interface {p0, p1, v0, p2}, Lfn/k;->n(Ljava/lang/Object;Ljava/lang/Object;Ljm/q;)Ljava/lang/Object;
+    invoke-interface {p0, p1, v0, p2}, Lkotlinx/coroutines/l;->C(Ljava/lang/Object;Ljava/lang/Object;Lq8/q;)Ljava/lang/Object;
 
     .line 3
     .line 4
@@ -983,7 +736,7 @@
 
     .line 7
     .line 8
-    invoke-interface {p0, p1}, Lfn/k;->g0(Ljava/lang/Object;)V
+    invoke-interface {p0, p1}, Lkotlinx/coroutines/l;->b0(Ljava/lang/Object;)V
 
     .line 9
     .line 10
@@ -1063,9 +816,168 @@
     .line 76
     .line 77
     .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
 .end method
 
-.method public static synthetic G(Lfn/k;Ljava/lang/Object;Ljm/q;ILjava/lang/Object;)Z
+.method public static synthetic C(Lkotlinx/coroutines/l;Ljava/lang/Object;Lq8/q;ILjava/lang/Object;)Z
     .locals 0
 
     .line 1
@@ -1081,7 +993,7 @@
 
     .line 6
     :cond_0
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/BufferedChannelKt;->F(Lfn/k;Ljava/lang/Object;Ljm/q;)Z
+    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/BufferedChannelKt;->B(Lkotlinx/coroutines/l;Ljava/lang/Object;Lq8/q;)Z
 
     .line 7
     .line 8
@@ -1353,65 +1265,6 @@
     .line 271
     .line 272
     .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
 .end method
 
 .method public static final synthetic a(JZ)J
@@ -1463,6 +1316,89 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
 .method public static final synthetic b(JI)J
@@ -1514,13 +1450,96 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
-.method public static final synthetic c(JLhn/h;)Lhn/h;
+.method public static final synthetic c(JLkotlinx/coroutines/channels/l;)Lkotlinx/coroutines/channels/l;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/BufferedChannelKt;->x(JLhn/h;)Lhn/h;
+    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/BufferedChannelKt;->x(JLkotlinx/coroutines/channels/l;)Lkotlinx/coroutines/channels/l;
 
     .line 2
     .line 3
@@ -1565,13 +1584,96 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
-.method public static final synthetic d()Lmn/u0;
+.method public static final synthetic d()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->y:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->q:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -1596,13 +1698,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic e()Lmn/u0;
+.method public static final synthetic e()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->z:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->r:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -1627,13 +1756,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic f()Lmn/u0;
+.method public static final synthetic f()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->k:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->i:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -1658,6 +1814,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public static final synthetic g()I
@@ -1689,13 +1872,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic h()Lmn/u0;
+.method public static final synthetic h()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->q:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->o:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -1720,13 +1930,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic i()Lmn/u0;
+.method public static final synthetic i()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->m:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->k:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -1751,13 +1988,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic j()Lmn/u0;
+.method public static final synthetic j()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->l:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->j:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -1782,13 +2046,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic k()Lmn/u0;
+.method public static final synthetic k()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->g:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->e:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -1813,13 +2104,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic l()Lmn/u0;
+.method public static final synthetic l()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->A:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->s:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -1844,13 +2162,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic m()Lmn/u0;
+.method public static final synthetic m()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->x:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->p:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -1875,13 +2220,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic n()Lhn/h;
+.method public static final synthetic n()Lkotlinx/coroutines/channels/l;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->a:Lhn/h;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->a:Lkotlinx/coroutines/channels/l;
 
     .line 2
     .line 3
@@ -1906,13 +2278,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic o()Lmn/u0;
+.method public static final synthetic o()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->j:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->h:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -1937,13 +2336,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic p()Lmn/u0;
+.method public static final synthetic p()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->i:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->g:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -1968,13 +2394,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic q()Lmn/u0;
+.method public static final synthetic q()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->h:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->f:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -1999,13 +2452,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic r()Lmn/u0;
+.method public static final synthetic r()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->o:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->m:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -2030,13 +2510,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic s()Lmn/u0;
+.method public static final synthetic s()Lkotlinx/coroutines/internal/b0;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->p:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->n:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -2061,13 +2568,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public static final synthetic t(I)J
     .locals 2
 
     .line 1
-    invoke-static {p0}, Lkotlinx/coroutines/channels/BufferedChannelKt;->E(I)J
+    invoke-static {p0}, Lkotlinx/coroutines/channels/BufferedChannelKt;->A(I)J
 
     .line 2
     .line 3
@@ -2095,13 +2629,46 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public static final synthetic u(Lfn/k;Ljava/lang/Object;Ljm/q;)Z
+.method public static final synthetic u(Lkotlinx/coroutines/l;Ljava/lang/Object;Lq8/q;)Z
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/BufferedChannelKt;->F(Lfn/k;Ljava/lang/Object;Ljm/q;)Z
+    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/channels/BufferedChannelKt;->B(Lkotlinx/coroutines/l;Ljava/lang/Object;Lq8/q;)Z
 
     .line 2
     .line 3
@@ -2183,6 +2750,165 @@
     .line 76
     .line 77
     .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
 .end method
 
 .method public static final v(JZ)J
@@ -2219,26 +2945,15 @@
     return-wide v0
 .end method
 
-.method public static final x(JLhn/h;)Lhn/h;
+.method public static final x(JLkotlinx/coroutines/channels/l;)Lkotlinx/coroutines/channels/l;
     .locals 6
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<E:",
-            "Ljava/lang/Object;",
-            ">(J",
-            "Lhn/h<",
-            "TE;>;)",
-            "Lhn/h<",
-            "TE;>;"
-        }
-    .end annotation
 
     .line 1
-    new-instance v0, Lhn/h;
+    new-instance v0, Lkotlinx/coroutines/channels/l;
 
     .line 2
     .line 3
-    invoke-virtual {p2}, Lhn/h;->G()Lkotlinx/coroutines/channels/BufferedChannel;
+    invoke-virtual {p2}, Lkotlinx/coroutines/channels/l;->y()Lkotlinx/coroutines/channels/BufferedChannel;
 
     .line 4
     .line 5
@@ -2255,7 +2970,7 @@
     move-object v3, p2
 
     .line 10
-    invoke-direct/range {v0 .. v5}, Lhn/h;-><init>(JLhn/h;Lkotlinx/coroutines/channels/BufferedChannel;I)V
+    invoke-direct/range {v0 .. v5}, Lkotlinx/coroutines/channels/l;-><init>(JLkotlinx/coroutines/channels/l;Lkotlinx/coroutines/channels/BufferedChannel;I)V
 
     .line 11
     .line 12
@@ -2289,23 +3004,93 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
-.method public static final y()Lum/i;
+.method public static final y()Lkotlin/reflect/f;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<E:",
-            "Ljava/lang/Object;",
-            ">()",
-            "Lum/i<",
-            "Lhn/h<",
-            "TE;>;>;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt$createSegmentFunction$1;->INSTANCE:Lkotlinx/coroutines/channels/BufferedChannelKt$createSegmentFunction$1;
@@ -2333,15 +3118,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final z()Lmn/u0;
+.method public static final z()Lkotlinx/coroutines/internal/b0;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->n:Lmn/u0;
+    sget-object v0, Lkotlinx/coroutines/channels/BufferedChannelKt;->l:Lkotlinx/coroutines/internal/b0;
 
     .line 2
     .line 3
@@ -2366,4 +3176,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

@@ -91,6 +91,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -309,6 +310,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private considerNotify(Landroidx/lifecycle/LiveData$ObserverWrapper;)V
@@ -438,6 +440,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -607,6 +610,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public dispatchingValue(Landroidx/lifecycle/LiveData$ObserverWrapper;)V
@@ -768,6 +772,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getValue()Ljava/lang/Object;
@@ -813,6 +818,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVersion()I
@@ -841,6 +847,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasActiveObservers()Z
@@ -878,6 +885,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasObservers()Z
@@ -919,6 +927,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isInitialized()Z
@@ -958,6 +967,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
@@ -1280,6 +1290,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public observeForever(Landroidx/lifecycle/Observer;)V
@@ -1416,6 +1429,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onActive()V
@@ -1565,6 +1579,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public removeObserver(Landroidx/lifecycle/Observer;)V
@@ -1770,6 +1785,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setValue(Ljava/lang/Object;)V

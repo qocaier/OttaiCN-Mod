@@ -80,6 +80,7 @@
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -126,20 +127,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static computeBoolSize(IZ)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -204,14 +196,6 @@
 
 .method public static computeBoolSizeNoTag(Z)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "unused"
-        }
-    .end annotation
 
     const/4 p0, 0x1
 
@@ -220,16 +204,6 @@
 
 .method public static computeByteArraySize(I[B)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -294,14 +268,6 @@
 
 .method public static computeByteArraySizeNoTag([B)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     array-length p0, p0
@@ -339,16 +305,6 @@
 
 .method public static computeByteBufferSize(ILjava/nio/ByteBuffer;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -413,14 +369,6 @@
 
 .method public static computeByteBufferSizeNoTag(Ljava/nio/ByteBuffer;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Ljava/nio/Buffer;->capacity()I
@@ -460,16 +408,6 @@
 
 .method public static computeBytesSize(ILandroidx/datastore/preferences/protobuf/ByteString;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -534,14 +472,6 @@
 
 .method public static computeBytesSizeNoTag(Landroidx/datastore/preferences/protobuf/ByteString;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
@@ -581,16 +511,6 @@
 
 .method public static computeDoubleSize(ID)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -655,14 +575,6 @@
 
 .method public static computeDoubleSizeNoTag(D)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "unused"
-        }
-    .end annotation
 
     const/16 p0, 0x8
 
@@ -671,16 +583,6 @@
 
 .method public static computeEnumSize(II)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -745,14 +647,6 @@
 
 .method public static computeEnumSizeNoTag(I)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeInt32SizeNoTag(I)I
@@ -788,16 +682,6 @@
 
 .method public static computeFixed32Size(II)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -862,14 +746,6 @@
 
 .method public static computeFixed32SizeNoTag(I)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "unused"
-        }
-    .end annotation
 
     const/4 p0, 0x4
 
@@ -878,16 +754,6 @@
 
 .method public static computeFixed64Size(IJ)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -952,14 +818,6 @@
 
 .method public static computeFixed64SizeNoTag(J)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "unused"
-        }
-    .end annotation
 
     const/16 p0, 0x8
 
@@ -968,16 +826,6 @@
 
 .method public static computeFloatSize(IF)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -1042,14 +890,6 @@
 
 .method public static computeFloatSizeNoTag(F)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "unused"
-        }
-    .end annotation
 
     const/4 p0, 0x4
 
@@ -1058,17 +898,6 @@
 
 .method public static computeGroupSize(ILandroidx/datastore/preferences/protobuf/MessageLite;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -1090,19 +919,6 @@
 
 .method public static computeGroupSize(ILandroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value",
-            "schema"
-        }
-    .end annotation
-
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -1128,15 +944,6 @@
         replacement = "value.getSerializedSize()"
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -1150,17 +957,6 @@
 
 .method public static computeGroupSizeNoTag(Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x0
-        }
-        names = {
-            "value",
-            "schema"
-        }
-    .end annotation
-
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -1176,16 +972,6 @@
 
 .method public static computeInt32Size(II)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -1250,14 +1036,6 @@
 
 .method public static computeInt32SizeNoTag(I)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     int-to-long v0, p0
@@ -1295,16 +1073,6 @@
 
 .method public static computeInt64Size(IJ)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -1369,14 +1137,6 @@
 
 .method public static computeInt64SizeNoTag(J)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeUInt64SizeNoTag(J)I
@@ -1412,16 +1172,6 @@
 
 .method public static computeLazyFieldMessageSetExtensionSize(ILandroidx/datastore/preferences/protobuf/LazyFieldLite;)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -1500,16 +1250,6 @@
 
 .method public static computeLazyFieldSize(ILandroidx/datastore/preferences/protobuf/LazyFieldLite;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -1574,14 +1314,6 @@
 
 .method public static computeLazyFieldSizeNoTag(Landroidx/datastore/preferences/protobuf/LazyFieldLite;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;->getSerializedSize()I
@@ -1621,14 +1353,6 @@
 
 .method public static computeLengthDelimitedFieldSize(I)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "fieldLength"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeUInt32SizeNoTag(I)I
@@ -1666,16 +1390,6 @@
 
 .method public static computeMessageSetExtensionSize(ILandroidx/datastore/preferences/protobuf/MessageLite;)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -1754,16 +1468,6 @@
 
 .method public static computeMessageSize(ILandroidx/datastore/preferences/protobuf/MessageLite;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -1781,18 +1485,6 @@
 
 .method public static computeMessageSize(ILandroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value",
-            "schema"
-        }
-    .end annotation
 
     .line 2
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -1810,14 +1502,6 @@
 
 .method public static computeMessageSizeNoTag(Landroidx/datastore/preferences/protobuf/MessageLite;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLite;->getSerializedSize()I
@@ -1833,16 +1517,6 @@
 
 .method public static computeMessageSizeNoTag(Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "value",
-            "schema"
-        }
-    .end annotation
 
     .line 2
     check-cast p0, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
@@ -1860,14 +1534,6 @@
 
 .method public static computePreferredBufferSize(I)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "dataLength"
-        }
-    .end annotation
 
     const/16 v0, 0x1000
 
@@ -1881,16 +1547,6 @@
 
 .method public static computeRawMessageSetExtensionSize(ILandroidx/datastore/preferences/protobuf/ByteString;)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -1976,15 +1632,6 @@
         replacement = "CodedOutputStream.computeUInt32SizeNoTag(value)"
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -2029,15 +1676,6 @@
         replacement = "CodedOutputStream.computeUInt64SizeNoTag(value)"
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -2075,16 +1713,6 @@
 
 .method public static computeSFixed32Size(II)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -2149,14 +1777,6 @@
 
 .method public static computeSFixed32SizeNoTag(I)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "unused"
-        }
-    .end annotation
 
     const/4 p0, 0x4
 
@@ -2165,16 +1785,6 @@
 
 .method public static computeSFixed64Size(IJ)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -2239,14 +1849,6 @@
 
 .method public static computeSFixed64SizeNoTag(J)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "unused"
-        }
-    .end annotation
 
     const/16 p0, 0x8
 
@@ -2255,16 +1857,6 @@
 
 .method public static computeSInt32Size(II)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -2329,14 +1921,6 @@
 
 .method public static computeSInt32SizeNoTag(I)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->encodeZigZag32(I)I
@@ -2376,16 +1960,6 @@
 
 .method public static computeSInt64Size(IJ)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -2450,14 +2024,6 @@
 
 .method public static computeSInt64SizeNoTag(J)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->encodeZigZag64(J)J
@@ -2497,16 +2063,6 @@
 
 .method public static computeStringSize(ILjava/lang/String;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -2571,14 +2127,6 @@
 
 .method public static computeStringSizeNoTag(Ljava/lang/String;)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -2633,14 +2181,6 @@
 
 .method public static computeTagSize(I)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "fieldNumber"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -2682,16 +2222,6 @@
 
 .method public static computeUInt32Size(II)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -2756,14 +2286,6 @@
 
 .method public static computeUInt32SizeNoTag(I)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Ljava/lang/Integer;->numberOfLeadingZeros(I)I
@@ -2805,16 +2327,6 @@
 
 .method public static computeUInt64Size(IJ)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeTagSize(I)I
@@ -2879,14 +2391,6 @@
 
 .method public static computeUInt64SizeNoTag(J)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0, p1}, Ljava/lang/Long;->numberOfLeadingZeros(J)I
@@ -2928,14 +2432,6 @@
 
 .method public static encodeZigZag32(I)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "n"
-        }
-    .end annotation
 
     shl-int/lit8 v0, p0, 0x1
 
@@ -2948,14 +2444,6 @@
 
 .method public static encodeZigZag64(J)J
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "n"
-        }
-    .end annotation
 
     const/4 v0, 0x1
 
@@ -2972,16 +2460,6 @@
 
 .method public static newInstance(Landroidx/datastore/preferences/protobuf/ByteOutput;I)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "byteOutput",
-            "bufferSize"
-        }
-    .end annotation
 
     if-ltz p1, :cond_0
 
@@ -3005,14 +2483,6 @@
 
 .method public static newInstance(Ljava/io/OutputStream;)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "output"
-        }
-    .end annotation
 
     const/16 v0, 0x1000
 
@@ -3026,16 +2496,6 @@
 
 .method public static newInstance(Ljava/io/OutputStream;I)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "output",
-            "bufferSize"
-        }
-    .end annotation
 
     .line 2
     new-instance v0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutputStreamEncoder;
@@ -3047,14 +2507,6 @@
 
 .method public static newInstance(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "buffer"
-        }
-    .end annotation
 
     .line 5
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->hasArray()Z
@@ -3119,17 +2571,6 @@
 
 .method public static newInstance(Ljava/nio/ByteBuffer;I)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "byteBuffer",
-            "unused"
-        }
-    .end annotation
-
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
@@ -3143,14 +2584,6 @@
 
 .method public static newInstance([B)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "flatArray"
-        }
-    .end annotation
 
     .line 3
     array-length v0, p0
@@ -3166,18 +2599,6 @@
 
 .method public static newInstance([BII)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "flatArray",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 4
     new-instance v0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$ArrayEncoder;
@@ -3189,14 +2610,6 @@
 
 .method public static newSafeInstance(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "buffer"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$SafeDirectNioEncoder;
@@ -3232,14 +2645,6 @@
 
 .method public static newUnsafeInstance(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/CodedOutputStream;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "buffer"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
@@ -3314,6 +2719,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract flush()V
@@ -3329,17 +2735,6 @@
 
 .method public final inefficientWriteStringNoTag(Ljava/lang/String;Landroidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "value",
-            "cause"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3459,6 +2854,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract spaceLeft()I
@@ -3492,18 +2888,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract write(B)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3512,15 +2900,6 @@
 .end method
 
 .method public abstract write(Ljava/nio/ByteBuffer;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3529,19 +2908,6 @@
 .end method
 
 .method public abstract write([BII)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "value",
-            "offset",
-            "length"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3550,17 +2916,6 @@
 .end method
 
 .method public abstract writeBool(IZ)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3570,15 +2925,6 @@
 
 .method public final writeBoolNoTag(Z)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3618,17 +2964,6 @@
 .end method
 
 .method public abstract writeByteArray(I[B)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3637,21 +2972,6 @@
 .end method
 
 .method public abstract writeByteArray(I[BII)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value",
-            "offset",
-            "length"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3661,15 +2981,6 @@
 
 .method public final writeByteArrayNoTag([B)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3687,19 +2998,6 @@
 .end method
 
 .method public abstract writeByteArrayNoTag([BII)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "value",
-            "offset",
-            "length"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3708,17 +3006,6 @@
 .end method
 
 .method public abstract writeByteBuffer(ILjava/nio/ByteBuffer;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3727,17 +3014,6 @@
 .end method
 
 .method public abstract writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3746,15 +3022,6 @@
 .end method
 
 .method public abstract writeBytesNoTag(Landroidx/datastore/preferences/protobuf/ByteString;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3764,17 +3031,6 @@
 
 .method public final writeDouble(ID)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3840,15 +3096,6 @@
 
 .method public final writeDoubleNoTag(D)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3891,17 +3138,6 @@
 
 .method public final writeEnum(II)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -3963,15 +3199,6 @@
 
 .method public final writeEnumNoTag(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4009,17 +3236,6 @@
 .end method
 
 .method public abstract writeFixed32(II)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4028,15 +3244,6 @@
 .end method
 
 .method public abstract writeFixed32NoTag(I)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4045,17 +3252,6 @@
 .end method
 
 .method public abstract writeFixed64(IJ)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4064,15 +3260,6 @@
 .end method
 
 .method public abstract writeFixed64NoTag(J)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4082,17 +3269,6 @@
 
 .method public final writeFloat(IF)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4158,15 +3334,6 @@
 
 .method public final writeFloatNoTag(F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4209,17 +3376,6 @@
 
 .method public final writeGroup(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4247,19 +3403,6 @@
 
 .method public final writeGroup(ILandroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value",
-            "schema"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4287,15 +3430,6 @@
 
 .method public final writeGroupNoTag(Landroidx/datastore/preferences/protobuf/MessageLite;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4313,17 +3447,6 @@
 
 .method public final writeGroupNoTag(Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x0
-        }
-        names = {
-            "value",
-            "schema"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4342,17 +3465,6 @@
 .end method
 
 .method public abstract writeInt32(II)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4361,15 +3473,6 @@
 .end method
 
 .method public abstract writeInt32NoTag(I)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4379,17 +3482,6 @@
 
 .method public final writeInt64(IJ)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4451,15 +3543,6 @@
 
 .method public final writeInt64NoTag(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4497,15 +3580,6 @@
 .end method
 
 .method public abstract writeLazy(Ljava/nio/ByteBuffer;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4514,19 +3588,6 @@
 .end method
 
 .method public abstract writeLazy([BII)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "value",
-            "offset",
-            "length"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4535,17 +3596,6 @@
 .end method
 
 .method public abstract writeMessage(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4554,19 +3604,6 @@
 .end method
 
 .method public abstract writeMessage(ILandroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value",
-            "schema"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4575,15 +3612,6 @@
 .end method
 
 .method public abstract writeMessageNoTag(Landroidx/datastore/preferences/protobuf/MessageLite;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4592,17 +3620,6 @@
 .end method
 
 .method public abstract writeMessageNoTag(Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x0
-        }
-        names = {
-            "value",
-            "schema"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4611,17 +3628,6 @@
 .end method
 
 .method public abstract writeMessageSetExtension(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4631,15 +3637,6 @@
 
 .method public final writeRawByte(B)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4654,15 +3651,6 @@
 
 .method public final writeRawByte(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4679,15 +3667,6 @@
 
 .method public final writeRawBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4701,15 +3680,6 @@
 .end method
 
 .method public abstract writeRawBytes(Ljava/nio/ByteBuffer;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4719,15 +3689,6 @@
 
 .method public final writeRawBytes([B)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4746,19 +3707,6 @@
 
 .method public final writeRawBytes([BII)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x0,
-            0x0
-        }
-        names = {
-            "value",
-            "offset",
-            "length"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4775,15 +3723,6 @@
     .locals 0
     .annotation build Landroidx/datastore/preferences/protobuf/InlineMe;
         replacement = "this.writeFixed32NoTag(value)"
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
     .end annotation
 
     .annotation system Ldalvik/annotation/Throws;
@@ -4831,15 +3770,6 @@
         replacement = "this.writeFixed64NoTag(value)"
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4880,17 +3810,6 @@
 .end method
 
 .method public abstract writeRawMessageSetExtension(ILandroidx/datastore/preferences/protobuf/ByteString;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -4902,15 +3821,6 @@
     .locals 0
     .annotation build Landroidx/datastore/preferences/protobuf/InlineMe;
         replacement = "this.writeUInt32NoTag(value)"
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
     .end annotation
 
     .annotation system Ldalvik/annotation/Throws;
@@ -4958,15 +3868,6 @@
         replacement = "this.writeUInt64NoTag(value)"
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5008,17 +3909,6 @@
 
 .method public final writeSFixed32(II)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5080,15 +3970,6 @@
 
 .method public final writeSFixed32NoTag(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5127,17 +4008,6 @@
 
 .method public final writeSFixed64(IJ)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5199,15 +4069,6 @@
 
 .method public final writeSFixed64NoTag(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5246,17 +4107,6 @@
 
 .method public final writeSInt32(II)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5322,15 +4172,6 @@
 
 .method public final writeSInt32NoTag(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5373,17 +4214,6 @@
 
 .method public final writeSInt64(IJ)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5449,15 +4279,6 @@
 
 .method public final writeSInt64NoTag(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5499,17 +4320,6 @@
 .end method
 
 .method public abstract writeString(ILjava/lang/String;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5518,15 +4328,6 @@
 .end method
 
 .method public abstract writeStringNoTag(Ljava/lang/String;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5535,17 +4336,6 @@
 .end method
 
 .method public abstract writeTag(II)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "wireType"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5554,17 +4344,6 @@
 .end method
 
 .method public abstract writeUInt32(II)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5573,15 +4352,6 @@
 .end method
 
 .method public abstract writeUInt32NoTag(I)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5590,17 +4360,6 @@
 .end method
 
 .method public abstract writeUInt64(IJ)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
@@ -5609,15 +4368,6 @@
 .end method
 
 .method public abstract writeUInt64NoTag(J)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

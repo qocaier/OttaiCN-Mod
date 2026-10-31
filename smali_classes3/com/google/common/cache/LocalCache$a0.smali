@@ -13,18 +13,6 @@
     name = "a0"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/google/common/cache/LocalCache$p<",
-        "TK;TV;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final b:I
@@ -33,22 +21,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/Object;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "referent",
-            "weight"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TV;I)V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1}, Lcom/google/common/cache/LocalCache$p;-><init>(Ljava/lang/Object;)V
@@ -115,11 +87,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -152,5 +119,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

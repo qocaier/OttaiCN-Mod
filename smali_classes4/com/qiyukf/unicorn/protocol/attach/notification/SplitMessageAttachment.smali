@@ -75,6 +75,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -105,6 +107,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMsgType()I
@@ -133,6 +137,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSplitContent()Ljava/lang/String;
@@ -161,6 +167,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSplitCount()I
@@ -189,6 +197,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSplitId()Ljava/lang/String;
@@ -217,6 +227,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSplitIndex()I
@@ -245,4 +257,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

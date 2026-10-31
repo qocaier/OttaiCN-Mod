@@ -26,31 +26,17 @@
 
 # instance fields
 .field private handle:Landroidx/lifecycle/SavedStateHandle;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private key:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/lifecycle/SavedStateHandle;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Landroidx/lifecycle/SavedStateHandle;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "key"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-direct {p0}, Landroidx/lifecycle/MutableLiveData;-><init>()V
@@ -66,14 +52,6 @@
 
 .method public constructor <init>(Landroidx/lifecycle/SavedStateHandle;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 1
-    .param p1    # Landroidx/lifecycle/SavedStateHandle;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -85,7 +63,7 @@
 
     const-string v0, "key"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0, p3}, Landroidx/lifecycle/MutableLiveData;-><init>(Ljava/lang/Object;)V
@@ -129,6 +107,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setValue(Ljava/lang/Object;)V
@@ -185,7 +164,7 @@
     move-result-object v0
 
     .line 24
-    check-cast v0, Ljn/p;
+    check-cast v0, Lkotlinx/coroutines/flow/h1;
 
     .line 25
     .line 26
@@ -197,7 +176,7 @@
 
     .line 29
     :cond_0
-    invoke-interface {v0, p1}, Ljn/p;->setValue(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Lkotlinx/coroutines/flow/h1;->setValue(Ljava/lang/Object;)V
 
     .line 30
     .line 31
@@ -253,4 +232,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

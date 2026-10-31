@@ -2325,6 +2325,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private static readColorFromAttributes(Landroid/content/Context;Landroid/content/res/TypedArray;I)I
@@ -2494,11 +2510,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
@@ -2533,7 +2544,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public clearText()V
@@ -2566,7 +2576,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAdditionalHorizontalOffset()I
@@ -2608,7 +2617,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAdditionalVerticalOffset()I
@@ -2650,7 +2658,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAlpha()I
@@ -2685,7 +2692,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBackgroundColor()I
@@ -2726,7 +2732,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBadgeGravity()I
@@ -2765,7 +2770,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBadgeHorizontalPadding()I
@@ -2806,7 +2810,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBadgeShapeAppearanceOverlayResId()I
@@ -2845,7 +2848,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBadgeShapeAppearanceResId()I
@@ -2884,7 +2886,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBadgeTextColor()I
@@ -2925,7 +2926,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBadgeVerticalPadding()I
@@ -2966,7 +2966,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBadgeWithTextShapeAppearanceOverlayResId()I
@@ -3005,7 +3004,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBadgeWithTextShapeAppearanceResId()I
@@ -3044,7 +3042,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContentDescriptionExceedsMaxBadgeNumberStringResource()I
@@ -3081,7 +3078,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContentDescriptionForText()Ljava/lang/CharSequence;
@@ -3116,7 +3112,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContentDescriptionNumberless()Ljava/lang/CharSequence;
@@ -3151,7 +3146,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContentDescriptionQuantityStrings()I
@@ -3188,7 +3182,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHorizontalOffsetWithText()I
@@ -3230,7 +3223,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHorizontalOffsetWithoutText()I
@@ -3272,7 +3264,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLargeFontVerticalOffsetAdjustment()I
@@ -3314,7 +3305,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMaxCharacterCount()I
@@ -3349,7 +3339,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMaxNumber()I
@@ -3384,7 +3373,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getNumber()I
@@ -3419,7 +3407,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getNumberLocale()Ljava/util/Locale;
@@ -3454,7 +3441,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOverridingState()Lcom/google/android/material/badge/BadgeState$State;
@@ -3485,7 +3471,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getText()Ljava/lang/String;
@@ -3520,7 +3505,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTextAppearanceResId()I
@@ -3561,7 +3545,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getVerticalOffsetWithText()I
@@ -3603,7 +3586,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getVerticalOffsetWithoutText()I
@@ -3645,7 +3627,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hasNumber()Z
@@ -3691,7 +3672,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hasText()Z
@@ -3735,7 +3715,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isAutoAdjustedToGrandparentBounds()Z
@@ -3774,7 +3753,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isVisible()Z
@@ -3813,7 +3791,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAdditionalHorizontalOffset(I)V
@@ -3865,7 +3842,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAdditionalVerticalOffset(I)V
@@ -3917,7 +3893,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAlpha(I)V
@@ -3956,7 +3931,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAutoAdjustToGrandparentBounds(Z)V
@@ -4003,7 +3977,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundColor(I)V
@@ -4054,7 +4027,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBadgeGravity(I)V
@@ -4101,7 +4073,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBadgeHorizontalPadding(I)V
@@ -4152,7 +4123,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBadgeShapeAppearanceOverlayResId(I)V
@@ -4199,7 +4169,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBadgeShapeAppearanceResId(I)V
@@ -4246,7 +4215,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBadgeTextColor(I)V
@@ -4297,7 +4265,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBadgeVerticalPadding(I)V
@@ -4348,7 +4315,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBadgeWithTextShapeAppearanceOverlayResId(I)V
@@ -4395,7 +4361,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBadgeWithTextShapeAppearanceResId(I)V
@@ -4442,7 +4407,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setContentDescriptionExceedsMaxBadgeNumberStringResource(I)V
@@ -4485,7 +4449,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setContentDescriptionForText(Ljava/lang/CharSequence;)V
@@ -4524,7 +4487,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setContentDescriptionNumberless(Ljava/lang/CharSequence;)V
@@ -4563,7 +4525,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setContentDescriptionQuantityStringsResource(I)V
@@ -4606,7 +4567,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHorizontalOffsetWithText(I)V
@@ -4658,7 +4618,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHorizontalOffsetWithoutText(I)V
@@ -4710,7 +4669,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLargeFontVerticalOffsetAdjustment(I)V
@@ -4762,7 +4720,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMaxCharacterCount(I)V
@@ -4801,7 +4758,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMaxNumber(I)V
@@ -4840,7 +4796,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setNumber(I)V
@@ -4879,7 +4834,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setNumberLocale(Ljava/util/Locale;)V
@@ -4918,7 +4872,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setText(Ljava/lang/String;)V
@@ -4957,7 +4910,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTextAppearanceResId(I)V
@@ -5008,7 +4960,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVerticalOffsetWithText(I)V
@@ -5060,7 +5011,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVerticalOffsetWithoutText(I)V
@@ -5112,7 +5062,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVisible(Z)V
@@ -5159,5 +5108,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

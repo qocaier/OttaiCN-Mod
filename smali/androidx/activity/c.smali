@@ -3,17 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroidx/lifecycle/LifecycleEventObserver;
 
 
 # instance fields
 .field public final synthetic a:Landroidx/activity/ComponentActivity;
 
-.field public final synthetic b:Landroidx/activity/OnBackPressedDispatcher;
-
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/activity/ComponentActivity;Landroidx/activity/OnBackPressedDispatcher;)V
+.method public synthetic constructor <init>(Landroidx/activity/ComponentActivity;)V
     .locals 0
 
     .line 1
@@ -21,22 +19,18 @@
 
     iput-object p1, p0, Landroidx/activity/c;->a:Landroidx/activity/ComponentActivity;
 
-    iput-object p2, p0, Landroidx/activity/c;->b:Landroidx/activity/OnBackPressedDispatcher;
-
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 2
+.method public final onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    .locals 1
 
     .line 1
     iget-object v0, p0, Landroidx/activity/c;->a:Landroidx/activity/ComponentActivity;
 
-    iget-object v1, p0, Landroidx/activity/c;->b:Landroidx/activity/OnBackPressedDispatcher;
-
-    invoke-static {v0, v1}, Landroidx/activity/ComponentActivity$onBackPressedDispatcher$2;->a(Landroidx/activity/ComponentActivity;Landroidx/activity/OnBackPressedDispatcher;)V
+    invoke-static {v0, p1, p2}, Landroidx/activity/ComponentActivity;->f(Landroidx/activity/ComponentActivity;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
 
     return-void
 .end method

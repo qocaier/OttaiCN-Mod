@@ -97,7 +97,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -230,7 +229,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getForecasts()Ljava/util/List;
@@ -269,7 +267,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLifeIndexes()Ljava/util/List;
@@ -308,7 +305,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLocation()Lcom/baidu/mapapi/search/weather/WeatherSearchLocation;
@@ -339,7 +335,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRealTimeWeather()Lcom/baidu/mapapi/search/weather/WeatherSearchRealTime;
@@ -370,7 +365,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWeatherAlerts()Ljava/util/List;
@@ -409,7 +403,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setForecastHours(Ljava/util/List;)V
@@ -450,7 +443,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setForecasts(Ljava/util/List;)V
@@ -491,7 +483,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLifeIndexes(Ljava/util/List;)V
@@ -532,7 +523,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLocation(Lcom/baidu/mapapi/search/weather/WeatherSearchLocation;)V
@@ -565,7 +555,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRealTimeWeather(Lcom/baidu/mapapi/search/weather/WeatherSearchRealTime;)V
@@ -598,7 +587,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWeatherAlerts(Ljava/util/List;)V
@@ -639,7 +627,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -732,9 +719,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lub/u0;
+.implements Lcom/google/common/util/concurrent/t;
 
 
 # annotations
@@ -22,8 +22,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lub/u0<",
-        "TT;>;"
+        "Lcom/google/common/util/concurrent/t;"
     }
 .end annotation
 
@@ -346,6 +345,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isDone()Z
@@ -378,6 +378,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public set(Ljava/lang/Object;)Z
@@ -489,4 +490,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

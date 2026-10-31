@@ -3,26 +3,40 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/google/android/material/internal/MultiViewUpdateListener$Listener;
+.implements Landroid/animation/ValueAnimator$AnimatorUpdateListener;
+
+
+# instance fields
+.field public final synthetic a:Lcom/google/android/material/internal/ExpandCollapseAnimationHelper;
+
+.field public final synthetic b:Landroid/graphics/Rect;
 
 
 # direct methods
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Lcom/google/android/material/internal/ExpandCollapseAnimationHelper;Landroid/graphics/Rect;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/material/internal/a;->a:Lcom/google/android/material/internal/ExpandCollapseAnimationHelper;
+
+    iput-object p2, p0, Lcom/google/android/material/internal/a;->b:Landroid/graphics/Rect;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onAnimationUpdate(Landroid/animation/ValueAnimator;Landroid/view/View;)V
-    .locals 0
+.method public final onAnimationUpdate(Landroid/animation/ValueAnimator;)V
+    .locals 2
 
     .line 1
-    invoke-static {p1, p2}, Lcom/google/android/material/internal/MultiViewUpdateListener;->d(Landroid/animation/ValueAnimator;Landroid/view/View;)V
+    iget-object v0, p0, Lcom/google/android/material/internal/a;->a:Lcom/google/android/material/internal/ExpandCollapseAnimationHelper;
+
+    iget-object v1, p0, Lcom/google/android/material/internal/a;->b:Landroid/graphics/Rect;
+
+    invoke-static {v0, v1, p1}, Lcom/google/android/material/internal/ExpandCollapseAnimationHelper;->a(Lcom/google/android/material/internal/ExpandCollapseAnimationHelper;Landroid/graphics/Rect;Landroid/animation/ValueAnimator;)V
 
     return-void
 .end method

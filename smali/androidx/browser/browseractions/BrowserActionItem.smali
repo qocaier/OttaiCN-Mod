@@ -139,6 +139,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIconId()I
@@ -167,6 +168,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIconUri()Landroid/net/Uri;
@@ -200,6 +202,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRunnableAction()Ljava/lang/Runnable;
@@ -233,6 +236,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -261,4 +265,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

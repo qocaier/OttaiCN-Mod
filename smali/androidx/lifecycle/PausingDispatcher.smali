@@ -1,16 +1,10 @@
 .class public final Landroidx/lifecycle/PausingDispatcher;
-.super Lfn/f0;
+.super Lkotlinx/coroutines/h0;
 .source "SourceFile"
 
 
 # instance fields
 .field public final dispatchQueue:Landroidx/lifecycle/DispatchQueue;
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -18,7 +12,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Lfn/f0;-><init>()V
+    invoke-direct {p0}, Lkotlinx/coroutines/h0;-><init>()V
 
     .line 2
     .line 3
@@ -46,27 +40,20 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
-.method public dispatch(Lkotlin/coroutines/d;Ljava/lang/Runnable;)V
+.method public dispatch(Lkotlin/coroutines/i;Ljava/lang/Runnable;)V
     .locals 1
-    .param p1    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Runnable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -75,7 +62,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -84,7 +71,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1, p2}, Landroidx/lifecycle/DispatchQueue;->dispatchAndEnqueue(Lkotlin/coroutines/d;Ljava/lang/Runnable;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/lifecycle/DispatchQueue;->dispatchAndEnqueue(Lkotlin/coroutines/i;Ljava/lang/Runnable;)V
 
     .line 14
     .line 15
@@ -124,24 +111,20 @@
     .line 48
 .end method
 
-.method public isDispatchNeeded(Lkotlin/coroutines/d;)Z
+.method public isDispatchNeeded(Lkotlin/coroutines/i;)Z
     .locals 1
-    .param p1    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     .line 7
     .line 8
@@ -149,7 +132,7 @@
     move-result-object v0
 
     .line 10
-    invoke-virtual {v0}, Lfn/d2;->l()Lfn/d2;
+    invoke-virtual {v0}, Lkotlinx/coroutines/z1;->e()Lkotlinx/coroutines/z1;
 
     .line 11
     .line 12
@@ -157,7 +140,7 @@
     move-result-object v0
 
     .line 14
-    invoke-virtual {v0, p1}, Lfn/f0;->isDispatchNeeded(Lkotlin/coroutines/d;)Z
+    invoke-virtual {v0, p1}, Lkotlinx/coroutines/h0;->isDispatchNeeded(Lkotlin/coroutines/i;)Z
 
     .line 15
     .line 16
@@ -241,4 +224,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

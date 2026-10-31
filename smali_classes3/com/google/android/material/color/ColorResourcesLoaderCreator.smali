@@ -42,7 +42,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static create(Landroid/content/Context;Ljava/util/Map;)Landroid/content/res/loader/ResourcesLoader;
@@ -147,7 +146,7 @@
     const/4 v2, 0x0
 
     .line 36
-    invoke-static {p1, v2}, Lqa/d;->a(Ljava/lang/String;I)Ljava/io/FileDescriptor;
+    invoke-static {p1, v2}, Lcom/google/android/material/color/d;->a(Ljava/lang/String;I)Ljava/io/FileDescriptor;
 
     .line 37
     .line 38
@@ -236,12 +235,12 @@
 
     .line 70
     :try_start_6
-    invoke-static {}, Lqa/h;->a()V
+    invoke-static {}, Lcom/google/android/material/color/h;->a()V
 
     .line 71
     .line 72
     .line 73
-    invoke-static {}, Lqa/g;->a()Landroid/content/res/loader/ResourcesLoader;
+    invoke-static {}, Lcom/google/android/material/color/g;->a()Landroid/content/res/loader/ResourcesLoader;
 
     .line 74
     .line 75
@@ -249,7 +248,7 @@
     move-result-object v3
 
     .line 77
-    invoke-static {p0, v1}, Lqa/e;->a(Landroid/os/ParcelFileDescriptor;Landroid/content/res/loader/AssetsProvider;)Landroid/content/res/loader/ResourcesProvider;
+    invoke-static {p0, v1}, Lcom/google/android/material/color/e;->a(Landroid/os/ParcelFileDescriptor;Landroid/content/res/loader/AssetsProvider;)Landroid/content/res/loader/ResourcesProvider;
 
     .line 78
     .line 79
@@ -257,7 +256,7 @@
     move-result-object v4
 
     .line 81
-    invoke-static {v3, v4}, Lqa/f;->a(Landroid/content/res/loader/ResourcesLoader;Landroid/content/res/loader/ResourcesProvider;)V
+    invoke-static {v3, v4}, Lcom/google/android/material/color/f;->a(Landroid/content/res/loader/ResourcesLoader;Landroid/content/res/loader/ResourcesProvider;)V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_2
 
@@ -604,52 +603,4 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method

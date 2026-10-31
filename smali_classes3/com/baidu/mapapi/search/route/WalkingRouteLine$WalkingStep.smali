@@ -78,7 +78,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -200,7 +199,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEntrance()Lcom/baidu/mapapi/search/core/RouteNode;
@@ -231,7 +229,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEntranceInstructions()Ljava/lang/String;
@@ -262,7 +259,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExit()Lcom/baidu/mapapi/search/core/RouteNode;
@@ -293,7 +289,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExitInstructions()Ljava/lang/String;
@@ -324,7 +319,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInstructions()Ljava/lang/String;
@@ -355,7 +349,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWayPoints()Ljava/util/List;
@@ -407,7 +400,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setDirection(I)V
@@ -440,7 +432,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEntrance(Lcom/baidu/mapapi/search/core/RouteNode;)V
@@ -473,7 +464,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEntranceInstructions(Ljava/lang/String;)V
@@ -506,7 +496,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExit(Lcom/baidu/mapapi/search/core/RouteNode;)V
@@ -539,7 +528,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExitInstructions(Ljava/lang/String;)V
@@ -572,7 +560,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInstructions(Ljava/lang/String;)V
@@ -605,7 +592,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPathString(Ljava/lang/String;)V
@@ -638,7 +624,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -737,9 +722,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

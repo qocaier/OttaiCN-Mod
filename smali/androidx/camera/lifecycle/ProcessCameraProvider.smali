@@ -25,30 +25,26 @@
     .end annotation
 .end field
 
-.field private mCameraXInitializeFuture:Lub/u0;
+.field private mCameraXInitializeFuture:Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/GuardedBy;
         value = "mLock"
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Landroidx/camera/core/CameraX;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
 
-.field private mCameraXShutdownFuture:Lub/u0;
+.field private mCameraXShutdownFuture:Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/GuardedBy;
         value = "mLock"
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -91,6 +87,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -122,7 +119,7 @@
 
     .line 13
     .line 14
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 15
     .line 16
@@ -130,7 +127,7 @@
     move-result-object v0
 
     .line 18
-    iput-object v0, p0, Landroidx/camera/lifecycle/ProcessCameraProvider;->mCameraXShutdownFuture:Lub/u0;
+    iput-object v0, p0, Landroidx/camera/lifecycle/ProcessCameraProvider;->mCameraXShutdownFuture:Lcom/google/common/util/concurrent/t;
 
     .line 19
     .line 20
@@ -205,6 +202,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic a(Landroidx/camera/lifecycle/ProcessCameraProvider;Landroidx/camera/core/CameraX;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -219,11 +218,11 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Landroidx/camera/lifecycle/ProcessCameraProvider;->mCameraXShutdownFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/camera/lifecycle/ProcessCameraProvider;->mCameraXShutdownFuture:Lcom/google/common/util/concurrent/t;
 
     .line 5
     .line 6
-    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/FutureChain;->from(Lub/u0;)Landroidx/camera/core/impl/utils/futures/FutureChain;
+    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/FutureChain;->from(Lcom/google/common/util/concurrent/t;)Landroidx/camera/core/impl/utils/futures/FutureChain;
 
     .line 7
     .line 8
@@ -231,11 +230,11 @@
     move-result-object v1
 
     .line 10
-    new-instance v2, Lb0/e;
+    new-instance v2, Landroidx/camera/lifecycle/e;
 
     .line 11
     .line 12
-    invoke-direct {v2, p1}, Lb0/e;-><init>(Landroidx/camera/core/CameraX;)V
+    invoke-direct {v2, p1}, Landroidx/camera/lifecycle/e;-><init>(Landroidx/camera/core/CameraX;)V
 
     .line 13
     .line 14
@@ -273,7 +272,7 @@
     move-result-object p0
 
     .line 32
-    invoke-static {v1, v2, p0}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {v1, v2, p0}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 33
     .line 34
@@ -373,13 +372,16 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static synthetic b(Landroidx/camera/core/CameraX;Ljava/lang/Void;)Lub/u0;
+.method public static synthetic b(Landroidx/camera/core/CameraX;Ljava/lang/Void;)Lcom/google/common/util/concurrent/t;
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/camera/core/CameraX;->getInitializeFuture()Lub/u0;
+    invoke-virtual {p0}, Landroidx/camera/core/CameraX;->getInitializeFuture()Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -530,11 +532,11 @@
     .line 17
     .line 18
     .line 19
-    new-instance v1, Lb0/b;
+    new-instance v1, Landroidx/camera/lifecycle/b;
 
     .line 20
     .line 21
-    invoke-direct {v1, p1}, Lb0/b;-><init>(Landroidx/camera/core/CameraXConfig;)V
+    invoke-direct {v1, p1}, Landroidx/camera/lifecycle/b;-><init>(Landroidx/camera/core/CameraXConfig;)V
 
     .line 22
     .line 23
@@ -607,6 +609,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic d(Landroidx/camera/lifecycle/ProcessCameraProvider;)V
@@ -832,6 +835,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private getCameraInfoFromCameraSelector(Landroidx/camera/core/CameraSelector;Ljava/util/List;)Landroidx/camera/core/CameraInfo;
@@ -977,9 +982,10 @@
     .line 19
     return v0
     .line 20
+    .line 21
 .end method
 
-.method public static getInstance(Landroid/content/Context;)Lub/u0;
+.method public static getInstance(Landroid/content/Context;)Lcom/google/common/util/concurrent/t;
     .locals 2
     .param p0    # Landroid/content/Context;
         .annotation build Landroidx/annotation/NonNull;
@@ -993,9 +999,7 @@
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lub/u0<",
-            "Landroidx/camera/lifecycle/ProcessCameraProvider;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1009,7 +1013,7 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p0}, Landroidx/camera/lifecycle/ProcessCameraProvider;->getOrCreateCameraXInstance(Landroid/content/Context;)Lub/u0;
+    invoke-direct {v0, p0}, Landroidx/camera/lifecycle/ProcessCameraProvider;->getOrCreateCameraXInstance(Landroid/content/Context;)Lcom/google/common/util/concurrent/t;
 
     .line 7
     .line 8
@@ -1017,11 +1021,11 @@
     move-result-object v0
 
     .line 10
-    new-instance v1, Lb0/d;
+    new-instance v1, Landroidx/camera/lifecycle/d;
 
     .line 11
     .line 12
-    invoke-direct {v1, p0}, Lb0/d;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Landroidx/camera/lifecycle/d;-><init>(Landroid/content/Context;)V
 
     .line 13
     .line 14
@@ -1034,7 +1038,7 @@
     move-result-object p0
 
     .line 19
-    invoke-static {v0, v1, p0}, Landroidx/camera/core/impl/utils/futures/Futures;->transform(Lub/u0;Landroidx/arch/core/util/Function;Ljava/util/concurrent/Executor;)Lub/u0;
+    invoke-static {v0, v1, p0}, Landroidx/camera/core/impl/utils/futures/Futures;->transform(Lcom/google/common/util/concurrent/t;Landroidx/arch/core/util/Function;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/t;
 
     .line 20
     .line 21
@@ -1047,7 +1051,7 @@
     .line 25
 .end method
 
-.method private getOrCreateCameraXInstance(Landroid/content/Context;)Lub/u0;
+.method private getOrCreateCameraXInstance(Landroid/content/Context;)Lcom/google/common/util/concurrent/t;
     .locals 3
     .param p1    # Landroid/content/Context;
         .annotation build Landroidx/annotation/NonNull;
@@ -1058,9 +1062,7 @@
             "(",
             "Landroid/content/Context;",
             ")",
-            "Lub/u0<",
-            "Landroidx/camera/core/CameraX;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1073,7 +1075,7 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Landroidx/camera/lifecycle/ProcessCameraProvider;->mCameraXInitializeFuture:Lub/u0;
+    iget-object v1, p0, Landroidx/camera/lifecycle/ProcessCameraProvider;->mCameraXInitializeFuture:Lcom/google/common/util/concurrent/t;
 
     .line 5
     .line 6
@@ -1108,16 +1110,16 @@
     .line 17
     .line 18
     .line 19
-    new-instance p1, Lb0/a;
+    new-instance p1, Landroidx/camera/lifecycle/a;
 
     .line 20
     .line 21
-    invoke-direct {p1, p0, v1}, Lb0/a;-><init>(Landroidx/camera/lifecycle/ProcessCameraProvider;Landroidx/camera/core/CameraX;)V
+    invoke-direct {p1, p0, v1}, Landroidx/camera/lifecycle/a;-><init>(Landroidx/camera/lifecycle/ProcessCameraProvider;Landroidx/camera/core/CameraX;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-static {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 25
     .line 26
@@ -1125,7 +1127,7 @@
     move-result-object p1
 
     .line 28
-    iput-object p1, p0, Landroidx/camera/lifecycle/ProcessCameraProvider;->mCameraXInitializeFuture:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/lifecycle/ProcessCameraProvider;->mCameraXInitializeFuture:Lcom/google/common/util/concurrent/t;
 
     .line 29
     .line 30
@@ -1187,6 +1189,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private setActiveConcurrentCameraInfos(Ljava/util/List;)V
@@ -2351,6 +2354,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getAvailableConcurrentCameraInfos()Ljava/util/List;
@@ -2840,6 +2845,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public hasCamera(Landroidx/camera/core/CameraSelector;)Z
@@ -3026,6 +3083,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public isConcurrentCameraModeOn()Z
@@ -3069,9 +3127,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public shutdown()Lub/u0;
+.method public shutdown()Lcom/google/common/util/concurrent/t;
     .locals 3
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -3088,18 +3147,16 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lb0/c;
+    new-instance v0, Landroidx/camera/lifecycle/c;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lb0/c;-><init>(Landroidx/camera/lifecycle/ProcessCameraProvider;)V
+    invoke-direct {v0, p0}, Landroidx/camera/lifecycle/c;-><init>(Landroidx/camera/lifecycle/ProcessCameraProvider;)V
 
     .line 4
     .line 5
@@ -3150,7 +3207,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0}, Landroidx/camera/core/CameraX;->shutdown()Lub/u0;
+    invoke-virtual {v0}, Landroidx/camera/core/CameraX;->shutdown()Lcom/google/common/util/concurrent/t;
 
     .line 30
     .line 31
@@ -3162,7 +3219,7 @@
 
     .line 34
     :cond_1
-    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 35
     .line 36
@@ -3183,11 +3240,11 @@
 
     .line 42
     .line 43
-    iput-object v1, p0, Landroidx/camera/lifecycle/ProcessCameraProvider;->mCameraXInitializeFuture:Lub/u0;
+    iput-object v1, p0, Landroidx/camera/lifecycle/ProcessCameraProvider;->mCameraXInitializeFuture:Lcom/google/common/util/concurrent/t;
 
     .line 44
     .line 45
-    iput-object v0, p0, Landroidx/camera/lifecycle/ProcessCameraProvider;->mCameraXShutdownFuture:Lub/u0;
+    iput-object v0, p0, Landroidx/camera/lifecycle/ProcessCameraProvider;->mCameraXShutdownFuture:Lcom/google/common/util/concurrent/t;
 
     .line 46
     .line 47
@@ -3247,6 +3304,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public varargs unbind([Landroidx/camera/core/UseCase;)V
@@ -3364,6 +3423,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public unbindAll()V
@@ -3402,4 +3462,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

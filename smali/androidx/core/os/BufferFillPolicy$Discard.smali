@@ -25,7 +25,7 @@
     const/4 v1, 0x0
 
     .line 3
-    invoke-direct {p0, v0, v1}, Landroidx/core/os/BufferFillPolicy;-><init>(ILkm/v;)V
+    invoke-direct {p0, v0, v1}, Landroidx/core/os/BufferFillPolicy;-><init>(ILkotlin/jvm/internal/f;)V
 
     .line 4
     .line 5
@@ -45,4 +45,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

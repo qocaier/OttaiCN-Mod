@@ -1250,6 +1250,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -1298,6 +1300,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getActionView()Landroid/view/View;
@@ -1334,6 +1337,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAlphabeticShortcut()C
@@ -1362,6 +1366,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentDescription()Ljava/lang/CharSequence;
@@ -1390,6 +1395,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getGroupId()I
@@ -1418,6 +1424,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIcon()Landroid/graphics/drawable/Drawable;
@@ -1446,6 +1453,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIconTintList()Landroid/content/res/ColorStateList;
@@ -1474,6 +1482,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIconTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -1502,6 +1511,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntent()Landroid/content/Intent;
@@ -1530,6 +1540,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getItemId()I
@@ -1558,6 +1569,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMenuInfo()Landroid/view/ContextMenu$ContextMenuInfo;
@@ -1594,6 +1606,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNumericShortcut()C
@@ -1622,6 +1635,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOrder()I
@@ -1650,6 +1664,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSubMenu()Landroid/view/SubMenu;
@@ -1694,6 +1709,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTitleCondensed()Ljava/lang/CharSequence;
@@ -1729,6 +1745,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTooltipText()Ljava/lang/CharSequence;
@@ -1757,6 +1774,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasSubMenu()Z
@@ -1883,6 +1901,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isActionViewExpanded()Z
@@ -1930,6 +1950,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isChecked()Z
@@ -1969,6 +1990,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEnabled()Z
@@ -2008,6 +2030,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isVisible()Z
@@ -2047,6 +2070,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public requiresActionButton()Z

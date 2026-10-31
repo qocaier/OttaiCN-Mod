@@ -30,6 +30,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static computeScrollExtent(Landroidx/recyclerview/widget/RecyclerView$State;Landroidx/recyclerview/widget/OrientationHelper;Landroid/view/View;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Z)I

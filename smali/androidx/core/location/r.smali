@@ -11,11 +11,11 @@
 
 .field public final synthetic b:Ljava/util/concurrent/Executor;
 
-.field public final synthetic c:Landroid/location/GnssStatus;
+.field public final synthetic c:I
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;Landroid/location/GnssStatus;)V
+.method public synthetic constructor <init>(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;I)V
     .locals 0
 
     .line 1
@@ -25,7 +25,7 @@
 
     iput-object p2, p0, Landroidx/core/location/r;->b:Ljava/util/concurrent/Executor;
 
-    iput-object p3, p0, Landroidx/core/location/r;->c:Landroid/location/GnssStatus;
+    iput p3, p0, Landroidx/core/location/r;->c:I
 
     return-void
 .end method
@@ -40,9 +40,9 @@
 
     iget-object v1, p0, Landroidx/core/location/r;->b:Ljava/util/concurrent/Executor;
 
-    iget-object v2, p0, Landroidx/core/location/r;->c:Landroid/location/GnssStatus;
+    iget v2, p0, Landroidx/core/location/r;->c:I
 
-    invoke-static {v0, v1, v2}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->d(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;Landroid/location/GnssStatus;)V
+    invoke-static {v0, v1, v2}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->b(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;I)V
 
     return-void
 .end method

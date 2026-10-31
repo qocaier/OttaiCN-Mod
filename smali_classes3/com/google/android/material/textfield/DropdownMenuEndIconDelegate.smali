@@ -85,7 +85,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Lcom/google/android/material/textfield/EndCompoundLayout;)V
@@ -101,11 +100,11 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lcom/google/android/material/textfield/i;
+    new-instance v0, Lcom/google/android/material/textfield/j;
 
     .line 5
     .line 6
-    invoke-direct {v0, p0}, Lcom/google/android/material/textfield/i;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/textfield/j;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
 
     .line 7
     .line 8
@@ -114,11 +113,11 @@
 
     .line 10
     .line 11
-    new-instance v0, Lcom/google/android/material/textfield/j;
+    new-instance v0, Lcom/google/android/material/textfield/k;
 
     .line 12
     .line 13
-    invoke-direct {v0, p0}, Lcom/google/android/material/textfield/j;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/textfield/k;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
 
     .line 14
     .line 15
@@ -127,11 +126,11 @@
 
     .line 17
     .line 18
-    new-instance v0, Lcom/google/android/material/textfield/k;
+    new-instance v0, Lcom/google/android/material/textfield/l;
 
     .line 19
     .line 20
-    invoke-direct {v0, p0}, Lcom/google/android/material/textfield/k;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/textfield/l;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
 
     .line 21
     .line 22
@@ -253,8 +252,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic a(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
@@ -295,7 +292,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)Landroid/animation/ValueAnimator;
@@ -328,7 +324,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic b(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;Z)V
@@ -420,11 +415,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic c(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;Landroid/animation/ValueAnimator;)V
@@ -507,11 +497,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static castAutoCompleteTextViewOrThrow(Landroid/widget/EditText;)Landroid/widget/AutoCompleteTextView;
@@ -559,7 +544,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic d(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;Landroid/view/View;Z)V
@@ -726,11 +710,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static synthetic e(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;Landroid/view/View;Landroid/view/MotionEvent;)Z
@@ -910,11 +889,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static synthetic f(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
@@ -951,7 +925,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic g(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;Landroid/view/View;)V
@@ -1020,11 +993,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private varargs getAlphaAnimator(I[F)Landroid/animation/ValueAnimator;
@@ -1056,11 +1024,11 @@
     .line 12
     .line 13
     .line 14
-    new-instance p1, Lcom/google/android/material/textfield/f;
+    new-instance p1, Lcom/google/android/material/textfield/g;
 
     .line 15
     .line 16
-    invoke-direct {p1, p0}, Lcom/google/android/material/textfield/f;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
+    invoke-direct {p1, p0}, Lcom/google/android/material/textfield/g;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
 
     .line 17
     .line 18
@@ -1109,11 +1077,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private initAnimators()V
@@ -1264,15 +1227,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private isDropdownPopupActive()Z
@@ -1410,15 +1364,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private setEndIconChecked(Z)V
@@ -1464,7 +1409,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setUpDropdownShowHideBehavior()V
@@ -1480,11 +1424,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lcom/google/android/material/textfield/g;
+    new-instance v1, Lcom/google/android/material/textfield/h;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Lcom/google/android/material/textfield/g;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/textfield/h;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
 
     .line 6
     .line 7
@@ -1506,11 +1450,11 @@
 
     .line 16
     .line 17
-    new-instance v1, Lcom/google/android/material/textfield/h;
+    new-instance v1, Lcom/google/android/material/textfield/i;
 
     .line 18
     .line 19
-    invoke-direct {v1, p0}, Lcom/google/android/material/textfield/h;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/textfield/i;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
 
     .line 20
     .line 21
@@ -1603,15 +1547,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private showHideDropdown()V
@@ -1786,15 +1721,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private updateDropdownPopupDirty()V
@@ -1833,7 +1759,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -1904,11 +1829,11 @@
 
     .line 31
     .line 32
-    new-instance v0, Lcom/google/android/material/textfield/l;
+    new-instance v0, Lcom/google/android/material/textfield/m;
 
     .line 33
     .line 34
-    invoke-direct {v0, p0}, Lcom/google/android/material/textfield/l;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/textfield/m;-><init>(Lcom/google/android/material/textfield/DropdownMenuEndIconDelegate;)V
 
     .line 35
     .line 36
@@ -1970,8 +1895,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public getIconContentDescriptionResId()I
@@ -2002,7 +1925,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIconDrawableResId()I
@@ -2042,7 +1964,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnEditTextFocusChangeListener()Landroid/view/View$OnFocusChangeListener;
@@ -2073,7 +1994,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnIconClickListener()Landroid/view/View$OnClickListener;
@@ -2104,7 +2024,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTouchExplorationStateChangeListener()Landroidx/core/view/accessibility/AccessibilityManagerCompat$TouchExplorationStateChangeListener;
@@ -2135,7 +2054,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isBoxBackgroundModeSupported(I)Z
@@ -2189,7 +2107,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isIconCheckable()Z
@@ -2228,7 +2145,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onEditTextAttached(Landroid/widget/EditText;)V
@@ -2371,8 +2287,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
@@ -2471,11 +2385,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onPopulateAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
@@ -2615,11 +2524,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setUp()V
@@ -2662,7 +2566,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public shouldTintIconOnError()Z
@@ -2721,5 +2624,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

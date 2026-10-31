@@ -159,7 +159,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic b(Lcom/google/android/material/carousel/MaskableFrameLayout;Landroid/graphics/Canvas;)V
@@ -228,11 +227,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private onMaskChanged()V
@@ -364,15 +358,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -385,11 +370,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lna/b;
+    new-instance v1, Lcom/google/android/material/carousel/b;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Lna/b;-><init>(Lcom/google/android/material/carousel/MaskableFrameLayout;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/carousel/b;-><init>(Lcom/google/android/material/carousel/MaskableFrameLayout;)V
 
     .line 6
     .line 7
@@ -413,7 +398,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getMaskRectF()Landroid/graphics/RectF;
@@ -446,7 +430,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMaskXPercentage()F
@@ -479,7 +462,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShapeAppearanceModel()Lcom/google/android/material/shape/ShapeAppearanceModel;
@@ -512,7 +494,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAttachedToWindow()V
@@ -556,7 +537,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDetachedFromWindow()V
@@ -605,7 +585,6 @@
     .line 21
     .line 22
     return-void
-    .line 23
 .end method
 
 .method public onSizeChanged(IIII)V
@@ -858,6 +837,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -999,8 +994,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setForceCompatClipping(Z)V
@@ -1043,7 +1036,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMaskRectF(Landroid/graphics/RectF;)V
@@ -1084,7 +1076,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMaskXPercentage(F)V
@@ -1237,8 +1228,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setOnMaskChangedListener(Lcom/google/android/material/carousel/OnMaskChangedListener;)V
@@ -1275,7 +1264,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShapeAppearanceModel(Lcom/google/android/material/shape/ShapeAppearanceModel;)V
@@ -1286,11 +1274,11 @@
     .end param
 
     .line 1
-    new-instance v0, Lna/a;
+    new-instance v0, Lcom/google/android/material/carousel/a;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lna/a;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/carousel/a;-><init>()V
 
     .line 4
     .line 5
@@ -1324,5 +1312,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

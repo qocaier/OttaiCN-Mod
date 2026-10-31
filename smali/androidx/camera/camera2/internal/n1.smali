@@ -3,40 +3,48 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroidx/camera/camera2/internal/Camera2CameraControlImpl$CaptureResultListener;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;
+.field public final synthetic a:Landroidx/camera/camera2/internal/FocusMeteringControl;
 
-.field public final synthetic b:Landroidx/camera/camera2/internal/SynchronizedCaptureSession;
+.field public final synthetic b:Z
+
+.field public final synthetic c:J
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Landroidx/camera/camera2/internal/SynchronizedCaptureSession;)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/FocusMeteringControl;ZJ)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/n1;->a:Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/n1;->a:Landroidx/camera/camera2/internal/FocusMeteringControl;
 
-    iput-object p2, p0, Landroidx/camera/camera2/internal/n1;->b:Landroidx/camera/camera2/internal/SynchronizedCaptureSession;
+    iput-boolean p2, p0, Landroidx/camera/camera2/internal/n1;->b:Z
+
+    iput-wide p3, p0, Landroidx/camera/camera2/internal/n1;->c:J
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 2
+.method public final onCaptureResult(Landroid/hardware/camera2/TotalCaptureResult;)Z
+    .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/n1;->a:Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/n1;->a:Landroidx/camera/camera2/internal/FocusMeteringControl;
 
-    iget-object v1, p0, Landroidx/camera/camera2/internal/n1;->b:Landroidx/camera/camera2/internal/SynchronizedCaptureSession;
+    iget-boolean v1, p0, Landroidx/camera/camera2/internal/n1;->b:Z
 
-    invoke-static {v0, v1}, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->c(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;Landroidx/camera/camera2/internal/SynchronizedCaptureSession;)V
+    iget-wide v2, p0, Landroidx/camera/camera2/internal/n1;->c:J
 
-    return-void
+    invoke-static {v0, v1, v2, v3, p1}, Landroidx/camera/camera2/internal/FocusMeteringControl;->a(Landroidx/camera/camera2/internal/FocusMeteringControl;ZJLandroid/hardware/camera2/TotalCaptureResult;)Z
+
+    move-result p1
+
+    return p1
 .end method

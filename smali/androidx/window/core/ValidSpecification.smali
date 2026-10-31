@@ -17,14 +17,8 @@
 
 # instance fields
 .field private final logger:Landroidx/window/core/Logger;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final tag:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final value:Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
@@ -32,36 +26,14 @@
             "TT;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final verificationMode:Landroidx/window/core/VerificationMode;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/Object;Ljava/lang/String;Landroidx/window/core/VerificationMode;Landroidx/window/core/Logger;)V
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroidx/window/core/VerificationMode;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroidx/window/core/Logger;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
@@ -77,7 +49,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -86,7 +58,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -95,7 +67,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -104,7 +76,7 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -329,6 +301,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -339,9 +317,6 @@
         value = {
             "()TT;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -367,12 +342,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getLogger()Landroidx/window/core/Logger;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/core/ValidSpecification;->logger:Landroidx/window/core/Logger;
@@ -397,12 +371,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getTag()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/core/ValidSpecification;->tag:Ljava/lang/String;
@@ -427,6 +400,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getValue()Ljava/lang/Object;
@@ -435,9 +409,6 @@
         value = {
             "()TT;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -463,12 +434,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getVerificationMode()Landroidx/window/core/VerificationMode;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/core/ValidSpecification;->verificationMode:Landroidx/window/core/VerificationMode;
@@ -493,32 +463,20 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public require(Ljava/lang/String;Ljm/l;)Landroidx/window/core/SpecificationComputer;
+.method public require(Ljava/lang/String;Lq8/l;)Landroidx/window/core/SpecificationComputer;
     .locals 6
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
-            "Ljm/l<",
-            "-TT;",
-            "Ljava/lang/Boolean;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/window/core/SpecificationComputer<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -526,7 +484,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -535,7 +493,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -544,7 +502,7 @@
 
     .line 12
     .line 13
-    invoke-interface {p2, v0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15

@@ -189,6 +189,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(ILjava/util/concurrent/Executor;Landroidx/camera/core/ImageProcessor;Landroidx/core/util/Consumer;)V
@@ -347,6 +349,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getErrorListener()Landroidx/core/util/Consumer;
@@ -386,6 +389,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExecutor()Ljava/util/concurrent/Executor;
@@ -416,6 +420,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImageProcessor()Landroidx/camera/core/ImageProcessor;
@@ -452,6 +457,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurfaceProcessor()Landroidx/camera/core/SurfaceProcessor;
@@ -482,6 +488,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTargets()I
@@ -510,4 +517,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

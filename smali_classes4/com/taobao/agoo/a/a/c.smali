@@ -82,6 +82,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)[B
@@ -225,11 +227,9 @@
     .line 48
     :catchall_0
     :try_start_3
-    const-string p1, "com.umeng.commonsdk.utils.UMUtils"
+    const-class p1, Lcom/umeng/commonsdk/utils/UMUtils;
 
-    invoke-static {p1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
-
-    move-result-object p1
+    sget-object p2, Lcom/umeng/commonsdk/utils/UMUtils;->UNKNOW:Ljava/lang/String;
 
     .line 49
     const-string p2, "getUMId"

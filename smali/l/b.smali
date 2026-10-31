@@ -1,30 +1,8 @@
-.class public final synthetic Ll/b;
+.class public interface abstract Ll/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Landroidx/camera/core/impl/CameraDeviceSurfaceManager$Provider;
-
-
-# direct methods
-.method public synthetic constructor <init>()V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
-.end method
-
 
 # virtual methods
-.method public final newInstance(Landroid/content/Context;Ljava/lang/Object;Ljava/util/Set;)Landroidx/camera/core/impl/CameraDeviceSurfaceManager;
-    .locals 0
-
-    .line 1
-    invoke-static {p1, p2, p3}, Landroidx/camera/camera2/Camera2Config;->b(Landroid/content/Context;Ljava/lang/Object;Ljava/util/Set;)Landroidx/camera/core/impl/CameraDeviceSurfaceManager;
-
-    move-result-object p1
-
-    return-object p1
+.method public abstract handleCache(Ljava/lang/String;Ljava/util/Map;)Z
 .end method

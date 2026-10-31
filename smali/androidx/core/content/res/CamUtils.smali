@@ -179,6 +179,8 @@
     .end array-data
 
     .line 84
+    .line 85
+    .line 86
     :array_2
     .array-data 4
         -0x44f7c02b    # -0.002079f
@@ -262,6 +264,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static intFromLStar(F)I
@@ -628,6 +631,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static lStarFromInt(I)F
@@ -784,6 +792,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static lerp(FFF)F
@@ -922,6 +931,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static xyzFromInt(I[F)V
@@ -1253,6 +1263,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static yFromInt(I)F
@@ -1387,6 +1400,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static yFromLStar(F)F
@@ -1507,4 +1521,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

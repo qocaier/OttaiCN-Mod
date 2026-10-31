@@ -60,6 +60,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -112,6 +114,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getAbsolutePath()Ljava/lang/String;
@@ -140,6 +144,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFilePath()Ljava/lang/String;
@@ -168,6 +174,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getImageId()I
@@ -196,6 +204,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSize()J
@@ -224,6 +234,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUri()Landroid/net/Uri;
@@ -269,6 +281,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUriStr()Ljava/lang/String;
@@ -297,6 +311,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isChoose()Z
@@ -325,6 +341,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAbsolutePath(Ljava/lang/String;)V
@@ -358,6 +376,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setChoose(Z)V
@@ -391,6 +411,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFilePath(Ljava/lang/String;)V
@@ -424,6 +446,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setImageId(I)V
@@ -457,6 +481,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSize(J)V
@@ -490,6 +516,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUriStr(Ljava/lang/String;)V
@@ -523,4 +551,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

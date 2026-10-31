@@ -168,15 +168,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static a(ILandroid/os/Bundle;)V
@@ -1377,6 +1368,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public static d(ILandroid/os/Bundle;)V
@@ -1707,11 +1730,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static f(ILandroid/os/Bundle;)V
@@ -1832,11 +1850,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static holeInfo2BmGeo(Ljava/util/List;)Ljava/util/List;
@@ -2041,8 +2054,6 @@
     return-object p0
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static polygonHoleInfo2BmGeo(Ljava/util/List;)Ljava/util/List;
@@ -2566,6 +2577,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 
@@ -2692,7 +2735,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDrawItem()Lcom/baidu/platform/comapi/bmsdk/BmDrawItem;
@@ -2723,7 +2765,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExtraInfo()Landroid/os/Bundle;
@@ -2754,7 +2795,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -2785,7 +2825,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOverlayLatLngBounds()Lcom/baidu/mapapi/model/LatLngBounds;
@@ -2820,7 +2859,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getZIndex()I
@@ -2851,7 +2889,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isRemoved()Z
@@ -2997,15 +3034,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public isVisible()Z
@@ -3036,7 +3064,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public remove()V
@@ -3189,15 +3216,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public setBmLayer(Lcom/baidu/platform/comapi/bmsdk/BmLayer;)V
@@ -3230,7 +3248,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDottedBitmapResource(Lcom/baidu/platform/comapi/bmsdk/style/BmLineStyle;I)V
@@ -3348,11 +3365,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setDrawItem(Lcom/baidu/platform/comapi/bmsdk/BmDrawItem;)V
@@ -3385,7 +3397,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExtraInfo(Landroid/os/Bundle;)V
@@ -3418,7 +3429,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVisible(Z)V
@@ -3546,8 +3556,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setZIndex(I)V
@@ -3584,7 +3592,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public toDrawItem()Lcom/baidu/platform/comapi/bmsdk/BmDrawItem;
@@ -3720,13 +3727,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

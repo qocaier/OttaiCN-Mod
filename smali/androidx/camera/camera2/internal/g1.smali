@@ -3,56 +3,42 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/camera/core/impl/utils/futures/AsyncFunction;
+.implements Landroidx/camera/camera2/internal/Camera2CameraControlImpl$CaptureResultListener;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/ProcessingCaptureSession;
+.field public final synthetic a:I
 
-.field public final synthetic b:Landroidx/camera/core/impl/SessionConfig;
-
-.field public final synthetic c:Landroid/hardware/camera2/CameraDevice;
-
-.field public final synthetic d:Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener;
+.field public final synthetic b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/ProcessingCaptureSession;Landroidx/camera/core/impl/SessionConfig;Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener;)V
+.method public synthetic constructor <init>(ILandroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/g1;->a:Landroidx/camera/camera2/internal/ProcessingCaptureSession;
+    iput p1, p0, Landroidx/camera/camera2/internal/g1;->a:I
 
-    iput-object p2, p0, Landroidx/camera/camera2/internal/g1;->b:Landroidx/camera/core/impl/SessionConfig;
-
-    iput-object p3, p0, Landroidx/camera/camera2/internal/g1;->c:Landroid/hardware/camera2/CameraDevice;
-
-    iput-object p4, p0, Landroidx/camera/camera2/internal/g1;->d:Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener;
+    iput-object p2, p0, Landroidx/camera/camera2/internal/g1;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Lub/u0;
-    .locals 4
+.method public final onCaptureResult(Landroid/hardware/camera2/TotalCaptureResult;)Z
+    .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/g1;->a:Landroidx/camera/camera2/internal/ProcessingCaptureSession;
+    iget v0, p0, Landroidx/camera/camera2/internal/g1;->a:I
 
-    iget-object v1, p0, Landroidx/camera/camera2/internal/g1;->b:Landroidx/camera/core/impl/SessionConfig;
+    iget-object v1, p0, Landroidx/camera/camera2/internal/g1;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
-    iget-object v2, p0, Landroidx/camera/camera2/internal/g1;->c:Landroid/hardware/camera2/CameraDevice;
+    invoke-static {v0, v1, p1}, Landroidx/camera/camera2/internal/ExposureControl;->c(ILandroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroid/hardware/camera2/TotalCaptureResult;)Z
 
-    iget-object v3, p0, Landroidx/camera/camera2/internal/g1;->d:Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener;
+    move-result p1
 
-    check-cast p1, Ljava/util/List;
-
-    invoke-static {v0, v1, v2, v3, p1}, Landroidx/camera/camera2/internal/ProcessingCaptureSession;->c(Landroidx/camera/camera2/internal/ProcessingCaptureSession;Landroidx/camera/core/impl/SessionConfig;Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/SynchronizedCaptureSessionOpener;Ljava/util/List;)Lub/u0;
-
-    move-result-object p1
-
-    return-object p1
+    return p1
 .end method

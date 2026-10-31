@@ -85,6 +85,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -115,6 +117,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getData()Ljava/lang/String;
@@ -143,6 +147,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMessageId()Ljava/lang/String;
@@ -171,6 +177,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMessageType()Ljava/lang/String;
@@ -199,6 +207,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPackageName()Ljava/lang/String;
@@ -227,6 +237,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getReceiptMode()I
@@ -255,6 +267,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSendMode()I
@@ -283,6 +297,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTo()Ljava/lang/String;
@@ -311,6 +327,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getToken()Ljava/lang/String;
@@ -339,6 +357,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTtl()I
@@ -367,6 +387,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setCollapseKey(Ljava/lang/String;)V
@@ -400,6 +422,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setData(Ljava/lang/String;)V
@@ -433,6 +457,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMessageId(Ljava/lang/String;)V
@@ -466,6 +492,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMessageType(Ljava/lang/String;)V
@@ -499,6 +527,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPackageName(Ljava/lang/String;)V
@@ -532,6 +562,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setReceiptMode(I)V
@@ -565,6 +597,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSendMode(I)V
@@ -598,6 +632,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTo(Ljava/lang/String;)V
@@ -631,6 +667,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setToken(Ljava/lang/String;)V
@@ -664,6 +702,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTtl(I)V
@@ -697,4 +737,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

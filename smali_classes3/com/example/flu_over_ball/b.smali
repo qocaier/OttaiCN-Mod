@@ -11,29 +11,14 @@
 
 # instance fields
 .field public a:Lio/flutter/plugin/common/MethodChannel;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field public b:Landroid/content/Context;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field public c:Landroid/app/Activity;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field public d:Lio/flutter/plugin/common/MethodChannel$Result;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field public final e:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public final f:I
 
@@ -75,7 +60,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -112,7 +96,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final b(Landroid/content/Context;)Z
@@ -167,15 +150,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onActivityResult(IILandroid/content/Intent;)Z
     .locals 0
-    .param p3    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iget p2, p0, Lcom/example/flu_over_ball/b;->f:I
@@ -382,26 +360,17 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onAttachedToActivity(Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;)V
     .locals 1
-    .param p1    # Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "binding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -433,22 +402,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onAttachedToEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
     .locals 2
-    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "flutterPluginBinding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -490,7 +454,7 @@
 
     .line 24
     .line 25
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 26
     .line 27
@@ -561,8 +525,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onDetachedFromActivity()V
@@ -579,17 +541,13 @@
 
 .method public onDetachedFromEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
     .locals 1
-    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "binding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -598,7 +556,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 9
     .line 10
@@ -621,19 +579,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onMethodCall(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 17
-    .param p1    # Lio/flutter/plugin/common/MethodCall;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     move-object/from16 v1, p0
@@ -652,7 +601,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v3}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -661,7 +610,7 @@
 
     .line 13
     .line 14
-    invoke-static {v2, v3}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -740,7 +689,7 @@
 
     .line 52
     .line 53
-    invoke-virtual {v0}, Lcom/example/flu_over_ball/a$a;->c()Z
+    invoke-virtual {v0}, Lcom/example/flu_over_ball/a$a;->b()Z
 
     .line 54
     .line 55
@@ -773,7 +722,7 @@
 
     .line 68
     .line 69
-    invoke-static {v3}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v3}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 70
     .line 71
@@ -790,12 +739,12 @@
 
     .line 77
     .line 78
-    invoke-static {v3, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 79
     .line 80
     .line 81
-    invoke-virtual {v0, v3}, Lcom/example/flu_over_ball/a;->i(Landroid/app/Application;)V
+    invoke-virtual {v0, v3}, Lcom/example/flu_over_ball/a;->g(Landroid/app/Application;)V
 
     .line 82
     .line 83
@@ -906,7 +855,7 @@
 
     .line 132
     .line 133
-    invoke-virtual {v0}, Lcom/example/flu_over_ball/a$a;->c()Z
+    invoke-virtual {v0}, Lcom/example/flu_over_ball/a$a;->b()Z
 
     .line 134
     .line 135
@@ -927,7 +876,7 @@
     .line 142
     .line 143
     .line 144
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -1055,7 +1004,7 @@
     .line 206
     .line 207
     .line 208
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_2
 
@@ -1265,7 +1214,7 @@
     .line 309
     .line 310
     .line 311
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_3
 
@@ -1388,7 +1337,7 @@
 
     .line 369
     .line 370
-    invoke-virtual {v2}, Lcom/example/flu_over_ball/a$a;->c()Z
+    invoke-virtual {v2}, Lcom/example/flu_over_ball/a$a;->b()Z
 
     .line 371
     .line 372
@@ -1418,7 +1367,7 @@
 
     .line 383
     .line 384
-    sget-object v2, Lcom/example/flu_over_ball/c;->a:Lcom/example/flu_over_ball/c;
+    sget-object v2, Lh1/c;->a:Lh1/c;
 
     .line 385
     .line 386
@@ -1434,7 +1383,7 @@
 
     .line 390
     :goto_4
-    invoke-virtual {v2, v5}, Lcom/example/flu_over_ball/c;->N(Ljava/lang/String;)V
+    invoke-virtual {v2, v5}, Lh1/c;->G(Ljava/lang/String;)V
 
     .line 391
     .line 392
@@ -1467,7 +1416,7 @@
     move-result-object v0
 
     .line 407
-    invoke-virtual {v2}, Lcom/example/flu_over_ball/c;->m()I
+    invoke-virtual {v2}, Lh1/c;->k()I
 
     .line 408
     .line 409
@@ -1488,7 +1437,7 @@
     .line 416
     .line 417
     .line 418
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
     :try_end_4
     .catch Ljava/lang/Exception; {:try_start_4 .. :try_end_4} :catch_4
 
@@ -1605,7 +1554,7 @@
     .line 471
     .line 472
     .line 473
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
     :try_end_5
     .catch Ljava/lang/Exception; {:try_start_5 .. :try_end_5} :catch_5
 
@@ -1774,7 +1723,7 @@
     move-result-object v8
 
     .line 555
-    invoke-static {v8}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v8}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 556
     .line 557
@@ -1919,11 +1868,11 @@
 
     .line 627
     .line 628
-    sget-object v3, Lcom/example/flu_over_ball/c;->a:Lcom/example/flu_over_ball/c;
+    sget-object v3, Lh1/c;->a:Lh1/c;
 
     .line 629
     .line 630
-    invoke-virtual {v3, v8}, Lcom/example/flu_over_ball/c;->F(Z)V
+    invoke-virtual {v3, v8}, Lh1/c;->A(Z)V
 
     .line 631
     .line 632
@@ -1953,17 +1902,17 @@
     .line 642
     .line 643
     :goto_6
-    invoke-virtual {v3, v8}, Lcom/example/flu_over_ball/c;->H(Ljava/lang/String;)V
+    invoke-virtual {v3, v8}, Lh1/c;->B(Ljava/lang/String;)V
 
     .line 644
     .line 645
     .line 646
-    invoke-static {v4}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v4}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 647
     .line 648
     .line 649
-    invoke-virtual {v3, v4}, Lcom/example/flu_over_ball/c;->P(Ljava/lang/String;)V
+    invoke-virtual {v3, v4}, Lh1/c;->I(Ljava/lang/String;)V
 
     .line 650
     .line 651
@@ -1980,17 +1929,17 @@
 
     .line 656
     :goto_7
-    invoke-virtual {v3, v9}, Lcom/example/flu_over_ball/c;->O(Ljava/lang/String;)V
+    invoke-virtual {v3, v9}, Lh1/c;->H(Ljava/lang/String;)V
 
     .line 657
     .line 658
     .line 659
-    invoke-static {v11}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v11}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 660
     .line 661
     .line 662
-    invoke-virtual {v3, v11}, Lcom/example/flu_over_ball/c;->R(Ljava/lang/String;)V
+    invoke-virtual {v3, v11}, Lh1/c;->K(Ljava/lang/String;)V
 
     .line 663
     .line 664
@@ -2004,7 +1953,7 @@
     .line 668
     .line 669
     :cond_12
-    invoke-virtual {v3, v12}, Lcom/example/flu_over_ball/c;->J(Ljava/lang/String;)V
+    invoke-virtual {v3, v12}, Lh1/c;->C(Ljava/lang/String;)V
 
     .line 670
     .line 671
@@ -2018,7 +1967,7 @@
     .line 675
     .line 676
     :cond_13
-    invoke-virtual {v3, v13}, Lcom/example/flu_over_ball/c;->L(Ljava/lang/String;)V
+    invoke-virtual {v3, v13}, Lh1/c;->E(Ljava/lang/String;)V
 
     .line 677
     .line 678
@@ -2044,7 +1993,7 @@
     .line 687
     .line 688
     :goto_8
-    invoke-virtual {v3, v4}, Lcom/example/flu_over_ball/c;->K(I)V
+    invoke-virtual {v3, v4}, Lh1/c;->D(I)V
 
     .line 689
     .line 690
@@ -2058,7 +2007,7 @@
     .line 694
     .line 695
     :cond_15
-    invoke-virtual {v3, v15}, Lcom/example/flu_over_ball/c;->M(Ljava/lang/String;)V
+    invoke-virtual {v3, v15}, Lh1/c;->F(Ljava/lang/String;)V
 
     .line 696
     .line 697
@@ -2075,7 +2024,7 @@
 
     .line 702
     :goto_9
-    invoke-virtual {v3, v5}, Lcom/example/flu_over_ball/c;->N(Ljava/lang/String;)V
+    invoke-virtual {v3, v5}, Lh1/c;->G(Ljava/lang/String;)V
 
     .line 703
     .line 704
@@ -2089,7 +2038,7 @@
     .line 708
     .line 709
     :cond_17
-    invoke-virtual {v3, v10}, Lcom/example/flu_over_ball/c;->Q(Ljava/lang/String;)V
+    invoke-virtual {v3, v10}, Lh1/c;->J(Ljava/lang/String;)V
 
     .line 710
     .line 711
@@ -2103,7 +2052,7 @@
     .line 715
     .line 716
     :cond_18
-    invoke-virtual {v3, v0}, Lcom/example/flu_over_ball/c;->C(Ljava/lang/String;)V
+    invoke-virtual {v3, v0}, Lh1/c;->x(Ljava/lang/String;)V
 
     .line 717
     .line 718
@@ -2112,7 +2061,7 @@
 
     .line 720
     .line 721
-    invoke-virtual {v0}, Lcom/example/flu_over_ball/a$a;->c()Z
+    invoke-virtual {v0}, Lcom/example/flu_over_ball/a$a;->b()Z
 
     .line 722
     .line 723
@@ -2187,7 +2136,7 @@
 
     .line 758
     .line 759
-    invoke-static {v0, v3}, Le5/a;->a(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-static {v0, v3}, Lcom/baidu/location/a;->a(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 760
     .line 761
@@ -2211,7 +2160,7 @@
     .line 768
     .line 769
     .line 770
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
     :try_end_6
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_6
 
@@ -2299,7 +2248,7 @@
     .line 812
     :cond_1c
     :try_start_7
-    sget-object v3, Lcom/example/flu_over_ball/c;->a:Lcom/example/flu_over_ball/c;
+    sget-object v3, Lh1/c;->a:Lh1/c;
 
     .line 813
     .line 814
@@ -2327,7 +2276,7 @@
 
     .line 825
     :cond_1d
-    invoke-virtual {v3, v5}, Lcom/example/flu_over_ball/c;->E(Ljava/lang/String;)V
+    invoke-virtual {v3, v5}, Lh1/c;->z(Ljava/lang/String;)V
 
     .line 826
     .line 827
@@ -2368,7 +2317,7 @@
     .line 843
     :cond_1e
     :goto_c
-    invoke-virtual {v3, v5}, Lcom/example/flu_over_ball/c;->T(Ljava/lang/String;)V
+    invoke-virtual {v3, v5}, Lh1/c;->M(Ljava/lang/String;)V
 
     .line 844
     .line 845
@@ -2397,7 +2346,7 @@
 
     .line 857
     :cond_1f
-    invoke-virtual {v3, v5}, Lcom/example/flu_over_ball/c;->S(Ljava/lang/String;)V
+    invoke-virtual {v3, v5}, Lh1/c;->L(Ljava/lang/String;)V
 
     .line 858
     .line 859
@@ -2430,7 +2379,7 @@
 
     .line 872
     :goto_d
-    invoke-virtual {v3, v9}, Lcom/example/flu_over_ball/c;->B(Ljava/lang/String;)V
+    invoke-virtual {v3, v9}, Lh1/c;->w(Ljava/lang/String;)V
 
     .line 873
     .line 874
@@ -2466,7 +2415,7 @@
     .line 888
     :cond_21
     :try_start_8
-    invoke-virtual {v3, v5}, Lcom/example/flu_over_ball/c;->D(Ljava/lang/String;)V
+    invoke-virtual {v3, v5}, Lh1/c;->y(Ljava/lang/String;)V
 
     .line 889
     .line 890
@@ -2499,7 +2448,7 @@
 
     .line 903
     :goto_e
-    invoke-virtual {v3, v6}, Lcom/example/flu_over_ball/c;->U(Ljava/lang/String;)V
+    invoke-virtual {v3, v6}, Lh1/c;->N(Ljava/lang/String;)V
 
     .line 904
     .line 905
@@ -2540,7 +2489,7 @@
 
     .line 922
     :goto_f
-    invoke-virtual {v0, v10}, Lcom/example/flu_over_ball/a;->o(Landroid/content/Context;)V
+    invoke-virtual {v0, v10}, Lcom/example/flu_over_ball/a;->m(Landroid/content/Context;)V
 
     .line 923
     .line 924
@@ -2554,7 +2503,7 @@
     .line 928
     .line 929
     .line 930
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
     :try_end_8
     .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_7
 
@@ -3356,17 +3305,13 @@
 
 .method public onReattachedToActivityForConfigChanges(Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;)V
     .locals 1
-    .param p1    # Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "binding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -3396,5 +3341,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

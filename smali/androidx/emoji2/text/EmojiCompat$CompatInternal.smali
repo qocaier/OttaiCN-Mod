@@ -82,6 +82,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEmojiMatch(Ljava/lang/CharSequence;I)I
@@ -146,6 +147,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public process(Ljava/lang/CharSequence;IIIZ)Ljava/lang/CharSequence;

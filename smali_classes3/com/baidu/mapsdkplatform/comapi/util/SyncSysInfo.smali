@@ -32,7 +32,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getAuthToken()Ljava/lang/String;
@@ -63,7 +62,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getCid()Ljava/lang/String;
@@ -96,7 +94,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getPhoneInfo()Ljava/lang/String;
@@ -129,7 +126,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getPhoneInfoCache()Ljava/lang/String;
@@ -162,7 +158,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getPhoneType()Ljava/lang/String;
@@ -195,7 +190,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getSoftWareVer()Ljava/lang/String;
@@ -228,7 +222,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static initPhoneInfo()Ljava/lang/String;
@@ -261,5 +254,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

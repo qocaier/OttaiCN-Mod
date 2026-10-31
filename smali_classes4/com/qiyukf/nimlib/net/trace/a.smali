@@ -70,9 +70,9 @@
     iput-object v0, p0, Lcom/qiyukf/nimlib/net/trace/a;->d:Ljava/util/Map;
 
     .line 6
-    new-instance v0, Ldh/d;
+    new-instance v0, Lcom/qiyukf/nimlib/net/trace/e;
 
-    invoke-direct {v0}, Ldh/d;-><init>()V
+    invoke-direct {v0}, Lcom/qiyukf/nimlib/net/trace/e;-><init>()V
 
     invoke-static {v0}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor(Ljava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ExecutorService;
 
@@ -623,4 +623,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

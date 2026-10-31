@@ -177,6 +177,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(Landroid/view/View;)V
@@ -339,6 +341,7 @@
     .line 77
     throw p1
     .line 78
+    .line 79
 .end method
 
 .method private clearAccessibilityFocus(I)Z
@@ -442,6 +445,7 @@
     .line 19
     return v0
     .line 20
+    .line 21
 .end method
 
 .method private createEvent(II)Landroid/view/accessibility/AccessibilityEvent;
@@ -851,6 +855,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private createEventForHost(I)Landroid/view/accessibility/AccessibilityEvent;
@@ -2791,6 +2798,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private getAllNodes()Landroidx/collection/SparseArrayCompat;
@@ -2939,6 +2948,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private getBoundsInParent(ILandroid/graphics/Rect;)V
@@ -3180,6 +3191,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private isVisibleToUser(Landroid/graphics/Rect;)Z
@@ -3339,6 +3353,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static keyToDirection(I)I
@@ -3773,6 +3788,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private performActionForChild(IILandroid/os/Bundle;)Z
@@ -3940,6 +3958,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private performActionForHost(ILandroid/os/Bundle;)Z
@@ -4132,6 +4153,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private updateHoveredVirtualView(I)V
@@ -4398,6 +4420,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final dispatchKeyEvent(Landroid/view/KeyEvent;)Z
@@ -4768,6 +4791,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public final getAccessibilityFocusedVirtualViewId()I
@@ -4796,6 +4824,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAccessibilityNodeProvider(Landroid/view/View;)Landroidx/core/view/accessibility/AccessibilityNodeProviderCompat;
@@ -4872,6 +4901,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getKeyboardFocusedVirtualViewId()I
@@ -4900,6 +4930,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract getVirtualViewAt(FF)I
@@ -4946,6 +4977,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final invalidateVirtualView(I)V
@@ -5186,6 +5218,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onInitializeAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V
@@ -5486,6 +5521,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public final requestKeyboardFocusForVirtualView(I)Z
@@ -5620,6 +5658,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final sendEventForVirtualView(II)Z

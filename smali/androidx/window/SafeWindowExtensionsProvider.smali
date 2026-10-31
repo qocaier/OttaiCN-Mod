@@ -5,25 +5,18 @@
 
 # instance fields
 .field private final loader:Ljava/lang/ClassLoader;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/ClassLoader;)V
     .locals 1
-    .param p1    # Ljava/lang/ClassLoader;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "loader"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -153,7 +146,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -165,6 +158,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final isWindowExtensionsPresent()Z
@@ -184,7 +178,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Landroidx/window/reflection/ReflectionUtils;->checkIsPresent$window_release(Ljm/a;)Z
+    invoke-virtual {v0, v1}, Landroidx/window/reflection/ReflectionUtils;->checkIsPresent$window_release(Lq8/a;)Z
 
     .line 9
     .line 10
@@ -201,14 +195,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final getWindowExtensions()Landroidx/window/extensions/WindowExtensions;
     .locals 2
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -254,6 +247,7 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getWindowExtensionsClass$window_release()Ljava/lang/Class;
@@ -264,9 +258,6 @@
             "Ljava/lang/Class<",
             "*>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -290,7 +281,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -302,6 +293,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isWindowExtensionsValid$window_release()Z
@@ -333,7 +325,7 @@
 
     .line 13
     .line 14
-    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 15
     .line 16
@@ -417,4 +409,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

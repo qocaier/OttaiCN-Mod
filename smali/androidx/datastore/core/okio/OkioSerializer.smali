@@ -23,50 +23,26 @@
     .end annotation
 .end method
 
-.method public abstract readFrom(Lokio/BufferedSource;Lul/c;)Ljava/lang/Object;
-    .param p1    # Lokio/BufferedSource;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract readFrom(Lokio/BufferedSource;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lokio/BufferedSource;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end method
 
-.method public abstract writeTo(Ljava/lang/Object;Lokio/BufferedSink;Lul/c;)Ljava/lang/Object;
-    .param p2    # Lokio/BufferedSink;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract writeTo(Ljava/lang/Object;Lokio/BufferedSink;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
             "Lokio/BufferedSink;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method

@@ -523,6 +523,134 @@
     .line 434
     .line 435
     .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
+    .line 441
+    .line 442
+    .line 443
+    .line 444
+    .line 445
+    .line 446
+    .line 447
+    .line 448
+    .line 449
+    .line 450
+    .line 451
+    .line 452
+    .line 453
+    .line 454
+    .line 455
+    .line 456
+    .line 457
+    .line 458
+    .line 459
+    .line 460
+    .line 461
+    .line 462
+    .line 463
+    .line 464
+    .line 465
+    .line 466
+    .line 467
+    .line 468
+    .line 469
+    .line 470
+    .line 471
+    .line 472
+    .line 473
+    .line 474
+    .line 475
+    .line 476
+    .line 477
+    .line 478
+    .line 479
+    .line 480
+    .line 481
+    .line 482
+    .line 483
+    .line 484
+    .line 485
+    .line 486
+    .line 487
+    .line 488
+    .line 489
+    .line 490
+    .line 491
+    .line 492
+    .line 493
+    .line 494
+    .line 495
+    .line 496
+    .line 497
+    .line 498
+    .line 499
+    .line 500
+    .line 501
+    .line 502
+    .line 503
+    .line 504
+    .line 505
+    .line 506
+    .line 507
+    .line 508
+    .line 509
+    .line 510
+    .line 511
+    .line 512
+    .line 513
+    .line 514
+    .line 515
+    .line 516
+    .line 517
+    .line 518
+    .line 519
+    .line 520
+    .line 521
+    .line 522
+    .line 523
+    .line 524
+    .line 525
+    .line 526
+    .line 527
+    .line 528
+    .line 529
+    .line 530
+    .line 531
+    .line 532
+    .line 533
+    .line 534
+    .line 535
+    .line 536
+    .line 537
+    .line 538
+    .line 539
+    .line 540
+    .line 541
+    .line 542
+    .line 543
+    .line 544
+    .line 545
+    .line 546
+    .line 547
+    .line 548
+    .line 549
+    .line 550
+    .line 551
+    .line 552
+    .line 553
+    .line 554
+    .line 555
+    .line 556
+    .line 557
+    .line 558
+    .line 559
+    .line 560
+    .line 561
+    .line 562
+    .line 563
+    .line 564
 .end method
 
 .method private a()V
@@ -1123,9 +1251,9 @@
 
     .line 84
     :cond_0
-    new-instance v2, Lvg/p0;
+    new-instance v2, Lcom/qiyukf/jf0;
 
-    invoke-direct {v2, p0, p2, v0}, Lvg/p0;-><init>(Lcom/qiyukf/q3;Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardBean;Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardDataBean;)V
+    invoke-direct {v2, p0, p2, v0}, Lcom/qiyukf/jf0;-><init>(Lcom/qiyukf/q3;Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardBean;Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardDataBean;)V
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -1455,13 +1583,13 @@
     invoke-virtual {v2, v3, v4}, Landroid/graphics/drawable/Drawable;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 
     .line 54
-    new-instance v4, Lvg/q0;
+    new-instance v4, Lcom/qiyukf/kf0;
 
     move-object v5, p0
 
     move-object v9, p1
 
-    invoke-direct/range {v4 .. v10}, Lvg/q0;-><init>(Lcom/qiyukf/q3;[IILandroid/widget/LinearLayout;Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardBean;I)V
+    invoke-direct/range {v4 .. v10}, Lcom/qiyukf/kf0;-><init>(Lcom/qiyukf/q3;[IILandroid/widget/LinearLayout;Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardBean;I)V
 
     invoke-virtual {v1, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -1540,9 +1668,9 @@
     :cond_0
     iget-object v0, p0, Lcom/qiyukf/q3;->h:Landroid/widget/ImageView;
 
-    new-instance v1, Lvg/s0;
+    new-instance v1, Lcom/qiyukf/mf0;
 
-    invoke-direct {v1, p0}, Lvg/s0;-><init>(Lcom/qiyukf/q3;)V
+    invoke-direct {v1, p0}, Lcom/qiyukf/mf0;-><init>(Lcom/qiyukf/q3;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -1864,9 +1992,9 @@
 
     .line 56
     :cond_2
-    new-instance v3, Lvg/r0;
+    new-instance v3, Lcom/qiyukf/lf0;
 
-    invoke-direct {v3, p0, p2, v1}, Lvg/r0;-><init>(Lcom/qiyukf/q3;Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardBean;Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardDataBean;)V
+    invoke-direct {v3, p0, p2, v1}, Lcom/qiyukf/lf0;-><init>(Lcom/qiyukf/q3;Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardBean;Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardDataBean;)V
 
     invoke-virtual {v2, v3}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -2040,13 +2168,13 @@
     invoke-virtual {v2, v3, v4}, Landroid/graphics/drawable/Drawable;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 
     .line 32
-    new-instance v4, Lvg/o0;
+    new-instance v4, Lcom/qiyukf/if0;
 
     move-object v5, p0
 
     move-object v9, p1
 
-    invoke-direct/range {v4 .. v10}, Lvg/o0;-><init>(Lcom/qiyukf/q3;[IILandroid/widget/LinearLayout;Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardBean;I)V
+    invoke-direct/range {v4 .. v10}, Lcom/qiyukf/if0;-><init>(Lcom/qiyukf/q3;[IILandroid/widget/LinearLayout;Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardBean;I)V
 
     invoke-virtual {v1, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -2295,4 +2423,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

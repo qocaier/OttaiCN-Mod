@@ -57,7 +57,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lq1/a;->a(Landroid/media/AudioAttributes;)I
+    invoke-static {v0}, Landroidx/media/a;->a(Landroid/media/AudioAttributes;)I
 
     .line 4
     .line 5
@@ -79,4 +79,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

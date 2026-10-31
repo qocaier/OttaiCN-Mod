@@ -28,33 +28,15 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final computing:Ljava/util/concurrent/atomic/AtomicBoolean;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final executor:Ljava/util/concurrent/Executor;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final invalid:Ljava/util/concurrent/atomic/AtomicBoolean;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public final invalidationRunnable:Ljava/lang/Runnable;
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final liveData:Landroidx/lifecycle/LiveData;
     .annotation system Ldalvik/annotation/Signature;
@@ -63,48 +45,31 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field public final refreshRunnable:Ljava/lang/Runnable;
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 2
-    .annotation build Lim/k;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1, v0}, Landroidx/lifecycle/ComputableLiveData;-><init>(Ljava/util/concurrent/Executor;ILkm/v;)V
+    invoke-direct {p0, v0, v1, v0}, Landroidx/lifecycle/ComputableLiveData;-><init>(Ljava/util/concurrent/Executor;ILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
 
 .method public constructor <init>(Ljava/util/concurrent/Executor;)V
     .locals 1
-    .param p1    # Ljava/util/concurrent/Executor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/k;
-    .end annotation
 
     const-string v0, "executor"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -141,23 +106,23 @@
     iput-object p1, p0, Landroidx/lifecycle/ComputableLiveData;->computing:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 8
-    new-instance p1, Lp1/a;
+    new-instance p1, Landroidx/lifecycle/a;
 
-    invoke-direct {p1, p0}, Lp1/a;-><init>(Landroidx/lifecycle/ComputableLiveData;)V
+    invoke-direct {p1, p0}, Landroidx/lifecycle/a;-><init>(Landroidx/lifecycle/ComputableLiveData;)V
 
     iput-object p1, p0, Landroidx/lifecycle/ComputableLiveData;->refreshRunnable:Ljava/lang/Runnable;
 
     .line 9
-    new-instance p1, Lp1/b;
+    new-instance p1, Landroidx/lifecycle/b;
 
-    invoke-direct {p1, p0}, Lp1/b;-><init>(Landroidx/lifecycle/ComputableLiveData;)V
+    invoke-direct {p1, p0}, Landroidx/lifecycle/b;-><init>(Landroidx/lifecycle/ComputableLiveData;)V
 
     iput-object p1, p0, Landroidx/lifecycle/ComputableLiveData;->invalidationRunnable:Ljava/lang/Runnable;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/util/concurrent/Executor;ILkm/v;)V
+.method public synthetic constructor <init>(Ljava/util/concurrent/Executor;ILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p2, p2, 0x1
@@ -171,7 +136,7 @@
 
     const-string p2, "getIOThreadExecutor()"
 
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     :cond_0
@@ -222,7 +187,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -329,6 +294,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static final refreshRunnable$lambda$0(Landroidx/lifecycle/ComputableLiveData;)V
@@ -339,7 +305,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -497,6 +463,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -514,8 +481,6 @@
 
 .method public final getComputing$lifecycle_livedata_release()Ljava/util/concurrent/atomic/AtomicBoolean;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/ComputableLiveData;->computing:Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -540,12 +505,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getExecutor$lifecycle_livedata_release()Ljava/util/concurrent/Executor;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/ComputableLiveData;->executor:Ljava/util/concurrent/Executor;
@@ -570,12 +534,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getInvalid$lifecycle_livedata_release()Ljava/util/concurrent/atomic/AtomicBoolean;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/ComputableLiveData;->invalid:Ljava/util/concurrent/atomic/AtomicBoolean;
@@ -600,6 +563,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLiveData()Landroidx/lifecycle/LiveData;
@@ -610,9 +574,6 @@
             "Landroidx/lifecycle/LiveData<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -638,6 +599,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invalidate()V
@@ -672,4 +634,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

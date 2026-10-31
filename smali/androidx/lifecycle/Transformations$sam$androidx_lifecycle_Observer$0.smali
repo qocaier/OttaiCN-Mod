@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Landroidx/lifecycle/Observer;
-.implements Lkm/b0;
+.implements Lkotlin/jvm/internal/g;
 
 
 # annotations
@@ -19,11 +19,11 @@
 
 
 # instance fields
-.field private final synthetic function:Ljm/l;
+.field private final synthetic function:Lq8/l;
 
 
 # direct methods
-.method public constructor <init>(Ljm/l;)V
+.method public constructor <init>(Lq8/l;)V
     .locals 1
 
     .line 1
@@ -31,7 +31,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -41,7 +41,7 @@
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;->function:Ljm/l;
+    iput-object p1, p0, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;->function:Lq8/l;
 
     .line 10
     .line 11
@@ -66,10 +66,6 @@
 # virtual methods
 .method public final equals(Ljava/lang/Object;)Z
     .locals 2
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     instance-of v0, p1, Landroidx/lifecycle/Observer;
 
@@ -77,21 +73,21 @@
 
     if-eqz v0, :cond_0
 
-    instance-of v0, p1, Lkm/b0;
+    instance-of v0, p1, Lkotlin/jvm/internal/g;
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;->getFunctionDelegate()Ljl/w;
+    invoke-virtual {p0}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;->getFunctionDelegate()Lkotlin/b;
 
     move-result-object v0
 
-    check-cast p1, Lkm/b0;
+    check-cast p1, Lkotlin/jvm/internal/g;
 
-    invoke-interface {p1}, Lkm/b0;->getFunctionDelegate()Ljl/w;
+    invoke-interface {p1}, Lkotlin/jvm/internal/g;->getFunctionDelegate()Lkotlin/b;
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -101,48 +97,24 @@
     return v1
 .end method
 
-.method public final getFunctionDelegate()Ljl/w;
+.method public final getFunctionDelegate()Lkotlin/b;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Ljl/w<",
-            "*>;"
+            "Lkotlin/b;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
+    iget-object v0, p0, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;->function:Lq8/l;
 
-    .line 1
-    iget-object v0, p0, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;->function:Ljm/l;
-
-    .line 2
-    .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
 .end method
 
 .method public final hashCode()I
     .locals 1
 
-    invoke-virtual {p0}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;->getFunctionDelegate()Ljl/w;
+    invoke-virtual {p0}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;->getFunctionDelegate()Lkotlin/b;
 
     move-result-object v0
 
@@ -156,9 +128,9 @@
 .method public final synthetic onChanged(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;->function:Ljm/l;
+    iget-object v0, p0, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;->function:Lq8/l;
 
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

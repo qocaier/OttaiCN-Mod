@@ -54,6 +54,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -110,7 +111,7 @@
 .method public abstract setZslDisabledByUserCaseConfig(Z)V
 .end method
 
-.method public abstract submitStillCaptureRequests(Ljava/util/List;II)Lub/u0;
+.method public abstract submitStillCaptureRequests(Ljava/util/List;II)Lcom/google/common/util/concurrent/t;
     .param p1    # Ljava/util/List;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
@@ -124,10 +125,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/CaptureConfig;",
             ">;II)",
-            "Lub/u0<",
-            "Ljava/util/List<",
-            "Ljava/lang/Void;",
-            ">;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method

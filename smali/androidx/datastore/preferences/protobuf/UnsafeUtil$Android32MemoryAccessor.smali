@@ -21,14 +21,6 @@
 # direct methods
 .method public constructor <init>(Lsun/misc/Unsafe;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "unsafe"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;-><init>(Lsun/misc/Unsafe;)V
@@ -62,14 +54,6 @@
 
 .method private static smallAddress(J)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "address"
-        }
-    .end annotation
 
     long-to-int p0, p0
 
@@ -80,20 +64,6 @@
 # virtual methods
 .method public copyMemory(J[BJJ)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "srcOffset",
-            "target",
-            "targetIndex",
-            "length"
-        }
-    .end annotation
 
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -105,20 +75,6 @@
 
 .method public copyMemory([BJJJ)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "src",
-            "srcIndex",
-            "targetOffset",
-            "length"
-        }
-    .end annotation
 
     .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -130,16 +86,6 @@
 
 .method public getBoolean(Ljava/lang/Object;J)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->IS_BIG_ENDIAN:Z
@@ -209,14 +155,6 @@
 
 .method public getByte(J)B
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "address"
-        }
-    .end annotation
 
     .line 4
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -228,16 +166,6 @@
 
 .method public getByte(Ljava/lang/Object;J)B
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->IS_BIG_ENDIAN:Z
@@ -262,16 +190,6 @@
 
 .method public getDouble(Ljava/lang/Object;J)D
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getLong(Ljava/lang/Object;J)J
@@ -334,16 +252,6 @@
 
 .method public getFloat(Ljava/lang/Object;J)F
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getInt(Ljava/lang/Object;J)I
@@ -406,14 +314,6 @@
 
 .method public getInt(J)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "address"
-        }
-    .end annotation
 
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -449,14 +349,6 @@
 
 .method public getLong(J)J
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "address"
-        }
-    .end annotation
 
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -492,14 +384,6 @@
 
 .method public getStaticObject(Ljava/lang/reflect/Field;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "field"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -543,18 +427,6 @@
 
 .method public putBoolean(Ljava/lang/Object;JZ)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->IS_BIG_ENDIAN:Z
@@ -681,20 +553,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public putByte(JB)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "address",
-            "value"
-        }
-    .end annotation
 
     .line 4
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -706,18 +571,6 @@
 
 .method public putByte(Ljava/lang/Object;JB)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->IS_BIG_ENDIAN:Z
@@ -738,18 +591,6 @@
 
 .method public putDouble(Ljava/lang/Object;JD)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p4, p5}, Ljava/lang/Double;->doubleToLongBits(D)J
@@ -877,22 +718,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public putFloat(Ljava/lang/Object;JF)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p4}, Ljava/lang/Float;->floatToIntBits(F)I
@@ -1014,20 +846,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public putInt(JI)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "address",
-            "value"
-        }
-    .end annotation
 
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -1086,16 +911,6 @@
 
 .method public putLong(JJ)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "address",
-            "value"
-        }
-    .end annotation
 
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;

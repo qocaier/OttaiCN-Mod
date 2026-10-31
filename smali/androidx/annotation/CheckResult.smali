@@ -26,21 +26,6 @@
     }
 .end annotation
 
-.annotation runtime Lkl/a;
-.end annotation
-
-.annotation runtime Lkl/c;
-    value = .enum Lkotlin/annotation/AnnotationRetention;->BINARY:Lkotlin/annotation/AnnotationRetention;
-.end annotation
-
-.annotation runtime Lkl/d;
-    allowedTargets = {
-        .enum Lkotlin/annotation/AnnotationTarget;->FUNCTION:Lkotlin/annotation/AnnotationTarget;,
-        .enum Lkotlin/annotation/AnnotationTarget;->PROPERTY_GETTER:Lkotlin/annotation/AnnotationTarget;,
-        .enum Lkotlin/annotation/AnnotationTarget;->PROPERTY_SETTER:Lkotlin/annotation/AnnotationTarget;
-    }
-.end annotation
-
 
 # virtual methods
 .method public abstract suggest()Ljava/lang/String;

@@ -15,15 +15,13 @@
     .end annotation
 .end field
 
-.field final mCaptureFuture:Lub/u0;
+.field final mCaptureFuture:Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -67,7 +65,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroidx/camera/core/impl/CaptureBundle;Landroidx/camera/core/ImageCapture$OutputFileOptions;Landroid/graphics/Rect;IILandroid/graphics/Matrix;Landroidx/camera/core/imagecapture/TakePictureCallback;Lub/u0;)V
+.method public constructor <init>(Landroidx/camera/core/impl/CaptureBundle;Landroidx/camera/core/ImageCapture$OutputFileOptions;Landroid/graphics/Rect;IILandroid/graphics/Matrix;Landroidx/camera/core/imagecapture/TakePictureCallback;Lcom/google/common/util/concurrent/t;)V
     .locals 0
     .param p1    # Landroidx/camera/core/impl/CaptureBundle;
         .annotation build Landroidx/annotation/NonNull;
@@ -89,7 +87,7 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .param p8    # Lub/u0;
+    .param p8    # Lcom/google/common/util/concurrent/t;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
@@ -102,9 +100,8 @@
             "II",
             "Landroid/graphics/Matrix;",
             "Landroidx/camera/core/imagecapture/TakePictureCallback;",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;)V"
+            "Lcom/google/common/util/concurrent/t;",
+            ")V"
         }
     .end annotation
 
@@ -250,7 +247,7 @@
 
     .line 72
     :cond_0
-    iput-object p8, p0, Landroidx/camera/core/imagecapture/ProcessingRequest;->mCaptureFuture:Lub/u0;
+    iput-object p8, p0, Landroidx/camera/core/imagecapture/ProcessingRequest;->mCaptureFuture:Lcom/google/common/util/concurrent/t;
 
     .line 73
     .line 74
@@ -789,7 +786,7 @@
 
 
 # virtual methods
-.method public getCaptureFuture()Lub/u0;
+.method public getCaptureFuture()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -797,14 +794,12 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/imagecapture/ProcessingRequest;->mCaptureFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/imagecapture/ProcessingRequest;->mCaptureFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -826,6 +821,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCropRect()Landroid/graphics/Rect;
@@ -856,6 +852,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJpegQuality()I
@@ -884,6 +881,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOutputFileOptions()Landroidx/camera/core/ImageCapture$OutputFileOptions;
@@ -914,6 +912,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRotationDegrees()I
@@ -942,6 +941,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSensorToBufferTransform()Landroid/graphics/Matrix;
@@ -972,6 +972,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStageIds()Ljava/util/List;
@@ -1011,6 +1012,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTagBundleKey()Ljava/lang/String;
@@ -1041,6 +1043,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isAborted()Z
@@ -1073,6 +1076,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isInMemoryCapture()Z
@@ -1112,6 +1116,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onCaptureFailure(Landroidx/camera/core/ImageCaptureException;)V
@@ -1219,6 +1224,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onProcessFailure(Landroidx/camera/core/ImageCaptureException;)V

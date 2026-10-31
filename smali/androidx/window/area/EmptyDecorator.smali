@@ -13,9 +13,6 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/window/area/EmptyDecorator;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -57,22 +54,17 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public decorate(Landroidx/window/area/WindowAreaController;)Landroidx/window/area/WindowAreaController;
     .locals 1
-    .param p1    # Landroidx/window/area/WindowAreaController;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "controller"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p1
 .end method

@@ -5,20 +5,11 @@
 
 # static fields
 .field private static final JOB_KEY:Ljava/lang/String; = "androidx.lifecycle.ViewModelCoroutineScope.JOB_KEY"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
-.method public static final getViewModelScope(Landroidx/lifecycle/ViewModel;)Lfn/i0;
+.method public static final getViewModelScope(Landroidx/lifecycle/ViewModel;)Lkotlinx/coroutines/l0;
     .locals 4
-    .param p0    # Landroidx/lifecycle/ViewModel;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "androidx.lifecycle.ViewModelCoroutineScope.JOB_KEY"
@@ -33,7 +24,7 @@
     move-result-object v1
 
     .line 7
-    check-cast v1, Lfn/i0;
+    check-cast v1, Lkotlinx/coroutines/l0;
 
     .line 8
     .line 9
@@ -55,7 +46,7 @@
     const/4 v3, 0x0
 
     .line 16
-    invoke-static {v3, v2, v3}, Lfn/r2;->c(Lkotlinx/coroutines/l;ILjava/lang/Object;)Lkotlinx/coroutines/f;
+    invoke-static {v3, v2, v3}, Lkotlinx/coroutines/k2;->b(Lkotlinx/coroutines/s1;ILjava/lang/Object;)Lkotlinx/coroutines/y;
 
     .line 17
     .line 18
@@ -63,7 +54,7 @@
     move-result-object v2
 
     .line 20
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     .line 21
     .line 22
@@ -71,7 +62,7 @@
     move-result-object v3
 
     .line 24
-    invoke-virtual {v3}, Lfn/d2;->l()Lfn/d2;
+    invoke-virtual {v3}, Lkotlinx/coroutines/z1;->e()Lkotlinx/coroutines/z1;
 
     .line 25
     .line 26
@@ -79,7 +70,7 @@
     move-result-object v3
 
     .line 28
-    invoke-interface {v2, v3}, Lkotlin/coroutines/d;->plus(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+    invoke-interface {v2, v3}, Lkotlin/coroutines/i;->plus(Lkotlin/coroutines/i;)Lkotlin/coroutines/i;
 
     .line 29
     .line 30
@@ -87,7 +78,7 @@
     move-result-object v2
 
     .line 32
-    invoke-direct {v1, v2}, Landroidx/lifecycle/CloseableCoroutineScope;-><init>(Lkotlin/coroutines/d;)V
+    invoke-direct {v1, v2}, Landroidx/lifecycle/CloseableCoroutineScope;-><init>(Lkotlin/coroutines/i;)V
 
     .line 33
     .line 34
@@ -100,7 +91,7 @@
     move-result-object p0
 
     .line 39
-    check-cast p0, Lfn/i0;
+    check-cast p0, Lkotlinx/coroutines/l0;
 
     .line 40
     .line 41
@@ -142,4 +133,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

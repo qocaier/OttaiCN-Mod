@@ -3,18 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<TResult:",
-        "Ljava/lang/Object;",
-        ">",
-        "Lcom/hihonor/push/sdk/d1<",
-        "TTResult;>;"
-    }
-.end annotation
-
-
 # instance fields
 .field public final a:Ljava/lang/Object;
 
@@ -23,7 +11,7 @@
 .field public c:Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "TTResult;"
+            "Ljava/lang/Object;"
         }
     .end annotation
 .end field
@@ -35,7 +23,8 @@
         value = {
             "Ljava/util/List<",
             "Lcom/hihonor/push/sdk/r0<",
-            "TTResult;>;>;"
+            "Ljava/lang/Object;",
+            ">;>;"
         }
     .end annotation
 .end field
@@ -80,21 +69,14 @@
     return-void
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
 # virtual methods
 .method public final a(Lcom/hihonor/push/sdk/r0;)Lcom/hihonor/push/sdk/d1;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/hihonor/push/sdk/r0<",
-            "TTResult;>;)",
-            "Lcom/hihonor/push/sdk/d1<",
-            "TTResult;>;"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/hihonor/push/sdk/d1;->a:Ljava/lang/Object;
@@ -213,7 +195,8 @@
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "()TTResult;"
+            "()",
+            "Ljava/lang/Object;"
         }
     .end annotation
 
@@ -402,4 +385,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

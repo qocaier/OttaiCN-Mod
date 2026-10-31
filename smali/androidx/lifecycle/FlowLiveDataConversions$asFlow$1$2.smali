@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -78,7 +76,7 @@
     .line 1
     invoke-virtual {p0}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1$2;->invoke()V
 
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
 
     return-object v0
 .end method
@@ -87,13 +85,13 @@
     .locals 6
 
     .line 2
-    sget-object v0, Lfn/n1;->a:Lfn/n1;
+    sget-object v0, Lkotlinx/coroutines/l1;->a:Lkotlinx/coroutines/l1;
 
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lfn/d2;->l()Lfn/d2;
+    invoke-virtual {v1}, Lkotlinx/coroutines/z1;->e()Lkotlinx/coroutines/z1;
 
     move-result-object v1
 
@@ -105,13 +103,13 @@
 
     const/4 v5, 0x0
 
-    invoke-direct {v3, v2, v4, v5}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1$2$1;-><init>(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;Lul/c;)V
+    invoke-direct {v3, v2, v4, v5}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1$2$1;-><init>(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;Lkotlin/coroutines/e;)V
 
     const/4 v4, 0x2
 
     const/4 v2, 0x0
 
-    invoke-static/range {v0 .. v5}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v0 .. v5}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     return-void
 .end method

@@ -151,6 +151,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static a()Lcom/qiyukf/z20;
@@ -669,6 +670,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -976,4 +978,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

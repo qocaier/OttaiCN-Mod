@@ -24,14 +24,6 @@
 # direct methods
 .method public constructor <init>(Lcom/baidu/bmfmap/utils/ThreadPoolUtil;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/baidu/bmfmap/utils/ThreadPoolUtil$1;->this$0:Lcom/baidu/bmfmap/utils/ThreadPoolUtil;
@@ -62,7 +54,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -190,6 +181,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

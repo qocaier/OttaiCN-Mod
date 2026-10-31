@@ -894,6 +894,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -935,6 +937,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getErrorListeners()Ljava/util/List;
@@ -974,6 +977,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExpectedFrameRateRange()Landroid/util/Range;
@@ -1017,6 +1021,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImplementationOptions()Landroidx/camera/core/impl/Config;
@@ -1051,6 +1056,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInputConfiguration()Landroid/hardware/camera2/params/InputConfiguration;
@@ -1081,6 +1087,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOutputConfigs()Ljava/util/List;
@@ -1120,6 +1127,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRepeatingCameraCaptureCallbacks()Ljava/util/List;
@@ -1163,6 +1171,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRepeatingCaptureConfig()Landroidx/camera/core/impl/CaptureConfig;
@@ -1193,6 +1202,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSessionStateCallbacks()Ljava/util/List;
@@ -1232,6 +1242,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSingleCameraCaptureCallbacks()Ljava/util/List;
@@ -1271,6 +1282,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurfaces()Ljava/util/List;
@@ -1431,6 +1443,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getTemplateType()I
@@ -1463,4 +1477,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

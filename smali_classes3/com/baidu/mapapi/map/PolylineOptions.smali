@@ -289,15 +289,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private a(Lcom/baidu/mapapi/map/Polyline;)Lcom/baidu/mapapi/map/Polyline;
@@ -812,6 +803,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 
@@ -856,7 +879,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bloomType(Lcom/baidu/mapapi/map/PolylineOptions$LineBloomType;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -889,7 +911,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bloomWidth(I)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -927,7 +948,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public clickable(Z)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -960,7 +980,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public color(I)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -993,7 +1012,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public colorsValues(Ljava/util/List;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -1130,8 +1148,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public customTexture(Lcom/baidu/mapapi/map/BitmapDescriptor;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -1164,7 +1180,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public customTextureList(Ljava/util/List;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -1324,8 +1339,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public dottedLine(Z)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -1358,7 +1371,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public dottedLineType(Lcom/baidu/mapapi/map/PolylineDottedLineType;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -1395,7 +1407,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public extraInfo(Landroid/os/Bundle;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -1428,7 +1439,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public focus(Z)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -1461,7 +1471,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getColor()I
@@ -1492,7 +1501,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCustomTexture()Lcom/baidu/mapapi/map/BitmapDescriptor;
@@ -1523,7 +1531,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCustomTextureList()Ljava/util/List;
@@ -1562,7 +1569,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExtraInfo()Landroid/os/Bundle;
@@ -1593,7 +1599,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLineBloomDirection()Lcom/baidu/mapapi/map/LineBloomDirection;
@@ -1624,7 +1629,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOverlay()Lcom/baidu/mapapi/map/Overlay;
@@ -2556,6 +2560,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public getPoints()Ljava/util/List;
@@ -2594,7 +2657,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTextureIndexs()Ljava/util/List;
@@ -2633,7 +2695,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWidth()F
@@ -2664,7 +2725,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getZIndex()I
@@ -2695,7 +2755,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isDottedLine()Z
@@ -2726,7 +2785,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isFocus()Z
@@ -2757,7 +2815,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isGeodesic(Z)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -2790,7 +2847,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isGradient(Z)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -2823,7 +2879,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isThined(Z)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -2856,7 +2911,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isVisible()Z
@@ -2887,7 +2941,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public keepScale(Z)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -2920,7 +2973,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public lineBloomDirection(Lcom/baidu/mapapi/map/LineBloomDirection;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -2953,7 +3005,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public lineCapType(Lcom/baidu/mapapi/map/PolylineOptions$LineCapType;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -2986,7 +3037,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public lineDirectionCross180(Lcom/baidu/mapapi/map/PolylineOptions$LineDirectionCross180;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3019,7 +3069,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public lineJoinType(Lcom/baidu/mapapi/map/PolylineOptions$LineJoinType;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3052,7 +3101,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public points(Ljava/util/List;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3206,8 +3254,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setBloomBlurTimes(I)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3254,7 +3300,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBloomGradientASpeed(F)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3305,7 +3350,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHighPrecision(Z)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3338,7 +3382,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public smoothAlgorithm(Lcom/baidu/mapapi/map/ThinAndSmoothAlgorithm;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3371,7 +3414,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public smoothFactor(F)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3411,7 +3453,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public textureIndex(Ljava/util/List;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3548,8 +3589,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public thinAlgorithm(Lcom/baidu/mapapi/map/ThinAndSmoothAlgorithm;)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3582,7 +3621,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public thinFactor(F)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3622,7 +3660,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public visible(Z)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3655,7 +3692,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public width(F)Lcom/baidu/mapapi/map/PolylineOptions;
@@ -3730,5 +3766,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

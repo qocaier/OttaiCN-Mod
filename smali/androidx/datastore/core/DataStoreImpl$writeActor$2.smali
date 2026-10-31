@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/p;
+.implements Lq8/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/DataStoreImpl;-><init>(Landroidx/datastore/core/Storage;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lfn/i0;)V
+    value = Landroidx/datastore/core/DataStoreImpl;-><init>(Landroidx/datastore/core/Storage;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lkotlinx/coroutines/l0;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,12 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/p<",
-        "Landroidx/datastore/core/Message$Update<",
-        "TT;>;",
-        "Ljava/lang/Throwable;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/p;"
     }
 .end annotation
 
@@ -68,21 +63,13 @@
 
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl$writeActor$2;->invoke(Landroidx/datastore/core/Message$Update;Ljava/lang/Throwable;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
 
 .method public final invoke(Landroidx/datastore/core/Message$Update;Ljava/lang/Throwable;)V
     .locals 1
-    .param p1    # Landroidx/datastore/core/Message$Update;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Throwable;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -95,10 +82,10 @@
 
     const-string v0, "msg"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p1}, Landroidx/datastore/core/Message$Update;->getAck()Lkotlinx/coroutines/e;
+    invoke-virtual {p1}, Landroidx/datastore/core/Message$Update;->getAck()Lkotlinx/coroutines/v;
 
     move-result-object p1
 
@@ -115,7 +102,7 @@
 
     .line 6
     :cond_0
-    invoke-interface {p1, p2}, Lkotlinx/coroutines/e;->f(Ljava/lang/Throwable;)Z
+    invoke-interface {p1, p2}, Lkotlinx/coroutines/v;->u(Ljava/lang/Throwable;)Z
 
     return-void
 .end method

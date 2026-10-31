@@ -38,6 +38,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static ValidateVersion()V
@@ -66,6 +67,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$000(ILjava/nio/ByteBuffer;)I
@@ -632,6 +634,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static endMetadataList(Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;)I
@@ -1126,6 +1134,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public listVector()Landroidx/emoji2/text/flatbuffer/MetadataItem$Vector;
@@ -1220,6 +1229,7 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public sourceShaAsByteBuffer()Ljava/nio/ByteBuffer;
@@ -1254,6 +1264,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public sourceShaInByteBuffer(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
@@ -1342,4 +1353,5 @@
     .line 19
     return v0
     .line 20
+    .line 21
 .end method

@@ -302,7 +302,7 @@
 
     const/4 v2, 0x1
 
-    invoke-static {v0, v2}, Lp0/e;->a(Landroid/app/ActivityOptions;I)Landroid/app/ActivityOptions;
+    invoke-static {v0, v2}, Landroidx/core/app/f;->a(Landroid/app/ActivityOptions;I)Landroid/app/ActivityOptions;
 
     invoke-virtual {v0}, Landroid/app/ActivityOptions;->toBundle()Landroid/os/Bundle;
 

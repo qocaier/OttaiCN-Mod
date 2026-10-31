@@ -16,9 +16,6 @@
 
 # instance fields
 .field private final callback:Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final recursive:Z
 
@@ -26,17 +23,13 @@
 # direct methods
 .method public constructor <init>(Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;Z)V
     .locals 1
-    .param p1    # Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "callback"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -96,8 +89,6 @@
 # virtual methods
 .method public final getCallback()Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher$FragmentLifecycleCallbacksHolder;->callback:Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;
@@ -122,6 +113,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getRecursive()Z
@@ -150,4 +142,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

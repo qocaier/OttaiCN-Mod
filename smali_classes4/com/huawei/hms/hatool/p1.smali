@@ -277,7 +277,7 @@
     return v2
 
     :cond_1
-    invoke-static {p0}, Lue/d;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lt5/b;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -292,7 +292,7 @@
     return p0
 
     :cond_2
-    invoke-static {p2}, Lue/d;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lt5/b;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

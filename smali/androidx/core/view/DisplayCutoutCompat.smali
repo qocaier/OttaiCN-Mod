@@ -1004,6 +1004,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getBoundingRects()Ljava/util/List;
@@ -1055,6 +1056,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCutoutPath()Landroid/graphics/Path;
@@ -1098,6 +1100,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSafeInsetBottom()I
@@ -1141,6 +1144,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSafeInsetLeft()I
@@ -1184,6 +1188,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSafeInsetRight()I
@@ -1227,6 +1232,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSafeInsetTop()I
@@ -1270,6 +1276,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWaterfallInsets()Landroidx/core/graphics/Insets;
@@ -1317,6 +1324,7 @@
     .line 19
     .line 20
     return-object v0
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -1338,7 +1346,7 @@
 
     .line 7
     :cond_0
-    invoke-static {v0}, Lc1/r;->a(Landroid/view/DisplayCutout;)I
+    invoke-static {v0}, Landroidx/core/view/t;->a(Landroid/view/DisplayCutout;)I
 
     .line 8
     .line 9
@@ -1356,6 +1364,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1466,6 +1475,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public unwrap()Landroid/view/DisplayCutout;
@@ -1497,4 +1508,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

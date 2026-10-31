@@ -53,6 +53,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public constructor <init>(Lcom/vivo/push/restructure/request/a/a/a;)V
@@ -97,6 +99,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 

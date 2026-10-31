@@ -4,118 +4,61 @@
 
 
 # virtual methods
-.method public abstract getUpdateNotifications()Ljn/e;
+.method public abstract getUpdateNotifications()Lkotlinx/coroutines/flow/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Ljn/e<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlinx/coroutines/flow/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
-.method public abstract getVersion(Lul/c;)Ljava/lang/Object;
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract getVersion(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Integer;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end method
 
-.method public abstract incrementAndGetVersion(Lul/c;)Ljava/lang/Object;
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract incrementAndGetVersion(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Integer;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end method
 
-.method public abstract lock(Ljm/l;Lul/c;)Ljava/lang/Object;
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract lock(Lq8/l;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Ljm/l<",
-            "-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lq8/l;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end method
 
-.method public abstract tryLock(Ljm/p;Lul/c;)Ljava/lang/Object;
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract tryLock(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Ljm/p<",
-            "-",
-            "Ljava/lang/Boolean;",
-            "-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method

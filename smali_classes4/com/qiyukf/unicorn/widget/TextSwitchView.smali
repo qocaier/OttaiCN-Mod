@@ -107,12 +107,12 @@
     iput v0, p0, Lcom/qiyukf/unicorn/widget/TextSwitchView;->mAnimationFraction:F
 
     .line 6
-    const-string v0, "\u5f00"
+    const-string/jumbo v0, "\u5f00"
 
     iput-object v0, p0, Lcom/qiyukf/unicorn/widget/TextSwitchView;->mOpenText:Ljava/lang/String;
 
     .line 7
-    const-string v0, "\u5173"
+    const-string/jumbo v0, "\u5173"
 
     iput-object v0, p0, Lcom/qiyukf/unicorn/widget/TextSwitchView;->mCloseText:Ljava/lang/String;
 
@@ -247,6 +247,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method private drawBackground(Landroid/graphics/Canvas;)V
@@ -677,27 +687,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method private drawSlide(Landroid/graphics/Canvas;)V
@@ -757,6 +746,8 @@
     .line 24
     return-void
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private initAnimator()V
@@ -885,6 +876,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private initAttributes(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -1261,6 +1253,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method private initPaints()V
@@ -1640,68 +1662,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method private setChecked(ZZ)V
@@ -1918,6 +1878,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private startColorAnimation()V
@@ -2026,11 +1987,11 @@
     .line 49
     .line 50
     .line 51
-    new-instance v1, Lqh/e;
+    new-instance v1, Lcom/qiyukf/unicorn/widget/e;
 
     .line 52
     .line 53
-    invoke-direct {v1, p0}, Lqh/e;-><init>(Lcom/qiyukf/unicorn/widget/TextSwitchView;)V
+    invoke-direct {v1, p0}, Lcom/qiyukf/unicorn/widget/e;-><init>(Lcom/qiyukf/unicorn/widget/TextSwitchView;)V
 
     .line 54
     .line 55
@@ -2068,6 +2029,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -2098,6 +2060,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onAnimationCancel(Landroid/animation/Animator;)V
@@ -2133,6 +2097,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
@@ -2168,6 +2134,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onAnimationRepeat(Landroid/animation/Animator;)V
@@ -2209,6 +2177,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onAnimationUpdate(Landroid/animation/ValueAnimator;)V
@@ -2254,6 +2224,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onDetachedFromWindow()V
@@ -2368,6 +2340,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -2405,6 +2378,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onMeasure(II)V
@@ -2519,6 +2494,16 @@
     .line 53
     return-void
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public onSizeChanged(IIII)V
@@ -2827,6 +2812,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -3228,27 +3236,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public setChecked(Z)V
@@ -3306,6 +3293,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCloseText(Ljava/lang/String;)V
@@ -3352,6 +3341,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOnCheckedChangeListener(Lcom/qiyukf/unicorn/widget/TextSwitchView$OnCheckedChangeListener;)V
@@ -3385,6 +3376,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOpenColor(I)V
@@ -3431,6 +3424,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOpenText(Ljava/lang/String;)V
@@ -3477,6 +3472,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public toggle()V
@@ -3511,4 +3508,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/graphics/ImageDecoderKt;->decodeBitmap(Landroid/graphics/ImageDecoder$Source;Ljm/q;)Landroid/graphics/Bitmap;
+    value = Landroidx/core/graphics/ImageDecoderKt;->decodeBitmap(Landroid/graphics/ImageDecoder$Source;Lq8/q;)Landroid/graphics/Bitmap;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,40 +18,28 @@
 
 
 # instance fields
-.field final synthetic $action:Ljm/q;
+.field final synthetic $action:Lq8/q;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/q<",
-            "Landroid/graphics/ImageDecoder;",
-            "Landroid/graphics/ImageDecoder$ImageInfo;",
-            "Landroid/graphics/ImageDecoder$Source;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/q;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Ljm/q;)V
+.method public constructor <init>(Lq8/q;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/q<",
-            "-",
-            "Landroid/graphics/ImageDecoder;",
-            "-",
-            "Landroid/graphics/ImageDecoder$ImageInfo;",
-            "-",
-            "Landroid/graphics/ImageDecoder$Source;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/q;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/graphics/ImageDecoderKt$decodeBitmap$1;->$action:Ljm/q;
+    iput-object p1, p0, Landroidx/core/graphics/ImageDecoderKt$decodeBitmap$1;->$action:Lq8/q;
 
     .line 2
     .line 3
@@ -88,11 +76,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/graphics/ImageDecoderKt$decodeBitmap$1;->$action:Ljm/q;
+    iget-object v0, p0, Landroidx/core/graphics/ImageDecoderKt$decodeBitmap$1;->$action:Lq8/q;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2, p3}, Ljm/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2, p3}, Lq8/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -205,4 +193,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

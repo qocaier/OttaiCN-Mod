@@ -3,40 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroid/view/ViewTreeObserver$OnScrollChangedListener;
+.implements Landroidx/activity/contextaware/OnContextAvailableListener;
 
 
 # instance fields
-.field public final synthetic a:Lkotlinx/coroutines/channels/j;
-
-.field public final synthetic b:Landroid/view/View;
+.field public final synthetic a:Landroidx/activity/ComponentActivity;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lkotlinx/coroutines/channels/j;Landroid/view/View;)V
+.method public synthetic constructor <init>(Landroidx/activity/ComponentActivity;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/activity/e;->a:Lkotlinx/coroutines/channels/j;
-
-    iput-object p2, p0, Landroidx/activity/e;->b:Landroid/view/View;
+    iput-object p1, p0, Landroidx/activity/e;->a:Landroidx/activity/ComponentActivity;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onScrollChanged()V
-    .locals 2
+.method public final onContextAvailable(Landroid/content/Context;)V
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/e;->a:Lkotlinx/coroutines/channels/j;
+    iget-object v0, p0, Landroidx/activity/e;->a:Landroidx/activity/ComponentActivity;
 
-    iget-object v1, p0, Landroidx/activity/e;->b:Landroid/view/View;
-
-    invoke-static {v0, v1}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->h(Lkotlinx/coroutines/channels/j;Landroid/view/View;)V
+    invoke-static {v0, p1}, Landroidx/activity/ComponentActivity;->c(Landroidx/activity/ComponentActivity;Landroid/content/Context;)V
 
     return-void
 .end method

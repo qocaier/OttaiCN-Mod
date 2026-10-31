@@ -69,12 +69,12 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lr0/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
+    invoke-static {v1}, Landroidx/core/content/pm/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
 
     move-result-object v1
 
     .line 6
-    invoke-static {v1}, Ld5/a;->a(Landroid/content/pm/SigningInfo;)Z
+    invoke-static {v1}, Lcom/baidu/lbsapi/auth/r;->a(Landroid/content/pm/SigningInfo;)Z
 
     move-result v1
 
@@ -89,12 +89,12 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lr0/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
+    invoke-static {p0}, Landroidx/core/content/pm/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
 
     move-result-object p0
 
     .line 8
-    invoke-static {p0}, Ld5/b;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
+    invoke-static {p0}, Lcom/baidu/lbsapi/auth/s;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
 
     move-result-object p0
 
@@ -115,12 +115,12 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lr0/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
+    invoke-static {p0}, Landroidx/core/content/pm/a;->a(Landroid/content/pm/PackageInfo;)Landroid/content/pm/SigningInfo;
 
     move-result-object p0
 
     .line 10
-    invoke-static {p0}, Ld5/c;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
+    invoke-static {p0}, Lcom/baidu/lbsapi/auth/t;->a(Landroid/content/pm/SigningInfo;)[Landroid/content/pm/Signature;
 
     move-result-object p0
 

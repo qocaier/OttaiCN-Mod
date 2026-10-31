@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -245,20 +245,10 @@
 # virtual methods
 .method public final bind(Landroidx/sqlite/db/SupportSQLiteProgram;[Ljava/lang/Object;)V
     .locals 3
-    .param p1    # Landroidx/sqlite/db/SupportSQLiteProgram;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # [Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
 
     const-string v0, "statement"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-nez p2, :cond_0
 

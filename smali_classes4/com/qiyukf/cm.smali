@@ -159,6 +159,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static a(Lcom/qiyukf/cm;)V
@@ -265,7 +266,7 @@
     move-result-object v3
 
     .line 14
-    const-string v4, "\u64a4\u56de\u4e86\u4e00\u6761\u6d88\u606f"
+    const-string/jumbo v4, "\u64a4\u56de\u4e86\u4e00\u6761\u6d88\u606f"
 
     invoke-static {v2, v3, v4}, Lcom/qiyukf/nimlib/sdk/msg/MessageBuilder;->createTextMessage(Ljava/lang/String;Lcom/qiyukf/nimlib/sdk/msg/constant/SessionTypeEnum;Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
 
@@ -1206,9 +1207,9 @@
 
     .line 19
     :try_start_0
-    new-instance v0, Lvg/e;
+    new-instance v0, Lcom/qiyukf/yd0;
 
-    invoke-direct {v0, p0}, Lvg/e;-><init>(Lcom/qiyukf/cm;)V
+    invoke-direct {v0, p0}, Lcom/qiyukf/yd0;-><init>(Lcom/qiyukf/cm;)V
 
     const-string v1, "clear"
 
@@ -1268,9 +1269,9 @@
 
     .line 18
     :try_start_0
-    new-instance v0, Lvg/c;
+    new-instance v0, Lcom/qiyukf/wd0;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Lvg/c;-><init>(Lcom/qiyukf/cm;Lcom/qiyukf/nimlib/session/a;Ljava/lang/String;I)V
+    invoke-direct {v0, p0, p1, p2, p3}, Lcom/qiyukf/wd0;-><init>(Lcom/qiyukf/cm;Lcom/qiyukf/nimlib/session/a;Ljava/lang/String;I)V
 
     const-string p1, "show"
 
@@ -1478,9 +1479,9 @@
 
     .line 21
     :try_start_0
-    new-instance v0, Lvg/d;
+    new-instance v0, Lcom/qiyukf/xd0;
 
-    invoke-direct {v0, p0, p1}, Lvg/d;-><init>(Lcom/qiyukf/cm;Lcom/qiyukf/nimlib/sdk/NotificationFoldStyle;)V
+    invoke-direct {v0, p0, p1}, Lcom/qiyukf/xd0;-><init>(Lcom/qiyukf/cm;Lcom/qiyukf/nimlib/sdk/NotificationFoldStyle;)V
 
     const-string p1, "update"
 
@@ -1882,6 +1883,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static e()Landroid/content/ComponentName;
@@ -1914,6 +1916,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private f()V
@@ -2064,6 +2068,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private g()V
@@ -2102,6 +2107,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private h()V
@@ -2240,6 +2247,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private static i()Lcom/qiyukf/cm;
@@ -2279,4 +2287,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

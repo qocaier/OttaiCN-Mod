@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lgb/x;
+.implements Lcom/google/common/base/p;
 .implements Ljava/io/Serializable;
 
 
@@ -23,8 +23,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lgb/x<",
-        "TT;>;",
+        "Lcom/google/common/base/p;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -40,8 +39,8 @@
         value = {
             "Ljava/util/List<",
             "+",
-            "Lgb/x<",
-            "-TT;>;>;"
+            "Lcom/google/common/base/p;",
+            ">;"
         }
     .end annotation
 .end field
@@ -50,24 +49,6 @@
 # direct methods
 .method public constructor <init>(Ljava/util/List;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "components"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "+",
-            "Lgb/x<",
-            "-TT;>;>;)V"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -91,19 +72,6 @@
 # virtual methods
 .method public apply(Ljava/lang/Object;)Z
     .locals 3
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgb/u;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "t"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)Z"
@@ -146,11 +114,11 @@
     move-result-object v2
 
     .line 17
-    check-cast v2, Lgb/x;
+    check-cast v2, Lcom/google/common/base/p;
 
     .line 18
     .line 19
-    invoke-interface {v2, p1}, Lgb/x;->apply(Ljava/lang/Object;)Z
+    invoke-interface {v2, p1}, Lcom/google/common/base/p;->apply(Ljava/lang/Object;)Z
 
     .line 20
     .line 21
@@ -239,24 +207,10 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "obj"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Lcom/google/common/base/Predicates$OrPredicate;
@@ -302,7 +256,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public hashCode()I
@@ -341,7 +294,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -378,5 +330,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

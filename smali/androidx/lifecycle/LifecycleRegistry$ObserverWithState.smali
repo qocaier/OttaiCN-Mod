@@ -16,34 +16,20 @@
 
 # instance fields
 .field private lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private state:Landroidx/lifecycle/Lifecycle$State;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/lifecycle/LifecycleObserver;Landroidx/lifecycle/Lifecycle$State;)V
     .locals 1
-    .param p1    # Landroidx/lifecycle/LifecycleObserver;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/lifecycle/Lifecycle$State;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "initialState"
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -53,7 +39,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 10
     .line 11
@@ -109,21 +95,13 @@
 # virtual methods
 .method public final dispatchEvent(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 3
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/lifecycle/Lifecycle$Event;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "event"
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -160,7 +138,7 @@
 
     .line 21
     .line 22
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 23
     .line 24
@@ -197,8 +175,6 @@
 
 .method public final getLifecycleObserver()Landroidx/lifecycle/LifecycleEventObserver;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;
@@ -223,12 +199,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getState()Landroidx/lifecycle/Lifecycle$State;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;
@@ -253,21 +228,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setLifecycleObserver(Landroidx/lifecycle/LifecycleEventObserver;)V
     .locals 1
-    .param p1    # Landroidx/lifecycle/LifecycleEventObserver;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<set-?>"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -298,17 +270,13 @@
 
 .method public final setState(Landroidx/lifecycle/Lifecycle$State;)V
     .locals 1
-    .param p1    # Landroidx/lifecycle/Lifecycle$State;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<set-?>"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

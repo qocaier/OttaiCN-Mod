@@ -40,7 +40,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -73,7 +72,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public vibrate(JI)V
@@ -98,7 +96,7 @@
     .line 3
     iget-object v0, p0, Lcom/benjaminabel/vibration/Vibration;->vibrator:Landroid/os/Vibrator;
 
-    invoke-static {v0}, Ls5/c;->a(Landroid/os/Vibrator;)Z
+    invoke-static {v0}, Lcom/benjaminabel/vibration/c;->a(Landroid/os/Vibrator;)Z
 
     move-result v0
 
@@ -109,7 +107,7 @@
     .line 4
     iget-object v0, p0, Lcom/benjaminabel/vibration/Vibration;->vibrator:Landroid/os/Vibrator;
 
-    invoke-static {p1, p2, p3}, Ls5/e;->a(JI)Landroid/os/VibrationEffect;
+    invoke-static {p1, p2, p3}, Lcom/benjaminabel/vibration/e;->a(JI)Landroid/os/VibrationEffect;
 
     move-result-object p1
 
@@ -133,7 +131,7 @@
     move-result-object p2
 
     .line 8
-    invoke-static {v0, p1, p2}, Ls5/b;->a(Landroid/os/Vibrator;Landroid/os/VibrationEffect;Landroid/media/AudioAttributes;)V
+    invoke-static {v0, p1, p2}, Lcom/benjaminabel/vibration/b;->a(Landroid/os/Vibrator;Landroid/os/VibrationEffect;Landroid/media/AudioAttributes;)V
 
     return-void
 
@@ -143,7 +141,7 @@
 
     const/4 v0, -0x1
 
-    invoke-static {p1, p2, v0}, Ls5/e;->a(JI)Landroid/os/VibrationEffect;
+    invoke-static {p1, p2, v0}, Lcom/benjaminabel/vibration/e;->a(JI)Landroid/os/VibrationEffect;
 
     move-result-object p1
 
@@ -167,7 +165,7 @@
     move-result-object p2
 
     .line 13
-    invoke-static {p3, p1, p2}, Ls5/b;->a(Landroid/os/Vibrator;Landroid/os/VibrationEffect;Landroid/media/AudioAttributes;)V
+    invoke-static {p3, p1, p2}, Lcom/benjaminabel/vibration/b;->a(Landroid/os/Vibrator;Landroid/os/VibrationEffect;Landroid/media/AudioAttributes;)V
 
     return-void
 
@@ -243,7 +241,7 @@
     .line 19
     iget-object p1, p0, Lcom/benjaminabel/vibration/Vibration;->vibrator:Landroid/os/Vibrator;
 
-    invoke-static {v1, p2}, Ls5/a;->a([JI)Landroid/os/VibrationEffect;
+    invoke-static {v1, p2}, Lcom/benjaminabel/vibration/a;->a([JI)Landroid/os/VibrationEffect;
 
     move-result-object p2
 
@@ -269,7 +267,7 @@
     move-result-object v0
 
     .line 23
-    invoke-static {p1, p2, v0}, Ls5/b;->a(Landroid/os/Vibrator;Landroid/os/VibrationEffect;Landroid/media/AudioAttributes;)V
+    invoke-static {p1, p2, v0}, Lcom/benjaminabel/vibration/b;->a(Landroid/os/Vibrator;Landroid/os/VibrationEffect;Landroid/media/AudioAttributes;)V
 
     return-void
 
@@ -378,7 +376,7 @@
     .line 31
     iget-object p1, p0, Lcom/benjaminabel/vibration/Vibration;->vibrator:Landroid/os/Vibrator;
 
-    invoke-static {p1}, Ls5/c;->a(Landroid/os/Vibrator;)Z
+    invoke-static {p1}, Lcom/benjaminabel/vibration/c;->a(Landroid/os/Vibrator;)Z
 
     move-result p1
 
@@ -389,7 +387,7 @@
     .line 32
     iget-object p1, p0, Lcom/benjaminabel/vibration/Vibration;->vibrator:Landroid/os/Vibrator;
 
-    invoke-static {v1, v3, p2}, Ls5/d;->a([J[II)Landroid/os/VibrationEffect;
+    invoke-static {v1, v3, p2}, Lcom/benjaminabel/vibration/d;->a([J[II)Landroid/os/VibrationEffect;
 
     move-result-object p2
 
@@ -413,7 +411,7 @@
     move-result-object p3
 
     .line 36
-    invoke-static {p1, p2, p3}, Ls5/b;->a(Landroid/os/Vibrator;Landroid/os/VibrationEffect;Landroid/media/AudioAttributes;)V
+    invoke-static {p1, p2, p3}, Lcom/benjaminabel/vibration/b;->a(Landroid/os/Vibrator;Landroid/os/VibrationEffect;Landroid/media/AudioAttributes;)V
 
     return-void
 
@@ -421,7 +419,7 @@
     :cond_2
     iget-object p1, p0, Lcom/benjaminabel/vibration/Vibration;->vibrator:Landroid/os/Vibrator;
 
-    invoke-static {v1, p2}, Ls5/a;->a([JI)Landroid/os/VibrationEffect;
+    invoke-static {v1, p2}, Lcom/benjaminabel/vibration/a;->a([JI)Landroid/os/VibrationEffect;
 
     move-result-object p2
 
@@ -445,7 +443,7 @@
     move-result-object p3
 
     .line 41
-    invoke-static {p1, p2, p3}, Ls5/b;->a(Landroid/os/Vibrator;Landroid/os/VibrationEffect;Landroid/media/AudioAttributes;)V
+    invoke-static {p1, p2, p3}, Lcom/benjaminabel/vibration/b;->a(Landroid/os/Vibrator;Landroid/os/VibrationEffect;Landroid/media/AudioAttributes;)V
 
     return-void
 

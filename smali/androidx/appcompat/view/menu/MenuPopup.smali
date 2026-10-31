@@ -39,6 +39,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static measureIndividualMenuWidth(Landroid/widget/ListAdapter;Landroid/view/ViewGroup;Landroid/content/Context;I)I
@@ -343,6 +344,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static shouldPreserveIconSpacing(Landroidx/appcompat/view/menu/MenuBuilder;)Z
@@ -464,6 +471,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static toMenuAdapter(Landroid/widget/ListAdapter;)Landroidx/appcompat/view/menu/MenuAdapter;
@@ -569,6 +577,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getId()I
@@ -907,6 +916,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public abstract setAnchorView(Landroid/view/View;)V

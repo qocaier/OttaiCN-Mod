@@ -54,7 +54,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -87,7 +86,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getGIFImgPath()Ljava/lang/String;
@@ -118,7 +116,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getImage()Landroid/graphics/Bitmap;
@@ -149,7 +146,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getImgHeight()I
@@ -180,7 +176,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getImgName()Ljava/lang/String;
@@ -211,7 +206,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getImgType()Ljava/lang/String;
@@ -242,7 +236,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getImgWidth()I
@@ -273,7 +266,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMarkerSize()F
@@ -304,7 +296,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isAnimation()I
@@ -335,7 +326,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isRotation()I
@@ -366,7 +356,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAnimation(I)V
@@ -399,7 +388,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setArrowSize(F)V
@@ -432,7 +420,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGIFImgPath(Ljava/lang/String;)V
@@ -465,7 +452,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setImage(Landroid/graphics/Bitmap;)V
@@ -498,7 +484,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setImgHeight(I)V
@@ -531,7 +516,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setImgName(Ljava/lang/String;)V
@@ -564,7 +548,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setImgType(Ljava/lang/String;)V
@@ -597,7 +580,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setImgWidth(I)V
@@ -630,7 +612,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMarkerSize(F)V
@@ -663,7 +644,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRotation(I)V
@@ -696,5 +676,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

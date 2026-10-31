@@ -36,6 +36,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static beginAsyncSection(Ljava/lang/String;I)V
@@ -188,6 +189,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static setCounter(Ljava/lang/String;I)V

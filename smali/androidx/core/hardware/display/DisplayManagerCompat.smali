@@ -211,6 +211,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getInstance(Landroid/content/Context;)Landroidx/core/hardware/display/DisplayManagerCompat;
@@ -386,6 +387,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static numberOfDisplaysByType(I[Landroid/view/Display;)I

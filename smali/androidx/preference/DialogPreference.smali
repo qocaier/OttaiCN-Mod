@@ -220,6 +220,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDialogLayoutResource()I
@@ -248,6 +249,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDialogMessage()Ljava/lang/CharSequence;
@@ -278,6 +280,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDialogTitle()Ljava/lang/CharSequence;
@@ -308,6 +311,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNegativeButtonText()Ljava/lang/CharSequence;
@@ -338,6 +342,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPositiveButtonText()Ljava/lang/CharSequence;
@@ -368,6 +373,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onClick()V
@@ -400,6 +406,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setDialogIcon(I)V

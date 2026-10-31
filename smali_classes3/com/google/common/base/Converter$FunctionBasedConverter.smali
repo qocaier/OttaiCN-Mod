@@ -23,86 +23,63 @@
         "B:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/google/common/base/Converter<",
-        "TA;TB;>;",
+        "Lcom/google/common/base/Converter;",
         "Ljava/io/Serializable;"
     }
 .end annotation
 
 
 # instance fields
-.field private final backwardFunction:Lgb/n;
+.field private final backwardFunction:Lcom/google/common/base/g;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lgb/n<",
-            "-TB;+TA;>;"
+            "Lcom/google/common/base/g;"
         }
     .end annotation
 .end field
 
-.field private final forwardFunction:Lgb/n;
+.field private final forwardFunction:Lcom/google/common/base/g;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lgb/n<",
-            "-TA;+TB;>;"
+            "Lcom/google/common/base/g;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lgb/n;Lgb/n;)V
+.method public constructor <init>(Lcom/google/common/base/g;Lcom/google/common/base/g;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "forwardFunction",
-            "backwardFunction"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lgb/n<",
-            "-TA;+TB;>;",
-            "Lgb/n<",
-            "-TB;+TA;>;)V"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Lcom/google/common/base/Converter;-><init>()V
 
     .line 3
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lgb/n;
+    check-cast p1, Lcom/google/common/base/g;
 
-    iput-object p1, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->forwardFunction:Lgb/n;
+    iput-object p1, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->forwardFunction:Lcom/google/common/base/g;
 
     .line 4
-    invoke-static {p2}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    check-cast p1, Lgb/n;
+    check-cast p1, Lcom/google/common/base/g;
 
-    iput-object p1, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->backwardFunction:Lgb/n;
+    iput-object p1, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->backwardFunction:Lcom/google/common/base/g;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lgb/n;Lgb/n;Lcom/google/common/base/Converter$a;)V
+.method public synthetic constructor <init>(Lcom/google/common/base/g;Lcom/google/common/base/g;Lcom/google/common/base/Converter$a;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/google/common/base/Converter$FunctionBasedConverter;-><init>(Lgb/n;Lgb/n;)V
+    invoke-direct {p0, p1, p2}, Lcom/google/common/base/Converter$FunctionBasedConverter;-><init>(Lcom/google/common/base/g;Lcom/google/common/base/g;)V
 
     return-void
 .end method
@@ -111,15 +88,6 @@
 # virtual methods
 .method public doBackward(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "b"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TB;)TA;"
@@ -127,11 +95,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->backwardFunction:Lgb/n;
+    iget-object v0, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->backwardFunction:Lcom/google/common/base/g;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lgb/n;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcom/google/common/base/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -157,20 +125,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public doForward(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "a"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TA;)TB;"
@@ -178,11 +136,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->forwardFunction:Lgb/n;
+    iget-object v0, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->forwardFunction:Lcom/google/common/base/g;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lgb/n;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lcom/google/common/base/g;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -208,23 +166,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "object"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Lcom/google/common/base/Converter$FunctionBasedConverter;
@@ -242,15 +187,15 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->forwardFunction:Lgb/n;
+    iget-object v0, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->forwardFunction:Lcom/google/common/base/g;
 
     .line 9
     .line 10
-    iget-object v2, p1, Lcom/google/common/base/Converter$FunctionBasedConverter;->forwardFunction:Lgb/n;
+    iget-object v2, p1, Lcom/google/common/base/Converter$FunctionBasedConverter;->forwardFunction:Lcom/google/common/base/g;
 
     .line 11
     .line 12
-    invoke-interface {v0, v2}, Lgb/n;->equals(Ljava/lang/Object;)Z
+    invoke-interface {v0, v2}, Lcom/google/common/base/g;->equals(Ljava/lang/Object;)Z
 
     .line 13
     .line 14
@@ -262,15 +207,15 @@
 
     .line 17
     .line 18
-    iget-object v0, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->backwardFunction:Lgb/n;
+    iget-object v0, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->backwardFunction:Lcom/google/common/base/g;
 
     .line 19
     .line 20
-    iget-object p1, p1, Lcom/google/common/base/Converter$FunctionBasedConverter;->backwardFunction:Lgb/n;
+    iget-object p1, p1, Lcom/google/common/base/Converter$FunctionBasedConverter;->backwardFunction:Lcom/google/common/base/g;
 
     .line 21
     .line 22
-    invoke-interface {v0, p1}, Lgb/n;->equals(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Lcom/google/common/base/g;->equals(Ljava/lang/Object;)Z
 
     .line 23
     .line 24
@@ -351,15 +296,13 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public hashCode()I
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->forwardFunction:Lgb/n;
+    iget-object v0, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->forwardFunction:Lcom/google/common/base/g;
 
     .line 2
     .line 3
@@ -375,7 +318,7 @@
 
     .line 8
     .line 9
-    iget-object v1, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->backwardFunction:Lgb/n;
+    iget-object v1, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->backwardFunction:Lcom/google/common/base/g;
 
     .line 10
     .line 11
@@ -397,7 +340,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -422,7 +364,7 @@
     .line 9
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->forwardFunction:Lgb/n;
+    iget-object v1, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->forwardFunction:Lcom/google/common/base/g;
 
     .line 12
     .line 13
@@ -440,7 +382,7 @@
     .line 19
     .line 20
     .line 21
-    iget-object v1, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->backwardFunction:Lgb/n;
+    iget-object v1, p0, Lcom/google/common/base/Converter$FunctionBasedConverter;->backwardFunction:Lcom/google/common/base/g;
 
     .line 22
     .line 23
@@ -532,13 +474,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

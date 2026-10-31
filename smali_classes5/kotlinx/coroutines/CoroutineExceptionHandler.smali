@@ -3,45 +3,33 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lkotlin/coroutines/d$b;
+.implements Lkotlin/coroutines/i$b;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkotlinx/coroutines/CoroutineExceptionHandler$a;,
-        Lkotlinx/coroutines/CoroutineExceptionHandler$b;
+        Lkotlinx/coroutines/CoroutineExceptionHandler$a;
     }
 .end annotation
 
 
 # static fields
-.field public static final m0:Lkotlinx/coroutines/CoroutineExceptionHandler$b;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final e0:Lkotlinx/coroutines/CoroutineExceptionHandler$a;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    sget-object v0, Lkotlinx/coroutines/CoroutineExceptionHandler$b;->a:Lkotlinx/coroutines/CoroutineExceptionHandler$b;
+    sget-object v0, Lkotlinx/coroutines/CoroutineExceptionHandler$a;->a:Lkotlinx/coroutines/CoroutineExceptionHandler$a;
 
-    sput-object v0, Lkotlinx/coroutines/CoroutineExceptionHandler;->m0:Lkotlinx/coroutines/CoroutineExceptionHandler$b;
+    sput-object v0, Lkotlinx/coroutines/CoroutineExceptionHandler;->e0:Lkotlinx/coroutines/CoroutineExceptionHandler$a;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public abstract handleException(Lkotlin/coroutines/d;Ljava/lang/Throwable;)V
-    .param p1    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Throwable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract handleException(Lkotlin/coroutines/i;Ljava/lang/Throwable;)V
 .end method

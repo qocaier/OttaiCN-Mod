@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static findOnBackInvokedDispatcher(Landroid/view/View;)Landroid/window/OnBackInvokedDispatcher;
@@ -109,11 +110,11 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lh/i;
+    new-instance v0, Landroidx/appcompat/widget/i;
 
     .line 5
     .line 6
-    invoke-direct {v0, p0}, Lh/i;-><init>(Ljava/lang/Runnable;)V
+    invoke-direct {v0, p0}, Landroidx/appcompat/widget/i;-><init>(Ljava/lang/Runnable;)V
 
     .line 7
     .line 8

@@ -48,7 +48,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -83,7 +82,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public name(Ljava/lang/String;)Lcom/baidu/mapapi/search/share/LocationShareURLOption;
@@ -116,7 +114,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public snippet(Ljava/lang/String;)Lcom/baidu/mapapi/search/share/LocationShareURLOption;
@@ -149,5 +146,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

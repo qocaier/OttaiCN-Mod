@@ -3,19 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lim/j;
-    name = "PreferencesKeys"
-.end annotation
-
-
 # direct methods
 .method public static final booleanKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -27,19 +17,12 @@
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "booleanKey"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "name"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -72,10 +55,6 @@
 
 .method public static final byteArrayKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -86,19 +65,12 @@
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "byteArrayKey"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "name"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -131,10 +103,6 @@
 
 .method public static final doubleKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -146,19 +114,12 @@
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "doubleKey"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "name"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -191,10 +152,6 @@
 
 .method public static final floatKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -206,19 +163,12 @@
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "floatKey"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "name"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -251,10 +201,6 @@
 
 .method public static final intKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -266,19 +212,12 @@
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "intKey"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "name"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -311,10 +250,6 @@
 
 .method public static final longKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -326,19 +261,12 @@
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "longKey"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "name"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -371,10 +299,6 @@
 
 .method public static final stringKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -386,19 +310,12 @@
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "stringKey"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "name"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -431,10 +348,6 @@
 
 .method public static final stringSetKey(Ljava/lang/String;)Landroidx/datastore/preferences/core/Preferences$Key;
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -447,19 +360,12 @@
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "stringSetKey"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "name"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

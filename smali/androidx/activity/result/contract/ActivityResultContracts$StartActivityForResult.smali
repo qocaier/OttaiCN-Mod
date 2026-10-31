@@ -31,14 +31,8 @@
 
 # static fields
 .field public static final Companion:Landroidx/activity/result/contract/ActivityResultContracts$StartActivityForResult$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final EXTRA_ACTIVITY_OPTIONS_BUNDLE:Ljava/lang/String; = "androidx.activity.result.contract.extra.ACTIVITY_OPTIONS_BUNDLE"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -49,7 +43,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/activity/result/contract/ActivityResultContracts$StartActivityForResult$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/activity/result/contract/ActivityResultContracts$StartActivityForResult$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/activity/result/contract/ActivityResultContracts$StartActivityForResult;->Companion:Landroidx/activity/result/contract/ActivityResultContracts$StartActivityForResult$Companion;
 
@@ -82,31 +76,22 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public createIntent(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/Intent;
     .locals 1
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/content/Intent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "input"
 
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p2
 .end method
@@ -126,12 +111,6 @@
 
 .method public parseResult(ILandroid/content/Intent;)Landroidx/activity/result/ActivityResult;
     .locals 1
-    .param p2    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroidx/activity/result/ActivityResult;

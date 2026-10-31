@@ -252,6 +252,7 @@
     .line 78
     :cond_2
     return v2
+    .line 79
 .end method
 
 .method public getDynamicRange()Landroidx/camera/core/DynamicRange;
@@ -282,6 +283,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPhysicalCameraId()Ljava/lang/String;
@@ -312,6 +314,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSharedSurfaces()Ljava/util/List;
@@ -351,6 +354,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurface()Landroidx/camera/core/impl/DeferrableSurface;
@@ -381,6 +385,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurfaceGroupId()I
@@ -409,6 +414,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -553,6 +559,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -695,4 +703,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

@@ -3,40 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lio/flutter/plugin/common/BasicMessageChannel$Reply;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Ljm/l;
-
-.field public final synthetic b:Ljava/lang/String;
+.field public final synthetic a:Lio/flutter/plugins/webviewflutter/AndroidWebkitLibraryPigeonInstanceManager;
 
 
 # direct methods
-.method public synthetic constructor <init>(Ljm/l;Ljava/lang/String;)V
+.method public synthetic constructor <init>(Lio/flutter/plugins/webviewflutter/AndroidWebkitLibraryPigeonInstanceManager;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lio/flutter/plugins/webviewflutter/a;->a:Ljm/l;
-
-    iput-object p2, p0, Lio/flutter/plugins/webviewflutter/a;->b:Ljava/lang/String;
+    iput-object p1, p0, Lio/flutter/plugins/webviewflutter/a;->a:Lio/flutter/plugins/webviewflutter/AndroidWebkitLibraryPigeonInstanceManager;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final reply(Ljava/lang/Object;)V
-    .locals 2
+.method public final run()V
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/flutter/plugins/webviewflutter/a;->a:Ljm/l;
+    iget-object v0, p0, Lio/flutter/plugins/webviewflutter/a;->a:Lio/flutter/plugins/webviewflutter/AndroidWebkitLibraryPigeonInstanceManager;
 
-    iget-object v1, p0, Lio/flutter/plugins/webviewflutter/a;->b:Ljava/lang/String;
-
-    invoke-static {v0, v1, p1}, Lio/flutter/plugins/webviewflutter/AndroidWebkitLibraryPigeonInstanceManagerApi;->a(Ljm/l;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v0}, Lio/flutter/plugins/webviewflutter/AndroidWebkitLibraryPigeonInstanceManager;->a(Lio/flutter/plugins/webviewflutter/AndroidWebkitLibraryPigeonInstanceManager;)V
 
     return-void
 .end method

@@ -18,11 +18,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lu/a;
+    new-instance v0, Landroidx/camera/core/impl/a;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lu/a;-><init>()V
+    invoke-direct {v0}, Landroidx/camera/core/impl/a;-><init>()V
 
     .line 4
     .line 5
@@ -44,6 +44,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/CameraInfo;Landroid/content/Context;)Landroidx/camera/core/impl/CameraConfig;

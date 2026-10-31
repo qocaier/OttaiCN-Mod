@@ -77,6 +77,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static buildTypeface(Landroid/content/Context;Landroid/os/CancellationSignal;[Landroidx/core/provider/FontsContractCompat$FontInfo;)Landroid/graphics/Typeface;
@@ -202,6 +203,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static fetchFonts(Landroid/content/Context;Landroid/os/CancellationSignal;Landroidx/core/provider/FontRequest;)Landroidx/core/provider/FontsContractCompat$FontFamilyResult;
@@ -213,7 +217,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p2}, Ly0/g;->a(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p2}, Landroidx/core/provider/h;->a(Ljava/lang/Object;)Ljava/util/List;
 
     .line 2
     .line 3
@@ -334,6 +338,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static getFontSync(Landroid/content/Context;Landroidx/core/provider/FontRequest;Landroidx/core/content/res/ResourcesCompat$FontCallback;Landroid/os/Handler;ZII)Landroid/graphics/Typeface;
@@ -371,7 +378,7 @@
     move-result-object p3
 
     .line 12
-    invoke-static {p1}, Ly0/f;->a(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p1}, Landroidx/core/provider/g;->a(Ljava/lang/Object;)Ljava/util/List;
 
     .line 13
     .line 14
@@ -1132,6 +1139,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static prepareFontData(Landroid/content/Context;[Landroidx/core/provider/FontsContractCompat$FontInfo;Landroid/os/CancellationSignal;)Ljava/util/Map;
@@ -1278,6 +1288,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static requestFont(Landroid/content/Context;Landroidx/core/provider/FontRequest;IZILandroid/os/Handler;Landroidx/core/provider/FontsContractCompat$FontRequestCallback;)Landroid/graphics/Typeface;
@@ -1294,7 +1307,7 @@
     .end annotation
 
     .line 15
-    invoke-static {p1}, Ly0/e;->a(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p1}, Landroidx/core/provider/f;->a(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
 
@@ -1403,7 +1416,7 @@
     move-result-object p0
 
     .line 8
-    invoke-static {p1}, Ly0/h;->a(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p1}, Landroidx/core/provider/i;->a(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
 
@@ -1433,7 +1446,7 @@
     move-result-object p0
 
     .line 4
-    invoke-static {p1}, Ly0/d;->a(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p1}, Landroidx/core/provider/e;->a(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
 
@@ -2516,6 +2529,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static resetTypefaceCache()V
@@ -2552,4 +2566,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

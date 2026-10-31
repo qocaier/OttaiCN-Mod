@@ -27,15 +27,13 @@
     .end annotation
 .end field
 
-.field private final mCloseFuture:Lub/u0;
+.field private final mCloseFuture:Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -255,16 +253,16 @@
     .line 52
     .line 53
     .line 54
-    new-instance p1, Landroidx/camera/core/processing/e;
+    new-instance p1, Landroidx/camera/core/processing/a0;
 
     .line 55
     .line 56
-    invoke-direct {p1, p0}, Landroidx/camera/core/processing/e;-><init>(Landroidx/camera/core/processing/SurfaceOutputImpl;)V
+    invoke-direct {p1, p0}, Landroidx/camera/core/processing/a0;-><init>(Landroidx/camera/core/processing/SurfaceOutputImpl;)V
 
     .line 57
     .line 58
     .line 59
-    invoke-static {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 60
     .line 61
@@ -272,7 +270,7 @@
     move-result-object p1
 
     .line 63
-    iput-object p1, p0, Landroidx/camera/core/processing/SurfaceOutputImpl;->mCloseFuture:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/core/processing/SurfaceOutputImpl;->mCloseFuture:Lcom/google/common/util/concurrent/t;
 
     .line 64
     .line 65
@@ -1137,6 +1135,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private calculateInvertedTextureTransform()V
@@ -1294,6 +1344,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -1428,6 +1480,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCamera()Landroidx/camera/core/impl/CameraInternal;
@@ -1458,9 +1512,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public getCloseFuture()Lub/u0;
+.method public getCloseFuture()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -1468,14 +1523,12 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/processing/SurfaceOutputImpl;->mCloseFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/processing/SurfaceOutputImpl;->mCloseFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -1497,6 +1550,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFormat()I
@@ -1525,6 +1579,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInputCropRect()Landroid/graphics/Rect;
@@ -1555,6 +1610,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInputSize()Landroid/util/Size;
@@ -1585,6 +1641,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMirroring()Z
@@ -1615,6 +1672,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRotationDegrees()I
@@ -1645,6 +1703,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSensorToBufferTransform()Landroid/graphics/Matrix;
@@ -1679,6 +1738,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSize()Landroid/util/Size;
@@ -1709,6 +1769,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurface(Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)Landroid/view/Surface;
@@ -1844,6 +1905,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isClosed()Z
@@ -1890,6 +1952,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public requestClose()V
@@ -1991,11 +2054,11 @@
     .line 39
     .line 40
     :try_start_1
-    new-instance v1, Landroidx/camera/core/processing/f;
+    new-instance v1, Landroidx/camera/core/processing/b0;
 
     .line 41
     .line 42
-    invoke-direct {v1, p0, v0}, Landroidx/camera/core/processing/f;-><init>(Landroidx/camera/core/processing/SurfaceOutputImpl;Ljava/util/concurrent/atomic/AtomicReference;)V
+    invoke-direct {v1, p0, v0}, Landroidx/camera/core/processing/b0;-><init>(Landroidx/camera/core/processing/SurfaceOutputImpl;Ljava/util/concurrent/atomic/AtomicReference;)V
 
     .line 43
     .line 44
@@ -2064,6 +2127,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public updateTransformMatrix([F[F)V

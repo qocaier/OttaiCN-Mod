@@ -38,11 +38,10 @@
 
 
 # instance fields
-.field private final mValueFuture:Lub/u0;
+.field private final mValueFuture:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "TT;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -81,6 +80,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>(Ljava/lang/Object;)V
@@ -101,7 +101,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 5
     .line 6
@@ -109,7 +109,7 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Landroidx/camera/core/impl/ConstantObservable;->mValueFuture:Lub/u0;
+    iput-object p1, p0, Landroidx/camera/core/impl/ConstantObservable;->mValueFuture:Lcom/google/common/util/concurrent/t;
 
     .line 9
     .line 10
@@ -141,7 +141,7 @@
     .line 3
     .line 4
     :try_start_0
-    iget-object p0, p0, Landroidx/camera/core/impl/ConstantObservable;->mValueFuture:Lub/u0;
+    iget-object p0, p0, Landroidx/camera/core/impl/ConstantObservable;->mValueFuture:Lcom/google/common/util/concurrent/t;
 
     .line 5
     .line 6
@@ -292,20 +292,20 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/impl/ConstantObservable;->mValueFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/ConstantObservable;->mValueFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
-    new-instance v1, Lu/i;
+    new-instance v1, Landroidx/camera/core/impl/i;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p2}, Lu/i;-><init>(Landroidx/camera/core/impl/ConstantObservable;Landroidx/camera/core/impl/Observable$Observer;)V
+    invoke-direct {v1, p0, p2}, Landroidx/camera/core/impl/i;-><init>(Landroidx/camera/core/impl/ConstantObservable;Landroidx/camera/core/impl/Observable$Observer;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-interface {v0, v1, p1}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v0, v1, p1}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 9
     .line 10
@@ -350,7 +350,7 @@
     .line 48
 .end method
 
-.method public fetchData()Lub/u0;
+.method public fetchData()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -358,13 +358,12 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "TT;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/impl/ConstantObservable;->mValueFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/core/impl/ConstantObservable;->mValueFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -386,6 +385,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeObserver(Landroidx/camera/core/impl/Observable$Observer;)V

@@ -105,6 +105,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -137,6 +138,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$1000(Landroidx/datastore/preferences/PreferencesProto$Value;)V
@@ -755,6 +757,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$400(Landroidx/datastore/preferences/PreferencesProto$Value;)V
@@ -1063,6 +1066,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearBytes()V
@@ -1104,6 +1108,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearDouble()V
@@ -1145,6 +1150,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearFloat()V
@@ -1186,6 +1192,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearInteger()V
@@ -1227,6 +1234,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearLong()V
@@ -1268,6 +1276,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearString()V
@@ -1309,6 +1318,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearStringSet()V
@@ -1350,6 +1360,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private clearValue()V
@@ -1384,6 +1395,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getDefaultInstance()Landroidx/datastore/preferences/PreferencesProto$Value;
@@ -1412,6 +1424,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private mergeStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet;)V
@@ -1540,6 +1553,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static newBuilder()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -1850,6 +1864,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private setBoolean(Z)V
@@ -2460,6 +2475,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getBoolean()Z
@@ -2505,6 +2523,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -2546,6 +2565,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDouble()D
@@ -2591,6 +2611,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFloat()F
@@ -2636,6 +2657,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInteger()I
@@ -2681,6 +2703,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLong()J
@@ -2726,6 +2749,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getString()Ljava/lang/String;
@@ -2767,6 +2791,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStringBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -2813,6 +2838,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStringSet()Landroidx/datastore/preferences/PreferencesProto$StringSet;
@@ -2856,6 +2882,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getValueCase()Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
@@ -2888,6 +2915,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasBoolean()Z
@@ -2925,6 +2953,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasBytes()Z
@@ -2964,6 +2993,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasDouble()Z
@@ -3003,6 +3033,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasFloat()Z
@@ -3042,6 +3073,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasInteger()Z
@@ -3081,6 +3113,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasLong()Z
@@ -3120,6 +3153,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasString()Z
@@ -3159,6 +3193,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasStringSet()Z
@@ -3198,4 +3233,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

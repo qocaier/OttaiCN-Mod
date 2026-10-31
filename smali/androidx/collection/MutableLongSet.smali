@@ -3,18 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLongSet.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LongSet.kt\nandroidx/collection/MutableLongSet\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 ScatterMap.kt\nandroidx/collection/ScatterMapKt\n+ 4 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n+ 5 LongSet.kt\nandroidx/collection/LongSet\n+ 6 LongSet.kt\nandroidx/collection/LongSetKt\n*L\n1#1,853:1\n832#1,2:997\n836#1,5:1005\n832#1,2:1036\n836#1,5:1044\n832#1,2:1061\n836#1,5:1069\n832#1,2:1075\n836#1,5:1083\n1#2:854\n1672#3,6:855\n1826#3:874\n1688#3:878\n1619#3:895\n1615#3:898\n1795#3,3:902\n1809#3,3:906\n1733#3:910\n1721#3:912\n1715#3:913\n1728#3:918\n1818#3:920\n1619#3:934\n1615#3:937\n1795#3,3:941\n1809#3,3:945\n1733#3:949\n1721#3:951\n1715#3:952\n1728#3:957\n1818#3:959\n1826#3:981\n1688#3:985\n1672#3,6:999\n1672#3,6:1010\n1615#3:1019\n1619#3:1020\n1795#3,3:1021\n1809#3,3:1024\n1733#3:1027\n1721#3:1028\n1715#3:1029\n1728#3:1030\n1818#3:1031\n1682#3:1032\n1661#3:1033\n1680#3:1034\n1661#3:1035\n1672#3,6:1038\n1795#3,3:1049\n1826#3:1052\n1715#3:1053\n1685#3:1054\n1661#3:1055\n1615#3:1059\n1619#3:1060\n1672#3,6:1063\n1661#3:1074\n1672#3,6:1077\n1672#3,6:1088\n1672#3,6:1094\n13607#4,2:861\n13607#4,2:968\n262#5,4:863\n232#5,7:867\n243#5,3:875\n246#5,2:879\n266#5,2:881\n249#5,6:883\n268#5:889\n442#5:890\n443#5:894\n445#5,2:896\n447#5,3:899\n450#5:905\n451#5:909\n452#5:911\n453#5,4:914\n459#5:919\n460#5,8:921\n442#5:929\n443#5:933\n445#5,2:935\n447#5,3:938\n450#5:944\n451#5:948\n452#5:950\n453#5,4:953\n459#5:958\n460#5,8:960\n262#5,4:970\n232#5,7:974\n243#5,3:982\n246#5,2:986\n266#5,2:988\n249#5,6:990\n268#5:996\n849#6,3:891\n849#6,3:930\n849#6,3:1016\n849#6,3:1056\n*S KotlinDebug\n*F\n+ 1 LongSet.kt\nandroidx/collection/MutableLongSet\n*L\n673#1:997,2\n673#1:1005,5\n731#1:1036,2\n731#1:1044,5\n803#1:1061,2\n803#1:1069,5\n818#1:1075,2\n818#1:1083,5\n526#1:855,6\n595#1:874\n595#1:878\n607#1:895\n607#1:898\n607#1:902,3\n607#1:906,3\n607#1:910\n607#1:912\n607#1:913\n607#1:918\n607#1:920\n620#1:934\n620#1:937\n620#1:941,3\n620#1:945,3\n620#1:949\n620#1:951\n620#1:952\n620#1:957\n620#1:959\n663#1:981\n663#1:985\n673#1:999,6\n683#1:1010,6\n697#1:1019\n698#1:1020\n705#1:1021,3\n706#1:1024,3\n707#1:1027\n708#1:1028\n708#1:1029\n712#1:1030\n715#1:1031\n724#1:1032\n724#1:1033\n730#1:1034\n730#1:1035\n731#1:1038,6\n745#1:1049,3\n746#1:1052\n748#1:1053\n798#1:1054\n798#1:1055\n801#1:1059\n803#1:1060\n803#1:1063,6\n816#1:1074\n818#1:1077,6\n833#1:1088,6\n839#1:1094,6\n573#1:861,2\n642#1:968,2\n595#1:863,4\n595#1:867,7\n595#1:875,3\n595#1:879,2\n595#1:881,2\n595#1:883,6\n595#1:889\n607#1:890\n607#1:894\n607#1:896,2\n607#1:899,3\n607#1:905\n607#1:909\n607#1:911\n607#1:914,4\n607#1:919\n607#1:921,8\n620#1:929\n620#1:933\n620#1:935,2\n620#1:938,3\n620#1:944\n620#1:948\n620#1:950\n620#1:953,4\n620#1:958\n620#1:960,8\n663#1:970,4\n663#1:974,7\n663#1:982,3\n663#1:986,2\n663#1:988,2\n663#1:990,6\n663#1:996\n607#1:891,3\n620#1:930,3\n696#1:1016,3\n800#1:1056,3\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nLongSet.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LongSet.kt\nandroidx/collection/MutableLongSet\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 ScatterMap.kt\nandroidx/collection/ScatterMapKt\n+ 4 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n+ 5 LongSet.kt\nandroidx/collection/LongSet\n+ 6 LongSet.kt\nandroidx/collection/LongSetKt\n*L\n1#1,853:1\n832#1,2:997\n836#1,5:1005\n832#1,2:1036\n836#1,5:1044\n832#1,2:1061\n836#1,5:1069\n832#1,2:1075\n836#1,5:1083\n1#2:854\n1672#3,6:855\n1826#3:874\n1688#3:878\n1619#3:895\n1615#3:898\n1795#3,3:902\n1809#3,3:906\n1733#3:910\n1721#3:912\n1715#3:913\n1728#3:918\n1818#3:920\n1619#3:934\n1615#3:937\n1795#3,3:941\n1809#3,3:945\n1733#3:949\n1721#3:951\n1715#3:952\n1728#3:957\n1818#3:959\n1826#3:981\n1688#3:985\n1672#3,6:999\n1672#3,6:1010\n1615#3:1019\n1619#3:1020\n1795#3,3:1021\n1809#3,3:1024\n1733#3:1027\n1721#3:1028\n1715#3:1029\n1728#3:1030\n1818#3:1031\n1682#3:1032\n1661#3:1033\n1680#3:1034\n1661#3:1035\n1672#3,6:1038\n1795#3,3:1049\n1826#3:1052\n1715#3:1053\n1685#3:1054\n1661#3:1055\n1615#3:1059\n1619#3:1060\n1672#3,6:1063\n1661#3:1074\n1672#3,6:1077\n1672#3,6:1088\n1672#3,6:1094\n13607#4,2:861\n13607#4,2:968\n262#5,4:863\n232#5,7:867\n243#5,3:875\n246#5,2:879\n266#5,2:881\n249#5,6:883\n268#5:889\n442#5:890\n443#5:894\n445#5,2:896\n447#5,3:899\n450#5:905\n451#5:909\n452#5:911\n453#5,4:914\n459#5:919\n460#5,8:921\n442#5:929\n443#5:933\n445#5,2:935\n447#5,3:938\n450#5:944\n451#5:948\n452#5:950\n453#5,4:953\n459#5:958\n460#5,8:960\n262#5,4:970\n232#5,7:974\n243#5,3:982\n246#5,2:986\n266#5,2:988\n249#5,6:990\n268#5:996\n849#6,3:891\n849#6,3:930\n849#6,3:1016\n849#6,3:1056\n*S KotlinDebug\n*F\n+ 1 LongSet.kt\nandroidx/collection/MutableLongSet\n*L\n673#1:997,2\n673#1:1005,5\n731#1:1036,2\n731#1:1044,5\n803#1:1061,2\n803#1:1069,5\n818#1:1075,2\n818#1:1083,5\n526#1:855,6\n595#1:874\n595#1:878\n607#1:895\n607#1:898\n607#1:902,3\n607#1:906,3\n607#1:910\n607#1:912\n607#1:913\n607#1:918\n607#1:920\n620#1:934\n620#1:937\n620#1:941,3\n620#1:945,3\n620#1:949\n620#1:951\n620#1:952\n620#1:957\n620#1:959\n663#1:981\n663#1:985\n673#1:999,6\n683#1:1010,6\n697#1:1019\n698#1:1020\n705#1:1021,3\n706#1:1024,3\n707#1:1027\n708#1:1028\n708#1:1029\n712#1:1030\n715#1:1031\n724#1:1032\n724#1:1033\n730#1:1034\n730#1:1035\n731#1:1038,6\n745#1:1049,3\n746#1:1052\n748#1:1053\n798#1:1054\n798#1:1055\n801#1:1059\n803#1:1060\n803#1:1063,6\n816#1:1074\n818#1:1077,6\n833#1:1088,6\n839#1:1094,6\n573#1:861,2\n642#1:968,2\n595#1:863,4\n595#1:867,7\n595#1:875,3\n595#1:879,2\n595#1:881,2\n595#1:883,6\n595#1:889\n607#1:890\n607#1:894\n607#1:896,2\n607#1:899,3\n607#1:905\n607#1:909\n607#1:911\n607#1:914,4\n607#1:919\n607#1:921,8\n620#1:929\n620#1:933\n620#1:935,2\n620#1:938,3\n620#1:944\n620#1:948\n620#1:950\n620#1:953,4\n620#1:958\n620#1:960,8\n663#1:970,4\n663#1:974,7\n663#1:982,3\n663#1:986,2\n663#1:988,2\n663#1:990,6\n663#1:996\n607#1:891,3\n620#1:930,3\n696#1:1016,3\n800#1:1056,3\n*E\n"
-    }
-.end annotation
-
-
 # instance fields
 .field private growthLimit:I
 
@@ -30,7 +18,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableLongSet;-><init>(IILkm/v;)V
+    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableLongSet;-><init>(IILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
@@ -41,7 +29,7 @@
     const/4 v0, 0x0
 
     .line 3
-    invoke-direct {p0, v0}, Landroidx/collection/LongSet;-><init>(Lkm/v;)V
+    invoke-direct {p0, v0}, Landroidx/collection/LongSet;-><init>(Lkotlin/jvm/internal/f;)V
 
     if-ltz p1, :cond_0
 
@@ -65,7 +53,7 @@
     throw p1
 .end method
 
-.method public synthetic constructor <init>(IILkm/v;)V
+.method public synthetic constructor <init>(IILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p2, p2, 0x1
@@ -104,7 +92,7 @@
     int-to-long v0, v0
 
     .line 10
-    invoke-static {v0, v1}, Ljl/u1;->l(J)J
+    invoke-static {v0, v1}, Lkotlin/h;->a(J)J
 
     .line 11
     .line 12
@@ -119,7 +107,7 @@
     mul-long/2addr v0, v2
 
     .line 17
-    invoke-static {v0, v1}, Ljl/u1;->l(J)J
+    invoke-static {v0, v1}, Lkotlin/h;->a(J)J
 
     .line 18
     .line 19
@@ -134,7 +122,7 @@
     int-to-long v2, v2
 
     .line 24
-    invoke-static {v2, v3}, Ljl/u1;->l(J)J
+    invoke-static {v2, v3}, Lkotlin/h;->a(J)J
 
     .line 25
     .line 26
@@ -149,7 +137,7 @@
     mul-long/2addr v2, v4
 
     .line 31
-    invoke-static {v2, v3}, Ljl/u1;->l(J)J
+    invoke-static {v2, v3}, Lkotlin/h;->a(J)J
 
     .line 32
     .line 33
@@ -157,7 +145,7 @@
     move-result-wide v2
 
     .line 35
-    invoke-static {v0, v1, v2, v3}, Li0/a;->a(JJ)I
+    invoke-static {v0, v1, v2, v3}, Landroidx/collection/a;->a(JJ)I
 
     .line 36
     .line 37
@@ -226,6 +214,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private final findAbsoluteInsertIndex(J)I
@@ -732,6 +722,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private final findFirstAvailableSlot(I)I
@@ -892,6 +887,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final initializeGrowth()V
@@ -932,6 +928,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final initializeMetadata(I)V
@@ -985,7 +982,7 @@
     const/4 v5, 0x0
 
     .line 23
-    invoke-static/range {v1 .. v7}, Lll/q;->U1([JJIIILjava/lang/Object;)V
+    invoke-static/range {v1 .. v7}, Lkotlin/collections/l;->s([JJIIILjava/lang/Object;)V
 
     .line 24
     .line 25
@@ -1070,6 +1067,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final initializeStorage(I)V
@@ -1310,6 +1308,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private final removeElementAt(I)V
@@ -1456,6 +1456,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final resizeStorage(I)V
@@ -1834,6 +1835,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private final writeMetadata(IJ)V
@@ -2000,14 +2006,10 @@
 
 .method public final addAll(Landroidx/collection/LongSet;)Z
     .locals 1
-    .param p1    # Landroidx/collection/LongSet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     iget v0, p0, Landroidx/collection/LongSet;->_size:I
@@ -2032,14 +2034,10 @@
 
 .method public final addAll([J)Z
     .locals 1
-    .param p1    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget v0, p0, Landroidx/collection/LongSet;->_size:I
@@ -2104,7 +2102,7 @@
     const/4 v5, 0x0
 
     .line 19
-    invoke-static/range {v1 .. v7}, Lll/q;->U1([JJIIILjava/lang/Object;)V
+    invoke-static/range {v1 .. v7}, Lkotlin/collections/l;->s([JJIIILjava/lang/Object;)V
 
     .line 20
     .line 21
@@ -2199,6 +2197,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final minusAssign(J)V
@@ -2357,14 +2357,10 @@
 
 .method public final minusAssign(Landroidx/collection/LongSet;)V
     .locals 13
-    .param p1    # Landroidx/collection/LongSet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     iget-object v0, p1, Landroidx/collection/LongSet;->elements:[J
@@ -2461,14 +2457,10 @@
 
 .method public final minusAssign([J)V
     .locals 4
-    .param p1    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     array-length v0, p1
@@ -2509,14 +2501,10 @@
 
 .method public final plusAssign(Landroidx/collection/LongSet;)V
     .locals 13
-    .param p1    # Landroidx/collection/LongSet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     iget-object v0, p1, Landroidx/collection/LongSet;->elements:[J
@@ -2613,14 +2601,10 @@
 
 .method public final plusAssign([J)V
     .locals 4
-    .param p1    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     array-length v0, p1
@@ -3037,18 +3021,19 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public final removeAll(Landroidx/collection/LongSet;)Z
     .locals 1
-    .param p1    # Landroidx/collection/LongSet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     iget v0, p0, Landroidx/collection/LongSet;->_size:I
@@ -3073,14 +3058,10 @@
 
 .method public final removeAll([J)Z
     .locals 1
-    .param p1    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     iget v0, p0, Landroidx/collection/LongSet;->_size:I
@@ -3219,4 +3200,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

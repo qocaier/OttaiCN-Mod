@@ -5,14 +5,8 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/window/core/BuildConfig;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final verificationMode:Landroidx/window/core/VerificationMode;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -50,6 +44,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -78,14 +73,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final getVerificationMode()Landroidx/window/core/VerificationMode;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/window/core/BuildConfig;->verificationMode:Landroidx/window/core/VerificationMode;
@@ -110,4 +104,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

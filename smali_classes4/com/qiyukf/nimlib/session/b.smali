@@ -717,7 +717,7 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const-string p0, "|"
+    const-string/jumbo p0, "|"
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1116,9 +1116,9 @@
     .end annotation
 
     .line 161
-    new-instance v0, Lhh/a;
+    new-instance v0, Lcom/qiyukf/nimlib/session/f;
 
-    invoke-direct {v0}, Lhh/a;-><init>()V
+    invoke-direct {v0}, Lcom/qiyukf/nimlib/session/f;-><init>()V
 
     const/4 v1, 0x1
 
@@ -1619,9 +1619,9 @@
     .end annotation
 
     .line 138
-    new-instance v0, Lhh/c;
+    new-instance v0, Lcom/qiyukf/nimlib/session/h;
 
-    invoke-direct {v0}, Lhh/c;-><init>()V
+    invoke-direct {v0}, Lcom/qiyukf/nimlib/session/h;-><init>()V
 
     const/4 v1, 0x1
 
@@ -1862,9 +1862,9 @@
 
     check-cast p1, Ljava/util/Collection;
 
-    new-instance v1, Lhh/d;
+    new-instance v1, Lcom/qiyukf/nimlib/session/i;
 
-    invoke-direct {v1, v0}, Lhh/d;-><init>(Landroid/util/Pair;)V
+    invoke-direct {v1, v0}, Lcom/qiyukf/nimlib/session/i;-><init>(Landroid/util/Pair;)V
 
     invoke-static {p1, v1}, Lcom/qiyukf/p4;->c(Ljava/util/Collection;Lcom/qiyukf/p4$a;)Ljava/util/List;
 
@@ -3188,9 +3188,9 @@
     move-result-object v3
 
     .line 17
-    new-instance v4, Lhh/b;
+    new-instance v4, Lcom/qiyukf/nimlib/session/g;
 
-    invoke-direct {v4, v3}, Lhh/b;-><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v3}, Lcom/qiyukf/nimlib/session/g;-><init>(Ljava/lang/String;)V
 
     invoke-static {p0, v4}, Lcom/qiyukf/p4;->a(Ljava/util/Collection;Lcom/qiyukf/p4$a;)Z
 

@@ -305,6 +305,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getChannelId()Ljava/lang/String;
@@ -333,6 +334,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentIntent()Landroid/app/PendingIntent;
@@ -361,6 +363,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDeleteIntent()Landroid/app/PendingIntent;
@@ -389,6 +392,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isAvailableOnTv()Z
@@ -428,6 +432,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSuppressShowOverApps()Z
@@ -456,6 +461,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setChannelId(Ljava/lang/String;)Landroidx/core/app/NotificationCompat$TvExtender;

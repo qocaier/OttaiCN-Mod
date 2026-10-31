@@ -43,7 +43,7 @@
 
     iget-object v0, p0, Lcom/tencent/smtt/sdk/SystemWebViewClient$3;->a:Landroid/webkit/RenderProcessGoneDetail;
 
-    invoke-static {v0}, Lhi/b;->a(Landroid/webkit/RenderProcessGoneDetail;)Z
+    invoke-static {v0}, Lcom/tencent/smtt/sdk/x;->a(Landroid/webkit/RenderProcessGoneDetail;)Z
 
     move-result v0
 
@@ -55,7 +55,7 @@
 
     iget-object v0, p0, Lcom/tencent/smtt/sdk/SystemWebViewClient$3;->a:Landroid/webkit/RenderProcessGoneDetail;
 
-    invoke-static {v0}, Lhi/a;->a(Landroid/webkit/RenderProcessGoneDetail;)I
+    invoke-static {v0}, Lcom/tencent/smtt/sdk/w;->a(Landroid/webkit/RenderProcessGoneDetail;)I
 
     move-result v0
 

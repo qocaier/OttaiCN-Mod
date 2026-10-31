@@ -133,6 +133,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public next()Ljava/lang/Object;
@@ -177,4 +178,5 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
 .end method

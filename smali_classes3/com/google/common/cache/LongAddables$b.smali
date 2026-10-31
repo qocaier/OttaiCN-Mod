@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lgb/b0;
+.implements Lcom/google/common/base/s;
 
 
 # annotations
@@ -14,15 +14,6 @@
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x1
     name = null
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lgb/b0<",
-        "Lib/j;",
-        ">;"
-    }
 .end annotation
 
 
@@ -55,12 +46,11 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
-.method public a()Lib/j;
+.method public a()Lcom/google/common/cache/j;
     .locals 2
 
     .line 1
@@ -92,14 +82,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic get()Ljava/lang/Object;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/common/cache/LongAddables$b;->a()Lib/j;
+    invoke-virtual {p0}, Lcom/google/common/cache/LongAddables$b;->a()Lcom/google/common/cache/j;
 
     .line 2
     .line 3
@@ -125,5 +114,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

@@ -55,6 +55,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static final a(Lcom/qiyukf/tv;)Lcom/qiyukf/o60;
@@ -326,6 +328,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public e(Ljava/lang/String;)V
@@ -359,6 +363,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getAccount()Ljava/lang/String;
@@ -387,6 +393,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExtension()Ljava/util/Map;
@@ -428,6 +436,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getInvitorAccid()Ljava/lang/String;
@@ -456,6 +466,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getJoinTime()J
@@ -484,6 +496,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTeamNick()Ljava/lang/String;
@@ -512,6 +526,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTid()Ljava/lang/String;
@@ -540,6 +556,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getType()Lcom/qiyukf/nimlib/sdk/team/constant/TeamMemberType;
@@ -568,6 +586,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isInTeam()Z
@@ -605,6 +625,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isMute()Z
@@ -633,4 +655,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

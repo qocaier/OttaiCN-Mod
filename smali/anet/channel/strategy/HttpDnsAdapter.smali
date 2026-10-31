@@ -15,29 +15,9 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    .line 3
-    .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
 .end method
 
 .method public static getIpByHttpDns(Ljava/lang/String;)Ljava/lang/String;
@@ -153,6 +133,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getOriginByHttpDns(Ljava/lang/String;)Lanet/channel/strategy/HttpDnsAdapter$HttpDnsOrigin;
@@ -268,6 +249,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getOriginsByHttpDns(Ljava/lang/String;)Ljava/util/ArrayList;
@@ -534,6 +516,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static setHosts(Ljava/util/ArrayList;)V

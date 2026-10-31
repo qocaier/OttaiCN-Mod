@@ -83,6 +83,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -113,6 +115,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCopyText(Landroid/content/Context;)Ljava/lang/String;
@@ -146,6 +150,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getMsgType()I
@@ -174,6 +180,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuoteMessageContent()Ljava/lang/String;
@@ -202,6 +210,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuoteMessageType()Ljava/lang/String;
@@ -230,6 +240,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuoteMsgId()Ljava/lang/String;
@@ -258,6 +270,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getQuoteMsgSessionId()J
@@ -286,6 +300,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()J
@@ -314,6 +330,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setContent(Ljava/lang/String;)V
@@ -347,6 +365,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMsgType(I)V
@@ -380,6 +400,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setQuoteMessageContent(Ljava/lang/String;)V
@@ -413,6 +435,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setQuoteMessageType(Ljava/lang/String;)V
@@ -446,6 +470,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setQuoteMsgId(Ljava/lang/String;)V
@@ -479,6 +505,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setQuoteMsgSessionId(J)V
@@ -512,6 +540,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionId(J)V
@@ -545,4 +575,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

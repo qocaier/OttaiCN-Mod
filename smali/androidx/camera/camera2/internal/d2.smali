@@ -3,28 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/camera/core/internal/utils/RingBuffer$OnRemoveCallback;
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/core/impl/CaptureConfig;
 
 
 # direct methods
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Landroidx/camera/core/impl/CaptureConfig;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/camera/camera2/internal/d2;->a:Landroidx/camera/core/impl/CaptureConfig;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onRemove(Ljava/lang/Object;)V
-    .locals 0
+.method public final run()V
+    .locals 1
 
     .line 1
-    check-cast p1, Landroidx/camera/core/ImageProxy;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/d2;->a:Landroidx/camera/core/impl/CaptureConfig;
 
-    invoke-static {p1}, Landroidx/camera/camera2/internal/ZslControlImpl;->b(Landroidx/camera/core/ImageProxy;)V
+    invoke-static {v0}, Landroidx/camera/camera2/internal/ProcessingCaptureSession$3;->b(Landroidx/camera/core/impl/CaptureConfig;)V
 
     return-void
 .end method

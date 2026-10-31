@@ -23,9 +23,6 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
@@ -62,15 +59,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public abstract get(Landroidx/lifecycle/viewmodel/CreationExtras$Key;)Ljava/lang/Object;
-    .param p1    # Landroidx/lifecycle/viewmodel/CreationExtras$Key;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -79,9 +73,6 @@
             "Landroidx/lifecycle/viewmodel/CreationExtras$Key<",
             "TT;>;)TT;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method
 
@@ -96,9 +87,6 @@
             "Ljava/lang/Object;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -124,4 +112,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

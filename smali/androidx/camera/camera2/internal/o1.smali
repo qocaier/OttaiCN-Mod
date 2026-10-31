@@ -7,17 +7,21 @@
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;
+.field public final synthetic a:Landroidx/camera/camera2/internal/FocusMeteringControl;
+
+.field public final synthetic b:J
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/FocusMeteringControl;J)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/o1;->a:Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/o1;->a:Landroidx/camera/camera2/internal/FocusMeteringControl;
+
+    iput-wide p2, p0, Landroidx/camera/camera2/internal/o1;->b:J
 
     return-void
 .end method
@@ -25,12 +29,14 @@
 
 # virtual methods
 .method public final run()V
-    .locals 1
+    .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/o1;->a:Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/o1;->a:Landroidx/camera/camera2/internal/FocusMeteringControl;
 
-    invoke-static {v0}, Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;->e(Landroidx/camera/camera2/internal/SynchronizedCaptureSessionBaseImpl;)V
+    iget-wide v1, p0, Landroidx/camera/camera2/internal/o1;->b:J
+
+    invoke-static {v0, v1, v2}, Landroidx/camera/camera2/internal/FocusMeteringControl;->d(Landroidx/camera/camera2/internal/FocusMeteringControl;J)V
 
     return-void
 .end method

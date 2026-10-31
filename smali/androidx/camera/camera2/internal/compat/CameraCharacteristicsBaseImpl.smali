@@ -151,6 +151,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public unwrap()Landroid/hardware/camera2/CameraCharacteristics;
@@ -181,4 +182,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

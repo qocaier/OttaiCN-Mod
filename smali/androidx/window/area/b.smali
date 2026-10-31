@@ -3,42 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/window/extensions/core/util/function/Consumer;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/window/area/WindowAreaControllerImpl;
-
-.field public final synthetic b:Lkotlinx/coroutines/channels/j;
+.field public final synthetic a:Landroidx/window/area/WindowAreaPresentationSessionCallback;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/j;)V
+.method public synthetic constructor <init>(Landroidx/window/area/WindowAreaPresentationSessionCallback;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/window/area/b;->a:Landroidx/window/area/WindowAreaControllerImpl;
-
-    iput-object p2, p0, Landroidx/window/area/b;->b:Lkotlinx/coroutines/channels/j;
+    iput-object p1, p0, Landroidx/window/area/b;->a:Landroidx/window/area/WindowAreaPresentationSessionCallback;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;)V
-    .locals 2
+.method public final run()V
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/area/b;->a:Landroidx/window/area/WindowAreaControllerImpl;
+    iget-object v0, p0, Landroidx/window/area/b;->a:Landroidx/window/area/WindowAreaPresentationSessionCallback;
 
-    iget-object v1, p0, Landroidx/window/area/b;->b:Lkotlinx/coroutines/channels/j;
-
-    check-cast p1, Landroidx/window/extensions/area/ExtensionWindowAreaStatus;
-
-    invoke-static {v0, v1, p1}, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->f(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/j;Landroidx/window/extensions/area/ExtensionWindowAreaStatus;)V
+    invoke-static {v0}, Landroidx/window/area/WindowAreaControllerImpl;->b(Landroidx/window/area/WindowAreaPresentationSessionCallback;)V
 
     return-void
 .end method

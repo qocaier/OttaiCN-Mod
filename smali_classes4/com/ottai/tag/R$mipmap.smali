@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/ottai/tag/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "mipmap"
-.end annotation
-
-
 # static fields
 .field public static ic_launcher:I = 0x7f0e000c
 

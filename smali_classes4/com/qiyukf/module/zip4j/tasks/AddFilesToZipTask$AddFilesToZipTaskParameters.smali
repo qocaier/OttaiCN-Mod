@@ -175,11 +175,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/module/zip4j/tasks/AddFilesToZipTask$AddFilesToZipTaskParameters;)Lcom/qiyukf/module/zip4j/model/ZipParameters;
@@ -213,6 +208,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$100(Lcom/qiyukf/module/zip4j/tasks/AddFilesToZipTask$AddFilesToZipTaskParameters;)Ljava/util/List;
@@ -246,4 +243,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

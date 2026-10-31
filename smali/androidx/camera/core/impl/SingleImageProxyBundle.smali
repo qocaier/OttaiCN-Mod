@@ -135,6 +135,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCaptureIds()Ljava/util/List;
@@ -182,9 +183,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public getImageProxy(I)Lub/u0;
+.method public getImageProxy(I)Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -192,9 +194,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
-            "Lub/u0<",
-            "Landroidx/camera/core/ImageProxy;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -220,7 +220,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 13
     .line 14
@@ -236,7 +236,7 @@
 
     .line 18
     .line 19
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 20
     .line 21

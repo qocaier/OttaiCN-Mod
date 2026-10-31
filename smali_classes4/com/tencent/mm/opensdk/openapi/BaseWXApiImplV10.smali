@@ -1083,7 +1083,7 @@
 
     move-result-object v2
 
-    invoke-static {v2, v4}, Lp0/e;->a(Landroid/app/ActivityOptions;I)Landroid/app/ActivityOptions;
+    invoke-static {v2, v4}, Landroidx/core/app/f;->a(Landroid/app/ActivityOptions;I)Landroid/app/ActivityOptions;
 
     iget-object v3, p0, Lcom/tencent/mm/opensdk/openapi/BaseWXApiImplV10;->context:Landroid/content/Context;
 

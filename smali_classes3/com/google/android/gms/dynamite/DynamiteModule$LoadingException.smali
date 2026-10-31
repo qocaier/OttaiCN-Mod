@@ -3,35 +3,21 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lb9/a;
-.end annotation
-
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/gms/dynamite/DynamiteModule;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "LoadingException"
-.end annotation
-
-
 # direct methods
-.method public synthetic constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;Ly9/i;)V
-    .locals 0
-
-    .line 2
-    invoke-direct {p0, p1, p2}, Ljava/lang/Exception;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
-
-    return-void
-.end method
-
-.method public synthetic constructor <init>(Ljava/lang/String;Ly9/i;)V
+.method public synthetic constructor <init>(Ljava/lang/String;Lg3/a;)V
     .locals 0
 
     .line 1
     invoke-direct {p0, p1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;Lg3/a;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0, p1, p2}, Ljava/lang/Exception;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     return-void
 .end method

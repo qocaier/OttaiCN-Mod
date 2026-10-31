@@ -4,15 +4,6 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/polidea/rxandroidble2/RxBleConnection;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4019
-    name = "RxBleConnectionState"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Enum<",
@@ -173,17 +164,11 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public constructor <init>(Ljava/lang/String;ILjava/lang/String;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            ")V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -315,11 +300,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/polidea/rxandroidble2/RxBleConnection$RxBleConnectionState;
@@ -359,6 +339,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static values()[Lcom/polidea/rxandroidble2/RxBleConnection$RxBleConnectionState;
@@ -393,6 +375,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -505,4 +489,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

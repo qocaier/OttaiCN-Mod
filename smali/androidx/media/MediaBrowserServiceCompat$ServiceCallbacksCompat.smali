@@ -164,6 +164,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onConnect(Ljava/lang/String;Landroid/support/v4/media/session/MediaSessionCompat$Token;Landroid/os/Bundle;)V
@@ -321,6 +322,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onConnectFailed()V
@@ -358,6 +362,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onLoadChildren(Ljava/lang/String;Ljava/util/List;Landroid/os/Bundle;Landroid/os/Bundle;)V
@@ -655,4 +660,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

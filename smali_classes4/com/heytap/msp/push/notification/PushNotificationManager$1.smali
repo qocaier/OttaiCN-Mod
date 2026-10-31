@@ -41,7 +41,7 @@
 .method public run()V
     .locals 3
 
-    invoke-static {}, Lvd/b;->c()Lvd/b;
+    invoke-static {}, Lf5/b;->c()Lf5/b;
 
     move-result-object v0
 
@@ -53,7 +53,7 @@
 
     iget-object v2, p0, Lcom/heytap/msp/push/notification/PushNotificationManager$1;->val$listener:Lcom/heytap/msp/push/notification/ISortListener;
 
-    invoke-virtual {v0, v1, v2}, Lvd/b;->l(Lcom/heytap/msp/push/notification/PushNotification$Builder;Lcom/heytap/msp/push/notification/ISortListener;)V
+    invoke-virtual {v0, v1, v2}, Lf5/b;->l(Lcom/heytap/msp/push/notification/PushNotification$Builder;Lcom/heytap/msp/push/notification/ISortListener;)V
 
     return-void
 .end method

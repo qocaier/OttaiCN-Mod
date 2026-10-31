@@ -48,6 +48,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -259,6 +260,7 @@
 
     .line 20
     throw v0
+    .line 21
 .end method
 
 .method public registerDataSetObserver(Landroid/database/DataSetObserver;)V

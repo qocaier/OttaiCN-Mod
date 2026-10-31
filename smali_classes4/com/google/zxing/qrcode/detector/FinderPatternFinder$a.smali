@@ -1,4 +1,4 @@
-.class public synthetic Lcom/google/zxing/qrcode/detector/FinderPatternFinder$a;
+.class public abstract synthetic Lcom/google/zxing/qrcode/detector/FinderPatternFinder$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

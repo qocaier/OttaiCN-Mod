@@ -371,6 +371,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public static synthetic access$402(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderFormNotify$ImageHolder;Ljava/lang/String;)Ljava/lang/String;
@@ -433,6 +463,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$502(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderFormNotify$ImageHolder;Z)Z
@@ -495,6 +535,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$600(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderFormNotify$ImageHolder;)V
@@ -528,6 +578,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$700(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderFormNotify$ImageHolder;)V
@@ -561,6 +613,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private updateBtnState()V
@@ -675,6 +729,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private updateViewState()V
@@ -820,6 +875,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -938,6 +994,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getLayoutId()I
@@ -966,6 +1024,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onClick(Landroid/view/View;)V
@@ -1127,4 +1187,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

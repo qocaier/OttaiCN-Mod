@@ -46,7 +46,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getColorStateList(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
@@ -183,7 +182,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static getDimensionPixelSize(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
@@ -493,6 +491,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static getDrawable(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/graphics/drawable/Drawable;
@@ -687,11 +701,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static getFontScale(Landroid/content/Context;)F
@@ -736,7 +745,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static getIndexWithValue(Landroid/content/res/TypedArray;II)I
@@ -913,11 +921,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static getTextAppearance(Landroid/content/Context;Landroid/content/res/TypedArray;I)Lcom/google/android/material/resources/TextAppearance;
@@ -1108,11 +1111,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static getUnscaledTextSize(Landroid/content/Context;II)I
@@ -1350,11 +1348,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static isFontScaleAtLeast1_3(Landroid/content/Context;)Z
@@ -1412,7 +1405,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static isFontScaleAtLeast2_0(Landroid/content/Context;)Z
@@ -1470,5 +1462,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

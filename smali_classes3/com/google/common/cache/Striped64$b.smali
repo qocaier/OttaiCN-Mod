@@ -15,41 +15,13 @@
 
 
 # static fields
-.field public static final p:Lsun/misc/Unsafe;
+.field public static final b:Lsun/misc/Unsafe;
 
-.field public static final q:J
+.field public static final c:J
 
 
 # instance fields
 .field public volatile a:J
-
-.field public volatile b:J
-
-.field public volatile c:J
-
-.field public volatile d:J
-
-.field public volatile e:J
-
-.field public volatile f:J
-
-.field public volatile g:J
-
-.field public volatile h:J
-
-.field public volatile i:J
-
-.field public volatile j:J
-
-.field public volatile k:J
-
-.field public volatile l:J
-
-.field public volatile m:J
-
-.field public volatile n:J
-
-.field public volatile o:J
 
 
 # direct methods
@@ -66,7 +38,7 @@
     move-result-object v0
 
     .line 5
-    sput-object v0, Lcom/google/common/cache/Striped64$b;->p:Lsun/misc/Unsafe;
+    sput-object v0, Lcom/google/common/cache/Striped64$b;->b:Lsun/misc/Unsafe;
 
     .line 6
     .line 7
@@ -74,7 +46,7 @@
 
     .line 8
     .line 9
-    const-string v2, "h"
+    const-string v2, "a"
 
     .line 10
     .line 11
@@ -94,7 +66,7 @@
     move-result-wide v0
 
     .line 19
-    sput-wide v0, Lcom/google/common/cache/Striped64$b;->q:J
+    sput-wide v0, Lcom/google/common/cache/Striped64$b;->c:J
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -189,27 +161,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public constructor <init>(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "x"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -217,7 +172,7 @@
     .line 2
     .line 3
     .line 4
-    iput-wide p1, p0, Lcom/google/common/cache/Striped64$b;->h:J
+    iput-wide p1, p0, Lcom/google/common/cache/Striped64$b;->a:J
 
     .line 5
     .line 6
@@ -240,30 +195,19 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public final a(JJ)Z
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "cmp",
-            "val"
-        }
-    .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/common/cache/Striped64$b;->p:Lsun/misc/Unsafe;
+    sget-object v0, Lcom/google/common/cache/Striped64$b;->b:Lsun/misc/Unsafe;
 
     .line 2
     .line 3
-    sget-wide v2, Lcom/google/common/cache/Striped64$b;->q:J
+    sget-wide v2, Lcom/google/common/cache/Striped64$b;->c:J
 
     .line 4
     .line 5
@@ -333,9 +277,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

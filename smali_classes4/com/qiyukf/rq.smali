@@ -41,114 +41,114 @@
     const/4 v1, -0x1
 
     .line 4
-    const-string v2, "\u65e0\u7f51\u7edc\u8fde\u63a5"
+    const-string/jumbo v2, "\u65e0\u7f51\u7edc\u8fde\u63a5"
 
     .line 5
     .line 6
+    .line 7
     const-string v3, "NONE"
 
-    .line 7
     .line 8
+    .line 9
     const/4 v4, 0x0
 
-    .line 9
+    .line 10
     invoke-direct {v0, v3, v4, v1, v2}, Lcom/qiyukf/rq;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
-    .line 10
     .line 11
     .line 12
+    .line 13
     sput-object v0, Lcom/qiyukf/rq;->b:Lcom/qiyukf/rq;
 
-    .line 13
     .line 14
+    .line 15
     new-instance v1, Lcom/qiyukf/rq;
 
-    .line 15
     .line 16
-    const-string v2, "\u672a\u77e5"
-
     .line 17
-    .line 18
-    const-string v3, "UNKNOWN"
+    const-string/jumbo v2, "\u672a\u77e5"
 
+    .line 18
     .line 19
     .line 20
-    const/4 v5, 0x1
+    const-string v3, "UNKNOWN"
 
     .line 21
+    .line 22
+    const/4 v5, 0x1
+
+    .line 23
     invoke-direct {v1, v3, v5, v4, v2}, Lcom/qiyukf/rq;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
-    .line 22
-    .line 23
     .line 24
-    sput-object v1, Lcom/qiyukf/rq;->c:Lcom/qiyukf/rq;
-
     .line 25
     .line 26
-    new-instance v2, Lcom/qiyukf/rq;
+    sput-object v1, Lcom/qiyukf/rq;->c:Lcom/qiyukf/rq;
 
     .line 27
     .line 28
-    const-string v3, "\u79fb\u52a8\u7f51\u7edc\u8fde\u63a5"
+    new-instance v2, Lcom/qiyukf/rq;
 
     .line 29
     .line 30
-    const-string v4, "MOBILE"
+    const-string/jumbo v3, "\u79fb\u52a8\u7f51\u7edc\u8fde\u63a5"
 
     .line 31
     .line 32
-    const/4 v6, 0x2
-
     .line 33
-    invoke-direct {v2, v4, v6, v5, v3}, Lcom/qiyukf/rq;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+    const-string v4, "MOBILE"
 
     .line 34
     .line 35
+    const/4 v6, 0x2
+
     .line 36
-    sput-object v2, Lcom/qiyukf/rq;->d:Lcom/qiyukf/rq;
+    invoke-direct {v2, v4, v6, v5, v3}, Lcom/qiyukf/rq;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     .line 37
     .line 38
-    new-instance v3, Lcom/qiyukf/rq;
-
     .line 39
-    .line 40
-    const/4 v4, 0x3
+    sput-object v2, Lcom/qiyukf/rq;->d:Lcom/qiyukf/rq;
 
+    .line 40
     .line 41
-    const-string v5, "WIFI\u8fde\u63a5"
+    new-instance v3, Lcom/qiyukf/rq;
 
     .line 42
     .line 43
-    const-string v7, "WIFI"
+    const/4 v4, 0x3
 
     .line 44
-    .line 45
-    invoke-direct {v3, v7, v4, v6, v5}, Lcom/qiyukf/rq;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+    const-string v5, "WIFI\u8fde\u63a5"
 
+    .line 45
     .line 46
+    const-string v7, "WIFI"
+
     .line 47
     .line 48
-    sput-object v3, Lcom/qiyukf/rq;->e:Lcom/qiyukf/rq;
+    invoke-direct {v3, v7, v4, v6, v5}, Lcom/qiyukf/rq;-><init>(Ljava/lang/String;IILjava/lang/String;)V
 
     .line 49
     .line 50
-    filled-new-array {v0, v1, v2, v3}, [Lcom/qiyukf/rq;
-
     .line 51
+    sput-object v3, Lcom/qiyukf/rq;->e:Lcom/qiyukf/rq;
+
     .line 52
     .line 53
-    move-result-object v0
+    filled-new-array {v0, v1, v2, v3}, [Lcom/qiyukf/rq;
 
     .line 54
-    sput-object v0, Lcom/qiyukf/rq;->f:[Lcom/qiyukf/rq;
-
     .line 55
     .line 56
-    return-void
+    move-result-object v0
+
     .line 57
+    sput-object v0, Lcom/qiyukf/rq;->f:[Lcom/qiyukf/rq;
+
     .line 58
     .line 59
+    return-void
     .line 60
     .line 61
     .line 62
@@ -174,6 +174,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private constructor <init>(Ljava/lang/String;IILjava/lang/String;)V
@@ -441,6 +442,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/qiyukf/rq;
@@ -480,6 +504,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static values()[Lcom/qiyukf/rq;
@@ -514,6 +540,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -544,4 +572,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

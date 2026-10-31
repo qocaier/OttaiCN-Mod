@@ -19,9 +19,6 @@
     }
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # static fields
 .field public static final BIT_DEPTH_10:I = 0xa
@@ -58,6 +55,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static create(ILjava/lang/String;IIIIIIII)Landroidx/camera/core/impl/EncoderProfilesProxy$VideoProfileProxy;

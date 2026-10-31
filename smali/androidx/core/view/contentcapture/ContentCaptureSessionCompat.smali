@@ -172,7 +172,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 10
     .line 11
@@ -267,6 +267,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public newVirtualViewStructure(Landroid/view/autofill/AutofillId;J)Landroidx/core/view/ViewStructureCompat;
@@ -289,7 +290,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 10
     .line 11
@@ -368,7 +369,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 10
     .line 11
@@ -445,7 +446,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 10
     .line 11
@@ -474,7 +475,7 @@
 
     .line 22
     .line 23
-    invoke-static {v0}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 24
     .line 25
@@ -518,7 +519,7 @@
 
     .line 44
     .line 45
-    invoke-static {v1}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v1}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 46
     .line 47
@@ -551,7 +552,7 @@
 
     .line 60
     .line 61
-    invoke-static {v1}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v1}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 62
     .line 63
@@ -588,7 +589,7 @@
 
     .line 78
     .line 79
-    invoke-static {p1}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {p1}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 80
     .line 81
@@ -629,7 +630,7 @@
 
     .line 99
     .line 100
-    invoke-static {v0}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 101
     .line 102
@@ -775,6 +776,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public notifyViewsDisappeared([J)V
@@ -797,7 +803,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 10
     .line 11
@@ -851,7 +857,7 @@
 
     .line 35
     .line 36
-    invoke-static {v0}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 37
     .line 38
@@ -895,7 +901,7 @@
 
     .line 57
     .line 58
-    invoke-static {v1}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v1}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 59
     .line 60
@@ -912,7 +918,7 @@
 
     .line 66
     .line 67
-    invoke-static {v0}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 68
     .line 69
@@ -954,7 +960,7 @@
 
     .line 88
     .line 89
-    invoke-static {p1}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {p1}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 90
     .line 91
@@ -995,7 +1001,7 @@
 
     .line 109
     .line 110
-    invoke-static {v0}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 111
     .line 112
@@ -1131,6 +1137,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public toContentCaptureSession()Landroid/view/contentcapture/ContentCaptureSession;
@@ -1144,7 +1155,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lf1/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
+    invoke-static {v0}, Landroidx/core/view/contentcapture/a;->a(Ljava/lang/Object;)Landroid/view/contentcapture/ContentCaptureSession;
 
     .line 4
     .line 5
@@ -1166,4 +1177,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

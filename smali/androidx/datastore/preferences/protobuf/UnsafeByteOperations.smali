@@ -30,18 +30,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static unsafeWrap(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/ByteString;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "buffer"
-        }
-    .end annotation
 
     .line 3
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/ByteString;->wrap(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -53,14 +46,6 @@
 
 .method public static unsafeWrap([B)Landroidx/datastore/preferences/protobuf/ByteString;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "buffer"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/ByteString;->wrap([B)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -72,18 +57,6 @@
 
 .method public static unsafeWrap([BII)Landroidx/datastore/preferences/protobuf/ByteString;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "buffer",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 2
     invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/ByteString;->wrap([BII)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -95,17 +68,6 @@
 
 .method public static unsafeWriteTo(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteOutput;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "bytes",
-            "output"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

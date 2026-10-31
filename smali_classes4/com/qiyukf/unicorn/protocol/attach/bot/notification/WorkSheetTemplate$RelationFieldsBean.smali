@@ -66,6 +66,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -104,6 +106,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getField()Lcom/qiyukf/unicorn/protocol/attach/bot/notification/WorkSheetTemplate$FieldBean;
@@ -132,6 +136,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setChecked(Ljava/util/List;)V
@@ -173,6 +179,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setField(Lcom/qiyukf/unicorn/protocol/attach/bot/notification/WorkSheetTemplate$FieldBean;)V
@@ -206,4 +214,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

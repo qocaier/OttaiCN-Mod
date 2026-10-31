@@ -40,6 +40,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Ljava/lang/Runnable;Ljava/util/concurrent/CountDownLatch;)V
@@ -142,6 +143,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static checkMainThread()V
@@ -176,6 +178,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getMainHandler()Landroid/os/Handler;
@@ -212,6 +215,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static isBackgroundThread()Z
@@ -244,6 +248,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static isMainThread()Z
@@ -291,6 +296,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static runOnMain(Ljava/lang/Runnable;)V
@@ -400,11 +406,11 @@
     move-result-object v1
 
     .line 21
-    new-instance v2, Lv/a;
+    new-instance v2, Landroidx/camera/core/impl/utils/a;
 
     .line 22
     .line 23
-    invoke-direct {v2, p0, v0}, Lv/a;-><init>(Ljava/lang/Runnable;Ljava/util/concurrent/CountDownLatch;)V
+    invoke-direct {v2, p0, v0}, Landroidx/camera/core/impl/utils/a;-><init>(Ljava/lang/Runnable;Ljava/util/concurrent/CountDownLatch;)V
 
     .line 24
     .line 25
@@ -501,4 +507,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

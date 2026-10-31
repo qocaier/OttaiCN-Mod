@@ -1,63 +1,48 @@
-.class public interface abstract Lkotlinx/coroutines/channels/e;
+.class public final synthetic Lkotlinx/coroutines/channels/e;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkotlinx/coroutines/channels/k;
-.implements Lkotlinx/coroutines/channels/ReceiveChannel;
+.implements Lq8/q;
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lkotlinx/coroutines/channels/e$a;,
-        Lkotlinx/coroutines/channels/e$b;
-    }
-.end annotation
+# instance fields
+.field public final synthetic a:Lq8/l;
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<E:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lkotlinx/coroutines/channels/k<",
-        "TE;>;",
-        "Lkotlinx/coroutines/channels/ReceiveChannel<",
-        "TE;>;"
-    }
-.end annotation
-
-
-# static fields
-.field public static final o0:Lkotlinx/coroutines/channels/e$b;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final p0:I = 0x7fffffff
-
-.field public static final q0:I = 0x0
-
-.field public static final r0:I = -0x1
-
-.field public static final s0:I = -0x2
-
-.field public static final t0:I = -0x3
-
-.field public static final u0:Ljava/lang/String; = "kotlinx.coroutines.channels.defaultBuffer"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public final synthetic b:Ljava/lang/Object;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 1
+.method public synthetic constructor <init>(Lq8/l;Ljava/lang/Object;)V
+    .locals 0
 
-    sget-object v0, Lkotlinx/coroutines/channels/e$b;->a:Lkotlinx/coroutines/channels/e$b;
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sput-object v0, Lkotlinx/coroutines/channels/e;->o0:Lkotlinx/coroutines/channels/e$b;
+    iput-object p1, p0, Lkotlinx/coroutines/channels/e;->a:Lq8/l;
+
+    iput-object p2, p0, Lkotlinx/coroutines/channels/e;->b:Ljava/lang/Object;
 
     return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lkotlinx/coroutines/channels/e;->a:Lq8/l;
+
+    iget-object v1, p0, Lkotlinx/coroutines/channels/e;->b:Ljava/lang/Object;
+
+    check-cast p1, Ljava/lang/Throwable;
+
+    check-cast p3, Lkotlin/coroutines/i;
+
+    invoke-static {v0, v1, p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannel;->d(Lq8/l;Ljava/lang/Object;Ljava/lang/Throwable;Ljava/lang/Object;Lkotlin/coroutines/i;)Lkotlin/j;
+
+    move-result-object p1
+
+    return-object p1
 .end method

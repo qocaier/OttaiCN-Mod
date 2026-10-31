@@ -3,30 +3,20 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ldk/o;
-.implements Luq/e;
+.implements Lb8/g;
+.implements Laa/d;
 .implements Ljava/lang/Runnable;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "ThrottleLatestSubscriber"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T:",
         "Ljava/lang/Object;",
         ">",
         "Ljava/util/concurrent/atomic/AtomicInteger;",
-        "Ldk/o<",
-        "TT;>;",
-        "Luq/e;",
+        "Lb8/g;",
+        "Laa/d;",
         "Ljava/lang/Runnable;"
     }
 .end annotation
@@ -41,11 +31,10 @@
 
 .field volatile done:Z
 
-.field final downstream:Luq/d;
+.field final downstream:Laa/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Luq/d<",
-            "-TT;>;"
+            "Laa/c;"
         }
     .end annotation
 .end field
@@ -75,21 +64,21 @@
 
 .field final unit:Ljava/util/concurrent/TimeUnit;
 
-.field upstream:Luq/e;
+.field upstream:Laa/d;
 
-.field final worker:Ldk/h0$c;
+.field final worker:Lb8/p$a;
 
 
 # direct methods
-.method public constructor <init>(Luq/d;JLjava/util/concurrent/TimeUnit;Ldk/h0$c;Z)V
+.method public constructor <init>(Laa/c;JLjava/util/concurrent/TimeUnit;Lb8/p$a;Z)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Luq/d<",
-            "-TT;>;J",
+            "Laa/c;",
+            "J",
             "Ljava/util/concurrent/TimeUnit;",
-            "Ldk/h0$c;",
+            "Lb8/p$a;",
             "Z)V"
         }
     .end annotation
@@ -100,7 +89,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->downstream:Luq/d;
+    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->downstream:Laa/c;
 
     .line 5
     .line 6
@@ -112,41 +101,39 @@
 
     .line 9
     .line 10
-    iput-object p5, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->worker:Ldk/h0$c;
+    iput-boolean p6, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->emitLast:Z
 
     .line 11
     .line 12
-    iput-boolean p6, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->emitLast:Z
+    new-instance p1, Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 13
     .line 14
-    new-instance p1, Ljava/util/concurrent/atomic/AtomicReference;
+    invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
 
     .line 15
     .line 16
-    invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
-
     .line 17
+    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->latest:Ljava/util/concurrent/atomic/AtomicReference;
+
     .line 18
     .line 19
-    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->latest:Ljava/util/concurrent/atomic/AtomicReference;
+    new-instance p1, Ljava/util/concurrent/atomic/AtomicLong;
 
     .line 20
     .line 21
-    new-instance p1, Ljava/util/concurrent/atomic/AtomicLong;
+    invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicLong;-><init>()V
 
     .line 22
     .line 23
-    invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicLong;-><init>()V
-
     .line 24
-    .line 25
-    .line 26
     iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->requested:Ljava/util/concurrent/atomic/AtomicLong;
 
+    .line 25
+    .line 26
+    return-void
     .line 27
     .line 28
-    return-void
     .line 29
     .line 30
     .line 31
@@ -392,71 +379,12 @@
     .line 271
     .line 272
     .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
 .end method
 
 
 # virtual methods
 .method public cancel()V
-    .locals 2
+    .locals 1
 
     .line 1
     const/4 v0, 0x1
@@ -466,50 +394,35 @@
 
     .line 3
     .line 4
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->upstream:Luq/e;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->upstream:Laa/d;
 
     .line 5
     .line 6
-    invoke-interface {v0}, Luq/e;->cancel()V
+    invoke-interface {v0}, Laa/d;->cancel()V
 
     .line 7
     .line 8
     .line 9
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->worker:Ldk/h0$c;
+    const/4 v0, 0x0
 
     .line 10
+    throw v0
     .line 11
-    invoke-interface {v0}, Lfk/b;->dispose()V
-
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
-
     .line 15
     .line 16
     .line 17
-    move-result v0
-
     .line 18
-    if-nez v0, :cond_0
-
     .line 19
     .line 20
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->latest:Ljava/util/concurrent/atomic/AtomicReference;
-
     .line 21
     .line 22
-    const/4 v1, 0x0
-
     .line 23
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;->lazySet(Ljava/lang/Object;)V
-
     .line 24
     .line 25
     .line 26
-    :cond_0
-    return-void
     .line 27
     .line 28
     .line 29
@@ -534,56 +447,6 @@
     .line 48
     .line 49
     .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
 .end method
 
 .method public drain()V
@@ -615,7 +478,7 @@
 
     .line 12
     .line 13
-    iget-object v2, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->downstream:Luq/d;
+    iget-object v2, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->downstream:Laa/c;
 
     .line 14
     .line 15
@@ -626,7 +489,6 @@
 
     .line 17
     :cond_1
-    :goto_0
     iget-boolean v5, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->cancelled:Z
 
     .line 18
@@ -651,7 +513,7 @@
 
     .line 27
     .line 28
-    if-eqz v5, :cond_3
+    if-eqz v5, :cond_4
 
     .line 29
     .line 30
@@ -659,351 +521,335 @@
 
     .line 31
     .line 32
-    if-eqz v7, :cond_3
+    if-nez v7, :cond_3
 
     .line 33
     .line 34
-    invoke-virtual {v0, v6}, Ljava/util/concurrent/atomic/AtomicReference;->lazySet(Ljava/lang/Object;)V
+    goto :goto_0
 
     .line 35
+    :cond_3
+    invoke-virtual {v0, v6}, Ljava/util/concurrent/atomic/AtomicReference;->lazySet(Ljava/lang/Object;)V
+
     .line 36
     .line 37
+    .line 38
     iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->error:Ljava/lang/Throwable;
 
-    .line 38
     .line 39
-    invoke-interface {v2, v0}, Luq/d;->onError(Ljava/lang/Throwable;)V
-
     .line 40
+    invoke-interface {v2, v0}, Laa/c;->onError(Ljava/lang/Throwable;)V
+
     .line 41
     .line 42
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->worker:Ldk/h0$c;
-
     .line 43
+    throw v6
+
     .line 44
-    invoke-interface {v0}, Lfk/b;->dispose()V
+    :cond_4
+    :goto_0
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
 
     .line 45
     .line 46
     .line 47
-    return-void
-
-    .line 48
-    :cond_3
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
-
-    .line 49
-    .line 50
-    .line 51
     move-result-object v7
 
-    .line 52
+    .line 48
     const/4 v8, 0x0
 
-    .line 53
-    if-nez v7, :cond_4
+    .line 49
+    if-nez v7, :cond_5
 
-    .line 54
-    .line 55
+    .line 50
+    .line 51
     move v7, v3
 
-    .line 56
+    .line 52
     goto :goto_1
 
-    .line 57
-    :cond_4
+    .line 53
+    :cond_5
     move v7, v8
 
-    .line 58
+    .line 54
     :goto_1
     const-wide/16 v9, 0x1
 
+    .line 55
+    .line 56
+    if-eqz v5, :cond_8
+
+    .line 57
+    .line 58
+    if-nez v7, :cond_7
+
     .line 59
     .line 60
-    if-eqz v5, :cond_7
+    iget-boolean v3, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->emitLast:Z
 
     .line 61
     .line 62
-    if-nez v7, :cond_6
+    if-eqz v3, :cond_7
 
     .line 63
     .line 64
-    iget-boolean v3, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->emitLast:Z
+    invoke-virtual {v0, v6}, Ljava/util/concurrent/atomic/AtomicReference;->getAndSet(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 65
     .line 66
-    if-eqz v3, :cond_6
-
     .line 67
+    move-result-object v0
+
     .line 68
-    invoke-virtual {v0, v6}, Ljava/util/concurrent/atomic/AtomicReference;->getAndSet(Ljava/lang/Object;)Ljava/lang/Object;
+    iget-wide v3, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->emitted:J
 
     .line 69
     .line 70
-    .line 71
-    move-result-object v0
-
-    .line 72
-    iget-wide v3, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->emitted:J
-
-    .line 73
-    .line 74
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicLong;->get()J
+
+    .line 71
+    .line 72
+    .line 73
+    move-result-wide v7
+
+    .line 74
+    cmp-long v1, v3, v7
 
     .line 75
     .line 76
+    if-eqz v1, :cond_6
+
     .line 77
-    move-result-wide v5
-
     .line 78
-    cmp-long v1, v3, v5
-
-    .line 79
-    .line 80
-    if-eqz v1, :cond_5
-
-    .line 81
-    .line 82
     add-long/2addr v3, v9
 
-    .line 83
+    .line 79
     iput-wide v3, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->emitted:J
 
-    .line 84
-    .line 85
-    invoke-interface {v2, v0}, Luq/d;->onNext(Ljava/lang/Object;)V
+    .line 80
+    .line 81
+    invoke-interface {v2, v0}, Laa/c;->onNext(Ljava/lang/Object;)V
 
+    .line 82
+    .line 83
+    .line 84
+    invoke-interface {v2}, Laa/c;->onComplete()V
+
+    .line 85
     .line 86
     .line 87
+    goto :goto_2
+
     .line 88
-    invoke-interface {v2}, Luq/d;->onComplete()V
+    :cond_6
+    new-instance v0, Lio/reactivex/exceptions/MissingBackpressureException;
 
     .line 89
     .line 90
-    .line 91
-    goto :goto_2
+    const-string v1, "Could not emit final value due to lack of requests"
 
+    .line 91
     .line 92
-    :cond_5
-    new-instance v0, Lio/reactivex/exceptions/MissingBackpressureException;
+    invoke-direct {v0, v1}, Lio/reactivex/exceptions/MissingBackpressureException;-><init>(Ljava/lang/String;)V
 
     .line 93
     .line 94
-    const-string v1, "Could not emit final value due to lack of requests"
-
     .line 95
-    .line 96
-    invoke-direct {v0, v1}, Lio/reactivex/exceptions/MissingBackpressureException;-><init>(Ljava/lang/String;)V
+    invoke-interface {v2, v0}, Laa/c;->onError(Ljava/lang/Throwable;)V
 
+    .line 96
     .line 97
     .line 98
+    goto :goto_2
+
     .line 99
-    invoke-interface {v2, v0}, Luq/d;->onError(Ljava/lang/Throwable;)V
+    :cond_7
+    invoke-virtual {v0, v6}, Ljava/util/concurrent/atomic/AtomicReference;->lazySet(Ljava/lang/Object;)V
 
     .line 100
     .line 101
     .line 102
-    goto :goto_2
+    invoke-interface {v2}, Laa/c;->onComplete()V
 
     .line 103
-    :cond_6
-    invoke-virtual {v0, v6}, Ljava/util/concurrent/atomic/AtomicReference;->lazySet(Ljava/lang/Object;)V
-
     .line 104
     .line 105
+    :goto_2
+    throw v6
+
     .line 106
-    invoke-interface {v2}, Luq/d;->onComplete()V
+    :cond_8
+    if-eqz v7, :cond_9
 
     .line 107
     .line 108
+    iget-boolean v5, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerFired:Z
+
     .line 109
-    :goto_2
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->worker:Ldk/h0$c;
-
     .line 110
-    .line 111
-    invoke-interface {v0}, Lfk/b;->dispose()V
+    if-eqz v5, :cond_a
 
+    .line 111
     .line 112
+    iput-boolean v8, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerRunning:Z
+
     .line 113
     .line 114
-    return-void
+    iput-boolean v8, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerFired:Z
 
     .line 115
-    :cond_7
-    if-eqz v7, :cond_8
-
     .line 116
+    goto :goto_3
+
     .line 117
-    iget-boolean v5, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerFired:Z
+    :cond_9
+    iget-boolean v5, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerRunning:Z
 
     .line 118
     .line 119
-    if-eqz v5, :cond_9
+    if-eqz v5, :cond_b
 
     .line 120
     .line 121
-    iput-boolean v8, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerRunning:Z
+    iget-boolean v5, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerFired:Z
 
     .line 122
     .line 123
-    iput-boolean v8, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerFired:Z
+    if-eqz v5, :cond_a
 
     .line 124
     .line 125
-    goto :goto_3
-
-    .line 126
-    :cond_8
-    iget-boolean v5, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerRunning:Z
-
-    .line 127
-    .line 128
-    if-eqz v5, :cond_a
-
-    .line 129
-    .line 130
-    iget-boolean v5, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerFired:Z
-
-    .line 131
-    .line 132
-    if-eqz v5, :cond_9
-
-    .line 133
-    .line 134
     goto :goto_5
 
-    .line 135
-    :cond_9
+    .line 126
+    :cond_a
     :goto_3
     neg-int v4, v4
 
-    .line 136
+    .line 127
     invoke-virtual {p0, v4}, Ljava/util/concurrent/atomic/AtomicInteger;->addAndGet(I)I
 
-    .line 137
-    .line 138
-    .line 139
+    .line 128
+    .line 129
+    .line 130
     move-result v4
 
-    .line 140
+    .line 131
     if-nez v4, :cond_1
 
-    .line 141
-    .line 142
+    .line 132
+    .line 133
     :goto_4
     return-void
 
-    .line 143
-    :cond_a
+    .line 134
+    :cond_b
     :goto_5
     invoke-virtual {v0, v6}, Ljava/util/concurrent/atomic/AtomicReference;->getAndSet(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 144
-    .line 145
-    .line 146
-    move-result-object v5
+    .line 135
+    .line 136
+    .line 137
+    move-result-object v0
 
-    .line 147
-    iget-wide v6, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->emitted:J
+    .line 138
+    iget-wide v4, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->emitted:J
 
-    .line 148
-    .line 149
+    .line 139
+    .line 140
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicLong;->get()J
 
-    .line 150
-    .line 151
-    .line 152
+    .line 141
+    .line 142
+    .line 143
     move-result-wide v11
 
+    .line 144
+    cmp-long v1, v4, v11
+
+    .line 145
+    .line 146
+    if-eqz v1, :cond_c
+
+    .line 147
+    .line 148
+    invoke-interface {v2, v0}, Laa/c;->onNext(Ljava/lang/Object;)V
+
+    .line 149
+    .line 150
+    .line 151
+    add-long/2addr v4, v9
+
+    .line 152
+    iput-wide v4, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->emitted:J
+
     .line 153
-    cmp-long v11, v6, v11
-
     .line 154
+    iput-boolean v8, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerFired:Z
+
     .line 155
-    if-eqz v11, :cond_b
-
     .line 156
+    iput-boolean v3, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerRunning:Z
+
     .line 157
-    invoke-interface {v2, v5}, Luq/d;->onNext(Ljava/lang/Object;)V
-
     .line 158
-    .line 159
-    .line 160
-    add-long/2addr v6, v9
+    throw v6
 
+    .line 159
+    :cond_c
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->upstream:Laa/d;
+
+    .line 160
     .line 161
-    iput-wide v6, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->emitted:J
+    invoke-interface {v0}, Laa/d;->cancel()V
 
     .line 162
     .line 163
-    iput-boolean v8, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerFired:Z
-
     .line 164
+    new-instance v0, Lio/reactivex/exceptions/MissingBackpressureException;
+
     .line 165
-    iput-boolean v3, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timerRunning:Z
-
     .line 166
+    const-string v1, "Could not emit value due to lack of requests"
+
     .line 167
-    iget-object v5, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->worker:Ldk/h0$c;
-
     .line 168
-    .line 169
-    iget-wide v6, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->timeout:J
+    invoke-direct {v0, v1}, Lio/reactivex/exceptions/MissingBackpressureException;-><init>(Ljava/lang/String;)V
 
+    .line 169
     .line 170
     .line 171
-    iget-object v8, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->unit:Ljava/util/concurrent/TimeUnit;
+    invoke-interface {v2, v0}, Laa/c;->onError(Ljava/lang/Throwable;)V
 
     .line 172
     .line 173
-    invoke-virtual {v5, p0, v6, v7, v8}, Ldk/h0$c;->c(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lfk/b;
-
     .line 174
+    throw v6
     .line 175
     .line 176
-    goto/16 :goto_0
-
     .line 177
     .line 178
-    :cond_b
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->upstream:Luq/e;
-
     .line 179
     .line 180
-    invoke-interface {v0}, Luq/e;->cancel()V
-
     .line 181
     .line 182
     .line 183
-    new-instance v0, Lio/reactivex/exceptions/MissingBackpressureException;
-
     .line 184
     .line 185
-    const-string v1, "Could not emit value due to lack of requests"
-
     .line 186
     .line 187
-    invoke-direct {v0, v1}, Lio/reactivex/exceptions/MissingBackpressureException;-><init>(Ljava/lang/String;)V
-
     .line 188
     .line 189
     .line 190
-    invoke-interface {v2, v0}, Luq/d;->onError(Ljava/lang/Throwable;)V
-
     .line 191
     .line 192
     .line 193
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->worker:Ldk/h0$c;
-
     .line 194
     .line 195
-    invoke-interface {v0}, Lfk/b;->dispose()V
-
     .line 196
     .line 197
     .line 198
-    return-void
     .line 199
     .line 200
     .line 201
@@ -1278,81 +1124,6 @@
     .line 470
     .line 471
     .line 472
-    .line 473
-    .line 474
-    .line 475
-    .line 476
-    .line 477
-    .line 478
-    .line 479
-    .line 480
-    .line 481
-    .line 482
-    .line 483
-    .line 484
-    .line 485
-    .line 486
-    .line 487
-    .line 488
-    .line 489
-    .line 490
-    .line 491
-    .line 492
-    .line 493
-    .line 494
-    .line 495
-    .line 496
-    .line 497
-    .line 498
-    .line 499
-    .line 500
-    .line 501
-    .line 502
-    .line 503
-    .line 504
-    .line 505
-    .line 506
-    .line 507
-    .line 508
-    .line 509
-    .line 510
-    .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
 .end method
 
 .method public onComplete()V
@@ -1388,6 +1159,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onError(Ljava/lang/Throwable;)V
@@ -1426,6 +1224,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public onNext(Ljava/lang/Object;)V
@@ -1467,17 +1298,50 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public onSubscribe(Luq/e;)V
+.method public onSubscribe(Laa/d;)V
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->upstream:Luq/e;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->upstream:Laa/d;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lio/reactivex/internal/subscriptions/SubscriptionHelper;->validate(Luq/e;Luq/e;)Z
+    invoke-static {v0, p1}, Lio/reactivex/internal/subscriptions/SubscriptionHelper;->validate(Laa/d;Laa/d;)Z
 
     .line 4
     .line 5
@@ -1489,15 +1353,15 @@
 
     .line 8
     .line 9
-    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->upstream:Luq/e;
+    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->upstream:Laa/d;
 
     .line 10
     .line 11
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableThrottleLatest$ThrottleLatestSubscriber;->downstream:Laa/c;
 
     .line 12
     .line 13
-    invoke-interface {v0, p0}, Luq/d;->onSubscribe(Luq/e;)V
+    invoke-interface {v0, p0}, Laa/c;->onSubscribe(Laa/d;)V
 
     .line 14
     .line 15
@@ -1509,13 +1373,46 @@
     .line 19
     .line 20
     .line 21
-    invoke-interface {p1, v0, v1}, Luq/e;->request(J)V
+    invoke-interface {p1, v0, v1}, Laa/d;->request(J)V
 
     .line 22
     .line 23
     .line 24
     :cond_0
     return-void
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public request(J)V
@@ -1538,7 +1435,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, p1, p2}, Lxk/b;->a(Ljava/util/concurrent/atomic/AtomicLong;J)J
+    invoke-static {v0, p1, p2}, Lio/reactivex/internal/util/b;->a(Ljava/util/concurrent/atomic/AtomicLong;J)J
 
     .line 10
     .line 11
@@ -1557,6 +1454,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public run()V
@@ -1592,4 +1522,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

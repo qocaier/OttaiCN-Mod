@@ -43,6 +43,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static addAccessibilityStateChangeListener(Landroid/view/accessibility/AccessibilityManager;Landroidx/core/view/accessibility/AccessibilityManagerCompat$AccessibilityStateChangeListener;)Z

@@ -23,17 +23,8 @@
 
 # static fields
 .field public static final Companion:Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final LAX:Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy;
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
@@ -45,15 +36,9 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final listener:Landroidx/fragment/app/strictmode/FragmentStrictMode$OnViolationListener;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final mAllowedViolations:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
@@ -66,9 +51,6 @@
             "Landroidx/fragment/app/strictmode/Violation;",
             ">;>;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -85,7 +67,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -98,7 +80,7 @@
 
     .line 10
     .line 11
-    invoke-static {}, Lll/u1;->k()Ljava/util/Set;
+    invoke-static {}, Lkotlin/collections/j0;->d()Ljava/util/Set;
 
     .line 12
     .line 13
@@ -106,7 +88,7 @@
     move-result-object v2
 
     .line 15
-    invoke-static {}, Lkotlin/collections/a;->z()Ljava/util/Map;
+    invoke-static {}, Lkotlin/collections/g0;->f()Ljava/util/Map;
 
     .line 16
     .line 17
@@ -184,22 +166,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(Ljava/util/Set;Landroidx/fragment/app/strictmode/FragmentStrictMode$OnViolationListener;Ljava/util/Map;)V
     .locals 1
-    .param p1    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/fragment/app/strictmode/FragmentStrictMode$OnViolationListener;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p3    # Ljava/util/Map;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -224,7 +196,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -233,7 +205,7 @@
 
     .line 7
     .line 8
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -391,6 +363,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -404,9 +379,6 @@
             "Landroidx/fragment/app/strictmode/FragmentStrictMode$Flag;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -432,12 +404,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getListener$fragment_release()Landroidx/fragment/app/strictmode/FragmentStrictMode$OnViolationListener;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy;->listener:Landroidx/fragment/app/strictmode/FragmentStrictMode$OnViolationListener;
@@ -462,6 +433,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getMAllowedViolations$fragment_release()Ljava/util/Map;
@@ -477,9 +449,6 @@
             "Landroidx/fragment/app/strictmode/Violation;",
             ">;>;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -505,4 +474,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

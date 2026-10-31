@@ -49,7 +49,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v2, "\u5df2\u4e0b\u8f7d"
+    const-string/jumbo v2, "\u5df2\u4e0b\u8f7d"
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

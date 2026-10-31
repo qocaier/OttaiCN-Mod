@@ -92,6 +92,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -130,6 +131,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isMpeg4()Z
@@ -166,6 +168,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSize(II)Z
@@ -294,4 +297,5 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method

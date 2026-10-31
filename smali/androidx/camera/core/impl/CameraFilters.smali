@@ -20,11 +20,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lu/b;
+    new-instance v0, Landroidx/camera/core/impl/b;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lu/b;-><init>()V
+    invoke-direct {v0}, Landroidx/camera/core/impl/b;-><init>()V
 
     .line 4
     .line 5
@@ -33,11 +33,11 @@
 
     .line 7
     .line 8
-    new-instance v0, Lu/c;
+    new-instance v0, Landroidx/camera/core/impl/c;
 
     .line 9
     .line 10
-    invoke-direct {v0}, Lu/c;-><init>()V
+    invoke-direct {v0}, Landroidx/camera/core/impl/c;-><init>()V
 
     .line 11
     .line 12
@@ -52,6 +52,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -80,6 +81,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Ljava/util/List;)Ljava/util/List;

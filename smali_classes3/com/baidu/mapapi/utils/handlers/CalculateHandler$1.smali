@@ -1,5 +1,5 @@
 .class Lcom/baidu/mapapi/utils/handlers/CalculateHandler$1;
-.super Lhc/a;
+.super Lj4/a;
 .source "SourceFile"
 
 
@@ -15,11 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lhc/a<",
-        "Ljava/util/HashMap<",
-        "Ljava/lang/String;",
-        "Ljava/lang/Object;",
-        ">;>;"
+        "Lj4/a;"
     }
 .end annotation
 
@@ -31,21 +27,13 @@
 # direct methods
 .method public constructor <init>(Lcom/baidu/mapapi/utils/handlers/CalculateHandler;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/baidu/mapapi/utils/handlers/CalculateHandler$1;->this$0:Lcom/baidu/mapapi/utils/handlers/CalculateHandler;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lhc/a;-><init>()V
+    invoke-direct {p0}, Lj4/a;-><init>()V
 
     .line 4
     .line 5
@@ -69,5 +57,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

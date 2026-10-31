@@ -3,12 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "GoogleCertificatesLookupResponseCreator"
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation system Ldalvik/annotation/Signature;
@@ -23,44 +17,21 @@
 
 # instance fields
 .field public final a:Z
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getResult"
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:Ljava/lang/String;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getErrorMessage"
-        id = 0x2
-    .end annotation
-
-    .annotation runtime Lgl/h;
-    .end annotation
-.end field
 
 .field public final c:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getStatusValue"
-        id = 0x3
-    .end annotation
-.end field
 
 .field public final d:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getFirstPartyStatusValue"
-        id = 0x4
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, La9/l0;
+    new-instance v0, Lq2/u;
 
-    invoke-direct {v0}, La9/l0;-><init>()V
+    invoke-direct {v0}, Lq2/u;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/zzq;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -69,28 +40,6 @@
 
 .method public constructor <init>(ZLjava/lang/String;II)V
     .locals 0
-    .param p1    # Z
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .param p3    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x3
-        .end annotation
-    .end param
-    .param p4    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x4
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -106,7 +55,7 @@
 
     .line 7
     .line 8
-    invoke-static {p3}, La9/r0;->a(I)I
+    invoke-static {p3}, Lq2/w;->a(I)I
 
     .line 9
     .line 10
@@ -122,7 +71,7 @@
 
     .line 15
     .line 16
-    invoke-static {p4}, La9/z;->a(I)I
+    invoke-static {p4}, Lq2/j;->a(I)I
 
     .line 17
     .line 18
@@ -357,105 +306,31 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 
 # virtual methods
-.method public final s()Ljava/lang/String;
-    .locals 1
-    .annotation runtime Lgl/h;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/zzq;->b:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public final t()Z
-    .locals 1
-
-    .line 1
-    iget-boolean v0, p0, Lcom/google/android/gms/common/zzq;->a:Z
-
-    return v0
-.end method
-
-.method public final u()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/common/zzq;->d:I
-
-    .line 2
-    .line 3
-    invoke-static {v0}, La9/z;->a(I)I
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v0
-
-    .line 7
-    return v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public final v()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/common/zzq;->c:I
-
-    .line 2
-    .line 3
-    invoke-static {v0}, La9/r0;->a(I)I
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v0
-
-    .line 7
-    return v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
     .line 1
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -470,7 +345,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0, v1}, Lj9/a;->g(Landroid/os/Parcel;IZ)V
+    invoke-static {p1, v0, v1}, Lu2/a;->c(Landroid/os/Parcel;IZ)V
 
     .line 9
     .line 10
@@ -485,7 +360,7 @@
     const/4 v2, 0x2
 
     .line 15
-    invoke-static {p1, v2, v0, v1}, Lj9/a;->Y(Landroid/os/Parcel;ILjava/lang/String;Z)V
+    invoke-static {p1, v2, v0, v1}, Lu2/a;->q(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
     .line 16
     .line 17
@@ -497,7 +372,7 @@
 
     .line 20
     .line 21
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 22
     .line 23
@@ -509,12 +384,12 @@
 
     .line 26
     .line 27
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 28
     .line 29
     .line 30
-    invoke-static {p1, p2}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 31
     .line 32
@@ -547,9 +422,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

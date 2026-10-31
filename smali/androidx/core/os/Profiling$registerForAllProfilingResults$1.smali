@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/p;
+.implements Lq8/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/os/Profiling;->registerForAllProfilingResults(Landroid/content/Context;)Ljn/e;
+    value = Landroidx/core/os/Profiling;->registerForAllProfilingResults(Landroid/content/Context;)Lkotlinx/coroutines/flow/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,30 +19,17 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Ljm/p<",
-        "Lkotlinx/coroutines/channels/j<",
-        "-",
-        "Landroid/os/ProfilingResult;",
-        ">;",
-        "Lul/c<",
-        "-",
-        "Ljl/e2;",
-        ">;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lq8/p;"
     }
 .end annotation
 
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "androidx.core.os.Profiling$registerForAllProfilingResults$1"
     f = "Profiling.kt"
-    i = {}
     l = {
         0x4f
     }
     m = "invokeSuspend"
-    n = {}
-    s = {}
 .end annotation
 
 
@@ -55,77 +42,27 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lul/c;)V
+.method public constructor <init>(Landroid/content/Context;Lkotlin/coroutines/e;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
-            "Lul/c<",
-            "-",
-            "Landroidx/core/os/Profiling$registerForAllProfilingResults$1;",
-            ">;)V"
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->$context:Landroid/content/Context;
 
-    .line 2
-    .line 3
     const/4 p1, 0x2
 
-    .line 4
-    invoke-direct {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILul/c;)V
+    invoke-direct {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/e;)V
 
-    .line 5
-    .line 6
-    .line 7
     return-void
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
 .end method
 
-.method public static synthetic f(Ljava/lang/Runnable;)V
+.method public static synthetic c(Ljava/lang/Runnable;)V
     .locals 0
 
     .line 1
@@ -134,25 +71,36 @@
     return-void
 .end method
 
-.method public static synthetic h(Lkotlinx/coroutines/channels/j;Landroid/os/ProfilingResult;)V
+.method public static synthetic f(Lkotlinx/coroutines/channels/q;Landroid/os/ProfilingResult;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->invokeSuspend$lambda$0(Lkotlinx/coroutines/channels/j;Landroid/os/ProfilingResult;)V
+    invoke-static {p0, p1}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->invokeSuspend$lambda$0(Lkotlinx/coroutines/channels/q;Landroid/os/ProfilingResult;)V
 
     return-void
 .end method
 
-.method private static final invokeSuspend$lambda$0(Lkotlinx/coroutines/channels/j;Landroid/os/ProfilingResult;)V
+.method public static synthetic g(Landroid/os/ProfilingManager;Ljava/util/function/Consumer;)Lkotlin/j;
     .locals 0
 
     .line 1
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p0, p1}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->invokeSuspend$lambda$2(Landroid/os/ProfilingManager;Ljava/util/function/Consumer;)Lkotlin/j;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private static final invokeSuspend$lambda$0(Lkotlinx/coroutines/channels/q;Landroid/os/ProfilingResult;)V
+    .locals 0
+
+    .line 1
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-interface {p0, p1}, Lkotlinx/coroutines/channels/k;->H(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, p1}, Lkotlinx/coroutines/channels/s;->z(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -234,16 +182,16 @@
     .line 25
 .end method
 
-.method private static final invokeSuspend$lambda$2(Landroid/os/ProfilingManager;Ljava/util/function/Consumer;)Ljl/e2;
+.method private static final invokeSuspend$lambda$2(Landroid/os/ProfilingManager;Ljava/util/function/Consumer;)Lkotlin/j;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lx0/e;->a(Landroid/os/ProfilingManager;Ljava/util/function/Consumer;)V
+    invoke-static {p0, p1}, Landroidx/core/os/e;->a(Landroid/os/ProfilingManager;Ljava/util/function/Consumer;)V
 
     .line 2
     .line 3
     .line 4
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
 
     .line 5
     .line 6
@@ -292,132 +240,66 @@
     .line 48
 .end method
 
-.method public static synthetic j(Landroid/os/ProfilingManager;Ljava/util/function/Consumer;)Ljl/e2;
-    .locals 0
-
-    .line 1
-    invoke-static {p0, p1}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->invokeSuspend$lambda$2(Landroid/os/ProfilingManager;Ljava/util/function/Consumer;)Ljl/e2;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lul/c;)Lul/c;
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lul/c<",
-            "*>;)",
-            "Lul/c<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlin/coroutines/e;",
+            ")",
+            "Lkotlin/coroutines/e;"
         }
     .end annotation
 
-    .line 1
     new-instance v0, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;
 
-    .line 2
-    .line 3
     iget-object v1, p0, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->$context:Landroid/content/Context;
 
-    .line 4
-    .line 5
-    invoke-direct {v0, v1, p2}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;-><init>(Landroid/content/Context;Lul/c;)V
+    invoke-direct {v0, v1, p2}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;-><init>(Landroid/content/Context;Lkotlin/coroutines/e;)V
 
-    .line 6
-    .line 7
-    .line 8
     iput-object p1, v0, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->L$0:Ljava/lang/Object;
 
-    .line 9
-    .line 10
     return-object v0
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlinx/coroutines/channels/j;
+    check-cast p1, Lkotlinx/coroutines/channels/q;
 
-    check-cast p2, Lul/c;
+    check-cast p2, Lkotlin/coroutines/e;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->invoke(Lkotlinx/coroutines/channels/j;Lul/c;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->invoke(Lkotlinx/coroutines/channels/q;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlinx/coroutines/channels/j;Lul/c;)Ljava/lang/Object;
+.method public final invoke(Lkotlinx/coroutines/channels/q;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/j<",
-            "-",
-            "Landroid/os/ProfilingResult;",
-            ">;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlinx/coroutines/channels/q;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->create(Ljava/lang/Object;Lul/c;)Lul/c;
+    invoke-virtual {p0, p1, p2}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
 
     move-result-object p1
 
     check-cast p1, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;
 
-    sget-object p2, Ljl/e2;->a:Ljl/e2;
+    sget-object p2, Lkotlin/j;->a:Lkotlin/j;
 
     invoke-virtual {p1, p2}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -430,7 +312,7 @@
     .locals 5
 
     .line 1
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -453,7 +335,7 @@
 
     .line 11
     .line 12
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 13
     .line 14
@@ -479,7 +361,7 @@
 
     .line 24
     :cond_1
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 25
     .line 26
@@ -488,15 +370,15 @@
 
     .line 28
     .line 29
-    check-cast p1, Lkotlinx/coroutines/channels/j;
+    check-cast p1, Lkotlinx/coroutines/channels/q;
 
     .line 30
     .line 31
-    new-instance v1, Landroidx/core/os/a;
+    new-instance v1, Landroidx/core/os/h;
 
     .line 32
     .line 33
-    invoke-direct {v1, p1}, Landroidx/core/os/a;-><init>(Lkotlinx/coroutines/channels/j;)V
+    invoke-direct {v1, p1}, Landroidx/core/os/h;-><init>(Lkotlinx/coroutines/channels/q;)V
 
     .line 34
     .line 35
@@ -505,7 +387,7 @@
 
     .line 37
     .line 38
-    invoke-static {}, Lx0/c;->a()Ljava/lang/Class;
+    invoke-static {}, Landroidx/core/os/c;->a()Ljava/lang/Class;
 
     .line 39
     .line 40
@@ -521,7 +403,7 @@
     move-result-object v3
 
     .line 46
-    invoke-static {v3}, Lx0/d;->a(Ljava/lang/Object;)Landroid/os/ProfilingManager;
+    invoke-static {v3}, Landroidx/core/os/d;->a(Ljava/lang/Object;)Landroid/os/ProfilingManager;
 
     .line 47
     .line 48
@@ -529,25 +411,25 @@
     move-result-object v3
 
     .line 50
-    new-instance v4, Landroidx/core/os/b;
+    new-instance v4, Landroidx/core/os/i;
 
     .line 51
     .line 52
-    invoke-direct {v4}, Landroidx/core/os/b;-><init>()V
+    invoke-direct {v4}, Landroidx/core/os/i;-><init>()V
 
     .line 53
     .line 54
     .line 55
-    invoke-static {v3, v4, v1}, Lx0/g;->a(Landroid/os/ProfilingManager;Ljava/util/concurrent/Executor;Ljava/util/function/Consumer;)V
+    invoke-static {v3, v4, v1}, Landroidx/core/os/g;->a(Landroid/os/ProfilingManager;Ljava/util/concurrent/Executor;Ljava/util/function/Consumer;)V
 
     .line 56
     .line 57
     .line 58
-    new-instance v4, Landroidx/core/os/c;
+    new-instance v4, Landroidx/core/os/j;
 
     .line 59
     .line 60
-    invoke-direct {v4, v3, v1}, Landroidx/core/os/c;-><init>(Landroid/os/ProfilingManager;Ljava/util/function/Consumer;)V
+    invoke-direct {v4, v3, v1}, Landroidx/core/os/j;-><init>(Landroid/os/ProfilingManager;Ljava/util/function/Consumer;)V
 
     .line 61
     .line 62
@@ -556,7 +438,7 @@
 
     .line 64
     .line 65
-    invoke-static {p1, v4, p0}, Lkotlinx/coroutines/channels/ProduceKt;->b(Lkotlinx/coroutines/channels/j;Ljm/a;Lul/c;)Ljava/lang/Object;
+    invoke-static {p1, v4, p0}, Lkotlinx/coroutines/channels/ProduceKt;->a(Lkotlinx/coroutines/channels/q;Lq8/a;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 66
     .line 67
@@ -573,7 +455,7 @@
     .line 72
     :cond_2
     :goto_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 73
     .line 74
@@ -582,4 +464,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -12,9 +12,6 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
@@ -49,6 +46,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final getMIGRATE_ALL_KEYS()Ljava/util/Set;
@@ -60,9 +58,6 @@
             "Ljava/lang/String;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -88,4 +83,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

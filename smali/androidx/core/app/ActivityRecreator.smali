@@ -177,6 +177,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -205,6 +207,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getActivityThreadClass()Ljava/lang/Class;
@@ -252,6 +255,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getMainThreadField()Ljava/lang/reflect/Field;
@@ -298,6 +302,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getPerformStopActivity2Params(Ljava/lang/Class;)Ljava/lang/reflect/Method;
@@ -493,6 +498,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getRequestRelaunchActivityMethod(Ljava/lang/Class;)Ljava/lang/reflect/Method;
@@ -638,6 +644,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getTokenField()Ljava/lang/reflect/Field;
@@ -684,6 +691,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static needsRelaunchCall()Z
@@ -731,6 +739,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static queueOnStopIfNecessary(Ljava/lang/Object;ILandroid/app/Activity;)Z
@@ -906,6 +915,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static recreate(Landroid/app/Activity;)Z
@@ -1303,4 +1315,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

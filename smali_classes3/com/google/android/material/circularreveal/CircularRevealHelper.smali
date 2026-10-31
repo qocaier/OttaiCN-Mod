@@ -95,7 +95,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Lcom/google/android/material/circularreveal/CircularRevealHelper$Delegate;)V
@@ -229,8 +228,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private drawDebugCircle(Landroid/graphics/Canvas;IF)V
@@ -414,11 +411,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private drawDebugMode(Landroid/graphics/Canvas;)V
@@ -564,8 +556,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private drawOverlayDrawable(Landroid/graphics/Canvas;)V
@@ -722,8 +712,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getDistanceToFurthestCorner(Lcom/google/android/material/circularreveal/CircularRevealWidget$RevealInfo;)F
@@ -787,6 +775,72 @@
 
     .line 25
     return p1
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
 .end method
 
 .method private invalidateRevealInfo()V
@@ -924,15 +978,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private shouldDrawCircularReveal()Z
@@ -1083,15 +1128,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private shouldDrawOverlayDrawable()Z
@@ -1139,7 +1175,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private shouldDrawScrim()Z
@@ -1191,7 +1226,6 @@
     return v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -1385,15 +1419,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public destroyCircularRevealCache()V
@@ -1523,15 +1548,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public draw(Landroid/graphics/Canvas;)V
@@ -2160,6 +2176,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public getCircularRevealOverlayDrawable()Landroid/graphics/drawable/Drawable;
@@ -2192,7 +2240,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCircularRevealScrimColor()I
@@ -2229,7 +2276,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRevealInfo()Lcom/google/android/material/circularreveal/CircularRevealWidget$RevealInfo;
@@ -2364,15 +2410,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public isOpaque()Z
@@ -2422,7 +2459,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setCircularRevealOverlayDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -2463,7 +2499,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCircularRevealScrimColor(I)V
@@ -2506,7 +2541,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRevealInfo(Lcom/google/android/material/circularreveal/CircularRevealWidget$RevealInfo;)V
@@ -2657,6 +2691,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

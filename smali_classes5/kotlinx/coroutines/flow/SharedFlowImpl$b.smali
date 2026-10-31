@@ -1,4 +1,4 @@
-.class public final synthetic Lkotlinx/coroutines/flow/SharedFlowImpl$b;
+.class public abstract synthetic Lkotlinx/coroutines/flow/SharedFlowImpl$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

@@ -148,10 +148,6 @@
 
 .method public setExtraUserAgent(Ljava/lang/String;)Lcom/tencent/aai/model/AudioRecognizeRequest$Builder;
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     iput-object p1, p0, Lcom/tencent/aai/model/AudioRecognizeRequest$Builder;->extraUserAgent:Ljava/lang/String;
 

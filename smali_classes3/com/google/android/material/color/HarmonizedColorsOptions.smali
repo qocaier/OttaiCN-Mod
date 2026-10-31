@@ -115,7 +115,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -150,7 +149,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getColorAttributes()Lcom/google/android/material/color/HarmonizedColorAttributes;
@@ -183,7 +181,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getColorResourceIds()[I
@@ -219,7 +216,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThemeOverlayResourceId(I)I
@@ -273,5 +269,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

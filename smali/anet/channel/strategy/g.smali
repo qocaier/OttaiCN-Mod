@@ -142,6 +142,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private a()Z
@@ -319,6 +321,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getCNameByHost(Ljava/lang/String;)Ljava/lang/String;
@@ -434,6 +437,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getClientIp()Ljava/lang/String;
@@ -479,6 +483,7 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getConnStrategyListByHost(Ljava/lang/String;)Ljava/util/List;
@@ -1099,6 +1104,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public getSchemeByHost(Ljava/lang/String;)Ljava/lang/String;
@@ -1427,6 +1437,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public notifyConnEvent(Ljava/lang/String;Lanet/channel/strategy/IConnStrategy;Lanet/channel/strategy/ConnEvent;)V
@@ -1594,6 +1605,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onEvent(Lanet/channel/strategy/dispatch/DispatchEvent;)V
@@ -1758,6 +1772,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public registerListener(Lanet/channel/strategy/IStrategyListener;)V
@@ -1962,6 +1977,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public declared-synchronized switchEnv()V
@@ -2096,6 +2113,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public unregisterListener(Lanet/channel/strategy/IStrategyListener;)V

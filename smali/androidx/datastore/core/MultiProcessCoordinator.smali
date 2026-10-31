@@ -13,27 +13,11 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMultiProcessCoordinator.android.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MultiProcessCoordinator.android.kt\nandroidx/datastore/core/MultiProcessCoordinator\n+ 2 Mutex.kt\nkotlinx/coroutines/sync/MutexKt\n+ 3 MutexUtils.kt\nandroidx/datastore/core/MutexUtilsKt\n*L\n1#1,205:1\n159#1,8:226\n159#1,8:234\n120#2,10:206\n32#3,10:216\n*S KotlinDebug\n*F\n+ 1 MultiProcessCoordinator.android.kt\nandroidx/datastore/core/MultiProcessCoordinator\n*L\n99#1:226,8\n106#1:234,8\n43#1:206,10\n60#1:216,10\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nMultiProcessCoordinator.android.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MultiProcessCoordinator.android.kt\nandroidx/datastore/core/MultiProcessCoordinator\n+ 2 Mutex.kt\nkotlinx/coroutines/sync/MutexKt\n+ 3 MutexUtils.kt\nandroidx/datastore/core/MutexUtilsKt\n*L\n1#1,205:1\n159#1,8:226\n159#1,8:234\n120#2,10:206\n32#3,10:216\n*S KotlinDebug\n*F\n+ 1 MultiProcessCoordinator.android.kt\nandroidx/datastore/core/MultiProcessCoordinator\n*L\n99#1:226,8\n106#1:234,8\n43#1:206,10\n60#1:216,10\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field public static final Companion:Landroidx/datastore/core/MultiProcessCoordinator$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final DEADLOCK_ERROR_MESSAGE:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final INITIAL_WAIT_MILLIS:J
 
@@ -42,63 +26,32 @@
 
 # instance fields
 .field private final LOCK_ERROR_MESSAGE:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final LOCK_SUFFIX:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final VERSION_SUFFIX:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field private final context:Lkotlin/coroutines/d;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final context:Lkotlin/coroutines/i;
 
 .field private final file:Ljava/io/File;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field private final inMemoryMutex:Lrn/a;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final inMemoryMutex:Lkotlinx/coroutines/sync/a;
 
-.field private final lazySharedCounter:Ljl/c0;
+.field private final lazySharedCounter:Lkotlin/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljl/c0<",
-            "Landroidx/datastore/core/SharedCounter;",
-            ">;"
+            "Lkotlin/c;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
-.field private final lockFile$delegate:Ljl/c0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final lockFile$delegate:Lkotlin/c;
 
-.field private final updateNotifications:Ljn/e;
+.field private final updateNotifications:Lkotlinx/coroutines/flow/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljn/e<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlinx/coroutines/flow/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -115,7 +68,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/datastore/core/MultiProcessCoordinator$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/datastore/core/MultiProcessCoordinator$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -212,25 +165,19 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method public constructor <init>(Lkotlin/coroutines/d;Ljava/io/File;)V
+.method public constructor <init>(Lkotlin/coroutines/i;Ljava/io/File;)V
     .locals 1
-    .param p1    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -239,7 +186,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -249,7 +196,7 @@
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/datastore/core/MultiProcessCoordinator;->context:Lkotlin/coroutines/d;
+    iput-object p1, p0, Landroidx/datastore/core/MultiProcessCoordinator;->context:Lkotlin/coroutines/i;
 
     .line 15
     .line 16
@@ -261,7 +208,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, p2}, Landroidx/datastore/core/MulticastFileObserver$Companion;->observe(Ljava/io/File;)Ljn/e;
+    invoke-virtual {p1, p2}, Landroidx/datastore/core/MulticastFileObserver$Companion;->observe(Ljava/io/File;)Lkotlinx/coroutines/flow/c;
 
     .line 21
     .line 22
@@ -269,7 +216,7 @@
     move-result-object p1
 
     .line 24
-    iput-object p1, p0, Landroidx/datastore/core/MultiProcessCoordinator;->updateNotifications:Ljn/e;
+    iput-object p1, p0, Landroidx/datastore/core/MultiProcessCoordinator;->updateNotifications:Lkotlinx/coroutines/flow/c;
 
     .line 25
     .line 26
@@ -306,7 +253,7 @@
     const/4 v0, 0x0
 
     .line 41
-    invoke-static {v0, p1, p2}, Lkotlinx/coroutines/sync/MutexKt;->b(ZILjava/lang/Object;)Lrn/a;
+    invoke-static {v0, p1, p2}, Lkotlinx/coroutines/sync/MutexKt;->b(ZILjava/lang/Object;)Lkotlinx/coroutines/sync/a;
 
     .line 42
     .line 43
@@ -314,7 +261,7 @@
     move-result-object p1
 
     .line 45
-    iput-object p1, p0, Landroidx/datastore/core/MultiProcessCoordinator;->inMemoryMutex:Lrn/a;
+    iput-object p1, p0, Landroidx/datastore/core/MultiProcessCoordinator;->inMemoryMutex:Lkotlinx/coroutines/sync/a;
 
     .line 46
     .line 47
@@ -327,7 +274,7 @@
     .line 50
     .line 51
     .line 52
-    invoke-static {p1}, Lkotlin/e;->b(Ljm/a;)Ljl/c0;
+    invoke-static {p1}, Lkotlin/d;->b(Lq8/a;)Lkotlin/c;
 
     .line 53
     .line 54
@@ -335,7 +282,7 @@
     move-result-object p1
 
     .line 56
-    iput-object p1, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lockFile$delegate:Ljl/c0;
+    iput-object p1, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lockFile$delegate:Lkotlin/c;
 
     .line 57
     .line 58
@@ -348,7 +295,7 @@
     .line 61
     .line 62
     .line 63
-    invoke-static {p1}, Lkotlin/e;->b(Ljm/a;)Ljl/c0;
+    invoke-static {p1}, Lkotlin/d;->b(Lq8/a;)Lkotlin/c;
 
     .line 64
     .line 65
@@ -356,7 +303,7 @@
     move-result-object p1
 
     .line 67
-    iput-object p1, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lazySharedCounter:Ljl/c0;
+    iput-object p1, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lazySharedCounter:Lkotlin/c;
 
     .line 68
     .line 69
@@ -525,6 +472,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static final synthetic access$createIfNotExists(Landroidx/datastore/core/MultiProcessCoordinator;Ljava/io/File;)V
@@ -667,6 +617,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getINITIAL_WAIT_MILLIS$cp()J
@@ -695,6 +646,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getLOCK_SUFFIX$p(Landroidx/datastore/core/MultiProcessCoordinator;)Ljava/lang/String;
@@ -756,6 +708,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getSharedCounter(Landroidx/datastore/core/MultiProcessCoordinator;)Landroidx/datastore/core/SharedCounter;
@@ -993,6 +946,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final fileWithSuffix(Ljava/lang/String;)Ljava/io/File;
@@ -1099,17 +1053,18 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final getLockFile()Ljava/io/File;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lockFile$delegate:Ljl/c0;
+    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lockFile$delegate:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lkotlin/c;->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1133,17 +1088,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final getSharedCounter()Landroidx/datastore/core/SharedCounter;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lazySharedCounter:Ljl/c0;
+    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lazySharedCounter:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lkotlin/c;->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1167,13 +1123,14 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getSharedCounter$delegate(Landroidx/datastore/core/MultiProcessCoordinator;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lazySharedCounter:Ljl/c0;
+    iget-object p0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lazySharedCounter:Lkotlin/c;
 
     .line 2
     .line 3
@@ -1202,33 +1159,26 @@
     .line 25
 .end method
 
-.method private final withLazyCounter(Ljm/p;Lul/c;)Ljava/lang/Object;
+.method private final withLazyCounter(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Ljm/p<",
-            "-",
-            "Landroidx/datastore/core/SharedCounter;",
-            "-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lazySharedCounter:Ljl/c0;
+    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lazySharedCounter:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->isInitialized()Z
+    invoke-interface {v0}, Lkotlin/c;->isInitialized()Z
 
     .line 4
     .line 5
@@ -1248,7 +1198,7 @@
     move-result-object v0
 
     .line 13
-    invoke-interface {p1, v0, p2}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0, p2}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -1260,7 +1210,7 @@
 
     .line 18
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->context:Lkotlin/coroutines/d;
+    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->context:Lkotlin/coroutines/i;
 
     .line 19
     .line 20
@@ -1271,7 +1221,7 @@
     const/4 v2, 0x0
 
     .line 23
-    invoke-direct {v1, p1, p0, v2}, Landroidx/datastore/core/MultiProcessCoordinator$withLazyCounter$2;-><init>(Ljm/p;Landroidx/datastore/core/MultiProcessCoordinator;Lul/c;)V
+    invoke-direct {v1, p1, p0, v2}, Landroidx/datastore/core/MultiProcessCoordinator$withLazyCounter$2;-><init>(Lq8/p;Landroidx/datastore/core/MultiProcessCoordinator;Lkotlin/coroutines/e;)V
 
     .line 24
     .line 25
@@ -1279,12 +1229,12 @@
     const/4 p1, 0x0
 
     .line 27
-    invoke-static {p1}, Lkm/d0;->e(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->c(I)V
 
     .line 28
     .line 29
     .line 30
-    invoke-static {v0, v1, p2}, Lfn/g;->h(Lkotlin/coroutines/d;Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-static {v0, v1, p2}, Lkotlinx/coroutines/g;->e(Lkotlin/coroutines/i;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -1295,7 +1245,7 @@
     const/4 p2, 0x1
 
     .line 35
-    invoke-static {p2}, Lkm/d0;->e(I)V
+    invoke-static {p2}, Lkotlin/jvm/internal/i;->c(I)V
 
     .line 36
     .line 37
@@ -1317,8 +1267,6 @@
 # virtual methods
 .method public final getFile()Ljava/io/File;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->file:Ljava/io/File;
@@ -1343,24 +1291,20 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public getUpdateNotifications()Ljn/e;
+.method public getUpdateNotifications()Lkotlinx/coroutines/flow/c;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Ljn/e<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlinx/coroutines/flow/c;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->updateNotifications:Ljn/e;
+    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->updateNotifications:Lkotlinx/coroutines/flow/c;
 
     .line 2
     .line 3
@@ -1382,34 +1326,26 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public getVersion(Lul/c;)Ljava/lang/Object;
+.method public getVersion(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 3
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Integer;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lazySharedCounter:Ljl/c0;
+    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lazySharedCounter:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->isInitialized()Z
+    invoke-interface {v0}, Lkotlin/c;->isInitialized()Z
 
     .line 4
     .line 5
@@ -1437,7 +1373,7 @@
     move-result p1
 
     .line 17
-    invoke-static {p1}, Lxl/a;->f(I)Ljava/lang/Integer;
+    invoke-static {p1}, Lk8/a;->c(I)Ljava/lang/Integer;
 
     .line 18
     .line 19
@@ -1449,7 +1385,7 @@
 
     .line 22
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->context:Lkotlin/coroutines/d;
+    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->context:Lkotlin/coroutines/i;
 
     .line 23
     .line 24
@@ -1460,12 +1396,12 @@
     const/4 v2, 0x0
 
     .line 27
-    invoke-direct {v1, p0, v2}, Landroidx/datastore/core/MultiProcessCoordinator$getVersion$$inlined$withLazyCounter$1;-><init>(Landroidx/datastore/core/MultiProcessCoordinator;Lul/c;)V
+    invoke-direct {v1, p0, v2}, Landroidx/datastore/core/MultiProcessCoordinator$getVersion$$inlined$withLazyCounter$1;-><init>(Landroidx/datastore/core/MultiProcessCoordinator;Lkotlin/coroutines/e;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-static {v0, v1, p1}, Lfn/g;->h(Lkotlin/coroutines/d;Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-static {v0, v1, p1}, Lkotlinx/coroutines/g;->e(Lkotlin/coroutines/i;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -1518,34 +1454,26 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public incrementAndGetVersion(Lul/c;)Ljava/lang/Object;
+.method public incrementAndGetVersion(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 3
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Integer;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lazySharedCounter:Ljl/c0;
+    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->lazySharedCounter:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->isInitialized()Z
+    invoke-interface {v0}, Lkotlin/c;->isInitialized()Z
 
     .line 4
     .line 5
@@ -1573,7 +1501,7 @@
     move-result p1
 
     .line 17
-    invoke-static {p1}, Lxl/a;->f(I)Ljava/lang/Integer;
+    invoke-static {p1}, Lk8/a;->c(I)Ljava/lang/Integer;
 
     .line 18
     .line 19
@@ -1585,7 +1513,7 @@
 
     .line 22
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->context:Lkotlin/coroutines/d;
+    iget-object v0, p0, Landroidx/datastore/core/MultiProcessCoordinator;->context:Lkotlin/coroutines/i;
 
     .line 23
     .line 24
@@ -1596,12 +1524,12 @@
     const/4 v2, 0x0
 
     .line 27
-    invoke-direct {v1, p0, v2}, Landroidx/datastore/core/MultiProcessCoordinator$incrementAndGetVersion$$inlined$withLazyCounter$1;-><init>(Landroidx/datastore/core/MultiProcessCoordinator;Lul/c;)V
+    invoke-direct {v1, p0, v2}, Landroidx/datastore/core/MultiProcessCoordinator$incrementAndGetVersion$$inlined$withLazyCounter$1;-><init>(Landroidx/datastore/core/MultiProcessCoordinator;Lkotlin/coroutines/e;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-static {v0, v1, p1}, Lfn/g;->h(Lkotlin/coroutines/d;Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-static {v0, v1, p1}, Lkotlinx/coroutines/g;->e(Lkotlin/coroutines/i;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -1654,36 +1582,21 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public lock(Ljm/l;Lul/c;)Ljava/lang/Object;
+.method public lock(Lq8/l;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 8
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Ljm/l<",
-            "-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lq8/l;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -1733,7 +1646,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/MultiProcessCoordinator$lock$1;-><init>(Landroidx/datastore/core/MultiProcessCoordinator;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/MultiProcessCoordinator$lock$1;-><init>(Landroidx/datastore/core/MultiProcessCoordinator;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -1743,7 +1656,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -1803,12 +1716,12 @@
 
     .line 54
     .line 55
-    check-cast v0, Lrn/a;
+    check-cast v0, Lkotlinx/coroutines/sync/a;
 
     .line 56
     .line 57
     :try_start_0
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1857,7 +1770,7 @@
 
     .line 78
     .line 79
-    check-cast v2, Lrn/a;
+    check-cast v2, Lkotlinx/coroutines/sync/a;
 
     .line 80
     .line 81
@@ -1865,12 +1778,12 @@
 
     .line 82
     .line 83
-    check-cast v4, Ljm/l;
+    check-cast v4, Lq8/l;
 
     .line 84
     .line 85
     :try_start_1
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
@@ -1903,7 +1816,7 @@
 
     .line 96
     .line 97
-    check-cast p1, Lrn/a;
+    check-cast p1, Lkotlinx/coroutines/sync/a;
 
     .line 98
     .line 99
@@ -1911,7 +1824,7 @@
 
     .line 100
     .line 101
-    check-cast v2, Ljm/l;
+    check-cast v2, Lq8/l;
 
     .line 102
     .line 103
@@ -1923,7 +1836,7 @@
 
     .line 106
     .line 107
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 108
     .line 109
@@ -1938,12 +1851,12 @@
 
     .line 113
     :cond_4
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 114
     .line 115
     .line 116
-    iget-object p2, p0, Landroidx/datastore/core/MultiProcessCoordinator;->inMemoryMutex:Lrn/a;
+    iget-object p2, p0, Landroidx/datastore/core/MultiProcessCoordinator;->inMemoryMutex:Lkotlinx/coroutines/sync/a;
 
     .line 117
     .line 118
@@ -1963,7 +1876,7 @@
 
     .line 125
     .line 126
-    invoke-interface {p2, v6, v0}, Lrn/a;->e(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p2, v6, v0}, Lkotlinx/coroutines/sync/a;->b(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 127
     .line 128
@@ -2024,7 +1937,7 @@
 
     .line 152
     .line 153
-    invoke-static {v5, v2, v0}, Landroidx/datastore/core/MultiProcessCoordinator$Companion;->access$getExclusiveFileLockWithRetryIfDeadlock(Landroidx/datastore/core/MultiProcessCoordinator$Companion;Ljava/io/FileOutputStream;Lul/c;)Ljava/lang/Object;
+    invoke-static {v5, v2, v0}, Landroidx/datastore/core/MultiProcessCoordinator$Companion;->access$getExclusiveFileLockWithRetryIfDeadlock(Landroidx/datastore/core/MultiProcessCoordinator$Companion;Ljava/io/FileOutputStream;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 154
     .line 155
@@ -2082,7 +1995,7 @@
 
     .line 174
     .line 175
-    invoke-interface {v4, v0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v4, v0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 176
     .line 177
@@ -2142,14 +2055,14 @@
     :cond_8
     :goto_6
     :try_start_7
-    invoke-static {v1, v6}, Ldm/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v1, v6}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_3
 
     .line 196
     .line 197
     .line 198
-    invoke-interface {v0, v6}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {v0, v6}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 199
     .line 200
@@ -2231,7 +2144,7 @@
 
     .line 224
     :try_start_a
-    invoke-static {v1, p1}, Ldm/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v1, p1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     .line 225
     .line 226
@@ -2246,45 +2159,30 @@
 
     .line 229
     :goto_9
-    invoke-interface {p2, v6}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {p2, v6}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 230
     .line 231
     .line 232
     throw p1
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public tryLock(Ljm/p;Lul/c;)Ljava/lang/Object;
+.method public tryLock(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 18
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Ljm/p<",
-            "-",
-            "Ljava/lang/Boolean;",
-            "-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -2346,7 +2244,7 @@
 
     .line 27
     .line 28
-    invoke-direct {v3, v1, v0}, Landroidx/datastore/core/MultiProcessCoordinator$tryLock$1;-><init>(Landroidx/datastore/core/MultiProcessCoordinator;Lul/c;)V
+    invoke-direct {v3, v1, v0}, Landroidx/datastore/core/MultiProcessCoordinator$tryLock$1;-><init>(Landroidx/datastore/core/MultiProcessCoordinator;Lkotlin/coroutines/e;)V
 
     .line 29
     .line 30
@@ -2356,7 +2254,7 @@
 
     .line 32
     .line 33
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -2413,12 +2311,12 @@
 
     .line 59
     .line 60
-    check-cast v3, Lrn/a;
+    check-cast v3, Lkotlinx/coroutines/sync/a;
 
     .line 61
     .line 62
     :try_start_0
-    invoke-static {v0}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2463,12 +2361,12 @@
 
     .line 81
     .line 82
-    check-cast v3, Lrn/a;
+    check-cast v3, Lkotlinx/coroutines/sync/a;
 
     .line 83
     .line 84
     :try_start_1
-    invoke-static {v0}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
@@ -2487,16 +2385,16 @@
     .line 90
     .line 91
     :cond_3
-    invoke-static {v0}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 92
     .line 93
     .line 94
-    iget-object v5, v1, Landroidx/datastore/core/MultiProcessCoordinator;->inMemoryMutex:Lrn/a;
+    iget-object v5, v1, Landroidx/datastore/core/MultiProcessCoordinator;->inMemoryMutex:Lkotlinx/coroutines/sync/a;
 
     .line 95
     .line 96
-    invoke-interface {v5, v8}, Lrn/a;->d(Ljava/lang/Object;)Z
+    invoke-interface {v5, v8}, Lkotlinx/coroutines/sync/a;->a(Ljava/lang/Object;)Z
 
     .line 97
     .line 98
@@ -2512,7 +2410,7 @@
     .line 102
     .line 103
     :try_start_2
-    invoke-static {v10}, Lxl/a;->a(Z)Ljava/lang/Boolean;
+    invoke-static {v10}, Lk8/a;->a(Z)Ljava/lang/Boolean;
 
     .line 104
     .line 105
@@ -2532,7 +2430,7 @@
 
     .line 112
     .line 113
-    invoke-interface {v2, v0, v3}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, v0, v3}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 114
     .line 115
@@ -2562,7 +2460,7 @@
 
     .line 124
     .line 125
-    invoke-interface {v3, v8}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {v3, v8}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 126
     .line 127
@@ -2688,7 +2586,7 @@
 
     .line 177
     .line 178
-    invoke-static {v12, v13, v10, v6, v8}, Lym/f0;->J2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {v12, v13, v10, v6, v8}, Lkotlin/text/z;->G(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     .line 179
     .line 180
@@ -2720,7 +2618,7 @@
 
     .line 192
     .line 193
-    invoke-static {v12, v13, v10, v6, v8}, Lym/f0;->J2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {v12, v13, v10, v6, v8}, Lkotlin/text/z;->G(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     .line 194
     .line 195
@@ -2752,7 +2650,7 @@
     .line 204
     :goto_4
     :try_start_6
-    invoke-static {v7}, Lxl/a;->a(Z)Ljava/lang/Boolean;
+    invoke-static {v7}, Lk8/a;->a(Z)Ljava/lang/Boolean;
 
     .line 205
     .line 206
@@ -2780,7 +2678,7 @@
 
     .line 217
     .line 218
-    invoke-interface {v2, v0, v3}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, v0, v3}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 219
     .line 220
@@ -2846,7 +2744,7 @@
     :cond_a
     :goto_7
     :try_start_8
-    invoke-static {v5, v8}, Ldm/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v5, v8}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_1
 
@@ -2857,7 +2755,7 @@
 
     .line 244
     .line 245
-    invoke-interface {v3, v8}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {v3, v8}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 246
     .line 247
@@ -2921,7 +2819,7 @@
 
     .line 264
     :try_start_c
-    invoke-static {v5, v2}, Ldm/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v5, v2}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     .line 265
     .line 266
@@ -2946,7 +2844,7 @@
 
     .line 272
     .line 273
-    invoke-interface {v3, v8}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {v3, v8}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 274
     .line 275

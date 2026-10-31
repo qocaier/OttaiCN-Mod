@@ -26,19 +26,9 @@
     value = .enum Ljava/lang/annotation/RetentionPolicy;->CLASS:Ljava/lang/annotation/RetentionPolicy;
 .end annotation
 
-.annotation runtime Lkl/a;
-.end annotation
-
-.annotation runtime Lkl/c;
-    value = .enum Lkotlin/annotation/AnnotationRetention;->BINARY:Lkotlin/annotation/AnnotationRetention;
-.end annotation
-
 
 # static fields
 .field public static final Companion:Landroidx/annotation/VisibleForTesting$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final NONE:I = 0x5
 

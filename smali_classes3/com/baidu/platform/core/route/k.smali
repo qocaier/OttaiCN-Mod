@@ -43,7 +43,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -94,7 +93,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public destroy()V
@@ -135,7 +133,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public drivingSearch(Lcom/baidu/mapapi/search/route/DrivingRoutePlanOption;)Z
@@ -184,7 +181,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public masstransitSearch(Lcom/baidu/mapapi/search/route/MassTransitRoutePlanOption;)Z
@@ -233,7 +229,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnGetRoutePlanResultListener(Lcom/baidu/mapapi/search/route/OnGetRoutePlanResultListener;)V
@@ -274,7 +269,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public transitSearch(Lcom/baidu/mapapi/search/route/TransitRoutePlanOption;)Z
@@ -323,7 +317,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public walkingIndoorSearch(Lcom/baidu/mapapi/search/route/IndoorRoutePlanOption;)Z
@@ -372,7 +365,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public walkingIntegralSearch(Lcom/baidu/mapapi/search/route/WalkingRoutePlanOption;)Z
@@ -421,7 +413,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public walkingSearch(Lcom/baidu/mapapi/search/route/WalkingRoutePlanOption;)Z
@@ -470,5 +461,4 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method

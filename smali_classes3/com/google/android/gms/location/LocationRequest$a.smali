@@ -14,12 +14,6 @@
 .end annotation
 
 
-# static fields
-.field public static final o:J = -0x1L
-
-.field public static final p:J = -0x1L
-
-
 # instance fields
 .field public a:I
 
@@ -46,14 +40,8 @@
 .field public l:Z
 
 .field public m:Landroid/os/WorkSource;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
 
 .field public n:Lcom/google/android/gms/internal/location/zze;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -126,104 +114,100 @@
 
 .method public constructor <init>(Lcom/google/android/gms/location/LocationRequest;)V
     .locals 3
-    .param p1    # Lcom/google/android/gms/location/LocationRequest;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 4
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->S()I
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->m()I
 
     move-result v0
 
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->z()J
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->g()J
 
     move-result-wide v1
 
     invoke-direct {p0, v0, v1, v2}, Lcom/google/android/gms/location/LocationRequest$a;-><init>(IJ)V
 
     .line 5
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->P()J
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->l()J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/location/LocationRequest$a;->i(J)Lcom/google/android/gms/location/LocationRequest$a;
 
     .line 6
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->E()J
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->i()J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/location/LocationRequest$a;->f(J)Lcom/google/android/gms/location/LocationRequest$a;
 
     .line 7
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->t()J
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->e()J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/location/LocationRequest$a;->b(J)Lcom/google/android/gms/location/LocationRequest$a;
 
     .line 8
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->F()I
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->j()I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/google/android/gms/location/LocationRequest$a;->g(I)Lcom/google/android/gms/location/LocationRequest$a;
 
     .line 9
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->J()F
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->k()F
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/google/android/gms/location/LocationRequest$a;->h(F)Lcom/google/android/gms/location/LocationRequest$a;
 
     .line 10
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->d0()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->p()Z
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/google/android/gms/location/LocationRequest$a;->k(Z)Lcom/google/android/gms/location/LocationRequest$a;
 
     .line 11
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->A()J
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->h()J
 
     move-result-wide v0
 
     invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/location/LocationRequest$a;->e(J)Lcom/google/android/gms/location/LocationRequest$a;
 
     .line 12
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->v()I
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->f()I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Lcom/google/android/gms/location/LocationRequest$a;->c(I)Lcom/google/android/gms/location/LocationRequest$a;
 
     .line 13
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->A0()I
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->u()I
 
     move-result v0
 
     .line 14
-    invoke-static {v0}, Lda/n0;->a(I)I
+    invoke-static {v0}, Lj3/w;->a(I)I
 
     iput v0, p0, Lcom/google/android/gms/location/LocationRequest$a;->k:I
 
     .line 15
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->F0()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->v()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/android/gms/location/LocationRequest$a;->l:Z
 
     .line 16
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->L0()Landroid/os/WorkSource;
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->w()Landroid/os/WorkSource;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/location/LocationRequest$a;->m:Landroid/os/WorkSource;
 
     .line 17
-    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->P0()Lcom/google/android/gms/internal/location/zze;
+    invoke-virtual {p1}, Lcom/google/android/gms/location/LocationRequest;->x()Lcom/google/android/gms/internal/location/zze;
 
     move-result-object p1
 
@@ -231,7 +215,7 @@
 
     if-eqz p1, :cond_1
 
-    invoke-virtual {p1}, Lcom/google/android/gms/internal/location/zze;->s()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/internal/location/zze;->d()Z
 
     move-result v1
 
@@ -245,7 +229,7 @@
     .line 18
     :cond_1
     :goto_0
-    invoke-static {v0}, Lh9/t;->a(Z)V
+    invoke-static {v0}, Lt2/j;->a(Z)V
 
     iput-object p1, p0, Lcom/google/android/gms/location/LocationRequest$a;->n:Lcom/google/android/gms/internal/location/zze;
 
@@ -256,8 +240,6 @@
 # virtual methods
 .method public a()Lcom/google/android/gms/location/LocationRequest;
     .locals 23
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     move-object/from16 v0, p0
@@ -460,21 +442,10 @@
     return-object v1
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public b(J)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 2
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     const-wide/16 v0, 0x0
@@ -504,7 +475,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1}, Lh9/t;->b(ZLjava/lang/Object;)V
+    invoke-static {v0, v1}, Lt2/j;->b(ZLjava/lang/Object;)V
 
     .line 13
     .line 14
@@ -521,16 +492,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public c(I)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
-    invoke-static {p1}, Lda/d1;->a(I)I
+    invoke-static {p1}, Lj3/m0;->a(I)I
 
     .line 2
     .line 3
@@ -558,13 +526,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public d(J)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 2
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     const-wide/16 v0, 0x0
@@ -594,7 +559,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1}, Lh9/t;->b(ZLjava/lang/Object;)V
+    invoke-static {v0, v1}, Lt2/j;->b(ZLjava/lang/Object;)V
 
     .line 13
     .line 14
@@ -611,13 +576,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public e(J)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 4
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     const-wide/16 v0, -0x1
@@ -660,7 +622,7 @@
 
     .line 17
     .line 18
-    invoke-static {v1, v0}, Lh9/t;->b(ZLjava/lang/Object;)V
+    invoke-static {v1, v0}, Lt2/j;->b(ZLjava/lang/Object;)V
 
     .line 19
     .line 20
@@ -671,13 +633,10 @@
     .line 23
     return-object p0
     .line 24
-    .line 25
 .end method
 
 .method public f(J)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 2
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     const-wide/16 v0, 0x0
@@ -707,7 +666,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1}, Lh9/t;->b(ZLjava/lang/Object;)V
+    invoke-static {v0, v1}, Lt2/j;->b(ZLjava/lang/Object;)V
 
     .line 13
     .line 14
@@ -724,13 +683,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public g(I)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 2
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     if-lez p1, :cond_0
@@ -752,7 +708,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Lh9/t;->b(ZLjava/lang/Object;)V
+    invoke-static {v0, v1}, Lt2/j;->b(ZLjava/lang/Object;)V
 
     .line 9
     .line 10
@@ -773,13 +729,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public h(F)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 2
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -808,7 +761,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lh9/t;->b(ZLjava/lang/Object;)V
+    invoke-static {v0, v1}, Lt2/j;->b(ZLjava/lang/Object;)V
 
     .line 12
     .line 13
@@ -826,13 +779,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public i(J)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 4
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     const-wide/16 v0, -0x1
@@ -875,7 +825,7 @@
 
     .line 17
     .line 18
-    invoke-static {v1, v0}, Lh9/t;->b(ZLjava/lang/Object;)V
+    invoke-static {v1, v0}, Lt2/j;->b(ZLjava/lang/Object;)V
 
     .line 19
     .line 20
@@ -886,16 +836,13 @@
     .line 23
     return-object p0
     .line 24
-    .line 25
 .end method
 
 .method public j(I)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
-    invoke-static {p1}, Lda/j0;->a(I)I
+    invoke-static {p1}, Lj3/s;->a(I)I
 
     .line 2
     .line 3
@@ -923,13 +870,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public k(Z)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/location/LocationRequest$a;->h:Z
@@ -939,11 +883,9 @@
 
 .method public final l(I)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
-    invoke-static {p1}, Lda/n0;->a(I)I
+    invoke-static {p1}, Lj3/w;->a(I)I
 
     .line 2
     .line 3
@@ -971,20 +913,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final m(Z)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Landroidx/annotation/RequiresPermission;
-        anyOf = {
-            "android.permission.WRITE_SECURE_SETTINGS",
-            "android.permission.LOCATION_BYPASS"
-        }
-    .end annotation
 
     .line 1
     iput-boolean p1, p0, Lcom/google/android/gms/location/LocationRequest$a;->l:Z
@@ -994,16 +926,6 @@
 
 .method public final n(Landroid/os/WorkSource;)Lcom/google/android/gms/location/LocationRequest$a;
     .locals 0
-    .param p1    # Landroid/os/WorkSource;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Landroidx/annotation/RequiresPermission;
-        value = "android.permission.UPDATE_DEVICE_STATS"
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/google/android/gms/location/LocationRequest$a;->m:Landroid/os/WorkSource;

@@ -8,25 +8,9 @@
 
 # virtual methods
 .method public abstract getPaths(I)Ljava/lang/String;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getPathsBytes(I)Landroidx/datastore/preferences/protobuf/ByteString;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getPathsCount()I

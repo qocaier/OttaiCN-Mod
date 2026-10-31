@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -35,9 +33,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lkotlin/jvm/internal/Ref$ObjectRef<",
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;>;"
+            "Lq8/a;",
+            ">;"
         }
     .end annotation
 .end field
@@ -55,9 +52,8 @@
             "Landroid/view/ViewGroup;",
             "Ljava/lang/Object;",
             "Lkotlin/jvm/internal/Ref$ObjectRef<",
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;>;)V"
+            "Lq8/a;",
+            ">;)V"
         }
     .end annotation
 
@@ -84,7 +80,7 @@
     .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionEffect$onStart$4;->invoke()V
 
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
 
     return-object v0
 .end method

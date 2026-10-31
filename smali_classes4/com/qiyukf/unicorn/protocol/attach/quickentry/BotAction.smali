@@ -72,6 +72,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -102,6 +104,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getHighLight()I
@@ -130,6 +134,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getIconUrl()Ljava/lang/String;
@@ -166,6 +172,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLabel()Ljava/lang/String;
@@ -194,6 +202,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -222,6 +232,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTemplateId()J
@@ -250,6 +262,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTemplateIds()Ljava/util/List;
@@ -402,6 +416,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getUrl()Ljava/lang/String;
@@ -430,6 +445,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isHighLight()Z
@@ -467,6 +484,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isOpenUrge()Z
@@ -592,6 +611,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public setAction(I)V
@@ -625,6 +645,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setHighLight(I)V
@@ -658,6 +680,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLabel(Ljava/lang/String;)V
@@ -691,6 +715,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTemplateId(J)V
@@ -724,6 +750,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUrl(Ljava/lang/String;)V
@@ -757,4 +785,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -29,14 +29,6 @@
 # direct methods
 .method private constructor <init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;->this$0:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
@@ -59,14 +51,6 @@
 # virtual methods
 .method public bridge synthetic add(Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "entry"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/util/Map$Entry;
@@ -80,15 +64,6 @@
 
 .method public add(Ljava/util/Map$Entry;)Z
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "entry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -157,18 +132,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public contains(Ljava/lang/Object;)Z
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/util/Map$Entry;
@@ -286,6 +254,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public iterator()Ljava/util/Iterator;
@@ -328,18 +297,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public remove(Ljava/lang/Object;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/util/Map$Entry;
@@ -422,4 +384,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

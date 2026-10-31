@@ -16,12 +16,6 @@
 # static fields
 .field public static final R:Ljava/lang/String; = "PDFView"
 
-.field public static final S:F = 3.0f
-
-.field public static final T:F = 1.75f
-
-.field public static final U:F = 1.0f
-
 
 # instance fields
 .field public A:Z
@@ -32,7 +26,7 @@
 
 .field public D:Lcom/shockwave/pdfium/PdfiumCore;
 
-.field public E:Lu8/a;
+.field public E:Ll2/a;
 
 .field public F:Z
 
@@ -53,14 +47,6 @@
 .field public N:Z
 
 .field public O:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Ljava/lang/Integer;",
-            ">;"
-        }
-    .end annotation
-.end field
 
 .field public P:Z
 
@@ -74,13 +60,13 @@
 
 .field public d:Lcom/github/barteksc/pdfviewer/PDFView$ScrollDir;
 
-.field public e:Lq8/b;
+.field public e:Lcom/github/barteksc/pdfviewer/b;
 
-.field public f:Lq8/a;
+.field public f:Lcom/github/barteksc/pdfviewer/a;
 
-.field public g:Lq8/d;
+.field public g:Lcom/github/barteksc/pdfviewer/d;
 
-.field public h:Lq8/f;
+.field public h:Lcom/github/barteksc/pdfviewer/f;
 
 .field public i:I
 
@@ -94,15 +80,15 @@
 
 .field public n:Lcom/github/barteksc/pdfviewer/PDFView$State;
 
-.field public o:Lq8/c;
+.field public o:Lcom/github/barteksc/pdfviewer/c;
 
 .field public p:Landroid/os/HandlerThread;
 
-.field public q:Lq8/g;
+.field public q:Lcom/github/barteksc/pdfviewer/g;
 
-.field public r:Lq8/e;
+.field public r:Lcom/github/barteksc/pdfviewer/e;
 
-.field public s:Ls8/a;
+.field public s:Lj2/a;
 
 .field public t:Landroid/graphics/Paint;
 
@@ -197,16 +183,16 @@
 
     .line 33
     .line 34
-    new-instance v0, Ls8/a;
+    new-instance v0, Lj2/a;
 
     .line 35
     .line 36
-    invoke-direct {v0}, Ls8/a;-><init>()V
+    invoke-direct {v0}, Lj2/a;-><init>()V
 
     .line 37
     .line 38
     .line 39
-    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 40
     .line 41
@@ -334,55 +320,55 @@
 
     .line 102
     :cond_0
-    new-instance p2, Lq8/b;
+    new-instance p2, Lcom/github/barteksc/pdfviewer/b;
 
     .line 103
     .line 104
-    invoke-direct {p2}, Lq8/b;-><init>()V
+    invoke-direct {p2}, Lcom/github/barteksc/pdfviewer/b;-><init>()V
 
     .line 105
     .line 106
     .line 107
-    iput-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lq8/b;
+    iput-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lcom/github/barteksc/pdfviewer/b;
 
     .line 108
     .line 109
-    new-instance p2, Lq8/a;
+    new-instance p2, Lcom/github/barteksc/pdfviewer/a;
 
     .line 110
     .line 111
-    invoke-direct {p2, p0}, Lq8/a;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;)V
+    invoke-direct {p2, p0}, Lcom/github/barteksc/pdfviewer/a;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;)V
 
     .line 112
     .line 113
     .line 114
-    iput-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lq8/a;
+    iput-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lcom/github/barteksc/pdfviewer/a;
 
     .line 115
     .line 116
-    new-instance v1, Lq8/d;
+    new-instance v1, Lcom/github/barteksc/pdfviewer/d;
 
     .line 117
     .line 118
-    invoke-direct {v1, p0, p2}, Lq8/d;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;Lq8/a;)V
+    invoke-direct {v1, p0, p2}, Lcom/github/barteksc/pdfviewer/d;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;Lcom/github/barteksc/pdfviewer/a;)V
 
     .line 119
     .line 120
     .line 121
-    iput-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->g:Lq8/d;
+    iput-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->g:Lcom/github/barteksc/pdfviewer/d;
 
     .line 122
     .line 123
-    new-instance p2, Lq8/e;
+    new-instance p2, Lcom/github/barteksc/pdfviewer/e;
 
     .line 124
     .line 125
-    invoke-direct {p2, p0}, Lq8/e;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;)V
+    invoke-direct {p2, p0}, Lcom/github/barteksc/pdfviewer/e;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;)V
 
     .line 126
     .line 127
     .line 128
-    iput-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->r:Lq8/e;
+    iput-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->r:Lcom/github/barteksc/pdfviewer/e;
 
     .line 129
     .line 130
@@ -612,90 +598,9 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
-.method public static synthetic a(Lcom/github/barteksc/pdfviewer/PDFView;)Lq8/d;
-    .locals 0
-
-    .line 1
-    iget-object p0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->g:Lq8/d;
-
-    .line 2
-    .line 3
-    return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public static synthetic b(Lcom/github/barteksc/pdfviewer/PDFView;Z)V
+.method public static synthetic a(Lcom/github/barteksc/pdfviewer/PDFView;Z)V
     .locals 0
 
     .line 1
@@ -761,18 +666,13 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public static synthetic c(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;Ljava/lang/String;[I)V
+.method public static synthetic b(Lcom/github/barteksc/pdfviewer/PDFView;Lm2/b;Ljava/lang/String;[I)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Lcom/github/barteksc/pdfviewer/PDFView;->V(Lv8/c;Ljava/lang/String;[I)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/github/barteksc/pdfviewer/PDFView;->I(Lm2/b;Ljava/lang/String;[I)V
 
     .line 2
     .line 3
@@ -1016,13 +916,29 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
-.method public static synthetic d(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;Ljava/lang/String;)V
+.method public static synthetic c(Lcom/github/barteksc/pdfviewer/PDFView;Lm2/b;Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Lcom/github/barteksc/pdfviewer/PDFView;->U(Lv8/c;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, p2}, Lcom/github/barteksc/pdfviewer/PDFView;->H(Lm2/b;Ljava/lang/String;)V
 
     .line 2
     .line 3
@@ -1171,14 +1087,9 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
-.method public static synthetic e(Lcom/github/barteksc/pdfviewer/PDFView;)Z
+.method public static synthetic d(Lcom/github/barteksc/pdfviewer/PDFView;)Z
     .locals 0
 
     .line 1
@@ -1208,10 +1119,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public static synthetic f(Lcom/github/barteksc/pdfviewer/PDFView;Lcom/github/barteksc/pdfviewer/PDFView$b;)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public static synthetic e(Lcom/github/barteksc/pdfviewer/PDFView;Lcom/github/barteksc/pdfviewer/PDFView$b;)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
@@ -1277,14 +1187,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public static synthetic g(Lcom/github/barteksc/pdfviewer/PDFView;I)V
+.method public static synthetic f(Lcom/github/barteksc/pdfviewer/PDFView;I)V
     .locals 0
 
     .line 1
@@ -1350,14 +1255,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public static synthetic h(Lcom/github/barteksc/pdfviewer/PDFView;Z)V
+.method public static synthetic g(Lcom/github/barteksc/pdfviewer/PDFView;Z)V
     .locals 0
 
     .line 1
@@ -1423,18 +1323,13 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public static synthetic i(Lcom/github/barteksc/pdfviewer/PDFView;Lu8/a;)V
+.method public static synthetic h(Lcom/github/barteksc/pdfviewer/PDFView;Ll2/a;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/github/barteksc/pdfviewer/PDFView;->setScrollHandle(Lu8/a;)V
+    invoke-direct {p0, p1}, Lcom/github/barteksc/pdfviewer/PDFView;->setScrollHandle(Ll2/a;)V
 
     .line 2
     .line 3
@@ -1496,14 +1391,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public static synthetic j(Lcom/github/barteksc/pdfviewer/PDFView;I)V
+.method public static synthetic i(Lcom/github/barteksc/pdfviewer/PDFView;I)V
     .locals 0
 
     .line 1
@@ -1569,14 +1459,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public static synthetic k(Lcom/github/barteksc/pdfviewer/PDFView;Z)V
+.method public static synthetic j(Lcom/github/barteksc/pdfviewer/PDFView;Z)V
     .locals 0
 
     .line 1
@@ -1642,14 +1527,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public static synthetic l(Lcom/github/barteksc/pdfviewer/PDFView;Lcom/github/barteksc/pdfviewer/util/FitPolicy;)V
+.method public static synthetic k(Lcom/github/barteksc/pdfviewer/PDFView;Lcom/github/barteksc/pdfviewer/util/FitPolicy;)V
     .locals 0
 
     .line 1
@@ -1715,11 +1595,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private setAutoSpacing(Z)V
@@ -1752,7 +1627,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setDefaultPage(I)V
@@ -1785,7 +1659,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setFitEachPage(Z)V
@@ -1818,7 +1691,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setPageFitPolicy(Lcom/github/barteksc/pdfviewer/util/FitPolicy;)V
@@ -1851,14 +1723,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method private setScrollHandle(Lu8/a;)V
+.method private setScrollHandle(Ll2/a;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Lu8/a;
+    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Ll2/a;
 
     .line 2
     .line 3
@@ -1884,7 +1755,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setSpacing(I)V
@@ -1899,7 +1769,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0, p1}, Lw8/f;->a(Landroid/content/Context;I)I
+    invoke-static {v0, p1}, Ln2/d;->a(Landroid/content/Context;I)I
 
     .line 6
     .line 7
@@ -1925,7 +1795,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setSwipeVertical(Z)V
@@ -1958,433 +1827,11 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
-.method public A(Lv8/c;)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 2
-
-    .line 1
-    new-instance v0, Lcom/github/barteksc/pdfviewer/PDFView$b;
-
-    .line 2
-    .line 3
-    const/4 v1, 0x0
-
-    .line 4
-    invoke-direct {v0, p0, p1, v1}, Lcom/github/barteksc/pdfviewer/PDFView$b;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;Lcom/github/barteksc/pdfviewer/PDFView$a;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-object v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public B(Ljava/io/InputStream;)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 2
-
-    .line 1
-    new-instance v0, Lcom/github/barteksc/pdfviewer/PDFView$b;
-
-    .line 2
-    .line 3
-    new-instance v1, Lv8/e;
-
-    .line 4
-    .line 5
-    invoke-direct {v1, p1}, Lv8/e;-><init>(Ljava/io/InputStream;)V
-
-    .line 6
-    .line 7
-    .line 8
-    const/4 p1, 0x0
-
-    .line 9
-    invoke-direct {v0, p0, v1, p1}, Lcom/github/barteksc/pdfviewer/PDFView$b;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;Lcom/github/barteksc/pdfviewer/PDFView$a;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object v0
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public C(Landroid/net/Uri;)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 2
-
-    .line 1
-    new-instance v0, Lcom/github/barteksc/pdfviewer/PDFView$b;
-
-    .line 2
-    .line 3
-    new-instance v1, Lv8/f;
-
-    .line 4
-    .line 5
-    invoke-direct {v1, p1}, Lv8/f;-><init>(Landroid/net/Uri;)V
-
-    .line 6
-    .line 7
-    .line 8
-    const/4 p1, 0x0
-
-    .line 9
-    invoke-direct {v0, p0, v1, p1}, Lcom/github/barteksc/pdfviewer/PDFView$b;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;Lcom/github/barteksc/pdfviewer/PDFView$a;)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object v0
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public D(I)Ljava/util/List;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(I)",
-            "Ljava/util/List<",
-            "Lcom/shockwave/pdfium/PdfDocument$Link;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 2
-    .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    sget-object p1, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
-
-    .line 6
-    .line 7
-    return-object p1
-
-    .line 8
-    :cond_0
-    invoke-virtual {v0, p1}, Lq8/f;->l(I)Ljava/util/List;
-
-    .line 9
-    .line 10
-    .line 11
-    move-result-object p1
-
-    .line 12
-    return-object p1
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public E(F)I
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 2
-    .line 3
-    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 4
-    .line 5
-    invoke-virtual {v0, v1}, Lq8/f;->e(F)F
-
-    .line 6
-    .line 7
-    .line 8
-    move-result v1
-
-    .line 9
-    mul-float/2addr v1, p1
-
-    .line 10
-    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 11
-    .line 12
-    invoke-virtual {v0, v1, p1}, Lq8/f;->j(FF)I
-
-    .line 13
-    .line 14
-    .line 15
-    move-result p1
-
-    .line 16
-    return p1
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public F(I)Lcom/shockwave/pdfium/util/SizeF;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 2
-    .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    new-instance p1, Lcom/shockwave/pdfium/util/SizeF;
-
-    .line 6
-    .line 7
-    const/4 v0, 0x0
-
-    .line 8
-    invoke-direct {p1, v0, v0}, Lcom/shockwave/pdfium/util/SizeF;-><init>(FF)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-object p1
-
-    .line 12
-    :cond_0
-    invoke-virtual {v0, p1}, Lq8/f;->n(I)Lcom/shockwave/pdfium/util/SizeF;
-
-    .line 13
-    .line 14
-    .line 15
-    move-result-object p1
-
-    .line 16
-    return-object p1
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public G()Z
-    .locals 1
-
-    .line 1
-    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->H:Z
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public H()Z
-    .locals 1
-
-    .line 1
-    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->J:Z
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public I()Z
-    .locals 1
-
-    .line 1
-    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->M:Z
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public J()Z
-    .locals 1
-
-    .line 1
-    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->G:Z
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public K()Z
-    .locals 1
-
-    .line 1
-    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->A:Z
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public L()Z
+.method public A()Z
     .locals 1
 
     .line 1
@@ -2412,10 +1859,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public M()Z
+.method public B()Z
     .locals 1
 
     .line 1
@@ -2443,72 +1889,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public N()Z
-    .locals 1
-
-    .line 1
-    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->C:Z
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public O()Z
-    .locals 1
-
-    .line 1
-    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->m:Z
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public P()Z
+.method public C()Z
     .locals 1
 
     .line 1
@@ -2536,10 +1919,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public Q()Z
+.method public D()Z
     .locals 1
 
     .line 1
@@ -2567,10 +1949,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public R()Z
+.method public E()Z
     .locals 2
 
     .line 1
@@ -2611,17 +1992,16 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public S(I)V
+.method public F(I)V
     .locals 1
 
     .line 1
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->T(IZ)V
+    invoke-virtual {p0, p1, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->G(IZ)V
 
     .line 3
     .line 4
@@ -2646,14 +2026,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public T(IZ)V
+.method public G(IZ)V
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 2
     .line 3
@@ -2665,7 +2044,7 @@
 
     .line 6
     :cond_0
-    invoke-virtual {v0, p1}, Lq8/f;->a(I)I
+    invoke-virtual {v0, p1}, Lcom/github/barteksc/pdfviewer/f;->a(I)I
 
     .line 7
     .line 8
@@ -2684,7 +2063,7 @@
 
     .line 14
     :cond_1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 15
     .line 16
@@ -2692,7 +2071,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0, p1, v1}, Lq8/f;->m(IF)F
+    invoke-virtual {v0, p1, v1}, Lcom/github/barteksc/pdfviewer/f;->m(IF)F
 
     .line 19
     .line 20
@@ -2716,7 +2095,7 @@
 
     .line 28
     .line 29
-    iget-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lq8/a;
+    iget-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lcom/github/barteksc/pdfviewer/a;
 
     .line 30
     .line 31
@@ -2724,7 +2103,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p2, v1, v0}, Lq8/a;->j(FF)V
+    invoke-virtual {p2, v1, v0}, Lcom/github/barteksc/pdfviewer/a;->j(FF)V
 
     .line 34
     .line 35
@@ -2737,7 +2116,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {p0, p2, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(FF)V
+    invoke-virtual {p0, p2, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->O(FF)V
 
     .line 40
     .line 41
@@ -2750,7 +2129,7 @@
 
     .line 44
     .line 45
-    iget-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lq8/a;
+    iget-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lcom/github/barteksc/pdfviewer/a;
 
     .line 46
     .line 47
@@ -2758,7 +2137,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {p2, v1, v0}, Lq8/a;->i(FF)V
+    invoke-virtual {p2, v1, v0}, Lcom/github/barteksc/pdfviewer/a;->i(FF)V
 
     .line 50
     .line 51
@@ -2771,13 +2150,13 @@
 
     .line 54
     .line 55
-    invoke-virtual {p0, v0, p2}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(FF)V
+    invoke-virtual {p0, v0, p2}, Lcom/github/barteksc/pdfviewer/PDFView;->O(FF)V
 
     .line 56
     .line 57
     .line 58
     :goto_1
-    invoke-virtual {p0, p1}, Lcom/github/barteksc/pdfviewer/PDFView;->m0(I)V
+    invoke-virtual {p0, p1}, Lcom/github/barteksc/pdfviewer/PDFView;->Y(I)V
 
     .line 59
     .line 60
@@ -2787,16 +2166,282 @@
     .line 63
     .line 64
     .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
 .end method
 
-.method public final U(Lv8/c;Ljava/lang/String;)V
+.method public final H(Lm2/b;Ljava/lang/String;)V
     .locals 1
 
     .line 1
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, p1, p2, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->V(Lv8/c;Ljava/lang/String;[I)V
+    invoke-virtual {p0, p1, p2, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->I(Lm2/b;Ljava/lang/String;[I)V
 
     .line 3
     .line 4
@@ -2857,14 +2502,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public final V(Lv8/c;Ljava/lang/String;[I)V
+.method public final I(Lm2/b;Ljava/lang/String;[I)V
     .locals 7
 
     .line 1
@@ -2883,7 +2523,7 @@
 
     .line 7
     .line 8
-    new-instance v1, Lq8/c;
+    new-instance v1, Lcom/github/barteksc/pdfviewer/c;
 
     .line 9
     .line 10
@@ -2903,12 +2543,12 @@
     move-object v4, p3
 
     .line 16
-    invoke-direct/range {v1 .. v6}, Lq8/c;-><init>(Lv8/c;Ljava/lang/String;[ILcom/github/barteksc/pdfviewer/PDFView;Lcom/shockwave/pdfium/PdfiumCore;)V
+    invoke-direct/range {v1 .. v6}, Lcom/github/barteksc/pdfviewer/c;-><init>(Lm2/b;Ljava/lang/String;[ILcom/github/barteksc/pdfviewer/PDFView;Lcom/shockwave/pdfium/PdfiumCore;)V
 
     .line 17
     .line 18
     .line 19
-    iput-object v1, v5, Lcom/github/barteksc/pdfviewer/PDFView;->o:Lq8/c;
+    iput-object v1, v5, Lcom/github/barteksc/pdfviewer/PDFView;->o:Lcom/github/barteksc/pdfviewer/c;
 
     .line 20
     .line 21
@@ -3056,14 +2696,9 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
-.method public W(Lq8/f;)V
+.method public J(Lcom/github/barteksc/pdfviewer/f;)V
     .locals 2
 
     .line 1
@@ -3075,7 +2710,7 @@
 
     .line 4
     .line 5
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 6
     .line 7
@@ -3113,7 +2748,7 @@
     .line 22
     .line 23
     :cond_1
-    new-instance v0, Lq8/g;
+    new-instance v0, Lcom/github/barteksc/pdfviewer/g;
 
     .line 24
     .line 25
@@ -3129,21 +2764,21 @@
     move-result-object v1
 
     .line 31
-    invoke-direct {v0, v1, p0}, Lq8/g;-><init>(Landroid/os/Looper;Lcom/github/barteksc/pdfviewer/PDFView;)V
+    invoke-direct {v0, v1, p0}, Lcom/github/barteksc/pdfviewer/g;-><init>(Landroid/os/Looper;Lcom/github/barteksc/pdfviewer/PDFView;)V
 
     .line 32
     .line 33
     .line 34
-    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->q:Lq8/g;
+    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->q:Lcom/github/barteksc/pdfviewer/g;
 
     .line 35
     .line 36
-    invoke-virtual {v0}, Lq8/g;->e()V
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/g;->e()V
 
     .line 37
     .line 38
     .line 39
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Lu8/a;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Ll2/a;
 
     .line 40
     .line 41
@@ -3151,7 +2786,7 @@
 
     .line 42
     .line 43
-    invoke-interface {v0, p0}, Lu8/a;->setupLayout(Lcom/github/barteksc/pdfviewer/PDFView;)V
+    invoke-interface {v0, p0}, Ll2/a;->setupLayout(Lcom/github/barteksc/pdfviewer/PDFView;)V
 
     .line 44
     .line 45
@@ -3164,20 +2799,20 @@
     .line 48
     .line 49
     :cond_2
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->g:Lq8/d;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->g:Lcom/github/barteksc/pdfviewer/d;
 
     .line 50
     .line 51
-    invoke-virtual {v0}, Lq8/d;->e()V
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/d;->d()V
 
     .line 52
     .line 53
     .line 54
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 55
     .line 56
-    invoke-virtual {p1}, Lq8/f;->p()I
+    invoke-virtual {p1}, Lcom/github/barteksc/pdfviewer/f;->p()I
 
     .line 57
     .line 58
@@ -3185,7 +2820,7 @@
     move-result p1
 
     .line 60
-    invoke-virtual {v0, p1}, Ls8/a;->b(I)V
+    invoke-virtual {v0, p1}, Lj2/a;->b(I)V
 
     .line 61
     .line 62
@@ -3197,7 +2832,7 @@
     const/4 v0, 0x0
 
     .line 66
-    invoke-virtual {p0, p1, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->T(IZ)V
+    invoke-virtual {p0, p1, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->G(IZ)V
 
     .line 67
     .line 68
@@ -3225,11 +2860,9 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public X(Ljava/lang/Throwable;)V
+.method public K(Ljava/lang/Throwable;)V
     .locals 2
 
     .line 1
@@ -3241,11 +2874,11 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Ls8/a;->k()Ls8/c;
+    invoke-virtual {v0}, Lj2/a;->k()Lj2/c;
 
     .line 8
     .line 9
@@ -3253,7 +2886,7 @@
     move-result-object v0
 
     .line 11
-    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->h0()V
+    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->U()V
 
     .line 12
     .line 13
@@ -3267,7 +2900,7 @@
 
     .line 18
     .line 19
-    invoke-interface {v0, p1}, Ls8/c;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, p1}, Lj2/c;->onError(Ljava/lang/Throwable;)V
 
     .line 20
     .line 21
@@ -3351,19 +2984,17 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public Y()V
+.method public L()V
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lq8/f;->p()I
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/f;->p()I
 
     .line 4
     .line 5
@@ -3430,7 +3061,7 @@
 
     .line 32
     :goto_1
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 33
     .line 34
@@ -3444,7 +3075,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {v1, v0, v2}, Lq8/f;->j(FF)I
+    invoke-virtual {v1, v0, v2}, Lcom/github/barteksc/pdfviewer/f;->j(FF)I
 
     .line 39
     .line 40
@@ -3456,11 +3087,11 @@
 
     .line 43
     .line 44
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 45
     .line 46
-    invoke-virtual {v1}, Lq8/f;->p()I
+    invoke-virtual {v1}, Lcom/github/barteksc/pdfviewer/f;->p()I
 
     .line 47
     .line 48
@@ -3488,7 +3119,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->m0(I)V
+    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->Y(I)V
 
     .line 61
     .line 62
@@ -3497,7 +3128,7 @@
 
     .line 64
     :cond_2
-    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->Z()V
+    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->M()V
 
     .line 65
     .line 66
@@ -3536,22 +3167,13 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public Z()V
+.method public M()V
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 2
     .line 3
@@ -3559,7 +3181,7 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->q:Lq8/g;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->q:Lcom/github/barteksc/pdfviewer/g;
 
     .line 6
     .line 7
@@ -3579,25 +3201,25 @@
     .line 12
     .line 13
     .line 14
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lq8/b;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lcom/github/barteksc/pdfviewer/b;
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Lq8/b;->i()V
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/b;->i()V
 
     .line 17
     .line 18
     .line 19
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->r:Lq8/e;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->r:Lcom/github/barteksc/pdfviewer/e;
 
     .line 20
     .line 21
-    invoke-virtual {v0}, Lq8/e;->f()V
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/e;->f()V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->i0()V
+    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->V()V
 
     .line 25
     .line 26
@@ -3678,18 +3300,9 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public a0(FF)V
+.method public N(FF)V
     .locals 1
 
     .line 1
@@ -3707,7 +3320,7 @@
     add-float/2addr p1, p2
 
     .line 7
-    invoke-virtual {p0, v0, p1}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(FF)V
+    invoke-virtual {p0, v0, p1}, Lcom/github/barteksc/pdfviewer/PDFView;->O(FF)V
 
     .line 8
     .line 9
@@ -3763,21 +3376,16 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public b0(FF)V
+.method public O(FF)V
     .locals 1
 
     .line 1
     const/4 v0, 0x1
 
     .line 2
-    invoke-virtual {p0, p1, p2, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->c0(FFZ)V
+    invoke-virtual {p0, p1, p2, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->P(FFZ)V
 
     .line 3
     .line 4
@@ -3838,14 +3446,9 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public c0(FFZ)V
+.method public P(FFZ)V
     .locals 5
 
     .line 1
@@ -3864,11 +3467,11 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Lq8/f;->h()F
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/f;->h()F
 
     .line 11
     .line 12
@@ -3876,7 +3479,7 @@
     move-result v0
 
     .line 14
-    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->p0(F)F
+    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(F)F
 
     .line 15
     .line 16
@@ -3983,7 +3586,7 @@
     .line 60
     :cond_2
     :goto_1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 61
     .line 62
@@ -3991,7 +3594,7 @@
 
     .line 63
     .line 64
-    invoke-virtual {v0, v3}, Lq8/f;->e(F)F
+    invoke-virtual {v0, v3}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
 
     .line 65
     .line 66
@@ -4155,11 +3758,11 @@
     .line 136
     .line 137
     :cond_8
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 138
     .line 139
-    invoke-virtual {v0}, Lq8/f;->f()F
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/f;->f()F
 
     .line 140
     .line 141
@@ -4167,7 +3770,7 @@
     move-result v0
 
     .line 143
-    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->p0(F)F
+    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(F)F
 
     .line 144
     .line 145
@@ -4274,7 +3877,7 @@
     .line 189
     :cond_b
     :goto_4
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 190
     .line 191
@@ -4282,7 +3885,7 @@
 
     .line 192
     .line 193
-    invoke-virtual {v0, v3}, Lq8/f;->e(F)F
+    invoke-virtual {v0, v3}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
 
     .line 194
     .line 195
@@ -4460,7 +4063,7 @@
 
     .line 271
     .line 272
-    iget-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Lu8/a;
+    iget-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Ll2/a;
 
     .line 273
     .line 274
@@ -4468,7 +4071,7 @@
 
     .line 275
     .line 276
-    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->n()Z
+    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->m()Z
 
     .line 277
     .line 278
@@ -4480,17 +4083,17 @@
 
     .line 281
     .line 282
-    iget-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Lu8/a;
+    iget-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Ll2/a;
 
     .line 283
     .line 284
-    invoke-interface {p2, p1}, Lu8/a;->setScroll(F)V
+    invoke-interface {p2, p1}, Ll2/a;->setScroll(F)V
 
     .line 285
     .line 286
     .line 287
     :cond_11
-    iget-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iget-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 288
     .line 289
@@ -4502,12 +4105,12 @@
     move-result p3
 
     .line 293
-    invoke-virtual {p2, p3, p1}, Ls8/a;->f(IF)V
+    invoke-virtual {p2, p3, p1}, Lj2/a;->f(IF)V
 
     .line 294
     .line 295
     .line 296
-    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->i0()V
+    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->V()V
 
     .line 297
     .line 298
@@ -5261,477 +4864,9 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
-.method public canScrollHorizontally(I)Z
-    .locals 4
-
-    .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 2
-    .line 3
-    const/4 v1, 0x1
-
-    .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return v1
-
-    .line 7
-    :cond_0
-    iget-boolean v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->y:Z
-
-    .line 8
-    .line 9
-    const/4 v3, 0x0
-
-    .line 10
-    if-eqz v2, :cond_2
-
-    .line 11
-    .line 12
-    if-gez p1, :cond_1
-
-    .line 13
-    .line 14
-    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
-
-    .line 15
-    .line 16
-    cmpg-float v2, v2, v3
-
-    .line 17
-    .line 18
-    if-gez v2, :cond_1
-
-    .line 19
-    .line 20
-    return v1
-
-    .line 21
-    :cond_1
-    if-lez p1, :cond_4
-
-    .line 22
-    .line 23
-    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
-
-    .line 24
-    .line 25
-    invoke-virtual {v0}, Lq8/f;->h()F
-
-    .line 26
-    .line 27
-    .line 28
-    move-result v0
-
-    .line 29
-    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->p0(F)F
-
-    .line 30
-    .line 31
-    .line 32
-    move-result v0
-
-    .line 33
-    add-float/2addr p1, v0
-
-    .line 34
-    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
-
-    .line 35
-    .line 36
-    .line 37
-    move-result v0
-
-    .line 38
-    int-to-float v0, v0
-
-    .line 39
-    cmpl-float p1, p1, v0
-
-    .line 40
-    .line 41
-    if-lez p1, :cond_4
-
-    .line 42
-    .line 43
-    return v1
-
-    .line 44
-    :cond_2
-    if-gez p1, :cond_3
-
-    .line 45
-    .line 46
-    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
-
-    .line 47
-    .line 48
-    cmpg-float v2, v2, v3
-
-    .line 49
-    .line 50
-    if-gez v2, :cond_3
-
-    .line 51
-    .line 52
-    return v1
-
-    .line 53
-    :cond_3
-    if-lez p1, :cond_4
-
-    .line 54
-    .line 55
-    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
-
-    .line 56
-    .line 57
-    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 58
-    .line 59
-    invoke-virtual {v0, v2}, Lq8/f;->e(F)F
-
-    .line 60
-    .line 61
-    .line 62
-    move-result v0
-
-    .line 63
-    add-float/2addr p1, v0
-
-    .line 64
-    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
-
-    .line 65
-    .line 66
-    .line 67
-    move-result v0
-
-    .line 68
-    int-to-float v0, v0
-
-    .line 69
-    cmpl-float p1, p1, v0
-
-    .line 70
-    .line 71
-    if-lez p1, :cond_4
-
-    .line 72
-    .line 73
-    return v1
-
-    .line 74
-    :cond_4
-    const/4 p1, 0x0
-
-    .line 75
-    return p1
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-.end method
-
-.method public canScrollVertically(I)Z
-    .locals 4
-
-    .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 2
-    .line 3
-    const/4 v1, 0x1
-
-    .line 4
-    if-nez v0, :cond_0
-
-    .line 5
-    .line 6
-    return v1
-
-    .line 7
-    :cond_0
-    iget-boolean v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->y:Z
-
-    .line 8
-    .line 9
-    const/4 v3, 0x0
-
-    .line 10
-    if-eqz v2, :cond_2
-
-    .line 11
-    .line 12
-    if-gez p1, :cond_1
-
-    .line 13
-    .line 14
-    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
-
-    .line 15
-    .line 16
-    cmpg-float v2, v2, v3
-
-    .line 17
-    .line 18
-    if-gez v2, :cond_1
-
-    .line 19
-    .line 20
-    return v1
-
-    .line 21
-    :cond_1
-    if-lez p1, :cond_4
-
-    .line 22
-    .line 23
-    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
-
-    .line 24
-    .line 25
-    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 26
-    .line 27
-    invoke-virtual {v0, v2}, Lq8/f;->e(F)F
-
-    .line 28
-    .line 29
-    .line 30
-    move-result v0
-
-    .line 31
-    add-float/2addr p1, v0
-
-    .line 32
-    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
-
-    .line 33
-    .line 34
-    .line 35
-    move-result v0
-
-    .line 36
-    int-to-float v0, v0
-
-    .line 37
-    cmpl-float p1, p1, v0
-
-    .line 38
-    .line 39
-    if-lez p1, :cond_4
-
-    .line 40
-    .line 41
-    return v1
-
-    .line 42
-    :cond_2
-    if-gez p1, :cond_3
-
-    .line 43
-    .line 44
-    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
-
-    .line 45
-    .line 46
-    cmpg-float v2, v2, v3
-
-    .line 47
-    .line 48
-    if-gez v2, :cond_3
-
-    .line 49
-    .line 50
-    return v1
-
-    .line 51
-    :cond_3
-    if-lez p1, :cond_4
-
-    .line 52
-    .line 53
-    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
-
-    .line 54
-    .line 55
-    invoke-virtual {v0}, Lq8/f;->f()F
-
-    .line 56
-    .line 57
-    .line 58
-    move-result v0
-
-    .line 59
-    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->p0(F)F
-
-    .line 60
-    .line 61
-    .line 62
-    move-result v0
-
-    .line 63
-    add-float/2addr p1, v0
-
-    .line 64
-    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
-
-    .line 65
-    .line 66
-    .line 67
-    move-result v0
-
-    .line 68
-    int-to-float v0, v0
-
-    .line 69
-    cmpl-float p1, p1, v0
-
-    .line 70
-    .line 71
-    if-lez p1, :cond_4
-
-    .line 72
-    .line 73
-    return v1
-
-    .line 74
-    :cond_4
-    const/4 p1, 0x0
-
-    .line 75
-    return p1
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-.end method
-
-.method public computeScroll()V
-    .locals 1
-
-    .line 1
-    invoke-super {p0}, Landroid/view/View;->computeScroll()V
-
-    .line 2
-    .line 3
-    .line 4
-    invoke-virtual {p0}, Landroid/view/View;->isInEditMode()Z
-
-    .line 5
-    .line 6
-    .line 7
-    move-result v0
-
-    .line 8
-    if-eqz v0, :cond_0
-
-    .line 9
-    .line 10
-    return-void
-
-    .line 11
-    :cond_0
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lq8/a;
-
-    .line 12
-    .line 13
-    invoke-virtual {v0}, Lq8/a;->d()V
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public d0(Lt8/b;)V
+.method public Q(Lk2/b;)V
     .locals 2
 
     .line 1
@@ -5755,15 +4890,15 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 12
     .line 13
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 14
     .line 15
-    invoke-virtual {v1}, Lq8/f;->p()I
+    invoke-virtual {v1}, Lcom/github/barteksc/pdfviewer/f;->p()I
 
     .line 16
     .line 17
@@ -5771,13 +4906,13 @@
     move-result v1
 
     .line 19
-    invoke-virtual {v0, v1}, Ls8/a;->g(I)V
+    invoke-virtual {v0, v1}, Lj2/a;->g(I)V
 
     .line 20
     .line 21
     .line 22
     :cond_0
-    invoke-virtual {p1}, Lt8/b;->e()Z
+    invoke-virtual {p1}, Lk2/b;->e()Z
 
     .line 23
     .line 24
@@ -5789,11 +4924,11 @@
 
     .line 27
     .line 28
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lq8/b;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lcom/github/barteksc/pdfviewer/b;
 
     .line 29
     .line 30
-    invoke-virtual {v0, p1}, Lq8/b;->c(Lt8/b;)V
+    invoke-virtual {v0, p1}, Lcom/github/barteksc/pdfviewer/b;->c(Lk2/b;)V
 
     .line 31
     .line 32
@@ -5802,17 +4937,17 @@
 
     .line 34
     :cond_1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lq8/b;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lcom/github/barteksc/pdfviewer/b;
 
     .line 35
     .line 36
-    invoke-virtual {v0, p1}, Lq8/b;->b(Lt8/b;)V
+    invoke-virtual {v0, p1}, Lcom/github/barteksc/pdfviewer/b;->b(Lk2/b;)V
 
     .line 37
     .line 38
     .line 39
     :goto_0
-    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->i0()V
+    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->V()V
 
     .line 40
     .line 41
@@ -5867,15 +5002,13 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public e0(Lcom/github/barteksc/pdfviewer/exception/PageRenderingException;)V
+.method public R(Lcom/github/barteksc/pdfviewer/exception/PageRenderingException;)V
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 2
     .line 3
@@ -5895,7 +5028,7 @@
     move-result-object v2
 
     .line 11
-    invoke-virtual {v0, v1, v2}, Ls8/a;->e(ILjava/lang/Throwable;)Z
+    invoke-virtual {v0, v1, v2}, Lj2/a;->e(ILjava/lang/Throwable;)Z
 
     .line 12
     .line 13
@@ -6009,15 +5142,13 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public f0()Z
+.method public S()Z
     .locals 5
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 2
     .line 3
@@ -6029,7 +5160,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Lq8/f;->m(IF)F
+    invoke-virtual {v0, v1, v2}, Lcom/github/barteksc/pdfviewer/f;->m(IF)F
 
     .line 8
     .line 9
@@ -6040,7 +5171,7 @@
     neg-float v0, v0
 
     .line 12
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 13
     .line 14
@@ -6052,7 +5183,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v1, v2, v3}, Lq8/f;->k(IF)F
+    invoke-virtual {v1, v2, v3}, Lcom/github/barteksc/pdfviewer/f;->k(IF)F
 
     .line 19
     .line 20
@@ -6064,7 +5195,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->Q()Z
+    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->D()Z
 
     .line 25
     .line 26
@@ -6196,18 +5327,9 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public g0()V
+.method public T()V
     .locals 3
 
     .line 1
@@ -6219,7 +5341,7 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 6
     .line 7
@@ -6227,7 +5349,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Lq8/f;->p()I
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/f;->p()I
 
     .line 10
     .line 11
@@ -6251,7 +5373,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->u(FF)I
+    invoke-virtual {p0, v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->s(FF)I
 
     .line 21
     .line 22
@@ -6259,7 +5381,7 @@
     move-result v0
 
     .line 24
-    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->v(I)Lcom/github/barteksc/pdfviewer/util/SnapEdge;
+    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->t(I)Lcom/github/barteksc/pdfviewer/util/SnapEdge;
 
     .line 25
     .line 26
@@ -6279,7 +5401,7 @@
 
     .line 33
     :cond_1
-    invoke-virtual {p0, v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->n0(ILcom/github/barteksc/pdfviewer/util/SnapEdge;)F
+    invoke-virtual {p0, v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->Z(ILcom/github/barteksc/pdfviewer/util/SnapEdge;)F
 
     .line 34
     .line 35
@@ -6295,7 +5417,7 @@
 
     .line 40
     .line 41
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lq8/a;
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lcom/github/barteksc/pdfviewer/a;
 
     .line 42
     .line 43
@@ -6306,7 +5428,7 @@
     neg-float v0, v0
 
     .line 46
-    invoke-virtual {v1, v2, v0}, Lq8/a;->j(FF)V
+    invoke-virtual {v1, v2, v0}, Lcom/github/barteksc/pdfviewer/a;->j(FF)V
 
     .line 47
     .line 48
@@ -6315,7 +5437,7 @@
 
     .line 50
     :cond_2
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lq8/a;
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lcom/github/barteksc/pdfviewer/a;
 
     .line 51
     .line 52
@@ -6326,7 +5448,7 @@
     neg-float v0, v0
 
     .line 55
-    invoke-virtual {v1, v2, v0}, Lq8/a;->i(FF)V
+    invoke-virtual {v1, v2, v0}, Lcom/github/barteksc/pdfviewer/a;->i(FF)V
 
     .line 56
     .line 57
@@ -6334,6 +5456,1510 @@
     :cond_3
     :goto_0
     return-void
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+.end method
+
+.method public U()V
+    .locals 4
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->Q:Lcom/github/barteksc/pdfviewer/PDFView$b;
+
+    .line 3
+    .line 4
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lcom/github/barteksc/pdfviewer/a;
+
+    .line 5
+    .line 6
+    invoke-virtual {v1}, Lcom/github/barteksc/pdfviewer/a;->l()V
+
+    .line 7
+    .line 8
+    .line 9
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->g:Lcom/github/barteksc/pdfviewer/d;
+
+    .line 10
+    .line 11
+    invoke-virtual {v1}, Lcom/github/barteksc/pdfviewer/d;->c()V
+
+    .line 12
+    .line 13
+    .line 14
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->q:Lcom/github/barteksc/pdfviewer/g;
+
+    .line 15
+    .line 16
+    const/4 v2, 0x1
+
+    .line 17
+    if-eqz v1, :cond_0
+
+    .line 18
+    .line 19
+    invoke-virtual {v1}, Lcom/github/barteksc/pdfviewer/g;->f()V
+
+    .line 20
+    .line 21
+    .line 22
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->q:Lcom/github/barteksc/pdfviewer/g;
+
+    .line 23
+    .line 24
+    invoke-virtual {v1, v2}, Landroid/os/Handler;->removeMessages(I)V
+
+    .line 25
+    .line 26
+    .line 27
+    :cond_0
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->o:Lcom/github/barteksc/pdfviewer/c;
+
+    .line 28
+    .line 29
+    if-eqz v1, :cond_1
+
+    .line 30
+    .line 31
+    invoke-virtual {v1, v2}, Landroid/os/AsyncTask;->cancel(Z)Z
+
+    .line 32
+    .line 33
+    .line 34
+    :cond_1
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lcom/github/barteksc/pdfviewer/b;
+
+    .line 35
+    .line 36
+    invoke-virtual {v1}, Lcom/github/barteksc/pdfviewer/b;->j()V
+
+    .line 37
+    .line 38
+    .line 39
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Ll2/a;
+
+    .line 40
+    .line 41
+    if-eqz v1, :cond_2
+
+    .line 42
+    .line 43
+    iget-boolean v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->F:Z
+
+    .line 44
+    .line 45
+    if-eqz v3, :cond_2
+
+    .line 46
+    .line 47
+    invoke-interface {v1}, Ll2/a;->b()V
+
+    .line 48
+    .line 49
+    .line 50
+    :cond_2
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
+    .line 51
+    .line 52
+    if-eqz v1, :cond_3
+
+    .line 53
+    .line 54
+    invoke-virtual {v1}, Lcom/github/barteksc/pdfviewer/f;->b()V
+
+    .line 55
+    .line 56
+    .line 57
+    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
+    .line 58
+    .line 59
+    :cond_3
+    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->q:Lcom/github/barteksc/pdfviewer/g;
+
+    .line 60
+    .line 61
+    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Ll2/a;
+
+    .line 62
+    .line 63
+    const/4 v0, 0x0
+
+    .line 64
+    iput-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->F:Z
+
+    .line 65
+    .line 66
+    const/4 v0, 0x0
+
+    .line 67
+    iput v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
+
+    .line 68
+    .line 69
+    iput v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
+
+    .line 70
+    .line 71
+    const/high16 v0, 0x3f800000    # 1.0f
+
+    .line 72
+    .line 73
+    iput v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 74
+    .line 75
+    iput-boolean v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->m:Z
+
+    .line 76
+    .line 77
+    new-instance v0, Lj2/a;
+
+    .line 78
+    .line 79
+    invoke-direct {v0}, Lj2/a;-><init>()V
+
+    .line 80
+    .line 81
+    .line 82
+    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
+
+    .line 83
+    .line 84
+    sget-object v0, Lcom/github/barteksc/pdfviewer/PDFView$State;->DEFAULT:Lcom/github/barteksc/pdfviewer/PDFView$State;
+
+    .line 85
+    .line 86
+    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->n:Lcom/github/barteksc/pdfviewer/PDFView$State;
+
+    .line 87
+    .line 88
+    return-void
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+.end method
+
+.method public V()V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public W()V
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->a:F
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->f0(F)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public X(FZ)V
+    .locals 3
+
+    .line 1
+    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->y:Z
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
+
+    .line 6
+    .line 7
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
+    .line 8
+    .line 9
+    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 10
+    .line 11
+    invoke-virtual {v1, v2}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
+
+    .line 12
+    .line 13
+    .line 14
+    move-result v1
+
+    .line 15
+    neg-float v1, v1
+
+    .line 16
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
+
+    .line 17
+    .line 18
+    .line 19
+    move-result v2
+
+    .line 20
+    int-to-float v2, v2
+
+    .line 21
+    add-float/2addr v1, v2
+
+    .line 22
+    mul-float/2addr v1, p1
+
+    .line 23
+    invoke-virtual {p0, v0, v1, p2}, Lcom/github/barteksc/pdfviewer/PDFView;->P(FFZ)V
+
+    .line 24
+    .line 25
+    .line 26
+    goto :goto_0
+
+    .line 27
+    :cond_0
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
+    .line 28
+    .line 29
+    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 30
+    .line 31
+    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
+
+    .line 32
+    .line 33
+    .line 34
+    move-result v0
+
+    .line 35
+    neg-float v0, v0
+
+    .line 36
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
+
+    .line 37
+    .line 38
+    .line 39
+    move-result v1
+
+    .line 40
+    int-to-float v1, v1
+
+    .line 41
+    add-float/2addr v0, v1
+
+    .line 42
+    mul-float/2addr v0, p1
+
+    .line 43
+    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
+
+    .line 44
+    .line 45
+    invoke-virtual {p0, v0, p1, p2}, Lcom/github/barteksc/pdfviewer/PDFView;->P(FFZ)V
+
+    .line 46
+    .line 47
+    .line 48
+    :goto_0
+    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->L()V
+
+    .line 49
+    .line 50
+    .line 51
+    return-void
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+.end method
+
+.method public Y(I)V
+    .locals 2
+
+    .line 1
+    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->m:Z
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    return-void
+
+    .line 6
+    :cond_0
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
+    .line 7
+    .line 8
+    invoke-virtual {v0, p1}, Lcom/github/barteksc/pdfviewer/f;->a(I)I
+
+    .line 9
+    .line 10
+    .line 11
+    move-result p1
+
+    .line 12
+    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->i:I
+
+    .line 13
+    .line 14
+    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->M()V
+
+    .line 15
+    .line 16
+    .line 17
+    iget-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Ll2/a;
+
+    .line 18
+    .line 19
+    if-eqz p1, :cond_1
+
+    .line 20
+    .line 21
+    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->m()Z
+
+    .line 22
+    .line 23
+    .line 24
+    move-result p1
+
+    .line 25
+    if-nez p1, :cond_1
+
+    .line 26
+    .line 27
+    iget-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Ll2/a;
+
+    .line 28
+    .line 29
+    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->i:I
+
+    .line 30
+    .line 31
+    add-int/lit8 v0, v0, 0x1
+
+    .line 32
+    .line 33
+    invoke-interface {p1, v0}, Ll2/a;->setPageNum(I)V
+
+    .line 34
+    .line 35
+    .line 36
+    :cond_1
+    iget-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
+
+    .line 37
+    .line 38
+    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->i:I
+
+    .line 39
+    .line 40
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
+    .line 41
+    .line 42
+    invoke-virtual {v1}, Lcom/github/barteksc/pdfviewer/f;->p()I
+
+    .line 43
+    .line 44
+    .line 45
+    move-result v1
+
+    .line 46
+    invoke-virtual {p1, v0, v1}, Lj2/a;->d(II)V
+
+    .line 47
+    .line 48
+    .line 49
+    return-void
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+.end method
+
+.method public Z(ILcom/github/barteksc/pdfviewer/util/SnapEdge;)F
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
+    .line 2
+    .line 3
+    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 4
+    .line 5
+    invoke-virtual {v0, p1, v1}, Lcom/github/barteksc/pdfviewer/f;->m(IF)F
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v0
+
+    .line 9
+    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->y:Z
+
+    .line 10
+    .line 11
+    if-eqz v1, :cond_0
+
+    .line 12
+    .line 13
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result v1
+
+    .line 17
+    :goto_0
+    int-to-float v1, v1
+
+    .line 18
+    goto :goto_1
+
+    .line 19
+    :cond_0
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
+
+    .line 20
+    .line 21
+    .line 22
+    move-result v1
+
+    .line 23
+    goto :goto_0
+
+    .line 24
+    :goto_1
+    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
+    .line 25
+    .line 26
+    iget v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 27
+    .line 28
+    invoke-virtual {v2, p1, v3}, Lcom/github/barteksc/pdfviewer/f;->k(IF)F
+
+    .line 29
+    .line 30
+    .line 31
+    move-result p1
+
+    .line 32
+    sget-object v2, Lcom/github/barteksc/pdfviewer/util/SnapEdge;->CENTER:Lcom/github/barteksc/pdfviewer/util/SnapEdge;
+
+    .line 33
+    .line 34
+    if-ne p2, v2, :cond_1
+
+    .line 35
+    .line 36
+    const/high16 p2, 0x40000000    # 2.0f
+
+    .line 37
+    .line 38
+    div-float/2addr v1, p2
+
+    .line 39
+    sub-float/2addr v0, v1
+
+    .line 40
+    div-float/2addr p1, p2
+
+    .line 41
+    :goto_2
+    add-float/2addr v0, p1
+
+    .line 42
+    return v0
+
+    .line 43
+    :cond_1
+    sget-object v2, Lcom/github/barteksc/pdfviewer/util/SnapEdge;->END:Lcom/github/barteksc/pdfviewer/util/SnapEdge;
+
+    .line 44
+    .line 45
+    if-ne p2, v2, :cond_2
+
+    .line 46
+    .line 47
+    sub-float/2addr v0, v1
+
+    .line 48
+    goto :goto_2
+
+    .line 49
+    :cond_2
+    return v0
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+.end method
+
+.method public a0()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lcom/github/barteksc/pdfviewer/a;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/a;->m()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public b0(F)F
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 2
+    .line 3
+    mul-float/2addr p1, v0
+
+    .line 4
+    return p1
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public c0(FLandroid/graphics/PointF;)V
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 2
+    .line 3
+    mul-float/2addr v0, p1
+
+    .line 4
+    invoke-virtual {p0, v0, p2}, Lcom/github/barteksc/pdfviewer/PDFView;->d0(FLandroid/graphics/PointF;)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+.end method
+
+.method public canScrollHorizontally(I)Z
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    if-nez v0, :cond_0
+
+    .line 5
+    .line 6
+    return v1
+
+    .line 7
+    :cond_0
+    iget-boolean v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->y:Z
+
+    .line 8
+    .line 9
+    const/4 v3, 0x0
+
+    .line 10
+    if-eqz v2, :cond_2
+
+    .line 11
+    .line 12
+    if-gez p1, :cond_1
+
+    .line 13
+    .line 14
+    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
+
+    .line 15
+    .line 16
+    cmpg-float v2, v2, v3
+
+    .line 17
+    .line 18
+    if-gez v2, :cond_1
+
+    .line 19
+    .line 20
+    return v1
+
+    .line 21
+    :cond_1
+    if-lez p1, :cond_4
+
+    .line 22
+    .line 23
+    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
+
+    .line 24
+    .line 25
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/f;->h()F
+
+    .line 26
+    .line 27
+    .line 28
+    move-result v0
+
+    .line 29
+    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(F)F
+
+    .line 30
+    .line 31
+    .line 32
+    move-result v0
+
+    .line 33
+    add-float/2addr p1, v0
+
+    .line 34
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
+
+    .line 35
+    .line 36
+    .line 37
+    move-result v0
+
+    .line 38
+    int-to-float v0, v0
+
+    .line 39
+    cmpl-float p1, p1, v0
+
+    .line 40
+    .line 41
+    if-lez p1, :cond_4
+
+    .line 42
+    .line 43
+    return v1
+
+    .line 44
+    :cond_2
+    if-gez p1, :cond_3
+
+    .line 45
+    .line 46
+    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
+
+    .line 47
+    .line 48
+    cmpg-float v2, v2, v3
+
+    .line 49
+    .line 50
+    if-gez v2, :cond_3
+
+    .line 51
+    .line 52
+    return v1
+
+    .line 53
+    :cond_3
+    if-lez p1, :cond_4
+
+    .line 54
+    .line 55
+    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
+
+    .line 56
+    .line 57
+    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 58
+    .line 59
+    invoke-virtual {v0, v2}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
+
+    .line 60
+    .line 61
+    .line 62
+    move-result v0
+
+    .line 63
+    add-float/2addr p1, v0
+
+    .line 64
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
+
+    .line 65
+    .line 66
+    .line 67
+    move-result v0
+
+    .line 68
+    int-to-float v0, v0
+
+    .line 69
+    cmpl-float p1, p1, v0
+
+    .line 70
+    .line 71
+    if-lez p1, :cond_4
+
+    .line 72
+    .line 73
+    return v1
+
+    .line 74
+    :cond_4
+    const/4 p1, 0x0
+
+    .line 75
+    return p1
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+.end method
+
+.method public canScrollVertically(I)Z
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x1
+
+    .line 4
+    if-nez v0, :cond_0
+
+    .line 5
+    .line 6
+    return v1
+
+    .line 7
+    :cond_0
+    iget-boolean v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->y:Z
+
+    .line 8
+    .line 9
+    const/4 v3, 0x0
+
+    .line 10
+    if-eqz v2, :cond_2
+
+    .line 11
+    .line 12
+    if-gez p1, :cond_1
+
+    .line 13
+    .line 14
+    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
+
+    .line 15
+    .line 16
+    cmpg-float v2, v2, v3
+
+    .line 17
+    .line 18
+    if-gez v2, :cond_1
+
+    .line 19
+    .line 20
+    return v1
+
+    .line 21
+    :cond_1
+    if-lez p1, :cond_4
+
+    .line 22
+    .line 23
+    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
+
+    .line 24
+    .line 25
+    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 26
+    .line 27
+    invoke-virtual {v0, v2}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
+
+    .line 28
+    .line 29
+    .line 30
+    move-result v0
+
+    .line 31
+    add-float/2addr p1, v0
+
+    .line 32
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
+
+    .line 33
+    .line 34
+    .line 35
+    move-result v0
+
+    .line 36
+    int-to-float v0, v0
+
+    .line 37
+    cmpl-float p1, p1, v0
+
+    .line 38
+    .line 39
+    if-lez p1, :cond_4
+
+    .line 40
+    .line 41
+    return v1
+
+    .line 42
+    :cond_2
+    if-gez p1, :cond_3
+
+    .line 43
+    .line 44
+    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
+
+    .line 45
+    .line 46
+    cmpg-float v2, v2, v3
+
+    .line 47
+    .line 48
+    if-gez v2, :cond_3
+
+    .line 49
+    .line 50
+    return v1
+
+    .line 51
+    :cond_3
+    if-lez p1, :cond_4
+
+    .line 52
+    .line 53
+    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
+
+    .line 54
+    .line 55
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/f;->f()F
+
+    .line 56
+    .line 57
+    .line 58
+    move-result v0
+
+    .line 59
+    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(F)F
+
+    .line 60
+    .line 61
+    .line 62
+    move-result v0
+
+    .line 63
+    add-float/2addr p1, v0
+
+    .line 64
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
+
+    .line 65
+    .line 66
+    .line 67
+    move-result v0
+
+    .line 68
+    int-to-float v0, v0
+
+    .line 69
+    cmpl-float p1, p1, v0
+
+    .line 70
+    .line 71
+    if-lez p1, :cond_4
+
+    .line 72
+    .line 73
+    return v1
+
+    .line 74
+    :cond_4
+    const/4 p1, 0x0
+
+    .line 75
+    return p1
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+.end method
+
+.method public computeScroll()V
+    .locals 1
+
+    .line 1
+    invoke-super {p0}, Landroid/view/View;->computeScroll()V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p0}, Landroid/view/View;->isInEditMode()Z
+
+    .line 5
+    .line 6
+    .line 7
+    move-result v0
+
+    .line 8
+    if-eqz v0, :cond_0
+
+    .line 9
+    .line 10
+    return-void
+
+    .line 11
+    :cond_0
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lcom/github/barteksc/pdfviewer/a;
+
+    .line 12
+    .line 13
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/a;->d()V
+
+    .line 14
+    .line 15
+    .line 16
+    return-void
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public d0(FLandroid/graphics/PointF;)V
+    .locals 4
+
+    .line 1
+    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 2
+    .line 3
+    div-float v0, p1, v0
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1}, Lcom/github/barteksc/pdfviewer/PDFView;->e0(F)V
+
+    .line 6
+    .line 7
+    .line 8
+    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
+
+    .line 9
+    .line 10
+    mul-float/2addr p1, v0
+
+    .line 11
+    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
+
+    .line 12
+    .line 13
+    mul-float/2addr v1, v0
+
+    .line 14
+    iget v2, p2, Landroid/graphics/PointF;->x:F
+
+    .line 15
+    .line 16
+    mul-float v3, v2, v0
+
+    .line 17
+    .line 18
+    sub-float/2addr v2, v3
+
+    .line 19
+    add-float/2addr p1, v2
+
+    .line 20
+    iget p2, p2, Landroid/graphics/PointF;->y:F
+
+    .line 21
+    .line 22
+    mul-float/2addr v0, p2
+
+    .line 23
+    sub-float/2addr p2, v0
+
+    .line 24
+    add-float/2addr v1, p2
+
+    .line 25
+    invoke-virtual {p0, p1, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->O(FF)V
+
+    .line 26
+    .line 27
+    .line 28
+    return-void
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+.end method
+
+.method public e0(F)V
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public f0(F)V
+    .locals 4
+
+    .line 1
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lcom/github/barteksc/pdfviewer/a;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v1
+
+    .line 7
+    div-int/lit8 v1, v1, 0x2
+
+    .line 8
+    .line 9
+    int-to-float v1, v1
+
+    .line 10
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
+
+    .line 11
+    .line 12
+    .line 13
+    move-result v2
+
+    .line 14
+    div-int/lit8 v2, v2, 0x2
+
+    .line 15
+    .line 16
+    int-to-float v2, v2
+
+    .line 17
+    iget v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 18
+    .line 19
+    invoke-virtual {v0, v1, v2, v3, p1}, Lcom/github/barteksc/pdfviewer/a;->k(FFFF)V
+
+    .line 20
+    .line 21
+    .line 22
+    return-void
+    .line 23
+    .line 24
+.end method
+
+.method public g0(FFF)V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lcom/github/barteksc/pdfviewer/a;
+
+    .line 2
+    .line 3
+    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
+    .line 4
+    .line 5
+    invoke-virtual {v0, p1, p2, v1, p3}, Lcom/github/barteksc/pdfviewer/a;->k(FFFF)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
     .line 59
     .line 60
     .line 61
@@ -6385,6 +7011,44 @@
     .line 107
     .line 108
     .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
 .end method
 
 .method public getCurrentPage()I
@@ -6415,7 +7079,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCurrentXOffset()F
@@ -6446,7 +7109,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCurrentYOffset()F
@@ -6477,14 +7139,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDocumentMeta()Lcom/shockwave/pdfium/PdfDocument$Meta;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 2
     .line 3
@@ -6499,7 +7160,7 @@
 
     .line 7
     :cond_0
-    invoke-virtual {v0}, Lq8/f;->i()Lcom/shockwave/pdfium/PdfDocument$Meta;
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/f;->i()Lcom/shockwave/pdfium/PdfDocument$Meta;
 
     .line 8
     .line 9
@@ -6519,7 +7180,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMaxZoom()F
@@ -6550,7 +7210,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMidZoom()F
@@ -6581,7 +7240,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMinZoom()F
@@ -6612,14 +7270,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPageCount()I
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 2
     .line 3
@@ -6634,7 +7291,7 @@
 
     .line 7
     :cond_0
-    invoke-virtual {v0}, Lq8/f;->p()I
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/f;->p()I
 
     .line 8
     .line 9
@@ -6654,7 +7311,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPageFitPolicy()Lcom/github/barteksc/pdfviewer/util/FitPolicy;
@@ -6685,7 +7341,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPositionOffset()F
@@ -6707,7 +7362,7 @@
     neg-float v0, v0
 
     .line 8
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 9
     .line 10
@@ -6715,7 +7370,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v1, v2}, Lq8/f;->e(F)F
+    invoke-virtual {v1, v2}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
 
     .line 13
     .line 14
@@ -6752,7 +7407,7 @@
     neg-float v0, v0
 
     .line 27
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 28
     .line 29
@@ -6760,7 +7415,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v1, v2}, Lq8/f;->e(F)F
+    invoke-virtual {v1, v2}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
 
     .line 32
     .line 33
@@ -6787,7 +7442,7 @@
 
     .line 42
     .line 43
-    invoke-static {v0, v1, v2}, Lw8/d;->c(FFF)F
+    invoke-static {v0, v1, v2}, Ln2/b;->c(FFF)F
 
     .line 44
     .line 45
@@ -6849,22 +7504,13 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public getScrollHandle()Lu8/a;
+.method public getScrollHandle()Ll2/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Lu8/a;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Ll2/a;
 
     .line 2
     .line 3
@@ -6888,7 +7534,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSpacingPx()I
@@ -6919,7 +7564,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTableOfContents()Ljava/util/List;
@@ -6934,7 +7578,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 2
     .line 3
@@ -6950,7 +7594,7 @@
 
     .line 8
     :cond_0
-    invoke-virtual {v0}, Lq8/f;->d()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/f;->d()Ljava/util/List;
 
     .line 9
     .line 10
@@ -6969,7 +7613,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getZoom()F
@@ -7000,437 +7643,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public h0()V
-    .locals 4
-
-    .line 1
-    const/4 v0, 0x0
-
-    .line 2
-    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->Q:Lcom/github/barteksc/pdfviewer/PDFView$b;
-
-    .line 3
-    .line 4
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lq8/a;
-
-    .line 5
-    .line 6
-    invoke-virtual {v1}, Lq8/a;->l()V
-
-    .line 7
-    .line 8
-    .line 9
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->g:Lq8/d;
-
-    .line 10
-    .line 11
-    invoke-virtual {v1}, Lq8/d;->c()V
-
-    .line 12
-    .line 13
-    .line 14
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->q:Lq8/g;
-
-    .line 15
-    .line 16
-    const/4 v2, 0x1
-
-    .line 17
-    if-eqz v1, :cond_0
-
-    .line 18
-    .line 19
-    invoke-virtual {v1}, Lq8/g;->f()V
-
-    .line 20
-    .line 21
-    .line 22
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->q:Lq8/g;
-
-    .line 23
-    .line 24
-    invoke-virtual {v1, v2}, Landroid/os/Handler;->removeMessages(I)V
-
-    .line 25
-    .line 26
-    .line 27
-    :cond_0
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->o:Lq8/c;
-
-    .line 28
-    .line 29
-    if-eqz v1, :cond_1
-
-    .line 30
-    .line 31
-    invoke-virtual {v1, v2}, Landroid/os/AsyncTask;->cancel(Z)Z
-
-    .line 32
-    .line 33
-    .line 34
-    :cond_1
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lq8/b;
-
-    .line 35
-    .line 36
-    invoke-virtual {v1}, Lq8/b;->j()V
-
-    .line 37
-    .line 38
-    .line 39
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Lu8/a;
-
-    .line 40
-    .line 41
-    if-eqz v1, :cond_2
-
-    .line 42
-    .line 43
-    iget-boolean v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->F:Z
-
-    .line 44
-    .line 45
-    if-eqz v3, :cond_2
-
-    .line 46
-    .line 47
-    invoke-interface {v1}, Lu8/a;->b()V
-
-    .line 48
-    .line 49
-    .line 50
-    :cond_2
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 51
-    .line 52
-    if-eqz v1, :cond_3
-
-    .line 53
-    .line 54
-    invoke-virtual {v1}, Lq8/f;->b()V
-
-    .line 55
-    .line 56
-    .line 57
-    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 58
-    .line 59
-    :cond_3
-    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->q:Lq8/g;
-
-    .line 60
-    .line 61
-    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Lu8/a;
-
-    .line 62
-    .line 63
-    const/4 v0, 0x0
-
-    .line 64
-    iput-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->F:Z
-
-    .line 65
-    .line 66
-    const/4 v0, 0x0
-
-    .line 67
-    iput v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
-
-    .line 68
-    .line 69
-    iput v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
-
-    .line 70
-    .line 71
-    const/high16 v0, 0x3f800000    # 1.0f
-
-    .line 72
-    .line 73
-    iput v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 74
-    .line 75
-    iput-boolean v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->m:Z
-
-    .line 76
-    .line 77
-    new-instance v0, Ls8/a;
-
-    .line 78
-    .line 79
-    invoke-direct {v0}, Ls8/a;-><init>()V
-
-    .line 80
-    .line 81
-    .line 82
-    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
-
-    .line 83
-    .line 84
-    sget-object v0, Lcom/github/barteksc/pdfviewer/PDFView$State;->DEFAULT:Lcom/github/barteksc/pdfviewer/PDFView$State;
-
-    .line 85
-    .line 86
-    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->n:Lcom/github/barteksc/pdfviewer/PDFView$State;
-
-    .line 87
-    .line 88
-    return-void
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-.end method
-
-.method public i0()V
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public j0()V
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->a:F
-
-    .line 2
-    .line 3
-    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->u0(F)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public k0()V
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->a:F
-
-    .line 2
-    .line 3
-    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->v0(F)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public l0(FZ)V
-    .locals 3
-
-    .line 1
-    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->y:Z
-
-    .line 2
-    .line 3
-    if-eqz v0, :cond_0
-
-    .line 4
-    .line 5
-    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
-
-    .line 6
-    .line 7
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 8
-    .line 9
-    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 10
-    .line 11
-    invoke-virtual {v1, v2}, Lq8/f;->e(F)F
-
-    .line 12
-    .line 13
-    .line 14
-    move-result v1
-
-    .line 15
-    neg-float v1, v1
-
-    .line 16
-    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
-
-    .line 17
-    .line 18
-    .line 19
-    move-result v2
-
-    .line 20
-    int-to-float v2, v2
-
-    .line 21
-    add-float/2addr v1, v2
-
-    .line 22
-    mul-float/2addr v1, p1
-
-    .line 23
-    invoke-virtual {p0, v0, v1, p2}, Lcom/github/barteksc/pdfviewer/PDFView;->c0(FFZ)V
-
-    .line 24
-    .line 25
-    .line 26
-    goto :goto_0
-
-    .line 27
-    :cond_0
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 28
-    .line 29
-    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 30
-    .line 31
-    invoke-virtual {v0, v1}, Lq8/f;->e(F)F
-
-    .line 32
-    .line 33
-    .line 34
-    move-result v0
-
-    .line 35
-    neg-float v0, v0
-
-    .line 36
-    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
-
-    .line 37
-    .line 38
-    .line 39
-    move-result v1
-
-    .line 40
-    int-to-float v1, v1
-
-    .line 41
-    add-float/2addr v0, v1
-
-    .line 42
-    mul-float/2addr v0, p1
-
-    .line 43
-    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
-
-    .line 44
-    .line 45
-    invoke-virtual {p0, v0, p1, p2}, Lcom/github/barteksc/pdfviewer/PDFView;->c0(FFZ)V
-
-    .line 46
-    .line 47
-    .line 48
-    :goto_0
-    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->Y()V
-
-    .line 49
-    .line 50
-    .line 51
-    return-void
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-.end method
-
-.method public m()Z
+.method public l()Z
     .locals 1
 
     .line 1
@@ -7458,161 +7673,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public m0(I)V
-    .locals 2
-
-    .line 1
-    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->m:Z
-
-    .line 2
-    .line 3
-    if-eqz v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
-
-    .line 6
-    :cond_0
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 7
-    .line 8
-    invoke-virtual {v0, p1}, Lq8/f;->a(I)I
-
-    .line 9
-    .line 10
-    .line 11
-    move-result p1
-
-    .line 12
-    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->i:I
-
-    .line 13
-    .line 14
-    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->Z()V
-
-    .line 15
-    .line 16
-    .line 17
-    iget-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Lu8/a;
-
-    .line 18
-    .line 19
-    if-eqz p1, :cond_1
-
-    .line 20
-    .line 21
-    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->n()Z
-
-    .line 22
-    .line 23
-    .line 24
-    move-result p1
-
-    .line 25
-    if-nez p1, :cond_1
-
-    .line 26
-    .line 27
-    iget-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->E:Lu8/a;
-
-    .line 28
-    .line 29
-    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->i:I
-
-    .line 30
-    .line 31
-    add-int/lit8 v0, v0, 0x1
-
-    .line 32
-    .line 33
-    invoke-interface {p1, v0}, Lu8/a;->setPageNum(I)V
-
-    .line 34
-    .line 35
-    .line 36
-    :cond_1
-    iget-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
-
-    .line 37
-    .line 38
-    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->i:I
-
-    .line 39
-    .line 40
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 41
-    .line 42
-    invoke-virtual {v1}, Lq8/f;->p()I
-
-    .line 43
-    .line 44
-    .line 45
-    move-result v1
-
-    .line 46
-    invoke-virtual {p1, v0, v1}, Ls8/a;->d(II)V
-
-    .line 47
-    .line 48
-    .line 49
-    return-void
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-.end method
-
-.method public n()Z
+.method public m()Z
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 2
     .line 3
@@ -7620,7 +7687,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Lq8/f;->e(F)F
+    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
 
     .line 6
     .line 7
@@ -7757,157 +7824,13 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public n0(ILcom/github/barteksc/pdfviewer/util/SnapEdge;)F
-    .locals 4
-
-    .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 2
-    .line 3
-    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 4
-    .line 5
-    invoke-virtual {v0, p1, v1}, Lq8/f;->m(IF)F
-
-    .line 6
-    .line 7
-    .line 8
-    move-result v0
-
-    .line 9
-    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->y:Z
-
-    .line 10
-    .line 11
-    if-eqz v1, :cond_0
-
-    .line 12
-    .line 13
-    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
-
-    .line 14
-    .line 15
-    .line 16
-    move-result v1
-
-    .line 17
-    :goto_0
-    int-to-float v1, v1
-
-    .line 18
-    goto :goto_1
-
-    .line 19
-    :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
-
-    .line 20
-    .line 21
-    .line 22
-    move-result v1
-
-    .line 23
-    goto :goto_0
-
-    .line 24
-    :goto_1
-    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 25
-    .line 26
-    iget v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 27
-    .line 28
-    invoke-virtual {v2, p1, v3}, Lq8/f;->k(IF)F
-
-    .line 29
-    .line 30
-    .line 31
-    move-result p1
-
-    .line 32
-    sget-object v2, Lcom/github/barteksc/pdfviewer/util/SnapEdge;->CENTER:Lcom/github/barteksc/pdfviewer/util/SnapEdge;
-
-    .line 33
-    .line 34
-    if-ne p2, v2, :cond_1
-
-    .line 35
-    .line 36
-    const/high16 p2, 0x40000000    # 2.0f
-
-    .line 37
-    .line 38
-    div-float/2addr v1, p2
-
-    .line 39
-    sub-float/2addr v0, v1
-
-    .line 40
-    div-float/2addr p1, p2
-
-    .line 41
-    :goto_2
-    add-float/2addr v0, p1
-
-    .line 42
-    return v0
-
-    .line 43
-    :cond_1
-    sget-object v2, Lcom/github/barteksc/pdfviewer/util/SnapEdge;->END:Lcom/github/barteksc/pdfviewer/util/SnapEdge;
-
-    .line 44
-    .line 45
-    if-ne p2, v2, :cond_2
-
-    .line 46
-    .line 47
-    sub-float/2addr v0, v1
-
-    .line 48
-    goto :goto_2
-
-    .line 49
-    :cond_2
-    return v0
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-.end method
-
-.method public final o(Landroid/graphics/Canvas;Lt8/b;)V
+.method public final n(Landroid/graphics/Canvas;Lk2/b;)V
     .locals 11
 
     .line 1
-    invoke-virtual {p2}, Lt8/b;->c()Landroid/graphics/RectF;
+    invoke-virtual {p2}, Lk2/b;->c()Landroid/graphics/RectF;
 
     .line 2
     .line 3
@@ -7915,7 +7838,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {p2}, Lt8/b;->d()Landroid/graphics/Bitmap;
+    invoke-virtual {p2}, Lk2/b;->d()Landroid/graphics/Bitmap;
 
     .line 6
     .line 7
@@ -7939,11 +7862,11 @@
 
     .line 16
     :cond_0
-    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 17
     .line 18
-    invoke-virtual {p2}, Lt8/b;->b()I
+    invoke-virtual {p2}, Lk2/b;->b()I
 
     .line 19
     .line 20
@@ -7951,7 +7874,7 @@
     move-result v3
 
     .line 22
-    invoke-virtual {v2, v3}, Lq8/f;->n(I)Lcom/shockwave/pdfium/util/SizeF;
+    invoke-virtual {v2, v3}, Lcom/github/barteksc/pdfviewer/f;->n(I)Lcom/shockwave/pdfium/util/SizeF;
 
     .line 23
     .line 24
@@ -7971,11 +7894,11 @@
 
     .line 31
     .line 32
-    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 33
     .line 34
-    invoke-virtual {p2}, Lt8/b;->b()I
+    invoke-virtual {p2}, Lk2/b;->b()I
 
     .line 35
     .line 36
@@ -7987,7 +7910,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v3, v5, v6}, Lq8/f;->m(IF)F
+    invoke-virtual {v3, v5, v6}, Lcom/github/barteksc/pdfviewer/f;->m(IF)F
 
     .line 41
     .line 42
@@ -7995,11 +7918,11 @@
     move-result v3
 
     .line 44
-    iget-object v5, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v5, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 45
     .line 46
-    invoke-virtual {v5}, Lq8/f;->h()F
+    invoke-virtual {v5}, Lcom/github/barteksc/pdfviewer/f;->h()F
 
     .line 47
     .line 48
@@ -8018,7 +7941,7 @@
     sub-float/2addr v5, v6
 
     .line 55
-    invoke-virtual {p0, v5}, Lcom/github/barteksc/pdfviewer/PDFView;->p0(F)F
+    invoke-virtual {p0, v5}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(F)F
 
     .line 56
     .line 57
@@ -8033,11 +7956,11 @@
 
     .line 61
     :cond_1
-    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 62
     .line 63
-    invoke-virtual {p2}, Lt8/b;->b()I
+    invoke-virtual {p2}, Lk2/b;->b()I
 
     .line 64
     .line 65
@@ -8049,7 +7972,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {v3, v5, v6}, Lq8/f;->m(IF)F
+    invoke-virtual {v3, v5, v6}, Lcom/github/barteksc/pdfviewer/f;->m(IF)F
 
     .line 70
     .line 71
@@ -8057,11 +7980,11 @@
     move-result v5
 
     .line 73
-    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 74
     .line 75
-    invoke-virtual {v3}, Lq8/f;->f()F
+    invoke-virtual {v3}, Lcom/github/barteksc/pdfviewer/f;->f()F
 
     .line 76
     .line 77
@@ -8080,7 +8003,7 @@
     sub-float/2addr v3, v6
 
     .line 84
-    invoke-virtual {p0, v3}, Lcom/github/barteksc/pdfviewer/PDFView;->p0(F)F
+    invoke-virtual {p0, v3}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(F)F
 
     .line 85
     .line 86
@@ -8140,7 +8063,7 @@
     mul-float/2addr v6, v7
 
     .line 113
-    invoke-virtual {p0, v6}, Lcom/github/barteksc/pdfviewer/PDFView;->p0(F)F
+    invoke-virtual {p0, v6}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(F)F
 
     .line 114
     .line 115
@@ -8163,7 +8086,7 @@
     mul-float/2addr v7, v8
 
     .line 124
-    invoke-virtual {p0, v7}, Lcom/github/barteksc/pdfviewer/PDFView;->p0(F)F
+    invoke-virtual {p0, v7}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(F)F
 
     .line 125
     .line 126
@@ -8190,7 +8113,7 @@
     mul-float/2addr v8, v9
 
     .line 137
-    invoke-virtual {p0, v8}, Lcom/github/barteksc/pdfviewer/PDFView;->p0(F)F
+    invoke-virtual {p0, v8}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(F)F
 
     .line 138
     .line 139
@@ -8217,7 +8140,7 @@
     mul-float/2addr v0, v2
 
     .line 150
-    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->p0(F)F
+    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(F)F
 
     .line 151
     .line 152
@@ -8376,7 +8299,7 @@
     .line 218
     .line 219
     .line 220
-    sget-boolean v0, Lw8/b;->a:Z
+    sget-boolean v0, Ln2/a;->a:Z
 
     .line 221
     .line 222
@@ -8388,7 +8311,7 @@
 
     .line 225
     .line 226
-    invoke-virtual {p2}, Lt8/b;->b()I
+    invoke-virtual {p2}, Lk2/b;->b()I
 
     .line 227
     .line 228
@@ -8533,87 +8456,226 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
-.method public o0()V
-    .locals 1
+.method public final o(Landroid/graphics/Canvas;ILj2/b;)V
+    .locals 5
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lq8/a;
+    if-eqz p3, :cond_1
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lq8/a;->m()V
+    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->y:Z
 
     .line 4
     .line 5
+    const/4 v1, 0x0
+
     .line 6
-    return-void
+    if-eqz v0, :cond_0
+
     .line 7
     .line 8
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
     .line 9
     .line 10
+    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
     .line 11
     .line 12
+    invoke-virtual {v0, p2, v2}, Lcom/github/barteksc/pdfviewer/f;->m(IF)F
+
     .line 13
     .line 14
     .line 15
+    move-result v0
+
     .line 16
+    goto :goto_0
+
     .line 17
+    :cond_0
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
     .line 18
     .line 19
+    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+
     .line 20
     .line 21
+    invoke-virtual {v0, p2, v2}, Lcom/github/barteksc/pdfviewer/f;->m(IF)F
+
     .line 22
     .line 23
+    .line 24
+    move-result v0
+
+    .line 25
+    move v4, v1
+
+    .line 26
+    move v1, v0
+
+    .line 27
+    move v0, v4
+
+    .line 28
+    :goto_0
+    invoke-virtual {p1, v1, v0}, Landroid/graphics/Canvas;->translate(FF)V
+
+    .line 29
+    .line 30
+    .line 31
+    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
+
+    .line 32
+    .line 33
+    invoke-virtual {v2, p2}, Lcom/github/barteksc/pdfviewer/f;->n(I)Lcom/shockwave/pdfium/util/SizeF;
+
+    .line 34
+    .line 35
+    .line 36
+    move-result-object v2
+
+    .line 37
+    invoke-virtual {v2}, Lcom/shockwave/pdfium/util/SizeF;->b()F
+
+    .line 38
+    .line 39
+    .line 40
+    move-result v3
+
+    .line 41
+    invoke-virtual {p0, v3}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(F)F
+
+    .line 42
+    .line 43
+    .line 44
+    move-result v3
+
+    .line 45
+    invoke-virtual {v2}, Lcom/shockwave/pdfium/util/SizeF;->a()F
+
+    .line 46
+    .line 47
+    .line 48
+    move-result v2
+
+    .line 49
+    invoke-virtual {p0, v2}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(F)F
+
+    .line 50
+    .line 51
+    .line 52
+    move-result v2
+
+    .line 53
+    invoke-interface {p3, p1, v3, v2, p2}, Lj2/b;->a(Landroid/graphics/Canvas;FFI)V
+
+    .line 54
+    .line 55
+    .line 56
+    neg-float p2, v1
+
+    .line 57
+    neg-float p3, v0
+
+    .line 58
+    invoke-virtual {p1, p2, p3}, Landroid/graphics/Canvas;->translate(FF)V
+
+    .line 59
+    .line 60
+    .line 61
+    :cond_1
+    return-void
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
 .end method
 
 .method public onAttachedToWindow()V
@@ -8657,14 +8719,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDetachedFromWindow()V
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->h0()V
+    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->U()V
 
     .line 2
     .line 3
@@ -8701,7 +8762,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -8831,11 +8891,11 @@
     .line 55
     .line 56
     .line 57
-    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lq8/b;
+    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lcom/github/barteksc/pdfviewer/b;
 
     .line 58
     .line 59
-    invoke-virtual {v2}, Lq8/b;->g()Ljava/util/List;
+    invoke-virtual {v2}, Lcom/github/barteksc/pdfviewer/b;->g()Ljava/util/List;
 
     .line 60
     .line 61
@@ -8872,11 +8932,11 @@
     move-result-object v3
 
     .line 77
-    check-cast v3, Lt8/b;
+    check-cast v3, Lk2/b;
 
     .line 78
     .line 79
-    invoke-virtual {p0, p1, v3}, Lcom/github/barteksc/pdfviewer/PDFView;->o(Landroid/graphics/Canvas;Lt8/b;)V
+    invoke-virtual {p0, p1, v3}, Lcom/github/barteksc/pdfviewer/PDFView;->n(Landroid/graphics/Canvas;Lk2/b;)V
 
     .line 80
     .line 81
@@ -8885,11 +8945,11 @@
 
     .line 83
     :cond_6
-    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lq8/b;
+    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->e:Lcom/github/barteksc/pdfviewer/b;
 
     .line 84
     .line 85
-    invoke-virtual {v2}, Lq8/b;->f()Ljava/util/List;
+    invoke-virtual {v2}, Lcom/github/barteksc/pdfviewer/b;->f()Ljava/util/List;
 
     .line 86
     .line 87
@@ -8905,7 +8965,6 @@
     move-result-object v2
 
     .line 93
-    :cond_7
     :goto_4
     invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
@@ -8915,7 +8974,7 @@
     move-result v3
 
     .line 97
-    if-eqz v3, :cond_8
+    if-eqz v3, :cond_7
 
     .line 98
     .line 99
@@ -8927,89 +8986,91 @@
     move-result-object v3
 
     .line 103
-    check-cast v3, Lt8/b;
+    check-cast v3, Lk2/b;
 
     .line 104
     .line 105
-    invoke-virtual {p0, p1, v3}, Lcom/github/barteksc/pdfviewer/PDFView;->o(Landroid/graphics/Canvas;Lt8/b;)V
+    invoke-virtual {p0, p1, v3}, Lcom/github/barteksc/pdfviewer/PDFView;->n(Landroid/graphics/Canvas;Lk2/b;)V
 
     .line 106
     .line 107
     .line 108
-    iget-object v4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 109
     .line 110
-    invoke-virtual {v4}, Ls8/a;->j()Ls8/b;
+    invoke-virtual {v3}, Lj2/a;->j()Lj2/b;
 
     .line 111
     .line 112
     .line 113
-    move-result-object v4
+    goto :goto_4
 
     .line 114
-    if-eqz v4, :cond_7
+    :cond_7
+    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->O:Ljava/util/List;
 
     .line 115
     .line 116
-    iget-object v4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->O:Ljava/util/List;
+    invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 117
     .line 118
-    invoke-virtual {v3}, Lt8/b;->b()I
-
     .line 119
+    move-result-object v2
+
     .line 120
+    :goto_5
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
+
     .line 121
-    move-result v5
-
     .line 122
-    invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
     .line 123
-    .line 124
-    .line 125
-    move-result-object v5
-
-    .line 126
-    invoke-interface {v4, v5}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
-
-    .line 127
-    .line 128
-    .line 129
-    move-result v4
-
-    .line 130
-    if-nez v4, :cond_7
-
-    .line 131
-    .line 132
-    iget-object v4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->O:Ljava/util/List;
-
-    .line 133
-    .line 134
-    invoke-virtual {v3}, Lt8/b;->b()I
-
-    .line 135
-    .line 136
-    .line 137
     move-result v3
 
-    .line 138
-    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+    .line 124
+    const/4 v4, 0x0
 
-    .line 139
-    .line 140
-    .line 141
+    .line 125
+    if-eqz v3, :cond_8
+
+    .line 126
+    .line 127
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    .line 128
+    .line 129
+    .line 130
     move-result-object v3
 
+    .line 131
+    check-cast v3, Ljava/lang/Integer;
+
+    .line 132
+    .line 133
+    invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
+
+    .line 134
+    .line 135
+    .line 136
+    move-result v3
+
+    .line 137
+    iget-object v5, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
+
+    .line 138
+    .line 139
+    invoke-virtual {v5}, Lj2/a;->j()Lj2/b;
+
+    .line 140
+    .line 141
     .line 142
-    invoke-interface {v4, v3}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1, v3, v4}, Lcom/github/barteksc/pdfviewer/PDFView;->o(Landroid/graphics/Canvas;ILj2/b;)V
 
     .line 143
     .line 144
     .line 145
-    goto :goto_4
+    goto :goto_5
 
     .line 146
     :cond_8
@@ -9017,110 +9078,74 @@
 
     .line 147
     .line 148
-    invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/List;->clear()V
 
     .line 149
     .line 150
     .line 151
-    move-result-object v2
+    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->i:I
 
     .line 152
-    :goto_5
-    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
-
     .line 153
+    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
+
     .line 154
     .line 155
-    move-result v3
+    invoke-virtual {v3}, Lj2/a;->i()Lj2/b;
 
     .line 156
-    if-eqz v3, :cond_9
-
     .line 157
     .line 158
-    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-virtual {p0, p1, v2, v4}, Lcom/github/barteksc/pdfviewer/PDFView;->o(Landroid/graphics/Canvas;ILj2/b;)V
 
     .line 159
     .line 160
     .line 161
-    move-result-object v3
+    neg-float v0, v0
 
     .line 162
-    check-cast v3, Ljava/lang/Integer;
+    neg-float v1, v1
 
     .line 163
-    .line 164
-    invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
+    invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->translate(FF)V
 
+    .line 164
     .line 165
     .line 166
+    return-void
     .line 167
-    move-result v3
-
     .line 168
-    iget-object v4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
-
     .line 169
     .line 170
-    invoke-virtual {v4}, Ls8/a;->j()Ls8/b;
-
     .line 171
     .line 172
     .line 173
-    move-result-object v4
-
     .line 174
-    invoke-virtual {p0, p1, v3, v4}, Lcom/github/barteksc/pdfviewer/PDFView;->p(Landroid/graphics/Canvas;ILs8/b;)V
-
     .line 175
     .line 176
     .line 177
-    goto :goto_5
-
     .line 178
-    :cond_9
-    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->O:Ljava/util/List;
-
     .line 179
     .line 180
-    invoke-interface {v2}, Ljava/util/List;->clear()V
-
     .line 181
     .line 182
     .line 183
-    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->i:I
-
     .line 184
     .line 185
-    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
-
     .line 186
     .line 187
-    invoke-virtual {v3}, Ls8/a;->i()Ls8/b;
-
     .line 188
     .line 189
     .line 190
-    move-result-object v3
-
     .line 191
-    invoke-virtual {p0, p1, v2, v3}, Lcom/github/barteksc/pdfviewer/PDFView;->p(Landroid/graphics/Canvas;ILs8/b;)V
-
     .line 192
     .line 193
     .line 194
-    neg-float v0, v0
-
     .line 195
-    neg-float v1, v1
-
     .line 196
-    invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->translate(FF)V
-
     .line 197
     .line 198
     .line 199
-    return-void
     .line 200
     .line 201
     .line 202
@@ -9330,6 +9355,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public onSizeChanged(IIII)V
@@ -9351,7 +9408,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/PDFView$b;->j()V
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/PDFView$b;->h()V
 
     .line 9
     .line 10
@@ -9430,11 +9487,11 @@
 
     .line 42
     .line 43
-    iget-object p4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object p4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 44
     .line 45
-    invoke-virtual {p4}, Lq8/f;->h()F
+    invoke-virtual {p4}, Lcom/github/barteksc/pdfviewer/f;->h()F
 
     .line 46
     .line 47
@@ -9445,7 +9502,7 @@
     div-float/2addr v0, p4
 
     .line 50
-    iget-object p4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object p4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 51
     .line 52
@@ -9453,7 +9510,7 @@
 
     .line 53
     .line 54
-    invoke-virtual {p4, v2}, Lq8/f;->e(F)F
+    invoke-virtual {p4, v2}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
 
     .line 55
     .line 56
@@ -9469,7 +9526,7 @@
 
     .line 60
     :cond_2
-    iget-object p4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object p4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 61
     .line 62
@@ -9477,7 +9534,7 @@
 
     .line 63
     .line 64
-    invoke-virtual {p4, v2}, Lq8/f;->e(F)F
+    invoke-virtual {p4, v2}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
 
     .line 65
     .line 66
@@ -9488,11 +9545,11 @@
     div-float/2addr v0, p4
 
     .line 69
-    iget-object p4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object p4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 70
     .line 71
-    invoke-virtual {p4}, Lq8/f;->f()F
+    invoke-virtual {p4}, Lcom/github/barteksc/pdfviewer/f;->f()F
 
     .line 72
     .line 73
@@ -9504,16 +9561,16 @@
 
     .line 76
     :goto_1
-    iget-object p4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lq8/a;
+    iget-object p4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lcom/github/barteksc/pdfviewer/a;
 
     .line 77
     .line 78
-    invoke-virtual {p4}, Lq8/a;->l()V
+    invoke-virtual {p4}, Lcom/github/barteksc/pdfviewer/a;->l()V
 
     .line 79
     .line 80
     .line 81
-    iget-object p4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object p4, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 82
     .line 83
@@ -9526,7 +9583,7 @@
     .line 86
     .line 87
     .line 88
-    invoke-virtual {p4, v2}, Lq8/f;->y(Lcom/shockwave/pdfium/util/Size;)V
+    invoke-virtual {p4, v2}, Lcom/github/barteksc/pdfviewer/f;->y(Lcom/shockwave/pdfium/util/Size;)V
 
     .line 89
     .line 90
@@ -9542,11 +9599,11 @@
     neg-float p4, v0
 
     .line 96
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 97
     .line 98
-    invoke-virtual {v0}, Lq8/f;->h()F
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/f;->h()F
 
     .line 99
     .line 100
@@ -9573,7 +9630,7 @@
     neg-float p1, p3
 
     .line 109
-    iget-object p3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object p3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 110
     .line 111
@@ -9581,7 +9638,7 @@
 
     .line 112
     .line 113
-    invoke-virtual {p3, p4}, Lq8/f;->e(F)F
+    invoke-virtual {p3, p4}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
 
     .line 114
     .line 115
@@ -9612,7 +9669,7 @@
     neg-float p4, v0
 
     .line 125
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 126
     .line 127
@@ -9620,7 +9677,7 @@
 
     .line 128
     .line 129
-    invoke-virtual {v0, v2}, Lq8/f;->e(F)F
+    invoke-virtual {v0, v2}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
 
     .line 130
     .line 131
@@ -9647,11 +9704,11 @@
     neg-float p1, p3
 
     .line 140
-    iget-object p3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object p3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 141
     .line 142
-    invoke-virtual {p3}, Lq8/f;->f()F
+    invoke-virtual {p3}, Lcom/github/barteksc/pdfviewer/f;->f()F
 
     .line 143
     .line 144
@@ -9684,12 +9741,12 @@
 
     .line 155
     .line 156
-    invoke-virtual {p0, p1, p2}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(FF)V
+    invoke-virtual {p0, p1, p2}, Lcom/github/barteksc/pdfviewer/PDFView;->O(FF)V
 
     .line 157
     .line 158
     .line 159
-    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->Y()V
+    invoke-virtual {p0}, Lcom/github/barteksc/pdfviewer/PDFView;->L()V
 
     .line 160
     .line 161
@@ -9777,269 +9834,25 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
-.method public final p(Landroid/graphics/Canvas;ILs8/b;)V
-    .locals 5
-
-    .line 1
-    if-eqz p3, :cond_1
-
-    .line 2
-    .line 3
-    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->y:Z
-
-    .line 4
-    .line 5
-    const/4 v1, 0x0
-
-    .line 6
-    if-eqz v0, :cond_0
-
-    .line 7
-    .line 8
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 9
-    .line 10
-    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 11
-    .line 12
-    invoke-virtual {v0, p2, v2}, Lq8/f;->m(IF)F
-
-    .line 13
-    .line 14
-    .line 15
-    move-result v0
-
-    .line 16
-    goto :goto_0
-
-    .line 17
-    :cond_0
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 18
-    .line 19
-    iget v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 20
-    .line 21
-    invoke-virtual {v0, p2, v2}, Lq8/f;->m(IF)F
-
-    .line 22
-    .line 23
-    .line 24
-    move-result v0
-
-    .line 25
-    move v4, v1
-
-    .line 26
-    move v1, v0
-
-    .line 27
-    move v0, v4
-
-    .line 28
-    :goto_0
-    invoke-virtual {p1, v1, v0}, Landroid/graphics/Canvas;->translate(FF)V
-
-    .line 29
-    .line 30
-    .line 31
-    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 32
-    .line 33
-    invoke-virtual {v2, p2}, Lq8/f;->n(I)Lcom/shockwave/pdfium/util/SizeF;
-
-    .line 34
-    .line 35
-    .line 36
-    move-result-object v2
-
-    .line 37
-    invoke-virtual {v2}, Lcom/shockwave/pdfium/util/SizeF;->b()F
-
-    .line 38
-    .line 39
-    .line 40
-    move-result v3
-
-    .line 41
-    invoke-virtual {p0, v3}, Lcom/github/barteksc/pdfviewer/PDFView;->p0(F)F
-
-    .line 42
-    .line 43
-    .line 44
-    move-result v3
-
-    .line 45
-    invoke-virtual {v2}, Lcom/shockwave/pdfium/util/SizeF;->a()F
-
-    .line 46
-    .line 47
-    .line 48
-    move-result v2
-
-    .line 49
-    invoke-virtual {p0, v2}, Lcom/github/barteksc/pdfviewer/PDFView;->p0(F)F
-
-    .line 50
-    .line 51
-    .line 52
-    move-result v2
-
-    .line 53
-    invoke-interface {p3, p1, v3, v2, p2}, Ls8/b;->a(Landroid/graphics/Canvas;FFI)V
-
-    .line 54
-    .line 55
-    .line 56
-    neg-float p2, v1
-
-    .line 57
-    neg-float p3, v0
-
-    .line 58
-    invoke-virtual {p1, p2, p3}, Landroid/graphics/Canvas;->translate(FF)V
-
-    .line 59
-    .line 60
-    .line 61
-    :cond_1
-    return-void
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-.end method
-
-.method public p0(F)F
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 2
-    .line 3
-    mul-float/2addr p1, v0
-
-    .line 4
-    return p1
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public q(Z)V
+.method public p(Z)V
     .locals 0
 
     .line 1
@@ -10069,45 +9882,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public q0(F)F
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 2
-    .line 3
-    div-float/2addr p1, v0
-
-    .line 4
-    return p1
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public r(Z)V
+.method public q(Z)V
     .locals 0
 
     .line 1
@@ -10137,43 +9914,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public r0(Z)V
-    .locals 0
-
-    .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->G:Z
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public s(Z)V
+.method public r(Z)V
     .locals 0
 
     .line 1
@@ -10203,610 +9946,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public s0(FLandroid/graphics/PointF;)V
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 2
-    .line 3
-    mul-float/2addr v0, p1
-
-    .line 4
-    invoke-virtual {p0, v0, p2}, Lcom/github/barteksc/pdfviewer/PDFView;->t0(FLandroid/graphics/PointF;)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-.end method
-
-.method public setMaxZoom(F)V
-    .locals 0
-
-    .line 1
-    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->c:F
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public setMidZoom(F)V
-    .locals 0
-
-    .line 1
-    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->b:F
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public setMinZoom(F)V
-    .locals 0
-
-    .line 1
-    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->a:F
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public setNightMode(Z)V
-    .locals 1
-
-    .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->B:Z
-
-    .line 2
-    .line 3
-    if-eqz p1, :cond_0
-
-    .line 4
-    .line 5
-    new-instance p1, Landroid/graphics/ColorMatrix;
-
-    .line 6
-    .line 7
-    const/16 v0, 0x14
-
-    .line 8
-    .line 9
-    new-array v0, v0, [F
-
-    .line 10
-    .line 11
-    fill-array-data v0, :array_0
-
-    .line 12
-    .line 13
-    .line 14
-    invoke-direct {p1, v0}, Landroid/graphics/ColorMatrix;-><init>([F)V
-
-    .line 15
-    .line 16
-    .line 17
-    new-instance v0, Landroid/graphics/ColorMatrixColorFilter;
-
-    .line 18
-    .line 19
-    invoke-direct {v0, p1}, Landroid/graphics/ColorMatrixColorFilter;-><init>(Landroid/graphics/ColorMatrix;)V
-
-    .line 20
-    .line 21
-    .line 22
-    iget-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->t:Landroid/graphics/Paint;
-
-    .line 23
-    .line 24
-    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
-
-    .line 25
-    .line 26
-    .line 27
-    return-void
-
-    .line 28
-    :cond_0
-    iget-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->t:Landroid/graphics/Paint;
-
-    .line 29
-    .line 30
-    const/4 v0, 0x0
-
-    .line 31
-    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
-
-    .line 32
-    .line 33
-    .line 34
-    return-void
-
-    .line 35
-    :array_0
-    .array-data 4
-        -0x40800000    # -1.0f
-        0x0
-        0x0
-        0x0
-        0x437f0000    # 255.0f
-        0x0
-        -0x40800000    # -1.0f
-        0x0
-        0x0
-        0x437f0000    # 255.0f
-        0x0
-        0x0
-        -0x40800000    # -1.0f
-        0x0
-        0x437f0000    # 255.0f
-        0x0
-        0x0
-        0x0
-        0x3f800000    # 1.0f
-        0x0
-    .end array-data
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-.end method
-
-.method public setPageFling(Z)V
-    .locals 0
-
-    .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->N:Z
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public setPageSnap(Z)V
-    .locals 0
-
-    .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->C:Z
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public setPositionOffset(F)V
-    .locals 1
-
-    .line 1
-    const/4 v0, 0x1
-
-    .line 2
-    invoke-virtual {p0, p1, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->l0(FZ)V
-
-    .line 3
-    .line 4
-    .line 5
-    return-void
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public setSwipeEnabled(Z)V
-    .locals 0
-
-    .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->z:Z
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public t(Z)V
-    .locals 0
-
-    .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->I:Z
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public t0(FLandroid/graphics/PointF;)V
-    .locals 4
-
-    .line 1
-    iget v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 2
-    .line 3
-    div-float v0, p1, v0
-
-    .line 4
-    .line 5
-    invoke-virtual {p0, p1}, Lcom/github/barteksc/pdfviewer/PDFView;->u0(F)V
-
-    .line 6
-    .line 7
-    .line 8
-    iget p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->j:F
-
-    .line 9
-    .line 10
-    mul-float/2addr p1, v0
-
-    .line 11
-    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->k:F
-
-    .line 12
-    .line 13
-    mul-float/2addr v1, v0
-
-    .line 14
-    iget v2, p2, Landroid/graphics/PointF;->x:F
-
-    .line 15
-    .line 16
-    mul-float v3, v2, v0
-
-    .line 17
-    .line 18
-    sub-float/2addr v2, v3
-
-    .line 19
-    add-float/2addr p1, v2
-
-    .line 20
-    iget p2, p2, Landroid/graphics/PointF;->y:F
-
-    .line 21
-    .line 22
-    mul-float/2addr v0, p2
-
-    .line 23
-    sub-float/2addr p2, v0
-
-    .line 24
-    add-float/2addr v1, p2
-
-    .line 25
-    invoke-virtual {p0, p1, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->b0(FF)V
-
-    .line 26
-    .line 27
-    .line 28
-    return-void
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-.end method
-
-.method public u(FF)I
+.method public s(FF)I
     .locals 2
 
     .line 1
@@ -10873,7 +10015,7 @@
 
     .line 27
     :cond_2
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 28
     .line 29
@@ -10881,7 +10023,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v1}, Lq8/f;->e(F)F
+    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/f;->e(F)F
 
     .line 32
     .line 33
@@ -10910,11 +10052,11 @@
 
     .line 43
     .line 44
-    iget-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 45
     .line 46
-    invoke-virtual {p1}, Lq8/f;->p()I
+    invoke-virtual {p1}, Lcom/github/barteksc/pdfviewer/f;->p()I
 
     .line 47
     .line 48
@@ -10940,7 +10082,7 @@
     sub-float/2addr p1, p2
 
     .line 57
-    iget-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 58
     .line 59
@@ -10951,7 +10093,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {p2, p1, v0}, Lq8/f;->j(FF)I
+    invoke-virtual {p2, p1, v0}, Lcom/github/barteksc/pdfviewer/f;->j(FF)I
 
     .line 63
     .line 64
@@ -11225,61 +10367,13 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
-.method public u0(F)V
+.method public setMaxZoom(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
+    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->c:F
 
     .line 2
     .line 3
@@ -11305,10 +10399,355 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public v(I)Lcom/github/barteksc/pdfviewer/util/SnapEdge;
+.method public setMidZoom(F)V
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->b:F
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public setMinZoom(F)V
+    .locals 0
+
+    .line 1
+    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->a:F
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public setNightMode(Z)V
+    .locals 1
+
+    .line 1
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->B:Z
+
+    .line 2
+    .line 3
+    if-eqz p1, :cond_0
+
+    .line 4
+    .line 5
+    new-instance p1, Landroid/graphics/ColorMatrix;
+
+    .line 6
+    .line 7
+    const/16 v0, 0x14
+
+    .line 8
+    .line 9
+    new-array v0, v0, [F
+
+    .line 10
+    .line 11
+    fill-array-data v0, :array_0
+
+    .line 12
+    .line 13
+    .line 14
+    invoke-direct {p1, v0}, Landroid/graphics/ColorMatrix;-><init>([F)V
+
+    .line 15
+    .line 16
+    .line 17
+    new-instance v0, Landroid/graphics/ColorMatrixColorFilter;
+
+    .line 18
+    .line 19
+    invoke-direct {v0, p1}, Landroid/graphics/ColorMatrixColorFilter;-><init>(Landroid/graphics/ColorMatrix;)V
+
+    .line 20
+    .line 21
+    .line 22
+    iget-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->t:Landroid/graphics/Paint;
+
+    .line 23
+    .line 24
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
+
+    .line 25
+    .line 26
+    .line 27
+    return-void
+
+    .line 28
+    :cond_0
+    iget-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->t:Landroid/graphics/Paint;
+
+    .line 29
+    .line 30
+    const/4 v0, 0x0
+
+    .line 31
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
+
+    .line 32
+    .line 33
+    .line 34
+    return-void
+
+    .line 35
+    :array_0
+    .array-data 4
+        -0x40800000    # -1.0f
+        0x0
+        0x0
+        0x0
+        0x437f0000    # 255.0f
+        0x0
+        -0x40800000    # -1.0f
+        0x0
+        0x0
+        0x437f0000    # 255.0f
+        0x0
+        0x0
+        -0x40800000    # -1.0f
+        0x0
+        0x437f0000    # 255.0f
+        0x0
+        0x0
+        0x0
+        0x3f800000    # 1.0f
+        0x0
+    .end array-data
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+.end method
+
+.method public setPageFling(Z)V
+    .locals 0
+
+    .line 1
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->N:Z
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public setPageSnap(Z)V
+    .locals 0
+
+    .line 1
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->C:Z
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public setPositionOffset(F)V
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    invoke-virtual {p0, p1, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->X(FZ)V
+
+    .line 3
+    .line 4
+    .line 5
+    return-void
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public setSwipeEnabled(Z)V
+    .locals 0
+
+    .line 1
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->z:Z
+
+    .line 2
+    .line 3
+    return-void
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public t(I)Lcom/github/barteksc/pdfviewer/util/SnapEdge;
     .locals 5
 
     .line 1
@@ -11349,7 +10788,7 @@
     .line 16
     .line 17
     :goto_0
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 18
     .line 19
@@ -11357,7 +10796,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, p1, v2}, Lq8/f;->m(IF)F
+    invoke-virtual {v1, p1, v2}, Lcom/github/barteksc/pdfviewer/f;->m(IF)F
 
     .line 22
     .line 23
@@ -11397,7 +10836,7 @@
 
     .line 39
     :goto_1
-    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
+    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lcom/github/barteksc/pdfviewer/f;
 
     .line 40
     .line 41
@@ -11405,7 +10844,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {v3, p1, v4}, Lq8/f;->k(IF)F
+    invoke-virtual {v3, p1, v4}, Lcom/github/barteksc/pdfviewer/f;->k(IF)F
 
     .line 44
     .line 45
@@ -11499,364 +10938,9 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public v0(F)V
-    .locals 4
-
-    .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lq8/a;
-
-    .line 2
-    .line 3
-    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v1
-
-    .line 7
-    div-int/lit8 v1, v1, 0x2
-
-    .line 8
-    .line 9
-    int-to-float v1, v1
-
-    .line 10
-    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
-
-    .line 11
-    .line 12
-    .line 13
-    move-result v2
-
-    .line 14
-    div-int/lit8 v2, v2, 0x2
-
-    .line 15
-    .line 16
-    int-to-float v2, v2
-
-    .line 17
-    iget v3, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 18
-    .line 19
-    invoke-virtual {v0, v1, v2, v3, p1}, Lq8/a;->k(FFFF)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-void
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public w(I)V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->n:Lcom/github/barteksc/pdfviewer/PDFView$State;
-
-    .line 2
-    .line 3
-    sget-object v1, Lcom/github/barteksc/pdfviewer/PDFView$State;->SHOWN:Lcom/github/barteksc/pdfviewer/PDFView$State;
-
-    .line 4
-    .line 5
-    if-eq v0, v1, :cond_0
-
-    .line 6
-    .line 7
-    sget-object p1, Lcom/github/barteksc/pdfviewer/PDFView;->R:Ljava/lang/String;
-
-    .line 8
-    .line 9
-    const-string v0, "Cannot fit, document not rendered yet"
-
-    .line 10
-    .line 11
-    invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
-
-    .line 15
-    :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
-
-    .line 16
-    .line 17
-    .line 18
-    move-result v0
-
-    .line 19
-    int-to-float v0, v0
-
-    .line 20
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->h:Lq8/f;
-
-    .line 21
-    .line 22
-    invoke-virtual {v1, p1}, Lq8/f;->n(I)Lcom/shockwave/pdfium/util/SizeF;
-
-    .line 23
-    .line 24
-    .line 25
-    move-result-object v1
-
-    .line 26
-    invoke-virtual {v1}, Lcom/shockwave/pdfium/util/SizeF;->b()F
-
-    .line 27
-    .line 28
-    .line 29
-    move-result v1
-
-    .line 30
-    div-float/2addr v0, v1
-
-    .line 31
-    invoke-virtual {p0, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->u0(F)V
-
-    .line 32
-    .line 33
-    .line 34
-    invoke-virtual {p0, p1}, Lcom/github/barteksc/pdfviewer/PDFView;->S(I)V
-
-    .line 35
-    .line 36
-    .line 37
-    return-void
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-.end method
-
-.method public w0(FFF)V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->f:Lq8/a;
-
-    .line 2
-    .line 3
-    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView;->l:F
-
-    .line 4
-    .line 5
-    invoke-virtual {v0, p1, p2, v1, p3}, Lq8/a;->k(FFFF)V
-
-    .line 6
-    .line 7
-    .line 8
-    return-void
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
-    .line 118
-    .line 119
-    .line 120
-    .line 121
-    .line 122
-    .line 123
-    .line 124
-    .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
-    .line 131
-    .line 132
-    .line 133
-    .line 134
-    .line 135
-    .line 136
-    .line 137
-    .line 138
-    .line 139
-    .line 140
-    .line 141
-    .line 142
-    .line 143
-    .line 144
-    .line 145
-    .line 146
-    .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-.end method
-
-.method public x(Ljava/lang/String;)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public u([B)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 2
 
     .line 1
@@ -11864,11 +10948,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lv8/a;
+    new-instance v1, Lm2/a;
 
     .line 4
     .line 5
-    invoke-direct {v1, p1}, Lv8/a;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, p1}, Lm2/a;-><init>([B)V
 
     .line 6
     .line 7
@@ -11876,7 +10960,7 @@
     const/4 p1, 0x0
 
     .line 9
-    invoke-direct {v0, p0, v1, p1}, Lcom/github/barteksc/pdfviewer/PDFView$b;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;Lcom/github/barteksc/pdfviewer/PDFView$a;)V
+    invoke-direct {v0, p0, v1, p1}, Lcom/github/barteksc/pdfviewer/PDFView$b;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;Lm2/b;Lcom/github/barteksc/pdfviewer/PDFView$a;)V
 
     .line 10
     .line 11
@@ -11894,10 +10978,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public y([B)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public v(Landroid/net/Uri;)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 2
 
     .line 1
@@ -11905,11 +10988,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lv8/b;
+    new-instance v1, Lm2/c;
 
     .line 4
     .line 5
-    invoke-direct {v1, p1}, Lv8/b;-><init>([B)V
+    invoke-direct {v1, p1}, Lm2/c;-><init>(Landroid/net/Uri;)V
 
     .line 6
     .line 7
@@ -11917,7 +11000,7 @@
     const/4 p1, 0x0
 
     .line 9
-    invoke-direct {v0, p0, v1, p1}, Lcom/github/barteksc/pdfviewer/PDFView$b;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;Lcom/github/barteksc/pdfviewer/PDFView$a;)V
+    invoke-direct {v0, p0, v1, p1}, Lcom/github/barteksc/pdfviewer/PDFView$b;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;Lm2/b;Lcom/github/barteksc/pdfviewer/PDFView$a;)V
 
     .line 10
     .line 11
@@ -11935,35 +11018,26 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public z(Ljava/io/File;)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 2
+.method public w()Z
+    .locals 1
 
     .line 1
-    new-instance v0, Lcom/github/barteksc/pdfviewer/PDFView$b;
+    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->H:Z
 
     .line 2
     .line 3
-    new-instance v1, Lv8/d;
-
+    return v0
     .line 4
     .line 5
-    invoke-direct {v1, p1}, Lv8/d;-><init>(Ljava/io/File;)V
-
     .line 6
     .line 7
     .line 8
-    const/4 p1, 0x0
-
     .line 9
-    invoke-direct {v0, p0, v1, p1}, Lcom/github/barteksc/pdfviewer/PDFView$b;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;Lcom/github/barteksc/pdfviewer/PDFView$a;)V
-
     .line 10
     .line 11
     .line 12
-    return-object v0
     .line 13
     .line 14
     .line 15
@@ -11974,7 +11048,94 @@
     .line 20
     .line 21
     .line 22
-    .line 23
-    .line 24
-    .line 25
+.end method
+
+.method public x()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->M:Z
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public y()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->G:Z
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public z()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lcom/github/barteksc/pdfviewer/PDFView;->A:Z
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
 .end method

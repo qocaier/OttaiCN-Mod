@@ -38,6 +38,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static ValidateVersion()V
@@ -66,6 +67,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$000(ILjava/nio/ByteBuffer;)I
@@ -1632,6 +1634,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public codepointsInByteBuffer(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
@@ -1714,6 +1717,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public codepointsVector()Landroidx/emoji2/text/flatbuffer/IntVector;
@@ -1808,6 +1812,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public emojiStyle()Z
@@ -1925,6 +1930,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public height()S
@@ -1974,6 +1981,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public id()I
@@ -2023,6 +2031,7 @@
     .line 19
     return v0
     .line 20
+    .line 21
 .end method
 
 .method public sdkAdded()S
@@ -2072,6 +2081,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public width()S
@@ -2121,4 +2131,5 @@
 
     .line 20
     return v0
+    .line 21
 .end method

@@ -196,6 +196,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic a(Lcom/huawei/hms/common/HuaweiApi$RequestHandler;)Lcom/huawei/hms/common/HuaweiApi;
@@ -413,13 +415,13 @@
 
     iget-object v2, p0, Lcom/huawei/hms/common/HuaweiApi$RequestHandler;->b:Lcom/huawei/hms/common/internal/AnyClient;
 
-    invoke-virtual {p1}, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->getTaskCompletionSource()Lme/l;
+    invoke-virtual {p1}, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->getTaskCompletionSource()Lq5/g;
 
     move-result-object p1
 
     const/4 v3, 0x0
 
-    invoke-virtual {v1, v2, v0, v3, p1}, Lcom/huawei/hms/common/internal/TaskApiCall;->onResponse(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+    invoke-virtual {v1, v2, v0, v3, p1}, Lcom/huawei/hms/common/internal/TaskApiCall;->onResponse(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
 
     return-void
 .end method
@@ -675,11 +677,11 @@
 
     iget-object v7, p0, Lcom/huawei/hms/common/HuaweiApi$RequestHandler;->b:Lcom/huawei/hms/common/internal/AnyClient;
 
-    invoke-virtual {v3}, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->getTaskCompletionSource()Lme/l;
+    invoke-virtual {v3}, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->getTaskCompletionSource()Lq5/g;
 
     move-result-object v3
 
-    invoke-virtual {v6, v7, v5, v4, v3}, Lcom/huawei/hms/common/internal/TaskApiCall;->onResponse(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+    invoke-virtual {v6, v7, v5, v4, v3}, Lcom/huawei/hms/common/internal/TaskApiCall;->onResponse(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
 
     goto/16 :goto_0
 
@@ -880,6 +882,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic e(Lcom/huawei/hms/common/HuaweiApi$RequestHandler;)V
@@ -913,6 +917,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -1361,6 +1367,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onConnected()V
@@ -1479,6 +1487,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public onConnectionFailed(Lcom/huawei/hms/api/ConnectionResult;)V
@@ -1597,6 +1606,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onConnectionSuspended(I)V
@@ -1715,6 +1726,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public postMessage(Lcom/huawei/hms/common/HuaweiApi$TaskApiCallbackWrapper;)V
@@ -1938,195 +1951,195 @@
     .line 108
     .line 109
     .line 110
-    const-string v4, "|"
+    const-string/jumbo v4, "|"
 
     .line 111
     .line 112
+    .line 113
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 113
     .line 114
     .line 115
+    .line 116
     iget-object v4, p0, Lcom/huawei/hms/common/HuaweiApi$RequestHandler;->d:Lcom/huawei/hms/common/HuaweiApi;
 
-    .line 116
     .line 117
+    .line 118
     invoke-virtual {v4}, Lcom/huawei/hms/common/HuaweiApi;->getSubAppID()Ljava/lang/String;
 
-    .line 118
     .line 119
     .line 120
+    .line 121
     move-result-object v4
 
-    .line 121
+    .line 122
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 122
     .line 123
     .line 124
+    .line 125
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 125
     .line 126
     .line 127
-    move-result-object v3
-
     .line 128
-    invoke-virtual {v2, v3}, Lcom/huawei/hms/common/internal/RequestHeader;->setAppID(Ljava/lang/String;)V
+    move-result-object v3
 
     .line 129
+    invoke-virtual {v2, v3}, Lcom/huawei/hms/common/internal/RequestHeader;->setAppID(Ljava/lang/String;)V
+
     .line 130
     .line 131
+    .line 132
     invoke-virtual {v2, v1}, Lcom/huawei/hms/common/internal/RequestHeader;->setPkgName(Ljava/lang/String;)V
 
-    .line 132
     .line 133
     .line 134
+    .line 135
     iget-object v1, p0, Lcom/huawei/hms/common/HuaweiApi$RequestHandler;->b:Lcom/huawei/hms/common/internal/AnyClient;
 
-    .line 135
     .line 136
+    .line 137
     invoke-interface {v1}, Lcom/huawei/hms/common/internal/AnyClient;->getSessionId()Ljava/lang/String;
 
-    .line 137
     .line 138
     .line 139
-    move-result-object v1
-
     .line 140
-    invoke-virtual {v2, v1}, Lcom/huawei/hms/common/internal/RequestHeader;->setSessionId(Ljava/lang/String;)V
+    move-result-object v1
 
     .line 141
+    invoke-virtual {v2, v1}, Lcom/huawei/hms/common/internal/RequestHeader;->setSessionId(Ljava/lang/String;)V
+
     .line 142
     .line 143
+    .line 144
     invoke-virtual {p1}, Lcom/huawei/hms/common/HuaweiApi$TaskApiCallbackWrapper;->a()Lcom/huawei/hms/common/internal/TaskApiCallWrapper;
 
-    .line 144
     .line 145
     .line 146
-    move-result-object v1
-
     .line 147
-    invoke-virtual {v1}, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->getTaskApiCall()Lcom/huawei/hms/common/internal/TaskApiCall;
+    move-result-object v1
 
     .line 148
+    invoke-virtual {v1}, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->getTaskApiCall()Lcom/huawei/hms/common/internal/TaskApiCall;
+
     .line 149
     .line 150
-    move-result-object v1
-
     .line 151
-    invoke-virtual {v1}, Lcom/huawei/hms/common/internal/TaskApiCall;->getTransactionId()Ljava/lang/String;
+    move-result-object v1
 
     .line 152
+    invoke-virtual {v1}, Lcom/huawei/hms/common/internal/TaskApiCall;->getTransactionId()Ljava/lang/String;
+
     .line 153
     .line 154
+    .line 155
     move-result-object v3
 
-    .line 155
+    .line 156
     invoke-direct {p0, v3, v0}, Lcom/huawei/hms/common/HuaweiApi$RequestHandler;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 156
     .line 157
     .line 158
-    move-result-object v0
-
     .line 159
-    invoke-virtual {v2, v0}, Lcom/huawei/hms/common/internal/RequestHeader;->setTransactionId(Ljava/lang/String;)V
+    move-result-object v0
 
     .line 160
+    invoke-virtual {v2, v0}, Lcom/huawei/hms/common/internal/RequestHeader;->setTransactionId(Ljava/lang/String;)V
+
     .line 161
     .line 162
+    .line 163
     invoke-virtual {v1}, Lcom/huawei/hms/common/internal/TaskApiCall;->getParcelable()Landroid/os/Parcelable;
 
-    .line 163
     .line 164
     .line 165
+    .line 166
     move-result-object v0
 
-    .line 166
+    .line 167
     invoke-virtual {v2, v0}, Lcom/huawei/hms/common/internal/RequestHeader;->setParcelable(Landroid/os/Parcelable;)V
 
-    .line 167
     .line 168
     .line 169
+    .line 170
     iget-object v0, p0, Lcom/huawei/hms/common/HuaweiApi$RequestHandler;->d:Lcom/huawei/hms/common/HuaweiApi;
 
-    .line 170
     .line 171
+    .line 172
     invoke-virtual {v0}, Lcom/huawei/hms/common/HuaweiApi;->getKitSdkVersion()I
 
-    .line 172
     .line 173
     .line 174
-    move-result v0
-
     .line 175
-    invoke-virtual {v2, v0}, Lcom/huawei/hms/common/internal/RequestHeader;->setKitSdkVersion(I)V
+    move-result v0
 
     .line 176
+    invoke-virtual {v2, v0}, Lcom/huawei/hms/common/internal/RequestHeader;->setKitSdkVersion(I)V
+
     .line 177
     .line 178
+    .line 179
     iget-object v0, p0, Lcom/huawei/hms/common/HuaweiApi$RequestHandler;->d:Lcom/huawei/hms/common/HuaweiApi;
 
-    .line 179
     .line 180
+    .line 181
     invoke-virtual {v0}, Lcom/huawei/hms/common/HuaweiApi;->getApiLevel()I
 
-    .line 181
     .line 182
     .line 183
-    move-result v0
-
     .line 184
-    invoke-virtual {v1}, Lcom/huawei/hms/common/internal/TaskApiCall;->getApiLevel()I
+    move-result v0
 
     .line 185
+    invoke-virtual {v1}, Lcom/huawei/hms/common/internal/TaskApiCall;->getApiLevel()I
+
     .line 186
     .line 187
+    .line 188
     move-result v3
 
-    .line 188
+    .line 189
     invoke-static {v0, v3}, Ljava/lang/Math;->max(II)I
 
-    .line 189
     .line 190
     .line 191
+    .line 192
     move-result v0
 
-    .line 192
+    .line 193
     invoke-virtual {v2, v0}, Lcom/huawei/hms/common/internal/RequestHeader;->setApiLevel(I)V
 
-    .line 193
     .line 194
     .line 195
+    .line 196
     new-instance v0, Lcom/huawei/hms/common/HuaweiApi$RequestHandler$2;
 
-    .line 196
     .line 197
+    .line 198
     invoke-direct {v0, p0, p1, v2}, Lcom/huawei/hms/common/HuaweiApi$RequestHandler$2;-><init>(Lcom/huawei/hms/common/HuaweiApi$RequestHandler;Lcom/huawei/hms/common/HuaweiApi$TaskApiCallbackWrapper;Lcom/huawei/hms/common/internal/RequestHeader;)V
 
-    .line 198
     .line 199
     .line 200
+    .line 201
     iget-object p1, p0, Lcom/huawei/hms/common/HuaweiApi$RequestHandler;->b:Lcom/huawei/hms/common/internal/AnyClient;
 
-    .line 201
     .line 202
+    .line 203
     invoke-virtual {v1}, Lcom/huawei/hms/common/internal/TaskApiCall;->getRequestJson()Ljava/lang/String;
 
-    .line 203
     .line 204
     .line 205
+    .line 206
     move-result-object v1
 
-    .line 206
+    .line 207
     invoke-interface {p1, v2, v1, v0}, Lcom/huawei/hms/common/internal/AnyClient;->post(Lcom/huawei/hms/core/aidl/IMessageEntity;Ljava/lang/String;Lcom/huawei/hms/common/internal/AnyClient$CallBack;)V
 
-    .line 207
     .line 208
     .line 209
-    return-void
     .line 210
+    return-void
     .line 211
     .line 212
     .line 213
@@ -2201,25 +2214,4 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method

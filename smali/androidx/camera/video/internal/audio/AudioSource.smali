@@ -155,9 +155,9 @@
     .end annotation
 
     .line 1
-    new-instance v4, Landroidx/camera/video/internal/audio/a;
+    new-instance v4, Landroidx/camera/video/internal/audio/d;
 
-    invoke-direct {v4}, Landroidx/camera/video/internal/audio/a;-><init>()V
+    invoke-direct {v4}, Landroidx/camera/video/internal/audio/d;-><init>()V
 
     const-wide/16 v5, 0xbb8
 
@@ -322,11 +322,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Le0/h;
+    new-instance v1, Landroidx/camera/video/internal/audio/i;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1}, Le0/h;-><init>(Landroidx/camera/video/internal/audio/AudioSource;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/video/internal/audio/i;-><init>(Landroidx/camera/video/internal/audio/AudioSource;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
 
     .line 6
     .line 7
@@ -535,6 +535,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic c(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Ljava/lang/Throwable;)V
@@ -1091,6 +1094,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static fetchBufferProviderState(Landroidx/camera/video/internal/BufferProvider;)Landroidx/camera/video/internal/BufferProvider$State;
@@ -1118,7 +1124,7 @@
 
     .line 2
     :try_start_0
-    invoke-interface {p0}, Landroidx/camera/core/impl/Observable;->fetchData()Lub/u0;
+    invoke-interface {p0}, Landroidx/camera/core/impl/Observable;->fetchData()Lcom/google/common/util/concurrent/t;
 
     .line 3
     .line 4
@@ -1287,6 +1293,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getCurrentSystemTimeNs()J
@@ -1317,6 +1324,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic h(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Z)V
@@ -1554,6 +1562,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic j(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Z)V
@@ -1901,6 +1912,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic l(Landroidx/camera/video/internal/audio/AudioSource;)V
@@ -2096,6 +2110,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private startSendingAudio()V
@@ -2240,6 +2255,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private stopSendingAudio()V
@@ -2288,69 +2305,6 @@
     .line 20
     .line 21
     return-void
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 
@@ -2392,6 +2346,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isStartRetryIntervalReached()Z
@@ -2521,6 +2476,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public mute(Z)V
@@ -2531,11 +2488,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Le0/a;
+    new-instance v1, Landroidx/camera/video/internal/audio/a;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1}, Le0/a;-><init>(Landroidx/camera/video/internal/audio/AudioSource;Z)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/video/internal/audio/a;-><init>(Landroidx/camera/video/internal/audio/AudioSource;Z)V
 
     .line 6
     .line 7
@@ -2586,11 +2543,11 @@
 
     .line 8
     .line 9
-    new-instance v2, Le0/c;
+    new-instance v2, Landroidx/camera/video/internal/audio/c;
 
     .line 10
     .line 11
-    invoke-direct {v2, v1, p1}, Le0/c;-><init>(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Ljava/lang/Throwable;)V
+    invoke-direct {v2, v1, p1}, Landroidx/camera/video/internal/audio/c;-><init>(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Ljava/lang/Throwable;)V
 
     .line 12
     .line 13
@@ -2712,11 +2669,11 @@
 
     .line 44
     .line 45
-    new-instance v3, Le0/g;
+    new-instance v3, Landroidx/camera/video/internal/audio/h;
 
     .line 46
     .line 47
-    invoke-direct {v3, v1, v2}, Le0/g;-><init>(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Z)V
+    invoke-direct {v3, v1, v2}, Landroidx/camera/video/internal/audio/h;-><init>(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Z)V
 
     .line 48
     .line 49
@@ -2759,6 +2716,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public notifySuspended(Z)V
@@ -2797,11 +2756,11 @@
 
     .line 16
     .line 17
-    new-instance v2, Le0/l;
+    new-instance v2, Landroidx/camera/video/internal/audio/m;
 
     .line 18
     .line 19
-    invoke-direct {v2, v1, p1}, Le0/l;-><init>(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Z)V
+    invoke-direct {v2, v1, p1}, Landroidx/camera/video/internal/audio/m;-><init>(Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;Z)V
 
     .line 20
     .line 21
@@ -3008,11 +2967,11 @@
 
     .line 47
     .line 48
-    new-instance p1, Le0/k;
+    new-instance p1, Landroidx/camera/video/internal/audio/l;
 
     .line 49
     .line 50
-    invoke-direct {p1, p0, v1}, Le0/k;-><init>(Landroidx/camera/video/internal/audio/AudioSource;Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;)V
+    invoke-direct {p1, p0, v1}, Landroidx/camera/video/internal/audio/l;-><init>(Landroidx/camera/video/internal/audio/AudioSource;Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;)V
 
     .line 51
     .line 52
@@ -3046,9 +3005,10 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public release()Lub/u0;
+.method public release()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -3056,23 +3016,21 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Le0/e;
+    new-instance v0, Landroidx/camera/video/internal/audio/f;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Le0/e;-><init>(Landroidx/camera/video/internal/audio/AudioSource;)V
+    invoke-direct {v0, p0}, Landroidx/camera/video/internal/audio/f;-><init>(Landroidx/camera/video/internal/audio/AudioSource;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 7
     .line 8
@@ -3091,6 +3049,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public retryStartAudioStream()V
@@ -3221,6 +3180,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public sendNextAudio()V
@@ -3240,7 +3201,7 @@
 
     .line 7
     .line 8
-    invoke-interface {v0}, Landroidx/camera/video/internal/BufferProvider;->acquireBuffer()Lub/u0;
+    invoke-interface {v0}, Landroidx/camera/video/internal/BufferProvider;->acquireBuffer()Lcom/google/common/util/concurrent/t;
 
     .line 9
     .line 10
@@ -3265,7 +3226,7 @@
 
     .line 20
     .line 21
-    invoke-static {v0, v1, v2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {v0, v1, v2}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 22
     .line 23
@@ -3331,6 +3292,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setAudioSourceCallback(Ljava/util/concurrent/Executor;Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;)V
@@ -3349,11 +3312,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Le0/j;
+    new-instance v1, Landroidx/camera/video/internal/audio/k;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1, p2}, Le0/j;-><init>(Landroidx/camera/video/internal/audio/AudioSource;Ljava/util/concurrent/Executor;Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;)V
+    invoke-direct {v1, p0, p1, p2}, Landroidx/camera/video/internal/audio/k;-><init>(Landroidx/camera/video/internal/audio/AudioSource;Ljava/util/concurrent/Executor;Landroidx/camera/video/internal/audio/AudioSource$AudioSourceCallback;)V
 
     .line 6
     .line 7
@@ -3424,11 +3387,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Le0/b;
+    new-instance v1, Landroidx/camera/video/internal/audio/b;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1}, Le0/b;-><init>(Landroidx/camera/video/internal/audio/AudioSource;Landroidx/camera/video/internal/BufferProvider;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/video/internal/audio/b;-><init>(Landroidx/camera/video/internal/audio/AudioSource;Landroidx/camera/video/internal/BufferProvider;)V
 
     .line 6
     .line 7
@@ -3565,6 +3528,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public start()V
@@ -3573,9 +3537,9 @@
     .line 1
     iget-object v0, p0, Landroidx/camera/video/internal/audio/AudioSource;->mExecutor:Ljava/util/concurrent/Executor;
 
-    new-instance v1, Le0/i;
+    new-instance v1, Landroidx/camera/video/internal/audio/j;
 
-    invoke-direct {v1, p0}, Le0/i;-><init>(Landroidx/camera/video/internal/audio/AudioSource;)V
+    invoke-direct {v1, p0}, Landroidx/camera/video/internal/audio/j;-><init>(Landroidx/camera/video/internal/audio/AudioSource;)V
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
@@ -3588,9 +3552,9 @@
     .line 2
     iget-object v0, p0, Landroidx/camera/video/internal/audio/AudioSource;->mExecutor:Ljava/util/concurrent/Executor;
 
-    new-instance v1, Le0/f;
+    new-instance v1, Landroidx/camera/video/internal/audio/g;
 
-    invoke-direct {v1, p0, p1}, Le0/f;-><init>(Landroidx/camera/video/internal/audio/AudioSource;Z)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/video/internal/audio/g;-><init>(Landroidx/camera/video/internal/audio/AudioSource;Z)V
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
@@ -3605,11 +3569,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Le0/d;
+    new-instance v1, Landroidx/camera/video/internal/audio/e;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Le0/d;-><init>(Landroidx/camera/video/internal/audio/AudioSource;)V
+    invoke-direct {v1, p0}, Landroidx/camera/video/internal/audio/e;-><init>(Landroidx/camera/video/internal/audio/AudioSource;)V
 
     .line 6
     .line 7
@@ -3629,6 +3593,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public updateSendingAudio()V
@@ -3757,4 +3722,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

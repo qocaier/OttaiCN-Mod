@@ -4,16 +4,8 @@
 
 
 # direct methods
-.method public static final transaction(Landroid/database/sqlite/SQLiteDatabase;ZLjm/l;)Ljava/lang/Object;
+.method public static final transaction(Landroid/database/sqlite/SQLiteDatabase;ZLq8/l;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Landroid/database/sqlite/SQLiteDatabase;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -21,10 +13,8 @@
             ">(",
             "Landroid/database/sqlite/SQLiteDatabase;",
             "Z",
-            "Ljm/l<",
-            "-",
-            "Landroid/database/sqlite/SQLiteDatabase;",
-            "+TT;>;)TT;"
+            "Lq8/l;",
+            ")TT;"
         }
     .end annotation
 
@@ -52,7 +42,7 @@
 
     .line 11
     :try_start_0
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -67,7 +57,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 19
     .line 20
@@ -77,7 +67,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 25
     .line 26
@@ -89,7 +79,7 @@
     move-exception p2
 
     .line 29
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 30
     .line 31
@@ -99,7 +89,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 36
     .line 37
@@ -180,9 +170,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static synthetic transaction$default(Landroid/database/sqlite/SQLiteDatabase;ZLjm/l;ILjava/lang/Object;)Ljava/lang/Object;
+.method public static synthetic transaction$default(Landroid/database/sqlite/SQLiteDatabase;ZLq8/l;ILjava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
     .line 1
@@ -220,7 +213,7 @@
     .line 15
     :goto_0
     :try_start_0
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -235,7 +228,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-static {p4}, Lkm/d0;->d(I)V
+    invoke-static {p4}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 23
     .line 24
@@ -245,7 +238,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-static {p4}, Lkm/d0;->c(I)V
+    invoke-static {p4}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 29
     .line 30
@@ -257,7 +250,7 @@
     move-exception p1
 
     .line 33
-    invoke-static {p4}, Lkm/d0;->d(I)V
+    invoke-static {p4}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 34
     .line 35
@@ -267,7 +260,7 @@
     .line 37
     .line 38
     .line 39
-    invoke-static {p4}, Lkm/d0;->c(I)V
+    invoke-static {p4}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 40
     .line 41

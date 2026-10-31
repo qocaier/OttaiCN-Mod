@@ -36,7 +36,7 @@
 
     iget-object v1, p0, Lcom/tekartik/sqflite/f;->b:Lcom/tekartik/sqflite/operation/Operation;
 
-    invoke-static {v0, v1}, Lcom/tekartik/sqflite/Database;->g(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
+    invoke-static {v0, v1}, Lcom/tekartik/sqflite/Database;->d(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
 
     return-void
 .end method

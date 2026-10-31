@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -37,11 +37,6 @@
 # virtual methods
 .method public final getInstance()Landroidx/window/WindowSdkExtensions;
     .locals 2
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Landroidx/window/WindowSdkExtensions;->access$getDecorator$cp()Landroidx/window/WindowSdkExtensionsDecorator;
@@ -76,21 +71,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final overrideDecorator$window_release(Landroidx/window/WindowSdkExtensionsDecorator;)V
     .locals 1
-    .param p1    # Landroidx/window/WindowSdkExtensionsDecorator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "overridingDecorator"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -147,4 +139,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

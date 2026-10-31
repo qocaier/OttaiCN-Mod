@@ -83,6 +83,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -111,9 +112,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public static getCompilationStatusAsync()Lub/u0;
+.method public static getCompilationStatusAsync()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -121,9 +123,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -150,6 +150,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getPackageLastUpdateTime(Landroid/content/Context;)J
@@ -274,6 +275,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static setCompilationStatus(IZZ)Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
@@ -405,6 +407,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static writeProfileVerification(Landroid/content/Context;)Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;

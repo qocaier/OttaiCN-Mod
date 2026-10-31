@@ -967,6 +967,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method private constructor <init>(Lcom/baidu/mapapi/map/HeatMap$Builder;)V
@@ -2164,8 +2223,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -2299,11 +2356,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public getMaxHigh()I
@@ -2334,7 +2386,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isFrameAnimation()Z
@@ -2376,7 +2427,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isInitAnimation()Z
@@ -2418,7 +2468,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public removeHeatMap()V
@@ -2468,7 +2517,6 @@
     .line 22
     :cond_2
     return-void
-    .line 23
 .end method
 
 .method public toBundle()Landroid/os/Bundle;
@@ -3313,6 +3361,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public updateData(Ljava/util/Collection;)V
@@ -3458,8 +3565,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public updateDatas(Ljava/util/List;)V
@@ -3606,8 +3711,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public updateFrameAnimation(Lcom/baidu/mapapi/map/HeatMapAnimation;)V
@@ -3640,7 +3743,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateGradient(Lcom/baidu/mapapi/map/Gradient;)V
@@ -3686,7 +3788,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateIsRadiusMeter(Z)V
@@ -3719,7 +3820,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateMaxHigh(I)V
@@ -3766,7 +3866,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateMaxIntensity(F)V
@@ -3816,7 +3915,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateMaxShowLevel(I)V
@@ -3865,7 +3963,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateMinIntensity(F)V
@@ -3918,7 +4015,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateMinShowLevel(I)V
@@ -3967,7 +4063,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateOpacity(D)V
@@ -4022,7 +4117,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateRadius(I)V
@@ -4073,7 +4167,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateRadiusMeter(I)V
@@ -4124,7 +4217,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateWeightedData(Ljava/util/Collection;)V
@@ -4266,8 +4358,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public updateWeightedDatas(Ljava/util/List;)V
@@ -4410,6 +4500,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

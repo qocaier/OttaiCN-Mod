@@ -43,6 +43,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static createComboCallback(Ljava/util/List;)Landroid/hardware/camera2/CameraCaptureSession$CaptureCallback;
@@ -116,4 +117,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

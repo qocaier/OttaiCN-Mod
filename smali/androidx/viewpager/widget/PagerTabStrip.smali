@@ -309,6 +309,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMinHeight()I
@@ -345,6 +346,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTabIndicatorColor()I
@@ -375,6 +377,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -728,6 +731,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -1112,6 +1120,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setBackgroundColor(I)V
@@ -1558,6 +1571,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setTabIndicatorColor(I)V
@@ -1883,4 +1902,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

@@ -156,16 +156,11 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 
 # virtual methods
-.method public a(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+.method public a(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -173,9 +168,8 @@
             "Lcom/huawei/hms/aaid/task/PushClient;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
             "Ljava/lang/String;",
-            "Lme/l<",
-            "Ljava/lang/Void;",
-            ">;)V"
+            "Lq5/g;",
+            ")V"
         }
     .end annotation
 
@@ -272,7 +266,7 @@
     move-result-object p1
 
     .line 49
-    invoke-virtual {p4, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 50
     .line 51
@@ -315,7 +309,7 @@
     .line 69
     .line 70
     .line 71
-    invoke-virtual {p4, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 72
     .line 73
@@ -377,7 +371,7 @@
     move-result-object p1
 
     .line 102
-    invoke-virtual {p4, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 103
     .line 104
@@ -389,7 +383,7 @@
     const/4 p3, 0x0
 
     .line 107
-    invoke-virtual {p4, p3}, Lme/l;->d(Ljava/lang/Object;)V
+    invoke-virtual {p4, p3}, Lq5/g;->c(Ljava/lang/Object;)V
 
     .line 108
     .line 109
@@ -545,9 +539,32 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
-.method public bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+.method public bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
     .locals 0
 
     .line 1
@@ -555,7 +572,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/opendevice/f;->a(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/opendevice/f;->a(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
 
     .line 4
     .line 5
@@ -805,6 +822,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public getMinApkVersion()I
@@ -846,4 +886,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

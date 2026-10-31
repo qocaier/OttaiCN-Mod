@@ -190,6 +190,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic a(Lcom/qiyukf/mj;)Lcom/qiyukf/er;
@@ -395,9 +397,9 @@
 
     .line 61
     :try_start_0
-    new-instance v0, Lvg/d0;
+    new-instance v0, Lcom/qiyukf/xe0;
 
-    invoke-direct {v0, p0}, Lvg/d0;-><init>(Lcom/qiyukf/mj;)V
+    invoke-direct {v0, p0}, Lcom/qiyukf/xe0;-><init>(Lcom/qiyukf/mj;)V
 
     const/4 v1, 0x0
 

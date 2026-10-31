@@ -78,7 +78,6 @@
     return-void
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static b()Lcom/baidu/mapsdkplatform/comapi/util/e;

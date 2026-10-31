@@ -16,9 +16,6 @@
 
 # instance fields
 .field public final a:Lcom/bumptech/glide/load/resource/gif/a;
-    .annotation build Landroidx/annotation/VisibleForTesting;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -54,7 +51,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -69,8 +65,6 @@
 
 .method public newDrawable()Landroid/graphics/drawable/Drawable;
     .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 2
     new-instance v0, Lcom/bumptech/glide/load/resource/gif/GifDrawable;
@@ -82,8 +76,6 @@
 
 .method public newDrawable(Landroid/content/res/Resources;)Landroid/graphics/drawable/Drawable;
     .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Lcom/bumptech/glide/load/resource/gif/GifDrawable$a;->newDrawable()Landroid/graphics/drawable/Drawable;

@@ -94,6 +94,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -132,6 +142,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTeam()Lcom/qiyukf/nimlib/sdk/team/model/Team;
@@ -160,6 +172,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setFailedInviteAccounts(Ljava/util/ArrayList;)V
@@ -201,6 +215,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTeam(Lcom/qiyukf/nimlib/sdk/team/model/Team;)V
@@ -234,4 +250,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

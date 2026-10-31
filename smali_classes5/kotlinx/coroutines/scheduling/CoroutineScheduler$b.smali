@@ -1,4 +1,4 @@
-.class public final synthetic Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;
+.class public abstract synthetic Lkotlinx/coroutines/scheduling/CoroutineScheduler$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

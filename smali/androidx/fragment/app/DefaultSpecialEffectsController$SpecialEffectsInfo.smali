@@ -16,25 +16,18 @@
 
 # instance fields
 .field private final operation:Landroidx/fragment/app/SpecialEffectsController$Operation;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/fragment/app/SpecialEffectsController$Operation;)V
     .locals 1
-    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Operation;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "operation"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -69,8 +62,6 @@
 # virtual methods
 .method public final getOperation()Landroidx/fragment/app/SpecialEffectsController$Operation;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$SpecialEffectsInfo;->operation:Landroidx/fragment/app/SpecialEffectsController$Operation;
@@ -95,6 +86,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isVisibilityUnchanged()Z
@@ -232,4 +224,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

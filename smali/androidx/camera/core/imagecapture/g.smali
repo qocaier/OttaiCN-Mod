@@ -9,11 +9,11 @@
 # instance fields
 .field public final synthetic a:Landroidx/camera/core/imagecapture/ProcessingRequest;
 
-.field public final synthetic b:Landroidx/camera/core/ImageProxy;
+.field public final synthetic b:Landroidx/camera/core/ImageCaptureException;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/core/imagecapture/ProcessingRequest;Landroidx/camera/core/ImageProxy;)V
+.method public synthetic constructor <init>(Landroidx/camera/core/imagecapture/ProcessingRequest;Landroidx/camera/core/ImageCaptureException;)V
     .locals 0
 
     .line 1
@@ -21,7 +21,7 @@
 
     iput-object p1, p0, Landroidx/camera/core/imagecapture/g;->a:Landroidx/camera/core/imagecapture/ProcessingRequest;
 
-    iput-object p2, p0, Landroidx/camera/core/imagecapture/g;->b:Landroidx/camera/core/ImageProxy;
+    iput-object p2, p0, Landroidx/camera/core/imagecapture/g;->b:Landroidx/camera/core/ImageCaptureException;
 
     return-void
 .end method
@@ -34,9 +34,9 @@
     .line 1
     iget-object v0, p0, Landroidx/camera/core/imagecapture/g;->a:Landroidx/camera/core/imagecapture/ProcessingRequest;
 
-    iget-object v1, p0, Landroidx/camera/core/imagecapture/g;->b:Landroidx/camera/core/ImageProxy;
+    iget-object v1, p0, Landroidx/camera/core/imagecapture/g;->b:Landroidx/camera/core/ImageCaptureException;
 
-    invoke-static {v0, v1}, Landroidx/camera/core/imagecapture/ProcessingNode;->b(Landroidx/camera/core/imagecapture/ProcessingRequest;Landroidx/camera/core/ImageProxy;)V
+    invoke-static {v0, v1}, Landroidx/camera/core/imagecapture/ProcessingNode;->e(Landroidx/camera/core/imagecapture/ProcessingRequest;Landroidx/camera/core/ImageCaptureException;)V
 
     return-void
 .end method

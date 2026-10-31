@@ -67,6 +67,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -104,6 +106,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getFlowId()Ljava/lang/String;
@@ -132,6 +136,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNodeId()Ljava/lang/String;
@@ -160,6 +166,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPreRequestId()Ljava/lang/String;
@@ -188,6 +196,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRequestId()Ljava/lang/String;
@@ -216,6 +226,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getShowUseful()Z
@@ -244,6 +256,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setFlowId(Ljava/lang/String;)V
@@ -277,6 +291,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNodeId(Ljava/lang/String;)V
@@ -310,6 +326,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPreRequestId(Ljava/lang/String;)V
@@ -343,6 +361,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRequestId(Ljava/lang/String;)V
@@ -376,6 +396,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setShowUseful(Z)V
@@ -409,4 +431,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

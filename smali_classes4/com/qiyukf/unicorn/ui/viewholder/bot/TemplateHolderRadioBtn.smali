@@ -38,6 +38,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;)Z
@@ -73,6 +75,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$100(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;)Landroid/content/Context;
@@ -106,6 +110,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$200(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;Ljava/lang/String;)V
@@ -168,6 +174,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$300(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;)Lcom/qiyukf/unicorn/protocol/attach/bot/notification/RadioBtnTemplate;
@@ -201,6 +217,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$400(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;)Landroid/content/Context;
@@ -234,6 +252,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$500(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;Z)V
@@ -296,6 +316,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$600(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -329,6 +359,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$700(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -362,6 +394,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$800(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;)Lcom/qiyukf/tn;
@@ -397,6 +431,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private addQuickEntry(Ljava/util/List;)V
@@ -831,27 +867,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method private setCheckBoxData()V
@@ -1243,68 +1258,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method private setDatePicker()V
@@ -1376,132 +1329,132 @@
 
     .line 30
     .line 31
-    const-string v2, "yyyy-MM-dd HH:mm:ss"
+    const-string/jumbo v2, "yyyy-MM-dd HH:mm:ss"
 
     .line 32
     .line 33
+    .line 34
     goto :goto_1
 
-    .line 34
-    :cond_2
-    const-string v2, "yyyy-MM-dd"
-
     .line 35
+    :cond_2
+    const-string/jumbo v2, "yyyy-MM-dd"
+
     .line 36
+    .line 37
+    .line 38
     :goto_1
     iget-object v3, p0, Lcom/qiyukf/uikit/session/viewholder/MsgViewHolderBase;->ysfBtnRobotAnswerOk:Landroid/widget/Button;
 
-    .line 37
-    .line 38
-    invoke-virtual {v3, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
-
     .line 39
     .line 40
-    .line 41
-    iget-object v3, p0, Lcom/qiyukf/uikit/session/viewholder/MsgViewHolderBase;->ysfFlCheckRobotAnswerTag:Lcom/qiyukf/unicorn/widget/flowlayout/TagFlowLayout;
+    invoke-virtual {v3, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
+    .line 41
     .line 42
     .line 43
-    const/16 v4, 0x8
+    iget-object v3, p0, Lcom/qiyukf/uikit/session/viewholder/MsgViewHolderBase;->ysfFlCheckRobotAnswerTag:Lcom/qiyukf/unicorn/widget/flowlayout/TagFlowLayout;
 
     .line 44
     .line 45
-    invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
+    const/16 v4, 0x8
 
     .line 46
     .line 47
-    .line 48
-    invoke-static {}, Lcom/qiyukf/d80;->b()Lcom/qiyukf/d80;
+    invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
+    .line 48
     .line 49
     .line 50
+    invoke-static {}, Lcom/qiyukf/d80;->b()Lcom/qiyukf/d80;
+
     .line 51
+    .line 52
+    .line 53
     move-result-object v3
 
-    .line 52
+    .line 54
     invoke-virtual {v3}, Lcom/qiyukf/d80;->c()Z
 
-    .line 53
-    .line 54
     .line 55
+    .line 56
+    .line 57
     move-result v3
 
-    .line 56
-    if-eqz v3, :cond_3
-
-    .line 57
     .line 58
-    iget-object v3, p0, Lcom/qiyukf/uikit/session/viewholder/MsgViewHolderBase;->ysfBtnRobotAnswerOk:Landroid/widget/Button;
+    if-eqz v3, :cond_3
 
     .line 59
     .line 60
-    invoke-static {}, Lcom/qiyukf/d80;->b()Lcom/qiyukf/d80;
+    iget-object v3, p0, Lcom/qiyukf/uikit/session/viewholder/MsgViewHolderBase;->ysfBtnRobotAnswerOk:Landroid/widget/Button;
 
     .line 61
     .line 62
+    invoke-static {}, Lcom/qiyukf/d80;->b()Lcom/qiyukf/d80;
+
     .line 63
+    .line 64
+    .line 65
     move-result-object v4
 
-    .line 64
+    .line 66
     invoke-virtual {v4}, Lcom/qiyukf/d80;->a()Lcom/qiyukf/s4;
 
-    .line 65
-    .line 66
     .line 67
+    .line 68
+    .line 69
     move-result-object v4
 
-    .line 68
+    .line 70
     invoke-virtual {v4}, Lcom/qiyukf/s4;->f()Ljava/lang/String;
 
-    .line 69
-    .line 70
     .line 71
+    .line 72
+    .line 73
     move-result-object v4
 
-    .line 72
+    .line 74
     invoke-static {v4}, Lcom/qiyukf/e80;->c(Ljava/lang/String;)Landroid/graphics/drawable/StateListDrawable;
 
-    .line 73
-    .line 74
     .line 75
+    .line 76
+    .line 77
     move-result-object v4
 
-    .line 76
+    .line 78
     invoke-virtual {v3, v4}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 77
-    .line 78
     .line 79
+    .line 80
+    .line 81
     :cond_3
     const/4 v3, 0x1
 
-    .line 80
+    .line 82
     invoke-direct {p0, v3}, Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;->setSubmitBtnEnabled(Z)V
 
-    .line 81
-    .line 82
     .line 83
-    iget-object v3, p0, Lcom/qiyukf/uikit/session/viewholder/MsgViewHolderBase;->ysfBtnRobotAnswerOk:Landroid/widget/Button;
-
     .line 84
     .line 85
-    new-instance v4, Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn$1;
+    iget-object v3, p0, Lcom/qiyukf/uikit/session/viewholder/MsgViewHolderBase;->ysfBtnRobotAnswerOk:Landroid/widget/Button;
 
     .line 86
     .line 87
-    invoke-direct {v4, p0, v0, v2, v1}, Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn$1;-><init>(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;ZLjava/lang/String;Ljava/lang/String;)V
+    new-instance v4, Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn$1;
 
     .line 88
     .line 89
-    .line 90
-    invoke-virtual {v3, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-direct {v4, p0, v0, v2, v1}, Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn$1;-><init>(Lcom/qiyukf/unicorn/ui/viewholder/bot/TemplateHolderRadioBtn;ZLjava/lang/String;Ljava/lang/String;)V
 
+    .line 90
     .line 91
     .line 92
+    invoke-virtual {v3, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
     .line 93
-    return-void
     .line 94
     .line 95
+    return-void
     .line 96
     .line 97
     .line 98
@@ -1688,68 +1641,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method private setQuickEntryCustomUI(Lcom/qiyukf/unicorn/widget/BotActionItemView;)V
@@ -2223,27 +2114,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method private setSubmitBtnEnabled(Z)V
@@ -2282,6 +2152,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private showQueueToast()Z
@@ -2325,6 +2197,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private updateAndSendMessage(Ljava/lang/String;)V
@@ -2487,6 +2361,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -2906,68 +2782,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method public getContentResId()I
@@ -2996,6 +2810,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public inflateContentView()V
@@ -3141,6 +2957,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public isShowQuickEntry()Z
@@ -3276,6 +3093,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public isShowRobotAnswerCheckContainer()Z
@@ -3412,4 +3230,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

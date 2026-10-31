@@ -34,15 +34,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/Iterable;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "data"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -192,6 +183,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private getNextByteBuffer()Z
@@ -363,18 +355,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private updateCurrentByteBufferPos(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "numberOfBytesRead"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/IterableByteBufferInputStream;->currentByteBufferPos:I
@@ -492,19 +478,6 @@
 
 .method public read([BII)I
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "output",
-            "offset",
-            "length"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;

@@ -282,7 +282,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPosition()Lcom/baidu/mapapi/model/LatLng;
@@ -313,7 +312,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTag()Ljava/lang/String;
@@ -344,7 +342,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getView()Landroid/view/View;
@@ -375,7 +372,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getYOffset()I
@@ -406,7 +402,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setBitmapDescriptor(Lcom/baidu/mapapi/map/BitmapDescriptor;)V
@@ -452,7 +447,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPosition(Lcom/baidu/mapapi/model/LatLng;)V
@@ -498,7 +492,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScreenPosition(II)V
@@ -573,11 +566,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setTag(Ljava/lang/String;)V
@@ -610,7 +598,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setView(Landroid/view/View;)V
@@ -656,7 +643,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setYOffset(I)V
@@ -698,5 +684,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

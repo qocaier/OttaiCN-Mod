@@ -38,7 +38,7 @@
     move-exception v0
 
     .line 11
-    invoke-static {v0}, Luh/a;->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Lx6/a;->b(Ljava/lang/Object;)V
 
     .line 12
     .line 13
@@ -50,6 +50,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public constructor <init>()V
@@ -78,6 +80,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -108,6 +112,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public native checkForRoot([Ljava/lang/Object;)I

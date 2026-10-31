@@ -23,14 +23,6 @@
 # direct methods
 .method public constructor <init>(Ljava/io/File;Landroidx/datastore/core/Serializer;)V
     .locals 1
-    .param p1    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/datastore/core/Serializer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -45,7 +37,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -54,7 +46,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -103,24 +95,15 @@
 
 
 # virtual methods
-.method public writeData(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public writeData(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 5
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -170,7 +153,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/FileWriteScope$writeData$1;-><init>(Landroidx/datastore/core/FileWriteScope;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/FileWriteScope$writeData$1;-><init>(Landroidx/datastore/core/FileWriteScope;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -180,7 +163,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -220,7 +203,7 @@
     .line 45
     .line 46
     :try_start_0
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -255,7 +238,7 @@
 
     .line 60
     :cond_2
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 61
     .line 62
@@ -312,7 +295,7 @@
 
     .line 89
     .line 90
-    invoke-interface {v2, p1, v4, v0}, Landroidx/datastore/core/Serializer;->writeTo(Ljava/lang/Object;Ljava/io/OutputStream;Lul/c;)Ljava/lang/Object;
+    invoke-interface {v2, p1, v4, v0}, Landroidx/datastore/core/Serializer;->writeTo(Ljava/lang/Object;Ljava/io/OutputStream;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 91
     .line 92
@@ -351,49 +334,51 @@
     .line 104
     .line 105
     .line 106
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
     .line 107
     .line 108
-    const/4 p2, 0x0
+    const/4 p1, 0x0
 
     .line 109
-    invoke-static {v0, p2}, Ldm/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v0, p1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     .line 110
     .line 111
     .line 112
-    return-object p1
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 113
+    .line 114
+    return-object p1
+
+    .line 115
     :catchall_1
     move-exception p1
 
-    .line 114
+    .line 116
     move-object v0, p2
 
-    .line 115
+    .line 117
     :goto_2
     :try_start_3
     throw p1
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
-    .line 116
+    .line 118
     :catchall_2
     move-exception p2
 
-    .line 117
-    invoke-static {v0, p1}, Ldm/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
-
-    .line 118
     .line 119
+    invoke-static {v0, p1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+
     .line 120
-    throw p2
     .line 121
     .line 122
+    throw p2
     .line 123
     .line 124
     .line 125
@@ -505,4 +490,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

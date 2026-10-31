@@ -372,6 +372,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private addToData(ILjava/lang/Object;)V
@@ -707,6 +708,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private copyArray([Ljava/lang/Object;)[Ljava/lang/Object;
@@ -1623,6 +1627,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private linearEqualitySearch(Ljava/lang/Object;III)I
@@ -1934,6 +1944,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private merge([Ljava/lang/Object;I)V
@@ -2397,6 +2413,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private remove(Ljava/lang/Object;Z)Z
@@ -3025,6 +3044,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private replaceAllRemove()V
@@ -3071,6 +3095,7 @@
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
 .method private sortAndDedup([Ljava/lang/Object;)I
@@ -3242,6 +3267,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private throwIfInMutationOperation()V
@@ -3281,6 +3307,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -3520,6 +3547,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public clear()V
@@ -3633,6 +3662,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public endBatchedUpdates()V
@@ -3747,6 +3778,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public get(I)Ljava/lang/Object;
@@ -3900,6 +3933,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public indexOf(Ljava/lang/Object;)I
@@ -4064,6 +4098,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public recalculatePositionOfItemAt(I)V
@@ -4303,6 +4338,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public updateItemAt(ILjava/lang/Object;)V
@@ -4630,4 +4666,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

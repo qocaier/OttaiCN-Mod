@@ -206,15 +206,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -247,7 +238,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCoordType()I
@@ -278,7 +268,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFilter()Ljava/lang/String;
@@ -309,7 +298,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFromLanguage()Ljava/lang/String;
@@ -340,7 +328,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLanguage()Ljava/lang/String;
@@ -371,7 +358,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPageNum()I
@@ -402,7 +388,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPageSize()I
@@ -433,7 +418,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getQuery()Ljava/lang/String;
@@ -464,7 +448,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRegion()Ljava/lang/String;
@@ -495,7 +478,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRetCoordType()Ljava/lang/String;
@@ -526,7 +508,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScope()I
@@ -557,7 +538,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSearchBound()Ljava/util/List;
@@ -596,7 +576,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTag()Ljava/lang/String;
@@ -627,7 +606,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getType()Ljava/lang/String;
@@ -658,7 +636,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getViewBound()Ljava/util/List;
@@ -697,7 +674,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getViewDistance()I
@@ -728,7 +704,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isAddressResult()Z
@@ -759,7 +734,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isExtensionsAdcode()Z
@@ -790,7 +764,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isExtensionsChildPoi()Z
@@ -821,7 +794,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isHomonym()Z
@@ -852,7 +824,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isLightVersion()Z
@@ -883,7 +854,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isPhotoShow()Z
@@ -914,7 +884,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isRegionLimit()Z
@@ -945,7 +914,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAddressResult(Z)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -978,7 +946,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCenter(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1011,7 +978,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCoordType(I)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1044,7 +1010,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExtensionsAdcode(Z)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1077,7 +1042,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExtensionsChildPoi(Z)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1110,7 +1074,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFilter(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1143,7 +1106,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFromLanguage(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1176,7 +1138,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHomonym(Z)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1209,7 +1170,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLanguage(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1242,7 +1202,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLightVersion(Z)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1275,7 +1234,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPageNum(I)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1308,7 +1266,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPageSize(I)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1341,7 +1298,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPhotoShow(Z)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1374,7 +1330,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setQuery(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1407,7 +1362,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRegion(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1440,7 +1394,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRegionLimit(Z)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1473,7 +1426,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRetCoordType(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1506,7 +1458,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScope(I)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1539,7 +1490,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSearchBound(Ljava/util/List;)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1581,7 +1531,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTag(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1614,7 +1563,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setType(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1647,7 +1595,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setViewBound(Ljava/util/List;)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1689,7 +1636,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setViewDistance(I)Lcom/baidu/mapapi/search/poi/v3/RegionOption;
@@ -1722,5 +1668,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -21,14 +21,6 @@
 # direct methods
 .method public constructor <init>(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth$a;->a:Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;
@@ -59,7 +51,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -135,7 +126,7 @@
     move-result-object v0
 
     .line 34
-    instance-of v1, v0, Lq7/e;
+    instance-of v1, v0, Ln1/e;
 
     .line 35
     .line 36
@@ -143,7 +134,7 @@
 
     .line 37
     .line 38
-    check-cast v0, Lq7/e;
+    check-cast v0, Ln1/e;
 
     .line 39
     .line 40
@@ -163,7 +154,7 @@
     move-result-object v1
 
     .line 48
-    invoke-virtual {v0}, Lq7/a;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Ln1/a;->b()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -183,7 +174,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {v0}, Lq7/a;->a()Landroid/os/Handler;
+    invoke-virtual {v0}, Ln1/a;->a()Landroid/os/Handler;
 
     .line 59
     .line 60
@@ -317,7 +308,7 @@
     move-result-object v0
 
     .line 125
-    instance-of v1, v0, Lq7/c;
+    instance-of v1, v0, Ln1/c;
 
     .line 126
     .line 127
@@ -325,7 +316,7 @@
 
     .line 128
     .line 129
-    check-cast v0, Lq7/c;
+    check-cast v0, Ln1/c;
 
     .line 130
     .line 131
@@ -345,7 +336,7 @@
     move-result-object v1
 
     .line 139
-    invoke-virtual {v0}, Lq7/a;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Ln1/a;->b()Ljava/lang/String;
 
     .line 140
     .line 141
@@ -365,7 +356,7 @@
 
     .line 148
     .line 149
-    invoke-virtual {v0}, Lq7/a;->a()Landroid/os/Handler;
+    invoke-virtual {v0}, Ln1/a;->a()Landroid/os/Handler;
 
     .line 150
     .line 151
@@ -583,54 +574,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V
@@ -704,7 +647,7 @@
     move-result-object v0
 
     .line 34
-    instance-of v1, v0, Lq7/h;
+    instance-of v1, v0, Ln1/h;
 
     .line 35
     .line 36
@@ -712,7 +655,7 @@
 
     .line 37
     .line 38
-    check-cast v0, Lq7/h;
+    check-cast v0, Ln1/h;
 
     .line 39
     .line 40
@@ -732,7 +675,7 @@
     move-result-object v1
 
     .line 48
-    invoke-virtual {v0}, Lq7/a;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Ln1/a;->b()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -752,7 +695,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {v0}, Lq7/a;->a()Landroid/os/Handler;
+    invoke-virtual {v0}, Ln1/a;->a()Landroid/os/Handler;
 
     .line 59
     .line 60
@@ -881,11 +824,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onCharacteristicWrite(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V
@@ -959,7 +897,7 @@
     move-result-object v0
 
     .line 34
-    instance-of v1, v0, Lq7/m;
+    instance-of v1, v0, Ln1/m;
 
     .line 35
     .line 36
@@ -967,7 +905,7 @@
 
     .line 37
     .line 38
-    check-cast v0, Lq7/m;
+    check-cast v0, Ln1/m;
 
     .line 39
     .line 40
@@ -987,7 +925,7 @@
     move-result-object v1
 
     .line 48
-    invoke-virtual {v0}, Lq7/a;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Ln1/a;->b()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -1007,7 +945,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {v0}, Lq7/a;->a()Landroid/os/Handler;
+    invoke-virtual {v0}, Ln1/a;->a()Landroid/os/Handler;
 
     .line 59
     .line 60
@@ -1136,11 +1074,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onConnectionStateChange(Landroid/bluetooth/BluetoothGatt;II)V
@@ -1241,7 +1174,7 @@
     move-result-object v0
 
     .line 53
-    invoke-static {v0}, Lu7/a;->c(Ljava/lang/String;)V
+    invoke-static {v0}, Lr1/a;->c(Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -1286,7 +1219,7 @@
 
     .line 75
     .line 76
-    invoke-virtual {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->R()Z
+    invoke-virtual {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->Q()Z
 
     .line 77
     .line 78
@@ -1394,11 +1327,11 @@
 
     .line 128
     .line 129
-    new-instance p3, Lr7/a;
+    new-instance p3, Lo1/a;
 
     .line 130
     .line 131
-    invoke-direct {p3, p2}, Lr7/a;-><init>(I)V
+    invoke-direct {p3, p2}, Lo1/a;-><init>(I)V
 
     .line 132
     .line 133
@@ -1472,11 +1405,11 @@
 
     .line 167
     .line 168
-    new-instance p1, Lr7/a;
+    new-instance p1, Lo1/a;
 
     .line 169
     .line 170
-    invoke-direct {p1, p2}, Lr7/a;-><init>(I)V
+    invoke-direct {p1, p2}, Lo1/a;-><init>(I)V
 
     .line 171
     .line 172
@@ -1493,7 +1426,7 @@
     move-result p2
 
     .line 179
-    invoke-virtual {p1, p2}, Lr7/a;->c(Z)V
+    invoke-virtual {p1, p2}, Lo1/a;->c(Z)V
 
     .line 180
     .line 181
@@ -2375,50 +2308,6 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method public onDescriptorWrite(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattDescriptor;I)V
@@ -2492,7 +2381,7 @@
     move-result-object v0
 
     .line 34
-    instance-of v1, v0, Lq7/e;
+    instance-of v1, v0, Ln1/e;
 
     .line 35
     .line 36
@@ -2500,7 +2389,7 @@
 
     .line 37
     .line 38
-    check-cast v0, Lq7/e;
+    check-cast v0, Ln1/e;
 
     .line 39
     .line 40
@@ -2528,7 +2417,7 @@
     move-result-object v1
 
     .line 52
-    invoke-virtual {v0}, Lq7/a;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Ln1/a;->b()Ljava/lang/String;
 
     .line 53
     .line 54
@@ -2548,7 +2437,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {v0}, Lq7/a;->a()Landroid/os/Handler;
+    invoke-virtual {v0}, Ln1/a;->a()Landroid/os/Handler;
 
     .line 63
     .line 64
@@ -2674,7 +2563,7 @@
     move-result-object v0
 
     .line 125
-    instance-of v1, v0, Lq7/c;
+    instance-of v1, v0, Ln1/c;
 
     .line 126
     .line 127
@@ -2682,7 +2571,7 @@
 
     .line 128
     .line 129
-    check-cast v0, Lq7/c;
+    check-cast v0, Ln1/c;
 
     .line 130
     .line 131
@@ -2710,7 +2599,7 @@
     move-result-object v1
 
     .line 143
-    invoke-virtual {v0}, Lq7/a;->b()Ljava/lang/String;
+    invoke-virtual {v0}, Ln1/a;->b()Ljava/lang/String;
 
     .line 144
     .line 145
@@ -2730,7 +2619,7 @@
 
     .line 152
     .line 153
-    invoke-virtual {v0}, Lq7/a;->a()Landroid/os/Handler;
+    invoke-virtual {v0}, Ln1/a;->a()Landroid/os/Handler;
 
     .line 154
     .line 155
@@ -3656,50 +3545,6 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method public onMtuChanged(Landroid/bluetooth/BluetoothGatt;II)V
@@ -3715,7 +3560,7 @@
 
     .line 5
     .line 6
-    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->d(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/d;
+    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->d(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/d;
 
     .line 7
     .line 8
@@ -3731,7 +3576,7 @@
 
     .line 13
     .line 14
-    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->d(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/d;
+    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->d(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/d;
 
     .line 15
     .line 16
@@ -3739,7 +3584,7 @@
     move-result-object p1
 
     .line 18
-    invoke-virtual {p1}, Lq7/a;->a()Landroid/os/Handler;
+    invoke-virtual {p1}, Ln1/a;->a()Landroid/os/Handler;
 
     .line 19
     .line 20
@@ -3771,7 +3616,7 @@
 
     .line 33
     .line 34
-    invoke-static {v1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->d(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/d;
+    invoke-static {v1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->d(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/d;
 
     .line 35
     .line 36
@@ -3908,11 +3753,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onPhyRead(Landroid/bluetooth/BluetoothGatt;III)V
@@ -3983,7 +3823,7 @@
     move-result-object p1
 
     .line 37
-    invoke-static {p1}, Lu7/a;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lr1/a;->a(Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -3992,7 +3832,7 @@
 
     .line 41
     .line 42
-    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->f(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/f;
+    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->f(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/f;
 
     .line 43
     .line 44
@@ -4008,7 +3848,7 @@
 
     .line 49
     .line 50
-    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->f(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/f;
+    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->f(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/f;
 
     .line 51
     .line 52
@@ -4016,7 +3856,7 @@
     move-result-object p1
 
     .line 54
-    invoke-virtual {p1}, Lq7/a;->a()Landroid/os/Handler;
+    invoke-virtual {p1}, Ln1/a;->a()Landroid/os/Handler;
 
     .line 55
     .line 56
@@ -4048,7 +3888,7 @@
 
     .line 69
     .line 70
-    invoke-static {v0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->f(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/f;
+    invoke-static {v0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->f(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/f;
 
     .line 71
     .line 72
@@ -4250,6 +4090,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public onPhyUpdate(Landroid/bluetooth/BluetoothGatt;III)V
@@ -4320,7 +4176,7 @@
     move-result-object p1
 
     .line 37
-    invoke-static {p1}, Lu7/a;->a(Ljava/lang/String;)V
+    invoke-static {p1}, Lr1/a;->a(Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -4329,7 +4185,7 @@
 
     .line 41
     .line 42
-    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->g(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/g;
+    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->g(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/g;
 
     .line 43
     .line 44
@@ -4345,7 +4201,7 @@
 
     .line 49
     .line 50
-    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->g(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/g;
+    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->g(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/g;
 
     .line 51
     .line 52
@@ -4353,7 +4209,7 @@
     move-result-object p1
 
     .line 54
-    invoke-virtual {p1}, Lq7/a;->a()Landroid/os/Handler;
+    invoke-virtual {p1}, Ln1/a;->a()Landroid/os/Handler;
 
     .line 55
     .line 56
@@ -4385,7 +4241,7 @@
 
     .line 69
     .line 70
-    invoke-static {v0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->g(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/g;
+    invoke-static {v0}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->g(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/g;
 
     .line 71
     .line 72
@@ -4587,6 +4443,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public onReadRemoteRssi(Landroid/bluetooth/BluetoothGatt;II)V
@@ -4602,7 +4474,7 @@
 
     .line 5
     .line 6
-    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->i(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/i;
+    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->i(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/i;
 
     .line 7
     .line 8
@@ -4618,7 +4490,7 @@
 
     .line 13
     .line 14
-    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->i(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/i;
+    invoke-static {p1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->i(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/i;
 
     .line 15
     .line 16
@@ -4626,7 +4498,7 @@
     move-result-object p1
 
     .line 18
-    invoke-virtual {p1}, Lq7/a;->a()Landroid/os/Handler;
+    invoke-virtual {p1}, Ln1/a;->a()Landroid/os/Handler;
 
     .line 19
     .line 20
@@ -4658,7 +4530,7 @@
 
     .line 33
     .line 34
-    invoke-static {v1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->i(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Lq7/i;
+    invoke-static {v1}, Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;->i(Lcom/example/sy_bluetooth_plugin/ble/bluetooth/BleBluetooth;)Ln1/i;
 
     .line 35
     .line 36
@@ -4795,11 +4667,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public onServicesDiscovered(Landroid/bluetooth/BluetoothGatt;I)V
@@ -4881,7 +4748,7 @@
     move-result-object v0
 
     .line 42
-    invoke-static {v0}, Lu7/a;->c(Ljava/lang/String;)V
+    invoke-static {v0}, Lr1/a;->c(Ljava/lang/String;)V
 
     .line 43
     .line 44
@@ -4926,11 +4793,11 @@
 
     .line 64
     .line 65
-    new-instance v0, Lr7/a;
+    new-instance v0, Lo1/a;
 
     .line 66
     .line 67
-    invoke-direct {v0, p2}, Lr7/a;-><init>(I)V
+    invoke-direct {v0, p2}, Lo1/a;-><init>(I)V
 
     .line 68
     .line 69
@@ -5232,52 +5099,4 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method

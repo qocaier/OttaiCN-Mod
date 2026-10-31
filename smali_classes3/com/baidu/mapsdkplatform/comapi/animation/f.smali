@@ -302,7 +302,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public cancelAnimation()V
@@ -345,7 +344,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAnimation(Lcom/baidu/mapapi/map/Marker;Lcom/baidu/mapapi/animation/Animation;)V
@@ -423,11 +421,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setAnimationListener(Lcom/baidu/mapapi/animation/Animation$AnimationListener;)V
@@ -460,7 +453,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAnimatorSetMode(I)V
@@ -508,7 +500,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInterpolator(Landroid/view/animation/Interpolator;)V
@@ -541,7 +532,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRepeatCount(I)V
@@ -587,7 +577,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRepeatMode(I)V
@@ -620,7 +609,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTypeEvaluator(Landroid/animation/TypeEvaluator;)V
@@ -653,7 +641,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public startAnimation()V
@@ -694,5 +681,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

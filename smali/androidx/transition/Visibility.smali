@@ -66,6 +66,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -260,6 +261,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private getVisibilityChangeInfo(Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)Landroidx/transition/Visibility$VisibilityInfo;
@@ -689,6 +691,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -959,6 +964,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getMode()I
@@ -987,6 +995,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTransitionProperties()[Ljava/lang/String;
@@ -1017,6 +1026,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isTransitionRequired(Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)Z
@@ -1257,6 +1267,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onAppear(Landroid/view/ViewGroup;Landroid/view/View;Landroidx/transition/TransitionValues;Landroidx/transition/TransitionValues;)Landroid/animation/Animator;

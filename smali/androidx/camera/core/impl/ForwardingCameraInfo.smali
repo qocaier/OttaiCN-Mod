@@ -156,6 +156,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraQuirks()Landroidx/camera/core/impl/Quirks;
@@ -190,6 +191,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraSelector()Landroidx/camera/core/CameraSelector;
@@ -224,6 +226,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraState()Landroidx/lifecycle/LiveData;
@@ -267,6 +270,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEncoderProfilesProvider()Landroidx/camera/core/impl/EncoderProfilesProvider;
@@ -301,6 +305,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExposureState()Landroidx/camera/core/ExposureState;
@@ -335,6 +340,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImplementation()Landroidx/camera/core/impl/CameraInfoInternal;
@@ -369,6 +375,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImplementationType()Ljava/lang/String;
@@ -403,6 +410,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntrinsicZoomRatio()F
@@ -435,6 +443,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLensFacing()I
@@ -467,6 +476,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSensorRotationDegrees()I
@@ -536,6 +546,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportedFrameRateRanges()Ljava/util/Set;
@@ -580,6 +591,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportedHighResolutions(I)Ljava/util/List;
@@ -710,6 +722,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTorchState()Landroidx/lifecycle/LiveData;
@@ -753,6 +766,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getZoomState()Landroidx/lifecycle/LiveData;
@@ -796,6 +810,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasFlashUnit()Z
@@ -828,6 +843,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isFocusMeteringSupported(Landroidx/camera/core/FocusMeteringAction;)Z
@@ -901,6 +917,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isZslSupported()Z
@@ -935,6 +952,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeSessionCaptureCallback(Landroidx/camera/core/impl/CameraCaptureCallback;)V

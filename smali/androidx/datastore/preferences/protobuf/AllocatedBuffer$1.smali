@@ -21,14 +21,6 @@
 # direct methods
 .method public constructor <init>(Ljava/nio/ByteBuffer;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1010
-        }
-        names = {
-            "val$buffer"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$1;->val$buffer:Ljava/nio/ByteBuffer;
@@ -94,6 +86,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public arrayOffset()I
@@ -126,6 +119,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasArray()Z
@@ -158,6 +152,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasNioBuffer()Z
@@ -198,6 +193,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public nioBuffer()Ljava/nio/ByteBuffer;
@@ -226,6 +222,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public position()I
@@ -243,14 +240,6 @@
 
 .method public position(I)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "position"
-        }
-    .end annotation
 
     .line 2
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$1;->val$buffer:Ljava/nio/ByteBuffer;
@@ -290,4 +279,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

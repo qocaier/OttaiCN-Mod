@@ -58,23 +58,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final mergeFrom(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Reader;I)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "unknownFields",
-            "reader",
-            "currentDepth"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TB;",
@@ -219,24 +207,14 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
 # virtual methods
 .method public abstract addFixed32(Ljava/lang/Object;II)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "fields",
-            "number",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TB;II)V"
@@ -245,19 +223,6 @@
 .end method
 
 .method public abstract addFixed64(Ljava/lang/Object;IJ)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "fields",
-            "number",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TB;IJ)V"
@@ -266,19 +231,6 @@
 .end method
 
 .method public abstract addGroup(Ljava/lang/Object;ILjava/lang/Object;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "fields",
-            "number",
-            "subFieldSet"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TB;ITT;)V"
@@ -287,19 +239,6 @@
 .end method
 
 .method public abstract addLengthDelimited(Ljava/lang/Object;ILandroidx/datastore/preferences/protobuf/ByteString;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "fields",
-            "number",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TB;I",
@@ -310,19 +249,6 @@
 .end method
 
 .method public abstract addVarint(Ljava/lang/Object;IJ)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "fields",
-            "number",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TB;IJ)V"
@@ -331,15 +257,6 @@
 .end method
 
 .method public abstract getBuilderFromMessage(Ljava/lang/Object;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "message"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -350,15 +267,6 @@
 .end method
 
 .method public abstract getFromMessage(Ljava/lang/Object;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "message"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -369,15 +277,6 @@
 .end method
 
 .method public abstract getSerializedSize(Ljava/lang/Object;)I
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "unknowns"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)I"
@@ -386,15 +285,6 @@
 .end method
 
 .method public abstract getSerializedSizeAsMessageSet(Ljava/lang/Object;)I
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "message"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)I"
@@ -403,28 +293,9 @@
 .end method
 
 .method public abstract makeImmutable(Ljava/lang/Object;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "message"
-        }
-    .end annotation
 .end method
 
 .method public abstract merge(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "destination",
-            "source"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;TT;)TT;"
@@ -434,19 +305,6 @@
 
 .method public final mergeOneFieldFrom(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Reader;I)Z
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "unknownFields",
-            "reader",
-            "currentDepth"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TB;",
@@ -699,6 +557,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public abstract newBuilder()Ljava/lang/Object;
@@ -710,17 +571,6 @@
 .end method
 
 .method public abstract setBuilderToMessage(Ljava/lang/Object;Ljava/lang/Object;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "message",
-            "builder"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -732,14 +582,6 @@
 
 .method public setRecursionLimit(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "limit"
-        }
-    .end annotation
 
     .line 1
     sput p1, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->recursionLimit:I
@@ -772,17 +614,6 @@
 .end method
 
 .method public abstract setToMessage(Ljava/lang/Object;Ljava/lang/Object;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "message",
-            "fields"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -793,26 +624,9 @@
 .end method
 
 .method public abstract shouldDiscardUnknownFields(Landroidx/datastore/preferences/protobuf/Reader;)Z
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "reader"
-        }
-    .end annotation
 .end method
 
 .method public abstract toImmutable(Ljava/lang/Object;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "fields"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TB;)TT;"
@@ -821,17 +635,6 @@
 .end method
 
 .method public abstract writeAsMessageSetTo(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "unknownFields",
-            "writer"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
@@ -848,17 +651,6 @@
 .end method
 
 .method public abstract writeTo(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "unknownFields",
-            "writer"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",

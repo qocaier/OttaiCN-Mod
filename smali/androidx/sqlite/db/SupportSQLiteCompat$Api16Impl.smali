@@ -19,16 +19,9 @@
     name = "Api16Impl"
 .end annotation
 
-.annotation runtime Ljl/n;
-    message = "Kept for ABI compatibility reasons due to b/402796648 even though minSdk is greater than 16."
-.end annotation
-
 
 # static fields
 .field public static final INSTANCE:Landroidx/sqlite/db/SupportSQLiteCompat$Api16Impl;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -70,21 +63,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final cancel(Landroid/os/CancellationSignal;)V
     .locals 1
-    .param p0    # Landroid/os/CancellationSignal;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
     .end annotation
 
     .line 1
@@ -92,7 +79,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -129,12 +116,6 @@
         }
     .end annotation
 
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     new-instance v0, Landroid/os/CancellationSignal;
 
@@ -160,4 +141,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

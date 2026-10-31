@@ -56,7 +56,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -233,7 +232,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDividerInsetEnd()I
@@ -266,7 +264,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDividerInsetStart()I
@@ -299,7 +296,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDividerThickness()I
@@ -330,7 +326,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -501,8 +496,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onMeasure(II)V
@@ -607,11 +600,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setDividerColor(I)V
@@ -663,7 +651,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDividerColorResource(I)V
@@ -708,7 +695,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDividerInsetEnd(I)V
@@ -745,7 +731,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDividerInsetEndResource(I)V
@@ -794,7 +779,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDividerInsetStart(I)V
@@ -831,7 +815,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDividerInsetStartResource(I)V
@@ -880,7 +863,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDividerThickness(I)V
@@ -924,7 +906,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDividerThicknessResource(I)V
@@ -973,5 +954,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

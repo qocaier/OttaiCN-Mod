@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/bumptech/glide/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "interpolator"
-.end annotation
-
-
 # static fields
 .field public static btn_checkbox_checked_mtrl_animation_interpolator_0:I = 0x7f0a0000
 

@@ -225,6 +225,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCompoundPaddingLeft(I)I
@@ -259,6 +261,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportButtonTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -287,6 +290,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public loadFromAttributes(Landroid/util/AttributeSet;I)V
@@ -696,6 +700,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onSetButtonDrawable()V
@@ -739,6 +746,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setSupportButtonTintList(Landroid/content/res/ColorStateList;)V

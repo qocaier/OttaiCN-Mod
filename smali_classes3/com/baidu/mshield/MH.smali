@@ -44,7 +44,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic access$000(Landroid/content/Context;)Z
@@ -79,7 +78,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$100(Landroid/content/Context;)V
@@ -112,7 +110,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static getVersion(Landroid/content/Context;)Ljava/lang/String;
@@ -155,7 +152,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static gzfi(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;Ljava/util/HashMap;)Ljava/lang/String;
@@ -428,11 +424,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static initAppkey(Landroid/content/Context;)Z
@@ -585,8 +576,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private static initPlugin(Landroid/content/Context;Ljava/util/HashMap;)V
@@ -673,11 +662,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static obtainBundleFromProperties(Ljava/util/HashMap;)Landroid/os/Bundle;
@@ -831,8 +815,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private static registerSDKReceiver(Landroid/content/Context;)V
@@ -893,7 +875,7 @@
     const/4 v2, 0x4
 
     .line 27
-    invoke-static {p0, v1, v0, v2}, Lf2/a;->a(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+    invoke-static {p0, v1, v0, v2}, Lanet/channel/status/e;->a(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -987,8 +969,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static setAgreePolicy(Landroid/content/Context;Z)V
@@ -1090,11 +1070,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static setAppStatus(Landroid/content/Context;Z)V
@@ -1201,11 +1176,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static ud(Landroid/content/Context;Ljava/util/HashMap;)V
@@ -1318,11 +1288,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static unInitPlugin(Landroid/content/Context;)V
@@ -1371,7 +1336,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static unregisterSDKReceiver(Landroid/content/Context;)V
@@ -1423,5 +1387,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljn/f;
+.implements Lkotlinx/coroutines/flow/d;
 
 
 # annotations
@@ -16,42 +16,16 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljn/f;"
-    }
-.end annotation
-
 
 # instance fields
-.field public final synthetic a:Lkotlinx/coroutines/channels/j;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lkotlinx/coroutines/channels/j<",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
-.end field
+.field public final synthetic a:Lkotlinx/coroutines/channels/q;
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/channels/j;)V
+.method public constructor <init>(Lkotlinx/coroutines/channels/q;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lkotlinx/coroutines/channels/j<",
-            "Ljava/lang/Object;",
-            ">;)V"
-        }
-    .end annotation
 
-    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$values$1$1;->a:Lkotlinx/coroutines/channels/j;
+    iput-object p1, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$values$1$1;->a:Lkotlinx/coroutines/channels/q;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -60,18 +34,8 @@
 
 
 # virtual methods
-.method public final emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public final emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 4
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TT;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p2, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$values$1$1$emit$1;
@@ -120,7 +84,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$values$1$1$emit$1;-><init>(Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$values$1$1;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$values$1$1$emit$1;-><init>(Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$values$1$1;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -130,7 +94,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -153,7 +117,7 @@
 
     .line 37
     .line 38
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 39
     .line 40
@@ -179,12 +143,12 @@
 
     .line 50
     :cond_2
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 51
     .line 52
     .line 53
-    iget-object p2, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$values$1$1;->a:Lkotlinx/coroutines/channels/j;
+    iget-object p2, p0, Lkotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$values$1$1;->a:Lkotlinx/coroutines/channels/q;
 
     .line 54
     .line 55
@@ -192,7 +156,7 @@
 
     .line 56
     .line 57
-    sget-object p1, Lkn/l;->a:Lmn/u0;
+    sget-object p1, Lkotlinx/coroutines/flow/internal/n;->a:Lkotlinx/coroutines/internal/b0;
 
     .line 58
     .line 59
@@ -201,7 +165,7 @@
 
     .line 60
     .line 61
-    invoke-interface {p2, p1, v0}, Lkotlinx/coroutines/channels/k;->f0(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p2, p1, v0}, Lkotlinx/coroutines/channels/s;->X(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 62
     .line 63
@@ -218,7 +182,7 @@
     .line 68
     :cond_4
     :goto_1
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 69
     .line 70
@@ -261,4 +225,20 @@
     .line 106
     .line 107
     .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method

@@ -61,6 +61,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -91,6 +93,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getKey()Ljava/lang/String;
@@ -134,6 +138,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMd5()Ljava/lang/String;
@@ -162,6 +168,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPath()Ljava/lang/String;
@@ -190,6 +198,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSize()J
@@ -218,6 +228,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStatus()Lcom/qiyukf/nimlib/sdk/nos/constant/NosTransferStatus;
@@ -246,6 +258,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTransferType()Lcom/qiyukf/nimlib/sdk/nos/model/NosTransferInfo$TransferType;
@@ -274,6 +288,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUrl()Ljava/lang/String;
@@ -302,6 +318,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setExtension(Ljava/lang/String;)V
@@ -335,6 +353,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMd5(Ljava/lang/String;)V
@@ -368,6 +388,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPath(Ljava/lang/String;)V
@@ -401,6 +423,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSize(J)V
@@ -434,6 +458,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStatus(Lcom/qiyukf/nimlib/sdk/nos/constant/NosTransferStatus;)V
@@ -467,6 +493,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTransferType(Lcom/qiyukf/nimlib/sdk/nos/model/NosTransferInfo$TransferType;)V
@@ -500,6 +528,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUrl(Ljava/lang/String;)V
@@ -533,4 +563,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

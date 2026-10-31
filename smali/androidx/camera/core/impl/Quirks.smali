@@ -209,6 +209,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public get(Ljava/lang/Class;)Landroidx/camera/core/impl/Quirk;
@@ -339,6 +340,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getAll(Ljava/lang/Class;)Ljava/util/List;
@@ -480,4 +482,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

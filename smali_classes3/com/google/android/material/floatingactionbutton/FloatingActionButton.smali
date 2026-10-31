@@ -127,7 +127,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -518,7 +517,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$101(Lcom/google/android/material/floatingactionbutton/FloatingActionButton;Landroid/graphics/drawable/Drawable;)V
@@ -587,11 +585,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private createImpl()Lcom/google/android/material/floatingactionbutton/FloatingActionButtonImpl;
@@ -630,7 +623,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getImpl()Lcom/google/android/material/floatingactionbutton/FloatingActionButtonImpl;
@@ -672,7 +664,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getSizeDimension(I)I
@@ -804,7 +795,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private offsetRectWithShadow(Landroid/graphics/Rect;)V
@@ -940,8 +930,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private onApplySupportImageTint()V
@@ -1093,15 +1081,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private wrapOnVisibilityChangedListener(Lcom/google/android/material/floatingactionbutton/FloatingActionButton$OnVisibilityChangedListener;)Lcom/google/android/material/floatingactionbutton/FloatingActionButtonImpl$InternalVisibilityChangedListener;
@@ -1149,7 +1128,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -1192,7 +1170,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addOnShowAnimationListener(Landroid/animation/Animator$AnimatorListener;)V
@@ -1233,7 +1210,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addTransformationCallback(Lcom/google/android/material/animation/TransformationCallback;)V
@@ -1287,7 +1263,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public clearCustomSize()V
@@ -1320,7 +1295,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public drawableStateChanged()V
@@ -1361,7 +1335,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBackgroundTintList()Landroid/content/res/ColorStateList;
@@ -1394,7 +1367,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -1427,7 +1399,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBehavior()Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;
@@ -1471,7 +1442,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCompatElevation()F
@@ -1508,7 +1478,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCompatHoveredFocusedTranslationZ()F
@@ -1545,7 +1514,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCompatPressedTranslationZ()F
@@ -1582,7 +1550,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContentBackground()Landroid/graphics/drawable/Drawable;
@@ -1621,7 +1588,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContentRect(Landroid/graphics/Rect;)Z
@@ -1683,7 +1649,6 @@
     .line 24
     :cond_0
     return v1
-    .line 25
 .end method
 
 .method public getCustomSize()I
@@ -1716,7 +1681,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedComponentIdHint()I
@@ -1751,7 +1715,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHideMotionSpec()Lcom/google/android/material/animation/MotionSpec;
@@ -1790,7 +1753,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMeasuredContentRect(Landroid/graphics/Rect;)V
@@ -1839,7 +1801,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getRippleColor()I
@@ -1886,7 +1847,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRippleColorStateList()Landroid/content/res/ColorStateList;
@@ -1919,7 +1879,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShapeAppearanceModel()Lcom/google/android/material/shape/ShapeAppearanceModel;
@@ -1964,7 +1923,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShowMotionSpec()Lcom/google/android/material/animation/MotionSpec;
@@ -2003,7 +1961,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSize()I
@@ -2034,7 +1991,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSizeDimension()I
@@ -2082,7 +2038,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSupportBackgroundTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -2117,7 +2072,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSupportImageTintList()Landroid/content/res/ColorStateList;
@@ -2150,7 +2104,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSupportImageTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -2183,7 +2136,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getUseCompatPadding()Z
@@ -2214,7 +2166,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hide()V
@@ -2296,7 +2247,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isOrWillBeHidden()Z
@@ -2333,7 +2283,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isOrWillBeShown()Z
@@ -2370,7 +2319,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public jumpDrawablesToCurrentState()V
@@ -2407,7 +2355,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAttachedToWindow()V
@@ -2444,7 +2391,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDetachedFromWindow()V
@@ -2481,7 +2427,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onMeasure(II)V
@@ -2598,11 +2543,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -2737,8 +2677,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -2872,15 +2810,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -3021,8 +2950,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public removeOnHideAnimationListener(Landroid/animation/Animator$AnimatorListener;)V
@@ -3063,7 +2990,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeOnShowAnimationListener(Landroid/animation/Animator$AnimatorListener;)V
@@ -3104,7 +3030,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeTransformationCallback(Lcom/google/android/material/animation/TransformationCallback;)V
@@ -3158,7 +3083,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundColor(I)V
@@ -3195,7 +3119,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -3232,7 +3155,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundResource(I)V
@@ -3269,7 +3191,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundTintList(Landroid/content/res/ColorStateList;)V
@@ -3317,7 +3238,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -3365,7 +3285,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCompatElevation(F)V
@@ -3402,7 +3321,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCompatElevationResource(I)V
@@ -3447,7 +3365,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCompatHoveredFocusedTranslationZ(F)V
@@ -3484,7 +3401,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCompatHoveredFocusedTranslationZResource(I)V
@@ -3529,7 +3445,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCompatPressedTranslationZ(F)V
@@ -3566,7 +3481,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCompatPressedTranslationZResource(I)V
@@ -3611,7 +3525,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCustomSize(I)V
@@ -3666,7 +3579,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setElevation(F)V
@@ -3708,7 +3620,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEnsureMinTouchTargetSize(Z)V
@@ -3758,7 +3669,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpanded(Z)Z
@@ -3795,7 +3705,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedComponentIdHint(I)V
@@ -3834,7 +3743,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHideMotionSpec(Lcom/google/android/material/animation/MotionSpec;)V
@@ -3875,7 +3783,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHideMotionSpecResource(I)V
@@ -3920,7 +3827,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setImageDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -3976,7 +3882,6 @@
     .line 24
     :cond_0
     return-void
-    .line 25
 .end method
 
 .method public setImageResource(I)V
@@ -4017,7 +3922,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMaxImageSize(I)V
@@ -4056,7 +3960,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRippleColor(I)V
@@ -4140,7 +4043,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScaleY(F)V
@@ -4179,7 +4081,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShadowPaddingEnabled(Z)V
@@ -4224,7 +4125,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShapeAppearanceModel(Lcom/google/android/material/shape/ShapeAppearanceModel;)V
@@ -4265,7 +4165,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShowMotionSpec(Lcom/google/android/material/animation/MotionSpec;)V
@@ -4306,7 +4205,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShowMotionSpecResource(I)V
@@ -4351,7 +4249,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSize(I)V
@@ -4395,7 +4292,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSupportBackgroundTintList(Landroid/content/res/ColorStateList;)V
@@ -4432,7 +4328,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSupportBackgroundTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -4469,7 +4364,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSupportImageTintList(Landroid/content/res/ColorStateList;)V
@@ -4513,7 +4407,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSupportImageTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -4557,7 +4450,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTranslationX(F)V
@@ -4596,7 +4488,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTranslationY(F)V
@@ -4635,7 +4526,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTranslationZ(F)V
@@ -4674,7 +4564,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUseCompatPadding(Z)V
@@ -4718,7 +4607,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVisibility(I)V
@@ -4751,7 +4639,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public shouldEnsureMinTouchTargetSize()Z
@@ -4788,7 +4675,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public show()V

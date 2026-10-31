@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -191,6 +193,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public d()Ljava/lang/String;
@@ -219,6 +223,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public e()Z
@@ -268,6 +274,8 @@
 
     .line 20
     return v0
+    .line 21
+    .line 22
 .end method
 
 .method public f()Lcom/meizu/cloud/pushsdk/platform/message/UnRegisterStatus;
@@ -399,4 +407,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

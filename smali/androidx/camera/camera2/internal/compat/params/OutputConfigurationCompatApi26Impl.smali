@@ -131,6 +131,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getMutableSurfaceListApi26(Landroid/hardware/camera2/params/OutputConfiguration;)Ljava/util/List;
@@ -328,6 +329,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDynamicRangeProfile()J
@@ -360,6 +362,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxSharedSurfaceCount()I
@@ -415,6 +418,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public getOutputConfiguration()Ljava/lang/Object;
@@ -455,6 +459,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPhysicalCameraId()Ljava/lang/String;
@@ -489,6 +494,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurfaces()Ljava/util/List;
@@ -536,6 +542,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isSurfaceSharingEnabled()Z
@@ -568,6 +575,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeSurface(Landroid/view/Surface;)V
@@ -718,6 +726,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setDynamicRangeProfile(J)V

@@ -189,69 +189,6 @@
     .line 20
     .line 21
     return-void
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -796,6 +733,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private applyThumbTint()V
@@ -946,6 +884,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private applyTrackTint()V
@@ -1096,6 +1036,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private cancelPositionAnimator()V
@@ -1129,6 +1071,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private cancelSuperTouch(Landroid/view/MotionEvent;)V
@@ -1287,6 +1230,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getTargetCheckedState()Z
@@ -1328,6 +1272,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getThumbOffset()I
@@ -1450,6 +1395,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private getThumbScrollRange()I
@@ -1589,6 +1536,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private hitThumb(FF)Z
@@ -1908,6 +1857,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private makeLayout(Ljava/lang/CharSequence;)Landroid/text/Layout;
@@ -2033,6 +1985,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private setOffStateDescriptionOnRAndAbove()V
@@ -2147,6 +2100,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private setOnStateDescriptionOnRAndAbove()V
@@ -2261,6 +2216,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private setSwitchTypefaceByIndex(II)V
@@ -2583,6 +2540,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private stopDrag(Landroid/view/MotionEvent;)V
@@ -2929,6 +2888,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
@@ -3315,6 +3279,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public drawableHotspotChanged(FF)V
@@ -3523,6 +3492,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCompoundPaddingLeft()I
@@ -3649,6 +3620,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCompoundPaddingRight()I
@@ -3775,6 +3748,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCustomSelectionActionModeCallback()Landroid/view/ActionMode$Callback;
@@ -3811,6 +3786,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getShowText()Z
@@ -3839,6 +3815,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSplitTrack()Z
@@ -3867,6 +3844,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSwitchMinWidth()I
@@ -3895,6 +3873,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSwitchPadding()I
@@ -3923,6 +3902,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextOff()Ljava/lang/CharSequence;
@@ -3951,6 +3931,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextOn()Ljava/lang/CharSequence;
@@ -3979,6 +3960,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getThumbDrawable()Landroid/graphics/drawable/Drawable;
@@ -4007,6 +3989,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getThumbPosition()F
@@ -4039,6 +4022,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getThumbTextPadding()I
@@ -4067,6 +4051,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getThumbTintList()Landroid/content/res/ColorStateList;
@@ -4097,6 +4082,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getThumbTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -4127,6 +4113,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTrackDrawable()Landroid/graphics/drawable/Drawable;
@@ -4155,6 +4142,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTrackTintList()Landroid/content/res/ColorStateList;
@@ -4185,6 +4173,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTrackTintMode()Landroid/graphics/PorterDuff$Mode;
@@ -4215,6 +4204,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEmojiCompatEnabled()Z
@@ -4249,6 +4239,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public jumpDrawablesToCurrentState()V
@@ -4374,6 +4365,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onCreateDrawableState(I)[I
@@ -4846,6 +4839,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public onEmojiCompatInitializedForSwitchText()V
@@ -4882,6 +4880,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
@@ -5065,6 +5064,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onLayout(ZIIII)V
@@ -6207,6 +6207,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
@@ -6721,6 +6724,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setAllCaps(Z)V
@@ -6891,6 +6899,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setCustomSelectionActionModeCallback(Landroid/view/ActionMode$Callback;)V
@@ -7554,6 +7563,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setSwitchTypeface(Landroid/graphics/Typeface;)V
@@ -8238,6 +8250,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public verifyDrawable(Landroid/graphics/drawable/Drawable;)Z

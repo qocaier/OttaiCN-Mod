@@ -3,8 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/q;
-.implements Lxl/l;
+.implements Lq8/q;
 
 
 # annotations
@@ -20,19 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/q<",
-        "Ljn/f<",
-        "-",
-        "Ljava/lang/Object;",
-        ">;",
-        "Ljava/lang/Object;",
-        "Lul/c<",
-        "-",
-        "Ljl/e2;",
-        ">;",
-        "Ljava/lang/Object;",
-        ">;",
-        "Lxl/l;"
+        "Lq8/q;"
     }
 .end annotation
 
@@ -63,7 +50,7 @@
 
     const/4 v1, 0x3
 
-    const-class v2, Ljn/f;
+    const-class v2, Lkotlinx/coroutines/flow/d;
 
     const-string v3, "emit"
 
@@ -80,36 +67,32 @@
     .locals 0
 
     .line 1
-    check-cast p1, Ljn/f;
+    check-cast p1, Lkotlinx/coroutines/flow/d;
 
-    check-cast p3, Lul/c;
+    check-cast p3, Lkotlin/coroutines/e;
 
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/flow/internal/SafeCollectorKt$emitFun$1;->invoke(Ljn/f;Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/flow/internal/SafeCollectorKt$emitFun$1;->invoke(Lkotlinx/coroutines/flow/d;Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Ljn/f;Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public final invoke(Lkotlinx/coroutines/flow/d;Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljn/f<",
+            "Lkotlinx/coroutines/flow/d;",
             "Ljava/lang/Object;",
-            ">;",
-            "Ljava/lang/Object;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
     .line 2
-    invoke-interface {p1, p2, p3}, Ljn/f;->emit(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p1, p2, p3}, Lkotlinx/coroutines/flow/d;->emit(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 

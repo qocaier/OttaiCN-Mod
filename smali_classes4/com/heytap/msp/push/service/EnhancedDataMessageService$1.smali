@@ -1,5 +1,5 @@
 .class Lcom/heytap/msp/push/service/EnhancedDataMessageService$1;
-.super Lrf/a$b;
+.super Lcom/mcs/aidl/a$a;
 .source "SourceFile"
 
 
@@ -24,7 +24,7 @@
 
     iput-object p1, p0, Lcom/heytap/msp/push/service/EnhancedDataMessageService$1;->a:Lcom/heytap/msp/push/service/EnhancedDataMessageService;
 
-    invoke-direct {p0}, Lrf/a$b;-><init>()V
+    invoke-direct {p0}, Lcom/mcs/aidl/a$a;-><init>()V
 
     return-void
 .end method

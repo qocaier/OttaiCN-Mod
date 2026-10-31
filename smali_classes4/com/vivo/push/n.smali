@@ -186,6 +186,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private a(Lcom/vivo/push/IPushActionListener;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lcom/vivo/push/n$a;
@@ -1109,6 +1110,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -1187,7 +1189,7 @@
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    const-string v0, "\u4efb\u52a1\u7a7a\uff01"
+    const-string/jumbo v0, "\u4efb\u52a1\u7a7a\uff01"
 
     invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1618,7 +1620,7 @@
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    const-string p1, "\u4efb\u52a1\u7a7a\uff01"
+    const-string/jumbo p1, "\u4efb\u52a1\u7a7a\uff01"
 
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2842,6 +2844,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public final e()V
@@ -2882,6 +2885,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final f()Z
@@ -2910,6 +2915,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final g()Z
@@ -2938,6 +2945,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final h()Landroid/content/Context;
@@ -2966,6 +2975,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final i()Ljava/lang/String;
@@ -2994,6 +3005,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final j()I
@@ -3022,6 +3035,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final k()Z
@@ -3050,6 +3065,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final l()J
@@ -3170,4 +3187,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

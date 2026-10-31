@@ -8,14 +8,6 @@
 
 # virtual methods
 .method public abstract getValues(I)Landroidx/datastore/preferences/protobuf/Value;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getValuesCount()I

@@ -133,6 +133,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static findFirstKeyLessThan(Landroid/util/SparseIntArray;I)I
@@ -747,6 +749,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getSpanIndex(II)I
@@ -1062,6 +1067,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public abstract getSpanSize(I)I
@@ -1095,6 +1103,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invalidateSpanIndexCache()V
@@ -1125,6 +1134,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSpanGroupIndexCacheEnabled()Z
@@ -1153,6 +1163,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSpanIndexCacheEnabled()Z
@@ -1181,6 +1192,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setSpanGroupIndexCacheEnabled(Z)V

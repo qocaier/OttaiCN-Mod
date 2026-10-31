@@ -46,6 +46,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public constructor <init>()V
@@ -88,6 +90,8 @@
     return-void
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private synthetic a(Lcom/qiyukf/nimlib/net/trace/TraceRoute$a;)V
@@ -160,9 +164,9 @@
     .line 4
     new-instance p2, Ljava/lang/Thread;
 
-    new-instance v0, Ldh/c;
+    new-instance v0, Lcom/qiyukf/nimlib/net/trace/d;
 
-    invoke-direct {v0, p0, p1}, Ldh/c;-><init>(Lcom/qiyukf/nimlib/net/trace/TraceRoute;[Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1}, Lcom/qiyukf/nimlib/net/trace/d;-><init>(Lcom/qiyukf/nimlib/net/trace/TraceRoute;[Ljava/lang/String;)V
 
     const-string p1, "trace_route_thread"
 
@@ -249,6 +253,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public varargs declared-synchronized b([Ljava/lang/String;)Lcom/qiyukf/nimlib/net/trace/TraceRoute$a;
@@ -293,9 +299,9 @@
     .line 8
     iget-object p1, p0, Lcom/qiyukf/nimlib/net/trace/TraceRoute;->b:Landroid/os/Handler;
 
-    new-instance v1, Ldh/a;
+    new-instance v1, Lcom/qiyukf/nimlib/net/trace/b;
 
-    invoke-direct {v1, p0, v0}, Ldh/a;-><init>(Lcom/qiyukf/nimlib/net/trace/TraceRoute;Lcom/qiyukf/nimlib/net/trace/TraceRoute$a;)V
+    invoke-direct {v1, p0, v0}, Lcom/qiyukf/nimlib/net/trace/b;-><init>(Lcom/qiyukf/nimlib/net/trace/TraceRoute;Lcom/qiyukf/nimlib/net/trace/TraceRoute$a;)V
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -315,9 +321,9 @@
     .line 10
     iget-object p1, p0, Lcom/qiyukf/nimlib/net/trace/TraceRoute;->b:Landroid/os/Handler;
 
-    new-instance v1, Ldh/b;
+    new-instance v1, Lcom/qiyukf/nimlib/net/trace/c;
 
-    invoke-direct {v1, p0, v0}, Ldh/b;-><init>(Lcom/qiyukf/nimlib/net/trace/TraceRoute;Lcom/qiyukf/nimlib/net/trace/TraceRoute$a;)V
+    invoke-direct {v1, p0, v0}, Lcom/qiyukf/nimlib/net/trace/c;-><init>(Lcom/qiyukf/nimlib/net/trace/TraceRoute;Lcom/qiyukf/nimlib/net/trace/TraceRoute$a;)V
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
     :try_end_0
@@ -365,6 +371,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public native execute([Ljava/lang/Object;)I

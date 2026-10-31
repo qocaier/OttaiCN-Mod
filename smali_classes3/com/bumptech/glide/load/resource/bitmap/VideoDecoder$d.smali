@@ -7,10 +7,6 @@
 
 
 # annotations
-.annotation build Landroidx/annotation/RequiresApi;
-    value = 0x17
-.end annotation
-
 .annotation system Ldalvik/annotation/EnclosingClass;
     value = Lcom/bumptech/glide/load/resource/bitmap/VideoDecoder;
 .end annotation
@@ -18,15 +14,6 @@
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x19
     name = "d"
-.end annotation
-
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/bumptech/glide/load/resource/bitmap/VideoDecoder$e<",
-        "Ljava/nio/ByteBuffer;",
-        ">;"
-    }
 .end annotation
 
 
@@ -59,18 +46,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public bridge synthetic a(Landroid/media/MediaExtractor;Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     check-cast p2, Ljava/nio/ByteBuffer;
@@ -137,11 +118,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public bridge synthetic b(Landroid/media/MediaMetadataRetriever;Ljava/lang/Object;)V
@@ -212,11 +188,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public final c(Ljava/nio/ByteBuffer;)Landroid/media/MediaDataSource;
@@ -251,16 +222,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public d(Landroid/media/MediaExtractor;Ljava/nio/ByteBuffer;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p2}, Lcom/bumptech/glide/load/resource/bitmap/VideoDecoder$d;->c(Ljava/nio/ByteBuffer;)Landroid/media/MediaDataSource;
@@ -329,11 +294,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public e(Landroid/media/MediaMetadataRetriever;Ljava/nio/ByteBuffer;)V
@@ -406,9 +366,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

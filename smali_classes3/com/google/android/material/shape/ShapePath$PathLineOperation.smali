@@ -49,7 +49,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/shape/ShapePath$PathLineOperation;)F
@@ -82,7 +81,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$002(Lcom/google/android/material/shape/ShapePath$PathLineOperation;F)F
@@ -151,11 +149,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/shape/ShapePath$PathLineOperation;)F
@@ -188,7 +181,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$102(Lcom/google/android/material/shape/ShapePath$PathLineOperation;F)F
@@ -257,11 +249,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -352,9 +339,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

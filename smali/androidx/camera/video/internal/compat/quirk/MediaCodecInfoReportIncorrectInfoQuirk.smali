@@ -145,6 +145,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>()V
@@ -173,6 +175,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getExtraSupportedSizes()Ljava/util/Set;
@@ -297,6 +300,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static isFHDProblematicDevice()Z
@@ -337,6 +342,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static isHuaweiMate9()Z
@@ -454,6 +460,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static isMotoC()Z
@@ -571,6 +579,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static isNokia1()Z
@@ -688,6 +698,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static isPositivoTwist2Pro()Z
@@ -805,6 +817,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static isRedmiNote8Pro()Z
@@ -922,6 +936,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static isX230()Z
@@ -1039,6 +1055,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static isX650()Z
@@ -1156,6 +1174,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static load()Z
@@ -1305,6 +1325,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -1667,4 +1689,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

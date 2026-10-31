@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static determineVersionMadeBy(Lcom/qiyukf/module/zip4j/model/ZipParameters;Lcom/qiyukf/module/zip4j/util/RawIO;)I
@@ -139,6 +141,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static determineVersionNeededToExtract(Lcom/qiyukf/module/zip4j/model/ZipParameters;)Lcom/qiyukf/module/zip4j/headers/VersionNeededToExtract;
@@ -278,4 +290,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

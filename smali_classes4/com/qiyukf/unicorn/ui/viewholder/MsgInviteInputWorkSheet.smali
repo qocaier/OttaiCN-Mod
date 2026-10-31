@@ -36,6 +36,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/unicorn/ui/viewholder/MsgInviteInputWorkSheet;)Lcom/qiyukf/unicorn/protocol/attach/bot/notification/WorkSheetTemplate;
@@ -69,6 +71,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$100(Lcom/qiyukf/unicorn/ui/viewholder/MsgInviteInputWorkSheet;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -102,6 +106,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$200(Lcom/qiyukf/unicorn/ui/viewholder/MsgInviteInputWorkSheet;)Lcom/qiyukf/unicorn/protocol/attach/bot/notification/InviteInputWrokSheetAttachment;
@@ -135,6 +141,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$300(Lcom/qiyukf/unicorn/ui/viewholder/MsgInviteInputWorkSheet;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -168,6 +176,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private initHolderUi()V
@@ -323,6 +333,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private isInSessionAndSameSessionId()Z
@@ -470,6 +481,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -582,6 +594,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public onEventClick(Landroid/view/View;)V
@@ -622,6 +635,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public openWorkSheetDialog()V
@@ -760,4 +775,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

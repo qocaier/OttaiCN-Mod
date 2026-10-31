@@ -92,6 +92,7 @@
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(ILjava/util/concurrent/Executor;Landroidx/camera/camera2/internal/Camera2CameraControlImpl;ZLandroidx/camera/camera2/internal/compat/workaround/OverrideAeModeForStillCapture;)V
@@ -663,7 +664,7 @@
     .line 523
 .end method
 
-.method public static synthetic a(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;ILandroid/hardware/camera2/TotalCaptureResult;)Lub/u0;
+.method public static synthetic a(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;ILandroid/hardware/camera2/TotalCaptureResult;)Lcom/google/common/util/concurrent/t;
     .locals 2
 
     .line 1
@@ -698,7 +699,7 @@
 
     .line 16
     .line 17
-    invoke-interface {p0, p2}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$PipelineTask;->preCapture(Landroid/hardware/camera2/TotalCaptureResult;)Lub/u0;
+    invoke-interface {p0, p2}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$PipelineTask;->preCapture(Landroid/hardware/camera2/TotalCaptureResult;)Lcom/google/common/util/concurrent/t;
 
     .line 18
     .line 19
@@ -799,6 +800,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private applyAeModeQuirk(Landroidx/camera/core/impl/CaptureConfig$Builder;)V
@@ -971,7 +975,7 @@
     .line 48
 .end method
 
-.method public static synthetic b(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;Ljava/lang/Boolean;)Lub/u0;
+.method public static synthetic b(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;Ljava/lang/Boolean;)Lcom/google/common/util/concurrent/t;
     .locals 2
 
     .line 1
@@ -1004,16 +1008,16 @@
 
     .line 15
     .line 16
-    new-instance p1, Landroidx/camera/camera2/internal/c0;
+    new-instance p1, Landroidx/camera/camera2/internal/q0;
 
     .line 17
     .line 18
-    invoke-direct {p1}, Landroidx/camera/camera2/internal/c0;-><init>()V
+    invoke-direct {p1}, Landroidx/camera/camera2/internal/q0;-><init>()V
 
     .line 19
     .line 20
     .line 21
-    invoke-static {v0, v1, p0, p1}, Landroidx/camera/camera2/internal/Camera2CapturePipeline;->waitForResult(JLandroidx/camera/camera2/internal/Camera2CameraControlImpl;Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener$Checker;)Lub/u0;
+    invoke-static {v0, v1, p0, p1}, Landroidx/camera/camera2/internal/Camera2CapturePipeline;->waitForResult(JLandroidx/camera/camera2/internal/Camera2CameraControlImpl;Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener$Checker;)Lcom/google/common/util/concurrent/t;
 
     .line 22
     .line 23
@@ -1028,7 +1032,7 @@
     const/4 p0, 0x0
 
     .line 27
-    invoke-static {p0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {p0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 28
     .line 29
@@ -1056,11 +1060,11 @@
     .line 48
 .end method
 
-.method public static synthetic c(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;Ljava/util/List;ILandroid/hardware/camera2/TotalCaptureResult;)Lub/u0;
+.method public static synthetic c(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;Ljava/util/List;ILandroid/hardware/camera2/TotalCaptureResult;)Lcom/google/common/util/concurrent/t;
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;->submitConfigsInternal(Ljava/util/List;I)Lub/u0;
+    invoke-virtual {p0, p1, p2}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;->submitConfigsInternal(Ljava/util/List;I)Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -1294,6 +1298,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic d(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;Landroidx/camera/core/impl/CaptureConfig$Builder;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -1423,6 +1433,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic e(Landroid/hardware/camera2/TotalCaptureResult;)Z
@@ -1536,7 +1549,7 @@
     .line 25
 .end method
 
-.method public executeCapture(Ljava/util/List;I)Lub/u0;
+.method public executeCapture(Ljava/util/List;I)Lcom/google/common/util/concurrent/t;
     .locals 4
     .param p1    # Ljava/util/List;
         .annotation build Landroidx/annotation/NonNull;
@@ -1551,10 +1564,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/CaptureConfig;",
             ">;I)",
-            "Lub/u0<",
-            "Ljava/util/List<",
-            "Ljava/lang/Void;",
-            ">;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1562,7 +1572,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 3
     .line 4
@@ -1610,7 +1620,7 @@
 
     .line 25
     .line 26
-    invoke-static {v1, v2, v3, v0}, Landroidx/camera/camera2/internal/Camera2CapturePipeline;->waitForResult(JLandroidx/camera/camera2/internal/Camera2CameraControlImpl;Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener$Checker;)Lub/u0;
+    invoke-static {v1, v2, v3, v0}, Landroidx/camera/camera2/internal/Camera2CapturePipeline;->waitForResult(JLandroidx/camera/camera2/internal/Camera2CameraControlImpl;Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener$Checker;)Lcom/google/common/util/concurrent/t;
 
     .line 27
     .line 28
@@ -1622,7 +1632,7 @@
 
     .line 31
     :cond_0
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 32
     .line 33
@@ -1631,7 +1641,7 @@
 
     .line 35
     :goto_0
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/FutureChain;->from(Lub/u0;)Landroidx/camera/core/impl/utils/futures/FutureChain;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/FutureChain;->from(Lcom/google/common/util/concurrent/t;)Landroidx/camera/core/impl/utils/futures/FutureChain;
 
     .line 36
     .line 37
@@ -1639,11 +1649,11 @@
     move-result-object v0
 
     .line 39
-    new-instance v1, Landroidx/camera/camera2/internal/e0;
+    new-instance v1, Landroidx/camera/camera2/internal/s0;
 
     .line 40
     .line 41
-    invoke-direct {v1, p0, p2}, Landroidx/camera/camera2/internal/e0;-><init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;I)V
+    invoke-direct {v1, p0, p2}, Landroidx/camera/camera2/internal/s0;-><init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;I)V
 
     .line 42
     .line 43
@@ -1660,11 +1670,11 @@
     move-result-object v0
 
     .line 50
-    new-instance v1, Landroidx/camera/camera2/internal/f0;
+    new-instance v1, Landroidx/camera/camera2/internal/t0;
 
     .line 51
     .line 52
-    invoke-direct {v1, p0}, Landroidx/camera/camera2/internal/f0;-><init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;)V
+    invoke-direct {v1, p0}, Landroidx/camera/camera2/internal/t0;-><init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;)V
 
     .line 53
     .line 54
@@ -1682,7 +1692,7 @@
 
     .line 61
     :cond_1
-    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/FutureChain;->from(Lub/u0;)Landroidx/camera/core/impl/utils/futures/FutureChain;
+    invoke-static {v1}, Landroidx/camera/core/impl/utils/futures/FutureChain;->from(Lcom/google/common/util/concurrent/t;)Landroidx/camera/core/impl/utils/futures/FutureChain;
 
     .line 62
     .line 63
@@ -1690,11 +1700,11 @@
     move-result-object v0
 
     .line 65
-    new-instance v1, Landroidx/camera/camera2/internal/g0;
+    new-instance v1, Landroidx/camera/camera2/internal/u0;
 
     .line 66
     .line 67
-    invoke-direct {v1, p0, p1, p2}, Landroidx/camera/camera2/internal/g0;-><init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;Ljava/util/List;I)V
+    invoke-direct {v1, p0, p1, p2}, Landroidx/camera/camera2/internal/u0;-><init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;Ljava/util/List;I)V
 
     .line 68
     .line 69
@@ -1720,11 +1730,11 @@
     .line 79
     .line 80
     .line 81
-    new-instance v0, Landroidx/camera/camera2/internal/h0;
+    new-instance v0, Landroidx/camera/camera2/internal/v0;
 
     .line 82
     .line 83
-    invoke-direct {v0, p2}, Landroidx/camera/camera2/internal/h0;-><init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$PipelineTask;)V
+    invoke-direct {v0, p2}, Landroidx/camera/camera2/internal/v0;-><init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$PipelineTask;)V
 
     .line 84
     .line 85
@@ -1733,7 +1743,7 @@
 
     .line 87
     .line 88
-    invoke-interface {p1, v0, p2}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {p1, v0, p2}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 89
     .line 90
@@ -1881,9 +1891,12 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public submitConfigsInternal(Ljava/util/List;I)Lub/u0;
+.method public submitConfigsInternal(Ljava/util/List;I)Lcom/google/common/util/concurrent/t;
     .locals 6
     .param p1    # Ljava/util/List;
         .annotation build Landroidx/annotation/NonNull;
@@ -1898,10 +1911,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/CaptureConfig;",
             ">;I)",
-            "Lub/u0<",
-            "Ljava/util/List<",
-            "Ljava/lang/Void;",
-            ">;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -2141,16 +2151,16 @@
     .line 115
     .line 116
     :cond_2
-    new-instance v2, Landroidx/camera/camera2/internal/d0;
+    new-instance v2, Landroidx/camera/camera2/internal/r0;
 
     .line 117
     .line 118
-    invoke-direct {v2, p0, v3}, Landroidx/camera/camera2/internal/d0;-><init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;Landroidx/camera/core/impl/CaptureConfig$Builder;)V
+    invoke-direct {v2, p0, v3}, Landroidx/camera/camera2/internal/r0;-><init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;Landroidx/camera/core/impl/CaptureConfig$Builder;)V
 
     .line 119
     .line 120
     .line 121
-    invoke-static {v2}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v2}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 122
     .line 123
@@ -2189,7 +2199,7 @@
     .line 139
     .line 140
     .line 141
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->allAsList(Ljava/util/Collection;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->allAsList(Ljava/util/Collection;)Lcom/google/common/util/concurrent/t;
 
     .line 142
     .line 143
@@ -2286,4 +2296,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

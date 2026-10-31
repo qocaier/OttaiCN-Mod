@@ -5,25 +5,18 @@
 
 # instance fields
 .field private final fileOutputStream:Ljava/io/FileOutputStream;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/io/FileOutputStream;)V
     .locals 1
-    .param p1    # Ljava/io/FileOutputStream;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "fileOutputStream"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -90,12 +83,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getFileOutputStream()Ljava/io/FileOutputStream;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/core/UncloseableOutputStream;->fileOutputStream:Ljava/io/FileOutputStream;
@@ -120,6 +112,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public write(I)V
@@ -135,14 +128,10 @@
 
 .method public write([B)V
     .locals 1
-    .param p1    # [B
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "b"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object v0, p0, Landroidx/datastore/core/UncloseableOutputStream;->fileOutputStream:Ljava/io/FileOutputStream;
@@ -154,14 +143,10 @@
 
 .method public write([BII)V
     .locals 1
-    .param p1    # [B
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "bytes"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     iget-object v0, p0, Landroidx/datastore/core/UncloseableOutputStream;->fileOutputStream:Ljava/io/FileOutputStream;

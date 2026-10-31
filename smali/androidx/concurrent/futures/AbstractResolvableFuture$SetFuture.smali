@@ -28,11 +28,10 @@
 
 
 # instance fields
-.field final future:Lub/u0;
+.field final future:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "+TV;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -48,15 +47,15 @@
 
 
 # direct methods
-.method public constructor <init>(Landroidx/concurrent/futures/AbstractResolvableFuture;Lub/u0;)V
+.method public constructor <init>(Landroidx/concurrent/futures/AbstractResolvableFuture;Lcom/google/common/util/concurrent/t;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/concurrent/futures/AbstractResolvableFuture<",
             "TV;>;",
-            "Lub/u0<",
-            "+TV;>;)V"
+            "Lcom/google/common/util/concurrent/t;",
+            ")V"
         }
     .end annotation
 
@@ -70,7 +69,7 @@
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$SetFuture;->future:Lub/u0;
+    iput-object p2, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$SetFuture;->future:Lcom/google/common/util/concurrent/t;
 
     .line 7
     .line 8
@@ -139,11 +138,11 @@
 
     .line 8
     :cond_0
-    iget-object v0, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$SetFuture;->future:Lub/u0;
+    iget-object v0, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$SetFuture;->future:Lcom/google/common/util/concurrent/t;
 
     .line 9
     .line 10
-    invoke-static {v0}, Landroidx/concurrent/futures/AbstractResolvableFuture;->getFutureValue(Lub/u0;)Ljava/lang/Object;
+    invoke-static {v0}, Landroidx/concurrent/futures/AbstractResolvableFuture;->getFutureValue(Lcom/google/common/util/concurrent/t;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -238,4 +237,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

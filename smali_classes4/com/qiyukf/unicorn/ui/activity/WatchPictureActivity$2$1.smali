@@ -55,6 +55,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -214,51 +216,51 @@
     .line 77
     .line 78
     .line 79
-    const-string v1, "\uff09"
+    const-string/jumbo v1, "\uff09"
 
     .line 80
     .line 81
+    .line 82
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 82
     .line 83
     .line 84
+    .line 85
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 85
     .line 86
     .line 87
+    .line 88
     move-result-object v0
 
-    .line 88
+    .line 89
     invoke-virtual {p1, v0}, Lcom/qiyukf/uikit/common/activity/BaseFragmentActivity;->setTitle(Ljava/lang/CharSequence;)V
 
-    .line 89
     .line 90
     .line 91
+    .line 92
     iget-object p1, p0, Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity$2$1;->this$1:Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity$2;
 
-    .line 92
     .line 93
+    .line 94
     iget-object p1, p1, Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity$2;->this$0:Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;
 
-    .line 94
     .line 95
+    .line 96
     invoke-static {p1}, Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;->access$200(Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity;)Lcom/qiyukf/unicorn/ui/activity/WatchPictureActivity$ImagePagerAdapter;
 
-    .line 96
     .line 97
     .line 98
+    .line 99
     move-result-object p1
 
-    .line 99
+    .line 100
     invoke-virtual {p1}, Landroidx/viewpager/widget/PagerAdapter;->notifyDataSetChanged()V
 
-    .line 100
     .line 101
     .line 102
-    return-void
     .line 103
+    return-void
     .line 104
     .line 105
     .line 106
@@ -440,25 +442,4 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method

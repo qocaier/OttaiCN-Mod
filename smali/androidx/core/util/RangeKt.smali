@@ -6,14 +6,6 @@
 # direct methods
 .method public static final and(Landroid/util/Range;Landroid/util/Range;)Landroid/util/Range;
     .locals 0
-    .param p0    # Landroid/util/Range;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/util/Range;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
     .end annotation
@@ -30,9 +22,6 @@
             "Landroid/util/Range<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -92,14 +81,6 @@
 
 .method public static final plus(Landroid/util/Range;Landroid/util/Range;)Landroid/util/Range;
     .locals 0
-    .param p0    # Landroid/util/Range;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/util/Range;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
     .end annotation
@@ -118,9 +99,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 2
     invoke-virtual {p0, p1}, Landroid/util/Range;->extend(Landroid/util/Range;)Landroid/util/Range;
 
@@ -131,14 +109,6 @@
 
 .method public static final plus(Landroid/util/Range;Ljava/lang/Comparable;)Landroid/util/Range;
     .locals 0
-    .param p0    # Landroid/util/Range;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/Comparable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
     .end annotation
@@ -155,9 +125,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     invoke-virtual {p0, p1}, Landroid/util/Range;->extend(Ljava/lang/Comparable;)Landroid/util/Range;
 
@@ -168,14 +135,6 @@
 
 .method public static final rangeTo(Ljava/lang/Comparable;Ljava/lang/Comparable;)Landroid/util/Range;
     .locals 1
-    .param p0    # Ljava/lang/Comparable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/Comparable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
     .end annotation
@@ -188,9 +147,6 @@
             "Landroid/util/Range<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -248,12 +204,8 @@
     .line 48
 .end method
 
-.method public static final toClosedRange(Landroid/util/Range;)Ltm/g;
+.method public static final toClosedRange(Landroid/util/Range;)Lu8/a;
     .locals 1
-    .param p0    # Landroid/util/Range;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
     .end annotation
@@ -265,12 +217,8 @@
             "-TT;>;>(",
             "Landroid/util/Range<",
             "TT;>;)",
-            "Ltm/g<",
-            "TT;>;"
+            "Lu8/a;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -305,12 +253,8 @@
     .line 25
 .end method
 
-.method public static final toRange(Ltm/g;)Landroid/util/Range;
+.method public static final toRange(Lu8/a;)Landroid/util/Range;
     .locals 2
-    .param p0    # Ltm/g;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
     .end annotation
@@ -320,14 +264,11 @@
             "<T::",
             "Ljava/lang/Comparable<",
             "-TT;>;>(",
-            "Ltm/g<",
-            "TT;>;)",
+            "Lu8/a;",
+            ")",
             "Landroid/util/Range<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -335,7 +276,7 @@
 
     .line 2
     .line 3
-    invoke-interface {p0}, Ltm/g;->getStart()Ljava/lang/Comparable;
+    invoke-interface {p0}, Lu8/a;->getStart()Ljava/lang/Comparable;
 
     .line 4
     .line 5
@@ -343,7 +284,7 @@
     move-result-object v1
 
     .line 7
-    invoke-interface {p0}, Ltm/g;->getEndInclusive()Ljava/lang/Comparable;
+    invoke-interface {p0}, Lu8/a;->getEndInclusive()Ljava/lang/Comparable;
 
     .line 8
     .line 9

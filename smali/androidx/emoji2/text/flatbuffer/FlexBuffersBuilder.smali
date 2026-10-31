@@ -341,6 +341,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private createKeyVector(II)Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;
@@ -706,6 +707,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private createVector(IIIZZLandroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;)Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;
@@ -2302,6 +2306,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private putUInt(Ljava/lang/String;J)V
@@ -2519,6 +2528,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private writeAny(Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;I)V
@@ -2890,6 +2900,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private writeDouble(DI)V
@@ -3533,6 +3549,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public endVector(Ljava/lang/String;IZZ)I
@@ -3825,6 +3844,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public finish()Ljava/nio/ByteBuffer;
@@ -3991,6 +4016,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getBuffer()Landroidx/emoji2/text/flatbuffer/ReadWriteBuf;
@@ -4019,6 +4046,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public putBlob(Ljava/lang/String;[B)I
@@ -4476,6 +4504,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public startVector()I
@@ -4508,4 +4537,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

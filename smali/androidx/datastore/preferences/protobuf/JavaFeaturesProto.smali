@@ -142,6 +142,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -170,18 +172,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static registerAllExtensions(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "registry"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/JavaFeaturesProto;->java_:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;

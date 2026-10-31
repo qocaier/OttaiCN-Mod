@@ -4,18 +4,6 @@
 
 
 # annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "LocationSettingsRequestCreator"
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$g;
-    value = {
-        0x4,
-        0x5,
-        0x3e8
-    }
-.end annotation
-
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Lcom/google/android/gms/location/LocationSettingsRequest$a;
@@ -40,35 +28,19 @@
 
 # instance fields
 .field public final a:Ljava/util/List;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getLocationRequests"
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:Z
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValue = "false"
-        getter = "alwaysShow"
-        id = 0x2
-    .end annotation
-.end field
 
 .field public final c:Z
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "needBle"
-        id = 0x3
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lda/e0;
+    new-instance v0, Lj3/n;
 
-    invoke-direct {v0}, Lda/e0;-><init>()V
+    invoke-direct {v0}, Lj3/n;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/location/LocationSettingsRequest;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -77,23 +49,6 @@
 
 .method public constructor <init>(Ljava/util/List;ZZ)V
     .locals 0
-    .param p1    # Ljava/util/List;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # Z
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .param p3    # Z
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x3
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -251,28 +206,19 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
 # virtual methods
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
     iget-object p2, p0, Lcom/google/android/gms/location/LocationSettingsRequest;->a:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 4
     .line 5
@@ -294,7 +240,7 @@
     const/4 v2, 0x1
 
     .line 13
-    invoke-static {p1, v2, p2, v1}, Lj9/a;->d0(Landroid/os/Parcel;ILjava/util/List;Z)V
+    invoke-static {p1, v2, p2, v1}, Lu2/a;->u(Landroid/os/Parcel;ILjava/util/List;Z)V
 
     .line 14
     .line 15
@@ -306,7 +252,7 @@
 
     .line 18
     .line 19
-    invoke-static {p1, p2, v1}, Lj9/a;->g(Landroid/os/Parcel;IZ)V
+    invoke-static {p1, p2, v1}, Lu2/a;->c(Landroid/os/Parcel;IZ)V
 
     .line 20
     .line 21
@@ -318,12 +264,12 @@
 
     .line 24
     .line 25
-    invoke-static {p1, p2, v1}, Lj9/a;->g(Landroid/os/Parcel;IZ)V
+    invoke-static {p1, p2, v1}, Lu2/a;->c(Landroid/os/Parcel;IZ)V
 
     .line 26
     .line 27
     .line 28
-    invoke-static {p1, v0}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 29
     .line 30
@@ -358,9 +304,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

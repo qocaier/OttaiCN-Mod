@@ -13,14 +13,6 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/cache/CacheLoader<",
-        "Ljava/lang/Object;",
-        "TV;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final synthetic a:Ljava/util/concurrent/Callable;
@@ -31,16 +23,6 @@
 # direct methods
 .method public constructor <init>(Lcom/google/common/cache/LocalCache$LocalManualCache;Ljava/util/concurrent/Callable;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010
-        }
-        names = {
-            "this$0",
-            "val$valueLoader"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$LocalManualCache$a;->b:Lcom/google/common/cache/LocalCache$LocalManualCache;
@@ -109,39 +91,12 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
 .method public load(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "key"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/Object;",
-            ")TV;"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
 
     .line 1
     iget-object p1, p0, Lcom/google/common/cache/LocalCache$LocalManualCache$a;->a:Ljava/util/concurrent/Callable;
@@ -174,5 +129,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

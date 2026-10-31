@@ -40,7 +40,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -77,7 +76,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isOverlookingGesturesEnabled()Z
@@ -112,7 +110,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isRotateGesturesEnabled()Z
@@ -147,7 +144,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isScrollGesturesEnabled()Z
@@ -182,7 +178,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isZoomGesturesEnabled()Z
@@ -217,7 +212,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAllGesturesEnabled(Z)V
@@ -262,7 +256,6 @@
     return-void
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCompassEnabled(Z)V
@@ -297,7 +290,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDoubleClickGesturesCenter(Z)V
@@ -332,7 +324,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDoubleClickMoveZoomEnable(Z)V
@@ -367,7 +358,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDoubleClickZoomEnabled(Z)V
@@ -402,7 +392,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEnlargeCenterWithDoubleClickEnable(Z)V
@@ -437,7 +426,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFlingEnable(Z)V
@@ -472,7 +460,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInertialAnimation(Z)V
@@ -507,7 +494,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLatLngGesturesCenter(Lcom/baidu/mapapi/model/LatLng;)V
@@ -542,7 +528,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOverlookingGesturesEnabled(Z)V
@@ -577,7 +562,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPointGesturesCenter(Landroid/graphics/Point;)V
@@ -612,7 +596,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRotateGesturesEnabled(Z)V
@@ -647,7 +630,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScrollGesturesEnabled(Z)V
@@ -682,7 +664,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTwoTouchClickZoomEnabled(Z)V
@@ -717,7 +698,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setZoomGesturesEnabled(Z)V
@@ -752,5 +732,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

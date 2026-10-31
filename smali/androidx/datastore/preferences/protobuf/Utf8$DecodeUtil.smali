@@ -41,6 +41,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$1000(BBBB[CI)V
@@ -1218,6 +1219,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$600(B)Z
@@ -1496,6 +1500,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic access$800(B)Z
@@ -2071,25 +2081,6 @@
 
 .method private static handleFourBytes(BBBB[CI)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "byte1",
-            "byte2",
-            "byte3",
-            "byte4",
-            "resultArr",
-            "resultPos"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -3184,18 +3175,6 @@
 
 .method private static handleOneByte(B[CI)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "byte1",
-            "resultArr",
-            "resultPos"
-        }
-    .end annotation
 
     .line 1
     int-to-char p0, p0
@@ -3315,27 +3294,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static handleThreeBytes(BBB[CI)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "byte1",
-            "byte2",
-            "byte3",
-            "resultArr",
-            "resultPos"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -3927,21 +3892,6 @@
 
 .method private static handleTwoBytes(BB[CI)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "byte1",
-            "byte2",
-            "resultArr",
-            "resultPos"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -4210,18 +4160,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static highSurrogate(I)C
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "codePoint"
-        }
-    .end annotation
 
     ushr-int/lit8 p0, p0, 0xa
 
@@ -4236,14 +4184,6 @@
 
 .method private static isNotTrailingByte(B)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "b"
-        }
-    .end annotation
 
     const/16 v0, -0x41
 
@@ -4261,14 +4201,6 @@
 
 .method private static isOneByte(B)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "b"
-        }
-    .end annotation
 
     if-ltz p0, :cond_0
 
@@ -4284,14 +4216,6 @@
 
 .method private static isThreeBytes(B)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "b"
-        }
-    .end annotation
 
     const/16 v0, -0x10
 
@@ -4309,14 +4233,6 @@
 
 .method private static isTwoBytes(B)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "b"
-        }
-    .end annotation
 
     const/16 v0, -0x20
 
@@ -4334,14 +4250,6 @@
 
 .method private static lowSurrogate(I)C
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "codePoint"
-        }
-    .end annotation
 
     and-int/lit16 p0, p0, 0x3ff
 
@@ -4356,14 +4264,6 @@
 
 .method private static trailingByteValue(B)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "b"
-        }
-    .end annotation
 
     and-int/lit8 p0, p0, 0x3f
 

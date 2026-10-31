@@ -166,6 +166,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -339,6 +342,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getDefaultViewModelProviderFactory()Landroidx/lifecycle/ViewModelProvider$Factory;
@@ -507,6 +512,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getLifecycle()Landroidx/lifecycle/Lifecycle;
@@ -539,6 +546,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
@@ -575,6 +583,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getViewModelStore()Landroidx/lifecycle/ViewModelStore;
@@ -607,6 +616,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
@@ -759,6 +769,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isInitialized()Z
@@ -796,6 +808,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public performRestore(Landroid/os/Bundle;)V

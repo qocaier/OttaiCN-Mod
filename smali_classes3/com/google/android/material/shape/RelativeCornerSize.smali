@@ -49,7 +49,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static createFromCornerSize(Landroid/graphics/RectF;Lcom/google/android/material/shape/CornerSize;)Lcom/google/android/material/shape/RelativeCornerSize;
@@ -155,11 +154,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static getMaxCornerSize(Landroid/graphics/RectF;)F
@@ -206,7 +200,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -268,7 +261,6 @@
     return v2
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getCornerSize(Landroid/graphics/RectF;)F
@@ -311,7 +303,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getRelativePercent()F
@@ -346,7 +337,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hashCode()I
@@ -389,5 +379,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

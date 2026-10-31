@@ -261,6 +261,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public cacheReferenceLineAndClear(ZI)V
@@ -562,6 +563,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public calculateCachedEnd()V
@@ -717,6 +721,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public calculateCachedStart()V
@@ -868,6 +874,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public clear()V
@@ -904,6 +912,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public findFirstCompletelyVisibleItemPosition()I
@@ -1031,6 +1040,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public findFirstPartiallyVisibleItemPosition()I
@@ -1158,6 +1169,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public findFirstVisibleItemPosition()I
@@ -1283,6 +1296,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public findLastCompletelyVisibleItemPosition()I
@@ -1410,6 +1425,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public findLastPartiallyVisibleItemPosition()I
@@ -1537,6 +1554,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public findLastVisibleItemPosition()I
@@ -1662,6 +1681,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public findOnePartiallyOrCompletelyVisibleChild(IIZZZ)I
@@ -2471,6 +2492,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public findOneVisibleChild(IIZ)I
@@ -2606,6 +2630,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getDeletedSize()I
@@ -2634,6 +2661,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEndLine()I
@@ -3060,6 +3088,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getLayoutParams(Landroid/view/View;)Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;
@@ -3185,6 +3216,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onOffset(I)V
@@ -3389,6 +3421,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public popStart()V
@@ -3540,6 +3574,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public prependToSpan(Landroid/view/View;)V
@@ -3686,6 +3722,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setLine(I)V

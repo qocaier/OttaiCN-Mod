@@ -72,7 +72,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private constructor <init>(DDDDDD[DDDD)V
@@ -330,17 +329,6 @@
     .line 223
     .line 224
     .line 225
-    .line 226
-    .line 227
-    .line 228
-    .line 229
-    .line 230
-    .line 231
-    .line 232
-    .line 233
-    .line 234
-    .line 235
-    .line 236
 .end method
 
 .method public static defaultWithBackgroundLstar(D)Lcom/google/android/material/color/utilities/ViewingConditions;
@@ -466,8 +454,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static make([DDDDZ)Lcom/google/android/material/color/utilities/ViewingConditions;
@@ -1841,7 +1827,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getC()D
@@ -1872,7 +1857,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFl()D
@@ -1903,7 +1887,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFlRoot()D
@@ -1934,7 +1917,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getN()D
@@ -1965,7 +1947,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getNbb()D
@@ -1996,7 +1977,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getNc()D
@@ -2027,7 +2007,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getNcb()D
@@ -2058,7 +2037,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRgbD()[D
@@ -2089,7 +2067,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getZ()D
@@ -2120,5 +2097,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

@@ -30,9 +30,9 @@
     .line 1
     iget-object v0, p0, Landroidx/camera/core/imagecapture/m;->a:Landroidx/camera/core/imagecapture/SingleBundlingNode;
 
-    check-cast p1, Landroidx/camera/core/imagecapture/ProcessingRequest;
+    check-cast p1, Landroidx/camera/core/ImageProxy;
 
-    invoke-static {v0, p1}, Landroidx/camera/core/imagecapture/SingleBundlingNode;->a(Landroidx/camera/core/imagecapture/SingleBundlingNode;Landroidx/camera/core/imagecapture/ProcessingRequest;)V
+    invoke-static {v0, p1}, Landroidx/camera/core/imagecapture/SingleBundlingNode;->b(Landroidx/camera/core/imagecapture/SingleBundlingNode;Landroidx/camera/core/ImageProxy;)V
 
     return-void
 .end method

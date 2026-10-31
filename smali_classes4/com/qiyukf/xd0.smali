@@ -7,21 +7,21 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/qiyukf/u;
+.field public final synthetic a:Lcom/qiyukf/cm;
 
-.field public final synthetic b:I
+.field public final synthetic b:Lcom/qiyukf/nimlib/sdk/NotificationFoldStyle;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/qiyukf/u;I)V
+.method public synthetic constructor <init>(Lcom/qiyukf/cm;Lcom/qiyukf/nimlib/sdk/NotificationFoldStyle;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/qiyukf/xd0;->a:Lcom/qiyukf/u;
+    iput-object p1, p0, Lcom/qiyukf/xd0;->a:Lcom/qiyukf/cm;
 
-    iput p2, p0, Lcom/qiyukf/xd0;->b:I
+    iput-object p2, p0, Lcom/qiyukf/xd0;->b:Lcom/qiyukf/nimlib/sdk/NotificationFoldStyle;
 
     return-void
 .end method
@@ -32,11 +32,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/qiyukf/xd0;->a:Lcom/qiyukf/u;
+    iget-object v0, p0, Lcom/qiyukf/xd0;->a:Lcom/qiyukf/cm;
 
-    iget v1, p0, Lcom/qiyukf/xd0;->b:I
+    iget-object v1, p0, Lcom/qiyukf/xd0;->b:Lcom/qiyukf/nimlib/sdk/NotificationFoldStyle;
 
-    invoke-static {v0, v1}, Lcom/qiyukf/u;->c(Lcom/qiyukf/u;I)V
+    invoke-static {v0, v1}, Lcom/qiyukf/cm;->a(Lcom/qiyukf/cm;Lcom/qiyukf/nimlib/sdk/NotificationFoldStyle;)V
 
     return-void
 .end method

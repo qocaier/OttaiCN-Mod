@@ -92,6 +92,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -120,6 +121,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static buildActionExtrasMap(Ljava/util/List;)Landroid/util/SparseArray;
@@ -249,6 +251,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static ensureActionReflectionReadyLocked()Z
@@ -434,6 +437,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static fromBundle(Landroid/os/Bundle;)Landroidx/core/app/RemoteInput;
@@ -588,6 +593,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static fromBundleArray([Landroid/os/Bundle;)[Landroidx/core/app/RemoteInput;
@@ -995,6 +1001,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static getActionCount(Landroid/app/Notification;)I
@@ -1388,6 +1397,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private static getActionObjectsLocked(Landroid/app/Notification;)[Ljava/lang/Object;
@@ -1536,6 +1550,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getBundleArrayFromBundle(Landroid/os/Bundle;Ljava/lang/String;)[Landroid/os/Bundle;
@@ -1967,6 +1982,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static getExtras(Landroid/app/Notification;)Landroid/os/Bundle;
@@ -2353,6 +2373,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static readAction(ILjava/lang/CharSequence;Landroid/app/PendingIntent;Landroid/os/Bundle;)Landroidx/core/app/NotificationCompat$Action;
@@ -2658,6 +2683,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static toBundle(Landroidx/core/app/RemoteInput;)Landroid/os/Bundle;
@@ -2993,6 +3024,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private static toBundleArray([Landroidx/core/app/RemoteInput;)[Landroid/os/Bundle;
@@ -3374,4 +3410,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

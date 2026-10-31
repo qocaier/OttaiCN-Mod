@@ -107,6 +107,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroidx/camera/core/impl/ImageAnalysisConfig;)V
@@ -259,6 +260,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/SafeCloseImageReaderProxy;Landroidx/camera/core/SafeCloseImageReaderProxy;)V
@@ -1551,6 +1553,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private isFlipWH(Landroidx/camera/core/impl/CameraInternal;)Z
@@ -1648,6 +1653,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -1777,6 +1783,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public clearPipeline()V
@@ -1816,6 +1824,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public createPipeline(Ljava/lang/String;Landroidx/camera/core/impl/ImageAnalysisConfig;Landroidx/camera/core/impl/StreamSpec;)Landroidx/camera/core/impl/SessionConfig$Builder;
@@ -2415,7 +2424,7 @@
 
     .line 271
     .line 272
-    invoke-virtual {v4}, Landroidx/camera/core/impl/DeferrableSurface;->getTerminationFuture()Lub/u0;
+    invoke-virtual {v4}, Landroidx/camera/core/impl/DeferrableSurface;->getTerminationFuture()Lcom/google/common/util/concurrent/t;
 
     .line 273
     .line 274
@@ -2423,11 +2432,11 @@
     move-result-object v0
 
     .line 276
-    new-instance v4, Ls/f;
+    new-instance v4, Landroidx/camera/core/i;
 
     .line 277
     .line 278
-    invoke-direct {v4, v2, v3}, Ls/f;-><init>(Landroidx/camera/core/SafeCloseImageReaderProxy;Landroidx/camera/core/SafeCloseImageReaderProxy;)V
+    invoke-direct {v4, v2, v3}, Landroidx/camera/core/i;-><init>(Landroidx/camera/core/SafeCloseImageReaderProxy;Landroidx/camera/core/SafeCloseImageReaderProxy;)V
 
     .line 279
     .line 280
@@ -2440,7 +2449,7 @@
     move-result-object v2
 
     .line 285
-    invoke-interface {v0, v4, v2}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v0, v4, v2}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 286
     .line 287
@@ -2475,11 +2484,11 @@
     .line 302
     .line 303
     .line 304
-    new-instance v0, Ls/g;
+    new-instance v0, Landroidx/camera/core/j;
 
     .line 305
     .line 306
-    invoke-direct {v0, p0, p1, p2, p3}, Ls/g;-><init>(Landroidx/camera/core/ImageAnalysis;Ljava/lang/String;Landroidx/camera/core/impl/ImageAnalysisConfig;Landroidx/camera/core/impl/StreamSpec;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/camera/core/j;-><init>(Landroidx/camera/core/ImageAnalysis;Ljava/lang/String;Landroidx/camera/core/impl/ImageAnalysisConfig;Landroidx/camera/core/impl/StreamSpec;)V
 
     .line 307
     .line 308
@@ -3106,6 +3115,169 @@
     .line 926
     .line 927
     .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
 .end method
 
 .method public getBackgroundExecutor()Ljava/util/concurrent/Executor;
@@ -3149,6 +3321,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBackpressureStrategy()I
@@ -3187,6 +3360,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDefaultConfig(ZLandroidx/camera/core/impl/UseCaseConfigFactory;)Landroidx/camera/core/impl/UseCaseConfig;
@@ -3343,6 +3517,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOnePixelShiftEnabled()Ljava/lang/Boolean;
@@ -3389,6 +3564,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOutputImageFormat()I
@@ -3427,6 +3603,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getResolutionInfo()Landroidx/camera/core/ResolutionInfo;
@@ -3459,6 +3636,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getResolutionSelector()Landroidx/camera/core/resolutionselector/ResolutionSelector;
@@ -3499,6 +3677,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTargetRotation()I
@@ -3529,6 +3708,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUseCaseConfigBuilder(Landroidx/camera/core/impl/Config;)Landroidx/camera/core/impl/UseCaseConfig$Builder;
@@ -3628,6 +3808,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onBind()V
@@ -3663,6 +3844,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onMergeConfig(Landroidx/camera/core/impl/CameraInfoInternal;Landroidx/camera/core/impl/UseCaseConfig$Builder;)Landroidx/camera/core/impl/UseCaseConfig;
@@ -4053,11 +4235,11 @@
 
     .line 168
     .line 169
-    new-instance p1, Ls/i;
+    new-instance p1, Landroidx/camera/core/l;
 
     .line 170
     .line 171
-    invoke-direct {p1, v1}, Ls/i;-><init>(Landroid/util/Size;)V
+    invoke-direct {p1, v1}, Landroidx/camera/core/l;-><init>(Landroid/util/Size;)V
 
     .line 172
     .line 173
@@ -4148,6 +4330,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onSuggestedStreamSpecImplementationOptionsUpdated(Landroidx/camera/core/impl/Config;)Landroidx/camera/core/impl/StreamSpec;
@@ -4272,6 +4457,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onSuggestedStreamSpecUpdated(Landroidx/camera/core/impl/StreamSpec;)Landroidx/camera/core/impl/StreamSpec;
@@ -4374,6 +4560,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setAnalyzer(Ljava/util/concurrent/Executor;Landroidx/camera/core/ImageAnalysis$Analyzer;)V
@@ -4400,11 +4587,11 @@
 
     .line 5
     .line 6
-    new-instance v2, Ls/h;
+    new-instance v2, Landroidx/camera/core/k;
 
     .line 7
     .line 8
-    invoke-direct {v2, p2}, Ls/h;-><init>(Landroidx/camera/core/ImageAnalysis$Analyzer;)V
+    invoke-direct {v2, p2}, Landroidx/camera/core/k;-><init>(Landroidx/camera/core/ImageAnalysis$Analyzer;)V
 
     .line 9
     .line 10
@@ -4717,4 +4904,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

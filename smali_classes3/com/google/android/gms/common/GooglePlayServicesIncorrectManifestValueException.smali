@@ -13,7 +13,7 @@
     .locals 3
 
     .line 1
-    sget v0, La9/g;->a:I
+    sget v0, Lq2/c;->a:I
 
     .line 2
     .line 3
@@ -132,6 +132,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

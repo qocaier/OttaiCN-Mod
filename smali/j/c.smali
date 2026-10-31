@@ -1,36 +1,28 @@
-.class public final synthetic Lj/c;
+.class public interface abstract Lj/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/concurrent/Executor;
+.implements Landroid/os/IInterface;
 
 
-# instance fields
-.field public final synthetic a:Landroid/os/Handler;
-
-
-# direct methods
-.method public synthetic constructor <init>(Landroid/os/Handler;)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lj/c;->a:Landroid/os/Handler;
-
-    return-void
-.end method
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lj/c$a;
+    }
+.end annotation
 
 
 # virtual methods
-.method public final execute(Ljava/lang/Runnable;)V
-    .locals 1
+.method public abstract U(J)Lanetwork/channel/aidl/NetworkResponse;
+.end method
 
-    .line 1
-    iget-object v0, p0, Lj/c;->a:Landroid/os/Handler;
+.method public abstract cancel(Z)Z
+.end method
 
-    invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+.method public abstract isCancelled()Z
+.end method
 
-    return-void
+.method public abstract isDone()Z
 .end method

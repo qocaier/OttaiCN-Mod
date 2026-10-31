@@ -182,6 +182,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private setListenerInternal(Landroid/view/View;Landroidx/core/view/ViewPropertyAnimatorListener;)V
@@ -400,6 +403,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDuration()J
@@ -513,6 +517,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getInterpolator()Landroid/view/animation/Interpolator;
@@ -628,6 +634,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getStartDelay()J
@@ -741,6 +749,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public rotation(F)Landroidx/core/view/ViewPropertyAnimatorCompat;
@@ -1439,11 +1449,11 @@
 
     .line 12
     .line 13
-    new-instance v1, Lc1/o0;
+    new-instance v1, Landroidx/core/view/s0;
 
     .line 14
     .line 15
-    invoke-direct {v1, p1, v0}, Lc1/o0;-><init>(Landroidx/core/view/ViewPropertyAnimatorUpdateListener;Landroid/view/View;)V
+    invoke-direct {v1, p1, v0}, Landroidx/core/view/s0;-><init>(Landroidx/core/view/ViewPropertyAnimatorUpdateListener;Landroid/view/View;)V
 
     .line 16
     .line 17
@@ -1522,6 +1532,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public start()V
@@ -1565,6 +1576,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public translationX(F)Landroidx/core/view/ViewPropertyAnimatorCompat;
@@ -1949,6 +1961,7 @@
     return-object p0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public withStartAction(Ljava/lang/Runnable;)Landroidx/core/view/ViewPropertyAnimatorCompat;

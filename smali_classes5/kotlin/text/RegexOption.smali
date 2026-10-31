@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lym/g;
+.implements Lkotlin/text/f;
 
 
 # annotations
@@ -12,7 +12,7 @@
         "Ljava/lang/Enum<",
         "Lkotlin/text/RegexOption;",
         ">;",
-        "Lym/g;"
+        "Lkotlin/text/f;"
     }
 .end annotation
 
@@ -34,7 +34,7 @@
 
 .field public static final synthetic a:[Lkotlin/text/RegexOption;
 
-.field public static final synthetic b:Lyl/a;
+.field public static final synthetic b:Lkotlin/enums/a;
 
 
 # instance fields
@@ -71,7 +71,7 @@
     const/4 v4, 0x0
 
     .line 10
-    invoke-direct/range {v0 .. v6}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkm/v;)V
+    invoke-direct/range {v0 .. v6}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkotlin/jvm/internal/f;)V
 
     .line 11
     .line 12
@@ -104,7 +104,7 @@
     const/4 v5, 0x0
 
     .line 25
-    invoke-direct/range {v1 .. v7}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkm/v;)V
+    invoke-direct/range {v1 .. v7}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkotlin/jvm/internal/f;)V
 
     .line 26
     .line 27
@@ -137,7 +137,7 @@
     const/4 v6, 0x0
 
     .line 40
-    invoke-direct/range {v2 .. v8}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkm/v;)V
+    invoke-direct/range {v2 .. v8}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkotlin/jvm/internal/f;)V
 
     .line 41
     .line 42
@@ -169,7 +169,7 @@
     const/4 v7, 0x0
 
     .line 54
-    invoke-direct/range {v3 .. v9}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkm/v;)V
+    invoke-direct/range {v3 .. v9}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkotlin/jvm/internal/f;)V
 
     .line 55
     .line 56
@@ -201,7 +201,7 @@
     const/4 v8, 0x0
 
     .line 68
-    invoke-direct/range {v4 .. v10}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkm/v;)V
+    invoke-direct/range {v4 .. v10}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkotlin/jvm/internal/f;)V
 
     .line 69
     .line 70
@@ -234,7 +234,7 @@
     const/4 v9, 0x0
 
     .line 83
-    invoke-direct/range {v5 .. v11}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkm/v;)V
+    invoke-direct/range {v5 .. v11}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkotlin/jvm/internal/f;)V
 
     .line 84
     .line 85
@@ -267,7 +267,7 @@
     const/4 v10, 0x0
 
     .line 98
-    invoke-direct/range {v6 .. v12}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkm/v;)V
+    invoke-direct/range {v6 .. v12}, Lkotlin/text/RegexOption;-><init>(Ljava/lang/String;IIIILkotlin/jvm/internal/f;)V
 
     .line 99
     .line 100
@@ -288,7 +288,7 @@
 
     .line 108
     .line 109
-    invoke-static {v0}, Lkotlin/enums/a;->c([Ljava/lang/Enum;)Lyl/a;
+    invoke-static {v0}, Lkotlin/enums/b;->a([Ljava/lang/Enum;)Lkotlin/enums/a;
 
     .line 110
     .line 111
@@ -296,7 +296,7 @@
     move-result-object v0
 
     .line 113
-    sput-object v0, Lkotlin/text/RegexOption;->b:Lyl/a;
+    sput-object v0, Lkotlin/text/RegexOption;->b:Lkotlin/enums/a;
 
     .line 114
     .line 115
@@ -658,90 +658,10 @@
     .line 470
     .line 471
     .line 472
-    .line 473
-    .line 474
-    .line 475
-    .line 476
-    .line 477
-    .line 478
-    .line 479
-    .line 480
-    .line 481
-    .line 482
-    .line 483
-    .line 484
-    .line 485
-    .line 486
-    .line 487
-    .line 488
-    .line 489
-    .line 490
-    .line 491
-    .line 492
-    .line 493
-    .line 494
-    .line 495
-    .line 496
-    .line 497
-    .line 498
-    .line 499
-    .line 500
-    .line 501
-    .line 502
-    .line 503
-    .line 504
-    .line 505
-    .line 506
-    .line 507
-    .line 508
-    .line 509
-    .line 510
-    .line 511
-    .line 512
-    .line 513
-    .line 514
-    .line 515
-    .line 516
-    .line 517
-    .line 518
-    .line 519
-    .line 520
-    .line 521
-    .line 522
-    .line 523
-    .line 524
-    .line 525
-    .line 526
-    .line 527
-    .line 528
-    .line 529
-    .line 530
-    .line 531
-    .line 532
-    .line 533
-    .line 534
-    .line 535
-    .line 536
-    .line 537
-    .line 538
-    .line 539
-    .line 540
-    .line 541
-    .line 542
-    .line 543
-    .line 544
-    .line 545
-    .line 546
-    .line 547
 .end method
 
 .method public constructor <init>(Ljava/lang/String;III)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(II)V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -753,7 +673,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;IIIILkm/v;)V
+.method public synthetic constructor <init>(Ljava/lang/String;IIIILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p5, p5, 0x2
@@ -794,46 +714,18 @@
     return-object v0
 .end method
 
-.method public static getEntries()Lyl/a;
+.method public static getEntries()Lkotlin/enums/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lyl/a<",
-            "Lkotlin/text/RegexOption;",
-            ">;"
+            "Lkotlin/enums/a;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
+    sget-object v0, Lkotlin/text/RegexOption;->b:Lkotlin/enums/a;
 
-    .line 1
-    sget-object v0, Lkotlin/text/RegexOption;->b:Lyl/a;
-
-    .line 2
-    .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lkotlin/text/RegexOption;
@@ -895,6 +787,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public getValue()I
@@ -926,4 +845,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

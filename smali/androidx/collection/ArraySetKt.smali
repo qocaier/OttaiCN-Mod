@@ -10,14 +10,6 @@
 # direct methods
 .method public static final addAllInternal(Landroidx/collection/ArraySet;Landroidx/collection/ArraySet;)V
     .locals 8
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -32,11 +24,11 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Landroidx/collection/ArraySet;->get_size$collection()I
@@ -78,7 +70,7 @@
 
     const/4 v4, 0x0
 
-    invoke-static/range {v1 .. v7}, Lll/q;->I0([I[IIIIILjava/lang/Object;)[I
+    invoke-static/range {v1 .. v7}, Lkotlin/collections/l;->k([I[IIIIILjava/lang/Object;)[I
 
     .line 5
     invoke-virtual {p1}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
@@ -89,7 +81,7 @@
 
     move-result-object v2
 
-    invoke-static/range {v1 .. v7}, Lll/q;->K0([Ljava/lang/Object;[Ljava/lang/Object;IIIILjava/lang/Object;)[Ljava/lang/Object;
+    invoke-static/range {v1 .. v7}, Lkotlin/collections/l;->m([Ljava/lang/Object;[Ljava/lang/Object;IIIILjava/lang/Object;)[Ljava/lang/Object;
 
     .line 6
     invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
@@ -134,14 +126,6 @@
 
 .method public static final addAllInternal(Landroidx/collection/ArraySet;Ljava/util/Collection;)Z
     .locals 2
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/util/Collection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -156,11 +140,11 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
@@ -208,10 +192,6 @@
 
 .method public static final addInternal(Landroidx/collection/ArraySet;Ljava/lang/Object;)Z
     .locals 17
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -235,7 +215,7 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v2}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -440,7 +420,7 @@
     const/4 v11, 0x0
 
     .line 97
-    invoke-static/range {v8 .. v14}, Lll/q;->I0([I[IIIIILjava/lang/Object;)[I
+    invoke-static/range {v8 .. v14}, Lkotlin/collections/l;->k([I[IIIIILjava/lang/Object;)[I
 
     .line 98
     .line 99
@@ -468,7 +448,7 @@
     const/4 v12, 0x0
 
     .line 109
-    invoke-static/range {v9 .. v15}, Lll/q;->K0([Ljava/lang/Object;[Ljava/lang/Object;IIIILjava/lang/Object;)[Ljava/lang/Object;
+    invoke-static/range {v9 .. v15}, Lkotlin/collections/l;->m([Ljava/lang/Object;[Ljava/lang/Object;IIIILjava/lang/Object;)[Ljava/lang/Object;
 
     .line 110
     .line 111
@@ -515,7 +495,7 @@
 
     .line 130
     .line 131
-    invoke-static {v3, v6, v8, v4, v2}, Lll/q;->z0([I[IIII)[I
+    invoke-static {v3, v6, v8, v4, v2}, Lkotlin/collections/l;->f([I[IIII)[I
 
     .line 132
     .line 133
@@ -536,7 +516,7 @@
     move-result-object v6
 
     .line 142
-    invoke-static {v3, v6, v8, v4, v2}, Lll/q;->B0([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v3, v6, v8, v4, v2}, Lkotlin/collections/l;->h([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 143
     .line 144
@@ -672,14 +652,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static final allocArrays(Landroidx/collection/ArraySet;I)V
     .locals 1
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -695,7 +674,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -765,9 +744,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     new-instance v0, Landroidx/collection/ArraySet;
 
@@ -777,17 +753,13 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/ArraySet;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/ArraySet;-><init>(IILkotlin/jvm/internal/f;)V
 
     return-object v0
 .end method
 
 .method public static final varargs arraySetOf([Ljava/lang/Object;)Landroidx/collection/ArraySet;
     .locals 4
-    .param p0    # [Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -798,12 +770,9 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "values"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Landroidx/collection/ArraySet;
@@ -835,10 +804,6 @@
 
 .method public static final binarySearchInternal(Landroidx/collection/ArraySet;I)I
     .locals 1
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -854,7 +819,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -928,10 +893,6 @@
 
 .method public static final clearInternal(Landroidx/collection/ArraySet;)V
     .locals 1
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -947,7 +908,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1057,18 +1018,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static final containsAllInternal(Landroidx/collection/ArraySet;Ljava/util/Collection;)Z
     .locals 1
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/util/Collection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -1086,7 +1040,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1095,7 +1049,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1170,10 +1124,6 @@
 
 .method public static final containsInternal(Landroidx/collection/ArraySet;Ljava/lang/Object;)Z
     .locals 1
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -1189,7 +1139,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1254,10 +1204,6 @@
 
 .method public static final ensureCapacityInternal(Landroidx/collection/ArraySet;I)V
     .locals 10
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -1273,7 +1219,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1362,7 +1308,7 @@
     const/4 v5, 0x0
 
     .line 46
-    invoke-static/range {v2 .. v8}, Lll/q;->I0([I[IIIIILjava/lang/Object;)[I
+    invoke-static/range {v2 .. v8}, Lkotlin/collections/l;->k([I[IIIIILjava/lang/Object;)[I
 
     .line 47
     .line 48
@@ -1395,7 +1341,7 @@
     move-object v3, v1
 
     .line 61
-    invoke-static/range {v3 .. v9}, Lll/q;->K0([Ljava/lang/Object;[Ljava/lang/Object;IIIILjava/lang/Object;)[Ljava/lang/Object;
+    invoke-static/range {v3 .. v9}, Lkotlin/collections/l;->m([Ljava/lang/Object;[Ljava/lang/Object;IIIILjava/lang/Object;)[Ljava/lang/Object;
 
     .line 62
     .line 63
@@ -1584,18 +1530,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static final equalsInternal(Landroidx/collection/ArraySet;Ljava/lang/Object;)Z
     .locals 6
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -1613,7 +1554,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1915,14 +1856,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static final hashCodeInternal(Landroidx/collection/ArraySet;)I
     .locals 4
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -1938,7 +1878,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1991,14 +1931,6 @@
 
 .method public static final indexOf(Landroidx/collection/ArraySet;Ljava/lang/Object;I)I
     .locals 4
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -2016,7 +1948,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2068,7 +2000,7 @@
 
     .line 26
     .line 27
-    invoke-static {p1, v2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 28
     .line 29
@@ -2122,7 +2054,7 @@
 
     .line 51
     .line 52
-    invoke-static {p1, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 53
     .line 54
@@ -2183,7 +2115,7 @@
 
     .line 79
     .line 80
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 81
     .line 82
@@ -2233,18 +2165,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final indexOfInternal(Landroidx/collection/ArraySet;Ljava/lang/Object;)I
     .locals 1
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -2262,7 +2189,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2331,10 +2258,6 @@
 
 .method public static final indexOfNull(Landroidx/collection/ArraySet;)I
     .locals 2
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -2350,7 +2273,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2387,10 +2310,6 @@
 
 .method public static final isEmptyInternal(Landroidx/collection/ArraySet;)Z
     .locals 1
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -2406,7 +2325,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2448,14 +2367,6 @@
 
 .method public static final removeAllInternal(Landroidx/collection/ArraySet;Landroidx/collection/ArraySet;)Z
     .locals 5
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -2470,11 +2381,11 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Landroidx/collection/ArraySet;->get_size$collection()I
@@ -2522,14 +2433,6 @@
 
 .method public static final removeAllInternal(Landroidx/collection/ArraySet;Ljava/util/Collection;)Z
     .locals 2
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/util/Collection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -2544,11 +2447,11 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
@@ -2583,10 +2486,6 @@
 
 .method public static final removeAtInternal(Landroidx/collection/ArraySet;I)Ljava/lang/Object;
     .locals 14
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -2602,7 +2501,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2778,7 +2677,7 @@
     move v10, p1
 
     .line 87
-    invoke-static/range {v6 .. v12}, Lll/q;->I0([I[IIIIILjava/lang/Object;)[I
+    invoke-static/range {v6 .. v12}, Lkotlin/collections/l;->k([I[IIIIILjava/lang/Object;)[I
 
     .line 88
     .line 89
@@ -2806,7 +2705,7 @@
     move-object v7, v2
 
     .line 99
-    invoke-static/range {v7 .. v13}, Lll/q;->K0([Ljava/lang/Object;[Ljava/lang/Object;IIIILjava/lang/Object;)[Ljava/lang/Object;
+    invoke-static/range {v7 .. v13}, Lkotlin/collections/l;->m([Ljava/lang/Object;[Ljava/lang/Object;IIIILjava/lang/Object;)[Ljava/lang/Object;
 
     .line 100
     .line 101
@@ -2841,7 +2740,7 @@
 
     .line 113
     .line 114
-    invoke-static {v6, p1, v10, v2, v0}, Lll/q;->z0([I[IIII)[I
+    invoke-static {v6, p1, v10, v2, v0}, Lkotlin/collections/l;->f([I[IIII)[I
 
     .line 115
     .line 116
@@ -2854,7 +2753,7 @@
     move-result-object p1
 
     .line 121
-    invoke-static {v7, p1, v10, v2, v0}, Lll/q;->B0([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {v7, p1, v10, v2, v0}, Lkotlin/collections/l;->h([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 122
     .line 123
@@ -2890,7 +2789,7 @@
 
     .line 137
     .line 138
-    invoke-static {p1, v2, v10, v4, v0}, Lll/q;->z0([I[IIII)[I
+    invoke-static {p1, v2, v10, v4, v0}, Lkotlin/collections/l;->f([I[IIII)[I
 
     .line 139
     .line 140
@@ -2911,7 +2810,7 @@
     move-result-object v2
 
     .line 149
-    invoke-static {p1, v2, v10, v4, v0}, Lll/q;->B0([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
+    invoke-static {p1, v2, v10, v4, v0}, Lkotlin/collections/l;->h([Ljava/lang/Object;[Ljava/lang/Object;III)[Ljava/lang/Object;
 
     .line 150
     .line 151
@@ -3024,14 +2923,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static final removeInternal(Landroidx/collection/ArraySet;Ljava/lang/Object;)Z
     .locals 1
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -3047,7 +2945,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -3114,14 +3012,6 @@
 
 .method public static final retainAllInternal(Landroidx/collection/ArraySet;Ljava/util/Collection;)Z
     .locals 5
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/util/Collection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -3139,7 +3029,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -3148,7 +3038,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -3197,7 +3087,7 @@
 
     .line 29
     .line 30
-    invoke-static {v3, v4}, Lll/r0;->a2(Ljava/lang/Iterable;Ljava/lang/Object;)Z
+    invoke-static {v3, v4}, Lkotlin/collections/z;->G(Ljava/lang/Iterable;Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -3236,10 +3126,6 @@
 
 .method public static final toStringInternal(Landroidx/collection/ArraySet;)Ljava/lang/String;
     .locals 4
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -3251,15 +3137,12 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -3404,21 +3287,18 @@
 
     .line 73
     .line 74
-    invoke-static {p0, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 75
     .line 76
     .line 77
     return-object p0
     .line 78
+    .line 79
 .end method
 
 .method public static final valueAtInternal(Landroidx/collection/ArraySet;I)Ljava/lang/Object;
     .locals 1
-    .param p0    # Landroidx/collection/ArraySet;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<E:",
@@ -3434,7 +3314,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

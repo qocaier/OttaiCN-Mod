@@ -44,6 +44,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static create()Landroidx/camera/core/impl/CameraCaptureResult;
@@ -76,6 +77,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -108,6 +110,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAfMode()Landroidx/camera/core/impl/CameraCaptureMetaData$AfMode;
@@ -138,6 +141,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAfState()Landroidx/camera/core/impl/CameraCaptureMetaData$AfState;
@@ -168,6 +172,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAwbState()Landroidx/camera/core/impl/CameraCaptureMetaData$AwbState;
@@ -198,6 +203,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFlashState()Landroidx/camera/core/impl/CameraCaptureMetaData$FlashState;
@@ -228,6 +234,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTagBundle()Landroidx/camera/core/impl/TagBundle;
@@ -260,6 +267,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTimestamp()J

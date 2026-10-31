@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getInputSurface(Landroid/hardware/camera2/CameraCaptureSession;)Landroid/view/Surface;

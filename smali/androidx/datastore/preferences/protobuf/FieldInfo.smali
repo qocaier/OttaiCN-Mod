@@ -71,39 +71,6 @@
 # direct methods
 .method private constructor <init>(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Ljava/lang/Class;Ljava/lang/reflect/Field;IZZLandroidx/datastore/preferences/protobuf/OneofInfo;Ljava/lang/Class;Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;Ljava/lang/reflect/Field;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "field",
-            "fieldNumber",
-            "type",
-            "messageClass",
-            "presenceField",
-            "presenceMask",
-            "required",
-            "enforceUtf8",
-            "oneof",
-            "oneofStoredType",
-            "mapDefaultEntry",
-            "enumVerifier",
-            "cachedSizeField"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -128,57 +95,65 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
+    .line 3
+    .line 4
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->field:Ljava/lang/reflect/Field;
 
-    .line 3
+    .line 5
+    .line 6
     iput-object p3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->type:Landroidx/datastore/preferences/protobuf/FieldType;
 
-    .line 4
+    .line 7
+    .line 8
     iput-object p4, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->messageClass:Ljava/lang/Class;
 
-    .line 5
+    .line 9
+    .line 10
     iput p2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->fieldNumber:I
 
-    .line 6
+    .line 11
+    .line 12
     iput-object p5, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->presenceField:Ljava/lang/reflect/Field;
 
-    .line 7
+    .line 13
+    .line 14
     iput p6, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->presenceMask:I
 
-    .line 8
+    .line 15
+    .line 16
     iput-boolean p7, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->required:Z
 
-    .line 9
+    .line 17
+    .line 18
     iput-boolean p8, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->enforceUtf8:Z
 
-    .line 10
+    .line 19
+    .line 20
     iput-object p9, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->oneof:Landroidx/datastore/preferences/protobuf/OneofInfo;
 
-    .line 11
+    .line 21
+    .line 22
     iput-object p10, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->oneofStoredType:Ljava/lang/Class;
 
-    .line 12
+    .line 23
+    .line 24
     iput-object p11, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->mapDefaultEntry:Ljava/lang/Object;
 
-    .line 13
+    .line 25
+    .line 26
     iput-object p12, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
 
-    .line 14
+    .line 27
+    .line 28
     iput-object p13, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->cachedSizeField:Ljava/lang/reflect/Field;
 
+    .line 29
+    .line 30
     return-void
 .end method
 
 .method private static checkFieldNumber(I)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "fieldNumber"
-        }
-    .end annotation
 
     .line 1
     if-lez p0, :cond_0
@@ -282,30 +257,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static forExplicitPresenceField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Ljava/lang/reflect/Field;IZLandroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
     .locals 14
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "field",
-            "fieldNumber",
-            "fieldType",
-            "presenceField",
-            "presenceMask",
-            "enforceUtf8",
-            "enumVerifier"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v5, p3
@@ -1007,20 +963,6 @@
 
 .method public static forField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Z)Landroidx/datastore/preferences/protobuf/FieldInfo;
     .locals 14
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "field",
-            "fieldNumber",
-            "fieldType",
-            "enforceUtf8"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v3, p2
@@ -1310,24 +1252,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static forFieldWithEnumVerifier(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
     .locals 15
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "field",
-            "fieldNumber",
-            "fieldType",
-            "enumVerifier"
-        }
-    .end annotation
 
     .line 1
     invoke-static/range {p1 .. p1}, Landroidx/datastore/preferences/protobuf/FieldInfo;->checkFieldNumber(I)V
@@ -1596,30 +1530,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static forLegacyRequiredField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Ljava/lang/reflect/Field;IZLandroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
     .locals 14
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "field",
-            "fieldNumber",
-            "fieldType",
-            "presenceField",
-            "presenceMask",
-            "enforceUtf8",
-            "enumVerifier"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v5, p3
@@ -2321,20 +2241,6 @@
 
 .method public static forMapField(Ljava/lang/reflect/Field;ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
     .locals 15
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "field",
-            "fieldNumber",
-            "mapDefaultEntry",
-            "enumVerifier"
-        }
-    .end annotation
 
     .line 1
     const-string v0, "mapDefaultEntry"
@@ -2607,29 +2513,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static forOneofMemberField(ILandroidx/datastore/preferences/protobuf/FieldType;Landroidx/datastore/preferences/protobuf/OneofInfo;Ljava/lang/Class;ZLandroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
     .locals 14
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "fieldType",
-            "oneof",
-            "oneofStoredType",
-            "enforceUtf8",
-            "enumVerifier"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -3733,20 +3626,6 @@
 
 .method public static forPackedField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Ljava/lang/reflect/Field;)Landroidx/datastore/preferences/protobuf/FieldInfo;
     .locals 14
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "field",
-            "fieldNumber",
-            "fieldType",
-            "cachedSizeField"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v3, p2
@@ -4036,26 +3915,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static forPackedFieldWithEnumVerifier(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;Ljava/lang/reflect/Field;)Landroidx/datastore/preferences/protobuf/FieldInfo;
     .locals 15
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "field",
-            "fieldNumber",
-            "fieldType",
-            "enumVerifier",
-            "cachedSizeField"
-        }
-    .end annotation
 
     .line 1
     invoke-static/range {p1 .. p1}, Landroidx/datastore/preferences/protobuf/FieldInfo;->checkFieldNumber(I)V
@@ -4621,21 +4490,6 @@
 
 .method public static forRepeatedMessageField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/FieldInfo;
     .locals 15
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "field",
-            "fieldNumber",
-            "fieldType",
-            "messageClass"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -4923,18 +4777,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static isExactlyOneBitSet(I)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     if-eqz p0, :cond_0
 
@@ -4984,20 +4836,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public compareTo(Landroidx/datastore/preferences/protobuf/FieldInfo;)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 2
     iget v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo;->fieldNumber:I
@@ -5011,14 +4856,6 @@
 
 .method public bridge synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Landroidx/datastore/preferences/protobuf/FieldInfo;
@@ -5056,6 +4893,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEnumVerifier()Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
@@ -5084,6 +4922,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getField()Ljava/lang/reflect/Field;
@@ -5112,6 +4951,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFieldNumber()I
@@ -5140,6 +4980,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getListElementType()Ljava/lang/Class;
@@ -5175,6 +5016,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMapDefaultEntry()Ljava/lang/Object;
@@ -5203,6 +5045,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMessageFieldClass()Ljava/lang/Class;
@@ -5349,6 +5192,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getOneof()Landroidx/datastore/preferences/protobuf/OneofInfo;
@@ -5377,6 +5222,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOneofStoredType()Ljava/lang/Class;
@@ -5412,6 +5258,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPresenceField()Ljava/lang/reflect/Field;
@@ -5440,6 +5287,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPresenceMask()I
@@ -5468,6 +5316,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getType()Landroidx/datastore/preferences/protobuf/FieldType;
@@ -5496,6 +5345,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEnforceUtf8()Z
@@ -5524,6 +5374,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isRequired()Z
@@ -5552,4 +5403,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

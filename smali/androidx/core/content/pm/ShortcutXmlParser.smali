@@ -64,6 +64,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -92,6 +93,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getAttributeValue(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
@@ -311,6 +313,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getXmlResourceParser(Landroid/content/Context;Landroid/content/pm/ActivityInfo;)Landroid/content/res/XmlResourceParser;

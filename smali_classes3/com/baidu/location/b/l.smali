@@ -574,7 +574,7 @@
     return-object p1
 .end method
 
-.method public c()Lyn/m;
+.method public c()La9/q;
     .locals 1
 
     .line 1
@@ -586,7 +586,7 @@
 
     .line 4
     .line 5
-    sget-object v0, Lyn/m;->d:Lyn/m;
+    sget-object v0, La9/q;->d:La9/q;
 
     .line 6
     .line 7
@@ -615,5 +615,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

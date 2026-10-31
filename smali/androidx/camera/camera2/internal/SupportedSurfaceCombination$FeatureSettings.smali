@@ -13,9 +13,6 @@
     name = "FeatureSettings"
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -44,6 +41,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static of(II)Landroidx/camera/camera2/internal/SupportedSurfaceCombination$FeatureSettings;

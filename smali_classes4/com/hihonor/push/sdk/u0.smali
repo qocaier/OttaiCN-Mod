@@ -16,13 +16,6 @@
 
 # instance fields
 .field public final a:Lcom/hihonor/push/sdk/d1;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/hihonor/push/sdk/d1<",
-            "TTResult;>;"
-        }
-    .end annotation
-.end field
 
 
 # direct methods

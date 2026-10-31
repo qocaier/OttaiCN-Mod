@@ -71,6 +71,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getListPreference()Landroidx/preference/MultiSelectListPreference;
@@ -103,6 +104,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static newInstance(Ljava/lang/String;)Landroidx/preference/MultiSelectListPreferenceDialogFragment;
@@ -499,6 +501,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public onDialogClosed(Z)V
@@ -687,6 +694,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -805,4 +813,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

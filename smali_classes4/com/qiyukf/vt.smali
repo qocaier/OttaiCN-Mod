@@ -70,6 +70,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private constructor <init>()V
@@ -334,6 +336,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -386,7 +390,7 @@
 .end method
 
 .method public d()Ljava/util/List;
-    .locals 8
+    .locals 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
@@ -429,62 +433,64 @@
     .line 6
     invoke-virtual {v3, p0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
+    move v4, v1
+
     :goto_0
-    if-ge v1, v0, :cond_0
+    if-ge v4, v0, :cond_0
 
     .line 7
-    new-instance v4, Lcom/qiyukf/vt;
+    new-instance v5, Lcom/qiyukf/vt;
 
-    const/4 v5, 0x0
+    const/4 v6, 0x0
 
-    invoke-direct {v4, v5}, Lcom/qiyukf/vt;-><init>(Lcom/qiyukf/vt$a;)V
+    invoke-direct {v5, v6}, Lcom/qiyukf/vt;-><init>(Lcom/qiyukf/vt$a;)V
 
     .line 8
-    iget v5, p0, Lcom/qiyukf/vt;->a:I
+    iget v6, p0, Lcom/qiyukf/vt;->a:I
 
-    iput v5, v4, Lcom/qiyukf/vt;->a:I
+    iput v6, v5, Lcom/qiyukf/vt;->a:I
 
     .line 9
     invoke-static {p0}, Lcom/qiyukf/vt;->d(Lcom/qiyukf/vt;)I
 
-    move-result v5
+    move-result v6
 
-    invoke-static {v4, v5}, Lcom/qiyukf/vt;->b(Lcom/qiyukf/vt;I)I
+    invoke-static {v5, v6}, Lcom/qiyukf/vt;->b(Lcom/qiyukf/vt;I)I
 
     .line 10
     invoke-static {p0}, Lcom/qiyukf/vt;->a(Lcom/qiyukf/vt;)Ljava/nio/ByteBuffer;
 
-    move-result-object v5
+    move-result-object v6
 
-    invoke-virtual {v5}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
-
-    move-result-object v5
-
-    invoke-static {v4, v5}, Lcom/qiyukf/vt;->a(Lcom/qiyukf/vt;Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
-
-    .line 11
-    invoke-static {v4}, Lcom/qiyukf/vt;->a(Lcom/qiyukf/vt;)Ljava/nio/ByteBuffer;
-
-    move-result-object v5
-
-    invoke-static {p0}, Lcom/qiyukf/vt;->a(Lcom/qiyukf/vt;)Ljava/nio/ByteBuffer;
+    invoke-virtual {v6}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
 
     move-result-object v6
 
-    invoke-virtual {v6}, Ljava/nio/Buffer;->position()I
+    invoke-static {v5, v6}, Lcom/qiyukf/vt;->a(Lcom/qiyukf/vt;Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
-    move-result v6
+    .line 11
+    invoke-static {v5}, Lcom/qiyukf/vt;->a(Lcom/qiyukf/vt;)Ljava/nio/ByteBuffer;
 
-    mul-int v7, v1, v2
+    move-result-object v6
 
-    add-int/2addr v6, v7
+    invoke-static {p0}, Lcom/qiyukf/vt;->a(Lcom/qiyukf/vt;)Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v5, v6}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
+    move-result-object v7
+
+    invoke-virtual {v7}, Ljava/nio/Buffer;->position()I
+
+    move-result v7
+
+    mul-int v8, v4, v2
+
+    add-int/2addr v7, v8
+
+    invoke-virtual {v6, v7}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 12
-    invoke-virtual {v3, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    add-int/lit8 v1, v1, 0x1
+    add-int/2addr v4, v1
 
     goto :goto_0
 
@@ -886,4 +892,34 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method

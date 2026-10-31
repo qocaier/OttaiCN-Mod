@@ -22,26 +22,14 @@
 
 # static fields
 .field public static final Companion:Landroidx/window/layout/HardwareFoldingFeature$Type$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final FOLD:Landroidx/window/layout/HardwareFoldingFeature$Type;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final HINGE:Landroidx/window/layout/HardwareFoldingFeature$Type;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field private final description:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -56,7 +44,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/window/layout/HardwareFoldingFeature$Type$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/window/layout/HardwareFoldingFeature$Type$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -157,6 +145,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>(Ljava/lang/String;)V
@@ -220,6 +210,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getHINGE$cp()Landroidx/window/layout/HardwareFoldingFeature$Type;
@@ -248,14 +239,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/layout/HardwareFoldingFeature$Type;->description:Ljava/lang/String;
@@ -280,4 +270,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

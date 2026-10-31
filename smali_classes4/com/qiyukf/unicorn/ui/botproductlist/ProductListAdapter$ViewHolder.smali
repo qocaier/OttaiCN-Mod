@@ -422,6 +422,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/unicorn/ui/botproductlist/ProductListAdapter$ViewHolder;)Landroid/widget/LinearLayout;
@@ -455,6 +485,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$100(Lcom/qiyukf/unicorn/ui/botproductlist/ProductListAdapter$ViewHolder;)Landroid/widget/RelativeLayout;
@@ -488,6 +520,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$1000(Lcom/qiyukf/unicorn/ui/botproductlist/ProductListAdapter$ViewHolder;)Landroid/widget/TextView;
@@ -521,6 +555,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$200(Lcom/qiyukf/unicorn/ui/botproductlist/ProductListAdapter$ViewHolder;)Landroid/widget/TextView;
@@ -554,6 +590,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$300(Lcom/qiyukf/unicorn/ui/botproductlist/ProductListAdapter$ViewHolder;)Landroid/widget/ImageView;
@@ -587,6 +625,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$400(Lcom/qiyukf/unicorn/ui/botproductlist/ProductListAdapter$ViewHolder;)Landroid/widget/TextView;
@@ -620,6 +660,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$500(Lcom/qiyukf/unicorn/ui/botproductlist/ProductListAdapter$ViewHolder;)Landroid/widget/ImageView;
@@ -653,6 +695,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$600(Lcom/qiyukf/unicorn/ui/botproductlist/ProductListAdapter$ViewHolder;)Landroid/widget/TextView;
@@ -686,6 +730,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$700(Lcom/qiyukf/unicorn/ui/botproductlist/ProductListAdapter$ViewHolder;)Landroid/widget/TextView;
@@ -719,6 +765,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$800(Lcom/qiyukf/unicorn/ui/botproductlist/ProductListAdapter$ViewHolder;)Landroid/widget/TextView;
@@ -752,6 +800,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$900(Lcom/qiyukf/unicorn/ui/botproductlist/ProductListAdapter$ViewHolder;)Landroid/widget/TextView;
@@ -785,4 +835,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -7,21 +7,25 @@
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;
+.field public final synthetic a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-.field public final synthetic b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+.field public final synthetic b:J
+
+.field public final synthetic c:J
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+.method public synthetic constructor <init>(Landroidx/camera/video/internal/encoder/EncoderImpl;JJ)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/video/internal/encoder/e;->a:Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;
+    iput-object p1, p0, Landroidx/camera/video/internal/encoder/e;->a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-    iput-object p2, p0, Landroidx/camera/video/internal/encoder/e;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+    iput-wide p2, p0, Landroidx/camera/video/internal/encoder/e;->b:J
+
+    iput-wide p4, p0, Landroidx/camera/video/internal/encoder/e;->c:J
 
     return-void
 .end method
@@ -29,14 +33,16 @@
 
 # virtual methods
 .method public final run()V
-    .locals 2
+    .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/internal/encoder/e;->a:Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;
+    iget-object v0, p0, Landroidx/camera/video/internal/encoder/e;->a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-    iget-object v1, p0, Landroidx/camera/video/internal/encoder/e;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+    iget-wide v1, p0, Landroidx/camera/video/internal/encoder/e;->b:J
 
-    invoke-static {v0, v1}, Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;->i(Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+    iget-wide v3, p0, Landroidx/camera/video/internal/encoder/e;->c:J
+
+    invoke-static {v0, v1, v2, v3, v4}, Landroidx/camera/video/internal/encoder/EncoderImpl;->l(Landroidx/camera/video/internal/encoder/EncoderImpl;JJ)V
 
     return-void
 .end method

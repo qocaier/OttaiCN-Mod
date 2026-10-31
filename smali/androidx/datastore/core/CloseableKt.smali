@@ -4,16 +4,8 @@
 
 
 # direct methods
-.method public static final use(Landroidx/datastore/core/Closeable;Ljm/l;)Ljava/lang/Object;
+.method public static final use(Landroidx/datastore/core/Closeable;Lq8/l;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Landroidx/datastore/core/Closeable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T::",
@@ -21,8 +13,8 @@
             "R:",
             "Ljava/lang/Object;",
             ">(TT;",
-            "Ljm/l<",
-            "-TT;+TR;>;)TR;"
+            "Lq8/l;",
+            ")TR;"
         }
     .end annotation
 
@@ -31,7 +23,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -40,7 +32,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -49,7 +41,7 @@
 
     .line 12
     :try_start_0
-    invoke-interface {p1, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -59,7 +51,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
     .line 16
-    invoke-static {v0}, Lkm/d0;->d(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 17
     .line 18
@@ -87,7 +79,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0}, Lkm/d0;->c(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 28
     .line 29
@@ -103,7 +95,7 @@
     move-exception p1
 
     .line 33
-    invoke-static {v0}, Lkm/d0;->d(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 34
     .line 35
@@ -123,7 +115,7 @@
     move-exception p0
 
     .line 41
-    invoke-static {p1, p0}, Ljl/r;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    invoke-static {p1, p0}, Lkotlin/a;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     .line 42
     .line 43

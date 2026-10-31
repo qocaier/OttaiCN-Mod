@@ -234,6 +234,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getActionTextColor()Ljava/lang/String;
@@ -262,6 +264,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCardJson()Ljava/lang/String;
@@ -290,6 +294,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getIntent()Ljava/lang/String;
@@ -318,6 +324,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getParams()Ljava/lang/String;
@@ -346,6 +354,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSendByUser()I
@@ -374,6 +384,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSendProToRobot()I
@@ -402,6 +414,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getShopId()Ljava/lang/String;
@@ -430,6 +444,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isAlwaysSend()Z
@@ -458,6 +474,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setActionText(Ljava/lang/String;)V
@@ -491,6 +509,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setActionTextColor(Ljava/lang/String;)V
@@ -524,6 +544,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setAlwaysSend(Z)V
@@ -557,6 +579,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCardJson(Ljava/lang/String;)V
@@ -590,6 +614,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setIntent(Ljava/lang/String;)V
@@ -623,6 +649,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setParams(Ljava/lang/String;)V
@@ -656,6 +684,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSendByUser(I)V
@@ -689,6 +719,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSendProToRobot(I)V
@@ -722,6 +754,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setShopId(Ljava/lang/String;)V
@@ -755,6 +789,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public valid()Z
@@ -789,4 +825,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

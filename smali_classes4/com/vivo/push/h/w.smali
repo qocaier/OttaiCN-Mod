@@ -35,6 +35,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic a(Lcom/vivo/push/h/w;)Landroid/content/Context;

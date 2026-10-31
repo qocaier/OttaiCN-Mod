@@ -1,16 +1,34 @@
-.class public final synthetic Lj/a;
+.class public interface abstract Lj/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroid/os/IInterface;
 
-# direct methods
-.method public static bridge synthetic a(Landroid/content/Intent;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
-    .locals 0
 
-    .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lj/a$a;
+    }
+.end annotation
 
-    move-result-object p0
 
-    return-object p0
+# virtual methods
+.method public abstract K()Lanetwork/channel/aidl/c;
+.end method
+
+.method public abstract cancel()V
+.end method
+
+.method public abstract e()Lanetwork/channel/statist/StatisticData;
+.end method
+
+.method public abstract f()Ljava/lang/String;
+.end method
+
+.method public abstract getStatusCode()I
+.end method
+
+.method public abstract q()Ljava/util/Map;
 .end method

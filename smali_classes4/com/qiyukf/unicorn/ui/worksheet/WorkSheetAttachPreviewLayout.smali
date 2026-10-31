@@ -136,9 +136,9 @@
     add-int/lit8 v1, v1, -0x1
 
     .line 29
-    new-instance v2, Lph/b;
+    new-instance v2, Lu6/b;
 
-    invoke-direct {v2, p0, v1}, Lph/b;-><init>(Lcom/qiyukf/unicorn/ui/worksheet/WorkSheetAttachPreviewLayout;I)V
+    invoke-direct {v2, p0, v1}, Lu6/b;-><init>(Lcom/qiyukf/unicorn/ui/worksheet/WorkSheetAttachPreviewLayout;I)V
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -421,9 +421,9 @@
     .line 13
     iget-object v0, p0, Lcom/qiyukf/unicorn/ui/worksheet/WorkSheetAttachPreviewLayout;->b:Landroid/widget/TextView;
 
-    new-instance v1, Lph/a;
+    new-instance v1, Lu6/a;
 
-    invoke-direct {v1, p0}, Lph/a;-><init>(Lcom/qiyukf/unicorn/ui/worksheet/WorkSheetAttachPreviewLayout;)V
+    invoke-direct {v1, p0}, Lu6/a;-><init>(Lcom/qiyukf/unicorn/ui/worksheet/WorkSheetAttachPreviewLayout;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 

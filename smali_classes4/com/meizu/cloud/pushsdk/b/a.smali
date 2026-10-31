@@ -48,6 +48,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic a(Lcom/meizu/cloud/pushsdk/b/a;Landroid/content/Context;)V
@@ -245,9 +247,9 @@
 
     move-result-object v0
 
-    new-instance v1, Ltf/a;
+    new-instance v1, Lcom/meizu/cloud/pushsdk/b/h;
 
-    invoke-direct {v1, p0, p1}, Ltf/a;-><init>(Lcom/meizu/cloud/pushsdk/b/a;Landroid/content/Context;)V
+    invoke-direct {v1, p0, p1}, Lcom/meizu/cloud/pushsdk/b/h;-><init>(Lcom/meizu/cloud/pushsdk/b/a;Landroid/content/Context;)V
 
     invoke-virtual {v0, v1}, Lcom/meizu/cloud/pushsdk/k/b;->execute(Ljava/lang/Runnable;)V
 

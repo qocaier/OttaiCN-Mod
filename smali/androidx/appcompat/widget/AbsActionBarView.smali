@@ -342,6 +342,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public dismissPopupMenus()V
@@ -375,6 +376,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAnimatedVisibility()I
@@ -416,6 +418,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentHeight()I
@@ -444,6 +447,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hideOverflowMenu()Z
@@ -483,6 +487,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isOverflowMenuShowPending()Z
@@ -522,6 +527,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isOverflowMenuShowing()Z
@@ -561,6 +567,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isOverflowReserved()Z
@@ -604,6 +611,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public measureChildView(Landroid/view/View;III)I
@@ -862,6 +870,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -981,6 +995,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onHoverEvent(Landroid/view/MotionEvent;)Z
@@ -1107,6 +1122,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -1229,6 +1245,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public positionChild(Landroid/view/View;IIIZ)I
@@ -1829,6 +1846,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setContentHeight(I)V
@@ -2211,6 +2229,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public showOverflowMenu()Z
@@ -2250,4 +2271,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

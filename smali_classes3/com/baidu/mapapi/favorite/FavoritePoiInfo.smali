@@ -48,7 +48,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -83,7 +82,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public cityName(Ljava/lang/String;)Lcom/baidu/mapapi/favorite/FavoritePoiInfo;
@@ -116,7 +114,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getAddr()Ljava/lang/String;
@@ -147,7 +144,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCityName()Ljava/lang/String;
@@ -178,7 +174,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getID()Ljava/lang/String;
@@ -209,7 +204,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPoiName()Ljava/lang/String;
@@ -240,7 +234,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPt()Lcom/baidu/mapapi/model/LatLng;
@@ -271,7 +264,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTimeStamp()J
@@ -302,7 +294,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getUid()Ljava/lang/String;
@@ -333,7 +324,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public poiName(Ljava/lang/String;)Lcom/baidu/mapapi/favorite/FavoritePoiInfo;
@@ -366,7 +356,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public pt(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/favorite/FavoritePoiInfo;
@@ -399,7 +388,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public uid(Ljava/lang/String;)Lcom/baidu/mapapi/favorite/FavoritePoiInfo;
@@ -432,5 +420,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

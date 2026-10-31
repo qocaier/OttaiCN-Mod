@@ -7,8 +7,8 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Landroidx/activity/result/contract/ActivityResultContract<",
-        "Lpf/u;",
-        "Lpf/t;",
+        "Lcom/journeyapps/barcodescanner/u;",
+        "Lcom/journeyapps/barcodescanner/t;",
         ">;"
     }
 .end annotation
@@ -41,29 +41,23 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
 # virtual methods
-.method public a(Landroid/content/Context;Lpf/u;)Landroid/content/Intent;
+.method public a(Landroid/content/Context;Lcom/journeyapps/barcodescanner/u;)Landroid/content/Intent;
     .locals 0
-    .param p1    # Landroid/content/Context;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
-    invoke-virtual {p2, p1}, Lpf/u;->c(Landroid/content/Context;)Landroid/content/Intent;
+    const/4 p1, 0x0
 
     .line 2
+    throw p1
     .line 3
     .line 4
-    move-result-object p1
-
     .line 5
-    return-object p1
     .line 6
     .line 7
     .line 8
@@ -113,17 +107,23 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
-.method public b(ILandroid/content/Intent;)Lpf/t;
+.method public b(ILandroid/content/Intent;)Lcom/journeyapps/barcodescanner/t;
     .locals 0
-    .param p2    # Landroid/content/Intent;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1, p2}, Lpf/t;->h(ILandroid/content/Intent;)Lpf/t;
+    invoke-static {p1, p2}, Lcom/journeyapps/barcodescanner/t;->a(ILandroid/content/Intent;)Lcom/journeyapps/barcodescanner/t;
 
     .line 2
     .line 3
@@ -181,33 +181,39 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public bridge synthetic createIntent(Landroid/content/Context;Ljava/lang/Object;)Landroid/content/Intent;
     .locals 0
-    .param p1    # Landroid/content/Context;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
-    check-cast p2, Lpf/u;
+    invoke-static {p2}, Lk/d;->a(Ljava/lang/Object;)V
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1, p2}, Lcom/journeyapps/barcodescanner/ScanContract;->a(Landroid/content/Context;Lpf/u;)Landroid/content/Intent;
-
     .line 4
+    const/4 p2, 0x0
+
     .line 5
+    invoke-virtual {p0, p1, p2}, Lcom/journeyapps/barcodescanner/ScanContract;->a(Landroid/content/Context;Lcom/journeyapps/barcodescanner/u;)Landroid/content/Intent;
+
     .line 6
+    .line 7
+    .line 8
     move-result-object p1
 
-    .line 7
-    return-object p1
-    .line 8
     .line 9
+    return-object p1
     .line 10
     .line 11
     .line 12
@@ -253,17 +259,23 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public bridge synthetic parseResult(ILandroid/content/Intent;)Ljava/lang/Object;
     .locals 0
-    .param p2    # Landroid/content/Intent;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Lcom/journeyapps/barcodescanner/ScanContract;->b(ILandroid/content/Intent;)Lpf/t;
+    invoke-virtual {p0, p1, p2}, Lcom/journeyapps/barcodescanner/ScanContract;->b(ILandroid/content/Intent;)Lcom/journeyapps/barcodescanner/t;
 
     .line 2
     .line 3
@@ -321,4 +333,14 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method

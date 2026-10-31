@@ -140,11 +140,14 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
 # virtual methods
-.method public provideSurface()Lub/u0;
+.method public provideSurface()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -152,9 +155,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Landroid/view/Surface;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -163,7 +164,7 @@
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lub/u0;
+    iget-object v0, v0, Landroidx/camera/core/SurfaceRequest;->mSurfaceFuture:Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -183,4 +184,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

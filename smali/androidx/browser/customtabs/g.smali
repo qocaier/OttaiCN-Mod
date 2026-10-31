@@ -1,48 +1,44 @@
-.class public final synthetic Landroidx/browser/customtabs/g;
+.class public abstract synthetic Landroidx/browser/customtabs/g;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/lang/Runnable;
-
-
-# instance fields
-.field public final synthetic a:Landroidx/browser/customtabs/EngagementSignalsCallback;
-
-.field public final synthetic b:I
-
-.field public final synthetic c:Landroid/os/Bundle;
-
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/browser/customtabs/EngagementSignalsCallback;ILandroid/os/Bundle;)V
+.method public static synthetic a(Ljava/lang/Object;)Ljava/util/List;
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    filled-new-array {p0}, [Ljava/lang/Object;
 
-    iput-object p1, p0, Landroidx/browser/customtabs/g;->a:Landroidx/browser/customtabs/EngagementSignalsCallback;
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
 
-    iput p2, p0, Landroidx/browser/customtabs/g;->b:I
+    .line 5
+    invoke-static {p0}, Landroidx/browser/customtabs/h;->a([Ljava/lang/Object;)Ljava/util/List;
 
-    iput-object p3, p0, Landroidx/browser/customtabs/g;->c:Landroid/os/Bundle;
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p0
 
-    return-void
-.end method
-
-
-# virtual methods
-.method public final run()V
-    .locals 3
-
-    .line 1
-    iget-object v0, p0, Landroidx/browser/customtabs/g;->a:Landroidx/browser/customtabs/EngagementSignalsCallback;
-
-    iget v1, p0, Landroidx/browser/customtabs/g;->b:I
-
-    iget-object v2, p0, Landroidx/browser/customtabs/g;->c:Landroid/os/Bundle;
-
-    invoke-static {v0, v1, v2}, Landroidx/browser/customtabs/CustomTabsSession$1;->q0(Landroidx/browser/customtabs/EngagementSignalsCallback;ILandroid/os/Bundle;)V
-
-    return-void
+    .line 9
+    return-object p0
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
 .end method

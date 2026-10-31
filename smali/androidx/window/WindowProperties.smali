@@ -5,34 +5,16 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/window/WindowProperties;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final PROPERTY_ACTIVITY_EMBEDDING_ALLOW_SYSTEM_OVERRIDE:Ljava/lang/String; = "android.window.PROPERTY_ACTIVITY_EMBEDDING_ALLOW_SYSTEM_OVERRIDE"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final PROPERTY_ACTIVITY_EMBEDDING_SPLITS_ENABLED:Ljava/lang/String; = "android.window.PROPERTY_ACTIVITY_EMBEDDING_SPLITS_ENABLED"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final PROPERTY_COMPAT_ALLOW_IGNORING_ORIENTATION_REQUEST_WHEN_LOOP_DETECTED:Ljava/lang/String; = "android.window.PROPERTY_COMPAT_ALLOW_IGNORING_ORIENTATION_REQUEST_WHEN_LOOP_DETECTED"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE:Ljava/lang/String; = "android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES:Ljava/lang/String; = "android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -74,4 +56,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

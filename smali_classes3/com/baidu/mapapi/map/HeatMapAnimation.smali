@@ -190,11 +190,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
@@ -231,7 +226,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDuration()I
@@ -262,7 +256,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIsAnimation()Z
@@ -293,7 +286,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAnimation(Z)V
@@ -326,7 +318,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAnimationType(Lcom/baidu/mapapi/map/HeatMapAnimation$AnimationType;)V
@@ -359,7 +350,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDuration(I)V
@@ -392,5 +382,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -6,8 +6,6 @@
 # virtual methods
 .method public getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
@@ -32,9 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract getDefaultViewModelProviderFactory()Landroidx/lifecycle/ViewModelProvider$Factory;
-    .annotation build Lsq/k;
-    .end annotation
 .end method

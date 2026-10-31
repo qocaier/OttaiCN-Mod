@@ -42,7 +42,7 @@
 
     iget-object v2, p0, Landroidx/browser/customtabs/k;->c:Landroid/os/Bundle;
 
-    invoke-static {v0, v1, v2}, Landroidx/browser/customtabs/CustomTabsSession$2;->b(Landroidx/browser/customtabs/EngagementSignalsCallback;ZLandroid/os/Bundle;)V
+    invoke-static {v0, v1, v2}, Landroidx/browser/customtabs/CustomTabsSession$1;->b(Landroidx/browser/customtabs/EngagementSignalsCallback;ZLandroid/os/Bundle;)V
 
     return-void
 .end method

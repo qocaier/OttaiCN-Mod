@@ -68,6 +68,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -98,6 +100,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMessageId()J
@@ -126,6 +130,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMessageInvite()Ljava/lang/String;
@@ -154,6 +160,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()J
@@ -182,6 +190,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isEvaluationAutoPopup()Z
@@ -219,4 +229,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

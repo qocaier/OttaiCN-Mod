@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/bumptech/glide/load/a;->b(Ljava/util/List;Ljava/io/InputStream;Le6/b;)I
+    value = Lcom/bumptech/glide/load/a;->b(Ljava/util/List;Ljava/io/InputStream;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)I
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,11 +20,11 @@
 # instance fields
 .field public final synthetic a:Ljava/io/InputStream;
 
-.field public final synthetic b:Le6/b;
+.field public final synthetic b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
 
 # direct methods
-.method public constructor <init>(Ljava/io/InputStream;Le6/b;)V
+.method public constructor <init>(Ljava/io/InputStream;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)V
     .locals 0
 
     .line 1
@@ -32,7 +32,7 @@
 
     .line 2
     .line 3
-    iput-object p2, p0, Lcom/bumptech/glide/load/a$e;->b:Le6/b;
+    iput-object p2, p0, Lcom/bumptech/glide/load/a$e;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     .line 4
     .line 5
@@ -94,22 +94,12 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
 .method public a(Lcom/bumptech/glide/load/ImageHeaderParser;)I
     .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -117,11 +107,11 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/bumptech/glide/load/a$e;->b:Le6/b;
+    iget-object v1, p0, Lcom/bumptech/glide/load/a$e;->b:Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     .line 4
     .line 5
-    invoke-interface {p1, v0, v1}, Lcom/bumptech/glide/load/ImageHeaderParser;->a(Ljava/io/InputStream;Le6/b;)I
+    invoke-interface {p1, v0, v1}, Lcom/bumptech/glide/load/ImageHeaderParser;->d(Ljava/io/InputStream;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)I
 
     .line 6
     .line 7
@@ -160,5 +150,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/animation/AnimatorKt;->doOnEnd(Landroid/animation/Animator;Ljm/l;)Landroid/animation/Animator$AnimatorListener;
+    value = Landroidx/core/animation/AnimatorKt;->doOnEnd(Landroid/animation/Animator;Lq8/l;)Landroid/animation/Animator$AnimatorListener;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -16,27 +16,17 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nAnimator.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Animator.kt\nandroidx/core/animation/AnimatorKt$addListener$listener$1\n+ 2 Animator.kt\nandroidx/core/animation/AnimatorKt$addListener$4\n+ 3 Animator.kt\nandroidx/core/animation/AnimatorKt$addListener$3\n+ 4 Animator.kt\nandroidx/core/animation/AnimatorKt$addListener$2\n*L\n1#1,99:1\n89#2:100\n88#3:101\n87#4:102\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nAnimator.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Animator.kt\nandroidx/core/animation/AnimatorKt$addListener$listener$1\n+ 2 Animator.kt\nandroidx/core/animation/AnimatorKt$addListener$4\n+ 3 Animator.kt\nandroidx/core/animation/AnimatorKt$addListener$3\n+ 4 Animator.kt\nandroidx/core/animation/AnimatorKt$addListener$2\n*L\n1#1,99:1\n89#2:100\n88#3:101\n87#4:102\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
-.field final synthetic $onEnd:Ljm/l;
+.field final synthetic $onEnd:Lq8/l;
 
 
 # direct methods
-.method public constructor <init>(Ljm/l;)V
+.method public constructor <init>(Lq8/l;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/animation/AnimatorKt$doOnEnd$$inlined$addListener$default$1;->$onEnd:Ljm/l;
+    iput-object p1, p0, Landroidx/core/animation/AnimatorKt$doOnEnd$$inlined$addListener$default$1;->$onEnd:Lq8/l;
 
     .line 2
     .line 3
@@ -79,11 +69,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/animation/AnimatorKt$doOnEnd$$inlined$addListener$default$1;->$onEnd:Ljm/l;
+    iget-object v0, p0, Landroidx/core/animation/AnimatorKt$doOnEnd$$inlined$addListener$default$1;->$onEnd:Lq8/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5

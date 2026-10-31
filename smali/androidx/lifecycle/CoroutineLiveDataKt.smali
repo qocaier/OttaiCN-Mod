@@ -8,20 +8,8 @@
 
 
 # direct methods
-.method public static final addDisposableSource(Landroidx/lifecycle/MediatorLiveData;Landroidx/lifecycle/LiveData;Lul/c;)Ljava/lang/Object;
+.method public static final addDisposableSource(Landroidx/lifecycle/MediatorLiveData;Landroidx/lifecycle/LiveData;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 3
-    .param p0    # Landroidx/lifecycle/MediatorLiveData;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/lifecycle/LiveData;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -31,19 +19,14 @@
             "TT;>;",
             "Landroidx/lifecycle/LiveData<",
             "TT;>;",
-            "Lul/c<",
-            "-",
-            "Landroidx/lifecycle/EmittedSource;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     .line 2
     .line 3
@@ -51,7 +34,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lfn/d2;->l()Lfn/d2;
+    invoke-virtual {v0}, Lkotlinx/coroutines/z1;->e()Lkotlinx/coroutines/z1;
 
     .line 6
     .line 7
@@ -66,12 +49,12 @@
     const/4 v2, 0x0
 
     .line 12
-    invoke-direct {v1, p0, p1, v2}, Landroidx/lifecycle/CoroutineLiveDataKt$addDisposableSource$2;-><init>(Landroidx/lifecycle/MediatorLiveData;Landroidx/lifecycle/LiveData;Lul/c;)V
+    invoke-direct {v1, p0, p1, v2}, Landroidx/lifecycle/CoroutineLiveDataKt$addDisposableSource$2;-><init>(Landroidx/lifecycle/MediatorLiveData;Landroidx/lifecycle/LiveData;Lkotlin/coroutines/e;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-static {v0, v1, p2}, Lfn/g;->h(Lkotlin/coroutines/d;Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-static {v0, v1, p2}, Lkotlinx/coroutines/g;->e(Lkotlin/coroutines/i;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -174,83 +157,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final liveData(Lj$/time/Duration;Ljm/p;)Landroidx/lifecycle/LiveData;
-    .locals 2
-    .param p0    # Lj$/time/Duration;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/RequiresApi;
-        value = 0x1a
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Lj$/time/Duration;",
-            "Ljm/p<",
-            "-",
-            "Landroidx/lifecycle/LiveDataScope<",
-            "TT;>;-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;)",
-            "Landroidx/lifecycle/LiveData<",
-            "TT;>;"
-        }
-    .end annotation
-
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    const-string v0, "timeout"
-
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const-string v0, "block"
-
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    const/4 v0, 0x0
-
-    const/4 v1, 0x2
-
-    invoke-static {p0, v0, p1, v1, v0}, Landroidx/lifecycle/CoroutineLiveDataKt;->liveData$default(Lj$/time/Duration;Lkotlin/coroutines/d;Ljm/p;ILjava/lang/Object;)Landroidx/lifecycle/LiveData;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static final liveData(Lj$/time/Duration;Lkotlin/coroutines/d;Ljm/p;)Landroidx/lifecycle/LiveData;
+.method public static final liveData(Lj$/time/Duration;Lkotlin/coroutines/i;Lq8/p;)Landroidx/lifecycle/LiveData;
     .locals 3
-    .param p0    # Lj$/time/Duration;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
@@ -261,39 +174,25 @@
             "Ljava/lang/Object;",
             ">(",
             "Lj$/time/Duration;",
-            "Lkotlin/coroutines/d;",
-            "Ljm/p<",
-            "-",
-            "Landroidx/lifecycle/LiveDataScope<",
-            "TT;>;-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;)",
+            "Lkotlin/coroutines/i;",
+            "Lq8/p;",
+            ")",
             "Landroidx/lifecycle/LiveData<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "timeout"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "block"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     new-instance v0, Landroidx/lifecycle/CoroutineLiveData;
@@ -304,164 +203,105 @@
 
     move-result-wide v1
 
-    invoke-direct {v0, p1, v1, v2, p2}, Landroidx/lifecycle/CoroutineLiveData;-><init>(Lkotlin/coroutines/d;JLjm/p;)V
+    invoke-direct {v0, p1, v1, v2, p2}, Landroidx/lifecycle/CoroutineLiveData;-><init>(Lkotlin/coroutines/i;JLq8/p;)V
 
     return-object v0
 .end method
 
-.method public static final liveData(Ljm/p;)Landroidx/lifecycle/LiveData;
-    .locals 7
-    .param p0    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public static final liveData(Lj$/time/Duration;Lq8/p;)Landroidx/lifecycle/LiveData;
+    .locals 2
+    .annotation build Landroidx/annotation/RequiresApi;
+        value = 0x1a
+    .end annotation
+
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Ljm/p<",
-            "-",
-            "Landroidx/lifecycle/LiveDataScope<",
-            "TT;>;-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;)",
+            "Lj$/time/Duration;",
+            "Lq8/p;",
+            ")",
             "Landroidx/lifecycle/LiveData<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lim/k;
-    .end annotation
+    .line 1
+    const-string v0, "timeout"
 
-    .annotation build Lsq/k;
-    .end annotation
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 2
     const-string v0, "block"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    const/4 v5, 0x3
+    const/4 v0, 0x0
 
-    const/4 v6, 0x0
+    const/4 v1, 0x2
 
-    const/4 v1, 0x0
-
-    const-wide/16 v2, 0x0
-
-    move-object v4, p0
-
-    invoke-static/range {v1 .. v6}, Landroidx/lifecycle/CoroutineLiveDataKt;->liveData$default(Lkotlin/coroutines/d;JLjm/p;ILjava/lang/Object;)Landroidx/lifecycle/LiveData;
+    invoke-static {p0, v0, p1, v1, v0}, Landroidx/lifecycle/CoroutineLiveDataKt;->liveData$default(Lj$/time/Duration;Lkotlin/coroutines/i;Lq8/p;ILjava/lang/Object;)Landroidx/lifecycle/LiveData;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static final liveData(Lkotlin/coroutines/d;JLjm/p;)Landroidx/lifecycle/LiveData;
+.method public static final liveData(Lkotlin/coroutines/i;JLq8/p;)Landroidx/lifecycle/LiveData;
     .locals 1
-    .param p0    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/coroutines/d;",
+            "Lkotlin/coroutines/i;",
             "J",
-            "Ljm/p<",
-            "-",
-            "Landroidx/lifecycle/LiveDataScope<",
-            "TT;>;-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;)",
+            "Lq8/p;",
+            ")",
             "Landroidx/lifecycle/LiveData<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "context"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "block"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     new-instance v0, Landroidx/lifecycle/CoroutineLiveData;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/lifecycle/CoroutineLiveData;-><init>(Lkotlin/coroutines/d;JLjm/p;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/lifecycle/CoroutineLiveData;-><init>(Lkotlin/coroutines/i;JLq8/p;)V
 
     return-object v0
 .end method
 
-.method public static final liveData(Lkotlin/coroutines/d;Ljm/p;)Landroidx/lifecycle/LiveData;
+.method public static final liveData(Lkotlin/coroutines/i;Lq8/p;)Landroidx/lifecycle/LiveData;
     .locals 7
-    .param p0    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lkotlin/coroutines/d;",
-            "Ljm/p<",
-            "-",
-            "Landroidx/lifecycle/LiveDataScope<",
-            "TT;>;-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;)",
+            "Lkotlin/coroutines/i;",
+            "Lq8/p;",
+            ")",
             "Landroidx/lifecycle/LiveData<",
             "TT;>;"
         }
     .end annotation
 
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 3
+    .line 2
     const-string v0, "context"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "block"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x2
 
@@ -473,14 +313,50 @@
 
     move-object v4, p1
 
-    invoke-static/range {v1 .. v6}, Landroidx/lifecycle/CoroutineLiveDataKt;->liveData$default(Lkotlin/coroutines/d;JLjm/p;ILjava/lang/Object;)Landroidx/lifecycle/LiveData;
+    invoke-static/range {v1 .. v6}, Landroidx/lifecycle/CoroutineLiveDataKt;->liveData$default(Lkotlin/coroutines/i;JLq8/p;ILjava/lang/Object;)Landroidx/lifecycle/LiveData;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic liveData$default(Lj$/time/Duration;Lkotlin/coroutines/d;Ljm/p;ILjava/lang/Object;)Landroidx/lifecycle/LiveData;
+.method public static final liveData(Lq8/p;)Landroidx/lifecycle/LiveData;
+    .locals 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lq8/p;",
+            ")",
+            "Landroidx/lifecycle/LiveData<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .line 3
+    const-string v0, "block"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v5, 0x3
+
+    const/4 v6, 0x0
+
+    const/4 v1, 0x0
+
+    const-wide/16 v2, 0x0
+
+    move-object v4, p0
+
+    invoke-static/range {v1 .. v6}, Landroidx/lifecycle/CoroutineLiveDataKt;->liveData$default(Lkotlin/coroutines/i;JLq8/p;ILjava/lang/Object;)Landroidx/lifecycle/LiveData;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic liveData$default(Lj$/time/Duration;Lkotlin/coroutines/i;Lq8/p;ILjava/lang/Object;)Landroidx/lifecycle/LiveData;
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -492,14 +368,14 @@
 
     .line 4
     :cond_0
-    invoke-static {p0, p1, p2}, Landroidx/lifecycle/CoroutineLiveDataKt;->liveData(Lj$/time/Duration;Lkotlin/coroutines/d;Ljm/p;)Landroidx/lifecycle/LiveData;
+    invoke-static {p0, p1, p2}, Landroidx/lifecycle/CoroutineLiveDataKt;->liveData(Lj$/time/Duration;Lkotlin/coroutines/i;Lq8/p;)Landroidx/lifecycle/LiveData;
 
     move-result-object p0
 
     return-object p0
 .end method
 
-.method public static synthetic liveData$default(Lkotlin/coroutines/d;JLjm/p;ILjava/lang/Object;)Landroidx/lifecycle/LiveData;
+.method public static synthetic liveData$default(Lkotlin/coroutines/i;JLq8/p;ILjava/lang/Object;)Landroidx/lifecycle/LiveData;
     .locals 0
 
     and-int/lit8 p5, p4, 0x1
@@ -518,7 +394,7 @@
 
     .line 2
     :cond_1
-    invoke-static {p0, p1, p2, p3}, Landroidx/lifecycle/CoroutineLiveDataKt;->liveData(Lkotlin/coroutines/d;JLjm/p;)Landroidx/lifecycle/LiveData;
+    invoke-static {p0, p1, p2, p3}, Landroidx/lifecycle/CoroutineLiveDataKt;->liveData(Lkotlin/coroutines/i;JLq8/p;)Landroidx/lifecycle/LiveData;
 
     move-result-object p0
 

@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getBearingAccuracyDegrees(Landroid/location/Location;)F
@@ -389,6 +390,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static removeSpeedAccuracy(Landroid/location/Location;)V
@@ -523,6 +525,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static removeVerticalAccuracy(Landroid/location/Location;)V
@@ -646,6 +649,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static setBearingAccuracyDegrees(Landroid/location/Location;F)V

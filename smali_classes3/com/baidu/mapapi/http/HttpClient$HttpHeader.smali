@@ -96,7 +96,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCharset()Ljava/lang/String;
@@ -127,7 +126,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getConnection()Ljava/lang/String;
@@ -158,7 +156,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContentType()Ljava/lang/String;
@@ -189,7 +186,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCustom()Ljava/util/Map;
@@ -229,7 +225,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAccept(Ljava/lang/String;)Lcom/baidu/mapapi/http/HttpClient$HttpHeader;
@@ -262,7 +257,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCharset(Ljava/lang/String;)Lcom/baidu/mapapi/http/HttpClient$HttpHeader;
@@ -295,7 +289,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setConnection(Ljava/lang/String;)Lcom/baidu/mapapi/http/HttpClient$HttpHeader;
@@ -328,7 +321,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setContentType(Ljava/lang/String;)Lcom/baidu/mapapi/http/HttpClient$HttpHeader;
@@ -361,7 +353,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCustom(Ljava/util/Map;)Lcom/baidu/mapapi/http/HttpClient$HttpHeader;
@@ -404,5 +395,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

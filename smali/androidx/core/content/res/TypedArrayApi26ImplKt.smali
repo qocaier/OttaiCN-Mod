@@ -11,9 +11,6 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/core/content/res/TypedArrayApi26ImplKt;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -55,23 +52,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final getFont(Landroid/content/res/TypedArray;I)Landroid/graphics/Typeface;
     .locals 0
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
     .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/content/res/TypedArray;->getFont(I)Landroid/graphics/Typeface;
@@ -82,7 +71,7 @@
     move-result-object p0
 
     .line 5
-    invoke-static {p0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 6
     .line 7

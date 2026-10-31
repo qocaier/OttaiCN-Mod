@@ -3,30 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/q;
+.implements Lq8/q;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/channels/BufferedChannel;->B()Lpn/g;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1001
-    name = null
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/q<",
-        "Lkotlinx/coroutines/channels/BufferedChannel<",
-        "*>;",
-        "Lpn/j<",
-        "*>;",
-        "Ljava/lang/Object;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/q;"
     }
 .end annotation
 
@@ -76,31 +60,29 @@
     .line 1
     check-cast p1, Lkotlinx/coroutines/channels/BufferedChannel;
 
-    check-cast p2, Lpn/j;
+    check-cast p2, Lkotlinx/coroutines/selects/j;
 
-    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannel$onSend$1;->invoke(Lkotlinx/coroutines/channels/BufferedChannel;Lpn/j;Ljava/lang/Object;)V
+    invoke-virtual {p0, p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannel$onSend$1;->invoke(Lkotlinx/coroutines/channels/BufferedChannel;Lkotlinx/coroutines/selects/j;Ljava/lang/Object;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlinx/coroutines/channels/BufferedChannel;Lpn/j;Ljava/lang/Object;)V
+.method public final invoke(Lkotlinx/coroutines/channels/BufferedChannel;Lkotlinx/coroutines/selects/j;Ljava/lang/Object;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/BufferedChannel<",
-            "*>;",
-            "Lpn/j<",
-            "*>;",
+            "Lkotlinx/coroutines/channels/BufferedChannel;",
+            "Lkotlinx/coroutines/selects/j;",
             "Ljava/lang/Object;",
             ")V"
         }
     .end annotation
 
     .line 2
-    invoke-virtual {p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannel;->P1(Lpn/j;Ljava/lang/Object;)V
+    invoke-virtual {p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannel;->k1(Lkotlinx/coroutines/selects/j;Ljava/lang/Object;)V
 
     return-void
 .end method

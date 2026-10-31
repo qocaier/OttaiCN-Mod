@@ -24,16 +24,14 @@
     .end annotation
 .end method
 
-.method public abstract getImageProxy(I)Lub/u0;
+.method public abstract getImageProxy(I)Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
-            "Lub/u0<",
-            "Landroidx/camera/core/ImageProxy;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method

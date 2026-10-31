@@ -3,14 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lcom/polidea/rxandroidble2/exceptions/BleCannotSetCharacteristicNotificationException$a;
-    }
-.end annotation
-
-
 # static fields
 .field public static final CANNOT_FIND_CLIENT_CHARACTERISTIC_CONFIG_DESCRIPTOR:I = 0x2
 
@@ -39,7 +31,7 @@
     const/4 v0, -0x1
 
     .line 1
-    invoke-static {p1, v0}, Lcom/polidea/rxandroidble2/exceptions/BleCannotSetCharacteristicNotificationException;->createMessage(Landroid/bluetooth/BluetoothGattCharacteristic;I)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/polidea/rxandroidble2/exceptions/BleCannotSetCharacteristicNotificationException;->a(Landroid/bluetooth/BluetoothGattCharacteristic;I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -63,7 +55,7 @@
     .end annotation
 
     .line 4
-    invoke-static {p1, p2}, Lcom/polidea/rxandroidble2/exceptions/BleCannotSetCharacteristicNotificationException;->createMessage(Landroid/bluetooth/BluetoothGattCharacteristic;I)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/polidea/rxandroidble2/exceptions/BleCannotSetCharacteristicNotificationException;->a(Landroid/bluetooth/BluetoothGattCharacteristic;I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -78,7 +70,7 @@
     return-void
 .end method
 
-.method private static createMessage(Landroid/bluetooth/BluetoothGattCharacteristic;I)Ljava/lang/String;
+.method public static a(Landroid/bluetooth/BluetoothGattCharacteristic;I)Ljava/lang/String;
     .locals 2
 
     .line 1
@@ -91,7 +83,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Lcom/polidea/rxandroidble2/exceptions/BleCannotSetCharacteristicNotificationException;->reasonDescription(I)Ljava/lang/String;
+    invoke-static {p1}, Lcom/polidea/rxandroidble2/exceptions/BleCannotSetCharacteristicNotificationException;->b(I)Ljava/lang/String;
 
     .line 7
     .line 8
@@ -166,9 +158,19 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
-.method private static reasonDescription(I)Ljava/lang/String;
+.method public static b(I)Ljava/lang/String;
     .locals 1
 
     .line 1
@@ -226,6 +228,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -256,6 +260,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getReason()I
@@ -284,4 +290,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

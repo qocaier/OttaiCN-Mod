@@ -156,6 +156,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -240,6 +241,7 @@
     .line 19
     .line 20
     return-object v0
+    .line 21
 .end method
 
 .method public getExtras()Landroid/os/Bundle;
@@ -268,6 +270,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setAllowDataType(Ljava/lang/String;Z)Landroidx/core/app/RemoteInput$Builder;

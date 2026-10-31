@@ -460,6 +460,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static fromColor(I)Landroidx/core/content/res/CamColor;
@@ -594,6 +597,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static fromColorInViewingConditions(ILandroidx/core/content/res/ViewingConditions;[F[F)V
@@ -2726,6 +2730,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static fromJchInFrame(FFFLandroidx/core/content/res/ViewingConditions;)Landroidx/core/content/res/CamColor;
@@ -3133,6 +3140,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static getM3HCTfromColor(I[F)V
@@ -3569,6 +3582,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getAStar()F
@@ -3603,6 +3617,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBStar()F
@@ -3637,6 +3652,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getChroma()F
@@ -3670,6 +3686,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHue()F
@@ -3703,6 +3720,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJ()F
@@ -3735,6 +3753,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJStar()F
@@ -3767,6 +3786,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getM()F
@@ -3800,6 +3820,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getQ()F
@@ -3833,6 +3854,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getS()F
@@ -3866,6 +3888,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public viewed(Landroidx/core/content/res/ViewingConditions;)I
@@ -5826,4 +5849,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

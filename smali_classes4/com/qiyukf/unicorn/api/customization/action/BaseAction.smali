@@ -109,6 +109,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public final buildTextMessage(Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -148,6 +150,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public final getAccount()Ljava/lang/String;
@@ -178,6 +182,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getActionFontColor()I
@@ -210,6 +216,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final getActivity()Landroid/app/Activity;
@@ -240,6 +248,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final getFragment()Landroidx/fragment/app/Fragment;
@@ -270,6 +280,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getIconResId()I
@@ -298,6 +310,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getImageUrl()Ljava/lang/String;
@@ -326,6 +340,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -354,6 +370,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTitleId()I
@@ -382,6 +400,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final makeRequestCode(I)I
@@ -436,6 +456,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onActivityResult(IILandroid/content/Intent;)V
@@ -478,6 +500,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setIndex(I)V
@@ -511,4 +535,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

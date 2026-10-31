@@ -65,6 +65,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private invalidateFullSpansAfter(I)I
@@ -222,6 +223,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private offsetFullSpansForAddition(II)V
@@ -574,6 +576,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public clear()V
@@ -613,6 +616,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public ensureSize(I)V
@@ -747,6 +751,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public forceInvalidateAfter(I)I
@@ -870,6 +875,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getFirstFullSpanItemInRange(IIIZ)Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem;
@@ -1162,6 +1168,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getFullSpanItem(I)Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LazySpanLookup$FullSpanItem;
@@ -1284,6 +1296,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getSpan(I)I
@@ -1459,6 +1472,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public offsetForAddition(II)V

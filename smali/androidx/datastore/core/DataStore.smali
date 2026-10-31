@@ -15,43 +15,23 @@
 
 
 # virtual methods
-.method public abstract getData()Ljn/e;
+.method public abstract getData()Lkotlinx/coroutines/flow/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Ljn/e<",
-            "TT;>;"
+            "Lkotlinx/coroutines/flow/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
-.method public abstract updateData(Ljm/p;Lul/c;)Ljava/lang/Object;
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract updateData(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-TT;-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method

@@ -608,6 +608,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public executePendingTask()V
@@ -777,6 +783,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isLoadInBackgroundCanceled()Z
@@ -814,6 +822,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract loadInBackground()Ljava/lang/Object;
@@ -999,6 +1008,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onCanceled(Ljava/lang/Object;)V
@@ -1052,6 +1063,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onLoadInBackground()Ljava/lang/Object;
@@ -1090,6 +1102,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setUpdateThrottle(J)V
@@ -1174,4 +1187,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

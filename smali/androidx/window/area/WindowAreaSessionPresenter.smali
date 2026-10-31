@@ -13,13 +13,7 @@
 
 # virtual methods
 .method public abstract getContext()Landroid/content/Context;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract setContentView(Landroid/view/View;)V
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method

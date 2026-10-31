@@ -55,6 +55,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -116,6 +118,8 @@
     .line 24
     .line 25
     return-void
+    .line 26
+    .line 27
 .end method
 
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V

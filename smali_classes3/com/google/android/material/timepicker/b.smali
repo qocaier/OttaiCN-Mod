@@ -7,17 +7,17 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/google/android/material/timepicker/RadialViewGroup;
+.field public final synthetic a:Lcom/google/android/material/timepicker/MaterialTimePicker;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/google/android/material/timepicker/RadialViewGroup;)V
+.method public synthetic constructor <init>(Lcom/google/android/material/timepicker/MaterialTimePicker;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/material/timepicker/b;->a:Lcom/google/android/material/timepicker/RadialViewGroup;
+    iput-object p1, p0, Lcom/google/android/material/timepicker/b;->a:Lcom/google/android/material/timepicker/MaterialTimePicker;
 
     return-void
 .end method
@@ -28,9 +28,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/timepicker/b;->a:Lcom/google/android/material/timepicker/RadialViewGroup;
+    iget-object v0, p0, Lcom/google/android/material/timepicker/b;->a:Lcom/google/android/material/timepicker/MaterialTimePicker;
 
-    invoke-virtual {v0}, Lcom/google/android/material/timepicker/RadialViewGroup;->updateLayoutParams()V
+    invoke-static {v0}, Lcom/google/android/material/timepicker/MaterialTimePicker;->e(Lcom/google/android/material/timepicker/MaterialTimePicker;)V
 
     return-void
 .end method

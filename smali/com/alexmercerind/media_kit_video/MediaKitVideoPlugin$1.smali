@@ -40,24 +40,6 @@
 # direct methods
 .method public constructor <init>(Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;JJJII)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010,
-            0x1010,
-            0x1010,
-            0x1010,
-            0x1010
-        }
-        names = {
-            null,
-            null,
-            null,
-            null,
-            null,
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin$1;->this$0:Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;

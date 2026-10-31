@@ -5,7 +5,7 @@
 # interfaces
 .implements Ljava/util/Map;
 .implements Ljava/io/Serializable;
-.implements Llm/g;
+.implements Lr8/b;
 
 
 # annotations
@@ -31,58 +31,27 @@
         "Ljava/util/Map<",
         "TK;TV;>;",
         "Ljava/io/Serializable;",
-        "Llm/g;"
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMapBuilder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MapBuilder.kt\nkotlin/collections/builders/MapBuilder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,751:1\n1#2:752\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nMapBuilder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MapBuilder.kt\nkotlin/collections/builders/MapBuilder\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,751:1\n1#2:752\n*E\n"
+        "Lr8/b;"
     }
 .end annotation
 
 
 # static fields
 .field public static final Companion:Lkotlin/collections/builders/MapBuilder$a;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field public static final a:I = -0x61c88647
-
-.field public static final b:I = 0x8
-
-.field public static final c:I = 0x2
-
-.field public static final d:I = -0x1
-
-.field public static final e:Lkotlin/collections/builders/MapBuilder;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final a:Lkotlin/collections/builders/MapBuilder;
 
 
 # instance fields
-.field private entriesView:Lkotlin/collections/builders/a;
+.field private entriesView:Lkotlin/collections/builders/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/collections/builders/a<",
-            "TK;TV;>;"
+            "Lkotlin/collections/builders/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end field
 
 .field private hashArray:[I
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private hashShift:I
 
@@ -94,20 +63,13 @@
             "[TK;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
-.field private keysView:Lkotlin/collections/builders/b;
+.field private keysView:Lkotlin/collections/builders/d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/collections/builders/b<",
-            "TK;>;"
+            "Lkotlin/collections/builders/d;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end field
 
@@ -118,9 +80,6 @@
 .field private modCount:I
 
 .field private presenceArray:[I
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private size:I
 
@@ -130,20 +89,13 @@
             "[TV;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end field
 
-.field private valuesView:Lkotlin/collections/builders/c;
+.field private valuesView:Lkotlin/collections/builders/e;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlin/collections/builders/c<",
-            "TV;>;"
+            "Lkotlin/collections/builders/e;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end field
 
@@ -160,7 +112,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Lkotlin/collections/builders/MapBuilder$a;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Lkotlin/collections/builders/MapBuilder$a;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -188,7 +140,7 @@
 
     .line 17
     .line 18
-    sput-object v0, Lkotlin/collections/builders/MapBuilder;->e:Lkotlin/collections/builders/MapBuilder;
+    sput-object v0, Lkotlin/collections/builders/MapBuilder;->a:Lkotlin/collections/builders/MapBuilder;
 
     .line 19
     .line 20
@@ -196,6 +148,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public constructor <init>()V
@@ -213,7 +192,7 @@
     .locals 7
 
     .line 10
-    invoke-static {p1}, Lml/b;->d(I)[Ljava/lang/Object;
+    invoke-static {p1}, Lkotlin/collections/builders/b;->d(I)[Ljava/lang/Object;
 
     move-result-object v1
 
@@ -245,11 +224,6 @@
 
 .method public constructor <init>([Ljava/lang/Object;[Ljava/lang/Object;[I[III)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "([TK;[TV;[I[III)V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -275,7 +249,7 @@
     .line 8
     sget-object p1, Lkotlin/collections/builders/MapBuilder;->Companion:Lkotlin/collections/builders/MapBuilder$a;
 
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->l()I
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->h()I
 
     move-result p2
 
@@ -320,13 +294,46 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public static final synthetic access$getEmpty$cp()Lkotlin/collections/builders/MapBuilder;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlin/collections/builders/MapBuilder;->e:Lkotlin/collections/builders/MapBuilder;
+    sget-object v0, Lkotlin/collections/builders/MapBuilder;->a:Lkotlin/collections/builders/MapBuilder;
 
     .line 2
     .line 3
@@ -351,6 +358,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public static final synthetic access$getKeysArray$p(Lkotlin/collections/builders/MapBuilder;)[Ljava/lang/Object;
@@ -383,6 +417,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public static final synthetic access$getLength$p(Lkotlin/collections/builders/MapBuilder;)I
@@ -415,6 +482,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public static final synthetic access$getModCount$p(Lkotlin/collections/builders/MapBuilder;)I
@@ -447,6 +547,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public static final synthetic access$getPresenceArray$p(Lkotlin/collections/builders/MapBuilder;)[I
@@ -479,6 +612,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public static final synthetic access$getValuesArray$p(Lkotlin/collections/builders/MapBuilder;)[Ljava/lang/Object;
@@ -511,13 +677,46 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public static final synthetic access$removeEntryAt(Lkotlin/collections/builders/MapBuilder;I)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->s(I)V
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->o(I)V
 
     .line 2
     .line 3
@@ -560,9 +759,92 @@
     .line 39
     .line 40
     .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
-.method private final e(I)V
+.method private final d(I)V
     .locals 2
 
     .line 1
@@ -582,7 +864,7 @@
 
     .line 8
     .line 9
-    sget-object v0, Lll/d;->Companion:Lll/d$a;
+    sget-object v0, Lkotlin/collections/d;->Companion:Lkotlin/collections/d$a;
 
     .line 10
     .line 11
@@ -594,7 +876,7 @@
     move-result v1
 
     .line 15
-    invoke-virtual {v0, v1, p1}, Lll/d$a;->e(II)I
+    invoke-virtual {v0, v1, p1}, Lkotlin/collections/d$a;->e(II)I
 
     .line 16
     .line 17
@@ -606,7 +888,7 @@
 
     .line 20
     .line 21
-    invoke-static {v0, p1}, Lml/b;->e([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {v0, p1}, Lkotlin/collections/builders/b;->e([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -626,7 +908,7 @@
 
     .line 30
     .line 31
-    invoke-static {v0, p1}, Lml/b;->e([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {v0, p1}, Lkotlin/collections/builders/b;->e([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -662,7 +944,7 @@
 
     .line 46
     .line 47
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -683,7 +965,7 @@
     move-result p1
 
     .line 58
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->l()I
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->h()I
 
     .line 59
     .line 60
@@ -695,7 +977,7 @@
 
     .line 63
     .line 64
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->r(I)V
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->n(I)V
 
     .line 65
     .line 66
@@ -718,13 +1000,371 @@
     .line 74
     .line 75
     .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
 .end method
 
-.method private final g(I)V
+.method private final e(I)V
     .locals 1
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->u(I)Z
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->q(I)Z
 
     .line 2
     .line 3
@@ -739,7 +1379,7 @@
     const/4 p1, 0x1
 
     .line 8
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->c(Z)V
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->b(Z)V
 
     .line 9
     .line 10
@@ -755,7 +1395,7 @@
     add-int/2addr v0, p1
 
     .line 15
-    invoke-direct {p0, v0}, Lkotlin/collections/builders/MapBuilder;->e(I)V
+    invoke-direct {p0, v0}, Lkotlin/collections/builders/MapBuilder;->d(I)V
 
     .line 16
     .line 17
@@ -767,9 +1407,42 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method private final q()V
+.method private final m()V
     .locals 1
 
     .line 1
@@ -802,6 +1475,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method private final readObject(Ljava/io/ObjectInputStream;)V
@@ -838,6 +1538,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method private final writeReplace()Ljava/lang/Object;
@@ -884,17 +1617,39 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
 .method public final a()[Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()[TV;"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->valuesArray:[Ljava/lang/Object;
@@ -917,7 +1672,7 @@
     move-result v0
 
     .line 10
-    invoke-static {v0}, Lml/b;->d(I)[Ljava/lang/Object;
+    invoke-static {v0}, Lkotlin/collections/builders/b;->d(I)[Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -937,6 +1692,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final addKey$kotlin_stdlib(Ljava/lang/Object;)I
@@ -954,7 +1736,7 @@
     .line 3
     .line 4
     :goto_0
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->m(Ljava/lang/Object;)I
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->i(Ljava/lang/Object;)I
 
     .line 5
     .line 6
@@ -970,7 +1752,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->l()I
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->h()I
 
     .line 13
     .line 14
@@ -982,7 +1764,7 @@
 
     .line 17
     .line 18
-    invoke-static {v1, v2}, Ltm/u;->B(II)I
+    invoke-static {v1, v2}, Lu8/f;->d(II)I
 
     .line 19
     .line 20
@@ -1025,7 +1807,7 @@
 
     .line 37
     .line 38
-    invoke-direct {p0, v4}, Lkotlin/collections/builders/MapBuilder;->g(I)V
+    invoke-direct {p0, v4}, Lkotlin/collections/builders/MapBuilder;->e(I)V
 
     .line 39
     .line 40
@@ -1085,7 +1867,7 @@
 
     .line 66
     .line 67
-    invoke-direct {p0}, Lkotlin/collections/builders/MapBuilder;->q()V
+    invoke-direct {p0}, Lkotlin/collections/builders/MapBuilder;->m()V
 
     .line 68
     .line 69
@@ -1119,7 +1901,7 @@
 
     .line 82
     .line 83
-    invoke-static {v5, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v5, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 84
     .line 85
@@ -1146,7 +1928,7 @@
 
     .line 94
     .line 95
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->l()I
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->h()I
 
     .line 96
     .line 97
@@ -1158,7 +1940,7 @@
 
     .line 100
     .line 101
-    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->r(I)V
+    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->n(I)V
 
     .line 102
     .line 103
@@ -1175,7 +1957,7 @@
 
     .line 108
     .line 109
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->l()I
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->h()I
 
     .line 110
     .line 111
@@ -1392,69 +2174,129 @@
     .line 312
     .line 313
     .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
 .end method
 
-.method public final build()Ljava/util/Map;
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Map<",
-            "TK;TV;>;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
-
-    .line 2
-    .line 3
-    .line 4
-    const/4 v0, 0x1
-
-    .line 5
-    iput-boolean v0, p0, Lkotlin/collections/builders/MapBuilder;->isReadOnly:Z
-
-    .line 6
-    .line 7
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->size()I
-
-    .line 8
-    .line 9
-    .line 10
-    move-result v0
-
-    .line 11
-    if-lez v0, :cond_0
-
-    .line 12
-    .line 13
-    return-object p0
-
-    .line 14
-    :cond_0
-    sget-object v0, Lkotlin/collections/builders/MapBuilder;->e:Lkotlin/collections/builders/MapBuilder;
-
-    .line 15
-    .line 16
-    const-string v1, "null cannot be cast to non-null type kotlin.collections.Map<K of kotlin.collections.builders.MapBuilder, V of kotlin.collections.builders.MapBuilder>"
-
-    .line 17
-    .line 18
-    invoke-static {v0, v1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 19
-    .line 20
-    .line 21
-    return-object v0
-    .line 22
-    .line 23
-.end method
-
-.method public final c(Z)V
+.method public final b(Z)V
     .locals 7
 
     .line 1
@@ -1552,7 +2394,7 @@
 
     .line 43
     .line 44
-    invoke-static {p1, v2, v3}, Lml/b;->g([Ljava/lang/Object;II)V
+    invoke-static {p1, v2, v3}, Lkotlin/collections/builders/b;->g([Ljava/lang/Object;II)V
 
     .line 45
     .line 46
@@ -1565,7 +2407,7 @@
 
     .line 50
     .line 51
-    invoke-static {v0, v2, p1}, Lml/b;->g([Ljava/lang/Object;II)V
+    invoke-static {v0, v2, p1}, Lkotlin/collections/builders/b;->g([Ljava/lang/Object;II)V
 
     .line 52
     .line 53
@@ -1577,25 +2419,180 @@
     .line 56
     return-void
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
+.end method
+
+.method public final build()Ljava/util/Map;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "TK;TV;>;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 v0, 0x1
+
+    .line 5
+    iput-boolean v0, p0, Lkotlin/collections/builders/MapBuilder;->isReadOnly:Z
+
+    .line 6
+    .line 7
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->size()I
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v0
+
+    .line 11
+    if-lez v0, :cond_0
+
+    .line 12
+    .line 13
+    return-object p0
+
+    .line 14
+    :cond_0
+    sget-object v0, Lkotlin/collections/builders/MapBuilder;->a:Lkotlin/collections/builders/MapBuilder;
+
+    .line 15
+    .line 16
+    const-string v1, "null cannot be cast to non-null type kotlin.collections.Map<K of kotlin.collections.builders.MapBuilder, V of kotlin.collections.builders.MapBuilder>"
+
+    .line 17
+    .line 18
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 19
+    .line 20
+    .line 21
+    return-object v0
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public final c(Ljava/util/Map;)Z
+    .locals 2
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->size()I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    invoke-interface {p1}, Ljava/util/Map;->size()I
+
+    .line 6
+    .line 7
+    .line 8
+    move-result v1
+
+    .line 9
+    if-ne v0, v1, :cond_0
+
+    .line 10
+    .line 11
+    invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object p1
+
+    .line 15
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->containsAllEntries$kotlin_stdlib(Ljava/util/Collection;)Z
+
+    .line 16
+    .line 17
+    .line 18
+    move-result p1
+
+    .line 19
+    if-eqz p1, :cond_0
+
+    .line 20
+    .line 21
+    const/4 p1, 0x1
+
+    .line 22
+    return p1
+
+    .line 23
+    :cond_0
+    const/4 p1, 0x0
+
+    .line 24
+    return p1
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public final checkIsMutable$kotlin_stdlib()V
@@ -1636,6 +2633,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public clear()V
@@ -1714,7 +2738,7 @@
 
     .line 33
     .line 34
-    invoke-static {v0, v1, v2}, Lml/b;->g([Ljava/lang/Object;II)V
+    invoke-static {v0, v1, v2}, Lkotlin/collections/builders/b;->g([Ljava/lang/Object;II)V
 
     .line 35
     .line 36
@@ -1731,7 +2755,7 @@
 
     .line 42
     .line 43
-    invoke-static {v0, v1, v2}, Lml/b;->g([Ljava/lang/Object;II)V
+    invoke-static {v0, v1, v2}, Lkotlin/collections/builders/b;->g([Ljava/lang/Object;II)V
 
     .line 44
     .line 45
@@ -1745,7 +2769,7 @@
 
     .line 49
     .line 50
-    invoke-direct {p0}, Lkotlin/collections/builders/MapBuilder;->q()V
+    invoke-direct {p0}, Lkotlin/collections/builders/MapBuilder;->m()V
 
     .line 51
     .line 52
@@ -1798,14 +2822,382 @@
     .line 98
     .line 99
     .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
+    .line 441
+    .line 442
+    .line 443
+    .line 444
+    .line 445
+    .line 446
+    .line 447
+    .line 448
+    .line 449
+    .line 450
+    .line 451
+    .line 452
+    .line 453
+    .line 454
+    .line 455
+    .line 456
+    .line 457
+    .line 458
+    .line 459
+    .line 460
+    .line 461
+    .line 462
+    .line 463
+    .line 464
+    .line 465
+    .line 466
+    .line 467
+    .line 468
+    .line 469
+    .line 470
+    .line 471
+    .line 472
 .end method
 
 .method public final containsAllEntries$kotlin_stdlib(Ljava/util/Collection;)Z
     .locals 2
-    .param p1    # Ljava/util/Collection;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1819,7 +3211,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1915,33 +3307,10 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
 .method public final containsEntry$kotlin_stdlib(Ljava/util/Map$Entry;)Z
     .locals 2
-    .param p1    # Ljava/util/Map$Entry;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1955,7 +3324,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1968,7 +3337,7 @@
     move-result-object v0
 
     .line 10
-    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->i(Ljava/lang/Object;)I
+    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->f(Ljava/lang/Object;)I
 
     .line 11
     .line 12
@@ -1991,7 +3360,7 @@
 
     .line 19
     .line 20
-    invoke-static {v1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 21
     .line 22
@@ -2008,7 +3377,7 @@
     move-result-object p1
 
     .line 29
-    invoke-static {v0, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 30
     .line 31
@@ -2041,32 +3410,13 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
 .method public containsKey(Ljava/lang/Object;)Z
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->i(Ljava/lang/Object;)I
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->f(Ljava/lang/Object;)I
 
     .line 2
     .line 3
@@ -2103,13 +3453,46 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public containsValue(Ljava/lang/Object;)Z
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->k(Ljava/lang/Object;)I
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->g(Ljava/lang/Object;)I
 
     .line 2
     .line 3
@@ -2146,70 +3529,39 @@
     .line 22
     .line 23
     .line 24
-.end method
-
-.method public final d(Ljava/util/Map;)Z
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Map<",
-            "**>;)Z"
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->size()I
-
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
-
-    .line 5
-    invoke-interface {p1}, Ljava/util/Map;->size()I
-
-    .line 6
-    .line 7
-    .line 8
-    move-result v1
-
-    .line 9
-    if-ne v0, v1, :cond_0
-
-    .line 10
-    .line 11
-    invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
-
-    .line 12
-    .line 13
-    .line 14
-    move-result-object p1
-
-    .line 15
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->containsAllEntries$kotlin_stdlib(Ljava/util/Collection;)Z
-
-    .line 16
-    .line 17
-    .line 18
-    move-result p1
-
-    .line 19
-    if-eqz p1, :cond_0
-
-    .line 20
-    .line 21
-    const/4 p1, 0x1
-
-    .line 22
-    return p1
-
-    .line 23
-    :cond_0
-    const/4 p1, 0x0
-
-    .line 24
-    return p1
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public final entriesIterator$kotlin_stdlib()Lkotlin/collections/builders/MapBuilder$b;
@@ -2217,12 +3569,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/collections/builders/MapBuilder$b<",
-            "TK;TV;>;"
+            "Lkotlin/collections/builders/MapBuilder$b;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -2253,6 +3601,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final bridge entrySet()Ljava/util/Set;
@@ -2294,14 +3669,37 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     if-eq p1, p0, :cond_1
@@ -2320,7 +3718,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->d(Ljava/util/Map;)Z
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->c(Ljava/util/Map;)Z
 
     .line 10
     .line 11
@@ -2353,341 +3751,46 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public get(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/Object;",
-            ")TV;"
-        }
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
+.method public final f(Ljava/lang/Object;)I
+    .locals 5
 
     .line 1
     invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->i(Ljava/lang/Object;)I
-
-    .line 2
-    .line 3
-    .line 4
-    move-result p1
-
-    .line 5
-    if-gez p1, :cond_0
-
-    .line 6
-    .line 7
-    const/4 p1, 0x0
-
-    .line 8
-    return-object p1
-
-    .line 9
-    :cond_0
-    iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->valuesArray:[Ljava/lang/Object;
-
-    .line 10
-    .line 11
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
-
-    .line 12
-    .line 13
-    .line 14
-    aget-object p1, v0, p1
-
-    .line 15
-    .line 16
-    return-object p1
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-.end method
-
-.method public final getCapacity$kotlin_stdlib()I
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->keysArray:[Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    array-length v0, v0
-
-    .line 4
-    return v0
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public getEntries()Ljava/util/Set;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Set<",
-            "Ljava/util/Map$Entry<",
-            "TK;TV;>;>;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->entriesView:Lkotlin/collections/builders/a;
-
-    .line 2
-    .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    new-instance v0, Lkotlin/collections/builders/a;
-
-    .line 6
-    .line 7
-    invoke-direct {v0, p0}, Lkotlin/collections/builders/a;-><init>(Lkotlin/collections/builders/MapBuilder;)V
-
-    .line 8
-    .line 9
-    .line 10
-    iput-object v0, p0, Lkotlin/collections/builders/MapBuilder;->entriesView:Lkotlin/collections/builders/a;
-
-    .line 11
-    .line 12
-    :cond_0
-    return-object v0
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public getKeys()Ljava/util/Set;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Set<",
-            "TK;>;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->keysView:Lkotlin/collections/builders/b;
-
-    .line 2
-    .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    new-instance v0, Lkotlin/collections/builders/b;
-
-    .line 6
-    .line 7
-    invoke-direct {v0, p0}, Lkotlin/collections/builders/b;-><init>(Lkotlin/collections/builders/MapBuilder;)V
-
-    .line 8
-    .line 9
-    .line 10
-    iput-object v0, p0, Lkotlin/collections/builders/MapBuilder;->keysView:Lkotlin/collections/builders/b;
-
-    .line 11
-    .line 12
-    :cond_0
-    return-object v0
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public getSize()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lkotlin/collections/builders/MapBuilder;->size:I
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public getValues()Ljava/util/Collection;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Collection<",
-            "TV;>;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->valuesView:Lkotlin/collections/builders/c;
-
-    .line 2
-    .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    new-instance v0, Lkotlin/collections/builders/c;
-
-    .line 6
-    .line 7
-    invoke-direct {v0, p0}, Lkotlin/collections/builders/c;-><init>(Lkotlin/collections/builders/MapBuilder;)V
-
-    .line 8
-    .line 9
-    .line 10
-    iput-object v0, p0, Lkotlin/collections/builders/MapBuilder;->valuesView:Lkotlin/collections/builders/c;
-
-    .line 11
-    .line 12
-    :cond_0
-    return-object v0
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public hashCode()I
-    .locals 3
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->entriesIterator$kotlin_stdlib()Lkotlin/collections/builders/MapBuilder$b;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object v0
-
-    .line 5
-    const/4 v1, 0x0
-
-    .line 6
-    :goto_0
-    invoke-virtual {v0}, Lkotlin/collections/builders/MapBuilder$d;->hasNext()Z
-
-    .line 7
-    .line 8
-    .line 9
-    move-result v2
-
-    .line 10
-    if-eqz v2, :cond_0
-
-    .line 11
-    .line 12
-    invoke-virtual {v0}, Lkotlin/collections/builders/MapBuilder$b;->l()I
-
-    .line 13
-    .line 14
-    .line 15
-    move-result v2
-
-    .line 16
-    add-int/2addr v1, v2
-
-    .line 17
-    goto :goto_0
-
-    .line 18
-    :cond_0
-    return v1
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public final i(Ljava/lang/Object;)I
-    .locals 5
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TK;)I"
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->m(Ljava/lang/Object;)I
 
     .line 2
     .line 3
@@ -2735,7 +3838,7 @@
 
     .line 22
     .line 23
-    invoke-static {v4, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 24
     .line 25
@@ -2770,7 +3873,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->l()I
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->h()I
 
     .line 39
     .line 40
@@ -2801,107 +3904,10 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public isEmpty()Z
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->size()I
-
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
-
-    .line 5
-    if-nez v0, :cond_0
-
-    .line 6
-    .line 7
-    const/4 v0, 0x1
-
-    .line 8
-    return v0
-
-    .line 9
-    :cond_0
-    const/4 v0, 0x0
-
-    .line 10
-    return v0
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public final isReadOnly$kotlin_stdlib()Z
-    .locals 1
-
-    .line 1
-    iget-boolean v0, p0, Lkotlin/collections/builders/MapBuilder;->isReadOnly:Z
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public final k(Ljava/lang/Object;)I
+.method public final g(Ljava/lang/Object;)I
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TV;)I"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Lkotlin/collections/builders/MapBuilder;->length:I
@@ -2935,7 +3941,7 @@
 
     .line 14
     .line 15
-    invoke-static {v1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 16
     .line 17
@@ -2944,7 +3950,7 @@
 
     .line 19
     .line 20
-    invoke-static {v1, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 21
     .line 22
@@ -2991,28 +3997,231 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public final bridge keySet()Ljava/util/Set;
+.method public get(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            ")TV;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->f(Ljava/lang/Object;)I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p1
+
+    .line 5
+    if-gez p1, :cond_0
+
+    .line 6
+    .line 7
+    const/4 p1, 0x0
+
+    .line 8
+    return-object p1
+
+    .line 9
+    :cond_0
+    iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->valuesArray:[Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+
+    .line 12
+    .line 13
+    .line 14
+    aget-object p1, v0, p1
+
+    .line 15
+    .line 16
+    return-object p1
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+.end method
+
+.method public final getCapacity$kotlin_stdlib()I
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->keysArray:[Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    array-length v0, v0
+
+    .line 4
+    return v0
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public getEntries()Ljava/util/Set;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "Ljava/util/Map$Entry<",
+            "TK;TV;>;>;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->entriesView:Lkotlin/collections/builders/c;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_0
+
+    .line 4
+    .line 5
+    new-instance v0, Lkotlin/collections/builders/c;
+
+    .line 6
+    .line 7
+    invoke-direct {v0, p0}, Lkotlin/collections/builders/c;-><init>(Lkotlin/collections/builders/MapBuilder;)V
+
+    .line 8
+    .line 9
+    .line 10
+    iput-object v0, p0, Lkotlin/collections/builders/MapBuilder;->entriesView:Lkotlin/collections/builders/c;
+
+    .line 11
+    .line 12
+    :cond_0
+    return-object v0
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public getKeys()Ljava/util/Set;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -3023,15 +4232,80 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->getKeys()Ljava/util/Set;
+    iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->keysView:Lkotlin/collections/builders/d;
 
     .line 2
     .line 3
-    .line 4
-    move-result-object v0
+    if-nez v0, :cond_0
 
+    .line 4
     .line 5
+    new-instance v0, Lkotlin/collections/builders/d;
+
+    .line 6
+    .line 7
+    invoke-direct {v0, p0}, Lkotlin/collections/builders/d;-><init>(Lkotlin/collections/builders/MapBuilder;)V
+
+    .line 8
+    .line 9
+    .line 10
+    iput-object v0, p0, Lkotlin/collections/builders/MapBuilder;->keysView:Lkotlin/collections/builders/d;
+
+    .line 11
+    .line 12
+    :cond_0
     return-object v0
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public getSize()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lkotlin/collections/builders/MapBuilder;->size:I
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
     .line 6
     .line 7
     .line 8
@@ -3050,38 +4324,69 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public final keysIterator$kotlin_stdlib()Lkotlin/collections/builders/MapBuilder$e;
+.method public getValues()Ljava/util/Collection;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/collections/builders/MapBuilder$e<",
-            "TK;TV;>;"
+            "Ljava/util/Collection<",
+            "TV;>;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
-    new-instance v0, Lkotlin/collections/builders/MapBuilder$e;
+    iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->valuesView:Lkotlin/collections/builders/e;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lkotlin/collections/builders/MapBuilder$e;-><init>(Lkotlin/collections/builders/MapBuilder;)V
+    if-nez v0, :cond_0
 
     .line 4
     .line 5
+    new-instance v0, Lkotlin/collections/builders/e;
+
     .line 6
-    return-object v0
     .line 7
+    invoke-direct {v0, p0}, Lkotlin/collections/builders/e;-><init>(Lkotlin/collections/builders/MapBuilder;)V
+
     .line 8
     .line 9
     .line 10
+    iput-object v0, p0, Lkotlin/collections/builders/MapBuilder;->valuesView:Lkotlin/collections/builders/e;
+
     .line 11
     .line 12
+    :cond_0
+    return-object v0
     .line 13
     .line 14
     .line 15
@@ -3093,9 +4398,36 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public final l()I
+.method public final h()I
     .locals 1
 
     .line 1
@@ -3126,15 +4458,115 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public final m(Ljava/lang/Object;)I
+.method public hashCode()I
+    .locals 3
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->entriesIterator$kotlin_stdlib()Lkotlin/collections/builders/MapBuilder$b;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    const/4 v1, 0x0
+
+    .line 6
+    :goto_0
+    invoke-virtual {v0}, Lkotlin/collections/builders/MapBuilder$d;->hasNext()Z
+
+    .line 7
+    .line 8
+    .line 9
+    move-result v2
+
+    .line 10
+    if-eqz v2, :cond_0
+
+    .line 11
+    .line 12
+    invoke-virtual {v0}, Lkotlin/collections/builders/MapBuilder$b;->j()I
+
+    .line 13
+    .line 14
+    .line 15
+    move-result v2
+
+    .line 16
+    add-int/2addr v1, v2
+
+    .line 17
+    goto :goto_0
+
+    .line 18
+    :cond_0
+    return v1
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public final i(Ljava/lang/Object;)I
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TK;)I"
-        }
-    .end annotation
 
     .line 1
     if-eqz p1, :cond_0
@@ -3181,19 +4613,170 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public final n(Ljava/util/Collection;)Z
+.method public isEmpty()Z
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->size()I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    if-nez v0, :cond_0
+
+    .line 6
+    .line 7
+    const/4 v0, 0x1
+
+    .line 8
+    return v0
+
+    .line 9
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 10
+    return v0
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public final isReadOnly$kotlin_stdlib()Z
+    .locals 1
+
+    .line 1
+    iget-boolean v0, p0, Lkotlin/collections/builders/MapBuilder;->isReadOnly:Z
+
+    .line 2
+    .line 3
+    return v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public final j(Ljava/util/Collection;)Z
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Collection<",
-            "+",
-            "Ljava/util/Map$Entry<",
-            "+TK;+TV;>;>;)Z"
-        }
-    .end annotation
 
     .line 1
     invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
@@ -3223,7 +4806,7 @@
     move-result v0
 
     .line 13
-    invoke-direct {p0, v0}, Lkotlin/collections/builders/MapBuilder;->g(I)V
+    invoke-direct {p0, v0}, Lkotlin/collections/builders/MapBuilder;->e(I)V
 
     .line 14
     .line 15
@@ -3262,7 +4845,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->o(Ljava/util/Map$Entry;)Z
+    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->k(Ljava/util/Map$Entry;)Z
 
     .line 33
     .line 34
@@ -3299,36 +4882,10 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public final o(Ljava/util/Map$Entry;)Z
+.method public final k(Ljava/util/Map$Entry;)Z
     .locals 5
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Map$Entry<",
-            "+TK;+TV;>;)Z"
-        }
-    .end annotation
 
     .line 1
     invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
@@ -3396,7 +4953,7 @@
     move-result-object v4
 
     .line 31
-    invoke-static {v4, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 32
     .line 33
@@ -3440,28 +4997,142 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public final p(I)Z
+.method public final bridge keySet()Ljava/util/Set;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Set<",
+            "TK;>;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->getKeys()Ljava/util/Set;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public final keysIterator$kotlin_stdlib()Lkotlin/collections/builders/MapBuilder$e;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkotlin/collections/builders/MapBuilder$e;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lkotlin/collections/builders/MapBuilder$e;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0}, Lkotlin/collections/builders/MapBuilder$e;-><init>(Lkotlin/collections/builders/MapBuilder;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object v0
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public final l(I)Z
     .locals 5
 
     .line 1
@@ -3473,7 +5144,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->m(Ljava/lang/Object;)I
+    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->i(Ljava/lang/Object;)I
 
     .line 6
     .line 7
@@ -3544,7 +5215,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->l()I
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->h()I
 
     .line 38
     .line 39
@@ -3576,167 +5247,13 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TK;TV;)TV;"
-        }
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
-
-    .line 2
-    .line 3
-    .line 4
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->addKey$kotlin_stdlib(Ljava/lang/Object;)I
-
-    .line 5
-    .line 6
-    .line 7
-    move-result p1
-
-    .line 8
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->a()[Ljava/lang/Object;
-
-    .line 9
-    .line 10
-    .line 11
-    move-result-object v0
-
-    .line 12
-    if-gez p1, :cond_0
-
-    .line 13
-    .line 14
-    neg-int p1, p1
-
-    .line 15
-    add-int/lit8 p1, p1, -0x1
-
-    .line 16
-    .line 17
-    aget-object v1, v0, p1
-
-    .line 18
-    .line 19
-    aput-object p2, v0, p1
-
-    .line 20
-    .line 21
-    return-object v1
-
-    .line 22
-    :cond_0
-    aput-object p2, v0, p1
-
-    .line 23
-    .line 24
-    const/4 p1, 0x0
-
-    .line 25
-    return-object p1
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-.end method
-
-.method public putAll(Ljava/util/Map;)V
-    .locals 1
-    .param p1    # Ljava/util/Map;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Map<",
-            "+TK;+TV;>;)V"
-        }
-    .end annotation
-
-    .line 1
-    const-string v0, "from"
-
-    .line 2
-    .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
-
-    .line 7
-    .line 8
-    .line 9
-    invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
-
-    .line 10
-    .line 11
-    .line 12
-    move-result-object p1
-
-    .line 13
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->n(Ljava/util/Collection;)Z
-
-    .line 14
-    .line 15
-    .line 16
-    return-void
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-.end method
-
-.method public final r(I)V
+.method public final n(I)V
     .locals 3
 
     .line 1
-    invoke-direct {p0}, Lkotlin/collections/builders/MapBuilder;->q()V
+    invoke-direct {p0}, Lkotlin/collections/builders/MapBuilder;->m()V
 
     .line 2
     .line 3
@@ -3760,7 +5277,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, v2}, Lkotlin/collections/builders/MapBuilder;->c(Z)V
+    invoke-virtual {p0, v2}, Lkotlin/collections/builders/MapBuilder;->b(Z)V
 
     .line 14
     .line 15
@@ -3803,7 +5320,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {p0, v2}, Lkotlin/collections/builders/MapBuilder;->p(I)Z
+    invoke-virtual {p0, v2}, Lkotlin/collections/builders/MapBuilder;->l(I)Z
 
     .line 35
     .line 36
@@ -3847,330 +5364,9 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public remove(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/Object;",
-            ")TV;"
-        }
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
-
-    .line 2
-    .line 3
-    .line 4
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->i(Ljava/lang/Object;)I
-
-    .line 5
-    .line 6
-    .line 7
-    move-result p1
-
-    .line 8
-    if-gez p1, :cond_0
-
-    .line 9
-    .line 10
-    const/4 p1, 0x0
-
-    .line 11
-    return-object p1
-
-    .line 12
-    :cond_0
-    iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->valuesArray:[Ljava/lang/Object;
-
-    .line 13
-    .line 14
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
-
-    .line 15
-    .line 16
-    .line 17
-    aget-object v0, v0, p1
-
-    .line 18
-    .line 19
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->s(I)V
-
-    .line 20
-    .line 21
-    .line 22
-    return-object v0
-    .line 23
-    .line 24
-.end method
-
-.method public final removeEntry$kotlin_stdlib(Ljava/util/Map$Entry;)Z
-    .locals 3
-    .param p1    # Ljava/util/Map$Entry;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Map$Entry<",
-            "+TK;+TV;>;)Z"
-        }
-    .end annotation
-
-    .line 1
-    const-string v0, "entry"
-
-    .line 2
-    .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
-
-    .line 7
-    .line 8
-    .line 9
-    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
-
-    .line 10
-    .line 11
-    .line 12
-    move-result-object v0
-
-    .line 13
-    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->i(Ljava/lang/Object;)I
-
-    .line 14
-    .line 15
-    .line 16
-    move-result v0
-
-    .line 17
-    const/4 v1, 0x0
-
-    .line 18
-    if-gez v0, :cond_0
-
-    .line 19
-    .line 20
-    return v1
-
-    .line 21
-    :cond_0
-    iget-object v2, p0, Lkotlin/collections/builders/MapBuilder;->valuesArray:[Ljava/lang/Object;
-
-    .line 22
-    .line 23
-    invoke-static {v2}, Lkm/g0;->m(Ljava/lang/Object;)V
-
-    .line 24
-    .line 25
-    .line 26
-    aget-object v2, v2, v0
-
-    .line 27
-    .line 28
-    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
-
-    .line 29
-    .line 30
-    .line 31
-    move-result-object p1
-
-    .line 32
-    invoke-static {v2, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
-
-    .line 33
-    .line 34
-    .line 35
-    move-result p1
-
-    .line 36
-    if-nez p1, :cond_1
-
-    .line 37
-    .line 38
-    return v1
-
-    .line 39
-    :cond_1
-    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->s(I)V
-
-    .line 40
-    .line 41
-    .line 42
-    const/4 p1, 0x1
-
-    .line 43
-    return p1
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-.end method
-
-.method public final removeKey$kotlin_stdlib(Ljava/lang/Object;)Z
-    .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TK;)Z"
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
-
-    .line 2
-    .line 3
-    .line 4
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->i(Ljava/lang/Object;)I
-
-    .line 5
-    .line 6
-    .line 7
-    move-result p1
-
-    .line 8
-    if-gez p1, :cond_0
-
-    .line 9
-    .line 10
-    const/4 p1, 0x0
-
-    .line 11
-    return p1
-
-    .line 12
-    :cond_0
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->s(I)V
-
-    .line 13
-    .line 14
-    .line 15
-    const/4 p1, 0x1
-
-    .line 16
-    return p1
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-.end method
-
-.method public final removeValue$kotlin_stdlib(Ljava/lang/Object;)Z
-    .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(TV;)Z"
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
-
-    .line 2
-    .line 3
-    .line 4
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->k(Ljava/lang/Object;)I
-
-    .line 5
-    .line 6
-    .line 7
-    move-result p1
-
-    .line 8
-    if-gez p1, :cond_0
-
-    .line 9
-    .line 10
-    const/4 p1, 0x0
-
-    .line 11
-    return p1
-
-    .line 12
-    :cond_0
-    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->s(I)V
-
-    .line 13
-    .line 14
-    .line 15
-    const/4 p1, 0x1
-
-    .line 16
-    return p1
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-.end method
-
-.method public final s(I)V
+.method public final o(I)V
     .locals 2
 
     .line 1
@@ -4178,7 +5374,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lml/b;->f([Ljava/lang/Object;I)V
+    invoke-static {v0, p1}, Lkotlin/collections/builders/b;->f([Ljava/lang/Object;I)V
 
     .line 4
     .line 5
@@ -4191,7 +5387,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0, p1}, Lml/b;->f([Ljava/lang/Object;I)V
+    invoke-static {v0, p1}, Lkotlin/collections/builders/b;->f([Ljava/lang/Object;I)V
 
     .line 11
     .line 12
@@ -4205,7 +5401,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->t(I)V
+    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->p(I)V
 
     .line 18
     .line 19
@@ -4236,7 +5432,7 @@
 
     .line 31
     .line 32
-    invoke-direct {p0}, Lkotlin/collections/builders/MapBuilder;->q()V
+    invoke-direct {p0}, Lkotlin/collections/builders/MapBuilder;->m()V
 
     .line 33
     .line 34
@@ -4264,61 +5460,9 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public final bridge size()I
-    .locals 1
-
-    .line 1
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->getSize()I
-
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
-
-    .line 5
-    return v0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public final t(I)V
+.method public final p(I)V
     .locals 9
 
     .line 1
@@ -4330,7 +5474,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->l()I
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->h()I
 
     .line 6
     .line 7
@@ -4342,7 +5486,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Ltm/u;->B(II)I
+    invoke-static {v0, v1}, Lu8/f;->d(II)I
 
     .line 12
     .line 13
@@ -4371,7 +5515,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->l()I
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->h()I
 
     .line 24
     .line 25
@@ -4469,7 +5613,7 @@
 
     .line 64
     .line 65
-    invoke-virtual {p0, v4}, Lkotlin/collections/builders/MapBuilder;->m(Ljava/lang/Object;)I
+    invoke-virtual {p0, v4}, Lkotlin/collections/builders/MapBuilder;->i(Ljava/lang/Object;)I
 
     .line 66
     .line 67
@@ -4480,7 +5624,7 @@
     sub-int/2addr v4, p1
 
     .line 70
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->l()I
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->h()I
 
     .line 71
     .line 72
@@ -4755,126 +5899,221 @@
     .line 312
     .line 313
     .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
 .end method
 
-.method public toString()Ljava/lang/String;
-    .locals 4
-    .annotation build Lsq/k;
+.method public put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TK;TV;)TV;"
+        }
     .end annotation
 
     .line 1
-    new-instance v0, Ljava/lang/StringBuilder;
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->size()I
-
     .line 4
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->addKey$kotlin_stdlib(Ljava/lang/Object;)I
+
     .line 5
     .line 6
-    move-result v1
-
     .line 7
-    mul-int/lit8 v1, v1, 0x3
+    move-result p1
 
     .line 8
-    .line 9
-    add-int/lit8 v1, v1, 0x2
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->a()[Ljava/lang/Object;
 
+    .line 9
     .line 10
     .line 11
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(I)V
+    move-result-object v0
 
     .line 12
+    if-gez p1, :cond_0
+
     .line 13
     .line 14
-    const-string v1, "{"
+    neg-int p1, p1
 
     .line 15
-    .line 16
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    add-int/lit8 p1, p1, -0x1
 
+    .line 16
     .line 17
+    aget-object v1, v0, p1
+
     .line 18
     .line 19
-    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->entriesIterator$kotlin_stdlib()Lkotlin/collections/builders/MapBuilder$b;
+    aput-object p2, v0, p1
 
     .line 20
     .line 21
+    return-object v1
+
     .line 22
-    move-result-object v1
+    :cond_0
+    aput-object p2, v0, p1
 
     .line 23
-    const/4 v2, 0x0
-
     .line 24
-    :goto_0
-    invoke-virtual {v1}, Lkotlin/collections/builders/MapBuilder$d;->hasNext()Z
+    const/4 p1, 0x0
 
     .line 25
+    return-object p1
     .line 26
     .line 27
-    move-result v3
-
     .line 28
-    if-eqz v3, :cond_1
-
     .line 29
     .line 30
-    if-lez v2, :cond_0
-
     .line 31
     .line 32
-    const-string v3, ", "
-
     .line 33
     .line 34
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 35
     .line 36
     .line 37
-    :cond_0
-    invoke-virtual {v1, v0}, Lkotlin/collections/builders/MapBuilder$b;->k(Ljava/lang/StringBuilder;)V
-
     .line 38
     .line 39
     .line 40
-    add-int/lit8 v2, v2, 0x1
-
     .line 41
     .line 42
-    goto :goto_0
-
     .line 43
-    :cond_1
-    const-string v1, "}"
-
     .line 44
     .line 45
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
     .line 46
     .line 47
     .line 48
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 49
     .line 50
     .line 51
-    move-result-object v0
-
     .line 52
-    const-string v1, "toString(...)"
-
     .line 53
     .line 54
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
-
     .line 55
     .line 56
     .line 57
-    return-object v0
     .line 58
     .line 59
     .line 60
@@ -4918,9 +6157,115 @@
     .line 98
     .line 99
     .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
-.method public final u(I)Z
+.method public putAll(Ljava/util/Map;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map<",
+            "+TK;+TV;>;)V"
+        }
+    .end annotation
+
+    .line 1
+    const-string v0, "from"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p1
+
+    .line 13
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->j(Ljava/util/Collection;)Z
+
+    .line 14
+    .line 15
+    .line 16
+    return-void
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+.end method
+
+.method public final q(I)Z
     .locals 3
 
     .line 1
@@ -5016,6 +6361,559 @@
     .line 55
     .line 56
     .line 57
+.end method
+
+.method public remove(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            ")TV;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->f(Ljava/lang/Object;)I
+
+    .line 5
+    .line 6
+    .line 7
+    move-result p1
+
+    .line 8
+    if-gez p1, :cond_0
+
+    .line 9
+    .line 10
+    const/4 p1, 0x0
+
+    .line 11
+    return-object p1
+
+    .line 12
+    :cond_0
+    iget-object v0, p0, Lkotlin/collections/builders/MapBuilder;->valuesArray:[Ljava/lang/Object;
+
+    .line 13
+    .line 14
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+
+    .line 15
+    .line 16
+    .line 17
+    aget-object v0, v0, p1
+
+    .line 18
+    .line 19
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->o(I)V
+
+    .line 20
+    .line 21
+    .line 22
+    return-object v0
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+.end method
+
+.method public final removeEntry$kotlin_stdlib(Ljava/util/Map$Entry;)Z
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map$Entry<",
+            "+TK;+TV;>;)Z"
+        }
+    .end annotation
+
+    .line 1
+    const-string v0, "entry"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
+
+    .line 7
+    .line 8
+    .line 9
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v0
+
+    .line 13
+    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->f(Ljava/lang/Object;)I
+
+    .line 14
+    .line 15
+    .line 16
+    move-result v0
+
+    .line 17
+    const/4 v1, 0x0
+
+    .line 18
+    if-gez v0, :cond_0
+
+    .line 19
+    .line 20
+    return v1
+
+    .line 21
+    :cond_0
+    iget-object v2, p0, Lkotlin/collections/builders/MapBuilder;->valuesArray:[Ljava/lang/Object;
+
+    .line 22
+    .line 23
+    invoke-static {v2}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+
+    .line 24
+    .line 25
+    .line 26
+    aget-object v2, v2, v0
+
+    .line 27
+    .line 28
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object p1
+
+    .line 32
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 33
+    .line 34
+    .line 35
+    move-result p1
+
+    .line 36
+    if-nez p1, :cond_1
+
+    .line 37
+    .line 38
+    return v1
+
+    .line 39
+    :cond_1
+    invoke-virtual {p0, v0}, Lkotlin/collections/builders/MapBuilder;->o(I)V
+
+    .line 40
+    .line 41
+    .line 42
+    const/4 p1, 0x1
+
+    .line 43
+    return p1
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+.end method
+
+.method public final removeKey$kotlin_stdlib(Ljava/lang/Object;)Z
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TK;)Z"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->f(Ljava/lang/Object;)I
+
+    .line 5
+    .line 6
+    .line 7
+    move-result p1
+
+    .line 8
+    if-gez p1, :cond_0
+
+    .line 9
+    .line 10
+    const/4 p1, 0x0
+
+    .line 11
+    return p1
+
+    .line 12
+    :cond_0
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->o(I)V
+
+    .line 13
+    .line 14
+    .line 15
+    const/4 p1, 0x1
+
+    .line 16
+    return p1
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+.end method
+
+.method public final removeValue$kotlin_stdlib(Ljava/lang/Object;)Z
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TV;)Z"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->checkIsMutable$kotlin_stdlib()V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->g(Ljava/lang/Object;)I
+
+    .line 5
+    .line 6
+    .line 7
+    move-result p1
+
+    .line 8
+    if-gez p1, :cond_0
+
+    .line 9
+    .line 10
+    const/4 p1, 0x0
+
+    .line 11
+    return p1
+
+    .line 12
+    :cond_0
+    invoke-virtual {p0, p1}, Lkotlin/collections/builders/MapBuilder;->o(I)V
+
+    .line 13
+    .line 14
+    .line 15
+    const/4 p1, 0x1
+
+    .line 16
+    return p1
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+.end method
+
+.method public final bridge size()I
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->getSize()I
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    return v0
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 4
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->size()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v1
+
+    .line 7
+    mul-int/lit8 v1, v1, 0x3
+
+    .line 8
+    .line 9
+    add-int/lit8 v1, v1, 0x2
+
+    .line 10
+    .line 11
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(I)V
+
+    .line 12
+    .line 13
+    .line 14
+    const-string v1, "{"
+
+    .line 15
+    .line 16
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 17
+    .line 18
+    .line 19
+    invoke-virtual {p0}, Lkotlin/collections/builders/MapBuilder;->entriesIterator$kotlin_stdlib()Lkotlin/collections/builders/MapBuilder$b;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object v1
+
+    .line 23
+    const/4 v2, 0x0
+
+    .line 24
+    :goto_0
+    invoke-virtual {v1}, Lkotlin/collections/builders/MapBuilder$d;->hasNext()Z
+
+    .line 25
+    .line 26
+    .line 27
+    move-result v3
+
+    .line 28
+    if-eqz v3, :cond_1
+
+    .line 29
+    .line 30
+    if-lez v2, :cond_0
+
+    .line 31
+    .line 32
+    const-string v3, ", "
+
+    .line 33
+    .line 34
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 35
+    .line 36
+    .line 37
+    :cond_0
+    invoke-virtual {v1, v0}, Lkotlin/collections/builders/MapBuilder$b;->i(Ljava/lang/StringBuilder;)V
+
+    .line 38
+    .line 39
+    .line 40
+    add-int/lit8 v2, v2, 0x1
+
+    .line 41
+    .line 42
+    goto :goto_0
+
+    .line 43
+    :cond_1
+    const-string v1, "}"
+
+    .line 44
+    .line 45
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object v0
+
+    .line 52
+    const-string v1, "toString(...)"
+
+    .line 53
+    .line 54
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 55
+    .line 56
+    .line 57
+    return-object v0
     .line 58
     .line 59
     .line 60
@@ -5035,6 +6933,402 @@
     .line 74
     .line 75
     .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
+    .line 441
+    .line 442
+    .line 443
+    .line 444
+    .line 445
+    .line 446
+    .line 447
+    .line 448
+    .line 449
+    .line 450
+    .line 451
+    .line 452
+    .line 453
+    .line 454
+    .line 455
+    .line 456
+    .line 457
+    .line 458
+    .line 459
+    .line 460
+    .line 461
+    .line 462
+    .line 463
+    .line 464
+    .line 465
+    .line 466
+    .line 467
+    .line 468
+    .line 469
+    .line 470
+    .line 471
+    .line 472
 .end method
 
 .method public final bridge values()Ljava/util/Collection;
@@ -5075,6 +7369,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final valuesIterator$kotlin_stdlib()Lkotlin/collections/builders/MapBuilder$f;
@@ -5082,12 +7403,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkotlin/collections/builders/MapBuilder$f<",
-            "TK;TV;>;"
+            "Lkotlin/collections/builders/MapBuilder$f;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -5118,4 +7435,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

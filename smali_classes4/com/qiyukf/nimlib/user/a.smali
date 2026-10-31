@@ -59,6 +59,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static a(Lcom/qiyukf/tv;)Lcom/qiyukf/nimlib/user/a;
@@ -513,6 +515,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public d(Ljava/lang/String;)V
@@ -546,6 +550,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public e(Ljava/lang/String;)V
@@ -579,6 +585,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public f(Ljava/lang/String;)V
@@ -612,6 +620,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public g(Ljava/lang/String;)V
@@ -645,6 +655,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getAccount()Ljava/lang/String;
@@ -673,6 +685,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAvatar()Ljava/lang/String;
@@ -701,6 +715,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getBirthday()Ljava/lang/String;
@@ -729,6 +745,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEmail()Ljava/lang/String;
@@ -757,6 +775,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExtension()Ljava/lang/String;
@@ -785,6 +805,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExtensionMap()Ljava/util/Map;
@@ -826,6 +848,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGenderEnum()Lcom/qiyukf/nimlib/sdk/uinfo/constant/GenderEnum;
@@ -862,6 +886,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMobile()Ljava/lang/String;
@@ -890,6 +916,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -918,6 +946,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSignature()Ljava/lang/String;
@@ -946,6 +976,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public h(Ljava/lang/String;)V
@@ -979,4 +1011,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

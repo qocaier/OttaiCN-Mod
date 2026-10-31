@@ -62,6 +62,8 @@
     .line 19
     .line 20
     return-void
+    .line 21
+    .line 22
 .end method
 
 .method public static a()Lcom/qiyukf/ew;
@@ -468,9 +470,9 @@
     .line 6
     iget-object v0, p0, Lcom/qiyukf/ew;->a:Landroid/os/Handler;
 
-    new-instance v1, Lvg/l;
+    new-instance v1, Lcom/qiyukf/fe0;
 
-    invoke-direct {v1, p0, p1, p2}, Lvg/l;-><init>(Lcom/qiyukf/ew;ILjava/lang/String;)V
+    invoke-direct {v1, p0, p1, p2}, Lcom/qiyukf/fe0;-><init>(Lcom/qiyukf/ew;ILjava/lang/String;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -488,9 +490,9 @@
     :cond_0
     iget-object v0, p0, Lcom/qiyukf/ew;->a:Landroid/os/Handler;
 
-    new-instance v1, Lvg/m;
+    new-instance v1, Lcom/qiyukf/ge0;
 
-    invoke-direct {v1, p0, p1, p2}, Lvg/m;-><init>(Lcom/qiyukf/ew;Lcom/qiyukf/nimlib/sdk/auth/LoginInfo;Z)V
+    invoke-direct {v1, p0, p1, p2}, Lcom/qiyukf/ge0;-><init>(Lcom/qiyukf/ew;Lcom/qiyukf/nimlib/sdk/auth/LoginInfo;Z)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -508,9 +510,9 @@
     :cond_0
     iget-object v0, p0, Lcom/qiyukf/ew;->a:Landroid/os/Handler;
 
-    new-instance v1, Lvg/o;
+    new-instance v1, Lcom/qiyukf/ie0;
 
-    invoke-direct {v1, p0, p1}, Lvg/o;-><init>(Lcom/qiyukf/ew;Lcom/qiyukf/wj;)V
+    invoke-direct {v1, p0, p1}, Lcom/qiyukf/ie0;-><init>(Lcom/qiyukf/ew;Lcom/qiyukf/wj;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -528,9 +530,9 @@
     :cond_0
     iget-object v0, p0, Lcom/qiyukf/ew;->a:Landroid/os/Handler;
 
-    new-instance v1, Lvg/n;
+    new-instance v1, Lcom/qiyukf/he0;
 
-    invoke-direct {v1, p0, p1}, Lvg/n;-><init>(Lcom/qiyukf/ew;Lcom/qiyukf/wj;)V
+    invoke-direct {v1, p0, p1}, Lcom/qiyukf/he0;-><init>(Lcom/qiyukf/ew;Lcom/qiyukf/wj;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

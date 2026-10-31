@@ -13,9 +13,11 @@
 
 .field public final synthetic c:I
 
+.field public final synthetic d:J
+
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;I)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;IJ)V
     .locals 0
 
     .line 1
@@ -27,13 +29,15 @@
 
     iput p3, p0, Landroidx/camera/camera2/internal/compat/g;->c:I
 
+    iput-wide p4, p0, Landroidx/camera/camera2/internal/compat/g;->d:J
+
     return-void
 .end method
 
 
 # virtual methods
 .method public final run()V
-    .locals 3
+    .locals 5
 
     .line 1
     iget-object v0, p0, Landroidx/camera/camera2/internal/compat/g;->a:Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;
@@ -42,7 +46,9 @@
 
     iget v2, p0, Landroidx/camera/camera2/internal/compat/g;->c:I
 
-    invoke-static {v0, v1, v2}, Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;->a(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;I)V
+    iget-wide v3, p0, Landroidx/camera/camera2/internal/compat/g;->d:J
+
+    invoke-static {v0, v1, v2, v3, v4}, Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;->d(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;IJ)V
 
     return-void
 .end method

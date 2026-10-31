@@ -254,6 +254,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDeleteIntent()Landroid/app/PendingIntent;
@@ -282,6 +283,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDesiredHeight()I
@@ -313,6 +315,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDesiredHeightResId()I
@@ -343,6 +346,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIcon()Landroidx/core/graphics/drawable/IconCompat;
@@ -376,6 +380,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntent()Landroid/app/PendingIntent;
@@ -409,6 +414,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getShortcutId()Ljava/lang/String;
@@ -437,6 +443,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isNotificationSuppressed()Z
@@ -476,6 +483,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setFlags(I)V

@@ -206,15 +206,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -249,7 +240,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public animationDuration(I)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -282,7 +272,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public animationTime(I)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -328,7 +317,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public animationType(Lcom/baidu/mapapi/map/track/TraceOptions$TraceAnimateType;)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -370,7 +358,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public color(I)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -403,7 +390,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public colors([I)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -436,7 +422,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getAnimateType()Lcom/baidu/mapapi/map/track/TraceOptions$TraceAnimateType;
@@ -497,6 +482,83 @@
     .line 22
     .line 23
     return-object v0
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method public getAnimationDuration()I
@@ -527,7 +589,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnimationTime()I
@@ -558,7 +619,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBloomSpeed()F
@@ -589,7 +649,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getColor()I
@@ -620,7 +679,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getColors()[I
@@ -651,7 +709,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIcon()Lcom/baidu/mapapi/map/BitmapDescriptor;
@@ -682,7 +739,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOverlay()Lcom/baidu/mapapi/map/track/TraceOverlay;
@@ -871,15 +927,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getPoints()Ljava/util/List;
@@ -918,7 +965,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWidth()I
@@ -949,7 +995,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public icon(Lcom/baidu/mapapi/map/BitmapDescriptor;)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -993,7 +1038,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public icon3D(Lcom/baidu/mapapi/map/BM3DModelOptions;)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -1026,7 +1070,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isAnimation()Z
@@ -1057,7 +1100,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isPointMove()Z
@@ -1088,7 +1130,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isRotateWhenTrack()Z
@@ -1119,7 +1160,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isTrackMove()Z
@@ -1150,7 +1190,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isUseColorarray()Z
@@ -1181,7 +1220,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public points(Ljava/util/List;)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -1335,8 +1373,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setBloomSpeed(F)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -1369,7 +1405,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDataReduction(Z)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -1402,7 +1437,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDataSmooth(Z)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -1435,7 +1469,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPointMove(Z)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -1468,7 +1501,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRotateWhenTrack(Z)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -1501,7 +1533,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackBloom(Z)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -1534,7 +1565,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackMove(Z)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -1567,7 +1597,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public useColorArray(Z)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -1600,7 +1629,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public width(I)Lcom/baidu/mapapi/map/track/TraceOptions;
@@ -1633,5 +1661,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

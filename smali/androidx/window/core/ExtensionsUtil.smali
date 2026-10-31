@@ -5,14 +5,8 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/window/core/ExtensionsUtil;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final TAG:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -37,7 +31,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0}, Lkm/o0;->d(Ljava/lang/Class;)Lum/d;
+    invoke-static {v0}, Lkotlin/jvm/internal/m;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     .line 11
     .line 12
@@ -45,7 +39,7 @@
     move-result-object v0
 
     .line 14
-    invoke-interface {v0}, Lum/d;->t()Ljava/lang/String;
+    invoke-interface {v0}, Lkotlin/reflect/c;->d()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -58,6 +52,7 @@
     .line 19
     .line 20
     return-void
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -86,6 +81,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -235,4 +231,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

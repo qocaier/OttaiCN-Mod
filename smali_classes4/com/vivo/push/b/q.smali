@@ -114,6 +114,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public final b(Ljava/lang/String;)V
@@ -147,6 +149,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public final c(Lcom/vivo/push/d;)V
@@ -419,6 +423,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final g()Lcom/vivo/push/model/InsideNotificationItem;
@@ -447,6 +453,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final h()Ljava/lang/String;
@@ -475,6 +483,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final i()Ljava/lang/String;
@@ -503,6 +513,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final j()Ljava/lang/String;
@@ -531,6 +543,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final k()Landroid/net/Uri;
@@ -559,6 +573,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final l()Landroid/os/Bundle;
@@ -720,6 +736,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public final toString()Ljava/lang/String;
@@ -748,4 +765,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

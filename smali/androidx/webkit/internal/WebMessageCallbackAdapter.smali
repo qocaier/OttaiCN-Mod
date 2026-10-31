@@ -84,6 +84,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onMessage(Ljava/lang/reflect/InvocationHandler;Ljava/lang/reflect/InvocationHandler;)V
@@ -102,7 +103,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p2}, Lmq/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+    invoke-static {v0, p2}, Lx9/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
 
     .line 4
     .line 5

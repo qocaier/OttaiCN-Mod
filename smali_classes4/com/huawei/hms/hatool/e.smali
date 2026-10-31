@@ -250,7 +250,7 @@
 
     if-ne v2, p2, :cond_0
 
-    const-string v2, "yyyy-MM-dd"
+    const-string/jumbo v2, "yyyy-MM-dd"
 
     invoke-static {v2, v0, v1}, Lcom/huawei/hms/hatool/n1;->a(Ljava/lang/String;J)J
 

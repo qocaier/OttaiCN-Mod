@@ -60,6 +60,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -203,6 +205,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public bridge synthetic onResult(ILjava/lang/Object;Ljava/lang/Throwable;)V

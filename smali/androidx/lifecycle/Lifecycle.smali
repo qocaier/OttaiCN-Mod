@@ -11,16 +11,6 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLifecycle.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Lifecycle.kt\nandroidx/lifecycle/Lifecycle\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,446:1\n1#2:447\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nLifecycle.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Lifecycle.kt\nandroidx/lifecycle/Lifecycle\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,446:1\n1#2:447\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;
@@ -36,9 +26,6 @@
             "Ljava/lang/Object;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -76,9 +63,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method private static final _get_currentStateFlow_$lambda$0(Ljn/p;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+.method private static final _get_currentStateFlow_$lambda$0(Lkotlinx/coroutines/flow/h1;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 1
 
     .line 1
@@ -86,7 +74,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -95,7 +83,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -104,7 +92,7 @@
 
     .line 12
     .line 13
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -117,7 +105,7 @@
     move-result-object p1
 
     .line 20
-    invoke-interface {p0, p1}, Ljn/p;->setValue(Ljava/lang/Object;)V
+    invoke-interface {p0, p1}, Lkotlinx/coroutines/flow/h1;->setValue(Ljava/lang/Object;)V
 
     .line 21
     .line 22
@@ -213,13 +201,16 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static synthetic a(Ljn/p;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+.method public static synthetic a(Lkotlinx/coroutines/flow/h1;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/lifecycle/Lifecycle;->_get_currentStateFlow_$lambda$0(Ljn/p;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    invoke-static {p0, p1, p2}, Landroidx/lifecycle/Lifecycle;->_get_currentStateFlow_$lambda$0(Lkotlinx/coroutines/flow/h1;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
 
     return-void
 .end method
@@ -227,10 +218,6 @@
 
 # virtual methods
 .method public abstract addObserver(Landroidx/lifecycle/LifecycleObserver;)V
-    .param p1    # Landroidx/lifecycle/LifecycleObserver;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 .end method
@@ -238,23 +225,15 @@
 .method public abstract getCurrentState()Landroidx/lifecycle/Lifecycle$State;
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
-.method public getCurrentStateFlow()Ljn/y;
+.method public getCurrentStateFlow()Lkotlinx/coroutines/flow/r1;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Ljn/y<",
-            "Landroidx/lifecycle/Lifecycle$State;",
-            ">;"
+            "Lkotlinx/coroutines/flow/r1;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -266,7 +245,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Ljn/z;->a(Ljava/lang/Object;)Ljn/p;
+    invoke-static {v0}, Lkotlinx/coroutines/flow/s1;->a(Ljava/lang/Object;)Lkotlinx/coroutines/flow/h1;
 
     .line 6
     .line 7
@@ -274,11 +253,11 @@
     move-result-object v0
 
     .line 9
-    new-instance v1, Lp1/d;
+    new-instance v1, Landroidx/lifecycle/e;
 
     .line 10
     .line 11
-    invoke-direct {v1, v0}, Lp1/d;-><init>(Ljn/p;)V
+    invoke-direct {v1, v0}, Landroidx/lifecycle/e;-><init>(Lkotlinx/coroutines/flow/h1;)V
 
     .line 12
     .line 13
@@ -288,7 +267,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-static {v0}, Ljn/g;->n(Ljn/p;)Ljn/y;
+    invoke-static {v0}, Lkotlinx/coroutines/flow/e;->c(Lkotlinx/coroutines/flow/h1;)Lkotlinx/coroutines/flow/r1;
 
     .line 18
     .line 19
@@ -297,69 +276,6 @@
 
     .line 21
     return-object v0
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public final getInternalScopeRef()Ljava/util/concurrent/atomic/AtomicReference;
@@ -377,9 +293,6 @@
             "Ljava/lang/Object;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -405,23 +318,16 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
-    .param p1    # Landroidx/lifecycle/LifecycleObserver;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 .end method
 
 .method public final setInternalScopeRef(Ljava/util/concurrent/atomic/AtomicReference;)V
     .locals 1
-    .param p1    # Ljava/util/concurrent/atomic/AtomicReference;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
@@ -442,7 +348,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

@@ -64,7 +64,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Lmq/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+    invoke-static {v0, p0}, Lx9/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -129,4 +129,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

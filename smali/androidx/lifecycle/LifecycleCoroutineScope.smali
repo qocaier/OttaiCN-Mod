@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lfn/i0;
+.implements Lkotlinx/coroutines/l0;
 
 
 # direct methods
@@ -33,43 +33,26 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
-.method public abstract getLifecycle$lifecycle_common()Landroidx/lifecycle/Lifecycle;
-    .annotation build Lsq/k;
-    .end annotation
+.method public abstract synthetic getCoroutineContext()Lkotlin/coroutines/i;
 .end method
 
-.method public final launchWhenCreated(Ljm/p;)Lkotlinx/coroutines/l;
+.method public abstract getLifecycle$lifecycle_common()Landroidx/lifecycle/Lifecycle;
+.end method
+
+.method public final launchWhenCreated(Lq8/p;)Lkotlinx/coroutines/s1;
     .locals 7
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-",
-            "Lfn/i0;",
-            "-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;)",
-            "Lkotlinx/coroutines/l;"
+            "Lq8/p;",
+            ")",
+            "Lkotlinx/coroutines/s1;"
         }
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "launchWhenCreated is deprecated as it can lead to wasted resources in some cases. Replace with suspending repeatOnLifecycle to run the block whenever the Lifecycle state is at least Lifecycle.State.CREATED."
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -77,7 +60,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -89,7 +72,7 @@
     const/4 v0, 0x0
 
     .line 9
-    invoke-direct {v4, p0, p1, v0}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenCreated$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Ljm/p;Lul/c;)V
+    invoke-direct {v4, p0, p1, v0}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenCreated$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Lq8/p;Lkotlin/coroutines/e;)V
 
     .line 10
     .line 11
@@ -109,7 +92,7 @@
     move-object v1, p0
 
     .line 17
-    invoke-static/range {v1 .. v6}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v1 .. v6}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 18
     .line 19
@@ -124,34 +107,15 @@
     .line 25
 .end method
 
-.method public final launchWhenResumed(Ljm/p;)Lkotlinx/coroutines/l;
+.method public final launchWhenResumed(Lq8/p;)Lkotlinx/coroutines/s1;
     .locals 7
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-",
-            "Lfn/i0;",
-            "-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;)",
-            "Lkotlinx/coroutines/l;"
+            "Lq8/p;",
+            ")",
+            "Lkotlinx/coroutines/s1;"
         }
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "launchWhenResumed is deprecated as it can lead to wasted resources in some cases. Replace with suspending repeatOnLifecycle to run the block whenever the Lifecycle state is at least Lifecycle.State.RESUMED."
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -159,7 +123,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -171,7 +135,7 @@
     const/4 v0, 0x0
 
     .line 9
-    invoke-direct {v4, p0, p1, v0}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenResumed$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Ljm/p;Lul/c;)V
+    invoke-direct {v4, p0, p1, v0}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenResumed$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Lq8/p;Lkotlin/coroutines/e;)V
 
     .line 10
     .line 11
@@ -191,7 +155,7 @@
     move-object v1, p0
 
     .line 17
-    invoke-static/range {v1 .. v6}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v1 .. v6}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 18
     .line 19
@@ -206,34 +170,15 @@
     .line 25
 .end method
 
-.method public final launchWhenStarted(Ljm/p;)Lkotlinx/coroutines/l;
+.method public final launchWhenStarted(Lq8/p;)Lkotlinx/coroutines/s1;
     .locals 7
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-",
-            "Lfn/i0;",
-            "-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;)",
-            "Lkotlinx/coroutines/l;"
+            "Lq8/p;",
+            ")",
+            "Lkotlinx/coroutines/s1;"
         }
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "launchWhenStarted is deprecated as it can lead to wasted resources in some cases. Replace with suspending repeatOnLifecycle to run the block whenever the Lifecycle state is at least Lifecycle.State.STARTED."
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -241,7 +186,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -253,7 +198,7 @@
     const/4 v0, 0x0
 
     .line 9
-    invoke-direct {v4, p0, p1, v0}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenStarted$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Ljm/p;Lul/c;)V
+    invoke-direct {v4, p0, p1, v0}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenStarted$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Lq8/p;Lkotlin/coroutines/e;)V
 
     .line 10
     .line 11
@@ -273,7 +218,7 @@
     move-object v1, p0
 
     .line 17
-    invoke-static/range {v1 .. v6}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v1 .. v6}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 18
     .line 19

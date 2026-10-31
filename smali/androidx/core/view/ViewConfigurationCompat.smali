@@ -149,6 +149,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -177,6 +179,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getCompatFlingVelocityThreshold(Landroid/content/res/Resources;ILandroidx/core/util/Supplier;I)I
@@ -455,6 +458,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static getLegacyScrollFactor(Landroid/view/ViewConfiguration;Landroid/content/Context;)F
@@ -768,6 +777,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static getPlatformResId(Landroid/content/res/Resources;Ljava/lang/String;Ljava/lang/String;)I
@@ -893,6 +905,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static getPreApi34MaximumFlingVelocityResId(Landroid/content/res/Resources;II)I
@@ -1033,6 +1048,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static getPreApi34MinimumFlingVelocityResId(Landroid/content/res/Resources;II)I
@@ -1173,6 +1191,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static getScaledHorizontalScrollFactor(Landroid/view/ViewConfiguration;Landroid/content/Context;)F
@@ -1365,11 +1386,11 @@
     .line 30
     .line 31
     .line 32
-    new-instance p3, Lc1/j0;
+    new-instance p3, Landroidx/core/view/n0;
 
     .line 33
     .line 34
-    invoke-direct {p3, p1}, Lc1/j0;-><init>(Landroid/view/ViewConfiguration;)V
+    invoke-direct {p3, p1}, Landroidx/core/view/n0;-><init>(Landroid/view/ViewConfiguration;)V
 
     .line 35
     .line 36
@@ -1937,11 +1958,11 @@
     .line 31
     .line 32
     .line 33
-    new-instance p3, Lc1/k0;
+    new-instance p3, Landroidx/core/view/o0;
 
     .line 34
     .line 35
-    invoke-direct {p3, p1}, Lc1/k0;-><init>(Landroid/view/ViewConfiguration;)V
+    invoke-direct {p3, p1}, Landroidx/core/view/o0;-><init>(Landroid/view/ViewConfiguration;)V
 
     .line 36
     .line 37
@@ -2727,6 +2748,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static shouldShowMenuShortcutsWhenKeyboardPresent(Landroid/view/ViewConfiguration;Landroid/content/Context;)Z

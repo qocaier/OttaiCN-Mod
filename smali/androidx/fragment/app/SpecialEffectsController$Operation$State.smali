@@ -33,9 +33,6 @@
 .field private static final synthetic $VALUES:[Landroidx/fragment/app/SpecialEffectsController$Operation$State;
 
 .field public static final Companion:Landroidx/fragment/app/SpecialEffectsController$Operation$State$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final enum GONE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;
 
@@ -168,7 +165,7 @@
     const/4 v1, 0x0
 
     .line 50
-    invoke-direct {v0, v1}, Landroidx/fragment/app/SpecialEffectsController$Operation$State$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/fragment/app/SpecialEffectsController$Operation$State$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 51
     .line 52
@@ -207,6 +204,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -272,11 +271,6 @@
 
 .method public static final from(I)Landroidx/fragment/app/SpecialEffectsController$Operation$State;
     .locals 1
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     sget-object v0, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->Companion:Landroidx/fragment/app/SpecialEffectsController$Operation$State$Companion;
 
@@ -319,21 +313,13 @@
 # virtual methods
 .method public final applyState(Landroid/view/View;Landroid/view/ViewGroup;)V
     .locals 5
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "view"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -342,7 +328,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10

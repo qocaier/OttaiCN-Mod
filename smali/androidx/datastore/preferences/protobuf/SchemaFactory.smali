@@ -10,15 +10,6 @@
 
 # virtual methods
 .method public abstract createSchema(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "messageType"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",

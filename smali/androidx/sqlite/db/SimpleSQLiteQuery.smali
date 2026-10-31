@@ -16,21 +16,12 @@
 
 # static fields
 .field public static final Companion:Landroidx/sqlite/db/SimpleSQLiteQuery$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field private final bindArgs:[Ljava/lang/Object;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final query:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -41,7 +32,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/sqlite/db/SimpleSQLiteQuery$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/sqlite/db/SimpleSQLiteQuery$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/sqlite/db/SimpleSQLiteQuery;->Companion:Landroidx/sqlite/db/SimpleSQLiteQuery$Companion;
 
@@ -50,14 +41,10 @@
 
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "query"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -69,18 +56,10 @@
 
 .method public constructor <init>(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # [Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     const-string v0, "query"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -96,16 +75,6 @@
 
 .method public static final bind(Landroidx/sqlite/db/SupportSQLiteProgram;[Ljava/lang/Object;)V
     .locals 1
-    .param p0    # Landroidx/sqlite/db/SupportSQLiteProgram;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # [Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
 
     sget-object v0, Landroidx/sqlite/db/SimpleSQLiteQuery;->Companion:Landroidx/sqlite/db/SimpleSQLiteQuery$Companion;
 
@@ -118,17 +87,13 @@
 # virtual methods
 .method public bindTo(Landroidx/sqlite/db/SupportSQLiteProgram;)V
     .locals 2
-    .param p1    # Landroidx/sqlite/db/SupportSQLiteProgram;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "statement"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -196,12 +161,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSql()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/sqlite/db/SimpleSQLiteQuery;->query:Ljava/lang/String;
@@ -226,4 +190,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -61,6 +61,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Ljava/io/InputStream;)V
@@ -178,6 +179,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLength()I
@@ -206,6 +208,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mark(I)V
@@ -285,6 +288,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public read()I
@@ -378,6 +382,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public readByte()B
@@ -507,6 +512,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public readChar()C
@@ -550,6 +557,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public readDouble()D
@@ -589,6 +597,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public readFloat()F
@@ -628,6 +637,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public readFully([B)V
@@ -1241,6 +1251,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public readLine()Ljava/lang/String;
@@ -1273,6 +1335,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public readLong()J
@@ -1896,6 +1959,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public readShort()S
@@ -2079,6 +2194,8 @@
     .line 83
     throw v0
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public readUTF()Ljava/lang/String;
@@ -2122,6 +2239,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public readUnsignedByte()I
@@ -2165,6 +2283,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public readUnsignedInt()J
@@ -2206,6 +2325,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public readUnsignedShort()I
@@ -2385,6 +2505,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public seek(J)V
@@ -2521,6 +2643,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setByteOrder(Ljava/nio/ByteOrder;)V
@@ -2677,4 +2800,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -55,7 +55,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/color/ColorContrastOptions$Builder;)I
@@ -88,7 +87,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/color/ColorContrastOptions$Builder;)I
@@ -121,7 +119,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -160,7 +157,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setHighContrastThemeOverlay(I)Lcom/google/android/material/color/ColorContrastOptions$Builder;
@@ -170,9 +166,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -202,7 +195,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMediumContrastThemeOverlay(I)Lcom/google/android/material/color/ColorContrastOptions$Builder;
@@ -212,9 +204,6 @@
         .end annotation
     .end param
     .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -244,5 +233,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

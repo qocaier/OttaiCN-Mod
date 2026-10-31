@@ -576,6 +576,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onSessionReady()V
@@ -624,6 +625,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onShuffleModeChanged(I)V
@@ -820,4 +822,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

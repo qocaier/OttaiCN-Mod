@@ -61,6 +61,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static synthetic a(Lcom/qiyukf/unicorn/api/UnicornImageLoader;Ljava/lang/String;II)Landroid/graphics/Bitmap;
@@ -687,9 +689,9 @@
     :try_start_0
     sget-object v5, Lcom/qiyukf/dg;->c:Ljava/util/concurrent/ExecutorService;
 
-    new-instance v6, Lvg/i;
+    new-instance v6, Lcom/qiyukf/ce0;
 
-    invoke-direct {v6, v2, p0, p1, p2}, Lvg/i;-><init>(Lcom/qiyukf/unicorn/api/UnicornImageLoader;Ljava/lang/String;II)V
+    invoke-direct {v6, v2, p0, p1, p2}, Lcom/qiyukf/ce0;-><init>(Lcom/qiyukf/unicorn/api/UnicornImageLoader;Ljava/lang/String;II)V
 
     invoke-interface {v5, v6}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
 
@@ -873,4 +875,6 @@
     :cond_0
     return-object v0
     .line 25
+    .line 26
+    .line 27
 .end method

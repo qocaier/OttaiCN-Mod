@@ -212,6 +212,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -242,6 +244,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLanguage()Ljava/lang/String;
@@ -270,6 +274,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSpkf()I
@@ -298,6 +304,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAuthToken(Ljava/lang/String;)V
@@ -331,6 +339,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEntryId(J)V
@@ -364,6 +374,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEntryLevel(Ljava/lang/Integer;)V
@@ -397,6 +409,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setForceChangeEntrance(I)V
@@ -430,6 +444,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromCustom(Ljava/lang/String;)V
@@ -463,6 +479,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromIp(Ljava/lang/String;)V
@@ -496,6 +514,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromPage(Ljava/lang/String;)V
@@ -529,6 +549,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromSubType(Ljava/lang/String;)V
@@ -562,6 +584,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromTitle(Ljava/lang/String;)V
@@ -595,6 +619,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromType(Ljava/lang/String;)V
@@ -628,6 +654,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setGroupId(J)V
@@ -661,6 +689,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLanguage(Ljava/lang/String;)V
@@ -694,6 +724,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMessageId(J)V
@@ -727,6 +759,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setParentSessionId(Ljava/lang/Long;)V
@@ -760,6 +794,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPhoneModel(Ljava/lang/String;)V
@@ -793,6 +829,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setProductId(Ljava/lang/String;)V
@@ -826,6 +864,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setQtype(J)V
@@ -859,6 +899,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRobotId(J)V
@@ -892,6 +934,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRobotShuntSwitch(I)V
@@ -925,6 +969,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setShortcutTemplateId(J)V
@@ -958,6 +1004,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setShuntId(J)V
@@ -991,6 +1039,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSpkf(I)V
@@ -1024,6 +1074,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStaffId(J)V
@@ -1057,6 +1109,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStaffType(I)V
@@ -1090,6 +1144,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTransferRgType(I)V
@@ -1123,6 +1179,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVersion(I)V
@@ -1156,6 +1214,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVideoVersion(I)V
@@ -1189,6 +1249,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVipLevel(I)V
@@ -1222,6 +1284,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setWelcomeTemplateId(Ljava/lang/String;)V
@@ -1255,4 +1319,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

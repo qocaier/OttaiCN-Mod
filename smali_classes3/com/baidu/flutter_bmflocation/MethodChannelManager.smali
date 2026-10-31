@@ -42,7 +42,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getInstance()Lcom/baidu/flutter_bmflocation/MethodChannelManager;
@@ -84,7 +83,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -117,7 +115,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLocationChannel()Lio/flutter/plugin/common/MethodChannel;
@@ -148,7 +145,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public putGeofenceChannel(Lio/flutter/plugin/common/MethodChannel;)V
@@ -181,7 +177,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public putLocationChannel(Lio/flutter/plugin/common/MethodChannel;)V
@@ -214,5 +209,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

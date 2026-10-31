@@ -3,34 +3,28 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
-
-
-# instance fields
-.field public final synthetic a:Landroidx/activity/ComponentActivity;
+.implements Landroidx/camera/core/impl/CameraFactory$Provider;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/activity/ComponentActivity;)V
+.method public synthetic constructor <init>()V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Ld/a;->a:Landroidx/activity/ComponentActivity;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
+.method public final newInstance(Landroid/content/Context;Landroidx/camera/core/impl/CameraThreadConfig;Landroidx/camera/core/CameraSelector;)Landroidx/camera/core/impl/CameraFactory;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Ld/a;->a:Landroidx/activity/ComponentActivity;
+    new-instance v0, Landroidx/camera/camera2/internal/Camera2CameraFactory;
 
-    invoke-static {v0}, Landroidx/activity/ComponentActivity;->d(Landroidx/activity/ComponentActivity;)V
+    invoke-direct {v0, p1, p2, p3}, Landroidx/camera/camera2/internal/Camera2CameraFactory;-><init>(Landroid/content/Context;Landroidx/camera/core/impl/CameraThreadConfig;Landroidx/camera/core/CameraSelector;)V
 
-    return-void
+    return-object v0
 .end method

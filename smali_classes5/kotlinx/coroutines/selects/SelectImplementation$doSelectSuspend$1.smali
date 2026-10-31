@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/selects/SelectImplementation;->y(Lul/c;)Ljava/lang/Object;
+    value = Lkotlinx/coroutines/selects/SelectImplementation;->r(Lkotlin/coroutines/e;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -13,23 +13,14 @@
     name = null
 .end annotation
 
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "kotlinx.coroutines.selects.SelectImplementation"
     f = "Select.kt"
-    i = {
-        0x0
-    }
     l = {
         0x1c5,
         0x1c8
     }
     m = "doSelectSuspend"
-    n = {
-        "this"
-    }
-    s = {
-        "L$0"
-    }
 .end annotation
 
 
@@ -43,86 +34,35 @@
 .field final synthetic this$0:Lkotlinx/coroutines/selects/SelectImplementation;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlinx/coroutines/selects/SelectImplementation<",
-            "TR;>;"
+            "Lkotlinx/coroutines/selects/SelectImplementation;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lkotlinx/coroutines/selects/SelectImplementation;Lul/c;)V
+.method public constructor <init>(Lkotlinx/coroutines/selects/SelectImplementation;Lkotlin/coroutines/e;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/selects/SelectImplementation<",
-            "TR;>;",
-            "Lul/c<",
-            "-",
-            "Lkotlinx/coroutines/selects/SelectImplementation$doSelectSuspend$1;",
-            ">;)V"
+            "Lkotlinx/coroutines/selects/SelectImplementation;",
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lkotlinx/coroutines/selects/SelectImplementation$doSelectSuspend$1;->this$0:Lkotlinx/coroutines/selects/SelectImplementation;
 
-    .line 2
-    .line 3
-    invoke-direct {p0, p2}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lul/c;)V
+    invoke-direct {p0, p2}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/e;)V
 
-    .line 4
-    .line 5
-    .line 6
     return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
 .end method
 
 
 # virtual methods
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     iput-object p1, p0, Lkotlinx/coroutines/selects/SelectImplementation$doSelectSuspend$1;->result:Ljava/lang/Object;
 
@@ -136,7 +76,7 @@
 
     iget-object p1, p0, Lkotlinx/coroutines/selects/SelectImplementation$doSelectSuspend$1;->this$0:Lkotlinx/coroutines/selects/SelectImplementation;
 
-    invoke-static {p1, p0}, Lkotlinx/coroutines/selects/SelectImplementation;->l(Lkotlinx/coroutines/selects/SelectImplementation;Lul/c;)Ljava/lang/Object;
+    invoke-static {p1, p0}, Lkotlinx/coroutines/selects/SelectImplementation;->h(Lkotlinx/coroutines/selects/SelectImplementation;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 

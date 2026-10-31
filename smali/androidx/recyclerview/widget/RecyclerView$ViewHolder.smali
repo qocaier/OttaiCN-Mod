@@ -151,6 +151,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/view/View;)V
@@ -290,6 +291,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private createPayloadsIfNeeded()V
@@ -333,6 +335,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -457,6 +460,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearPayload()V
@@ -496,6 +500,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearReturnedFromScrapFlag()V
@@ -528,6 +533,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearTmpDetachFlag()V
@@ -560,6 +566,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public doesTransientStatePreventRecycling()Z
@@ -607,6 +614,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public flagRemovedAndOffsetPosition(IIZ)V
@@ -734,6 +742,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public final getAdapterPosition()I
@@ -773,6 +784,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getItemId()J
@@ -801,6 +813,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getItemViewType()I
@@ -829,6 +842,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getLayoutPosition()I
@@ -864,6 +878,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getOldPosition()I
@@ -892,6 +907,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getPosition()I
@@ -929,6 +945,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUnmodifiedPayloads()Ljava/util/List;
@@ -1059,6 +1076,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public hasAnyOfTheFlags(I)Z
@@ -1152,6 +1171,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isAttachedToTransitionOverlay()Z
@@ -1267,6 +1287,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isBound()Z
@@ -1306,6 +1328,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isInvalid()Z
@@ -1345,6 +1368,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final isRecyclable()Z
@@ -1392,6 +1416,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isRemoved()Z
@@ -1431,6 +1456,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isScrap()Z
@@ -1468,6 +1494,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isTmpDetached()Z
@@ -1507,6 +1534,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isUpdated()Z
@@ -1546,6 +1574,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public needsUpdate()Z
@@ -1585,6 +1614,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public offsetPosition(IZ)V
@@ -1880,6 +1910,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onEnteredHiddenState(Landroidx/recyclerview/widget/RecyclerView;)V
@@ -2096,6 +2129,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public saveOldPosition()V
@@ -2133,6 +2168,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setFlags(II)V
@@ -2350,6 +2386,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setScrapContainer(Landroidx/recyclerview/widget/RecyclerView$Recycler;Z)V
@@ -2447,6 +2484,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public shouldIgnore()Z
@@ -2486,6 +2524,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public stopIgnoring()V
@@ -2518,6 +2557,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -3138,6 +3178,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public unScrap()V
@@ -3168,6 +3260,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public wasReturnedFromScrap()Z
@@ -3207,4 +3300,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

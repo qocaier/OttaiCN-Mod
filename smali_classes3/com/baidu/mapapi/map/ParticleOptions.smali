@@ -46,7 +46,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -87,7 +86,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParticlePos()Lcom/baidu/mapapi/model/LatLng;
@@ -118,7 +116,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setParticleImgs(Ljava/util/List;)V
@@ -159,7 +156,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setParticlePos(Lcom/baidu/mapapi/model/LatLng;)V
@@ -192,5 +188,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

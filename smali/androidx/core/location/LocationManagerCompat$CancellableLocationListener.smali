@@ -189,6 +189,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic a(Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;)V
@@ -333,6 +336,7 @@
     .line 20
     :cond_0
     return-void
+    .line 21
 .end method
 
 
@@ -402,6 +406,7 @@
     .line 19
     throw v0
     .line 20
+    .line 21
 .end method
 
 .method public onLocationChanged(Landroid/location/Location;)V
@@ -460,11 +465,11 @@
 
     .line 17
     .line 18
-    new-instance v2, Landroidx/core/location/d;
+    new-instance v2, Landroidx/core/location/e;
 
     .line 19
     .line 20
-    invoke-direct {v2, v0, p1}, Landroidx/core/location/d;-><init>(Landroidx/core/util/Consumer;Landroid/location/Location;)V
+    invoke-direct {v2, v0, p1}, Landroidx/core/location/e;-><init>(Landroidx/core/util/Consumer;Landroid/location/Location;)V
 
     .line 21
     .line 22
@@ -537,6 +542,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onProviderDisabled(Ljava/lang/String;)V
@@ -627,11 +633,11 @@
 
     .line 10
     :cond_0
-    new-instance v0, Landroidx/core/location/c;
+    new-instance v0, Landroidx/core/location/d;
 
     .line 11
     .line 12
-    invoke-direct {v0, p0}, Landroidx/core/location/c;-><init>(Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;)V
+    invoke-direct {v0, p0}, Landroidx/core/location/d;-><init>(Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;)V
 
     .line 13
     .line 14

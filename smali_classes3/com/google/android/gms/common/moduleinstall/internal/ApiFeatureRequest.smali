@@ -3,15 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lb9/a;
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "ApiFeatureRequestCreator"
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
@@ -31,51 +22,25 @@
 
 # instance fields
 .field public final a:Ljava/util/List;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getApiFeatures"
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:Z
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getIsUrgent"
-        id = 0x2
-    .end annotation
-.end field
 
 .field public final c:Ljava/lang/String;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getFeatureRequestSessionId"
-        id = 0x3
-    .end annotation
-.end field
 
 .field public final d:Ljava/lang/String;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getCallingPackage"
-        id = 0x4
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Ln9/e;
+    new-instance v0, Lx2/b;
 
-    invoke-direct {v0}, Ln9/e;-><init>()V
+    invoke-direct {v0}, Lx2/b;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    sget-object v0, Ln9/d;->a:Ln9/d;
+    sget-object v0, Lx2/a;->a:Lx2/a;
 
     sput-object v0, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;->e:Ljava/util/Comparator;
 
@@ -84,37 +49,6 @@
 
 .method public constructor <init>(Ljava/util/List;ZLjava/lang/String;Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/util/List;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # Z
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x3
-        .end annotation
-    .end param
-    .param p4    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x4
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -122,7 +56,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lh9/t;->r(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lt2/j;->g(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -371,179 +305,37 @@
     .line 240
     .line 241
     .line 242
-.end method
-
-.method public static s(Lm9/d;)Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;
-    .locals 1
-    .param p0    # Lm9/d;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lb9/a;
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lm9/d;->a()Ljava/util/List;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object p0
-
-    .line 5
-    const/4 v0, 0x1
-
-    .line 6
-    invoke-static {p0, v0}, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;->u(Ljava/util/List;Z)Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;
-
-    .line 7
-    .line 8
-    .line 9
-    move-result-object p0
-
-    .line 10
-    return-object p0
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public static u(Ljava/util/List;Z)Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;
-    .locals 2
-
-    .line 1
-    new-instance v0, Ljava/util/TreeSet;
-
-    .line 2
-    .line 3
-    sget-object v1, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;->e:Ljava/util/Comparator;
-
-    .line 4
-    .line 5
-    invoke-direct {v0, v1}, Ljava/util/TreeSet;-><init>(Ljava/util/Comparator;)V
-
-    .line 6
-    .line 7
-    .line 8
-    invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    .line 9
-    .line 10
-    .line 11
-    move-result-object p0
-
-    .line 12
-    :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 13
-    .line 14
-    .line 15
-    move-result v1
-
-    .line 16
-    if-eqz v1, :cond_0
-
-    .line 17
-    .line 18
-    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 19
-    .line 20
-    .line 21
-    move-result-object v1
-
-    .line 22
-    check-cast v1, Lc9/h;
-
-    .line 23
-    .line 24
-    invoke-interface {v1}, Lc9/h;->a()[Lcom/google/android/gms/common/Feature;
-
-    .line 25
-    .line 26
-    .line 27
-    move-result-object v1
-
-    .line 28
-    invoke-static {v0, v1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
-
-    .line 29
-    .line 30
-    .line 31
-    goto :goto_0
-
-    .line 32
-    :cond_0
-    new-instance p0, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;
-
-    .line 33
-    .line 34
-    new-instance v1, Ljava/util/ArrayList;
-
-    .line 35
-    .line 36
-    invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
-
-    .line 37
-    .line 38
-    .line 39
-    const/4 v0, 0x0
-
-    .line 40
-    invoke-direct {p0, v1, p1, v0, v0}, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;-><init>(Ljava/util/List;ZLjava/lang/String;Ljava/lang/String;)V
-
-    .line 41
-    .line 42
-    .line 43
-    return-object p0
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 
 # virtual methods
+.method public d()Ljava/util/List;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;->a:Ljava/util/List;
+
+    return-object v0
+.end method
+
 .method public final equals(Ljava/lang/Object;)Z
     .locals 3
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
     const/4 v0, 0x0
@@ -593,7 +385,7 @@
 
     .line 21
     .line 22
-    invoke-static {v1, v2}, Lh9/r;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lt2/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 23
     .line 24
@@ -613,7 +405,7 @@
 
     .line 31
     .line 32
-    invoke-static {v1, v2}, Lh9/r;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lt2/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 33
     .line 34
@@ -633,7 +425,7 @@
 
     .line 41
     .line 42
-    invoke-static {v1, p1}, Lh9/r;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lt2/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 43
     .line 44
@@ -694,8 +486,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public final hashCode()I
@@ -734,7 +524,7 @@
     move-result-object v0
 
     .line 17
-    invoke-static {v0}, Lh9/r;->c([Ljava/lang/Object;)I
+    invoke-static {v0}, Lt2/i;->b([Ljava/lang/Object;)I
 
     .line 18
     .line 19
@@ -744,41 +534,13 @@
     .line 21
     return v0
     .line 22
-    .line 23
-.end method
-
-.method public t()Ljava/util/List;
-    .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lb9/a;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lcom/google/android/gms/common/Feature;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;->a:Ljava/util/List;
-
-    return-object v0
 .end method
 
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -786,7 +548,7 @@
     move-result p2
 
     .line 5
-    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;->t()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;->d()Ljava/util/List;
 
     .line 6
     .line 7
@@ -800,7 +562,7 @@
     const/4 v2, 0x0
 
     .line 11
-    invoke-static {p1, v1, v0, v2}, Lj9/a;->d0(Landroid/os/Parcel;ILjava/util/List;Z)V
+    invoke-static {p1, v1, v0, v2}, Lu2/a;->u(Landroid/os/Parcel;ILjava/util/List;Z)V
 
     .line 12
     .line 13
@@ -812,7 +574,7 @@
 
     .line 16
     .line 17
-    invoke-static {p1, v0, v1}, Lj9/a;->g(Landroid/os/Parcel;IZ)V
+    invoke-static {p1, v0, v1}, Lu2/a;->c(Landroid/os/Parcel;IZ)V
 
     .line 18
     .line 19
@@ -824,7 +586,7 @@
 
     .line 22
     .line 23
-    invoke-static {p1, v0, v1, v2}, Lj9/a;->Y(Landroid/os/Parcel;ILjava/lang/String;Z)V
+    invoke-static {p1, v0, v1, v2}, Lu2/a;->q(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
     .line 24
     .line 25
@@ -836,12 +598,12 @@
 
     .line 28
     .line 29
-    invoke-static {p1, v0, v1, v2}, Lj9/a;->Y(Landroid/os/Parcel;ILjava/lang/String;Z)V
+    invoke-static {p1, v0, v1, v2}, Lu2/a;->q(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
     .line 30
     .line 31
     .line 32
-    invoke-static {p1, p2}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 33
     .line 34
@@ -872,9 +634,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/flu_over_ball/a;->m(Landroid/app/Application;)V
+    value = Lcom/example/flu_over_ball/a;->k(Landroid/app/Application;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -46,7 +46,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -59,7 +58,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -71,7 +70,7 @@
     const/4 p2, 0x0
 
     .line 9
-    invoke-virtual {p1, p2}, Lcom/example/flu_over_ball/a$a;->d(Z)V
+    invoke-virtual {p1, p2}, Lcom/example/flu_over_ball/a$a;->c(Z)V
 
     .line 10
     .line 11
@@ -125,11 +124,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onActivityDestroyed(Landroid/app/Activity;)V
@@ -140,7 +134,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -152,7 +146,7 @@
     const/4 v0, 0x0
 
     .line 9
-    invoke-virtual {p1, v0}, Lcom/example/flu_over_ball/a$a;->d(Z)V
+    invoke-virtual {p1, v0}, Lcom/example/flu_over_ball/a$a;->c(Z)V
 
     .line 10
     .line 11
@@ -170,7 +164,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onActivityPaused(Landroid/app/Activity;)V
@@ -181,7 +174,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -193,7 +186,7 @@
     const/4 v0, 0x0
 
     .line 9
-    invoke-virtual {p1, v0}, Lcom/example/flu_over_ball/a$a;->d(Z)V
+    invoke-virtual {p1, v0}, Lcom/example/flu_over_ball/a$a;->c(Z)V
 
     .line 10
     .line 11
@@ -211,7 +204,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onActivityResumed(Landroid/app/Activity;)V
@@ -222,7 +214,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -234,7 +226,7 @@
     const/4 v0, 0x1
 
     .line 9
-    invoke-virtual {p1, v0}, Lcom/example/flu_over_ball/a$a;->d(Z)V
+    invoke-virtual {p1, v0}, Lcom/example/flu_over_ball/a$a;->c(Z)V
 
     .line 10
     .line 11
@@ -252,7 +244,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onActivitySaveInstanceState(Landroid/app/Activity;Landroid/os/Bundle;)V
@@ -263,7 +254,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -272,7 +263,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -284,7 +275,7 @@
     const/4 p2, 0x0
 
     .line 14
-    invoke-virtual {p1, p2}, Lcom/example/flu_over_ball/a$a;->d(Z)V
+    invoke-virtual {p1, p2}, Lcom/example/flu_over_ball/a$a;->c(Z)V
 
     .line 15
     .line 16
@@ -333,11 +324,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onActivityStarted(Landroid/app/Activity;)V
@@ -348,7 +334,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -360,7 +346,7 @@
     const/4 v0, 0x0
 
     .line 9
-    invoke-virtual {p1, v0}, Lcom/example/flu_over_ball/a$a;->d(Z)V
+    invoke-virtual {p1, v0}, Lcom/example/flu_over_ball/a$a;->c(Z)V
 
     .line 10
     .line 11
@@ -378,7 +364,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onActivityStopped(Landroid/app/Activity;)V
@@ -389,7 +374,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -401,7 +386,7 @@
     const/4 v0, 0x0
 
     .line 9
-    invoke-virtual {p1, v0}, Lcom/example/flu_over_ball/a$a;->d(Z)V
+    invoke-virtual {p1, v0}, Lcom/example/flu_over_ball/a$a;->c(Z)V
 
     .line 10
     .line 11
@@ -419,5 +404,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

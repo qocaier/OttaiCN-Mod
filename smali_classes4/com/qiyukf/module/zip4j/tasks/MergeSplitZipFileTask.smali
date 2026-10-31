@@ -94,6 +94,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method private createSplitZipFileStream(Lcom/qiyukf/module/zip4j/model/ZipModel;I)Ljava/io/RandomAccessFile;
@@ -173,6 +183,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method private getNextSplitZipFile(Lcom/qiyukf/module/zip4j/model/ZipModel;I)Ljava/io/File;
@@ -519,6 +539,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method private updateFileHeaderOffsetsForIndex(Ljava/util/List;JII)V
@@ -826,6 +876,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method private updateHeadersForMergeSplitFileAction(Lcom/qiyukf/module/zip4j/model/ZipModel;JLjava/io/OutputStream;Ljava/nio/charset/Charset;)V
@@ -1108,6 +1181,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method private updateSplitEndCentralDirectory(Lcom/qiyukf/module/zip4j/model/ZipModel;)V
@@ -1224,6 +1320,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private updateSplitZip64EndCentralDirLocator(Lcom/qiyukf/module/zip4j/model/ZipModel;J)V
@@ -1313,6 +1411,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method private updateSplitZip64EndCentralDirRec(Lcom/qiyukf/module/zip4j/model/ZipModel;J)V
@@ -1412,6 +1520,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method private updateSplitZipModel(Lcom/qiyukf/module/zip4j/model/ZipModel;J)V
@@ -1489,6 +1607,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -1926,7 +2054,7 @@
     :try_start_e
     new-instance v0, Lcom/qiyukf/module/zip4j/exception/ZipException;
 
-    const-string v1, "zip archive not a split zip file"
+    const-string/jumbo v1, "zip archive not a split zip file"
 
     invoke-direct {v0, v1}, Lcom/qiyukf/module/zip4j/exception/ZipException;-><init>(Ljava/lang/String;)V
 
@@ -2021,4 +2149,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

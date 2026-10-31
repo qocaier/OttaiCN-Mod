@@ -45,14 +45,6 @@
 # virtual methods
 .method public a(Lcom/hihonor/push/sdk/d1;)V
     .locals 3
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/hihonor/push/sdk/d1<",
-            "Lcom/hihonor/push/sdk/HonorPushDataMsg;",
-            ">;)V"
-        }
-    .end annotation
 
     .line 1
     const-string v0, "HonorMessageService"
@@ -228,4 +220,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

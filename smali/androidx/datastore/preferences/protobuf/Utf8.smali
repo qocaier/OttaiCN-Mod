@@ -144,6 +144,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -172,6 +174,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$000(II)I
@@ -353,6 +356,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$1100([BII)I
@@ -476,6 +482,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$1200(I)I
@@ -634,6 +643,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$300(Ljava/nio/ByteBuffer;III)I
@@ -874,23 +886,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static decodeUtf8(Ljava/nio/ByteBuffer;II)Ljava/lang/String;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "buffer",
-            "index",
-            "size"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -909,19 +914,6 @@
 
 .method public static decodeUtf8([BII)Ljava/lang/String;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "bytes",
-            "index",
-            "size"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -940,20 +932,6 @@
 
 .method public static encode(Ljava/lang/String;[BII)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "in",
-            "out",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/Utf8;->processor:Landroidx/datastore/preferences/protobuf/Utf8$Processor;
@@ -1192,20 +1170,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static encodeUtf8(Ljava/lang/String;Ljava/nio/ByteBuffer;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "in",
-            "out"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/Utf8;->processor:Landroidx/datastore/preferences/protobuf/Utf8$Processor;
@@ -1264,14 +1238,6 @@
 
 .method public static encodedLength(Ljava/lang/String;)I
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "string"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -1434,20 +1400,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static encodedLengthGeneral(Ljava/lang/String;I)I
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "string",
-            "start"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Ljava/lang/String;->length()I
@@ -1745,22 +1702,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static estimateConsecutiveAscii(Ljava/nio/ByteBuffer;II)I
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "buffer",
-            "index",
-            "limit"
-        }
-    .end annotation
 
     .line 1
     add-int/lit8 p2, p2, -0x7
@@ -1904,18 +1852,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static incompleteStateFor(I)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "byte1"
-        }
-    .end annotation
 
     .line 1
     const/16 v0, -0xc
@@ -1930,16 +1873,6 @@
 
 .method private static incompleteStateFor(II)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "byte1",
-            "byte2"
-        }
-    .end annotation
 
     .line 2
     const/16 v0, -0xc
@@ -1968,18 +1901,6 @@
 
 .method private static incompleteStateFor(III)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "byte1",
-            "byte2",
-            "byte3"
-        }
-    .end annotation
 
     .line 3
     const/16 v0, -0xc
@@ -2014,20 +1935,6 @@
 
 .method private static incompleteStateFor(Ljava/nio/ByteBuffer;III)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "buffer",
-            "byte1",
-            "index",
-            "remaining"
-        }
-    .end annotation
 
     if-eqz p3, :cond_2
 
@@ -2087,18 +1994,6 @@
 
 .method private static incompleteStateFor([BII)I
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "bytes",
-            "index",
-            "limit"
-        }
-    .end annotation
 
     add-int/lit8 v0, p1, -0x1
 
@@ -2159,14 +2054,6 @@
 
 .method public static isValidUtf8(Ljava/nio/ByteBuffer;)Z
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "buffer"
-        }
-    .end annotation
 
     .line 3
     sget-object v0, Landroidx/datastore/preferences/protobuf/Utf8;->processor:Landroidx/datastore/preferences/protobuf/Utf8$Processor;
@@ -2188,14 +2075,6 @@
 
 .method public static isValidUtf8([B)Z
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bytes"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/Utf8;->processor:Landroidx/datastore/preferences/protobuf/Utf8$Processor;
@@ -2213,18 +2092,6 @@
 
 .method public static isValidUtf8([BII)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "bytes",
-            "index",
-            "limit"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/Utf8;->processor:Landroidx/datastore/preferences/protobuf/Utf8$Processor;
@@ -2238,20 +2105,6 @@
 
 .method public static partialIsValidUtf8(ILjava/nio/ByteBuffer;II)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "state",
-            "buffer",
-            "index",
-            "limit"
-        }
-    .end annotation
 
     .line 2
     sget-object v0, Landroidx/datastore/preferences/protobuf/Utf8;->processor:Landroidx/datastore/preferences/protobuf/Utf8$Processor;
@@ -2265,20 +2118,6 @@
 
 .method public static partialIsValidUtf8(I[BII)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "state",
-            "bytes",
-            "index",
-            "limit"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/Utf8;->processor:Landroidx/datastore/preferences/protobuf/Utf8$Processor;

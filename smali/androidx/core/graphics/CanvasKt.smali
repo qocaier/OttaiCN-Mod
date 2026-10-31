@@ -4,26 +4,15 @@
 
 
 # direct methods
-.method public static final withClip(Landroid/graphics/Canvas;FFFFLjm/l;)V
+.method public static final withClip(Landroid/graphics/Canvas;FFFFLq8/l;)V
     .locals 1
-    .param p0    # Landroid/graphics/Canvas;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Canvas;",
             "FFFF",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -39,51 +28,40 @@
 
     .line 15
     :try_start_0
-    invoke-interface {p5, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     return-void
 
     :catchall_0
     move-exception p2
 
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     throw p2
 .end method
 
-.method public static final withClip(Landroid/graphics/Canvas;IIIILjm/l;)V
+.method public static final withClip(Landroid/graphics/Canvas;IIIILq8/l;)V
     .locals 1
-    .param p0    # Landroid/graphics/Canvas;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Canvas;",
             "IIII",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -99,55 +77,40 @@
 
     .line 11
     :try_start_0
-    invoke-interface {p5, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     return-void
 
     :catchall_0
     move-exception p2
 
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     throw p2
 .end method
 
-.method public static final withClip(Landroid/graphics/Canvas;Landroid/graphics/Path;Ljm/l;)V
+.method public static final withClip(Landroid/graphics/Canvas;Landroid/graphics/Path;Lq8/l;)V
     .locals 1
-    .param p0    # Landroid/graphics/Canvas;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Canvas;",
             "Landroid/graphics/Path;",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -163,55 +126,40 @@
 
     .line 19
     :try_start_0
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 20
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     return-void
 
     :catchall_0
     move-exception p2
 
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     throw p2
 .end method
 
-.method public static final withClip(Landroid/graphics/Canvas;Landroid/graphics/Rect;Ljm/l;)V
+.method public static final withClip(Landroid/graphics/Canvas;Landroid/graphics/Rect;Lq8/l;)V
     .locals 1
-    .param p0    # Landroid/graphics/Canvas;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Rect;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Canvas;",
             "Landroid/graphics/Rect;",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -227,55 +175,40 @@
 
     .line 3
     :try_start_0
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     return-void
 
     :catchall_0
     move-exception p2
 
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     throw p2
 .end method
 
-.method public static final withClip(Landroid/graphics/Canvas;Landroid/graphics/RectF;Ljm/l;)V
+.method public static final withClip(Landroid/graphics/Canvas;Landroid/graphics/RectF;Lq8/l;)V
     .locals 1
-    .param p0    # Landroid/graphics/Canvas;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/RectF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Canvas;",
             "Landroid/graphics/RectF;",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -291,55 +224,40 @@
 
     .line 7
     :try_start_0
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     return-void
 
     :catchall_0
     move-exception p2
 
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     throw p2
 .end method
 
-.method public static final withMatrix(Landroid/graphics/Canvas;Landroid/graphics/Matrix;Ljm/l;)V
+.method public static final withMatrix(Landroid/graphics/Canvas;Landroid/graphics/Matrix;Lq8/l;)V
     .locals 1
-    .param p0    # Landroid/graphics/Canvas;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Matrix;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Canvas;",
             "Landroid/graphics/Matrix;",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -361,14 +279,14 @@
 
     .line 9
     :try_start_0
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 10
     .line 11
     .line 12
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 13
     .line 14
@@ -378,7 +296,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 19
     .line 20
@@ -390,7 +308,7 @@
     move-exception p2
 
     .line 23
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 24
     .line 25
@@ -400,7 +318,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 30
     .line 31
@@ -487,9 +405,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static synthetic withMatrix$default(Landroid/graphics/Canvas;Landroid/graphics/Matrix;Ljm/l;ILjava/lang/Object;)V
+.method public static synthetic withMatrix$default(Landroid/graphics/Canvas;Landroid/graphics/Matrix;Lq8/l;ILjava/lang/Object;)V
     .locals 0
 
     .line 1
@@ -527,14 +448,14 @@
     .line 16
     .line 17
     :try_start_0
-    invoke-interface {p2, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 18
     .line 19
     .line 20
-    invoke-static {p4}, Lkm/d0;->d(I)V
+    invoke-static {p4}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 21
     .line 22
@@ -544,7 +465,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {p4}, Lkm/d0;->c(I)V
+    invoke-static {p4}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 27
     .line 28
@@ -556,7 +477,7 @@
     move-exception p1
 
     .line 31
-    invoke-static {p4}, Lkm/d0;->d(I)V
+    invoke-static {p4}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 32
     .line 33
@@ -566,7 +487,7 @@
     .line 35
     .line 36
     .line 37
-    invoke-static {p4}, Lkm/d0;->c(I)V
+    invoke-static {p4}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 38
     .line 39
@@ -1057,26 +978,15 @@
     .line 523
 .end method
 
-.method public static final withRotation(Landroid/graphics/Canvas;FFFLjm/l;)V
+.method public static final withRotation(Landroid/graphics/Canvas;FFFLq8/l;)V
     .locals 1
-    .param p0    # Landroid/graphics/Canvas;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Canvas;",
             "FFF",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -1098,14 +1008,14 @@
 
     .line 9
     :try_start_0
-    invoke-interface {p4, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 10
     .line 11
     .line 12
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 13
     .line 14
@@ -1115,7 +1025,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 19
     .line 20
@@ -1127,7 +1037,7 @@
     move-exception p2
 
     .line 23
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 24
     .line 25
@@ -1137,7 +1047,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 30
     .line 31
@@ -1636,7 +1546,7 @@
     .line 523
 .end method
 
-.method public static synthetic withRotation$default(Landroid/graphics/Canvas;FFFLjm/l;ILjava/lang/Object;)V
+.method public static synthetic withRotation$default(Landroid/graphics/Canvas;FFFLq8/l;ILjava/lang/Object;)V
     .locals 1
 
     .line 1
@@ -1696,14 +1606,14 @@
 
     .line 25
     :try_start_0
-    invoke-interface {p4, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 26
     .line 27
     .line 28
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 29
     .line 30
@@ -1713,7 +1623,7 @@
     .line 32
     .line 33
     .line 34
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 35
     .line 36
@@ -1725,7 +1635,7 @@
     move-exception p2
 
     .line 39
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 40
     .line 41
@@ -1735,7 +1645,7 @@
     .line 43
     .line 44
     .line 45
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 46
     .line 47
@@ -2311,25 +2221,14 @@
     .line 616
 .end method
 
-.method public static final withSave(Landroid/graphics/Canvas;Ljm/l;)V
+.method public static final withSave(Landroid/graphics/Canvas;Lq8/l;)V
     .locals 2
-    .param p0    # Landroid/graphics/Canvas;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Canvas;",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -2346,14 +2245,14 @@
 
     .line 6
     :try_start_0
-    invoke-interface {p1, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 7
     .line 8
     .line 9
-    invoke-static {v1}, Lkm/d0;->d(I)V
+    invoke-static {v1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 10
     .line 11
@@ -2363,7 +2262,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {v1}, Lkm/d0;->c(I)V
+    invoke-static {v1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 16
     .line 17
@@ -2375,7 +2274,7 @@
     move-exception p1
 
     .line 20
-    invoke-static {v1}, Lkm/d0;->d(I)V
+    invoke-static {v1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 21
     .line 22
@@ -2385,7 +2284,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {v1}, Lkm/d0;->c(I)V
+    invoke-static {v1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 27
     .line 28
@@ -2412,26 +2311,15 @@
     .line 48
 .end method
 
-.method public static final withScale(Landroid/graphics/Canvas;FFFFLjm/l;)V
+.method public static final withScale(Landroid/graphics/Canvas;FFFFLq8/l;)V
     .locals 1
-    .param p0    # Landroid/graphics/Canvas;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Canvas;",
             "FFFF",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -2453,14 +2341,14 @@
 
     .line 9
     :try_start_0
-    invoke-interface {p5, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 10
     .line 11
     .line 12
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 13
     .line 14
@@ -2470,7 +2358,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 19
     .line 20
@@ -2482,7 +2370,7 @@
     move-exception p2
 
     .line 23
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 24
     .line 25
@@ -2492,7 +2380,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 30
     .line 31
@@ -3476,7 +3364,7 @@
     .line 1008
 .end method
 
-.method public static synthetic withScale$default(Landroid/graphics/Canvas;FFFFLjm/l;ILjava/lang/Object;)V
+.method public static synthetic withScale$default(Landroid/graphics/Canvas;FFFFLq8/l;ILjava/lang/Object;)V
     .locals 1
 
     .line 1
@@ -3552,14 +3440,14 @@
 
     .line 32
     :try_start_0
-    invoke-interface {p5, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 33
     .line 34
     .line 35
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 36
     .line 37
@@ -3569,7 +3457,7 @@
     .line 39
     .line 40
     .line 41
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 42
     .line 43
@@ -3581,7 +3469,7 @@
     move-exception p2
 
     .line 46
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 47
     .line 48
@@ -3591,7 +3479,7 @@
     .line 50
     .line 51
     .line 52
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 53
     .line 54
@@ -4148,26 +4036,15 @@
     .line 604
 .end method
 
-.method public static final withSkew(Landroid/graphics/Canvas;FFLjm/l;)V
+.method public static final withSkew(Landroid/graphics/Canvas;FFLq8/l;)V
     .locals 1
-    .param p0    # Landroid/graphics/Canvas;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Canvas;",
             "FF",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -4189,14 +4066,14 @@
 
     .line 9
     :try_start_0
-    invoke-interface {p3, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 10
     .line 11
     .line 12
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 13
     .line 14
@@ -4206,7 +4083,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 19
     .line 20
@@ -4218,7 +4095,7 @@
     move-exception p2
 
     .line 23
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 24
     .line 25
@@ -4228,7 +4105,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 30
     .line 31
@@ -4432,9 +4309,15 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static synthetic withSkew$default(Landroid/graphics/Canvas;FFLjm/l;ILjava/lang/Object;)V
+.method public static synthetic withSkew$default(Landroid/graphics/Canvas;FFLq8/l;ILjava/lang/Object;)V
     .locals 1
 
     .line 1
@@ -4482,14 +4365,14 @@
 
     .line 20
     :try_start_0
-    invoke-interface {p3, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 21
     .line 22
     .line 23
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 24
     .line 25
@@ -4499,7 +4382,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 30
     .line 31
@@ -4511,7 +4394,7 @@
     move-exception p2
 
     .line 34
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 35
     .line 36
@@ -4521,7 +4404,7 @@
     .line 38
     .line 39
     .line 40
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 41
     .line 42
@@ -5494,26 +5377,15 @@
     .line 1008
 .end method
 
-.method public static final withTranslation(Landroid/graphics/Canvas;FFLjm/l;)V
+.method public static final withTranslation(Landroid/graphics/Canvas;FFLq8/l;)V
     .locals 1
-    .param p0    # Landroid/graphics/Canvas;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Canvas;",
             "FF",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -5535,14 +5407,14 @@
 
     .line 9
     :try_start_0
-    invoke-interface {p3, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 10
     .line 11
     .line 12
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 13
     .line 14
@@ -5552,7 +5424,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 19
     .line 20
@@ -5564,7 +5436,7 @@
     move-exception p2
 
     .line 23
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 24
     .line 25
@@ -5574,7 +5446,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 30
     .line 31
@@ -5778,9 +5650,15 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static synthetic withTranslation$default(Landroid/graphics/Canvas;FFLjm/l;ILjava/lang/Object;)V
+.method public static synthetic withTranslation$default(Landroid/graphics/Canvas;FFLq8/l;ILjava/lang/Object;)V
     .locals 1
 
     .line 1
@@ -5828,14 +5706,14 @@
 
     .line 20
     :try_start_0
-    invoke-interface {p3, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 21
     .line 22
     .line 23
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 24
     .line 25
@@ -5845,7 +5723,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 30
     .line 31
@@ -5857,7 +5735,7 @@
     move-exception p2
 
     .line 34
-    invoke-static {p1}, Lkm/d0;->d(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 35
     .line 36
@@ -5867,7 +5745,7 @@
     .line 38
     .line 39
     .line 40
-    invoke-static {p1}, Lkm/d0;->c(I)V
+    invoke-static {p1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 41
     .line 42

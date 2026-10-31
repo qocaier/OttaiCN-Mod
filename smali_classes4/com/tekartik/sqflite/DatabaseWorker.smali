@@ -82,6 +82,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic a(Lcom/tekartik/sqflite/DatabaseWorker;Lcom/tekartik/sqflite/DatabaseTask;)V
@@ -124,6 +134,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -169,6 +181,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public lastTaskDatabaseId()Ljava/lang/Integer;
@@ -208,6 +222,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public postTask(Lcom/tekartik/sqflite/DatabaseTask;)V
@@ -218,11 +234,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lcom/tekartik/sqflite/h;
+    new-instance v1, Lcom/tekartik/sqflite/j;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1}, Lcom/tekartik/sqflite/h;-><init>(Lcom/tekartik/sqflite/DatabaseWorker;Lcom/tekartik/sqflite/DatabaseTask;)V
+    invoke-direct {v1, p0, p1}, Lcom/tekartik/sqflite/j;-><init>(Lcom/tekartik/sqflite/DatabaseWorker;Lcom/tekartik/sqflite/DatabaseTask;)V
 
     .line 6
     .line 7
@@ -247,6 +263,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized quit()V
@@ -309,6 +327,8 @@
 
     .line 20
     throw v0
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized start(Ljava/lang/Runnable;)V
@@ -442,6 +462,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public work(Lcom/tekartik/sqflite/DatabaseTask;)V
@@ -483,4 +505,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

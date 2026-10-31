@@ -2985,6 +2985,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getType()C
@@ -3013,6 +3014,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public interpolatePathDataNode(Landroidx/core/graphics/PathParser$PathDataNode;Landroidx/core/graphics/PathParser$PathDataNode;F)V
@@ -3170,4 +3172,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

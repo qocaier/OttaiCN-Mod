@@ -166,11 +166,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method private onHandleIntent(Landroid/content/Context;Landroid/content/Intent;)V
@@ -320,9 +315,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lsf/a;
+    new-instance v1, Ld6/a;
 
-    invoke-direct {v1, p0, p1, p2}, Lsf/a;-><init>(Lcom/meizu/cloud/pushsdk/MzPushMessageReceiver;Landroid/content/Context;Landroid/content/Intent;)V
+    invoke-direct {v1, p0, p1, p2}, Ld6/a;-><init>(Lcom/meizu/cloud/pushsdk/MzPushMessageReceiver;Landroid/content/Context;Landroid/content/Intent;)V
 
     invoke-virtual {v0, v1}, Lcom/meizu/cloud/pushsdk/k/b;->execute(Ljava/lang/Runnable;)V
 

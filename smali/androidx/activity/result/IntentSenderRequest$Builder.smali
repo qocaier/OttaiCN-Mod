@@ -22,31 +22,21 @@
 
 # instance fields
 .field private fillInIntent:Landroid/content/Intent;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private flagsMask:I
 
 .field private flagsValues:I
 
 .field private final intentSender:Landroid/content/IntentSender;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroid/app/PendingIntent;)V
     .locals 1
-    .param p1    # Landroid/app/PendingIntent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "pendingIntent"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p1}, Landroid/app/PendingIntent;->getIntentSender()Landroid/content/IntentSender;
@@ -55,7 +45,7 @@
 
     const-string v0, "pendingIntent.intentSender"
 
-    invoke-static {p1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {p0, p1}, Landroidx/activity/result/IntentSenderRequest$Builder;-><init>(Landroid/content/IntentSender;)V
 
@@ -64,14 +54,10 @@
 
 .method public constructor <init>(Landroid/content/IntentSender;)V
     .locals 1
-    .param p1    # Landroid/content/IntentSender;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "intentSender"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -85,8 +71,6 @@
 # virtual methods
 .method public final build()Landroidx/activity/result/IntentSenderRequest;
     .locals 5
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/activity/result/IntentSenderRequest;
@@ -121,16 +105,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setFillInIntent(Landroid/content/Intent;)Landroidx/activity/result/IntentSenderRequest$Builder;
     .locals 0
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->fillInIntent:Landroid/content/Intent;
@@ -164,8 +143,6 @@
 
 .method public final setFlags(II)Landroidx/activity/result/IntentSenderRequest$Builder;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->flagsValues:I

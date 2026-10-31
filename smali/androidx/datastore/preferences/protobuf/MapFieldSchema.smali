@@ -10,15 +10,6 @@
 
 # virtual methods
 .method public abstract forMapData(Ljava/lang/Object;)Ljava/util/Map;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mapField"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -31,15 +22,6 @@
 .end method
 
 .method public abstract forMapMetadata(Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mapDefaultEntry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -52,15 +34,6 @@
 .end method
 
 .method public abstract forMutableMapData(Ljava/lang/Object;)Ljava/util/Map;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mapField"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -73,65 +46,18 @@
 .end method
 
 .method public abstract getSerializedSize(ILjava/lang/Object;Ljava/lang/Object;)I
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "fieldNumber",
-            "mapField",
-            "mapDefaultEntry"
-        }
-    .end annotation
 .end method
 
 .method public abstract isImmutable(Ljava/lang/Object;)Z
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mapField"
-        }
-    .end annotation
 .end method
 
 .method public abstract mergeFrom(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
     .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "destMapField",
-            "srcMapField"
-        }
-    .end annotation
 .end method
 
 .method public abstract newMapField(Ljava/lang/Object;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mapDefaultEntry"
-        }
-    .end annotation
 .end method
 
 .method public abstract toImmutable(Ljava/lang/Object;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mapField"
-        }
-    .end annotation
 .end method

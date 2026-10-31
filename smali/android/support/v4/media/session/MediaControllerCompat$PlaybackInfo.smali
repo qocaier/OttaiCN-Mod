@@ -122,6 +122,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAudioStream()I
@@ -156,6 +157,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCurrentVolume()I
@@ -184,6 +186,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxVolume()I
@@ -212,6 +215,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPlaybackType()I
@@ -240,6 +244,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVolumeControl()I
@@ -268,4 +273,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

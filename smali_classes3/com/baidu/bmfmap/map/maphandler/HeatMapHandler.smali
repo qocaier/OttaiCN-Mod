@@ -52,7 +52,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getData(Ljava/util/Map;)Ljava/util/List;
@@ -119,7 +118,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getDatas(Ljava/util/Map;)Ljava/util/List;
@@ -285,8 +283,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getGradient(Ljava/util/Map;)Lcom/baidu/mapapi/map/Gradient;
@@ -842,6 +838,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private getHeatMapAnimation(Ljava/util/Map;)Lcom/baidu/mapapi/map/HeatMapAnimation;
@@ -1369,6 +1397,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 
@@ -4950,50 +5010,6 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method public isShowBaiduHeatMap(Lio/flutter/plugin/common/MethodCall;)Z
@@ -5142,8 +5158,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public removeHeatMap(Landroid/content/Context;Lio/flutter/plugin/common/MethodCall;)Z
@@ -5242,11 +5256,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setHeatMapFrameAnimationIndex(Lio/flutter/plugin/common/MethodCall;)Z
@@ -5783,6 +5792,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public startHeatMapFrameAnimation()Z
@@ -5824,7 +5865,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public stopHeatMapFrameAnimation()Z
@@ -5866,5 +5906,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

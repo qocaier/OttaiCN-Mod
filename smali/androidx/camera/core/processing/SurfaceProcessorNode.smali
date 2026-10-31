@@ -244,6 +244,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic b(Ljava/util/Map;Landroidx/camera/core/SurfaceRequest$TransformationInfo;)V
@@ -552,6 +555,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic c(Landroidx/camera/core/processing/SurfaceProcessorNode;)V
@@ -666,6 +672,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private createAndSendSurfaceOutput(Landroidx/camera/core/processing/SurfaceEdge;Ljava/util/Map$Entry;)V
@@ -828,7 +835,7 @@
 
     .line 68
     :goto_1
-    invoke-virtual/range {v1 .. v7}, Landroidx/camera/core/processing/SurfaceEdge;->createSurfaceOutputFuture(Landroid/util/Size;ILandroid/graphics/Rect;IZLandroidx/camera/core/impl/CameraInternal;)Lub/u0;
+    invoke-virtual/range {v1 .. v7}, Landroidx/camera/core/processing/SurfaceEdge;->createSurfaceOutputFuture(Landroid/util/Size;ILandroid/graphics/Rect;IZLandroidx/camera/core/impl/CameraInternal;)Lcom/google/common/util/concurrent/t;
 
     .line 69
     .line 70
@@ -853,7 +860,7 @@
     move-result-object v0
 
     .line 81
-    invoke-static {p1, p2, v0}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {p1, p2, v0}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 82
     .line 83
@@ -1008,6 +1015,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private sendSurfaceOutputs(Landroidx/camera/core/processing/SurfaceEdge;Ljava/util/Map;)V
@@ -1090,11 +1100,11 @@
 
     .line 29
     .line 30
-    new-instance v2, Lz/w;
+    new-instance v2, Landroidx/camera/core/processing/c0;
 
     .line 31
     .line 32
-    invoke-direct {v2, p0, p1, v0}, Lz/w;-><init>(Landroidx/camera/core/processing/SurfaceProcessorNode;Landroidx/camera/core/processing/SurfaceEdge;Ljava/util/Map$Entry;)V
+    invoke-direct {v2, p0, p1, v0}, Landroidx/camera/core/processing/c0;-><init>(Landroidx/camera/core/processing/SurfaceProcessorNode;Landroidx/camera/core/processing/SurfaceEdge;Ljava/util/Map$Entry;)V
 
     .line 33
     .line 34
@@ -1586,6 +1596,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -1618,6 +1631,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public release()V
@@ -1641,11 +1655,11 @@
     move-result-object v0
 
     .line 10
-    new-instance v1, Lz/x;
+    new-instance v1, Landroidx/camera/core/processing/d0;
 
     .line 11
     .line 12
-    invoke-direct {v1, p0}, Lz/x;-><init>(Landroidx/camera/core/processing/SurfaceProcessorNode;)V
+    invoke-direct {v1, p0}, Landroidx/camera/core/processing/d0;-><init>(Landroidx/camera/core/processing/SurfaceProcessorNode;)V
 
     .line 13
     .line 14
@@ -1658,6 +1672,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setUpRotationUpdates(Landroidx/camera/core/SurfaceRequest;Ljava/util/Map;)V
@@ -1690,11 +1705,11 @@
     move-result-object v0
 
     .line 5
-    new-instance v1, Lz/y;
+    new-instance v1, Landroidx/camera/core/processing/e0;
 
     .line 6
     .line 7
-    invoke-direct {v1, p2}, Lz/y;-><init>(Ljava/util/Map;)V
+    invoke-direct {v1, p2}, Landroidx/camera/core/processing/e0;-><init>(Ljava/util/Map;)V
 
     .line 8
     .line 9

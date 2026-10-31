@@ -3,32 +3,36 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/util/Comparator;
+.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/camera2/internal/CaptureSession;
 
 
 # direct methods
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/CaptureSession;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/camera/camera2/internal/d1;->a:Landroidx/camera/camera2/internal/CaptureSession;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
-    .locals 0
+.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    .locals 1
 
     .line 1
-    check-cast p1, Landroid/util/Size;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/d1;->a:Landroidx/camera/camera2/internal/CaptureSession;
 
-    check-cast p2, Landroid/util/Size;
+    invoke-static {v0, p1}, Landroidx/camera/camera2/internal/CaptureSession;->a(Landroidx/camera/camera2/internal/CaptureSession;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
 
-    invoke-static {p1, p2}, Landroidx/camera/camera2/internal/MeteringRepeatingSession;->b(Landroid/util/Size;Landroid/util/Size;)I
+    move-result-object p1
 
-    move-result p1
-
-    return p1
+    return-object p1
 .end method

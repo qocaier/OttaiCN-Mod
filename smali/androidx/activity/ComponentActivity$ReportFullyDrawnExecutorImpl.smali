@@ -21,9 +21,6 @@
 
 # instance fields
 .field private currentRunnable:Ljava/lang/Runnable;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final endWatchTimeMillis:J
 
@@ -102,7 +99,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -115,7 +112,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 11
     .line 12
@@ -260,21 +257,19 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public execute(Ljava/lang/Runnable;)V
     .locals 2
-    .param p1    # Ljava/lang/Runnable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "runnable"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -307,7 +302,7 @@
 
     .line 19
     .line 20
-    invoke-static {p1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -336,7 +331,7 @@
     move-result-object v1
 
     .line 35
-    invoke-static {v0, v1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -366,11 +361,11 @@
 
     .line 49
     :cond_1
-    new-instance v0, Landroidx/activity/a;
+    new-instance v0, Landroidx/activity/g;
 
     .line 50
     .line 51
-    invoke-direct {v0, p0}, Landroidx/activity/a;-><init>(Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;)V
+    invoke-direct {v0, p0}, Landroidx/activity/g;-><init>(Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;)V
 
     .line 52
     .line 53
@@ -402,12 +397,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getCurrentRunnable()Ljava/lang/Runnable;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;->currentRunnable:Ljava/lang/Runnable;
@@ -432,6 +426,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getEndWatchTimeMillis()J
@@ -460,6 +455,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getOnDrawScheduled()Z
@@ -488,6 +484,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onDraw()V
@@ -644,6 +641,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public run()V
@@ -686,14 +685,11 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setCurrentRunnable(Ljava/lang/Runnable;)V
     .locals 0
-    .param p1    # Ljava/lang/Runnable;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorImpl;->currentRunnable:Ljava/lang/Runnable;
@@ -760,17 +756,13 @@
 
 .method public viewCreated(Landroid/view/View;)V
     .locals 1
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "view"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

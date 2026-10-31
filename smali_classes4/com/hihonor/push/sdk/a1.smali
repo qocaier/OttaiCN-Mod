@@ -65,13 +65,6 @@
 # virtual methods
 .method public final a(Lcom/hihonor/push/sdk/d1;)V
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/hihonor/push/sdk/d1<",
-            "TTResult;>;)V"
-        }
-    .end annotation
 
     iget-object v0, p0, Lcom/hihonor/push/sdk/a1;->a:Ljava/util/concurrent/Executor;
 

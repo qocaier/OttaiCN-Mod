@@ -184,6 +184,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -316,11 +319,11 @@
     move-result-object v0
 
     .line 7
-    new-instance v1, Landroidx/emoji2/text/b;
+    new-instance v1, Landroidx/emoji2/text/c;
 
     .line 8
     .line 9
-    invoke-direct {v1, p0, p1, v0}, Landroidx/emoji2/text/b;-><init>(Landroidx/emoji2/text/EmojiCompatInitializer$BackgroundDefaultLoader;Landroidx/emoji2/text/EmojiCompat$MetadataRepoLoaderCallback;Ljava/util/concurrent/ThreadPoolExecutor;)V
+    invoke-direct {v1, p0, p1, v0}, Landroidx/emoji2/text/c;-><init>(Landroidx/emoji2/text/EmojiCompatInitializer$BackgroundDefaultLoader;Landroidx/emoji2/text/EmojiCompat$MetadataRepoLoaderCallback;Ljava/util/concurrent/ThreadPoolExecutor;)V
 
     .line 10
     .line 11

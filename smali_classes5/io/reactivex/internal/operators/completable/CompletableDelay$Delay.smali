@@ -3,29 +3,20 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ldk/d;
+.implements Lb8/b;
 .implements Ljava/lang/Runnable;
-.implements Lfk/b;
+.implements Lio/reactivex/disposables/b;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lio/reactivex/internal/operators/completable/CompletableDelay;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "Delay"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/util/concurrent/atomic/AtomicReference<",
-        "Lfk/b;",
+        "Lio/reactivex/disposables/b;",
         ">;",
-        "Ldk/d;",
+        "Lb8/b;",
         "Ljava/lang/Runnable;",
-        "Lfk/b;"
+        "Lio/reactivex/disposables/b;"
     }
 .end annotation
 
@@ -39,17 +30,17 @@
 
 .field final delayError:Z
 
-.field final downstream:Ldk/d;
+.field final downstream:Lb8/b;
 
 .field error:Ljava/lang/Throwable;
 
-.field final scheduler:Ldk/h0;
+.field final scheduler:Lb8/p;
 
 .field final unit:Ljava/util/concurrent/TimeUnit;
 
 
 # direct methods
-.method public constructor <init>(Ldk/d;JLjava/util/concurrent/TimeUnit;Ldk/h0;Z)V
+.method public constructor <init>(Lb8/b;JLjava/util/concurrent/TimeUnit;Lb8/p;Z)V
     .locals 0
 
     .line 1
@@ -58,7 +49,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->downstream:Ldk/d;
+    iput-object p1, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->downstream:Lb8/b;
 
     .line 5
     .line 6
@@ -70,15 +61,13 @@
 
     .line 9
     .line 10
-    iput-object p5, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->scheduler:Ldk/h0;
+    iput-boolean p6, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->delayError:Z
 
     .line 11
     .line 12
-    iput-boolean p6, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->delayError:Z
-
+    return-void
     .line 13
     .line 14
-    return-void
     .line 15
     .line 16
     .line 17
@@ -338,65 +327,6 @@
     .line 271
     .line 272
     .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
 .end method
 
 
@@ -430,6 +360,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public isDisposed()Z
@@ -444,11 +401,11 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Lfk/b;
+    check-cast v0, Lio/reactivex/disposables/b;
 
     .line 6
     .line 7
-    invoke-static {v0}, Lio/reactivex/internal/disposables/DisposableHelper;->isDisposed(Lfk/b;)Z
+    invoke-static {v0}, Lio/reactivex/internal/disposables/DisposableHelper;->isDisposed(Lio/reactivex/disposables/b;)Z
 
     .line 8
     .line 9
@@ -469,38 +426,55 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onComplete()V
-    .locals 4
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->scheduler:Ldk/h0;
+    const/4 v0, 0x0
 
     .line 2
+    throw v0
     .line 3
-    iget-wide v1, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->delay:J
-
     .line 4
     .line 5
-    iget-object v3, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->unit:Ljava/util/concurrent/TimeUnit;
-
     .line 6
     .line 7
-    invoke-virtual {v0, p0, v1, v2, v3}, Ldk/h0;->f(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lfk/b;
-
     .line 8
     .line 9
     .line 10
-    move-result-object v0
-
     .line 11
-    invoke-static {p0, v0}, Lio/reactivex/internal/disposables/DisposableHelper;->replace(Ljava/util/concurrent/atomic/AtomicReference;Lfk/b;)Z
-
     .line 12
     .line 13
     .line 14
-    return-void
     .line 15
     .line 16
     .line 17
@@ -510,67 +484,107 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onError(Ljava/lang/Throwable;)V
-    .locals 3
+    .locals 0
 
     .line 1
     iput-object p1, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->error:Ljava/lang/Throwable;
 
     .line 2
     .line 3
-    iget-object p1, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->scheduler:Ldk/h0;
+    const/4 p1, 0x0
 
     .line 4
+    throw p1
     .line 5
-    iget-boolean v0, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->delayError:Z
-
     .line 6
     .line 7
-    if-eqz v0, :cond_0
-
     .line 8
     .line 9
-    iget-wide v0, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->delay:J
-
     .line 10
     .line 11
-    goto :goto_0
-
     .line 12
-    :cond_0
-    const-wide/16 v0, 0x0
-
     .line 13
     .line 14
-    :goto_0
-    iget-object v2, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->unit:Ljava/util/concurrent/TimeUnit;
-
     .line 15
     .line 16
-    invoke-virtual {p1, p0, v0, v1, v2}, Ldk/h0;->f(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lfk/b;
-
     .line 17
     .line 18
     .line 19
-    move-result-object p1
-
     .line 20
-    invoke-static {p0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->replace(Ljava/util/concurrent/atomic/AtomicReference;Lfk/b;)Z
-
     .line 21
     .line 22
     .line 23
-    return-void
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public onSubscribe(Lfk/b;)V
+.method public onSubscribe(Lio/reactivex/disposables/b;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Lfk/b;)Z
+    invoke-static {p0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Lio/reactivex/disposables/b;)Z
 
     .line 2
     .line 3
@@ -582,11 +596,11 @@
 
     .line 6
     .line 7
-    iget-object p1, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->downstream:Ldk/d;
+    iget-object p1, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->downstream:Lb8/b;
 
     .line 8
     .line 9
-    invoke-interface {p1, p0}, Ldk/d;->onSubscribe(Lfk/b;)V
+    invoke-interface {p1, p0}, Lb8/b;->onSubscribe(Lio/reactivex/disposables/b;)V
 
     .line 10
     .line 11
@@ -605,6 +619,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public run()V
@@ -626,11 +673,11 @@
 
     .line 7
     .line 8
-    iget-object v1, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->downstream:Ldk/d;
+    iget-object v1, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->downstream:Lb8/b;
 
     .line 9
     .line 10
-    invoke-interface {v1, v0}, Ldk/d;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v1, v0}, Lb8/b;->onError(Ljava/lang/Throwable;)V
 
     .line 11
     .line 12
@@ -639,11 +686,11 @@
 
     .line 14
     :cond_0
-    iget-object v0, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->downstream:Ldk/d;
+    iget-object v0, p0, Lio/reactivex/internal/operators/completable/CompletableDelay$Delay;->downstream:Lb8/b;
 
     .line 15
     .line 16
-    invoke-interface {v0}, Ldk/d;->onComplete()V
+    invoke-interface {v0}, Lb8/b;->onComplete()V
 
     .line 17
     .line 18
@@ -653,4 +700,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

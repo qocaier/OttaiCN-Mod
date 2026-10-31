@@ -7,54 +7,19 @@
 .field private final areDefaultConstraintsSatisfied:Z
 
 .field private final defaultSplitAttributes:Landroidx/window/embedding/SplitAttributes;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final parentConfiguration:Landroid/content/res/Configuration;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final parentWindowLayoutInfo:Landroidx/window/layout/WindowLayoutInfo;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final parentWindowMetrics:Landroidx/window/layout/WindowMetrics;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final splitRuleTag:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/window/layout/WindowMetrics;Landroid/content/res/Configuration;Landroidx/window/layout/WindowLayoutInfo;Landroidx/window/embedding/SplitAttributes;ZLjava/lang/String;)V
     .locals 1
-    .param p1    # Landroidx/window/layout/WindowMetrics;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/content/res/Configuration;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroidx/window/layout/WindowLayoutInfo;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroidx/window/embedding/SplitAttributes;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p6    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
@@ -66,7 +31,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -75,7 +40,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -84,7 +49,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -93,7 +58,7 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -1106,9 +1071,6 @@
 # virtual methods
 .method public final areDefaultConstraintsSatisfied()Z
     .locals 1
-    .annotation build Lim/j;
-        name = "areDefaultConstraintsSatisfied"
-    .end annotation
 
     .line 1
     iget-boolean v0, p0, Landroidx/window/embedding/SplitAttributesCalculatorParams;->areDefaultConstraintsSatisfied:Z
@@ -1133,12 +1095,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getDefaultSplitAttributes()Landroidx/window/embedding/SplitAttributes;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/SplitAttributesCalculatorParams;->defaultSplitAttributes:Landroidx/window/embedding/SplitAttributes;
@@ -1163,12 +1124,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getParentConfiguration()Landroid/content/res/Configuration;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/SplitAttributesCalculatorParams;->parentConfiguration:Landroid/content/res/Configuration;
@@ -1193,12 +1153,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getParentWindowLayoutInfo()Landroidx/window/layout/WindowLayoutInfo;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/SplitAttributesCalculatorParams;->parentWindowLayoutInfo:Landroidx/window/layout/WindowLayoutInfo;
@@ -1223,12 +1182,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getParentWindowMetrics()Landroidx/window/layout/WindowMetrics;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/SplitAttributesCalculatorParams;->parentWindowMetrics:Landroidx/window/layout/WindowMetrics;
@@ -1253,12 +1211,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getSplitRuleTag()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/SplitAttributesCalculatorParams;->splitRuleTag:Ljava/lang/String;
@@ -1283,12 +1240,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -1443,4 +1399,6 @@
 
     .line 84
     return-object v0
+    .line 85
+    .line 86
 .end method

@@ -38,7 +38,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static native nativeCreate()J
@@ -109,7 +108,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public c(Lcom/baidu/platform/comapi/bmsdk/style/BmDrawableResource;)Z
@@ -163,7 +161,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public j(I)Z
@@ -204,5 +201,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

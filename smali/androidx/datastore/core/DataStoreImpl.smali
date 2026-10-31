@@ -25,46 +25,21 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDataStoreImpl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DataStoreImpl.kt\nandroidx/datastore/core/DataStoreImpl\n+ 2 Mutex.kt\nkotlinx/coroutines/sync/MutexKt\n*L\n1#1,538:1\n120#2,10:539\n120#2,10:549\n*S KotlinDebug\n*F\n+ 1 DataStoreImpl.kt\nandroidx/datastore/core/DataStoreImpl\n*L\n130#1:539,10\n148#1:549,10\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nDataStoreImpl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DataStoreImpl.kt\nandroidx/datastore/core/DataStoreImpl\n+ 2 Mutex.kt\nkotlinx/coroutines/sync/MutexKt\n*L\n1#1,538:1\n120#2,10:539\n120#2,10:549\n*S KotlinDebug\n*F\n+ 1 DataStoreImpl.kt\nandroidx/datastore/core/DataStoreImpl\n*L\n130#1:539,10\n148#1:549,10\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field private static final BUG_MESSAGE:Ljava/lang/String; = "This is a bug in DataStore. Please file a bug at: https://issuetracker.google.com/issues/new?component=907884&template=1466542"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final Companion:Landroidx/datastore/core/DataStoreImpl$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field private collectorCounter:I
 
-.field private collectorJob:Lkotlinx/coroutines/l;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
+.field private collectorJob:Lkotlinx/coroutines/s1;
 
-.field private final collectorMutex:Lrn/a;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final collectorMutex:Lkotlinx/coroutines/sync/a;
 
-.field private final coordinator$delegate:Ljl/c0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final coordinator$delegate:Lkotlin/c;
 
 .field private final corruptionHandler:Landroidx/datastore/core/CorruptionHandler;
     .annotation system Ldalvik/annotation/Signature;
@@ -73,20 +48,13 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
-.field private final data:Ljn/e;
+.field private final data:Lkotlinx/coroutines/flow/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljn/e<",
-            "TT;>;"
+            "Lkotlinx/coroutines/flow/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -97,9 +65,6 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private final readAndInit:Landroidx/datastore/core/DataStoreImpl$InitDataStore;
@@ -109,15 +74,9 @@
             "TT;>.InitDataStore;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
-.field private final scope:Lfn/i0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final scope:Lkotlinx/coroutines/l0;
 
 .field private final storage:Landroidx/datastore/core/Storage;
     .annotation system Ldalvik/annotation/Signature;
@@ -126,21 +85,13 @@
             "TT;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
-.field private final storageConnectionDelegate:Ljl/c0;
+.field private final storageConnectionDelegate:Lkotlin/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljl/c0<",
-            "Landroidx/datastore/core/StorageConnection<",
-            "TT;>;>;"
+            "Lkotlin/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -151,9 +102,6 @@
             "Landroidx/datastore/core/Message$Update<",
             "TT;>;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -166,31 +114,15 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/datastore/core/DataStoreImpl$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/datastore/core/DataStoreImpl$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/datastore/core/DataStoreImpl;->Companion:Landroidx/datastore/core/DataStoreImpl$Companion;
 
     return-void
 .end method
 
-.method public constructor <init>(Landroidx/datastore/core/Storage;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lfn/i0;)V
+.method public constructor <init>(Landroidx/datastore/core/Storage;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lkotlinx/coroutines/l0;)V
     .locals 2
-    .param p1    # Landroidx/datastore/core/Storage;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/util/List;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Landroidx/datastore/core/CorruptionHandler;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Lfn/i0;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -198,38 +130,30 @@
             "TT;>;",
             "Ljava/util/List<",
             "+",
-            "Ljm/p<",
-            "-",
-            "Landroidx/datastore/core/InitializerApi<",
-            "TT;>;-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;>;",
+            "Lq8/p;",
+            ">;",
             "Landroidx/datastore/core/CorruptionHandler<",
             "TT;>;",
-            "Lfn/i0;",
+            "Lkotlinx/coroutines/l0;",
             ")V"
         }
     .end annotation
 
     const-string v0, "storage"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "initTasksList"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "corruptionHandler"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "scope"
 
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -241,31 +165,31 @@
     iput-object p3, p0, Landroidx/datastore/core/DataStoreImpl;->corruptionHandler:Landroidx/datastore/core/CorruptionHandler;
 
     .line 4
-    iput-object p4, p0, Landroidx/datastore/core/DataStoreImpl;->scope:Lfn/i0;
+    iput-object p4, p0, Landroidx/datastore/core/DataStoreImpl;->scope:Lkotlinx/coroutines/l0;
 
     .line 5
     new-instance p1, Landroidx/datastore/core/DataStoreImpl$data$1;
 
     const/4 p3, 0x0
 
-    invoke-direct {p1, p0, p3}, Landroidx/datastore/core/DataStoreImpl$data$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lul/c;)V
+    invoke-direct {p1, p0, p3}, Landroidx/datastore/core/DataStoreImpl$data$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)V
 
-    invoke-static {p1}, Ljn/g;->K0(Ljm/p;)Ljn/e;
+    invoke-static {p1}, Lkotlinx/coroutines/flow/e;->x(Lq8/p;)Lkotlinx/coroutines/flow/c;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->data:Ljn/e;
+    iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->data:Lkotlinx/coroutines/flow/c;
 
     const/4 p1, 0x0
 
     const/4 v0, 0x1
 
     .line 6
-    invoke-static {p1, v0, p3}, Lkotlinx/coroutines/sync/MutexKt;->b(ZILjava/lang/Object;)Lrn/a;
+    invoke-static {p1, v0, p3}, Lkotlinx/coroutines/sync/MutexKt;->b(ZILjava/lang/Object;)Lkotlinx/coroutines/sync/a;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->collectorMutex:Lrn/a;
+    iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->collectorMutex:Lkotlinx/coroutines/sync/a;
 
     .line 7
     new-instance p1, Landroidx/datastore/core/DataStoreInMemoryCache;
@@ -286,22 +210,22 @@
 
     invoke-direct {p1, p0}, Landroidx/datastore/core/DataStoreImpl$storageConnectionDelegate$1;-><init>(Landroidx/datastore/core/DataStoreImpl;)V
 
-    invoke-static {p1}, Lkotlin/e;->b(Ljm/a;)Ljl/c0;
+    invoke-static {p1}, Lkotlin/d;->b(Lq8/a;)Lkotlin/c;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->storageConnectionDelegate:Ljl/c0;
+    iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->storageConnectionDelegate:Lkotlin/c;
 
     .line 10
     new-instance p1, Landroidx/datastore/core/DataStoreImpl$coordinator$2;
 
     invoke-direct {p1, p0}, Landroidx/datastore/core/DataStoreImpl$coordinator$2;-><init>(Landroidx/datastore/core/DataStoreImpl;)V
 
-    invoke-static {p1}, Lkotlin/e;->b(Ljm/a;)Ljl/c0;
+    invoke-static {p1}, Lkotlin/d;->b(Lq8/a;)Lkotlin/c;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->coordinator$delegate:Ljl/c0;
+    iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->coordinator$delegate:Lkotlin/c;
 
     .line 11
     new-instance p1, Landroidx/datastore/core/SimpleActor;
@@ -317,17 +241,17 @@
     .line 14
     new-instance v1, Landroidx/datastore/core/DataStoreImpl$writeActor$3;
 
-    invoke-direct {v1, p0, p3}, Landroidx/datastore/core/DataStoreImpl$writeActor$3;-><init>(Landroidx/datastore/core/DataStoreImpl;Lul/c;)V
+    invoke-direct {v1, p0, p3}, Landroidx/datastore/core/DataStoreImpl$writeActor$3;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)V
 
     .line 15
-    invoke-direct {p1, p4, p2, v0, v1}, Landroidx/datastore/core/SimpleActor;-><init>(Lfn/i0;Ljm/l;Ljm/p;Ljm/p;)V
+    invoke-direct {p1, p4, p2, v0, v1}, Landroidx/datastore/core/SimpleActor;-><init>(Lkotlinx/coroutines/l0;Lq8/l;Lq8/p;Lq8/p;)V
 
     iput-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->writeActor:Landroidx/datastore/core/SimpleActor;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroidx/datastore/core/Storage;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lfn/i0;ILkm/v;)V
+.method public synthetic constructor <init>(Landroidx/datastore/core/Storage;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lkotlinx/coroutines/l0;ILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p6, p5, 0x2
@@ -335,7 +259,7 @@
     if-eqz p6, :cond_0
 
     .line 16
-    invoke-static {}, Lll/h0;->J()Ljava/util/List;
+    invoke-static {}, Lkotlin/collections/r;->l()Ljava/util/List;
 
     move-result-object p2
 
@@ -355,7 +279,7 @@
     if-eqz p5, :cond_2
 
     .line 18
-    invoke-static {}, Landroidx/datastore/core/Actual_jvmKt;->ioDispatcher()Lfn/f0;
+    invoke-static {}, Landroidx/datastore/core/Actual_jvmKt;->ioDispatcher()Lkotlinx/coroutines/h0;
 
     move-result-object p4
 
@@ -363,30 +287,30 @@
 
     const/4 p6, 0x0
 
-    invoke-static {p6, p5, p6}, Lfn/r2;->c(Lkotlinx/coroutines/l;ILjava/lang/Object;)Lkotlinx/coroutines/f;
+    invoke-static {p6, p5, p6}, Lkotlinx/coroutines/k2;->b(Lkotlinx/coroutines/s1;ILjava/lang/Object;)Lkotlinx/coroutines/y;
 
     move-result-object p5
 
-    invoke-virtual {p4, p5}, Lkotlin/coroutines/a;->plus(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+    invoke-virtual {p4, p5}, Lkotlin/coroutines/a;->plus(Lkotlin/coroutines/i;)Lkotlin/coroutines/i;
 
     move-result-object p4
 
-    invoke-static {p4}, Lkotlinx/coroutines/h;->a(Lkotlin/coroutines/d;)Lfn/i0;
+    invoke-static {p4}, Lkotlinx/coroutines/m0;->a(Lkotlin/coroutines/i;)Lkotlinx/coroutines/l0;
 
     move-result-object p4
 
     .line 19
     :cond_2
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/datastore/core/DataStoreImpl;-><init>(Landroidx/datastore/core/Storage;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lfn/i0;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/datastore/core/DataStoreImpl;-><init>(Landroidx/datastore/core/Storage;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lkotlinx/coroutines/l0;)V
 
     return-void
 .end method
 
-.method public static final synthetic access$decrementCollector(Landroidx/datastore/core/DataStoreImpl;Lul/c;)Ljava/lang/Object;
+.method public static final synthetic access$decrementCollector(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/core/DataStoreImpl;->decrementCollector(Lul/c;)Ljava/lang/Object;
+    invoke-direct {p0, p1}, Landroidx/datastore/core/DataStoreImpl;->decrementCollector(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -440,11 +364,11 @@
     .line 48
 .end method
 
-.method public static final synthetic access$doWithWriteFileLock(Landroidx/datastore/core/DataStoreImpl;ZLjm/l;Lul/c;)Ljava/lang/Object;
+.method public static final synthetic access$doWithWriteFileLock(Landroidx/datastore/core/DataStoreImpl;ZLq8/l;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/core/DataStoreImpl;->doWithWriteFileLock(ZLjm/l;Lul/c;)Ljava/lang/Object;
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/core/DataStoreImpl;->doWithWriteFileLock(ZLq8/l;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -678,6 +602,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static final synthetic access$getCoordinator(Landroidx/datastore/core/DataStoreImpl;)Landroidx/datastore/core/InterProcessCoordinator;
@@ -814,11 +744,11 @@
     .line 25
 .end method
 
-.method public static final synthetic access$getStorageConnectionDelegate$p(Landroidx/datastore/core/DataStoreImpl;)Ljl/c0;
+.method public static final synthetic access$getStorageConnectionDelegate$p(Landroidx/datastore/core/DataStoreImpl;)Lkotlin/c;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/core/DataStoreImpl;->storageConnectionDelegate:Ljl/c0;
+    iget-object p0, p0, Landroidx/datastore/core/DataStoreImpl;->storageConnectionDelegate:Lkotlin/c;
 
     .line 2
     .line 3
@@ -880,11 +810,11 @@
     .line 25
 .end method
 
-.method public static final synthetic access$handleUpdate(Landroidx/datastore/core/DataStoreImpl;Landroidx/datastore/core/Message$Update;Lul/c;)Ljava/lang/Object;
+.method public static final synthetic access$handleUpdate(Landroidx/datastore/core/DataStoreImpl;Landroidx/datastore/core/Message$Update;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl;->handleUpdate(Landroidx/datastore/core/Message$Update;Lul/c;)Ljava/lang/Object;
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl;->handleUpdate(Landroidx/datastore/core/Message$Update;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1001,13 +931,16 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final synthetic access$incrementCollector(Landroidx/datastore/core/DataStoreImpl;Lul/c;)Ljava/lang/Object;
+.method public static final synthetic access$incrementCollector(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/core/DataStoreImpl;->incrementCollector(Lul/c;)Ljava/lang/Object;
+    invoke-direct {p0, p1}, Landroidx/datastore/core/DataStoreImpl;->incrementCollector(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1061,11 +994,11 @@
     .line 48
 .end method
 
-.method public static final synthetic access$readAndInitOrPropagateAndThrowFailure(Landroidx/datastore/core/DataStoreImpl;Lul/c;)Ljava/lang/Object;
+.method public static final synthetic access$readAndInitOrPropagateAndThrowFailure(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/core/DataStoreImpl;->readAndInitOrPropagateAndThrowFailure(Lul/c;)Ljava/lang/Object;
+    invoke-direct {p0, p1}, Landroidx/datastore/core/DataStoreImpl;->readAndInitOrPropagateAndThrowFailure(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1119,192 +1052,11 @@
     .line 48
 .end method
 
-.method public static final synthetic access$readDataAndUpdateCache(Landroidx/datastore/core/DataStoreImpl;ZLul/c;)Ljava/lang/Object;
+.method public static final synthetic access$readDataAndUpdateCache(Landroidx/datastore/core/DataStoreImpl;ZLkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl;->readDataAndUpdateCache(ZLul/c;)Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object p0
-
-    .line 5
-    return-object p0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-.end method
-
-.method public static final synthetic access$readDataFromFileOrDefault(Landroidx/datastore/core/DataStoreImpl;Lul/c;)Ljava/lang/Object;
-    .locals 0
-
-    .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/core/DataStoreImpl;->readDataFromFileOrDefault(Lul/c;)Ljava/lang/Object;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object p0
-
-    .line 5
-    return-object p0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-.end method
-
-.method public static final synthetic access$readDataOrHandleCorruption(Landroidx/datastore/core/DataStoreImpl;ZLul/c;)Ljava/lang/Object;
-    .locals 0
-
-    .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl;->readDataOrHandleCorruption(ZLul/c;)Ljava/lang/Object;
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl;->readDataAndUpdateCache(ZLkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1421,13 +1173,74 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final synthetic access$readState(Landroidx/datastore/core/DataStoreImpl;ZLul/c;)Ljava/lang/Object;
+.method public static final synthetic access$readDataFromFileOrDefault(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl;->readState(ZLul/c;)Ljava/lang/Object;
+    invoke-direct {p0, p1}, Landroidx/datastore/core/DataStoreImpl;->readDataFromFileOrDefault(Lkotlin/coroutines/e;)Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+.end method
+
+.method public static final synthetic access$readDataOrHandleCorruption(Landroidx/datastore/core/DataStoreImpl;ZLkotlin/coroutines/e;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl;->readDataOrHandleCorruption(ZLkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1544,13 +1357,142 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final synthetic access$transformAndWrite(Landroidx/datastore/core/DataStoreImpl;Ljm/p;Lkotlin/coroutines/d;Lul/c;)Ljava/lang/Object;
+.method public static final synthetic access$readState(Landroidx/datastore/core/DataStoreImpl;ZLkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/core/DataStoreImpl;->transformAndWrite(Ljm/p;Lkotlin/coroutines/d;Lul/c;)Ljava/lang/Object;
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/core/DataStoreImpl;->readState(ZLkotlin/coroutines/e;)Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+.end method
+
+.method public static final synthetic access$transformAndWrite(Landroidx/datastore/core/DataStoreImpl;Lq8/p;Lkotlin/coroutines/i;Lkotlin/coroutines/e;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/core/DataStoreImpl;->transformAndWrite(Lq8/p;Lkotlin/coroutines/i;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1784,17 +1726,21 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method private final decrementCollector(Lul/c;)Ljava/lang/Object;
+.method private final decrementCollector(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
@@ -1846,7 +1792,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/core/DataStoreImpl$decrementCollector$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lul/c;)V
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/core/DataStoreImpl$decrementCollector$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -1856,7 +1802,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -1886,7 +1832,7 @@
 
     .line 40
     .line 41
-    check-cast v1, Lrn/a;
+    check-cast v1, Lkotlinx/coroutines/sync/a;
 
     .line 42
     .line 43
@@ -1898,7 +1844,7 @@
 
     .line 46
     .line 47
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 48
     .line 49
@@ -1924,12 +1870,12 @@
 
     .line 59
     :cond_2
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 60
     .line 61
     .line 62
-    iget-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->collectorMutex:Lrn/a;
+    iget-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->collectorMutex:Lkotlinx/coroutines/sync/a;
 
     .line 63
     .line 64
@@ -1945,7 +1891,7 @@
 
     .line 69
     .line 70
-    invoke-interface {p1, v4, v0}, Lrn/a;->e(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p1, v4, v0}, Lkotlinx/coroutines/sync/a;->b(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 71
     .line 72
@@ -1985,7 +1931,7 @@
 
     .line 86
     .line 87
-    iget-object p1, v0, Landroidx/datastore/core/DataStoreImpl;->collectorJob:Lkotlinx/coroutines/l;
+    iget-object p1, v0, Landroidx/datastore/core/DataStoreImpl;->collectorJob:Lkotlinx/coroutines/s1;
 
     .line 88
     .line 89
@@ -1993,7 +1939,7 @@
 
     .line 90
     .line 91
-    invoke-static {p1, v4, v3, v4}, Lkotlinx/coroutines/l$a;->b(Lkotlinx/coroutines/l;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
+    invoke-static {p1, v4, v3, v4}, Lkotlinx/coroutines/s1$a;->a(Lkotlinx/coroutines/s1;Ljava/util/concurrent/CancellationException;ILjava/lang/Object;)V
 
     .line 92
     .line 93
@@ -2010,34 +1956,36 @@
     .line 97
     :cond_4
     :goto_2
-    iput-object v4, v0, Landroidx/datastore/core/DataStoreImpl;->collectorJob:Lkotlinx/coroutines/l;
+    iput-object v4, v0, Landroidx/datastore/core/DataStoreImpl;->collectorJob:Lkotlinx/coroutines/s1;
 
     .line 98
     .line 99
     :cond_5
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 100
     .line 101
-    invoke-interface {v1, v4}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {v1, v4}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 102
     .line 103
     .line 104
-    return-object p1
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 105
-    :goto_3
-    invoke-interface {v1, v4}, Lrn/a;->g(Ljava/lang/Object;)V
-
     .line 106
+    return-object p1
+
     .line 107
+    :goto_3
+    invoke-interface {v1, v4}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
+
     .line 108
-    throw p1
     .line 109
     .line 110
+    throw p1
     .line 111
     .line 112
     .line 113
@@ -2166,23 +2114,23 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
-.method private final doWithWriteFileLock(ZLjm/l;Lul/c;)Ljava/lang/Object;
+.method private final doWithWriteFileLock(ZLq8/l;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(Z",
-            "Ljm/l<",
-            "-",
-            "Lul/c<",
-            "-TR;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-TR;>;)",
+            "Lq8/l;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
@@ -2192,7 +2140,7 @@
 
     .line 2
     .line 3
-    invoke-interface {p2, p3}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p3}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -2219,12 +2167,12 @@
     const/4 v1, 0x0
 
     .line 15
-    invoke-direct {v0, p2, v1}, Landroidx/datastore/core/DataStoreImpl$doWithWriteFileLock$3;-><init>(Ljm/l;Lul/c;)V
+    invoke-direct {v0, p2, v1}, Landroidx/datastore/core/DataStoreImpl$doWithWriteFileLock$3;-><init>(Lq8/l;Lkotlin/coroutines/e;)V
 
     .line 16
     .line 17
     .line 18
-    invoke-interface {p1, v0, p3}, Landroidx/datastore/core/InterProcessCoordinator;->lock(Ljm/l;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p1, v0, p3}, Landroidx/datastore/core/InterProcessCoordinator;->lock(Lq8/l;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -2324,17 +2272,20 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private final getCoordinator()Landroidx/datastore/core/InterProcessCoordinator;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/DataStoreImpl;->coordinator$delegate:Ljl/c0;
+    iget-object v0, p0, Landroidx/datastore/core/DataStoreImpl;->coordinator$delegate:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lkotlin/c;->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -2358,6 +2309,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getStorageConnection$datastore_core_release$delegate(Landroidx/datastore/core/DataStoreImpl;)Ljava/lang/Object;
@@ -2373,7 +2325,7 @@
     .end annotation
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/core/DataStoreImpl;->storageConnectionDelegate:Ljl/c0;
+    iget-object p0, p0, Landroidx/datastore/core/DataStoreImpl;->storageConnectionDelegate:Lkotlin/c;
 
     .line 2
     .line 3
@@ -2402,17 +2354,15 @@
     .line 25
 .end method
 
-.method private final handleUpdate(Landroidx/datastore/core/Message$Update;Lul/c;)Ljava/lang/Object;
+.method private final handleUpdate(Landroidx/datastore/core/Message$Update;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/datastore/core/Message$Update<",
             "TT;>;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
@@ -2464,7 +2414,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/DataStoreImpl$handleUpdate$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/DataStoreImpl$handleUpdate$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -2474,7 +2424,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -2515,13 +2465,13 @@
 
     .line 45
     .line 46
-    check-cast p1, Lkotlinx/coroutines/e;
+    check-cast p1, Lkotlinx/coroutines/v;
 
     .line 47
     .line 48
     :goto_1
     :try_start_0
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2562,7 +2512,7 @@
 
     .line 65
     .line 66
-    check-cast p1, Lkotlinx/coroutines/e;
+    check-cast p1, Lkotlinx/coroutines/v;
 
     .line 67
     .line 68
@@ -2583,7 +2533,7 @@
     .line 75
     .line 76
     :try_start_1
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -2604,7 +2554,7 @@
 
     .line 83
     .line 84
-    check-cast p1, Lkotlinx/coroutines/e;
+    check-cast p1, Lkotlinx/coroutines/v;
 
     .line 85
     .line 86
@@ -2612,12 +2562,12 @@
 
     .line 87
     :cond_4
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 88
     .line 89
     .line 90
-    invoke-virtual {p1}, Landroidx/datastore/core/Message$Update;->getAck()Lkotlinx/coroutines/e;
+    invoke-virtual {p1}, Landroidx/datastore/core/Message$Update;->getAck()Lkotlinx/coroutines/v;
 
     .line 91
     .line 92
@@ -2650,7 +2600,7 @@
 
     .line 105
     .line 106
-    invoke-virtual {p1}, Landroidx/datastore/core/Message$Update;->getTransform()Ljm/p;
+    invoke-virtual {p1}, Landroidx/datastore/core/Message$Update;->getTransform()Lq8/p;
 
     .line 107
     .line 108
@@ -2658,7 +2608,7 @@
     move-result-object v2
 
     .line 110
-    invoke-virtual {p1}, Landroidx/datastore/core/Message$Update;->getCallerContext()Lkotlin/coroutines/d;
+    invoke-virtual {p1}, Landroidx/datastore/core/Message$Update;->getCallerContext()Lkotlin/coroutines/i;
 
     .line 111
     .line 112
@@ -2674,7 +2624,7 @@
 
     .line 117
     .line 118
-    invoke-direct {p0, v2, p1, v0}, Landroidx/datastore/core/DataStoreImpl;->transformAndWrite(Ljm/p;Lkotlin/coroutines/d;Lul/c;)Ljava/lang/Object;
+    invoke-direct {p0, v2, p1, v0}, Landroidx/datastore/core/DataStoreImpl;->transformAndWrite(Lq8/p;Lkotlin/coroutines/i;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 119
     .line 120
@@ -2768,7 +2718,7 @@
 
     .line 156
     .line 157
-    invoke-direct {p0, v0}, Landroidx/datastore/core/DataStoreImpl;->readAndInitOrPropagateAndThrowFailure(Lul/c;)Ljava/lang/Object;
+    invoke-direct {p0, v0}, Landroidx/datastore/core/DataStoreImpl;->readAndInitOrPropagateAndThrowFailure(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 158
     .line 159
@@ -2788,7 +2738,7 @@
 
     .line 165
     :goto_3
-    invoke-virtual {p1}, Landroidx/datastore/core/Message$Update;->getTransform()Ljm/p;
+    invoke-virtual {p1}, Landroidx/datastore/core/Message$Update;->getTransform()Lq8/p;
 
     .line 166
     .line 167
@@ -2796,7 +2746,7 @@
     move-result-object v4
 
     .line 169
-    invoke-virtual {p1}, Landroidx/datastore/core/Message$Update;->getCallerContext()Lkotlin/coroutines/d;
+    invoke-virtual {p1}, Landroidx/datastore/core/Message$Update;->getCallerContext()Lkotlin/coroutines/i;
 
     .line 170
     .line 171
@@ -2823,7 +2773,7 @@
 
     .line 181
     .line 182
-    invoke-direct {v2, v4, p1, v0}, Landroidx/datastore/core/DataStoreImpl;->transformAndWrite(Ljm/p;Lkotlin/coroutines/d;Lul/c;)Ljava/lang/Object;
+    invoke-direct {v2, v4, p1, v0}, Landroidx/datastore/core/DataStoreImpl;->transformAndWrite(Lq8/p;Lkotlin/coroutines/i;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 183
     .line 184
@@ -2862,7 +2812,7 @@
 
     .line 195
     .line 196
-    invoke-static {v2, p1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 197
     .line 198
@@ -2926,7 +2876,7 @@
 
     .line 224
     .line 225
-    invoke-static {p2}, Lkotlin/f;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
+    invoke-static {p2}, Lkotlin/e;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
 
     .line 226
     .line 227
@@ -2943,12 +2893,12 @@
 
     .line 233
     :goto_7
-    invoke-static {p1, p2}, Lfn/t;->d(Lkotlinx/coroutines/e;Ljava/lang/Object;)Z
+    invoke-static {p1, p2}, Lkotlinx/coroutines/x;->c(Lkotlinx/coroutines/v;Ljava/lang/Object;)Z
 
     .line 234
     .line 235
     .line 236
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 237
     .line 238
@@ -4207,15 +4157,13 @@
     .line 1490
 .end method
 
-.method private final incrementCollector(Lul/c;)Ljava/lang/Object;
+.method private final incrementCollector(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 11
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
@@ -4267,7 +4215,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/core/DataStoreImpl$incrementCollector$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lul/c;)V
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/core/DataStoreImpl$incrementCollector$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -4277,7 +4225,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -4307,7 +4255,7 @@
 
     .line 40
     .line 41
-    check-cast v1, Lrn/a;
+    check-cast v1, Lkotlinx/coroutines/sync/a;
 
     .line 42
     .line 43
@@ -4319,7 +4267,7 @@
 
     .line 46
     .line 47
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 48
     .line 49
@@ -4345,12 +4293,12 @@
 
     .line 59
     :cond_2
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 60
     .line 61
     .line 62
-    iget-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->collectorMutex:Lrn/a;
+    iget-object p1, p0, Landroidx/datastore/core/DataStoreImpl;->collectorMutex:Lkotlinx/coroutines/sync/a;
 
     .line 63
     .line 64
@@ -4366,7 +4314,7 @@
 
     .line 69
     .line 70
-    invoke-interface {p1, v4, v0}, Lrn/a;->e(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p1, v4, v0}, Lkotlinx/coroutines/sync/a;->b(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 71
     .line 72
@@ -4405,7 +4353,7 @@
 
     .line 85
     .line 86
-    iget-object v5, v0, Landroidx/datastore/core/DataStoreImpl;->scope:Lfn/i0;
+    iget-object v5, v0, Landroidx/datastore/core/DataStoreImpl;->scope:Lkotlinx/coroutines/l0;
 
     .line 87
     .line 88
@@ -4413,7 +4361,7 @@
 
     .line 89
     .line 90
-    invoke-direct {v8, v0, v4}, Landroidx/datastore/core/DataStoreImpl$incrementCollector$2$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lul/c;)V
+    invoke-direct {v8, v0, v4}, Landroidx/datastore/core/DataStoreImpl$incrementCollector$2$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)V
 
     .line 91
     .line 92
@@ -4430,7 +4378,7 @@
     const/4 v7, 0x0
 
     .line 97
-    invoke-static/range {v5 .. v10}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v5 .. v10}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 98
     .line 99
@@ -4438,7 +4386,7 @@
     move-result-object p1
 
     .line 101
-    iput-object p1, v0, Landroidx/datastore/core/DataStoreImpl;->collectorJob:Lkotlinx/coroutines/l;
+    iput-object p1, v0, Landroidx/datastore/core/DataStoreImpl;->collectorJob:Lkotlinx/coroutines/s1;
 
     .line 102
     .line 103
@@ -4457,29 +4405,31 @@
     .line 107
     :cond_4
     :goto_2
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 108
     .line 109
-    invoke-interface {v1, v4}, Lrn/a;->g(Ljava/lang/Object;)V
+    invoke-interface {v1, v4}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
 
     .line 110
     .line 111
     .line 112
-    return-object p1
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 113
-    :goto_3
-    invoke-interface {v1, v4}, Lrn/a;->g(Ljava/lang/Object;)V
-
     .line 114
+    return-object p1
+
     .line 115
+    :goto_3
+    invoke-interface {v1, v4}, Lkotlinx/coroutines/sync/a;->c(Ljava/lang/Object;)V
+
     .line 116
-    throw p1
     .line 117
     .line 118
+    throw p1
     .line 119
     .line 120
     .line 121
@@ -4600,17 +4550,20 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
-.method private final readAndInitOrPropagateAndThrowFailure(Lul/c;)Ljava/lang/Object;
+.method private final readAndInitOrPropagateAndThrowFailure(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
@@ -4662,7 +4615,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/core/DataStoreImpl$readAndInitOrPropagateAndThrowFailure$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lul/c;)V
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/core/DataStoreImpl$readAndInitOrPropagateAndThrowFailure$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -4672,7 +4625,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -4715,7 +4668,7 @@
     .line 46
     .line 47
     :try_start_0
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -4758,7 +4711,7 @@
 
     .line 64
     .line 65
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 66
     .line 67
@@ -4767,7 +4720,7 @@
 
     .line 69
     :cond_3
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 70
     .line 71
@@ -4788,7 +4741,7 @@
 
     .line 79
     .line 80
-    invoke-interface {p1, v0}, Landroidx/datastore/core/InterProcessCoordinator;->getVersion(Lul/c;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Landroidx/datastore/core/InterProcessCoordinator;->getVersion(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 81
     .line 82
@@ -4837,7 +4790,7 @@
 
     .line 101
     .line 102
-    invoke-virtual {v4, v0}, Landroidx/datastore/core/RunOnce;->runIfNeeded(Lul/c;)Ljava/lang/Object;
+    invoke-virtual {v4, v0}, Landroidx/datastore/core/RunOnce;->runIfNeeded(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 103
     .line 104
@@ -4857,7 +4810,7 @@
     .line 109
     :cond_5
     :goto_3
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 110
     .line 111
@@ -5009,17 +4962,20 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
-.method private final readDataAndUpdateCache(ZLul/c;)Ljava/lang/Object;
+.method private final readDataAndUpdateCache(ZLkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z",
-            "Lul/c<",
-            "-",
-            "Landroidx/datastore/core/State<",
-            "TT;>;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
@@ -5071,7 +5027,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/DataStoreImpl$readDataAndUpdateCache$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/DataStoreImpl$readDataAndUpdateCache$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -5081,7 +5037,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -5126,7 +5082,7 @@
 
     .line 47
     .line 48
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 49
     .line 50
@@ -5161,7 +5117,7 @@
 
     .line 64
     .line 65
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 66
     .line 67
@@ -5191,7 +5147,7 @@
 
     .line 79
     .line 80
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 81
     .line 82
@@ -5215,7 +5171,7 @@
 
     .line 89
     :cond_4
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 90
     .line 91
@@ -5264,7 +5220,7 @@
 
     .line 113
     .line 114
-    invoke-interface {p2, v0}, Landroidx/datastore/core/InterProcessCoordinator;->getVersion(Lul/c;)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Landroidx/datastore/core/InterProcessCoordinator;->getVersion(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 115
     .line 116
@@ -5360,7 +5316,7 @@
 
     .line 154
     .line 155
-    invoke-direct {v3, p1, v2}, Landroidx/datastore/core/DataStoreImpl$readDataAndUpdateCache$3;-><init>(Landroidx/datastore/core/DataStoreImpl;Lul/c;)V
+    invoke-direct {v3, p1, v2}, Landroidx/datastore/core/DataStoreImpl$readDataAndUpdateCache$3;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)V
 
     .line 156
     .line 157
@@ -5377,7 +5333,7 @@
 
     .line 163
     .line 164
-    invoke-interface {p2, v3, v0}, Landroidx/datastore/core/InterProcessCoordinator;->lock(Ljm/l;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p2, v3, v0}, Landroidx/datastore/core/InterProcessCoordinator;->lock(Lq8/l;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 165
     .line 166
@@ -5414,7 +5370,7 @@
 
     .line 179
     .line 180
-    invoke-direct {v4, p1, v7, v2}, Landroidx/datastore/core/DataStoreImpl$readDataAndUpdateCache$4;-><init>(Landroidx/datastore/core/DataStoreImpl;ILul/c;)V
+    invoke-direct {v4, p1, v7, v2}, Landroidx/datastore/core/DataStoreImpl$readDataAndUpdateCache$4;-><init>(Landroidx/datastore/core/DataStoreImpl;ILkotlin/coroutines/e;)V
 
     .line 181
     .line 182
@@ -5431,7 +5387,7 @@
 
     .line 188
     .line 189
-    invoke-interface {p2, v4, v0}, Landroidx/datastore/core/InterProcessCoordinator;->tryLock(Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p2, v4, v0}, Landroidx/datastore/core/InterProcessCoordinator;->tryLock(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 190
     .line 191
@@ -5522,15 +5478,18 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method private final readDataFromFileOrDefault(Lul/c;)Ljava/lang/Object;
+.method private final readDataFromFileOrDefault(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
@@ -5544,7 +5503,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0, p1}, Landroidx/datastore/core/StorageConnectionKt;->readData(Landroidx/datastore/core/StorageConnection;Lul/c;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Landroidx/datastore/core/StorageConnectionKt;->readData(Landroidx/datastore/core/StorageConnection;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -5571,15 +5530,13 @@
     .line 25
 .end method
 
-.method private final readDataOrHandleCorruption(ZLul/c;)Ljava/lang/Object;
+.method private final readDataOrHandleCorruption(ZLkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z",
-            "Lul/c<",
-            "-",
-            "Landroidx/datastore/core/Data<",
-            "TT;>;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
@@ -5631,7 +5588,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/DataStoreImpl$readDataOrHandleCorruption$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Landroidx/datastore/core/DataStoreImpl$readDataOrHandleCorruption$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -5641,7 +5598,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -5709,7 +5666,7 @@
     .line 58
     .line 59
     :try_start_0
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -5765,7 +5722,7 @@
 
     .line 84
     .line 85
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 86
     .line 87
@@ -5797,7 +5754,7 @@
     .line 98
     .line 99
     :try_start_1
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_1
     .catch Landroidx/datastore/core/CorruptionException; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -5833,7 +5790,7 @@
     .line 113
     .line 114
     :try_start_2
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_2
     .catch Landroidx/datastore/core/CorruptionException; {:try_start_2 .. :try_end_2} :catch_0
 
@@ -5866,7 +5823,7 @@
     .line 128
     .line 129
     :try_start_3
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_3
     .catch Landroidx/datastore/core/CorruptionException; {:try_start_3 .. :try_end_3} :catch_1
 
@@ -5905,7 +5862,7 @@
     .line 143
     .line 144
     :try_start_4
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
     :try_end_4
     .catch Landroidx/datastore/core/CorruptionException; {:try_start_4 .. :try_end_4} :catch_0
 
@@ -5919,7 +5876,7 @@
 
     .line 149
     :pswitch_6
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 150
     .line 151
@@ -5941,7 +5898,7 @@
 
     .line 159
     .line 160
-    invoke-direct {p0, v0}, Landroidx/datastore/core/DataStoreImpl;->readDataFromFileOrDefault(Lul/c;)Ljava/lang/Object;
+    invoke-direct {p0, v0}, Landroidx/datastore/core/DataStoreImpl;->readDataFromFileOrDefault(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 161
     .line 162
@@ -6023,7 +5980,7 @@
 
     .line 193
     .line 194
-    invoke-interface {v3, v0}, Landroidx/datastore/core/InterProcessCoordinator;->getVersion(Lul/c;)Ljava/lang/Object;
+    invoke-interface {v3, v0}, Landroidx/datastore/core/InterProcessCoordinator;->getVersion(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 195
     .line 196
@@ -6123,7 +6080,7 @@
 
     .line 233
     .line 234
-    invoke-interface {p2, v0}, Landroidx/datastore/core/InterProcessCoordinator;->getVersion(Lul/c;)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Landroidx/datastore/core/InterProcessCoordinator;->getVersion(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 235
     .line 236
@@ -6170,7 +6127,7 @@
 
     .line 253
     .line 254
-    invoke-direct {v6, v2, p2, v4}, Landroidx/datastore/core/DataStoreImpl$readDataOrHandleCorruption$2;-><init>(Landroidx/datastore/core/DataStoreImpl;ILul/c;)V
+    invoke-direct {v6, v2, p2, v4}, Landroidx/datastore/core/DataStoreImpl$readDataOrHandleCorruption$2;-><init>(Landroidx/datastore/core/DataStoreImpl;ILkotlin/coroutines/e;)V
 
     .line 255
     .line 256
@@ -6190,7 +6147,7 @@
 
     .line 263
     .line 264
-    invoke-interface {v3, v6, v0}, Landroidx/datastore/core/InterProcessCoordinator;->tryLock(Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-interface {v3, v6, v0}, Landroidx/datastore/core/InterProcessCoordinator;->tryLock(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 265
     .line 266
@@ -6257,7 +6214,7 @@
 
     .line 293
     .line 294
-    invoke-interface {v3, p2, v0}, Landroidx/datastore/core/CorruptionHandler;->handleCorruption(Landroidx/datastore/core/CorruptionException;Lul/c;)Ljava/lang/Object;
+    invoke-interface {v3, p2, v0}, Landroidx/datastore/core/CorruptionHandler;->handleCorruption(Landroidx/datastore/core/CorruptionException;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 295
     .line 296
@@ -6301,7 +6258,7 @@
 
     .line 312
     .line 313
-    invoke-direct {v3, v2, v7, p2, v4}, Landroidx/datastore/core/DataStoreImpl$readDataOrHandleCorruption$3;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Landroidx/datastore/core/DataStoreImpl;Lkotlin/jvm/internal/Ref$IntRef;Lul/c;)V
+    invoke-direct {v3, v2, v7, p2, v4}, Landroidx/datastore/core/DataStoreImpl$readDataOrHandleCorruption$3;-><init>(Lkotlin/jvm/internal/Ref$ObjectRef;Landroidx/datastore/core/DataStoreImpl;Lkotlin/jvm/internal/Ref$IntRef;Lkotlin/coroutines/e;)V
 
     .line 314
     .line 315
@@ -6329,7 +6286,7 @@
 
     .line 326
     .line 327
-    invoke-direct {v7, p1, v3, v0}, Landroidx/datastore/core/DataStoreImpl;->doWithWriteFileLock(ZLjm/l;Lul/c;)Ljava/lang/Object;
+    invoke-direct {v7, p1, v3, v0}, Landroidx/datastore/core/DataStoreImpl;->doWithWriteFileLock(ZLq8/l;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 328
     .line 329
@@ -6396,7 +6353,7 @@
 
     .line 354
     :goto_b
-    invoke-static {v0, p1}, Ljl/r;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    invoke-static {v0, p1}, Lkotlin/a;->a(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     .line 355
     .line 356
@@ -7550,25 +7507,23 @@
     .line 1490
 .end method
 
-.method private final readState(ZLul/c;)Ljava/lang/Object;
+.method private final readState(ZLkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z",
-            "Lul/c<",
-            "-",
-            "Landroidx/datastore/core/State<",
-            "TT;>;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/DataStoreImpl;->scope:Lfn/i0;
+    iget-object v0, p0, Landroidx/datastore/core/DataStoreImpl;->scope:Lkotlinx/coroutines/l0;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lfn/i0;->getCoroutineContext()Lkotlin/coroutines/d;
+    invoke-interface {v0}, Lkotlinx/coroutines/l0;->getCoroutineContext()Lkotlin/coroutines/i;
 
     .line 4
     .line 5
@@ -7583,12 +7538,12 @@
     const/4 v2, 0x0
 
     .line 10
-    invoke-direct {v1, p0, p1, v2}, Landroidx/datastore/core/DataStoreImpl$readState$2;-><init>(Landroidx/datastore/core/DataStoreImpl;ZLul/c;)V
+    invoke-direct {v1, p0, p1, v2}, Landroidx/datastore/core/DataStoreImpl$readState$2;-><init>(Landroidx/datastore/core/DataStoreImpl;ZLkotlin/coroutines/e;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-static {v0, v1, p2}, Lfn/g;->h(Lkotlin/coroutines/d;Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-static {v0, v1, p2}, Lkotlinx/coroutines/g;->e(Lkotlin/coroutines/i;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -7630,20 +7585,15 @@
     .line 48
 .end method
 
-.method private final transformAndWrite(Ljm/p;Lkotlin/coroutines/d;Lul/c;)Ljava/lang/Object;
+.method private final transformAndWrite(Lq8/p;Lkotlin/coroutines/i;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-TT;-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lkotlin/coroutines/d;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/i;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
@@ -7664,12 +7614,12 @@
     const/4 v2, 0x0
 
     .line 8
-    invoke-direct {v1, p0, p2, p1, v2}, Landroidx/datastore/core/DataStoreImpl$transformAndWrite$2;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/d;Ljm/p;Lul/c;)V
+    invoke-direct {v1, p0, p2, p1, v2}, Landroidx/datastore/core/DataStoreImpl$transformAndWrite$2;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/i;Lq8/p;Lkotlin/coroutines/e;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-interface {v0, v1, p3}, Landroidx/datastore/core/InterProcessCoordinator;->lock(Ljm/l;Lul/c;)Ljava/lang/Object;
+    invoke-interface {v0, v1, p3}, Landroidx/datastore/core/InterProcessCoordinator;->lock(Lq8/l;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -7776,25 +7726,24 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
 # virtual methods
-.method public getData()Ljn/e;
+.method public getData()Lkotlinx/coroutines/flow/c;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Ljn/e<",
-            "TT;>;"
+            "Lkotlinx/coroutines/flow/c;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/DataStoreImpl;->data:Ljn/e;
+    iget-object v0, p0, Landroidx/datastore/core/DataStoreImpl;->data:Lkotlinx/coroutines/flow/c;
 
     .line 2
     .line 3
@@ -7816,6 +7765,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getStorageConnection$datastore_core_release()Landroidx/datastore/core/StorageConnection;
@@ -7828,15 +7778,12 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/DataStoreImpl;->storageConnectionDelegate:Ljl/c0;
+    iget-object v0, p0, Landroidx/datastore/core/DataStoreImpl;->storageConnectionDelegate:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lkotlin/c;->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -7860,38 +7807,23 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public updateData(Ljm/p;Lul/c;)Ljava/lang/Object;
+.method public updateData(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 3
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-TT;-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
-    invoke-interface {p2}, Lul/c;->getContext()Lkotlin/coroutines/d;
+    invoke-interface {p2}, Lkotlin/coroutines/e;->getContext()Lkotlin/coroutines/i;
 
     .line 2
     .line 3
@@ -7903,7 +7835,7 @@
 
     .line 6
     .line 7
-    invoke-interface {v0, v1}, Lkotlin/coroutines/d;->get(Lkotlin/coroutines/d$c;)Lkotlin/coroutines/d$b;
+    invoke-interface {v0, v1}, Lkotlin/coroutines/i;->get(Lkotlin/coroutines/i$c;)Lkotlin/coroutines/i$b;
 
     .line 8
     .line 9
@@ -7941,12 +7873,12 @@
     const/4 v2, 0x0
 
     .line 26
-    invoke-direct {v0, p0, p1, v2}, Landroidx/datastore/core/DataStoreImpl$updateData$2;-><init>(Landroidx/datastore/core/DataStoreImpl;Ljm/p;Lul/c;)V
+    invoke-direct {v0, p0, p1, v2}, Landroidx/datastore/core/DataStoreImpl$updateData$2;-><init>(Landroidx/datastore/core/DataStoreImpl;Lq8/p;Lkotlin/coroutines/e;)V
 
     .line 27
     .line 28
     .line 29
-    invoke-static {v1, v0, p2}, Lfn/g;->h(Lkotlin/coroutines/d;Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-static {v1, v0, p2}, Lkotlinx/coroutines/g;->e(Lkotlin/coroutines/i;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -7972,24 +7904,15 @@
     .line 48
 .end method
 
-.method public final writeData$datastore_core_release(Ljava/lang/Object;ZLul/c;)Ljava/lang/Object;
+.method public final writeData$datastore_core_release(Ljava/lang/Object;ZLkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 10
-    .param p3    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;Z",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Integer;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -8039,7 +7962,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p3}, Landroidx/datastore/core/DataStoreImpl$writeData$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lul/c;)V
+    invoke-direct {v0, p0, p3}, Landroidx/datastore/core/DataStoreImpl$writeData$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -8049,7 +7972,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -8080,7 +8003,7 @@
 
     .line 41
     .line 42
-    invoke-static {p3}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p3}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 43
     .line 44
@@ -8106,7 +8029,7 @@
 
     .line 54
     :cond_2
-    invoke-static {p3}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p3}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 55
     .line 56
@@ -8144,7 +8067,7 @@
     move v8, p2
 
     .line 72
-    invoke-direct/range {v4 .. v9}, Landroidx/datastore/core/DataStoreImpl$writeData$2;-><init>(Lkotlin/jvm/internal/Ref$IntRef;Landroidx/datastore/core/DataStoreImpl;Ljava/lang/Object;ZLul/c;)V
+    invoke-direct/range {v4 .. v9}, Landroidx/datastore/core/DataStoreImpl$writeData$2;-><init>(Lkotlin/jvm/internal/Ref$IntRef;Landroidx/datastore/core/DataStoreImpl;Ljava/lang/Object;ZLkotlin/coroutines/e;)V
 
     .line 73
     .line 74
@@ -8157,7 +8080,7 @@
 
     .line 78
     .line 79
-    invoke-interface {p3, v4, v0}, Landroidx/datastore/core/StorageConnection;->writeScope(Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p3, v4, v0}, Landroidx/datastore/core/StorageConnection;->writeScope(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 80
     .line 81
@@ -8181,7 +8104,7 @@
 
     .line 88
     .line 89
-    invoke-static {p1}, Lxl/a;->f(I)Ljava/lang/Integer;
+    invoke-static {p1}, Lk8/a;->c(I)Ljava/lang/Integer;
 
     .line 90
     .line 91
@@ -8210,4 +8133,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

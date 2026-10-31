@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/location/pb/LinkAttrt;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -32,7 +32,7 @@
 
 .field private enodeId_:I
 
-.field private geo_:Ljc/a;
+.field private geo_:Ll4/a;
 
 .field private hasAttr:Z
 
@@ -56,7 +56,7 @@
 
 .field private level_:I
 
-.field private parkingFloor_:Ljc/a;
+.field private parkingFloor_:Ll4/a;
 
 .field private parkingTheme_:I
 
@@ -67,7 +67,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
     const/4 v0, 0x0
 
@@ -83,11 +83,11 @@
 
     iput v0, p0, Lcom/baidu/location/pb/LinkAttrt;->attr_:I
 
-    sget-object v1, Ljc/a;->c:Ljc/a;
+    sget-object v1, Ll4/a;->c:Ll4/a;
 
-    iput-object v1, p0, Lcom/baidu/location/pb/LinkAttrt;->geo_:Ljc/a;
+    iput-object v1, p0, Lcom/baidu/location/pb/LinkAttrt;->geo_:Ll4/a;
 
-    iput-object v1, p0, Lcom/baidu/location/pb/LinkAttrt;->parkingFloor_:Ljc/a;
+    iput-object v1, p0, Lcom/baidu/location/pb/LinkAttrt;->parkingFloor_:Ll4/a;
 
     iput v0, p0, Lcom/baidu/location/pb/LinkAttrt;->parkingTheme_:I
 
@@ -98,7 +98,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/location/pb/LinkAttrt;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/location/pb/LinkAttrt;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -111,7 +111,7 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/LinkAttrt;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/location/pb/LinkAttrt;->mergeFrom(Ljc/b;)Lcom/baidu/location/pb/LinkAttrt;
+    invoke-virtual {v0, p0}, Lcom/baidu/location/pb/LinkAttrt;->mergeFrom(Ll4/b;)Lcom/baidu/location/pb/LinkAttrt;
 
     move-result-object p0
 
@@ -131,7 +131,7 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/LinkAttrt;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -213,9 +213,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/location/pb/LinkAttrt;->hasGeo:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/LinkAttrt;->geo_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/LinkAttrt;->geo_:Ll4/a;
 
     return-object p0
 .end method
@@ -251,9 +251,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/location/pb/LinkAttrt;->hasParkingFloor:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/LinkAttrt;->parkingFloor_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/LinkAttrt;->parkingFloor_:Ll4/a;
 
     return-object p0
 .end method
@@ -321,11 +321,11 @@
     return v0
 .end method
 
-.method public getGeo()Ljc/a;
+.method public getGeo()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/location/pb/LinkAttrt;->geo_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/location/pb/LinkAttrt;->geo_:Ll4/a;
 
     .line 2
     .line 3
@@ -349,7 +349,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLength()I
@@ -368,11 +367,11 @@
     return v0
 .end method
 
-.method public getParkingFloor()Ljc/a;
+.method public getParkingFloor()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/location/pb/LinkAttrt;->parkingFloor_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/location/pb/LinkAttrt;->parkingFloor_:Ll4/a;
 
     .line 2
     .line 3
@@ -396,7 +395,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParkingTheme()I
@@ -422,7 +420,7 @@
 
     move-result v1
 
-    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)I
+    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->w(II)I
 
     move-result v0
 
@@ -444,7 +442,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->w(II)I
 
     move-result v1
 
@@ -463,7 +461,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->w(II)I
 
     move-result v1
 
@@ -482,7 +480,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->w(II)I
 
     move-result v1
 
@@ -501,7 +499,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->w(II)I
 
     move-result v1
 
@@ -520,7 +518,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->w(II)I
 
     move-result v1
 
@@ -535,11 +533,11 @@
 
     const/4 v1, 0x7
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->getGeo()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->getGeo()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -554,11 +552,11 @@
 
     const/16 v1, 0x8
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->getParkingFloor()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->getParkingFloor()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -577,7 +575,7 @@
 
     move-result v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v1
 
@@ -721,7 +719,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/location/pb/LinkAttrt;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/location/pb/LinkAttrt;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -732,7 +730,7 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
@@ -774,7 +772,7 @@
 
     if-eq v0, v1, :cond_1
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -783,7 +781,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -792,25 +790,25 @@
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/LinkAttrt;->setParkingFloor(Ljc/a;)Lcom/baidu/location/pb/LinkAttrt;
+    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/LinkAttrt;->setParkingFloor(Ll4/a;)Lcom/baidu/location/pb/LinkAttrt;
 
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/LinkAttrt;->setGeo(Ljc/a;)Lcom/baidu/location/pb/LinkAttrt;
+    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/LinkAttrt;->setGeo(Ll4/a;)Lcom/baidu/location/pb/LinkAttrt;
 
     goto :goto_0
 
     :cond_4
-    invoke-virtual {p1}, Ljc/b;->I()I
+    invoke-virtual {p1}, Ll4/b;->w()I
 
     move-result v0
 
@@ -819,7 +817,7 @@
     goto :goto_0
 
     :cond_5
-    invoke-virtual {p1}, Ljc/b;->I()I
+    invoke-virtual {p1}, Ll4/b;->w()I
 
     move-result v0
 
@@ -828,7 +826,7 @@
     goto :goto_0
 
     :cond_6
-    invoke-virtual {p1}, Ljc/b;->I()I
+    invoke-virtual {p1}, Ll4/b;->w()I
 
     move-result v0
 
@@ -837,7 +835,7 @@
     goto :goto_0
 
     :cond_7
-    invoke-virtual {p1}, Ljc/b;->I()I
+    invoke-virtual {p1}, Ll4/b;->w()I
 
     move-result v0
 
@@ -846,7 +844,7 @@
     goto :goto_0
 
     :cond_8
-    invoke-virtual {p1}, Ljc/b;->I()I
+    invoke-virtual {p1}, Ll4/b;->w()I
 
     move-result v0
 
@@ -855,7 +853,7 @@
     goto :goto_0
 
     :cond_9
-    invoke-virtual {p1}, Ljc/b;->I()I
+    invoke-virtual {p1}, Ll4/b;->w()I
 
     move-result v0
 
@@ -868,7 +866,7 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -877,7 +875,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/location/pb/LinkAttrt;->mergeFrom(Ljc/b;)Lcom/baidu/location/pb/LinkAttrt;
+    invoke-virtual {p0, p1}, Lcom/baidu/location/pb/LinkAttrt;->mergeFrom(Ll4/b;)Lcom/baidu/location/pb/LinkAttrt;
 
     move-result-object p1
 
@@ -920,7 +918,7 @@
     return-object p0
 .end method
 
-.method public setGeo(Ljc/a;)Lcom/baidu/location/pb/LinkAttrt;
+.method public setGeo(Ll4/a;)Lcom/baidu/location/pb/LinkAttrt;
     .locals 1
 
     .line 1
@@ -931,7 +929,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/location/pb/LinkAttrt;->geo_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/location/pb/LinkAttrt;->geo_:Ll4/a;
 
     .line 5
     .line 6
@@ -954,7 +952,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLength(I)Lcom/baidu/location/pb/LinkAttrt;
@@ -981,7 +978,7 @@
     return-object p0
 .end method
 
-.method public setParkingFloor(Ljc/a;)Lcom/baidu/location/pb/LinkAttrt;
+.method public setParkingFloor(Ll4/a;)Lcom/baidu/location/pb/LinkAttrt;
     .locals 1
 
     .line 1
@@ -992,7 +989,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/location/pb/LinkAttrt;->parkingFloor_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/location/pb/LinkAttrt;->parkingFloor_:Ll4/a;
 
     .line 5
     .line 6
@@ -1015,7 +1012,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setParkingTheme(I)Lcom/baidu/location/pb/LinkAttrt;
@@ -1062,7 +1058,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f0(II)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->hasEnodeId()Z
@@ -1077,7 +1073,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f0(II)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->hasLevel()Z
@@ -1092,7 +1088,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f0(II)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->hasLength()Z
@@ -1107,7 +1103,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f0(II)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->hasDirec()Z
@@ -1122,7 +1118,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f0(II)V
 
     :cond_4
     invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->hasAttr()Z
@@ -1137,7 +1133,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f0(II)V
 
     :cond_5
     invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->hasGeo()Z
@@ -1148,11 +1144,11 @@
 
     const/4 v0, 0x7
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->getGeo()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->getGeo()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_6
     invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->hasParkingFloor()Z
@@ -1163,11 +1159,11 @@
 
     const/16 v0, 0x8
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->getParkingFloor()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->getParkingFloor()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_7
     invoke-virtual {p0}, Lcom/baidu/location/pb/LinkAttrt;->hasParkingTheme()Z
@@ -1182,7 +1178,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_8
     return-void

@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/synapsor/ottai_desktop_widget/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "string"
-.end annotation
-
-
 # static fields
 .field public static click_to_wear:I = 0x7f110032
 
@@ -23,11 +12,11 @@
 
 .field public static initing:I = 0x7f11005d
 
-.field public static not_worn:I = 0x7f1100d3
+.field public static not_worn:I = 0x7f1100d0
 
-.field public static update_time:I = 0x7f1100e9
+.field public static update_time:I = 0x7f1100e6
 
-.field public static view_details:I = 0x7f1100ec
+.field public static view_details:I = 0x7f1100e9
 
 
 # direct methods

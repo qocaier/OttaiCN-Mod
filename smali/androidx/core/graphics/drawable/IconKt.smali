@@ -6,19 +6,12 @@
 # direct methods
 .method public static final toAdaptiveIcon(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
     .locals 0
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
-    invoke-static {p0}, Lv0/b;->a(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/b;->a(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
 
     .line 2
     .line 3
@@ -51,15 +44,8 @@
 
 .method public static final toIcon(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
     .locals 0
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -72,15 +58,8 @@
 
 .method public static final toIcon(Landroid/net/Uri;)Landroid/graphics/drawable/Icon;
     .locals 0
-    .param p0    # Landroid/net/Uri;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 2
@@ -93,15 +72,8 @@
 
 .method public static final toIcon([B)Landroid/graphics/drawable/Icon;
     .locals 2
-    .param p0    # [B
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 3

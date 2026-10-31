@@ -211,11 +211,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/color/ColorResourcesTableCreator$ColorResource;)S
@@ -248,7 +243,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/color/ColorResourcesTableCreator$ColorResource;)Ljava/lang/String;
@@ -281,7 +275,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$1400(Lcom/google/android/material/color/ColorResourcesTableCreator$ColorResource;)I
@@ -314,7 +307,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$200(Lcom/google/android/material/color/ColorResourcesTableCreator$ColorResource;)B
@@ -347,7 +339,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$300(Lcom/google/android/material/color/ColorResourcesTableCreator$ColorResource;)B
@@ -380,5 +371,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

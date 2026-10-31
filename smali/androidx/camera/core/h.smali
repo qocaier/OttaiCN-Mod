@@ -7,29 +7,33 @@
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/core/ImageCapture$ImageCaptureRequest;
+.field public final synthetic a:Landroidx/camera/core/CameraX;
 
-.field public final synthetic b:I
+.field public final synthetic b:Landroid/content/Context;
 
-.field public final synthetic c:Ljava/lang/String;
+.field public final synthetic c:Ljava/util/concurrent/Executor;
 
-.field public final synthetic d:Ljava/lang/Throwable;
+.field public final synthetic d:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+
+.field public final synthetic e:J
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/core/ImageCapture$ImageCaptureRequest;ILjava/lang/String;Ljava/lang/Throwable;)V
+.method public synthetic constructor <init>(Landroidx/camera/core/CameraX;Landroid/content/Context;Ljava/util/concurrent/Executor;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;J)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/core/h;->a:Landroidx/camera/core/ImageCapture$ImageCaptureRequest;
+    iput-object p1, p0, Landroidx/camera/core/h;->a:Landroidx/camera/core/CameraX;
 
-    iput p2, p0, Landroidx/camera/core/h;->b:I
+    iput-object p2, p0, Landroidx/camera/core/h;->b:Landroid/content/Context;
 
-    iput-object p3, p0, Landroidx/camera/core/h;->c:Ljava/lang/String;
+    iput-object p3, p0, Landroidx/camera/core/h;->c:Ljava/util/concurrent/Executor;
 
-    iput-object p4, p0, Landroidx/camera/core/h;->d:Ljava/lang/Throwable;
+    iput-object p4, p0, Landroidx/camera/core/h;->d:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+
+    iput-wide p5, p0, Landroidx/camera/core/h;->e:J
 
     return-void
 .end method
@@ -37,18 +41,20 @@
 
 # virtual methods
 .method public final run()V
-    .locals 4
+    .locals 6
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/h;->a:Landroidx/camera/core/ImageCapture$ImageCaptureRequest;
+    iget-object v0, p0, Landroidx/camera/core/h;->a:Landroidx/camera/core/CameraX;
 
-    iget v1, p0, Landroidx/camera/core/h;->b:I
+    iget-object v1, p0, Landroidx/camera/core/h;->b:Landroid/content/Context;
 
-    iget-object v2, p0, Landroidx/camera/core/h;->c:Ljava/lang/String;
+    iget-object v2, p0, Landroidx/camera/core/h;->c:Ljava/util/concurrent/Executor;
 
-    iget-object v3, p0, Landroidx/camera/core/h;->d:Ljava/lang/Throwable;
+    iget-object v3, p0, Landroidx/camera/core/h;->d:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
-    invoke-static {v0, v1, v2, v3}, Landroidx/camera/core/ImageCapture$ImageCaptureRequest;->b(Landroidx/camera/core/ImageCapture$ImageCaptureRequest;ILjava/lang/String;Ljava/lang/Throwable;)V
+    iget-wide v4, p0, Landroidx/camera/core/h;->e:J
+
+    invoke-static/range {v0 .. v5}, Landroidx/camera/core/CameraX;->b(Landroidx/camera/core/CameraX;Landroid/content/Context;Ljava/util/concurrent/Executor;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;J)V
 
     return-void
 .end method

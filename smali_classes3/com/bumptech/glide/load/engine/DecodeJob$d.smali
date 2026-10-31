@@ -13,36 +13,13 @@
     name = "d"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<Z:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
-
 
 # instance fields
-.field public a:La6/b;
+.field public a:Lh0/b;
 
-.field public b:La6/g;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "La6/g<",
-            "TZ;>;"
-        }
-    .end annotation
-.end field
+.field public b:Lh0/f;
 
-.field public c:Ld6/i;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ld6/i<",
-            "TZ;>;"
-        }
-    .end annotation
-.end field
+.field public c:Lcom/bumptech/glide/load/engine/r;
 
 
 # direct methods
@@ -74,7 +51,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -86,15 +62,15 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->a:La6/b;
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->a:Lh0/b;
 
     .line 3
     .line 4
-    iput-object v0, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->b:La6/g;
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->b:Lh0/f;
 
     .line 5
     .line 6
-    iput-object v0, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->c:Ld6/i;
+    iput-object v0, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->c:Lcom/bumptech/glide/load/engine/r;
 
     .line 7
     .line 8
@@ -113,10 +89,9 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public b(Lcom/bumptech/glide/load/engine/DecodeJob$e;La6/e;)V
+.method public b(Lcom/bumptech/glide/load/engine/DecodeJob$e;Lh0/d;)V
     .locals 4
 
     .line 1
@@ -124,13 +99,13 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lz6/b;->a(Ljava/lang/String;)V
+    invoke-static {v0}, La1/b;->a(Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
     :try_start_0
-    invoke-interface {p1}, Lcom/bumptech/glide/load/engine/DecodeJob$e;->a()Lf6/a;
+    invoke-interface {p1}, Lcom/bumptech/glide/load/engine/DecodeJob$e;->a()Lj0/a;
 
     .line 7
     .line 8
@@ -138,44 +113,44 @@
     move-result-object p1
 
     .line 10
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->a:La6/b;
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->a:Lh0/b;
 
     .line 11
     .line 12
-    new-instance v1, Ld6/b;
+    new-instance v1, Lcom/bumptech/glide/load/engine/d;
 
     .line 13
     .line 14
-    iget-object v2, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->b:La6/g;
+    iget-object v2, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->b:Lh0/f;
 
     .line 15
     .line 16
-    iget-object v3, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->c:Ld6/i;
+    iget-object v3, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->c:Lcom/bumptech/glide/load/engine/r;
 
     .line 17
     .line 18
-    invoke-direct {v1, v2, v3, p2}, Ld6/b;-><init>(La6/a;Ljava/lang/Object;La6/e;)V
+    invoke-direct {v1, v2, v3, p2}, Lcom/bumptech/glide/load/engine/d;-><init>(Lh0/a;Ljava/lang/Object;Lh0/d;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-interface {p1, v0, v1}, Lf6/a;->a(La6/b;Lf6/a$b;)V
+    invoke-interface {p1, v0, v1}, Lj0/a;->a(Lh0/b;Lj0/a$b;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 22
     .line 23
     .line 24
-    iget-object p1, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->c:Ld6/i;
+    iget-object p1, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->c:Lcom/bumptech/glide/load/engine/r;
 
     .line 25
     .line 26
-    invoke-virtual {p1}, Ld6/i;->e()V
+    invoke-virtual {p1}, Lcom/bumptech/glide/load/engine/r;->f()V
 
     .line 27
     .line 28
     .line 29
-    invoke-static {}, Lz6/b;->f()V
+    invoke-static {}, La1/b;->e()V
 
     .line 30
     .line 31
@@ -187,16 +162,16 @@
     move-exception p1
 
     .line 34
-    iget-object p2, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->c:Ld6/i;
+    iget-object p2, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->c:Lcom/bumptech/glide/load/engine/r;
 
     .line 35
     .line 36
-    invoke-virtual {p2}, Ld6/i;->e()V
+    invoke-virtual {p2}, Lcom/bumptech/glide/load/engine/r;->f()V
 
     .line 37
     .line 38
     .line 39
-    invoke-static {}, Lz6/b;->f()V
+    invoke-static {}, La1/b;->e()V
 
     .line 40
     .line 41
@@ -220,18 +195,13 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public c()Z
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->c:Ld6/i;
+    iget-object v0, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->c:Lcom/bumptech/glide/load/engine/r;
 
     .line 2
     .line 3
@@ -264,34 +234,21 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public d(La6/b;La6/g;Ld6/i;)V
+.method public d(Lh0/b;Lh0/f;Lcom/bumptech/glide/load/engine/r;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<X:",
-            "Ljava/lang/Object;",
-            ">(",
-            "La6/b;",
-            "La6/g<",
-            "TX;>;",
-            "Ld6/i<",
-            "TX;>;)V"
-        }
-    .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->a:La6/b;
+    iput-object p1, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->a:Lh0/b;
 
     .line 2
     .line 3
-    iput-object p2, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->b:La6/g;
+    iput-object p2, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->b:Lh0/f;
 
     .line 4
     .line 5
-    iput-object p3, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->c:Ld6/i;
+    iput-object p3, p0, Lcom/bumptech/glide/load/engine/DecodeJob$d;->c:Lcom/bumptech/glide/load/engine/r;
 
     .line 6
     .line 7
@@ -436,9 +393,4 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method

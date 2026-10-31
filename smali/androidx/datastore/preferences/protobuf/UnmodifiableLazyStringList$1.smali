@@ -45,16 +45,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010
-        }
-        names = {
-            "this$0",
-            "val$index"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->this$0:Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;
@@ -127,14 +117,6 @@
 # virtual methods
 .method public bridge synthetic add(Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/String;
@@ -146,14 +128,6 @@
 
 .method public add(Ljava/lang/String;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -193,6 +167,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasPrevious()Z
@@ -225,6 +200,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic next()Ljava/lang/Object;
@@ -283,6 +259,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic previous()Ljava/lang/Object;
@@ -341,6 +318,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public remove()V
@@ -371,18 +349,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic set(Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/String;
@@ -394,14 +365,6 @@
 
 .method public set(Ljava/lang/String;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;

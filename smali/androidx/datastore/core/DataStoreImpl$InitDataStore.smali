@@ -20,20 +20,9 @@
         value = {
             "Ljava/util/List<",
             "+",
-            "Ljm/p<",
-            "-",
-            "Landroidx/datastore/core/InitializerApi<",
-            "TT;>;-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;>;"
+            "Lq8/p;",
+            ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end field
 
@@ -50,25 +39,13 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/core/DataStoreImpl;Ljava/util/List;)V
     .locals 1
-    .param p1    # Landroidx/datastore/core/DataStoreImpl;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/List<",
             "+",
-            "Ljm/p<",
-            "-",
-            "Landroidx/datastore/core/InitializerApi<",
-            "TT;>;-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;>;)V"
+            "Lq8/p;",
+            ">;)V"
         }
     .end annotation
 
@@ -77,7 +54,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -95,7 +72,7 @@
 
     .line 12
     .line 13
-    invoke-static {p2}, Lll/r0;->a6(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {p2}, Lkotlin/collections/z;->f0(Ljava/lang/Iterable;)Ljava/util/List;
 
     .line 14
     .line 15
@@ -230,24 +207,15 @@
 
 
 # virtual methods
-.method public doRun(Lul/c;)Ljava/lang/Object;
+.method public doRun(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 6
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -297,7 +265,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$1;-><init>(Landroidx/datastore/core/DataStoreImpl$InitDataStore;Lul/c;)V
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$1;-><init>(Landroidx/datastore/core/DataStoreImpl$InitDataStore;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -307,7 +275,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -345,7 +313,7 @@
 
     .line 44
     .line 45
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 46
     .line 47
@@ -379,7 +347,7 @@
 
     .line 60
     .line 61
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 62
     .line 63
@@ -388,7 +356,7 @@
 
     .line 65
     :cond_3
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 66
     .line 67
@@ -401,7 +369,7 @@
 
     .line 71
     .line 72
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 73
     .line 74
@@ -445,7 +413,7 @@
     const/4 v5, 0x0
 
     .line 93
-    invoke-direct {v2, v4, p0, v5}, Landroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Landroidx/datastore/core/DataStoreImpl$InitDataStore;Lul/c;)V
+    invoke-direct {v2, v4, p0, v5}, Landroidx/datastore/core/DataStoreImpl$InitDataStore$doRun$initData$1;-><init>(Landroidx/datastore/core/DataStoreImpl;Landroidx/datastore/core/DataStoreImpl$InitDataStore;Lkotlin/coroutines/e;)V
 
     .line 94
     .line 95
@@ -458,7 +426,7 @@
 
     .line 99
     .line 100
-    invoke-interface {p1, v2, v0}, Landroidx/datastore/core/InterProcessCoordinator;->lock(Ljm/l;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v0}, Landroidx/datastore/core/InterProcessCoordinator;->lock(Lq8/l;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 101
     .line 102
@@ -502,7 +470,7 @@
     const/4 v2, 0x0
 
     .line 118
-    invoke-static {p1, v2, v0}, Landroidx/datastore/core/DataStoreImpl;->access$readDataOrHandleCorruption(Landroidx/datastore/core/DataStoreImpl;ZLul/c;)Ljava/lang/Object;
+    invoke-static {p1, v2, v0}, Landroidx/datastore/core/DataStoreImpl;->access$readDataOrHandleCorruption(Landroidx/datastore/core/DataStoreImpl;ZLkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 119
     .line 120
@@ -545,7 +513,7 @@
     .line 135
     .line 136
     .line 137
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 138
     .line 139
@@ -649,4 +617,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

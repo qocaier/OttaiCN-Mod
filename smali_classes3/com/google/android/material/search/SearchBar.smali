@@ -96,7 +96,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -161,9 +160,9 @@
     iput p1, p0, Lcom/google/android/material/search/SearchBar;->menuResId:I
 
     .line 5
-    new-instance v0, Lya/b;
+    new-instance v0, Lcom/google/android/material/search/b;
 
-    invoke-direct {v0, p0}, Lya/b;-><init>(Lcom/google/android/material/search/SearchBar;)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/search/b;-><init>(Lcom/google/android/material/search/SearchBar;)V
 
     iput-object v0, p0, Lcom/google/android/material/search/SearchBar;->touchExplorationStateChangeListener:Landroidx/core/view/accessibility/AccessibilityManagerCompat$TouchExplorationStateChangeListener;
 
@@ -474,11 +473,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/search/SearchBar;)Landroid/view/accessibility/AccessibilityManager;
@@ -511,7 +505,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/search/SearchBar;)Landroidx/core/view/accessibility/AccessibilityManagerCompat$TouchExplorationStateChangeListener;
@@ -544,7 +537,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic b(Lcom/google/android/material/search/SearchBar;)V
@@ -579,7 +571,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private defaultIfZero(II)I
@@ -697,11 +688,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private initBackground(Lcom/google/android/material/shape/ShapeAppearanceModel;IFFI)V
@@ -1765,7 +1751,6 @@
     .line 21
     return-void
     .line 22
-    .line 23
 .end method
 
 .method private initTextView(ILjava/lang/String;Ljava/lang/String;)V
@@ -1963,11 +1948,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private layoutCenterView()V
@@ -2121,15 +2101,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private layoutChild(Landroid/view/View;IIII)V
@@ -3261,8 +3232,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private measureCenterView(II)V
@@ -3336,11 +3305,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private setDefaultMargins()V
@@ -3516,15 +3480,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private setNavigationIconDecorative(Z)V
@@ -3660,8 +3615,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private setOrClearDefaultScrollFlags()V
@@ -3810,15 +3763,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private setupTouchExplorationStateChangeListener()V
@@ -3955,15 +3899,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private validateAttributes(Landroid/util/AttributeSet;)V
@@ -4107,8 +4042,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -4149,7 +4082,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addExpandAnimationListener(Landroid/animation/AnimatorListenerAdapter;)V
@@ -4188,7 +4120,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addOnLoadAnimationCallback(Lcom/google/android/material/search/SearchBar$OnLoadAnimationCallback;)V
@@ -4227,7 +4158,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
@@ -4402,11 +4332,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public clearText()V
@@ -4441,7 +4366,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public collapse(Landroid/view/View;)Z
@@ -4450,8 +4374,6 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Lxb/a;
-    .end annotation
 
     const/4 v0, 0x0
 
@@ -4473,8 +4395,6 @@
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Lxb/a;
-    .end annotation
 
     const/4 v0, 0x0
 
@@ -4496,8 +4416,6 @@
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 3
     invoke-virtual {p1}, Landroid/view/View;->getVisibility()I
@@ -4541,8 +4459,6 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation build Lxb/a;
-    .end annotation
 
     const/4 v0, 0x0
 
@@ -4564,8 +4480,6 @@
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Lxb/a;
-    .end annotation
 
     const/4 v0, 0x0
 
@@ -4587,8 +4501,6 @@
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 3
     invoke-virtual {p1}, Landroid/view/View;->getVisibility()I
@@ -4656,7 +4568,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCompatElevation()F
@@ -4700,7 +4611,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCornerSize()F
@@ -4735,7 +4645,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDefaultMarginVerticalResource()I
@@ -4774,7 +4683,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDefaultNavigationIconResource()I
@@ -4813,7 +4721,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHint()Ljava/lang/CharSequence;
@@ -4850,7 +4757,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMenuResId()I
@@ -4881,7 +4787,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStrokeColor()I
@@ -4922,7 +4827,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStrokeWidth()F
@@ -4959,7 +4863,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getText()Ljava/lang/CharSequence;
@@ -4996,7 +4899,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTextView()Landroid/widget/TextView;
@@ -5029,7 +4931,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public inflateMenu(I)V
@@ -5157,8 +5058,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public isCollapsing()Z
@@ -5193,7 +5092,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isDefaultScrollFlagsEnabled()Z
@@ -5224,7 +5122,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isExpanding()Z
@@ -5259,7 +5156,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isOnLoadAnimationFadeInEnabled()Z
@@ -5294,7 +5190,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAttachedToWindow()V
@@ -5333,7 +5228,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
@@ -5398,12 +5292,12 @@
     move-result-object v2
 
     .line 31
-    invoke-static {p1, v2}, Ld1/d;->a(Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/lang/CharSequence;)V
+    invoke-static {p1, v2}, Landroidx/core/view/accessibility/d;->a(Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/lang/CharSequence;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-static {p1, v1}, Ld1/f;->a(Landroid/view/accessibility/AccessibilityNodeInfo;Z)V
+    invoke-static {p1, v1}, Landroidx/core/view/accessibility/f;->a(Landroid/view/accessibility/AccessibilityNodeInfo;Z)V
 
     .line 35
     .line 36
@@ -5473,8 +5367,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onLayout(ZIIII)V
@@ -6501,11 +6393,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -6557,7 +6444,6 @@
     .line 23
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -6692,15 +6578,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public removeCollapseAnimationListener(Landroid/animation/AnimatorListenerAdapter;)Z
@@ -6741,7 +6618,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeExpandAnimationListener(Landroid/animation/AnimatorListenerAdapter;)Z
@@ -6782,7 +6658,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeOnLoadAnimationCallback(Lcom/google/android/material/search/SearchBar$OnLoadAnimationCallback;)Z
@@ -6823,7 +6698,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCenterView(Landroid/view/View;)V
@@ -6874,7 +6748,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDefaultScrollFlagsEnabled(Z)V
@@ -6909,7 +6782,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setElevation(F)V
@@ -6952,7 +6824,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHint(I)V
@@ -7023,7 +6894,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setNavigationOnClickListener(Landroid/view/View$OnClickListener;)V
@@ -7075,7 +6945,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnLoadAnimationFadeInEnabled(Z)V
@@ -7110,7 +6979,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStrokeColor(I)V
@@ -7160,7 +7028,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStrokeWidth(F)V
@@ -7208,7 +7075,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSubtitle(Ljava/lang/CharSequence;)V
@@ -7257,11 +7123,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lya/a;
+    new-instance v0, Lcom/google/android/material/search/a;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lya/a;-><init>(Lcom/google/android/material/search/SearchBar;)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/search/a;-><init>(Lcom/google/android/material/search/SearchBar;)V
 
     .line 4
     .line 5
@@ -7285,7 +7151,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public stopOnLoadAnimation()V
@@ -7318,5 +7183,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

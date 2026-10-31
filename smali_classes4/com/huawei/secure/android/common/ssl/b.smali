@@ -3,10 +3,6 @@
 .source "SourceFile"
 
 
-# static fields
-.field private static final a:J = 0x1L
-
-
 # direct methods
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0

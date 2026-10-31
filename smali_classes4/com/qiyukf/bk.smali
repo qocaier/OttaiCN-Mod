@@ -55,6 +55,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -237,6 +239,8 @@
 
     .line 84
     return-object p1
+    .line 85
+    .line 86
 .end method
 
 .method public i()Ljava/util/ArrayList;
@@ -273,6 +277,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public j()Lcom/qiyukf/tv;
@@ -301,6 +307,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public k()Lcom/qiyukf/zj;
@@ -329,4 +337,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

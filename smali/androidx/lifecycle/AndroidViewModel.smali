@@ -5,25 +5,18 @@
 
 # instance fields
 .field private final application:Landroid/app/Application;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroid/app/Application;)V
     .locals 1
-    .param p1    # Landroid/app/Application;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "application"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -66,9 +59,6 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/AndroidViewModel;->application:Landroid/app/Application;
 
@@ -78,7 +68,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -96,4 +86,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

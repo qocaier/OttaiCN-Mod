@@ -344,6 +344,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static getMediaController(Landroid/app/Activity;)Landroid/support/v4/media/session/MediaControllerCompat;
@@ -419,6 +422,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static setMediaController(Landroid/app/Activity;Landroid/support/v4/media/session/MediaControllerCompat;)V
@@ -735,6 +739,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFlags()J
@@ -767,6 +772,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMediaController()Ljava/lang/Object;
@@ -819,6 +825,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPackageName()Ljava/lang/String;
@@ -851,6 +858,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPlaybackInfo()Landroid/support/v4/media/session/MediaControllerCompat$PlaybackInfo;
@@ -982,6 +990,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getPlaybackState()Landroid/support/v4/media/session/PlaybackStateCompat;
@@ -1123,6 +1133,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getQueue()Ljava/util/List;
@@ -1174,6 +1186,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getQueueTitle()Ljava/lang/CharSequence;
@@ -1206,6 +1219,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRatingType()I
@@ -1238,6 +1252,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRepeatMode()I
@@ -1363,6 +1378,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getSessionActivity()Landroid/app/PendingIntent;
@@ -1395,6 +1412,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSessionInfo()Landroid/os/Bundle;
@@ -1560,6 +1578,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getShuffleMode()I
@@ -1685,6 +1705,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getTransportControls()Landroid/support/v4/media/session/MediaControllerCompat$TransportControls;
@@ -1798,6 +1820,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isCaptioningEnabled()Z
@@ -1923,6 +1947,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isSessionReady()Z
@@ -1964,6 +1990,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public processPendingCallbacksLocked()V
@@ -2130,6 +2157,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final registerCallback(Landroid/support/v4/media/session/MediaControllerCompat$Callback;Landroid/os/Handler;)V
@@ -2454,6 +2483,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public removeQueueItem(Landroid/support/v4/media/MediaDescriptionCompat;)V
@@ -2575,6 +2607,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public sendCommand(Ljava/lang/String;Landroid/os/Bundle;Landroid/os/ResultReceiver;)V
@@ -2698,6 +2731,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public setVolumeTo(II)V
@@ -2922,4 +2958,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

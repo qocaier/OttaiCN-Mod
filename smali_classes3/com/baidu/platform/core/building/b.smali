@@ -39,7 +39,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -82,7 +81,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public searchBuilding(Lcom/baidu/mapapi/search/building/BuildingSearchOption;)Z
@@ -131,7 +129,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnBuildingSearchListener(Lcom/baidu/mapapi/search/building/OnGetBuildingSearchResultListener;)V
@@ -172,5 +169,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

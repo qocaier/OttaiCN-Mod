@@ -89,6 +89,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getThemeUpIndicator()Landroid/graphics/drawable/Drawable;
@@ -203,6 +204,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isNavigationVisible()Z
@@ -252,6 +255,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public setActionBarDescription(I)V

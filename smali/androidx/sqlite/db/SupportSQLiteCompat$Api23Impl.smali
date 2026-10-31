@@ -26,9 +26,6 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/sqlite/db/SupportSQLiteCompat$Api23Impl;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -70,25 +67,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final setExtras(Landroid/database/Cursor;Landroid/os/Bundle;)V
     .locals 1
-    .param p0    # Landroid/database/Cursor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/os/Bundle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
     .end annotation
 
     .line 1
@@ -96,7 +83,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -105,7 +92,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/camera/core/imagecapture/TakePictureManager;->submitCameraRequest(Landroidx/camera/core/imagecapture/CameraRequest;)Lub/u0;
+    value = Landroidx/camera/core/imagecapture/TakePictureManager;->submitCameraRequest(Landroidx/camera/core/imagecapture/CameraRequest;)Lcom/google/common/util/concurrent/t;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -233,6 +233,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public bridge synthetic onSuccess(Ljava/lang/Object;)V

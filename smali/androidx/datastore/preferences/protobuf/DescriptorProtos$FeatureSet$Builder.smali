@@ -84,6 +84,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearFieldPresence()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Builder;
@@ -118,6 +119,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearJsonFormat()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Builder;
@@ -152,6 +154,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearMessageEncoding()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Builder;
@@ -186,6 +189,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearRepeatedFieldEncoding()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Builder;
@@ -220,6 +224,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearUtf8Validation()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Builder;
@@ -254,6 +259,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEnumType()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$EnumType;
@@ -288,6 +294,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFieldPresence()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$FieldPresence;
@@ -322,6 +329,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getJsonFormat()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$JsonFormat;
@@ -356,6 +364,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMessageEncoding()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$MessageEncoding;
@@ -390,6 +399,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRepeatedFieldEncoding()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$RepeatedFieldEncoding;
@@ -424,6 +434,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUtf8Validation()Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Utf8Validation;
@@ -458,6 +469,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasEnumType()Z
@@ -492,6 +504,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasFieldPresence()Z
@@ -526,6 +539,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasJsonFormat()Z
@@ -560,6 +574,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasMessageEncoding()Z
@@ -594,6 +609,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasRepeatedFieldEncoding()Z
@@ -628,6 +644,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasUtf8Validation()Z
@@ -662,18 +679,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setEnumType(Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$EnumType;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -713,14 +723,6 @@
 
 .method public setFieldPresence(Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$FieldPresence;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -760,14 +762,6 @@
 
 .method public setJsonFormat(Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$JsonFormat;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -807,14 +801,6 @@
 
 .method public setMessageEncoding(Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$MessageEncoding;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -854,14 +840,6 @@
 
 .method public setRepeatedFieldEncoding(Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$RepeatedFieldEncoding;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -901,14 +879,6 @@
 
 .method public setUtf8Validation(Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Utf8Validation;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$FeatureSet$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V

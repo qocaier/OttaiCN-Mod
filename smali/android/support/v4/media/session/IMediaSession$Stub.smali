@@ -158,6 +158,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static asInterface(Landroid/os/IBinder;)Landroid/support/v4/media/session/IMediaSession;

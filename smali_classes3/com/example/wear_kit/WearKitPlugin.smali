@@ -10,21 +10,12 @@
 
 # instance fields
 .field public a:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public b:Lio/flutter/plugin/common/MethodChannel;
 
 .field public c:Landroid/app/Application;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field public final d:Landroid/os/Handler;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -70,7 +61,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static final synthetic a(Lcom/example/wear_kit/WearKitPlugin;)Lio/flutter/plugin/common/MethodChannel;
@@ -103,45 +93,11 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
-.method public final b()Ljava/lang/String;
-    .locals 1
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/example/wear_kit/WearKitPlugin;->a:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public final c(Ljava/lang/String;)V
+.method public final b(Ljava/lang/String;)V
     .locals 7
 
     .line 1
@@ -157,13 +113,13 @@
 
     .line 6
     .line 7
-    invoke-static {v0}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
     :cond_0
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     .line 11
     .line 12
@@ -171,7 +127,7 @@
     move-result-object v0
 
     .line 14
-    invoke-static {v0}, Lkotlinx/coroutines/h;->a(Lkotlin/coroutines/d;)Lfn/i0;
+    invoke-static {v0}, Lkotlinx/coroutines/m0;->a(Lkotlin/coroutines/i;)Lkotlinx/coroutines/l0;
 
     .line 15
     .line 16
@@ -186,7 +142,7 @@
     const/4 v0, 0x0
 
     .line 21
-    invoke-direct {v4, p0, p1, v0}, Lcom/example/wear_kit/WearKitPlugin$sendWearKitLog$1;-><init>(Lcom/example/wear_kit/WearKitPlugin;Ljava/lang/String;Lul/c;)V
+    invoke-direct {v4, p0, p1, v0}, Lcom/example/wear_kit/WearKitPlugin$sendWearKitLog$1;-><init>(Lcom/example/wear_kit/WearKitPlugin;Ljava/lang/String;Lkotlin/coroutines/e;)V
 
     .line 22
     .line 23
@@ -203,7 +159,7 @@
     const/4 v3, 0x0
 
     .line 28
-    invoke-static/range {v1 .. v6}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v1 .. v6}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 29
     .line 30
@@ -269,64 +225,17 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
-.end method
-
-.method public final d(Ljava/lang/String;)V
-    .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-
-    .line 1
-    const-string v0, "<set-?>"
-
-    .line 2
-    .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    iput-object p1, p0, Lcom/example/wear_kit/WearKitPlugin;->a:Ljava/lang/String;
-
-    .line 7
-    .line 8
-    return-void
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
 .method public onAttachedToActivity(Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;)V
     .locals 1
-    .param p1    # Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "activityPluginBinding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -343,7 +252,7 @@
 
     .line 11
     .line 12
-    invoke-static {p1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -358,25 +267,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onAttachedToEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
     .locals 3
-    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "flutterPluginBinding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -424,7 +325,7 @@
 
     .line 27
     .line 28
-    invoke-static {p1, v0}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -453,7 +354,7 @@
 
     .line 42
     .line 43
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 44
     .line 45
@@ -509,8 +410,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onDetachedFromActivity()V
@@ -527,20 +426,13 @@
 
 .method public onDetachedFromEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
     .locals 1
-    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "binding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -586,7 +478,7 @@
 
     .line 26
     .line 27
-    invoke-static {p1}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -660,33 +552,17 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onMethodCall(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 9
-    .param p1    # Lio/flutter/plugin/common/MethodCall;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "call"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -695,7 +571,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -770,7 +646,7 @@
 
     .line 48
     .line 49
-    invoke-static {v1, v2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 50
     .line 51
@@ -834,7 +710,7 @@
 
     .line 81
     .line 82
-    invoke-static {v1, v2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 83
     .line 84
@@ -882,7 +758,7 @@
 
     .line 104
     .line 105
-    invoke-static {v0}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 106
     .line 107
@@ -968,7 +844,7 @@
     move-result-object p1
 
     .line 145
-    invoke-virtual {p0, p1}, Lcom/example/wear_kit/WearKitPlugin;->c(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/example/wear_kit/WearKitPlugin;->b(Ljava/lang/String;)V
 
     .line 146
     .line 147
@@ -985,7 +861,7 @@
 
     .line 152
     .line 153
-    invoke-static {v1, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 154
     .line 155
@@ -1005,7 +881,7 @@
 
     .line 162
     .line 163
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     .line 164
     .line 165
@@ -1013,7 +889,7 @@
     move-result-object p1
 
     .line 167
-    invoke-static {p1}, Lkotlinx/coroutines/h;->a(Lkotlin/coroutines/d;)Lfn/i0;
+    invoke-static {p1}, Lkotlinx/coroutines/m0;->a(Lkotlin/coroutines/i;)Lkotlinx/coroutines/l0;
 
     .line 168
     .line 169
@@ -1025,7 +901,7 @@
 
     .line 172
     .line 173
-    invoke-direct {v6, p2, v2}, Lcom/example/wear_kit/WearKitPlugin$onMethodCall$1;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;Lul/c;)V
+    invoke-direct {v6, p2, v2}, Lcom/example/wear_kit/WearKitPlugin$onMethodCall$1;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;Lkotlin/coroutines/e;)V
 
     .line 174
     .line 175
@@ -1042,7 +918,7 @@
     const/4 v5, 0x0
 
     .line 180
-    invoke-static/range {v3 .. v8}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v3 .. v8}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 181
     .line 182
@@ -1061,7 +937,7 @@
 
     .line 187
     .line 188
-    invoke-static {v1, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 189
     .line 190
@@ -1081,7 +957,7 @@
 
     .line 197
     .line 198
-    invoke-static {v0, v4}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 199
     .line 200
@@ -1126,7 +1002,7 @@
     .line 221
     .line 222
     .line 223
-    invoke-static {}, Lfn/t0;->c()Lfn/f0;
+    invoke-static {}, Lkotlinx/coroutines/v0;->b()Lkotlinx/coroutines/h0;
 
     .line 224
     .line 225
@@ -1134,7 +1010,7 @@
     move-result-object p1
 
     .line 227
-    invoke-static {p1}, Lkotlinx/coroutines/h;->a(Lkotlin/coroutines/d;)Lfn/i0;
+    invoke-static {p1}, Lkotlinx/coroutines/m0;->a(Lkotlin/coroutines/i;)Lkotlinx/coroutines/l0;
 
     .line 228
     .line 229
@@ -1146,7 +1022,7 @@
 
     .line 232
     .line 233
-    invoke-direct {v6, v0, v2}, Lcom/example/wear_kit/WearKitPlugin$onMethodCall$2;-><init>(Ljava/util/Map;Lul/c;)V
+    invoke-direct {v6, v0, v2}, Lcom/example/wear_kit/WearKitPlugin$onMethodCall$2;-><init>(Ljava/util/Map;Lkotlin/coroutines/e;)V
 
     .line 234
     .line 235
@@ -1163,7 +1039,7 @@
     const/4 v5, 0x0
 
     .line 240
-    invoke-static/range {v3 .. v8}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v3 .. v8}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 241
     .line 242
@@ -1180,7 +1056,7 @@
 
     .line 247
     .line 248
-    invoke-static {p1, v1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 249
     .line 250
@@ -1192,7 +1068,7 @@
 
     .line 253
     .line 254
-    invoke-static {v0, v4}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v4}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 255
     .line 256
@@ -1295,66 +1171,14 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public onReattachedToActivityForConfigChanges(Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;)V
     .locals 1
-    .param p1    # Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "binding"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method

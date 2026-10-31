@@ -13,32 +13,13 @@
     name = "a"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<ResourceType:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
-
 
 # virtual methods
-.method public abstract a(Ld6/j;)Ld6/j;
-    .param p1    # Ld6/j;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
+.method public abstract a(Lh0/b;Ljava/lang/Object;Lcom/bumptech/glide/load/data/d;Lcom/bumptech/glide/load/DataSource;Lh0/b;)V
+.end method
 
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ld6/j<",
-            "TResourceType;>;)",
-            "Ld6/j<",
-            "TResourceType;>;"
-        }
-    .end annotation
+.method public abstract b(Lh0/b;Ljava/lang/Exception;Lcom/bumptech/glide/load/data/d;Lcom/bumptech/glide/load/DataSource;)V
+.end method
+
+.method public abstract c()V
 .end method

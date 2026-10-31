@@ -80,7 +80,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getError()Lcom/baidu/mapapi/http/HttpClient$HttpStateError;
@@ -111,7 +110,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setData(Ljava/lang/String;)V
@@ -144,7 +142,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setError(Lcom/baidu/mapapi/http/HttpClient$HttpStateError;)V
@@ -177,5 +174,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -3,28 +3,10 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLongSet.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LongSet.kt\nandroidx/collection/LongSetKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,853:1\n1#2:854\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nLongSet.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LongSet.kt\nandroidx/collection/LongSetKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,853:1\n1#2:854\n*E\n"
-    }
-.end annotation
-
-
 # static fields
 .field private static final EmptyLongArray:[J
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final EmptyLongSet:Landroidx/collection/MutableLongSet;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -64,12 +46,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final emptyLongSet()Landroidx/collection/LongSet;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/collection/LongSetKt;->EmptyLongSet:Landroidx/collection/MutableLongSet;
@@ -94,12 +75,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final getEmptyLongArray()[J
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/collection/LongSetKt;->EmptyLongArray:[J
@@ -124,6 +104,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final hash(J)I
@@ -171,8 +152,6 @@
 
 .method public static final longSetOf()Landroidx/collection/LongSet;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/collection/LongSetKt;->EmptyLongSet:Landroidx/collection/MutableLongSet;
@@ -182,8 +161,6 @@
 
 .method public static final longSetOf(J)Landroidx/collection/LongSet;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     invoke-static {p0, p1}, Landroidx/collection/LongSetKt;->mutableLongSetOf(J)Landroidx/collection/MutableLongSet;
@@ -195,8 +172,6 @@
 
 .method public static final longSetOf(JJ)Landroidx/collection/LongSet;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 3
     invoke-static {p0, p1, p2, p3}, Landroidx/collection/LongSetKt;->mutableLongSetOf(JJ)Landroidx/collection/MutableLongSet;
@@ -208,8 +183,6 @@
 
 .method public static final longSetOf(JJJ)Landroidx/collection/LongSet;
     .locals 0
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     invoke-static/range {p0 .. p5}, Landroidx/collection/LongSetKt;->mutableLongSetOf(JJJ)Landroidx/collection/MutableLongSet;
@@ -221,16 +194,10 @@
 
 .method public static final varargs longSetOf([J)Landroidx/collection/LongSet;
     .locals 2
-    .param p0    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "elements"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     new-instance v0, Landroidx/collection/MutableLongSet;
@@ -246,8 +213,6 @@
 
 .method public static final mutableLongSetOf()Landroidx/collection/MutableLongSet;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/collection/MutableLongSet;
@@ -258,15 +223,13 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongSet;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongSet;-><init>(IILkotlin/jvm/internal/f;)V
 
     return-object v0
 .end method
 
 .method public static final mutableLongSetOf(J)Landroidx/collection/MutableLongSet;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroidx/collection/MutableLongSet;
@@ -283,8 +246,6 @@
 
 .method public static final mutableLongSetOf(JJ)Landroidx/collection/MutableLongSet;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     new-instance v0, Landroidx/collection/MutableLongSet;
@@ -304,8 +265,6 @@
 
 .method public static final mutableLongSetOf(JJJ)Landroidx/collection/MutableLongSet;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 7
     new-instance v0, Landroidx/collection/MutableLongSet;
@@ -328,16 +287,10 @@
 
 .method public static final varargs mutableLongSetOf([J)Landroidx/collection/MutableLongSet;
     .locals 2
-    .param p0    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "elements"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     new-instance v0, Landroidx/collection/MutableLongSet;

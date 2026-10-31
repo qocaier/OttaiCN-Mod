@@ -4,30 +4,16 @@
 
 
 # direct methods
-.method public static final applyCanvas(Landroid/graphics/Bitmap;Ljm/l;)Landroid/graphics/Bitmap;
+.method public static final applyCanvas(Landroid/graphics/Bitmap;Lq8/l;)Landroid/graphics/Bitmap;
     .locals 1
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Bitmap;",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/graphics/Bitmap;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -40,7 +26,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-interface {p1, v0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -89,14 +75,6 @@
 
 .method public static final contains(Landroid/graphics/Bitmap;Landroid/graphics/Point;)Z
     .locals 2
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Point;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
@@ -131,14 +109,6 @@
 
 .method public static final contains(Landroid/graphics/Bitmap;Landroid/graphics/PointF;)Z
     .locals 3
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/PointF;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 2
     iget v0, p1, Landroid/graphics/PointF;->x:F
@@ -187,12 +157,6 @@
 
 .method public static final createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
     .locals 0
-    .param p2    # Landroid/graphics/Bitmap$Config;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {p0, p1, p2}, Landroid/graphics/Bitmap;->createBitmap(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
@@ -204,23 +168,12 @@
 
 .method public static final createBitmap(IILandroid/graphics/Bitmap$Config;ZLandroid/graphics/ColorSpace;)Landroid/graphics/Bitmap;
     .locals 0
-    .param p2    # Landroid/graphics/Bitmap$Config;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroid/graphics/ColorSpace;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 2
-    invoke-static {p0, p1, p2, p3, p4}, Lu0/a;->a(IILandroid/graphics/Bitmap$Config;ZLandroid/graphics/ColorSpace;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/graphics/a;->a(IILandroid/graphics/Bitmap$Config;ZLandroid/graphics/ColorSpace;)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
@@ -269,17 +222,17 @@
     if-eqz p5, :cond_2
 
     .line 4
-    invoke-static {}, Lu0/b;->a()Landroid/graphics/ColorSpace$Named;
+    invoke-static {}, Landroidx/core/graphics/b;->a()Landroid/graphics/ColorSpace$Named;
 
     move-result-object p4
 
-    invoke-static {p4}, Lu0/c;->a(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
+    invoke-static {p4}, Landroidx/core/graphics/c;->a(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object p4
 
     .line 5
     :cond_2
-    invoke-static {p0, p1, p2, p3, p4}, Lu0/a;->a(IILandroid/graphics/Bitmap$Config;ZLandroid/graphics/ColorSpace;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/graphics/a;->a(IILandroid/graphics/Bitmap$Config;ZLandroid/graphics/ColorSpace;)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
@@ -288,10 +241,6 @@
 
 .method public static final get(Landroid/graphics/Bitmap;II)I
     .locals 0
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroid/graphics/Bitmap;->getPixel(II)I
@@ -411,16 +360,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final scale(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
     .locals 0
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Landroid/graphics/Bitmap;->createScaledBitmap(Landroid/graphics/Bitmap;IIZ)Landroid/graphics/Bitmap;
@@ -657,6 +603,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic scale$default(Landroid/graphics/Bitmap;IIZILjava/lang/Object;)Landroid/graphics/Bitmap;
@@ -1686,10 +1638,6 @@
 
 .method public static final set(Landroid/graphics/Bitmap;III)V
     .locals 0
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p3    # I
         .annotation build Landroidx/annotation/ColorInt;
         .end annotation
@@ -1928,4 +1876,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

@@ -57,6 +57,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getInstance()Landroidx/preference/ListPreference$SimpleSummaryProvider;
@@ -98,6 +99,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 

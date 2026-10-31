@@ -30,7 +30,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -41,8 +41,6 @@
 
 .method public static synthetic getInstance$annotations()V
     .locals 0
-    .annotation runtime Lim/o;
-    .end annotation
 
     return-void
 .end method
@@ -55,9 +53,6 @@
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -96,7 +91,7 @@
     move-result-object v0
 
     .line 19
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 20
     .line 21
@@ -164,4 +159,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

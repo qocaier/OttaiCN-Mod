@@ -99,6 +99,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEmojiMatch(Ljava/lang/CharSequence;I)I
@@ -259,6 +260,7 @@
     .line 19
     .line 20
     return-void
+    .line 21
 .end method
 
 .method public onMetadataLoadSuccess(Landroidx/emoji2/text/MetadataRepo;)V
@@ -392,6 +394,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public process(Ljava/lang/CharSequence;IIIZ)Ljava/lang/CharSequence;

@@ -1,4 +1,4 @@
-.class public final Lkotlinx/coroutines/channels/ChannelIterator$DefaultImpls;
+.class public abstract Lkotlinx/coroutines/channels/ChannelIterator$DefaultImpls;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -15,16 +15,8 @@
 
 
 # direct methods
-.method public static synthetic a(Lkotlinx/coroutines/channels/ChannelIterator;Lul/c;)Ljava/lang/Object;
+.method public static synthetic a(Lkotlinx/coroutines/channels/ChannelIterator;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 4
-    .annotation build Lim/j;
-        name = "next"
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->HIDDEN:Lkotlin/DeprecationLevel;
-        message = "Since 1.3.0, binary compatibility with versions <= 1.2.x"
-    .end annotation
 
     .line 1
     instance-of v0, p1, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;
@@ -73,7 +65,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p1}, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;-><init>(Lul/c;)V
+    invoke-direct {v0, p1}, Lkotlinx/coroutines/channels/ChannelIterator$next0$1;-><init>(Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -83,7 +75,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -114,7 +106,7 @@
 
     .line 41
     .line 42
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 43
     .line 44
@@ -140,7 +132,7 @@
 
     .line 54
     :cond_2
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 55
     .line 56
@@ -153,7 +145,7 @@
 
     .line 60
     .line 61
-    invoke-interface {p0, v0}, Lkotlinx/coroutines/channels/ChannelIterator;->b(Lul/c;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lkotlinx/coroutines/channels/ChannelIterator;->b(Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 62
     .line 63
@@ -232,4 +224,20 @@
     .line 106
     .line 107
     .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method

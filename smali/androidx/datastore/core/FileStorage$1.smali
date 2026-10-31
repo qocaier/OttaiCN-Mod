@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/FileStorage;-><init>(Landroidx/datastore/core/Serializer;Ljm/l;Ljm/a;ILkm/v;)V
+    value = Landroidx/datastore/core/FileStorage;-><init>(Landroidx/datastore/core/Serializer;Lq8/l;Lq8/a;ILkotlin/jvm/internal/f;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "Ljava/io/File;",
-        "Landroidx/datastore/core/InterProcessCoordinator;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -58,16 +55,10 @@
 # virtual methods
 .method public final invoke(Ljava/io/File;)Landroidx/datastore/core/InterProcessCoordinator;
     .locals 1
-    .param p1    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "it"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-static {p1}, Landroidx/datastore/core/InterProcessCoordinator_jvmKt;->createSingleProcessCoordinator(Ljava/io/File;)Landroidx/datastore/core/InterProcessCoordinator;

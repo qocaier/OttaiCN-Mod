@@ -53,6 +53,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private a(Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;)I
@@ -168,9 +170,9 @@
     move-result-wide v2
 
     .line 52
-    new-instance p1, Lvg/k0;
+    new-instance p1, Lcom/qiyukf/ef0;
 
-    invoke-direct {p1, v0, v1, v2, v3}, Lvg/k0;-><init>(Ljava/lang/String;Lcom/qiyukf/nimlib/sdk/msg/constant/SessionTypeEnum;J)V
+    invoke-direct {p1, v0, v1, v2, v3}, Lcom/qiyukf/ef0;-><init>(Ljava/lang/String;Lcom/qiyukf/nimlib/sdk/msg/constant/SessionTypeEnum;J)V
 
     invoke-static {p0, p1}, Lcom/qiyukf/p4;->a(Ljava/util/Collection;Lcom/qiyukf/p4$a;)Z
 
@@ -524,9 +526,9 @@
     :cond_2
     iget-object v0, p0, Lcom/qiyukf/o80;->b:Ljava/util/HashSet;
 
-    new-instance v1, Lvg/l0;
+    new-instance v1, Lcom/qiyukf/ff0;
 
-    invoke-direct {v1}, Lvg/l0;-><init>()V
+    invoke-direct {v1}, Lcom/qiyukf/ff0;-><init>()V
 
     const/4 v2, 0x1
 
@@ -539,9 +541,9 @@
     move-result-object v0
 
     .line 34
-    new-instance v1, Lvg/m0;
+    new-instance v1, Lcom/qiyukf/gf0;
 
-    invoke-direct {v1, p2}, Lvg/m0;-><init>(Ljava/util/List;)V
+    invoke-direct {v1, p2}, Lcom/qiyukf/gf0;-><init>(Ljava/util/List;)V
 
     invoke-static {v0, v1}, Lcom/qiyukf/p4;->c(Ljava/util/Collection;Lcom/qiyukf/p4$a;)Ljava/util/List;
 

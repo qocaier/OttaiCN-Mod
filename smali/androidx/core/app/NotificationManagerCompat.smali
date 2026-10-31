@@ -211,6 +211,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(Landroid/app/NotificationManager;Landroid/content/Context;)V
@@ -470,6 +472,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private pushSideChannelQueue(Landroidx/core/app/NotificationManagerCompat$Task;)V
@@ -597,6 +600,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static useSideChannelForNotification(Landroid/app/Notification;)Z
@@ -683,6 +687,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public canPostPromotedNotifications()Z
@@ -726,6 +731,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public canUseFullScreenIntent()Z
@@ -855,6 +861,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public cancel(I)V
@@ -907,6 +915,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public createNotificationChannel(Landroid/app/NotificationChannel;)V
@@ -1164,6 +1173,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public createNotificationChannels(Ljava/util/List;)V
@@ -1357,6 +1367,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public deleteNotificationChannel(Ljava/lang/String;)V
@@ -1508,7 +1519,7 @@
     move-result-object v1
 
     .line 27
-    invoke-static {v1}, Lp0/l;->a(Ljava/lang/Object;)Landroid/app/NotificationChannel;
+    invoke-static {v1}, Landroidx/core/app/n;->a(Ljava/lang/Object;)Landroid/app/NotificationChannel;
 
     .line 28
     .line 29
@@ -1607,6 +1618,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getActiveNotifications()Ljava/util/List;
@@ -1647,6 +1659,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCurrentInterruptionFilter()I
@@ -1679,6 +1692,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImportance()I
@@ -1711,6 +1725,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNotificationChannel(Ljava/lang/String;)Landroid/app/NotificationChannel;
@@ -1906,7 +1921,7 @@
     move-result-object v1
 
     .line 37
-    invoke-static {v1}, Lp0/q;->a(Ljava/lang/Object;)Landroid/app/NotificationChannelGroup;
+    invoke-static {v1}, Landroidx/core/app/s;->a(Ljava/lang/Object;)Landroid/app/NotificationChannelGroup;
 
     .line 38
     .line 39
@@ -1965,6 +1980,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getNotificationChannelGroupCompat(Ljava/lang/String;)Landroidx/core/app/NotificationChannelGroupCompat;
@@ -2091,6 +2107,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getNotificationChannelGroups()Ljava/util/List;
@@ -2142,6 +2159,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNotificationChannelGroupsCompat()Ljava/util/List;
@@ -2259,7 +2277,7 @@
     move-result-object v4
 
     .line 51
-    invoke-static {v4}, Lp0/q;->a(Ljava/lang/Object;)Landroid/app/NotificationChannelGroup;
+    invoke-static {v4}, Landroidx/core/app/s;->a(Ljava/lang/Object;)Landroid/app/NotificationChannelGroup;
 
     .line 52
     .line 53
@@ -2324,6 +2342,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getNotificationChannels()Ljava/util/List;
@@ -2375,6 +2395,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNotificationChannelsCompat()Ljava/util/List;
@@ -2467,7 +2488,7 @@
     move-result-object v2
 
     .line 40
-    invoke-static {v2}, Lp0/l;->a(Ljava/lang/Object;)Landroid/app/NotificationChannel;
+    invoke-static {v2}, Landroidx/core/app/n;->a(Ljava/lang/Object;)Landroid/app/NotificationChannel;
 
     .line 41
     .line 42
@@ -2530,6 +2551,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public notify(ILandroid/app/Notification;)V

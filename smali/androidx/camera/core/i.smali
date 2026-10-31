@@ -7,21 +7,21 @@
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/core/ImageCapture$ImageCaptureRequest;
+.field public final synthetic a:Landroidx/camera/core/SafeCloseImageReaderProxy;
 
-.field public final synthetic b:Landroidx/camera/core/ImageProxy;
+.field public final synthetic b:Landroidx/camera/core/SafeCloseImageReaderProxy;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/core/ImageCapture$ImageCaptureRequest;Landroidx/camera/core/ImageProxy;)V
+.method public synthetic constructor <init>(Landroidx/camera/core/SafeCloseImageReaderProxy;Landroidx/camera/core/SafeCloseImageReaderProxy;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/core/i;->a:Landroidx/camera/core/ImageCapture$ImageCaptureRequest;
+    iput-object p1, p0, Landroidx/camera/core/i;->a:Landroidx/camera/core/SafeCloseImageReaderProxy;
 
-    iput-object p2, p0, Landroidx/camera/core/i;->b:Landroidx/camera/core/ImageProxy;
+    iput-object p2, p0, Landroidx/camera/core/i;->b:Landroidx/camera/core/SafeCloseImageReaderProxy;
 
     return-void
 .end method
@@ -32,11 +32,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/i;->a:Landroidx/camera/core/ImageCapture$ImageCaptureRequest;
+    iget-object v0, p0, Landroidx/camera/core/i;->a:Landroidx/camera/core/SafeCloseImageReaderProxy;
 
-    iget-object v1, p0, Landroidx/camera/core/i;->b:Landroidx/camera/core/ImageProxy;
+    iget-object v1, p0, Landroidx/camera/core/i;->b:Landroidx/camera/core/SafeCloseImageReaderProxy;
 
-    invoke-static {v0, v1}, Landroidx/camera/core/ImageCapture$ImageCaptureRequest;->a(Landroidx/camera/core/ImageCapture$ImageCaptureRequest;Landroidx/camera/core/ImageProxy;)V
+    invoke-static {v0, v1}, Landroidx/camera/core/ImageAnalysis;->a(Landroidx/camera/core/SafeCloseImageReaderProxy;Landroidx/camera/core/SafeCloseImageReaderProxy;)V
 
     return-void
 .end method

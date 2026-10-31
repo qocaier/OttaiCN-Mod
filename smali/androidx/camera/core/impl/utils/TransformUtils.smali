@@ -48,6 +48,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -76,6 +77,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getExifTransform(III)Landroid/graphics/Matrix;
@@ -293,6 +295,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static getNormalizedToBuffer(Landroid/graphics/Rect;)Landroid/graphics/Matrix;
@@ -714,6 +719,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static isAspectRatioMatchingWithRoundingError(Landroid/util/Size;Landroid/util/Size;)Z
@@ -1142,6 +1148,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static min(FFFF)F
@@ -1390,6 +1402,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static rectToSize(Landroid/graphics/Rect;)Landroid/util/Size;
@@ -1557,6 +1575,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static rectToVertices(Landroid/graphics/RectF;)[F
@@ -1691,6 +1710,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static reverseSize(Landroid/util/Size;)Landroid/util/Size;
@@ -2089,6 +2109,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static rotateSize(Landroid/util/Size;I)Landroid/util/Size;
@@ -2448,6 +2471,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static updateSensorToBufferTransform(Landroid/graphics/Matrix;Landroid/graphics/Rect;)Landroid/graphics/Matrix;
@@ -2688,6 +2712,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static within360(I)I

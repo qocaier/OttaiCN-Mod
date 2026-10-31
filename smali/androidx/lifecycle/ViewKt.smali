@@ -6,16 +6,6 @@
 # direct methods
 .method public static final synthetic findViewTreeLifecycleOwner(Landroid/view/View;)Landroidx/lifecycle/LifecycleOwner;
     .locals 0
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->HIDDEN:Lkotlin/DeprecationLevel;
-        message = "Replaced by View.findViewTreeLifecycleOwner() from lifecycle module"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "findViewTreeLifecycleOwner()"
-            imports = {
-                "androidx.lifecycle.findViewTreeLifecycleOwner"
-            }
-        .end subannotation
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/lifecycle/ViewTreeLifecycleOwner;->get(Landroid/view/View;)Landroidx/lifecycle/LifecycleOwner;

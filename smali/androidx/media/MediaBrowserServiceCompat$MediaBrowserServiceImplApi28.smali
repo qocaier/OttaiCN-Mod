@@ -92,7 +92,7 @@
 
     .line 14
     .line 15
-    invoke-static {v1}, Lq1/c;->a(Landroid/service/media/MediaBrowserService;)Landroid/media/session/MediaSessionManager$RemoteUserInfo;
+    invoke-static {v1}, Landroidx/media/c;->a(Landroid/service/media/MediaBrowserService;)Landroid/media/session/MediaSessionManager$RemoteUserInfo;
 
     .line 16
     .line 17
@@ -182,4 +182,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

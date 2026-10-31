@@ -97,7 +97,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -289,7 +288,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAllPoi()Ljava/util/List;
@@ -328,7 +326,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCurrentPageCapacity()I
@@ -359,7 +356,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCurrentPageNum()I
@@ -390,7 +386,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getQueryType()Ljava/lang/String;
@@ -421,7 +416,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getResultType()Ljava/lang/String;
@@ -452,7 +446,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSuggestCityList()Ljava/util/List;
@@ -494,7 +487,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTotalPageNum()I
@@ -525,7 +517,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTotalPoiNum()I
@@ -556,7 +547,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isHasAddrInfo()Z
@@ -587,7 +577,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAddrInfo(Ljava/util/List;)V
@@ -628,7 +617,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCurrentPageCapacity(I)V
@@ -661,7 +649,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCurrentPageNum(I)V
@@ -694,7 +681,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHasAddrInfo(Z)V
@@ -727,7 +713,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPoiInfo(Ljava/util/List;)V
@@ -768,7 +753,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setQueryType(Ljava/lang/String;)V
@@ -801,7 +785,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setResultType(Ljava/lang/String;)V
@@ -834,7 +817,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSuggestCityList(Ljava/util/List;)V
@@ -878,7 +860,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTotalPageNum(I)V
@@ -911,7 +892,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTotalPoiNum(I)V
@@ -944,7 +924,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -1047,9 +1026,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

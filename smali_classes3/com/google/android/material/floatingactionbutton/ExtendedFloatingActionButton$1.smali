@@ -54,7 +54,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -91,7 +90,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -132,7 +130,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPaddingEnd()I
@@ -167,7 +164,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPaddingStart()I
@@ -202,7 +198,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWidth()I
@@ -237,5 +232,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

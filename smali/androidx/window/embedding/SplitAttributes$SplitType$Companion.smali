@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -48,9 +48,6 @@
         value = {
             "Range"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -108,11 +105,6 @@
             toInclusive = false
         .end annotation
     .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/window/core/SpecificationComputer;->Companion:Landroidx/window/core/SpecificationComputer$Companion;
@@ -139,7 +131,7 @@
 
     .line 12
     .line 13
-    invoke-static {v2, v3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -178,7 +170,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {v0, p1, v1}, Landroidx/window/core/SpecificationComputer;->require(Ljava/lang/String;Ljm/l;)Landroidx/window/core/SpecificationComputer;
+    invoke-virtual {v0, p1, v1}, Landroidx/window/core/SpecificationComputer;->require(Ljava/lang/String;Lq8/l;)Landroidx/window/core/SpecificationComputer;
 
     .line 33
     .line 34
@@ -194,7 +186,7 @@
     move-result-object p1
 
     .line 40
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 41
     .line 42
@@ -259,4 +251,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

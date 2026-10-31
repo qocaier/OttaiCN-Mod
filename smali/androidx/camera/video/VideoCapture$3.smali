@@ -31,11 +31,11 @@
 
 .field final synthetic val$isStreamActive:Z
 
-.field final synthetic val$surfaceUpdateFuture:Lub/u0;
+.field final synthetic val$surfaceUpdateFuture:Lcom/google/common/util/concurrent/t;
 
 
 # direct methods
-.method public constructor <init>(Landroidx/camera/video/VideoCapture;Lub/u0;Z)V
+.method public constructor <init>(Landroidx/camera/video/VideoCapture;Lcom/google/common/util/concurrent/t;Z)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -48,7 +48,7 @@
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/camera/video/VideoCapture$3;->val$surfaceUpdateFuture:Lub/u0;
+    iput-object p2, p0, Landroidx/camera/video/VideoCapture$3;->val$surfaceUpdateFuture:Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -165,6 +165,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -238,11 +241,11 @@
     .end param
 
     .line 2
-    iget-object p1, p0, Landroidx/camera/video/VideoCapture$3;->val$surfaceUpdateFuture:Lub/u0;
+    iget-object p1, p0, Landroidx/camera/video/VideoCapture$3;->val$surfaceUpdateFuture:Lcom/google/common/util/concurrent/t;
 
     iget-object v0, p0, Landroidx/camera/video/VideoCapture$3;->this$0:Landroidx/camera/video/VideoCapture;
 
-    iget-object v1, v0, Landroidx/camera/video/VideoCapture;->mSurfaceUpdateFuture:Lub/u0;
+    iget-object v1, v0, Landroidx/camera/video/VideoCapture;->mSurfaceUpdateFuture:Lcom/google/common/util/concurrent/t;
 
     if-ne p1, v1, :cond_1
 

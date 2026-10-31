@@ -3,52 +3,56 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroidx/camera/core/impl/SessionConfig$ErrorListener;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/core/ImageSaver;
+.field public final synthetic a:Landroidx/camera/core/ImageAnalysis;
 
-.field public final synthetic b:Landroidx/camera/core/ImageSaver$SaveError;
+.field public final synthetic b:Ljava/lang/String;
 
-.field public final synthetic c:Ljava/lang/String;
+.field public final synthetic c:Landroidx/camera/core/impl/ImageAnalysisConfig;
 
-.field public final synthetic d:Ljava/lang/Throwable;
+.field public final synthetic d:Landroidx/camera/core/impl/StreamSpec;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/core/ImageSaver;Landroidx/camera/core/ImageSaver$SaveError;Ljava/lang/String;Ljava/lang/Throwable;)V
+.method public synthetic constructor <init>(Landroidx/camera/core/ImageAnalysis;Ljava/lang/String;Landroidx/camera/core/impl/ImageAnalysisConfig;Landroidx/camera/core/impl/StreamSpec;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/core/j;->a:Landroidx/camera/core/ImageSaver;
+    iput-object p1, p0, Landroidx/camera/core/j;->a:Landroidx/camera/core/ImageAnalysis;
 
-    iput-object p2, p0, Landroidx/camera/core/j;->b:Landroidx/camera/core/ImageSaver$SaveError;
+    iput-object p2, p0, Landroidx/camera/core/j;->b:Ljava/lang/String;
 
-    iput-object p3, p0, Landroidx/camera/core/j;->c:Ljava/lang/String;
+    iput-object p3, p0, Landroidx/camera/core/j;->c:Landroidx/camera/core/impl/ImageAnalysisConfig;
 
-    iput-object p4, p0, Landroidx/camera/core/j;->d:Ljava/lang/Throwable;
+    iput-object p4, p0, Landroidx/camera/core/j;->d:Landroidx/camera/core/impl/StreamSpec;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 4
+.method public final onError(Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/SessionConfig$SessionError;)V
+    .locals 6
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/j;->a:Landroidx/camera/core/ImageSaver;
+    iget-object v0, p0, Landroidx/camera/core/j;->a:Landroidx/camera/core/ImageAnalysis;
 
-    iget-object v1, p0, Landroidx/camera/core/j;->b:Landroidx/camera/core/ImageSaver$SaveError;
+    iget-object v1, p0, Landroidx/camera/core/j;->b:Ljava/lang/String;
 
-    iget-object v2, p0, Landroidx/camera/core/j;->c:Ljava/lang/String;
+    iget-object v2, p0, Landroidx/camera/core/j;->c:Landroidx/camera/core/impl/ImageAnalysisConfig;
 
-    iget-object v3, p0, Landroidx/camera/core/j;->d:Ljava/lang/Throwable;
+    iget-object v3, p0, Landroidx/camera/core/j;->d:Landroidx/camera/core/impl/StreamSpec;
 
-    invoke-static {v0, v1, v2, v3}, Landroidx/camera/core/ImageSaver;->b(Landroidx/camera/core/ImageSaver;Landroidx/camera/core/ImageSaver$SaveError;Ljava/lang/String;Ljava/lang/Throwable;)V
+    move-object v4, p1
+
+    move-object v5, p2
+
+    invoke-static/range {v0 .. v5}, Landroidx/camera/core/ImageAnalysis;->c(Landroidx/camera/core/ImageAnalysis;Ljava/lang/String;Landroidx/camera/core/impl/ImageAnalysisConfig;Landroidx/camera/core/impl/StreamSpec;Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/SessionConfig$SessionError;)V
 
     return-void
 .end method

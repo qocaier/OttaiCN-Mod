@@ -50,6 +50,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -80,6 +82,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getJsonObject()Ljava/lang/String;
@@ -108,6 +112,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getParcelable()Landroid/os/Parcelable;
@@ -136,6 +142,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setJsonHeader(Ljava/lang/String;)V
@@ -169,6 +177,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setJsonObject(Ljava/lang/String;)V
@@ -202,6 +212,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setParcelable(Landroid/os/Parcelable;)V
@@ -235,4 +247,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

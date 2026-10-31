@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static createPersistentInputSurface()Landroid/view/Surface;
@@ -80,6 +81,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static setInputSurface(Landroid/media/MediaCodec;Landroid/view/Surface;)V

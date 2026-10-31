@@ -76,6 +76,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -106,6 +108,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public loadAlbums()V
@@ -140,6 +144,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onCreate(Landroidx/fragment/app/FragmentActivity;Lcom/qiyukf/unicorn/mediaselect/internal/model/AlbumCollection$AlbumCallbacks;)V
@@ -214,6 +220,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public onCreateLoader(ILandroid/os/Bundle;)Landroidx/loader/content/Loader;
@@ -307,6 +323,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public onDestroy()V
@@ -346,6 +372,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onLoadFinished(Landroidx/loader/content/Loader;Landroid/database/Cursor;)V
@@ -468,6 +496,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Bundle;)V
@@ -512,6 +542,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -549,6 +581,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public restartLoader()V
@@ -590,6 +624,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setStateCurrentSelection(I)V
@@ -623,4 +659,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

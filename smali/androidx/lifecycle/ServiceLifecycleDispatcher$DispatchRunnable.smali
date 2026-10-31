@@ -19,14 +19,8 @@
 
 # instance fields
 .field private final event:Landroidx/lifecycle/Lifecycle$Event;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final registry:Landroidx/lifecycle/LifecycleRegistry;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private wasExecuted:Z
 
@@ -34,21 +28,13 @@
 # direct methods
 .method public constructor <init>(Landroidx/lifecycle/LifecycleRegistry;Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 1
-    .param p1    # Landroidx/lifecycle/LifecycleRegistry;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/lifecycle/Lifecycle$Event;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "registry"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -57,7 +43,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -112,8 +98,6 @@
 # virtual methods
 .method public final getEvent()Landroidx/lifecycle/Lifecycle$Event;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/ServiceLifecycleDispatcher$DispatchRunnable;->event:Landroidx/lifecycle/Lifecycle$Event;
@@ -138,6 +122,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public run()V
@@ -179,4 +164,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

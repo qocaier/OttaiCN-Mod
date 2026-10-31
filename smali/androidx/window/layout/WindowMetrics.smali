@@ -5,27 +5,13 @@
 
 # instance fields
 .field private final _bounds:Landroidx/window/core/Bounds;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final _windowInsetsCompat:Landroidx/core/view/WindowInsetsCompat;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroid/graphics/Rect;Landroidx/core/view/WindowInsetsCompat;)V
     .locals 1
-    .param p1    # Landroid/graphics/Rect;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/core/view/WindowInsetsCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
@@ -34,11 +20,11 @@
 
     const-string v0, "bounds"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "insets"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     new-instance v0, Landroidx/window/core/Bounds;
@@ -50,7 +36,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/graphics/Rect;Landroidx/core/view/WindowInsetsCompat;ILkm/v;)V
+.method public synthetic constructor <init>(Landroid/graphics/Rect;Landroidx/core/view/WindowInsetsCompat;ILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p3, p3, 0x2
@@ -68,7 +54,7 @@
 
     const-string p3, "Builder().build()"
 
-    invoke-static {p2, p3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     :cond_0
@@ -79,22 +65,14 @@
 
 .method public constructor <init>(Landroidx/window/core/Bounds;Landroidx/core/view/WindowInsetsCompat;)V
     .locals 1
-    .param p1    # Landroidx/window/core/Bounds;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/core/view/WindowInsetsCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "_bounds"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "_windowInsetsCompat"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -112,10 +90,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     const/4 v0, 0x1
@@ -153,7 +127,7 @@
 
     .line 14
     .line 15
-    invoke-static {v2, v1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -176,7 +150,7 @@
 
     .line 24
     .line 25
-    invoke-static {p1, v1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -193,7 +167,7 @@
 
     .line 33
     .line 34
-    invoke-static {v1, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 35
     .line 36
@@ -217,7 +191,7 @@
 
     .line 44
     .line 45
-    invoke-static {v1, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 46
     .line 47
@@ -260,12 +234,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getBounds()Landroid/graphics/Rect;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/layout/WindowMetrics;->_bounds:Landroidx/window/core/Bounds;
@@ -294,6 +267,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getWindowInsets()Landroidx/core/view/WindowInsetsCompat;
@@ -303,9 +277,6 @@
     .end annotation
 
     .annotation build Landroidx/window/core/ExperimentalWindowApi;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -331,6 +302,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -373,12 +345,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -493,4 +464,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

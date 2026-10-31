@@ -5,31 +5,17 @@
 
 # instance fields
 .field private final activityComponentInfo:Landroidx/window/core/ActivityComponentInfo;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final intentAction:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroid/content/ComponentName;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Landroid/content/ComponentName;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     const-string v0, "componentName"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     new-instance v0, Landroidx/window/core/ActivityComponentInfo;
@@ -44,18 +30,10 @@
 
 .method public constructor <init>(Landroidx/window/core/ActivityComponentInfo;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Landroidx/window/core/ActivityComponentInfo;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     const-string v0, "activityComponentInfo"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -86,10 +64,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     const/4 v0, 0x1
@@ -130,7 +104,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -154,7 +128,7 @@
 
     .line 27
     .line 28
-    invoke-static {v1, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 29
     .line 30
@@ -214,12 +188,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getActivityComponentInfo$window_release()Landroidx/window/core/ActivityComponentInfo;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/ActivityFilter;->activityComponentInfo:Landroidx/window/core/ActivityComponentInfo;
@@ -244,12 +217,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getComponentName()Landroid/content/ComponentName;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/content/ComponentName;
@@ -288,12 +260,11 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getIntentAction()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/embedding/ActivityFilter;->intentAction:Ljava/lang/String;
@@ -318,6 +289,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -368,21 +340,18 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public final matchesActivity(Landroid/app/Activity;)Z
     .locals 2
-    .param p1    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "activity"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -443,7 +412,7 @@
 
     .line 32
     :goto_0
-    invoke-static {v0, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 33
     .line 34
@@ -504,21 +473,18 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final matchesIntent(Landroid/content/Intent;)Z
     .locals 2
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "intent"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -566,7 +532,7 @@
     move-result-object p1
 
     .line 26
-    invoke-static {v0, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 27
     .line 28
@@ -634,12 +600,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -754,4 +719,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

@@ -1252,6 +1252,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onAnimationPause(Landroid/animation/Animator;)V
@@ -1364,6 +1365,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onAnimationResume(Landroid/animation/Animator;)V

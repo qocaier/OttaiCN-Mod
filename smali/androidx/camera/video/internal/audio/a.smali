@@ -3,28 +3,40 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/camera/video/internal/audio/AudioStreamFactory;
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/video/internal/audio/AudioSource;
+
+.field public final synthetic b:Z
 
 
 # direct methods
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Landroidx/camera/video/internal/audio/AudioSource;Z)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/camera/video/internal/audio/a;->a:Landroidx/camera/video/internal/audio/AudioSource;
+
+    iput-boolean p2, p0, Landroidx/camera/video/internal/audio/a;->b:Z
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final create(Landroidx/camera/video/internal/audio/AudioSettings;Landroid/content/Context;)Landroidx/camera/video/internal/audio/AudioStream;
-    .locals 1
+.method public final run()V
+    .locals 2
 
     .line 1
-    new-instance v0, Landroidx/camera/video/internal/audio/AudioStreamImpl;
+    iget-object v0, p0, Landroidx/camera/video/internal/audio/a;->a:Landroidx/camera/video/internal/audio/AudioSource;
 
-    invoke-direct {v0, p1, p2}, Landroidx/camera/video/internal/audio/AudioStreamImpl;-><init>(Landroidx/camera/video/internal/audio/AudioSettings;Landroid/content/Context;)V
+    iget-boolean v1, p0, Landroidx/camera/video/internal/audio/a;->b:Z
 
-    return-object v0
+    invoke-static {v0, v1}, Landroidx/camera/video/internal/audio/AudioSource;->e(Landroidx/camera/video/internal/audio/AudioSource;Z)V
+
+    return-void
 .end method

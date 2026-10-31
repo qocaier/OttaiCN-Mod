@@ -80,6 +80,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -110,6 +112,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCurrentSessionId()J
@@ -138,6 +142,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getParentCorpId()J
@@ -166,6 +172,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getParentSessionId()J
@@ -194,6 +202,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSubCorpId()J
@@ -222,6 +232,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSubCorpName()Ljava/lang/String;
@@ -250,6 +262,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTime()J
@@ -278,6 +292,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setBizCode(Ljava/lang/String;)V
@@ -311,6 +327,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCurrentSessionId(J)V
@@ -344,6 +362,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setParentCorpId(J)V
@@ -377,6 +397,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setParentSessionId(J)V
@@ -410,6 +432,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSubCorpId(J)V
@@ -443,6 +467,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSubCorpName(Ljava/lang/String;)V
@@ -476,6 +502,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTime(J)V
@@ -509,4 +537,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -65,6 +65,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static isMailTo(Landroid/net/Uri;)Z
@@ -388,6 +389,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBody()Ljava/lang/String;
@@ -424,6 +426,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCc()Ljava/lang/String;
@@ -460,6 +463,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeaders()Ljava/util/Map;
@@ -497,6 +501,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSubject()Ljava/lang/String;
@@ -533,6 +538,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTo()Ljava/lang/String;
@@ -569,6 +575,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -731,4 +738,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

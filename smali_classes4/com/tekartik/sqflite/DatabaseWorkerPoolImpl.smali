@@ -217,11 +217,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static synthetic a(Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;Lcom/tekartik/sqflite/DatabaseWorker;)V
@@ -398,6 +393,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private synthetic lambda$start$0(Lcom/tekartik/sqflite/DatabaseWorker;)V
@@ -431,6 +428,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private declared-synchronized onWorkerIdle(Lcom/tekartik/sqflite/DatabaseWorker;)V
@@ -603,6 +602,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private declared-synchronized tryPostingTaskToWorker(Lcom/tekartik/sqflite/DatabaseWorker;)V
@@ -748,6 +749,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -814,6 +817,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public declared-synchronized post(Lcom/tekartik/sqflite/DatabaseTask;)V
@@ -956,6 +969,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public declared-synchronized quit()V
@@ -1114,6 +1129,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public declared-synchronized start()V
@@ -1179,11 +1195,11 @@
     move-result-object v1
 
     .line 30
-    new-instance v2, Lcom/tekartik/sqflite/i;
+    new-instance v2, Lcom/tekartik/sqflite/k;
 
     .line 31
     .line 32
-    invoke-direct {v2, p0, v1}, Lcom/tekartik/sqflite/i;-><init>(Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;Lcom/tekartik/sqflite/DatabaseWorker;)V
+    invoke-direct {v2, p0, v1}, Lcom/tekartik/sqflite/k;-><init>(Lcom/tekartik/sqflite/DatabaseWorkerPoolImpl;Lcom/tekartik/sqflite/DatabaseWorker;)V
 
     .line 33
     .line 34
@@ -1266,4 +1282,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

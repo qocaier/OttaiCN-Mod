@@ -66,6 +66,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -87,18 +88,6 @@
 
 .method private constructor <init>([ZIZ)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "other",
-            "size",
-            "isMutable"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0, p3}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;-><init>(Z)V
@@ -114,16 +103,6 @@
 
 .method private addBoolean(IZ)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
 
     .line 8
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
@@ -242,18 +221,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private ensureIndexInRange(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     if-ltz p1, :cond_0
@@ -302,14 +274,6 @@
 
 .method private makeOutOfBoundsExceptionMessage(I)Ljava/lang/String;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -412,22 +376,13 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
 # virtual methods
 .method public add(ILjava/lang/Boolean;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
 
     .line 4
     invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
@@ -441,16 +396,6 @@
 
 .method public bridge synthetic add(ILjava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
 
     .line 1
     check-cast p2, Ljava/lang/Boolean;
@@ -462,14 +407,6 @@
 
 .method public add(Ljava/lang/Boolean;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "element"
-        }
-    .end annotation
 
     .line 3
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
@@ -485,14 +422,6 @@
 
 .method public bridge synthetic add(Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "element"
-        }
-    .end annotation
 
     .line 2
     check-cast p1, Ljava/lang/Boolean;
@@ -506,15 +435,6 @@
 
 .method public addAll(Ljava/util/Collection;)Z
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "collection"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -680,18 +600,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public addBoolean(Z)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "element"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
@@ -740,14 +653,6 @@
 
 .method public contains(Ljava/lang/Object;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "element"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;->indexOf(Ljava/lang/Object;)I
@@ -794,14 +699,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -938,18 +835,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public get(I)Ljava/lang/Boolean;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;->getBoolean(I)Z
@@ -965,14 +855,6 @@
 
 .method public bridge synthetic get(I)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;->get(I)Ljava/lang/Boolean;
@@ -984,14 +866,6 @@
 
 .method public getBoolean(I)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;->ensureIndexInRange(I)V
@@ -1078,81 +952,10 @@
     .line 21
     :cond_0
     return v0
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public indexOf(Ljava/lang/Object;)I
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "element"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Ljava/lang/Boolean;
@@ -1271,18 +1074,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$BooleanList;
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "capacity"
-        }
-    .end annotation
 
     .line 2
     iget v0, p0, Landroidx/datastore/preferences/protobuf/BooleanArrayList;->size:I
@@ -1317,14 +1113,6 @@
 
 .method public bridge synthetic mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "capacity"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;->mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$BooleanList;
@@ -1336,14 +1124,6 @@
 
 .method public remove(I)Ljava/lang/Boolean;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 2
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
@@ -1397,14 +1177,6 @@
 
 .method public bridge synthetic remove(I)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;->remove(I)Ljava/lang/Boolean;
@@ -1416,16 +1188,6 @@
 
 .method public removeRange(II)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "fromIndex",
-            "toIndex"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
@@ -1515,16 +1277,6 @@
 
 .method public set(ILjava/lang/Boolean;)Ljava/lang/Boolean;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
 
     .line 2
     invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
@@ -1544,16 +1296,6 @@
 
 .method public bridge synthetic set(ILjava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
 
     .line 1
     check-cast p2, Ljava/lang/Boolean;
@@ -1567,16 +1309,6 @@
 
 .method public setBoolean(IZ)Z
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "index",
-            "element"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->ensureIsMutable()V
@@ -1665,4 +1397,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

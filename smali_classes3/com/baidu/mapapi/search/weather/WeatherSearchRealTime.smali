@@ -87,7 +87,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -195,7 +194,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCO()F
@@ -226,7 +224,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getClouds()I
@@ -257,7 +254,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHourlyPrecipitation()F
@@ -288,7 +284,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getNO2()I
@@ -319,7 +314,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getO3()I
@@ -350,7 +344,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPM10()I
@@ -381,7 +374,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPM2_5()I
@@ -412,7 +404,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPhenomenon()Ljava/lang/String;
@@ -443,7 +434,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRelativeHumidity()I
@@ -474,7 +464,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSO2()I
@@ -505,7 +494,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSensoryTemp()I
@@ -536,7 +524,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTemperature()I
@@ -567,7 +554,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getUpdateTime()Ljava/lang/String;
@@ -598,7 +584,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getVisibility()I
@@ -629,7 +614,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWindDirection()Ljava/lang/String;
@@ -660,7 +644,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWindPower()Ljava/lang/String;
@@ -691,7 +674,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAirQualityIndex(I)V
@@ -724,7 +706,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCO(F)V
@@ -757,7 +738,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setClouds(I)V
@@ -790,7 +770,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHourlyPrecipitation(F)V
@@ -823,7 +802,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setNO2(I)V
@@ -856,7 +834,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setO3(I)V
@@ -889,7 +866,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPM10(I)V
@@ -922,7 +898,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPM2_5(I)V
@@ -955,7 +930,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPhenomenon(Ljava/lang/String;)V
@@ -988,7 +962,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRelativeHumidity(I)V
@@ -1021,7 +994,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSO2(I)V
@@ -1054,7 +1026,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSensoryTemp(I)V
@@ -1087,7 +1058,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTemperature(I)V
@@ -1120,7 +1090,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUpdateTime(Ljava/lang/String;)V
@@ -1153,7 +1122,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVisibility(I)V
@@ -1186,7 +1154,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWindDirection(Ljava/lang/String;)V
@@ -1219,7 +1186,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWindPower(Ljava/lang/String;)V
@@ -1252,7 +1218,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -1347,9 +1312,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

@@ -86,6 +86,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -218,6 +219,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private createSpinner()Landroid/widget/Spinner;
@@ -332,6 +334,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private createTabLayout()Landroidx/appcompat/widget/LinearLayoutCompat;
@@ -452,6 +456,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private isCollapsed()Z
@@ -495,6 +501,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private performCollapse()V
@@ -655,6 +662,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private performExpand()Z
@@ -780,6 +789,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -1269,6 +1280,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public createTabView(Landroidx/appcompat/app/ActionBar$Tab;Z)Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;
@@ -1404,6 +1420,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -1492,6 +1509,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onItemSelected(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
@@ -1745,6 +1763,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onMeasure(II)V
@@ -2129,6 +2153,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onNothingSelected(Landroid/widget/AdapterView;)V
@@ -2256,6 +2283,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public removeTabAt(I)V
@@ -2364,6 +2393,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setAllowCollapse(Z)V
@@ -2568,6 +2598,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public updateTab(I)V
@@ -2682,4 +2713,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

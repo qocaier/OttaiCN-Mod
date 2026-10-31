@@ -42,6 +42,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -82,6 +84,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getBooleanArrayExtra(Ljava/lang/String;)[Z
@@ -127,6 +131,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getBooleanExtra(Ljava/lang/String;Z)Z
@@ -197,6 +203,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public getBundleExtra(Ljava/lang/String;)Landroid/os/Bundle;
@@ -242,6 +258,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getByteArrayExtra(Ljava/lang/String;)[B
@@ -287,6 +305,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getByteExtra(Ljava/lang/String;B)B
@@ -357,6 +377,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public getCharArrayExtra(Ljava/lang/String;)[C
@@ -402,6 +432,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getCharExtra(Ljava/lang/String;C)C
@@ -472,6 +504,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public getCharSequenceArrayExtra(Ljava/lang/String;)[Ljava/lang/CharSequence;
@@ -517,6 +559,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getCharSequenceArrayListExtra(Ljava/lang/String;)Ljava/util/ArrayList;
@@ -572,6 +616,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getCharSequenceExtra(Ljava/lang/String;)Ljava/lang/CharSequence;
@@ -615,6 +661,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getDoubleArrayExtra(Ljava/lang/String;)[D
@@ -660,6 +708,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getDoubleExtra(Ljava/lang/String;D)D
@@ -730,6 +780,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public getExtras()Landroid/os/Bundle;
@@ -770,6 +830,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFloatArrayExtra(Ljava/lang/String;)[F
@@ -815,6 +877,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getFloatExtra(Ljava/lang/String;F)F
@@ -885,6 +949,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public getIntArrayExtra(Ljava/lang/String;)[I
@@ -930,6 +1004,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getIntExtra(Ljava/lang/String;I)I
@@ -1000,6 +1076,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public getIntegerArrayListExtra(Ljava/lang/String;)Ljava/util/ArrayList;
@@ -1055,6 +1141,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getLongArrayExtra(Ljava/lang/String;)[J
@@ -1100,6 +1188,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getLongExtra(Ljava/lang/String;J)J
@@ -1170,6 +1260,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public getParcelableArrayExtra(Ljava/lang/String;)[Landroid/os/Parcelable;
@@ -1215,6 +1315,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getParcelableArrayListExtra(Ljava/lang/String;)Ljava/util/ArrayList;
@@ -1269,6 +1371,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
@@ -1321,6 +1425,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getSerializableExtra(Ljava/lang/String;)Ljava/io/Serializable;
@@ -1364,6 +1470,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getShortArrayExtra(Ljava/lang/String;)[S
@@ -1409,6 +1517,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getShortExtra(Ljava/lang/String;S)S
@@ -1479,6 +1589,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public getStringArrayExtra(Ljava/lang/String;)[Ljava/lang/String;
@@ -1524,6 +1644,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getStringArrayListExtra(Ljava/lang/String;)Ljava/util/ArrayList;
@@ -1579,6 +1701,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getStringExtra(Ljava/lang/String;)Ljava/lang/String;
@@ -1622,6 +1746,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public hasExtra(Ljava/lang/String;)Z
@@ -1665,4 +1791,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -3,25 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDrawable.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Drawable.kt\nandroidx/core/graphics/drawable/DrawableKt\n+ 2 Rect.kt\nandroidx/core/graphics/RectKt\n*L\n1#1,118:1\n37#2,31:119\n*S KotlinDebug\n*F\n+ 1 Drawable.kt\nandroidx/core/graphics/drawable/DrawableKt\n*L\n66#1:119,31\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nDrawable.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Drawable.kt\nandroidx/core/graphics/drawable/DrawableKt\n+ 2 Rect.kt\nandroidx/core/graphics/RectKt\n*L\n1#1,118:1\n37#2,31:119\n*S KotlinDebug\n*F\n+ 1 Drawable.kt\nandroidx/core/graphics/drawable/DrawableKt\n*L\n66#1:119,31\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final toBitmap(Landroid/graphics/drawable/Drawable;IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
     .locals 5
-    .param p0    # Landroid/graphics/drawable/Drawable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/Px;
         .end annotation
@@ -30,12 +14,6 @@
         .annotation build Landroidx/annotation/Px;
         .end annotation
     .end param
-    .param p3    # Landroid/graphics/Bitmap$Config;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     instance-of v0, p0, Landroid/graphics/drawable/BitmapDrawable;
@@ -377,6 +355,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic toBitmap$default(Landroid/graphics/drawable/Drawable;IILandroid/graphics/Bitmap$Config;ILjava/lang/Object;)Landroid/graphics/Bitmap;
@@ -1424,10 +1408,6 @@
 
 .method public static final toBitmapOrNull(Landroid/graphics/drawable/Drawable;IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
     .locals 1
-    .param p0    # Landroid/graphics/drawable/Drawable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/Px;
         .end annotation
@@ -1436,12 +1416,6 @@
         .annotation build Landroidx/annotation/Px;
         .end annotation
     .end param
-    .param p3    # Landroid/graphics/Bitmap$Config;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     instance-of v0, p0, Landroid/graphics/drawable/BitmapDrawable;
@@ -1697,6 +1671,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic toBitmapOrNull$default(Landroid/graphics/drawable/Drawable;IILandroid/graphics/Bitmap$Config;ILjava/lang/Object;)Landroid/graphics/Bitmap;
@@ -2744,10 +2724,6 @@
 
 .method public static final updateBounds(Landroid/graphics/drawable/Drawable;IIII)V
     .locals 0
-    .param p0    # Landroid/graphics/drawable/Drawable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/Px;
         .end annotation

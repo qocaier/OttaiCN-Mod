@@ -67,6 +67,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static channelNameToId(Ljava/lang/String;)Ljava/lang/String;
@@ -179,6 +180,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private ensureOnCreateCalled()V
@@ -218,6 +220,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -349,6 +352,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final onBind(Landroid/content/Intent;)Landroid/os/IBinder;
@@ -489,6 +493,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onExtraCommand(Ljava/lang/String;Landroid/os/Bundle;Landroidx/browser/trusted/TrustedWebActivityCallbackRemote;)Landroid/os/Bundle;
@@ -541,6 +546,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onGetSmallIconBitmap()Landroid/os/Bundle;
@@ -660,6 +666,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onGetSmallIconId()I
@@ -789,6 +797,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onNotifyNotificationWithChannel(Ljava/lang/String;ILandroid/app/Notification;Ljava/lang/String;)Z
@@ -1081,6 +1091,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public final onUnbind(Landroid/content/Intent;)Z

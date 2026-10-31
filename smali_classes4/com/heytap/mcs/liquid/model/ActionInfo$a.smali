@@ -16,15 +16,6 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Landroid/os/Parcelable$Creator<",
-        "Lcom/heytap/mcs/liquid/model/ActionInfo;",
-        ">;"
-    }
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V

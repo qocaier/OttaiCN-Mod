@@ -12,82 +12,37 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private availability:Lcom/builttoroam/devicecalendar/models/Availability;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private calendarId:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private eventAllDay:Z
 
 .field private eventDescription:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private eventEndDate:Ljava/lang/Long;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private eventEndTimeZone:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private eventId:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private eventLocation:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private eventStartDate:Ljava/lang/Long;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private eventStartTimeZone:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private eventStatus:Lcom/builttoroam/devicecalendar/models/EventStatus;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private eventTitle:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private eventURL:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private organizer:Lcom/builttoroam/devicecalendar/models/Attendee;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private recurrenceRule:Lcom/builttoroam/devicecalendar/models/RecurrenceRule;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private reminders:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -96,9 +51,6 @@
             "Lcom/builttoroam/devicecalendar/models/Reminder;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -144,7 +96,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -158,9 +109,6 @@
             "Lcom/builttoroam/devicecalendar/models/Attendee;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -188,13 +136,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getAvailability()Lcom/builttoroam/devicecalendar/models/Availability;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->availability:Lcom/builttoroam/devicecalendar/models/Availability;
@@ -221,13 +166,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getCalendarId()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->calendarId:Ljava/lang/String;
@@ -254,7 +196,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEventAllDay()Z
@@ -285,13 +226,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEventDescription()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventDescription:Ljava/lang/String;
@@ -318,13 +256,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEventEndDate()Ljava/lang/Long;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventEndDate:Ljava/lang/Long;
@@ -351,13 +286,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEventEndTimeZone()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventEndTimeZone:Ljava/lang/String;
@@ -384,13 +316,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEventId()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventId:Ljava/lang/String;
@@ -417,13 +346,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEventLocation()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventLocation:Ljava/lang/String;
@@ -450,13 +376,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEventStartDate()Ljava/lang/Long;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventStartDate:Ljava/lang/Long;
@@ -483,13 +406,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEventStartTimeZone()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventStartTimeZone:Ljava/lang/String;
@@ -516,13 +436,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEventStatus()Lcom/builttoroam/devicecalendar/models/EventStatus;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventStatus:Lcom/builttoroam/devicecalendar/models/EventStatus;
@@ -549,13 +466,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEventTitle()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventTitle:Ljava/lang/String;
@@ -582,13 +496,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEventURL()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventURL:Ljava/lang/String;
@@ -615,13 +526,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getOrganizer()Lcom/builttoroam/devicecalendar/models/Attendee;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->organizer:Lcom/builttoroam/devicecalendar/models/Attendee;
@@ -648,13 +556,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getRecurrenceRule()Lcom/builttoroam/devicecalendar/models/RecurrenceRule;
     .locals 1
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/models/Event;->recurrenceRule:Lcom/builttoroam/devicecalendar/models/RecurrenceRule;
@@ -681,7 +586,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getReminders()Ljava/util/List;
@@ -693,9 +597,6 @@
             "Lcom/builttoroam/devicecalendar/models/Reminder;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -723,15 +624,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final setAttendees(Ljava/util/List;)V
     .locals 1
-    .param p1    # Ljava/util/List;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -746,7 +642,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -772,15 +668,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setAvailability(Lcom/builttoroam/devicecalendar/models/Availability;)V
     .locals 0
-    .param p1    # Lcom/builttoroam/devicecalendar/models/Availability;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->availability:Lcom/builttoroam/devicecalendar/models/Availability;
@@ -809,15 +700,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setCalendarId(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->calendarId:Ljava/lang/String;
@@ -846,7 +732,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setEventAllDay(Z)V
@@ -879,15 +764,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setEventDescription(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventDescription:Ljava/lang/String;
@@ -916,15 +796,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setEventEndDate(Ljava/lang/Long;)V
     .locals 0
-    .param p1    # Ljava/lang/Long;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventEndDate:Ljava/lang/Long;
@@ -953,15 +828,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setEventEndTimeZone(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventEndTimeZone:Ljava/lang/String;
@@ -990,15 +860,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setEventId(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventId:Ljava/lang/String;
@@ -1027,15 +892,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setEventLocation(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventLocation:Ljava/lang/String;
@@ -1064,15 +924,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setEventStartDate(Ljava/lang/Long;)V
     .locals 0
-    .param p1    # Ljava/lang/Long;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventStartDate:Ljava/lang/Long;
@@ -1101,15 +956,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setEventStartTimeZone(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventStartTimeZone:Ljava/lang/String;
@@ -1138,15 +988,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setEventStatus(Lcom/builttoroam/devicecalendar/models/EventStatus;)V
     .locals 0
-    .param p1    # Lcom/builttoroam/devicecalendar/models/EventStatus;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventStatus:Lcom/builttoroam/devicecalendar/models/EventStatus;
@@ -1175,15 +1020,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setEventTitle(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventTitle:Ljava/lang/String;
@@ -1212,15 +1052,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setEventURL(Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->eventURL:Ljava/lang/String;
@@ -1249,15 +1084,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setOrganizer(Lcom/builttoroam/devicecalendar/models/Attendee;)V
     .locals 0
-    .param p1    # Lcom/builttoroam/devicecalendar/models/Attendee;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->organizer:Lcom/builttoroam/devicecalendar/models/Attendee;
@@ -1286,15 +1116,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setRecurrenceRule(Lcom/builttoroam/devicecalendar/models/RecurrenceRule;)V
     .locals 0
-    .param p1    # Lcom/builttoroam/devicecalendar/models/RecurrenceRule;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     iput-object p1, p0, Lcom/builttoroam/devicecalendar/models/Event;->recurrenceRule:Lcom/builttoroam/devicecalendar/models/RecurrenceRule;
@@ -1323,15 +1148,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setReminders(Ljava/util/List;)V
     .locals 1
-    .param p1    # Ljava/util/List;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1346,7 +1166,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1372,5 +1192,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

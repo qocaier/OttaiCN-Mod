@@ -40,11 +40,11 @@
 
     .line 7
     .line 8
-    new-instance p1, Lcom/google/android/material/textfield/m;
+    new-instance p1, Lcom/google/android/material/textfield/n;
 
     .line 9
     .line 10
-    invoke-direct {p1, p0}, Lcom/google/android/material/textfield/m;-><init>(Lcom/google/android/material/textfield/PasswordToggleEndIconDelegate;)V
+    invoke-direct {p1, p0}, Lcom/google/android/material/textfield/n;-><init>(Lcom/google/android/material/textfield/PasswordToggleEndIconDelegate;)V
 
     .line 11
     .line 12
@@ -104,11 +104,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic a(Lcom/google/android/material/textfield/PasswordToggleEndIconDelegate;Landroid/view/View;)V
@@ -219,11 +214,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private hasPasswordTransformation()Z
@@ -271,7 +261,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static isInputTypePassword(Landroid/widget/EditText;)Z
@@ -411,8 +400,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -665,6 +652,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public getIconContentDescriptionResId()I
@@ -697,7 +700,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIconDrawableResId()I
@@ -730,7 +732,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnIconClickListener()Landroid/view/View$OnClickListener;
@@ -761,7 +762,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isIconCheckable()Z
@@ -804,7 +804,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onEditTextAttached(Landroid/widget/EditText;)V
@@ -843,7 +842,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUp()V
@@ -889,7 +887,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public tearDown()V
@@ -929,5 +926,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

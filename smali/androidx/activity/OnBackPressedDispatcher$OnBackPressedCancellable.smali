@@ -19,9 +19,6 @@
 
 # instance fields
 .field private final onBackPressedCallback:Landroidx/activity/OnBackPressedCallback;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field final synthetic this$0:Landroidx/activity/OnBackPressedDispatcher;
 
@@ -29,10 +26,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/activity/OnBackPressedDispatcher;Landroidx/activity/OnBackPressedCallback;)V
     .locals 1
-    .param p1    # Landroidx/activity/OnBackPressedDispatcher;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -46,7 +39,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -112,7 +105,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/activity/OnBackPressedDispatcher;->access$getOnBackPressedCallbacks$p(Landroidx/activity/OnBackPressedDispatcher;)Lll/m;
+    invoke-static {v0}, Landroidx/activity/OnBackPressedDispatcher;->access$getOnBackPressedCallbacks$p(Landroidx/activity/OnBackPressedDispatcher;)Lkotlin/collections/i;
 
     .line 4
     .line 5
@@ -124,7 +117,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Lll/m;->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Lkotlin/collections/i;->remove(Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -145,7 +138,7 @@
 
     .line 19
     .line 20
-    invoke-static {v0, v1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 21
     .line 22
@@ -192,7 +185,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {v0}, Landroidx/activity/OnBackPressedCallback;->getEnabledChangedCallback$activity_release()Ljm/a;
+    invoke-virtual {v0}, Landroidx/activity/OnBackPressedCallback;->getEnabledChangedCallback$activity_release()Lq8/a;
 
     .line 45
     .line 46
@@ -204,7 +197,7 @@
 
     .line 49
     .line 50
-    invoke-interface {v0}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 51
     .line 52
@@ -214,7 +207,7 @@
 
     .line 54
     .line 55
-    invoke-virtual {v0, v1}, Landroidx/activity/OnBackPressedCallback;->setEnabledChangedCallback$activity_release(Ljm/a;)V
+    invoke-virtual {v0, v1}, Landroidx/activity/OnBackPressedCallback;->setEnabledChangedCallback$activity_release(Lq8/a;)V
 
     .line 56
     .line 57
@@ -246,4 +239,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

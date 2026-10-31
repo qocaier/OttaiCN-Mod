@@ -60,6 +60,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -376,6 +377,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public clearPrefetchPositions()V
@@ -415,6 +419,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public collectPrefetchPositionsFromView(Landroidx/recyclerview/widget/RecyclerView;Z)V
@@ -733,6 +738,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public lastPrefetchIncludedPosition(I)Z

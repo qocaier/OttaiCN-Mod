@@ -248,7 +248,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -289,7 +288,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBestTime()Ljava/lang/String;
@@ -320,7 +318,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBrand()Ljava/lang/String;
@@ -351,7 +348,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getChildren()Ljava/util/List;
@@ -390,7 +386,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getClassifiedPoiTag()Ljava/lang/String;
@@ -421,7 +416,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCommentNum()Ljava/lang/String;
@@ -452,7 +446,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContentTag()Ljava/lang/String;
@@ -483,7 +476,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDescription()Ljava/lang/String;
@@ -514,7 +506,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDetailUrl()Ljava/lang/String;
@@ -545,7 +536,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDistance()I
@@ -576,7 +566,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHeadImage()Ljava/lang/String;
@@ -607,7 +596,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getImage()Ljava/lang/String;
@@ -638,7 +626,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getImageNum()Ljava/lang/String;
@@ -669,7 +656,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIndoorFloor()Ljava/lang/String;
@@ -700,7 +686,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLabel()Ljava/lang/String;
@@ -731,7 +716,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getNaviLocation()Lcom/baidu/mapapi/model/LatLng;
@@ -881,15 +865,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getNewAlias()Ljava/lang/String;
@@ -920,7 +895,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getNewCatalog()Ljava/lang/String;
@@ -951,7 +925,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOverallRating()Ljava/lang/String;
@@ -982,7 +955,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParentId()Ljava/lang/String;
@@ -1013,7 +985,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPhotos()Ljava/util/List;
@@ -1052,7 +1023,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPrice()Ljava/lang/String;
@@ -1083,7 +1053,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRanking()Ljava/lang/String;
@@ -1114,7 +1083,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShopHours()Ljava/lang/String;
@@ -1145,7 +1113,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSugTime()Ljava/lang/String;
@@ -1176,7 +1143,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTag()Ljava/lang/String;
@@ -1207,7 +1173,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getType()Ljava/lang/String;
@@ -1238,7 +1203,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isDefaultImage()Z
@@ -1269,7 +1233,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAlias(Ljava/util/List;)V
@@ -1310,7 +1273,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBestTime(Ljava/lang/String;)V
@@ -1343,7 +1305,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBrand(Ljava/lang/String;)V
@@ -1376,7 +1337,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setChildren(Ljava/util/List;)V
@@ -1417,7 +1377,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setClassifiedPoiTag(Ljava/lang/String;)V
@@ -1450,7 +1409,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCommentNum(Ljava/lang/String;)V
@@ -1483,7 +1441,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setContentTag(Ljava/lang/String;)V
@@ -1516,7 +1473,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDefaultImage(Z)V
@@ -1549,7 +1505,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDescription(Ljava/lang/String;)V
@@ -1582,7 +1537,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDetailUrl(Ljava/lang/String;)V
@@ -1615,7 +1569,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDistance(I)V
@@ -1648,7 +1601,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHeadImage(Ljava/lang/String;)V
@@ -1681,7 +1633,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setImage(Ljava/lang/String;)V
@@ -1714,7 +1665,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setImageNum(Ljava/lang/String;)V
@@ -1747,7 +1697,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIndoorFloor(Ljava/lang/String;)V
@@ -1780,7 +1729,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLabel(Ljava/lang/String;)V
@@ -1813,7 +1761,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setNaviLocation(Lcom/baidu/mapapi/model/LatLng;)V
@@ -1857,7 +1804,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setNewAlias(Ljava/lang/String;)V
@@ -1890,7 +1836,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setNewCatalog(Ljava/lang/String;)V
@@ -1923,7 +1868,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOverallRating(Ljava/lang/String;)V
@@ -1956,7 +1900,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setParentId(Ljava/lang/String;)V
@@ -1989,7 +1932,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPhotos(Ljava/util/List;)V
@@ -2030,7 +1972,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPrice(Ljava/lang/String;)V
@@ -2063,7 +2004,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRanking(Ljava/lang/String;)V
@@ -2096,7 +2036,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShopHours(Ljava/lang/String;)V
@@ -2129,7 +2068,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSugTime(Ljava/lang/String;)V
@@ -2162,7 +2100,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTag(Ljava/lang/String;)V
@@ -2195,7 +2132,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setType(Ljava/lang/String;)V
@@ -2228,5 +2164,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

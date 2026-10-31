@@ -50,7 +50,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static native nativeCreate()J
@@ -202,7 +201,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public d()Lcom/baidu/mapapi/map/Marker;
@@ -233,7 +231,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public o(I)Z
@@ -272,5 +269,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

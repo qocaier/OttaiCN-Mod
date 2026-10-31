@@ -42,42 +42,16 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public abstract calcPosition(IIFFFF)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "layoutWidth",
-            "layoutHeight",
-            "start_x",
-            "start_y",
-            "end_x",
-            "end_y"
-        }
-    .end annotation
 .end method
 
 .method public getAttributeNames(Ljava/util/HashSet;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "attributes"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -97,45 +71,7 @@
 .end method
 
 .method public abstract intersects(IILandroid/graphics/RectF;Landroid/graphics/RectF;FF)Z
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "layoutWidth",
-            "layoutHeight",
-            "start",
-            "end",
-            "x",
-            "y"
-        }
-    .end annotation
 .end method
 
 .method public abstract positionAttributes(Landroid/view/View;Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "view",
-            "start",
-            "end",
-            "x",
-            "y",
-            "attribute",
-            "value"
-        }
-    .end annotation
 .end method

@@ -1,16 +1,22 @@
-.class public final synthetic Lj/b;
+.class public interface abstract Lj/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Landroid/os/IInterface;
 
-# direct methods
-.method public static bridge synthetic a(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
-    .locals 0
 
-    .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lj/b$a;
+    }
+.end annotation
 
-    move-result-object p0
 
-    return-object p0
+# virtual methods
+.method public abstract d()Z
+.end method
+
+.method public abstract read([B)I
 .end method

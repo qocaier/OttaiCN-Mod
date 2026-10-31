@@ -76,9 +76,6 @@
     <string name="hms_spoof_hints">提示</string>
     <string name="icon_content_description">對話方塊圖示</string>
     <string name="item_view_role_description">分頁標籤</string>
-    <string name="loading">載入中</string>
-    <string name="loading_go_auth">去支付寶授權</string>
-    <string name="loading_go_pay">去支付寶付款</string>
     <string name="material_clock_toggle_content_description">選取上午或下午</string>
     <string name="material_hour_24h_suffix">%1$s 小時</string>
     <string name="material_hour_selection">請選取時段</string>

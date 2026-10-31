@@ -277,4 +277,6 @@
     :cond_0
     return-object p1
     .line 25
+    .line 26
+    .line 27
 .end method

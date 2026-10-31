@@ -32,16 +32,6 @@
 # direct methods
 .method public constructor <init>(Lcom/baidu/mapapi/utils/handlers/MethodChannelHandler;Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010
-        }
-        names = {
-            null,
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/baidu/mapapi/utils/handlers/MethodChannelHandler$1;->this$0:Lcom/baidu/mapapi/utils/handlers/MethodChannelHandler;
@@ -114,9 +104,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

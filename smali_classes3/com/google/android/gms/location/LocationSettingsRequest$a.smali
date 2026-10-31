@@ -63,93 +63,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
-.method public a(Ljava/util/Collection;)Lcom/google/android/gms/location/LocationSettingsRequest$a;
-    .locals 2
-    .param p1    # Ljava/util/Collection;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Collection<",
-            "Lcom/google/android/gms/location/LocationRequest;",
-            ">;)",
-            "Lcom/google/android/gms/location/LocationSettingsRequest$a;"
-        }
-    .end annotation
-
-    .line 1
-    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
-
-    .line 2
-    .line 3
-    .line 4
-    move-result-object p1
-
-    .line 5
-    :cond_0
-    :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
-
-    .line 6
-    .line 7
-    .line 8
-    move-result v0
-
-    .line 9
-    if-eqz v0, :cond_1
-
-    .line 10
-    .line 11
-    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    .line 12
-    .line 13
-    .line 14
-    move-result-object v0
-
-    .line 15
-    check-cast v0, Lcom/google/android/gms/location/LocationRequest;
-
-    .line 16
-    .line 17
-    if-eqz v0, :cond_0
-
-    .line 18
-    .line 19
-    iget-object v1, p0, Lcom/google/android/gms/location/LocationSettingsRequest$a;->a:Ljava/util/ArrayList;
-
-    .line 20
-    .line 21
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    .line 22
-    .line 23
-    .line 24
-    goto :goto_0
-
-    .line 25
-    :cond_1
-    return-object p0
-.end method
-
-.method public b(Lcom/google/android/gms/location/LocationRequest;)Lcom/google/android/gms/location/LocationSettingsRequest$a;
+.method public a(Lcom/google/android/gms/location/LocationRequest;)Lcom/google/android/gms/location/LocationSettingsRequest$a;
     .locals 1
-    .param p1    # Lcom/google/android/gms/location/LocationRequest;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     if-eqz p1, :cond_0
@@ -183,13 +102,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public c()Lcom/google/android/gms/location/LocationSettingsRequest;
+.method public b()Lcom/google/android/gms/location/LocationSettingsRequest;
     .locals 4
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     new-instance v0, Lcom/google/android/gms/location/LocationSettingsRequest;
@@ -224,27 +140,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
-.end method
-
-.method public d(Z)Lcom/google/android/gms/location/LocationSettingsRequest$a;
-    .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .line 1
-    iput-boolean p1, p0, Lcom/google/android/gms/location/LocationSettingsRequest$a;->b:Z
-
-    return-object p0
-.end method
-
-.method public e(Z)Lcom/google/android/gms/location/LocationSettingsRequest$a;
-    .locals 0
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .line 1
-    iput-boolean p1, p0, Lcom/google/android/gms/location/LocationSettingsRequest$a;->c:Z
-
-    return-object p0
 .end method

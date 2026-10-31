@@ -88,6 +88,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -118,6 +120,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getKey()Ljava/lang/String;
@@ -146,6 +150,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLabel()Ljava/lang/String;
@@ -174,6 +180,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getType()I
@@ -202,6 +210,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getValue()Ljava/lang/Object;
@@ -230,6 +240,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isRelationVisible()Z
@@ -258,6 +270,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isRequired()Z
@@ -286,6 +300,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setColumnType(Ljava/lang/String;)V
@@ -319,6 +335,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setKey(Ljava/lang/String;)V
@@ -352,6 +370,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setLabel(Ljava/lang/String;)V
@@ -385,6 +405,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRelationVisible(Z)V
@@ -418,6 +440,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRequired(Z)V
@@ -451,6 +475,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setType(I)V
@@ -484,6 +510,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setValue(Ljava/lang/Object;)V
@@ -517,4 +545,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

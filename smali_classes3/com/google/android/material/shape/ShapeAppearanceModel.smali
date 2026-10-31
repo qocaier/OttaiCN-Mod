@@ -77,7 +77,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -834,11 +833,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
@@ -873,7 +867,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBottomLeftCorner()Lcom/google/android/material/shape/CornerTreatment;
@@ -906,7 +899,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBottomLeftCornerSize()Lcom/google/android/material/shape/CornerSize;
@@ -939,7 +931,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBottomRightCorner()Lcom/google/android/material/shape/CornerTreatment;
@@ -972,7 +963,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBottomRightCornerSize()Lcom/google/android/material/shape/CornerSize;
@@ -1005,7 +995,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLeftEdge()Lcom/google/android/material/shape/EdgeTreatment;
@@ -1038,7 +1027,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRightEdge()Lcom/google/android/material/shape/EdgeTreatment;
@@ -1071,7 +1059,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTopEdge()Lcom/google/android/material/shape/EdgeTreatment;
@@ -1104,7 +1091,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTopLeftCorner()Lcom/google/android/material/shape/CornerTreatment;
@@ -1137,7 +1123,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTopLeftCornerSize()Lcom/google/android/material/shape/CornerSize;
@@ -1170,7 +1155,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTopRightCorner()Lcom/google/android/material/shape/CornerTreatment;
@@ -1203,7 +1187,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTopRightCornerSize()Lcom/google/android/material/shape/CornerSize;
@@ -1236,7 +1219,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isRoundRect(Landroid/graphics/RectF;)Z
@@ -1807,6 +1789,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public toBuilder()Lcom/google/android/material/shape/ShapeAppearanceModel$Builder;
@@ -1841,7 +1855,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public withCornerSize(F)Lcom/google/android/material/shape/ShapeAppearanceModel;
@@ -2053,6 +2066,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

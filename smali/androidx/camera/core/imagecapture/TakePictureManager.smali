@@ -164,6 +164,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/imagecapture/TakePictureManager;)V
@@ -261,7 +262,7 @@
     .line 48
 .end method
 
-.method private submitCameraRequest(Landroidx/camera/core/imagecapture/CameraRequest;)Lub/u0;
+.method private submitCameraRequest(Landroidx/camera/core/imagecapture/CameraRequest;)Lcom/google/common/util/concurrent/t;
     .locals 2
     .param p1    # Landroidx/camera/core/imagecapture/CameraRequest;
         .annotation build Landroidx/annotation/NonNull;
@@ -275,9 +276,7 @@
             "(",
             "Landroidx/camera/core/imagecapture/CameraRequest;",
             ")",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -308,7 +307,7 @@
     move-result-object v1
 
     .line 15
-    invoke-interface {v0, v1}, Landroidx/camera/core/imagecapture/ImageCaptureControl;->submitStillCaptureRequests(Ljava/util/List;)Lub/u0;
+    invoke-interface {v0, v1}, Landroidx/camera/core/imagecapture/ImageCaptureControl;->submitStillCaptureRequests(Ljava/util/List;)Lcom/google/common/util/concurrent/t;
 
     .line 16
     .line 17
@@ -333,7 +332,7 @@
     move-result-object p1
 
     .line 28
-    invoke-static {v0, v1, p1}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {v0, v1, p1}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 29
     .line 30
@@ -386,6 +385,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private trackCurrentRequests(Landroidx/camera/core/imagecapture/RequestWithCallback;)V
@@ -417,7 +417,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1}, Landroidx/camera/core/imagecapture/RequestWithCallback;->getCaptureFuture()Lub/u0;
+    invoke-virtual {p1}, Landroidx/camera/core/imagecapture/RequestWithCallback;->getCaptureFuture()Lcom/google/common/util/concurrent/t;
 
     .line 13
     .line 14
@@ -425,11 +425,11 @@
     move-result-object v0
 
     .line 16
-    new-instance v1, Lt/b;
+    new-instance v1, Landroidx/camera/core/imagecapture/o;
 
     .line 17
     .line 18
-    invoke-direct {v1, p0}, Lt/b;-><init>(Landroidx/camera/core/imagecapture/TakePictureManager;)V
+    invoke-direct {v1, p0}, Landroidx/camera/core/imagecapture/o;-><init>(Landroidx/camera/core/imagecapture/TakePictureManager;)V
 
     .line 19
     .line 20
@@ -442,7 +442,7 @@
     move-result-object v2
 
     .line 25
-    invoke-interface {v0, v1, v2}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v0, v1, v2}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 26
     .line 27
@@ -456,7 +456,7 @@
     .line 31
     .line 32
     .line 33
-    invoke-virtual {p1}, Landroidx/camera/core/imagecapture/RequestWithCallback;->getCompleteFuture()Lub/u0;
+    invoke-virtual {p1}, Landroidx/camera/core/imagecapture/RequestWithCallback;->getCompleteFuture()Lcom/google/common/util/concurrent/t;
 
     .line 34
     .line 35
@@ -464,11 +464,11 @@
     move-result-object v0
 
     .line 37
-    new-instance v1, Landroidx/camera/core/imagecapture/n;
+    new-instance v1, Landroidx/camera/core/imagecapture/p;
 
     .line 38
     .line 39
-    invoke-direct {v1, p0, p1}, Landroidx/camera/core/imagecapture/n;-><init>(Landroidx/camera/core/imagecapture/TakePictureManager;Landroidx/camera/core/imagecapture/RequestWithCallback;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/core/imagecapture/p;-><init>(Landroidx/camera/core/imagecapture/TakePictureManager;Landroidx/camera/core/imagecapture/RequestWithCallback;)V
 
     .line 40
     .line 41
@@ -481,7 +481,7 @@
     move-result-object p1
 
     .line 46
-    invoke-interface {v0, v1, p1}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {v0, v1, p1}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 47
     .line 48
@@ -516,6 +516,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -678,6 +679,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getImagePipeline()Landroidx/camera/core/imagecapture/ImagePipeline;
@@ -711,6 +714,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIncompleteRequests()Ljava/util/List;
@@ -750,6 +754,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasCapturingRequest()Z
@@ -789,6 +794,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public issueNextRequest()V
@@ -941,7 +947,7 @@
 
     .line 72
     .line 73
-    invoke-virtual {v1}, Landroidx/camera/core/imagecapture/RequestWithCallback;->getCaptureFuture()Lub/u0;
+    invoke-virtual {v1}, Landroidx/camera/core/imagecapture/RequestWithCallback;->getCaptureFuture()Lcom/google/common/util/concurrent/t;
 
     .line 74
     .line 75
@@ -949,7 +955,7 @@
     move-result-object v3
 
     .line 77
-    invoke-virtual {v2, v0, v1, v3}, Landroidx/camera/core/imagecapture/ImagePipeline;->createRequests(Landroidx/camera/core/imagecapture/TakePictureRequest;Landroidx/camera/core/imagecapture/TakePictureCallback;Lub/u0;)Landroidx/core/util/Pair;
+    invoke-virtual {v2, v0, v1, v3}, Landroidx/camera/core/imagecapture/ImagePipeline;->createRequests(Landroidx/camera/core/imagecapture/TakePictureRequest;Landroidx/camera/core/imagecapture/TakePictureCallback;Lcom/google/common/util/concurrent/t;)Landroidx/core/util/Pair;
 
     .line 78
     .line 79
@@ -992,7 +998,7 @@
     .line 98
     .line 99
     .line 100
-    invoke-direct {p0, v2}, Landroidx/camera/core/imagecapture/TakePictureManager;->submitCameraRequest(Landroidx/camera/core/imagecapture/CameraRequest;)Lub/u0;
+    invoke-direct {p0, v2}, Landroidx/camera/core/imagecapture/TakePictureManager;->submitCameraRequest(Landroidx/camera/core/imagecapture/CameraRequest;)Lcom/google/common/util/concurrent/t;
 
     .line 101
     .line 102
@@ -1000,7 +1006,7 @@
     move-result-object v0
 
     .line 104
-    invoke-virtual {v1, v0}, Landroidx/camera/core/imagecapture/RequestWithCallback;->setCaptureRequestFuture(Lub/u0;)V
+    invoke-virtual {v1, v0}, Landroidx/camera/core/imagecapture/RequestWithCallback;->setCaptureRequestFuture(Lcom/google/common/util/concurrent/t;)V
 
     .line 105
     .line 106
@@ -1277,6 +1283,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public offerRequest(Landroidx/camera/core/imagecapture/TakePictureRequest;)V
@@ -1340,11 +1398,11 @@
     move-result-object p1
 
     .line 5
-    new-instance v0, Lt/c;
+    new-instance v0, Landroidx/camera/core/imagecapture/q;
 
     .line 6
     .line 7
-    invoke-direct {v0, p0}, Lt/c;-><init>(Landroidx/camera/core/imagecapture/TakePictureManager;)V
+    invoke-direct {v0, p0}, Landroidx/camera/core/imagecapture/q;-><init>(Landroidx/camera/core/imagecapture/TakePictureManager;)V
 
     .line 8
     .line 9
@@ -1408,6 +1466,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public resume()V
@@ -1444,6 +1503,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public retryRequest(Landroidx/camera/core/imagecapture/TakePictureRequest;)V

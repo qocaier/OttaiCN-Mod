@@ -6,10 +6,6 @@
 # direct methods
 .method public static final log(Ljava/lang/Object;)V
     .locals 1
-    .param p0    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     sget-object v0, Lcom/fluttercandies/flutter_image_compress/ImageCompressPlugin;->Companion:Lcom/fluttercandies/flutter_image_compress/ImageCompressPlugin$Companion;
@@ -61,5 +57,4 @@
     .line 24
     :cond_2
     return-void
-    .line 25
 .end method

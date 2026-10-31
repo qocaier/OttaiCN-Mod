@@ -222,6 +222,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public postCapture()V
@@ -338,9 +340,11 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method public preCapture(Landroid/hardware/camera2/TotalCaptureResult;)Lub/u0;
+.method public preCapture(Landroid/hardware/camera2/TotalCaptureResult;)Lcom/google/common/util/concurrent/t;
     .locals 3
     .param p1    # Landroid/hardware/camera2/TotalCaptureResult;
         .annotation build Landroidx/annotation/Nullable;
@@ -354,9 +358,7 @@
             "(",
             "Landroid/hardware/camera2/TotalCaptureResult;",
             ")",
-            "Lub/u0<",
-            "Ljava/lang/Boolean;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -411,7 +413,7 @@
 
     .line 25
     .line 26
-    invoke-interface {v2, p1}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$PipelineTask;->preCapture(Landroid/hardware/camera2/TotalCaptureResult;)Lub/u0;
+    invoke-interface {v2, p1}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$PipelineTask;->preCapture(Landroid/hardware/camera2/TotalCaptureResult;)Lcom/google/common/util/concurrent/t;
 
     .line 27
     .line 28
@@ -428,7 +430,7 @@
 
     .line 34
     :cond_0
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->allAsList(Ljava/util/Collection;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->allAsList(Ljava/util/Collection;)Lcom/google/common/util/concurrent/t;
 
     .line 35
     .line 36
@@ -436,11 +438,11 @@
     move-result-object p1
 
     .line 38
-    new-instance v0, Landroidx/camera/camera2/internal/i0;
+    new-instance v0, Landroidx/camera/camera2/internal/w0;
 
     .line 39
     .line 40
-    invoke-direct {v0}, Landroidx/camera/camera2/internal/i0;-><init>()V
+    invoke-direct {v0}, Landroidx/camera/camera2/internal/w0;-><init>()V
 
     .line 41
     .line 42
@@ -453,7 +455,7 @@
     move-result-object v1
 
     .line 47
-    invoke-static {p1, v0, v1}, Landroidx/camera/core/impl/utils/futures/Futures;->transform(Lub/u0;Landroidx/arch/core/util/Function;Ljava/util/concurrent/Executor;)Lub/u0;
+    invoke-static {p1, v0, v1}, Landroidx/camera/core/impl/utils/futures/Futures;->transform(Lcom/google/common/util/concurrent/t;Landroidx/arch/core/util/Function;Ljava/util/concurrent/Executor;)Lcom/google/common/util/concurrent/t;
 
     .line 48
     .line 49
@@ -489,4 +491,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -42,6 +42,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static canRead(Landroid/content/Context;Landroid/net/Uri;)Z
@@ -430,6 +431,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static closeQuietly(Ljava/lang/AutoCloseable;)V
@@ -804,6 +808,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static getFlags(Landroid/content/Context;Landroid/net/Uri;)J
@@ -1664,6 +1671,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static queryForLong(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;J)J
@@ -1996,6 +2009,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static queryForString(Landroid/content/Context;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -2334,4 +2353,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

@@ -1,5 +1,5 @@
 {
-  "apkFileName": "ottag_src.apk",
+  "apkFileName": "ottag (1)_src.apk",
   "PackageInfo": {
     "forcedPackageId": "127",
     "renameManifestPackage": null
@@ -75,8 +75,8 @@
   "version": "2.4.0-260519",
   "sharedLibrary": false,
   "VersionInfo": {
-    "versionName": "1.55.0",
-    "versionCode": "263121"
+    "versionName": "1.57.0",
+    "versionCode": "263325"
   },
   "UsesFramework": {
     "ids": [1],
@@ -105,6 +105,7 @@
     "HMSCore-base.properties": "8",
     "META-INF/androidx.lifecycle_lifecycle-process.version": "8",
     "META-INF/androidx.core_core-viewtree.version": "8",
+    "META-INF/androidx.security_security-crypto.version": "8",
     "META-INF/androidx.activity_activity.version": "8",
     "META-INF/androidx.customview_customview.version": "8",
     "META-INF/androidx.documentfile_documentfile.version": "8",
@@ -195,7 +196,7 @@
     "com/qiyukf/android/extension/servicekeeper/service/ipc/tx/ClientBinderWrapper.java": "8",
     "META-INF/androidx.exifinterface_exifinterface.version": "8"
   },
-  "apkFilePath": "/storage/emulated/0/Download/Telegram/ottag.apk",
+  "apkFilePath": "/storage/emulated/0/Download/Telegram/ottag (1).apk",
   "compactEntries": false,
   "isFrameworkApk": false,
   "sdkInfo": {

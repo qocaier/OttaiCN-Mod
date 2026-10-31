@@ -87,7 +87,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private didStateChange(Z)Z
@@ -149,7 +148,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static from(Landroid/view/View;Ljava/lang/Class;)Lcom/google/android/material/transformation/ExpandableBehavior;
@@ -279,11 +277,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -399,11 +392,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public abstract layoutDependsOn(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;Landroid/view/View;)Z
@@ -609,11 +597,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public abstract onExpandedStateChange(Landroid/view/View;Landroid/view/View;ZZ)Z
@@ -831,9 +814,4 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method

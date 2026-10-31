@@ -111,6 +111,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMac()Ljavax/crypto/Mac;
@@ -139,6 +140,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSignature()Ljava/security/Signature;
@@ -167,4 +169,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

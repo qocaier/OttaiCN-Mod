@@ -34,7 +34,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private native nativeCreate()J
@@ -91,7 +90,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public create()J
@@ -128,7 +126,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public dispose()I
@@ -163,5 +160,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

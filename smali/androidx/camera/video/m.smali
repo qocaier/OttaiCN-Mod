@@ -3,28 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/core/util/Consumer;
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Landroidx/camera/video/Recorder;
 
 
 # direct methods
-.method public synthetic constructor <init>()V
+.method public synthetic constructor <init>(Landroidx/camera/video/Recorder;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/camera/video/m;->a:Landroidx/camera/video/Recorder;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final accept(Ljava/lang/Object;)V
-    .locals 0
+.method public final run()V
+    .locals 1
 
     .line 1
-    check-cast p1, Landroid/net/Uri;
+    iget-object v0, p0, Landroidx/camera/video/m;->a:Landroidx/camera/video/Recorder;
 
-    invoke-static {p1}, Landroidx/camera/video/Recorder$RecordingRecord;->b(Landroid/net/Uri;)V
+    invoke-static {v0}, Landroidx/camera/video/Recorder;->m(Landroidx/camera/video/Recorder;)V
 
     return-void
 .end method

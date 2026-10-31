@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static authenticate(Ljava/lang/Object;Ljava/lang/Object;Landroid/os/CancellationSignal;ILjava/lang/Object;Landroid/os/Handler;)V
@@ -1385,6 +1386,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static wrapCryptoObject(Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;)Landroid/hardware/fingerprint/FingerprintManager$CryptoObject;
@@ -1525,4 +1527,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

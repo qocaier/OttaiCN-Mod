@@ -32,7 +32,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static native bd09llTobd09mc(DD)Lcom/baidu/platform/comapi/basestruct/Point;
@@ -131,11 +130,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static complexPtToPoint(Ljava/lang/String;)Lcom/baidu/platform/comapi/basestruct/Point;
@@ -189,7 +183,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static native gcj02Tobd09ll(DD)Lcom/baidu/platform/comapi/basestruct/Point;
@@ -282,11 +275,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static geoStringToComplexPt(Ljava/lang/String;)Lcom/baidu/platform/comapi/basestruct/ComplexPt;
@@ -913,6 +901,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public static geoStringToComplexPtBound(Ljava/lang/String;)Lcom/baidu/platform/comapi/basestruct/ComplexPt;
@@ -1436,6 +1456,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public static geoStringToPoint(Ljava/lang/String;)Lcom/baidu/platform/comapi/basestruct/Point;
@@ -1489,7 +1541,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static native getDistanceByMc(DDDD)D
@@ -1560,7 +1611,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static wgs84Tobd09ll(DD)Lcom/baidu/platform/comapi/basestruct/Point;
@@ -1650,11 +1700,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static wgs84Tobd09mc(DD)Lcom/baidu/platform/comapi/basestruct/Point;
@@ -1758,11 +1803,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static native wgs84Togcj02(DD)Lcom/baidu/platform/comapi/basestruct/Point;

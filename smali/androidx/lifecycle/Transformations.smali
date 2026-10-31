@@ -3,19 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lim/j;
-    name = "Transformations"
-.end annotation
-
-
 # direct methods
 .method public static final distinctUntilChanged(Landroidx/lifecycle/LiveData;)Landroidx/lifecycle/LiveData;
     .locals 3
-    .param p0    # Landroidx/lifecycle/LiveData;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/CheckResult;
     .end annotation
 
@@ -34,19 +24,12 @@
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "distinctUntilChanged"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -122,7 +105,7 @@
 
     .line 41
     .line 42
-    invoke-direct {v1, v2}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;-><init>(Ljm/l;)V
+    invoke-direct {v1, v2}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;-><init>(Lq8/l;)V
 
     .line 43
     .line 44
@@ -163,6 +146,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static final synthetic map(Landroidx/lifecycle/LiveData;Landroidx/arch/core/util/Function;)Landroidx/lifecycle/LiveData;
@@ -173,22 +157,13 @@
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
-    .annotation build Lim/j;
-        name = "map"
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->HIDDEN:Lkotlin/DeprecationLevel;
-        message = "Use kotlin functions, instead of outdated arch core Functions"
-    .end annotation
-
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "mapFunction"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     new-instance v0, Landroidx/lifecycle/MediatorLiveData;
@@ -202,23 +177,15 @@
 
     new-instance p1, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;
 
-    invoke-direct {p1, v1}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;-><init>(Ljm/l;)V
+    invoke-direct {p1, v1}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;-><init>(Lq8/l;)V
 
     invoke-virtual {v0, p0, p1}, Landroidx/lifecycle/MediatorLiveData;->addSource(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;)V
 
     return-object v0
 .end method
 
-.method public static final map(Landroidx/lifecycle/LiveData;Ljm/l;)Landroidx/lifecycle/LiveData;
+.method public static final map(Landroidx/lifecycle/LiveData;Lq8/l;)Landroidx/lifecycle/LiveData;
     .locals 2
-    .param p0    # Landroidx/lifecycle/LiveData;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/CheckResult;
     .end annotation
 
@@ -234,27 +201,20 @@
             ">(",
             "Landroidx/lifecycle/LiveData<",
             "TX;>;",
-            "Ljm/l<",
-            "TX;TY;>;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/lifecycle/LiveData<",
             "TY;>;"
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "map"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroidx/lifecycle/MediatorLiveData;
@@ -273,7 +233,7 @@
 
     move-result-object v1
 
-    invoke-interface {p1, v1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -283,11 +243,11 @@
     :cond_0
     new-instance v1, Landroidx/lifecycle/Transformations$map$1;
 
-    invoke-direct {v1, v0, p1}, Landroidx/lifecycle/Transformations$map$1;-><init>(Landroidx/lifecycle/MediatorLiveData;Ljm/l;)V
+    invoke-direct {v1, v0, p1}, Landroidx/lifecycle/Transformations$map$1;-><init>(Landroidx/lifecycle/MediatorLiveData;Lq8/l;)V
 
     new-instance p1, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;
 
-    invoke-direct {p1, v1}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;-><init>(Ljm/l;)V
+    invoke-direct {p1, v1}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;-><init>(Lq8/l;)V
 
     invoke-virtual {v0, p0, p1}, Landroidx/lifecycle/MediatorLiveData;->addSource(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;)V
 
@@ -302,22 +262,13 @@
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
-    .annotation build Lim/j;
-        name = "switchMap"
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        level = .enum Lkotlin/DeprecationLevel;->HIDDEN:Lkotlin/DeprecationLevel;
-        message = "Use kotlin functions, instead of outdated arch core Functions"
-    .end annotation
-
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "switchMapFunction"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     new-instance v0, Landroidx/lifecycle/MediatorLiveData;
@@ -334,16 +285,8 @@
     return-object v0
 .end method
 
-.method public static final switchMap(Landroidx/lifecycle/LiveData;Ljm/l;)Landroidx/lifecycle/LiveData;
+.method public static final switchMap(Landroidx/lifecycle/LiveData;Lq8/l;)Landroidx/lifecycle/LiveData;
     .locals 4
-    .param p0    # Landroidx/lifecycle/LiveData;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/CheckResult;
     .end annotation
 
@@ -359,29 +302,20 @@
             ">(",
             "Landroidx/lifecycle/LiveData<",
             "TX;>;",
-            "Ljm/l<",
-            "TX;",
-            "Landroidx/lifecycle/LiveData<",
-            "TY;>;>;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/lifecycle/LiveData<",
             "TY;>;"
         }
     .end annotation
 
-    .annotation build Lim/j;
-        name = "switchMap"
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroidx/lifecycle/MediatorLiveData;
@@ -405,7 +339,7 @@
 
     move-result-object v2
 
-    invoke-interface {p1, v2}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -431,11 +365,11 @@
     :cond_0
     new-instance v2, Landroidx/lifecycle/Transformations$switchMap$1;
 
-    invoke-direct {v2, p1, v1, v0}, Landroidx/lifecycle/Transformations$switchMap$1;-><init>(Ljm/l;Lkotlin/jvm/internal/Ref$ObjectRef;Landroidx/lifecycle/MediatorLiveData;)V
+    invoke-direct {v2, p1, v1, v0}, Landroidx/lifecycle/Transformations$switchMap$1;-><init>(Lq8/l;Lkotlin/jvm/internal/Ref$ObjectRef;Landroidx/lifecycle/MediatorLiveData;)V
 
     new-instance p1, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;
 
-    invoke-direct {p1, v2}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;-><init>(Ljm/l;)V
+    invoke-direct {p1, v2}, Landroidx/lifecycle/Transformations$sam$androidx_lifecycle_Observer$0;-><init>(Lq8/l;)V
 
     invoke-virtual {v0, p0, p1}, Landroidx/lifecycle/MediatorLiveData;->addSource(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;)V
 

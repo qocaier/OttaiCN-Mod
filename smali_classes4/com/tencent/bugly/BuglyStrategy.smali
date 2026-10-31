@@ -191,6 +191,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -254,6 +255,8 @@
     .line 19
     throw v0
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized getAppPackageName()Ljava/lang/String;
@@ -315,6 +318,8 @@
     .line 19
     throw v0
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized getAppReportDelay()J
@@ -360,6 +365,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized getAppVersion()Ljava/lang/String;
@@ -421,6 +428,8 @@
     .line 19
     throw v0
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized getCallBackType()I
@@ -466,6 +475,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized getCloseErrorCallback()Z
@@ -511,6 +522,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized getCrashHandleCallback()Lcom/tencent/bugly/BuglyStrategy$a;
@@ -556,6 +569,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized getDeviceID()Ljava/lang/String;
@@ -601,6 +616,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized getDeviceModel()Ljava/lang/String;
@@ -646,6 +663,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized getLibBuglySOFilePath()Ljava/lang/String;
@@ -691,6 +710,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized getUserInfoActivity()Ljava/lang/Class;
@@ -743,6 +764,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized isBuglyLogUpload()Z
@@ -788,6 +811,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized isEnableANRCrashMonitor()Z
@@ -833,6 +858,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized isEnableCatchAnrTrace()Z
@@ -878,6 +905,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized isEnableNativeCrashMonitor()Z
@@ -923,6 +952,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isEnableRecordAnrMainStack()Z
@@ -951,6 +982,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized isEnableUserInfo()Z
@@ -996,6 +1029,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isMerged()Z
@@ -1024,6 +1059,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isReplaceOldChannel()Z
@@ -1052,6 +1089,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized isUploadProcess()Z
@@ -1097,6 +1136,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized isUploadSpotCrash()Z
@@ -1142,6 +1183,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized recordUserInfoOnceADay()Z
@@ -1187,6 +1230,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public declared-synchronized setAppChannel(Ljava/lang/String;)Lcom/tencent/bugly/BuglyStrategy;
@@ -1237,6 +1282,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setAppPackageName(Ljava/lang/String;)Lcom/tencent/bugly/BuglyStrategy;
@@ -1287,6 +1334,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setAppReportDelay(J)Lcom/tencent/bugly/BuglyStrategy;
@@ -1337,6 +1386,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setAppVersion(Ljava/lang/String;)Lcom/tencent/bugly/BuglyStrategy;
@@ -1387,6 +1438,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setBuglyLogUpload(Z)Lcom/tencent/bugly/BuglyStrategy;
@@ -1437,6 +1490,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setCallBackType(I)V
@@ -1487,6 +1542,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setCloseErrorCallback(Z)V
@@ -1537,6 +1594,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setCrashHandleCallback(Lcom/tencent/bugly/BuglyStrategy$a;)Lcom/tencent/bugly/BuglyStrategy;
@@ -1587,6 +1646,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setDeviceID(Ljava/lang/String;)Lcom/tencent/bugly/BuglyStrategy;
@@ -1637,6 +1698,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setDeviceModel(Ljava/lang/String;)Lcom/tencent/bugly/BuglyStrategy;
@@ -1687,6 +1750,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setEnableANRCrashMonitor(Z)Lcom/tencent/bugly/BuglyStrategy;
@@ -1737,6 +1802,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEnableCatchAnrTrace(Z)V
@@ -1770,6 +1837,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setEnableNativeCrashMonitor(Z)Lcom/tencent/bugly/BuglyStrategy;
@@ -1820,6 +1889,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEnableRecordAnrMainStack(Z)V
@@ -1853,6 +1924,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setEnableUserInfo(Z)Lcom/tencent/bugly/BuglyStrategy;
@@ -1903,6 +1976,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setLibBuglySOFilePath(Ljava/lang/String;)Lcom/tencent/bugly/BuglyStrategy;
@@ -1953,6 +2028,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMerged(Z)V
@@ -1988,6 +2065,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setRecordUserInfoOnceADay(Z)Lcom/tencent/bugly/BuglyStrategy;
@@ -2038,6 +2117,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setReplaceOldChannel(Z)V
@@ -2071,6 +2152,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setUploadProcess(Z)Lcom/tencent/bugly/BuglyStrategy;
@@ -2121,6 +2204,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setUploadSpotCrash(Z)V
@@ -2171,6 +2256,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized setUserInfoActivity(Ljava/lang/Class;)Lcom/tencent/bugly/BuglyStrategy;
@@ -2229,4 +2316,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

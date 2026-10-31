@@ -124,11 +124,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/floatingactionbutton/BaseMotionStrategy;)Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;
@@ -161,7 +156,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -202,7 +196,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public createAnimator()Landroid/animation/AnimatorSet;
@@ -549,15 +542,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public final getListeners()Ljava/util/List;
@@ -599,7 +583,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMotionSpec()Lcom/google/android/material/animation/MotionSpec;
@@ -632,7 +615,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAnimationCancel()V
@@ -667,7 +649,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAnimationEnd()V
@@ -702,7 +683,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
@@ -739,7 +719,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final removeAnimationListener(Landroid/animation/Animator$AnimatorListener;)V
@@ -778,7 +757,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setMotionSpec(Lcom/google/android/material/animation/MotionSpec;)V
@@ -815,5 +793,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

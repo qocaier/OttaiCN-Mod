@@ -48,7 +48,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static newInstance()Lcom/baidu/mapapi/search/aoi/AoiSearch;
@@ -83,7 +82,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -131,7 +129,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public requestAoi(Lcom/baidu/mapapi/search/aoi/AoiSearchOption;)Z
@@ -275,8 +272,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setOnGetAoiSearchResultListener(Lcom/baidu/mapapi/search/aoi/OnGetAoiSearchResultListener;)V
@@ -400,6 +395,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

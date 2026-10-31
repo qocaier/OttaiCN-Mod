@@ -430,11 +430,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic b(ILcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -505,11 +500,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic c(Lcom/google/android/material/color/utilities/DynamicColor;Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/DynamicColor;
@@ -1368,54 +1358,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public static synthetic d(Lcom/google/android/material/color/utilities/DynamicScheme;Lcom/google/android/material/color/utilities/DynamicColor;)Ljava/lang/Double;
@@ -1490,11 +1432,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic e(Lcom/google/android/material/color/utilities/Hct;Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -1569,11 +1506,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static enableLightForeground(D)D
@@ -1619,7 +1551,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static ensureToneDelta(DDLcom/google/android/material/color/utilities/DynamicScheme;Ljava/util/function/Function;Ljava/util/function/Function;)D
@@ -2766,13 +2697,13 @@
     move-result-object p0
 
     .line 3
-    new-instance v1, Lra/d;
+    new-instance v1, Lcom/google/android/material/color/utilities/d;
 
-    invoke-direct {v1, p0}, Lra/d;-><init>(Lcom/google/android/material/color/utilities/TonalPalette;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/color/utilities/d;-><init>(Lcom/google/android/material/color/utilities/TonalPalette;)V
 
-    new-instance p0, Lra/e;
+    new-instance p0, Lcom/google/android/material/color/utilities/e;
 
-    invoke-direct {p0, v0}, Lra/e;-><init>(Lcom/google/android/material/color/utilities/Hct;)V
+    invoke-direct {p0, v0}, Lcom/google/android/material/color/utilities/e;-><init>(Lcom/google/android/material/color/utilities/Hct;)V
 
     invoke-static {v1, p0}, Lcom/google/android/material/color/utilities/DynamicColor;->fromPalette(Ljava/util/function/Function;Ljava/util/function/Function;)Lcom/google/android/material/color/utilities/DynamicColor;
 
@@ -2795,9 +2726,9 @@
     .end annotation
 
     .line 4
-    new-instance v0, Lra/k;
+    new-instance v0, Lcom/google/android/material/color/utilities/k;
 
-    invoke-direct {v0, p0}, Lra/k;-><init>(I)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/color/utilities/k;-><init>(I)V
 
     invoke-static {v0, p1}, Lcom/google/android/material/color/utilities/DynamicColor;->fromPalette(Ljava/util/function/Function;Ljava/util/function/Function;)Lcom/google/android/material/color/utilities/DynamicColor;
 
@@ -2824,9 +2755,9 @@
     .end annotation
 
     .line 5
-    new-instance v0, Lra/a;
+    new-instance v0, Lcom/google/android/material/color/utilities/a;
 
-    invoke-direct {v0, p0}, Lra/a;-><init>(I)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/color/utilities/a;-><init>(I)V
 
     invoke-static {v0, p1, p2}, Lcom/google/android/material/color/utilities/DynamicColor;->fromPalette(Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Function;)Lcom/google/android/material/color/utilities/DynamicColor;
 
@@ -2857,9 +2788,9 @@
     .end annotation
 
     .line 6
-    new-instance v0, Lra/q;
+    new-instance v0, Lcom/google/android/material/color/utilities/q;
 
-    invoke-direct {v0, p0}, Lra/q;-><init>(I)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/color/utilities/q;-><init>(I)V
 
     invoke-static {v0, p1, p2, p3}, Lcom/google/android/material/color/utilities/DynamicColor;->fromPalette(Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Function;)Lcom/google/android/material/color/utilities/DynamicColor;
 
@@ -2954,21 +2885,21 @@
     .line 3
     new-instance v0, Lcom/google/android/material/color/utilities/DynamicColor;
 
-    new-instance v1, Lra/r;
+    new-instance v1, Lcom/google/android/material/color/utilities/r;
 
-    invoke-direct {v1, p0}, Lra/r;-><init>(Ljava/util/function/Function;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/color/utilities/r;-><init>(Ljava/util/function/Function;)V
 
-    new-instance v2, Lra/s;
+    new-instance v2, Lcom/google/android/material/color/utilities/s;
 
-    invoke-direct {v2, p0}, Lra/s;-><init>(Ljava/util/function/Function;)V
+    invoke-direct {v2, p0}, Lcom/google/android/material/color/utilities/s;-><init>(Ljava/util/function/Function;)V
 
-    new-instance v6, Lra/b;
+    new-instance v6, Lcom/google/android/material/color/utilities/b;
 
-    invoke-direct {v6, p1, p2, p3}, Lra/b;-><init>(Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Function;)V
+    invoke-direct {v6, p1, p2, p3}, Lcom/google/android/material/color/utilities/b;-><init>(Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Function;)V
 
-    new-instance v7, Lra/c;
+    new-instance v7, Lcom/google/android/material/color/utilities/c;
 
-    invoke-direct {v7, p1, p2, p3}, Lra/c;-><init>(Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Function;)V
+    invoke-direct {v7, p1, p2, p3}, Lcom/google/android/material/color/utilities/c;-><init>(Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Function;)V
 
     const/4 v4, 0x0
 
@@ -3051,11 +2982,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic h(Lcom/google/android/material/color/utilities/DynamicScheme;Lcom/google/android/material/color/utilities/DynamicColor;)Ljava/lang/Double;
@@ -3130,11 +3056,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic i(Ljava/util/function/Function;Lcom/google/android/material/color/utilities/DynamicScheme;Ljava/util/function/Function;Ljava/lang/Double;Ljava/lang/Double;)Ljava/lang/Double;
@@ -4271,11 +4192,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic k(Ljava/util/function/Function;Lcom/google/android/material/color/utilities/DynamicScheme;Ljava/lang/Double;Ljava/lang/Double;)Ljava/lang/Double;
@@ -4593,6 +4509,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static synthetic l(ILcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/TonalPalette;
@@ -4663,11 +4595,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic m(Lcom/google/android/material/color/utilities/DynamicScheme;Lcom/google/android/material/color/utilities/DynamicColor;)Ljava/lang/Double;
@@ -4742,11 +4669,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic n(DLjava/lang/Double;)Ljava/lang/Double;
@@ -4817,11 +4739,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic o(Ljava/util/function/Function;Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -4902,11 +4819,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic p(Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Function;Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -5163,6 +5075,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static synthetic q(Ljava/util/function/Function;Ljava/util/function/Function;Ljava/util/function/Function;Lcom/google/android/material/color/utilities/DynamicScheme;)Ljava/lang/Double;
@@ -5419,6 +5347,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static synthetic r(Ljava/lang/Double;)Ljava/lang/Double;
@@ -5583,11 +5527,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static toneAllowsLightForeground(D)Z
@@ -5635,7 +5574,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static toneMaxContrastDefault(Ljava/util/function/Function;Ljava/util/function/Function;Lcom/google/android/material/color/utilities/DynamicScheme;Ljava/util/function/Function;)D
@@ -5660,20 +5598,20 @@
     .end annotation
 
     .line 1
-    new-instance v2, Lra/f;
+    new-instance v2, Lcom/google/android/material/color/utilities/f;
 
     .line 2
     .line 3
-    invoke-direct {v2, p2}, Lra/f;-><init>(Lcom/google/android/material/color/utilities/DynamicScheme;)V
+    invoke-direct {v2, p2}, Lcom/google/android/material/color/utilities/f;-><init>(Lcom/google/android/material/color/utilities/DynamicScheme;)V
 
     .line 4
     .line 5
     .line 6
-    new-instance v3, Lra/g;
+    new-instance v3, Lcom/google/android/material/color/utilities/g;
 
     .line 7
     .line 8
-    invoke-direct {v3, p1, p2}, Lra/g;-><init>(Ljava/util/function/Function;Lcom/google/android/material/color/utilities/DynamicScheme;)V
+    invoke-direct {v3, p1, p2}, Lcom/google/android/material/color/utilities/g;-><init>(Ljava/util/function/Function;Lcom/google/android/material/color/utilities/DynamicScheme;)V
 
     .line 9
     .line 10
@@ -5926,6 +5864,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static toneMinContrastDefault(Ljava/util/function/Function;Ljava/util/function/Function;Lcom/google/android/material/color/utilities/DynamicScheme;Ljava/util/function/Function;)D
@@ -5950,29 +5904,29 @@
     .end annotation
 
     .line 1
-    new-instance v2, Lra/h;
+    new-instance v2, Lcom/google/android/material/color/utilities/h;
 
     .line 2
     .line 3
-    invoke-direct {v2, p2}, Lra/h;-><init>(Lcom/google/android/material/color/utilities/DynamicScheme;)V
+    invoke-direct {v2, p2}, Lcom/google/android/material/color/utilities/h;-><init>(Lcom/google/android/material/color/utilities/DynamicScheme;)V
 
     .line 4
     .line 5
     .line 6
-    new-instance v3, Lra/i;
+    new-instance v3, Lcom/google/android/material/color/utilities/i;
 
     .line 7
     .line 8
-    invoke-direct {v3, p0, p2, p1}, Lra/i;-><init>(Ljava/util/function/Function;Lcom/google/android/material/color/utilities/DynamicScheme;Ljava/util/function/Function;)V
+    invoke-direct {v3, p0, p2, p1}, Lcom/google/android/material/color/utilities/i;-><init>(Ljava/util/function/Function;Lcom/google/android/material/color/utilities/DynamicScheme;Ljava/util/function/Function;)V
 
     .line 9
     .line 10
     .line 11
-    new-instance v7, Lra/j;
+    new-instance v7, Lcom/google/android/material/color/utilities/j;
 
     .line 12
     .line 13
-    invoke-direct {v7}, Lra/j;-><init>()V
+    invoke-direct {v7}, Lcom/google/android/material/color/utilities/j;-><init>()V
 
     .line 14
     .line 15
@@ -6218,6 +6172,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static tonePrefersLightForeground(D)Z
@@ -6265,7 +6235,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -6416,8 +6385,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public getHct(Lcom/google/android/material/color/utilities/DynamicScheme;)Lcom/google/android/material/color/utilities/Hct;
@@ -6579,8 +6546,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public getTone(Lcom/google/android/material/color/utilities/DynamicScheme;)D
@@ -7024,29 +6989,29 @@
 
     .line 203
     .line 204
-    new-instance v7, Lra/l;
+    new-instance v7, Lcom/google/android/material/color/utilities/l;
 
     .line 205
     .line 206
-    invoke-direct {v7, p1}, Lra/l;-><init>(Lcom/google/android/material/color/utilities/DynamicScheme;)V
+    invoke-direct {v7, p1}, Lcom/google/android/material/color/utilities/l;-><init>(Lcom/google/android/material/color/utilities/DynamicScheme;)V
 
     .line 207
     .line 208
     .line 209
-    new-instance v8, Lra/m;
+    new-instance v8, Lcom/google/android/material/color/utilities/m;
 
     .line 210
     .line 211
-    invoke-direct {v8, v1, v2}, Lra/m;-><init>(D)V
+    invoke-direct {v8, v1, v2}, Lcom/google/android/material/color/utilities/m;-><init>(D)V
 
     .line 212
     .line 213
     .line 214
-    new-instance v1, Lra/n;
+    new-instance v1, Lcom/google/android/material/color/utilities/n;
 
     .line 215
     .line 216
-    invoke-direct {v1, v3}, Lra/n;-><init>(Lcom/google/android/material/color/utilities/DynamicColor;)V
+    invoke-direct {v1, v3}, Lcom/google/android/material/color/utilities/n;-><init>(Lcom/google/android/material/color/utilities/DynamicColor;)V
 
     .line 217
     .line 218
@@ -7061,11 +7026,11 @@
     move-object v1, v6
 
     .line 223
-    new-instance v6, Lra/o;
+    new-instance v6, Lcom/google/android/material/color/utilities/o;
 
     .line 224
     .line 225
-    invoke-direct {v6, v10, v11}, Lra/o;-><init>(D)V
+    invoke-direct {v6, v10, v11}, Lcom/google/android/material/color/utilities/o;-><init>(D)V
 
     .line 226
     .line 227
@@ -7076,11 +7041,11 @@
     move-object v2, v7
 
     .line 230
-    new-instance v7, Lra/p;
+    new-instance v7, Lcom/google/android/material/color/utilities/p;
 
     .line 231
     .line 232
-    invoke-direct {v7, v4, v5}, Lra/p;-><init>(D)V
+    invoke-direct {v7, v4, v5}, Lcom/google/android/material/color/utilities/p;-><init>(D)V
 
     .line 233
     .line 234
@@ -7269,4 +7234,36 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method

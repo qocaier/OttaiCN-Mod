@@ -141,6 +141,8 @@
     return p1
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public addAll(Ljava/util/Collection;)Z
@@ -286,6 +288,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public clear()V
@@ -314,6 +318,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public get(I)Ljava/lang/Object;
@@ -376,6 +382,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getLimit()I
@@ -404,6 +412,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public offer(Ljava/lang/Object;)Z
@@ -462,6 +472,8 @@
     return p1
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public peekLast()Ljava/lang/Object;
@@ -513,6 +525,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public poll()Ljava/lang/Object;
@@ -548,6 +562,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public remove()Ljava/lang/Object;
@@ -597,4 +613,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

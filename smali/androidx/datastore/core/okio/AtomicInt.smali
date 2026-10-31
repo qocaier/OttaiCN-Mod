@@ -5,9 +5,6 @@
 
 # instance fields
 .field private final delegate:Ljava/util/concurrent/atomic/AtomicInteger;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -82,6 +79,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final get()I
@@ -114,6 +112,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getAndIncrement()I
@@ -146,6 +145,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final incrementAndGet()I
@@ -178,4 +178,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

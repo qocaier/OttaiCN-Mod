@@ -40,6 +40,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getApplicationLocales(Landroid/content/Context;)Landroidx/core/os/LocaleListCompat;
@@ -164,6 +165,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getConfigurationLocales(Landroid/content/res/Configuration;)Landroidx/core/os/LocaleListCompat;
@@ -369,4 +371,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

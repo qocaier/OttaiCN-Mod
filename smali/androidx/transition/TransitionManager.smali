@@ -174,6 +174,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>()V
@@ -214,6 +216,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static beginDelayedTransition(Landroid/view/ViewGroup;)V
@@ -581,6 +584,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static endTransitions(Landroid/view/ViewGroup;)V
@@ -713,6 +719,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getRunningTransitions()Landroidx/collection/ArrayMap;
@@ -846,6 +853,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private getTransition(Landroidx/transition/Scene;)Landroidx/transition/Transition;
@@ -978,6 +987,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static go(Landroidx/transition/Scene;)V
@@ -1376,6 +1386,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 

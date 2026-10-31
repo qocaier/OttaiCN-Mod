@@ -6,8 +6,6 @@
 # direct methods
 .method public static final bundleOf()Landroid/os/Bundle;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 48
     new-instance v0, Landroid/os/Bundle;
@@ -21,10 +19,6 @@
 
 .method public static final varargs bundleOf([Lkotlin/Pair;)Landroid/os/Bundle;
     .locals 9
-    .param p0    # [Lkotlin/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "([",
@@ -35,9 +29,6 @@
             ">;)",
             "Landroid/os/Bundle;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -355,7 +346,7 @@
 
     move-result-object v5
 
-    invoke-static {v5}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v5}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 25
     const-class v8, Landroid/os/Parcelable;
@@ -369,7 +360,7 @@
     .line 26
     const-string v5, "null cannot be cast to non-null type kotlin.Array<android.os.Parcelable>"
 
-    invoke-static {v3, v5}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v3, [Landroid/os/Parcelable;
 
@@ -390,7 +381,7 @@
     .line 28
     const-string v5, "null cannot be cast to non-null type kotlin.Array<kotlin.String>"
 
-    invoke-static {v3, v5}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v3, [Ljava/lang/String;
 
@@ -411,7 +402,7 @@
     .line 30
     const-string v5, "null cannot be cast to non-null type kotlin.Array<kotlin.CharSequence>"
 
-    invoke-static {v3, v5}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v5}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     check-cast v3, [Ljava/lang/CharSequence;
 

@@ -19,34 +19,15 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSupportSQLiteOpenHelper.android.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SupportSQLiteOpenHelper.android.kt\nandroidx/sqlite/db/SupportSQLiteOpenHelper$Callback\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 Strings.kt\nkotlin/text/StringsKt__StringsKt\n*L\n1#1,366:1\n1#2:367\n1863#3,2:368\n108#4:370\n80#4,22:371\n*S KotlinDebug\n*F\n+ 1 SupportSQLiteOpenHelper.android.kt\nandroidx/sqlite/db/SupportSQLiteOpenHelper$Callback\n*L\n220#1:368,2\n228#1:370\n228#1:371,22\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSupportSQLiteOpenHelper.android.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SupportSQLiteOpenHelper.android.kt\nandroidx/sqlite/db/SupportSQLiteOpenHelper$Callback\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 Strings.kt\nkotlin/text/StringsKt__StringsKt\n*L\n1#1,366:1\n1#2:367\n1863#3,2:368\n108#4:370\n80#4,22:371\n*S KotlinDebug\n*F\n+ 1 SupportSQLiteOpenHelper.android.kt\nandroidx/sqlite/db/SupportSQLiteOpenHelper$Callback\n*L\n220#1:368,2\n228#1:370\n228#1:371,22\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field public static final Companion:Landroidx/sqlite/db/SupportSQLiteOpenHelper$Callback$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final TAG:Ljava/lang/String; = "SupportSQLite"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field public final version:I
-    .annotation build Lim/g;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -57,7 +38,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Callback$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Callback$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/sqlite/db/SupportSQLiteOpenHelper$Callback;->Companion:Landroidx/sqlite/db/SupportSQLiteOpenHelper$Callback$Companion;
 
@@ -110,7 +91,7 @@
     const/4 v1, 0x1
 
     .line 4
-    invoke-static {p1, v0, v1}, Lym/f0;->c2(Ljava/lang/String;Ljava/lang/String;Z)Z
+    invoke-static {p1, v0, v1}, Lkotlin/text/z;->v(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     .line 5
     .line 6
@@ -174,7 +155,7 @@
 
     .line 30
     .line 31
-    invoke-static {v5, v6}, Lkm/g0;->t(II)I
+    invoke-static {v5, v6}, Lkotlin/jvm/internal/j;->h(II)I
 
     .line 32
     .line 33
@@ -477,30 +458,27 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
 # virtual methods
 .method public onConfigure(Landroidx/sqlite/db/SupportSQLiteDatabase;)V
     .locals 1
-    .param p1    # Landroidx/sqlite/db/SupportSQLiteDatabase;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "db"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
 
 .method public onCorruption(Landroidx/sqlite/db/SupportSQLiteDatabase;)V
     .locals 3
-    .param p1    # Landroidx/sqlite/db/SupportSQLiteDatabase;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "second"
@@ -511,7 +489,7 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -683,7 +661,7 @@
 
     .line 84
     .line 85
-    invoke-static {v1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -769,7 +747,7 @@
 
     .line 125
     .line 126
-    invoke-static {v1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 127
     .line 128
@@ -900,28 +878,25 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public abstract onCreate(Landroidx/sqlite/db/SupportSQLiteDatabase;)V
-    .param p1    # Landroidx/sqlite/db/SupportSQLiteDatabase;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method
 
 .method public onDowngrade(Landroidx/sqlite/db/SupportSQLiteDatabase;II)V
     .locals 2
-    .param p1    # Landroidx/sqlite/db/SupportSQLiteDatabase;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "db"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1058,25 +1033,20 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onOpen(Landroidx/sqlite/db/SupportSQLiteDatabase;)V
     .locals 1
-    .param p1    # Landroidx/sqlite/db/SupportSQLiteDatabase;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "db"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
 
 .method public abstract onUpgrade(Landroidx/sqlite/db/SupportSQLiteDatabase;II)V
-    .param p1    # Landroidx/sqlite/db/SupportSQLiteDatabase;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method

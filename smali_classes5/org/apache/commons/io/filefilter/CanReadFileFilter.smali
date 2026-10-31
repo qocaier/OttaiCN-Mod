@@ -1,5 +1,5 @@
 .class public Lorg/apache/commons/io/filefilter/CanReadFileFilter;
-.super Lbp/a;
+.super Lv9/a;
 .source "SourceFile"
 
 # interfaces
@@ -7,11 +7,11 @@
 
 
 # static fields
-.field public static final CANNOT_READ:Lbp/n;
+.field public static final CANNOT_READ:Lv9/o;
 
-.field public static final CAN_READ:Lbp/n;
+.field public static final CAN_READ:Lv9/o;
 
-.field public static final READ_ONLY:Lbp/n;
+.field public static final READ_ONLY:Lv9/o;
 
 .field private static final serialVersionUID:J = 0x2c214a929094a84dL
 
@@ -30,11 +30,11 @@
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lorg/apache/commons/io/filefilter/CanReadFileFilter;->CAN_READ:Lbp/n;
+    sput-object v0, Lorg/apache/commons/io/filefilter/CanReadFileFilter;->CAN_READ:Lv9/o;
 
     .line 7
     .line 8
-    invoke-interface {v0}, Lbp/n;->negate()Lbp/n;
+    invoke-interface {v0}, Lv9/o;->negate()Lv9/o;
 
     .line 9
     .line 10
@@ -42,15 +42,15 @@
     move-result-object v1
 
     .line 12
-    sput-object v1, Lorg/apache/commons/io/filefilter/CanReadFileFilter;->CANNOT_READ:Lbp/n;
+    sput-object v1, Lorg/apache/commons/io/filefilter/CanReadFileFilter;->CANNOT_READ:Lv9/o;
 
     .line 13
     .line 14
-    sget-object v1, Lorg/apache/commons/io/filefilter/CanWriteFileFilter;->CANNOT_WRITE:Lbp/n;
+    sget-object v1, Lorg/apache/commons/io/filefilter/CanWriteFileFilter;->CANNOT_WRITE:Lv9/o;
 
     .line 15
     .line 16
-    invoke-interface {v0, v1}, Lbp/n;->and(Lbp/n;)Lbp/n;
+    invoke-interface {v0, v1}, Lv9/o;->and(Lv9/o;)Lv9/o;
 
     .line 17
     .line 18
@@ -58,19 +58,46 @@
     move-result-object v0
 
     .line 20
-    sput-object v0, Lorg/apache/commons/io/filefilter/CanReadFileFilter;->READ_ONLY:Lbp/n;
+    sput-object v0, Lorg/apache/commons/io/filefilter/CanReadFileFilter;->READ_ONLY:Lv9/o;
 
     .line 21
     .line 22
     return-void
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lbp/a;-><init>()V
+    invoke-direct {p0}, Lv9/a;-><init>()V
 
     .line 2
     .line 3
@@ -95,6 +122,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
@@ -105,7 +159,7 @@
     if-eqz p1, :cond_0
 
     .line 2
-    invoke-static {p1}, Lfm/q2;->a(Ljava/nio/file/Path;)Z
+    invoke-static {p1}, Lv9/h;->a(Ljava/nio/file/Path;)Z
 
     move-result p1
 
@@ -119,7 +173,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-virtual {p0, p1}, Lbp/a;->toFileVisitResult(Z)Ljava/nio/file/FileVisitResult;
+    invoke-virtual {p0, p1}, Lv9/a;->toFileVisitResult(Z)Ljava/nio/file/FileVisitResult;
 
     move-result-object p1
 
@@ -146,4 +200,48 @@
     const/4 p1, 0x0
 
     return p1
+.end method
+
+.method public bridge synthetic and(Lv9/o;)Lv9/o;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lv9/o;->and(Lv9/o;)Lv9/o;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic matches(Ljava/nio/file/Path;)Z
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lv9/o;->matches(Ljava/nio/file/Path;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic negate()Lv9/o;
+    .locals 1
+
+    .line 1
+    invoke-super {p0}, Lv9/o;->negate()Lv9/o;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic or(Lv9/o;)Lv9/o;
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lv9/o;->or(Lv9/o;)Lv9/o;
+
+    move-result-object p1
+
+    return-object p1
 .end method

@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Landroid/os/Parcelable;
-.implements Lg2/i;
+.implements Li/g;
 
 
 # static fields
@@ -27,16 +27,6 @@
 .field public c:[B
 
 .field public d:Ljava/util/Map;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;>;"
-        }
-    .end annotation
-.end field
 
 .field public e:Ljava/lang/Throwable;
 
@@ -48,11 +38,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Lanetwork/channel/aidl/j;
+    new-instance v0, Lj/f;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lanetwork/channel/aidl/j;-><init>()V
+    invoke-direct {v0}, Lj/f;-><init>()V
 
     .line 4
     .line 5
@@ -74,6 +64,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -104,7 +95,7 @@
     return-void
 .end method
 
-.method public static a(Landroid/os/Parcel;)Lanetwork/channel/aidl/NetworkResponse;
+.method public static d(Landroid/os/Parcel;)Lanetwork/channel/aidl/NetworkResponse;
     .locals 5
 
     .line 1
@@ -277,15 +268,16 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
 # virtual methods
-.method public b()[B
+.method public b()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lanetwork/channel/aidl/NetworkResponse;->c:[B
+    iget-object v0, p0, Lanetwork/channel/aidl/NetworkResponse;->b:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -307,9 +299,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public c([B)V
+.method public describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public e([B)V
     .locals 0
 
     .line 1
@@ -342,18 +343,8 @@
     .line 25
 .end method
 
-.method public d(Ljava/util/Map;)V
+.method public f(Ljava/util/Map;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;>;)V"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lanetwork/channel/aidl/NetworkResponse;->d:Ljava/util/Map;
@@ -385,127 +376,7 @@
     .line 25
 .end method
 
-.method public describeContents()I
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public e()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lanetwork/channel/aidl/NetworkResponse;->b:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public g()Lanetwork/channel/statist/StatisticData;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lanetwork/channel/aidl/NetworkResponse;->f:Lanetwork/channel/statist/StatisticData;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public getError()Ljava/lang/Throwable;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lanetwork/channel/aidl/NetworkResponse;->e:Ljava/lang/Throwable;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public getStatusCode()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lanetwork/channel/aidl/NetworkResponse;->a:I
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public h(Ljava/lang/String;)V
+.method public g(Ljava/lang/String;)V
     .locals 0
 
     .line 1
@@ -538,40 +409,7 @@
     .line 25
 .end method
 
-.method public i(Ljava/lang/Throwable;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lanetwork/channel/aidl/NetworkResponse;->e:Ljava/lang/Throwable;
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public j(Lanetwork/channel/statist/StatisticData;)V
+.method public h(Lanetwork/channel/statist/StatisticData;)V
     .locals 0
 
     .line 1
@@ -604,45 +442,7 @@
     .line 25
 .end method
 
-.method public k()Ljava/util/Map;
-    .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Map<",
-            "Ljava/lang/String;",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;>;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lanetwork/channel/aidl/NetworkResponse;->d:Ljava/util/Map;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public l(I)V
+.method public i(I)V
     .locals 0
 
     .line 1
@@ -1137,6 +937,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V

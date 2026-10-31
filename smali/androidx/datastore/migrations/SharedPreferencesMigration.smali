@@ -24,22 +24,9 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSharedPreferencesMigration.android.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SharedPreferencesMigration.android.kt\nandroidx/datastore/migrations/SharedPreferencesMigration\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,323:1\n1747#2,3:324\n1855#2,2:327\n*S KotlinDebug\n*F\n+ 1 SharedPreferencesMigration.android.kt\nandroidx/datastore/migrations/SharedPreferencesMigration\n*L\n158#1:324,3\n178#1:327,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSharedPreferencesMigration.android.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SharedPreferencesMigration.android.kt\nandroidx/datastore/migrations/SharedPreferencesMigration\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,323:1\n1747#2,3:324\n1855#2,2:327\n*S KotlinDebug\n*F\n+ 1 SharedPreferencesMigration.android.kt\nandroidx/datastore/migrations/SharedPreferencesMigration\n*L\n158#1:324,3\n178#1:327,2\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private final context:Landroid/content/Context;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final keySet:Ljava/util/Set;
     .annotation system Ldalvik/annotation/Signature;
@@ -49,80 +36,32 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end field
 
-.field private final migrate:Ljm/q;
+.field private final migrate:Lq8/q;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/q<",
-            "Landroidx/datastore/migrations/SharedPreferencesView;",
-            "TT;",
-            "Lul/c<",
-            "-TT;>;",
-            "Ljava/lang/Object;",
-            ">;"
+            "Lq8/q;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
 .field private final name:Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
-.field private final sharedPrefs$delegate:Ljl/c0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final sharedPrefs$delegate:Lkotlin/c;
 
-.field private final shouldRunMigration:Ljm/p;
+.field private final shouldRunMigration:Lq8/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/p<",
-            "TT;",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Boolean;",
-            ">;",
-            "Ljava/lang/Object;",
-            ">;"
+            "Lq8/p;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Ljm/p;Ljm/q;)V
+.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lq8/p;Lq8/q;)V
     .locals 8
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -131,47 +70,31 @@
             "Ljava/util/Set<",
             "Ljava/lang/String;",
             ">;",
-            "Ljm/p<",
-            "-TT;-",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Boolean;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Ljm/q<",
-            "-",
-            "Landroidx/datastore/migrations/SharedPreferencesView;",
-            "-TT;-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;)V"
+            "Lq8/p;",
+            "Lq8/q;",
+            ")V"
         }
-    .end annotation
-
-    .annotation build Lim/k;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "sharedPreferencesName"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "keysToMigrate"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "shouldRunMigration"
 
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "migrate"
 
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     new-instance v2, Landroidx/datastore/migrations/SharedPreferencesMigration$4;
@@ -191,12 +114,12 @@
     move-object v5, p5
 
     .line 24
-    invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Ljm/a;Ljava/util/Set;Ljm/p;Ljm/q;Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lq8/a;Ljava/util/Set;Lq8/p;Lq8/q;Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Ljm/p;Ljm/q;ILkm/v;)V
+.method public synthetic constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lq8/p;Lq8/q;ILkotlin/jvm/internal/f;)V
     .locals 6
 
     and-int/lit8 p7, p6, 0x4
@@ -220,7 +143,7 @@
 
     const/4 p3, 0x0
 
-    invoke-direct {p4, p3}, Landroidx/datastore/migrations/SharedPreferencesMigration$3;-><init>(Lul/c;)V
+    invoke-direct {p4, p3}, Landroidx/datastore/migrations/SharedPreferencesMigration$3;-><init>(Lkotlin/coroutines/e;)V
 
     :cond_1
     move-object v0, p0
@@ -234,29 +157,13 @@
     move-object v5, p5
 
     .line 22
-    invoke-direct/range {v0 .. v5}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Ljm/p;Ljm/q;)V
+    invoke-direct/range {v0 .. v5}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lq8/p;Lq8/q;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Ljm/q;)V
+.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lq8/q;)V
     .locals 9
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -265,36 +172,27 @@
             "Ljava/util/Set<",
             "Ljava/lang/String;",
             ">;",
-            "Ljm/q<",
-            "-",
-            "Landroidx/datastore/migrations/SharedPreferencesView;",
-            "-TT;-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;)V"
+            "Lq8/q;",
+            ")V"
         }
-    .end annotation
-
-    .annotation build Lim/k;
     .end annotation
 
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "sharedPreferencesName"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "keysToMigrate"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "migrate"
 
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x8
 
@@ -312,56 +210,35 @@
 
     move-object v6, p4
 
-    invoke-direct/range {v1 .. v8}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Ljm/p;Ljm/q;ILkm/v;)V
+    invoke-direct/range {v1 .. v8}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lq8/p;Lq8/q;ILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljm/q;)V
+.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Lq8/q;)V
     .locals 9
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             "Ljava/lang/String;",
-            "Ljm/q<",
-            "-",
-            "Landroidx/datastore/migrations/SharedPreferencesView;",
-            "-TT;-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;)V"
+            "Lq8/q;",
+            ")V"
         }
-    .end annotation
-
-    .annotation build Lim/k;
     .end annotation
 
     .line 2
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "sharedPreferencesName"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "migrate"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0xc
 
@@ -379,76 +256,41 @@
 
     move-object v6, p3
 
-    invoke-direct/range {v1 .. v8}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Ljm/p;Ljm/q;ILkm/v;)V
+    invoke-direct/range {v1 .. v8}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lq8/p;Lq8/q;ILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Ljm/a;Ljava/util/Set;Ljm/p;Ljm/q;)V
+.method public constructor <init>(Lq8/a;Ljava/util/Set;Lq8/p;Lq8/q;)V
     .locals 8
-    .param p1    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/a<",
-            "+",
-            "Landroid/content/SharedPreferences;",
-            ">;",
+            "Lq8/a;",
             "Ljava/util/Set<",
             "Ljava/lang/String;",
             ">;",
-            "Ljm/p<",
-            "-TT;-",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Boolean;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Ljm/q<",
-            "-",
-            "Landroidx/datastore/migrations/SharedPreferencesView;",
-            "-TT;-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;)V"
+            "Lq8/p;",
+            "Lq8/q;",
+            ")V"
         }
-    .end annotation
-
-    .annotation build Lim/k;
     .end annotation
 
     const-string v0, "produceSharedPreferences"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "keysToMigrate"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "shouldRunMigration"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "migrate"
 
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v6, 0x0
 
@@ -465,12 +307,12 @@
     move-object v5, p4
 
     .line 19
-    invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Ljm/a;Ljava/util/Set;Ljm/p;Ljm/q;Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lq8/a;Ljava/util/Set;Lq8/p;Lq8/q;Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljm/a;Ljava/util/Set;Ljm/p;Ljm/q;ILkm/v;)V
+.method public synthetic constructor <init>(Lq8/a;Ljava/util/Set;Lq8/p;Lq8/q;ILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p6, p5, 0x2
@@ -492,43 +334,26 @@
 
     const/4 p5, 0x0
 
-    invoke-direct {p3, p5}, Landroidx/datastore/migrations/SharedPreferencesMigration$2;-><init>(Lul/c;)V
+    invoke-direct {p3, p5}, Landroidx/datastore/migrations/SharedPreferencesMigration$2;-><init>(Lkotlin/coroutines/e;)V
 
     .line 18
     :cond_1
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Ljm/a;Ljava/util/Set;Ljm/p;Ljm/q;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lq8/a;Ljava/util/Set;Lq8/p;Lq8/q;)V
 
     return-void
 .end method
 
-.method private constructor <init>(Ljm/a;Ljava/util/Set;Ljm/p;Ljm/q;Landroid/content/Context;Ljava/lang/String;)V
+.method private constructor <init>(Lq8/a;Ljava/util/Set;Lq8/p;Lq8/q;Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/a<",
-            "+",
-            "Landroid/content/SharedPreferences;",
-            ">;",
+            "Lq8/a;",
             "Ljava/util/Set<",
             "Ljava/lang/String;",
             ">;",
-            "Ljm/p<",
-            "-TT;-",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Boolean;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Ljm/q<",
-            "-",
-            "Landroidx/datastore/migrations/SharedPreferencesView;",
-            "-TT;-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;",
+            "Lq8/p;",
+            "Lq8/q;",
             "Landroid/content/Context;",
             "Ljava/lang/String;",
             ")V"
@@ -539,10 +364,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
-    iput-object p3, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->shouldRunMigration:Ljm/p;
+    iput-object p3, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->shouldRunMigration:Lq8/p;
 
     .line 7
-    iput-object p4, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->migrate:Ljm/q;
+    iput-object p4, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->migrate:Lq8/q;
 
     .line 8
     iput-object p5, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->context:Landroid/content/Context;
@@ -551,11 +376,11 @@
     iput-object p6, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->name:Ljava/lang/String;
 
     .line 10
-    invoke-static {p1}, Lkotlin/e;->b(Ljm/a;)Ljl/c0;
+    invoke-static {p1}, Lkotlin/d;->b(Lq8/a;)Lkotlin/c;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->sharedPrefs$delegate:Ljl/c0;
+    iput-object p1, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->sharedPrefs$delegate:Lkotlin/c;
 
     .line 11
     invoke-static {}, Landroidx/datastore/migrations/SharedPreferencesMigration_androidKt;->getMIGRATE_ALL_KEYS()Ljava/util/Set;
@@ -570,7 +395,7 @@
 
     .line 12
     :cond_0
-    invoke-static {p2}, Lll/r0;->e6(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {p2}, Lkotlin/collections/z;->i0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     move-result-object p1
 
@@ -581,7 +406,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljm/a;Ljava/util/Set;Ljm/p;Ljm/q;Landroid/content/Context;Ljava/lang/String;ILkm/v;)V
+.method public synthetic constructor <init>(Lq8/a;Ljava/util/Set;Lq8/p;Lq8/q;Landroid/content/Context;Ljava/lang/String;ILkotlin/jvm/internal/f;)V
     .locals 7
 
     and-int/lit8 p7, p7, 0x4
@@ -593,7 +418,7 @@
 
     const/4 p7, 0x0
 
-    invoke-direct {p3, p7}, Landroidx/datastore/migrations/SharedPreferencesMigration$1;-><init>(Lul/c;)V
+    invoke-direct {p3, p7}, Landroidx/datastore/migrations/SharedPreferencesMigration$1;-><init>(Lkotlin/coroutines/e;)V
 
     :cond_0
     move-object v0, p0
@@ -611,61 +436,37 @@
     move-object v6, p6
 
     .line 15
-    invoke-direct/range {v0 .. v6}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Ljm/a;Ljava/util/Set;Ljm/p;Ljm/q;Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v6}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lq8/a;Ljava/util/Set;Lq8/p;Lq8/q;Landroid/content/Context;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Ljm/a;Ljava/util/Set;Ljm/q;)V
+.method public constructor <init>(Lq8/a;Ljava/util/Set;Lq8/q;)V
     .locals 8
-    .param p1    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/a<",
-            "+",
-            "Landroid/content/SharedPreferences;",
-            ">;",
+            "Lq8/a;",
             "Ljava/util/Set<",
             "Ljava/lang/String;",
             ">;",
-            "Ljm/q<",
-            "-",
-            "Landroidx/datastore/migrations/SharedPreferencesView;",
-            "-TT;-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;)V"
+            "Lq8/q;",
+            ")V"
         }
-    .end annotation
-
-    .annotation build Lim/k;
     .end annotation
 
     .line 3
     const-string v0, "produceSharedPreferences"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "keysToMigrate"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "migrate"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v6, 0x4
 
@@ -681,50 +482,30 @@
 
     move-object v5, p3
 
-    invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Ljm/a;Ljava/util/Set;Ljm/p;Ljm/q;ILkm/v;)V
+    invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lq8/a;Ljava/util/Set;Lq8/p;Lq8/q;ILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Ljm/a;Ljm/q;)V
+.method public constructor <init>(Lq8/a;Lq8/q;)V
     .locals 8
-    .param p1    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/a<",
-            "+",
-            "Landroid/content/SharedPreferences;",
-            ">;",
-            "Ljm/q<",
-            "-",
-            "Landroidx/datastore/migrations/SharedPreferencesView;",
-            "-TT;-",
-            "Lul/c<",
-            "-TT;>;+",
-            "Ljava/lang/Object;",
-            ">;)V"
+            "Lq8/a;",
+            "Lq8/q;",
+            ")V"
         }
-    .end annotation
-
-    .annotation build Lim/k;
     .end annotation
 
     .line 4
     const-string v0, "produceSharedPreferences"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "migrate"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v6, 0x6
 
@@ -740,7 +521,7 @@
 
     move-object v5, p2
 
-    invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Ljm/a;Ljava/util/Set;Ljm/p;Ljm/q;ILkm/v;)V
+    invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lq8/a;Ljava/util/Set;Lq8/p;Lq8/q;ILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
@@ -805,11 +586,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->sharedPrefs$delegate:Ljl/c0;
+    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->sharedPrefs$delegate:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lkotlin/c;->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -833,6 +614,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final getSharedPrefsBackup(Ljava/io/File;)Ljava/io/File;
@@ -939,6 +721,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private final getSharedPrefsFile(Landroid/content/Context;Ljava/lang/String;)Ljava/io/File;
@@ -1027,19 +810,13 @@
 
 
 # virtual methods
-.method public cleanUp(Lul/c;)Ljava/lang/Object;
+.method public cleanUp(Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 2
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
@@ -1048,9 +825,6 @@
         value = {
             Ljava/io/IOException;
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -1206,7 +980,7 @@
     .line 74
     .line 75
     :cond_3
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 76
     .line 77
@@ -1381,28 +1155,26 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
-.method public migrate(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public migrate(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 4
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->migrate:Ljm/q;
+    iget-object v0, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->migrate:Lq8/q;
 
     .line 2
     .line 3
@@ -1427,7 +1199,7 @@
     .line 12
     .line 13
     .line 14
-    invoke-interface {v0, v1, p1, p2}, Ljm/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1, p1, p2}, Lq8/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -1468,24 +1240,15 @@
     .line 48
 .end method
 
-.method public shouldMigrate(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+.method public shouldMigrate(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 4
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
-            "Lul/c<",
-            "-",
-            "Ljava/lang/Boolean;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -1535,7 +1298,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Landroidx/datastore/migrations/SharedPreferencesMigration$shouldMigrate$1;-><init>(Landroidx/datastore/migrations/SharedPreferencesMigration;Lul/c;)V
+    invoke-direct {v0, p0, p2}, Landroidx/datastore/migrations/SharedPreferencesMigration$shouldMigrate$1;-><init>(Landroidx/datastore/migrations/SharedPreferencesMigration;Lkotlin/coroutines/e;)V
 
     .line 23
     .line 24
@@ -1545,7 +1308,7 @@
 
     .line 26
     .line 27
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -1576,7 +1339,7 @@
 
     .line 41
     .line 42
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 43
     .line 44
@@ -1602,12 +1365,12 @@
 
     .line 54
     :cond_2
-    invoke-static {p2}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p2}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 55
     .line 56
     .line 57
-    iget-object p2, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->shouldRunMigration:Ljm/p;
+    iget-object p2, p0, Landroidx/datastore/migrations/SharedPreferencesMigration;->shouldRunMigration:Lq8/p;
 
     .line 58
     .line 59
@@ -1619,7 +1382,7 @@
 
     .line 62
     .line 63
-    invoke-interface {p2, p1, v0}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1, v0}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 64
     .line 65
@@ -1658,7 +1421,7 @@
 
     .line 79
     .line 80
-    invoke-static {v0}, Lxl/a;->a(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Lk8/a;->a(Z)Ljava/lang/Boolean;
 
     .line 81
     .line 82
@@ -1698,7 +1461,7 @@
 
     .line 98
     .line 99
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 100
     .line 101
@@ -1801,7 +1564,7 @@
     .line 145
     .line 146
     :goto_3
-    invoke-static {v3}, Lxl/a;->a(Z)Ljava/lang/Boolean;
+    invoke-static {v3}, Lk8/a;->a(Z)Ljava/lang/Boolean;
 
     .line 147
     .line 148
@@ -1893,4 +1656,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

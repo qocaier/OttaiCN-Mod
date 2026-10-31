@@ -27,14 +27,6 @@
 # direct methods
 .method public constructor <init>(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bufferSize"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -144,20 +136,13 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
 # virtual methods
 .method public final buffer(B)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$AbstractBufferedEncoder;->buffer:[B
@@ -205,14 +190,6 @@
 
 .method public final bufferFixed32NoTag(I)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$AbstractBufferedEncoder;->buffer:[B
@@ -349,18 +326,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final bufferFixed64NoTag(J)V
     .locals 9
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$AbstractBufferedEncoder;->buffer:[B
@@ -737,18 +707,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public final bufferInt32NoTag(I)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     if-ltz p1, :cond_0
@@ -791,16 +758,6 @@
 
 .method public final bufferTag(II)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10
-        }
-        names = {
-            "fieldNumber",
-            "wireType"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p1, p2}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
@@ -861,14 +818,6 @@
 
 .method public final bufferUInt32NoTag(I)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->access$100()Z
@@ -1228,18 +1177,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public final bufferUInt64NoTag(J)V
     .locals 11
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-static {}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->access$100()Z
@@ -1617,6 +1563,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public final getTotalBytesWritten()I
@@ -1645,6 +1596,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final spaceLeft()I
@@ -1677,4 +1629,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

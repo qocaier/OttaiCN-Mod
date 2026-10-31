@@ -149,6 +149,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -312,6 +313,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private applyInsets(Landroid/view/View;Landroid/graphics/Rect;ZZZZ)Z
@@ -1531,6 +1533,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private init(Landroid/content/Context;)V
@@ -1680,6 +1683,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private postAddActionBarHideOffset()V
@@ -1714,6 +1718,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private postRemoveActionBarHideOffset()V
@@ -1748,6 +1753,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private removeActionBarHideOffset()V
@@ -1780,6 +1786,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private shouldHideActionBarOnFling(F)Z
@@ -1905,6 +1912,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -1941,6 +1949,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public checkLayoutParams(Landroid/view/ViewGroup$LayoutParams;)Z
@@ -2006,6 +2015,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public draw(Landroid/graphics/Canvas;)V
@@ -2159,6 +2169,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public fitSystemWindows(Landroid/graphics/Rect;)Z
@@ -2298,6 +2309,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNestedScrollAxes()I
@@ -2330,6 +2342,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTitle()Ljava/lang/CharSequence;
@@ -2364,6 +2377,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public haltActionBarHideOffsetAnimations()V
@@ -2405,6 +2419,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasIcon()Z
@@ -2439,6 +2454,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasLogo()Z
@@ -2473,6 +2489,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hideOverflowMenu()Z
@@ -2507,6 +2524,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public initFeature(I)V
@@ -2626,6 +2644,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public isHideOnContentScrollEnabled()Z
@@ -2654,6 +2673,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isInOverlayMode()Z
@@ -2682,6 +2702,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isOverflowMenuShowPending()Z
@@ -2716,6 +2737,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isOverflowMenuShowing()Z
@@ -2750,6 +2772,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onApplyWindowInsets(Landroid/view/WindowInsets;)Landroid/view/WindowInsets;
@@ -3123,6 +3146,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -3194,6 +3222,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onLayout(ZIIII)V
@@ -5920,6 +5949,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onNestedPreFling(Landroid/view/View;FF)Z
@@ -6296,6 +6331,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onWindowVisibilityChanged(I)V
@@ -6465,6 +6501,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public restoreToolbarHierarchyState(Landroid/util/SparseArray;)V
@@ -6665,6 +6703,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setActionBarVisibilityCallback(Landroidx/appcompat/widget/ActionBarOverlayLayout$ActionBarVisibilityCallback;)V
@@ -6772,6 +6811,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setHasNonEmbeddedTabs(Z)V
@@ -7008,6 +7048,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setOverlayMode(Z)V
@@ -7195,4 +7236,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

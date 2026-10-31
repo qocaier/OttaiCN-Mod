@@ -48,6 +48,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -78,6 +80,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final getHandler()Landroid/os/Handler;
@@ -106,6 +110,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final isDestroyed()Z
@@ -134,6 +140,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onActivityCreated(Landroid/os/Bundle;)V
@@ -171,6 +179,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -210,6 +220,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -330,6 +342,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
@@ -493,11 +507,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onDestroy()V
@@ -630,6 +639,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public onRequestPermissionsResult(I[Ljava/lang/String;[I)V
@@ -777,11 +787,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public final postDelayed(Ljava/lang/Runnable;J)V
@@ -850,6 +855,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public final postRunnable(Ljava/lang/Runnable;)V
@@ -889,6 +904,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setContainerId(I)V
@@ -922,4 +939,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

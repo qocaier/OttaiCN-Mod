@@ -8,14 +8,6 @@
 
 # virtual methods
 .method public abstract containsFields(Ljava/lang/String;)Z
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "key"
-        }
-    .end annotation
 .end method
 
 .method public abstract getFields()Ljava/util/Map;
@@ -49,25 +41,7 @@
 .end method
 
 .method public abstract getFieldsOrDefault(Ljava/lang/String;Landroidx/datastore/preferences/protobuf/Value;)Landroidx/datastore/preferences/protobuf/Value;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "key",
-            "defaultValue"
-        }
-    .end annotation
 .end method
 
 .method public abstract getFieldsOrThrow(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Value;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "key"
-        }
-    .end annotation
 .end method

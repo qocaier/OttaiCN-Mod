@@ -289,6 +289,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public retrieveOption(Landroidx/camera/core/impl/Config$Option;)Ljava/lang/Object;

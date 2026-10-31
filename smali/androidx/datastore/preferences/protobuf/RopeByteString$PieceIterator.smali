@@ -43,14 +43,6 @@
 # direct methods
 .method private constructor <init>(Landroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "root"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -115,14 +107,6 @@
 
 .method private getLeafByLeft(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "root"
-        }
-    .end annotation
 
     .line 1
     :goto_0
@@ -302,6 +286,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -341,6 +327,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public next()Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
@@ -408,4 +395,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

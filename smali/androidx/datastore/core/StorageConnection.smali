@@ -20,74 +20,30 @@
 
 # virtual methods
 .method public abstract getCoordinator()Landroidx/datastore/core/InterProcessCoordinator;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
-.method public abstract readScope(Ljm/q;Lul/c;)Ljava/lang/Object;
-    .param p1    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract readScope(Lq8/q;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
-            "Ljm/q<",
-            "-",
-            "Landroidx/datastore/core/ReadScope<",
-            "TT;>;-",
-            "Ljava/lang/Boolean;",
-            "-",
-            "Lul/c<",
-            "-TR;>;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-TR;>;)",
+            "Lq8/q;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method
 
-.method public abstract writeScope(Ljm/p;Lul/c;)Ljava/lang/Object;
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract writeScope(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-",
-            "Landroidx/datastore/core/WriteScope<",
-            "TT;>;-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method

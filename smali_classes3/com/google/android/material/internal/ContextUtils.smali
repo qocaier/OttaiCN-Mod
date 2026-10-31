@@ -40,7 +40,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getActivity(Landroid/content/Context;)Landroid/app/Activity;
@@ -98,5 +97,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

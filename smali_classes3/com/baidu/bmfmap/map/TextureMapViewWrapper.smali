@@ -96,11 +96,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -144,7 +139,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHeight()I
@@ -186,7 +180,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLogoPosition()Lcom/baidu/mapapi/map/LogoPosition;
@@ -228,7 +221,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScaleControlPosition()Landroid/graphics/Point;
@@ -267,7 +259,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWidth()I
@@ -309,7 +300,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setCustomMapStyleEnable(Z)V
@@ -347,7 +337,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCustomMapStylePath(Ljava/lang/String;)V
@@ -385,7 +374,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLogoPosition(Lcom/baidu/mapapi/map/LogoPosition;)V
@@ -423,7 +411,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMapCustomStyle(Lcom/baidu/mapapi/map/MapCustomStyleOptions;Lcom/baidu/mapapi/map/CustomMapStyleCallBack;)V
@@ -497,11 +484,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setScaleControlPosition(Landroid/graphics/Point;)V
@@ -539,7 +521,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setZoomControlsPosition(Landroid/graphics/Point;)V
@@ -577,7 +558,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public showScaleControl(Z)V
@@ -615,7 +595,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public showZoomControl(Ljava/lang/Boolean;)V
@@ -657,5 +636,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

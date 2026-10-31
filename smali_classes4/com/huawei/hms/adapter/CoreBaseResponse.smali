@@ -55,6 +55,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -85,6 +87,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getJsonBody()Ljava/lang/String;
@@ -113,6 +117,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getJsonHeader()Ljava/lang/String;
@@ -141,6 +147,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPendingIntent()Landroid/app/PendingIntent;
@@ -169,6 +177,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setIntent(Landroid/content/Intent;)V
@@ -202,6 +212,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setJsonBody(Ljava/lang/String;)V
@@ -235,6 +247,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setJsonHeader(Ljava/lang/String;)V
@@ -268,6 +282,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPendingIntent(Landroid/app/PendingIntent;)V
@@ -301,4 +317,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

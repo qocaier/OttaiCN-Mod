@@ -32,7 +32,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static Coordinate_encryptEx(FFLjava/lang/String;)Lcom/baidu/mapapi/model/LatLng;
@@ -190,11 +189,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static decodeLocation(Ljava/lang/String;)Lcom/baidu/mapapi/model/LatLng;
@@ -248,7 +242,6 @@
     return-object p0
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static decodeLocationList(Ljava/lang/String;)Ljava/util/List;
@@ -293,7 +286,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static decodeLocationList2D(Ljava/lang/String;)Ljava/util/List;
@@ -339,7 +331,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static decodeNodeLocation(Ljava/lang/String;)Lcom/baidu/mapapi/model/LatLng;
@@ -393,7 +384,6 @@
     return-object p0
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static getDistance(Lcom/baidu/platform/comapi/basestruct/Point;Lcom/baidu/platform/comapi/basestruct/Point;)D
@@ -464,11 +454,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static getMCDistanceByOneLatLngAndRadius(Lcom/baidu/mapapi/model/LatLng;I)I
@@ -558,11 +543,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static ll2mc(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/platform/comapi/basestruct/GeoPoint;
@@ -616,7 +596,6 @@
     return-object p0
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static ll2mcDirect(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/platform/comapi/basestruct/GeoPoint;
@@ -651,7 +630,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static ll2point(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/platform/comapi/basestruct/Point;
@@ -705,7 +683,6 @@
     return-object p0
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static mc2ll(Lcom/baidu/platform/comapi/basestruct/GeoPoint;)Lcom/baidu/mapapi/model/LatLng;
@@ -759,7 +736,6 @@
     return-object p0
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static mc2llDirect(Lcom/baidu/platform/comapi/basestruct/GeoPoint;)Lcom/baidu/mapapi/model/LatLng;
@@ -794,5 +770,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

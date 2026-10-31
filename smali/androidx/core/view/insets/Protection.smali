@@ -172,6 +172,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(I)V
@@ -331,6 +333,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic a(Landroidx/core/view/insets/Protection;Landroid/animation/ValueAnimator;)V
@@ -504,6 +507,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private cancelUserInsetsAmountAnimation()V
@@ -541,6 +545,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private setAlphaInternal(F)V
@@ -647,6 +652,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private updateInsetAmount()V
@@ -835,6 +841,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -962,11 +970,11 @@
 
     .line 58
     .line 59
-    new-instance v0, Lh1/b;
+    new-instance v0, Landroidx/core/view/insets/b;
 
     .line 60
     .line 61
-    invoke-direct {v0, p0}, Lh1/b;-><init>(Landroidx/core/view/insets/Protection;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/insets/b;-><init>(Landroidx/core/view/insets/Protection;)V
 
     .line 62
     .line 63
@@ -992,6 +1000,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public animateInsetsAmount(F)V
@@ -1117,11 +1126,11 @@
 
     .line 58
     .line 59
-    new-instance v0, Lh1/a;
+    new-instance v0, Landroidx/core/view/insets/a;
 
     .line 60
     .line 61
-    invoke-direct {v0, p0}, Lh1/a;-><init>(Landroidx/core/view/insets/Protection;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/insets/a;-><init>(Landroidx/core/view/insets/Protection;)V
 
     .line 62
     .line 63
@@ -1147,6 +1156,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public dispatchColorHint(I)V
@@ -1284,6 +1294,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getAlpha()F
@@ -1316,6 +1329,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAttributes()Landroidx/core/view/insets/Protection$Attributes;
@@ -1344,6 +1358,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getController()Ljava/lang/Object;
@@ -1372,6 +1387,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInsetAmount()F
@@ -1400,6 +1416,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSide()I
@@ -1428,6 +1445,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getThickness(I)I
@@ -1569,6 +1587,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setController(Ljava/lang/Object;)V
@@ -1764,6 +1783,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setSystemAlpha(F)V
@@ -2456,4 +2476,56 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method

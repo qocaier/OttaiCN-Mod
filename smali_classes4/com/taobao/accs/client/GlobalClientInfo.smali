@@ -210,6 +210,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private constructor <init>(Landroid/content/Context;)V
@@ -331,6 +332,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private a(Ljava/lang/String;Ljava/util/Map;)V
@@ -433,6 +436,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static getContext()Landroid/content/Context;
@@ -461,6 +474,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getInstance(Landroid/content/Context;)Lcom/taobao/accs/client/GlobalClientInfo;
@@ -596,6 +611,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -628,6 +645,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getActivityManager()Landroid/app/ActivityManager;
@@ -673,6 +692,8 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAllService(Ljava/lang/String;)Ljava/util/Map;
@@ -809,6 +830,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getAppReceiver()Ljava/util/Map;
@@ -846,6 +869,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getConnectivityManager()Landroid/net/ConnectivityManager;
@@ -891,6 +916,8 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getListener(Ljava/lang/String;)Lcom/taobao/accs/base/AccsDataListener;
@@ -930,6 +957,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getNick(Ljava/lang/String;)Ljava/lang/String;
@@ -985,6 +1014,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getPackageInfo()Landroid/content/pm/PackageInfo;
@@ -1119,6 +1150,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getService(Ljava/lang/String;)Ljava/lang/String;
@@ -1224,6 +1256,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getUserId(Ljava/lang/String;)Ljava/lang/String;
@@ -1279,6 +1313,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public registerAllRemoteService(Ljava/lang/String;Ljava/util/Map;)V
@@ -1376,6 +1412,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public registerListener(Ljava/lang/String;Lcom/taobao/accs/base/AccsAbstractDataListener;)V
@@ -1476,6 +1522,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public registerRemoteService(Ljava/lang/String;Ljava/lang/String;)V
@@ -1540,6 +1596,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public registerService(Ljava/lang/String;Ljava/lang/String;)V
@@ -1621,6 +1687,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public setAppReceiver(Ljava/lang/String;Lcom/taobao/accs/IAppReceiver;)V
@@ -1718,6 +1794,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public setLoginInfoImpl(Ljava/lang/String;Lcom/taobao/accs/ILoginInfo;)V
@@ -1798,6 +1884,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public setRemoteAgooAppReceiver(Lcom/taobao/accs/IAgooAppReceiver;)V
@@ -1833,6 +1929,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setRemoteAppReceiver(Ljava/lang/String;Lcom/taobao/accs/IAppReceiver;)V
@@ -1918,6 +2016,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public unRegisterService(Ljava/lang/String;)V
@@ -1962,6 +2070,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public unregisterListener(Ljava/lang/String;)V
@@ -1997,6 +2107,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public unregisterRemoteListener(Ljava/lang/String;)V
@@ -2032,6 +2144,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public unregisterRemoteService(Ljava/lang/String;)V
@@ -2067,4 +2181,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -55,6 +55,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -107,6 +109,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getAdapter()Lcom/qiyukf/uikit/common/adapter/a;
@@ -135,6 +139,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public abstract getResId()I
@@ -185,6 +191,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public abstract inflate()V
@@ -225,6 +233,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isLastItem()Z
@@ -270,6 +280,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public mutable()Z
@@ -302,6 +314,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onImmutable()V
@@ -355,6 +369,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setContext(Landroid/content/Context;)V
@@ -388,6 +404,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPosition(I)V
@@ -421,4 +439,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

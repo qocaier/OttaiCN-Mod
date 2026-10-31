@@ -141,6 +141,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static decodeUrlSafe(Ljava/lang/String;)[B
@@ -274,6 +276,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static decodeUrlSafeNoPadding(Ljava/lang/String;)[B
@@ -407,6 +411,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static encode([B)Ljava/lang/String;
@@ -451,6 +457,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static encodeUrlSafe([B)Ljava/lang/String;
@@ -495,6 +503,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static encodeUrlSafeNoPadding([B)Ljava/lang/String;
@@ -539,4 +549,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -3,42 +3,46 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/camera/video/Recorder$RecordingRecord$MediaMuxerSupplier;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/video/OutputOptions;
+.field public final synthetic a:Landroidx/camera/video/Recorder;
 
-.field public final synthetic b:Landroid/os/ParcelFileDescriptor;
+.field public final synthetic b:Landroidx/camera/core/SurfaceRequest;
+
+.field public final synthetic c:Landroidx/camera/core/impl/Timebase;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/video/OutputOptions;Landroid/os/ParcelFileDescriptor;)V
+.method public synthetic constructor <init>(Landroidx/camera/video/Recorder;Landroidx/camera/core/SurfaceRequest;Landroidx/camera/core/impl/Timebase;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/video/h;->a:Landroidx/camera/video/OutputOptions;
+    iput-object p1, p0, Landroidx/camera/video/h;->a:Landroidx/camera/video/Recorder;
 
-    iput-object p2, p0, Landroidx/camera/video/h;->b:Landroid/os/ParcelFileDescriptor;
+    iput-object p2, p0, Landroidx/camera/video/h;->b:Landroidx/camera/core/SurfaceRequest;
+
+    iput-object p3, p0, Landroidx/camera/video/h;->c:Landroidx/camera/core/impl/Timebase;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final get(ILandroidx/core/util/Consumer;)Landroid/media/MediaMuxer;
-    .locals 2
+.method public final run()V
+    .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/h;->a:Landroidx/camera/video/OutputOptions;
+    iget-object v0, p0, Landroidx/camera/video/h;->a:Landroidx/camera/video/Recorder;
 
-    iget-object v1, p0, Landroidx/camera/video/h;->b:Landroid/os/ParcelFileDescriptor;
+    iget-object v1, p0, Landroidx/camera/video/h;->b:Landroidx/camera/core/SurfaceRequest;
 
-    invoke-static {v0, v1, p1, p2}, Landroidx/camera/video/Recorder$RecordingRecord;->f(Landroidx/camera/video/OutputOptions;Landroid/os/ParcelFileDescriptor;ILandroidx/core/util/Consumer;)Landroid/media/MediaMuxer;
+    iget-object v2, p0, Landroidx/camera/video/h;->c:Landroidx/camera/core/impl/Timebase;
 
-    move-result-object p1
+    invoke-static {v0, v1, v2}, Landroidx/camera/video/Recorder;->d(Landroidx/camera/video/Recorder;Landroidx/camera/core/SurfaceRequest;Landroidx/camera/core/impl/Timebase;)V
 
-    return-object p1
+    return-void
 .end method

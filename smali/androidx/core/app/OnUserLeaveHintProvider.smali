@@ -5,15 +5,7 @@
 
 # virtual methods
 .method public abstract addOnUserLeaveHintListener(Ljava/lang/Runnable;)V
-    .param p1    # Ljava/lang/Runnable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method
 
 .method public abstract removeOnUserLeaveHintListener(Ljava/lang/Runnable;)V
-    .param p1    # Ljava/lang/Runnable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method

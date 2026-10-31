@@ -3,28 +3,16 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lim/j;
-    name = "ViewTree"
-.end annotation
-
-
 # direct methods
 .method public static final getParentOrViewTreeDisjointParent(Landroid/view/View;)Landroid/view/ViewParent;
     .locals 1
-    .param p0    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -128,25 +116,18 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static final setViewTreeDisjointParent(Landroid/view/View;Landroid/view/ViewParent;)V
     .locals 1
-    .param p0    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/view/ViewParent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

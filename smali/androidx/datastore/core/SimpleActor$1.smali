@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/SimpleActor;-><init>(Lfn/i0;Ljm/l;Ljm/p;Ljm/p;)V
+    value = Landroidx/datastore/core/SimpleActor;-><init>(Lkotlinx/coroutines/l0;Lq8/l;Lq8/p;Lq8/p;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,34 +19,24 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "Ljava/lang/Throwable;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic $onComplete:Ljm/l;
+.field final synthetic $onComplete:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Ljava/lang/Throwable;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
-.field final synthetic $onUndeliveredElement:Ljm/p;
+.field final synthetic $onUndeliveredElement:Lq8/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/p<",
-            "TT;",
-            "Ljava/lang/Throwable;",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/p;"
         }
     .end annotation
 .end field
@@ -62,28 +52,21 @@
 
 
 # direct methods
-.method public constructor <init>(Ljm/l;Landroidx/datastore/core/SimpleActor;Ljm/p;)V
+.method public constructor <init>(Lq8/l;Landroidx/datastore/core/SimpleActor;Lq8/p;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Ljava/lang/Throwable;",
-            "Ljl/e2;",
-            ">;",
+            "Lq8/l;",
             "Landroidx/datastore/core/SimpleActor<",
             "TT;>;",
-            "Ljm/p<",
-            "-TT;-",
-            "Ljava/lang/Throwable;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/p;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/core/SimpleActor$1;->$onComplete:Ljm/l;
+    iput-object p1, p0, Landroidx/datastore/core/SimpleActor$1;->$onComplete:Lq8/l;
 
     .line 2
     .line 3
@@ -91,7 +74,7 @@
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/datastore/core/SimpleActor$1;->$onUndeliveredElement:Ljm/p;
+    iput-object p3, p0, Landroidx/datastore/core/SimpleActor$1;->$onUndeliveredElement:Lq8/p;
 
     .line 6
     .line 7
@@ -206,6 +189,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -218,57 +204,53 @@
 
     invoke-virtual {p0, p1}, Landroidx/datastore/core/SimpleActor$1;->invoke(Ljava/lang/Throwable;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
 
 .method public final invoke(Ljava/lang/Throwable;)V
     .locals 2
-    .param p1    # Ljava/lang/Throwable;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/core/SimpleActor$1;->$onComplete:Ljm/l;
+    iget-object v0, p0, Landroidx/datastore/core/SimpleActor$1;->$onComplete:Lq8/l;
 
-    invoke-interface {v0, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 3
     iget-object v0, p0, Landroidx/datastore/core/SimpleActor$1;->this$0:Landroidx/datastore/core/SimpleActor;
 
-    invoke-static {v0}, Landroidx/datastore/core/SimpleActor;->access$getMessageQueue$p(Landroidx/datastore/core/SimpleActor;)Lkotlinx/coroutines/channels/e;
+    invoke-static {v0}, Landroidx/datastore/core/SimpleActor;->access$getMessageQueue$p(Landroidx/datastore/core/SimpleActor;)Lkotlinx/coroutines/channels/g;
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, Lkotlinx/coroutines/channels/k;->W(Ljava/lang/Throwable;)Z
+    invoke-interface {v0, p1}, Lkotlinx/coroutines/channels/s;->S(Ljava/lang/Throwable;)Z
 
     .line 4
     :cond_0
     iget-object v0, p0, Landroidx/datastore/core/SimpleActor$1;->this$0:Landroidx/datastore/core/SimpleActor;
 
-    invoke-static {v0}, Landroidx/datastore/core/SimpleActor;->access$getMessageQueue$p(Landroidx/datastore/core/SimpleActor;)Lkotlinx/coroutines/channels/e;
+    invoke-static {v0}, Landroidx/datastore/core/SimpleActor;->access$getMessageQueue$p(Landroidx/datastore/core/SimpleActor;)Lkotlinx/coroutines/channels/g;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkotlinx/coroutines/channels/ReceiveChannel;->N()Ljava/lang/Object;
+    invoke-interface {v0}, Lkotlinx/coroutines/channels/ReceiveChannel;->I()Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkotlinx/coroutines/channels/g;->h(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lkotlinx/coroutines/channels/j;->f(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    iget-object v1, p0, Landroidx/datastore/core/SimpleActor$1;->$onUndeliveredElement:Ljm/p;
+    iget-object v1, p0, Landroidx/datastore/core/SimpleActor$1;->$onUndeliveredElement:Lq8/p;
 
     .line 5
-    invoke-interface {v1, v0, p1}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v0, p1}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
 
     goto :goto_0
 

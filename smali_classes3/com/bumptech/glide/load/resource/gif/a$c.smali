@@ -17,12 +17,6 @@
 .end annotation
 
 
-# static fields
-.field public static final b:I = 0x1
-
-.field public static final c:I = 0x2
-
-
 # instance fields
 .field public final synthetic a:Lcom/bumptech/glide/load/resource/gif/a;
 
@@ -60,7 +54,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -92,7 +85,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/load/resource/gif/a;->o(Lcom/bumptech/glide/load/resource/gif/a$a;)V
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/load/resource/gif/a;->m(Lcom/bumptech/glide/load/resource/gif/a$a;)V
 
     .line 13
     .line 14
@@ -120,11 +113,11 @@
 
     .line 24
     .line 25
-    iget-object v0, v0, Lcom/bumptech/glide/load/resource/gif/a;->d:Lu5/e;
+    iget-object v0, v0, Lcom/bumptech/glide/load/resource/gif/a;->d:Lcom/bumptech/glide/h;
 
     .line 26
     .line 27
-    invoke-virtual {v0, p1}, Lu5/e;->z(Lv6/p;)V
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/h;->m(Lw0/i;)V
 
     .line 28
     .line 29
@@ -194,6 +187,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

@@ -58,7 +58,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static synthetic access$000()Ljava/lang/String;
@@ -89,7 +88,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getCurrentWindowBounds(Landroid/content/Context;)Landroid/graphics/Rect;
@@ -151,5 +149,4 @@
 
     .line 24
     return-object p0
-    .line 25
 .end method

@@ -48,7 +48,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static newInstance()Lcom/baidu/mapapi/search/sug/SuggestionSearch;
@@ -83,7 +82,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -131,7 +129,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public requestSuggestion(Lcom/baidu/mapapi/search/sug/SuggestionSearchOption;)Z
@@ -265,8 +262,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setOnGetSuggestionResultListener(Lcom/baidu/mapapi/search/sug/OnGetSuggestionResultListener;)V
@@ -390,6 +385,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

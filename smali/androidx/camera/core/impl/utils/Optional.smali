@@ -53,6 +53,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static absent()Landroidx/camera/core/impl/utils/Optional;
@@ -95,6 +96,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static fromNullable(Ljava/lang/Object;)Landroidx/camera/core/impl/utils/Optional;

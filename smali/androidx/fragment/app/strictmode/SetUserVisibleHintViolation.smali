@@ -10,17 +10,13 @@
 # direct methods
 .method public constructor <init>(Landroidx/fragment/app/Fragment;Z)V
     .locals 2
-    .param p1    # Landroidx/fragment/app/Fragment;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "fragment"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -122,4 +118,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

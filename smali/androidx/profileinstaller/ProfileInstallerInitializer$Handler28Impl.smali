@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static createAsync(Landroid/os/Looper;)Landroid/os/Handler;
@@ -53,7 +54,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lk1/a;->a(Landroid/os/Looper;)Landroid/os/Handler;
+    invoke-static {p0}, Landroidx/emoji2/text/b;->a(Landroid/os/Looper;)Landroid/os/Handler;
 
     .line 2
     .line 3

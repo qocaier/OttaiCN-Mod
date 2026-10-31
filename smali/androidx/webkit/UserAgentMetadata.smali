@@ -477,6 +477,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public getArchitecture()Ljava/lang/String;
@@ -507,6 +512,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBitness()I
@@ -535,6 +541,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBrandVersionList()Ljava/util/List;
@@ -574,6 +581,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFullVersion()Ljava/lang/String;
@@ -604,6 +612,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getModel()Ljava/lang/String;
@@ -634,6 +643,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPlatform()Ljava/lang/String;
@@ -664,6 +674,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPlatformVersion()Ljava/lang/String;
@@ -694,6 +705,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -822,6 +834,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isMobile()Z
@@ -850,6 +864,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isWow64()Z
@@ -878,4 +893,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

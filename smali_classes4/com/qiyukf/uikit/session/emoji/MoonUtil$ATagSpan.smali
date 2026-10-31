@@ -285,6 +285,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/uikit/session/emoji/MoonUtil$ATagSpan;)I
@@ -318,6 +341,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$002(Lcom/qiyukf/uikit/session/emoji/MoonUtil$ATagSpan;I)I
@@ -380,6 +405,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$100(Lcom/qiyukf/uikit/session/emoji/MoonUtil$ATagSpan;)I
@@ -413,6 +448,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$102(Lcom/qiyukf/uikit/session/emoji/MoonUtil$ATagSpan;I)I
@@ -475,6 +512,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -505,6 +552,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setRange(II)V
@@ -569,6 +618,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public updateDrawState(Landroid/text/TextPaint;)V
@@ -606,4 +665,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

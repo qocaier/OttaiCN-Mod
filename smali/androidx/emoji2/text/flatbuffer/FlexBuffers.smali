@@ -122,6 +122,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -150,6 +151,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$000()Landroidx/emoji2/text/flatbuffer/ReadBuf;
@@ -178,6 +180,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$100(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
@@ -301,6 +304,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$200(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
@@ -424,6 +430,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$300(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
@@ -547,6 +556,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$400(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
@@ -670,6 +682,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic access$500(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
@@ -793,6 +808,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static getRoot(Landroidx/emoji2/text/flatbuffer/ReadBuf;)Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
@@ -997,6 +1015,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static isTypeInline(I)Z
@@ -1219,6 +1240,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static readInt(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
@@ -1344,6 +1368,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static readLong(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
@@ -1512,6 +1539,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static readUInt(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
@@ -1693,6 +1723,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static toTypedVector(II)I

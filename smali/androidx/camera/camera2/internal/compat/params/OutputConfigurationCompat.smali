@@ -348,6 +348,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -419,6 +420,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -501,6 +503,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxSharedSurfaceCount()I
@@ -533,6 +536,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPhysicalCameraId()Ljava/lang/String;
@@ -573,6 +577,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStreamUseCase()J
@@ -605,6 +610,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurface()Landroid/view/Surface;
@@ -639,6 +645,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurfaceGroupId()I
@@ -671,6 +678,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurfaces()Ljava/util/List;
@@ -714,6 +722,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -746,6 +755,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeSurface(Landroid/view/Surface;)V
@@ -928,4 +938,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

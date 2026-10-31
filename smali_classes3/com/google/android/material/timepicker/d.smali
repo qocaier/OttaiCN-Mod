@@ -7,17 +7,17 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/google/android/material/timepicker/TimePickerView;
+.field public final synthetic a:Lcom/google/android/material/timepicker/TimePickerTextInputPresenter;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/google/android/material/timepicker/TimePickerView;)V
+.method public synthetic constructor <init>(Lcom/google/android/material/timepicker/TimePickerTextInputPresenter;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/material/timepicker/d;->a:Lcom/google/android/material/timepicker/TimePickerView;
+    iput-object p1, p0, Lcom/google/android/material/timepicker/d;->a:Lcom/google/android/material/timepicker/TimePickerTextInputPresenter;
 
     return-void
 .end method
@@ -28,9 +28,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/timepicker/d;->a:Lcom/google/android/material/timepicker/TimePickerView;
+    iget-object v0, p0, Lcom/google/android/material/timepicker/d;->a:Lcom/google/android/material/timepicker/TimePickerTextInputPresenter;
 
-    invoke-static {v0, p1, p2, p3}, Lcom/google/android/material/timepicker/TimePickerView;->a(Lcom/google/android/material/timepicker/TimePickerView;Lcom/google/android/material/button/MaterialButtonToggleGroup;IZ)V
+    invoke-static {v0, p1, p2, p3}, Lcom/google/android/material/timepicker/TimePickerTextInputPresenter;->a(Lcom/google/android/material/timepicker/TimePickerTextInputPresenter;Lcom/google/android/material/button/MaterialButtonToggleGroup;IZ)V
 
     return-void
 .end method

@@ -64,7 +64,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static a(Ljava/util/List;Lcom/baidu/mapapi/map/GradientLineOptions$LineDirectionCross180;Landroid/os/Bundle;)V
@@ -322,11 +321,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -506,7 +500,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIndexs()[I
@@ -537,7 +530,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLineDirectionCross180()Lcom/baidu/mapapi/map/GradientLineOptions$LineDirectionCross180;
@@ -568,7 +560,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPoints()Ljava/util/List;
@@ -607,7 +598,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWidth()F
@@ -640,7 +630,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public lineDirectionCross180(Lcom/baidu/mapapi/map/GradientLineOptions$LineDirectionCross180;)V
@@ -673,7 +662,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setColorIndex([I)V
@@ -725,7 +713,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setColorList([I)V
@@ -777,7 +764,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPoints(Ljava/util/List;)V
@@ -934,8 +920,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setWidth(I)V
@@ -975,5 +959,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

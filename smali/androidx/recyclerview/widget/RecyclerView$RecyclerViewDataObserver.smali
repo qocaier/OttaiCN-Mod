@@ -175,6 +175,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onItemRangeChanged(IILjava/lang/Object;)V
@@ -313,6 +315,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onItemRangeInserted(II)V
@@ -524,6 +529,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onItemRangeRemoved(II)V
@@ -716,4 +724,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

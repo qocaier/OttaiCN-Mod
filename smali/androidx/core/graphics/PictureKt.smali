@@ -4,31 +4,17 @@
 
 
 # direct methods
-.method public static final record(Landroid/graphics/Picture;IILjm/l;)Landroid/graphics/Picture;
+.method public static final record(Landroid/graphics/Picture;IILq8/l;)Landroid/graphics/Picture;
     .locals 0
-    .param p0    # Landroid/graphics/Picture;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Picture;",
             "II",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Canvas;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/graphics/Picture;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -44,14 +30,14 @@
 
     .line 6
     :try_start_0
-    invoke-interface {p3, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 7
     .line 8
     .line 9
-    invoke-static {p2}, Lkm/d0;->d(I)V
+    invoke-static {p2}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 10
     .line 11
@@ -61,7 +47,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {p2}, Lkm/d0;->c(I)V
+    invoke-static {p2}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 16
     .line 17
@@ -73,7 +59,7 @@
     move-exception p1
 
     .line 20
-    invoke-static {p2}, Lkm/d0;->d(I)V
+    invoke-static {p2}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 21
     .line 22
@@ -83,7 +69,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {p2}, Lkm/d0;->c(I)V
+    invoke-static {p2}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 27
     .line 28
@@ -290,4 +276,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

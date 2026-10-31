@@ -14,9 +14,6 @@
     }
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # instance fields
 .field private mRemainingRetires:I
@@ -59,6 +56,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/imagecapture/TakePictureRequest;Landroidx/camera/core/ImageCaptureException;)V
@@ -361,6 +359,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic b(Landroidx/camera/core/imagecapture/TakePictureRequest;Landroidx/camera/core/ImageCapture$OutputFileResults;)V
@@ -930,6 +931,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract getAppExecutor()Ljava/util/concurrent/Executor;
@@ -1000,6 +1002,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract getRotationDegrees()I
@@ -1058,6 +1061,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onError(Landroidx/camera/core/ImageCaptureException;)V
@@ -1076,11 +1080,11 @@
     move-result-object v0
 
     .line 5
-    new-instance v1, Lt/f;
+    new-instance v1, Landroidx/camera/core/imagecapture/t;
 
     .line 6
     .line 7
-    invoke-direct {v1, p0, p1}, Lt/f;-><init>(Landroidx/camera/core/imagecapture/TakePictureRequest;Landroidx/camera/core/ImageCaptureException;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/core/imagecapture/t;-><init>(Landroidx/camera/core/imagecapture/TakePictureRequest;Landroidx/camera/core/ImageCaptureException;)V
 
     .line 8
     .line 9
@@ -1117,9 +1121,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lt/e;
+    new-instance v1, Landroidx/camera/core/imagecapture/s;
 
-    invoke-direct {v1, p0, p1}, Lt/e;-><init>(Landroidx/camera/core/imagecapture/TakePictureRequest;Landroidx/camera/core/ImageCapture$OutputFileResults;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/core/imagecapture/s;-><init>(Landroidx/camera/core/imagecapture/TakePictureRequest;Landroidx/camera/core/ImageCapture$OutputFileResults;)V
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
@@ -1138,9 +1142,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lt/d;
+    new-instance v1, Landroidx/camera/core/imagecapture/r;
 
-    invoke-direct {v1, p0, p1}, Lt/d;-><init>(Landroidx/camera/core/imagecapture/TakePictureRequest;Landroidx/camera/core/ImageProxy;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/core/imagecapture/r;-><init>(Landroidx/camera/core/imagecapture/TakePictureRequest;Landroidx/camera/core/ImageProxy;)V
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 

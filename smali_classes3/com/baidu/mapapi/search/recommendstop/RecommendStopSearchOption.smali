@@ -42,7 +42,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -75,7 +74,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isNeedStationInfo()Z
@@ -106,7 +104,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public location(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/search/recommendstop/RecommendStopSearchOption;
@@ -139,7 +136,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setNeedStationInfo(Z)Lcom/baidu/mapapi/search/recommendstop/RecommendStopSearchOption;
@@ -172,5 +168,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

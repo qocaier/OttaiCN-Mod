@@ -25,15 +25,6 @@
 
 # virtual methods
 .method public abstract findValueByNumber(I)Landroidx/datastore/preferences/protobuf/Internal$EnumLite;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "number"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)TT;"

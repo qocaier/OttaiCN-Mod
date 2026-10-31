@@ -70,6 +70,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static complexAppTag(Ljava/lang/String;)Ljava/lang/String;
@@ -115,6 +117,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private static complexMsg(Ljava/lang/String;I)Ljava/lang/String;
@@ -171,42 +175,42 @@
     .line 24
     .line 25
     .line 26
-    const-string p1, "|"
+    const-string/jumbo p1, "|"
 
     .line 27
     .line 28
+    .line 29
     invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 29
     .line 30
     .line 31
+    .line 32
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 32
     .line 33
     .line 34
+    .line 35
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 35
     .line 36
     .line 37
+    .line 38
     move-result-object p0
 
-    .line 38
+    .line 39
     return-object p0
 
-    .line 39
+    .line 40
     :cond_1
     invoke-static {p1}, Lcom/huawei/hms/framework/common/Logger;->getCallMethodInfo(I)Ljava/lang/String;
 
-    .line 40
     .line 41
     .line 42
+    .line 43
     move-result-object p0
 
-    .line 43
-    return-object p0
     .line 44
+    return-object p0
     .line 45
     .line 46
     .line 47
@@ -217,6 +221,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method private static complexTag(Ljava/lang/String;)Ljava/lang/String;
@@ -262,6 +276,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static d(Ljava/lang/String;Ljava/lang/Object;)V
@@ -567,11 +583,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method private static getBriefCallMethodInfo(I)Ljava/lang/String;
@@ -671,52 +682,52 @@
     .line 46
     .line 47
     .line 48
-    const-string v2, "|"
+    const-string/jumbo v2, "|"
 
     .line 49
     .line 50
+    .line 51
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 51
     .line 52
     .line 53
+    .line 54
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 54
     .line 55
     .line 56
+    .line 57
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 57
     .line 58
     .line 59
+    .line 60
     invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getLineNumber()I
 
-    .line 60
     .line 61
     .line 62
+    .line 63
     move-result p0
 
-    .line 63
+    .line 64
     invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 64
     .line 65
     .line 66
+    .line 67
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 67
     .line 68
     .line 69
+    .line 70
     move-result-object p0
 
-    .line 70
+    .line 71
     return-object p0
 
-    .line 71
+    .line 72
     :cond_0
     return-object v2
-    .line 72
     .line 73
     .line 74
     .line 75
@@ -729,6 +740,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static getCallMethodInfo(I)Ljava/lang/String;
@@ -785,6 +798,8 @@
     return-object p0
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private static getNewThrowable(Ljava/lang/Throwable;)Ljava/lang/Throwable;
@@ -921,6 +936,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static getVerboseCallMethodInfo(I)Ljava/lang/String;
@@ -984,104 +1001,106 @@
     .line 28
     .line 29
     .line 30
-    const-string v1, "|"
+    const-string/jumbo v1, "|"
 
     .line 31
     .line 32
+    .line 33
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 33
     .line 34
     .line 35
+    .line 36
     invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getFileName()Ljava/lang/String;
 
-    .line 36
     .line 37
     .line 38
-    move-result-object v2
-
     .line 39
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object v2
 
     .line 40
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 41
     .line 42
+    .line 43
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 43
     .line 44
     .line 45
+    .line 46
     invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
 
-    .line 46
     .line 47
     .line 48
-    move-result-object v2
-
     .line 49
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object v2
 
     .line 50
-    .line 51
-    .line 52
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 53
-    .line 54
-    .line 55
-    invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getMethodName()Ljava/lang/String;
-
-    .line 56
-    .line 57
-    .line 58
-    move-result-object v2
-
-    .line 59
     invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 60
-    .line 61
-    .line 62
+    .line 51
+    .line 52
+    .line 53
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
+    .line 54
+    .line 55
+    .line 56
+    invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getMethodName()Ljava/lang/String;
+
+    .line 57
+    .line 58
+    .line 59
+    move-result-object v2
+
+    .line 60
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 61
+    .line 62
     .line 63
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 64
     .line 65
+    .line 66
     invoke-virtual {p0}, Ljava/lang/StackTraceElement;->getLineNumber()I
 
-    .line 66
     .line 67
     .line 68
+    .line 69
     move-result p0
 
-    .line 69
+    .line 70
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 70
     .line 71
     .line 72
+    .line 73
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 73
     .line 74
     .line 75
+    .line 76
     move-result-object p0
 
-    .line 76
+    .line 77
     return-object p0
 
-    .line 77
+    .line 78
     :cond_0
     const-string p0, ""
 
-    .line 78
     .line 79
-    return-object p0
     .line 80
+    return-object p0
     .line 81
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static i(Ljava/lang/String;Ljava/lang/Object;)V
@@ -1160,6 +1179,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private static isKitLoggable(I)Z
@@ -1208,6 +1229,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static isLoggable(I)Z
@@ -1245,6 +1268,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private static logPrintln(ILjava/lang/String;Ljava/lang/String;)I
@@ -1425,11 +1450,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static println(ILjava/lang/String;Ljava/lang/Object;)V
@@ -1601,6 +1621,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static setLogEnableLevel(I)V
@@ -1652,6 +1682,8 @@
     .line 24
     .line 25
     return-void
+    .line 26
+    .line 27
 .end method
 
 .method public static v(Ljava/lang/String;Ljava/lang/Object;)V

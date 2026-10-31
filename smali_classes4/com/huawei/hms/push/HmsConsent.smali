@@ -156,16 +156,16 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method private a(Z)Lme/k;
+.method private a(Z)Lq5/f;
     .locals 5
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -255,7 +255,7 @@
     .line 43
     .line 44
     .line 45
-    invoke-virtual {p1, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lme/k;
+    invoke-virtual {p1, v3}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lq5/f;
 
     .line 46
     .line 47
@@ -293,11 +293,11 @@
 
     .line 59
     :catch_1
-    new-instance p1, Lme/l;
+    new-instance p1, Lq5/g;
 
     .line 60
     .line 61
-    invoke-direct {p1}, Lme/l;-><init>()V
+    invoke-direct {p1}, Lq5/g;-><init>()V
 
     .line 62
     .line 63
@@ -314,7 +314,7 @@
     move-result-object v3
 
     .line 70
-    invoke-virtual {p1, v3}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v3}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 71
     .line 72
@@ -331,16 +331,16 @@
 
     .line 78
     :goto_0
-    new-instance v2, Lme/l;
+    new-instance v2, Lq5/g;
 
     .line 79
     .line 80
-    invoke-direct {v2}, Lme/l;-><init>()V
+    invoke-direct {v2}, Lq5/g;-><init>()V
 
     .line 81
     .line 82
     .line 83
-    invoke-virtual {v2, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {v2, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 84
     .line 85
@@ -372,7 +372,7 @@
     .line 96
     .line 97
     .line 98
-    invoke-virtual {p1}, Lme/l;->b()Lme/k;
+    invoke-virtual {p1}, Lq5/g;->a()Lq5/f;
 
     .line 99
     .line 100
@@ -563,27 +563,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static getInstance(Landroid/content/Context;)Lcom/huawei/hms/push/HmsConsent;
@@ -619,18 +598,18 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
 # virtual methods
-.method public consentOff()Lme/k;
+.method public consentOff()Lq5/f;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -638,7 +617,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Lcom/huawei/hms/push/HmsConsent;->a(Z)Lme/k;
+    invoke-direct {p0, v0}, Lcom/huawei/hms/push/HmsConsent;->a(Z)Lq5/f;
 
     .line 3
     .line 4
@@ -661,16 +640,16 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public consentOn()Lme/k;
+.method public consentOn()Lq5/f;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -678,7 +657,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, v0}, Lcom/huawei/hms/push/HmsConsent;->a(Z)Lme/k;
+    invoke-direct {p0, v0}, Lcom/huawei/hms/push/HmsConsent;->a(Z)Lq5/f;
 
     .line 3
     .line 4
@@ -701,4 +680,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

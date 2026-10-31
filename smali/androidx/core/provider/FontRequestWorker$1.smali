@@ -286,6 +286,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -300,7 +306,7 @@
 
     iget-object v2, p0, Landroidx/core/provider/FontRequestWorker$1;->val$request:Landroidx/core/provider/FontRequest;
 
-    invoke-static {v2}, Ly0/c;->a(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v2}, Landroidx/core/provider/d;->a(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v2
 

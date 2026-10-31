@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -35,16 +35,12 @@
 
 .method private static synthetic getHandler$annotations()V
     .locals 0
-    .annotation runtime Lim/o;
-    .end annotation
 
     return-void
 .end method
 
 .method public static synthetic getThreadPool$annotations()V
     .locals 0
-    .annotation runtime Lim/o;
-    .end annotation
 
     return-void
 .end method
@@ -53,8 +49,6 @@
 # virtual methods
 .method public final getThreadPool()Ljava/util/concurrent/ExecutorService;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Lcom/fluttercandies/flutter_image_compress/core/ResultHandler;->access$getThreadPool$cp()Ljava/util/concurrent/ExecutorService;
@@ -83,5 +77,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

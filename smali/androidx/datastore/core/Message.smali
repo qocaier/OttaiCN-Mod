@@ -31,7 +31,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -49,8 +49,5 @@
             "Landroidx/datastore/core/State<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method

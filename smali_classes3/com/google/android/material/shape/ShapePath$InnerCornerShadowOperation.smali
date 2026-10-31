@@ -281,6 +281,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 
@@ -1116,7 +1132,6 @@
     .line 520
     .line 521
     .line 522
-    .line 523
 .end method
 
 .method public getEndAngle()F
@@ -1265,15 +1280,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getStartAngle()F
@@ -1414,15 +1420,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getSweepAngle()F
@@ -1478,5 +1475,4 @@
 
     .line 22
     return v0
-    .line 23
 .end method

@@ -118,16 +118,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;)V
     .locals 9
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "parser"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -2026,16 +2016,6 @@
 
 .method private parseViewTransitionTags(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;)V
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "parser"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p2}, Landroid/util/Xml;->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
@@ -3889,16 +3869,6 @@
 
 .method private updateTransition(Landroidx/constraintlayout/motion/widget/MotionScene$Transition;Landroid/view/View;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "transition",
-            "view"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransition;->mDuration:I
@@ -4204,24 +4174,15 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
 # virtual methods
 .method public applyIndependentTransition(Landroidx/constraintlayout/motion/widget/ViewTransitionController;Landroidx/constraintlayout/motion/widget/MotionLayout;Landroid/view/View;)V
     .locals 9
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "controller",
-            "motionLayout",
-            "view"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/constraintlayout/motion/widget/MotionController;
@@ -4393,26 +4354,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public varargs applyTransition(Landroidx/constraintlayout/motion/widget/ViewTransitionController;Landroidx/constraintlayout/motion/widget/MotionLayout;ILandroidx/constraintlayout/widget/ConstraintSet;[Landroid/view/View;)V
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "controller",
-            "layout",
-            "fromId",
-            "current",
-            "views"
-        }
-    .end annotation
 
     .line 1
     iget-boolean v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransition;->mDisabled:Z
@@ -4736,11 +4684,11 @@
     .line 150
     .line 151
     .line 152
-    new-instance p1, Lm0/a;
+    new-instance p1, Landroidx/constraintlayout/motion/widget/a;
 
     .line 153
     .line 154
-    invoke-direct {p1, p0, p5}, Lm0/a;-><init>(Landroidx/constraintlayout/motion/widget/ViewTransition;[Landroid/view/View;)V
+    invoke-direct {p1, p0, p5}, Landroidx/constraintlayout/motion/widget/a;-><init>(Landroidx/constraintlayout/motion/widget/ViewTransition;[Landroid/view/View;)V
 
     .line 155
     .line 156
@@ -5118,14 +5066,6 @@
 
 .method public checkTags(Landroid/view/View;)Z
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "view"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransition;->mIfTagSet:I
@@ -5263,6 +5203,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getId()I
@@ -5291,18 +5232,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInterpolator(Landroid/content/Context;)Landroid/view/animation/Interpolator;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "context"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransition;->mDefaultInterpolator:I
@@ -5641,6 +5575,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public getSharedValue()I
@@ -5669,6 +5608,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSharedValueCurrent()I
@@ -5697,6 +5637,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSharedValueID()I
@@ -5725,6 +5666,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStateTransition()I
@@ -5753,6 +5695,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEnabled()Z
@@ -5783,18 +5726,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public matchesView(Landroid/view/View;)Z
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "view"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -5953,18 +5889,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setEnabled(Z)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "enable"
-        }
-    .end annotation
 
     .line 1
     xor-int/lit8 p1, p1, 0x1
@@ -6000,14 +5929,6 @@
 
 .method public setId(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransition;->mId:I
@@ -6041,14 +5962,6 @@
 
 .method public setSharedValue(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "sharedValue"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransition;->mSharedValueTarget:I
@@ -6082,14 +5995,6 @@
 
 .method public setSharedValueCurrent(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "sharedValueCurrent"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransition;->mSharedValueCurrent:I
@@ -6123,14 +6028,6 @@
 
 .method public setSharedValueID(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "sharedValueID"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransition;->mSharedValueID:I
@@ -6164,14 +6061,6 @@
 
 .method public setStateTransition(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "stateTransition"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransition;->mOnStateTransition:I
@@ -6205,14 +6094,6 @@
 
 .method public supports(I)Z
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "action"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/motion/widget/ViewTransition;->mOnStateTransition:I
@@ -6393,4 +6274,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

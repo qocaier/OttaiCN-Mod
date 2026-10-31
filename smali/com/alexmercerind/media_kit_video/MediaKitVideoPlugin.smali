@@ -10,7 +10,7 @@
 # instance fields
 .field public a:Lio/flutter/plugin/common/MethodChannel;
 
-.field public b:Lb3/g;
+.field public b:Lcom/alexmercerind/media_kit_video/f;
 
 
 # direct methods
@@ -40,6 +40,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;JJJII)V
@@ -1082,10 +1083,6 @@
 # virtual methods
 .method public onAttachedToEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
     .locals 3
-    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
     new-instance v0, Lio/flutter/plugin/common/MethodChannel;
@@ -1118,7 +1115,7 @@
     .line 15
     .line 16
     .line 17
-    new-instance v0, Lb3/g;
+    new-instance v0, Lcom/alexmercerind/media_kit_video/f;
 
     .line 18
     .line 19
@@ -1130,12 +1127,12 @@
     move-result-object p1
 
     .line 23
-    invoke-direct {v0, p1}, Lb3/g;-><init>(Lio/flutter/view/TextureRegistry;)V
+    invoke-direct {v0, p1}, Lcom/alexmercerind/media_kit_video/f;-><init>(Lio/flutter/view/TextureRegistry;)V
 
     .line 24
     .line 25
     .line 26
-    iput-object v0, p0, Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;->b:Lb3/g;
+    iput-object v0, p0, Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;->b:Lcom/alexmercerind/media_kit_video/f;
 
     .line 27
     .line 28
@@ -1190,14 +1187,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onDetachedFromEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
     .locals 1
-    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
     iget-object p1, p0, Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;->a:Lio/flutter/plugin/common/MethodChannel;
@@ -1235,14 +1229,6 @@
 
 .method public onMethodCall(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 5
-    .param p1    # Lio/flutter/plugin/common/MethodCall;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
     iget-object v0, p1, Lio/flutter/plugin/common/MethodCall;->method:Ljava/lang/String;
@@ -1420,20 +1406,20 @@
     move-result-wide v2
 
     .line 78
-    iget-object p1, p0, Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;->b:Lb3/g;
+    iget-object p1, p0, Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;->b:Lcom/alexmercerind/media_kit_video/f;
 
     .line 79
     .line 80
-    new-instance v0, Lb3/a;
+    new-instance v0, Lcom/alexmercerind/media_kit_video/a;
 
     .line 81
     .line 82
-    invoke-direct {v0, p0, v2, v3}, Lb3/a;-><init>(Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;J)V
+    invoke-direct {v0, p0, v2, v3}, Lcom/alexmercerind/media_kit_video/a;-><init>(Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;J)V
 
     .line 83
     .line 84
     .line 85
-    invoke-virtual {p1, v2, v3, v0}, Lb3/g;->a(JLb3/c;)V
+    invoke-virtual {p1, v2, v3, v0}, Lcom/alexmercerind/media_kit_video/f;->a(JLcom/alexmercerind/media_kit_video/b;)V
 
     .line 86
     .line 87
@@ -1447,7 +1433,7 @@
 
     .line 92
     :pswitch_1
-    invoke-static {}, Lb3/d;->a()Z
+    invoke-static {}, Lcom/alexmercerind/media_kit_video/c;->a()Z
 
     .line 93
     .line 94
@@ -1492,11 +1478,11 @@
     move-result-wide v2
 
     .line 114
-    iget-object p1, p0, Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;->b:Lb3/g;
+    iget-object p1, p0, Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;->b:Lcom/alexmercerind/media_kit_video/f;
 
     .line 115
     .line 116
-    invoke-virtual {p1, v2, v3}, Lb3/g;->b(J)V
+    invoke-virtual {p1, v2, v3}, Lcom/alexmercerind/media_kit_video/f;->b(J)V
 
     .line 117
     .line 118
@@ -1578,11 +1564,11 @@
     move-result p1
 
     .line 157
-    iget-object v4, p0, Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;->b:Lb3/g;
+    iget-object v4, p0, Lcom/alexmercerind/media_kit_video/MediaKitVideoPlugin;->b:Lcom/alexmercerind/media_kit_video/f;
 
     .line 158
     .line 159
-    invoke-virtual {v4, v2, v3, v0, p1}, Lb3/g;->c(JII)V
+    invoke-virtual {v4, v2, v3, v0, p1}, Lcom/alexmercerind/media_kit_video/f;->c(JII)V
 
     .line 160
     .line 161
@@ -1679,4 +1665,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

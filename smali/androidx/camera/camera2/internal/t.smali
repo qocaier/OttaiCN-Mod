@@ -3,21 +3,15 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
 
 
 # instance fields
 .field public final synthetic a:Landroidx/camera/camera2/internal/Camera2CameraImpl;
 
-.field public final synthetic b:Ljava/lang/String;
-
-.field public final synthetic c:Landroidx/camera/core/impl/SessionConfig;
-
-.field public final synthetic d:Landroidx/camera/core/impl/UseCaseConfig;
-
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CameraImpl;Ljava/lang/String;Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/UseCaseConfig;)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CameraImpl;)V
     .locals 0
 
     .line 1
@@ -25,30 +19,20 @@
 
     iput-object p1, p0, Landroidx/camera/camera2/internal/t;->a:Landroidx/camera/camera2/internal/Camera2CameraImpl;
 
-    iput-object p2, p0, Landroidx/camera/camera2/internal/t;->b:Ljava/lang/String;
-
-    iput-object p3, p0, Landroidx/camera/camera2/internal/t;->c:Landroidx/camera/core/impl/SessionConfig;
-
-    iput-object p4, p0, Landroidx/camera/camera2/internal/t;->d:Landroidx/camera/core/impl/UseCaseConfig;
-
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 4
+.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    .locals 1
 
     .line 1
     iget-object v0, p0, Landroidx/camera/camera2/internal/t;->a:Landroidx/camera/camera2/internal/Camera2CameraImpl;
 
-    iget-object v1, p0, Landroidx/camera/camera2/internal/t;->b:Ljava/lang/String;
+    invoke-static {v0, p1}, Landroidx/camera/camera2/internal/Camera2CameraImpl;->a(Landroidx/camera/camera2/internal/Camera2CameraImpl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
 
-    iget-object v2, p0, Landroidx/camera/camera2/internal/t;->c:Landroidx/camera/core/impl/SessionConfig;
+    move-result-object p1
 
-    iget-object v3, p0, Landroidx/camera/camera2/internal/t;->d:Landroidx/camera/core/impl/UseCaseConfig;
-
-    invoke-static {v0, v1, v2, v3}, Landroidx/camera/camera2/internal/Camera2CameraImpl;->e(Landroidx/camera/camera2/internal/Camera2CameraImpl;Ljava/lang/String;Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/UseCaseConfig;)V
-
-    return-void
+    return-object p1
 .end method

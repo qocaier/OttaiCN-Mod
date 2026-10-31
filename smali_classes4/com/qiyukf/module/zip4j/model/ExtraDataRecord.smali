@@ -38,6 +38,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -68,6 +70,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getHeader()J
@@ -96,6 +100,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSizeOfData()I
@@ -124,6 +130,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setData([B)V
@@ -157,6 +165,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setHeader(J)V
@@ -190,6 +200,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSizeOfData(I)V
@@ -223,4 +235,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

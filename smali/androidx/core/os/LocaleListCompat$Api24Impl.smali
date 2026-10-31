@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static varargs createLocaleList([Ljava/util/Locale;)Landroid/os/LocaleList;
@@ -110,6 +111,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getDefault()Landroid/os/LocaleList;
@@ -140,4 +142,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

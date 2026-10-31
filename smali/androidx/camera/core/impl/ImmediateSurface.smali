@@ -52,7 +52,7 @@
 
 
 # virtual methods
-.method public provideSurface()Lub/u0;
+.method public provideSurface()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -60,9 +60,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Landroid/view/Surface;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -71,7 +69,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -93,4 +91,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -158,6 +158,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic a(Landroidx/camera/video/internal/audio/AudioStream$AudioStreamCallback;)V
@@ -312,6 +313,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private checkNotReleasedOrThrow()V
@@ -350,6 +352,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private checkStartedOrThrow()V
@@ -386,6 +389,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static currentSystemTimeNs()J
@@ -416,6 +420,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private notifySilenced()V
@@ -438,11 +443,11 @@
 
     .line 8
     .line 9
-    new-instance v2, Le0/t;
+    new-instance v2, Landroidx/camera/video/internal/audio/u;
 
     .line 10
     .line 11
-    invoke-direct {v2, v0}, Le0/t;-><init>(Landroidx/camera/video/internal/audio/AudioStream$AudioStreamCallback;)V
+    invoke-direct {v2, v0}, Landroidx/camera/video/internal/audio/u;-><init>(Landroidx/camera/video/internal/audio/AudioStream$AudioStreamCallback;)V
 
     .line 12
     .line 13
@@ -457,6 +462,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private writeSilenceToBuffer(Ljava/nio/ByteBuffer;I)V
@@ -716,6 +722,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public release()V
@@ -748,6 +755,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setCallback(Landroidx/camera/video/internal/audio/AudioStream$AudioStreamCallback;Ljava/util/concurrent/Executor;)V
@@ -958,6 +966,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public stop()V
@@ -992,4 +1002,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -44,7 +44,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getApiVersion()Ljava/lang/String;
@@ -99,7 +98,6 @@
 
     .line 22
     return-object v0
-    .line 23
 .end method
 
 .method public static getVersionDesc()Ljava/lang/String;

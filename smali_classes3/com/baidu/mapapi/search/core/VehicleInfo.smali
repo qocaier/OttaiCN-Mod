@@ -71,7 +71,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -193,7 +192,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndTime()Ljava/lang/String;
@@ -224,7 +222,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHeadWay()Ljava/lang/String;
@@ -255,7 +252,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPassStationNum()I
@@ -286,7 +282,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStartTime()Ljava/lang/String;
@@ -317,7 +312,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -348,7 +342,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTotalPrice()I
@@ -379,7 +372,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getUid()Ljava/lang/String;
@@ -410,7 +402,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getZonePrice()I
@@ -441,7 +432,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setDirectText(Ljava/lang/String;)V
@@ -474,7 +464,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndTime(Ljava/lang/String;)V
@@ -507,7 +496,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHeadWay(Ljava/lang/String;)V
@@ -540,7 +528,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPassStationNum(I)V
@@ -573,7 +560,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStartTime(Ljava/lang/String;)V
@@ -606,7 +592,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTitle(Ljava/lang/String;)V
@@ -639,7 +624,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTotalPrice(I)V
@@ -672,7 +656,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUid(Ljava/lang/String;)V
@@ -705,7 +688,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setZonePrice(I)V
@@ -738,7 +720,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -841,9 +822,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

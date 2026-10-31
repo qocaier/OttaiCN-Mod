@@ -13,9 +13,6 @@
     name = "StateError"
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -44,6 +41,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static create(I)Landroidx/camera/core/CameraState$StateError;
@@ -141,4 +139,5 @@
     .line 19
     .line 20
     return-object v0
+    .line 21
 .end method

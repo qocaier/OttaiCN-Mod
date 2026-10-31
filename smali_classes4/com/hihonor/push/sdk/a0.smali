@@ -138,6 +138,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static a(Lcom/hihonor/push/sdk/a0;Lcom/hihonor/push/sdk/d1;)Ljava/lang/Object;

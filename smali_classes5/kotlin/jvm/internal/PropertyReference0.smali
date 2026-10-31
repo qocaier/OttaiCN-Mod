@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lum/o;
+.implements Lkotlin/reflect/l;
 
 
 # direct methods
@@ -18,9 +18,6 @@
 
 .method public constructor <init>(Ljava/lang/Object;)V
     .locals 0
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
 
     .line 2
     invoke-direct {p0, p1}, Lkotlin/jvm/internal/PropertyReference;-><init>(Ljava/lang/Object;)V
@@ -30,9 +27,6 @@
 
 .method public constructor <init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 0
-    .annotation build Ljl/x0;
-        version = "1.4"
-    .end annotation
 
     .line 3
     invoke-direct/range {p0 .. p5}, Lkotlin/jvm/internal/PropertyReference;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
@@ -42,11 +36,11 @@
 
 
 # virtual methods
-.method public computeReflected()Lum/c;
+.method public computeReflected()Lkotlin/reflect/b;
     .locals 1
 
     .line 1
-    invoke-static {p0}, Lkm/o0;->t(Lkotlin/jvm/internal/PropertyReference0;)Lum/o;
+    invoke-static {p0}, Lkotlin/jvm/internal/m;->g(Lkotlin/jvm/internal/PropertyReference0;)Lkotlin/reflect/l;
 
     .line 2
     .line 3
@@ -73,16 +67,43 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public abstract synthetic get()Ljava/lang/Object;
 .end method
 
 .method public getDelegate()Ljava/lang/Object;
     .locals 1
-    .annotation build Ljl/x0;
-        version = "1.1"
-    .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/PropertyReference;->getReflected()Lum/n;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/PropertyReference;->getReflected()Lkotlin/reflect/k;
 
     .line 2
     .line 3
@@ -90,11 +111,11 @@
     move-result-object v0
 
     .line 5
-    check-cast v0, Lum/o;
+    check-cast v0, Lkotlin/reflect/l;
 
     .line 6
     .line 7
-    invoke-interface {v0}, Lum/o;->getDelegate()Ljava/lang/Object;
+    invoke-interface {v0}, Lkotlin/reflect/l;->getDelegate()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -115,32 +136,59 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public bridge synthetic getGetter()Lum/n$c;
+.method public bridge synthetic getGetter()Lkotlin/reflect/k$a;
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lkotlin/jvm/internal/PropertyReference0;->getGetter()Lum/o$a;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/PropertyReference0;->getGetter()Lkotlin/reflect/l$a;
 
-    move-result-object v0
+    const/4 v0, 0x0
 
     return-object v0
 .end method
 
-.method public getGetter()Lum/o$a;
+.method public getGetter()Lkotlin/reflect/l$a;
     .locals 1
 
     .line 2
-    invoke-virtual {p0}, Lkotlin/jvm/internal/PropertyReference;->getReflected()Lum/n;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/PropertyReference;->getReflected()Lkotlin/reflect/k;
 
     move-result-object v0
 
-    check-cast v0, Lum/o;
+    check-cast v0, Lkotlin/reflect/l;
 
-    invoke-interface {v0}, Lum/o;->getGetter()Lum/o$a;
+    invoke-interface {v0}, Lkotlin/reflect/l;->getGetter()Lkotlin/reflect/l$a;
 
-    move-result-object v0
+    const/4 v0, 0x0
 
     return-object v0
 .end method
@@ -149,7 +197,7 @@
     .locals 1
 
     .line 1
-    invoke-interface {p0}, Lum/o;->get()Ljava/lang/Object;
+    invoke-virtual {p0}, Lkotlin/jvm/internal/PropertyReference0;->get()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -176,4 +224,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

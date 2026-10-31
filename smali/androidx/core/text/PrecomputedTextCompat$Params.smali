@@ -43,28 +43,28 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 14
-    invoke-static {p1}, Lz0/k;->a(Landroid/text/PrecomputedText$Params;)Landroid/text/TextPaint;
+    invoke-static {p1}, Landroidx/core/text/k;->a(Landroid/text/PrecomputedText$Params;)Landroid/text/TextPaint;
 
     move-result-object v0
 
     iput-object v0, p0, Landroidx/core/text/PrecomputedTextCompat$Params;->mPaint:Landroid/text/TextPaint;
 
     .line 15
-    invoke-static {p1}, Lz0/l;->a(Landroid/text/PrecomputedText$Params;)Landroid/text/TextDirectionHeuristic;
+    invoke-static {p1}, Landroidx/core/text/l;->a(Landroid/text/PrecomputedText$Params;)Landroid/text/TextDirectionHeuristic;
 
     move-result-object v0
 
     iput-object v0, p0, Landroidx/core/text/PrecomputedTextCompat$Params;->mTextDir:Landroid/text/TextDirectionHeuristic;
 
     .line 16
-    invoke-static {p1}, Lz0/m;->a(Landroid/text/PrecomputedText$Params;)I
+    invoke-static {p1}, Landroidx/core/text/m;->a(Landroid/text/PrecomputedText$Params;)I
 
     move-result v0
 
     iput v0, p0, Landroidx/core/text/PrecomputedTextCompat$Params;->mBreakStrategy:I
 
     .line 17
-    invoke-static {p1}, Lz0/n;->a(Landroid/text/PrecomputedText$Params;)I
+    invoke-static {p1}, Landroidx/core/text/n;->a(Landroid/text/PrecomputedText$Params;)I
 
     move-result v0
 
@@ -102,27 +102,27 @@
     if-lt v0, v1, :cond_0
 
     .line 3
-    invoke-static {p1}, Lz0/s;->a(Landroid/text/TextPaint;)Landroid/text/PrecomputedText$Params$Builder;
+    invoke-static {p1}, Landroidx/core/text/s;->a(Landroid/text/TextPaint;)Landroid/text/PrecomputedText$Params$Builder;
 
     move-result-object v0
 
     .line 4
-    invoke-static {v0, p3}, Lz0/o;->a(Landroid/text/PrecomputedText$Params$Builder;I)Landroid/text/PrecomputedText$Params$Builder;
+    invoke-static {v0, p3}, Landroidx/core/text/o;->a(Landroid/text/PrecomputedText$Params$Builder;I)Landroid/text/PrecomputedText$Params$Builder;
 
     move-result-object v0
 
     .line 5
-    invoke-static {v0, p4}, Lz0/p;->a(Landroid/text/PrecomputedText$Params$Builder;I)Landroid/text/PrecomputedText$Params$Builder;
+    invoke-static {v0, p4}, Landroidx/core/text/p;->a(Landroid/text/PrecomputedText$Params$Builder;I)Landroid/text/PrecomputedText$Params$Builder;
 
     move-result-object v0
 
     .line 6
-    invoke-static {v0, p2}, Lz0/q;->a(Landroid/text/PrecomputedText$Params$Builder;Landroid/text/TextDirectionHeuristic;)Landroid/text/PrecomputedText$Params$Builder;
+    invoke-static {v0, p2}, Landroidx/core/text/q;->a(Landroid/text/PrecomputedText$Params$Builder;Landroid/text/TextDirectionHeuristic;)Landroid/text/PrecomputedText$Params$Builder;
 
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Lz0/r;->a(Landroid/text/PrecomputedText$Params$Builder;)Landroid/text/PrecomputedText$Params;
+    invoke-static {v0}, Landroidx/core/text/r;->a(Landroid/text/PrecomputedText$Params$Builder;)Landroid/text/PrecomputedText$Params;
 
     move-result-object v0
 
@@ -274,6 +274,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public equalsWithoutTextDirection(Landroidx/core/text/PrecomputedTextCompat$Params;)Z
@@ -742,6 +743,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public getBreakStrategy()I
@@ -773,6 +779,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHyphenationFrequency()I
@@ -804,6 +811,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextDirection()Landroid/text/TextDirectionHeuristic;
@@ -832,6 +840,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextPaint()Landroid/text/TextPaint;
@@ -860,6 +869,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -1338,6 +1348,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1727,7 +1789,7 @@
 
     .line 207
     .line 208
-    invoke-static {v2}, Lz0/j;->a(Landroid/text/TextPaint;)Ljava/lang/String;
+    invoke-static {v2}, Landroidx/core/text/j;->a(Landroid/text/TextPaint;)Ljava/lang/String;
 
     .line 209
     .line 210
@@ -1973,4 +2035,56 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method

@@ -68,6 +68,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -113,6 +115,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getRelationEnable()I
@@ -141,6 +145,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTemplate()Lcom/qiyukf/unicorn/protocol/attach/bot/notification/WorkSheetTemplate;
@@ -169,6 +175,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isSubmit()Z
@@ -197,6 +205,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setRelationEnable(I)V
@@ -230,6 +240,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSubmit(Z)V
@@ -263,6 +275,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTemplate(Lcom/qiyukf/unicorn/protocol/attach/bot/notification/WorkSheetTemplate;)V
@@ -296,6 +310,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public toJsonObject(Z)Lorg/json/JSONObject;
@@ -341,4 +357,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -74,6 +74,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -102,6 +103,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static apply(Landroidx/webkit/ProcessGlobalConfig;)V
@@ -256,7 +258,7 @@
     const/4 v1, 0x0
 
     .line 69
-    invoke-static {p0, v1, v0}, Lp1/f;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, v1, v0}, Landroidx/lifecycle/g;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 70
     .line 71
@@ -472,6 +474,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private static webViewCurrentlyLoaded()Z
@@ -595,6 +602,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -913,6 +922,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setDirectoryBasePaths(Landroid/content/Context;Ljava/io/File;Ljava/io/File;)Landroidx/webkit/ProcessGlobalConfig;
@@ -1103,4 +1115,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

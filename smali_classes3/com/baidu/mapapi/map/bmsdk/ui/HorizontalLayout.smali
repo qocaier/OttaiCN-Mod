@@ -42,7 +42,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -88,7 +87,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getBmBaseUI()Lcom/baidu/platform/comapi/bmsdk/ui/BmBaseUI;
@@ -119,7 +117,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setBackground(Lcom/baidu/mapapi/map/BitmapDescriptor;)V
@@ -167,7 +164,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBackgroundColor(I)V
@@ -202,7 +198,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setClickable(Z)V
@@ -237,7 +232,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGravity(Lcom/baidu/mapapi/map/bmsdk/ui/UIGravity;)V
@@ -276,7 +270,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMargin(IIII)V
@@ -529,6 +522,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public setPadding(IIII)V
@@ -781,4 +790,20 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method

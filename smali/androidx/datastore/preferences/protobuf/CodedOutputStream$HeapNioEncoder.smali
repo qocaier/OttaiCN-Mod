@@ -23,14 +23,6 @@
 # direct methods
 .method public constructor <init>(Ljava/nio/ByteBuffer;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "byteBuffer"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Ljava/nio/ByteBuffer;->array()[B
@@ -139,6 +131,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -179,4 +172,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

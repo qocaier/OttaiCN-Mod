@@ -130,6 +130,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -160,6 +162,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEventType()I
@@ -188,6 +192,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGoodsId()Ljava/lang/String;
@@ -216,6 +222,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getIdName()Ljava/lang/String;
@@ -244,6 +252,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderCount()Ljava/lang/String;
@@ -272,6 +282,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderId()Ljava/lang/String;
@@ -300,6 +312,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderSku()Ljava/lang/String;
@@ -328,6 +342,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderStatus()Ljava/lang/String;
@@ -356,6 +372,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderTime()Ljava/lang/String;
@@ -384,6 +402,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPayMoney()Ljava/lang/String;
@@ -412,6 +432,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPicture()Ljava/lang/String;
@@ -440,6 +462,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPrice()Ljava/lang/String;
@@ -468,6 +492,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -496,6 +522,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUrl()Ljava/lang/String;
@@ -524,6 +552,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setDesc(Ljava/lang/String;)V
@@ -557,6 +587,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEventType(I)V
@@ -590,6 +622,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setGoodsId(Ljava/lang/String;)V
@@ -623,6 +657,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setIdName(Ljava/lang/String;)V
@@ -656,6 +692,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderCount(Ljava/lang/String;)V
@@ -689,6 +727,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderId(Ljava/lang/String;)V
@@ -722,6 +762,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderSku(Ljava/lang/String;)V
@@ -755,6 +797,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderStatus(Ljava/lang/String;)V
@@ -788,6 +832,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderTime(Ljava/lang/String;)V
@@ -821,6 +867,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPayMoney(Ljava/lang/String;)V
@@ -854,6 +902,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPicture(Ljava/lang/String;)V
@@ -887,6 +937,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPrice(Ljava/lang/String;)V
@@ -920,6 +972,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTitle(Ljava/lang/String;)V
@@ -953,6 +1007,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUrl(Ljava/lang/String;)V
@@ -986,4 +1042,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -58,6 +58,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic a()Ljava/util/concurrent/Semaphore;
@@ -1245,6 +1247,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static e()Lcom/qiyukf/nimlib/sdk/mixpush/IManualProvidePushTokenCallback;
@@ -1273,6 +1277,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static f()Lcom/qiyukf/nimlib/sdk/mixpush/MixPushMessageHandler;
@@ -1301,6 +1307,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static final g()I
@@ -1329,6 +1337,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static final h()Z
@@ -1357,6 +1367,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static i()Z
@@ -1497,6 +1509,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static final j()V
@@ -1529,6 +1542,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static k()V
@@ -1559,4 +1574,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

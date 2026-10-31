@@ -52,6 +52,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getGetUserIdMethod()Ljava/lang/reflect/Method;
@@ -174,6 +175,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static getUserHandleConstructor()Ljava/lang/reflect/Constructor;
@@ -303,6 +306,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getUserHandleForUid(I)Landroid/os/UserHandle;

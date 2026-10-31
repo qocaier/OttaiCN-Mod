@@ -236,6 +236,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic a(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/camera/core/ZoomState;)V
@@ -357,6 +360,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic b(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/camera/core/ZoomState;)V
@@ -478,6 +484,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic c(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/camera/core/ZoomState;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -488,11 +497,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Landroidx/camera/camera2/internal/b2;
+    new-instance v1, Landroidx/camera/camera2/internal/u2;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p2, p1}, Landroidx/camera/camera2/internal/b2;-><init>(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/camera/core/ZoomState;)V
+    invoke-direct {v1, p0, p2, p1}, Landroidx/camera/camera2/internal/u2;-><init>(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/camera/core/ZoomState;)V
 
     .line 6
     .line 7
@@ -607,6 +616,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static createZoomImpl(Landroidx/camera/camera2/internal/compat/CameraCharacteristicsCompat;)Landroidx/camera/camera2/internal/ZoomControl$ZoomImpl;
@@ -669,11 +681,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Landroidx/camera/camera2/internal/a2;
+    new-instance v1, Landroidx/camera/camera2/internal/t2;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p2, p1}, Landroidx/camera/camera2/internal/a2;-><init>(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/camera/core/ZoomState;)V
+    invoke-direct {v1, p0, p2, p1}, Landroidx/camera/camera2/internal/t2;-><init>(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/camera/core/ZoomState;)V
 
     .line 6
     .line 7
@@ -788,6 +800,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static getDefaultZoomState(Landroidx/camera/camera2/internal/compat/CameraCharacteristicsCompat;)Landroidx/camera/core/ZoomState;
@@ -896,6 +911,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getZoomRatioRange(Landroidx/camera/camera2/internal/compat/CameraCharacteristicsCompat;)Landroid/util/Range;
@@ -917,7 +933,7 @@
 
     .line 1
     :try_start_0
-    invoke-static {}, Lm/b;->a()Landroid/hardware/camera2/CameraCharacteristics$Key;
+    invoke-static {}, Landroidx/camera/camera2/internal/b;->a()Landroid/hardware/camera2/CameraCharacteristics$Key;
 
     .line 2
     .line 3
@@ -1336,6 +1352,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private updateLiveData(Landroidx/camera/core/ZoomState;)V
@@ -1463,6 +1482,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getZoomState()Landroidx/lifecycle/LiveData;
@@ -1499,6 +1519,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setActive(Z)V
@@ -1639,9 +1660,10 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public setLinearZoom(F)Lub/u0;
+.method public setLinearZoom(F)Lcom/google/common/util/concurrent/t;
     .locals 2
     .param p1    # F
         .annotation build Landroidx/annotation/FloatRange;
@@ -1655,9 +1677,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(F)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1705,16 +1725,16 @@
     .line 17
     .line 18
     .line 19
-    new-instance v0, Landroidx/camera/camera2/internal/c2;
+    new-instance v0, Landroidx/camera/camera2/internal/v2;
 
     .line 20
     .line 21
-    invoke-direct {v0, p0, p1}, Landroidx/camera/camera2/internal/c2;-><init>(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/camera/core/ZoomState;)V
+    invoke-direct {v0, p0, p1}, Landroidx/camera/camera2/internal/v2;-><init>(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/camera/core/ZoomState;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 25
     .line 26
@@ -1737,7 +1757,7 @@
 
     .line 32
     :try_start_2
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 33
     .line 34
@@ -1797,9 +1817,10 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public setZoomRatio(F)Lub/u0;
+.method public setZoomRatio(F)Lcom/google/common/util/concurrent/t;
     .locals 2
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -1807,9 +1828,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(F)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1857,16 +1876,16 @@
     .line 17
     .line 18
     .line 19
-    new-instance v0, Landroidx/camera/camera2/internal/z1;
+    new-instance v0, Landroidx/camera/camera2/internal/s2;
 
     .line 20
     .line 21
-    invoke-direct {v0, p0, p1}, Landroidx/camera/camera2/internal/z1;-><init>(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/camera/core/ZoomState;)V
+    invoke-direct {v0, p0, p1}, Landroidx/camera/camera2/internal/s2;-><init>(Landroidx/camera/camera2/internal/ZoomControl;Landroidx/camera/core/ZoomState;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 25
     .line 26
@@ -1889,7 +1908,7 @@
 
     .line 32
     :try_start_2
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 33
     .line 34
@@ -1949,4 +1968,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -40,6 +40,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static a()Z
@@ -393,14 +395,14 @@
     .locals 1
 
     .line 2
-    invoke-static {p0}, Lfe/a;->e(Landroid/content/Context;)Lfe/a;
+    invoke-static {p0}, Ln5/a;->c(Landroid/content/Context;)Ln5/a;
 
     move-result-object p0
 
     .line 3
     const-string v0, "client/project_id"
 
-    invoke-interface {p0, v0}, Lde/e;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p0, v0}, Lm5/d;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -598,4 +600,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

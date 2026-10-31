@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lwf/b;
+.implements Lcom/ottai/cn/flu_native_webview/b;
 
 
 # annotations
@@ -13,22 +13,9 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOTWebviewActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OTWebviewActivity.kt\ncom/ottai/cn/flu_native_webview/OTWebviewActivity\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,385:1\n1#2:386\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nOTWebviewActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OTWebviewActivity.kt\ncom/ottai/cn/flu_native_webview/OTWebviewActivity\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,385:1\n1#2:386\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field public a:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public b:Landroid/webkit/WebView;
 
@@ -45,48 +32,16 @@
 .field public h:Landroidx/appcompat/widget/AppCompatButton;
 
 .field public i:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public j:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public k:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public l:Z
 
 .field public m:Landroid/webkit/ValueCallback;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Landroid/webkit/ValueCallback<",
-            "[",
-            "Landroid/net/Uri;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field public final n:Landroidx/activity/result/ActivityResultLauncher;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Landroidx/activity/result/ActivityResultLauncher<",
-            "Landroid/content/Intent;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -132,11 +87,11 @@
     .line 19
     .line 20
     .line 21
-    new-instance v1, Lwf/f;
+    new-instance v1, Lcom/ottai/cn/flu_native_webview/f;
 
     .line 22
     .line 23
-    invoke-direct {v1, p0}, Lwf/f;-><init>(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;)V
+    invoke-direct {v1, p0}, Lcom/ottai/cn/flu_native_webview/f;-><init>(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;)V
 
     .line 24
     .line 25
@@ -153,7 +108,7 @@
 
     .line 31
     .line 32
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -210,9 +165,10 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
-.method public static final e0(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Landroid/view/View;)V
+.method public static final X(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Landroid/view/View;)V
     .locals 0
 
     .line 1
@@ -220,7 +176,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->Q(Z)V
+    invoke-virtual {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->O(Z)V
 
     .line 4
     .line 5
@@ -274,13 +230,23 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
-.method public static final f0(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Landroid/view/View;)V
+.method public static final Y(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 2
     .line 3
@@ -340,13 +306,23 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic l(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Landroid/view/View;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->e0(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Landroid/view/View;)V
+    invoke-static {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->X(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Landroid/view/View;)V
 
     return-void
 .end method
@@ -373,7 +349,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->f0(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Landroid/view/View;)V
+    invoke-static {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->Y(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Landroid/view/View;)V
 
     return-void
 .end method
@@ -382,7 +358,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->O()V
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->M()V
 
     .line 2
     .line 3
@@ -409,13 +385,15 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static final synthetic q(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Z)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->Q(Z)V
+    invoke-virtual {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->O(Z)V
 
     .line 2
     .line 3
@@ -471,13 +449,23 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static final synthetic r(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->R(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->P(Ljava/lang/String;)V
 
     .line 2
     .line 3
@@ -533,13 +521,23 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static final synthetic s(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Landroid/webkit/WebChromeClient$FileChooserParams;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->S(Landroid/webkit/WebChromeClient$FileChooserParams;)V
+    invoke-virtual {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->Q(Landroid/webkit/WebChromeClient$FileChooserParams;)V
 
     .line 2
     .line 3
@@ -595,6 +593,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static final synthetic t(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Landroid/webkit/ValueCallback;)V
@@ -657,6 +665,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static final w(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Ljava/lang/String;)V
@@ -735,6 +753,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static final y(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Landroidx/activity/result/ActivityResult;)V
@@ -850,14 +878,22 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
 # virtual methods
 .method public final A()Landroidx/appcompat/widget/AppCompatButton;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->h:Landroidx/appcompat/widget/AppCompatButton;
@@ -876,7 +912,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -893,39 +929,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public final B()Ljava/lang/String;
-    .locals 1
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->k:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public final C()Z
+.method public final B()Z
     .locals 1
 
     .line 1
@@ -951,9 +959,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public final D()Z
+.method public final C()Z
     .locals 1
 
     .line 1
@@ -979,12 +989,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public final E()Landroid/view/View;
+.method public final D()Landroid/view/View;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->g:Landroid/view/View;
@@ -1003,7 +1013,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1020,42 +1030,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public final F()Ljava/lang/String;
+.method public final E()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->j:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public final G()Ljava/lang/String;
-    .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->i:Ljava/lang/String;
@@ -1080,12 +1060,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public final H()Landroid/widget/TextView;
+.method public final F()Landroid/widget/TextView;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->e:Landroid/widget/TextView;
@@ -1104,7 +1084,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1121,12 +1101,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public final I()Landroid/view/View;
+.method public final G()Landroid/view/View;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->d:Landroid/view/View;
@@ -1145,7 +1125,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1162,12 +1142,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public final J()Landroid/widget/ProgressBar;
+.method public final H()Landroid/widget/ProgressBar;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->c:Landroid/widget/ProgressBar;
@@ -1186,7 +1166,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1203,12 +1183,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public final K()Ljava/lang/String;
+.method public final I()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->a:Ljava/lang/String;
@@ -1233,12 +1213,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public final L()Landroid/webkit/WebView;
+.method public final J()Landroid/webkit/WebView;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->b:Landroid/webkit/WebView;
@@ -1257,7 +1237,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1274,9 +1254,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public final M()V
+.method public final K()V
     .locals 3
 
     .line 1
@@ -1296,7 +1278,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -1305,12 +1287,12 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0, v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->c0(Landroid/webkit/WebView;)V
+    invoke-virtual {p0, v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->V(Landroid/webkit/WebView;)V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 18
     .line 19
@@ -1334,7 +1316,7 @@
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 30
     .line 31
@@ -1355,7 +1337,7 @@
     .line 38
     .line 39
     .line 40
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 41
     .line 42
@@ -1376,7 +1358,7 @@
     .line 49
     .line 50
     .line 51
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 52
     .line 53
@@ -1398,7 +1380,7 @@
     .line 61
     .line 62
     .line 63
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 64
     .line 65
@@ -1422,7 +1404,7 @@
     move-result-object v0
 
     .line 75
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 76
     .line 77
@@ -1474,7 +1456,7 @@
     .line 101
     .line 102
     .line 103
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 104
     .line 105
@@ -1496,7 +1478,7 @@
     .line 113
     .line 114
     .line 115
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 116
     .line 117
@@ -1673,71 +1655,9 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
-.method public final N()Z
+.method public final L()Z
     .locals 2
 
     .line 1
@@ -1749,7 +1669,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -1769,9 +1689,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public final O()V
+.method public final M()V
     .locals 2
 
     .line 1
@@ -1783,7 +1705,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->I()Landroid/view/View;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->G()Landroid/view/View;
 
     .line 6
     .line 7
@@ -1803,7 +1725,7 @@
 
     .line 14
     :cond_0
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->N()Z
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Z
 
     .line 15
     .line 16
@@ -1815,7 +1737,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->I()Landroid/view/View;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->G()Landroid/view/View;
 
     .line 21
     .line 22
@@ -1889,13 +1811,14 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
-.method public final P(Ljava/lang/String;)V
+.method public final N(Ljava/lang/String;)V
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 2
     .line 3
@@ -1926,9 +1849,11 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public final Q(Z)V
+.method public final O(Z)V
     .locals 0
 
     .line 1
@@ -1945,7 +1870,7 @@
 
     .line 7
     :cond_0
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 8
     .line 9
@@ -1965,7 +1890,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 18
     .line 19
@@ -2044,26 +1969,28 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method public final R(Ljava/lang/String;)V
+.method public final P(Ljava/lang/String;)V
     .locals 2
 
     .line 1
-    sget-object v0, Lwf/h;->a:Lwf/h;
+    sget-object v0, Lcom/ottai/cn/flu_native_webview/h;->a:Lcom/ottai/cn/flu_native_webview/h;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lwf/h;->g(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/ottai/cn/flu_native_webview/h;->c(Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Lwf/j;->a:Lwf/j;
+    sget-object v0, Lcom/ottai/cn/flu_native_webview/j;->a:Lcom/ottai/cn/flu_native_webview/j;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Lwf/j;->a(Ljava/lang/String;)Lwf/i;
+    invoke-virtual {v0, p1}, Lcom/ottai/cn/flu_native_webview/j;->a(Ljava/lang/String;)Lcom/ottai/cn/flu_native_webview/i;
 
     .line 9
     .line 10
@@ -2071,7 +1998,7 @@
     move-result-object p1
 
     .line 12
-    invoke-virtual {p1}, Lwf/i;->g()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/ottai/cn/flu_native_webview/i;->a()Ljava/lang/String;
 
     .line 13
     .line 14
@@ -2083,7 +2010,7 @@
 
     .line 17
     .line 18
-    invoke-static {v0, v1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 19
     .line 20
@@ -2108,7 +2035,7 @@
 
     .line 29
     .line 30
-    invoke-static {v0, v1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -2120,7 +2047,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {p1}, Lwf/i;->h()Lorg/json/JSONObject;
+    invoke-virtual {p1}, Lcom/ottai/cn/flu_native_webview/i;->b()Lorg/json/JSONObject;
 
     .line 37
     .line 38
@@ -2158,7 +2085,7 @@
 
     .line 53
     .line 54
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 55
     .line 56
@@ -2196,9 +2123,11 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method public final S(Landroid/webkit/WebChromeClient$FileChooserParams;)V
+.method public final Q(Landroid/webkit/WebChromeClient$FileChooserParams;)V
     .locals 8
 
     .line 1
@@ -2275,7 +2204,7 @@
 
     .line 34
     .line 35
-    invoke-static {v3, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -2283,7 +2212,7 @@
     const/4 v4, 0x0
 
     .line 39
-    invoke-static {v3, v4}, Lll/a0;->hf([Ljava/lang/Object;I)Ljava/lang/Object;
+    invoke-static {v3, v4}, Lkotlin/collections/m;->M([Ljava/lang/Object;I)Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -2343,7 +2272,7 @@
     const/4 v5, 0x2
 
     .line 67
-    invoke-static {v3, v2, v4, v5, p1}, Lym/k0;->n3(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    invoke-static {v3, v2, v4, v5, p1}, Lkotlin/text/c0;->M(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     .line 68
     .line 69
@@ -2384,7 +2313,7 @@
 
     .line 86
     :cond_4
-    invoke-static {v3, v1, v4, v5, p1}, Lym/k0;->n3(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    invoke-static {v3, v1, v4, v5, p1}, Lkotlin/text/c0;->M(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     .line 87
     .line 88
@@ -2418,7 +2347,7 @@
 
     .line 103
     :cond_5
-    invoke-static {v3, v0, v4, v5, p1}, Lym/k0;->n3(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    invoke-static {v3, v0, v4, v5, p1}, Lkotlin/text/c0;->M(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     .line 104
     .line 105
@@ -2638,42 +2567,17 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
-.method public final T(Landroidx/appcompat/widget/AppCompatButton;)V
+.method public final R(Landroidx/appcompat/widget/AppCompatButton;)V
     .locals 1
-    .param p1    # Landroidx/appcompat/widget/AppCompatButton;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<set-?>"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2700,83 +2604,11 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public final U(Ljava/lang/String;)V
-    .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-
-    .line 1
-    const-string v0, "<set-?>"
-
-    .line 2
-    .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    iput-object p1, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->k:Ljava/lang/String;
-
-    .line 7
-    .line 8
-    return-void
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public final V(Z)V
-    .locals 0
-
-    .line 1
-    iput-boolean p1, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->l:Z
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public final W(Z)V
+.method public final S(Z)V
     .locals 0
 
     .line 1
@@ -2807,103 +2639,19 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public final X(Ljava/lang/String;)V
+.method public final T(Landroid/widget/TextView;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<set-?>"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    iput-object p1, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->j:Ljava/lang/String;
-
-    .line 7
-    .line 8
-    return-void
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public final Y(Ljava/lang/String;)V
-    .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-
-    .line 1
-    const-string v0, "<set-?>"
-
-    .line 2
-    .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    iput-object p1, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->i:Ljava/lang/String;
-
-    .line 7
-    .line 8
-    return-void
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public final Z(Landroid/widget/TextView;)V
-    .locals 1
-    .param p1    # Landroid/widget/TextView;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-
-    .line 1
-    const-string v0, "<set-?>"
-
-    .line 2
-    .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2930,51 +2678,19 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public a()V
-    .locals 0
-
-    .line 1
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->x()V
-
-    .line 2
-    .line 3
-    .line 4
-    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public final a0(Landroid/widget/ProgressBar;)V
+.method public final U(Landroid/widget/ProgressBar;)V
     .locals 1
-    .param p1    # Landroid/widget/ProgressBar;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<set-?>"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -3001,62 +2717,19 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public final b0(Ljava/lang/String;)V
+.method public final V(Landroid/webkit/WebView;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<set-?>"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 4
-    .line 5
-    .line 6
-    iput-object p1, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->a:Ljava/lang/String;
-
-    .line 7
-    .line 8
-    return-void
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public final c0(Landroid/webkit/WebView;)V
-    .locals 1
-    .param p1    # Landroid/webkit/WebView;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-
-    .line 1
-    const-string v0, "<set-?>"
-
-    .line 2
-    .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -3083,9 +2756,11 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public final d0()V
+.method public final W()V
     .locals 3
 
     .line 1
@@ -3105,7 +2780,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -3114,7 +2789,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0, v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->a0(Landroid/widget/ProgressBar;)V
+    invoke-virtual {p0, v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->U(Landroid/widget/ProgressBar;)V
 
     .line 15
     .line 16
@@ -3131,7 +2806,7 @@
     move-result-object v0
 
     .line 23
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -3153,7 +2828,7 @@
     move-result-object v0
 
     .line 35
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -3162,12 +2837,12 @@
 
     .line 39
     .line 40
-    invoke-virtual {p0, v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->Z(Landroid/widget/TextView;)V
+    invoke-virtual {p0, v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->T(Landroid/widget/TextView;)V
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->H()Landroid/widget/TextView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->F()Landroid/widget/TextView;
 
     .line 44
     .line 45
@@ -3184,7 +2859,7 @@
     .line 50
     .line 51
     .line 52
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->N()Z
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Z
 
     .line 53
     .line 54
@@ -3196,7 +2871,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->I()Landroid/view/View;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->G()Landroid/view/View;
 
     .line 59
     .line 60
@@ -3226,7 +2901,7 @@
     move-result-object v0
 
     .line 73
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 74
     .line 75
@@ -3248,7 +2923,7 @@
     move-result-object v0
 
     .line 85
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -3257,7 +2932,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {p0, v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->T(Landroidx/appcompat/widget/AppCompatButton;)V
+    invoke-virtual {p0, v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->R(Landroidx/appcompat/widget/AppCompatButton;)V
 
     .line 91
     .line 92
@@ -3278,11 +2953,11 @@
 
     .line 100
     .line 101
-    new-instance v1, Lwf/d;
+    new-instance v1, Lcom/ottai/cn/flu_native_webview/d;
 
     .line 102
     .line 103
-    invoke-direct {v1, p0}, Lwf/d;-><init>(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;)V
+    invoke-direct {v1, p0}, Lcom/ottai/cn/flu_native_webview/d;-><init>(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;)V
 
     .line 104
     .line 105
@@ -3300,11 +2975,11 @@
     move-result-object v0
 
     .line 113
-    new-instance v1, Lwf/e;
+    new-instance v1, Lcom/ottai/cn/flu_native_webview/e;
 
     .line 114
     .line 115
-    invoke-direct {v1, p0}, Lwf/e;-><init>(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;)V
+    invoke-direct {v1, p0}, Lcom/ottai/cn/flu_native_webview/e;-><init>(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;)V
 
     .line 116
     .line 117
@@ -3475,76 +3150,42 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
+.end method
+
+.method public a()V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->x()V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
     .locals 2
-    .param p1    # Landroid/os/Bundle;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/FragmentActivity;->onCreate(Landroid/os/Bundle;)V
@@ -3710,12 +3351,12 @@
     .line 78
     .line 79
     :cond_3
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->d0()V
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->W()V
 
     .line 80
     .line 81
     .line 82
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->M()V
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->K()V
 
     .line 83
     .line 84
@@ -3725,11 +3366,11 @@
     .line 86
     .line 87
     .line 88
-    sget-object p1, Lwf/h;->a:Lwf/h;
+    sget-object p1, Lcom/ottai/cn/flu_native_webview/h;->a:Lcom/ottai/cn/flu_native_webview/h;
 
     .line 89
     .line 90
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 91
     .line 92
@@ -3737,7 +3378,7 @@
     move-result-object v0
 
     .line 94
-    invoke-virtual {p1, v0}, Lwf/h;->m(Landroid/webkit/WebView;)V
+    invoke-virtual {p1, v0}, Lcom/ottai/cn/flu_native_webview/h;->f(Landroid/webkit/WebView;)V
 
     .line 95
     .line 96
@@ -3746,7 +3387,7 @@
 
     .line 98
     .line 99
-    invoke-virtual {p0, v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->P(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->N(Ljava/lang/String;)V
 
     .line 100
     .line 101
@@ -3773,7 +3414,7 @@
     .line 112
     .line 113
     .line 114
-    invoke-virtual {p1, p0}, Lwf/h;->h(Lwf/b;)V
+    invoke-virtual {p1, p0}, Lcom/ottai/cn/flu_native_webview/h;->d(Lcom/ottai/cn/flu_native_webview/b;)V
 
     .line 115
     .line 116
@@ -3946,42 +3587,17 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public final setLoadErrorView(Landroid/view/View;)V
     .locals 1
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<set-?>"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -4008,21 +3624,19 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public final setOtNavView(Landroid/view/View;)V
     .locals 1
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<set-?>"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -4049,26 +3663,24 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public final u(Ljava/lang/String;)V
     .locals 2
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "name"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 7
     .line 8
@@ -4098,13 +3710,15 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public final v()V
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->L()Landroid/webkit/WebView;
+    invoke-virtual {p0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->J()Landroid/webkit/WebView;
 
     .line 2
     .line 3
@@ -4112,11 +3726,11 @@
     move-result-object v0
 
     .line 5
-    new-instance v1, Lwf/c;
+    new-instance v1, Lcom/ottai/cn/flu_native_webview/c;
 
     .line 6
     .line 7
-    invoke-direct {v1, p0}, Lwf/c;-><init>(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;)V
+    invoke-direct {v1, p0}, Lcom/ottai/cn/flu_native_webview/c;-><init>(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;)V
 
     .line 8
     .line 9
@@ -4136,17 +3750,19 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final x()V
     .locals 1
 
     .line 1
-    sget-object v0, Lwf/h;->a:Lwf/h;
+    sget-object v0, Lcom/ottai/cn/flu_native_webview/h;->a:Lcom/ottai/cn/flu_native_webview/h;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lwf/h;->a()V
+    invoke-virtual {v0}, Lcom/ottai/cn/flu_native_webview/h;->a()V
 
     .line 4
     .line 5
@@ -4166,6 +3782,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final z()V
@@ -4196,4 +3814,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

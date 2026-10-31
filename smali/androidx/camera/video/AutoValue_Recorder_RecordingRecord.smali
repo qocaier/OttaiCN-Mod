@@ -1431,6 +1431,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public getCallbackExecutor()Ljava/util/concurrent/Executor;
@@ -1461,6 +1466,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEventListener()Landroidx/core/util/Consumer;
@@ -1500,6 +1506,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOutputOptions()Landroidx/camera/video/OutputOptions;
@@ -1530,6 +1537,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRecordingId()J
@@ -1558,6 +1566,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasAudioEnabled()Z
@@ -1586,6 +1595,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -1767,6 +1777,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isPersistent()Z
@@ -1795,6 +1807,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1945,4 +1958,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

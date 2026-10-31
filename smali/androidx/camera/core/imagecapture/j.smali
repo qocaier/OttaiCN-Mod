@@ -3,36 +3,40 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/core/imagecapture/RequestWithCallback;
+.field public final synthetic a:Landroidx/camera/core/imagecapture/ProcessingNode;
+
+.field public final synthetic b:Landroidx/camera/core/imagecapture/ProcessingNode$InputPacket;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/core/imagecapture/RequestWithCallback;)V
+.method public synthetic constructor <init>(Landroidx/camera/core/imagecapture/ProcessingNode;Landroidx/camera/core/imagecapture/ProcessingNode$InputPacket;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/core/imagecapture/j;->a:Landroidx/camera/core/imagecapture/RequestWithCallback;
+    iput-object p1, p0, Landroidx/camera/core/imagecapture/j;->a:Landroidx/camera/core/imagecapture/ProcessingNode;
+
+    iput-object p2, p0, Landroidx/camera/core/imagecapture/j;->b:Landroidx/camera/core/imagecapture/ProcessingNode$InputPacket;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
-    .locals 1
+.method public final run()V
+    .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/imagecapture/j;->a:Landroidx/camera/core/imagecapture/RequestWithCallback;
+    iget-object v0, p0, Landroidx/camera/core/imagecapture/j;->a:Landroidx/camera/core/imagecapture/ProcessingNode;
 
-    invoke-static {v0, p1}, Landroidx/camera/core/imagecapture/RequestWithCallback;->a(Landroidx/camera/core/imagecapture/RequestWithCallback;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/camera/core/imagecapture/j;->b:Landroidx/camera/core/imagecapture/ProcessingNode$InputPacket;
 
-    move-result-object p1
+    invoke-static {v0, v1}, Landroidx/camera/core/imagecapture/ProcessingNode;->d(Landroidx/camera/core/imagecapture/ProcessingNode;Landroidx/camera/core/imagecapture/ProcessingNode$InputPacket;)V
 
-    return-object p1
+    return-void
 .end method

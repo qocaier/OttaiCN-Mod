@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/huawei/android/hms/push/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "string"
-.end annotation
-
-
 # static fields
 .field public static hms_apk_not_installed_hints:I = 0x7f110054
 
@@ -29,9 +18,9 @@
 
 .field public static hms_spoof_hints:I = 0x7f11005a
 
-.field public static push_cat_body:I = 0x7f1100dc
+.field public static push_cat_body:I = 0x7f1100d9
 
-.field public static push_cat_head:I = 0x7f1100dd
+.field public static push_cat_head:I = 0x7f1100da
 
 
 # direct methods

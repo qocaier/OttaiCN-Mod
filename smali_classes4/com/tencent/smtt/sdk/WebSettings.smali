@@ -2090,7 +2090,7 @@
 
     if-lt v0, v2, :cond_1
 
-    invoke-static {v1}, Ly1/d;->a(Landroid/webkit/WebSettings;)Z
+    invoke-static {v1}, Landroidx/webkit/internal/d;->a(Landroid/webkit/WebSettings;)Z
 
     move-result v0
 
@@ -4511,7 +4511,7 @@
 
     if-lt v0, v2, :cond_1
 
-    invoke-static {v1, p1}, Ly1/b;->a(Landroid/webkit/WebSettings;Z)V
+    invoke-static {v1, p1}, Landroidx/webkit/internal/b;->a(Landroid/webkit/WebSettings;Z)V
 
     return-void
 

@@ -250,6 +250,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public constructor <init>()V
@@ -295,6 +296,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getInstance()Lcom/huawei/hms/api/HuaweiApiAvailability;
@@ -325,6 +328,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getServicesVersionCode()I
@@ -353,6 +358,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static setServicesVersionCode(I)V
@@ -386,11 +393,13 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
 # virtual methods
-.method public varargs abstract checkApiAccessible(Lcom/huawei/hms/common/HuaweiApi;[Lcom/huawei/hms/common/HuaweiApi;)Lme/k;
+.method public varargs abstract checkApiAccessible(Lcom/huawei/hms/common/HuaweiApi;[Lcom/huawei/hms/common/HuaweiApi;)Lq5/f;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -398,14 +407,12 @@
             "*>;[",
             "Lcom/huawei/hms/common/HuaweiApi<",
             "*>;)",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 .end method
 
-.method public varargs abstract checkApiAccessible(Lcom/huawei/hms/common/api/HuaweiApiCallable;[Lcom/huawei/hms/common/api/HuaweiApiCallable;)Lme/k;
+.method public varargs abstract checkApiAccessible(Lcom/huawei/hms/common/api/HuaweiApiCallable;[Lcom/huawei/hms/common/api/HuaweiApiCallable;)Lq5/f;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -413,9 +420,7 @@
             "[",
             "Lcom/huawei/hms/common/api/HuaweiApiCallable;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 .end method
@@ -435,15 +440,13 @@
 .method public abstract getErrorString(I)Ljava/lang/String;
 .end method
 
-.method public abstract getHuaweiServicesReady(Landroid/app/Activity;)Lme/k;
+.method public abstract getHuaweiServicesReady(Landroid/app/Activity;)Lq5/f;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 .end method

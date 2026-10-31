@@ -36,6 +36,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$000()Lcom/qiyukf/unicorn/a;
@@ -64,6 +66,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static addPushMessageListener(Lcom/qiyukf/unicorn/api/msg/OnPushMessageListener;)V
@@ -112,6 +116,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static addUnreadCountChangeListener(Lcom/qiyukf/unicorn/api/UnreadCountChangeListener;Z)V
@@ -182,6 +188,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static clearCache()V
@@ -214,6 +230,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static clearCrmInfo()V
@@ -251,6 +269,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static clearUIConfigTime()V
@@ -286,6 +306,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static config(Landroid/content/Context;Ljava/lang/String;Lcom/qiyukf/unicorn/api/YSFOptions;Lcom/qiyukf/unicorn/api/UnicornImageLoader;)Z
@@ -585,6 +607,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public static getUnreadCount()I
@@ -626,6 +671,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static init(Landroid/content/Context;Ljava/lang/String;Lcom/qiyukf/unicorn/api/YSFOptions;Lcom/qiyukf/unicorn/api/UnicornImageLoader;)Z
@@ -927,6 +974,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public static initSdk()Z
@@ -1105,6 +1175,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static isServiceAvailable()Z
@@ -1370,11 +1441,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static pullTemplateMsg(J)V
@@ -1412,6 +1478,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static queryLastMessage()Lcom/qiyukf/nimlib/sdk/msg/model/IMMessage;
@@ -1541,6 +1609,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static removePushMessageListener(Lcom/qiyukf/unicorn/api/msg/OnPushMessageListener;)V
@@ -1589,6 +1658,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static sendProductMessage(Lcom/qiyukf/unicorn/api/ProductDetail;)V
@@ -1628,6 +1699,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static setLocalLanguage(Ljava/lang/String;Ljava/lang/String;)V
@@ -1711,6 +1784,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static setUserInfo(Lcom/qiyukf/unicorn/api/YSFUserInfo;)Z
@@ -1810,6 +1893,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static trackUserAccess(Ljava/lang/String;Ljava/lang/String;)V
@@ -1886,6 +1971,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static updateOptions(Lcom/qiyukf/unicorn/api/YSFOptions;)V
@@ -1927,4 +2022,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

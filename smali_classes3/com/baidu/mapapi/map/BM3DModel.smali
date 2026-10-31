@@ -88,7 +88,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -674,6 +673,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public cancelAnimation()V
@@ -724,6 +755,83 @@
     .line 23
     :cond_0
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method public getAnimationIndex()I
@@ -754,7 +862,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnimationRepeatCount()I
@@ -785,7 +892,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnimationSpeed()F
@@ -816,7 +922,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBM3DModelType()Lcom/baidu/mapapi/map/BM3DModelOptions$BM3DModelType;
@@ -847,7 +952,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDrawItem()Lcom/baidu/platform/comapi/bmsdk/BmDrawItem;
@@ -878,7 +982,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getModelName()Ljava/lang/String;
@@ -909,7 +1012,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getModelPath()Ljava/lang/String;
@@ -940,7 +1042,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOffsetX()F
@@ -971,7 +1072,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOffsetY()F
@@ -1002,7 +1102,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOffsetZ()F
@@ -1033,7 +1132,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPosition()Lcom/baidu/mapapi/model/LatLng;
@@ -1064,7 +1162,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRotateX()F
@@ -1095,7 +1192,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRotateY()F
@@ -1126,7 +1222,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRotateZ()F
@@ -1157,7 +1252,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScale()F
@@ -1188,7 +1282,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isSkeletonAnimationEnable()Z
@@ -1219,7 +1312,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isZoomFixed()Z
@@ -1250,7 +1342,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public pauseAnimation()V
@@ -1301,6 +1392,83 @@
     .line 23
     :cond_0
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method public resumeAnimation()V
@@ -1351,6 +1519,83 @@
     .line 23
     :cond_0
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method public setAnimation(Lcom/baidu/mapapi/animation/Animation;)V
@@ -1477,8 +1722,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setAnimationIndex(I)V
@@ -1606,8 +1849,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setAnimationRepeatCount(I)V
@@ -1735,8 +1976,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setAnimationSpeed(F)V
@@ -1864,8 +2103,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setBM3DModelType(Lcom/baidu/mapapi/map/BM3DModelOptions$BM3DModelType;)V
@@ -2003,8 +2240,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setModelName(Ljava/lang/String;)V
@@ -2157,8 +2392,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setModelPath(Ljava/lang/String;)V
@@ -2311,8 +2544,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setOffset(FFF)V
@@ -2512,11 +2743,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public setPosition(Lcom/baidu/mapapi/model/LatLng;)V
@@ -2675,8 +2901,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setRotate(FFF)V
@@ -2870,11 +3094,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public setScale(F)V
@@ -3004,8 +3223,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setSkeletonAnimationEnable(Z)V
@@ -3135,8 +3352,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setZoomFixed(Z)V
@@ -3268,8 +3483,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public startAnimation()V
@@ -3320,6 +3533,83 @@
     .line 23
     :cond_0
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method public toDrawItem()Lcom/baidu/platform/comapi/bmsdk/BmDrawItem;
@@ -4109,4 +4399,63 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method

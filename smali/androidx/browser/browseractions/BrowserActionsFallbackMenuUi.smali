@@ -181,6 +181,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private buildCopyAction()Ljava/lang/Runnable;
@@ -211,6 +214,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private buildFallbackMenuItemList(Ljava/util/List;)Ljava/util/List;
@@ -366,6 +370,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private buildOpenInBrowserAction()Landroid/app/PendingIntent;
@@ -410,6 +415,7 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
 .end method
 
 .method private buildShareAction()Landroid/app/PendingIntent;
@@ -530,6 +536,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private initMenuView(Landroid/view/View;)Landroidx/browser/browseractions/BrowserActionsFallbackMenuView;
@@ -664,6 +672,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -801,6 +810,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
@@ -1110,6 +1121,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setMenuUiListener(Landroidx/browser/browseractions/BrowserActionsFallbackMenuUi$BrowserActionsFallMenuUiListener;)V

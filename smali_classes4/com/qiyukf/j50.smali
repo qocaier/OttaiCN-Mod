@@ -53,6 +53,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static synthetic a(Lcom/qiyukf/tv;Lcom/qiyukf/tv;)I
@@ -106,9 +108,9 @@
     .end annotation
 
     .line 1
-    new-instance v0, Lvg/x;
+    new-instance v0, Lcom/qiyukf/re0;
 
-    invoke-direct {v0}, Lvg/x;-><init>()V
+    invoke-direct {v0}, Lcom/qiyukf/re0;-><init>()V
 
     invoke-static {p1, v0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 

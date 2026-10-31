@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljl/c0;
+.implements Lkotlin/c;
 
 
 # annotations
@@ -13,8 +13,7 @@
         "Landroidx/lifecycle/ViewModel;",
         ">",
         "Ljava/lang/Object;",
-        "Ljl/c0<",
-        "TVM;>;"
+        "Lkotlin/c;"
     }
 .end annotation
 
@@ -26,109 +25,66 @@
             "TVM;"
         }
     .end annotation
+.end field
 
-    .annotation build Lsq/l;
+.field private final extrasProducer:Lq8/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lq8/a;"
+        }
     .end annotation
 .end field
 
-.field private final extrasProducer:Ljm/a;
+.field private final factoryProducer:Lq8/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/a<",
-            "Landroidx/lifecycle/viewmodel/CreationExtras;",
-            ">;"
+            "Lq8/a;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
-.field private final factoryProducer:Ljm/a;
+.field private final storeProducer:Lq8/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/a<",
-            "Landroidx/lifecycle/ViewModelProvider$Factory;",
-            ">;"
+            "Lq8/a;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
-.field private final storeProducer:Ljm/a;
+.field private final viewModelClass:Lkotlin/reflect/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/a<",
-            "Landroidx/lifecycle/ViewModelStore;",
-            ">;"
+            "Lkotlin/reflect/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field private final viewModelClass:Lum/d;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lum/d<",
-            "TVM;>;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lum/d;Ljm/a;Ljm/a;)V
+.method public constructor <init>(Lkotlin/reflect/c;Lq8/a;Lq8/a;)V
     .locals 8
-    .param p1    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lum/d<",
-            "TVM;>;",
-            "Ljm/a<",
-            "+",
-            "Landroidx/lifecycle/ViewModelStore;",
-            ">;",
-            "Ljm/a<",
-            "+",
-            "Landroidx/lifecycle/ViewModelProvider$Factory;",
-            ">;)V"
+            "Lkotlin/reflect/c;",
+            "Lq8/a;",
+            "Lq8/a;",
+            ")V"
         }
-    .end annotation
-
-    .annotation build Lim/k;
     .end annotation
 
     .line 1
     const-string v0, "viewModelClass"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "storeProducer"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "factoryProducer"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v6, 0x8
 
@@ -144,87 +100,59 @@
 
     move-object v4, p3
 
-    invoke-direct/range {v1 .. v7}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lum/d;Ljm/a;Ljm/a;Ljm/a;ILkm/v;)V
+    invoke-direct/range {v1 .. v7}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lkotlin/reflect/c;Lq8/a;Lq8/a;Lq8/a;ILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
 
-.method public constructor <init>(Lum/d;Ljm/a;Ljm/a;Ljm/a;)V
+.method public constructor <init>(Lkotlin/reflect/c;Lq8/a;Lq8/a;Lq8/a;)V
     .locals 1
-    .param p1    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lum/d<",
-            "TVM;>;",
-            "Ljm/a<",
-            "+",
-            "Landroidx/lifecycle/ViewModelStore;",
-            ">;",
-            "Ljm/a<",
-            "+",
-            "Landroidx/lifecycle/ViewModelProvider$Factory;",
-            ">;",
-            "Ljm/a<",
-            "+",
-            "Landroidx/lifecycle/viewmodel/CreationExtras;",
-            ">;)V"
+            "Lkotlin/reflect/c;",
+            "Lq8/a;",
+            "Lq8/a;",
+            "Lq8/a;",
+            ")V"
         }
-    .end annotation
-
-    .annotation build Lim/k;
     .end annotation
 
     const-string v0, "viewModelClass"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "storeProducer"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "factoryProducer"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "extrasProducer"
 
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    iput-object p1, p0, Landroidx/lifecycle/ViewModelLazy;->viewModelClass:Lum/d;
+    iput-object p1, p0, Landroidx/lifecycle/ViewModelLazy;->viewModelClass:Lkotlin/reflect/c;
 
     .line 4
-    iput-object p2, p0, Landroidx/lifecycle/ViewModelLazy;->storeProducer:Ljm/a;
+    iput-object p2, p0, Landroidx/lifecycle/ViewModelLazy;->storeProducer:Lq8/a;
 
     .line 5
-    iput-object p3, p0, Landroidx/lifecycle/ViewModelLazy;->factoryProducer:Ljm/a;
+    iput-object p3, p0, Landroidx/lifecycle/ViewModelLazy;->factoryProducer:Lq8/a;
 
     .line 6
-    iput-object p4, p0, Landroidx/lifecycle/ViewModelLazy;->extrasProducer:Ljm/a;
+    iput-object p4, p0, Landroidx/lifecycle/ViewModelLazy;->extrasProducer:Lq8/a;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lum/d;Ljm/a;Ljm/a;Ljm/a;ILkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/reflect/c;Lq8/a;Lq8/a;Lq8/a;ILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p5, p5, 0x8
@@ -236,7 +164,7 @@
 
     .line 8
     :cond_0
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lum/d;Ljm/a;Ljm/a;Ljm/a;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lkotlin/reflect/c;Lq8/a;Lq8/a;Lq8/a;)V
 
     return-void
 .end method
@@ -251,27 +179,24 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 2
     iget-object v0, p0, Landroidx/lifecycle/ViewModelLazy;->cached:Landroidx/lifecycle/ViewModel;
 
     if-nez v0, :cond_0
 
     .line 3
-    iget-object v0, p0, Landroidx/lifecycle/ViewModelLazy;->factoryProducer:Ljm/a;
+    iget-object v0, p0, Landroidx/lifecycle/ViewModelLazy;->factoryProducer:Lq8/a;
 
-    invoke-interface {v0}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lq8/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroidx/lifecycle/ViewModelProvider$Factory;
 
     .line 4
-    iget-object v1, p0, Landroidx/lifecycle/ViewModelLazy;->storeProducer:Ljm/a;
+    iget-object v1, p0, Landroidx/lifecycle/ViewModelLazy;->storeProducer:Lq8/a;
 
-    invoke-interface {v1}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v1}, Lq8/a;->invoke()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -281,9 +206,9 @@
     new-instance v2, Landroidx/lifecycle/ViewModelProvider;
 
     .line 6
-    iget-object v3, p0, Landroidx/lifecycle/ViewModelLazy;->extrasProducer:Ljm/a;
+    iget-object v3, p0, Landroidx/lifecycle/ViewModelLazy;->extrasProducer:Lq8/a;
 
-    invoke-interface {v3}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {v3}, Lq8/a;->invoke()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -293,9 +218,9 @@
     invoke-direct {v2, v1, v0, v3}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStore;Landroidx/lifecycle/ViewModelProvider$Factory;Landroidx/lifecycle/viewmodel/CreationExtras;)V
 
     .line 8
-    iget-object v0, p0, Landroidx/lifecycle/ViewModelLazy;->viewModelClass:Lum/d;
+    iget-object v0, p0, Landroidx/lifecycle/ViewModelLazy;->viewModelClass:Lkotlin/reflect/c;
 
-    invoke-static {v0}, Lim/b;->e(Lum/d;)Ljava/lang/Class;
+    invoke-static {v0}, Lp8/a;->a(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object v0
 
@@ -356,4 +281,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

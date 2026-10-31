@@ -84,6 +84,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearInputType()Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
@@ -118,6 +119,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearName()Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
@@ -152,6 +154,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearOptions()Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
@@ -186,6 +189,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearOutputType()Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
@@ -220,6 +224,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearServerStreaming()Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
@@ -254,6 +259,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getClientStreaming()Z
@@ -288,6 +294,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInputType()Ljava/lang/String;
@@ -322,6 +329,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInputTypeBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -356,6 +364,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -390,6 +399,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNameBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -424,6 +434,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOptions()Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodOptions;
@@ -458,6 +469,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOutputType()Ljava/lang/String;
@@ -492,6 +504,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOutputTypeBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -526,6 +539,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getServerStreaming()Z
@@ -560,6 +574,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasClientStreaming()Z
@@ -594,6 +609,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasInputType()Z
@@ -628,6 +644,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasName()Z
@@ -662,6 +679,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasOptions()Z
@@ -696,6 +714,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasOutputType()Z
@@ -730,6 +749,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasServerStreaming()Z
@@ -764,18 +784,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mergeOptions(Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodOptions;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -815,14 +828,6 @@
 
 .method public setClientStreaming(Z)Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -862,14 +867,6 @@
 
 .method public setInputType(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -909,14 +906,6 @@
 
 .method public setInputTypeBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -956,14 +945,6 @@
 
 .method public setName(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1003,14 +984,6 @@
 
 .method public setNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1050,14 +1023,6 @@
 
 .method public setOptions(Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodOptions$Builder;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "builderForValue"
-        }
-    .end annotation
 
     .line 3
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1080,14 +1045,6 @@
 
 .method public setOptions(Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodOptions;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1104,14 +1061,6 @@
 
 .method public setOutputType(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1151,14 +1100,6 @@
 
 .method public setOutputTypeBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
@@ -1198,14 +1139,6 @@
 
 .method public setServerStreaming(Z)Landroidx/datastore/preferences/protobuf/DescriptorProtos$MethodDescriptorProto$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V

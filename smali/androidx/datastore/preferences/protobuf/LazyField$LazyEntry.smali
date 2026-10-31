@@ -46,15 +46,6 @@
 # direct methods
 .method private constructor <init>(Ljava/util/Map$Entry;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "entry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -117,6 +108,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getKey()Ljava/lang/Object;
@@ -154,6 +146,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getValue()Ljava/lang/Object;
@@ -199,18 +192,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setValue(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Landroidx/datastore/preferences/protobuf/MessageLite;
@@ -318,4 +304,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

@@ -67,7 +67,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -146,7 +145,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isChecked()Z
@@ -177,7 +175,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isPressable()Z
@@ -208,7 +205,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onCreateDrawableState(I)[I
@@ -264,7 +260,6 @@
     return-object p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -316,7 +311,6 @@
     .line 23
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -359,7 +353,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setCheckable(Z)V
@@ -401,7 +394,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setChecked(Z)V
@@ -449,7 +441,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPressable(Z)V
@@ -482,7 +473,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPressed(Z)V
@@ -520,7 +510,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public toggle()V
@@ -555,5 +544,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

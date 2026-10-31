@@ -78,6 +78,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -116,6 +118,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNumInRow()I
@@ -149,6 +153,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStyle()Lcom/qiyukf/unicorn/protocol/attach/notification/CardMessageAttachment$CardStyleBean;
@@ -188,6 +194,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getType()Ljava/lang/String;
@@ -216,4 +224,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

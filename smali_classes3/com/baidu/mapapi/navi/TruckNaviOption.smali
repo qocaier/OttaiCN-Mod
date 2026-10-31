@@ -62,7 +62,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -143,7 +142,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAxleWeight()D
@@ -174,7 +172,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDisplacement()I
@@ -205,7 +202,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEmissionLimit()I
@@ -236,7 +232,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndName()Ljava/lang/String;
@@ -269,7 +264,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndPoint()Lcom/baidu/mapapi/model/LatLng;
@@ -302,7 +296,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHeight()D
@@ -333,7 +326,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIsTrailer()Z
@@ -364,7 +356,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLength()D
@@ -395,7 +386,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLoadWeight()I
@@ -426,7 +416,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getNaviRoutePolicy()Ljava/lang/String;
@@ -459,7 +448,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPlateColor()I
@@ -490,7 +478,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPlateNumber()Ljava/lang/String;
@@ -521,7 +508,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPowerType()I
@@ -552,7 +538,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTruckType()I
@@ -583,7 +568,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWayPoint()Lorg/json/JSONArray;
@@ -616,7 +600,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWeight()D
@@ -647,7 +630,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWidth()D
@@ -678,7 +660,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAxleCount(I)Lcom/baidu/mapapi/navi/TruckNaviOption;
@@ -711,7 +692,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAxleWeight(D)Lcom/baidu/mapapi/navi/TruckNaviOption;
@@ -744,7 +724,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDisplacement(I)Lcom/baidu/mapapi/navi/TruckNaviOption;
@@ -777,7 +756,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEmissionLimit(I)Lcom/baidu/mapapi/navi/TruckNaviOption;
@@ -810,7 +788,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHeight(D)Lcom/baidu/mapapi/navi/TruckNaviOption;
@@ -843,7 +820,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIsTrailer(Z)Lcom/baidu/mapapi/navi/TruckNaviOption;
@@ -876,7 +852,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLength(D)Lcom/baidu/mapapi/navi/TruckNaviOption;
@@ -909,7 +884,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLoadWeight(I)Lcom/baidu/mapapi/navi/TruckNaviOption;
@@ -942,7 +916,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setNaviRoutePolicy(Lcom/baidu/mapapi/navi/NaviParaOption$NaviRoutePolicy;)Lcom/baidu/mapapi/navi/NaviParaOption;
@@ -999,7 +972,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPlateNumber(Ljava/lang/String;)Lcom/baidu/mapapi/navi/TruckNaviOption;
@@ -1032,7 +1004,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPowerType(I)Lcom/baidu/mapapi/navi/TruckNaviOption;
@@ -1065,7 +1036,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTruckType(I)Lcom/baidu/mapapi/navi/TruckNaviOption;
@@ -1098,7 +1068,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setWayPoint(Lcom/baidu/mapapi/navi/WayPoint;)Lcom/baidu/mapapi/navi/NaviParaOption;
@@ -1155,7 +1124,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWidth(D)Lcom/baidu/mapapi/navi/TruckNaviOption;
@@ -1188,5 +1156,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

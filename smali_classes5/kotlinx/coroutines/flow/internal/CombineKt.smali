@@ -1,79 +1,11 @@
-.class public final Lkotlinx/coroutines/flow/internal/CombineKt;
+.class public abstract Lkotlinx/coroutines/flow/internal/CombineKt;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCombine.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Combine.kt\nkotlinx/coroutines/flow/internal/CombineKt\n+ 2 SafeCollector.common.kt\nkotlinx/coroutines/flow/internal/SafeCollector_commonKt\n*L\n1#1,140:1\n105#2:141\n*S KotlinDebug\n*F\n+ 1 Combine.kt\nkotlinx/coroutines/flow/internal/CombineKt\n*L\n83#1:141\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nCombine.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Combine.kt\nkotlinx/coroutines/flow/internal/CombineKt\n+ 2 SafeCollector.common.kt\nkotlinx/coroutines/flow/internal/SafeCollector_commonKt\n*L\n1#1,140:1\n105#2:141\n*S KotlinDebug\n*F\n+ 1 Combine.kt\nkotlinx/coroutines/flow/internal/CombineKt\n*L\n83#1:141\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
-.method public static final a(Ljn/f;[Ljn/e;Ljm/a;Ljm/q;Lul/c;)Ljava/lang/Object;
+.method public static final a(Lkotlinx/coroutines/flow/d;[Lkotlinx/coroutines/flow/c;Lq8/a;Lq8/q;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 6
-    .param p0    # Ljn/f;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # [Ljn/e;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<R:",
-            "Ljava/lang/Object;",
-            "T:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Ljn/f<",
-            "-TR;>;[",
-            "Ljn/e<",
-            "+TT;>;",
-            "Ljm/a<",
-            "[TT;>;",
-            "Ljm/q<",
-            "-",
-            "Ljn/f<",
-            "-TR;>;-[TT;-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
-            "Ljava/lang/Object;"
-        }
-    .end annotation
-
-    .annotation build Ljl/v0;
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     new-instance v0, Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2;
@@ -95,12 +27,12 @@
     move-object v3, p3
 
     .line 8
-    invoke-direct/range {v0 .. v5}, Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2;-><init>([Ljn/e;Ljm/a;Ljm/q;Ljn/f;Lul/c;)V
+    invoke-direct/range {v0 .. v5}, Lkotlinx/coroutines/flow/internal/CombineKt$combineInternal$2;-><init>([Lkotlinx/coroutines/flow/c;Lq8/a;Lq8/q;Lkotlinx/coroutines/flow/d;Lkotlin/coroutines/e;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {v0, p4}, Lkotlinx/coroutines/flow/internal/FlowCoroutineKt;->a(Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-static {v0, p4}, Lkotlinx/coroutines/flow/internal/i;->a(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -108,7 +40,7 @@
     move-result-object p0
 
     .line 15
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -124,7 +56,7 @@
 
     .line 22
     :cond_0
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
 
     .line 23
     .line 24
@@ -378,189 +310,4 @@
     .line 271
     .line 272
     .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-.end method
-
-.method public static final b(Ljn/e;Ljn/e;Ljm/q;)Ljn/e;
-    .locals 1
-    .param p0    # Ljn/e;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljn/e;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/q;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T1:",
-            "Ljava/lang/Object;",
-            "T2:",
-            "Ljava/lang/Object;",
-            "R:",
-            "Ljava/lang/Object;",
-            ">(",
-            "Ljn/e<",
-            "+TT1;>;",
-            "Ljn/e<",
-            "+TT2;>;",
-            "Ljm/q<",
-            "-TT1;-TT2;-",
-            "Lul/c<",
-            "-TR;>;+",
-            "Ljava/lang/Object;",
-            ">;)",
-            "Ljn/e<",
-            "TR;>;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    new-instance v0, Lkotlinx/coroutines/flow/internal/CombineKt$a;
-
-    .line 2
-    .line 3
-    invoke-direct {v0, p1, p0, p2}, Lkotlinx/coroutines/flow/internal/CombineKt$a;-><init>(Ljn/e;Ljn/e;Ljm/q;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-object v0
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
 .end method

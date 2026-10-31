@@ -100,6 +100,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -130,6 +132,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFromType()Ljava/lang/String;
@@ -158,6 +162,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrder()Ljava/lang/String;
@@ -186,6 +192,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()J
@@ -214,6 +222,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSortBy()Ljava/lang/String;
@@ -242,6 +252,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStatus()Ljava/lang/String;
@@ -270,6 +282,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTemplateIds()Ljava/util/List;
@@ -306,6 +320,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTemplateName()Ljava/lang/String;
@@ -334,6 +350,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVersion()Ljava/lang/String;
@@ -362,6 +380,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAccId(Ljava/lang/String;)V
@@ -395,6 +415,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromType(Ljava/lang/String;)V
@@ -428,6 +450,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrder(Ljava/lang/String;)V
@@ -461,6 +485,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionId(J)V
@@ -494,6 +520,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSortBy(Ljava/lang/String;)V
@@ -527,6 +555,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStatus(Ljava/lang/String;)V
@@ -560,6 +590,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTemplateIds(Ljava/util/List;)V
@@ -601,6 +633,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTemplateName(Ljava/lang/String;)V
@@ -634,6 +668,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVersion(Ljava/lang/String;)V
@@ -667,4 +703,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

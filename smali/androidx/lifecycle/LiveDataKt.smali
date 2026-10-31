@@ -4,20 +4,8 @@
 
 
 # direct methods
-.method public static final observe(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/LifecycleOwner;Ljm/l;)Landroidx/lifecycle/Observer;
+.method public static final observe(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/LifecycleOwner;Lq8/l;)Landroidx/lifecycle/Observer;
     .locals 1
-    .param p0    # Landroidx/lifecycle/LiveData;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
@@ -29,20 +17,11 @@
             "Landroidx/lifecycle/LiveData<",
             "TT;>;",
             "Landroidx/lifecycle/LifecycleOwner;",
-            "Ljm/l<",
-            "-TT;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/lifecycle/Observer<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "This extension method is not required when using Kotlin 1.4. You should remove \"import androidx.lifecycle.observe\""
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -50,7 +29,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p2}, Landroidx/lifecycle/LiveDataKt$observe$wrappedObserver$1;-><init>(Ljm/l;)V
+    invoke-direct {v0, p2}, Landroidx/lifecycle/LiveDataKt$observe$wrappedObserver$1;-><init>(Lq8/l;)V
 
     .line 4
     .line 5
@@ -165,4 +144,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

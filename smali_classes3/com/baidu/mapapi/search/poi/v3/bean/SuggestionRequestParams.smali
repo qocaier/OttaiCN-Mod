@@ -245,15 +245,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -884,6 +875,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public getBounds()Ljava/lang/String;
@@ -914,7 +937,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCe()I
@@ -953,7 +975,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFromLanguage()Ljava/lang/String;
@@ -984,7 +1005,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLanguage()Ljava/lang/String;
@@ -1015,7 +1035,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLocation()Ljava/lang/String;
@@ -1046,7 +1065,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOutput()Ljava/lang/String;
@@ -1077,7 +1095,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getQuery()Ljava/lang/String;
@@ -1108,7 +1125,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRadius()I
@@ -1139,7 +1155,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRegion()Ljava/lang/String;
@@ -1170,7 +1185,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRetCoordType()Ljava/lang/String;
@@ -1201,7 +1215,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSign()Ljava/lang/String;
@@ -1232,7 +1245,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTimestamp()Ljava/lang/Long;
@@ -1263,7 +1275,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getToken()Ljava/lang/String;
@@ -1294,7 +1305,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isHotword()Z
@@ -1325,7 +1335,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isRegionLimit()Z
@@ -1356,7 +1365,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setBounds(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1389,7 +1397,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCoordType(I)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1422,7 +1429,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFromLanguage(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1455,7 +1461,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHotword(Z)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1488,7 +1493,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLanguage(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1521,7 +1525,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLocation(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1554,7 +1557,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOutput(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1587,7 +1589,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setQuery(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1620,7 +1621,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRadius(I)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1653,7 +1653,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRegion(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1686,7 +1685,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRegionLimit(Z)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1719,7 +1717,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRetCoordType(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1752,7 +1749,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSign(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1785,7 +1781,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTimestamp(Ljava/lang/Long;)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1818,7 +1813,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setToken(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/v3/bean/SuggestionRequestParams;
@@ -1851,5 +1845,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

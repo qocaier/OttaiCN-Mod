@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -100,7 +100,7 @@
     const/4 v2, 0x0
 
     .line 32
-    invoke-direct {p1, v0, v1, v2}, Landroidx/datastore/core/SharedCounter;-><init>(JLkm/v;)V
+    invoke-direct {p1, v0, v1, v2}, Landroidx/datastore/core/SharedCounter;-><init>(JLkotlin/jvm/internal/f;)V
 
     .line 33
     .line 34
@@ -167,28 +167,20 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
 # virtual methods
-.method public final create$datastore_core_release(Ljm/a;)Landroidx/datastore/core/SharedCounter;
+.method public final create$datastore_core_release(Lq8/a;)Landroidx/datastore/core/SharedCounter;
     .locals 1
-    .param p1    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/a<",
-            "+",
-            "Ljava/io/File;",
-            ">;)",
+            "Lq8/a;",
+            ")",
             "Landroidx/datastore/core/SharedCounter;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -196,12 +188,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p1}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -319,12 +311,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getNativeSharedCounter$datastore_core_release()Landroidx/datastore/core/NativeSharedCounter;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Landroidx/datastore/core/SharedCounter;->access$getNativeSharedCounter$cp()Landroidx/datastore/core/NativeSharedCounter;
@@ -351,6 +342,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final loadLib()V
@@ -381,4 +373,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

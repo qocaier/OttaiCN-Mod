@@ -51,6 +51,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private constructor <init>()V
@@ -79,6 +81,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$000()Lcom/qiyukf/unicorn/mediaselect/internal/entity/SelectionSpec;
@@ -107,4 +111,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

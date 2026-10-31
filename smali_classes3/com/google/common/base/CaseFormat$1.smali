@@ -15,22 +15,8 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;ILgb/b;Ljava/lang/String;)V
+.method public constructor <init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000,
-            0x0,
-            0x0
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal",
-            "wordBoundary",
-            "wordSeparator"
-        }
-    .end annotation
 
     .line 1
     const/4 v5, 0x0
@@ -51,7 +37,7 @@
     move-object v4, p4
 
     .line 7
-    invoke-direct/range {v0 .. v5}, Lcom/google/common/base/CaseFormat;-><init>(Ljava/lang/String;ILgb/b;Ljava/lang/String;Lcom/google/common/base/CaseFormat$1;)V
+    invoke-direct/range {v0 .. v5}, Lcom/google/common/base/CaseFormat;-><init>(Ljava/lang/String;ILcom/google/common/base/b;Ljava/lang/String;Lcom/google/common/base/CaseFormat$1;)V
 
     .line 8
     .line 9
@@ -289,22 +275,28 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 
 # virtual methods
 .method public convert(Lcom/google/common/base/CaseFormat;Ljava/lang/String;)Ljava/lang/String;
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "format",
-            "s"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Lcom/google/common/base/CaseFormat;->LOWER_UNDERSCORE:Lcom/google/common/base/CaseFormat;
@@ -351,7 +343,7 @@
     move-result-object p1
 
     .line 22
-    invoke-static {p1}, Lgb/a;->j(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/google/common/base/a;->e(Ljava/lang/String;)Ljava/lang/String;
 
     .line 23
     .line 24
@@ -401,26 +393,13 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public normalizeWord(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "word"
-        }
-    .end annotation
 
     .line 1
-    invoke-static {p1}, Lgb/a;->g(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/google/common/base/a;->c(Ljava/lang/String;)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -448,5 +427,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

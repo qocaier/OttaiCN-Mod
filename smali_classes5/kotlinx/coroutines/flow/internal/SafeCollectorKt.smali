@@ -1,29 +1,10 @@
-.class public final Lkotlinx/coroutines/flow/internal/SafeCollectorKt;
+.class public abstract Lkotlinx/coroutines/flow/internal/SafeCollectorKt;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # static fields
-.field public static final a:Ljm/q;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljm/q<",
-            "Ljn/f<",
-            "Ljava/lang/Object;",
-            ">;",
-            "Ljava/lang/Object;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final a:Lq8/q;
 
 
 # direct methods
@@ -39,7 +20,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -47,7 +28,7 @@
     const/4 v1, 0x3
 
     .line 9
-    invoke-static {v0, v1}, Lkm/x0;->q(Ljava/lang/Object;I)Ljava/lang/Object;
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/p;->b(Ljava/lang/Object;I)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -55,11 +36,11 @@
     move-result-object v0
 
     .line 13
-    check-cast v0, Ljm/q;
+    check-cast v0, Lq8/q;
 
     .line 14
     .line 15
-    sput-object v0, Lkotlinx/coroutines/flow/internal/SafeCollectorKt;->a:Ljm/q;
+    sput-object v0, Lkotlinx/coroutines/flow/internal/SafeCollectorKt;->a:Lq8/q;
 
     .line 16
     .line 17
@@ -70,13 +51,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public static final synthetic a()Ljm/q;
+.method public static final synthetic a()Lq8/q;
     .locals 1
 
     .line 1
-    sget-object v0, Lkotlinx/coroutines/flow/internal/SafeCollectorKt;->a:Ljm/q;
+    sget-object v0, Lkotlinx/coroutines/flow/internal/SafeCollectorKt;->a:Lq8/q;
 
     .line 2
     .line 3
@@ -101,11 +109,31 @@
     .line 21
     .line 22
     .line 23
-.end method
-
-.method public static synthetic b()V
-    .locals 0
-
-    .line 1
-    return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

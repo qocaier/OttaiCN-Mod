@@ -97,5 +97,4 @@
     return-object v0
     .line 23
     .line 24
-    .line 25
 .end method

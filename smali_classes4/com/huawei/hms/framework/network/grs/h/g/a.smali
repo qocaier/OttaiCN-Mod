@@ -11,9 +11,9 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lcf/b;
+    new-instance v0, Lx5/a;
 
-    invoke-direct {v0}, Lcf/b;-><init>()V
+    invoke-direct {v0}, Lx5/a;-><init>()V
 
     sput-object v0, Lcom/huawei/hms/framework/network/grs/h/g/a;->a:Ljavax/net/ssl/HostnameVerifier;
 
@@ -66,19 +66,19 @@
 
     move-result-object p0
 
-    new-instance v0, Lbf/k;
+    new-instance v0, Lw5/e;
 
     const-string v1, ""
 
-    invoke-direct {v0, p0, v1}, Lbf/k;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Lw5/e;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
 
-    new-instance p0, Lbf/i;
+    new-instance p0, Lw5/c;
 
-    invoke-static {}, Lze/b;->c()Ljava/security/SecureRandom;
+    invoke-static {}, Lv5/b;->c()Ljava/security/SecureRandom;
 
     move-result-object v1
 
-    invoke-direct {p0, v0, v1}, Lbf/i;-><init>(Ljavax/net/ssl/X509TrustManager;Ljava/security/SecureRandom;)V
+    invoke-direct {p0, v0, v1}, Lw5/c;-><init>(Ljavax/net/ssl/X509TrustManager;Ljava/security/SecureRandom;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_1

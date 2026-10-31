@@ -35,6 +35,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getLayoutDirection(Landroid/view/ViewGroup$MarginLayoutParams;)I

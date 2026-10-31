@@ -76,6 +76,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic a(Lcom/qiyukf/module/log/base/UnicornLogBase;Z)V
@@ -138,6 +140,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$000(Lcom/qiyukf/module/log/base/UnicornLogBase;)I
@@ -171,6 +183,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$100(Lcom/qiyukf/module/log/base/UnicornLogBase;)Lcom/qiyukf/module/log/base/UnicornLogBase$LogInterceptor;
@@ -204,6 +218,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getNullImpl()Lcom/qiyukf/module/log/base/UnicornLogBase;
@@ -243,6 +259,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private o(ILjava/lang/String;Ljava/lang/String;)V
@@ -381,6 +399,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -451,6 +471,8 @@
     return-void
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public e(Ljava/lang/String;Ljava/lang/String;)V
@@ -558,11 +580,11 @@
     .line 26
     .line 27
     :cond_1
-    new-instance p1, Lwg/a;
+    new-instance p1, Lcom/qiyukf/module/log/base/a;
 
     .line 28
     .line 29
-    invoke-direct {p1, p0, p6}, Lwg/a;-><init>(Lcom/qiyukf/module/log/base/UnicornLogBase;Z)V
+    invoke-direct {p1, p0, p6}, Lcom/qiyukf/module/log/base/a;-><init>(Lcom/qiyukf/module/log/base/UnicornLogBase;Z)V
 
     .line 30
     .line 31
@@ -1144,6 +1166,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public tryFlush()V
@@ -1187,6 +1211,8 @@
     return-void
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public v(Ljava/lang/String;Ljava/lang/String;)V

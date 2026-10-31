@@ -69,6 +69,8 @@
     return-void
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -99,6 +101,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getReplyMsgIdClient()Ljava/lang/String;
@@ -127,6 +131,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getReplyMsgIdServer()J
@@ -155,6 +161,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getReplyMsgTime()J
@@ -183,6 +191,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getReplyMsgToAccount()Ljava/lang/String;
@@ -211,6 +221,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getThreadMsgFromAccount()Ljava/lang/String;
@@ -239,6 +251,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getThreadMsgIdClient()Ljava/lang/String;
@@ -267,6 +281,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getThreadMsgIdServer()J
@@ -295,6 +311,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getThreadMsgTime()J
@@ -323,6 +341,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getThreadMsgToAccount()Ljava/lang/String;
@@ -351,6 +371,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setReplyMsgFromAccount(Ljava/lang/String;)V
@@ -384,6 +406,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setReplyMsgIdClient(Ljava/lang/String;)V
@@ -417,6 +441,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setReplyMsgIdServer(J)V
@@ -450,6 +476,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setReplyMsgTime(J)V
@@ -483,6 +511,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setReplyMsgToAccount(Ljava/lang/String;)V
@@ -516,6 +546,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setThreadMsgFromAccount(Ljava/lang/String;)V
@@ -549,6 +581,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setThreadMsgIdClient(Ljava/lang/String;)V
@@ -582,6 +616,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setThreadMsgIdServer(J)V
@@ -615,6 +651,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setThreadMsgTime(J)V
@@ -648,6 +686,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setThreadMsgToAccount(Ljava/lang/String;)V
@@ -681,4 +721,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

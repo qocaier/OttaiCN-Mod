@@ -86,6 +86,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static from(Landroidx/camera/core/impl/TagBundle;)Landroidx/camera/core/impl/MutableTagBundle;
@@ -214,6 +215,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 

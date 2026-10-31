@@ -355,6 +355,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static from(Landroidx/camera/core/impl/CaptureConfig;)Landroidx/camera/core/impl/CaptureConfig$Builder;
@@ -787,6 +788,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public addSurface(Landroidx/camera/core/impl/DeferrableSurface;)V
@@ -1020,6 +1022,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public clearSurfaces()V
@@ -1050,6 +1054,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExpectedFrameRateRange()Landroid/util/Range;
@@ -1101,6 +1106,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImplementationOptions()Landroidx/camera/core/impl/Config;
@@ -1131,6 +1137,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurfaces()Ljava/util/Set;
@@ -1170,6 +1177,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTag(Ljava/lang/String;)Ljava/lang/Object;
@@ -1241,6 +1249,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isUseRepeatingSurface()Z
@@ -1269,6 +1278,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeCameraCaptureCallback(Landroidx/camera/core/impl/CameraCaptureCallback;)Z

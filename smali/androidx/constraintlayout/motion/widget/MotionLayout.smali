@@ -288,14 +288,6 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "context"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ConstraintLayout;-><init>(Landroid/content/Context;)V
@@ -523,16 +515,6 @@
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs"
-        }
-    .end annotation
 
     .line 54
     invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/widget/ConstraintLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -760,18 +742,6 @@
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs",
-            "defStyleAttr"
-        }
-    .end annotation
 
     .line 107
     invoke-direct {p0, p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -5899,20 +5869,6 @@
 
 .method private callTransformedTouchEvent(Landroid/view/View;Landroid/view/MotionEvent;FF)Z
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "view",
-            "event",
-            "offsetX",
-            "offsetY"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Landroid/view/View;->getMatrix()Landroid/graphics/Matrix;
@@ -6201,6 +6157,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private checkStructure()V
@@ -6444,16 +6406,6 @@
 
 .method private checkStructure(ILandroidx/constraintlayout/widget/ConstraintSet;)V
     .locals 10
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "csetId",
-            "set"
-        }
-    .end annotation
 
     .line 24
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -6695,14 +6647,6 @@
 
 .method private checkStructure(Landroidx/constraintlayout/motion/widget/MotionScene$Transition;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "transition"
-        }
-    .end annotation
 
     .line 44
     invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->getStartConstraintSetId()I
@@ -6848,6 +6792,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private debugPos()V
@@ -7321,6 +7267,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private evaluateLayout()V
@@ -7906,6 +7904,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private fireTransitionChange()V
@@ -8417,22 +8467,62 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private fireTransitionStarted(Landroidx/constraintlayout/motion/widget/MotionLayout;II)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "motionLayout",
-            "mBeginState",
-            "mEndState"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mTransitionListener:Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionListener;
@@ -8581,24 +8671,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private handlesTouchEvent(FFLandroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "x",
-            "y",
-            "view",
-            "event"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p3, Landroid/view/ViewGroup;
@@ -8979,18 +9058,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private init(Landroid/util/AttributeSet;)V
     .locals 9
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "attrs"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroid/view/View;->isInEditMode()Z
@@ -9434,6 +9511,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private processTransitionCompleted()V
@@ -9610,6 +9692,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private setupMotionViews()V
@@ -11365,426 +11449,10 @@
     .line 1136
     .line 1137
     .line 1138
-    .line 1139
-    .line 1140
-    .line 1141
-    .line 1142
-    .line 1143
-    .line 1144
-    .line 1145
-    .line 1146
-    .line 1147
-    .line 1148
-    .line 1149
-    .line 1150
-    .line 1151
-    .line 1152
-    .line 1153
-    .line 1154
-    .line 1155
-    .line 1156
-    .line 1157
-    .line 1158
-    .line 1159
-    .line 1160
-    .line 1161
-    .line 1162
-    .line 1163
-    .line 1164
-    .line 1165
-    .line 1166
-    .line 1167
-    .line 1168
-    .line 1169
-    .line 1170
-    .line 1171
-    .line 1172
-    .line 1173
-    .line 1174
-    .line 1175
-    .line 1176
-    .line 1177
-    .line 1178
-    .line 1179
-    .line 1180
-    .line 1181
-    .line 1182
-    .line 1183
-    .line 1184
-    .line 1185
-    .line 1186
-    .line 1187
-    .line 1188
-    .line 1189
-    .line 1190
-    .line 1191
-    .line 1192
-    .line 1193
-    .line 1194
-    .line 1195
-    .line 1196
-    .line 1197
-    .line 1198
-    .line 1199
-    .line 1200
-    .line 1201
-    .line 1202
-    .line 1203
-    .line 1204
-    .line 1205
-    .line 1206
-    .line 1207
-    .line 1208
-    .line 1209
-    .line 1210
-    .line 1211
-    .line 1212
-    .line 1213
-    .line 1214
-    .line 1215
-    .line 1216
-    .line 1217
-    .line 1218
-    .line 1219
-    .line 1220
-    .line 1221
-    .line 1222
-    .line 1223
-    .line 1224
-    .line 1225
-    .line 1226
-    .line 1227
-    .line 1228
-    .line 1229
-    .line 1230
-    .line 1231
-    .line 1232
-    .line 1233
-    .line 1234
-    .line 1235
-    .line 1236
-    .line 1237
-    .line 1238
-    .line 1239
-    .line 1240
-    .line 1241
-    .line 1242
-    .line 1243
-    .line 1244
-    .line 1245
-    .line 1246
-    .line 1247
-    .line 1248
-    .line 1249
-    .line 1250
-    .line 1251
-    .line 1252
-    .line 1253
-    .line 1254
-    .line 1255
-    .line 1256
-    .line 1257
-    .line 1258
-    .line 1259
-    .line 1260
-    .line 1261
-    .line 1262
-    .line 1263
-    .line 1264
-    .line 1265
-    .line 1266
-    .line 1267
-    .line 1268
-    .line 1269
-    .line 1270
-    .line 1271
-    .line 1272
-    .line 1273
-    .line 1274
-    .line 1275
-    .line 1276
-    .line 1277
-    .line 1278
-    .line 1279
-    .line 1280
-    .line 1281
-    .line 1282
-    .line 1283
-    .line 1284
-    .line 1285
-    .line 1286
-    .line 1287
-    .line 1288
-    .line 1289
-    .line 1290
-    .line 1291
-    .line 1292
-    .line 1293
-    .line 1294
-    .line 1295
-    .line 1296
-    .line 1297
-    .line 1298
-    .line 1299
-    .line 1300
-    .line 1301
-    .line 1302
-    .line 1303
-    .line 1304
-    .line 1305
-    .line 1306
-    .line 1307
-    .line 1308
-    .line 1309
-    .line 1310
-    .line 1311
-    .line 1312
-    .line 1313
-    .line 1314
-    .line 1315
-    .line 1316
-    .line 1317
-    .line 1318
-    .line 1319
-    .line 1320
-    .line 1321
-    .line 1322
-    .line 1323
-    .line 1324
-    .line 1325
-    .line 1326
-    .line 1327
-    .line 1328
-    .line 1329
-    .line 1330
-    .line 1331
-    .line 1332
-    .line 1333
-    .line 1334
-    .line 1335
-    .line 1336
-    .line 1337
-    .line 1338
-    .line 1339
-    .line 1340
-    .line 1341
-    .line 1342
-    .line 1343
-    .line 1344
-    .line 1345
-    .line 1346
-    .line 1347
-    .line 1348
-    .line 1349
-    .line 1350
-    .line 1351
-    .line 1352
-    .line 1353
-    .line 1354
-    .line 1355
-    .line 1356
-    .line 1357
-    .line 1358
-    .line 1359
-    .line 1360
-    .line 1361
-    .line 1362
-    .line 1363
-    .line 1364
-    .line 1365
-    .line 1366
-    .line 1367
-    .line 1368
-    .line 1369
-    .line 1370
-    .line 1371
-    .line 1372
-    .line 1373
-    .line 1374
-    .line 1375
-    .line 1376
-    .line 1377
-    .line 1378
-    .line 1379
-    .line 1380
-    .line 1381
-    .line 1382
-    .line 1383
-    .line 1384
-    .line 1385
-    .line 1386
-    .line 1387
-    .line 1388
-    .line 1389
-    .line 1390
-    .line 1391
-    .line 1392
-    .line 1393
-    .line 1394
-    .line 1395
-    .line 1396
-    .line 1397
-    .line 1398
-    .line 1399
-    .line 1400
-    .line 1401
-    .line 1402
-    .line 1403
-    .line 1404
-    .line 1405
-    .line 1406
-    .line 1407
-    .line 1408
-    .line 1409
-    .line 1410
-    .line 1411
-    .line 1412
-    .line 1413
-    .line 1414
-    .line 1415
-    .line 1416
-    .line 1417
-    .line 1418
-    .line 1419
-    .line 1420
-    .line 1421
-    .line 1422
-    .line 1423
-    .line 1424
-    .line 1425
-    .line 1426
-    .line 1427
-    .line 1428
-    .line 1429
-    .line 1430
-    .line 1431
-    .line 1432
-    .line 1433
-    .line 1434
-    .line 1435
-    .line 1436
-    .line 1437
-    .line 1438
-    .line 1439
-    .line 1440
-    .line 1441
-    .line 1442
-    .line 1443
-    .line 1444
-    .line 1445
-    .line 1446
-    .line 1447
-    .line 1448
-    .line 1449
-    .line 1450
-    .line 1451
-    .line 1452
-    .line 1453
-    .line 1454
-    .line 1455
-    .line 1456
-    .line 1457
-    .line 1458
-    .line 1459
-    .line 1460
-    .line 1461
-    .line 1462
-    .line 1463
-    .line 1464
-    .line 1465
-    .line 1466
-    .line 1467
-    .line 1468
-    .line 1469
-    .line 1470
-    .line 1471
-    .line 1472
-    .line 1473
-    .line 1474
-    .line 1475
-    .line 1476
-    .line 1477
-    .line 1478
-    .line 1479
-    .line 1480
-    .line 1481
-    .line 1482
-    .line 1483
-    .line 1484
-    .line 1485
-    .line 1486
-    .line 1487
-    .line 1488
-    .line 1489
-    .line 1490
-    .line 1491
-    .line 1492
-    .line 1493
-    .line 1494
-    .line 1495
-    .line 1496
-    .line 1497
-    .line 1498
-    .line 1499
-    .line 1500
-    .line 1501
-    .line 1502
-    .line 1503
-    .line 1504
-    .line 1505
-    .line 1506
-    .line 1507
-    .line 1508
-    .line 1509
-    .line 1510
-    .line 1511
-    .line 1512
-    .line 1513
-    .line 1514
-    .line 1515
-    .line 1516
-    .line 1517
-    .line 1518
-    .line 1519
-    .line 1520
-    .line 1521
-    .line 1522
-    .line 1523
-    .line 1524
-    .line 1525
-    .line 1526
-    .line 1527
-    .line 1528
-    .line 1529
-    .line 1530
-    .line 1531
-    .line 1532
-    .line 1533
-    .line 1534
-    .line 1535
-    .line 1536
-    .line 1537
-    .line 1538
-    .line 1539
-    .line 1540
-    .line 1541
-    .line 1542
-    .line 1543
-    .line 1544
-    .line 1545
-    .line 1546
 .end method
 
 .method private toRect(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Landroid/graphics/Rect;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "cw"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mTempRect:Landroid/graphics/Rect;
@@ -11907,22 +11575,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static willJump(FFF)Z
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "velocity",
-            "position",
-            "maxAcceleration"
-        }
-    .end annotation
 
     const/4 v0, 0x0
 
@@ -11992,14 +11649,6 @@
 # virtual methods
 .method public addTransitionListener(Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionListener;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "listener"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mTransitionListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -12046,14 +11695,6 @@
 
 .method public animateTo(F)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "position"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -12218,20 +11859,11 @@
     return-void
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public applyViewTransition(ILandroidx/constraintlayout/motion/widget/MotionController;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "viewTransitionId",
-            "motionController"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -12299,14 +11931,6 @@
 
 .method public cloneConstraintSet(I)Landroidx/constraintlayout/widget/ConstraintSet;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -12357,14 +11981,6 @@
 
 .method public disableAutoTransition(Z)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "disable"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -12405,14 +12021,6 @@
 
 .method public dispatchDraw(Landroid/graphics/Canvas;)V
     .locals 9
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "canvas"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mDecoratorsHelpers:Ljava/util/ArrayList;
@@ -14128,16 +13736,6 @@
 
 .method public enableTransition(IZ)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "transitionID",
-            "enable"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->getTransition(I)Landroidx/constraintlayout/motion/widget/MotionScene$Transition;
@@ -14430,20 +14028,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public enableViewTransition(IZ)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "viewTransitionId",
-            "enable"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -14505,14 +14096,6 @@
 
 .method public endTrigger(Z)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "start"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
@@ -14624,18 +14207,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public evaluate(Z)V
     .locals 20
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "force"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v0, p0
@@ -17257,22 +16833,62 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public fireTrigger(IZF)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "triggerId",
-            "positive",
-            "progress"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mTransitionListener:Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionListener;
@@ -17421,26 +17037,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getAnchorDpDt(IFFF[F)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "mTouchAnchorId",
-            "pos",
-            "locationX",
-            "locationY",
-            "mAnchorDpDt"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mFrameArrayList:Ljava/util/HashMap;
@@ -18047,14 +17650,6 @@
 
 .method public getConstraintSet(I)Landroidx/constraintlayout/widget/ConstraintSet;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -18134,18 +17729,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getConstraintSetNames(I)Ljava/lang/String;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -18214,18 +17802,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDebugMode(Z)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "showPaths"
-        }
-    .end annotation
 
     .line 1
     if-eqz p1, :cond_0
@@ -18314,6 +17895,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDesignTool()Landroidx/constraintlayout/motion/widget/DesignTool;
@@ -18353,6 +17935,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEndState()I
@@ -18381,18 +17964,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMotionController(I)Landroidx/constraintlayout/motion/widget/MotionController;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mTouchAnchorId"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mFrameArrayList:Ljava/util/HashMap;
@@ -18462,6 +18038,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getProgress()F
@@ -18490,6 +18067,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getScene()Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -18518,6 +18096,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStartState()I
@@ -18546,6 +18125,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTargetPosition()F
@@ -18574,18 +18154,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTransition(I)Landroidx/constraintlayout/motion/widget/MotionScene$Transition;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -18730,6 +18303,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getTransitionTimeMs()J
@@ -18779,6 +18354,7 @@
     .line 19
     return-wide v0
     .line 20
+    .line 21
 .end method
 
 .method public getVelocity()F
@@ -18807,26 +18383,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getViewVelocity(Landroid/view/View;FF[FI)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "view",
-            "posOnViewX",
-            "posOnViewY",
-            "returnVelocity",
-            "type"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastVelocity:F
@@ -19508,6 +19069,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isDelayedApplicationOfInitialState()Z
@@ -19536,6 +19098,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isInRotation()Z
@@ -19564,6 +19127,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isInteractionEnabled()Z
@@ -19592,18 +19156,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isViewTransitionEnabled(I)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "viewTransitionId"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -19648,14 +19205,6 @@
 
 .method public jumpToState(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->isAttachedToWindow()Z
@@ -19769,18 +19318,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public loadLayoutDescription(I)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "motionScene"
-        }
-    .end annotation
 
     .line 1
     const-string v0, "unable to parse MotionScene file"
@@ -20237,18 +19779,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public lookUpConstraintId(Ljava/lang/String;)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -20319,6 +19858,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onAttachedToWindow()V
@@ -20823,18 +20363,62 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "event"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -21258,26 +20842,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public onLayout(ZIIII)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "changed",
-            "left",
-            "top",
-            "right",
-            "bottom"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -21885,16 +21458,6 @@
 
 .method public onMeasure(II)V
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "widthMeasureSpec",
-            "heightMeasureSpec"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -22361,6 +21924,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onNestedFling(Landroid/view/View;FFZ)Z
@@ -22369,20 +21935,6 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "velocityX",
-            "velocityY",
-            "consumed"
-        }
-    .end annotation
 
     const/4 p1, 0x0
 
@@ -22395,18 +21947,6 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "velocityX",
-            "velocityY"
-        }
-    .end annotation
 
     const/4 p1, 0x0
 
@@ -22423,22 +21963,6 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "dx",
-            "dy",
-            "consumed",
-            "type"
-        }
-    .end annotation
 
     .line 1
     iget-object p5, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -23187,24 +22711,6 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "dxConsumed",
-            "dyConsumed",
-            "dxUnconsumed",
-            "dyUnconsumed",
-            "type"
-        }
-    .end annotation
 
     .line 1
     return-void
@@ -23216,26 +22722,6 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "dxConsumed",
-            "dyConsumed",
-            "dxUnconsumed",
-            "dyUnconsumed",
-            "type",
-            "consumed"
-        }
-    .end annotation
 
     .line 2
     iget-boolean p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mUndergoingMotion:Z
@@ -23282,20 +22768,6 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "child",
-            "target",
-            "axes",
-            "type"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->getNanoTime()J
@@ -23542,6 +23014,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onNewStateAttachHandlers()V
@@ -23677,18 +23155,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onRtlPropertiesChanged(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "layoutDirection"
-        }
-    .end annotation
 
     .line 1
     iget-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -23739,20 +23211,6 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "child",
-            "target",
-            "axes",
-            "type"
-        }
-    .end annotation
 
     .line 1
     iget-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -24026,6 +23484,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onStopNestedScroll(Landroid/view/View;I)V
@@ -24034,16 +23498,6 @@
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "type"
-        }
-    .end annotation
 
     .line 1
     iget-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -24125,14 +23579,6 @@
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "event"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -24290,18 +23736,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onViewAdded(Landroid/view/View;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "view"
-        }
-    .end annotation
 
     .line 1
     invoke-super {p0, p1}, Landroidx/constraintlayout/widget/ConstraintLayout;->onViewAdded(Landroid/view/View;)V
@@ -24631,18 +24070,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public onViewRemoved(Landroid/view/View;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "view"
-        }
-    .end annotation
 
     .line 1
     invoke-super {p0, p1}, Landroidx/constraintlayout/widget/ConstraintLayout;->onViewRemoved(Landroid/view/View;)V
@@ -24690,14 +24126,6 @@
 
 .method public parseLayoutDescription(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     const/4 p1, 0x0
@@ -24765,6 +24193,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public rebuildScene()V
@@ -24797,18 +24226,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeTransitionListener(Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionListener;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "listener"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mTransitionListeners:Ljava/util/concurrent/CopyOnWriteArrayList;
@@ -25004,23 +24426,14 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public rotateTo(II)V
     .locals 5
     .annotation build Landroidx/annotation/RequiresApi;
         api = 0x11
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "id",
-            "duration"
-        }
     .end annotation
 
     .line 1
@@ -25393,18 +24806,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public scheduleTransitionTo(I)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->getCurrentState()I
@@ -25539,18 +24947,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setDebugMode(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "debugMode"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mDebugPath:I
@@ -25586,14 +24987,6 @@
 
 .method public setDelayedApplicationOfInitialState(Z)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "delayedApply"
-        }
-    .end annotation
 
     .line 1
     iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mDelayedApply:Z
@@ -25627,14 +25020,6 @@
 
 .method public setInteractionEnabled(Z)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "enabled"
-        }
-    .end annotation
 
     .line 1
     iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mInteractionEnabled:Z
@@ -25668,14 +25053,6 @@
 
 .method public setInterpolatedProgress(F)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "pos"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -25783,18 +25160,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setOnHide(F)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "progress"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mOnHideHelpers:Ljava/util/ArrayList;
@@ -25903,18 +25273,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setOnShow(F)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "progress"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mOnShowHelpers:Ljava/util/ArrayList;
@@ -26023,18 +25386,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setProgress(F)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "pos"
-        }
-    .end annotation
 
     const/4 v0, 0x0
 
@@ -26224,16 +25580,6 @@
 
 .method public setProgress(FF)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "pos",
-            "velocity"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->isAttachedToWindow()Z
@@ -26324,14 +25670,6 @@
 
 .method public setScene(Landroidx/constraintlayout/motion/widget/MotionScene;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "scene"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -26373,14 +25711,6 @@
 
 .method public setStartState(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "beginId"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->isAttachedToWindow()Z
@@ -26491,22 +25821,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setState(III)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "id",
-            "screenWidth",
-            "screenHeight"
-        }
-    .end annotation
 
     .line 10
     sget-object v0, Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionState;->SETUP:Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionState;
@@ -26557,14 +25876,6 @@
 
 .method public setState(Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionState;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "newState"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionState;->FINISHED:Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionState;
@@ -26647,14 +25958,6 @@
 
 .method public setTransition(I)V
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "transitionId"
-        }
-    .end annotation
 
     .line 14
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -26889,16 +26192,6 @@
 
 .method public setTransition(II)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "beginId",
-            "endId"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->isAttachedToWindow()Z
@@ -26983,14 +26276,6 @@
 
 .method public setTransition(Landroidx/constraintlayout/motion/widget/MotionScene$Transition;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "transition"
-        }
-    .end annotation
 
     .line 38
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -27142,14 +26427,6 @@
 
 .method public setTransitionDuration(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "milliseconds"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -27196,14 +26473,6 @@
 
 .method public setTransitionListener(Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionListener;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "listener"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mTransitionListener:Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionListener;
@@ -27237,14 +26506,6 @@
 
 .method public setTransitionState(Landroid/os/Bundle;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bundle"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mStateCache:Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;
@@ -27351,6 +26612,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -27489,22 +26751,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public touchAnimateTo(IFF)V
     .locals 9
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "touchUpMode",
-            "position",
-            "currentVelocity"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -28734,20 +27986,173 @@
     .line 926
     .line 927
     .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
 .end method
 
 .method public touchSpringTo(FF)V
     .locals 11
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "position",
-            "currentVelocity"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -29090,6 +28495,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public transitionToEnd()V
@@ -29110,14 +28518,6 @@
 
 .method public transitionToEnd(Ljava/lang/Runnable;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "onComplete"
-        }
-    .end annotation
 
     const/high16 v0, 0x3f800000    # 1.0f
 
@@ -29158,18 +28558,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public transitionToState(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->isAttachedToWindow()Z
@@ -29209,16 +28602,6 @@
 
 .method public transitionToState(II)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "id",
-            "duration"
-        }
-    .end annotation
 
     .line 6
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->isAttachedToWindow()Z
@@ -29258,18 +28641,6 @@
 
 .method public transitionToState(III)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "id",
-            "screenWidth",
-            "screenHeight"
-        }
-    .end annotation
 
     const/4 v0, -0x1
 
@@ -29281,20 +28652,6 @@
 
 .method public transitionToState(IIII)V
     .locals 10
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "id",
-            "screenWidth",
-            "screenHeight",
-            "duration"
-        }
-    .end annotation
 
     .line 12
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -29907,16 +29264,6 @@
 
 .method public updateState(ILandroidx/constraintlayout/widget/ConstraintSet;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "stateId",
-            "set"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -29944,18 +29291,6 @@
 
 .method public updateStateAnimate(ILandroidx/constraintlayout/widget/ConstraintSet;I)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "stateId",
-            "set",
-            "duration"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;
@@ -30114,20 +29449,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public varargs viewTransition(I[Landroid/view/View;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "viewTransitionId",
-            "view"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mScene:Landroidx/constraintlayout/motion/widget/MotionScene;

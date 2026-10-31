@@ -259,6 +259,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private clickPressedItem(Landroid/view/View;I)V
@@ -683,6 +685,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private positionSelectorLikeFocusCompat(ILandroid/view/View;)V
@@ -980,6 +985,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private positionSelectorLikeTouchCompat(ILandroid/view/View;FF)V
@@ -1231,6 +1239,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private setPressedItem(Landroid/view/View;IFF)V
@@ -1550,6 +1564,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private setSelectorEnabled(Z)V
@@ -1636,6 +1656,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private superSetSelectedChildViewEnabled(Z)V
@@ -1713,6 +1734,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private updateSelectorStateCompat()V
@@ -1828,6 +1850,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -1906,6 +1930,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasFocus()Z
@@ -1953,6 +1978,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasWindowFocus()Z
@@ -2000,6 +2026,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isFocused()Z
@@ -2047,6 +2074,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isInTouchMode()Z
@@ -2096,6 +2124,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public lookForSelectablePosition(IZ)I
@@ -2433,6 +2462,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public measureHeightOfChildrenCompat(IIIII)I
@@ -3141,6 +3173,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onForwardedEvent(Landroid/view/MotionEvent;I)Z
@@ -3519,6 +3552,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onHoverEvent(Landroid/view/MotionEvent;)Z
@@ -3898,6 +3934,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -4021,6 +4062,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setListSelectionHidden(Z)V
@@ -4179,4 +4221,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

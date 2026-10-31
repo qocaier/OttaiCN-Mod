@@ -244,6 +244,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public clearCompatExtraKeys(Landroid/os/Bundle;)V
@@ -319,6 +320,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public restoreFromCompatExtras(Landroid/os/Bundle;)V
@@ -431,6 +433,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setBigContentTitle(Ljava/lang/CharSequence;)Landroidx/core/app/NotificationCompat$InboxStyle;

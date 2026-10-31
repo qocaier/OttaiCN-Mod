@@ -88,7 +88,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public declared-synchronized b(Lcom/baidu/platform/comapi/map/e$j;)V
@@ -142,5 +141,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

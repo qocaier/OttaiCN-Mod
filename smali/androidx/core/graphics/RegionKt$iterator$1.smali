@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/Iterator;
-.implements Llm/a;
+.implements Lr8/a;
 
 
 # annotations
@@ -23,7 +23,7 @@
         "Ljava/util/Iterator<",
         "Landroid/graphics/Rect;",
         ">;",
-        "Llm/a;"
+        "Lr8/a;"
     }
 .end annotation
 
@@ -116,6 +116,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public next()Landroid/graphics/Rect;

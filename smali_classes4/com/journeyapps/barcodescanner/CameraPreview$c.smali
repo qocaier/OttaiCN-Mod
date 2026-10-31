@@ -55,6 +55,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -83,11 +85,11 @@
 
     .line 10
     .line 11
-    check-cast p1, Lpf/v;
+    check-cast p1, Lcom/journeyapps/barcodescanner/v;
 
     .line 12
     .line 13
-    invoke-static {v0, p1}, Lcom/journeyapps/barcodescanner/CameraPreview;->d(Lcom/journeyapps/barcodescanner/CameraPreview;Lpf/v;)V
+    invoke-static {v0, p1}, Lcom/journeyapps/barcodescanner/CameraPreview;->d(Lcom/journeyapps/barcodescanner/CameraPreview;Lcom/journeyapps/barcodescanner/v;)V
 
     .line 14
     .line 15
@@ -119,7 +121,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/CameraPreview;->s()Z
+    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/CameraPreview;->r()Z
 
     .line 29
     .line 30
@@ -135,7 +137,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/CameraPreview;->w()V
+    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/CameraPreview;->u()V
 
     .line 37
     .line 38
@@ -213,4 +215,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

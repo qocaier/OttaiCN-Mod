@@ -29,7 +29,7 @@
 
 .field public static call_notification_screening_text:I = 0x7f11002c
 
-.field public static status_bar_notification_info_overflow:I = 0x7f1100e5
+.field public static status_bar_notification_info_overflow:I = 0x7f1100e2
 
 
 # direct methods

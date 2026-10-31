@@ -140,6 +140,83 @@
     .line 22
     .line 23
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method public constructor <init>()V
@@ -434,7 +511,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/shape/MaterialShapeDrawable;)[Lcom/google/android/material/shape/ShapePath$ShadowCompatOperation;
@@ -467,7 +543,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$200(Lcom/google/android/material/shape/MaterialShapeDrawable;)[Lcom/google/android/material/shape/ShapePath$ShadowCompatOperation;
@@ -500,7 +575,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$302(Lcom/google/android/material/shape/MaterialShapeDrawable;Z)Z
@@ -569,11 +643,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private calculatePaintColorTintFilter(Landroid/graphics/Paint;Z)Landroid/graphics/PorterDuffColorFilter;
@@ -671,11 +740,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private calculatePath(Landroid/graphics/RectF;Landroid/graphics/Path;)V
@@ -799,11 +863,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private calculateStrokePath()V
@@ -944,15 +1003,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private calculateTintColorTintFilter(Landroid/content/res/ColorStateList;Landroid/graphics/PorterDuff$Mode;Z)Landroid/graphics/PorterDuffColorFilter;
@@ -1139,11 +1189,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private calculateTintFilter(Landroid/content/res/ColorStateList;Landroid/graphics/PorterDuff$Mode;Landroid/graphics/Paint;Z)Landroid/graphics/PorterDuffColorFilter;
@@ -1425,6 +1470,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static createWithElevationOverlay(Landroid/content/Context;)Lcom/google/android/material/shape/MaterialShapeDrawable;
@@ -2033,6 +2094,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private drawFillShape(Landroid/graphics/Canvas;)V
@@ -2085,7 +2178,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private drawShape(Landroid/graphics/Canvas;Landroid/graphics/Paint;Landroid/graphics/Path;Lcom/google/android/material/shape/ShapeAppearanceModel;Landroid/graphics/RectF;)V
@@ -2191,7 +2283,6 @@
     .line 21
     return-object v0
     .line 22
-    .line 23
 .end method
 
 .method private getStrokeInsetLength()F
@@ -2241,7 +2332,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private hasCompatShadow()Z
@@ -2299,6 +2389,83 @@
 
     .line 23
     return v0
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method private hasFill()Z
@@ -2350,7 +2517,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private hasStroke()Z
@@ -2489,15 +2655,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private invalidateSelfIgnoreShape()V
@@ -2528,7 +2685,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private maybeDrawCompatShadow(Landroid/graphics/Canvas;)V
@@ -3118,6 +3274,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private static modulateAlpha(II)I
@@ -3180,7 +3368,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private updateColorsForState([I)Z
@@ -3343,8 +3530,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private updateTintFilter()Z
@@ -3531,15 +3716,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private updateZ()V
@@ -3686,15 +3862,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -3794,11 +3961,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public compositeElevationOverlayIfNeeded(I)I
@@ -3862,7 +4024,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public draw(Landroid/graphics/Canvas;)V
@@ -4384,6 +4545,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public drawShape(Landroid/graphics/Canvas;Landroid/graphics/Paint;Landroid/graphics/Path;Landroid/graphics/RectF;)V
@@ -4483,7 +4676,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getAlpha()I
@@ -4516,7 +4708,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBottomLeftCornerResolvedSize()F
@@ -4561,7 +4752,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBottomRightCornerResolvedSize()F
@@ -4606,7 +4796,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBoundsAsRectF()Landroid/graphics/RectF;
@@ -4647,7 +4836,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getConstantState()Landroid/graphics/drawable/Drawable$ConstantState;
@@ -4680,7 +4868,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getElevation()F
@@ -4713,7 +4900,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFillColor()Landroid/content/res/ColorStateList;
@@ -4748,7 +4934,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInterpolation()F
@@ -4781,7 +4966,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOpacity()I
@@ -4942,8 +5126,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public getPadding(Landroid/graphics/Rect;)Z
@@ -4995,7 +5177,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getPaintStyle()Landroid/graphics/Paint$Style;
@@ -5028,7 +5209,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParentAbsoluteElevation()F
@@ -5061,7 +5241,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPathForSize(IILandroid/graphics/Path;)V
@@ -5233,11 +5412,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public getResolvedTintColor()I
@@ -5270,7 +5444,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScale()F
@@ -5303,7 +5476,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShadowCompatRotation()I
@@ -5336,7 +5508,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShadowCompatibilityMode()I
@@ -5369,7 +5540,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShadowElevation()I
@@ -5406,7 +5576,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShadowOffsetX()I
@@ -5457,7 +5626,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShadowOffsetY()I
@@ -5508,7 +5676,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShadowRadius()I
@@ -5541,7 +5708,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShadowVerticalOffset()I
@@ -5579,7 +5745,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShapeAppearanceModel()Lcom/google/android/material/shape/ShapeAppearanceModel;
@@ -5614,7 +5779,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShapedViewModel()Lcom/google/android/material/shape/ShapePathModel;
@@ -5663,7 +5827,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStrokeColor()Landroid/content/res/ColorStateList;
@@ -5698,7 +5861,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStrokeTintList()Landroid/content/res/ColorStateList;
@@ -5733,7 +5895,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStrokeWidth()F
@@ -5766,7 +5927,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTintList()Landroid/content/res/ColorStateList;
@@ -5801,7 +5961,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTopLeftCornerResolvedSize()F
@@ -5846,7 +6005,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTopRightCornerResolvedSize()F
@@ -5891,7 +6049,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTranslationZ()F
@@ -5924,7 +6081,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTransparentRegion()Landroid/graphics/Region;
@@ -6065,15 +6221,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getZ()F
@@ -6112,7 +6259,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public initializeElevationOverlay(Landroid/content/Context;)V
@@ -6153,7 +6299,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public invalidateSelf()V
@@ -6188,7 +6333,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isElevationOverlayEnabled()Z
@@ -6236,7 +6380,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isElevationOverlayInitialized()Z
@@ -6278,7 +6421,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isPointInTransparentRegion(II)Z
@@ -6353,11 +6495,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public isRoundRect()Z
@@ -6403,7 +6540,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isShadowEnabled()Z
@@ -6455,7 +6591,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isStateful()Z
@@ -6630,15 +6765,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public mutate()Landroid/graphics/drawable/Drawable;
@@ -6677,7 +6803,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onBoundsChange(Landroid/graphics/Rect;)V
@@ -6714,7 +6839,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onStateChange([I)Z
@@ -6774,7 +6898,6 @@
     return p1
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public requiresCompatShadow()Z
@@ -6908,15 +7031,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public setAlpha(I)V
@@ -6964,7 +7078,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setColorFilter(Landroid/graphics/ColorFilter;)V
@@ -7005,7 +7118,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCornerSize(F)V
@@ -7083,7 +7195,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setElevation(F)V
@@ -7127,7 +7238,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFillColor(Landroid/content/res/ColorStateList;)V
@@ -7177,7 +7287,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInterpolation(F)V
@@ -7225,7 +7334,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPadding(IIII)V
@@ -7495,6 +7603,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public setPaintStyle(Landroid/graphics/Paint$Style;)V
@@ -7531,7 +7655,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setParentAbsoluteElevation(F)V
@@ -7575,7 +7698,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScale(F)V
@@ -7619,7 +7741,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShadowBitmapDrawingEnable(Z)V
@@ -7657,7 +7778,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShadowColor(I)V
@@ -7700,7 +7820,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShadowCompatRotation(I)V
@@ -7742,7 +7861,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShadowCompatibilityMode(I)V
@@ -7784,7 +7902,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShadowElevation(I)V
@@ -7821,7 +7938,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShadowEnabled(Z)V
@@ -7858,7 +7974,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShadowRadius(I)V
@@ -7895,7 +8010,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShadowVerticalOffset(I)V
@@ -7942,7 +8056,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShapeAppearanceModel(Lcom/google/android/material/shape/ShapeAppearanceModel;)V
@@ -7983,7 +8096,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShapedViewModel(Lcom/google/android/material/shape/ShapePathModel;)V
@@ -8022,7 +8134,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStroke(FI)V
@@ -8108,7 +8219,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStrokeTint(I)V
@@ -8179,7 +8289,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTint(I)V
@@ -8220,7 +8329,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTintList(Landroid/content/res/ColorStateList;)V
@@ -8263,7 +8371,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -8311,7 +8418,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTranslationZ(F)V
@@ -8355,7 +8461,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUseTintColorForShadow(Z)V
@@ -8397,7 +8502,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setZ(F)V
@@ -8436,5 +8540,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -13,14 +13,8 @@
 
 # static fields
 .field public static final Companion:Landroidx/window/WindowSdkExtensions$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static decorator:Landroidx/window/WindowSdkExtensionsDecorator;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
@@ -39,7 +33,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/window/WindowSdkExtensions$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/window/WindowSdkExtensions$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -64,6 +58,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -100,6 +95,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getDecorator$cp()Landroidx/window/WindowSdkExtensionsDecorator;
@@ -128,6 +124,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$setDecorator$cp(Landroidx/window/WindowSdkExtensionsDecorator;)V
@@ -165,11 +162,6 @@
 
 .method public static final getInstance()Landroidx/window/WindowSdkExtensions;
     .locals 1
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     sget-object v0, Landroidx/window/WindowSdkExtensions;->Companion:Landroidx/window/WindowSdkExtensions$Companion;
 
@@ -211,6 +203,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final requireExtensionVersion$window_release(I)V
@@ -337,4 +330,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

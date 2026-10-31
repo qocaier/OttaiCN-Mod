@@ -66,7 +66,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -101,7 +100,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public from(Lcom/baidu/mapapi/search/route/PlanNode;)Lcom/baidu/mapapi/search/share/RouteShareURLOption;
@@ -134,7 +132,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getmMode()Lcom/baidu/mapapi/search/share/RouteShareURLOption$RouteShareMode;
@@ -165,7 +162,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public pn(I)Lcom/baidu/mapapi/search/share/RouteShareURLOption;
@@ -198,7 +194,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public routMode(Lcom/baidu/mapapi/search/share/RouteShareURLOption$RouteShareMode;)Lcom/baidu/mapapi/search/share/RouteShareURLOption;
@@ -231,7 +226,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public to(Lcom/baidu/mapapi/search/route/PlanNode;)Lcom/baidu/mapapi/search/share/RouteShareURLOption;
@@ -264,5 +258,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

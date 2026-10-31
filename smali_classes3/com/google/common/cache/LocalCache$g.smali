@@ -13,15 +13,6 @@
     name = "g"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/cache/LocalCache<",
-        "TK;TV;>.c<",
-        "Ljava/util/Map$Entry<",
-        "TK;TV;>;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final synthetic b:Lcom/google/common/cache/LocalCache;
@@ -30,14 +21,6 @@
 # direct methods
 .method public constructor <init>(Lcom/google/common/cache/LocalCache;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$g;->b:Lcom/google/common/cache/LocalCache;
@@ -68,21 +51,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public contains(Ljava/lang/Object;)Z
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
@@ -223,20 +197,10 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public iterator()Ljava/util/Iterator;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Iterator<",
-            "Ljava/util/Map$Entry<",
-            "TK;TV;>;>;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Lcom/google/common/cache/LocalCache$f;
@@ -267,19 +231,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public remove(Ljava/lang/Object;)Z
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Ljava/util/Map$Entry;
@@ -407,6 +362,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

@@ -1,11 +1,11 @@
 .class public final Landroidx/core/util/SparseBooleanArrayKt$valueIterator$1;
-.super Lll/c0;
+.super Lkotlin/collections/o;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/util/SparseBooleanArrayKt;->valueIterator(Landroid/util/SparseBooleanArray;)Lll/c0;
+    value = Landroidx/core/util/SparseBooleanArrayKt;->valueIterator(Landroid/util/SparseBooleanArray;)Lkotlin/collections/o;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,7 +29,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lll/c0;-><init>()V
+    invoke-direct {p0}, Lkotlin/collections/o;-><init>()V
 
     .line 4
     .line 5
@@ -84,6 +84,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasNext()Z
@@ -127,6 +128,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public nextBoolean()Z
@@ -165,6 +167,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setIndex(I)V

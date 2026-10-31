@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/flu_youzan_service/YouzanFragment;->v()V
+    value = Lcom/example/flu_youzan_service/YouzanFragment;->t()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -51,7 +51,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -69,7 +68,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Lcom/example/flu_youzan_service/YouzanFragment;->p()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/example/flu_youzan_service/YouzanFragment;->n()Ljava/lang/String;
 
     .line 7
     .line 8
@@ -132,9 +131,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

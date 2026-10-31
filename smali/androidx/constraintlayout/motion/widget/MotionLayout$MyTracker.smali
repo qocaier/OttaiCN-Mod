@@ -56,6 +56,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -84,6 +85,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static obtain()Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;
@@ -120,20 +122,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public addMovement(Landroid/view/MotionEvent;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "event"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;->tracker:Landroid/view/VelocityTracker;
@@ -201,18 +196,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public computeCurrentVelocity(I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "units"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;->tracker:Landroid/view/VelocityTracker;
@@ -228,16 +216,6 @@
 
 .method public computeCurrentVelocity(IF)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "units",
-            "maxVelocity"
-        }
-    .end annotation
 
     .line 3
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;->tracker:Landroid/view/VelocityTracker;
@@ -274,14 +252,6 @@
 
 .method public getXVelocity(I)F
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 3
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;->tracker:Landroid/view/VelocityTracker;
@@ -324,14 +294,6 @@
 
 .method public getYVelocity(I)F
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 3
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$MyTracker;->tracker:Landroid/view/VelocityTracker;
@@ -386,4 +348,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

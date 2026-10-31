@@ -46,7 +46,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static applyToActivitiesIfAvailable(Landroid/app/Application;Lcom/google/android/material/color/ColorContrastOptions;)V
@@ -136,11 +135,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static applyToActivityIfAvailable(Landroid/app/Activity;Lcom/google/android/material/color/ColorContrastOptions;)V
@@ -234,11 +228,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static getContrastThemeOverlayResourceId(Landroid/content/Context;Lcom/google/android/material/color/ColorContrastOptions;)I
@@ -284,7 +273,7 @@
 
     .line 19
     :cond_0
-    invoke-static {p0}, Lqa/a;->a(Landroid/app/UiModeManager;)F
+    invoke-static {p0}, Lcom/google/android/material/color/a;->a(Landroid/app/UiModeManager;)F
 
     .line 20
     .line 21
@@ -366,11 +355,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static isContrastAvailable()Z
@@ -415,7 +399,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static wrapContextIfAvailable(Landroid/content/Context;Lcom/google/android/material/color/ColorContrastOptions;)Landroid/content/Context;
@@ -515,9 +498,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

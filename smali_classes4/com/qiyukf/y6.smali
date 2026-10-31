@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static synthetic a(Lcom/qiyukf/nimlib/sdk/msg/model/SessionMsgDeleteOption;Lcom/qiyukf/nimlib/sdk/msg/model/SessionMsgDeleteOption;)I
@@ -63,9 +65,9 @@
     .end annotation
 
     .line 19
-    new-instance v0, Lvg/u1;
+    new-instance v0, Lcom/qiyukf/eh0;
 
-    invoke-direct {v0}, Lvg/u1;-><init>()V
+    invoke-direct {v0}, Lcom/qiyukf/eh0;-><init>()V
 
     const/4 v1, 0x0
 
@@ -180,9 +182,9 @@
 
     .line 29
     :cond_3
-    new-instance v1, Lvg/v1;
+    new-instance v1, Lcom/qiyukf/fh0;
 
-    invoke-direct {v1}, Lvg/v1;-><init>()V
+    invoke-direct {v1}, Lcom/qiyukf/fh0;-><init>()V
 
     invoke-static {p1, v1}, Ljava/util/Collections;->max(Ljava/util/Collection;Ljava/util/Comparator;)Ljava/lang/Object;
 

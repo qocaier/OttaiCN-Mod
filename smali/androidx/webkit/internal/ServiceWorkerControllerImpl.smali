@@ -168,6 +168,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private getBoundaryInterface()Lorg/chromium/support_lib_boundary/ServiceWorkerControllerBoundaryInterface;
@@ -211,6 +213,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getFrameworksImpl()Landroid/webkit/ServiceWorkerController;
@@ -253,6 +256,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -285,6 +289,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setServiceWorkerClient(Landroidx/webkit/ServiceWorkerClientCompat;)V
@@ -402,7 +407,7 @@
     .line 51
     .line 52
     .line 53
-    invoke-static {v1}, Lmq/a;->d(Ljava/lang/Object;)Ljava/lang/reflect/InvocationHandler;
+    invoke-static {v1}, Lx9/a;->c(Ljava/lang/Object;)Ljava/lang/reflect/InvocationHandler;
 
     .line 54
     .line 55
@@ -441,4 +446,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

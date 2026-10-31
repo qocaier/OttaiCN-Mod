@@ -62,11 +62,11 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lva/b;
+    new-instance v0, Lcom/google/android/material/motion/b;
 
     .line 5
     .line 6
-    invoke-direct {v0, p1}, Lva/b;-><init>(Lcom/google/android/material/motion/MaterialBackHandler;)V
+    invoke-direct {v0, p1}, Lcom/google/android/material/motion/b;-><init>(Lcom/google/android/material/motion/MaterialBackHandler;)V
 
     .line 7
     .line 8
@@ -87,7 +87,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isListeningForBackCallbacks()Z
@@ -127,7 +126,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public startListeningForBackCallbacks(Lcom/google/android/material/motion/MaterialBackHandler;Landroid/view/View;Z)V
@@ -156,7 +154,7 @@
 
     .line 6
     :cond_0
-    invoke-static {p2}, Lva/a;->a(Landroid/view/View;)Landroid/window/OnBackInvokedDispatcher;
+    invoke-static {p2}, Lcom/google/android/material/motion/a;->a(Landroid/view/View;)Landroid/window/OnBackInvokedDispatcher;
 
     .line 7
     .line 8
@@ -202,7 +200,7 @@
 
     .line 26
     :goto_1
-    invoke-static {p2, p3, p1}, Lg/i;->a(Landroid/window/OnBackInvokedDispatcher;ILandroid/window/OnBackInvokedCallback;)V
+    invoke-static {p2, p3, p1}, Landroidx/appcompat/app/i;->a(Landroid/window/OnBackInvokedDispatcher;ILandroid/window/OnBackInvokedCallback;)V
 
     .line 27
     .line 28
@@ -326,11 +324,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public stopListeningForBackCallbacks(Landroid/view/View;)V
@@ -343,7 +336,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lva/a;->a(Landroid/view/View;)Landroid/window/OnBackInvokedDispatcher;
+    invoke-static {p1}, Lcom/google/android/material/motion/a;->a(Landroid/view/View;)Landroid/window/OnBackInvokedDispatcher;
 
     .line 2
     .line 3
@@ -363,7 +356,7 @@
 
     .line 9
     .line 10
-    invoke-static {p1, v0}, Lg/g;->a(Landroid/window/OnBackInvokedDispatcher;Landroid/window/OnBackInvokedCallback;)V
+    invoke-static {p1, v0}, Landroidx/appcompat/app/g;->a(Landroid/window/OnBackInvokedDispatcher;Landroid/window/OnBackInvokedCallback;)V
 
     .line 11
     .line 12
@@ -384,5 +377,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

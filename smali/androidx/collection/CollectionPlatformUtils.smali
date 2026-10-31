@@ -5,9 +5,6 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/collection/CollectionPlatformUtils;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -49,14 +46,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final createIndexOutOfBoundsException$collection()Ljava/lang/IndexOutOfBoundsException;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/ArrayIndexOutOfBoundsException;
@@ -83,4 +79,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

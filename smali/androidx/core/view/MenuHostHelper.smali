@@ -893,6 +893,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -940,9 +946,9 @@
 
     .line 7
     :cond_0
-    new-instance v0, Lc1/v;
+    new-instance v0, Landroidx/core/view/x;
 
-    invoke-direct {v0, p0, p1}, Lc1/v;-><init>(Landroidx/core/view/MenuHostHelper;Landroidx/core/view/MenuProvider;)V
+    invoke-direct {v0, p0, p1}, Landroidx/core/view/x;-><init>(Landroidx/core/view/MenuHostHelper;Landroidx/core/view/MenuProvider;)V
 
     .line 8
     iget-object v1, p0, Landroidx/core/view/MenuHostHelper;->mProviderToLifecycleContainers:Ljava/util/Map;
@@ -985,9 +991,9 @@
 
     .line 12
     :cond_0
-    new-instance v0, Lc1/u;
+    new-instance v0, Landroidx/core/view/w;
 
-    invoke-direct {v0, p0, p3, p1}, Lc1/u;-><init>(Landroidx/core/view/MenuHostHelper;Landroidx/lifecycle/Lifecycle$State;Landroidx/core/view/MenuProvider;)V
+    invoke-direct {v0, p0, p3, p1}, Landroidx/core/view/w;-><init>(Landroidx/core/view/MenuHostHelper;Landroidx/lifecycle/Lifecycle$State;Landroidx/core/view/MenuProvider;)V
 
     .line 13
     iget-object p3, p0, Landroidx/core/view/MenuHostHelper;->mProviderToLifecycleContainers:Ljava/util/Map;
@@ -1248,6 +1254,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onPrepareMenu(Landroid/view/Menu;)V

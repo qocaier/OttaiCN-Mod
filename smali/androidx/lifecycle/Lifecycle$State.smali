@@ -201,6 +201,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -296,17 +298,13 @@
 # virtual methods
 .method public final isAtLeast(Landroidx/lifecycle/Lifecycle$State;)Z
     .locals 1
-    .param p1    # Landroidx/lifecycle/Lifecycle$State;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "state"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5

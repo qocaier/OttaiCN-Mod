@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Ljava/lang/Boolean;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -47,8 +45,6 @@
 # virtual methods
 .method public final invoke()Ljava/lang/Boolean;
     .locals 6
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     iget-object v0, p0, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isFoldingFeatureValid$1;->this$0:Landroidx/window/layout/SafeWindowLayoutComponentProvider;
@@ -91,15 +87,15 @@
 
     const-string v5, "getBoundsMethod"
 
-    invoke-static {v2, v5}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v5}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-class v5, Landroid/graphics/Rect;
 
-    invoke-static {v5}, Lkm/o0;->d(Ljava/lang/Class;)Lum/d;
+    invoke-static {v5}, Lkotlin/jvm/internal/m;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v5
 
-    invoke-virtual {v4, v2, v5}, Landroidx/window/reflection/ReflectionUtils;->doesReturn$window_release(Ljava/lang/reflect/Method;Lum/d;)Z
+    invoke-virtual {v4, v2, v5}, Landroidx/window/reflection/ReflectionUtils;->doesReturn$window_release(Ljava/lang/reflect/Method;Lkotlin/reflect/c;)Z
 
     move-result v5
 
@@ -115,15 +111,15 @@
     .line 8
     const-string v2, "getTypeMethod"
 
-    invoke-static {v3, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     sget-object v2, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
-    invoke-static {v2}, Lkm/o0;->d(Ljava/lang/Class;)Lum/d;
+    invoke-static {v2}, Lkotlin/jvm/internal/m;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v5
 
-    invoke-virtual {v4, v3, v5}, Landroidx/window/reflection/ReflectionUtils;->doesReturn$window_release(Ljava/lang/reflect/Method;Lum/d;)Z
+    invoke-virtual {v4, v3, v5}, Landroidx/window/reflection/ReflectionUtils;->doesReturn$window_release(Ljava/lang/reflect/Method;Lkotlin/reflect/c;)Z
 
     move-result v5
 
@@ -139,13 +135,13 @@
     .line 10
     const-string v3, "getStateMethod"
 
-    invoke-static {v0, v3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v2}, Lkm/o0;->d(Ljava/lang/Class;)Lum/d;
+    invoke-static {v2}, Lkotlin/jvm/internal/m;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     move-result-object v2
 
-    invoke-virtual {v4, v0, v2}, Landroidx/window/reflection/ReflectionUtils;->doesReturn$window_release(Ljava/lang/reflect/Method;Lum/d;)Z
+    invoke-virtual {v4, v0, v2}, Landroidx/window/reflection/ReflectionUtils;->doesReturn$window_release(Ljava/lang/reflect/Method;Lkotlin/reflect/c;)Z
 
     move-result v2
 

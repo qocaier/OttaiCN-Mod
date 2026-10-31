@@ -31,11 +31,11 @@
 
 .field final synthetic val$requestCancellationCompleter:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
-.field final synthetic val$requestCancellationFuture:Lub/u0;
+.field final synthetic val$requestCancellationFuture:Lcom/google/common/util/concurrent/t;
 
 
 # direct methods
-.method public constructor <init>(Landroidx/camera/core/SurfaceRequest;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Lub/u0;)V
+.method public constructor <init>(Landroidx/camera/core/SurfaceRequest;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Lcom/google/common/util/concurrent/t;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -52,7 +52,7 @@
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/camera/core/SurfaceRequest$1;->val$requestCancellationFuture:Lub/u0;
+    iput-object p3, p0, Landroidx/camera/core/SurfaceRequest$1;->val$requestCancellationFuture:Lcom/google/common/util/concurrent/t;
 
     .line 6
     .line 7
@@ -165,6 +165,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -185,7 +188,7 @@
 
     .line 4
     .line 5
-    iget-object p1, p0, Landroidx/camera/core/SurfaceRequest$1;->val$requestCancellationFuture:Lub/u0;
+    iget-object p1, p0, Landroidx/camera/core/SurfaceRequest$1;->val$requestCancellationFuture:Lcom/google/common/util/concurrent/t;
 
     .line 6
     .line 7
@@ -282,6 +285,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public bridge synthetic onSuccess(Ljava/lang/Object;)V

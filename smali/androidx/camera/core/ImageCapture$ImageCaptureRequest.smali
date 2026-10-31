@@ -1050,6 +1050,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -1343,11 +1349,11 @@
 
     .line 141
     .line 142
-    new-instance v1, Landroidx/camera/core/i;
+    new-instance v1, Landroidx/camera/core/x;
 
     .line 143
     .line 144
-    invoke-direct {v1, p0, v3}, Landroidx/camera/core/i;-><init>(Landroidx/camera/core/ImageCapture$ImageCaptureRequest;Landroidx/camera/core/ImageProxy;)V
+    invoke-direct {v1, p0, v3}, Landroidx/camera/core/x;-><init>(Landroidx/camera/core/ImageCapture$ImageCaptureRequest;Landroidx/camera/core/ImageProxy;)V
 
     .line 145
     .line 146
@@ -1459,6 +1465,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public notifyCallbackError(ILjava/lang/String;Ljava/lang/Throwable;)V
@@ -1496,11 +1507,11 @@
 
     .line 13
     .line 14
-    new-instance v1, Landroidx/camera/core/h;
+    new-instance v1, Landroidx/camera/core/w;
 
     .line 15
     .line 16
-    invoke-direct {v1, p0, p1, p2, p3}, Landroidx/camera/core/h;-><init>(Landroidx/camera/core/ImageCapture$ImageCaptureRequest;ILjava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, p0, p1, p2, p3}, Landroidx/camera/core/w;-><init>(Landroidx/camera/core/ImageCapture$ImageCaptureRequest;ILjava/lang/String;Ljava/lang/Throwable;)V
 
     .line 17
     .line 18
@@ -1614,4 +1625,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

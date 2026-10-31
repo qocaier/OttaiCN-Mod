@@ -262,6 +262,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$002(Lcom/qiyukf/unicorn/widget/timepicker/PickerView;F)F
@@ -324,6 +326,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$100(Lcom/qiyukf/unicorn/widget/timepicker/PickerView;)Lcom/qiyukf/unicorn/widget/timepicker/PickerView$MyTimerTask;
@@ -357,6 +369,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$102(Lcom/qiyukf/unicorn/widget/timepicker/PickerView;Lcom/qiyukf/unicorn/widget/timepicker/PickerView$MyTimerTask;)Lcom/qiyukf/unicorn/widget/timepicker/PickerView$MyTimerTask;
@@ -419,6 +433,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic access$200(Lcom/qiyukf/unicorn/widget/timepicker/PickerView;)V
@@ -452,6 +476,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private doDown(Landroid/view/MotionEvent;)V
@@ -500,6 +526,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private doUp(Landroid/view/MotionEvent;)V
@@ -638,6 +666,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private drawData(Landroid/graphics/Canvas;)V
@@ -1078,27 +1108,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method private drawOtherText(Landroid/graphics/Canvas;II)V
@@ -1358,11 +1367,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method private init()V
@@ -1515,6 +1519,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private moveHeadToTail()V
@@ -1628,6 +1633,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private moveTailToHead()V
@@ -1753,6 +1759,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private parabola(FF)F
@@ -1838,6 +1845,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method private performSelect()V
@@ -1881,6 +1898,8 @@
     return-void
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -1927,6 +1946,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -1967,6 +1988,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onMeasure(II)V
@@ -2063,6 +2086,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -2516,27 +2549,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public setCanScroll(Z)V
@@ -2570,6 +2582,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setData(Ljava/util/List;)V
@@ -2621,6 +2635,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setIsLoop(Z)V
@@ -2654,6 +2670,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOnSelectListener(Lcom/qiyukf/unicorn/widget/timepicker/PickerView$onSelectListener;)V
@@ -2687,6 +2705,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSelected(I)V

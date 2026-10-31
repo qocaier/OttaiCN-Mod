@@ -10,8 +10,6 @@
         .annotation build Landroidx/annotation/ColorInt;
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/drawable/ColorDrawable;
@@ -23,21 +21,14 @@
 
 .method public static final toDrawable(Landroid/graphics/Color;)Landroid/graphics/drawable/ColorDrawable;
     .locals 1
-    .param p0    # Landroid/graphics/Color;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 2
     new-instance v0, Landroid/graphics/drawable/ColorDrawable;
 
-    invoke-static {p0}, Lv0/a;->a(Landroid/graphics/Color;)I
+    invoke-static {p0}, Landroidx/core/graphics/drawable/a;->a(Landroid/graphics/Color;)I
 
     move-result p0
 

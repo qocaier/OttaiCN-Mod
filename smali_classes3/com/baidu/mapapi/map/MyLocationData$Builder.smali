@@ -57,7 +57,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -92,7 +91,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public build()Lcom/baidu/mapapi/map/MyLocationData;
@@ -137,7 +135,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public direction(F)Lcom/baidu/mapapi/map/MyLocationData$Builder;
@@ -170,7 +167,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public latitude(D)Lcom/baidu/mapapi/map/MyLocationData$Builder;
@@ -203,7 +199,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public longitude(D)Lcom/baidu/mapapi/map/MyLocationData$Builder;
@@ -236,7 +231,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public satellitesNum(I)Lcom/baidu/mapapi/map/MyLocationData$Builder;
@@ -269,7 +263,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public speed(F)Lcom/baidu/mapapi/map/MyLocationData$Builder;
@@ -302,5 +295,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

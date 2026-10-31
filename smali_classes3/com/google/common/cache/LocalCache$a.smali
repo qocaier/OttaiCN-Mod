@@ -16,16 +16,6 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/google/common/cache/LocalCache$s<",
-        "Ljava/lang/Object;",
-        "Ljava/lang/Object;",
-        ">;"
-    }
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -56,25 +46,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
-.method public a()Lcom/google/common/cache/d;
+.method public a()Lcom/google/common/cache/k;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "Ljava/lang/Object;",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -84,14 +61,6 @@
 
 .method public b(Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "newValue"
-        }
-    .end annotation
 
     .line 1
     return-void
@@ -115,42 +84,8 @@
     return v0
 .end method
 
-.method public e(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/d;)Lcom/google/common/cache/LocalCache$s;
+.method public e(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;Lcom/google/common/cache/k;)Lcom/google/common/cache/LocalCache$s;
     .locals 0
-    .param p2    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "queue",
-            "value",
-            "entry"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/ref/ReferenceQueue<",
-            "Ljava/lang/Object;",
-            ">;",
-            "Ljava/lang/Object;",
-            "Lcom/google/common/cache/d<",
-            "Ljava/lang/Object;",
-            "Ljava/lang/Object;",
-            ">;)",
-            "Lcom/google/common/cache/LocalCache$s<",
-            "Ljava/lang/Object;",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
 
     .line 1
     return-object p0
@@ -158,8 +93,6 @@
 
 .method public f()Ljava/lang/Object;
     .locals 1
-    .annotation runtime Lgl/a;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -169,8 +102,6 @@
 
 .method public get()Ljava/lang/Object;
     .locals 1
-    .annotation runtime Lgl/a;
-    .end annotation
 
     const/4 v0, 0x0
 

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/WithLifecycleStateKt;->suspendWithStateAtLeastUnchecked(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;ZLfn/f0;Ljm/a;Lul/c;)Ljava/lang/Object;
+    value = Landroidx/lifecycle/WithLifecycleStateKt;->suspendWithStateAtLeastUnchecked(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;ZLkotlinx/coroutines/h0;Lq8/a;Lkotlin/coroutines/e;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,18 @@
 
 
 # instance fields
-.field final synthetic $block:Ljm/a;
+.field final synthetic $block:Lq8/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/a<",
-            "TR;>;"
+            "Lq8/a;"
         }
     .end annotation
 .end field
 
-.field final synthetic $co:Lfn/k;
+.field final synthetic $co:Lkotlinx/coroutines/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lfn/k<",
-            "TR;>;"
+            "Lkotlinx/coroutines/l;"
         }
     .end annotation
 .end field
@@ -42,17 +40,16 @@
 
 
 # direct methods
-.method public constructor <init>(Landroidx/lifecycle/Lifecycle$State;Landroidx/lifecycle/Lifecycle;Lfn/k;Ljm/a;)V
+.method public constructor <init>(Landroidx/lifecycle/Lifecycle$State;Landroidx/lifecycle/Lifecycle;Lkotlinx/coroutines/l;Lq8/a;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/lifecycle/Lifecycle$State;",
             "Landroidx/lifecycle/Lifecycle;",
-            "Lfn/k<",
-            "-TR;>;",
-            "Ljm/a<",
-            "+TR;>;)V"
+            "Lkotlinx/coroutines/l;",
+            "Lq8/a;",
+            ")V"
         }
     .end annotation
 
@@ -65,11 +62,11 @@
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;->$co:Lfn/k;
+    iput-object p3, p0, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;->$co:Lkotlinx/coroutines/l;
 
     .line 6
     .line 7
-    iput-object p4, p0, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;->$block:Ljm/a;
+    iput-object p4, p0, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;->$block:Lq8/a;
 
     .line 8
     .line 9
@@ -297,20 +294,18 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
 # virtual methods
 .method public onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
     .locals 1
-    .param p1    # Landroidx/lifecycle/LifecycleOwner;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/lifecycle/Lifecycle$Event;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->Companion:Landroidx/lifecycle/Lifecycle$Event$Companion;
@@ -342,11 +337,11 @@
     .line 14
     .line 15
     .line 16
-    iget-object p1, p0, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;->$co:Lfn/k;
+    iget-object p1, p0, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;->$co:Lkotlinx/coroutines/l;
 
     .line 17
     .line 18
-    iget-object p2, p0, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;->$block:Ljm/a;
+    iget-object p2, p0, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;->$block:Lq8/a;
 
     .line 19
     .line 20
@@ -355,7 +350,7 @@
 
     .line 21
     .line 22
-    invoke-interface {p2}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -384,7 +379,7 @@
 
     .line 33
     .line 34
-    invoke-static {p2}, Lkotlin/f;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
+    invoke-static {p2}, Lkotlin/e;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -401,7 +396,7 @@
 
     .line 42
     :goto_0
-    invoke-interface {p1, p2}, Lul/c;->resumeWith(Ljava/lang/Object;)V
+    invoke-interface {p1, p2}, Lkotlin/coroutines/e;->resumeWith(Ljava/lang/Object;)V
 
     .line 43
     .line 44
@@ -427,7 +422,7 @@
     .line 53
     .line 54
     .line 55
-    iget-object p1, p0, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;->$co:Lfn/k;
+    iget-object p1, p0, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;->$co:Lkotlinx/coroutines/l;
 
     .line 56
     .line 57
@@ -444,7 +439,7 @@
     .line 62
     .line 63
     .line 64
-    invoke-static {p2}, Lkotlin/f;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
+    invoke-static {p2}, Lkotlin/e;->a(Ljava/lang/Throwable;)Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -460,7 +455,7 @@
     move-result-object p2
 
     .line 72
-    invoke-interface {p1, p2}, Lul/c;->resumeWith(Ljava/lang/Object;)V
+    invoke-interface {p1, p2}, Lkotlin/coroutines/e;->resumeWith(Ljava/lang/Object;)V
 
     .line 73
     .line 74
@@ -626,4 +621,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

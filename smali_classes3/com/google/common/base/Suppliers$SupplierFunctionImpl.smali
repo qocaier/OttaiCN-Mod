@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/google/common/base/Suppliers$b;
+.implements Lcom/google/common/base/g;
 
 
 # annotations
@@ -21,9 +21,7 @@
         "Ljava/lang/Enum<",
         "Lcom/google/common/base/Suppliers$SupplierFunctionImpl;",
         ">;",
-        "Lcom/google/common/base/Suppliers$b<",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lcom/google/common/base/g;"
     }
 .end annotation
 
@@ -77,27 +75,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -162,23 +143,10 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/base/Suppliers$SupplierFunctionImpl;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8000
-        }
-        names = {
-            "name"
-        }
-    .end annotation
 
     .line 1
     const-class v0, Lcom/google/common/base/Suppliers$SupplierFunctionImpl;
@@ -213,7 +181,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static values()[Lcom/google/common/base/Suppliers$SupplierFunctionImpl;
@@ -250,37 +217,23 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
-.method public apply(Lgb/b0;)Ljava/lang/Object;
+.method public apply(Lcom/google/common/base/s;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "input"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lgb/b0<",
-            "Ljava/lang/Object;",
-            ">;)",
+            "Lcom/google/common/base/s;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation runtime Lgl/a;
-    .end annotation
-
     .line 2
-    invoke-interface {p1}, Lgb/b0;->get()Ljava/lang/Object;
+    invoke-interface {p1}, Lcom/google/common/base/s;->get()Ljava/lang/Object;
 
     move-result-object p1
 
@@ -289,22 +242,11 @@
 
 .method public bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            "input"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
 
     .line 1
-    check-cast p1, Lgb/b0;
+    check-cast p1, Lcom/google/common/base/s;
 
-    invoke-virtual {p0, p1}, Lcom/google/common/base/Suppliers$SupplierFunctionImpl;->apply(Lgb/b0;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Lcom/google/common/base/Suppliers$SupplierFunctionImpl;->apply(Lcom/google/common/base/s;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -339,5 +281,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

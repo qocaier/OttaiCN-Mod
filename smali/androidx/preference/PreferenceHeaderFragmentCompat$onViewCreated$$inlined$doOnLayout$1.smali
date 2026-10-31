@@ -16,10 +16,6 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 View.kt\nandroidx/core/view/ViewKt$doOnNextLayout$1\n+ 2 View.kt\nandroidx/core/view/ViewKt\n+ 3 PreferenceHeaderFragmentCompat.kt\nandroidx/preference/PreferenceHeaderFragmentCompat\n*L\n1#1,384:1\n69#2:385\n70#2:389\n210#3,3:386\n*E\n"
-.end annotation
-
 
 # instance fields
 .field final synthetic this$0:Landroidx/preference/PreferenceHeaderFragmentCompat;
@@ -65,17 +61,13 @@
 # virtual methods
 .method public onLayoutChange(Landroid/view/View;IIIIIIII)V
     .locals 0
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string p2, "view"
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Lkm/g0;->q(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->g(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -97,7 +89,7 @@
     move-result-object p1
 
     .line 15
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 16
     .line 17

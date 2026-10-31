@@ -4,36 +4,19 @@
 
 
 # direct methods
-.method public static final flowWithLifecycle(Ljn/e;Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;)Ljn/e;
+.method public static final flowWithLifecycle(Lkotlinx/coroutines/flow/c;Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;)Lkotlinx/coroutines/flow/c;
     .locals 2
-    .param p0    # Ljn/e;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroidx/lifecycle/Lifecycle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/lifecycle/Lifecycle$State;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Ljn/e<",
-            "+TT;>;",
+            "Lkotlinx/coroutines/flow/c;",
             "Landroidx/lifecycle/Lifecycle;",
             "Landroidx/lifecycle/Lifecycle$State;",
             ")",
-            "Ljn/e<",
-            "TT;>;"
+            "Lkotlinx/coroutines/flow/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -44,12 +27,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, p1, p2, p0, v1}, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Ljn/e;Lul/c;)V
+    invoke-direct {v0, p1, p2, p0, v1}, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lkotlinx/coroutines/flow/c;Lkotlin/coroutines/e;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-static {v0}, Ljn/g;->t(Ljm/p;)Ljn/e;
+    invoke-static {v0}, Lkotlinx/coroutines/flow/e;->f(Lq8/p;)Lkotlinx/coroutines/flow/c;
 
     .line 8
     .line 9
@@ -160,9 +143,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static synthetic flowWithLifecycle$default(Ljn/e;Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;ILjava/lang/Object;)Ljn/e;
+.method public static synthetic flowWithLifecycle$default(Lkotlinx/coroutines/flow/c;Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;ILjava/lang/Object;)Lkotlinx/coroutines/flow/c;
     .locals 0
 
     .line 1
@@ -179,7 +165,7 @@
     .line 6
     .line 7
     :cond_0
-    invoke-static {p0, p1, p2}, Landroidx/lifecycle/FlowExtKt;->flowWithLifecycle(Ljn/e;Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;)Ljn/e;
+    invoke-static {p0, p1, p2}, Landroidx/lifecycle/FlowExtKt;->flowWithLifecycle(Lkotlinx/coroutines/flow/c;Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;)Lkotlinx/coroutines/flow/c;
 
     .line 8
     .line 9

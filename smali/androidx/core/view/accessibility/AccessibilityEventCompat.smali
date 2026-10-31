@@ -130,6 +130,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static appendRecord(Landroid/view/accessibility/AccessibilityEvent;Landroidx/core/view/accessibility/AccessibilityRecordCompat;)V

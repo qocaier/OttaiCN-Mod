@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static fromPersistableBundle(Landroid/os/PersistableBundle;)Landroidx/core/app/Person;
@@ -187,6 +188,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static toPersistableBundle(Landroidx/core/app/Person;)Landroid/os/PersistableBundle;
@@ -317,4 +319,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

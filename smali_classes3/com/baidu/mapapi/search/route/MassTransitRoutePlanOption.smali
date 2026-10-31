@@ -174,15 +174,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -219,7 +210,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public from(Lcom/baidu/mapapi/search/route/PlanNode;)Lcom/baidu/mapapi/search/route/MassTransitRoutePlanOption;
@@ -252,7 +242,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public language(Lcom/baidu/mapapi/search/base/LanguageType;)Lcom/baidu/mapapi/search/route/MassTransitRoutePlanOption;
@@ -285,7 +274,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public pageIndex(I)Lcom/baidu/mapapi/search/route/MassTransitRoutePlanOption;
@@ -327,7 +315,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public pageSize(I)Lcom/baidu/mapapi/search/route/MassTransitRoutePlanOption;
@@ -369,7 +356,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public tacticsIncity(Lcom/baidu/mapapi/search/route/MassTransitRoutePlanOption$TacticsIncity;)Lcom/baidu/mapapi/search/route/MassTransitRoutePlanOption;
@@ -402,7 +388,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public tacticsIntercity(Lcom/baidu/mapapi/search/route/MassTransitRoutePlanOption$TacticsIntercity;)Lcom/baidu/mapapi/search/route/MassTransitRoutePlanOption;
@@ -435,7 +420,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public to(Lcom/baidu/mapapi/search/route/PlanNode;)Lcom/baidu/mapapi/search/route/MassTransitRoutePlanOption;
@@ -468,7 +452,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public transtypeintercity(Lcom/baidu/mapapi/search/route/MassTransitRoutePlanOption$TransTypeIntercity;)Lcom/baidu/mapapi/search/route/MassTransitRoutePlanOption;
@@ -501,5 +484,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

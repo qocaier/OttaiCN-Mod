@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -91,27 +91,11 @@
 # virtual methods
 .method public final get(Ljava/io/File;)Lokio/Path;
     .locals 3
-    .param p1    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/j;
-        name = "get"
-    .end annotation
-
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "<this>"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -128,26 +112,10 @@
 
 .method public final get(Ljava/io/File;Z)Lokio/Path;
     .locals 1
-    .param p1    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/j;
-        name = "get"
-    .end annotation
-
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     invoke-virtual {p1}, Ljava/io/File;->toString()Ljava/lang/String;
@@ -156,7 +124,7 @@
 
     const-string v0, "toString(...)"
 
-    invoke-static {p1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-virtual {p0, p1, p2}, Lokio/Path$Companion;->get(Ljava/lang/String;Z)Lokio/Path;
 
@@ -167,27 +135,11 @@
 
 .method public final get(Ljava/lang/String;)Lokio/Path;
     .locals 3
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/j;
-        name = "get"
-    .end annotation
-
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     const-string v0, "<this>"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -204,26 +156,10 @@
 
 .method public final get(Ljava/lang/String;Z)Lokio/Path;
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/j;
-        name = "get"
-    .end annotation
-
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-static {p1, p2}, Lokio/internal/-Path;->commonToPath(Ljava/lang/String;Z)Lokio/Path;
@@ -235,27 +171,11 @@
 
 .method public final get(Ljava/nio/file/Path;)Lokio/Path;
     .locals 3
-    .param p1    # Ljava/nio/file/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/j;
-        name = "get"
-    .end annotation
-
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 3
     const-string v0, "<this>"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x1
 
@@ -272,26 +192,10 @@
 
 .method public final get(Ljava/nio/file/Path;Z)Lokio/Path;
     .locals 1
-    .param p1    # Ljava/nio/file/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/j;
-        name = "get"
-    .end annotation
-
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;

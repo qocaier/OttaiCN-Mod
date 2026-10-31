@@ -171,6 +171,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroidx/recyclerview/widget/RecyclerView;Landroid/graphics/drawable/StateListDrawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/StateListDrawable;Landroid/graphics/drawable/Drawable;III)V
@@ -941,6 +942,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private destroyCallbacks()V
@@ -984,69 +986,6 @@
     .line 20
     .line 21
     return-void
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method private drawHorizontalScrollbar(Landroid/graphics/Canvas;)V
@@ -1187,6 +1126,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private drawVerticalScrollbar(Landroid/graphics/Canvas;)V
@@ -1532,6 +1472,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private getHorizontalRange()[I
@@ -1574,6 +1519,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getVerticalRange()[I
@@ -1616,6 +1562,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private horizontalScrollTo(F)V
@@ -1774,6 +1721,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private isLayoutRTL()Z
@@ -1815,6 +1763,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private resetHideDelay(I)V
@@ -2948,6 +2897,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private verticalScrollTo(F)V
@@ -3106,6 +3056,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -3193,6 +3144,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHorizontalTrackDrawable()Landroid/graphics/drawable/Drawable;
@@ -3223,6 +3175,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVerticalThumbDrawable()Landroid/graphics/drawable/Drawable;
@@ -3253,6 +3206,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVerticalTrackDrawable()Landroid/graphics/drawable/Drawable;
@@ -3283,6 +3237,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hide(I)V
@@ -3425,6 +3380,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public isDragging()Z
@@ -3464,6 +3420,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isPointInsideHorizontalThumb(FF)Z
@@ -3867,6 +3824,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public isVisible()Z
@@ -3906,6 +3866,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onDrawOver(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
@@ -4090,6 +4051,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onInterceptTouchEvent(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/MotionEvent;)Z
@@ -4428,6 +4392,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onRequestDisallowInterceptTouchEvent(Z)V
@@ -4825,6 +4792,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public requestRedraw()V
@@ -4855,6 +4825,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setState(I)V
@@ -4997,6 +4968,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public show()V
@@ -5149,6 +5121,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public updateScrollPosition(II)V
@@ -5540,4 +5514,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

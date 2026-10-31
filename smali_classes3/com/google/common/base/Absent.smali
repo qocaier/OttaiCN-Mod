@@ -14,12 +14,6 @@
     }
 .end annotation
 
-.annotation build Lfb/b;
-.end annotation
-
-.annotation runtime Lgb/g;
-.end annotation
-
 
 # static fields
 .field static final INSTANCE:Lcom/google/common/base/Absent;
@@ -68,7 +62,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private constructor <init>()V
@@ -99,7 +92,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private readResolve()Ljava/lang/Object;
@@ -130,7 +122,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static withType()Lcom/google/common/base/Optional;
@@ -170,7 +161,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -210,23 +200,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 0
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "object"
-        }
-    .end annotation
 
     if-ne p1, p0, :cond_0
 
@@ -277,7 +254,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hashCode()I
@@ -298,15 +274,6 @@
 
 .method public or(Lcom/google/common/base/Optional;)Lcom/google/common/base/Optional;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "secondChoice"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -318,7 +285,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -327,34 +294,25 @@
     return-object p1
 .end method
 
-.method public or(Lgb/b0;)Ljava/lang/Object;
+.method public or(Lcom/google/common/base/s;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "supplier"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lgb/b0<",
-            "+TT;>;)TT;"
+            "Lcom/google/common/base/s;",
+            ")TT;"
         }
     .end annotation
 
     .line 3
-    invoke-interface {p1}, Lgb/b0;->get()Ljava/lang/Object;
+    invoke-interface {p1}, Lcom/google/common/base/s;->get()Ljava/lang/Object;
 
     move-result-object p1
 
     const-string v0, "use Optional.orNull() instead of a Supplier that returns null"
 
     .line 4
-    invoke-static {p1, v0}, Lgb/w;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/google/common/base/o;->q(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -363,15 +321,6 @@
 
 .method public or(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "defaultValue"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)TT;"
@@ -381,7 +330,7 @@
     .line 1
     const-string v0, "use Optional.orNull() instead of Optional.or(null)"
 
-    invoke-static {p1, v0}, Lgb/w;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/google/common/base/o;->q(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -394,9 +343,6 @@
         value = {
             "()TT;"
         }
-    .end annotation
-
-    .annotation runtime Lgl/a;
     .end annotation
 
     const/4 v0, 0x0
@@ -432,34 +378,24 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public transform(Lgb/n;)Lcom/google/common/base/Optional;
+.method public transform(Lcom/google/common/base/g;)Lcom/google/common/base/Optional;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "function"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lgb/n<",
-            "-TT;TV;>;)",
+            "Lcom/google/common/base/g;",
+            ")",
             "Lcom/google/common/base/Optional<",
             "TV;>;"
         }
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -489,5 +425,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -47,6 +47,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getEditTextPreference()Landroidx/preference/EditTextPreference;
@@ -79,6 +80,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static newInstance(Ljava/lang/String;)Landroidx/preference/EditTextPreferenceDialogFragment;
@@ -277,6 +279,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -452,6 +455,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V

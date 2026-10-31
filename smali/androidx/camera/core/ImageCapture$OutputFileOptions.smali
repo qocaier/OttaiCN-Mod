@@ -1148,6 +1148,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentValues()Landroid/content/ContentValues;
@@ -1184,6 +1185,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFile()Ljava/io/File;
@@ -1220,6 +1222,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMetadata()Landroidx/camera/core/ImageCapture$Metadata;
@@ -1256,6 +1259,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOutputStream()Ljava/io/OutputStream;
@@ -1292,6 +1296,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSaveCollection()Landroid/net/Uri;
@@ -1328,6 +1333,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1480,4 +1486,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

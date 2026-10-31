@@ -3,40 +3,28 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
-
-
-# instance fields
-.field public final synthetic a:Landroidx/camera/core/impl/LiveDataObservable;
-
-.field public final synthetic b:Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;
+.implements Landroidx/camera/core/impl/CameraConfigProvider;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/core/impl/LiveDataObservable;Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;)V
+.method public synthetic constructor <init>()V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Landroidx/camera/core/impl/a;->a:Landroidx/camera/core/impl/LiveDataObservable;
-
-    iput-object p2, p0, Landroidx/camera/core/impl/a;->b:Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 2
+.method public final getConfig(Landroidx/camera/core/CameraInfo;Landroid/content/Context;)Landroidx/camera/core/impl/CameraConfig;
+    .locals 0
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/impl/a;->a:Landroidx/camera/core/impl/LiveDataObservable;
+    invoke-static {p1, p2}, Landroidx/camera/core/impl/CameraConfigProvider;->a(Landroidx/camera/core/CameraInfo;Landroid/content/Context;)Landroidx/camera/core/impl/CameraConfig;
 
-    iget-object v1, p0, Landroidx/camera/core/impl/a;->b:Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;
+    move-result-object p1
 
-    invoke-static {v0, v1}, Landroidx/camera/core/impl/LiveDataObservable;->b(Landroidx/camera/core/impl/LiveDataObservable;Landroidx/camera/core/impl/LiveDataObservable$LiveDataObserverAdapter;)V
-
-    return-void
+    return-object p1
 .end method

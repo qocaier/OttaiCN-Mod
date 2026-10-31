@@ -4,11 +4,11 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/bluetooth/BluetoothGatt;Ljg/a;)V
+.method public constructor <init>(Landroid/bluetooth/BluetoothGatt;Lo6/a;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/polidea/rxandroidble2/exceptions/BleGattException;-><init>(Landroid/bluetooth/BluetoothGatt;Ljg/a;)V
+    invoke-direct {p0, p1, p2}, Lcom/polidea/rxandroidble2/exceptions/BleGattException;-><init>(Landroid/bluetooth/BluetoothGatt;Lo6/a;)V
 
     .line 2
     .line 3
@@ -64,4 +64,14 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method

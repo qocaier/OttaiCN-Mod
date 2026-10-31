@@ -24,16 +24,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/constraintlayout/motion/widget/MotionLayout;Landroid/view/View;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010
-        }
-        names = {
-            "this$0",
-            "val$target"
-        }
-    .end annotation
 
     .line 1
     iput-object p2, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$3;->val$target:Landroid/view/View;
@@ -122,4 +112,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

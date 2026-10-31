@@ -7,17 +7,17 @@
 
 
 # instance fields
-.field public final synthetic a:Lkotlinx/coroutines/channels/j;
+.field public final synthetic a:Lkotlinx/coroutines/channels/q;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lkotlinx/coroutines/channels/j;)V
+.method public synthetic constructor <init>(Lkotlinx/coroutines/channels/q;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/window/layout/a;->a:Lkotlinx/coroutines/channels/j;
+    iput-object p1, p0, Landroidx/window/layout/a;->a:Lkotlinx/coroutines/channels/q;
 
     return-void
 .end method
@@ -28,11 +28,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/a;->a:Lkotlinx/coroutines/channels/j;
+    iget-object v0, p0, Landroidx/window/layout/a;->a:Lkotlinx/coroutines/channels/q;
 
     check-cast p1, Landroidx/window/layout/WindowLayoutInfo;
 
-    invoke-static {v0, p1}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$1;->f(Lkotlinx/coroutines/channels/j;Landroidx/window/layout/WindowLayoutInfo;)V
+    invoke-static {v0, p1}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$1;->c(Lkotlinx/coroutines/channels/q;Landroidx/window/layout/WindowLayoutInfo;)V
 
     return-void
 .end method

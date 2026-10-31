@@ -13,41 +13,16 @@
 
 # static fields
 .field public static final b:Lokhttp3/internal/publicsuffix/c$a;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final c:Lokio/ByteString;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final d:Ljava/util/List;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final e:C = '!'
-
-.field public static f:Lokhttp3/internal/publicsuffix/c;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static e:Lokhttp3/internal/publicsuffix/c;
 
 
 # instance fields
 .field public final a:Lokhttp3/internal/publicsuffix/d;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -62,7 +37,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Lokhttp3/internal/publicsuffix/c$a;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Lokhttp3/internal/publicsuffix/c$a;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -109,7 +84,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0}, Lll/g0;->l(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v0}, Lkotlin/collections/q;->e(Ljava/lang/Object;)Ljava/util/List;
 
     .line 28
     .line 29
@@ -142,7 +117,7 @@
     .line 42
     .line 43
     .line 44
-    sput-object v0, Lokhttp3/internal/publicsuffix/c;->f:Lokhttp3/internal/publicsuffix/c;
+    sput-object v0, Lokhttp3/internal/publicsuffix/c;->e:Lokhttp3/internal/publicsuffix/c;
 
     .line 45
     .line 46
@@ -151,71 +126,17 @@
     .line 48
     .line 49
     .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
 .end method
 
 .method public constructor <init>(Lokhttp3/internal/publicsuffix/d;)V
     .locals 1
-    .param p1    # Lokhttp3/internal/publicsuffix/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "publicSuffixList"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -243,13 +164,46 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public static final synthetic a()Lokhttp3/internal/publicsuffix/c;
     .locals 1
 
     .line 1
-    sget-object v0, Lokhttp3/internal/publicsuffix/c;->f:Lokhttp3/internal/publicsuffix/c;
+    sget-object v0, Lokhttp3/internal/publicsuffix/c;->e:Lokhttp3/internal/publicsuffix/c;
 
     .line 2
     .line 3
@@ -274,55 +228,39 @@
     .line 21
     .line 22
     .line 23
-.end method
-
-.method public static final synthetic b(Lokhttp3/internal/publicsuffix/c;)V
-    .locals 0
-
-    .line 1
-    sput-object p0, Lokhttp3/internal/publicsuffix/c;->f:Lokhttp3/internal/publicsuffix/c;
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
-.method public final c(Ljava/util/List;)Ljava/util/List;
+.method public final b(Ljava/util/List;)Ljava/util/List;
     .locals 14
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;)",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -650,7 +588,7 @@
     const/4 v8, 0x0
 
     .line 144
-    invoke-static/range {v5 .. v10}, Lym/k0;->n5(Ljava/lang/CharSequence;[CZIILjava/lang/Object;)Ljava/util/List;
+    invoke-static/range {v5 .. v10}, Lkotlin/text/c0;->B0(Ljava/lang/CharSequence;[CZIILjava/lang/Object;)Ljava/util/List;
 
     .line 145
     .line 146
@@ -705,7 +643,7 @@
     const/4 v7, 0x0
 
     .line 167
-    invoke-static/range {v4 .. v9}, Lym/k0;->n5(Ljava/lang/CharSequence;[CZIILjava/lang/Object;)Ljava/util/List;
+    invoke-static/range {v4 .. v9}, Lkotlin/text/c0;->B0(Ljava/lang/CharSequence;[CZIILjava/lang/Object;)Ljava/util/List;
 
     .line 168
     .line 169
@@ -718,7 +656,7 @@
     .line 172
     .line 173
     :cond_9
-    invoke-static {}, Lll/h0;->J()Ljava/util/List;
+    invoke-static {}, Lkotlin/collections/r;->l()Ljava/util/List;
 
     .line 174
     .line 175
@@ -754,7 +692,7 @@
     move-object v8, p1
 
     .line 188
-    invoke-static/range {v8 .. v13}, Lym/k0;->n5(Ljava/lang/CharSequence;[CZIILjava/lang/Object;)Ljava/util/List;
+    invoke-static/range {v8 .. v13}, Lkotlin/text/c0;->B0(Ljava/lang/CharSequence;[CZIILjava/lang/Object;)Ljava/util/List;
 
     .line 189
     .line 190
@@ -767,7 +705,7 @@
     .line 193
     .line 194
     :cond_b
-    invoke-static {}, Lll/h0;->J()Ljava/util/List;
+    invoke-static {}, Lkotlin/collections/r;->l()Ljava/util/List;
 
     .line 195
     .line 196
@@ -906,23 +844,137 @@
     .line 312
     .line 313
     .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
 .end method
 
-.method public final d(Ljava/lang/String;)Ljava/lang/String;
+.method public final c(Ljava/lang/String;)Ljava/lang/String;
     .locals 10
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const-string v0, "domain"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -935,12 +987,12 @@
     move-result-object v0
 
     .line 10
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0, v0}, Lokhttp3/internal/publicsuffix/c;->e(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p0, v0}, Lokhttp3/internal/publicsuffix/c;->d(Ljava/lang/String;)Ljava/util/List;
 
     .line 14
     .line 15
@@ -948,7 +1000,7 @@
     move-result-object v0
 
     .line 17
-    invoke-virtual {p0, v0}, Lokhttp3/internal/publicsuffix/c;->c(Ljava/util/List;)Ljava/util/List;
+    invoke-virtual {p0, v0}, Lokhttp3/internal/publicsuffix/c;->b(Ljava/util/List;)Ljava/util/List;
 
     .line 18
     .line 19
@@ -1086,7 +1138,7 @@
 
     .line 81
     :goto_1
-    invoke-virtual {p0, p1}, Lokhttp3/internal/publicsuffix/c;->e(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p0, p1}, Lokhttp3/internal/publicsuffix/c;->d(Ljava/lang/String;)Ljava/util/List;
 
     .line 82
     .line 83
@@ -1098,7 +1150,7 @@
 
     .line 86
     .line 87
-    invoke-static {p1}, Lll/r0;->E1(Ljava/lang/Iterable;)Lvm/m;
+    invoke-static {p1}, Lkotlin/collections/z;->F(Ljava/lang/Iterable;)Lkotlin/sequences/g;
 
     .line 88
     .line 89
@@ -1106,7 +1158,7 @@
     move-result-object p1
 
     .line 91
-    invoke-static {p1, v0}, Lkotlin/sequences/SequencesKt___SequencesKt;->J0(Lvm/m;I)Lvm/m;
+    invoke-static {p1, v0}, Lkotlin/sequences/q;->p(Lkotlin/sequences/g;I)Lkotlin/sequences/g;
 
     .line 92
     .line 93
@@ -1140,7 +1192,7 @@
     const/4 v7, 0x0
 
     .line 105
-    invoke-static/range {v1 .. v9}, Lkotlin/sequences/SequencesKt___SequencesKt;->H1(Lvm/m;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Ljm/l;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v9}, Lkotlin/sequences/q;->x(Lkotlin/sequences/g;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lq8/l;ILjava/lang/Object;)Ljava/lang/String;
 
     .line 106
     .line 107
@@ -1354,20 +1406,130 @@
     .line 312
     .line 313
     .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
 .end method
 
-.method public final e(Ljava/lang/String;)Ljava/util/List;
+.method public final d(Ljava/lang/String;)Ljava/util/List;
     .locals 7
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            ")",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -1400,7 +1562,7 @@
     move-object v1, p1
 
     .line 13
-    invoke-static/range {v1 .. v6}, Lym/k0;->n5(Ljava/lang/CharSequence;[CZIILjava/lang/Object;)Ljava/util/List;
+    invoke-static/range {v1 .. v6}, Lkotlin/text/c0;->B0(Ljava/lang/CharSequence;[CZIILjava/lang/Object;)Ljava/util/List;
 
     .line 14
     .line 15
@@ -1408,7 +1570,7 @@
     move-result-object p1
 
     .line 17
-    invoke-static {p1}, Lll/r0;->u3(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p1}, Lkotlin/collections/z;->S(Ljava/util/List;)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -1420,7 +1582,7 @@
 
     .line 22
     .line 23
-    invoke-static {v1, v2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 24
     .line 25
@@ -1432,7 +1594,7 @@
 
     .line 28
     .line 29
-    invoke-static {p1, v0}, Lll/r0;->h2(Ljava/util/List;I)Ljava/util/List;
+    invoke-static {p1, v0}, Lkotlin/collections/z;->I(Ljava/util/List;I)Ljava/util/List;
 
     .line 30
     .line 31
@@ -1466,23 +1628,4 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method

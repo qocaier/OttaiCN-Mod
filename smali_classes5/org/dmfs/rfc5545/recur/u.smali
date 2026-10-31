@@ -1,66 +1,75 @@
 .class public final Lorg/dmfs/rfc5545/recur/u;
-.super Ljava/lang/Object;
+.super Lorg/dmfs/rfc5545/recur/f0;
 .source "SourceFile"
-
-# interfaces
-.implements Lpq/a;
 
 
 # instance fields
-.field public final a:[I
+.field public final b:[I
 
-.field public final b:Lorg/dmfs/rfc5545/calendarmetrics/a;
+.field public final c:Lorg/dmfs/rfc5545/recur/e0;
+
+.field public final d:J
 
 
 # direct methods
-.method public constructor <init>(Lorg/dmfs/rfc5545/recur/RecurrenceRule;Lorg/dmfs/rfc5545/calendarmetrics/a;)V
+.method public constructor <init>(Lorg/dmfs/rfc5545/recur/RecurrenceRule;Lorg/dmfs/rfc5545/recur/f0;J)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-direct {p0, p2}, Lorg/dmfs/rfc5545/recur/f0;-><init>(Lorg/dmfs/rfc5545/recur/f0;)V
 
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Lorg/dmfs/rfc5545/recur/u;->b:Lorg/dmfs/rfc5545/calendarmetrics/a;
+    new-instance p2, Lorg/dmfs/rfc5545/recur/e0;
 
     .line 5
     .line 6
-    sget-object p2, Lorg/dmfs/rfc5545/recur/RecurrenceRule$Part;->BYWEEKNO:Lorg/dmfs/rfc5545/recur/RecurrenceRule$Part;
+    invoke-direct {p2}, Lorg/dmfs/rfc5545/recur/e0;-><init>()V
 
     .line 7
     .line 8
+    .line 9
+    iput-object p2, p0, Lorg/dmfs/rfc5545/recur/u;->c:Lorg/dmfs/rfc5545/recur/e0;
+
+    .line 10
+    .line 11
+    sget-object p2, Lorg/dmfs/rfc5545/recur/RecurrenceRule$Part;->BYSETPOS:Lorg/dmfs/rfc5545/recur/RecurrenceRule$Part;
+
+    .line 12
+    .line 13
     invoke-virtual {p1, p2}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->d(Lorg/dmfs/rfc5545/recur/RecurrenceRule$Part;)Ljava/util/List;
 
-    .line 9
-    .line 10
-    .line 11
-    move-result-object p1
-
-    .line 12
-    invoke-static {p1}, Lpq/j;->b(Ljava/util/List;)[I
-
-    .line 13
     .line 14
     .line 15
+    .line 16
     move-result-object p1
 
-    .line 16
-    iput-object p1, p0, Lorg/dmfs/rfc5545/recur/u;->a:[I
-
     .line 17
+    invoke-static {p1}, Lorg/dmfs/rfc5545/recur/i0;->b(Ljava/util/List;)[I
+
     .line 18
+    .line 19
+    .line 20
+    move-result-object p1
+
+    .line 21
+    iput-object p1, p0, Lorg/dmfs/rfc5545/recur/u;->b:[I
+
+    .line 22
+    .line 23
+    const-wide/16 p1, 0x1
+
+    .line 24
+    .line 25
+    sub-long/2addr p3, p1
+
+    .line 26
+    iput-wide p3, p0, Lorg/dmfs/rfc5545/recur/u;->d:J
+
+    .line 27
+    .line 28
     return-void
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
     .line 29
     .line 30
     .line 31
@@ -73,194 +82,49 @@
     .line 38
     .line 39
     .line 40
-    .line 41
-.end method
-
-
-# virtual methods
-.method public a(J)Z
-    .locals 4
-
-    .line 1
-    invoke-static {p1, p2}, Lnq/c;->z(J)I
-
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
-
-    .line 5
-    iget-object v1, p0, Lorg/dmfs/rfc5545/recur/u;->b:Lorg/dmfs/rfc5545/calendarmetrics/a;
-
-    .line 6
-    .line 7
-    invoke-static {p1, p2}, Lnq/c;->h(J)I
-
-    .line 8
-    .line 9
-    .line 10
-    move-result v2
-
-    .line 11
-    invoke-static {p1, p2}, Lnq/c;->a(J)I
-
-    .line 12
-    .line 13
-    .line 14
-    move-result v3
-
-    .line 15
-    invoke-virtual {v1, v0, v2, v3}, Lorg/dmfs/rfc5545/calendarmetrics/a;->p(III)I
-
-    .line 16
-    .line 17
-    .line 18
-    move-result v1
-
-    .line 19
-    const/16 v2, 0xa
-
-    .line 20
-    .line 21
-    const/4 v3, 0x1
-
-    .line 22
-    if-le v1, v2, :cond_0
-
-    .line 23
-    .line 24
-    invoke-static {p1, p2}, Lnq/c;->h(J)I
-
-    .line 25
-    .line 26
-    .line 27
-    move-result v2
-
-    .line 28
-    if-ne v2, v3, :cond_0
-
-    .line 29
-    .line 30
-    iget-object p1, p0, Lorg/dmfs/rfc5545/recur/u;->b:Lorg/dmfs/rfc5545/calendarmetrics/a;
-
-    .line 31
-    .line 32
-    sub-int/2addr v0, v3
-
-    .line 33
-    invoke-virtual {p1, v0}, Lorg/dmfs/rfc5545/calendarmetrics/a;->q(I)I
-
-    .line 34
-    .line 35
-    .line 36
-    move-result p1
-
-    .line 37
-    goto :goto_0
-
-    .line 38
-    :cond_0
-    if-ne v1, v3, :cond_1
-
-    .line 39
-    .line 40
-    invoke-static {p1, p2}, Lnq/c;->h(J)I
-
     .line 41
     .line 42
     .line 43
-    move-result p1
-
     .line 44
-    if-le p1, v3, :cond_1
-
     .line 45
     .line 46
-    iget-object p1, p0, Lorg/dmfs/rfc5545/recur/u;->b:Lorg/dmfs/rfc5545/calendarmetrics/a;
-
     .line 47
     .line 48
-    add-int/2addr v0, v3
-
     .line 49
-    invoke-virtual {p1, v0}, Lorg/dmfs/rfc5545/calendarmetrics/a;->q(I)I
-
     .line 50
     .line 51
     .line 52
-    move-result p1
-
     .line 53
-    goto :goto_0
-
     .line 54
-    :cond_1
-    iget-object p1, p0, Lorg/dmfs/rfc5545/recur/u;->b:Lorg/dmfs/rfc5545/calendarmetrics/a;
-
     .line 55
     .line 56
-    invoke-virtual {p1, v0}, Lorg/dmfs/rfc5545/calendarmetrics/a;->q(I)I
-
     .line 57
     .line 58
     .line 59
-    move-result p1
-
     .line 60
-    :goto_0
-    iget-object p2, p0, Lorg/dmfs/rfc5545/recur/u;->a:[I
-
     .line 61
     .line 62
-    invoke-static {p2, v1}, Lpq/j;->c([II)I
-
     .line 63
     .line 64
     .line 65
-    move-result p2
-
     .line 66
-    if-gez p2, :cond_2
-
     .line 67
     .line 68
-    iget-object p2, p0, Lorg/dmfs/rfc5545/recur/u;->a:[I
-
     .line 69
     .line 70
-    add-int/lit8 v0, v1, -0x1
-
     .line 71
     .line 72
-    sub-int/2addr v0, p1
-
     .line 73
-    invoke-static {p2, v0}, Lpq/j;->c([II)I
-
     .line 74
     .line 75
     .line 76
-    move-result p2
-
     .line 77
-    if-ltz p2, :cond_3
-
     .line 78
     .line 79
-    :cond_2
-    if-le v1, p1, :cond_4
-
     .line 80
     .line 81
-    :cond_3
-    return v3
-
     .line 82
-    :cond_4
-    const/4 p1, 0x0
-
     .line 83
-    return p1
     .line 84
     .line 85
     .line 86
@@ -415,81 +279,4 @@
     .line 235
     .line 236
     .line 237
-    .line 238
-    .line 239
-    .line 240
-    .line 241
-    .line 242
-    .line 243
-    .line 244
-    .line 245
-    .line 246
-    .line 247
-    .line 248
-    .line 249
-    .line 250
-    .line 251
-    .line 252
-    .line 253
-    .line 254
-    .line 255
-    .line 256
-    .line 257
-    .line 258
-    .line 259
-    .line 260
-    .line 261
-    .line 262
-    .line 263
-    .line 264
-    .line 265
-    .line 266
-    .line 267
-    .line 268
-    .line 269
-    .line 270
-    .line 271
-    .line 272
-    .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
 .end method

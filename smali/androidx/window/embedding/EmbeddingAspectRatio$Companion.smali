@@ -13,16 +13,6 @@
     name = "Companion"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEmbeddingAspectRatio.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EmbeddingAspectRatio.kt\nandroidx/window/embedding/EmbeddingAspectRatio$Companion\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,109:1\n1#2:110\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nEmbeddingAspectRatio.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EmbeddingAspectRatio.kt\nandroidx/window/embedding/EmbeddingAspectRatio$Companion\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,109:1\n1#2:110\n*E\n"
-    }
-.end annotation
-
 
 # direct methods
 .method private constructor <init>()V
@@ -34,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -47,8 +37,6 @@
 # virtual methods
 .method public final buildAspectRatioFromValue$window_release(F)Landroidx/window/embedding/EmbeddingAspectRatio;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/window/embedding/EmbeddingAspectRatio;->ALWAYS_ALLOW:Landroidx/window/embedding/EmbeddingAspectRatio;
@@ -159,6 +147,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final ratio(F)Landroidx/window/embedding/EmbeddingAspectRatio;
@@ -169,11 +158,6 @@
             fromInclusive = false
         .end annotation
     .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const/high16 v0, 0x3f800000    # 1.0f
@@ -226,7 +210,7 @@
     const/4 v2, 0x0
 
     .line 27
-    invoke-direct {v0, v1, p1, v2}, Landroidx/window/embedding/EmbeddingAspectRatio;-><init>(Ljava/lang/String;FLkm/v;)V
+    invoke-direct {v0, v1, p1, v2}, Landroidx/window/embedding/EmbeddingAspectRatio;-><init>(Ljava/lang/String;FLkotlin/jvm/internal/f;)V
 
     .line 28
     .line 29
@@ -289,4 +273,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

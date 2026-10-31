@@ -12,9 +12,6 @@
     }
 .end annotation
 
-.annotation build Lfn/h2;
-.end annotation
-
 
 # static fields
 .field public static final enum FIXED_DELAY:Lkotlinx/coroutines/channels/TickerMode;
@@ -23,7 +20,7 @@
 
 .field public static final synthetic a:[Lkotlinx/coroutines/channels/TickerMode;
 
-.field public static final synthetic b:Lyl/a;
+.field public static final synthetic b:Lkotlin/enums/a;
 
 
 # direct methods
@@ -83,7 +80,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0}, Lkotlin/enums/a;->c([Ljava/lang/Enum;)Lyl/a;
+    invoke-static {v0}, Lkotlin/enums/b;->a([Ljava/lang/Enum;)Lkotlin/enums/a;
 
     .line 28
     .line 29
@@ -91,11 +88,69 @@
     move-result-object v0
 
     .line 31
-    sput-object v0, Lkotlinx/coroutines/channels/TickerMode;->b:Lyl/a;
+    sput-object v0, Lkotlinx/coroutines/channels/TickerMode;->b:Lkotlin/enums/a;
 
     .line 32
     .line 33
     return-void
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+.end method
+
+.method public constructor <init>(Ljava/lang/String;I)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
     .line 34
     .line 35
     .line 36
@@ -163,60 +218,30 @@
     .line 98
     .line 99
     .line 100
-.end method
-
-.method public constructor <init>(Ljava/lang/String;I)V
-    .locals 0
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
-
-    .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
-
-    .line 2
-    .line 3
-    .line 4
-    return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
 .end method
 
 .method public static final synthetic a()[Lkotlinx/coroutines/channels/TickerMode;
@@ -234,22 +259,16 @@
     return-object v0
 .end method
 
-.method public static getEntries()Lyl/a;
+.method public static getEntries()Lkotlin/enums/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lyl/a<",
-            "Lkotlinx/coroutines/channels/TickerMode;",
-            ">;"
+            "Lkotlin/enums/a;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    sget-object v0, Lkotlinx/coroutines/channels/TickerMode;->b:Lyl/a;
+    sget-object v0, Lkotlinx/coroutines/channels/TickerMode;->b:Lkotlin/enums/a;
 
     return-object v0
 .end method
@@ -290,6 +309,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public static values()[Lkotlinx/coroutines/channels/TickerMode;
@@ -327,4 +379,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

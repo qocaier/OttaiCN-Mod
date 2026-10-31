@@ -126,6 +126,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCurrentFraction()F
@@ -162,6 +163,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCurrentInsets()Landroidx/core/graphics/Insets;
@@ -194,6 +196,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHiddenStateInsets()Landroidx/core/graphics/Insets;
@@ -226,6 +229,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getShownStateInsets()Landroidx/core/graphics/Insets;
@@ -258,6 +262,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTypes()I
@@ -290,6 +295,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isCancelled()Z
@@ -322,6 +328,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isFinished()Z
@@ -354,6 +361,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isReady()Z
@@ -399,6 +407,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setInsetsAndAlpha(Landroidx/core/graphics/Insets;FF)V
@@ -534,4 +543,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

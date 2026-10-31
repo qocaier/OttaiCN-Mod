@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/location/pb/OffStatRes;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -12,7 +12,7 @@
 # instance fields
 .field private cachedSize:I
 
-.field private errmsg_:Ljc/a;
+.field private errmsg_:Ll4/a;
 
 .field private errnum_:I
 
@@ -25,15 +25,15 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/baidu/location/pb/OffStatRes;->errnum_:I
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffStatRes;->errmsg_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffStatRes;->errmsg_:Ll4/a;
 
     const/4 v0, -0x1
 
@@ -42,7 +42,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/location/pb/OffStatRes;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/location/pb/OffStatRes;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -55,7 +55,7 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/OffStatRes;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/location/pb/OffStatRes;->mergeFrom(Ljc/b;)Lcom/baidu/location/pb/OffStatRes;
+    invoke-virtual {v0, p0}, Lcom/baidu/location/pb/OffStatRes;->mergeFrom(Ll4/b;)Lcom/baidu/location/pb/OffStatRes;
 
     move-result-object p0
 
@@ -75,7 +75,7 @@
 
     invoke-direct {v0}, Lcom/baidu/location/pb/OffStatRes;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -107,9 +107,9 @@
 
     iput-boolean v0, p0, Lcom/baidu/location/pb/OffStatRes;->hasErrmsg:Z
 
-    sget-object v0, Ljc/a;->c:Ljc/a;
+    sget-object v0, Ll4/a;->c:Ll4/a;
 
-    iput-object v0, p0, Lcom/baidu/location/pb/OffStatRes;->errmsg_:Ljc/a;
+    iput-object v0, p0, Lcom/baidu/location/pb/OffStatRes;->errmsg_:Ll4/a;
 
     return-object p0
 .end method
@@ -141,11 +141,11 @@
     return v0
 .end method
 
-.method public getErrmsg()Ljc/a;
+.method public getErrmsg()Ll4/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/baidu/location/pb/OffStatRes;->errmsg_:Ljc/a;
+    iget-object v0, p0, Lcom/baidu/location/pb/OffStatRes;->errmsg_:Ll4/a;
 
     .line 2
     .line 3
@@ -169,7 +169,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getErrnum()I
@@ -195,7 +194,7 @@
 
     move-result v1
 
-    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v0
 
@@ -213,11 +212,11 @@
 
     const/4 v1, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffStatRes;->getErrmsg()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffStatRes;->getErrmsg()Ll4/a;
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->f(ILjc/a;)I
+    invoke-static {v1, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d(ILl4/a;)I
 
     move-result v1
 
@@ -253,7 +252,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/location/pb/OffStatRes;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/location/pb/OffStatRes;
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -264,7 +263,7 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
@@ -278,7 +277,7 @@
 
     if-eq v0, v1, :cond_1
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -287,16 +286,16 @@
     goto :goto_1
 
     :cond_1
-    invoke-virtual {p1}, Ljc/b;->l()Ljc/a;
+    invoke-virtual {p1}, Ll4/b;->h()Ll4/a;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffStatRes;->setErrmsg(Ljc/a;)Lcom/baidu/location/pb/OffStatRes;
+    invoke-virtual {p0, v0}, Lcom/baidu/location/pb/OffStatRes;->setErrmsg(Ll4/a;)Lcom/baidu/location/pb/OffStatRes;
 
     goto :goto_0
 
     :cond_2
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -309,7 +308,7 @@
     return-object p0
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -318,14 +317,14 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/location/pb/OffStatRes;->mergeFrom(Ljc/b;)Lcom/baidu/location/pb/OffStatRes;
+    invoke-virtual {p0, p1}, Lcom/baidu/location/pb/OffStatRes;->mergeFrom(Ll4/b;)Lcom/baidu/location/pb/OffStatRes;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public setErrmsg(Ljc/a;)Lcom/baidu/location/pb/OffStatRes;
+.method public setErrmsg(Ll4/a;)Lcom/baidu/location/pb/OffStatRes;
     .locals 1
 
     .line 1
@@ -336,7 +335,7 @@
 
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/baidu/location/pb/OffStatRes;->errmsg_:Ljc/a;
+    iput-object p1, p0, Lcom/baidu/location/pb/OffStatRes;->errmsg_:Ll4/a;
 
     .line 5
     .line 6
@@ -359,7 +358,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setErrnum(I)Lcom/baidu/location/pb/OffStatRes;
@@ -394,7 +392,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_0
     invoke-virtual {p0}, Lcom/baidu/location/pb/OffStatRes;->hasErrmsg()Z
@@ -405,11 +403,11 @@
 
     const/4 v0, 0x2
 
-    invoke-virtual {p0}, Lcom/baidu/location/pb/OffStatRes;->getErrmsg()Ljc/a;
+    invoke-virtual {p0}, Lcom/baidu/location/pb/OffStatRes;->getErrmsg()Ll4/a;
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->d0(ILjc/a;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->G(ILl4/a;)V
 
     :cond_1
     return-void

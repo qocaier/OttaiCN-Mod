@@ -5,9 +5,6 @@
 
 # static fields
 .field private static final EmptyLongIntMap:Landroidx/collection/MutableLongIntMap;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -43,12 +40,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final emptyLongIntMap()Landroidx/collection/LongIntMap;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/collection/LongIntMapKt;->EmptyLongIntMap:Landroidx/collection/MutableLongIntMap;
@@ -73,12 +69,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final longIntMapOf()Landroidx/collection/LongIntMap;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/collection/LongIntMapKt;->EmptyLongIntMap:Landroidx/collection/MutableLongIntMap;
@@ -88,8 +83,6 @@
 
 .method public static final longIntMapOf(JI)Landroidx/collection/LongIntMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroidx/collection/MutableLongIntMap;
@@ -100,7 +93,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 3
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
@@ -110,8 +103,6 @@
 
 .method public static final longIntMapOf(JIJI)Landroidx/collection/LongIntMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     new-instance v0, Landroidx/collection/MutableLongIntMap;
@@ -122,7 +113,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 5
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
@@ -135,8 +126,6 @@
 
 .method public static final longIntMapOf(JIJIJI)Landroidx/collection/LongIntMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 7
     new-instance v0, Landroidx/collection/MutableLongIntMap;
@@ -147,7 +136,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 8
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
@@ -163,8 +152,6 @@
 
 .method public static final longIntMapOf(JIJIJIJI)Landroidx/collection/LongIntMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 11
     new-instance v0, Landroidx/collection/MutableLongIntMap;
@@ -175,7 +162,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 12
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
@@ -194,8 +181,6 @@
 
 .method public static final longIntMapOf(JIJIJIJIJI)Landroidx/collection/LongIntMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 16
     new-instance v0, Landroidx/collection/MutableLongIntMap;
@@ -206,7 +191,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 17
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
@@ -232,8 +217,6 @@
 
 .method public static final mutableLongIntMapOf()Landroidx/collection/MutableLongIntMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/collection/MutableLongIntMap;
@@ -244,15 +227,13 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     return-object v0
 .end method
 
 .method public static final mutableLongIntMapOf(JI)Landroidx/collection/MutableLongIntMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroidx/collection/MutableLongIntMap;
@@ -263,7 +244,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 3
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
@@ -273,8 +254,6 @@
 
 .method public static final mutableLongIntMapOf(JIJI)Landroidx/collection/MutableLongIntMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     new-instance v0, Landroidx/collection/MutableLongIntMap;
@@ -285,7 +264,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 5
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
@@ -298,8 +277,6 @@
 
 .method public static final mutableLongIntMapOf(JIJIJI)Landroidx/collection/MutableLongIntMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 7
     new-instance v0, Landroidx/collection/MutableLongIntMap;
@@ -310,7 +287,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 8
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
@@ -326,8 +303,6 @@
 
 .method public static final mutableLongIntMapOf(JIJIJIJI)Landroidx/collection/MutableLongIntMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 11
     new-instance v0, Landroidx/collection/MutableLongIntMap;
@@ -338,7 +313,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 12
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
@@ -357,8 +332,6 @@
 
 .method public static final mutableLongIntMapOf(JIJIJIJIJI)Landroidx/collection/MutableLongIntMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 16
     new-instance v0, Landroidx/collection/MutableLongIntMap;
@@ -369,7 +342,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 17
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V

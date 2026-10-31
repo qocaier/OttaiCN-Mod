@@ -56,6 +56,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -86,6 +88,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNumberOfThisDisk()I
@@ -114,6 +118,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNumberOfThisDiskStartOfCentralDir()I
@@ -142,6 +148,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOffsetOfEndOfCentralDirectory()J
@@ -170,6 +178,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOffsetOfStartOfCentralDirectory()J
@@ -198,6 +208,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSizeOfCentralDirectory()I
@@ -226,6 +238,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTotalNumberOfEntriesInCentralDirectory()I
@@ -254,6 +268,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTotalNumberOfEntriesInCentralDirectoryOnThisDisk()I
@@ -282,6 +298,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setComment(Ljava/lang/String;)V
@@ -318,6 +336,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNumberOfThisDisk(I)V
@@ -351,6 +371,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNumberOfThisDiskStartOfCentralDir(I)V
@@ -384,6 +406,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOffsetOfEndOfCentralDirectory(J)V
@@ -417,6 +441,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOffsetOfStartOfCentralDirectory(J)V
@@ -450,6 +476,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSizeOfCentralDirectory(I)V
@@ -483,6 +511,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTotalNumberOfEntriesInCentralDirectory(I)V
@@ -516,6 +546,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTotalNumberOfEntriesInCentralDirectoryOnThisDisk(I)V
@@ -549,4 +581,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

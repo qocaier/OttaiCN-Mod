@@ -44,7 +44,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -77,7 +76,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getView()Lcom/baidu/platform/comapi/bmsdk/ui/BmBaseUI;
@@ -108,7 +106,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAnimation(Lcom/baidu/mapapi/animation/Animation;)V
@@ -154,7 +151,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCollisionBehavior(Lcom/baidu/mapapi/map/CollisionBehavior;)V
@@ -193,7 +189,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCollisionPriority(S)V
@@ -233,7 +228,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLocated(Lcom/baidu/mapapi/map/bmsdk/ui/Located;)V
@@ -272,7 +266,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScale(F)V
@@ -307,7 +300,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScaleX(F)V
@@ -342,7 +334,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScaleY(F)V
@@ -377,7 +368,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShowLevel(II)V
@@ -448,11 +438,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setView(Lcom/baidu/mapapi/map/bmsdk/ui/BaseUI;)V
@@ -491,7 +476,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVisibility(I)V
@@ -526,7 +510,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setXmlView(Ljava/lang/String;)V
@@ -578,5 +561,4 @@
     return-void
     .line 23
     .line 24
-    .line 25
 .end method

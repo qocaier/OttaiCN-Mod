@@ -3,25 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSparseLongArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SparseLongArray.kt\nandroidx/core/util/SparseLongArrayKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,100:1\n76#1,4:102\n1#2:101\n*S KotlinDebug\n*F\n+ 1 SparseLongArray.kt\nandroidx/core/util/SparseLongArrayKt\n*L\n72#1:102,4\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSparseLongArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SparseLongArray.kt\nandroidx/core/util/SparseLongArrayKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,100:1\n76#1,4:102\n1#2:101\n*S KotlinDebug\n*F\n+ 1 SparseLongArray.kt\nandroidx/core/util/SparseLongArrayKt\n*L\n72#1:102,4\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final contains(Landroid/util/SparseLongArray;I)Z
     .locals 0
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->indexOfKey(I)I
@@ -89,10 +73,6 @@
 
 .method public static final containsKey(Landroid/util/SparseLongArray;I)Z
     .locals 0
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->indexOfKey(I)I
@@ -160,10 +140,6 @@
 
 .method public static final containsValue(Landroid/util/SparseLongArray;J)Z
     .locals 0
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroid/util/SparseLongArray;->indexOfValue(J)I
@@ -229,27 +205,14 @@
     .line 48
 .end method
 
-.method public static final forEach(Landroid/util/SparseLongArray;Ljm/p;)V
+.method public static final forEach(Landroid/util/SparseLongArray;Lq8/p;)V
     .locals 5
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/util/SparseLongArray;",
-            "Ljm/p<",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Long;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/p;",
+            ")V"
         }
     .end annotation
 
@@ -302,7 +265,7 @@
     move-result-object v3
 
     .line 24
-    invoke-interface {p1, v2, v3}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -338,10 +301,6 @@
 
 .method public static final getOrDefault(Landroid/util/SparseLongArray;IJ)J
     .locals 0
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroid/util/SparseLongArray;->get(IJ)J
@@ -461,26 +420,20 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final getOrElse(Landroid/util/SparseLongArray;ILjm/a;)J
+.method public static final getOrElse(Landroid/util/SparseLongArray;ILq8/a;)J
     .locals 0
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/util/SparseLongArray;",
             "I",
-            "Ljm/a<",
-            "Ljava/lang/Long;",
-            ">;)J"
+            "Lq8/a;",
+            ")J"
         }
     .end annotation
 
@@ -509,7 +462,7 @@
 
     .line 12
     :cond_0
-    invoke-interface {p2}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -621,14 +574,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final getSize(Landroid/util/SparseLongArray;)I
     .locals 0
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
@@ -664,10 +616,6 @@
 
 .method public static final isEmpty(Landroid/util/SparseLongArray;)Z
     .locals 0
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
@@ -712,10 +660,6 @@
 
 .method public static final isNotEmpty(Landroid/util/SparseLongArray;)Z
     .locals 0
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
@@ -758,14 +702,8 @@
     .line 25
 .end method
 
-.method public static final keyIterator(Landroid/util/SparseLongArray;)Lll/c1;
+.method public static final keyIterator(Landroid/util/SparseLongArray;)Lkotlin/collections/c0;
     .locals 1
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/core/util/SparseLongArrayKt$keyIterator$1;
@@ -801,16 +739,6 @@
 
 .method public static final plus(Landroid/util/SparseLongArray;Landroid/util/SparseLongArray;)Landroid/util/SparseLongArray;
     .locals 3
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/util/SparseLongArray;
@@ -883,14 +811,6 @@
 
 .method public static final putAll(Landroid/util/SparseLongArray;Landroid/util/SparseLongArray;)V
     .locals 5
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p1}, Landroid/util/SparseLongArray;->size()I
@@ -969,10 +889,6 @@
 
 .method public static final remove(Landroid/util/SparseLongArray;IJ)Z
     .locals 2
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->indexOfKey(I)I
@@ -1111,14 +1027,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final set(Landroid/util/SparseLongArray;IJ)V
     .locals 0
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroid/util/SparseLongArray;->put(IJ)V
@@ -1236,16 +1151,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static final valueIterator(Landroid/util/SparseLongArray;)Lll/d1;
+.method public static final valueIterator(Landroid/util/SparseLongArray;)Lkotlin/collections/d0;
     .locals 1
-    .param p0    # Landroid/util/SparseLongArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;

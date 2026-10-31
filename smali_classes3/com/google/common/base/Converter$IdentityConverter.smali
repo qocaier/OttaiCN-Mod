@@ -21,8 +21,7 @@
         "<T:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/google/common/base/Converter<",
-        "TT;TT;>;",
+        "Lcom/google/common/base/Converter;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -32,8 +31,7 @@
 .field static final INSTANCE:Lcom/google/common/base/Converter;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lcom/google/common/base/Converter<",
-            "**>;"
+            "Lcom/google/common/base/Converter;"
         }
     .end annotation
 .end field
@@ -74,7 +72,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private constructor <init>()V
@@ -105,7 +102,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private readResolve()Ljava/lang/Object;
@@ -136,31 +132,20 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public doAndThen(Lcom/google/common/base/Converter;)Lcom/google/common/base/Converter;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "otherConverter"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<S:",
             "Ljava/lang/Object;",
             ">(",
-            "Lcom/google/common/base/Converter<",
-            "TT;TS;>;)",
-            "Lcom/google/common/base/Converter<",
-            "TT;TS;>;"
+            "Lcom/google/common/base/Converter;",
+            ")",
+            "Lcom/google/common/base/Converter;"
         }
     .end annotation
 
@@ -169,7 +154,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lgb/w;->F(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/google/common/base/o;->q(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -197,20 +182,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public doBackward(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "t"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)TT;"
@@ -222,15 +197,6 @@
 
 .method public doForward(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "t"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)TT;"
@@ -293,5 +259,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

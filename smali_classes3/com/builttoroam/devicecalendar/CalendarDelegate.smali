@@ -13,32 +13,13 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCalendarDelegate.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CalendarDelegate.kt\ncom/builttoroam/devicecalendar/CalendarDelegate\n+ 2 CoroutineExceptionHandler.kt\nkotlinx/coroutines/CoroutineExceptionHandlerKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n+ 5 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 6 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,1006:1\n48#2,4:1007\n48#2,4:1011\n1549#3:1015\n1620#3,3:1016\n1549#3:1021\n1620#3,3:1022\n1603#3,9:1027\n1855#3:1036\n1856#3:1039\n1612#3:1040\n1549#3:1041\n1620#3,3:1042\n766#3:1045\n857#3,2:1046\n1603#3,9:1048\n1855#3:1057\n1856#3:1061\n1612#3:1062\n1549#3:1063\n1620#3,3:1064\n37#4,2:1019\n37#4,2:1025\n1#5:1037\n1#5:1038\n1#5:1060\n1282#6,2:1058\n*S KotlinDebug\n*F\n+ 1 CalendarDelegate.kt\ncom/builttoroam/devicecalendar/CalendarDelegate\n*L\n343#1:1007,4\n392#1:1011,4\n472#1:1015\n472#1:1016,3\n538#1:1021\n538#1:1022,3\n786#1:1027,9\n786#1:1036\n786#1:1039\n786#1:1040\n820#1:1041\n820#1:1042,3\n916#1:1045\n916#1:1046,2\n975#1:1048,9\n975#1:1057\n975#1:1061\n975#1:1062\n979#1:1063\n979#1:1064,3\n478#1:1019,2\n553#1:1025,2\n786#1:1038\n975#1:1060\n976#1:1058,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nCalendarDelegate.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CalendarDelegate.kt\ncom/builttoroam/devicecalendar/CalendarDelegate\n+ 2 CoroutineExceptionHandler.kt\nkotlinx/coroutines/CoroutineExceptionHandlerKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n+ 5 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 6 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,1006:1\n48#2,4:1007\n48#2,4:1011\n1549#3:1015\n1620#3,3:1016\n1549#3:1021\n1620#3,3:1022\n1603#3,9:1027\n1855#3:1036\n1856#3:1039\n1612#3:1040\n1549#3:1041\n1620#3,3:1042\n766#3:1045\n857#3,2:1046\n1603#3,9:1048\n1855#3:1057\n1856#3:1061\n1612#3:1062\n1549#3:1063\n1620#3,3:1064\n37#4,2:1019\n37#4,2:1025\n1#5:1037\n1#5:1038\n1#5:1060\n1282#6,2:1058\n*S KotlinDebug\n*F\n+ 1 CalendarDelegate.kt\ncom/builttoroam/devicecalendar/CalendarDelegate\n*L\n343#1:1007,4\n392#1:1011,4\n472#1:1015\n472#1:1016,3\n538#1:1021\n538#1:1022,3\n786#1:1027,9\n786#1:1036\n786#1:1039\n786#1:1040\n820#1:1041\n820#1:1042,3\n916#1:1045\n916#1:1046,2\n975#1:1048,9\n975#1:1057\n975#1:1061\n975#1:1062\n979#1:1063\n979#1:1064,3\n478#1:1019,2\n553#1:1025,2\n786#1:1038\n975#1:1060\n976#1:1058,2\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private final BYMONTHDAY_PART:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final BYMONTH_PART:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final BYSETPOS_PART:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final CREATE_OR_UPDATE_EVENT_REQUEST_CODE:I
 
@@ -47,9 +28,6 @@
 .field private final DELETE_EVENT_REQUEST_CODE:I
 
 .field private final PART_TEMPLATE:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final REQUEST_PERMISSIONS_REQUEST_CODE:I
 
@@ -60,9 +38,6 @@
 .field private final RETRIEVE_EVENTS_REQUEST_CODE:I
 
 .field private _binding:Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private final _cachedParametersMap:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
@@ -73,45 +48,25 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 .field private _context:Landroid/content/Context;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
-.field private _gson:Lac/d;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
+.field private _gson:Lcom/google/gson/c;
 
 .field private final uiThreadHandler:Landroid/os/Handler;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;Landroid/content/Context;)V
     .locals 2
-    .param p1    # Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -247,11 +202,11 @@
 
     .line 72
     .line 73
-    new-instance p1, Lac/e;
+    new-instance p1, Lcom/google/gson/d;
 
     .line 74
     .line 75
-    invoke-direct {p1}, Lac/e;-><init>()V
+    invoke-direct {p1}, Lcom/google/gson/d;-><init>()V
 
     .line 76
     .line 77
@@ -269,7 +224,7 @@
 
     .line 84
     .line 85
-    invoke-virtual {p1, v0, p2}, Lac/e;->m(Ljava/lang/reflect/Type;Ljava/lang/Object;)Lac/e;
+    invoke-virtual {p1, v0, p2}, Lcom/google/gson/d;->d(Ljava/lang/reflect/Type;Ljava/lang/Object;)Lcom/google/gson/d;
 
     .line 86
     .line 87
@@ -287,7 +242,7 @@
 
     .line 94
     .line 95
-    invoke-virtual {p1, v0, p2}, Lac/e;->m(Ljava/lang/reflect/Type;Ljava/lang/Object;)Lac/e;
+    invoke-virtual {p1, v0, p2}, Lcom/google/gson/d;->d(Ljava/lang/reflect/Type;Ljava/lang/Object;)Lcom/google/gson/d;
 
     .line 96
     .line 97
@@ -305,7 +260,7 @@
 
     .line 104
     .line 105
-    invoke-virtual {p1, v0, p2}, Lac/e;->m(Ljava/lang/reflect/Type;Ljava/lang/Object;)Lac/e;
+    invoke-virtual {p1, v0, p2}, Lcom/google/gson/d;->d(Ljava/lang/reflect/Type;Ljava/lang/Object;)Lcom/google/gson/d;
 
     .line 106
     .line 107
@@ -323,12 +278,12 @@
 
     .line 114
     .line 115
-    invoke-virtual {p1, v0, p2}, Lac/e;->m(Ljava/lang/reflect/Type;Ljava/lang/Object;)Lac/e;
+    invoke-virtual {p1, v0, p2}, Lcom/google/gson/d;->d(Ljava/lang/reflect/Type;Ljava/lang/Object;)Lcom/google/gson/d;
 
     .line 116
     .line 117
     .line 118
-    invoke-virtual {p1}, Lac/e;->e()Lac/d;
+    invoke-virtual {p1}, Lcom/google/gson/d;->b()Lcom/google/gson/c;
 
     .line 119
     .line 120
@@ -336,7 +291,7 @@
     move-result-object p1
 
     .line 122
-    iput-object p1, p0, Lcom/builttoroam/devicecalendar/CalendarDelegate;->_gson:Lac/d;
+    iput-object p1, p0, Lcom/builttoroam/devicecalendar/CalendarDelegate;->_gson:Lcom/google/gson/c;
 
     .line 123
     .line 124
@@ -548,61 +503,13 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
-.method public static synthetic a(Landroid/database/Cursor;Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Throwable;)Ljl/e2;
+.method public static synthetic a(Landroid/database/Cursor;Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Throwable;)Lkotlin/j;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lcom/builttoroam/devicecalendar/CalendarDelegate;->retrieveEvents$lambda$2(Landroid/database/Cursor;Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Throwable;)Ljl/e2;
+    invoke-static {p0, p1, p2, p3, p4}, Lcom/builttoroam/devicecalendar/CalendarDelegate;->retrieveEvents$lambda$2(Landroid/database/Cursor;Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Throwable;)Lkotlin/j;
 
     move-result-object p0
 
@@ -857,6 +764,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static final synthetic access$deleteExistingReminders(Lcom/builttoroam/devicecalendar/CalendarDelegate;Landroid/content/ContentResolver;J)V
@@ -1012,11 +935,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static final synthetic access$finishWithError(Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/lang/String;Ljava/lang/String;Lio/flutter/plugin/common/MethodChannel$Result;)V
@@ -1267,6 +1185,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static final synthetic access$getUiThreadHandler$p(Lcom/builttoroam/devicecalendar/CalendarDelegate;)Landroid/os/Handler;
@@ -1299,7 +1233,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static final synthetic access$insertAttendees(Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Ljava/lang/Long;Landroid/content/ContentResolver;)V
@@ -1550,6 +1483,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static final synthetic access$insertReminders(Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Ljava/lang/Long;Landroid/content/ContentResolver;)V
@@ -1800,6 +1749,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static final synthetic access$parseEvent(Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/lang/String;Landroid/database/Cursor;)Lcom/builttoroam/devicecalendar/models/Event;
@@ -1957,11 +1922,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static final synthetic access$retrieveAttendees(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lcom/builttoroam/devicecalendar/models/Calendar;Ljava/lang/String;Landroid/content/ContentResolver;)Ljava/util/List;
@@ -2214,6 +2174,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static final synthetic access$retrieveReminders(Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/lang/String;Landroid/content/ContentResolver;)Ljava/util/List;
@@ -2371,11 +2347,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static final synthetic access$updateAttendeeStatus(Lcom/builttoroam/devicecalendar/CalendarDelegate;JLcom/builttoroam/devicecalendar/models/Attendee;Landroid/content/ContentResolver;)V
@@ -2626,6 +2597,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private final addPartWithValues(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)Ljava/lang/String;
@@ -2685,7 +2672,7 @@
 
     .line 27
     .line 28
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -2816,11 +2803,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private final arePermissionsGranted()Z
@@ -2854,7 +2836,7 @@
 
     .line 13
     .line 14
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 15
     .line 16
@@ -2901,7 +2883,7 @@
 
     .line 34
     .line 35
-    invoke-static {v3}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v3}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 36
     .line 37
@@ -2999,15 +2981,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private final atLeastAPI(I)Z
@@ -3049,7 +3022,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic b(Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Lio/flutter/plugin/common/MethodChannel$Result;)V
@@ -3248,7 +3220,7 @@
 
     .line 79
     .line 80
-    invoke-static {v2, v1}, Lll/i0;->d0(Ljava/lang/Iterable;I)I
+    invoke-static {v2, v1}, Lkotlin/collections/s;->v(Ljava/lang/Iterable;I)I
 
     .line 81
     .line 82
@@ -3628,6 +3600,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private final buildEventContentValues(Lcom/builttoroam/devicecalendar/models/Event;Ljava/lang/String;)Landroid/content/ContentValues;
@@ -3676,7 +3680,7 @@
     move-result-object v1
 
     .line 23
-    invoke-static {v1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 24
     .line 25
@@ -3731,7 +3735,7 @@
     move-result-object v1
 
     .line 52
-    invoke-static {v1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 53
     .line 54
@@ -3937,7 +3941,7 @@
     move-result-object p1
 
     .line 160
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 161
     .line 162
@@ -4120,54 +4124,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method private final buildRecurrenceRuleParams(Lcom/builttoroam/devicecalendar/models/RecurrenceRule;)Ljava/lang/String;
@@ -4297,7 +4253,7 @@
     move-result-object v0
 
     .line 57
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 58
     .line 59
@@ -4310,7 +4266,7 @@
     move-result v0
 
     .line 64
-    invoke-virtual {v1, v0}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->w(I)V
+    invoke-virtual {v1, v0}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->n(I)V
 
     .line 65
     .line 66
@@ -4385,7 +4341,7 @@
     move-result-object v0
 
     .line 101
-    invoke-virtual {v1, v0}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->r(Ljava/util/List;)V
+    invoke-virtual {v1, v0}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->l(Ljava/util/List;)V
 
     .line 102
     .line 103
@@ -4411,7 +4367,7 @@
     move-result-object v0
 
     .line 114
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 115
     .line 116
@@ -4424,7 +4380,7 @@
     move-result v0
 
     .line 121
-    invoke-virtual {v1, v0}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->u(I)V
+    invoke-virtual {v1, v0}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->m(I)V
 
     .line 122
     .line 123
@@ -4461,7 +4417,7 @@
     move-result-object v2
 
     .line 139
-    invoke-static {v2}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v2}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 140
     .line 141
@@ -4505,7 +4461,7 @@
     .line 161
     .line 162
     .line 163
-    new-instance v2, Lnq/a;
+    new-instance v2, Ly9/a;
 
     .line 164
     .line 165
@@ -4525,7 +4481,7 @@
     move-result-object v3
 
     .line 173
-    invoke-static {v3}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v3}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 174
     .line 175
@@ -4538,12 +4494,12 @@
     move-result-wide v3
 
     .line 180
-    invoke-direct {v2, v0, v3, v4}, Lnq/a;-><init>(Ljava/util/TimeZone;J)V
+    invoke-direct {v2, v0, v3, v4}, Ly9/a;-><init>(Ljava/util/TimeZone;J)V
 
     .line 181
     .line 182
     .line 183
-    invoke-virtual {v1, v2}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->y(Lnq/a;)V
+    invoke-virtual {v1, v2}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->o(Ly9/a;)V
 
     .line 184
     .line 185
@@ -4562,7 +4518,7 @@
 
     .line 191
     .line 192
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 193
     .line 194
@@ -4842,6 +4798,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public static synthetic c(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lkotlin/jvm/internal/Ref$ObjectRef;Lio/flutter/plugin/common/MethodChannel$Result;)V
@@ -4927,7 +4915,7 @@
     move-result-object v3
 
     .line 35
-    invoke-static {v3, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -4948,7 +4936,7 @@
 
     .line 45
     :cond_1
-    invoke-static {v1}, Lll/r0;->a6(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {v1}, Lkotlin/collections/z;->f0(Ljava/lang/Iterable;)Ljava/util/List;
 
     .line 46
     .line 47
@@ -5026,7 +5014,7 @@
     move-result-object v0
 
     .line 83
-    invoke-static {v1}, Lkm/x0;->k(Ljava/lang/Object;)Ljava/util/Map;
+    invoke-static {v1}, Lkotlin/jvm/internal/p;->a(Ljava/lang/Object;)Ljava/util/Map;
 
     .line 84
     .line 85
@@ -5044,8 +5032,6 @@
     .line 91
     :cond_3
     return-void
-    .line 92
-    .line 93
 .end method
 
 .method private final convertCalendarPartToNumericValues(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Integer;
@@ -5070,7 +5056,7 @@
     move-object v1, p2
 
     .line 7
-    invoke-static/range {v0 .. v5}, Lym/k0;->J3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
+    invoke-static/range {v0 .. v5}, Lkotlin/text/c0;->Y(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     .line 8
     .line 9
@@ -5104,7 +5090,7 @@
 
     .line 21
     .line 22
-    invoke-static {v2, p1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -5133,7 +5119,7 @@
     const/4 v5, 0x0
 
     .line 35
-    invoke-static/range {v2 .. v7}, Lym/k0;->o5(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
+    invoke-static/range {v2 .. v7}, Lkotlin/text/c0;->C0(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
 
     .line 36
     .line 37
@@ -5141,7 +5127,7 @@
     move-result-object p1
 
     .line 39
-    invoke-static {p1}, Lll/r0;->L2(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p1}, Lkotlin/collections/z;->M(Ljava/util/List;)Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -5184,7 +5170,7 @@
     const/4 v5, 0x0
 
     .line 58
-    invoke-static/range {v2 .. v7}, Lym/k0;->o5(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
+    invoke-static/range {v2 .. v7}, Lkotlin/text/c0;->C0(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
 
     .line 59
     .line 60
@@ -5196,7 +5182,7 @@
 
     .line 63
     .line 64
-    invoke-static {p1}, Lll/r0;->A3(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p1}, Lkotlin/collections/z;->T(Ljava/util/List;)Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -5239,7 +5225,7 @@
     const/4 v5, 0x0
 
     .line 83
-    invoke-static/range {v2 .. v7}, Lym/k0;->o5(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
+    invoke-static/range {v2 .. v7}, Lkotlin/text/c0;->C0(Ljava/lang/CharSequence;[Ljava/lang/String;ZIILjava/lang/Object;)Ljava/util/List;
 
     .line 84
     .line 85
@@ -5263,7 +5249,7 @@
 
     .line 94
     .line 95
-    invoke-static {p1, v0}, Lll/i0;->d0(Ljava/lang/Iterable;I)I
+    invoke-static {p1, v0}, Lkotlin/collections/s;->v(Ljava/lang/Iterable;I)I
 
     .line 96
     .line 97
@@ -5334,7 +5320,7 @@
 
     .line 130
     :cond_1
-    invoke-static {p2}, Lll/r0;->L2(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p2}, Lkotlin/collections/z;->M(Ljava/util/List;)Ljava/lang/Object;
 
     .line 131
     .line 132
@@ -5545,57 +5531,9 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
-.method private static final createOrUpdateEvent$lambda$5(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lkotlin/jvm/internal/Ref$ObjectRef;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Throwable;)Ljl/e2;
+.method private static final createOrUpdateEvent$lambda$5(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lkotlin/jvm/internal/Ref$ObjectRef;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Throwable;)Lkotlin/j;
     .locals 1
 
     .line 1
@@ -5607,11 +5545,11 @@
 
     .line 4
     .line 5
-    new-instance v0, Lt5/c;
+    new-instance v0, Lcom/builttoroam/devicecalendar/c;
 
     .line 6
     .line 7
-    invoke-direct {v0, p0, p1, p2}, Lt5/c;-><init>(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lkotlin/jvm/internal/Ref$ObjectRef;Lio/flutter/plugin/common/MethodChannel$Result;)V
+    invoke-direct {v0, p0, p1, p2}, Lcom/builttoroam/devicecalendar/c;-><init>(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lkotlin/jvm/internal/Ref$ObjectRef;Lio/flutter/plugin/common/MethodChannel$Result;)V
 
     .line 8
     .line 9
@@ -5622,7 +5560,7 @@
     .line 12
     .line 13
     :cond_0
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
 
     .line 14
     .line 15
@@ -5854,6 +5792,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private static final createOrUpdateEvent$lambda$5$lambda$4(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lkotlin/jvm/internal/Ref$ObjectRef;Lio/flutter/plugin/common/MethodChannel$Result;)V
@@ -6017,18 +5971,13 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
-.method public static synthetic d(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lkotlin/jvm/internal/Ref$ObjectRef;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Throwable;)Ljl/e2;
+.method public static synthetic d(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lkotlin/jvm/internal/Ref$ObjectRef;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Throwable;)Lkotlin/j;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lcom/builttoroam/devicecalendar/CalendarDelegate;->createOrUpdateEvent$lambda$5(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lkotlin/jvm/internal/Ref$ObjectRef;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Throwable;)Ljl/e2;
+    invoke-static {p0, p1, p2, p3}, Lcom/builttoroam/devicecalendar/CalendarDelegate;->createOrUpdateEvent$lambda$5(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lkotlin/jvm/internal/Ref$ObjectRef;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Throwable;)Lkotlin/j;
 
     move-result-object p0
 
@@ -6222,11 +6171,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static synthetic deleteCalendar$default(Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/lang/String;Lio/flutter/plugin/common/MethodChannel$Result;ZILjava/lang/Object;)Lcom/builttoroam/devicecalendar/models/Calendar;
@@ -6898,6 +6842,514 @@
     .line 652
     .line 653
     .line 654
+    .line 655
+    .line 656
+    .line 657
+    .line 658
+    .line 659
+    .line 660
+    .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
+    .line 721
+    .line 722
+    .line 723
+    .line 724
+    .line 725
+    .line 726
+    .line 727
+    .line 728
+    .line 729
+    .line 730
+    .line 731
+    .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
+    .line 853
+    .line 854
+    .line 855
+    .line 856
+    .line 857
+    .line 858
+    .line 859
+    .line 860
+    .line 861
+    .line 862
+    .line 863
+    .line 864
+    .line 865
+    .line 866
+    .line 867
+    .line 868
+    .line 869
+    .line 870
+    .line 871
+    .line 872
+    .line 873
+    .line 874
+    .line 875
+    .line 876
+    .line 877
+    .line 878
+    .line 879
+    .line 880
+    .line 881
+    .line 882
+    .line 883
+    .line 884
+    .line 885
+    .line 886
+    .line 887
+    .line 888
+    .line 889
+    .line 890
+    .line 891
+    .line 892
+    .line 893
+    .line 894
+    .line 895
+    .line 896
+    .line 897
+    .line 898
+    .line 899
+    .line 900
+    .line 901
+    .line 902
+    .line 903
+    .line 904
+    .line 905
+    .line 906
+    .line 907
+    .line 908
+    .line 909
+    .line 910
+    .line 911
+    .line 912
+    .line 913
+    .line 914
+    .line 915
+    .line 916
+    .line 917
+    .line 918
+    .line 919
+    .line 920
+    .line 921
+    .line 922
+    .line 923
+    .line 924
+    .line 925
+    .line 926
+    .line 927
+    .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
+    .line 1092
+    .line 1093
+    .line 1094
+    .line 1095
+    .line 1096
+    .line 1097
+    .line 1098
+    .line 1099
+    .line 1100
+    .line 1101
+    .line 1102
+    .line 1103
+    .line 1104
+    .line 1105
+    .line 1106
+    .line 1107
+    .line 1108
+    .line 1109
+    .line 1110
+    .line 1111
+    .line 1112
+    .line 1113
+    .line 1114
+    .line 1115
+    .line 1116
+    .line 1117
+    .line 1118
+    .line 1119
+    .line 1120
+    .line 1121
+    .line 1122
+    .line 1123
+    .line 1124
+    .line 1125
+    .line 1126
+    .line 1127
+    .line 1128
+    .line 1129
+    .line 1130
+    .line 1131
+    .line 1132
+    .line 1133
+    .line 1134
+    .line 1135
+    .line 1136
+    .line 1137
+    .line 1138
+    .line 1139
+    .line 1140
+    .line 1141
+    .line 1142
+    .line 1143
+    .line 1144
+    .line 1145
+    .line 1146
+    .line 1147
+    .line 1148
+    .line 1149
+    .line 1150
+    .line 1151
+    .line 1152
+    .line 1153
+    .line 1154
+    .line 1155
+    .line 1156
+    .line 1157
+    .line 1158
+    .line 1159
+    .line 1160
+    .line 1161
+    .line 1162
 .end method
 
 .method public static synthetic deleteEvent$default(Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/lang/String;Ljava/lang/String;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Boolean;ILjava/lang/Object;)V
@@ -7794,11 +8246,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private final finishWithError(Ljava/lang/String;Ljava/lang/String;Lio/flutter/plugin/common/MethodChannel$Result;)V
@@ -7958,11 +8405,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private final finishWithSuccess(Ljava/lang/Object;Lio/flutter/plugin/common/MethodChannel$Result;)V
@@ -8042,11 +8484,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private final declared-synchronized generateUniqueRequestCodeAndCacheParameters(Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;)I
@@ -8069,7 +8506,7 @@
     move-result-object v0
 
     .line 8
-    invoke-static {v0}, Lll/r0;->U3(Ljava/lang/Iterable;)Ljava/lang/Comparable;
+    invoke-static {v0}, Lkotlin/collections/z;->U(Ljava/lang/Iterable;)Ljava/lang/Comparable;
 
     .line 9
     .line 10
@@ -8204,8 +8641,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private final getAvailability(Lcom/builttoroam/devicecalendar/models/Availability;)Ljava/lang/Integer;
@@ -8356,8 +8791,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private final getEventStatus(Lcom/builttoroam/devicecalendar/models/EventStatus;)Ljava/lang/Integer;
@@ -8508,8 +8941,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private final getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
@@ -8536,7 +8967,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -8581,7 +9012,7 @@
 
     .line 31
     .line 32
-    invoke-static {v2, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 33
     .line 34
@@ -8593,7 +9024,7 @@
 
     .line 37
     .line 38
-    invoke-static {p1, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 39
     .line 40
@@ -8622,7 +9053,7 @@
 
     .line 52
     :cond_1
-    invoke-static {v1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 53
     .line 54
@@ -8664,8 +9095,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private final insertAttendees(Ljava/util/List;Ljava/lang/Long;Landroid/content/ContentResolver;)V
@@ -8717,7 +9146,7 @@
 
     .line 13
     .line 14
-    invoke-static {p1, v1}, Lll/i0;->d0(Ljava/lang/Iterable;I)I
+    invoke-static {p1, v1}, Lkotlin/collections/s;->v(Ljava/lang/Iterable;I)I
 
     .line 15
     .line 16
@@ -8951,11 +9380,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private final insertReminders(Ljava/util/List;Ljava/lang/Long;Landroid/content/ContentResolver;)V
@@ -9007,7 +9431,7 @@
 
     .line 13
     .line 14
-    invoke-static {p1, v1}, Lll/i0;->d0(Ljava/lang/Iterable;I)I
+    invoke-static {p1, v1}, Lkotlin/collections/s;->v(Ljava/lang/Iterable;I)I
 
     .line 15
     .line 16
@@ -9213,11 +9637,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private final isCalendarReadOnly(I)Z
@@ -9279,7 +9698,7 @@
 
     .line 11
     .line 12
-    invoke-static {v2}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v2}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 13
     .line 14
@@ -9367,7 +9786,7 @@
     move-result-object p1
 
     .line 52
-    invoke-static {v2, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 53
     .line 54
@@ -9391,6 +9810,272 @@
     return-object v1
     .line 64
     .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
+    .line 101
+    .line 102
+    .line 103
+    .line 104
+    .line 105
+    .line 106
+    .line 107
+    .line 108
+    .line 109
+    .line 110
+    .line 111
+    .line 112
+    .line 113
+    .line 114
+    .line 115
+    .line 116
+    .line 117
+    .line 118
+    .line 119
+    .line 120
+    .line 121
+    .line 122
+    .line 123
+    .line 124
+    .line 125
+    .line 126
+    .line 127
+    .line 128
+    .line 129
+    .line 130
+    .line 131
+    .line 132
+    .line 133
+    .line 134
+    .line 135
+    .line 136
+    .line 137
+    .line 138
+    .line 139
+    .line 140
+    .line 141
+    .line 142
+    .line 143
+    .line 144
+    .line 145
+    .line 146
+    .line 147
+    .line 148
+    .line 149
+    .line 150
+    .line 151
+    .line 152
+    .line 153
+    .line 154
+    .line 155
+    .line 156
+    .line 157
+    .line 158
+    .line 159
+    .line 160
+    .line 161
+    .line 162
+    .line 163
+    .line 164
+    .line 165
+    .line 166
+    .line 167
+    .line 168
+    .line 169
+    .line 170
+    .line 171
+    .line 172
+    .line 173
+    .line 174
+    .line 175
+    .line 176
+    .line 177
+    .line 178
+    .line 179
+    .line 180
+    .line 181
+    .line 182
+    .line 183
+    .line 184
+    .line 185
+    .line 186
+    .line 187
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    .line 198
+    .line 199
+    .line 200
+    .line 201
+    .line 202
+    .line 203
+    .line 204
+    .line 205
+    .line 206
+    .line 207
+    .line 208
+    .line 209
+    .line 210
+    .line 211
+    .line 212
+    .line 213
+    .line 214
+    .line 215
+    .line 216
+    .line 217
+    .line 218
+    .line 219
+    .line 220
+    .line 221
+    .line 222
+    .line 223
+    .line 224
+    .line 225
+    .line 226
+    .line 227
+    .line 228
+    .line 229
+    .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
+    .line 237
+    .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
+    .line 294
+    .line 295
+    .line 296
+    .line 297
+    .line 298
+    .line 299
+    .line 300
+    .line 301
+    .line 302
+    .line 303
+    .line 304
+    .line 305
+    .line 306
+    .line 307
+    .line 308
+    .line 309
+    .line 310
+    .line 311
+    .line 312
+    .line 313
+    .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
 .end method
 
 .method private final parseAvailability(I)Lcom/builttoroam/devicecalendar/models/Availability;
@@ -9448,7 +10133,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private final parseCalendarRow(Landroid/database/Cursor;)Lcom/builttoroam/devicecalendar/models/Calendar;
@@ -9555,17 +10239,17 @@
     move-result-object v5
 
     .line 46
-    invoke-static {v6}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v6}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 47
     .line 48
     .line 49
-    invoke-static {v8}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v8}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 50
     .line 51
     .line 52
-    invoke-static {v9}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v9}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 53
     .line 54
@@ -9619,7 +10303,7 @@
 
     .line 79
     .line 80
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 81
     .line 82
@@ -9642,8 +10326,6 @@
     .line 90
     .line 91
     return-object v4
-    .line 92
-    .line 93
 .end method
 
 .method private final parseEvent(Ljava/lang/String;Landroid/database/Cursor;)Lcom/builttoroam/devicecalendar/models/Event;
@@ -10140,54 +10822,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method private final parseEventStatus(I)Lcom/builttoroam/devicecalendar/models/EventStatus;
@@ -10245,7 +10879,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private final parseRecurrenceRuleString(Ljava/lang/String;)Lcom/builttoroam/devicecalendar/models/RecurrenceRule;
@@ -10379,7 +11012,7 @@
 
     .line 53
     .line 54
-    invoke-static {p1}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 55
     .line 56
@@ -10436,7 +11069,7 @@
     .line 82
     .line 83
     .line 84
-    invoke-virtual {v1}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->i()Lnq/a;
+    invoke-virtual {v1}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->i()Ly9/a;
 
     .line 85
     .line 86
@@ -10448,7 +11081,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {v1}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->i()Lnq/a;
+    invoke-virtual {v1}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->i()Ly9/a;
 
     .line 91
     .line 92
@@ -10456,7 +11089,7 @@
     move-result-object p1
 
     .line 94
-    invoke-virtual {p1}, Lnq/a;->m()J
+    invoke-virtual {p1}, Ly9/a;->d()J
 
     .line 95
     .line 96
@@ -10667,7 +11300,7 @@
 
     .line 192
     :cond_d
-    invoke-static {v2}, Lll/r0;->d6(Ljava/util/Collection;)Ljava/util/List;
+    invoke-static {v2}, Lkotlin/collections/z;->h0(Ljava/util/Collection;)Ljava/util/List;
 
     .line 193
     .line 194
@@ -10694,7 +11327,7 @@
 
     .line 204
     .line 205
-    invoke-static {p1, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 206
     .line 207
@@ -10785,12 +11418,12 @@
 
     .line 250
     .line 251
-    invoke-static {v0, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 252
     .line 253
     .line 254
-    invoke-static {v0}, Lll/r0;->G2(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v0}, Lkotlin/collections/z;->K(Ljava/util/List;)Ljava/lang/Object;
 
     .line 255
     .line 256
@@ -10985,6 +11618,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private final parseReminderRow(Landroid/database/Cursor;)Lcom/builttoroam/devicecalendar/models/Reminder;
@@ -11032,7 +11697,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private final requestPermissions(I)V
@@ -11050,7 +11714,7 @@
     .line 8
     iget-object v0, p0, Lcom/builttoroam/devicecalendar/CalendarDelegate;->_binding:Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;
 
-    invoke-static {v0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     invoke-interface {v0}, Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;->getActivity()Landroid/app/Activity;
 
@@ -11287,13 +11951,13 @@
     .line 83
     :cond_3
     :goto_2
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 84
     .line 85
-    invoke-static {v1, p2}, Ldm/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v1, p2}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     .line 86
     .line 87
@@ -11315,7 +11979,7 @@
     move-object p2, v0
 
     .line 92
-    invoke-static {v1, p1}, Ldm/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v1, p1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     .line 93
     .line 94
@@ -11373,11 +12037,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private final retrieveCalendar(Ljava/lang/String;Lio/flutter/plugin/common/MethodChannel$Result;Z)Lcom/builttoroam/devicecalendar/models/Calendar;
@@ -11443,7 +12102,7 @@
     move-object v3, p2
 
     .line 25
-    invoke-direct/range {v2 .. v12}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkm/v;)V
+    invoke-direct/range {v2 .. v12}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkotlin/jvm/internal/f;)V
 
     .line 26
     .line 27
@@ -11459,7 +12118,7 @@
     .line 33
     :cond_1
     :goto_0
-    invoke-static {p1}, Lym/e0;->r1(Ljava/lang/String;)Ljava/lang/Long;
+    invoke-static {p1}, Lkotlin/text/y;->o(Ljava/lang/String;)Ljava/lang/Long;
 
     .line 34
     .line 35
@@ -11528,7 +12187,7 @@
 
     .line 63
     .line 64
-    invoke-static {v2, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 65
     .line 66
@@ -11716,7 +12375,7 @@
     .line 147
     :cond_8
     :try_start_1
-    iget-object v0, p0, Lcom/builttoroam/devicecalendar/CalendarDelegate;->_gson:Lac/d;
+    iget-object v0, p0, Lcom/builttoroam/devicecalendar/CalendarDelegate;->_gson:Lcom/google/gson/c;
 
     .line 148
     .line 149
@@ -11724,7 +12383,7 @@
 
     .line 150
     .line 151
-    invoke-virtual {v0, p1}, Lac/d;->D(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Lcom/google/gson/c;->u(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 152
     .line 153
@@ -12714,50 +13373,6 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method public static synthetic retrieveCalendar$default(Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/lang/String;Lio/flutter/plugin/common/MethodChannel$Result;ZILjava/lang/Object;)Lcom/builttoroam/devicecalendar/models/Calendar;
@@ -13429,9 +14044,517 @@
     .line 652
     .line 653
     .line 654
+    .line 655
+    .line 656
+    .line 657
+    .line 658
+    .line 659
+    .line 660
+    .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
+    .line 721
+    .line 722
+    .line 723
+    .line 724
+    .line 725
+    .line 726
+    .line 727
+    .line 728
+    .line 729
+    .line 730
+    .line 731
+    .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
+    .line 853
+    .line 854
+    .line 855
+    .line 856
+    .line 857
+    .line 858
+    .line 859
+    .line 860
+    .line 861
+    .line 862
+    .line 863
+    .line 864
+    .line 865
+    .line 866
+    .line 867
+    .line 868
+    .line 869
+    .line 870
+    .line 871
+    .line 872
+    .line 873
+    .line 874
+    .line 875
+    .line 876
+    .line 877
+    .line 878
+    .line 879
+    .line 880
+    .line 881
+    .line 882
+    .line 883
+    .line 884
+    .line 885
+    .line 886
+    .line 887
+    .line 888
+    .line 889
+    .line 890
+    .line 891
+    .line 892
+    .line 893
+    .line 894
+    .line 895
+    .line 896
+    .line 897
+    .line 898
+    .line 899
+    .line 900
+    .line 901
+    .line 902
+    .line 903
+    .line 904
+    .line 905
+    .line 906
+    .line 907
+    .line 908
+    .line 909
+    .line 910
+    .line 911
+    .line 912
+    .line 913
+    .line 914
+    .line 915
+    .line 916
+    .line 917
+    .line 918
+    .line 919
+    .line 920
+    .line 921
+    .line 922
+    .line 923
+    .line 924
+    .line 925
+    .line 926
+    .line 927
+    .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
+    .line 1092
+    .line 1093
+    .line 1094
+    .line 1095
+    .line 1096
+    .line 1097
+    .line 1098
+    .line 1099
+    .line 1100
+    .line 1101
+    .line 1102
+    .line 1103
+    .line 1104
+    .line 1105
+    .line 1106
+    .line 1107
+    .line 1108
+    .line 1109
+    .line 1110
+    .line 1111
+    .line 1112
+    .line 1113
+    .line 1114
+    .line 1115
+    .line 1116
+    .line 1117
+    .line 1118
+    .line 1119
+    .line 1120
+    .line 1121
+    .line 1122
+    .line 1123
+    .line 1124
+    .line 1125
+    .line 1126
+    .line 1127
+    .line 1128
+    .line 1129
+    .line 1130
+    .line 1131
+    .line 1132
+    .line 1133
+    .line 1134
+    .line 1135
+    .line 1136
+    .line 1137
+    .line 1138
+    .line 1139
+    .line 1140
+    .line 1141
+    .line 1142
+    .line 1143
+    .line 1144
+    .line 1145
+    .line 1146
+    .line 1147
+    .line 1148
+    .line 1149
+    .line 1150
+    .line 1151
+    .line 1152
+    .line 1153
+    .line 1154
+    .line 1155
+    .line 1156
+    .line 1157
+    .line 1158
+    .line 1159
+    .line 1160
+    .line 1161
+    .line 1162
 .end method
 
-.method private static final retrieveEvents$lambda$2(Landroid/database/Cursor;Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Throwable;)Ljl/e2;
+.method private static final retrieveEvents$lambda$2(Landroid/database/Cursor;Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Throwable;)Lkotlin/j;
     .locals 0
 
     .line 1
@@ -13453,11 +14576,11 @@
 
     .line 9
     .line 10
-    new-instance p4, Lt5/b;
+    new-instance p4, Lcom/builttoroam/devicecalendar/b;
 
     .line 11
     .line 12
-    invoke-direct {p4, p1, p2, p3}, Lt5/b;-><init>(Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Lio/flutter/plugin/common/MethodChannel$Result;)V
+    invoke-direct {p4, p1, p2, p3}, Lcom/builttoroam/devicecalendar/b;-><init>(Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Lio/flutter/plugin/common/MethodChannel$Result;)V
 
     .line 13
     .line 14
@@ -13468,7 +14591,7 @@
     .line 17
     .line 18
     :cond_1
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
 
     .line 19
     .line 20
@@ -14405,7 +15528,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/builttoroam/devicecalendar/CalendarDelegate;->_gson:Lac/d;
+    iget-object v0, p0, Lcom/builttoroam/devicecalendar/CalendarDelegate;->_gson:Lcom/google/gson/c;
 
     .line 2
     .line 3
@@ -14413,7 +15536,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Lac/d;->D(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Lcom/google/gson/c;->u(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 6
     .line 7
@@ -14568,11 +15691,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private final retrieveReminders(Ljava/lang/String;Landroid/content/ContentResolver;)Ljava/util/List;
@@ -14777,13 +15895,13 @@
     .line 83
     :cond_3
     :goto_2
-    sget-object p2, Ljl/e2;->a:Ljl/e2;
+    sget-object p2, Lkotlin/j;->a:Lkotlin/j;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 84
     .line 85
-    invoke-static {v1, p1}, Ldm/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v1, p1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     .line 86
     .line 87
@@ -14805,7 +15923,7 @@
     move-object p2, v0
 
     .line 92
-    invoke-static {v1, p1}, Ldm/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
+    invoke-static {v1, p1}, Lkotlin/io/b;->a(Ljava/io/Closeable;Ljava/lang/Throwable;)V
 
     .line 93
     .line 94
@@ -15047,54 +16165,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method private final updateAttendeeStatus(JLcom/builttoroam/devicecalendar/models/Attendee;Landroid/content/ContentResolver;)V
@@ -15291,33 +16361,12 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
 # virtual methods
 .method public final createCalendar(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 17
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     move-object/from16 v0, p0
@@ -15340,7 +16389,7 @@
 
     .line 10
     .line 11
-    invoke-static {v1, v4}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -15349,7 +16398,7 @@
 
     .line 15
     .line 16
-    invoke-static {v2, v4}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -15358,7 +16407,7 @@
 
     .line 20
     .line 21
-    invoke-static {v3, v4}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -15550,7 +16599,7 @@
     const/4 v14, 0x0
 
     .line 115
-    invoke-static/range {v11 .. v16}, Lym/f0;->z2(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v11 .. v16}, Lkotlin/text/z;->C(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Ljava/lang/String;
 
     .line 116
     .line 117
@@ -15658,7 +16707,7 @@
 
     .line 168
     :cond_3
-    invoke-static {v5}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v5}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 169
     .line 170
@@ -15745,22 +16794,26 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public final createOrUpdateEvent(Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 16
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lcom/builttoroam/devicecalendar/models/Event;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p3    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     move-object/from16 v1, p0
@@ -15783,7 +16836,7 @@
 
     .line 10
     .line 11
-    invoke-static {v3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -15792,7 +16845,7 @@
 
     .line 15
     .line 16
-    invoke-static {v8, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -15924,7 +16977,7 @@
     move-result-object v3
 
     .line 80
-    sget-object v6, Lkotlinx/coroutines/CoroutineExceptionHandler;->m0:Lkotlinx/coroutines/CoroutineExceptionHandler$b;
+    sget-object v6, Lkotlinx/coroutines/CoroutineExceptionHandler;->e0:Lkotlinx/coroutines/CoroutineExceptionHandler$a;
 
     .line 81
     .line 82
@@ -15932,7 +16985,7 @@
 
     .line 83
     .line 84
-    invoke-direct {v7, v6, v1, v8}, Lcom/builttoroam/devicecalendar/CalendarDelegate$createOrUpdateEvent$$inlined$CoroutineExceptionHandler$1;-><init>(Lkotlinx/coroutines/CoroutineExceptionHandler$b;Lcom/builttoroam/devicecalendar/CalendarDelegate;Lio/flutter/plugin/common/MethodChannel$Result;)V
+    invoke-direct {v7, v6, v1, v8}, Lcom/builttoroam/devicecalendar/CalendarDelegate$createOrUpdateEvent$$inlined$CoroutineExceptionHandler$1;-><init>(Lkotlinx/coroutines/CoroutineExceptionHandler$a;Lcom/builttoroam/devicecalendar/CalendarDelegate;Lio/flutter/plugin/common/MethodChannel$Result;)V
 
     .line 85
     .line 86
@@ -15958,7 +17011,7 @@
 
     .line 97
     .line 98
-    invoke-static {v9}, Lym/e0;->r1(Ljava/lang/String;)Ljava/lang/Long;
+    invoke-static {v9}, Lkotlin/text/y;->o(Ljava/lang/String;)Ljava/lang/Long;
 
     .line 99
     .line 100
@@ -16019,7 +17072,7 @@
 
     .line 124
     :cond_5
-    invoke-static {v4}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {v4}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 125
     .line 126
@@ -16044,11 +17097,11 @@
 
     .line 136
     .line 137
-    sget-object v9, Lfn/n1;->a:Lfn/n1;
+    sget-object v9, Lkotlinx/coroutines/l1;->a:Lkotlinx/coroutines/l1;
 
     .line 138
     .line 139
-    invoke-static {}, Lfn/t0;->c()Lfn/f0;
+    invoke-static {}, Lkotlinx/coroutines/v0;->b()Lkotlinx/coroutines/h0;
 
     .line 140
     .line 141
@@ -16056,7 +17109,7 @@
     move-result-object v3
 
     .line 143
-    invoke-virtual {v3, v7}, Lkotlin/coroutines/a;->plus(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+    invoke-virtual {v3, v7}, Lkotlin/coroutines/a;->plus(Lkotlin/coroutines/i;)Lkotlin/coroutines/i;
 
     .line 144
     .line 145
@@ -16080,7 +17133,7 @@
     move-object v0, v12
 
     .line 153
-    invoke-direct/range {v0 .. v5}, Lcom/builttoroam/devicecalendar/CalendarDelegate$createOrUpdateEvent$1;-><init>(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lcom/builttoroam/devicecalendar/models/Event;Lkotlin/jvm/internal/Ref$ObjectRef;Landroid/content/ContentResolver;Lul/c;)V
+    invoke-direct/range {v0 .. v5}, Lcom/builttoroam/devicecalendar/CalendarDelegate$createOrUpdateEvent$1;-><init>(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lcom/builttoroam/devicecalendar/models/Event;Lkotlin/jvm/internal/Ref$ObjectRef;Landroid/content/ContentResolver;Lkotlin/coroutines/e;)V
 
     .line 154
     .line 155
@@ -16097,7 +17150,7 @@
     const/4 v11, 0x0
 
     .line 160
-    invoke-static/range {v9 .. v14}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v9 .. v14}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 161
     .line 162
@@ -16119,11 +17172,11 @@
     move-object v2, v6
 
     .line 169
-    sget-object v9, Lfn/n1;->a:Lfn/n1;
+    sget-object v9, Lkotlinx/coroutines/l1;->a:Lkotlinx/coroutines/l1;
 
     .line 170
     .line 171
-    invoke-static {}, Lfn/t0;->c()Lfn/f0;
+    invoke-static {}, Lkotlinx/coroutines/v0;->b()Lkotlinx/coroutines/h0;
 
     .line 172
     .line 173
@@ -16131,7 +17184,7 @@
     move-result-object v0
 
     .line 175
-    invoke-virtual {v0, v7}, Lkotlin/coroutines/a;->plus(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+    invoke-virtual {v0, v7}, Lkotlin/coroutines/a;->plus(Lkotlin/coroutines/i;)Lkotlin/coroutines/i;
 
     .line 176
     .line 177
@@ -16157,7 +17210,7 @@
     move-object v0, v12
 
     .line 187
-    invoke-direct/range {v0 .. v7}, Lcom/builttoroam/devicecalendar/CalendarDelegate$createOrUpdateEvent$2;-><init>(Landroid/content/ContentResolver;Lkotlin/jvm/internal/Ref$ObjectRef;Landroid/content/ContentValues;Lcom/builttoroam/devicecalendar/CalendarDelegate;Lcom/builttoroam/devicecalendar/models/Calendar;Lcom/builttoroam/devicecalendar/models/Event;Lul/c;)V
+    invoke-direct/range {v0 .. v7}, Lcom/builttoroam/devicecalendar/CalendarDelegate$createOrUpdateEvent$2;-><init>(Landroid/content/ContentResolver;Lkotlin/jvm/internal/Ref$ObjectRef;Landroid/content/ContentValues;Lcom/builttoroam/devicecalendar/CalendarDelegate;Lcom/builttoroam/devicecalendar/models/Calendar;Lcom/builttoroam/devicecalendar/models/Event;Lkotlin/coroutines/e;)V
 
     .line 188
     .line 189
@@ -16174,7 +17227,7 @@
     const/4 v11, 0x0
 
     .line 194
-    invoke-static/range {v9 .. v14}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v9 .. v14}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 195
     .line 196
@@ -16183,16 +17236,16 @@
 
     .line 198
     :goto_3
-    new-instance v1, Lt5/d;
+    new-instance v1, Lcom/builttoroam/devicecalendar/d;
 
     .line 199
     .line 200
-    invoke-direct {v1, v15, v2, v8}, Lt5/d;-><init>(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lkotlin/jvm/internal/Ref$ObjectRef;Lio/flutter/plugin/common/MethodChannel$Result;)V
+    invoke-direct {v1, v15, v2, v8}, Lcom/builttoroam/devicecalendar/d;-><init>(Lcom/builttoroam/devicecalendar/CalendarDelegate;Lkotlin/jvm/internal/Ref$ObjectRef;Lio/flutter/plugin/common/MethodChannel$Result;)V
 
     .line 201
     .line 202
     .line 203
-    invoke-interface {v0, v1}, Lkotlinx/coroutines/l;->F(Ljm/l;)Lfn/w0;
+    invoke-interface {v0, v1}, Lkotlinx/coroutines/s1;->G(Lq8/l;)Lkotlinx/coroutines/x0;
 
     .line 204
     .line 205
@@ -16241,7 +17294,7 @@
 
     .line 222
     .line 223
-    invoke-direct/range {v0 .. v10}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkm/v;)V
+    invoke-direct/range {v0 .. v10}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkotlin/jvm/internal/f;)V
 
     .line 224
     .line 225
@@ -17072,71 +18125,17 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method public final deleteCalendar(Ljava/lang/String;Lio/flutter/plugin/common/MethodChannel$Result;Z)Lcom/builttoroam/devicecalendar/models/Calendar;
     .locals 12
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const-string v0, "calendarId"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -17145,7 +18144,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -17209,7 +18208,7 @@
     move-object v1, p2
 
     .line 35
-    invoke-direct/range {v0 .. v10}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkm/v;)V
+    invoke-direct/range {v0 .. v10}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkotlin/jvm/internal/f;)V
 
     .line 36
     .line 37
@@ -17224,7 +18223,7 @@
     .line 42
     :cond_1
     :goto_0
-    invoke-static {p1}, Lym/e0;->r1(Ljava/lang/String;)Ljava/lang/Long;
+    invoke-static {p1}, Lkotlin/text/y;->o(Ljava/lang/String;)Ljava/lang/Long;
 
     .line 43
     .line 44
@@ -17321,7 +18320,7 @@
 
     .line 86
     .line 87
-    invoke-static {v0, v3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 88
     .line 89
@@ -17441,39 +18440,10 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public final deleteEvent(Ljava/lang/String;Ljava/lang/String;Lio/flutter/plugin/common/MethodChannel$Result;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Boolean;)V
     .locals 20
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Ljava/lang/Long;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p5    # Ljava/lang/Long;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p6    # Ljava/lang/Boolean;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     move-object/from16 v0, p0
@@ -17496,7 +18466,7 @@
 
     .line 10
     .line 11
-    invoke-static {v4, v1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v4, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -17505,7 +18475,7 @@
 
     .line 15
     .line 16
-    invoke-static {v12, v1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v12, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -17514,7 +18484,7 @@
 
     .line 20
     .line 21
-    invoke-static {v2, v1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -17664,7 +18634,7 @@
 
     .line 99
     :cond_1
-    invoke-static {v12}, Lym/e0;->r1(Ljava/lang/String;)Ljava/lang/Long;
+    invoke-static {v12}, Lkotlin/text/y;->o(Ljava/lang/String;)Ljava/lang/Long;
 
     .line 100
     .line 101
@@ -17762,7 +18732,7 @@
     move-result-object v3
 
     .line 144
-    invoke-static {v3, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 145
     .line 146
@@ -17816,7 +18786,7 @@
 
     .line 167
     :cond_6
-    invoke-static/range {p6 .. p6}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static/range {p6 .. p6}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 168
     .line 169
@@ -17856,7 +18826,7 @@
     move-result-object v14
 
     .line 187
-    invoke-static {v14, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v14, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 188
     .line 189
@@ -17882,7 +18852,7 @@
     move-result-object v7
 
     .line 201
-    invoke-static/range {p4 .. p4}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static/range {p4 .. p4}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 202
     .line 203
@@ -17895,7 +18865,7 @@
     move-result-wide v8
 
     .line 208
-    invoke-static/range {p5 .. p5}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static/range {p5 .. p5}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 209
     .line 210
@@ -18070,7 +19040,7 @@
     move-result-object v14
 
     .line 292
-    invoke-static {v14, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v14, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 293
     .line 294
@@ -18096,7 +19066,7 @@
     move-result-object v7
 
     .line 306
-    invoke-static/range {p4 .. p4}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static/range {p4 .. p4}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 307
     .line 308
@@ -18109,7 +19079,7 @@
     move-result-wide v8
 
     .line 313
-    invoke-static/range {p5 .. p5}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static/range {p5 .. p5}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 314
     .line 315
@@ -18338,7 +19308,7 @@
 
     .line 425
     .line 426
-    invoke-virtual {v9, v8}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->u(I)V
+    invoke-virtual {v9, v8}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->m(I)V
 
     .line 427
     .line 428
@@ -18499,7 +19469,7 @@
 
     .line 501
     .line 502
-    new-instance v9, Lnq/a;
+    new-instance v9, Ly9/a;
 
     .line 503
     .line 504
@@ -18511,12 +19481,12 @@
     move-result-wide v10
 
     .line 508
-    invoke-direct {v9, v10, v11}, Lnq/a;-><init>(J)V
+    invoke-direct {v9, v10, v11}, Ly9/a;-><init>(J)V
 
     .line 509
     .line 510
     .line 511
-    invoke-virtual {v1, v9}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->y(Lnq/a;)V
+    invoke-virtual {v1, v9}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->o(Ly9/a;)V
 
     .line 512
     .line 513
@@ -18525,7 +19495,7 @@
 
     .line 515
     :cond_12
-    new-instance v8, Lnq/a;
+    new-instance v8, Ly9/a;
 
     .line 516
     .line 517
@@ -18541,12 +19511,12 @@
 
     .line 522
     .line 523
-    invoke-direct {v8, v9, v10}, Lnq/a;-><init>(J)V
+    invoke-direct {v8, v9, v10}, Ly9/a;-><init>(J)V
 
     .line 524
     .line 525
     .line 526
-    invoke-virtual {v1, v8}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->y(Lnq/a;)V
+    invoke-virtual {v1, v8}, Lorg/dmfs/rfc5545/recur/RecurrenceRule;->o(Ly9/a;)V
 
     .line 527
     .line 528
@@ -18641,7 +19611,7 @@
     const/4 v9, 0x0
 
     .line 570
-    invoke-direct/range {v1 .. v11}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkm/v;)V
+    invoke-direct/range {v1 .. v11}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkotlin/jvm/internal/f;)V
 
     .line 571
     .line 572
@@ -18732,21 +19702,525 @@
     .line 652
     .line 653
     .line 654
+    .line 655
+    .line 656
+    .line 657
+    .line 658
+    .line 659
+    .line 660
+    .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
+    .line 721
+    .line 722
+    .line 723
+    .line 724
+    .line 725
+    .line 726
+    .line 727
+    .line 728
+    .line 729
+    .line 730
+    .line 731
+    .line 732
+    .line 733
+    .line 734
+    .line 735
+    .line 736
+    .line 737
+    .line 738
+    .line 739
+    .line 740
+    .line 741
+    .line 742
+    .line 743
+    .line 744
+    .line 745
+    .line 746
+    .line 747
+    .line 748
+    .line 749
+    .line 750
+    .line 751
+    .line 752
+    .line 753
+    .line 754
+    .line 755
+    .line 756
+    .line 757
+    .line 758
+    .line 759
+    .line 760
+    .line 761
+    .line 762
+    .line 763
+    .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
+    .line 820
+    .line 821
+    .line 822
+    .line 823
+    .line 824
+    .line 825
+    .line 826
+    .line 827
+    .line 828
+    .line 829
+    .line 830
+    .line 831
+    .line 832
+    .line 833
+    .line 834
+    .line 835
+    .line 836
+    .line 837
+    .line 838
+    .line 839
+    .line 840
+    .line 841
+    .line 842
+    .line 843
+    .line 844
+    .line 845
+    .line 846
+    .line 847
+    .line 848
+    .line 849
+    .line 850
+    .line 851
+    .line 852
+    .line 853
+    .line 854
+    .line 855
+    .line 856
+    .line 857
+    .line 858
+    .line 859
+    .line 860
+    .line 861
+    .line 862
+    .line 863
+    .line 864
+    .line 865
+    .line 866
+    .line 867
+    .line 868
+    .line 869
+    .line 870
+    .line 871
+    .line 872
+    .line 873
+    .line 874
+    .line 875
+    .line 876
+    .line 877
+    .line 878
+    .line 879
+    .line 880
+    .line 881
+    .line 882
+    .line 883
+    .line 884
+    .line 885
+    .line 886
+    .line 887
+    .line 888
+    .line 889
+    .line 890
+    .line 891
+    .line 892
+    .line 893
+    .line 894
+    .line 895
+    .line 896
+    .line 897
+    .line 898
+    .line 899
+    .line 900
+    .line 901
+    .line 902
+    .line 903
+    .line 904
+    .line 905
+    .line 906
+    .line 907
+    .line 908
+    .line 909
+    .line 910
+    .line 911
+    .line 912
+    .line 913
+    .line 914
+    .line 915
+    .line 916
+    .line 917
+    .line 918
+    .line 919
+    .line 920
+    .line 921
+    .line 922
+    .line 923
+    .line 924
+    .line 925
+    .line 926
+    .line 927
+    .line 928
+    .line 929
+    .line 930
+    .line 931
+    .line 932
+    .line 933
+    .line 934
+    .line 935
+    .line 936
+    .line 937
+    .line 938
+    .line 939
+    .line 940
+    .line 941
+    .line 942
+    .line 943
+    .line 944
+    .line 945
+    .line 946
+    .line 947
+    .line 948
+    .line 949
+    .line 950
+    .line 951
+    .line 952
+    .line 953
+    .line 954
+    .line 955
+    .line 956
+    .line 957
+    .line 958
+    .line 959
+    .line 960
+    .line 961
+    .line 962
+    .line 963
+    .line 964
+    .line 965
+    .line 966
+    .line 967
+    .line 968
+    .line 969
+    .line 970
+    .line 971
+    .line 972
+    .line 973
+    .line 974
+    .line 975
+    .line 976
+    .line 977
+    .line 978
+    .line 979
+    .line 980
+    .line 981
+    .line 982
+    .line 983
+    .line 984
+    .line 985
+    .line 986
+    .line 987
+    .line 988
+    .line 989
+    .line 990
+    .line 991
+    .line 992
+    .line 993
+    .line 994
+    .line 995
+    .line 996
+    .line 997
+    .line 998
+    .line 999
+    .line 1000
+    .line 1001
+    .line 1002
+    .line 1003
+    .line 1004
+    .line 1005
+    .line 1006
+    .line 1007
+    .line 1008
+    .line 1009
+    .line 1010
+    .line 1011
+    .line 1012
+    .line 1013
+    .line 1014
+    .line 1015
+    .line 1016
+    .line 1017
+    .line 1018
+    .line 1019
+    .line 1020
+    .line 1021
+    .line 1022
+    .line 1023
+    .line 1024
+    .line 1025
+    .line 1026
+    .line 1027
+    .line 1028
+    .line 1029
+    .line 1030
+    .line 1031
+    .line 1032
+    .line 1033
+    .line 1034
+    .line 1035
+    .line 1036
+    .line 1037
+    .line 1038
+    .line 1039
+    .line 1040
+    .line 1041
+    .line 1042
+    .line 1043
+    .line 1044
+    .line 1045
+    .line 1046
+    .line 1047
+    .line 1048
+    .line 1049
+    .line 1050
+    .line 1051
+    .line 1052
+    .line 1053
+    .line 1054
+    .line 1055
+    .line 1056
+    .line 1057
+    .line 1058
+    .line 1059
+    .line 1060
+    .line 1061
+    .line 1062
+    .line 1063
+    .line 1064
+    .line 1065
+    .line 1066
+    .line 1067
+    .line 1068
+    .line 1069
+    .line 1070
+    .line 1071
+    .line 1072
+    .line 1073
+    .line 1074
+    .line 1075
+    .line 1076
+    .line 1077
+    .line 1078
+    .line 1079
+    .line 1080
+    .line 1081
+    .line 1082
+    .line 1083
+    .line 1084
+    .line 1085
+    .line 1086
+    .line 1087
+    .line 1088
+    .line 1089
+    .line 1090
+    .line 1091
+    .line 1092
+    .line 1093
+    .line 1094
+    .line 1095
+    .line 1096
+    .line 1097
+    .line 1098
+    .line 1099
+    .line 1100
+    .line 1101
+    .line 1102
+    .line 1103
+    .line 1104
+    .line 1105
+    .line 1106
+    .line 1107
+    .line 1108
+    .line 1109
+    .line 1110
+    .line 1111
+    .line 1112
+    .line 1113
+    .line 1114
+    .line 1115
+    .line 1116
+    .line 1117
+    .line 1118
+    .line 1119
+    .line 1120
+    .line 1121
+    .line 1122
+    .line 1123
+    .line 1124
+    .line 1125
+    .line 1126
+    .line 1127
+    .line 1128
+    .line 1129
+    .line 1130
+    .line 1131
+    .line 1132
+    .line 1133
+    .line 1134
+    .line 1135
+    .line 1136
+    .line 1137
+    .line 1138
+    .line 1139
+    .line 1140
+    .line 1141
+    .line 1142
+    .line 1143
+    .line 1144
+    .line 1145
+    .line 1146
+    .line 1147
+    .line 1148
+    .line 1149
+    .line 1150
+    .line 1151
+    .line 1152
+    .line 1153
+    .line 1154
+    .line 1155
+    .line 1156
+    .line 1157
+    .line 1158
+    .line 1159
+    .line 1160
+    .line 1161
+    .line 1162
 .end method
 
 .method public final hasPermissions(Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 1
-    .param p1    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "pendingChannelResult"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -18780,26 +20254,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onRequestPermissionsResult(I[Ljava/lang/String;[I)Z
     .locals 12
-    .param p2    # [Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # [I
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v2, "permissions"
 
     .line 2
     .line 3
-    invoke-static {p2, v2}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -18808,7 +20273,7 @@
 
     .line 7
     .line 8
-    invoke-static {p3, v2}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -20147,62 +21612,14 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method public final requestPermissions(Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 12
-    .param p1    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "pendingChannelResult"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-direct {p0}, Lcom/builttoroam/devicecalendar/CalendarDelegate;->arePermissionsGranted()Z
@@ -20242,7 +21659,7 @@
 
     move-object v2, p1
 
-    invoke-direct/range {v1 .. v11}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkm/v;)V
+    invoke-direct/range {v1 .. v11}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkotlin/jvm/internal/f;)V
 
     .line 4
     invoke-direct {p0, v1}, Lcom/builttoroam/devicecalendar/CalendarDelegate;->requestPermissions(Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;)V
@@ -20252,10 +21669,6 @@
 
 .method public final retrieveCalendars(Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 14
-    .param p1    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "MissingPermission"
@@ -20267,7 +21680,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -20322,7 +21735,7 @@
 
     .line 27
     .line 28
-    invoke-static {v3, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -20500,7 +21913,7 @@
 
     .line 104
     :cond_4
-    iget-object v3, p0, Lcom/builttoroam/devicecalendar/CalendarDelegate;->_gson:Lac/d;
+    iget-object v3, p0, Lcom/builttoroam/devicecalendar/CalendarDelegate;->_gson:Lcom/google/gson/c;
 
     .line 105
     .line 106
@@ -20508,7 +21921,7 @@
 
     .line 107
     .line 108
-    invoke-virtual {v3, v0}, Lac/d;->D(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v3, v0}, Lcom/google/gson/c;->u(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 109
     .line 110
@@ -20622,7 +22035,7 @@
     move-object v4, p1
 
     .line 156
-    invoke-direct/range {v3 .. v13}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkm/v;)V
+    invoke-direct/range {v3 .. v13}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkotlin/jvm/internal/f;)V
 
     .line 157
     .line 158
@@ -20879,30 +22292,42 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public final retrieveEvents(Ljava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 21
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Long;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/Long;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p4    # Ljava/util/List;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -20938,7 +22363,7 @@
 
     .line 10
     .line 11
-    invoke-static {v3, v1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -20947,7 +22372,7 @@
 
     .line 15
     .line 16
-    invoke-static {v0, v1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -20956,7 +22381,7 @@
 
     .line 20
     .line 21
-    invoke-static {v8, v1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v8, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -21302,7 +22727,7 @@
 
     .line 192
     .line 193
-    invoke-static/range {v12 .. v20}, Lll/r0;->r3(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Ljm/l;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v12 .. v20}, Lkotlin/collections/z;->R(Ljava/lang/Iterable;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lq8/l;ILjava/lang/Object;)Ljava/lang/String;
 
     .line 194
     .line 195
@@ -21480,7 +22905,7 @@
     .line 283
     .line 284
     .line 285
-    sget-object v0, Lkotlinx/coroutines/CoroutineExceptionHandler;->m0:Lkotlinx/coroutines/CoroutineExceptionHandler$b;
+    sget-object v0, Lkotlinx/coroutines/CoroutineExceptionHandler;->e0:Lkotlinx/coroutines/CoroutineExceptionHandler$a;
 
     .line 286
     .line 287
@@ -21488,16 +22913,16 @@
 
     .line 288
     .line 289
-    invoke-direct {v7, v0, v2, v8}, Lcom/builttoroam/devicecalendar/CalendarDelegate$retrieveEvents$$inlined$CoroutineExceptionHandler$1;-><init>(Lkotlinx/coroutines/CoroutineExceptionHandler$b;Lcom/builttoroam/devicecalendar/CalendarDelegate;Lio/flutter/plugin/common/MethodChannel$Result;)V
+    invoke-direct {v7, v0, v2, v8}, Lcom/builttoroam/devicecalendar/CalendarDelegate$retrieveEvents$$inlined$CoroutineExceptionHandler$1;-><init>(Lkotlinx/coroutines/CoroutineExceptionHandler$a;Lcom/builttoroam/devicecalendar/CalendarDelegate;Lio/flutter/plugin/common/MethodChannel$Result;)V
 
     .line 290
     .line 291
     .line 292
-    sget-object v9, Lfn/n1;->a:Lfn/n1;
+    sget-object v9, Lkotlinx/coroutines/l1;->a:Lkotlinx/coroutines/l1;
 
     .line 293
     .line 294
-    invoke-static {}, Lfn/t0;->c()Lfn/f0;
+    invoke-static {}, Lkotlinx/coroutines/v0;->b()Lkotlinx/coroutines/h0;
 
     .line 295
     .line 296
@@ -21505,7 +22930,7 @@
     move-result-object v0
 
     .line 298
-    invoke-virtual {v0, v7}, Lkotlin/coroutines/a;->plus(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+    invoke-virtual {v0, v7}, Lkotlin/coroutines/a;->plus(Lkotlin/coroutines/i;)Lkotlin/coroutines/i;
 
     .line 299
     .line 300
@@ -21523,7 +22948,7 @@
     move-object v0, v12
 
     .line 306
-    invoke-direct/range {v0 .. v7}, Lcom/builttoroam/devicecalendar/CalendarDelegate$retrieveEvents$1;-><init>(Landroid/database/Cursor;Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/lang/String;Ljava/util/List;Lcom/builttoroam/devicecalendar/models/Calendar;Landroid/content/ContentResolver;Lul/c;)V
+    invoke-direct/range {v0 .. v7}, Lcom/builttoroam/devicecalendar/CalendarDelegate$retrieveEvents$1;-><init>(Landroid/database/Cursor;Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/lang/String;Ljava/util/List;Lcom/builttoroam/devicecalendar/models/Calendar;Landroid/content/ContentResolver;Lkotlin/coroutines/e;)V
 
     .line 307
     .line 308
@@ -21540,7 +22965,7 @@
     const/4 v11, 0x0
 
     .line 313
-    invoke-static/range {v9 .. v14}, Lfn/g;->e(Lfn/i0;Lkotlin/coroutines/d;Lkotlinx/coroutines/CoroutineStart;Ljm/p;ILjava/lang/Object;)Lkotlinx/coroutines/l;
+    invoke-static/range {v9 .. v14}, Lkotlinx/coroutines/g;->b(Lkotlinx/coroutines/l0;Lkotlin/coroutines/i;Lkotlinx/coroutines/CoroutineStart;Lq8/p;ILjava/lang/Object;)Lkotlinx/coroutines/s1;
 
     .line 314
     .line 315
@@ -21548,16 +22973,16 @@
     move-result-object v0
 
     .line 317
-    new-instance v2, Lt5/a;
+    new-instance v2, Lcom/builttoroam/devicecalendar/a;
 
     .line 318
     .line 319
-    invoke-direct {v2, v1, v15, v4, v8}, Lt5/a;-><init>(Landroid/database/Cursor;Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Lio/flutter/plugin/common/MethodChannel$Result;)V
+    invoke-direct {v2, v1, v15, v4, v8}, Lcom/builttoroam/devicecalendar/a;-><init>(Landroid/database/Cursor;Lcom/builttoroam/devicecalendar/CalendarDelegate;Ljava/util/List;Lio/flutter/plugin/common/MethodChannel$Result;)V
 
     .line 320
     .line 321
     .line 322
-    invoke-interface {v0, v2}, Lkotlinx/coroutines/l;->F(Ljm/l;)Lfn/w0;
+    invoke-interface {v0, v2}, Lkotlinx/coroutines/s1;->G(Lq8/l;)Lkotlinx/coroutines/x0;
 
     .line 323
     .line 324
@@ -21609,7 +23034,7 @@
 
     .line 344
     .line 345
-    invoke-direct/range {v0 .. v10}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkm/v;)V
+    invoke-direct/range {v0 .. v10}, Lcom/builttoroam/devicecalendar/models/CalendarMethodsParametersCacheModel;-><init>(Lio/flutter/plugin/common/MethodChannel$Result;ILjava/lang/String;Ljava/lang/Long;Ljava/lang/Long;Ljava/util/List;Ljava/lang/String;Lcom/builttoroam/devicecalendar/models/Event;ILkotlin/jvm/internal/f;)V
 
     .line 346
     .line 347

@@ -66,6 +66,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -100,6 +101,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIControllerCallback()Landroid/support/v4/media/session/IMediaControllerCallback;
@@ -133,6 +135,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onAudioInfoChanged(Landroid/support/v4/media/session/MediaControllerCompat$PlaybackInfo;)V
@@ -345,6 +348,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public setHandler(Landroid/os/Handler;)V
@@ -463,4 +469,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

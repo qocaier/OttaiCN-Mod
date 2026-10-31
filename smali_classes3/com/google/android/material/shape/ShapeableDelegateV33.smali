@@ -46,7 +46,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private initMaskOutlineProvider(Landroid/view/View;)V
@@ -85,7 +84,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -143,7 +141,6 @@
     .line 23
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public shouldUseCompatClipping()Z
@@ -174,5 +171,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

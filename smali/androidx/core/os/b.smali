@@ -1,28 +1,14 @@
-.class public final synthetic Landroidx/core/os/b;
+.class public abstract synthetic Landroidx/core/os/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/util/concurrent/Executor;
-
 
 # direct methods
-.method public synthetic constructor <init>()V
+.method public static bridge synthetic a(Ljava/lang/Object;)Landroid/os/OutcomeReceiver;
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    check-cast p0, Landroid/os/OutcomeReceiver;
 
-    return-void
-.end method
-
-
-# virtual methods
-.method public final execute(Ljava/lang/Runnable;)V
-    .locals 0
-
-    .line 1
-    invoke-static {p1}, Landroidx/core/os/Profiling$registerForAllProfilingResults$1;->f(Ljava/lang/Runnable;)V
-
-    return-void
+    return-object p0
 .end method

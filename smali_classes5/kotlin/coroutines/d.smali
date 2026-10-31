@@ -1,83 +1,34 @@
-.class public interface abstract Lkotlin/coroutines/d;
+.class public final synthetic Lkotlin/coroutines/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lq8/p;
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lkotlin/coroutines/d$a;,
-        Lkotlin/coroutines/d$b;,
-        Lkotlin/coroutines/d$c;
-    }
-.end annotation
 
-.annotation build Ljl/x0;
-    version = "1.3"
-.end annotation
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
 
 
 # virtual methods
-.method public abstract fold(Ljava/lang/Object;Ljm/p;)Ljava/lang/Object;
-    .param p2    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<R:",
-            "Ljava/lang/Object;",
-            ">(TR;",
-            "Ljm/p<",
-            "-TR;-",
-            "Lkotlin/coroutines/d$b;",
-            "+TR;>;)TR;"
-        }
-    .end annotation
-.end method
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
 
-.method public abstract get(Lkotlin/coroutines/d$c;)Lkotlin/coroutines/d$b;
-    .param p1    # Lkotlin/coroutines/d$c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<E::",
-            "Lkotlin/coroutines/d$b;",
-            ">(",
-            "Lkotlin/coroutines/d$c<",
-            "TE;>;)TE;"
-        }
-    .end annotation
+    .line 1
+    check-cast p1, Ljava/lang/String;
 
-    .annotation build Lsq/l;
-    .end annotation
-.end method
+    check-cast p2, Lkotlin/coroutines/i$b;
 
-.method public abstract minusKey(Lkotlin/coroutines/d$c;)Lkotlin/coroutines/d;
-    .param p1    # Lkotlin/coroutines/d$c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lkotlin/coroutines/d$c<",
-            "*>;)",
-            "Lkotlin/coroutines/d;"
-        }
-    .end annotation
+    invoke-static {p1, p2}, Lkotlin/coroutines/CombinedContext;->c(Ljava/lang/String;Lkotlin/coroutines/i$b;)Ljava/lang/String;
 
-    .annotation build Lsq/k;
-    .end annotation
-.end method
+    move-result-object p1
 
-.method public abstract plus(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
-    .param p1    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
+    return-object p1
 .end method

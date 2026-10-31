@@ -271,6 +271,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static fromTag(Ljava/util/List;)Lorg/json/JSONArray;
@@ -452,6 +454,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -997,6 +1001,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public getActionText()Ljava/lang/String;
@@ -1025,6 +1059,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getActionTextColor()I
@@ -1053,6 +1089,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getActionTextSize()F
@@ -1081,6 +1119,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getActivity()Ljava/lang/String;
@@ -1109,6 +1149,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getActivityHref()Ljava/lang/String;
@@ -1137,6 +1179,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAgentId()Ljava/lang/String;
@@ -1165,6 +1209,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAuto()I
@@ -1193,6 +1239,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCardType()I
@@ -1221,6 +1269,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCustomLabel()Lcom/qiyukf/unicorn/api/msg/attachment/ProductAttachment$CustomLabel;
@@ -1249,6 +1299,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getDesc()Ljava/lang/String;
@@ -1277,6 +1329,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExt()Ljava/lang/String;
@@ -1305,6 +1359,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGoodsCId()Ljava/lang/String;
@@ -1333,6 +1389,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGoodsCName()Ljava/lang/String;
@@ -1361,6 +1419,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGoodsId()Ljava/lang/String;
@@ -1389,6 +1449,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getHandlerTag()Ljava/lang/String;
@@ -1417,6 +1479,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getInfo()Ljava/lang/String;
@@ -1445,6 +1509,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getIntent()Ljava/lang/String;
@@ -1473,6 +1539,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNote()Ljava/lang/String;
@@ -1501,6 +1569,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOptionId()Ljava/lang/String;
@@ -1529,6 +1599,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderCount()Ljava/lang/String;
@@ -1557,6 +1629,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderID()Ljava/lang/String;
@@ -1585,6 +1659,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderSku()Ljava/lang/String;
@@ -1613,6 +1689,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderStageType()I
@@ -1641,6 +1719,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderStatus()Ljava/lang/String;
@@ -1669,6 +1749,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOrderTime()Ljava/lang/String;
@@ -1697,6 +1779,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getParams()Ljava/lang/String;
@@ -1725,6 +1809,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPayMoney()Ljava/lang/String;
@@ -1753,6 +1839,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPicture()Ljava/lang/String;
@@ -1781,6 +1869,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPrice()Ljava/lang/String;
@@ -1809,6 +1899,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getProductCustomField()Ljava/lang/String;
@@ -1837,6 +1929,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getProductReslectOnclickListener()Lcom/qiyukf/unicorn/api/msg/ProductReslectOnclickListener;
@@ -1865,6 +1959,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getReselectText()Ljava/lang/String;
@@ -1893,6 +1989,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSendByUser()I
@@ -1921,6 +2019,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getShow()I
@@ -1949,6 +2049,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTags()Lorg/json/JSONArray;
@@ -1977,6 +2079,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTemplate()Ljava/lang/String;
@@ -2005,6 +2109,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -2033,6 +2139,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUrl()Ljava/lang/String;
@@ -2061,6 +2169,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isOpenCustomProduct()Z
@@ -2089,6 +2199,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isOpenReselect()Z
@@ -2117,6 +2229,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setActionText(Ljava/lang/String;)V
@@ -2150,6 +2264,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setActionTextColor(I)V
@@ -2183,6 +2299,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setActionTextSize(F)V
@@ -2216,6 +2334,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setActivity(Ljava/lang/String;)V
@@ -2249,6 +2369,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setActivityHref(Ljava/lang/String;)V
@@ -2282,6 +2404,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setAgentId(Ljava/lang/String;)V
@@ -2315,6 +2439,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setAuto(I)V
@@ -2348,6 +2474,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCardType(I)V
@@ -2381,6 +2509,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCustomLabel(Lcom/qiyukf/unicorn/api/msg/attachment/ProductAttachment$CustomLabel;)V
@@ -2414,6 +2544,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCustomLabelOrderId(Ljava/lang/String;)V
@@ -2460,6 +2592,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCustomLabelOrderTime(Ljava/lang/String;)V
@@ -2506,6 +2640,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setDesc(Ljava/lang/String;)V
@@ -2539,6 +2675,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setExt(Ljava/lang/String;)V
@@ -2572,6 +2710,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setGoodsCId(Ljava/lang/String;)V
@@ -2605,6 +2745,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setGoodsCName(Ljava/lang/String;)V
@@ -2638,6 +2780,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setGoodsId(Ljava/lang/String;)V
@@ -2671,6 +2815,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setHandlerTag(Ljava/lang/String;)V
@@ -2704,6 +2850,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setInfo(Ljava/lang/String;)V
@@ -2737,6 +2885,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setIntent(Ljava/lang/String;)V
@@ -2770,6 +2920,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNote(Ljava/lang/String;)V
@@ -2803,6 +2955,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOpenCustomProduct(Z)V
@@ -2836,6 +2990,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOpenReselect(Z)V
@@ -2869,6 +3025,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOptionId(Ljava/lang/String;)V
@@ -2902,6 +3060,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderCount(Ljava/lang/String;)V
@@ -2935,6 +3095,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderID(Ljava/lang/String;)V
@@ -2968,6 +3130,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderSku(Ljava/lang/String;)V
@@ -3001,6 +3165,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderStageType(I)V
@@ -3034,6 +3200,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderStatus(Ljava/lang/String;)V
@@ -3067,6 +3235,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderTime(Ljava/lang/String;)V
@@ -3100,6 +3270,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setParams(Ljava/lang/String;)V
@@ -3133,6 +3305,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPayMoney(Ljava/lang/String;)V
@@ -3166,6 +3340,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPicture(Ljava/lang/String;)V
@@ -3199,6 +3375,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPrice(Ljava/lang/String;)V
@@ -3232,6 +3410,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setProductCustomField(Ljava/lang/String;)V
@@ -3265,6 +3445,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setProductReslectOnclickListener(Lcom/qiyukf/unicorn/api/msg/ProductReslectOnclickListener;)V
@@ -3298,6 +3480,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setReselectText(Ljava/lang/String;)V
@@ -3331,6 +3515,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSendByUser(I)V
@@ -3364,6 +3550,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setShow(I)V
@@ -3397,6 +3585,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTags(Lorg/json/JSONArray;)V
@@ -3430,6 +3620,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTemplate(Ljava/lang/String;)V
@@ -3463,6 +3655,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTitle(Ljava/lang/String;)V
@@ -3496,6 +3690,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUrl(Ljava/lang/String;)V
@@ -3529,4 +3725,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

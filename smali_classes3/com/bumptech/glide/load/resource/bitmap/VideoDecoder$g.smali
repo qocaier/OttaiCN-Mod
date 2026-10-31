@@ -16,15 +16,6 @@
     name = "g"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lcom/bumptech/glide/load/resource/bitmap/VideoDecoder$e<",
-        "Landroid/os/ParcelFileDescriptor;",
-        ">;"
-    }
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -55,18 +46,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public bridge synthetic a(Landroid/media/MediaExtractor;Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     check-cast p2, Landroid/os/ParcelFileDescriptor;
@@ -133,11 +118,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public bridge synthetic b(Landroid/media/MediaMetadataRetriever;Ljava/lang/Object;)V
@@ -208,20 +188,10 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public c(Landroid/media/MediaExtractor;Landroid/os/ParcelFileDescriptor;)V
     .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p2}, Landroid/os/ParcelFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;
@@ -290,11 +260,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public d(Landroid/media/MediaMetadataRetriever;Landroid/os/ParcelFileDescriptor;)V
@@ -367,9 +332,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

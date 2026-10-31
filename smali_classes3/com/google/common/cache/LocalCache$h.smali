@@ -16,17 +16,6 @@
     name = "h"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljava/util/Iterator<",
-        "TT;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public a:I
@@ -34,65 +23,14 @@
 .field public b:I
 
 .field public c:Lcom/google/common/cache/LocalCache$Segment;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/common/cache/LocalCache$Segment<",
-            "TK;TV;>;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
-.end field
 
 .field public d:Ljava/util/concurrent/atomic/AtomicReferenceArray;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/concurrent/atomic/AtomicReferenceArray<",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;>;"
-        }
-    .end annotation
 
-    .annotation runtime Lgl/a;
-    .end annotation
-.end field
-
-.field public e:Lcom/google/common/cache/d;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
-.end field
+.field public e:Lcom/google/common/cache/k;
 
 .field public f:Lcom/google/common/cache/LocalCache$d0;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/common/cache/LocalCache<",
-            "TK;TV;>.d0;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
-.end field
 
 .field public g:Lcom/google/common/cache/LocalCache$d0;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/common/cache/LocalCache<",
-            "TK;TV;>.d0;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
-.end field
 
 .field public final synthetic h:Lcom/google/common/cache/LocalCache;
 
@@ -100,14 +38,6 @@
 # direct methods
 .method public constructor <init>(Lcom/google/common/cache/LocalCache;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$h;->h:Lcom/google/common/cache/LocalCache;
@@ -152,7 +82,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -325,35 +254,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
-.method public b(Lcom/google/common/cache/d;)Z
+.method public b(Lcom/google/common/cache/k;)Z
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "entry"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)Z"
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -361,11 +265,11 @@
 
     .line 2
     .line 3
-    iget-object v0, v0, Lcom/google/common/cache/LocalCache;->p:Lgb/e0;
+    iget-object v0, v0, Lcom/google/common/cache/LocalCache;->p:Lcom/google/common/base/t;
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Lgb/e0;->a()J
+    invoke-virtual {v0}, Lcom/google/common/base/t;->a()J
 
     .line 6
     .line 7
@@ -373,7 +277,7 @@
     move-result-wide v0
 
     .line 9
-    invoke-interface {p1}, Lcom/google/common/cache/d;->getKey()Ljava/lang/Object;
+    invoke-interface {p1}, Lcom/google/common/cache/k;->getKey()Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -385,7 +289,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v3, p1, v0, v1}, Lcom/google/common/cache/LocalCache;->u(Lcom/google/common/cache/d;J)Ljava/lang/Object;
+    invoke-virtual {v3, p1, v0, v1}, Lcom/google/common/cache/LocalCache;->n(Lcom/google/common/cache/k;J)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -505,19 +409,10 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public c()Lcom/google/common/cache/LocalCache$d0;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/LocalCache<",
-            "TK;TV;>.d0;"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->f:Lcom/google/common/cache/LocalCache$d0;
@@ -559,14 +454,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public d()Z
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->e:Lcom/google/common/cache/d;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->e:Lcom/google/common/cache/k;
 
     .line 2
     .line 3
@@ -575,7 +469,7 @@
     .line 4
     .line 5
     :goto_0
-    invoke-interface {v0}, Lcom/google/common/cache/d;->getNext()Lcom/google/common/cache/d;
+    invoke-interface {v0}, Lcom/google/common/cache/k;->getNext()Lcom/google/common/cache/k;
 
     .line 6
     .line 7
@@ -583,11 +477,11 @@
     move-result-object v0
 
     .line 9
-    iput-object v0, p0, Lcom/google/common/cache/LocalCache$h;->e:Lcom/google/common/cache/d;
+    iput-object v0, p0, Lcom/google/common/cache/LocalCache$h;->e:Lcom/google/common/cache/k;
 
     .line 10
     .line 11
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->e:Lcom/google/common/cache/d;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->e:Lcom/google/common/cache/k;
 
     .line 12
     .line 13
@@ -595,7 +489,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache$h;->b(Lcom/google/common/cache/d;)Z
+    invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache$h;->b(Lcom/google/common/cache/k;)Z
 
     .line 16
     .line 17
@@ -614,7 +508,7 @@
 
     .line 23
     :cond_0
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->e:Lcom/google/common/cache/d;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$h;->e:Lcom/google/common/cache/k;
 
     .line 24
     .line 25
@@ -699,15 +593,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public e()Z
@@ -743,11 +628,11 @@
     move-result-object v0
 
     .line 15
-    check-cast v0, Lcom/google/common/cache/d;
+    check-cast v0, Lcom/google/common/cache/k;
 
     .line 16
     .line 17
-    iput-object v0, p0, Lcom/google/common/cache/LocalCache$h;->e:Lcom/google/common/cache/d;
+    iput-object v0, p0, Lcom/google/common/cache/LocalCache$h;->e:Lcom/google/common/cache/k;
 
     .line 18
     .line 19
@@ -755,7 +640,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache$h;->b(Lcom/google/common/cache/d;)Z
+    invoke-virtual {p0, v0}, Lcom/google/common/cache/LocalCache$h;->b(Lcom/google/common/cache/k;)Z
 
     .line 22
     .line 23
@@ -855,15 +740,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public hasNext()Z
@@ -903,15 +779,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
-.end method
-
-.method public abstract next()Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TT;"
-        }
-    .end annotation
 .end method
 
 .method public remove()V
@@ -937,7 +804,7 @@
 
     .line 8
     :goto_0
-    invoke-static {v0}, Lgb/w;->g0(Z)V
+    invoke-static {v0}, Lcom/google/common/base/o;->u(Z)V
 
     .line 9
     .line 10
@@ -1046,13 +913,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

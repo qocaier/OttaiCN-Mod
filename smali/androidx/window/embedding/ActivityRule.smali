@@ -22,23 +22,12 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Ljava/util/Set;Z)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -51,7 +40,7 @@
 
     const-string v0, "filters"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0, p1}, Landroidx/window/embedding/EmbeddingRule;-><init>(Ljava/lang/String;)V
@@ -65,7 +54,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Ljava/lang/String;Ljava/util/Set;ZILkm/v;)V
+.method public synthetic constructor <init>(Ljava/lang/String;Ljava/util/Set;ZILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p4, p4, 0x4
@@ -85,10 +74,6 @@
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     const/4 v0, 0x1
@@ -145,7 +130,7 @@
 
     .line 23
     .line 24
-    invoke-static {v1, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 25
     .line 26
@@ -218,6 +203,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getAlwaysExpand()Z
@@ -246,6 +232,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getFilters()Ljava/util/Set;
@@ -257,9 +244,6 @@
             "Landroidx/window/embedding/ActivityFilter;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -285,6 +269,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -399,23 +384,19 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final plus$window_release(Landroidx/window/embedding/ActivityFilter;)Landroidx/window/embedding/ActivityRule;
     .locals 3
-    .param p1    # Landroidx/window/embedding/ActivityFilter;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "filter"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -436,7 +417,7 @@
 
     .line 13
     .line 14
-    invoke-static {v2, p1}, Lll/v1;->D(Ljava/util/Set;Ljava/lang/Object;)Ljava/util/Set;
+    invoke-static {v2, p1}, Lkotlin/collections/k0;->h(Ljava/util/Set;Ljava/lang/Object;)Ljava/util/Set;
 
     .line 15
     .line 16
@@ -460,8 +441,6 @@
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -586,4 +565,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

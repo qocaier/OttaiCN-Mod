@@ -25,24 +25,12 @@
 
 # static fields
 .field public static final Companion:Landroidx/window/area/WindowAreaInfo$Type$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final TYPE_REAR_FACING:Landroidx/window/area/WindowAreaInfo$Type;
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field private final description:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -57,7 +45,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/window/area/WindowAreaInfo$Type$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/window/area/WindowAreaInfo$Type$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -86,6 +74,7 @@
     return-void
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>(Ljava/lang/String;)V
@@ -127,8 +116,6 @@
 # virtual methods
 .method public toString()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/area/WindowAreaInfo$Type;->description:Ljava/lang/String;
@@ -153,4 +140,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

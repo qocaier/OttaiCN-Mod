@@ -113,6 +113,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAppID()Ljava/lang/String;
@@ -141,6 +143,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPackageName()Ljava/lang/String;
@@ -169,6 +173,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSdkVersion()I
@@ -197,6 +203,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()Ljava/lang/String;
@@ -225,6 +233,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setApiLevel(I)V
@@ -258,6 +268,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setApiNameList(Ljava/util/List;)V
@@ -299,6 +311,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setAppID(Ljava/lang/String;)V
@@ -332,6 +346,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPackageName(Ljava/lang/String;)V
@@ -365,6 +381,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSdkVersion(I)V
@@ -398,6 +416,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionId(Ljava/lang/String;)V
@@ -431,4 +451,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

@@ -261,6 +261,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private syncViewIfAccessibilityEnabled(Landroid/view/View;)V
@@ -386,6 +387,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 

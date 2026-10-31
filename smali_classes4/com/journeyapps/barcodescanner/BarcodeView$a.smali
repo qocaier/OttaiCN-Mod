@@ -55,6 +55,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -82,7 +84,7 @@
 
     .line 9
     .line 10
-    check-cast p1, Lpf/c;
+    check-cast p1, Lcom/journeyapps/barcodescanner/b;
 
     .line 11
     .line 12
@@ -94,7 +96,7 @@
 
     .line 15
     .line 16
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->G(Lcom/journeyapps/barcodescanner/BarcodeView;)Lpf/a;
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->E(Lcom/journeyapps/barcodescanner/BarcodeView;)Lcom/journeyapps/barcodescanner/a;
 
     .line 17
     .line 18
@@ -110,7 +112,7 @@
 
     .line 23
     .line 24
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->H(Lcom/journeyapps/barcodescanner/BarcodeView;)Lcom/journeyapps/barcodescanner/BarcodeView$DecodeMode;
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->F(Lcom/journeyapps/barcodescanner/BarcodeView;)Lcom/journeyapps/barcodescanner/BarcodeView$DecodeMode;
 
     .line 25
     .line 26
@@ -130,7 +132,7 @@
 
     .line 33
     .line 34
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->G(Lcom/journeyapps/barcodescanner/BarcodeView;)Lpf/a;
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->E(Lcom/journeyapps/barcodescanner/BarcodeView;)Lcom/journeyapps/barcodescanner/a;
 
     .line 35
     .line 36
@@ -138,7 +140,7 @@
     move-result-object v0
 
     .line 38
-    invoke-interface {v0, p1}, Lpf/a;->b(Lpf/c;)V
+    invoke-interface {v0, p1}, Lcom/journeyapps/barcodescanner/a;->b(Lcom/journeyapps/barcodescanner/b;)V
 
     .line 39
     .line 40
@@ -147,7 +149,7 @@
 
     .line 42
     .line 43
-    invoke-static {p1}, Lcom/journeyapps/barcodescanner/BarcodeView;->H(Lcom/journeyapps/barcodescanner/BarcodeView;)Lcom/journeyapps/barcodescanner/BarcodeView$DecodeMode;
+    invoke-static {p1}, Lcom/journeyapps/barcodescanner/BarcodeView;->F(Lcom/journeyapps/barcodescanner/BarcodeView;)Lcom/journeyapps/barcodescanner/BarcodeView$DecodeMode;
 
     .line 44
     .line 45
@@ -167,7 +169,7 @@
 
     .line 52
     .line 53
-    invoke-virtual {p1}, Lcom/journeyapps/barcodescanner/BarcodeView;->P()V
+    invoke-virtual {p1}, Lcom/journeyapps/barcodescanner/BarcodeView;->N()V
 
     .line 54
     .line 55
@@ -209,7 +211,7 @@
 
     .line 71
     .line 72
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->G(Lcom/journeyapps/barcodescanner/BarcodeView;)Lpf/a;
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->E(Lcom/journeyapps/barcodescanner/BarcodeView;)Lcom/journeyapps/barcodescanner/a;
 
     .line 73
     .line 74
@@ -225,7 +227,7 @@
 
     .line 79
     .line 80
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->H(Lcom/journeyapps/barcodescanner/BarcodeView;)Lcom/journeyapps/barcodescanner/BarcodeView$DecodeMode;
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->F(Lcom/journeyapps/barcodescanner/BarcodeView;)Lcom/journeyapps/barcodescanner/BarcodeView$DecodeMode;
 
     .line 81
     .line 82
@@ -245,7 +247,7 @@
 
     .line 89
     .line 90
-    invoke-static {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->G(Lcom/journeyapps/barcodescanner/BarcodeView;)Lpf/a;
+    invoke-static {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->E(Lcom/journeyapps/barcodescanner/BarcodeView;)Lcom/journeyapps/barcodescanner/a;
 
     .line 91
     .line 92
@@ -253,7 +255,7 @@
     move-result-object v0
 
     .line 94
-    invoke-interface {v0, p1}, Lpf/a;->a(Ljava/util/List;)V
+    invoke-interface {v0, p1}, Lcom/journeyapps/barcodescanner/a;->a(Ljava/util/List;)V
 
     .line 95
     .line 96
@@ -452,25 +454,4 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method

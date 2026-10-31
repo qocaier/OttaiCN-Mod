@@ -230,7 +230,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDistance()I
@@ -261,7 +260,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDuration()I
@@ -292,7 +290,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLegLinked()Lcom/baidu/mapapi/search/core/a;
@@ -323,7 +320,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStarting()Lcom/baidu/mapapi/search/core/RouteNode;
@@ -354,7 +350,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTerminal()Lcom/baidu/mapapi/search/core/RouteNode;
@@ -385,7 +380,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -416,7 +410,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getType()Lcom/baidu/mapapi/search/core/RouteLine$TYPE;
@@ -447,7 +440,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setDistance(I)V
@@ -480,7 +472,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDuration(I)V
@@ -513,7 +504,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLegLinked(Lcom/baidu/mapapi/search/core/a;)V
@@ -546,7 +536,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStarting(Lcom/baidu/mapapi/search/core/RouteNode;)V
@@ -579,7 +568,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSteps(Ljava/util/List;)V
@@ -619,7 +607,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTerminal(Lcom/baidu/mapapi/search/core/RouteNode;)V
@@ -652,7 +639,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTitle(Ljava/lang/String;)V
@@ -685,7 +671,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setType(Lcom/baidu/mapapi/search/core/RouteLine$TYPE;)V
@@ -718,7 +703,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -832,9 +816,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

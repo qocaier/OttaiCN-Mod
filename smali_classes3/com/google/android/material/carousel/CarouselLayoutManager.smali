@@ -218,7 +218,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/carousel/CarouselLayoutManager;)I
@@ -253,7 +252,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$200(Lcom/google/android/material/carousel/CarouselLayoutManager;)I
@@ -288,7 +286,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$300(Lcom/google/android/material/carousel/CarouselLayoutManager;)I
@@ -323,7 +320,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$400(Lcom/google/android/material/carousel/CarouselLayoutManager;)I
@@ -358,7 +354,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private addAndLayoutView(Landroid/view/View;ILcom/google/android/material/carousel/CarouselLayoutManager$ChildCalculations;)V
@@ -544,11 +539,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private addEnd(II)I
@@ -628,11 +618,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private addStart(II)I
@@ -712,11 +697,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private addViewsEnd(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;I)V
@@ -938,11 +918,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private addViewsStart(Landroidx/recyclerview/widget/RecyclerView$Recycler;I)V
@@ -1073,11 +1048,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private calculateChildOffsetCenterForLocation(Landroid/view/View;FLcom/google/android/material/carousel/CarouselLayoutManager$KeylineRange;)F
@@ -1312,11 +1282,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private calculateChildStartForFill(I)I
@@ -1375,7 +1340,6 @@
     .line 23
     return p1
     .line 24
-    .line 25
 .end method
 
 .method private calculateEndScroll(Landroidx/recyclerview/widget/RecyclerView$State;Lcom/google/android/material/carousel/KeylineStateList;)I
@@ -1822,54 +1786,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method private static calculateShouldScrollBy(IIII)I
@@ -2071,8 +1987,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private fill(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)V
@@ -2195,11 +2109,6 @@
     .line 59
     return-void
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private getContainerSize()I
@@ -2245,7 +2154,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getDecoratedCenterXWithMargins(Landroid/view/View;)F
@@ -2288,7 +2196,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getKeylineStateForPosition(I)Lcom/google/android/material/carousel/KeylineState;
@@ -2427,8 +2334,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getMaskedItemSizeForLocOffset(FLcom/google/android/material/carousel/CarouselLayoutManager$KeylineRange;)F
@@ -2511,11 +2416,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private getParentBottom()I
@@ -2550,7 +2450,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getParentEnd()I
@@ -2585,7 +2484,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getParentLeft()I
@@ -2620,7 +2518,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getParentRight()I
@@ -2655,7 +2552,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getParentStart()I
@@ -2690,7 +2586,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getParentTop()I
@@ -2725,7 +2620,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getScrollOffsetForPosition(ILcom/google/android/material/carousel/KeylineState;)I
@@ -2863,11 +2757,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static getSurroundingKeylineRange(Ljava/util/List;FZ)Lcom/google/android/material/carousel/CarouselLayoutManager$KeylineRange;
@@ -3158,11 +3047,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private isLocOffsetOutOfFillBoundsEnd(FLcom/google/android/material/carousel/CarouselLayoutManager$KeylineRange;)Z
@@ -3272,11 +3156,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private isLocOffsetOutOfFillBoundsStart(FLcom/google/android/material/carousel/CarouselLayoutManager$KeylineRange;)Z
@@ -3386,11 +3265,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private logChildrenIfDebugging()V
@@ -3578,15 +3452,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private makeChildCalculations(Landroidx/recyclerview/widget/RecyclerView$Recycler;FI)Lcom/google/android/material/carousel/CarouselLayoutManager$ChildCalculations;
@@ -3786,11 +3651,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private offsetChild(Landroid/view/View;FFLandroid/graphics/Rect;)V
@@ -4073,6 +3933,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private refreshKeylineState()V
@@ -4107,7 +3983,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private removeAndRecycleOutOfBoundsViews(Landroidx/recyclerview/widget/RecyclerView$Recycler;)V
@@ -4289,8 +4164,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private scrollBy(ILandroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -4539,11 +4412,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private updateChildMaskForLocation(Landroid/view/View;FLcom/google/android/material/carousel/CarouselLayoutManager$KeylineRange;)V
@@ -4845,11 +4713,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private updateCurrentKeylineStateForScrollOffset()V
@@ -5016,15 +4879,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private validateChildOrderIfDebugging()V
@@ -5226,15 +5080,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -5285,7 +5130,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public canScrollHorizontally()Z
@@ -5318,7 +5162,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public canScrollVertically()Z
@@ -5353,7 +5196,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public computeHorizontalScrollExtent(Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -5400,7 +5242,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public computeHorizontalScrollOffset(Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -5437,7 +5278,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public computeHorizontalScrollRange(Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -5478,7 +5318,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public computeScrollVectorForPosition(I)Landroid/graphics/PointF;
@@ -5618,8 +5457,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public computeVerticalScrollExtent(Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -5666,7 +5503,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public computeVerticalScrollOffset(Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -5703,7 +5539,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public computeVerticalScrollRange(Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -5744,7 +5579,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public generateDefaultLayoutParams()Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
@@ -5779,7 +5613,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContainerHeight()I
@@ -5812,7 +5645,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getContainerWidth()I
@@ -5845,7 +5677,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDecoratedBoundsWithMargins(Landroid/view/View;Landroid/graphics/Rect;)V
@@ -5978,11 +5809,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public getOffsetToScrollToPosition(ILcom/google/android/material/carousel/KeylineState;)I
@@ -6061,11 +5887,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public getOffsetToScrollToPositionForSnap(IZ)I
@@ -6189,11 +6010,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public getOrientation()I
@@ -6226,7 +6042,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isHorizontal()Z
@@ -6268,7 +6083,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isLayoutRtl()Z
@@ -6316,7 +6130,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public measureChildWithMargins(Landroid/view/View;II)V
@@ -7547,50 +7360,6 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method public onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
@@ -7729,8 +7498,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onLayoutChildren(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)V
@@ -8214,54 +7981,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public onLayoutCompleted(Landroidx/recyclerview/widget/RecyclerView$State;)V
@@ -8387,8 +8106,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public requestChildRectangleOnScreen(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;Landroid/graphics/Rect;ZZ)Z
@@ -9557,11 +9274,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public scrollToPosition(I)V
@@ -9698,8 +9410,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public scrollVerticallyBy(ILandroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -9868,11 +9578,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public setCarouselStrategy(Lcom/google/android/material/carousel/CarouselStrategy;)V
@@ -9911,7 +9616,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDebuggingEnabled(Landroidx/recyclerview/widget/RecyclerView;Z)V
@@ -10002,11 +9706,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setOrientation(I)V
@@ -10162,8 +9861,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public smoothScrollToPosition(Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;I)V
@@ -10329,9 +10026,4 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method

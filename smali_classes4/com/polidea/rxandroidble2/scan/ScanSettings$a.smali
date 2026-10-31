@@ -16,15 +16,6 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Landroid/os/Parcelable$Creator<",
-        "Lcom/polidea/rxandroidble2/scan/ScanSettings;",
-        ">;"
-    }
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -53,6 +44,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -90,6 +83,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public b(I)[Lcom/polidea/rxandroidble2/scan/ScanSettings;
@@ -123,6 +118,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
@@ -158,6 +155,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
@@ -193,4 +192,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

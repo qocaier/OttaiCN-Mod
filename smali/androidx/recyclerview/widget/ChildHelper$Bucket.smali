@@ -57,6 +57,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private ensureNext()V
@@ -94,6 +95,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -304,6 +306,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public get(I)Z
@@ -426,6 +429,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public insert(IZ)V
@@ -751,6 +755,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public remove(I)Z
@@ -920,6 +927,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public reset()V
@@ -957,6 +965,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public set(I)V
@@ -1144,4 +1153,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

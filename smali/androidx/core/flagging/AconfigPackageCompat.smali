@@ -13,9 +13,6 @@
 
 # static fields
 .field public static final Companion:Landroidx/core/flagging/AconfigPackageCompat$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -31,20 +28,10 @@
 
 .method public static load(Ljava/lang/String;)Landroidx/core/flagging/AconfigPackageCompat;
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Landroid/os/flagging/AconfigStorageReadException;
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     sget-object v0, Landroidx/core/flagging/AconfigPackageCompat;->Companion:Landroidx/core/flagging/AconfigPackageCompat$Companion;
@@ -59,8 +46,4 @@
 
 # virtual methods
 .method public abstract getBooleanFlagValue(Ljava/lang/String;Z)Z
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method

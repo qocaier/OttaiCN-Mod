@@ -236,7 +236,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/view/View;)V
@@ -741,6 +740,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private static blendARGB(IIF)I
@@ -1006,11 +1037,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private calculateBaseOffsets(Z)V
@@ -1783,6 +1809,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private calculateCurrentOffsets()V
@@ -1815,7 +1873,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private calculateFadeModeTextAlpha(F)F
@@ -1875,7 +1932,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private calculateFadeModeThresholdFraction()F
@@ -1916,7 +1972,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private calculateIsRtl(Ljava/lang/CharSequence;)Z
@@ -1966,7 +2021,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private calculateOffsets(F)V
@@ -2633,6 +2687,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private calculateUsingTextSize(F)V
@@ -3020,7 +3106,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private createStaticLayout(IFZ)Landroid/text/StaticLayout;
@@ -3278,11 +3363,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private drawMultilineTransition(Landroid/graphics/Canvas;FF)V
@@ -4545,50 +4625,6 @@
     .line 1045
     .line 1046
     .line 1047
-    .line 1048
-    .line 1049
-    .line 1050
-    .line 1051
-    .line 1052
-    .line 1053
-    .line 1054
-    .line 1055
-    .line 1056
-    .line 1057
-    .line 1058
-    .line 1059
-    .line 1060
-    .line 1061
-    .line 1062
-    .line 1063
-    .line 1064
-    .line 1065
-    .line 1066
-    .line 1067
-    .line 1068
-    .line 1069
-    .line 1070
-    .line 1071
-    .line 1072
-    .line 1073
-    .line 1074
-    .line 1075
-    .line 1076
-    .line 1077
-    .line 1078
-    .line 1079
-    .line 1080
-    .line 1081
-    .line 1082
-    .line 1083
-    .line 1084
-    .line 1085
-    .line 1086
-    .line 1087
-    .line 1088
-    .line 1089
-    .line 1090
-    .line 1091
 .end method
 
 .method private ensureExpandedTexture()V
@@ -4773,15 +4809,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getCollapsedTextLeftBound(II)F
@@ -5213,54 +5240,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method private getCollapsedTextRightBound(Landroid/graphics/RectF;II)F
@@ -5504,11 +5483,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private getCurrentColor(Landroid/content/res/ColorStateList;)I
@@ -5567,7 +5541,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getCurrentExpandedTextColor()I
@@ -5604,7 +5577,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getMultilineTextLayoutAlignment()Landroid/text/Layout$Alignment;
@@ -5759,15 +5731,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getTextPaintCollapsed(Landroid/text/TextPaint;)V
@@ -5814,7 +5777,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getTextPaintExpanded(Landroid/text/TextPaint;)V
@@ -5861,7 +5823,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private interpolateBounds(F)V
@@ -6381,6 +6342,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private static isClose(FF)Z
@@ -6466,11 +6459,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private isDefaultIsRtl()Z
@@ -6514,7 +6502,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private isTextDirectionHeuristicsIsRtl(Ljava/lang/CharSequence;Z)Z
@@ -6605,11 +6592,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static lerp(FFFLandroid/animation/TimeInterpolator;)F
@@ -6873,6 +6855,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private measureTextWidth(Landroid/text/TextPaint;Ljava/lang/CharSequence;)F
@@ -6949,11 +6947,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private static rectEquals(Landroid/graphics/Rect;IIII)Z
@@ -7969,7 +7962,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setCollapsedTypefaceInternal(Landroid/graphics/Typeface;)Z
@@ -8114,8 +8106,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private setExpandedTextBlend(F)V
@@ -8152,7 +8142,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setExpandedTypefaceInternal(Landroid/graphics/Typeface;)Z
@@ -8297,8 +8286,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private setInterpolatedTextSize(F)V
@@ -8429,8 +8416,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private shouldDrawMultiline()Z
@@ -8483,7 +8468,6 @@
     return v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -9036,6 +9020,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public getCollapsedTextActualBounds(Landroid/graphics/RectF;II)V
@@ -9255,11 +9271,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public getCollapsedTextColor()Landroid/content/res/ColorStateList;
@@ -9290,7 +9301,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCollapsedTextGravity()I
@@ -9321,7 +9331,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCollapsedTextHeight()F
@@ -9362,7 +9371,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCollapsedTextSize()F
@@ -9393,7 +9401,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCollapsedTypeface()Landroid/graphics/Typeface;
@@ -9431,7 +9438,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCurrentCollapsedTextColor()I
@@ -9468,7 +9474,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedLineCount()I
@@ -9499,7 +9504,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTextColor()Landroid/content/res/ColorStateList;
@@ -9530,7 +9534,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTextFullHeight()F
@@ -9579,7 +9582,6 @@
     return v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTextGravity()I
@@ -9610,7 +9612,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTextHeight()F
@@ -9651,7 +9652,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTextSize()F
@@ -9682,7 +9682,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpandedTypeface()Landroid/graphics/Typeface;
@@ -9720,7 +9719,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExpansionFraction()F
@@ -9751,7 +9749,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFadeModeThresholdFraction()F
@@ -9782,7 +9779,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHyphenationFrequency()I
@@ -9816,7 +9812,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLineCount()I
@@ -9858,7 +9853,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLineSpacingAdd()F
@@ -9896,7 +9890,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLineSpacingMultiplier()F
@@ -9934,7 +9927,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMaxLines()I
@@ -9965,7 +9957,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPositionInterpolator()Landroid/animation/TimeInterpolator;
@@ -9998,7 +9989,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getText()Ljava/lang/CharSequence;
@@ -10031,7 +10021,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTitleTextEllipsize()Landroid/text/TextUtils$TruncateAt;
@@ -10064,7 +10053,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isRtlTextDirectionHeuristicsEnabled()Z
@@ -10095,7 +10083,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final isStateful()Z
@@ -10231,15 +10218,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public maybeUpdateFontWeightAdjustment(Landroid/content/res/Configuration;)V
@@ -10398,8 +10376,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public recalculate()V
@@ -10500,7 +10476,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCollapsedBounds(IIII)V
@@ -11058,6 +11033,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public setCollapsedTextColor(Landroid/content/res/ColorStateList;)V
@@ -11097,7 +11104,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCollapsedTextGravity(I)V
@@ -11137,7 +11143,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCollapsedTextSize(F)V
@@ -11179,7 +11184,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCollapsedTypeface(Landroid/graphics/Typeface;)V
@@ -11219,7 +11223,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCurrentOffsetY(I)V
@@ -11252,7 +11255,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedBounds(IIII)V
@@ -11341,7 +11343,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTextAppearance(I)V
@@ -11852,6 +11853,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public setExpandedTextColor(Landroid/content/res/ColorStateList;)V
@@ -11891,7 +11924,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTextGravity(I)V
@@ -11931,7 +11963,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTextSize(F)V
@@ -11973,7 +12004,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpandedTypeface(Landroid/graphics/Typeface;)V
@@ -12013,7 +12043,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExpansionFraction(F)V
@@ -12063,7 +12092,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFadeModeEnabled(Z)V
@@ -12096,7 +12124,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFadeModeStartFraction(F)V
@@ -12135,7 +12162,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHyphenationFrequency(I)V
@@ -12171,7 +12197,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLineSpacingAdd(F)V
@@ -12207,7 +12232,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLineSpacingMultiplier(F)V
@@ -12248,7 +12272,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMaxLines(I)V
@@ -12290,7 +12313,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPositionInterpolator(Landroid/animation/TimeInterpolator;)V
@@ -12325,7 +12347,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRtlTextDirectionHeuristicsEnabled(Z)V
@@ -12358,7 +12379,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final setState([I)Z
@@ -12406,7 +12426,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStaticLayoutBuilderConfigurer(Lcom/google/android/material/internal/StaticLayoutBuilderConfigurer;)V
@@ -12455,7 +12474,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setText(Ljava/lang/CharSequence;)V
@@ -12517,7 +12535,6 @@
     .line 23
     .line 24
     return-void
-    .line 25
 .end method
 
 .method public setTextSizeInterpolator(Landroid/animation/TimeInterpolator;)V
@@ -12552,7 +12569,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTitleTextEllipsize(Landroid/text/TextUtils$TruncateAt;)V
@@ -12591,7 +12607,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTypefaces(Landroid/graphics/Typeface;)V
@@ -12643,5 +12658,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

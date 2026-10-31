@@ -28,7 +28,7 @@
 .method public final onStartCommand(Landroid/content/Intent;II)I
     .locals 0
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object p2
 
@@ -36,13 +36,13 @@
 
     move-result-object p3
 
-    invoke-virtual {p2, p3}, Lsd/b;->o0(Landroid/content/Context;)V
+    invoke-virtual {p2, p3}, Ld5/b;->Q(Landroid/content/Context;)V
 
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p2
 
-    invoke-static {p2, p1, p0}, Lsd/e;->a(Landroid/content/Context;Landroid/content/Intent;Lcom/heytap/msp/push/callback/IDataMessageCallBackService;)V
+    invoke-static {p2, p1, p0}, Ld5/c;->a(Landroid/content/Context;Landroid/content/Intent;Lcom/heytap/msp/push/callback/IDataMessageCallBackService;)V
 
     const/4 p1, 0x2
 
@@ -90,7 +90,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lbe/g;->g(Ljava/lang/String;)V
+    invoke-static {p1}, Lk5/f;->b(Ljava/lang/String;)V
 
     return-void
 .end method

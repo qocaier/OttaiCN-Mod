@@ -174,15 +174,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -217,7 +208,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public extensionsRoad(Z)Lcom/baidu/mapapi/search/geocode/ReverseGeoCodeOption;
@@ -250,7 +240,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getEntirePoi()I
@@ -281,7 +270,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExtensionsRoad()Z
@@ -312,7 +300,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLanguage()Lcom/baidu/mapapi/search/base/LanguageType;
@@ -343,7 +330,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLatestAdmin()I
@@ -374,7 +360,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLocation()Lcom/baidu/mapapi/model/LatLng;
@@ -405,7 +390,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPageNum()I
@@ -436,7 +420,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPageSize()I
@@ -467,7 +450,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPoiType()Ljava/lang/String;
@@ -498,7 +480,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRadius()I
@@ -529,7 +510,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSortStrategy()Lcom/baidu/mapapi/search/geocode/ReverseGeoCodeOption$SortStrategyType;
@@ -560,7 +540,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public language(Lcom/baidu/mapapi/search/base/LanguageType;)Lcom/baidu/mapapi/search/geocode/ReverseGeoCodeOption;
@@ -593,7 +572,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public location(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/search/geocode/ReverseGeoCodeOption;
@@ -626,7 +604,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public newVersion(I)Lcom/baidu/mapapi/search/geocode/ReverseGeoCodeOption;
@@ -659,7 +636,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public pageNum(I)Lcom/baidu/mapapi/search/geocode/ReverseGeoCodeOption;
@@ -697,7 +673,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public pageSize(I)Lcom/baidu/mapapi/search/geocode/ReverseGeoCodeOption;
@@ -748,7 +723,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public poiType(Ljava/lang/String;)Lcom/baidu/mapapi/search/geocode/ReverseGeoCodeOption;
@@ -781,7 +755,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public radius(I)Lcom/baidu/mapapi/search/geocode/ReverseGeoCodeOption;
@@ -832,7 +805,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public sortStrategy(Lcom/baidu/mapapi/search/geocode/ReverseGeoCodeOption$SortStrategyType;)Lcom/baidu/mapapi/search/geocode/ReverseGeoCodeOption;
@@ -865,5 +837,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

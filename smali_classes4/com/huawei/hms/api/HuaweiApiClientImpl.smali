@@ -166,6 +166,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -322,6 +324,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic a(Lcom/huawei/hms/api/HuaweiApiClientImpl;)Ljava/util/concurrent/atomic/AtomicInteger;
@@ -1521,6 +1525,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private e()I
@@ -1652,6 +1657,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private f()I
@@ -1808,6 +1814,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private g()Z
@@ -1942,6 +1949,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private h()V
@@ -2064,6 +2072,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private i()V
@@ -2225,6 +2234,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private j()V
@@ -2337,6 +2347,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private k()V
@@ -2379,6 +2390,8 @@
     return-void
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private l()V
@@ -2491,6 +2504,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private m()V
@@ -2623,6 +2637,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private n()V
@@ -2657,6 +2672,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -3056,6 +3073,29 @@
     .line 248
     .line 249
     .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
+    .line 259
+    .line 260
+    .line 261
+    .line 262
+    .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
 .end method
 
 .method public checkUpdate(Landroid/app/Activity;Lcom/huawei/hms/api/CheckUpdatelistener;)V
@@ -3480,6 +3520,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public connect(I)V
@@ -3850,6 +3920,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public disableLifeCycleManagement(Landroid/app/Activity;)V
@@ -3902,6 +3973,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public discardAndReconnect()Lcom/huawei/hms/support/api/client/PendingResult;
@@ -3942,6 +4015,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public disconnect()V
@@ -4089,6 +4164,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getApiMap()Ljava/util/Map;
@@ -4127,6 +4203,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getApiNameList()Ljava/util/List;
@@ -4263,6 +4341,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getAppID()Ljava/lang/String;
@@ -4291,6 +4370,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getConnectionResult(Lcom/huawei/hms/api/Api;)Lcom/huawei/hms/api/ConnectionResult;
@@ -4421,6 +4502,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getContext()Landroid/content/Context;
@@ -4449,6 +4532,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCpID()Ljava/lang/String;
@@ -4477,6 +4562,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPackageName()Ljava/lang/String;
@@ -4509,6 +4596,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPermissionInfos()Ljava/util/List;
@@ -4545,6 +4634,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getScopes()Ljava/util/List;
@@ -4581,6 +4672,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getService()Lcom/huawei/hms/core/aidl/IAIDLInvoke;
@@ -4609,6 +4702,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()Ljava/lang/String;
@@ -4637,6 +4732,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public final getSubAppInfo()Lcom/huawei/hms/support/api/client/SubAppInfo;
@@ -4665,6 +4762,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTopActivity()Landroid/app/Activity;
@@ -4706,6 +4805,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTransportName()Ljava/lang/String;
@@ -4738,6 +4839,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public hasConnectedApi(Lcom/huawei/hms/api/Api;)Z
@@ -4780,6 +4883,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public hasConnectionFailureListener(Lcom/huawei/hms/api/HuaweiApiClient$OnConnectionFailedListener;)Z
@@ -4847,6 +4952,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public hasConnectionSuccessListener(Lcom/huawei/hms/api/HuaweiApiClient$ConnectionCallbacks;)Z
@@ -4914,6 +5021,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public holdUpConnect()Lcom/huawei/hms/api/ConnectionResult;
@@ -5380,6 +5489,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public isConnected()Z
@@ -5808,68 +5918,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method public isConnecting()Z
@@ -5921,6 +5969,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onPause(Landroid/app/Activity;)V
@@ -5958,6 +6008,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onResult(I)V
@@ -5993,6 +6045,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onResume(Landroid/app/Activity;)V
@@ -6039,6 +6093,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V
@@ -6421,6 +6477,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public onServiceDisconnected(Landroid/content/ComponentName;)V
@@ -6473,6 +6559,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public print(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
@@ -6511,6 +6599,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public removeConnectionFailureListener(Lcom/huawei/hms/api/HuaweiApiClient$OnConnectionFailedListener;)V
@@ -6642,6 +6732,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public removeConnectionSuccessListener(Lcom/huawei/hms/api/HuaweiApiClient$ConnectionCallbacks;)V
@@ -6773,6 +6865,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public resetListener()V
@@ -6803,6 +6897,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setApiMap(Ljava/util/Map;)V
@@ -6846,6 +6942,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setAutoLifecycleClientId(I)V
@@ -6879,6 +6977,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setConnectionCallbacks(Lcom/huawei/hms/api/HuaweiApiClient$ConnectionCallbacks;)V
@@ -6912,6 +7012,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setConnectionFailedListener(Lcom/huawei/hms/api/HuaweiApiClient$OnConnectionFailedListener;)V
@@ -6945,6 +7047,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setHasShowNotice(Z)V
@@ -6978,6 +7082,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPermissionInfos(Ljava/util/List;)V
@@ -7019,6 +7125,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setScopes(Ljava/util/List;)V
@@ -7060,6 +7168,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSubAppInfo(Lcom/huawei/hms/support/api/client/SubAppInfo;)Z
@@ -7225,4 +7335,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

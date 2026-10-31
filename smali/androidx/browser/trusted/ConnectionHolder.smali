@@ -407,6 +407,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -533,9 +536,10 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public getServiceWrapper()Lub/u0;
+.method public getServiceWrapper()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
@@ -543,9 +547,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Landroidx/browser/trusted/TrustedWebActivityServiceConnection;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -559,7 +561,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 7
     .line 8
@@ -578,6 +580,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V

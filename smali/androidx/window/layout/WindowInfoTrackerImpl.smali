@@ -8,34 +8,20 @@
 
 # instance fields
 .field private final windowBackend:Landroidx/window/layout/adapter/WindowBackend;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final windowMetricsCalculator:Landroidx/window/layout/WindowMetricsCalculator;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/window/layout/WindowMetricsCalculator;Landroidx/window/layout/adapter/WindowBackend;)V
     .locals 1
-    .param p1    # Landroidx/window/layout/WindowMetricsCalculator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/layout/adapter/WindowBackend;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "windowMetricsCalculator"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -44,7 +30,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -130,94 +116,76 @@
 
 
 # virtual methods
-.method public windowLayoutInfo(Landroid/app/Activity;)Ljn/e;
+.method public windowLayoutInfo(Landroid/app/Activity;)Lkotlinx/coroutines/flow/c;
     .locals 2
-    .param p1    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/app/Activity;",
             ")",
-            "Ljn/e<",
-            "Landroidx/window/layout/WindowLayoutInfo;",
-            ">;"
+            "Lkotlinx/coroutines/flow/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     const-string v0, "activity"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     new-instance v0, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, p1, v1}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;-><init>(Landroidx/window/layout/WindowInfoTrackerImpl;Landroid/app/Activity;Lul/c;)V
+    invoke-direct {v0, p0, p1, v1}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$2;-><init>(Landroidx/window/layout/WindowInfoTrackerImpl;Landroid/app/Activity;Lkotlin/coroutines/e;)V
 
-    invoke-static {v0}, Ljn/g;->t(Ljm/p;)Ljn/e;
+    invoke-static {v0}, Lkotlinx/coroutines/flow/e;->f(Lq8/p;)Lkotlinx/coroutines/flow/c;
 
     move-result-object p1
 
     .line 4
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Ljn/g;->P0(Ljn/e;Lkotlin/coroutines/d;)Ljn/e;
+    invoke-static {p1, v0}, Lkotlinx/coroutines/flow/e;->z(Lkotlinx/coroutines/flow/c;Lkotlin/coroutines/i;)Lkotlinx/coroutines/flow/c;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public windowLayoutInfo(Landroid/content/Context;)Ljn/e;
+.method public windowLayoutInfo(Landroid/content/Context;)Lkotlinx/coroutines/flow/c;
     .locals 2
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
             ")",
-            "Ljn/e<",
-            "Landroidx/window/layout/WindowLayoutInfo;",
-            ">;"
+            "Lkotlinx/coroutines/flow/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$1;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, p1, v1}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$1;-><init>(Landroidx/window/layout/WindowInfoTrackerImpl;Landroid/content/Context;Lul/c;)V
+    invoke-direct {v0, p0, p1, v1}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$1;-><init>(Landroidx/window/layout/WindowInfoTrackerImpl;Landroid/content/Context;Lkotlin/coroutines/e;)V
 
-    invoke-static {v0}, Ljn/g;->t(Ljm/p;)Ljn/e;
+    invoke-static {v0}, Lkotlinx/coroutines/flow/e;->f(Lq8/p;)Lkotlinx/coroutines/flow/c;
 
     move-result-object p1
 
     .line 2
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Ljn/g;->P0(Ljn/e;Lkotlin/coroutines/d;)Ljn/e;
+    invoke-static {p1, v0}, Lkotlinx/coroutines/flow/e;->z(Lkotlinx/coroutines/flow/c;Lkotlin/coroutines/i;)Lkotlinx/coroutines/flow/c;
 
     move-result-object p1
 

@@ -67,4 +67,5 @@
     :catch_0
     return-void
     .line 20
+    .line 21
 .end method

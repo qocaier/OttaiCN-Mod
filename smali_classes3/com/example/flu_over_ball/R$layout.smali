@@ -3,21 +3,10 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/example/flu_over_ball/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "layout"
-.end annotation
-
-
 # static fields
-.field public static flu_over_ball:I = 0x7f0b003a
+.field public static flu_over_ball:I = 0x7f0b003b
 
-.field public static flu_over_edge:I = 0x7f0b003b
+.field public static flu_over_edge:I = 0x7f0b003c
 
 
 # direct methods

@@ -35,16 +35,14 @@
     .end annotation
 .end method
 
-.method public abstract getReleasedFuture()Lub/u0;
+.method public abstract getReleasedFuture()Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method

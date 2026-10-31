@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static final synthetic initializer(Landroidx/lifecycle/viewmodel/InitializerViewModelFactoryBuilder;Ljm/l;)V
+.method public static final synthetic initializer(Landroidx/lifecycle/viewmodel/InitializerViewModelFactoryBuilder;Lq8/l;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -12,10 +12,8 @@
             "Landroidx/lifecycle/ViewModel;",
             ">(",
             "Landroidx/lifecycle/viewmodel/InitializerViewModelFactoryBuilder;",
-            "Ljm/l<",
-            "-",
-            "Landroidx/lifecycle/viewmodel/CreationExtras;",
-            "+TVM;>;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -24,7 +22,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -33,7 +31,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -45,7 +43,7 @@
 
     .line 13
     .line 14
-    invoke-static {v0, v1}, Lkm/g0;->y(ILjava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->l(ILjava/lang/String;)V
 
     .line 15
     .line 16
@@ -54,7 +52,7 @@
 
     .line 18
     .line 19
-    invoke-static {v0}, Lkm/o0;->d(Ljava/lang/Class;)Lum/d;
+    invoke-static {v0}, Lkotlin/jvm/internal/m;->b(Ljava/lang/Class;)Lkotlin/reflect/c;
 
     .line 20
     .line 21
@@ -62,7 +60,7 @@
     move-result-object v0
 
     .line 23
-    invoke-virtual {p0, v0, p1}, Landroidx/lifecycle/viewmodel/InitializerViewModelFactoryBuilder;->addInitializer(Lum/d;Ljm/l;)V
+    invoke-virtual {p0, v0, p1}, Landroidx/lifecycle/viewmodel/InitializerViewModelFactoryBuilder;->addInitializer(Lkotlin/reflect/c;Lq8/l;)V
 
     .line 24
     .line 25
@@ -92,25 +90,15 @@
     .line 48
 .end method
 
-.method public static final viewModelFactory(Ljm/l;)Landroidx/lifecycle/ViewModelProvider$Factory;
+.method public static final viewModelFactory(Lq8/l;)Landroidx/lifecycle/ViewModelProvider$Factory;
     .locals 1
-    .param p0    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/l<",
-            "-",
-            "Landroidx/lifecycle/viewmodel/InitializerViewModelFactoryBuilder;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/lifecycle/ViewModelProvider$Factory;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -118,7 +106,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -132,7 +120,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-interface {p0, v0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13

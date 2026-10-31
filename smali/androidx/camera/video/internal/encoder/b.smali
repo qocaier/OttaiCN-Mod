@@ -3,46 +3,36 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;
-
-.field public final synthetic b:Landroidx/camera/core/impl/Observable$Observer;
-
-.field public final synthetic c:Ljava/util/concurrent/Executor;
+.field public final synthetic a:Ljava/util/concurrent/atomic/AtomicReference;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;Landroidx/camera/core/impl/Observable$Observer;Ljava/util/concurrent/Executor;)V
+.method public synthetic constructor <init>(Ljava/util/concurrent/atomic/AtomicReference;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/video/internal/encoder/b;->a:Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;
-
-    iput-object p2, p0, Landroidx/camera/video/internal/encoder/b;->b:Landroidx/camera/core/impl/Observable$Observer;
-
-    iput-object p3, p0, Landroidx/camera/video/internal/encoder/b;->c:Ljava/util/concurrent/Executor;
+    iput-object p1, p0, Landroidx/camera/video/internal/encoder/b;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 3
+.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/internal/encoder/b;->a:Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;
+    iget-object v0, p0, Landroidx/camera/video/internal/encoder/b;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
-    iget-object v1, p0, Landroidx/camera/video/internal/encoder/b;->b:Landroidx/camera/core/impl/Observable$Observer;
+    invoke-static {v0, p1}, Landroidx/camera/video/internal/encoder/EncodedDataImpl;->a(Ljava/util/concurrent/atomic/AtomicReference;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
 
-    iget-object v2, p0, Landroidx/camera/video/internal/encoder/b;->c:Ljava/util/concurrent/Executor;
+    move-result-object p1
 
-    invoke-static {v0, v1, v2}, Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;->d(Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;Landroidx/camera/core/impl/Observable$Observer;Ljava/util/concurrent/Executor;)V
-
-    return-void
+    return-object p1
 .end method

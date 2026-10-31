@@ -16,8 +16,4 @@
 
 # virtual methods
 .method public abstract onViolation(Landroidx/fragment/app/strictmode/Violation;)V
-    .param p1    # Landroidx/fragment/app/strictmode/Violation;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method

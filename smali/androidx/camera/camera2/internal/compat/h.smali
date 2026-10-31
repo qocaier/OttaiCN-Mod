@@ -7,21 +7,29 @@
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$StateCallbackExecutorWrapper;
+.field public final synthetic a:Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;
 
 .field public final synthetic b:Landroid/hardware/camera2/CameraCaptureSession;
 
+.field public final synthetic c:Landroid/hardware/camera2/CaptureRequest;
+
+.field public final synthetic d:Landroid/hardware/camera2/CaptureFailure;
+
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$StateCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/CaptureFailure;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/compat/h;->a:Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$StateCallbackExecutorWrapper;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/compat/h;->a:Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;
 
     iput-object p2, p0, Landroidx/camera/camera2/internal/compat/h;->b:Landroid/hardware/camera2/CameraCaptureSession;
+
+    iput-object p3, p0, Landroidx/camera/camera2/internal/compat/h;->c:Landroid/hardware/camera2/CaptureRequest;
+
+    iput-object p4, p0, Landroidx/camera/camera2/internal/compat/h;->d:Landroid/hardware/camera2/CaptureFailure;
 
     return-void
 .end method
@@ -29,14 +37,18 @@
 
 # virtual methods
 .method public final run()V
-    .locals 2
+    .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/compat/h;->a:Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$StateCallbackExecutorWrapper;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/compat/h;->a:Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;
 
     iget-object v1, p0, Landroidx/camera/camera2/internal/compat/h;->b:Landroid/hardware/camera2/CameraCaptureSession;
 
-    invoke-static {v0, v1}, Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$StateCallbackExecutorWrapper;->f(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$StateCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;)V
+    iget-object v2, p0, Landroidx/camera/camera2/internal/compat/h;->c:Landroid/hardware/camera2/CaptureRequest;
+
+    iget-object v3, p0, Landroidx/camera/camera2/internal/compat/h;->d:Landroid/hardware/camera2/CaptureFailure;
+
+    invoke-static {v0, v1, v2, v3}, Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;->c(Landroidx/camera/camera2/internal/compat/CameraCaptureSessionCompat$CaptureCallbackExecutorWrapper;Landroid/hardware/camera2/CameraCaptureSession;Landroid/hardware/camera2/CaptureRequest;Landroid/hardware/camera2/CaptureFailure;)V
 
     return-void
 .end method

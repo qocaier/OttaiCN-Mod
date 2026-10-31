@@ -43,7 +43,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -116,7 +115,7 @@
     move-result-object p1
 
     .line 30
-    invoke-static {p1}, Ls5/f;->a(Ljava/lang/Object;)Landroid/os/VibratorManager;
+    invoke-static {p1}, Lcom/benjaminabel/vibration/f;->a(Ljava/lang/Object;)Landroid/os/VibratorManager;
 
     .line 31
     .line 32
@@ -124,7 +123,7 @@
     move-result-object p1
 
     .line 34
-    invoke-static {p1}, Ls5/g;->a(Landroid/os/VibratorManager;)Landroid/os/Vibrator;
+    invoke-static {p1}, Lcom/benjaminabel/vibration/g;->a(Landroid/os/VibratorManager;)Landroid/os/Vibrator;
 
     .line 35
     .line 36
@@ -186,8 +185,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onAttachedToEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
@@ -315,8 +312,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onDetachedFromEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
@@ -359,5 +354,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

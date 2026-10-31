@@ -106,6 +106,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentDescription()Ljava/lang/CharSequence;
@@ -134,6 +135,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCustomView()Landroid/view/View;
@@ -162,6 +164,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIcon()Landroid/graphics/drawable/Drawable;
@@ -190,6 +193,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPosition()I
@@ -218,6 +222,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTag()Ljava/lang/Object;
@@ -246,6 +251,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getText()Ljava/lang/CharSequence;
@@ -274,6 +280,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public select()V
@@ -304,6 +311,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setContentDescription(I)Landroidx/appcompat/app/ActionBar$Tab;

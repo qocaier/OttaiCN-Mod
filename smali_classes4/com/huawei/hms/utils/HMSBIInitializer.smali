@@ -58,6 +58,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private constructor <init>(Landroid/content/Context;)V
@@ -107,6 +109,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic a(Lcom/huawei/hms/utils/HMSBIInitializer;Ljava/lang/String;)V
@@ -332,6 +336,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getInstance(Landroid/content/Context;)Lcom/huawei/hms/utils/HMSBIInitializer;
@@ -475,6 +481,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -505,6 +513,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public initBI()V
@@ -654,6 +664,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public initHaSDK()V
@@ -823,6 +834,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public isInit()Z
@@ -866,4 +878,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

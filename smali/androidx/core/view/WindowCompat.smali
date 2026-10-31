@@ -49,6 +49,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static enableEdgeToEdge(Landroid/view/Window;)V
@@ -122,7 +123,7 @@
     move-result-object v3
 
     .line 34
-    invoke-static {v3}, Lc1/p0;->a(Landroid/view/WindowManager$LayoutParams;)I
+    invoke-static {v3}, Landroidx/core/view/t0;->a(Landroid/view/WindowManager$LayoutParams;)I
 
     .line 35
     .line 36
@@ -134,7 +135,7 @@
 
     .line 39
     .line 40
-    invoke-static {v3, v2}, Ld/k;->a(Landroid/view/WindowManager$LayoutParams;I)V
+    invoke-static {v3, v2}, Landroidx/activity/n;->a(Landroid/view/WindowManager$LayoutParams;I)V
 
     .line 41
     .line 42
@@ -153,12 +154,12 @@
 
     .line 49
     .line 50
-    invoke-static {p0, v0}, Ld/l;->a(Landroid/view/Window;Z)V
+    invoke-static {p0, v0}, Landroidx/activity/o;->a(Landroid/view/Window;Z)V
 
     .line 51
     .line 52
     .line 53
-    invoke-static {p0, v0}, Ld/m;->a(Landroid/view/Window;Z)V
+    invoke-static {p0, v0}, Landroidx/activity/p;->a(Landroid/view/Window;Z)V
 
     .line 54
     .line 55
@@ -187,6 +188,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getInsetsController(Landroid/view/Window;Landroid/view/View;)Landroidx/core/view/WindowInsetsControllerCompat;

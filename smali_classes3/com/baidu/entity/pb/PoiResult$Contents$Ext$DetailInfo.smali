@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -404,7 +404,7 @@
 .method public constructor <init>()V
     .locals 4
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
     const/4 v0, 0x0
 
@@ -531,7 +531,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -544,7 +544,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
+    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     move-result-object p0
 
@@ -564,7 +564,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -2069,7 +2069,7 @@
 
     check-cast v2, Ljava/lang/String;
 
-    invoke-static {v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->K(Ljava/lang/String;)I
+    invoke-static {v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->u(Ljava/lang/String;)I
 
     move-result v2
 
@@ -2100,7 +2100,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2119,7 +2119,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2138,7 +2138,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2157,7 +2157,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2176,7 +2176,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2195,7 +2195,7 @@
 
     move-result v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v0
 
@@ -2214,7 +2214,7 @@
 
     move-result v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v0
 
@@ -2233,7 +2233,7 @@
 
     move-result v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v0
 
@@ -2252,7 +2252,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2271,7 +2271,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2290,7 +2290,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2309,7 +2309,7 @@
 
     move-result v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v0
 
@@ -2328,7 +2328,7 @@
 
     move-result v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(II)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->j(II)I
 
     move-result v0
 
@@ -2347,7 +2347,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2366,7 +2366,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2385,7 +2385,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2404,7 +2404,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2423,7 +2423,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2442,7 +2442,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2461,7 +2461,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2480,7 +2480,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2510,7 +2510,7 @@
 
     const/16 v3, 0x17
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -2531,7 +2531,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2550,7 +2550,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2569,7 +2569,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2599,7 +2599,7 @@
 
     const/16 v3, 0x1b
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -2620,7 +2620,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2639,7 +2639,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2658,7 +2658,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2677,7 +2677,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2696,7 +2696,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2715,7 +2715,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2734,7 +2734,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2753,7 +2753,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2772,7 +2772,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2791,7 +2791,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2810,7 +2810,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2829,7 +2829,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2848,7 +2848,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2867,7 +2867,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2886,7 +2886,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2905,7 +2905,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2924,7 +2924,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -2954,7 +2954,7 @@
 
     const/16 v3, 0x2e
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -2975,7 +2975,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -2994,7 +2994,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -3013,7 +3013,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -3032,7 +3032,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -3051,7 +3051,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -3070,7 +3070,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -3089,7 +3089,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -3108,7 +3108,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -3127,7 +3127,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -3146,7 +3146,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -3678,7 +3678,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -3689,13 +3689,13 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
     sparse-switch v0, :sswitch_data_0
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -3708,7 +3708,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$ChejiNeed;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setChejiNeed(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$ChejiNeed;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
@@ -3719,7 +3719,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$BlinkBuilding;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setBlinkBuilding(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$BlinkBuilding;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
@@ -3730,14 +3730,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$MnpKeyInfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setMnpKeyInfo(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$MnpKeyInfo;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     goto :goto_0
 
     :sswitch_3
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3746,7 +3746,7 @@
     goto :goto_0
 
     :sswitch_4
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3759,7 +3759,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$PhoneRisk;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setPhoneRisk(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$PhoneRisk;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
@@ -3770,14 +3770,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$PhoneDetail;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setPhoneDetail(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$PhoneDetail;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     goto :goto_0
 
     :sswitch_7
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3786,7 +3786,7 @@
     goto :goto_0
 
     :sswitch_8
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3799,7 +3799,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Allcardextension;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setAllcardextension(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Allcardextension;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
@@ -3810,14 +3810,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$HotelService;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->addHotelService(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$HotelService;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     goto/16 :goto_0
 
     :sswitch_b
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3826,7 +3826,7 @@
     goto/16 :goto_0
 
     :sswitch_c
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3835,7 +3835,7 @@
     goto/16 :goto_0
 
     :sswitch_d
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3848,7 +3848,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Mbc;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setMbc(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Mbc;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
@@ -3859,14 +3859,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$DisplayInfoCommentLabel;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setDisplayInfoCommentLabel(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$DisplayInfoCommentLabel;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     goto/16 :goto_0
 
     :sswitch_10
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3879,14 +3879,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Upperleftcorner;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setUpperleftcorner(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Upperleftcorner;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     goto/16 :goto_0
 
     :sswitch_12
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3899,7 +3899,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$BusinessService;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setBusinessService(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$BusinessService;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
@@ -3910,7 +3910,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$RecommendDish;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setRecommendDish(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$RecommendDish;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
@@ -3921,14 +3921,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$LbcBusinessVip;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setLbcBusinessVip(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$LbcBusinessVip;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     goto/16 :goto_0
 
     :sswitch_16
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3937,7 +3937,7 @@
     goto/16 :goto_0
 
     :sswitch_17
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3946,7 +3946,7 @@
     goto/16 :goto_0
 
     :sswitch_18
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3959,14 +3959,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Marketbiz;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setMarketbiz(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Marketbiz;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     goto/16 :goto_0
 
     :sswitch_1a
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -3979,7 +3979,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Meishipaihao;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setMeishipaihao(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Meishipaihao;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
@@ -3990,14 +3990,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Impression;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->addImpression(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Impression;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     goto/16 :goto_0
 
     :sswitch_1d
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4006,7 +4006,7 @@
     goto/16 :goto_0
 
     :sswitch_1e
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4015,7 +4015,7 @@
     goto/16 :goto_0
 
     :sswitch_1f
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4028,14 +4028,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Activity;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->addActivity(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$Activity;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     goto/16 :goto_0
 
     :sswitch_21
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4044,7 +4044,7 @@
     goto/16 :goto_0
 
     :sswitch_22
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4053,7 +4053,7 @@
     goto/16 :goto_0
 
     :sswitch_23
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4062,7 +4062,7 @@
     goto/16 :goto_0
 
     :sswitch_24
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4075,14 +4075,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$BookInfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setBookInfo(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$BookInfo;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     goto/16 :goto_0
 
     :sswitch_26
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4095,7 +4095,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$OrilInfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setOrilInfo(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$OrilInfo;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
@@ -4106,14 +4106,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$GrouponInfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setGrouponInfo(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$GrouponInfo;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     goto/16 :goto_0
 
     :sswitch_29
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4122,7 +4122,7 @@
     goto/16 :goto_0
 
     :sswitch_2a
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4131,7 +4131,7 @@
     goto/16 :goto_0
 
     :sswitch_2b
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4140,7 +4140,7 @@
     goto/16 :goto_0
 
     :sswitch_2c
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4153,14 +4153,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$PremiumInfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->setPremiumInfo(Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo$PremiumInfo;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     goto/16 :goto_0
 
     :sswitch_2e
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4169,7 +4169,7 @@
     goto/16 :goto_0
 
     :sswitch_2f
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4178,7 +4178,7 @@
     goto/16 :goto_0
 
     :sswitch_30
-    invoke-virtual {p1}, Ljc/b;->s()I
+    invoke-virtual {p1}, Ll4/b;->k()I
 
     move-result v0
 
@@ -4187,7 +4187,7 @@
     goto/16 :goto_0
 
     :sswitch_31
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4196,7 +4196,7 @@
     goto/16 :goto_0
 
     :sswitch_32
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4205,7 +4205,7 @@
     goto/16 :goto_0
 
     :sswitch_33
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4214,7 +4214,7 @@
     goto/16 :goto_0
 
     :sswitch_34
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4223,7 +4223,7 @@
     goto/16 :goto_0
 
     :sswitch_35
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4232,7 +4232,7 @@
     goto/16 :goto_0
 
     :sswitch_36
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -4307,7 +4307,7 @@
     .end sparse-switch
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -4316,7 +4316,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
+    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;
 
     move-result-object p1
 
@@ -5185,7 +5185,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     goto :goto_0
 
@@ -5202,7 +5202,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasPriceText()Z
@@ -5217,7 +5217,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasTag()Z
@@ -5232,7 +5232,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasImage()Z
@@ -5247,7 +5247,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_4
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasShowInfo()Z
@@ -5262,7 +5262,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_5
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasPremiumFlag()Z
@@ -5277,7 +5277,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_6
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasDiscountTotal()Z
@@ -5292,7 +5292,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_7
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasGrouponTotal()Z
@@ -5307,7 +5307,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_8
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasPremiumInfo()Z
@@ -5322,7 +5322,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_9
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasCommentNum()Z
@@ -5337,7 +5337,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_a
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasMovieFlag()Z
@@ -5352,7 +5352,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_b
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasMovieFilmCount()Z
@@ -5367,7 +5367,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_c
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasGrouponFlag()Z
@@ -5382,7 +5382,7 @@
 
     move-result v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->r0(II)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->M(II)V
 
     :cond_d
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasGrouponInfo()Z
@@ -5397,7 +5397,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_e
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasOrilInfo()Z
@@ -5412,7 +5412,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_f
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasWapBookable()Z
@@ -5427,7 +5427,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_10
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasBookInfo()Z
@@ -5442,7 +5442,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_11
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasPrice()Z
@@ -5457,7 +5457,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_12
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasWiseFullroom()Z
@@ -5472,7 +5472,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_13
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasDiscount()Z
@@ -5487,7 +5487,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_14
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasGrade()Z
@@ -5502,7 +5502,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_15
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->getActivityList()Ljava/util/List;
@@ -5528,7 +5528,7 @@
 
     const/16 v2, 0x17
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_1
 
@@ -5545,7 +5545,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_17
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasSpecialService()Z
@@ -5560,7 +5560,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_18
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasFlagOnLeft()Z
@@ -5575,7 +5575,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_19
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->getImpressionList()Ljava/util/List;
@@ -5601,7 +5601,7 @@
 
     const/16 v2, 0x1b
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_2
 
@@ -5618,7 +5618,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_1b
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasTradeTag()Z
@@ -5633,7 +5633,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_1c
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasMarketbiz()Z
@@ -5648,7 +5648,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_1d
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasValidate()Z
@@ -5663,7 +5663,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_1e
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasWiseHourlyBookable()Z
@@ -5678,7 +5678,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_1f
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasDisText()Z
@@ -5693,7 +5693,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_20
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasLbcBusinessVip()Z
@@ -5708,7 +5708,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_21
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasRecommendDish()Z
@@ -5723,7 +5723,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_22
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasBusinessService()Z
@@ -5738,7 +5738,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_23
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasStatusLabel()Z
@@ -5753,7 +5753,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_24
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasUpperleftcorner()Z
@@ -5768,7 +5768,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_25
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasDisplayInfoRedu()Z
@@ -5783,7 +5783,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_26
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasDisplayInfoCommentLabel()Z
@@ -5798,7 +5798,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_27
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasMbc()Z
@@ -5813,7 +5813,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_28
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasAoi()Z
@@ -5828,7 +5828,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_29
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasSpecialTag()Z
@@ -5843,7 +5843,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_2a
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasOriginPriceText()Z
@@ -5858,7 +5858,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_2b
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->getHotelServiceList()Ljava/util/List;
@@ -5884,7 +5884,7 @@
 
     const/16 v2, 0x2e
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_3
 
@@ -5901,7 +5901,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_2d
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasShopHours()Z
@@ -5916,7 +5916,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_2e
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasVsContent()Z
@@ -5931,7 +5931,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_2f
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasPhoneDetail()Z
@@ -5946,7 +5946,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_30
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasPhoneRisk()Z
@@ -5961,7 +5961,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_31
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasNewBusinessTime()Z
@@ -5976,7 +5976,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_32
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasMiniprogram()Z
@@ -5991,7 +5991,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_33
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasMnpKeyInfo()Z
@@ -6006,7 +6006,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_34
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasBlinkBuilding()Z
@@ -6021,7 +6021,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_35
     invoke-virtual {p0}, Lcom/baidu/entity/pb/PoiResult$Contents$Ext$DetailInfo;->hasChejiNeed()Z
@@ -6036,7 +6036,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_36
     return-void

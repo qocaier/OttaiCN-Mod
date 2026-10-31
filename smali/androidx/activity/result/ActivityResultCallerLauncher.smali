@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         ">",
         "Landroidx/activity/result/ActivityResultLauncher<",
-        "Ljl/e2;",
+        "Lkotlin/j;",
         ">;"
     }
 .end annotation
@@ -25,9 +25,6 @@
             "Landroidx/activity/result/contract/ActivityResultContract<",
             "TI;TO;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -43,12 +40,9 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Landroidx/activity/result/contract/ActivityResultContract<",
-            "Ljl/e2;",
+            "Lkotlin/j;",
             "TO;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -59,28 +53,14 @@
             "TI;>;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
-.field private final resultContract$delegate:Ljl/c0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final resultContract$delegate:Lkotlin/c;
 
 
 # direct methods
 .method public constructor <init>(Landroidx/activity/result/ActivityResultLauncher;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;)V
     .locals 1
-    .param p1    # Landroidx/activity/result/ActivityResultLauncher;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/activity/result/contract/ActivityResultContract;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -96,7 +76,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -105,7 +85,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -136,7 +116,7 @@
     .line 23
     .line 24
     .line 25
-    invoke-static {p1}, Lkotlin/e;->b(Ljm/a;)Ljl/c0;
+    invoke-static {p1}, Lkotlin/d;->b(Lq8/a;)Lkotlin/c;
 
     .line 26
     .line 27
@@ -144,7 +124,7 @@
     move-result-object p1
 
     .line 29
-    iput-object p1, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->resultContract$delegate:Ljl/c0;
+    iput-object p1, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->resultContract$delegate:Lkotlin/c;
 
     .line 30
     .line 31
@@ -237,6 +217,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private final getResultContract()Landroidx/activity/result/contract/ActivityResultContract;
@@ -245,17 +228,17 @@
         value = {
             "()",
             "Landroidx/activity/result/contract/ActivityResultContract<",
-            "Ljl/e2;",
+            "Lkotlin/j;",
             "TO;>;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->resultContract$delegate:Ljl/c0;
+    iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->resultContract$delegate:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lkotlin/c;->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -279,6 +262,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -291,9 +275,6 @@
             "Landroidx/activity/result/contract/ActivityResultContract<",
             "TI;TO;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -319,6 +300,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getCallerInput()Ljava/lang/Object;
@@ -352,6 +334,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContract()Landroidx/activity/result/contract/ActivityResultContract;
@@ -360,12 +343,9 @@
         value = {
             "()",
             "Landroidx/activity/result/contract/ActivityResultContract<",
-            "Ljl/e2;",
+            "Lkotlin/j;",
             "TO;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -391,33 +371,26 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public bridge synthetic launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
     .locals 0
 
     .line 1
-    check-cast p1, Ljl/e2;
+    check-cast p1, Lkotlin/j;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher;->launch(Ljl/e2;Landroidx/core/app/ActivityOptionsCompat;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher;->launch(Lkotlin/j;Landroidx/core/app/ActivityOptionsCompat;)V
 
     return-void
 .end method
 
-.method public launch(Ljl/e2;Landroidx/core/app/ActivityOptionsCompat;)V
+.method public launch(Lkotlin/j;Landroidx/core/app/ActivityOptionsCompat;)V
     .locals 1
-    .param p1    # Ljl/e2;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/core/app/ActivityOptionsCompat;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     const-string v0, "input"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     iget-object p1, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->launcher:Landroidx/activity/result/ActivityResultLauncher;
@@ -457,4 +430,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -171,11 +171,11 @@
 
     .line 5
     .line 6
-    new-instance v2, Landroidx/appcompat/app/b;
+    new-instance v2, Landroidx/appcompat/app/l;
 
     .line 7
     .line 8
-    invoke-direct {v2, p0, p1}, Landroidx/appcompat/app/b;-><init>(Landroidx/appcompat/app/AppLocalesStorageHelper$SerialExecutor;Ljava/lang/Runnable;)V
+    invoke-direct {v2, p0, p1}, Landroidx/appcompat/app/l;-><init>(Landroidx/appcompat/app/AppLocalesStorageHelper$SerialExecutor;Ljava/lang/Runnable;)V
 
     .line 9
     .line 10
@@ -274,6 +274,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public scheduleNext()V
@@ -403,4 +404,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

@@ -46,6 +46,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -74,6 +75,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getViewCoordinate(Landroidx/transition/TransitionValues;I)I
@@ -491,6 +493,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public getPropagationProperties()[Ljava/lang/String;
@@ -519,6 +526,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getViewVisibility(Landroidx/transition/TransitionValues;)I

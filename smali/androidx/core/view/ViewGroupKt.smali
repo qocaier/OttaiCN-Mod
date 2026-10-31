@@ -6,14 +6,6 @@
 # direct methods
 .method public static final contains(Landroid/view/ViewGroup;Landroid/view/View;)Z
     .locals 0
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->indexOfChild(Landroid/view/View;)I
@@ -81,25 +73,14 @@
     .line 48
 .end method
 
-.method public static final forEach(Landroid/view/ViewGroup;Ljm/l;)V
+.method public static final forEach(Landroid/view/ViewGroup;Lq8/l;)V
     .locals 3
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/view/ViewGroup;",
-            "Ljm/l<",
-            "-",
-            "Landroid/view/View;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -128,7 +109,7 @@
     move-result-object v2
 
     .line 12
-    invoke-interface {p1, v2}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -174,27 +155,14 @@
     .line 48
 .end method
 
-.method public static final forEachIndexed(Landroid/view/ViewGroup;Ljm/p;)V
+.method public static final forEachIndexed(Landroid/view/ViewGroup;Lq8/p;)V
     .locals 4
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/view/ViewGroup;",
-            "Ljm/p<",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Landroid/view/View;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/p;",
+            ")V"
         }
     .end annotation
 
@@ -231,7 +199,7 @@
     move-result-object v3
 
     .line 16
-    invoke-interface {p1, v2, v3}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -275,12 +243,6 @@
 
 .method public static final get(Landroid/view/ViewGroup;I)Landroid/view/View;
     .locals 3
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
@@ -370,24 +332,15 @@
     .line 48
 .end method
 
-.method public static final getChildren(Landroid/view/ViewGroup;)Lvm/m;
+.method public static final getChildren(Landroid/view/ViewGroup;)Lkotlin/sequences/g;
     .locals 1
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/view/ViewGroup;",
             ")",
-            "Lvm/m<",
-            "Landroid/view/View;",
-            ">;"
+            "Lkotlin/sequences/g;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -422,24 +375,15 @@
     .line 25
 .end method
 
-.method public static final getDescendants(Landroid/view/ViewGroup;)Lvm/m;
+.method public static final getDescendants(Landroid/view/ViewGroup;)Lkotlin/sequences/g;
     .locals 1
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/view/ViewGroup;",
             ")",
-            "Lvm/m<",
-            "Landroid/view/View;",
-            ">;"
+            "Lkotlin/sequences/g;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -474,14 +418,8 @@
     .line 25
 .end method
 
-.method public static final getIndices(Landroid/view/ViewGroup;)Ltm/l;
+.method public static final getIndices(Landroid/view/ViewGroup;)Lu8/d;
     .locals 1
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -495,7 +433,7 @@
     move-result p0
 
     .line 6
-    invoke-static {v0, p0}, Ltm/u;->W1(II)Ltm/l;
+    invoke-static {v0, p0}, Lu8/f;->j(II)Lu8/d;
 
     .line 7
     .line 8
@@ -523,10 +461,6 @@
 
 .method public static final getSize(Landroid/view/ViewGroup;)I
     .locals 0
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
@@ -562,10 +496,6 @@
 
 .method public static final isEmpty(Landroid/view/ViewGroup;)Z
     .locals 0
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
@@ -610,10 +540,6 @@
 
 .method public static final isNotEmpty(Landroid/view/ViewGroup;)Z
     .locals 0
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
@@ -658,10 +584,6 @@
 
 .method public static final iterator(Landroid/view/ViewGroup;)Ljava/util/Iterator;
     .locals 1
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -671,9 +593,6 @@
             "Landroid/view/View;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -710,14 +629,6 @@
 
 .method public static final minusAssign(Landroid/view/ViewGroup;Landroid/view/View;)V
     .locals 0
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
@@ -774,14 +685,6 @@
 
 .method public static final plusAssign(Landroid/view/ViewGroup;Landroid/view/View;)V
     .locals 0
-    .param p0    # Landroid/view/ViewGroup;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
@@ -838,10 +741,6 @@
 
 .method public static final setMargins(Landroid/view/ViewGroup$MarginLayoutParams;I)V
     .locals 0
-    .param p0    # Landroid/view/ViewGroup$MarginLayoutParams;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/Px;
         .end annotation
@@ -902,10 +801,6 @@
 
 .method public static final updateMargins(Landroid/view/ViewGroup$MarginLayoutParams;IIII)V
     .locals 0
-    .param p0    # Landroid/view/ViewGroup$MarginLayoutParams;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/Px;
         .end annotation
@@ -2105,10 +2000,6 @@
 
 .method public static final updateMarginsRelative(Landroid/view/ViewGroup$MarginLayoutParams;IIII)V
     .locals 0
-    .param p0    # Landroid/view/ViewGroup$MarginLayoutParams;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/Px;
         .end annotation

@@ -48,6 +48,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static beginAsyncSection(Ljava/lang/String;I)V
@@ -431,6 +432,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static beginSection(Ljava/lang/String;)V
@@ -855,6 +859,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static endSection()V
@@ -883,6 +890,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static forceEnableAppTracing()V
@@ -1022,6 +1030,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static handleException(Ljava/lang/String;Ljava/lang/Exception;)V
@@ -1315,6 +1325,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static isEnabled()Z
@@ -1358,6 +1371,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static isEnabledFallback()Z
@@ -1523,6 +1537,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static setCounter(Ljava/lang/String;I)V
@@ -1906,6 +1922,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static truncatedTraceSectionLabel(Ljava/lang/String;)Ljava/lang/String;

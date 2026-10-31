@@ -66,6 +66,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic a(Lcom/qiyukf/rj;)I
@@ -319,9 +321,9 @@
 
     .line 17
     :cond_3
-    new-instance p1, Lvg/b1;
+    new-instance p1, Lcom/qiyukf/wf0;
 
-    invoke-direct {p1, p0, p6}, Lvg/b1;-><init>(Lcom/qiyukf/rj;Z)V
+    invoke-direct {p1, p0, p6}, Lcom/qiyukf/wf0;-><init>(Lcom/qiyukf/rj;Z)V
 
     .line 18
     iget-object p2, p0, Lcom/qiyukf/rj;->f:Ljava/util/concurrent/Executor;

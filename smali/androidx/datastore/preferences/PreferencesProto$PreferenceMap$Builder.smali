@@ -88,6 +88,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public containsPreferences(Ljava/lang/String;)Z
@@ -175,6 +176,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreferencesCount()I
@@ -213,6 +215,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreferencesMap()Ljava/util/Map;
@@ -260,6 +263,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPreferencesOrDefault(Ljava/lang/String;Landroidx/datastore/preferences/PreferencesProto$Value;)Landroidx/datastore/preferences/PreferencesProto$Value;
@@ -452,6 +456,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public putAllPreferences(Ljava/util/Map;)Landroidx/datastore/preferences/PreferencesProto$PreferenceMap$Builder;

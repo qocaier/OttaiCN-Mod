@@ -136,6 +136,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private static a()V
@@ -565,9 +566,9 @@
 
     move-result-object v0
 
-    new-instance v1, Luf/a;
+    new-instance v1, Lcom/meizu/cloud/pushsdk/f/c;
 
-    invoke-direct {v1}, Luf/a;-><init>()V
+    invoke-direct {v1}, Lcom/meizu/cloud/pushsdk/f/c;-><init>()V
 
     invoke-virtual {v0, v1}, Lcom/meizu/cloud/pushsdk/k/a;->execute(Ljava/lang/Runnable;)V
 
@@ -606,9 +607,9 @@
     :cond_0
     sget-object v0, Lcom/meizu/cloud/pushsdk/f/a;->i:Landroid/os/Handler;
 
-    new-instance v1, Luf/b;
+    new-instance v1, Lcom/meizu/cloud/pushsdk/f/d;
 
-    invoke-direct {v1}, Luf/b;-><init>()V
+    invoke-direct {v1}, Lcom/meizu/cloud/pushsdk/f/d;-><init>()V
 
     sget-wide v2, Lcom/meizu/cloud/pushsdk/f/a;->c:J
 

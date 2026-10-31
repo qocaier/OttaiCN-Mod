@@ -6,18 +6,6 @@
 .implements Lcom/google/android/gms/common/internal/ReflectedParcelable;
 
 
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "LocationResultCreator"
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$g;
-    value = {
-        0x3e8
-    }
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
@@ -37,12 +25,6 @@
 
 # instance fields
 .field public final a:Ljava/util/List;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValueUnchecked = "LocationResult.DEFAULT_LOCATIONS"
-        getter = "getLocations"
-        id = 0x1
-    .end annotation
-.end field
 
 
 # direct methods
@@ -58,11 +40,11 @@
 
     .line 4
     .line 5
-    new-instance v0, Lda/d0;
+    new-instance v0, Lj3/m;
 
     .line 6
     .line 7
-    invoke-direct {v0}, Lda/d0;-><init>()V
+    invoke-direct {v0}, Lj3/m;-><init>()V
 
     .line 8
     .line 9
@@ -82,18 +64,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Ljava/util/List;)V
     .locals 0
-    .param p1    # Ljava/util/List;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -124,279 +98,72 @@
     .line 22
     .line 23
     .line 24
-    .line 25
-.end method
-
-.method public static s(Ljava/util/List;)Lcom/google/android/gms/location/LocationResult;
-    .locals 1
-    .param p0    # Ljava/util/List;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/util/List<",
-            "Landroid/location/Location;",
-            ">;)",
-            "Lcom/google/android/gms/location/LocationResult;"
-        }
-    .end annotation
-
-    .line 1
-    if-nez p0, :cond_0
-
-    .line 2
-    .line 3
-    sget-object p0, Lcom/google/android/gms/location/LocationResult;->b:Ljava/util/List;
-
-    .line 4
-    .line 5
-    :cond_0
-    new-instance v0, Lcom/google/android/gms/location/LocationResult;
-
-    .line 6
-    .line 7
-    invoke-direct {v0, p0}, Lcom/google/android/gms/location/LocationResult;-><init>(Ljava/util/List;)V
-
-    .line 8
-    .line 9
-    .line 10
-    return-object v0
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public static t(Landroid/content/Intent;)Lcom/google/android/gms/location/LocationResult;
-    .locals 2
-    .param p0    # Landroid/content/Intent;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .line 1
-    invoke-static {p0}, Lcom/google/android/gms/location/LocationResult;->w(Landroid/content/Intent;)Z
-
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
-
-    .line 5
-    if-nez v0, :cond_0
-
-    .line 6
-    .line 7
-    const/4 p0, 0x0
-
-    .line 8
-    return-object p0
-
-    .line 9
-    :cond_0
-    const-string v0, "com.google.android.gms.location.EXTRA_LOCATION_RESULT_BYTES"
-
-    .line 10
-    .line 11
-    sget-object v1, Lcom/google/android/gms/location/LocationResult;->CREATOR:Landroid/os/Parcelable$Creator;
-
-    .line 12
-    .line 13
-    invoke-static {p0, v0, v1}, Lj9/b;->b(Landroid/content/Intent;Ljava/lang/String;Landroid/os/Parcelable$Creator;)Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable;
-
-    .line 14
-    .line 15
-    .line 16
-    move-result-object v0
-
-    .line 17
-    check-cast v0, Lcom/google/android/gms/location/LocationResult;
-
-    .line 18
-    .line 19
-    if-nez v0, :cond_1
-
-    .line 20
-    .line 21
-    const-string v0, "com.google.android.gms.location.EXTRA_LOCATION_RESULT"
-
-    .line 22
-    .line 23
-    invoke-virtual {p0, v0}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
-
-    .line 24
-    .line 25
-    .line 26
-    move-result-object p0
-
-    .line 27
-    check-cast p0, Lcom/google/android/gms/location/LocationResult;
-
-    .line 28
-    .line 29
-    return-object p0
-
-    .line 30
-    :cond_1
-    return-object v0
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-.end method
-
-.method public static w(Landroid/content/Intent;)Z
-    .locals 2
-    .param p0    # Landroid/content/Intent;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-
-    .line 1
-    const/4 v0, 0x0
-
-    .line 2
-    if-nez p0, :cond_0
-
-    .line 3
-    .line 4
-    return v0
-
-    .line 5
-    :cond_0
-    const-string v1, "com.google.android.gms.location.EXTRA_LOCATION_RESULT"
-
-    .line 6
-    .line 7
-    invoke-virtual {p0, v1}, Landroid/content/Intent;->hasExtra(Ljava/lang/String;)Z
-
-    .line 8
-    .line 9
-    .line 10
-    move-result v1
-
-    .line 11
-    if-nez v1, :cond_2
-
-    .line 12
-    .line 13
-    const-string v1, "com.google.android.gms.location.EXTRA_LOCATION_RESULT_BYTES"
-
-    .line 14
-    .line 15
-    invoke-virtual {p0, v1}, Landroid/content/Intent;->hasExtra(Ljava/lang/String;)Z
-
-    .line 16
-    .line 17
-    .line 18
-    move-result p0
-
-    .line 19
-    if-eqz p0, :cond_1
-
-    .line 20
-    .line 21
-    goto :goto_0
-
-    .line 22
-    :cond_1
-    return v0
-
-    .line 23
-    :cond_2
-    :goto_0
-    const/4 p0, 0x1
-
-    .line 24
-    return p0
-    .line 25
 .end method
 
 
 # virtual methods
+.method public d()Landroid/location/Location;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/location/LocationResult;->a:Ljava/util/List;
+
+    .line 2
+    .line 3
+    invoke-interface {v0}, Ljava/util/List;->size()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    if-nez v0, :cond_0
+
+    .line 8
+    .line 9
+    const/4 v0, 0x0
+
+    .line 10
+    return-object v0
+
+    .line 11
+    :cond_0
+    iget-object v1, p0, Lcom/google/android/gms/location/LocationResult;->a:Ljava/util/List;
+
+    .line 12
+    .line 13
+    add-int/lit8 v0, v0, -0x1
+
+    .line 14
+    .line 15
+    invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object v0
+
+    .line 19
+    check-cast v0, Landroid/location/Location;
+
+    .line 20
+    .line 21
+    return-object v0
+    .line 22
+.end method
+
+.method public e()Ljava/util/List;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/location/LocationResult;->a:Ljava/util/List;
+
+    return-object v0
+.end method
+
 .method public equals(Ljava/lang/Object;)Z
     .locals 8
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
     instance-of v0, p1, Lcom/google/android/gms/location/LocationResult;
@@ -675,7 +442,7 @@
     move-result-object v3
 
     .line 132
-    invoke-static {v2, v3}, Lh9/r;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lt2/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 133
     .line 134
@@ -966,6 +733,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public hashCode()I
@@ -984,7 +783,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Lh9/r;->c([Ljava/lang/Object;)I
+    invoke-static {v0}, Lt2/i;->b([Ljava/lang/Object;)I
 
     .line 8
     .line 9
@@ -1004,13 +803,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 4
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -1026,7 +822,7 @@
     .line 6
     .line 7
     .line 8
-    sget v1, Lda/h0;->d:I
+    sget-object v1, Lj3/q;->a:Ljava/text/DecimalFormat;
 
     .line 9
     .line 10
@@ -1096,7 +892,7 @@
 
     .line 42
     .line 43
-    invoke-static {v2, v0}, Lda/h0;->a(Landroid/location/Location;Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v0}, Lj3/q;->a(Landroid/location/Location;Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
 
     .line 44
     .line 45
@@ -1184,100 +980,13 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-.end method
-
-.method public u()Landroid/location/Location;
-    .locals 2
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/location/LocationResult;->a:Ljava/util/List;
-
-    .line 2
-    .line 3
-    invoke-interface {v0}, Ljava/util/List;->size()I
-
-    .line 4
-    .line 5
-    .line 6
-    move-result v0
-
-    .line 7
-    if-nez v0, :cond_0
-
-    .line 8
-    .line 9
-    const/4 v0, 0x0
-
-    .line 10
-    return-object v0
-
-    .line 11
-    :cond_0
-    iget-object v1, p0, Lcom/google/android/gms/location/LocationResult;->a:Ljava/util/List;
-
-    .line 12
-    .line 13
-    add-int/lit8 v0, v0, -0x1
-
-    .line 14
-    .line 15
-    invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
-
-    .line 16
-    .line 17
-    .line 18
-    move-result-object v0
-
-    .line 19
-    check-cast v0, Landroid/location/Location;
-
-    .line 20
-    .line 21
-    return-object v0
-    .line 22
-    .line 23
-.end method
-
-.method public v()Ljava/util/List;
-    .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Landroid/location/Location;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/location/LocationResult;->a:Ljava/util/List;
-
-    return-object v0
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -1285,7 +994,7 @@
     move-result p2
 
     .line 5
-    invoke-virtual {p0}, Lcom/google/android/gms/location/LocationResult;->v()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/google/android/gms/location/LocationResult;->e()Ljava/util/List;
 
     .line 6
     .line 7
@@ -1299,12 +1008,12 @@
     const/4 v2, 0x1
 
     .line 11
-    invoke-static {p1, v2, v0, v1}, Lj9/a;->d0(Landroid/os/Parcel;ILjava/util/List;Z)V
+    invoke-static {p1, v2, v0, v1}, Lu2/a;->u(Landroid/os/Parcel;ILjava/util/List;Z)V
 
     .line 12
     .line 13
     .line 14
-    invoke-static {p1, p2}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 15
     .line 16
@@ -1353,9 +1062,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

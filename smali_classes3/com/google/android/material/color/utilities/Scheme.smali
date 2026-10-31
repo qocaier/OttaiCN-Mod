@@ -10,9 +10,6 @@
     }
 .end annotation
 
-.annotation runtime Lxb/b;
-.end annotation
-
 
 # instance fields
 .field private background:I
@@ -244,7 +241,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static darkContent(I)Lcom/google/android/material/color/utilities/Scheme;
@@ -283,7 +279,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static darkFromCorePalette(Lcom/google/android/material/color/utilities/CorePalette;)Lcom/google/android/material/color/utilities/Scheme;
@@ -1008,6 +1003,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public static light(I)Lcom/google/android/material/color/utilities/Scheme;
@@ -1046,7 +1073,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static lightContent(I)Lcom/google/android/material/color/utilities/Scheme;
@@ -1085,7 +1111,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static lightFromCorePalette(Lcom/google/android/material/color/utilities/CorePalette;)Lcom/google/android/material/color/utilities/Scheme;
@@ -1816,6 +1841,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 
@@ -2520,6 +2577,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public getBackground()I
@@ -2550,7 +2639,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getError()I
@@ -2581,7 +2669,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getErrorContainer()I
@@ -2612,7 +2699,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInverseOnSurface()I
@@ -2643,7 +2729,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInversePrimary()I
@@ -2674,7 +2759,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInverseSurface()I
@@ -2705,7 +2789,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnBackground()I
@@ -2736,7 +2819,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnError()I
@@ -2767,7 +2849,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnErrorContainer()I
@@ -2798,7 +2879,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnPrimary()I
@@ -2829,7 +2909,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnPrimaryContainer()I
@@ -2860,7 +2939,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnSecondary()I
@@ -2891,7 +2969,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnSecondaryContainer()I
@@ -2922,7 +2999,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnSurface()I
@@ -2953,7 +3029,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnSurfaceVariant()I
@@ -2984,7 +3059,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnTertiary()I
@@ -3015,7 +3089,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnTertiaryContainer()I
@@ -3046,7 +3119,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOutline()I
@@ -3077,7 +3149,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOutlineVariant()I
@@ -3108,7 +3179,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPrimary()I
@@ -3139,7 +3209,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPrimaryContainer()I
@@ -3170,7 +3239,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScrim()I
@@ -3201,7 +3269,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSecondary()I
@@ -3232,7 +3299,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSecondaryContainer()I
@@ -3263,7 +3329,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getShadow()I
@@ -3294,7 +3359,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSurface()I
@@ -3325,7 +3389,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSurfaceVariant()I
@@ -3356,7 +3419,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTertiary()I
@@ -3387,7 +3449,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTertiaryContainer()I
@@ -3418,7 +3479,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hashCode()I
@@ -4264,6 +4324,65 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public setBackground(I)V
@@ -4296,7 +4415,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setError(I)V
@@ -4329,7 +4447,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setErrorContainer(I)V
@@ -4362,7 +4479,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInverseOnSurface(I)V
@@ -4395,7 +4511,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInversePrimary(I)V
@@ -4428,7 +4543,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInverseSurface(I)V
@@ -4461,7 +4575,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnBackground(I)V
@@ -4494,7 +4607,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnError(I)V
@@ -4527,7 +4639,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnErrorContainer(I)V
@@ -4560,7 +4671,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnPrimary(I)V
@@ -4593,7 +4703,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnPrimaryContainer(I)V
@@ -4626,7 +4735,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnSecondary(I)V
@@ -4659,7 +4767,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnSecondaryContainer(I)V
@@ -4692,7 +4799,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnSurface(I)V
@@ -4725,7 +4831,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnSurfaceVariant(I)V
@@ -4758,7 +4863,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnTertiary(I)V
@@ -4791,7 +4895,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnTertiaryContainer(I)V
@@ -4824,7 +4927,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOutline(I)V
@@ -4857,7 +4959,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOutlineVariant(I)V
@@ -4890,7 +4991,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPrimary(I)V
@@ -4923,7 +5023,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPrimaryContainer(I)V
@@ -4956,7 +5055,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScrim(I)V
@@ -4989,7 +5087,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSecondary(I)V
@@ -5022,7 +5119,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSecondaryContainer(I)V
@@ -5055,7 +5151,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setShadow(I)V
@@ -5088,7 +5183,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSurface(I)V
@@ -5121,7 +5215,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSurfaceVariant(I)V
@@ -5154,7 +5247,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTertiary(I)V
@@ -5187,7 +5279,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTertiaryContainer(I)V
@@ -5220,7 +5311,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -6132,12 +6222,69 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
 .method public withBackground(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->background:I
@@ -6166,13 +6313,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withError(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->error:I
@@ -6201,13 +6345,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withErrorContainer(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->errorContainer:I
@@ -6236,13 +6377,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withInverseOnSurface(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->inverseOnSurface:I
@@ -6271,13 +6409,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withInversePrimary(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->inversePrimary:I
@@ -6306,13 +6441,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withInverseSurface(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->inverseSurface:I
@@ -6341,13 +6473,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOnBackground(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->onBackground:I
@@ -6376,13 +6505,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOnError(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->onError:I
@@ -6411,13 +6537,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOnErrorContainer(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->onErrorContainer:I
@@ -6446,13 +6569,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOnPrimary(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->onPrimary:I
@@ -6481,13 +6601,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOnPrimaryContainer(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->onPrimaryContainer:I
@@ -6516,13 +6633,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOnSecondary(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->onSecondary:I
@@ -6551,13 +6665,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOnSecondaryContainer(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->onSecondaryContainer:I
@@ -6586,13 +6697,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOnSurface(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->onSurface:I
@@ -6621,13 +6729,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOnSurfaceVariant(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->onSurfaceVariant:I
@@ -6656,13 +6761,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOnTertiary(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->onTertiary:I
@@ -6691,13 +6793,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOnTertiaryContainer(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->onTertiaryContainer:I
@@ -6726,13 +6825,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOutline(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->outline:I
@@ -6761,13 +6857,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withOutlineVariant(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->outlineVariant:I
@@ -6796,13 +6889,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withPrimary(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->primary:I
@@ -6831,13 +6921,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withPrimaryContainer(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->primaryContainer:I
@@ -6866,13 +6953,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withScrim(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->scrim:I
@@ -6901,13 +6985,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withSecondary(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->secondary:I
@@ -6936,13 +7017,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withSecondaryContainer(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->secondaryContainer:I
@@ -6971,13 +7049,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withShadow(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->shadow:I
@@ -7006,13 +7081,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withSurface(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->surface:I
@@ -7041,13 +7113,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withSurfaceVariant(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->surfaceVariant:I
@@ -7076,13 +7145,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withTertiary(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->tertiary:I
@@ -7111,13 +7177,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public withTertiaryContainer(I)Lcom/google/android/material/color/utilities/Scheme;
     .locals 0
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     iput p1, p0, Lcom/google/android/material/color/utilities/Scheme;->tertiaryContainer:I
@@ -7146,5 +7209,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

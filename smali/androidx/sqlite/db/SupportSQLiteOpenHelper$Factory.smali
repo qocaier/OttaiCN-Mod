@@ -16,10 +16,4 @@
 
 # virtual methods
 .method public abstract create(Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration;)Landroidx/sqlite/db/SupportSQLiteOpenHelper;
-    .param p1    # Landroidx/sqlite/db/SupportSQLiteOpenHelper$Configuration;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 .end method

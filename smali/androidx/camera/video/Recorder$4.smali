@@ -156,6 +156,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -235,6 +238,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onEncodedData(Landroidx/camera/video/internal/encoder/EncodedData;)V
@@ -638,6 +642,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public onOutputConfigUpdate(Landroidx/camera/video/internal/encoder/OutputConfig;)V

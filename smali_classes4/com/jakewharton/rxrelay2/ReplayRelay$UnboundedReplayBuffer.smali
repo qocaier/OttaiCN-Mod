@@ -2,9 +2,6 @@
 .super Ljava/util/concurrent/atomic/AtomicReference;
 .source "SourceFile"
 
-# interfaces
-.implements Lcom/jakewharton/rxrelay2/ReplayRelay$a;
-
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
@@ -23,9 +20,7 @@
         ">",
         "Ljava/util/concurrent/atomic/AtomicReference<",
         "Ljava/lang/Object;",
-        ">;",
-        "Lcom/jakewharton/rxrelay2/ReplayRelay$a<",
-        "TT;>;"
+        ">;"
     }
 .end annotation
 
@@ -96,6 +91,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -144,6 +141,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getValue()Ljava/lang/Object;
@@ -152,9 +151,6 @@
         value = {
             "()TT;"
         }
-    .end annotation
-
-    .annotation build Lek/f;
     .end annotation
 
     .line 1
@@ -195,6 +191,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getValues([Ljava/lang/Object;)[Ljava/lang/Object;
@@ -350,6 +348,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public replay(Lcom/jakewharton/rxrelay2/ReplayRelay$ReplayDisposable;)V
@@ -383,7 +383,7 @@
 
     .line 9
     .line 10
-    iget-object v1, p1, Lcom/jakewharton/rxrelay2/ReplayRelay$ReplayDisposable;->downstream:Ldk/g0;
+    iget-object v1, p1, Lcom/jakewharton/rxrelay2/ReplayRelay$ReplayDisposable;->downstream:Lb8/o;
 
     .line 11
     .line 12
@@ -483,7 +483,7 @@
     move-result-object v6
 
     .line 54
-    invoke-interface {v1, v6}, Ldk/g0;->onNext(Ljava/lang/Object;)V
+    invoke-interface {v1, v6}, Lb8/o;->onNext(Ljava/lang/Object;)V
 
     .line 55
     .line 56
@@ -543,6 +543,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public size()I
@@ -571,6 +573,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public trimHead()V

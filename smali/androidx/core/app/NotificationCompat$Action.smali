@@ -297,6 +297,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAllowGeneratedReplies()Z
@@ -325,6 +326,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDataOnlyRemoteInputs()[Landroidx/core/app/RemoteInput;
@@ -353,6 +355,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExtras()Landroid/os/Bundle;
@@ -381,6 +384,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIcon()I
@@ -411,6 +415,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIconCompat()Landroidx/core/graphics/drawable/IconCompat;
@@ -458,6 +463,7 @@
     .line 19
     .line 20
     return-object v0
+    .line 21
 .end method
 
 .method public getRemoteInputs()[Landroidx/core/app/RemoteInput;
@@ -486,6 +492,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSemanticAction()I
@@ -514,6 +521,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getShowsUserInterface()Z
@@ -542,6 +550,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTitle()Ljava/lang/CharSequence;
@@ -570,6 +579,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isAuthenticationRequired()Z
@@ -598,6 +608,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isContextual()Z
@@ -626,4 +637,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

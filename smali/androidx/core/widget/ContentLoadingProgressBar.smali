@@ -58,16 +58,16 @@
     iput-boolean v0, p0, Landroidx/core/widget/ContentLoadingProgressBar;->mDismissed:Z
 
     .line 7
-    new-instance p1, Li1/a;
+    new-instance p1, Landroidx/core/widget/a;
 
-    invoke-direct {p1, p0}, Li1/a;-><init>(Landroidx/core/widget/ContentLoadingProgressBar;)V
+    invoke-direct {p1, p0}, Landroidx/core/widget/a;-><init>(Landroidx/core/widget/ContentLoadingProgressBar;)V
 
     iput-object p1, p0, Landroidx/core/widget/ContentLoadingProgressBar;->mDelayedHide:Ljava/lang/Runnable;
 
     .line 8
-    new-instance p1, Li1/b;
+    new-instance p1, Landroidx/core/widget/b;
 
-    invoke-direct {p1, p0}, Li1/b;-><init>(Landroidx/core/widget/ContentLoadingProgressBar;)V
+    invoke-direct {p1, p0}, Landroidx/core/widget/b;-><init>(Landroidx/core/widget/ContentLoadingProgressBar;)V
 
     iput-object p1, p0, Landroidx/core/widget/ContentLoadingProgressBar;->mDelayedShow:Ljava/lang/Runnable;
 
@@ -329,6 +329,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private removeCallbacks()V
@@ -363,6 +365,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private showOnUiThread()V
@@ -484,6 +487,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -492,11 +497,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Li1/d;
+    new-instance v0, Landroidx/core/widget/d;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Li1/d;-><init>(Landroidx/core/widget/ContentLoadingProgressBar;)V
+    invoke-direct {v0, p0}, Landroidx/core/widget/d;-><init>(Landroidx/core/widget/ContentLoadingProgressBar;)V
 
     .line 4
     .line 5
@@ -518,6 +523,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onAttachedToWindow()V
@@ -548,6 +554,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onDetachedFromWindow()V
@@ -578,17 +585,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public show()V
     .locals 1
 
     .line 1
-    new-instance v0, Li1/c;
+    new-instance v0, Landroidx/core/widget/c;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Li1/c;-><init>(Landroidx/core/widget/ContentLoadingProgressBar;)V
+    invoke-direct {v0, p0}, Landroidx/core/widget/c;-><init>(Landroidx/core/widget/ContentLoadingProgressBar;)V
 
     .line 4
     .line 5
@@ -610,4 +618,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

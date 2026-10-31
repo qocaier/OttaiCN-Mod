@@ -53,7 +53,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic a(Lcom/baidu/platform/comapi/cache/sp/SpStorageService$a;)Landroid/content/SharedPreferences$Editor;
@@ -104,5 +103,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -5,6 +5,4 @@
 
 # virtual methods
 .method public abstract getFullyDrawnReporter()Landroidx/activity/FullyDrawnReporter;
-    .annotation build Lsq/k;
-    .end annotation
 .end method

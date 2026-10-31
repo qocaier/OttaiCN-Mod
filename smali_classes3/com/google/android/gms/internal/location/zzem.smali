@@ -3,18 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "RemoveGeofencingRequestCreator"
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$g;
-    value = {
-        0x3e8
-    }
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation system Ldalvik/annotation/Signature;
@@ -29,38 +17,19 @@
 
 # instance fields
 .field public final a:Ljava/util/List;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getGeofenceIds"
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:Landroid/app/PendingIntent;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getPendingIntent"
-        id = 0x2
-    .end annotation
-.end field
 
 .field public final c:Ljava/lang/String;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValue = ""
-        getter = "getTag"
-        id = 0x3
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lba/m3;
+    new-instance v0, Lcom/google/android/gms/internal/location/j0;
 
-    invoke-direct {v0}, Lba/m3;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/internal/location/j0;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/internal/location/zzem;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -69,29 +38,6 @@
 
 .method public constructor <init>(Ljava/util/List;Landroid/app/PendingIntent;Ljava/lang/String;)V
     .locals 0
-    .param p1    # Ljava/util/List;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # Landroid/app/PendingIntent;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x3
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -263,107 +209,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
-.end method
-
-.method public static s(Ljava/util/List;)Lcom/google/android/gms/internal/location/zzem;
-    .locals 3
-
-    .line 1
-    const-string v0, "geofence can\'t be null."
-
-    .line 2
-    .line 3
-    invoke-static {p0, v0}, Lh9/t;->s(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 4
-    .line 5
-    .line 6
-    invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
-
-    .line 7
-    .line 8
-    .line 9
-    move-result v0
-
-    .line 10
-    xor-int/lit8 v0, v0, 0x1
-
-    .line 11
-    .line 12
-    const-string v1, "Geofences must contains at least one id."
-
-    .line 13
-    .line 14
-    invoke-static {v0, v1}, Lh9/t;->b(ZLjava/lang/Object;)V
-
-    .line 15
-    .line 16
-    .line 17
-    new-instance v0, Lcom/google/android/gms/internal/location/zzem;
-
-    .line 18
-    .line 19
-    const/4 v1, 0x0
-
-    .line 20
-    const-string v2, ""
-
-    .line 21
-    .line 22
-    invoke-direct {v0, p0, v1, v2}, Lcom/google/android/gms/internal/location/zzem;-><init>(Ljava/util/List;Landroid/app/PendingIntent;Ljava/lang/String;)V
-
-    .line 23
-    .line 24
-    .line 25
-    return-object v0
-.end method
-
-.method public static t(Landroid/app/PendingIntent;)Lcom/google/android/gms/internal/location/zzem;
-    .locals 3
-
-    .line 1
-    const-string v0, "PendingIntent can not be null."
-
-    .line 2
-    .line 3
-    invoke-static {p0, v0}, Lh9/t;->s(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 4
-    .line 5
-    .line 6
-    new-instance v0, Lcom/google/android/gms/internal/location/zzem;
-
-    .line 7
-    .line 8
-    const/4 v1, 0x0
-
-    .line 9
-    const-string v2, ""
-
-    .line 10
-    .line 11
-    invoke-direct {v0, v1, p0, v2}, Lcom/google/android/gms/internal/location/zzem;-><init>(Ljava/util/List;Landroid/app/PendingIntent;Ljava/lang/String;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-object v0
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
 
@@ -376,7 +221,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 4
     .line 5
@@ -390,7 +235,7 @@
     const/4 v3, 0x0
 
     .line 9
-    invoke-static {p1, v2, v0, v3}, Lj9/a;->a0(Landroid/os/Parcel;ILjava/util/List;Z)V
+    invoke-static {p1, v2, v0, v3}, Lu2/a;->s(Landroid/os/Parcel;ILjava/util/List;Z)V
 
     .line 10
     .line 11
@@ -402,7 +247,7 @@
 
     .line 14
     .line 15
-    invoke-static {p1, v0, v2, p2, v3}, Lj9/a;->S(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v0, v2, p2, v3}, Lu2/a;->o(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 16
     .line 17
@@ -414,12 +259,12 @@
 
     .line 20
     .line 21
-    invoke-static {p1, p2, v0, v3}, Lj9/a;->Y(Landroid/os/Parcel;ILjava/lang/String;Z)V
+    invoke-static {p1, p2, v0, v3}, Lu2/a;->q(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
     .line 22
     .line 23
     .line 24
-    invoke-static {p1, v1}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, v1}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 25
     .line 26
@@ -458,9 +303,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

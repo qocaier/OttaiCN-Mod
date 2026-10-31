@@ -101,6 +101,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getItem(I)Ljava/lang/Object;
@@ -144,6 +146,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getItemId(I)J
@@ -383,11 +387,11 @@
 
     .line 112
     .line 113
-    new-instance v0, Lcom/qiyukf/ke0;
+    new-instance v0, Lcom/qiyukf/jh0;
 
     .line 114
     .line 115
-    invoke-direct {v0, p0, p1}, Lcom/qiyukf/ke0;-><init>(Lcom/qiyukf/z4$e;Lcom/qiyukf/unicorn/protocol/attach/model/ConsultancyItem;)V
+    invoke-direct {v0, p0, p1}, Lcom/qiyukf/jh0;-><init>(Lcom/qiyukf/z4$e;Lcom/qiyukf/unicorn/protocol/attach/model/ConsultancyItem;)V
 
     .line 116
     .line 117
@@ -402,9 +406,4 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method

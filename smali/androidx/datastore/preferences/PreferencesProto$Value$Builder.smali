@@ -84,6 +84,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearBytes()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -118,6 +119,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearDouble()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -152,6 +154,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearFloat()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -186,6 +189,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearInteger()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -220,6 +224,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearLong()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -254,6 +259,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearString()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -288,6 +294,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearStringSet()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -322,6 +329,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearValue()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -356,6 +364,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBoolean()Z
@@ -390,6 +399,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -424,6 +434,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDouble()D
@@ -458,6 +469,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFloat()F
@@ -492,6 +504,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInteger()I
@@ -526,6 +539,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLong()J
@@ -560,6 +574,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getString()Ljava/lang/String;
@@ -594,6 +609,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStringBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -628,6 +644,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStringSet()Landroidx/datastore/preferences/PreferencesProto$StringSet;
@@ -662,6 +679,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getValueCase()Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
@@ -696,6 +714,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasBoolean()Z
@@ -730,6 +749,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasBytes()Z
@@ -764,6 +784,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasDouble()Z
@@ -798,6 +819,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasFloat()Z
@@ -832,6 +854,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasInteger()Z
@@ -866,6 +889,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasLong()Z
@@ -900,6 +924,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasString()Z
@@ -934,6 +959,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasStringSet()Z
@@ -968,6 +994,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mergeStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet;)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;

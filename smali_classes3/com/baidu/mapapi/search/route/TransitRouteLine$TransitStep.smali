@@ -82,7 +82,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -222,7 +221,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExit()Lcom/baidu/mapapi/search/core/RouteNode;
@@ -253,7 +251,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInstructions()Ljava/lang/String;
@@ -284,7 +281,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStepType()Lcom/baidu/mapapi/search/route/TransitRouteLine$TransitStep$TransitRouteStepType;
@@ -315,7 +311,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getVehicleInfo()Lcom/baidu/mapapi/search/core/VehicleInfo;
@@ -346,7 +341,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWayPoints()Ljava/util/List;
@@ -398,7 +392,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setEntrace(Lcom/baidu/mapapi/search/core/RouteNode;)V
@@ -431,7 +424,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExit(Lcom/baidu/mapapi/search/core/RouteNode;)V
@@ -464,7 +456,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInstructions(Ljava/lang/String;)V
@@ -497,7 +488,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPathString(Ljava/lang/String;)V
@@ -530,7 +520,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStepType(Lcom/baidu/mapapi/search/route/TransitRouteLine$TransitStep$TransitRouteStepType;)V
@@ -563,7 +552,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVehicleInfo(Lcom/baidu/mapapi/search/core/VehicleInfo;)V
@@ -596,7 +584,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -703,9 +690,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

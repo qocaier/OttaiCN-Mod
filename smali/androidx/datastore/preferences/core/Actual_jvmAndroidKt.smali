@@ -14,10 +14,6 @@
 # direct methods
 .method public static final immutableCopyOfSet(Ljava/util/Set;)Ljava/util/Set;
     .locals 1
-    .param p0    # Ljava/util/Set;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -30,20 +26,17 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "set"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0}, Lll/r0;->f6(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {p0}, Lkotlin/collections/z;->j0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 7
     .line 8
@@ -63,7 +56,7 @@
 
     .line 15
     .line 16
-    invoke-static {p0, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -79,10 +72,6 @@
 
 .method public static final immutableMap(Ljava/util/Map;)Ljava/util/Map;
     .locals 1
-    .param p0    # Ljava/util/Map;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -97,15 +86,12 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
     const-string v0, "map"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -122,7 +108,7 @@
 
     .line 11
     .line 12
-    invoke-static {p0, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -140,13 +126,11 @@
     .line 25
 .end method
 
-.method public static final ioDispatcher()Lfn/f0;
+.method public static final ioDispatcher()Lkotlinx/coroutines/h0;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    invoke-static {}, Lfn/t0;->c()Lfn/f0;
+    invoke-static {}, Lkotlinx/coroutines/v0;->b()Lkotlinx/coroutines/h0;
 
     .line 2
     .line 3
@@ -170,4 +154,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

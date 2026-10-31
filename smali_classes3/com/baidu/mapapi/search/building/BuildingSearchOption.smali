@@ -36,7 +36,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -69,7 +68,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setLatLng(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/search/building/BuildingSearchOption;
@@ -102,5 +100,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

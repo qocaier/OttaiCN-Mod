@@ -202,11 +202,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
@@ -371,15 +366,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getView()Landroid/view/View;
@@ -425,7 +411,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onCreate(Landroidx/lifecycle/LifecycleOwner;)V
@@ -491,7 +476,6 @@
     return-void
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onPause(Landroidx/lifecycle/LifecycleOwner;)V
@@ -537,7 +521,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onResume(Landroidx/lifecycle/LifecycleOwner;)V
@@ -583,7 +566,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onStart(Landroidx/lifecycle/LifecycleOwner;)V

@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static build(Landroid/media/AudioAttributes$Builder;)Landroid/media/AudioAttributes;
@@ -110,6 +111,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static setContentType(Landroid/media/AudioAttributes$Builder;I)Landroid/media/AudioAttributes$Builder;

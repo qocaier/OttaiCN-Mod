@@ -173,6 +173,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBottom()I
@@ -203,6 +204,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCustomAttribute(Ljava/lang/String;)Landroidx/constraintlayout/core/motion/CustomVariable;
@@ -280,6 +282,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeight()I
@@ -314,6 +317,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getId(Ljava/lang/String;)I
@@ -390,6 +394,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -422,6 +427,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getParent()Landroidx/constraintlayout/core/motion/MotionWidget;
@@ -460,6 +466,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPivotY()F
@@ -490,6 +497,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRight()I
@@ -520,6 +528,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRotationX()F
@@ -550,6 +559,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRotationY()F
@@ -580,6 +590,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRotationZ()F
@@ -610,6 +621,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getScaleX()F
@@ -640,6 +652,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getScaleY()F
@@ -670,6 +683,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTop()I
@@ -700,6 +714,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTranslationX()F
@@ -730,6 +745,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTranslationY()F
@@ -760,6 +776,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTranslationZ()F
@@ -790,6 +807,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getValueAttributes(I)F
@@ -986,6 +1004,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getVisibility()I
@@ -1016,6 +1035,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWidgetFrame()Landroidx/constraintlayout/core/state/WidgetFrame;
@@ -1044,6 +1064,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWidth()I
@@ -1078,6 +1099,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getX()I
@@ -1108,6 +1130,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getY()I
@@ -1138,6 +1161,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public layout(IIII)V
@@ -1376,6 +1400,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setBounds(IIII)V
@@ -1635,6 +1665,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setCustomAttribute(Ljava/lang/String;IF)V
@@ -2505,6 +2541,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setValueMotion(IF)Z
@@ -2840,4 +2879,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

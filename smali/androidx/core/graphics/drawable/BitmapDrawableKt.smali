@@ -6,16 +6,6 @@
 # direct methods
 .method public static final toDrawable(Landroid/graphics/Bitmap;Landroid/content/res/Resources;)Landroid/graphics/drawable/BitmapDrawable;
     .locals 1
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/content/res/Resources;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroid/graphics/drawable/BitmapDrawable;

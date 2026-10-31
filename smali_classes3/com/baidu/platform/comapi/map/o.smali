@@ -40,7 +40,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static a()Ljava/lang/String;
@@ -81,5 +80,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

@@ -38,11 +38,11 @@
     .line 4
     .line 5
     .line 6
-    new-instance p1, Lcom/google/android/material/sidesheet/b;
+    new-instance p1, Lcom/google/android/material/sidesheet/e;
 
     .line 7
     .line 8
-    invoke-direct {p1, p0}, Lcom/google/android/material/sidesheet/b;-><init>(Lcom/google/android/material/sidesheet/SideSheetBehavior$StateSettlingTracker;)V
+    invoke-direct {p1, p0}, Lcom/google/android/material/sidesheet/e;-><init>(Lcom/google/android/material/sidesheet/SideSheetBehavior$StateSettlingTracker;)V
 
     .line 9
     .line 10
@@ -63,7 +63,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic a(Lcom/google/android/material/sidesheet/SideSheetBehavior$StateSettlingTracker;)V
@@ -211,8 +210,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -363,6 +360,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

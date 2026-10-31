@@ -440,6 +440,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$200(Lcom/qiyukf/nim/highavailable/HighAvailable$HighAvailableEnvironmentSettings;)Ljava/lang/String;
@@ -473,6 +475,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$300(Lcom/qiyukf/nim/highavailable/HighAvailable$HighAvailableEnvironmentSettings;)Ljava/lang/String;
@@ -506,6 +510,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$400(Lcom/qiyukf/nim/highavailable/HighAvailable$HighAvailableEnvironmentSettings;)Ljava/lang/String;
@@ -539,6 +545,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$500(Lcom/qiyukf/nim/highavailable/HighAvailable$HighAvailableEnvironmentSettings;)I
@@ -572,6 +580,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$600(Lcom/qiyukf/nim/highavailable/HighAvailable$HighAvailableEnvironmentSettings;)I
@@ -605,6 +615,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$700(Lcom/qiyukf/nim/highavailable/HighAvailable$HighAvailableEnvironmentSettings;)I
@@ -638,6 +650,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$800(Lcom/qiyukf/nim/highavailable/HighAvailable$HighAvailableEnvironmentSettings;)Ljava/lang/String;
@@ -671,6 +685,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static synthetic access$900(Lcom/qiyukf/nim/highavailable/HighAvailable$HighAvailableEnvironmentSettings;)Ljava/lang/String;
@@ -704,4 +720,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

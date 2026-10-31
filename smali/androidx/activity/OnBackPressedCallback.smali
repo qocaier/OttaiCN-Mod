@@ -3,18 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOnBackPressedCallback.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnBackPressedCallback.kt\nandroidx/activity/OnBackPressedCallback\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,115:1\n1855#2,2:116\n*S KotlinDebug\n*F\n+ 1 OnBackPressedCallback.kt\nandroidx/activity/OnBackPressedCallback\n*L\n67#1:116,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nOnBackPressedCallback.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OnBackPressedCallback.kt\nandroidx/activity/OnBackPressedCallback\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,115:1\n1855#2,2:116\n*S KotlinDebug\n*F\n+ 1 OnBackPressedCallback.kt\nandroidx/activity/OnBackPressedCallback\n*L\n67#1:116,2\n*E\n"
-    }
-.end annotation
-
-
 # instance fields
 .field private final cancellables:Ljava/util/concurrent/CopyOnWriteArrayList;
     .annotation system Ldalvik/annotation/Signature;
@@ -24,21 +12,13 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
-.field private enabledChangedCallback:Ljm/a;
+.field private enabledChangedCallback:Lq8/a;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/a;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end field
 
@@ -91,20 +71,13 @@
 # virtual methods
 .method public final addCancellable(Landroidx/activity/Cancellable;)V
     .locals 1
-    .param p1    # Landroidx/activity/Cancellable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/j;
-        name = "addCancellable"
-    .end annotation
 
     .line 1
     const-string v0, "cancellable"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -135,22 +108,17 @@
     .line 25
 .end method
 
-.method public final getEnabledChangedCallback$activity_release()Ljm/a;
+.method public final getEnabledChangedCallback$activity_release()Lq8/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;"
+            "Lq8/a;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Ljm/a;
+    iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lq8/a;
 
     .line 2
     .line 3
@@ -172,6 +140,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public handleOnBackCancelled()V
@@ -189,32 +158,24 @@
 
 .method public handleOnBackProgressed(Landroidx/activity/BackEventCompat;)V
     .locals 1
-    .param p1    # Landroidx/activity/BackEventCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
 
 .method public handleOnBackStarted(Landroidx/activity/BackEventCompat;)V
     .locals 1
-    .param p1    # Landroidx/activity/BackEventCompat;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/MainThread;
     .end annotation
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -247,6 +208,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final remove()V
@@ -363,24 +325,19 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final removeCancellable(Landroidx/activity/Cancellable;)V
     .locals 1
-    .param p1    # Landroidx/activity/Cancellable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lim/j;
-        name = "removeCancellable"
-    .end annotation
 
     .line 1
     const-string v0, "cancellable"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -421,7 +378,7 @@
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Ljm/a;
+    iget-object p1, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lq8/a;
 
     .line 4
     .line 5
@@ -429,7 +386,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p1}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -453,23 +410,18 @@
     .line 25
 .end method
 
-.method public final setEnabledChangedCallback$activity_release(Ljm/a;)V
+.method public final setEnabledChangedCallback$activity_release(Lq8/a;)V
     .locals 0
-    .param p1    # Ljm/a;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/a;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Ljm/a;
+    iput-object p1, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lq8/a;
 
     .line 2
     .line 3

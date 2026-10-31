@@ -11,10 +11,10 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 7
+    .locals 10
 
-    .line 852
-    invoke-static {}, Lj$/time/temporal/ChronoUnit;->values()[Lj$/time/temporal/ChronoUnit;
+    .line 1262
+    invoke-static {}, Lj$/time/temporal/b;->values()[Lj$/time/temporal/b;
 
     move-result-object v0
 
@@ -27,7 +27,7 @@
     const/4 v1, 0x1
 
     :try_start_0
-    sget-object v2, Lj$/time/temporal/ChronoUnit;->NANOS:Lj$/time/temporal/ChronoUnit;
+    sget-object v2, Lj$/time/temporal/b;->DAYS:Lj$/time/temporal/b;
 
     invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
@@ -43,7 +43,7 @@
     :try_start_1
     sget-object v2, Lj$/time/f;->b:[I
 
-    sget-object v3, Lj$/time/temporal/ChronoUnit;->MICROS:Lj$/time/temporal/ChronoUnit;
+    sget-object v3, Lj$/time/temporal/b;->WEEKS:Lj$/time/temporal/b;
 
     invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 
@@ -59,7 +59,7 @@
     :try_start_2
     sget-object v3, Lj$/time/f;->b:[I
 
-    sget-object v4, Lj$/time/temporal/ChronoUnit;->MILLIS:Lj$/time/temporal/ChronoUnit;
+    sget-object v4, Lj$/time/temporal/b;->MONTHS:Lj$/time/temporal/b;
 
     invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
@@ -75,7 +75,7 @@
     :try_start_3
     sget-object v4, Lj$/time/f;->b:[I
 
-    sget-object v5, Lj$/time/temporal/ChronoUnit;->SECONDS:Lj$/time/temporal/ChronoUnit;
+    sget-object v5, Lj$/time/temporal/b;->YEARS:Lj$/time/temporal/b;
 
     invoke-virtual {v5}, Ljava/lang/Enum;->ordinal()I
 
@@ -86,89 +86,89 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_3 .. :try_end_3} :catch_3
 
     :catch_3
+    const/4 v4, 0x5
+
     :try_start_4
-    sget-object v4, Lj$/time/f;->b:[I
+    sget-object v5, Lj$/time/f;->b:[I
 
-    sget-object v5, Lj$/time/temporal/ChronoUnit;->MINUTES:Lj$/time/temporal/ChronoUnit;
+    sget-object v6, Lj$/time/temporal/b;->DECADES:Lj$/time/temporal/b;
 
-    invoke-virtual {v5}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v6}, Ljava/lang/Enum;->ordinal()I
 
-    move-result v5
+    move-result v6
 
-    const/4 v6, 0x5
-
-    aput v6, v4, v5
+    aput v4, v5, v6
     :try_end_4
     .catch Ljava/lang/NoSuchFieldError; {:try_start_4 .. :try_end_4} :catch_4
 
     :catch_4
+    const/4 v5, 0x6
+
     :try_start_5
-    sget-object v4, Lj$/time/f;->b:[I
+    sget-object v6, Lj$/time/f;->b:[I
 
-    sget-object v5, Lj$/time/temporal/ChronoUnit;->HOURS:Lj$/time/temporal/ChronoUnit;
+    sget-object v7, Lj$/time/temporal/b;->CENTURIES:Lj$/time/temporal/b;
 
-    invoke-virtual {v5}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v7}, Ljava/lang/Enum;->ordinal()I
 
-    move-result v5
+    move-result v7
 
-    const/4 v6, 0x6
-
-    aput v6, v4, v5
+    aput v5, v6, v7
     :try_end_5
     .catch Ljava/lang/NoSuchFieldError; {:try_start_5 .. :try_end_5} :catch_5
 
     :catch_5
-    :try_start_6
-    sget-object v4, Lj$/time/f;->b:[I
-
-    sget-object v5, Lj$/time/temporal/ChronoUnit;->HALF_DAYS:Lj$/time/temporal/ChronoUnit;
-
-    invoke-virtual {v5}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v5
-
     const/4 v6, 0x7
 
-    aput v6, v4, v5
+    :try_start_6
+    sget-object v7, Lj$/time/f;->b:[I
+
+    sget-object v8, Lj$/time/temporal/b;->MILLENNIA:Lj$/time/temporal/b;
+
+    invoke-virtual {v8}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v8
+
+    aput v6, v7, v8
     :try_end_6
     .catch Ljava/lang/NoSuchFieldError; {:try_start_6 .. :try_end_6} :catch_6
 
     :catch_6
+    const/16 v7, 0x8
+
     :try_start_7
-    sget-object v4, Lj$/time/f;->b:[I
+    sget-object v8, Lj$/time/f;->b:[I
 
-    sget-object v5, Lj$/time/temporal/ChronoUnit;->DAYS:Lj$/time/temporal/ChronoUnit;
+    sget-object v9, Lj$/time/temporal/b;->ERAS:Lj$/time/temporal/b;
 
-    invoke-virtual {v5}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v9}, Ljava/lang/Enum;->ordinal()I
 
-    move-result v5
+    move-result v9
 
-    const/16 v6, 0x8
-
-    aput v6, v4, v5
+    aput v7, v8, v9
     :try_end_7
     .catch Ljava/lang/NoSuchFieldError; {:try_start_7 .. :try_end_7} :catch_7
 
-    .line 560
+    .line 606
     :catch_7
     invoke-static {}, Lj$/time/temporal/a;->values()[Lj$/time/temporal/a;
 
-    move-result-object v4
+    move-result-object v8
 
-    array-length v4, v4
+    array-length v8, v8
 
-    new-array v4, v4, [I
+    new-array v8, v8, [I
 
-    sput-object v4, Lj$/time/f;->a:[I
+    sput-object v8, Lj$/time/f;->a:[I
 
     :try_start_8
-    sget-object v5, Lj$/time/temporal/a;->NANO_OF_SECOND:Lj$/time/temporal/a;
+    sget-object v9, Lj$/time/temporal/a;->DAY_OF_MONTH:Lj$/time/temporal/a;
 
-    invoke-virtual {v5}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v9}, Ljava/lang/Enum;->ordinal()I
 
-    move-result v5
+    move-result v9
 
-    aput v1, v4, v5
+    aput v1, v8, v9
     :try_end_8
     .catch Ljava/lang/NoSuchFieldError; {:try_start_8 .. :try_end_8} :catch_8
 
@@ -176,13 +176,13 @@
     :try_start_9
     sget-object v1, Lj$/time/f;->a:[I
 
-    sget-object v4, Lj$/time/temporal/a;->MICRO_OF_SECOND:Lj$/time/temporal/a;
+    sget-object v8, Lj$/time/temporal/a;->DAY_OF_YEAR:Lj$/time/temporal/a;
 
-    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
+    invoke-virtual {v8}, Ljava/lang/Enum;->ordinal()I
 
-    move-result v4
+    move-result v8
 
-    aput v0, v1, v4
+    aput v0, v1, v8
     :try_end_9
     .catch Ljava/lang/NoSuchFieldError; {:try_start_9 .. :try_end_9} :catch_9
 
@@ -190,7 +190,7 @@
     :try_start_a
     sget-object v0, Lj$/time/f;->a:[I
 
-    sget-object v1, Lj$/time/temporal/a;->MILLI_OF_SECOND:Lj$/time/temporal/a;
+    sget-object v1, Lj$/time/temporal/a;->ALIGNED_WEEK_OF_MONTH:Lj$/time/temporal/a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -204,7 +204,7 @@
     :try_start_b
     sget-object v0, Lj$/time/f;->a:[I
 
-    sget-object v1, Lj$/time/temporal/a;->INSTANT_SECONDS:Lj$/time/temporal/a;
+    sget-object v1, Lj$/time/temporal/a;->YEAR_OF_ERA:Lj$/time/temporal/a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -215,5 +215,141 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_b .. :try_end_b} :catch_b
 
     :catch_b
+    :try_start_c
+    sget-object v0, Lj$/time/f;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->DAY_OF_WEEK:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    aput v4, v0, v1
+    :try_end_c
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_c .. :try_end_c} :catch_c
+
+    :catch_c
+    :try_start_d
+    sget-object v0, Lj$/time/f;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->ALIGNED_DAY_OF_WEEK_IN_MONTH:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    aput v5, v0, v1
+    :try_end_d
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_d .. :try_end_d} :catch_d
+
+    :catch_d
+    :try_start_e
+    sget-object v0, Lj$/time/f;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->ALIGNED_DAY_OF_WEEK_IN_YEAR:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    aput v6, v0, v1
+    :try_end_e
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_e .. :try_end_e} :catch_e
+
+    :catch_e
+    :try_start_f
+    sget-object v0, Lj$/time/f;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->EPOCH_DAY:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    aput v7, v0, v1
+    :try_end_f
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_f .. :try_end_f} :catch_f
+
+    :catch_f
+    :try_start_10
+    sget-object v0, Lj$/time/f;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->ALIGNED_WEEK_OF_YEAR:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/16 v2, 0x9
+
+    aput v2, v0, v1
+    :try_end_10
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_10 .. :try_end_10} :catch_10
+
+    :catch_10
+    :try_start_11
+    sget-object v0, Lj$/time/f;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->MONTH_OF_YEAR:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/16 v2, 0xa
+
+    aput v2, v0, v1
+    :try_end_11
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_11 .. :try_end_11} :catch_11
+
+    :catch_11
+    :try_start_12
+    sget-object v0, Lj$/time/f;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->PROLEPTIC_MONTH:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/16 v2, 0xb
+
+    aput v2, v0, v1
+    :try_end_12
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_12 .. :try_end_12} :catch_12
+
+    :catch_12
+    :try_start_13
+    sget-object v0, Lj$/time/f;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->YEAR:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/16 v2, 0xc
+
+    aput v2, v0, v1
+    :try_end_13
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_13 .. :try_end_13} :catch_13
+
+    :catch_13
+    :try_start_14
+    sget-object v0, Lj$/time/f;->a:[I
+
+    sget-object v1, Lj$/time/temporal/a;->ERA:Lj$/time/temporal/a;
+
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v1
+
+    const/16 v2, 0xd
+
+    aput v2, v0, v1
+    :try_end_14
+    .catch Ljava/lang/NoSuchFieldError; {:try_start_14 .. :try_end_14} :catch_14
+
+    :catch_14
     return-void
 .end method

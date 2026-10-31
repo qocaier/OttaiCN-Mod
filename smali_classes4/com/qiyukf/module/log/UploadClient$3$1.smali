@@ -64,6 +64,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -103,6 +105,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onFailed(I)V
@@ -152,6 +156,8 @@
     return-void
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onSuccess(Ljava/lang/Integer;)V

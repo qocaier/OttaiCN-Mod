@@ -37,6 +37,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -153,7 +155,7 @@
     if-eqz v0, :cond_4
 
     .line 11
-    const-string p1, "\u81ea\u5b9a\u4e49\u6d88\u606f"
+    const-string/jumbo p1, "\u81ea\u5b9a\u4e49\u6d88\u606f"
 
     return-object p1
 

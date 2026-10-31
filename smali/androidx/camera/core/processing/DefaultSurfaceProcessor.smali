@@ -221,20 +221,20 @@
     move-result-object p1
 
     .line 8
-    new-instance p2, Landroidx/camera/core/processing/a;
+    new-instance p2, Landroidx/camera/core/processing/c;
 
     .line 9
     .line 10
-    invoke-direct {p2, p0, p1}, Landroidx/camera/core/processing/a;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/processing/DefaultSurfaceProcessor$PendingSnapshot;)V
+    invoke-direct {p2, p0, p1}, Landroidx/camera/core/processing/c;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/processing/DefaultSurfaceProcessor$PendingSnapshot;)V
 
     .line 11
     .line 12
     .line 13
-    new-instance p1, Lz/c;
+    new-instance p1, Landroidx/camera/core/processing/d;
 
     .line 14
     .line 15
-    invoke-direct {p1, p3}, Lz/c;-><init>(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+    invoke-direct {p1, p3}, Landroidx/camera/core/processing/d;-><init>(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
 
     .line 16
     .line 17
@@ -456,6 +456,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic c(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/SurfaceOutput;Landroidx/camera/core/SurfaceOutput$Event;)V
@@ -594,6 +600,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private checkReadyToRelease()V
@@ -769,6 +778,8 @@
     :cond_2
     return-void
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static synthetic d(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/SurfaceRequest;)V
@@ -858,11 +869,11 @@
 
     .line 43
     .line 44
-    new-instance v3, Lz/l;
+    new-instance v3, Landroidx/camera/core/processing/m;
 
     .line 45
     .line 46
-    invoke-direct {v3, p0, v0, v1}, Lz/l;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroid/graphics/SurfaceTexture;Landroid/view/Surface;)V
+    invoke-direct {v3, p0, v0, v1}, Landroidx/camera/core/processing/m;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroid/graphics/SurfaceTexture;Landroid/view/Surface;)V
 
     .line 47
     .line 48
@@ -1058,6 +1069,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic e(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
@@ -1107,9 +1121,9 @@
     .end param
 
     .line 1
-    new-instance v0, Lz/g;
+    new-instance v0, Landroidx/camera/core/processing/h;
 
-    invoke-direct {v0}, Lz/g;-><init>()V
+    invoke-direct {v0}, Landroidx/camera/core/processing/h;-><init>()V
 
     invoke-direct {p0, p1, v0}, Landroidx/camera/core/processing/DefaultSurfaceProcessor;->executeSafely(Ljava/lang/Runnable;Ljava/lang/Runnable;)V
 
@@ -1131,9 +1145,9 @@
     :try_start_0
     iget-object v0, p0, Landroidx/camera/core/processing/DefaultSurfaceProcessor;->mGlExecutor:Ljava/util/concurrent/Executor;
 
-    new-instance v1, Lz/j;
+    new-instance v1, Landroidx/camera/core/processing/k;
 
-    invoke-direct {v1, p0, p2, p1}, Lz/j;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Ljava/lang/Runnable;Ljava/lang/Runnable;)V
+    invoke-direct {v1, p0, p2, p1}, Landroidx/camera/core/processing/k;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Ljava/lang/Runnable;Ljava/lang/Runnable;)V
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
     :try_end_0
@@ -1333,6 +1347,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic g(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/DynamicRange;Landroidx/camera/core/processing/ShaderProvider;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -1344,11 +1359,11 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lz/k;
+    new-instance v0, Landroidx/camera/core/processing/l;
 
     .line 5
     .line 6
-    invoke-direct {v0, p0, p1, p2, p3}, Lz/k;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/DynamicRange;Landroidx/camera/core/processing/ShaderProvider;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/camera/core/processing/l;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/DynamicRange;Landroidx/camera/core/processing/ShaderProvider;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
 
     .line 7
     .line 8
@@ -1579,6 +1594,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private getBitmap(Landroid/util/Size;[FI)Landroid/graphics/Bitmap;
@@ -1746,6 +1767,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic h(Landroidx/camera/core/processing/DefaultSurfaceProcessor;)V
@@ -2039,6 +2063,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private initGlRenderer(Landroidx/camera/core/DynamicRange;Landroidx/camera/core/processing/ShaderProvider;)V
@@ -2053,16 +2083,16 @@
     .end param
 
     .line 1
-    new-instance v0, Lz/b;
+    new-instance v0, Landroidx/camera/core/processing/b;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1, p2}, Lz/b;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/DynamicRange;Landroidx/camera/core/processing/ShaderProvider;)V
+    invoke-direct {v0, p0, p1, p2}, Landroidx/camera/core/processing/b;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/DynamicRange;Landroidx/camera/core/processing/ShaderProvider;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 7
     .line 8
@@ -2404,6 +2434,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic k(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/SurfaceOutput;)V
@@ -2414,11 +2450,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lz/a;
+    new-instance v1, Landroidx/camera/core/processing/a;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1}, Lz/a;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/SurfaceOutput;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/core/processing/a;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/SurfaceOutput;)V
 
     .line 6
     .line 7
@@ -2606,6 +2642,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private takeSnapshotAndDrawJpeg(Lkotlin/Triple;)V
@@ -3057,6 +3096,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
@@ -3483,6 +3527,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public onInputSurface(Landroidx/camera/core/SurfaceRequest;)V
@@ -3518,11 +3567,11 @@
 
     .line 13
     :cond_0
-    new-instance v0, Lz/h;
+    new-instance v0, Landroidx/camera/core/processing/i;
 
     .line 14
     .line 15
-    invoke-direct {v0, p0, p1}, Lz/h;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/SurfaceRequest;)V
+    invoke-direct {v0, p0, p1}, Landroidx/camera/core/processing/i;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/SurfaceRequest;)V
 
     .line 16
     .line 17
@@ -3532,11 +3581,11 @@
     .line 19
     .line 20
     .line 21
-    new-instance v1, Lz/i;
+    new-instance v1, Landroidx/camera/core/processing/j;
 
     .line 22
     .line 23
-    invoke-direct {v1, p1}, Lz/i;-><init>(Landroidx/camera/core/SurfaceRequest;)V
+    invoke-direct {v1, p1}, Landroidx/camera/core/processing/j;-><init>(Landroidx/camera/core/SurfaceRequest;)V
 
     .line 24
     .line 25
@@ -3596,6 +3645,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onOutputSurface(Landroidx/camera/core/SurfaceOutput;)V
@@ -3631,11 +3681,11 @@
 
     .line 13
     :cond_0
-    new-instance v0, Lz/e;
+    new-instance v0, Landroidx/camera/core/processing/f;
 
     .line 14
     .line 15
-    invoke-direct {v0, p0, p1}, Lz/e;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/SurfaceOutput;)V
+    invoke-direct {v0, p0, p1}, Landroidx/camera/core/processing/f;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;Landroidx/camera/core/SurfaceOutput;)V
 
     .line 16
     .line 17
@@ -3645,11 +3695,11 @@
     .line 19
     .line 20
     .line 21
-    new-instance v1, Lz/f;
+    new-instance v1, Landroidx/camera/core/processing/g;
 
     .line 22
     .line 23
-    invoke-direct {v1, p1}, Lz/f;-><init>(Landroidx/camera/core/SurfaceOutput;)V
+    invoke-direct {v1, p1}, Landroidx/camera/core/processing/g;-><init>(Landroidx/camera/core/SurfaceOutput;)V
 
     .line 24
     .line 25
@@ -3709,6 +3759,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public release()V
@@ -3738,11 +3789,11 @@
 
     .line 11
     :cond_0
-    new-instance v0, Lz/m;
+    new-instance v0, Landroidx/camera/core/processing/n;
 
     .line 12
     .line 13
-    invoke-direct {v0, p0}, Lz/m;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;)V
+    invoke-direct {v0, p0}, Landroidx/camera/core/processing/n;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;)V
 
     .line 14
     .line 15
@@ -3754,9 +3805,10 @@
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
-.method public snapshot(II)Lub/u0;
+.method public snapshot(II)Lcom/google/common/util/concurrent/t;
     .locals 1
     .param p1    # I
         .annotation build Landroidx/annotation/IntRange;
@@ -3776,23 +3828,21 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    new-instance v0, Lz/d;
+    new-instance v0, Landroidx/camera/core/processing/e;
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1, p2}, Lz/d;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;II)V
+    invoke-direct {v0, p0, p1, p2}, Landroidx/camera/core/processing/e;-><init>(Landroidx/camera/core/processing/DefaultSurfaceProcessor;II)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 7
     .line 8
@@ -3800,7 +3850,7 @@
     move-result-object p1
 
     .line 10
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 11
     .line 12

@@ -19,8 +19,6 @@
 
 .field public c:Landroid/widget/TextView;
 
-.field public d:Lcom/journeyapps/barcodescanner/DecoratedBarcodeView$a;
-
 
 # direct methods
 .method public constructor <init>(Landroid/content/Context;)V
@@ -30,7 +28,7 @@
     invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     .line 2
-    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->e()V
+    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->c()V
 
     return-void
 .end method
@@ -42,7 +40,7 @@
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 4
-    invoke-virtual {p0, p2}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->f(Landroid/util/AttributeSet;)V
+    invoke-virtual {p0, p2}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->d(Landroid/util/AttributeSet;)V
 
     return-void
 .end method
@@ -54,7 +52,7 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 6
-    invoke-virtual {p0, p2}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->f(Landroid/util/AttributeSet;)V
+    invoke-virtual {p0, p2}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->d(Landroid/util/AttributeSet;)V
 
     return-void
 .end method
@@ -90,46 +88,13 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
 # virtual methods
-.method public b(Lqf/h;)V
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->a:Lcom/journeyapps/barcodescanner/BarcodeView;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0, p1}, Lcom/journeyapps/barcodescanner/CameraPreview;->m(Lqf/h;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public c(Lpf/a;)V
+.method public b(Lcom/journeyapps/barcodescanner/a;)V
     .locals 2
 
     .line 1
@@ -141,12 +106,12 @@
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView$b;-><init>(Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;Lpf/a;)V
+    invoke-direct {v1, p0, p1}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView$b;-><init>(Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;Lcom/journeyapps/barcodescanner/a;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Lcom/journeyapps/barcodescanner/BarcodeView;->K(Lpf/a;)V
+    invoke-virtual {v0, v1}, Lcom/journeyapps/barcodescanner/BarcodeView;->J(Lcom/journeyapps/barcodescanner/a;)V
 
     .line 9
     .line 10
@@ -166,55 +131,18 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public d(Lpf/a;)V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->a:Lcom/journeyapps/barcodescanner/BarcodeView;
-
-    .line 2
-    .line 3
-    new-instance v1, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView$b;
-
-    .line 4
-    .line 5
-    invoke-direct {v1, p0, p1}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView$b;-><init>(Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;Lpf/a;)V
-
-    .line 6
-    .line 7
-    .line 8
-    invoke-virtual {v0, v1}, Lcom/journeyapps/barcodescanner/BarcodeView;->L(Lpf/a;)V
-
-    .line 9
-    .line 10
-    .line 11
-    return-void
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public final e()V
+.method public final c()V
     .locals 1
 
     .line 1
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, v0}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->f(Landroid/util/AttributeSet;)V
+    invoke-virtual {p0, v0}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->d(Landroid/util/AttributeSet;)V
 
     .line 3
     .line 4
@@ -235,9 +163,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public final f(Landroid/util/AttributeSet;)V
+.method public final d(Landroid/util/AttributeSet;)V
     .locals 3
 
     .line 1
@@ -319,7 +249,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {v0, p1}, Lcom/journeyapps/barcodescanner/CameraPreview;->r(Landroid/util/AttributeSet;)V
+    invoke-virtual {v0, p1}, Lcom/journeyapps/barcodescanner/CameraPreview;->q(Landroid/util/AttributeSet;)V
 
     .line 42
     .line 43
@@ -609,34 +539,13 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
-.method public g(Landroid/content/Intent;)V
+.method public e(Landroid/content/Intent;)V
     .locals 6
 
     .line 1
-    invoke-static {p1}, Lpc/f;->a(Landroid/content/Intent;)Ljava/util/Set;
+    invoke-static {p1}, Lo4/f;->a(Landroid/content/Intent;)Ljava/util/Set;
 
     .line 2
     .line 3
@@ -644,7 +553,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {p1}, Lpc/g;->a(Landroid/content/Intent;)Ljava/util/Map;
+    invoke-static {p1}, Lo4/g;->a(Landroid/content/Intent;)Ljava/util/Map;
 
     .line 6
     .line 7
@@ -692,7 +601,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v2, v3}, Lcom/journeyapps/barcodescanner/camera/CameraSettings;->q(I)V
+    invoke-virtual {v2, v3}, Lcom/journeyapps/barcodescanner/camera/CameraSettings;->i(I)V
 
     .line 30
     .line 31
@@ -729,7 +638,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->l()V
+    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->j()V
 
     .line 48
     .line 49
@@ -781,16 +690,16 @@
     move-result-object p1
 
     .line 73
-    new-instance v4, Llc/f;
+    new-instance v4, Lcom/google/zxing/e;
 
     .line 74
     .line 75
-    invoke-direct {v4}, Llc/f;-><init>()V
+    invoke-direct {v4}, Lcom/google/zxing/e;-><init>()V
 
     .line 76
     .line 77
     .line 78
-    invoke-virtual {v4, v1}, Llc/f;->e(Ljava/util/Map;)V
+    invoke-virtual {v4, v1}, Lcom/google/zxing/e;->e(Ljava/util/Map;)V
 
     .line 79
     .line 80
@@ -808,16 +717,16 @@
 
     .line 87
     .line 88
-    new-instance v4, Lpf/n;
+    new-instance v4, Lcom/journeyapps/barcodescanner/n;
 
     .line 89
     .line 90
-    invoke-direct {v4, v0, v1, p1, v3}, Lpf/n;-><init>(Ljava/util/Collection;Ljava/util/Map;Ljava/lang/String;I)V
+    invoke-direct {v4, v0, v1, p1, v3}, Lcom/journeyapps/barcodescanner/n;-><init>(Ljava/util/Collection;Ljava/util/Map;Ljava/lang/String;I)V
 
     .line 91
     .line 92
     .line 93
-    invoke-virtual {v2, v4}, Lcom/journeyapps/barcodescanner/BarcodeView;->setDecoderFactory(Lpf/k;)V
+    invoke-virtual {v2, v4}, Lcom/journeyapps/barcodescanner/BarcodeView;->setDecoderFactory(Lcom/journeyapps/barcodescanner/k;)V
 
     .line 94
     .line 95
@@ -1011,27 +920,70 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
+.end method
+
+.method public f()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->a:Lcom/journeyapps/barcodescanner/BarcodeView;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->u()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+.method public g()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->a:Lcom/journeyapps/barcodescanner/BarcodeView;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/CameraPreview;->v()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getBarcodeView()Lcom/journeyapps/barcodescanner/BarcodeView;
@@ -1066,6 +1018,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCameraSettings()Lcom/journeyapps/barcodescanner/camera/CameraSettings;
@@ -1098,9 +1052,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public getDecoderFactory()Lpf/k;
+.method public getDecoderFactory()Lcom/journeyapps/barcodescanner/k;
     .locals 1
 
     .line 1
@@ -1108,7 +1064,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->getDecoderFactory()Lpf/k;
+    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->getDecoderFactory()Lcom/journeyapps/barcodescanner/k;
 
     .line 4
     .line 5
@@ -1130,6 +1086,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStatusView()Landroid/widget/TextView;
@@ -1158,6 +1116,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getViewFinder()Lcom/journeyapps/barcodescanner/ViewfinderView;
@@ -1186,6 +1146,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public h()V
@@ -1196,7 +1158,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/BarcodeView;->w()V
+    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/CameraPreview;->y()V
 
     .line 4
     .line 5
@@ -1216,69 +1178,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public i()V
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->a:Lcom/journeyapps/barcodescanner/BarcodeView;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/CameraPreview;->x()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public j()V
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->a:Lcom/journeyapps/barcodescanner/BarcodeView;
-
-    .line 2
-    .line 3
-    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/CameraPreview;->A()V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public k()V
     .locals 2
 
     .line 1
@@ -1294,30 +1198,25 @@
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->d:Lcom/journeyapps/barcodescanner/DecoratedBarcodeView$a;
-
+    return-void
     .line 8
     .line 9
-    if-eqz v0, :cond_0
-
     .line 10
     .line 11
-    invoke-interface {v0}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView$a;->a()V
-
     .line 12
     .line 13
     .line 14
-    :cond_0
-    return-void
     .line 15
     .line 16
     .line 17
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public l()V
+.method public j()V
     .locals 2
 
     .line 1
@@ -1333,27 +1232,22 @@
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->d:Lcom/journeyapps/barcodescanner/DecoratedBarcodeView$a;
-
+    return-void
     .line 8
     .line 9
-    if-eqz v0, :cond_0
-
     .line 10
     .line 11
-    invoke-interface {v0}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView$a;->b()V
-
     .line 12
     .line 13
     .line 14
-    :cond_0
-    return-void
     .line 15
     .line 16
     .line 17
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -1411,7 +1305,7 @@
 
     .line 24
     :cond_1
-    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->k()V
+    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->i()V
 
     .line 25
     .line 26
@@ -1420,7 +1314,7 @@
 
     .line 28
     :cond_2
-    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->l()V
+    invoke-virtual {p0}, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->j()V
 
     .line 29
     .line 30
@@ -1449,6 +1343,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public setCameraSettings(Lcom/journeyapps/barcodescanner/camera/CameraSettings;)V
@@ -1484,9 +1388,11 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
-.method public setDecoderFactory(Lpf/k;)V
+.method public setDecoderFactory(Lcom/journeyapps/barcodescanner/k;)V
     .locals 1
 
     .line 1
@@ -1494,7 +1400,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/journeyapps/barcodescanner/BarcodeView;->setDecoderFactory(Lpf/k;)V
+    invoke-virtual {v0, p1}, Lcom/journeyapps/barcodescanner/BarcodeView;->setDecoderFactory(Lcom/journeyapps/barcodescanner/k;)V
 
     .line 4
     .line 5
@@ -1519,6 +1425,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStatusText(Ljava/lang/String;)V
@@ -1557,37 +1465,12 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTorchListener(Lcom/journeyapps/barcodescanner/DecoratedBarcodeView$a;)V
     .locals 0
 
-    .line 1
-    iput-object p1, p0, Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;->d:Lcom/journeyapps/barcodescanner/DecoratedBarcodeView$a;
-
-    .line 2
-    .line 3
     return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method

@@ -194,6 +194,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public asBinder()Landroid/os/IBinder;
@@ -222,6 +223,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public cancelNotification(Landroid/os/Bundle;)V
@@ -351,6 +353,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public extraCommand(Ljava/lang/String;Landroid/os/Bundle;Landroid/os/IBinder;)Landroid/os/Bundle;
@@ -527,6 +530,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getActiveNotifications()Landroid/os/Bundle;
@@ -668,6 +674,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getInterfaceDescriptor()Ljava/lang/String;
@@ -696,6 +704,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSmallIconBitmap()Landroid/os/Bundle;
@@ -837,6 +846,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getSmallIconId()I
@@ -974,6 +985,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public notifyNotificationWithChannel(Landroid/os/Bundle;)Landroid/os/Bundle;
@@ -1111,4 +1124,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

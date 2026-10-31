@@ -10,10 +10,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
-    .param p2    # Ljava/lang/Throwable;
-        .annotation build Lek/e;
-        .end annotation
-    .end param
 
     if-eqz p2, :cond_0
 
@@ -33,10 +29,6 @@
 
 .method public constructor <init>(Ljava/lang/Throwable;)V
     .locals 2
-    .param p1    # Ljava/lang/Throwable;
-        .annotation build Lek/e;
-        .end annotation
-    .end param
 
     .line 2
     new-instance v0, Ljava/lang/StringBuilder;

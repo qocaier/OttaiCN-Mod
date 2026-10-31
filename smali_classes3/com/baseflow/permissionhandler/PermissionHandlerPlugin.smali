@@ -52,7 +52,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private deregisterListeners()V
@@ -96,7 +95,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private registerListeners()V
@@ -140,7 +138,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private startListening(Landroid/content/Context;Lio/flutter/plugin/common/BinaryMessenger;)V
@@ -235,11 +232,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private startListeningToActivity(Landroid/app/Activity;)V
@@ -277,7 +269,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private stopListening()V
@@ -316,7 +307,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private stopListeningToActivity()V
@@ -354,7 +344,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -401,7 +390,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onAttachedToEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
@@ -456,7 +444,6 @@
     .line 23
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public onDetachedFromActivity()V
@@ -493,7 +480,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDetachedFromActivityForConfigChanges()V
@@ -524,7 +510,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onDetachedFromEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
@@ -561,7 +546,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onReattachedToActivityForConfigChanges(Lio/flutter/embedding/engine/plugins/activity/ActivityPluginBinding;)V
@@ -598,5 +582,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

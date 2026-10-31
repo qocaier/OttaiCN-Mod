@@ -243,6 +243,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(Landroidx/camera/camera2/internal/Camera2CameraControlImpl;Landroidx/camera/camera2/internal/compat/CameraCharacteristicsCompat;Landroidx/camera/core/impl/Quirks;Ljava/util/concurrent/Executor;)V
@@ -349,11 +351,11 @@
 
     .line 40
     .line 41
-    new-instance p1, Lm/n;
+    new-instance p1, Landroidx/camera/camera2/internal/m0;
 
     .line 42
     .line 43
-    invoke-direct {p1, p2}, Lm/n;-><init>(Landroidx/camera/camera2/internal/compat/CameraCharacteristicsCompat;)V
+    invoke-direct {p1, p2}, Landroidx/camera/camera2/internal/m0;-><init>(Landroidx/camera/camera2/internal/compat/CameraCharacteristicsCompat;)V
 
     .line 44
     .line 45
@@ -549,6 +551,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static is3AConverged(Landroid/hardware/camera2/TotalCaptureResult;Z)Z
@@ -1003,6 +1011,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static isFlashRequired(ILandroid/hardware/camera2/TotalCaptureResult;)Z
@@ -1175,7 +1186,7 @@
     .line 25
 .end method
 
-.method public static waitForResult(JLandroidx/camera/camera2/internal/Camera2CameraControlImpl;Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener$Checker;)Lub/u0;
+.method public static waitForResult(JLandroidx/camera/camera2/internal/Camera2CameraControlImpl;Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener$Checker;)Lcom/google/common/util/concurrent/t;
     .locals 1
     .param p2    # Landroidx/camera/camera2/internal/Camera2CameraControlImpl;
         .annotation build Landroidx/annotation/NonNull;
@@ -1194,9 +1205,7 @@
             "Landroidx/camera/camera2/internal/Camera2CameraControlImpl;",
             "Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener$Checker;",
             ")",
-            "Lub/u0<",
-            "Landroid/hardware/camera2/TotalCaptureResult;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1215,7 +1224,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener;->getFuture()Lub/u0;
+    invoke-virtual {v0}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener;->getFuture()Lcom/google/common/util/concurrent/t;
 
     .line 10
     .line 11
@@ -1324,6 +1333,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -1361,7 +1373,7 @@
     .line 25
 .end method
 
-.method public submitStillCaptures(Ljava/util/List;III)Lub/u0;
+.method public submitStillCaptures(Ljava/util/List;III)Lcom/google/common/util/concurrent/t;
     .locals 6
     .param p1    # Ljava/util/List;
         .annotation build Landroidx/annotation/NonNull;
@@ -1376,10 +1388,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/CaptureConfig;",
             ">;III)",
-            "Lub/u0<",
-            "Ljava/util/List<",
-            "Ljava/lang/Void;",
-            ">;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -1511,7 +1520,7 @@
     .line 66
     :cond_2
     :goto_0
-    invoke-virtual {v0, p1, p3}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;->executeCapture(Ljava/util/List;I)Lub/u0;
+    invoke-virtual {v0, p1, p3}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;->executeCapture(Ljava/util/List;I)Lcom/google/common/util/concurrent/t;
 
     .line 67
     .line 68
@@ -1519,7 +1528,7 @@
     move-result-object p1
 
     .line 70
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lub/u0;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->nonCancellationPropagating(Lcom/google/common/util/concurrent/t;)Lcom/google/common/util/concurrent/t;
 
     .line 71
     .line 72
@@ -1684,4 +1693,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

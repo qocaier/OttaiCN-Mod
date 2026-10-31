@@ -41,6 +41,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -56,7 +58,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lvg/c0;->a(Landroid/app/Instrumentation;Landroid/os/Looper;)Landroid/os/TestLooperManager;
+    invoke-static {v0, p1}, Lcom/qiyukf/we0;->a(Landroid/app/Instrumentation;Landroid/os/Looper;)Landroid/os/TestLooperManager;
 
     .line 4
     .line 5
@@ -83,6 +85,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public addMonitor(Landroid/content/IntentFilter;Landroid/app/Instrumentation$ActivityResult;Z)Landroid/app/Instrumentation$ActivityMonitor;
@@ -133,7 +137,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lvg/b0;->a(Landroid/app/Instrumentation;Landroid/os/Bundle;)V
+    invoke-static {v0, p1}, Lcom/qiyukf/ve0;->a(Landroid/app/Instrumentation;Landroid/os/Bundle;)V
 
     .line 4
     .line 5
@@ -158,6 +162,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public callActivityOnCreate(Landroid/app/Activity;Landroid/os/Bundle;)V
@@ -218,6 +224,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public callActivityOnNewIntent(Landroid/app/Activity;Landroid/content/Intent;)V
@@ -282,6 +290,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public callActivityOnPause(Landroid/app/Activity;)V
@@ -323,6 +341,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public callActivityOnPostCreate(Landroid/app/Activity;Landroid/os/Bundle;)V
@@ -383,6 +403,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public callActivityOnRestoreInstanceState(Landroid/app/Activity;Landroid/os/Bundle;)V
@@ -449,6 +471,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public callActivityOnSaveInstanceState(Landroid/app/Activity;Landroid/os/Bundle;)V
@@ -509,6 +533,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public callActivityOnStop(Landroid/app/Activity;)V
@@ -544,6 +570,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public callActivityOnUserLeaving(Landroid/app/Activity;)V
@@ -579,6 +607,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public callApplicationOnCreate(Landroid/app/Application;)V
@@ -614,6 +644,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public checkMonitorHit(Landroid/app/Instrumentation$ActivityMonitor;I)Z
@@ -680,6 +712,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public endPerformanceSnapshot()V
@@ -710,6 +752,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public finish(ILandroid/os/Bundle;)V
@@ -774,6 +818,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public getAllocCounts()Landroid/os/Bundle;
@@ -806,6 +860,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getBinderCounts()Landroid/os/Bundle;
@@ -838,6 +894,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getComponentName()Landroid/content/ComponentName;
@@ -870,6 +928,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getContext()Landroid/content/Context;
@@ -902,6 +962,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getProcessName()Ljava/lang/String;
@@ -915,7 +977,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lvg/a0;->a(Landroid/app/Instrumentation;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/qiyukf/ue0;->a(Landroid/app/Instrumentation;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -937,6 +999,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTargetContext()Landroid/content/Context;
@@ -969,6 +1033,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getUiAutomation()Landroid/app/UiAutomation;
@@ -1138,11 +1204,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public invokeMenuActionSync(Landroid/app/Activity;II)Z
@@ -1280,11 +1341,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public isProfiling()Z
@@ -1317,6 +1373,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public newActivity(Ljava/lang/Class;Landroid/content/Context;Landroid/os/IBinder;Landroid/app/Application;Landroid/content/Intent;Landroid/content/pm/ActivityInfo;Ljava/lang/CharSequence;Landroid/app/Activity;Ljava/lang/String;Ljava/lang/Object;)Landroid/app/Activity;
@@ -1539,11 +1597,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -1579,6 +1632,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onDestroy()V
@@ -1609,6 +1664,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onException(Ljava/lang/Object;Ljava/lang/Throwable;)Z
@@ -1675,6 +1732,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public onStart()V
@@ -1705,6 +1772,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public removeMonitor(Landroid/app/Instrumentation$ActivityMonitor;)V
@@ -1740,6 +1809,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public runOnMainSync(Ljava/lang/Runnable;)V
@@ -1775,6 +1846,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public sendCharacterSync(I)V
@@ -1810,6 +1883,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public sendKeyDownUpSync(I)V
@@ -1845,6 +1920,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public sendKeySync(Landroid/view/KeyEvent;)V
@@ -1880,6 +1957,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public sendPointerSync(Landroid/view/MotionEvent;)V
@@ -1915,6 +1994,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public sendStatus(ILandroid/os/Bundle;)V
@@ -1979,6 +2060,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public sendStringSync(Ljava/lang/String;)V
@@ -2014,6 +2105,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public sendTrackballEventSync(Landroid/view/MotionEvent;)V
@@ -2049,6 +2142,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setAutomaticPerformanceSnapshots()V
@@ -2079,6 +2174,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setInTouchMode(Z)V
@@ -2114,6 +2211,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public start()V
@@ -2144,6 +2243,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public startActivitySync(Landroid/content/Intent;)Landroid/app/Activity;
@@ -2181,6 +2282,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public startAllocCounting()V
@@ -2211,6 +2314,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public startPerformanceSnapshot()V
@@ -2241,6 +2346,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public startProfiling()V
@@ -2271,6 +2378,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public stopAllocCounting()V
@@ -2301,6 +2410,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public stopProfiling()V
@@ -2331,6 +2442,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public waitForIdle(Ljava/lang/Runnable;)V
@@ -2366,6 +2479,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public waitForIdleSync()V
@@ -2396,6 +2511,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public waitForMonitor(Landroid/app/Instrumentation$ActivityMonitor;)Landroid/app/Activity;
@@ -2433,6 +2550,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public waitForMonitorWithTimeout(Landroid/app/Instrumentation$ActivityMonitor;J)Landroid/app/Activity;
@@ -2499,4 +2618,14 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method

@@ -48,7 +48,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static getManufacturer()Ljava/lang/String;
@@ -94,7 +93,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static isDateInputKeyboardMissingSeparatorCharacters()Z
@@ -146,7 +144,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static isLGEDevice()Z
@@ -185,7 +182,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static isMeizuDevice()Z
@@ -224,7 +220,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static isSamsungDevice()Z
@@ -263,5 +258,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

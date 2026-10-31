@@ -484,6 +484,7 @@
         :pswitch_0
     .end packed-switch
     .line 78
+    .line 79
 .end method
 
 .method public getType()Landroidx/constraintlayout/core/motion/CustomAttribute$AttributeType;
@@ -512,6 +513,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getValueToInterpolate()F
@@ -678,6 +680,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getValuesToInterpolate([F)V
@@ -1075,6 +1079,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public isContinuous()Z
@@ -1192,6 +1201,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public numberOfInterpolatedValues()I
@@ -1241,6 +1252,7 @@
     :cond_0
     return v1
     .line 20
+    .line 21
 .end method
 
 .method public setColorValue(I)V

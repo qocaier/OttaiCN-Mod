@@ -141,6 +141,7 @@
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -297,6 +298,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private diff(FF)Z
@@ -2919,6 +2922,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public compareTo(Landroidx/constraintlayout/core/motion/MotionConstrainedPoint;)I
@@ -3734,6 +3742,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getCustomData(Ljava/lang/String;[DI)I
@@ -3908,6 +3919,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getCustomDataCount(Ljava/lang/String;)I
@@ -4232,6 +4246,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setState(Landroidx/constraintlayout/core/motion/MotionWidget;)V

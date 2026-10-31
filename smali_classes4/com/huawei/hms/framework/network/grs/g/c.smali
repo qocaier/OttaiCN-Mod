@@ -322,7 +322,7 @@
     :goto_6
     sget-object p3, Lcom/huawei/hms/framework/network/grs/g/c;->l:Ljava/lang/String;
 
-    const-string v0, "{requestServer} the computation was cancelled"
+    const-string/jumbo v0, "{requestServer} the computation was cancelled"
 
     invoke-static {p3, v0}, Lcom/huawei/hms/framework/common/Logger;->i(Ljava/lang/String;Ljava/lang/Object;)V
 
@@ -500,7 +500,7 @@
     :catch_2
     sget-object v2, Lcom/huawei/hms/framework/network/grs/g/c;->l:Ljava/lang/String;
 
-    const-string v3, "{checkResponse} when check result, find TimeoutException, cancel current request task"
+    const-string/jumbo v3, "{checkResponse} when check result, find TimeoutException, cancel current request task"
 
     invoke-static {v2, v3}, Lcom/huawei/hms/framework/common/Logger;->w(Ljava/lang/String;Ljava/lang/Object;)V
 
@@ -531,7 +531,7 @@
     :goto_1
     sget-object v2, Lcom/huawei/hms/framework/network/grs/g/c;->l:Ljava/lang/String;
 
-    const-string v3, "{checkResponse} when check result, find InterruptedException, check others"
+    const-string/jumbo v3, "{checkResponse} when check result, find InterruptedException, check others"
 
     :goto_2
     invoke-static {v2, v3, v1}, Lcom/huawei/hms/framework/common/Logger;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -541,14 +541,14 @@
     :goto_3
     sget-object v2, Lcom/huawei/hms/framework/network/grs/g/c;->l:Ljava/lang/String;
 
-    const-string v3, "{checkResponse} when check result, find ExecutionException, check others"
+    const-string/jumbo v3, "{checkResponse} when check result, find ExecutionException, check others"
 
     goto :goto_2
 
     :catch_3
     sget-object v1, Lcom/huawei/hms/framework/network/grs/g/c;->l:Ljava/lang/String;
 
-    const-string v2, "{checkResponse} when check result, find CancellationException, check others"
+    const-string/jumbo v2, "{checkResponse} when check result, find CancellationException, check others"
 
     invoke-static {v1, v2}, Lcom/huawei/hms/framework/common/Logger;->i(Ljava/lang/String;Ljava/lang/Object;)V
 

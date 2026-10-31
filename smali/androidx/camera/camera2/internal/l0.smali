@@ -3,38 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/camera/core/impl/utils/futures/AsyncFunction;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/Camera2CapturePipeline$TorchTask;
+.field public final synthetic a:Landroidx/camera/camera2/internal/Camera2CameraImpl$StateCallback$ScheduledReopen;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$TorchTask;)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CameraImpl$StateCallback$ScheduledReopen;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/l0;->a:Landroidx/camera/camera2/internal/Camera2CapturePipeline$TorchTask;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/l0;->a:Landroidx/camera/camera2/internal/Camera2CameraImpl$StateCallback$ScheduledReopen;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Lub/u0;
+.method public final run()V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/l0;->a:Landroidx/camera/camera2/internal/Camera2CapturePipeline$TorchTask;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/l0;->a:Landroidx/camera/camera2/internal/Camera2CameraImpl$StateCallback$ScheduledReopen;
 
-    check-cast p1, Ljava/lang/Void;
+    invoke-static {v0}, Landroidx/camera/camera2/internal/Camera2CameraImpl$StateCallback$ScheduledReopen;->a(Landroidx/camera/camera2/internal/Camera2CameraImpl$StateCallback$ScheduledReopen;)V
 
-    invoke-static {v0, p1}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$TorchTask;->a(Landroidx/camera/camera2/internal/Camera2CapturePipeline$TorchTask;Ljava/lang/Void;)Lub/u0;
-
-    move-result-object p1
-
-    return-object p1
+    return-void
 .end method

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lvm/m;
+.implements Lkotlin/sequences/g;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewGroupKt;->getDescendants(Landroid/view/ViewGroup;)Lvm/m;
+    value = Landroidx/core/view/ViewGroupKt;->getDescendants(Landroid/view/ViewGroup;)Lkotlin/sequences/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,19 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lvm/m<",
-        "Landroid/view/View;",
-        ">;"
-    }
-.end annotation
-
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSequences.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Sequences.kt\nkotlin/sequences/SequencesKt__SequencesKt$Sequence$1\n+ 2 ViewGroup.kt\nandroidx/core/view/ViewGroupKt\n*L\n1#1,22:1\n134#2:23\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSequences.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Sequences.kt\nkotlin/sequences/SequencesKt__SequencesKt$Sequence$1\n+ 2 ViewGroup.kt\nandroidx/core/view/ViewGroupKt\n*L\n1#1,22:1\n134#2:23\n*E\n"
+        "Lkotlin/sequences/g;"
     }
 .end annotation
 
@@ -98,7 +86,7 @@
 
     .line 4
     .line 5
-    invoke-static {v1}, Landroidx/core/view/ViewGroupKt;->getChildren(Landroid/view/ViewGroup;)Lvm/m;
+    invoke-static {v1}, Landroidx/core/view/ViewGroupKt;->getChildren(Landroid/view/ViewGroup;)Lkotlin/sequences/g;
 
     .line 6
     .line 7
@@ -106,7 +94,7 @@
     move-result-object v1
 
     .line 9
-    invoke-interface {v1}, Lvm/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Lkotlin/sequences/g;->iterator()Ljava/util/Iterator;
 
     .line 10
     .line 11
@@ -118,7 +106,7 @@
 
     .line 14
     .line 15
-    invoke-direct {v0, v1, v2}, Landroidx/core/view/TreeIterator;-><init>(Ljava/util/Iterator;Ljm/l;)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/view/TreeIterator;-><init>(Ljava/util/Iterator;Lq8/l;)V
 
     .line 16
     .line 17
@@ -126,4 +114,5 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method

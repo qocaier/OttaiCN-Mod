@@ -246,6 +246,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onActivityResumed(Landroid/app/Activity;)V

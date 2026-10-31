@@ -152,6 +152,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/processing/SurfaceProcessorWithExecutor;Landroidx/camera/core/SurfaceOutput;)V
@@ -343,6 +344,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getProcessor()Landroidx/camera/core/SurfaceProcessor;
@@ -376,6 +378,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onInputSurface(Landroidx/camera/core/SurfaceRequest;)V
@@ -390,11 +393,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lz/z;
+    new-instance v1, Landroidx/camera/core/processing/f0;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1}, Lz/z;-><init>(Landroidx/camera/core/processing/SurfaceProcessorWithExecutor;Landroidx/camera/core/SurfaceRequest;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/core/processing/f0;-><init>(Landroidx/camera/core/processing/SurfaceProcessorWithExecutor;Landroidx/camera/core/SurfaceRequest;)V
 
     .line 6
     .line 7
@@ -433,11 +436,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lz/a0;
+    new-instance v1, Landroidx/camera/core/processing/g0;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1}, Lz/a0;-><init>(Landroidx/camera/core/processing/SurfaceProcessorWithExecutor;Landroidx/camera/core/SurfaceOutput;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/core/processing/g0;-><init>(Landroidx/camera/core/processing/SurfaceProcessorWithExecutor;Landroidx/camera/core/SurfaceOutput;)V
 
     .line 6
     .line 7
@@ -470,7 +473,7 @@
     return-void
 .end method
 
-.method public snapshot(II)Lub/u0;
+.method public snapshot(II)Lcom/google/common/util/concurrent/t;
     .locals 0
     .param p1    # I
         .annotation build Landroidx/annotation/IntRange;
@@ -490,9 +493,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -510,7 +511,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 9
     .line 10

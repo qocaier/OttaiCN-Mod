@@ -24,14 +24,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/browser/browseractions/BrowserActionsFallbackMenuUi;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/browser/browseractions/BrowserActionsFallbackMenuUi$1;->this$0:Landroidx/browser/browseractions/BrowserActionsFallbackMenuUi;
@@ -205,4 +197,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

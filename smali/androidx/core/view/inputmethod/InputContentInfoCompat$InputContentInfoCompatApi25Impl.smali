@@ -88,6 +88,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDescription()Landroid/content/ClipDescription;
@@ -120,6 +121,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getInputContentInfo()Ljava/lang/Object;
@@ -148,6 +150,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLinkUri()Landroid/net/Uri;
@@ -180,6 +183,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public releasePermission()V
@@ -210,6 +214,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public requestPermission()V
@@ -240,4 +245,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -30,9 +30,10 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public static immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+.method public static immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -41,8 +42,7 @@
             ">(",
             "Ljava/lang/Throwable;",
             ")",
-            "Lub/u0<",
-            "TT;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 

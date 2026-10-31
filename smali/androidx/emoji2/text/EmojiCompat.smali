@@ -183,6 +183,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>(Landroidx/emoji2/text/EmojiCompat$Config;)V
@@ -514,6 +515,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static synthetic access$000(Landroidx/emoji2/text/EmojiCompat;)Landroidx/emoji2/text/EmojiCompat$GlyphChecker;
@@ -607,6 +613,7 @@
 
     .line 20
     throw v1
+    .line 21
 .end method
 
 .method public static handleDeleteSurroundingText(Landroid/view/inputmethod/InputConnection;Landroid/text/Editable;IIZ)Z
@@ -1289,6 +1296,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static init(Landroid/content/Context;)Landroidx/emoji2/text/EmojiCompat;
@@ -1498,6 +1508,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private isInitialized()Z
@@ -1537,6 +1548,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private loadMetadata()V
@@ -1685,6 +1697,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static reset(Landroidx/emoji2/text/EmojiCompat$Config;)Landroidx/emoji2/text/EmojiCompat;
@@ -1864,6 +1878,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEmojiMatch(Ljava/lang/CharSequence;I)I
@@ -1981,6 +1996,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLoadState()I
@@ -2105,6 +2121,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public hasEmojiGlyph(Ljava/lang/CharSequence;)Z
@@ -2209,6 +2227,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public load()V
@@ -2382,6 +2401,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onMetadataLoadFailed(Ljava/lang/Throwable;)V
@@ -2528,6 +2549,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onMetadataLoadSuccess()V
@@ -2676,6 +2698,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public process(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
@@ -3120,6 +3144,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public unregisterInitCallback(Landroidx/emoji2/text/EmojiCompat$InitCallback;)V
@@ -3248,6 +3273,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public updateEditorInfo(Landroid/view/inputmethod/EditorInfo;)V
@@ -3364,4 +3390,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

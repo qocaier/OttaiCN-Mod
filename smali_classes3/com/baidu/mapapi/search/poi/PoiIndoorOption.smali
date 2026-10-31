@@ -52,7 +52,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -87,7 +86,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public poiFloor(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/PoiIndoorOption;
@@ -120,7 +118,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public poiIndoorBid(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/PoiIndoorOption;
@@ -153,7 +150,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public poiIndoorWd(Ljava/lang/String;)Lcom/baidu/mapapi/search/poi/PoiIndoorOption;
@@ -186,7 +182,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public poiPageSize(I)Lcom/baidu/mapapi/search/poi/PoiIndoorOption;
@@ -219,5 +214,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

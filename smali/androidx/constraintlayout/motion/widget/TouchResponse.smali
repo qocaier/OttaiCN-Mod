@@ -283,6 +283,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
     :array_1
     .array-data 4
         0x0
@@ -358,18 +360,6 @@
 
 .method public constructor <init>(Landroid/content/Context;Landroidx/constraintlayout/motion/widget/MotionLayout;Lorg/xmlpull/v1/XmlPullParser;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "layout",
-            "parser"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -502,16 +492,6 @@
 
 .method public constructor <init>(Landroidx/constraintlayout/motion/widget/MotionLayout;Landroidx/constraintlayout/motion/widget/OnSwipe;)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "layout",
-            "onSwipe"
-        }
-    .end annotation
 
     .line 33
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -818,14 +798,6 @@
 
 .method private fill(Landroid/content/res/TypedArray;)V
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "a"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->getIndexCount()I
@@ -2571,16 +2543,6 @@
 
 .method private fillFromAttributeList(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/constraintlayout/widget/R$styleable;->OnSwipe:[I
@@ -2647,16 +2609,6 @@
 # virtual methods
 .method public dot(FF)F
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "dx",
-            "dy"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mTouchDirectionX:F
@@ -2745,6 +2697,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAutoCompleteMode()I
@@ -2773,6 +2726,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFlags()I
@@ -2801,20 +2755,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLimitBoundsTo(Landroid/view/ViewGroup;Landroid/graphics/RectF;)Landroid/graphics/RectF;
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "layout",
-            "rect"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mLimitBoundsTo:I
@@ -2939,6 +2884,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxAcceleration()F
@@ -2967,6 +2913,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxVelocity()F
@@ -2995,6 +2942,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMoveWhenScrollAtTop()Z
@@ -3023,20 +2971,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getProgressDirection(FF)F
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "dx",
-            "dy"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
@@ -3343,6 +3282,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getSpringBoundary()I
@@ -3371,6 +3313,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSpringDamping()F
@@ -3399,6 +3342,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSpringMass()F
@@ -3427,6 +3371,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSpringStiffness()F
@@ -3455,6 +3400,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSpringStopThreshold()F
@@ -3483,20 +3429,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTouchRegion(Landroid/view/ViewGroup;Landroid/graphics/RectF;)Landroid/graphics/RectF;
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "layout",
-            "rect"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mTouchRegionId:I
@@ -3621,6 +3558,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isDragStarted()Z
@@ -3649,24 +3587,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public processTouchEvent(Landroid/view/MotionEvent;Landroidx/constraintlayout/motion/widget/MotionLayout$MotionTracker;ILandroidx/constraintlayout/motion/widget/MotionScene;)V
     .locals 20
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "event",
-            "velocityTracker",
-            "currentState",
-            "motionScene"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v0, p0
@@ -5616,20 +5541,6 @@
 
 .method public processTouchRotateEvent(Landroid/view/MotionEvent;Landroidx/constraintlayout/motion/widget/MotionLayout$MotionTracker;ILandroidx/constraintlayout/motion/widget/MotionScene;)V
     .locals 23
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "event",
-            "velocityTracker",
-            "currentState",
-            "motionScene"
-        }
-    .end annotation
 
     .line 1
     move-object/from16 v0, p0
@@ -7939,16 +7850,6 @@
 
 .method public scrollMove(FF)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "dx",
-            "dy"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mMotionLayout:Landroidx/constraintlayout/motion/widget/MotionLayout;
@@ -8311,20 +8212,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public scrollUp(FF)V
     .locals 9
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "dx",
-            "dy"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -8675,18 +8569,13 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setAnchorId(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mTouchAnchorId:I
@@ -8720,14 +8609,6 @@
 
 .method public setAutoCompleteMode(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "autoCompleteMode"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mAutoCompleteMode:I
@@ -8761,16 +8642,6 @@
 
 .method public setDown(FF)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "lastTouchX",
-            "lastTouchY"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mLastTouchX:F
@@ -8829,14 +8700,6 @@
 
 .method public setMaxAcceleration(F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "acceleration"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mMaxAcceleration:F
@@ -8870,14 +8733,6 @@
 
 .method public setMaxVelocity(F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "velocity"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mMaxVelocity:F
@@ -8911,14 +8766,6 @@
 
 .method public setRTL(Z)V
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "rtl"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x6
@@ -9254,20 +9101,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setTouchAnchorLocation(FF)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "x",
-            "y"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mTouchAnchorX:F
@@ -9326,14 +9168,6 @@
 
 .method public setTouchUpMode(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "touchUpMode"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mOnTouchUp:I
@@ -9367,16 +9201,6 @@
 
 .method public setUpTouchEvent(FF)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "lastTouchX",
-            "lastTouchY"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/TouchResponse;->mLastTouchX:F
@@ -9595,6 +9419,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -9718,4 +9544,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

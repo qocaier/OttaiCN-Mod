@@ -214,15 +214,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static synthetic a(Landroid/view/View;Landroid/animation/ValueAnimator;)V
@@ -293,11 +284,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/search/SearchBarAnimationHelper;Lcom/google/android/material/search/SearchBarAnimationHelper$OnLoadAnimationInvocation;)V
@@ -366,11 +352,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$102(Lcom/google/android/material/search/SearchBarAnimationHelper;Z)Z
@@ -439,11 +420,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$202(Lcom/google/android/material/search/SearchBarAnimationHelper;Landroid/animation/Animator;)Landroid/animation/Animator;
@@ -512,11 +488,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$302(Lcom/google/android/material/search/SearchBarAnimationHelper;Z)Z
@@ -585,11 +556,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic b(Lcom/google/android/material/search/SearchBarAnimationHelper;Lcom/google/android/material/search/SearchBar;Landroid/view/View;Lcom/google/android/material/appbar/AppBarLayout;Z)V
@@ -1770,11 +1736,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private dispatchOnLoadAnimation(Lcom/google/android/material/search/SearchBarAnimationHelper$OnLoadAnimationInvocation;)V
@@ -1829,7 +1790,6 @@
     :cond_0
     return-void
     .line 24
-    .line 25
 .end method
 
 .method private getCollapseAnimator(Lcom/google/android/material/search/SearchBar;Landroid/view/View;Lcom/google/android/material/appbar/AppBarLayout;)Landroid/animation/Animator;
@@ -2005,11 +1965,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private getDefaultCenterViewAnimator(Landroid/view/View;)Landroid/animation/Animator;
@@ -2535,6 +2490,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private getEndAnchoredViews(Landroid/view/View;)Ljava/util/List;
@@ -2691,8 +2678,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getExpandAnimator(Lcom/google/android/material/search/SearchBar;Landroid/view/View;Lcom/google/android/material/appbar/AppBarLayout;)Landroid/animation/Animator;
@@ -2872,11 +2857,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private getExpandCollapseAnimationHelper(Lcom/google/android/material/search/SearchBar;Landroid/view/View;Lcom/google/android/material/appbar/AppBarLayout;)Lcom/google/android/material/internal/ExpandCollapseAnimationHelper;
@@ -3070,11 +3050,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private getExpandedViewBackgroundUpdateListener(Lcom/google/android/material/search/SearchBar;Landroid/view/View;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
@@ -3123,11 +3098,11 @@
     .line 21
     .line 22
     .line 23
-    new-instance p1, Lcom/google/android/material/search/d;
+    new-instance p1, Lcom/google/android/material/search/g;
 
     .line 24
     .line 25
-    invoke-direct {p1, v0, p2}, Lcom/google/android/material/search/d;-><init>(Lcom/google/android/material/shape/MaterialShapeDrawable;Landroid/view/View;)V
+    invoke-direct {p1, v0, p2}, Lcom/google/android/material/search/g;-><init>(Lcom/google/android/material/shape/MaterialShapeDrawable;Landroid/view/View;)V
 
     .line 26
     .line 27
@@ -3165,11 +3140,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private getFadeChildren(Lcom/google/android/material/search/SearchBar;)Ljava/util/List;
@@ -3227,7 +3197,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private getFadeInChildrenAnimator(Lcom/google/android/material/search/SearchBar;)Landroid/animation/Animator;
@@ -3359,8 +3328,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getFadeOutChildrenAnimator(Lcom/google/android/material/search/SearchBar;Landroid/view/View;)Landroid/animation/Animator;
@@ -3408,11 +3375,11 @@
     .line 20
     .line 21
     .line 22
-    new-instance p1, Lcom/google/android/material/search/a;
+    new-instance p1, Lcom/google/android/material/search/c;
 
     .line 23
     .line 24
-    invoke-direct {p1, p2}, Lcom/google/android/material/search/a;-><init>(Landroid/view/View;)V
+    invoke-direct {p1, p2}, Lcom/google/android/material/search/c;-><init>(Landroid/view/View;)V
 
     .line 25
     .line 26
@@ -3467,11 +3434,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private getSecondaryActionMenuItemAnimator(Landroid/view/View;)Landroid/animation/Animator;
@@ -3607,8 +3569,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getSecondaryViewAnimator(Landroid/widget/TextView;Landroid/view/View;)Landroid/animation/Animator;
@@ -3702,11 +3662,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private getTextViewAnimator(Landroid/widget/TextView;)Landroid/animation/Animator;
@@ -3842,8 +3797,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -3884,7 +3837,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addExpandAnimationListener(Landroid/animation/AnimatorListenerAdapter;)V
@@ -3923,7 +3875,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addOnLoadAnimationCallback(Lcom/google/android/material/search/SearchBar$OnLoadAnimationCallback;)V
@@ -3958,7 +3909,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isCollapsing()Z
@@ -3989,7 +3939,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isExpanding()Z
@@ -4020,7 +3969,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isOnLoadAnimationFadeInEnabled()Z
@@ -4051,7 +3999,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public removeCollapseAnimationListener(Landroid/animation/AnimatorListenerAdapter;)Z
@@ -4092,7 +4039,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeExpandAnimationListener(Landroid/animation/AnimatorListenerAdapter;)Z
@@ -4133,7 +4079,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeOnLoadAnimationCallback(Lcom/google/android/material/search/SearchBar$OnLoadAnimationCallback;)Z
@@ -4170,7 +4115,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnLoadAnimationFadeInEnabled(Z)V
@@ -4203,7 +4147,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public startCollapseAnimation(Lcom/google/android/material/search/SearchBar;Landroid/view/View;Lcom/google/android/material/appbar/AppBarLayout;Z)V
@@ -4532,6 +4475,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public startExpandAnimation(Lcom/google/android/material/search/SearchBar;Landroid/view/View;Lcom/google/android/material/appbar/AppBarLayout;Z)V
@@ -4583,7 +4542,7 @@
     .line 19
     .line 20
     .line 21
-    new-instance v1, Lcom/google/android/material/search/c;
+    new-instance v1, Lcom/google/android/material/search/f;
 
     .line 22
     .line 23
@@ -4602,7 +4561,7 @@
     move v6, p4
 
     .line 28
-    invoke-direct/range {v1 .. v6}, Lcom/google/android/material/search/c;-><init>(Lcom/google/android/material/search/SearchBarAnimationHelper;Lcom/google/android/material/search/SearchBar;Landroid/view/View;Lcom/google/android/material/appbar/AppBarLayout;Z)V
+    invoke-direct/range {v1 .. v6}, Lcom/google/android/material/search/f;-><init>(Lcom/google/android/material/search/SearchBarAnimationHelper;Lcom/google/android/material/search/SearchBar;Landroid/view/View;Lcom/google/android/material/appbar/AppBarLayout;Z)V
 
     .line 29
     .line 30
@@ -4821,17 +4780,33 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public startOnLoadAnimation(Lcom/google/android/material/search/SearchBar;)V
     .locals 4
 
     .line 1
-    new-instance v0, Lcom/google/android/material/search/b;
+    new-instance v0, Lcom/google/android/material/search/d;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/material/search/b;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/material/search/d;-><init>()V
 
     .line 4
     .line 5
@@ -4921,11 +4896,11 @@
 
     .line 49
     .line 50
-    new-instance p1, Lya/c;
+    new-instance p1, Lcom/google/android/material/search/e;
 
     .line 51
     .line 52
-    invoke-direct {p1, v2}, Lya/c;-><init>(Landroid/animation/Animator;)V
+    invoke-direct {p1, v2}, Lcom/google/android/material/search/e;-><init>(Landroid/animation/Animator;)V
 
     .line 53
     .line 54
@@ -4999,8 +4974,6 @@
     return-void
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public stopOnLoadAnimation(Lcom/google/android/material/search/SearchBar;)V
@@ -5134,6 +5107,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

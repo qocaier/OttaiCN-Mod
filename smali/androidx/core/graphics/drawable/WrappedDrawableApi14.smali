@@ -55,6 +55,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/graphics/drawable/Drawable;)V
@@ -121,6 +122,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private updateLocalState(Landroid/content/res/Resources;)V
@@ -311,6 +313,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -466,6 +469,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getConstantState()Landroid/graphics/drawable/Drawable$ConstantState;
@@ -581,6 +586,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCurrent()Landroid/graphics/drawable/Drawable;
@@ -613,6 +620,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntrinsicHeight()I
@@ -645,6 +653,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntrinsicWidth()I
@@ -677,6 +686,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLayoutDirection()I
@@ -712,6 +722,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMinimumHeight()I
@@ -744,6 +755,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMinimumWidth()I
@@ -776,6 +788,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOpacity()I
@@ -808,6 +821,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPadding(Landroid/graphics/Rect;)Z
@@ -877,6 +891,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTransparentRegion()Landroid/graphics/Region;
@@ -909,6 +924,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getWrappedDrawable()Landroid/graphics/drawable/Drawable;
@@ -937,6 +953,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invalidateDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -1002,6 +1019,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isCompatTintEnabled()Z
@@ -1143,6 +1161,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public jumpToCurrentState()V
@@ -1173,6 +1193,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mutate()Landroid/graphics/drawable/Drawable;
@@ -1312,6 +1333,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onBoundsChange(Landroid/graphics/Rect;)V
@@ -1548,6 +1571,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public setAlpha(I)V
@@ -2150,6 +2176,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public unscheduleDrawable(Landroid/graphics/drawable/Drawable;Ljava/lang/Runnable;)V

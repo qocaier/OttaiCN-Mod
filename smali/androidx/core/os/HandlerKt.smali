@@ -4,34 +4,18 @@
 
 
 # direct methods
-.method public static final postAtTime(Landroid/os/Handler;JLjava/lang/Object;Ljm/a;)Ljava/lang/Runnable;
+.method public static final postAtTime(Landroid/os/Handler;JLjava/lang/Object;Lq8/a;)Ljava/lang/Runnable;
     .locals 1
-    .param p0    # Landroid/os/Handler;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p4    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/os/Handler;",
             "J",
             "Ljava/lang/Object;",
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/a;",
+            ")",
             "Ljava/lang/Runnable;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -39,7 +23,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p4}, Landroidx/core/os/HandlerKt$postAtTime$runnable$1;-><init>(Ljm/a;)V
+    invoke-direct {v0, p4}, Landroidx/core/os/HandlerKt$postAtTime$runnable$1;-><init>(Lq8/a;)V
 
     .line 4
     .line 5
@@ -271,9 +255,15 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static synthetic postAtTime$default(Landroid/os/Handler;JLjava/lang/Object;Ljm/a;ILjava/lang/Object;)Ljava/lang/Runnable;
+.method public static synthetic postAtTime$default(Landroid/os/Handler;JLjava/lang/Object;Lq8/a;ILjava/lang/Object;)Ljava/lang/Runnable;
     .locals 0
 
     .line 1
@@ -293,7 +283,7 @@
 
     .line 7
     .line 8
-    invoke-direct {p5, p4}, Landroidx/core/os/HandlerKt$postAtTime$runnable$1;-><init>(Ljm/a;)V
+    invoke-direct {p5, p4}, Landroidx/core/os/HandlerKt$postAtTime$runnable$1;-><init>(Lq8/a;)V
 
     .line 9
     .line 10
@@ -1300,34 +1290,18 @@
     .line 1008
 .end method
 
-.method public static final postDelayed(Landroid/os/Handler;JLjava/lang/Object;Ljm/a;)Ljava/lang/Runnable;
+.method public static final postDelayed(Landroid/os/Handler;JLjava/lang/Object;Lq8/a;)Ljava/lang/Runnable;
     .locals 1
-    .param p0    # Landroid/os/Handler;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p4    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/os/Handler;",
             "J",
             "Ljava/lang/Object;",
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/a;",
+            ")",
             "Ljava/lang/Runnable;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1335,7 +1309,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p4}, Landroidx/core/os/HandlerKt$postDelayed$runnable$1;-><init>(Ljm/a;)V
+    invoke-direct {v0, p4}, Landroidx/core/os/HandlerKt$postDelayed$runnable$1;-><init>(Lq8/a;)V
 
     .line 4
     .line 5
@@ -1574,9 +1548,15 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static synthetic postDelayed$default(Landroid/os/Handler;JLjava/lang/Object;Ljm/a;ILjava/lang/Object;)Ljava/lang/Runnable;
+.method public static synthetic postDelayed$default(Landroid/os/Handler;JLjava/lang/Object;Lq8/a;ILjava/lang/Object;)Ljava/lang/Runnable;
     .locals 0
 
     .line 1
@@ -1596,7 +1576,7 @@
 
     .line 7
     .line 8
-    invoke-direct {p5, p4}, Landroidx/core/os/HandlerKt$postDelayed$runnable$1;-><init>(Ljm/a;)V
+    invoke-direct {p5, p4}, Landroidx/core/os/HandlerKt$postDelayed$runnable$1;-><init>(Lq8/a;)V
 
     .line 9
     .line 10

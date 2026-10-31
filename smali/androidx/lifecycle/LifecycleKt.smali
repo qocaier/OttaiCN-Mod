@@ -6,19 +6,13 @@
 # direct methods
 .method public static final getCoroutineScope(Landroidx/lifecycle/Lifecycle;)Landroidx/lifecycle/LifecycleCoroutineScope;
     .locals 4
-    .param p0    # Landroidx/lifecycle/Lifecycle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -62,7 +56,7 @@
     const/4 v2, 0x0
 
     .line 23
-    invoke-static {v2, v1, v2}, Lfn/r2;->c(Lkotlinx/coroutines/l;ILjava/lang/Object;)Lkotlinx/coroutines/f;
+    invoke-static {v2, v1, v2}, Lkotlinx/coroutines/k2;->b(Lkotlinx/coroutines/s1;ILjava/lang/Object;)Lkotlinx/coroutines/y;
 
     .line 24
     .line 25
@@ -70,7 +64,7 @@
     move-result-object v1
 
     .line 27
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     .line 28
     .line 29
@@ -78,7 +72,7 @@
     move-result-object v3
 
     .line 31
-    invoke-virtual {v3}, Lfn/d2;->l()Lfn/d2;
+    invoke-virtual {v3}, Lkotlinx/coroutines/z1;->e()Lkotlinx/coroutines/z1;
 
     .line 32
     .line 33
@@ -86,7 +80,7 @@
     move-result-object v3
 
     .line 35
-    invoke-interface {v1, v3}, Lkotlin/coroutines/d;->plus(Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+    invoke-interface {v1, v3}, Lkotlin/coroutines/i;->plus(Lkotlin/coroutines/i;)Lkotlin/coroutines/i;
 
     .line 36
     .line 37
@@ -94,7 +88,7 @@
     move-result-object v1
 
     .line 39
-    invoke-direct {v0, p0, v1}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;-><init>(Landroidx/lifecycle/Lifecycle;Lkotlin/coroutines/d;)V
+    invoke-direct {v0, p0, v1}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;-><init>(Landroidx/lifecycle/Lifecycle;Lkotlin/coroutines/i;)V
 
     .line 40
     .line 41
@@ -107,7 +101,7 @@
     move-result-object v1
 
     .line 46
-    invoke-static {v1, v2, v0}, Lp1/f;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2, v0}, Landroidx/lifecycle/g;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 47
     .line 48
@@ -148,26 +142,18 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
-.method public static final getEventFlow(Landroidx/lifecycle/Lifecycle;)Ljn/e;
+.method public static final getEventFlow(Landroidx/lifecycle/Lifecycle;)Lkotlinx/coroutines/flow/c;
     .locals 2
-    .param p0    # Landroidx/lifecycle/Lifecycle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/lifecycle/Lifecycle;",
             ")",
-            "Ljn/e<",
-            "Landroidx/lifecycle/Lifecycle$Event;",
-            ">;"
+            "Lkotlinx/coroutines/flow/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -175,7 +161,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -187,12 +173,12 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-direct {v0, p0, v1}, Landroidx/lifecycle/LifecycleKt$eventFlow$1;-><init>(Landroidx/lifecycle/Lifecycle;Lul/c;)V
+    invoke-direct {v0, p0, v1}, Landroidx/lifecycle/LifecycleKt$eventFlow$1;-><init>(Landroidx/lifecycle/Lifecycle;Lkotlin/coroutines/e;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-static {v0}, Ljn/g;->t(Ljm/p;)Ljn/e;
+    invoke-static {v0}, Lkotlinx/coroutines/flow/e;->f(Lq8/p;)Lkotlinx/coroutines/flow/c;
 
     .line 13
     .line 14
@@ -200,7 +186,7 @@
     move-result-object p0
 
     .line 16
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     .line 17
     .line 18
@@ -208,7 +194,7 @@
     move-result-object v0
 
     .line 20
-    invoke-virtual {v0}, Lfn/d2;->l()Lfn/d2;
+    invoke-virtual {v0}, Lkotlinx/coroutines/z1;->e()Lkotlinx/coroutines/z1;
 
     .line 21
     .line 22
@@ -216,7 +202,7 @@
     move-result-object v0
 
     .line 24
-    invoke-static {p0, v0}, Ljn/g;->P0(Ljn/e;Lkotlin/coroutines/d;)Ljn/e;
+    invoke-static {p0, v0}, Lkotlinx/coroutines/flow/e;->z(Lkotlinx/coroutines/flow/c;Lkotlin/coroutines/i;)Lkotlinx/coroutines/flow/c;
 
     .line 25
     .line 26
@@ -275,4 +261,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

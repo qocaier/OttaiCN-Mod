@@ -275,6 +275,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic a(Landroidx/camera/video/VideoCapture$2;Landroidx/camera/core/impl/SessionConfig$Builder;)V
@@ -576,11 +582,11 @@
 
     .line 118
     .line 119
-    new-instance v1, Landroidx/camera/video/o;
+    new-instance v1, Landroidx/camera/video/n0;
 
     .line 120
     .line 121
-    invoke-direct {v1, p0, v0}, Landroidx/camera/video/o;-><init>(Landroidx/camera/video/VideoCapture$2;Landroidx/camera/core/impl/SessionConfig$Builder;)V
+    invoke-direct {v1, p0, v0}, Landroidx/camera/video/n0;-><init>(Landroidx/camera/video/VideoCapture$2;Landroidx/camera/core/impl/SessionConfig$Builder;)V
 
     .line 122
     .line 123
@@ -703,4 +709,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

@@ -53,6 +53,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -83,6 +85,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public create()Lcom/qiyukf/unicorn/api/ProductDetail;
@@ -113,6 +117,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setActionText(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -148,6 +154,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setActionTextColor(I)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -183,6 +191,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setActionTextSize(F)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -218,6 +228,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setAgentId(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -253,6 +265,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setAlwaysSend(Z)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -288,6 +302,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCardType(I)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -323,6 +339,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCustomLabelOrderId(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -358,6 +376,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCustomLabelOrderTime(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -393,6 +413,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setDesc(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -454,63 +476,6 @@
     .line 26
     return-object p0
     .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public setExt(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -546,6 +511,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setGoodsCId(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -581,6 +548,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setGoodsCName(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -616,6 +585,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setGoodsId(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -651,6 +622,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setHandlerTag(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -686,6 +659,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setInfo(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -721,6 +696,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setIntent(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -756,6 +733,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setIsOpenReselect(Z)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -791,6 +770,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNote(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -852,63 +833,6 @@
     .line 26
     .line 27
     return-object p0
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public setOpenTemplate(Z)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -944,6 +868,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOptionId(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -979,6 +905,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderId(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -1014,6 +942,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOrderStageType(I)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -1049,6 +979,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setParams(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -1084,6 +1016,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPicture(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -1119,6 +1053,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setProductReslectOnclickListener(Lcom/qiyukf/unicorn/api/msg/ProductReslectOnclickListener;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -1154,6 +1090,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setReselectText(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -1189,6 +1127,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSendByUser(Z)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -1224,6 +1164,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setShow(I)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -1259,6 +1201,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTagString(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -1294,6 +1238,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTags(Ljava/util/List;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -1338,6 +1284,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTitle(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -1388,6 +1336,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUrl(Ljava/lang/String;)Lcom/qiyukf/unicorn/api/ProductDetail$Builder;
@@ -1423,4 +1373,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

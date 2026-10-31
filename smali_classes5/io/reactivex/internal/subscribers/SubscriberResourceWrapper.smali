@@ -3,9 +3,9 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ldk/o;
-.implements Lfk/b;
-.implements Luq/e;
+.implements Lb8/g;
+.implements Lio/reactivex/disposables/b;
+.implements Laa/d;
 
 
 # annotations
@@ -15,12 +15,11 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/util/concurrent/atomic/AtomicReference<",
-        "Lfk/b;",
+        "Lio/reactivex/disposables/b;",
         ">;",
-        "Ldk/o<",
-        "TT;>;",
-        "Lfk/b;",
-        "Luq/e;"
+        "Lb8/g;",
+        "Lio/reactivex/disposables/b;",
+        "Laa/d;"
     }
 .end annotation
 
@@ -30,11 +29,10 @@
 
 
 # instance fields
-.field final downstream:Luq/d;
+.field final downstream:Laa/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Luq/d<",
-            "-TT;>;"
+            "Laa/c;"
         }
     .end annotation
 .end field
@@ -43,7 +41,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/concurrent/atomic/AtomicReference<",
-            "Luq/e;",
+            "Laa/d;",
             ">;"
         }
     .end annotation
@@ -51,13 +49,13 @@
 
 
 # direct methods
-.method public constructor <init>(Luq/d;)V
+.method public constructor <init>(Laa/c;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Luq/d<",
-            "-TT;>;)V"
+            "Laa/c;",
+            ")V"
         }
     .end annotation
 
@@ -80,7 +78,7 @@
 
     .line 10
     .line 11
-    iput-object p1, p0, Lio/reactivex/internal/subscribers/SubscriberResourceWrapper;->downstream:Luq/d;
+    iput-object p1, p0, Lio/reactivex/internal/subscribers/SubscriberResourceWrapper;->downstream:Laa/c;
 
     .line 12
     .line 13
@@ -96,6 +94,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 
@@ -129,6 +160,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public dispose()V
@@ -164,6 +222,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public isDisposed()Z
@@ -210,6 +295,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onComplete()V
@@ -221,11 +333,11 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lio/reactivex/internal/subscribers/SubscriberResourceWrapper;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/subscribers/SubscriberResourceWrapper;->downstream:Laa/c;
 
     .line 5
     .line 6
-    invoke-interface {v0}, Luq/d;->onComplete()V
+    invoke-interface {v0}, Laa/c;->onComplete()V
 
     .line 7
     .line 8
@@ -245,6 +357,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onError(Ljava/lang/Throwable;)V
@@ -256,11 +395,11 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lio/reactivex/internal/subscribers/SubscriberResourceWrapper;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/subscribers/SubscriberResourceWrapper;->downstream:Laa/c;
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Luq/d;->onError(Ljava/lang/Throwable;)V
+    invoke-interface {v0, p1}, Laa/c;->onError(Ljava/lang/Throwable;)V
 
     .line 7
     .line 8
@@ -281,6 +420,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public onNext(Ljava/lang/Object;)V
@@ -292,11 +464,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/subscribers/SubscriberResourceWrapper;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/subscribers/SubscriberResourceWrapper;->downstream:Laa/c;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Luq/d;->onNext(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Laa/c;->onNext(Ljava/lang/Object;)V
 
     .line 4
     .line 5
@@ -320,9 +492,42 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public onSubscribe(Luq/e;)V
+.method public onSubscribe(Laa/d;)V
     .locals 1
 
     .line 1
@@ -330,7 +535,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lio/reactivex/internal/subscriptions/SubscriptionHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Luq/e;)Z
+    invoke-static {v0, p1}, Lio/reactivex/internal/subscriptions/SubscriptionHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Laa/d;)Z
 
     .line 4
     .line 5
@@ -342,11 +547,11 @@
 
     .line 8
     .line 9
-    iget-object p1, p0, Lio/reactivex/internal/subscribers/SubscriberResourceWrapper;->downstream:Luq/d;
+    iget-object p1, p0, Lio/reactivex/internal/subscribers/SubscriberResourceWrapper;->downstream:Laa/c;
 
     .line 10
     .line 11
-    invoke-interface {p1, p0}, Luq/d;->onSubscribe(Luq/e;)V
+    invoke-interface {p1, p0}, Laa/c;->onSubscribe(Laa/d;)V
 
     .line 12
     .line 13
@@ -363,6 +568,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public request(J)V
@@ -393,11 +631,11 @@
     move-result-object v0
 
     .line 13
-    check-cast v0, Luq/e;
+    check-cast v0, Laa/d;
 
     .line 14
     .line 15
-    invoke-interface {v0, p1, p2}, Luq/e;->request(J)V
+    invoke-interface {v0, p1, p2}, Laa/d;->request(J)V
 
     .line 16
     .line 17
@@ -410,13 +648,46 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public setResource(Lfk/b;)V
+.method public setResource(Lio/reactivex/disposables/b;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->set(Ljava/util/concurrent/atomic/AtomicReference;Lfk/b;)Z
+    invoke-static {p0, p1}, Lio/reactivex/internal/disposables/DisposableHelper;->set(Ljava/util/concurrent/atomic/AtomicReference;Lio/reactivex/disposables/b;)Z
 
     .line 2
     .line 3
@@ -442,4 +713,37 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method

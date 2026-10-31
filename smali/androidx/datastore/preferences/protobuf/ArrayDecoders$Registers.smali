@@ -45,14 +45,6 @@
 
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "extensionRegistry"
-        }
-    .end annotation
 
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V

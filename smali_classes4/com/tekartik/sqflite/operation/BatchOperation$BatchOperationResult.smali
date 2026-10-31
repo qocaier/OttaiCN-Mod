@@ -32,14 +32,6 @@
 # direct methods
 .method public constructor <init>(Lcom/tekartik/sqflite/operation/BatchOperation;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/tekartik/sqflite/operation/BatchOperation$BatchOperationResult;->this$0:Lcom/tekartik/sqflite/operation/BatchOperation;
@@ -71,6 +63,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -210,11 +204,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public success(Ljava/lang/Object;)V
@@ -248,4 +237,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

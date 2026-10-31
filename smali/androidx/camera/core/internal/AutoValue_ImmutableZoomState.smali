@@ -258,6 +258,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -426,6 +432,7 @@
     :cond_1
     return v2
     .line 78
+    .line 79
 .end method
 
 .method public getLinearZoom()F
@@ -454,6 +461,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxZoomRatio()F
@@ -482,6 +490,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMinZoomRatio()F
@@ -510,6 +519,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getZoomRatio()F
@@ -538,6 +548,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -668,6 +679,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -802,4 +815,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

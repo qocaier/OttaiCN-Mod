@@ -3,17 +3,17 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
+.implements Landroidx/core/util/Consumer;
 
 
 # instance fields
 .field public final synthetic a:Landroidx/camera/video/Recorder;
 
-.field public final synthetic b:Landroidx/camera/video/Recorder$RecordingRecord;
+.field public final synthetic b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/video/Recorder;Landroidx/camera/video/Recorder$RecordingRecord;)V
+.method public synthetic constructor <init>(Landroidx/camera/video/Recorder;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V
     .locals 0
 
     .line 1
@@ -21,24 +21,24 @@
 
     iput-object p1, p0, Landroidx/camera/video/c;->a:Landroidx/camera/video/Recorder;
 
-    iput-object p2, p0, Landroidx/camera/video/c;->b:Landroidx/camera/video/Recorder$RecordingRecord;
+    iput-object p2, p0, Landroidx/camera/video/c;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+.method public final accept(Ljava/lang/Object;)V
     .locals 2
 
     .line 1
     iget-object v0, p0, Landroidx/camera/video/c;->a:Landroidx/camera/video/Recorder;
 
-    iget-object v1, p0, Landroidx/camera/video/c;->b:Landroidx/camera/video/Recorder$RecordingRecord;
+    iget-object v1, p0, Landroidx/camera/video/c;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
-    invoke-static {v0, v1, p1}, Landroidx/camera/video/Recorder;->o(Landroidx/camera/video/Recorder;Landroidx/camera/video/Recorder$RecordingRecord;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    check-cast p1, Ljava/lang/Throwable;
 
-    move-result-object p1
+    invoke-static {v0, v1, p1}, Landroidx/camera/video/Recorder;->e(Landroidx/camera/video/Recorder;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Ljava/lang/Throwable;)V
 
-    return-object p1
+    return-void
 .end method

@@ -107,6 +107,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/imagecapture/CaptureNode;Landroidx/camera/core/impl/ImageReaderProxy;)V
@@ -326,6 +327,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static createImageReaderProxy(Landroidx/camera/core/ImageReaderProxyProvider;III)Landroidx/camera/core/impl/ImageReaderProxy;
@@ -601,6 +605,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private matchAndPropagateImage(Landroidx/camera/core/ImageProxy;)V
@@ -928,6 +938,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private releaseInputResources(Landroidx/camera/core/imagecapture/CaptureNode$In;Landroidx/camera/core/SafeCloseImageReaderProxy;)V
@@ -963,7 +978,7 @@
     move-result-object p1
 
     .line 12
-    invoke-virtual {p1}, Landroidx/camera/core/impl/DeferrableSurface;->getTerminationFuture()Lub/u0;
+    invoke-virtual {p1}, Landroidx/camera/core/impl/DeferrableSurface;->getTerminationFuture()Lcom/google/common/util/concurrent/t;
 
     .line 13
     .line 14
@@ -976,11 +991,11 @@
     .line 17
     .line 18
     .line 19
-    new-instance v0, Lm/t;
+    new-instance v0, Landroidx/camera/camera2/internal/w2;
 
     .line 20
     .line 21
-    invoke-direct {v0, p2}, Lm/t;-><init>(Landroidx/camera/core/SafeCloseImageReaderProxy;)V
+    invoke-direct {v0, p2}, Landroidx/camera/camera2/internal/w2;-><init>(Landroidx/camera/core/SafeCloseImageReaderProxy;)V
 
     .line 22
     .line 23
@@ -993,7 +1008,7 @@
     move-result-object p2
 
     .line 28
-    invoke-interface {p1, v0, p2}, Lub/u0;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-interface {p1, v0, p2}, Lcom/google/common/util/concurrent/t;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 
     .line 29
     .line 30
@@ -1134,6 +1149,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getInputEdge()Landroidx/camera/core/imagecapture/CaptureNode$In;
@@ -1169,6 +1186,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSafeCloseImageReaderProxy()Landroidx/camera/core/SafeCloseImageReaderProxy;
@@ -1204,6 +1222,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onImageProxyAvailable(Landroidx/camera/core/ImageProxy;)V
@@ -1328,6 +1347,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onRequestAvailable(Landroidx/camera/core/imagecapture/ProcessingRequest;)V
@@ -1467,7 +1487,7 @@
     .line 59
     .line 60
     .line 61
-    invoke-virtual {p1}, Landroidx/camera/core/imagecapture/ProcessingRequest;->getCaptureFuture()Lub/u0;
+    invoke-virtual {p1}, Landroidx/camera/core/imagecapture/ProcessingRequest;->getCaptureFuture()Lcom/google/common/util/concurrent/t;
 
     .line 62
     .line 63
@@ -1492,13 +1512,14 @@
     move-result-object p1
 
     .line 74
-    invoke-static {v0, v1, p1}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {v0, v1, p1}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     .line 75
     .line 76
     .line 77
     return-void
     .line 78
+    .line 79
 .end method
 
 .method public release()V
@@ -1539,6 +1560,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public sendCaptureError(Landroidx/camera/core/ImageCaptureException;)V

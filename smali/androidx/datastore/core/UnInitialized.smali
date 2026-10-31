@@ -15,9 +15,6 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/datastore/core/UnInitialized;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -43,7 +40,7 @@
     const/4 v1, 0x0
 
     .line 3
-    invoke-direct {p0, v0, v1}, Landroidx/datastore/core/State;-><init>(ILkm/v;)V
+    invoke-direct {p0, v0, v1}, Landroidx/datastore/core/State;-><init>(ILkotlin/jvm/internal/f;)V
 
     .line 4
     .line 5
@@ -63,4 +60,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -89,11 +89,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -319,11 +314,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public getMaskMargins(Landroidx/recyclerview/widget/RecyclerView$LayoutParams;)F
@@ -362,7 +352,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getMaskRect(FFFF)Landroid/graphics/RectF;
@@ -619,6 +608,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public getParentBottom()I
@@ -661,7 +666,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParentEnd()I
@@ -709,7 +713,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParentLeft()I
@@ -752,7 +755,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParentStart()I
@@ -800,7 +802,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParentTop()I
@@ -835,7 +836,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public layoutDecoratedWithMargins(Landroid/view/View;II)V
@@ -1007,11 +1007,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public moveMaskOnEdgeOutsideBounds(Landroid/graphics/RectF;Landroid/graphics/RectF;Landroid/graphics/RectF;)V
@@ -1213,11 +1208,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public offsetChild(Landroid/view/View;Landroid/graphics/Rect;FF)V
@@ -1478,4 +1468,20 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method

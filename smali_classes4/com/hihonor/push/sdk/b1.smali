@@ -6,19 +6,6 @@
 .implements Lcom/hihonor/push/sdk/t0;
 
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<TResult:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Lcom/hihonor/push/sdk/t0<",
-        "TTResult;>;"
-    }
-.end annotation
-
-
 # instance fields
 .field public final a:Ljava/util/concurrent/CountDownLatch;
 
@@ -47,8 +34,8 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/hihonor/push/sdk/d1<",
-            "TTResult;>;)V"
+            "Lcom/hihonor/push/sdk/d1;",
+            ")V"
         }
     .end annotation
 

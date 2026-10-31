@@ -285,6 +285,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -315,6 +321,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public notifyOnConfigureAvailableListener()V
@@ -335,11 +342,11 @@
     .line 6
     .line 7
     .line 8
-    new-instance v2, Lu/h;
+    new-instance v2, Landroidx/camera/core/impl/h;
 
     .line 9
     .line 10
-    invoke-direct {v2, v1}, Lu/h;-><init>(Landroidx/camera/core/impl/CameraStateRegistry$OnConfigureAvailableListener;)V
+    invoke-direct {v2, v1}, Landroidx/camera/core/impl/h;-><init>(Landroidx/camera/core/impl/CameraStateRegistry$OnConfigureAvailableListener;)V
 
     .line 11
     .line 12
@@ -431,6 +438,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public notifyOnOpenAvailableListener()V
@@ -451,11 +460,11 @@
     .line 6
     .line 7
     .line 8
-    new-instance v2, Lu/g;
+    new-instance v2, Landroidx/camera/core/impl/g;
 
     .line 9
     .line 10
-    invoke-direct {v2, v1}, Lu/g;-><init>(Landroidx/camera/core/impl/CameraStateRegistry$OnOpenAvailableListener;)V
+    invoke-direct {v2, v1}, Landroidx/camera/core/impl/g;-><init>(Landroidx/camera/core/impl/CameraStateRegistry$OnOpenAvailableListener;)V
 
     .line 11
     .line 12
@@ -547,6 +556,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setState(Landroidx/camera/core/impl/CameraInternal$State;)Landroidx/camera/core/impl/CameraInternal$State;

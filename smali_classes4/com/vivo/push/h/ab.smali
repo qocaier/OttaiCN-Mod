@@ -44,6 +44,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -92,169 +94,169 @@
 
     .line 20
     .line 21
-    const-string v2, "\u5f15\u64ce\u7248\u672c\u592a\u4f4e\uff0c\u4e0d\u652f\u6301\u6b63\u5411\u5c55\u793a\u529f\u80fd\uff0cpushEngineSDKVersion\uff1a"
+    const-string/jumbo v2, "\u5f15\u64ce\u7248\u672c\u592a\u4f4e\uff0c\u4e0d\u652f\u6301\u6b63\u5411\u5c55\u793a\u529f\u80fd\uff0cpushEngineSDKVersion\uff1a"
 
     .line 22
     .line 23
+    .line 24
     invoke-static {v0, v1}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
 
-    .line 24
     .line 25
     .line 26
-    move-result-object v0
-
     .line 27
-    invoke-virtual {v2, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v0
 
     .line 28
+    invoke-virtual {v2, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
     .line 29
     .line 30
+    .line 31
     move-result-object v0
 
-    .line 31
+    .line 32
     const-string v1, "OnNotificationArrivedTask"
 
-    .line 32
     .line 33
+    .line 34
     invoke-static {v1, v0}, Lcom/vivo/push/util/w;->b(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 34
     .line 35
     .line 36
+    .line 37
     return-void
 
-    .line 37
+    .line 38
     :cond_0
     new-instance v0, Ljava/util/HashMap;
 
-    .line 38
     .line 39
+    .line 40
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 40
     .line 41
     .line 42
+    .line 43
     const-string v1, "srt"
 
-    .line 43
     .line 44
+    .line 45
     const-string v2, "1"
 
-    .line 45
     .line 46
+    .line 47
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 47
     .line 48
     .line 49
+    .line 50
     iget-object v1, p0, Lcom/vivo/push/h/ab;->a:Lcom/vivo/push/h/aa;
 
-    .line 50
     .line 51
+    .line 52
     iget-object v1, v1, Lcom/vivo/push/h/aa;->b:Lcom/vivo/push/b/r;
 
-    .line 52
     .line 53
+    .line 54
     invoke-virtual {v1}, Lcom/vivo/push/b/x;->k()J
 
-    .line 54
     .line 55
     .line 56
+    .line 57
     move-result-wide v3
 
-    .line 57
+    .line 58
     invoke-static {v3, v4}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
 
-    .line 58
     .line 59
     .line 60
-    move-result-object v1
-
     .line 61
-    const-string v3, "message_id"
+    move-result-object v1
 
     .line 62
+    const-string v3, "message_id"
+
     .line 63
+    .line 64
     invoke-virtual {v0, v3, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 64
     .line 65
     .line 66
+    .line 67
     invoke-static {}, Lcom/vivo/push/restructure/a;->a()Lcom/vivo/push/restructure/a;
 
-    .line 67
     .line 68
     .line 69
-    move-result-object v1
-
     .line 70
-    invoke-virtual {v1}, Lcom/vivo/push/restructure/a;->e()Lcom/vivo/push/restructure/b/a;
+    move-result-object v1
 
     .line 71
+    invoke-virtual {v1}, Lcom/vivo/push/restructure/a;->e()Lcom/vivo/push/restructure/b/a;
+
     .line 72
     .line 73
-    move-result-object v1
-
     .line 74
-    invoke-interface {v1}, Lcom/vivo/push/restructure/b/a;->a()Ljava/lang/String;
+    move-result-object v1
 
     .line 75
+    invoke-interface {v1}, Lcom/vivo/push/restructure/b/a;->a()Ljava/lang/String;
+
     .line 76
     .line 77
+    .line 78
     move-result-object v1
 
-    .line 78
+    .line 79
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 79
     .line 80
     .line 81
+    .line 82
     move-result v3
 
-    .line 82
+    .line 83
     if-nez v3, :cond_1
 
-    .line 83
     .line 84
+    .line 85
     const-string v3, "app_id"
 
-    .line 85
     .line 86
+    .line 87
     invoke-virtual {v0, v3, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 87
     .line 88
     .line 89
+    .line 90
     :cond_1
     const-string v1, "type"
 
-    .line 90
     .line 91
+    .line 92
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 92
     .line 93
     .line 94
+    .line 95
     const-string v1, "dtp"
 
-    .line 95
     .line 96
+    .line 97
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 97
     .line 98
     .line 99
+    .line 100
     const-wide/16 v1, 0x6
 
-    .line 100
     .line 101
+    .line 102
     invoke-static {v1, v2, v0}, Lcom/vivo/push/util/h;->a(JLjava/util/HashMap;)Z
 
-    .line 102
     .line 103
     .line 104
-    return-void
     .line 105
+    return-void
     .line 106
     .line 107
     .line 108
@@ -431,68 +433,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method public final b()V
@@ -630,4 +570,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

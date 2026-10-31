@@ -126,6 +126,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>(Landroid/content/Context;Landroid/view/ViewGroup;Landroidx/customview/widget/ViewDragHelper$Callback;)V
@@ -353,6 +354,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private checkNewEdgeDrag(FFII)Z
@@ -695,6 +699,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private checkTouchSlop(Landroid/view/View;FF)Z
@@ -1212,6 +1222,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private computeSettleDuration(Landroid/view/View;IIII)I
@@ -2341,6 +2354,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private ensureMotionHistorySizeForId(I)V
@@ -2675,6 +2694,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private forceSettleCapturedViewAt(IIII)Z
@@ -2976,6 +3000,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private getEdgesTouched(II)I
@@ -3282,6 +3312,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private isValidPointerForActionMove(I)Z
@@ -3401,6 +3434,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private releaseViewForPointerUp()V
@@ -3533,6 +3567,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private reportNewEdgeDrags(FFI)V
@@ -3706,6 +3742,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private saveInitialMotion(FFI)V
@@ -3865,6 +3904,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private saveLastMotion(Landroid/view/MotionEvent;)V
@@ -3993,6 +4035,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -4136,6 +4179,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public canScroll(Landroid/view/View;ZIIII)Z
@@ -5316,6 +5361,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public captureChildView(Landroid/view/View;I)V
@@ -5606,6 +5652,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public checkTouchSlop(I)Z
@@ -6138,6 +6187,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public findTopChildUnder(II)Landroid/view/View;
@@ -6436,6 +6490,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public flingCapturedView(IIII)V
@@ -6733,6 +6790,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getActivePointerId()I
@@ -6761,6 +6824,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCapturedView()Landroid/view/View;
@@ -6791,6 +6855,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDefaultEdgeSize()I
@@ -6821,6 +6886,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getEdgeSize()I
@@ -6851,6 +6917,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMinVelocity()F
@@ -6879,6 +6946,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTouchSlop()I
@@ -6909,6 +6977,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getViewDragState()I
@@ -6937,6 +7006,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isCapturedViewUnder(II)Z
@@ -7265,6 +7335,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public processTouchEvent(Landroid/view/MotionEvent;)V
@@ -9205,6 +9278,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setEdgeSize(I)V
@@ -11317,6 +11391,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public tryCaptureViewForDrag(Landroid/view/View;I)Z

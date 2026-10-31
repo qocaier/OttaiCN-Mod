@@ -3,15 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lb9/a;
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "FeatureCreator"
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
@@ -29,38 +20,19 @@
 
 # instance fields
 .field public final a:Ljava/lang/String;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getName"
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getOldVersion"
-        id = 0x2
-    .end annotation
-
-    .annotation runtime Ljava/lang/Deprecated;
-    .end annotation
-.end field
 
 .field public final c:J
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValue = "-1"
-        getter = "getVersion"
-        id = 0x3
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, La9/y;
+    new-instance v0, Lq2/i;
 
-    invoke-direct {v0}, La9/y;-><init>()V
+    invoke-direct {v0}, Lq2/i;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/Feature;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -69,26 +41,6 @@
 
 .method public constructor <init>(Ljava/lang/String;IJ)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .param p3    # J
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x3
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -104,12 +56,6 @@
 
 .method public constructor <init>(Ljava/lang/String;J)V
     .locals 0
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Lb9/a;
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -127,12 +73,37 @@
 
 
 # virtual methods
+.method public d()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/common/Feature;->a:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public e()J
+    .locals 4
+
+    .line 1
+    iget-wide v0, p0, Lcom/google/android/gms/common/Feature;->c:J
+
+    const-wide/16 v2, -0x1
+
+    cmp-long v2, v0, v2
+
+    if-nez v2, :cond_0
+
+    iget v0, p0, Lcom/google/android/gms/common/Feature;->b:I
+
+    int-to-long v0, v0
+
+    :cond_0
+    return-wide v0
+.end method
+
 .method public final equals(Ljava/lang/Object;)Z
     .locals 6
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
     instance-of v0, p1, Lcom/google/android/gms/common/Feature;
@@ -150,7 +121,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->s()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->d()Ljava/lang/String;
 
     .line 9
     .line 10
@@ -162,7 +133,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->s()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->d()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -170,7 +141,7 @@
     move-result-object v0
 
     .line 18
-    invoke-virtual {p1}, Lcom/google/android/gms/common/Feature;->s()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/Feature;->d()Ljava/lang/String;
 
     .line 19
     .line 20
@@ -191,7 +162,7 @@
     .line 27
     .line 28
     :cond_0
-    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->s()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->d()Ljava/lang/String;
 
     .line 29
     .line 30
@@ -203,7 +174,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {p1}, Lcom/google/android/gms/common/Feature;->s()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/Feature;->d()Ljava/lang/String;
 
     .line 35
     .line 36
@@ -216,7 +187,7 @@
     .line 39
     .line 40
     :cond_1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->t()J
+    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->e()J
 
     .line 41
     .line 42
@@ -224,7 +195,7 @@
     move-result-wide v2
 
     .line 44
-    invoke-virtual {p1}, Lcom/google/android/gms/common/Feature;->t()J
+    invoke-virtual {p1}, Lcom/google/android/gms/common/Feature;->e()J
 
     .line 45
     .line 46
@@ -285,15 +256,13 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public final hashCode()I
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->s()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->d()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -301,7 +270,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->t()J
+    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->e()J
 
     .line 6
     .line 7
@@ -325,7 +294,7 @@
     move-result-object v0
 
     .line 17
-    invoke-static {v0}, Lh9/r;->c([Ljava/lang/Object;)I
+    invoke-static {v0}, Lt2/i;->b([Ljava/lang/Object;)I
 
     .line 18
     .line 19
@@ -335,52 +304,13 @@
     .line 21
     return v0
     .line 22
-    .line 23
-.end method
-
-.method public s()Ljava/lang/String;
-    .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lb9/a;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/Feature;->a:Ljava/lang/String;
-
-    return-object v0
-.end method
-
-.method public t()J
-    .locals 4
-    .annotation build Lb9/a;
-    .end annotation
-
-    .line 1
-    iget-wide v0, p0, Lcom/google/android/gms/common/Feature;->c:J
-
-    const-wide/16 v2, -0x1
-
-    cmp-long v2, v0, v2
-
-    if-nez v2, :cond_0
-
-    iget v0, p0, Lcom/google/android/gms/common/Feature;->b:I
-
-    int-to-long v0, v0
-
-    :cond_0
-    return-wide v0
 .end method
 
 .method public final toString()Ljava/lang/String;
     .locals 3
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
-    invoke-static {p0}, Lh9/r;->d(Ljava/lang/Object;)Lh9/r$a;
+    invoke-static {p0}, Lt2/i;->c(Ljava/lang/Object;)Lt2/i$a;
 
     .line 2
     .line 3
@@ -392,7 +322,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->s()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->d()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -400,12 +330,12 @@
     move-result-object v2
 
     .line 11
-    invoke-virtual {v0, v1, v2}, Lh9/r$a;->a(Ljava/lang/String;Ljava/lang/Object;)Lh9/r$a;
+    invoke-virtual {v0, v1, v2}, Lt2/i$a;->a(Ljava/lang/String;Ljava/lang/Object;)Lt2/i$a;
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->t()J
+    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->e()J
 
     .line 15
     .line 16
@@ -425,12 +355,12 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, v2, v1}, Lh9/r$a;->a(Ljava/lang/String;Ljava/lang/Object;)Lh9/r$a;
+    invoke-virtual {v0, v2, v1}, Lt2/i$a;->a(Ljava/lang/String;Ljava/lang/Object;)Lt2/i$a;
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {v0}, Lh9/r$a;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Lt2/i$a;->toString()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -508,26 +438,13 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -535,7 +452,7 @@
     move-result p2
 
     .line 5
-    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->s()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->d()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -549,7 +466,7 @@
     const/4 v2, 0x1
 
     .line 11
-    invoke-static {p1, v2, v0, v1}, Lj9/a;->Y(Landroid/os/Parcel;ILjava/lang/String;Z)V
+    invoke-static {p1, v2, v0, v1}, Lu2/a;->q(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
     .line 12
     .line 13
@@ -561,7 +478,7 @@
 
     .line 16
     .line 17
-    invoke-static {p1, v0, v1}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 18
     .line 19
@@ -569,7 +486,7 @@
     const/4 v0, 0x3
 
     .line 21
-    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->t()J
+    invoke-virtual {p0}, Lcom/google/android/gms/common/Feature;->e()J
 
     .line 22
     .line 23
@@ -577,12 +494,12 @@
     move-result-wide v1
 
     .line 25
-    invoke-static {p1, v0, v1, v2}, Lj9/a;->K(Landroid/os/Parcel;IJ)V
+    invoke-static {p1, v0, v1, v2}, Lu2/a;->l(Landroid/os/Parcel;IJ)V
 
     .line 26
     .line 27
     .line 28
-    invoke-static {p1, p2}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 29
     .line 30
@@ -617,9 +534,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

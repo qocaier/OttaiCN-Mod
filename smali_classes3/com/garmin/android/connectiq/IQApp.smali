@@ -69,23 +69,22 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 2
 
-    .line 13
+    .line 12
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 14
+    .line 13
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/garmin/android/connectiq/IQApp;->d:I
 
-    .line 15
+    .line 14
     :try_start_0
     invoke-static {}, Lcom/garmin/android/connectiq/IQApp$IQAppStatus;->values()[Lcom/garmin/android/connectiq/IQApp$IQAppStatus;
 
@@ -103,13 +102,13 @@
 
     goto :goto_0
 
-    .line 16
+    .line 15
     :catch_0
     sget-object v0, Lcom/garmin/android/connectiq/IQApp$IQAppStatus;->UNKNOWN:Lcom/garmin/android/connectiq/IQApp$IQAppStatus;
 
     iput-object v0, p0, Lcom/garmin/android/connectiq/IQApp;->b:Lcom/garmin/android/connectiq/IQApp$IQAppStatus;
 
-    .line 17
+    .line 16
     :goto_0
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
@@ -117,7 +116,7 @@
 
     iput-object v0, p0, Lcom/garmin/android/connectiq/IQApp;->a:Ljava/lang/String;
 
-    .line 18
+    .line 17
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object p1
@@ -160,29 +159,6 @@
 
     .line 5
     iput p1, p0, Lcom/garmin/android/connectiq/IQApp;->d:I
-
-    return-void
-.end method
-
-.method public constructor <init>(Ljava/lang/String;I)V
-    .locals 2
-
-    .line 12
-    invoke-virtual {p1}, Ljava/lang/String;->toUpperCase()Ljava/lang/String;
-
-    move-result-object p1
-
-    const-string v0, "[\\s\\-]"
-
-    const-string v1, ""
-
-    invoke-virtual {p1, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
-
-    sget-object v0, Lcom/garmin/android/connectiq/IQApp$IQAppStatus;->INSTALLED:Lcom/garmin/android/connectiq/IQApp$IQAppStatus;
-
-    invoke-direct {p0, p1, v0, v1, p2}, Lcom/garmin/android/connectiq/IQApp;-><init>(Ljava/lang/String;Lcom/garmin/android/connectiq/IQApp$IQAppStatus;Ljava/lang/String;I)V
 
     return-void
 .end method
@@ -245,7 +221,7 @@
 
 
 # virtual methods
-.method public a()Ljava/lang/String;
+.method public b()Ljava/lang/String;
     .locals 1
 
     .line 1
@@ -273,100 +249,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
-.end method
-
-.method public b()Ljava/lang/String;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/garmin/android/connectiq/IQApp;->c:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public c()Lcom/garmin/android/connectiq/IQApp$IQAppStatus;
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Lcom/garmin/android/connectiq/IQApp;->b:Lcom/garmin/android/connectiq/IQApp$IQAppStatus;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-.end method
-
-.method public d()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/garmin/android/connectiq/IQApp;->d:I
-
-    .line 2
-    .line 3
-    return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 .method public describeContents()I
@@ -405,7 +287,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -492,9 +373,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

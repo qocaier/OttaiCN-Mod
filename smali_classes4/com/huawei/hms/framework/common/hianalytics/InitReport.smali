@@ -52,6 +52,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public constructor <init>()V
@@ -80,6 +82,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic access$000()V
@@ -108,6 +112,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static disableConnectNet()V
@@ -138,6 +144,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static enableConnectNet()V
@@ -282,6 +290,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static executeDelay(Ljava/lang/Runnable;)V
@@ -414,6 +423,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static isHasConnectNet()Z
@@ -442,6 +453,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static reportWhenInit(Ljava/lang/Runnable;)V
@@ -593,6 +606,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static submitAllEvents()V
@@ -748,4 +763,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

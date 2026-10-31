@@ -1,34 +1,16 @@
-.class public final synthetic Lcom/qiyukf/module/zip4j/tasks/a;
+.class public abstract synthetic Lcom/qiyukf/module/zip4j/tasks/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/util/Comparator;
-
 
 # direct methods
-.method public synthetic constructor <init>()V
+.method public static bridge synthetic a(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-static {p0, p1}, Ljava/nio/file/Paths;->get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
 
-    return-void
-.end method
+    move-result-object p0
 
-
-# virtual methods
-.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
-    .locals 0
-
-    .line 1
-    check-cast p1, Lcom/qiyukf/module/zip4j/model/FileHeader;
-
-    check-cast p2, Lcom/qiyukf/module/zip4j/model/FileHeader;
-
-    invoke-static {p1, p2}, Lcom/qiyukf/module/zip4j/tasks/AbstractModifyFileTask;->b(Lcom/qiyukf/module/zip4j/model/FileHeader;Lcom/qiyukf/module/zip4j/model/FileHeader;)I
-
-    move-result p1
-
-    return p1
+    return-object p0
 .end method

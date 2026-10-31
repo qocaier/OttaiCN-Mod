@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static castToForegroundServiceStartNotAllowedException(Ljava/lang/IllegalStateException;)Landroid/app/ForegroundServiceStartNotAllowedException;
@@ -53,7 +54,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lr1/b;->a(Ljava/lang/Object;)Landroid/app/ForegroundServiceStartNotAllowedException;
+    invoke-static {p0}, Landroidx/media/session/b;->a(Ljava/lang/Object;)Landroid/app/ForegroundServiceStartNotAllowedException;
 
     .line 2
     .line 3
@@ -90,7 +91,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lr1/c;->a(Ljava/lang/Object;)Z
+    invoke-static {p0}, Landroidx/media/session/c;->a(Ljava/lang/Object;)Z
 
     .line 2
     .line 3

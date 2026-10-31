@@ -3,23 +3,8 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nReflectionUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ReflectionUtils.kt\nandroidx/window/reflection/ReflectionUtils\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,96:1\n12541#2,2:97\n*S KotlinDebug\n*F\n+ 1 ReflectionUtils.kt\nandroidx/window/reflection/ReflectionUtils\n*L\n88#1:97,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nReflectionUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ReflectionUtils.kt\nandroidx/window/reflection/ReflectionUtils\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,96:1\n12541#2,2:97\n*S KotlinDebug\n*F\n+ 1 ReflectionUtils.kt\nandroidx/window/reflection/ReflectionUtils\n*L\n88#1:97,2\n*E\n"
-    }
-.end annotation
-
-
 # static fields
 .field public static final INSTANCE:Landroidx/window/reflection/ReflectionUtils;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -61,29 +46,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public static final validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+.method public static final validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
     .locals 3
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p1    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
-            "Ljm/a<",
-            "Ljava/lang/Boolean;",
-            ">;)Z"
+            "Lq8/a;",
+            ")Z"
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
     .end annotation
 
     .line 1
@@ -99,13 +73,13 @@
 
     .line 6
     .line 7
-    invoke-static {p1, v2}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
     :try_start_0
-    invoke-interface {p1}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -400,9 +374,12 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static synthetic validateReflection$window_release$default(Ljava/lang/String;Ljm/a;ILjava/lang/Object;)Z
+.method public static synthetic validateReflection$window_release$default(Ljava/lang/String;Lq8/a;ILjava/lang/Object;)Z
     .locals 0
 
     .line 1
@@ -418,7 +395,7 @@
 
     .line 6
     :cond_0
-    invoke-static {p0, p1}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {p0, p1}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 7
     .line 8
@@ -647,23 +624,23 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
 # virtual methods
-.method public final checkIsPresent$window_release(Ljm/a;)Z
+.method public final checkIsPresent$window_release(Lq8/a;)Z
     .locals 1
-    .param p1    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/a<",
-            "+",
-            "Ljava/lang/Class<",
-            "*>;>;)Z"
+            "Lq8/a;",
+            ")Z"
         }
     .end annotation
 
@@ -672,13 +649,13 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
     :try_start_0
-    invoke-interface {p1}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lq8/a;->invoke()Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/lang/NoClassDefFoundError; {:try_start_0 .. :try_end_0} :catch_0
@@ -714,14 +691,6 @@
 
 .method public final doesReturn$window_release(Ljava/lang/reflect/Method;Ljava/lang/Class;)Z
     .locals 1
-    .param p1    # Ljava/lang/reflect/Method;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Class;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -733,11 +702,11 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "clazz"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-virtual {p1}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
@@ -751,35 +720,27 @@
     return p1
 .end method
 
-.method public final doesReturn$window_release(Ljava/lang/reflect/Method;Lum/d;)Z
+.method public final doesReturn$window_release(Ljava/lang/reflect/Method;Lkotlin/reflect/c;)Z
     .locals 1
-    .param p1    # Ljava/lang/reflect/Method;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/reflect/Method;",
-            "Lum/d<",
-            "*>;)Z"
+            "Lkotlin/reflect/c;",
+            ")Z"
         }
     .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "clazz"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {p2}, Lim/b;->e(Lum/d;)Ljava/lang/Class;
+    invoke-static {p2}, Lp8/a;->a(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     move-result-object p2
 
@@ -792,17 +753,13 @@
 
 .method public final isPublic$window_release(Ljava/lang/reflect/Method;)Z
     .locals 1
-    .param p1    # Ljava/lang/reflect/Method;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -839,14 +796,6 @@
 
 .method public final validateImplementation$window_release(Ljava/lang/Class;Ljava/lang/Class;)Z
     .locals 6
-    .param p1    # Ljava/lang/Class;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Class;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -862,7 +811,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -871,7 +820,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -888,7 +837,7 @@
 
     .line 16
     .line 17
-    invoke-static {p2, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -981,7 +930,7 @@
     .line 63
     .line 64
     .line 65
-    invoke-static {v4, v5}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {v4, v5}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 66
     .line 67
@@ -1166,4 +1115,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

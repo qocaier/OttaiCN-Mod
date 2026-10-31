@@ -82,11 +82,11 @@
     .line 9
     .line 10
     .line 11
-    new-instance p3, Lm/n;
+    new-instance p3, Landroidx/camera/camera2/internal/m0;
 
     .line 12
     .line 13
-    invoke-direct {p3, p2}, Lm/n;-><init>(Landroidx/camera/camera2/internal/compat/CameraCharacteristicsCompat;)V
+    invoke-direct {p3, p2}, Landroidx/camera/camera2/internal/m0;-><init>(Landroidx/camera/camera2/internal/compat/CameraCharacteristicsCompat;)V
 
     .line 14
     .line 15
@@ -127,11 +127,11 @@
 
     .line 33
     .line 34
-    new-instance p2, Landroidx/camera/camera2/internal/x1;
+    new-instance p2, Landroidx/camera/camera2/internal/q2;
 
     .line 35
     .line 36
-    invoke-direct {p2, p0}, Landroidx/camera/camera2/internal/x1;-><init>(Landroidx/camera/camera2/internal/TorchControl;)V
+    invoke-direct {p2, p0}, Landroidx/camera/camera2/internal/q2;-><init>(Landroidx/camera/camera2/internal/TorchControl;)V
 
     .line 37
     .line 38
@@ -213,6 +213,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic a(Landroidx/camera/camera2/internal/TorchControl;ZLandroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
@@ -223,11 +226,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Landroidx/camera/camera2/internal/y1;
+    new-instance v1, Landroidx/camera/camera2/internal/r2;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p2, p1}, Landroidx/camera/camera2/internal/y1;-><init>(Landroidx/camera/camera2/internal/TorchControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Z)V
+    invoke-direct {v1, p0, p2, p1}, Landroidx/camera/camera2/internal/r2;-><init>(Landroidx/camera/camera2/internal/TorchControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Z)V
 
     .line 6
     .line 7
@@ -354,6 +357,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic b(Landroidx/camera/camera2/internal/TorchControl;Landroid/hardware/camera2/TotalCaptureResult;)Z
@@ -578,6 +584,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private setLiveDataValue(Landroidx/lifecycle/MutableLiveData;Ljava/lang/Object;)V
@@ -662,14 +671,12 @@
 
 
 # virtual methods
-.method public enableTorch(Z)Lub/u0;
+.method public enableTorch(Z)Lcom/google/common/util/concurrent/t;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -708,7 +715,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {p1}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 20
     .line 21
@@ -737,16 +744,16 @@
     .line 31
     .line 32
     .line 33
-    new-instance v0, Landroidx/camera/camera2/internal/w1;
+    new-instance v0, Landroidx/camera/camera2/internal/p2;
 
     .line 34
     .line 35
-    invoke-direct {v0, p0, p1}, Landroidx/camera/camera2/internal/w1;-><init>(Landroidx/camera/camera2/internal/TorchControl;Z)V
+    invoke-direct {v0, p0, p1}, Landroidx/camera/camera2/internal/p2;-><init>(Landroidx/camera/camera2/internal/TorchControl;Z)V
 
     .line 36
     .line 37
     .line 38
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 39
     .line 40
@@ -791,6 +798,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public enableTorchInternal(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Z)V
@@ -1116,6 +1124,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public getTorchState()Landroidx/lifecycle/LiveData;
@@ -1155,6 +1166,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setActive(Z)V
@@ -1289,4 +1301,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

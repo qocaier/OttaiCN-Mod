@@ -271,6 +271,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBufferLength()I
@@ -299,6 +300,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDataLength()I
@@ -327,6 +329,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public readFrom(Ljava/io/InputStream;)I
@@ -419,6 +422,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setDataLength(I)V

@@ -1,5 +1,5 @@
 .class public final Lcom/baidu/entity/pb/WalkPlan$Routes;
-.super Ljc/c;
+.super Ll4/c;
 .source "SourceFile"
 
 
@@ -129,7 +129,7 @@
 .method public constructor <init>()V
     .locals 2
 
-    invoke-direct {p0}, Ljc/c;-><init>()V
+    invoke-direct {p0}, Ll4/c;-><init>()V
 
     sget-object v0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
@@ -164,7 +164,7 @@
     return-void
 .end method
 
-.method public static parseFrom(Ljc/b;)Lcom/baidu/entity/pb/WalkPlan$Routes;
+.method public static parseFrom(Ll4/b;)Lcom/baidu/entity/pb/WalkPlan$Routes;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -177,7 +177,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/WalkPlan$Routes;-><init>()V
 
-    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/WalkPlan$Routes;
+    invoke-virtual {v0, p0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/WalkPlan$Routes;
 
     move-result-object p0
 
@@ -197,7 +197,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/WalkPlan$Routes;-><init>()V
 
-    invoke-virtual {v0, p0}, Ljc/c;->mergeFrom([B)Ljc/c;
+    invoke-virtual {v0, p0}, Ll4/c;->mergeFrom([B)Ll4/c;
 
     move-result-object p0
 
@@ -751,7 +751,7 @@
 
     const/4 v3, 0x1
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -772,7 +772,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -791,7 +791,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -810,7 +810,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -829,7 +829,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v0
 
@@ -859,7 +859,7 @@
 
     const/4 v3, 0x6
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -880,7 +880,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->J(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->t(ILjava/lang/String;)I
 
     move-result v0
 
@@ -910,7 +910,7 @@
 
     const/16 v3, 0x8
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -942,7 +942,7 @@
 
     const/16 v3, 0x9
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -974,7 +974,7 @@
 
     const/16 v3, 0xa
 
-    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->x(ILjc/c;)I
+    invoke-static {v3, v2}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->n(ILl4/c;)I
 
     move-result v2
 
@@ -1086,7 +1086,7 @@
     return v0
 .end method
 
-.method public mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/WalkPlan$Routes;
+.method public mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/WalkPlan$Routes;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1097,13 +1097,13 @@
     .line 1
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Ljc/b;->H()I
+    invoke-virtual {p1}, Ll4/b;->v()I
 
     move-result v0
 
     sparse-switch v0, :sswitch_data_0
 
-    invoke-virtual {p0, p1, v0}, Ljc/c;->parseUnknownField(Ljc/b;I)Z
+    invoke-virtual {p0, p1, v0}, Ll4/c;->parseUnknownField(Ll4/b;I)Z
 
     move-result v0
 
@@ -1116,7 +1116,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/WalkPlan$Routes$MapDrawInfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->addMapDrawInfo(Lcom/baidu/entity/pb/WalkPlan$Routes$MapDrawInfo;)Lcom/baidu/entity/pb/WalkPlan$Routes;
 
@@ -1127,7 +1127,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/WalkPlan$Routes$UgcInfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->addUgcInfo(Lcom/baidu/entity/pb/WalkPlan$Routes$UgcInfo;)Lcom/baidu/entity/pb/WalkPlan$Routes;
 
@@ -1138,14 +1138,14 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/WalkPlan$Routes$Guideinfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->addGuideInfo(Lcom/baidu/entity/pb/WalkPlan$Routes$Guideinfo;)Lcom/baidu/entity/pb/WalkPlan$Routes;
 
     goto :goto_0
 
     :sswitch_3
-    invoke-virtual {p1}, Ljc/b;->G()Ljava/lang/String;
+    invoke-virtual {p1}, Ll4/b;->u()Ljava/lang/String;
 
     move-result-object v0
 
@@ -1158,7 +1158,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/WalkPlan$Routes$Milestone;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->addMsInfo(Lcom/baidu/entity/pb/WalkPlan$Routes$Milestone;)Lcom/baidu/entity/pb/WalkPlan$Routes;
 
@@ -1169,7 +1169,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/WalkPlan$Routes$PolicyInfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->setPlcyInfo(Lcom/baidu/entity/pb/WalkPlan$Routes$PolicyInfo;)Lcom/baidu/entity/pb/WalkPlan$Routes;
 
@@ -1180,7 +1180,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/WalkPlan$Routes$OtherInfo;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->setOtherinfo(Lcom/baidu/entity/pb/WalkPlan$Routes$OtherInfo;)Lcom/baidu/entity/pb/WalkPlan$Routes;
 
@@ -1191,7 +1191,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/WalkPlan$Routes$Tip;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->setTip(Lcom/baidu/entity/pb/WalkPlan$Routes$Tip;)Lcom/baidu/entity/pb/WalkPlan$Routes;
 
@@ -1202,7 +1202,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/WalkPlan$Routes$Climb;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->setClimb(Lcom/baidu/entity/pb/WalkPlan$Routes$Climb;)Lcom/baidu/entity/pb/WalkPlan$Routes;
 
@@ -1213,7 +1213,7 @@
 
     invoke-direct {v0}, Lcom/baidu/entity/pb/WalkPlan$Routes$Legs;-><init>()V
 
-    invoke-virtual {p1, v0}, Ljc/b;->u(Ljc/c;)V
+    invoke-virtual {p1, v0}, Ll4/b;->m(Ll4/c;)V
 
     invoke-virtual {p0, v0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->addLegs(Lcom/baidu/entity/pb/WalkPlan$Routes$Legs;)Lcom/baidu/entity/pb/WalkPlan$Routes;
 
@@ -1241,7 +1241,7 @@
     .end sparse-switch
 .end method
 
-.method public bridge synthetic mergeFrom(Ljc/b;)Ljc/c;
+.method public bridge synthetic mergeFrom(Ll4/b;)Ll4/c;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -1250,7 +1250,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/WalkPlan$Routes;->mergeFrom(Ljc/b;)Lcom/baidu/entity/pb/WalkPlan$Routes;
+    invoke-virtual {p0, p1}, Lcom/baidu/entity/pb/WalkPlan$Routes;->mergeFrom(Ll4/b;)Lcom/baidu/entity/pb/WalkPlan$Routes;
 
     move-result-object p1
 
@@ -1459,7 +1459,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_0
 
@@ -1476,7 +1476,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_1
     invoke-virtual {p0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->hasTip()Z
@@ -1491,7 +1491,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_2
     invoke-virtual {p0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->hasOtherinfo()Z
@@ -1506,7 +1506,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_3
     invoke-virtual {p0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->hasPlcyInfo()Z
@@ -1521,7 +1521,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     :cond_4
     invoke-virtual {p0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->getMsInfoList()Ljava/util/List;
@@ -1547,7 +1547,7 @@
 
     const/4 v2, 0x6
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_1
 
@@ -1564,7 +1564,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->N0(ILjava/lang/String;)V
+    invoke-virtual {p1, v0, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->c0(ILjava/lang/String;)V
 
     :cond_6
     invoke-virtual {p0}, Lcom/baidu/entity/pb/WalkPlan$Routes;->getGuideInfoList()Ljava/util/List;
@@ -1590,7 +1590,7 @@
 
     const/16 v2, 0x8
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_2
 
@@ -1618,7 +1618,7 @@
 
     const/16 v2, 0x9
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_3
 
@@ -1646,7 +1646,7 @@
 
     const/16 v2, 0xa
 
-    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->v0(ILjc/c;)V
+    invoke-virtual {p1, v2, v1}, Lcom/google/protobuf/micro/CodedOutputStreamMicro;->Q(ILl4/c;)V
 
     goto :goto_4
 

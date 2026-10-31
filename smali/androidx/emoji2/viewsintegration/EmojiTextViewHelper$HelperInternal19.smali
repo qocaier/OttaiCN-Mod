@@ -195,6 +195,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private getEmojiInputFilterPositionArray([Landroid/text/InputFilter;)Landroid/util/SparseArray;
@@ -407,6 +408,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private unwrapForDisabled(Landroid/text/method/TransformationMethod;)Landroid/text/method/TransformationMethod;
@@ -495,6 +497,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private wrapForEnabled(Landroid/text/method/TransformationMethod;)Landroid/text/method/TransformationMethod;
@@ -632,6 +635,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setAllCaps(Z)V
@@ -783,6 +787,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public wrapTransformationMethod(Landroid/text/method/TransformationMethod;)Landroid/text/method/TransformationMethod;

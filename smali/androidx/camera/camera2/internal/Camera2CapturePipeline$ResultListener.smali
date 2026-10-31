@@ -40,12 +40,10 @@
     .end annotation
 .end field
 
-.field private final mFuture:Lub/u0;
+.field private final mFuture:Lcom/google/common/util/concurrent/t;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lub/u0<",
-            "Landroid/hardware/camera2/TotalCaptureResult;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end field
@@ -69,16 +67,16 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Landroidx/camera/camera2/internal/j0;
+    new-instance v0, Landroidx/camera/camera2/internal/x0;
 
     .line 5
     .line 6
-    invoke-direct {v0, p0}, Landroidx/camera/camera2/internal/j0;-><init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener;)V
+    invoke-direct {v0, p0}, Landroidx/camera/camera2/internal/x0;-><init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lub/u0;
+    invoke-static {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter;->getFuture(Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;)Lcom/google/common/util/concurrent/t;
 
     .line 10
     .line 11
@@ -86,7 +84,7 @@
     move-result-object v0
 
     .line 13
-    iput-object v0, p0, Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener;->mFuture:Lub/u0;
+    iput-object v0, p0, Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener;->mFuture:Lcom/google/common/util/concurrent/t;
 
     .line 14
     .line 15
@@ -194,7 +192,7 @@
 
 
 # virtual methods
-.method public getFuture()Lub/u0;
+.method public getFuture()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -202,14 +200,12 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Landroid/hardware/camera2/TotalCaptureResult;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener;->mFuture:Lub/u0;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/Camera2CapturePipeline$ResultListener;->mFuture:Lcom/google/common/util/concurrent/t;
 
     .line 2
     .line 3
@@ -231,6 +227,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onCaptureResult(Landroid/hardware/camera2/TotalCaptureResult;)Z
@@ -580,4 +577,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

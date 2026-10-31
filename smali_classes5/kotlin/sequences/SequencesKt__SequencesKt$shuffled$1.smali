@@ -3,65 +3,24 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/p;
+.implements Lq8/p;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt__SequencesKt;->E(Lvm/m;Lkotlin/random/Random;)Lvm/m;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = null
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/coroutines/jvm/internal/RestrictedSuspendLambda;",
-        "Ljm/p<",
-        "Lvm/o<",
-        "-TT;>;",
-        "Lul/c<",
-        "-",
-        "Ljl/e2;",
-        ">;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lq8/p;"
     }
 .end annotation
 
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "kotlin.sequences.SequencesKt__SequencesKt$shuffled$1"
     f = "Sequences.kt"
-    i = {
-        0x0,
-        0x0,
-        0x0,
-        0x0,
-        0x0
-    }
     l = {
         0xb2
     }
     m = "invokeSuspend"
-    n = {
-        "$this$sequence",
-        "buffer",
-        "last",
-        "value",
-        "j"
-    }
-    nl = {
-        0xb4
-    }
-    s = {
-        "L$0",
-        "L$1",
-        "L$2",
-        "L$3",
-        "I$0"
-    }
     v = 0x2
 .end annotation
 
@@ -69,11 +28,10 @@
 # instance fields
 .field final synthetic $random:Lkotlin/random/Random;
 
-.field final synthetic $this_shuffled:Lvm/m;
+.field final synthetic $this_shuffled:Lkotlin/sequences/g;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lvm/m<",
-            "TT;>;"
+            "Lkotlin/sequences/g;"
         }
     .end annotation
 .end field
@@ -92,218 +50,91 @@
 
 
 # direct methods
-.method public constructor <init>(Lvm/m;Lkotlin/random/Random;Lul/c;)V
+.method public constructor <init>(Lkotlin/sequences/g;Lkotlin/random/Random;Lkotlin/coroutines/e;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lvm/m<",
-            "+TT;>;",
+            "Lkotlin/sequences/g;",
             "Lkotlin/random/Random;",
-            "Lul/c<",
-            "-",
-            "Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;",
-            ">;)V"
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
-    .line 1
-    iput-object p1, p0, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->$this_shuffled:Lvm/m;
+    iput-object p1, p0, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->$this_shuffled:Lkotlin/sequences/g;
 
-    .line 2
-    .line 3
     iput-object p2, p0, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->$random:Lkotlin/random/Random;
 
-    .line 4
-    .line 5
     const/4 p1, 0x2
 
-    .line 6
-    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/RestrictedSuspendLambda;-><init>(ILul/c;)V
+    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/RestrictedSuspendLambda;-><init>(ILkotlin/coroutines/e;)V
 
-    .line 7
-    .line 8
-    .line 9
     return-void
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lul/c;)Lul/c;
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lul/c<",
-            "*>;)",
-            "Lul/c<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlin/coroutines/e;",
+            ")",
+            "Lkotlin/coroutines/e;"
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;
 
-    .line 2
-    .line 3
-    iget-object v1, p0, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->$this_shuffled:Lvm/m;
+    iget-object v1, p0, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->$this_shuffled:Lkotlin/sequences/g;
 
-    .line 4
-    .line 5
     iget-object v2, p0, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->$random:Lkotlin/random/Random;
 
-    .line 6
-    .line 7
-    invoke-direct {v0, v1, v2, p2}, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;-><init>(Lvm/m;Lkotlin/random/Random;Lul/c;)V
+    invoke-direct {v0, v1, v2, p2}, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;-><init>(Lkotlin/sequences/g;Lkotlin/random/Random;Lkotlin/coroutines/e;)V
 
-    .line 8
-    .line 9
-    .line 10
     iput-object p1, v0, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->L$0:Ljava/lang/Object;
 
-    .line 11
-    .line 12
     return-object v0
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    check-cast p1, Lvm/o;
+    check-cast p1, Lkotlin/sequences/i;
 
-    check-cast p2, Lul/c;
+    check-cast p2, Lkotlin/coroutines/e;
 
-    invoke-virtual {p0, p1, p2}, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->invoke(Lvm/o;Lul/c;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->invoke(Lkotlin/sequences/i;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Lvm/o;Lul/c;)Ljava/lang/Object;
+.method public final invoke(Lkotlin/sequences/i;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lvm/o<",
-            "-TT;>;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/sequences/i;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->create(Ljava/lang/Object;Lul/c;)Lul/c;
+    invoke-virtual {p0, p1, p2}, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
 
     move-result-object p1
 
     check-cast p1, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;
 
-    sget-object p2, Ljl/e2;->a:Ljl/e2;
+    sget-object p2, Lkotlin/j;->a:Lkotlin/j;
 
     invoke-virtual {p1, p2}, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -320,11 +151,11 @@
 
     .line 2
     .line 3
-    check-cast v0, Lvm/o;
+    check-cast v0, Lkotlin/sequences/i;
 
     .line 4
     .line 5
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -355,7 +186,7 @@
 
     .line 19
     .line 20
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 21
     .line 22
@@ -381,16 +212,16 @@
 
     .line 32
     :cond_1
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 33
     .line 34
     .line 35
-    iget-object p1, p0, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->$this_shuffled:Lvm/m;
+    iget-object p1, p0, Lkotlin/sequences/SequencesKt__SequencesKt$shuffled$1;->$this_shuffled:Lkotlin/sequences/g;
 
     .line 36
     .line 37
-    invoke-static {p1}, Lkotlin/sequences/SequencesKt___SequencesKt;->J3(Lvm/m;)Ljava/util/List;
+    invoke-static {p1}, Lkotlin/sequences/q;->D(Lkotlin/sequences/g;)Ljava/util/List;
 
     .line 38
     .line 39
@@ -442,7 +273,7 @@
     move-result p1
 
     .line 61
-    invoke-static {v2}, Lll/m0;->Q0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v2}, Lkotlin/collections/w;->C(Ljava/util/List;)Ljava/lang/Object;
 
     .line 62
     .line 63
@@ -486,7 +317,7 @@
 
     .line 80
     .line 81
-    invoke-static {v4}, Lxl/k;->a(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v4}, Lk8/h;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 82
     .line 83
@@ -498,7 +329,7 @@
 
     .line 86
     .line 87
-    invoke-static {v5}, Lxl/k;->a(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v5}, Lk8/h;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 88
     .line 89
@@ -518,7 +349,7 @@
 
     .line 96
     .line 97
-    invoke-virtual {v0, v5, p0}, Lvm/o;->b(Ljava/lang/Object;Lul/c;)Ljava/lang/Object;
+    invoke-virtual {v0, v5, p0}, Lkotlin/sequences/i;->a(Ljava/lang/Object;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 98
     .line 99
@@ -534,7 +365,7 @@
 
     .line 104
     :cond_4
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 105
     .line 106
@@ -747,4 +578,124 @@
     .line 312
     .line 313
     .line 314
+    .line 315
+    .line 316
+    .line 317
+    .line 318
+    .line 319
+    .line 320
+    .line 321
+    .line 322
+    .line 323
+    .line 324
+    .line 325
+    .line 326
+    .line 327
+    .line 328
+    .line 329
+    .line 330
+    .line 331
+    .line 332
+    .line 333
+    .line 334
+    .line 335
+    .line 336
+    .line 337
+    .line 338
+    .line 339
+    .line 340
+    .line 341
+    .line 342
+    .line 343
+    .line 344
+    .line 345
+    .line 346
+    .line 347
+    .line 348
+    .line 349
+    .line 350
+    .line 351
+    .line 352
+    .line 353
+    .line 354
+    .line 355
+    .line 356
+    .line 357
+    .line 358
+    .line 359
+    .line 360
+    .line 361
+    .line 362
+    .line 363
+    .line 364
+    .line 365
+    .line 366
+    .line 367
+    .line 368
+    .line 369
+    .line 370
+    .line 371
+    .line 372
+    .line 373
+    .line 374
+    .line 375
+    .line 376
+    .line 377
+    .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
 .end method

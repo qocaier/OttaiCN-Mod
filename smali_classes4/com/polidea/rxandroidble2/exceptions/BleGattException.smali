@@ -8,7 +8,7 @@
 
 
 # instance fields
-.field private final bleGattOperationType:Ljg/a;
+.field private final bleGattOperationType:Lo6/a;
 
 .field private final gatt:Landroid/bluetooth/BluetoothGatt;
     .annotation build Landroidx/annotation/Nullable;
@@ -19,19 +19,19 @@
 
 
 # direct methods
-.method public constructor <init>(ILjg/a;)V
-    .locals 2
+.method public constructor <init>(ILo6/a;)V
+    .locals 1
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
     const/4 v0, 0x0
 
     .line 1
-    invoke-static {v0, p1, p2}, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->createMessage(Landroid/bluetooth/BluetoothGatt;ILjg/a;)Ljava/lang/String;
+    invoke-static {v0, p1, p2}, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->a(Landroid/bluetooth/BluetoothGatt;ILo6/a;)Ljava/lang/String;
 
-    move-result-object v1
+    move-result-object p2
 
-    invoke-direct {p0, v1}, Lcom/polidea/rxandroidble2/exceptions/BleException;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p2}, Lcom/polidea/rxandroidble2/exceptions/BleException;-><init>(Ljava/lang/String;)V
 
     .line 2
     iput-object v0, p0, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->gatt:Landroid/bluetooth/BluetoothGatt;
@@ -39,60 +39,45 @@
     .line 3
     iput p1, p0, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->status:I
 
-    .line 4
-    iput-object p2, p0, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->bleGattOperationType:Ljg/a;
-
     return-void
 .end method
 
-.method public constructor <init>(Landroid/bluetooth/BluetoothGatt;ILjg/a;)V
-    .locals 1
+.method public constructor <init>(Landroid/bluetooth/BluetoothGatt;ILo6/a;)V
+    .locals 0
     .param p1    # Landroid/bluetooth/BluetoothGatt;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
     .end param
 
+    .line 4
+    invoke-static {p1, p2, p3}, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->a(Landroid/bluetooth/BluetoothGatt;ILo6/a;)Ljava/lang/String;
+
+    move-result-object p3
+
+    invoke-direct {p0, p3}, Lcom/polidea/rxandroidble2/exceptions/BleException;-><init>(Ljava/lang/String;)V
+
     .line 5
-    invoke-static {p1, p2, p3}, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->createMessage(Landroid/bluetooth/BluetoothGatt;ILjg/a;)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-direct {p0, v0}, Lcom/polidea/rxandroidble2/exceptions/BleException;-><init>(Ljava/lang/String;)V
-
-    .line 6
     iput-object p1, p0, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->gatt:Landroid/bluetooth/BluetoothGatt;
 
-    .line 7
+    .line 6
     iput p2, p0, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->status:I
-
-    .line 8
-    iput-object p3, p0, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->bleGattOperationType:Ljg/a;
 
     return-void
 .end method
 
-.method public constructor <init>(Landroid/bluetooth/BluetoothGatt;Ljg/a;)V
+.method public constructor <init>(Landroid/bluetooth/BluetoothGatt;Lo6/a;)V
     .locals 1
 
     const/4 v0, -0x1
 
-    .line 9
-    invoke-direct {p0, p1, v0, p2}, Lcom/polidea/rxandroidble2/exceptions/BleGattException;-><init>(Landroid/bluetooth/BluetoothGatt;ILjg/a;)V
+    .line 7
+    invoke-direct {p0, p1, v0, p2}, Lcom/polidea/rxandroidble2/exceptions/BleGattException;-><init>(Landroid/bluetooth/BluetoothGatt;ILo6/a;)V
 
     return-void
 .end method
 
-.method private static createMessage(Landroid/bluetooth/BluetoothGatt;ILjg/a;)Ljava/lang/String;
+.method public static a(Landroid/bluetooth/BluetoothGatt;ILo6/a;)Ljava/lang/String;
     .locals 6
-    .param p0    # Landroid/bluetooth/BluetoothGatt;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "DefaultLocale"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, -0x1
@@ -102,7 +87,7 @@
 
     .line 3
     .line 4
-    invoke-static {p0}, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->getMacAddress(Landroid/bluetooth/BluetoothGatt;)Ljava/lang/String;
+    invoke-static {p0}, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->b(Landroid/bluetooth/BluetoothGatt;)Ljava/lang/String;
 
     .line 5
     .line 6
@@ -134,7 +119,7 @@
 
     .line 19
     :cond_0
-    invoke-static {p1}, Lug/b;->a(I)Ljava/lang/String;
+    invoke-static {p1}, Lr6/a;->a(I)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -142,7 +127,7 @@
     move-result-object v2
 
     .line 23
-    invoke-static {p0}, Log/b;->c(Landroid/bluetooth/BluetoothGatt;)Ljava/lang/String;
+    invoke-static {p0}, Lq6/b;->a(Landroid/bluetooth/BluetoothGatt;)Ljava/lang/String;
 
     .line 24
     .line 25
@@ -271,56 +256,73 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
-.method private static getMacAddress(Landroid/bluetooth/BluetoothGatt;)Ljava/lang/String;
+.method public static b(Landroid/bluetooth/BluetoothGatt;)Ljava/lang/String;
     .locals 1
-    .param p0    # Landroid/bluetooth/BluetoothGatt;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
+    .line 1
     if-eqz p0, :cond_0
 
     .line 2
+    .line 3
     invoke-virtual {p0}, Landroid/bluetooth/BluetoothGatt;->getDevice()Landroid/bluetooth/BluetoothDevice;
 
+    .line 4
+    .line 5
+    .line 6
     move-result-object v0
 
+    .line 7
     if-eqz v0, :cond_0
 
+    .line 8
+    .line 9
     invoke-virtual {p0}, Landroid/bluetooth/BluetoothGatt;->getDevice()Landroid/bluetooth/BluetoothDevice;
 
+    .line 10
+    .line 11
+    .line 12
     move-result-object p0
 
+    .line 13
     invoke-virtual {p0}, Landroid/bluetooth/BluetoothDevice;->getAddress()Ljava/lang/String;
 
+    .line 14
+    .line 15
+    .line 16
     move-result-object p0
 
+    .line 17
     return-object p0
 
+    .line 18
     :cond_0
     const/4 p0, 0x0
 
+    .line 19
     return-object p0
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
 .end method
 
 
 # virtual methods
-.method public getBleGattOperationType()Ljg/a;
+.method public getBleGattOperationType()Lo6/a;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->bleGattOperationType:Ljg/a;
+    const/4 v0, 0x0
 
     .line 2
-    .line 3
     return-object v0
+    .line 3
     .line 4
     .line 5
     .line 6
@@ -338,6 +340,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMacAddress()Ljava/lang/String;
@@ -346,11 +350,32 @@
     .line 1
     iget-object v0, p0, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->gatt:Landroid/bluetooth/BluetoothGatt;
 
-    invoke-static {v0}, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->getMacAddress(Landroid/bluetooth/BluetoothGatt;)Ljava/lang/String;
+    .line 2
+    .line 3
+    invoke-static {v0}, Lcom/polidea/rxandroidble2/exceptions/BleGattException;->b(Landroid/bluetooth/BluetoothGatt;)Ljava/lang/String;
 
+    .line 4
+    .line 5
+    .line 6
     move-result-object v0
 
+    .line 7
     return-object v0
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStatus()I
@@ -379,4 +404,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

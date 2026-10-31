@@ -46,6 +46,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private constructor <init>()V
@@ -82,6 +84,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getInstance()Lcom/huawei/hms/utils/AgHmsUpdateState;
@@ -215,6 +219,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -245,6 +250,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTargetVersionCode()I
@@ -273,6 +280,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isUpdateHms()Z
@@ -318,6 +327,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public resetUpdateState()V
@@ -363,6 +374,8 @@
     .line 19
     return-void
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setCheckedState(Lcom/huawei/hms/common/HmsCheckedState;)V
@@ -407,6 +420,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTargetVersionCode(I)V
@@ -440,4 +455,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

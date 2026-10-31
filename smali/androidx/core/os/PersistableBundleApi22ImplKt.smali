@@ -11,9 +11,6 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/core/os/PersistableBundleApi22ImplKt;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -55,20 +52,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final putBoolean(Landroid/os/PersistableBundle;Ljava/lang/String;Z)V
     .locals 0
-    .param p0    # Landroid/os/PersistableBundle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroid/os/BaseBundle;->putBoolean(Ljava/lang/String;Z)V
@@ -186,24 +174,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static final putBooleanArray(Landroid/os/PersistableBundle;Ljava/lang/String;[Z)V
     .locals 0
-    .param p0    # Landroid/os/PersistableBundle;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # [Z
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroid/os/BaseBundle;->putBooleanArray(Ljava/lang/String;[Z)V
@@ -321,4 +298,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

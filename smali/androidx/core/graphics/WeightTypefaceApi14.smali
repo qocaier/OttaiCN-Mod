@@ -176,6 +176,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -204,6 +206,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static createWeightStyle(Landroidx/core/graphics/TypefaceCompatBaseImpl;Landroid/content/Context;Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
@@ -1467,6 +1470,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static platformTypefaceCreate(Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
@@ -1630,4 +1634,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

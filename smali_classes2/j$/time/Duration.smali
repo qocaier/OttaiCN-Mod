@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lj$/time/temporal/TemporalAmount;
+.implements Lj$/time/temporal/q;
 .implements Ljava/lang/Comparable;
 .implements Ljava/io/Serializable;
 
@@ -12,7 +12,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lj$/time/temporal/TemporalAmount;",
+        "Lj$/time/temporal/q;",
         "Ljava/lang/Comparable<",
         "Lj$/time/Duration;",
         ">;",
@@ -22,9 +22,7 @@
 
 
 # static fields
-.field public static final ZERO:Lj$/time/Duration;
-
-.field private static final c:Ljava/math/BigInteger;
+.field public static final c:Lj$/time/Duration;
 
 .field private static final serialVersionUID:J = 0x2aba9d02d1c4f832L
 
@@ -48,16 +46,12 @@
 
     invoke-direct {v0, v1, v2, v3}, Lj$/time/Duration;-><init>(JI)V
 
-    sput-object v0, Lj$/time/Duration;->ZERO:Lj$/time/Duration;
+    sput-object v0, Lj$/time/Duration;->c:Lj$/time/Duration;
 
     const-wide/32 v0, 0x3b9aca00
 
     .line 147
     invoke-static {v0, v1}, Ljava/math/BigInteger;->valueOf(J)Ljava/math/BigInteger;
-
-    move-result-object v0
-
-    sput-object v0, Lj$/time/Duration;->c:Ljava/math/BigInteger;
 
     return-void
 .end method
@@ -77,130 +71,42 @@
     return-void
 .end method
 
-.method private A(JJ)Lj$/time/Duration;
-    .locals 4
+.method public static R(J)Lj$/time/Duration;
+    .locals 1
 
-    or-long v0, p1, p3
+    const/4 v0, 0x0
 
-    const-wide/16 v2, 0x0
+    .line 224
+    invoke-static {p0, p1, v0}, Lj$/time/Duration;->r(JI)Lj$/time/Duration;
 
-    cmp-long v0, v0, v2
-
-    if-nez v0, :cond_0
+    move-result-object p0
 
     return-object p0
+.end method
 
-    .line 829
-    :cond_0
-    iget-wide v0, p0, Lj$/time/Duration;->a:J
-
-    invoke-static {v0, v1, p1, p2}, Ljava/lang/Math;->addExact(JJ)J
-
-    move-result-wide p1
+.method public static S(JJ)Lj$/time/Duration;
+    .locals 4
 
     const-wide/32 v0, 0x3b9aca00
 
-    .line 830
-    div-long v2, p3, v0
+    .line 247
+    invoke-static {p2, p3, v0, v1}, Ljava/lang/Math;->floorDiv(JJ)J
 
-    invoke-static {p1, p2, v2, v3}, Ljava/lang/Math;->addExact(JJ)J
+    move-result-wide v2
 
-    move-result-wide p1
-
-    .line 831
-    rem-long/2addr p3, v0
-
-    .line 832
-    iget v0, p0, Lj$/time/Duration;->b:I
-
-    int-to-long v0, v0
-
-    add-long/2addr v0, p3
-
-    .line 833
-    invoke-static {p1, p2, v0, v1}, Lj$/time/Duration;->ofSeconds(JJ)Lj$/time/Duration;
-
-    move-result-object p1
-
-    return-object p1
-.end method
-
-.method public static between(Lj$/time/temporal/Temporal;Lj$/time/temporal/Temporal;)Lj$/time/Duration;
-    .locals 9
-
-    .line 488
-    :try_start_0
-    sget-object v0, Lj$/time/temporal/ChronoUnit;->NANOS:Lj$/time/temporal/ChronoUnit;
-
-    invoke-interface {p0, p1, v0}, Lj$/time/temporal/Temporal;->n(Lj$/time/temporal/Temporal;Lj$/time/temporal/TemporalUnit;)J
-
-    move-result-wide v0
-
-    invoke-static {v0, v1}, Lj$/time/Duration;->ofNanos(J)Lj$/time/Duration;
-
-    move-result-object p0
-    :try_end_0
-    .catch Lj$/time/c; {:try_start_0 .. :try_end_0} :catch_0
-    .catch Ljava/lang/ArithmeticException; {:try_start_0 .. :try_end_0} :catch_0
-
-    return-object p0
-
-    .line 490
-    :catch_0
-    sget-object v0, Lj$/time/temporal/ChronoUnit;->SECONDS:Lj$/time/temporal/ChronoUnit;
-
-    invoke-interface {p0, p1, v0}, Lj$/time/temporal/Temporal;->n(Lj$/time/temporal/Temporal;Lj$/time/temporal/TemporalUnit;)J
-
-    move-result-wide v0
-
-    const-wide/16 v2, 0x0
-
-    .line 493
-    :try_start_1
-    sget-object v4, Lj$/time/temporal/a;->NANO_OF_SECOND:Lj$/time/temporal/a;
-
-    invoke-interface {p1, v4}, Lj$/time/temporal/TemporalAccessor;->h(Lj$/time/temporal/o;)J
-
-    move-result-wide v5
-
-    invoke-interface {p0, v4}, Lj$/time/temporal/TemporalAccessor;->h(Lj$/time/temporal/o;)J
+    invoke-static {p0, p1, v2, v3}, Ljava/lang/Math;->addExact(JJ)J
 
     move-result-wide p0
-    :try_end_1
-    .catch Lj$/time/c; {:try_start_1 .. :try_end_1} :catch_1
 
-    sub-long/2addr v5, p0
+    .line 248
+    invoke-static {p2, p3, v0, v1}, Ljava/lang/Math;->floorMod(JJ)J
 
-    cmp-long p0, v0, v2
+    move-result-wide p2
 
-    const-wide/16 v7, 0x1
+    long-to-int p2, p2
 
-    if-lez p0, :cond_0
-
-    cmp-long p1, v5, v2
-
-    if-gez p1, :cond_0
-
-    add-long/2addr v0, v7
-
-    goto :goto_0
-
-    :cond_0
-    if-gez p0, :cond_1
-
-    cmp-long p0, v5, v2
-
-    if-lez p0, :cond_1
-
-    sub-long/2addr v0, v7
-
-    :cond_1
-    :goto_0
-    move-wide v2, v5
-
-    .line 502
-    :catch_1
-    invoke-static {v0, v1, v2, v3}, Lj$/time/Duration;->ofSeconds(JJ)Lj$/time/Duration;
+    .line 249
+    invoke-static {p0, p1, p2}, Lj$/time/Duration;->r(JI)Lj$/time/Duration;
 
     move-result-object p0
 
@@ -241,82 +147,6 @@
     return-object p0
 .end method
 
-.method public static ofNanos(J)Lj$/time/Duration;
-    .locals 4
-
-    const-wide/32 v0, 0x3b9aca00
-
-    .line 281
-    div-long v2, p0, v0
-
-    .line 282
-    rem-long/2addr p0, v0
-
-    long-to-int p0, p0
-
-    if-gez p0, :cond_0
-
-    int-to-long p0, p0
-
-    add-long/2addr p0, v0
-
-    long-to-int p0, p0
-
-    const-wide/16 v0, 0x1
-
-    sub-long/2addr v2, v0
-
-    .line 287
-    :cond_0
-    invoke-static {v2, v3, p0}, Lj$/time/Duration;->r(JI)Lj$/time/Duration;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static ofSeconds(J)Lj$/time/Duration;
-    .locals 1
-
-    const/4 v0, 0x0
-
-    .line 224
-    invoke-static {p0, p1, v0}, Lj$/time/Duration;->r(JI)Lj$/time/Duration;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
-.method public static ofSeconds(JJ)Lj$/time/Duration;
-    .locals 4
-
-    const-wide/32 v0, 0x3b9aca00
-
-    .line 247
-    invoke-static {p2, p3, v0, v1}, Ljava/lang/Math;->floorDiv(JJ)J
-
-    move-result-wide v2
-
-    invoke-static {p0, p1, v2, v3}, Ljava/lang/Math;->addExact(JJ)J
-
-    move-result-wide p0
-
-    .line 248
-    invoke-static {p2, p3, v0, v1}, Ljava/lang/Math;->floorMod(JJ)J
-
-    move-result-wide p2
-
-    long-to-int p2, p2
-
-    .line 249
-    invoke-static {p0, p1, p2}, Lj$/time/Duration;->r(JI)Lj$/time/Duration;
-
-    move-result-object p0
-
-    return-object p0
-.end method
-
 .method private static r(JI)Lj$/time/Duration;
     .locals 4
 
@@ -331,7 +161,7 @@
     if-nez v0, :cond_0
 
     .line 515
-    sget-object p0, Lj$/time/Duration;->ZERO:Lj$/time/Duration;
+    sget-object p0, Lj$/time/Duration;->c:Lj$/time/Duration;
 
     return-object p0
 
@@ -361,19 +191,40 @@
     .locals 2
 
     .line 1533
-    new-instance v0, Lj$/time/s;
+    new-instance v0, Lj$/time/t;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1, p0}, Lj$/time/s;-><init>(BLjava/lang/Object;)V
+    invoke-direct {v0, v1, p0}, Lj$/time/t;-><init>(BLjava/lang/Object;)V
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public compareTo(Lj$/time/Duration;)I
+.method public final B()I
+    .locals 1
+
+    .line 643
+    iget v0, p0, Lj$/time/Duration;->b:I
+
+    return v0
+.end method
+
+.method public final I()J
+    .locals 2
+
+    .line 625
+    iget-wide v0, p0, Lj$/time/Duration;->a:J
+
+    return-wide v0
+.end method
+
+.method public final compareTo(Ljava/lang/Object;)I
     .locals 4
+
+    .line 133
+    check-cast p1, Lj$/time/Duration;
 
     .line 1409
     iget-wide v0, p1, Lj$/time/Duration;->a:J
@@ -397,19 +248,6 @@
     sub-int/2addr v0, p1
 
     return v0
-.end method
-
-.method public final bridge synthetic compareTo(Ljava/lang/Object;)I
-    .locals 0
-
-    .line 133
-    check-cast p1, Lj$/time/Duration;
-
-    invoke-virtual {p0, p1}, Lj$/time/Duration;->compareTo(Lj$/time/Duration;)I
-
-    move-result p1
-
-    return p1
 .end method
 
 .method public final equals(Ljava/lang/Object;)Z
@@ -453,24 +291,6 @@
     return v2
 .end method
 
-.method public getNano()I
-    .locals 1
-
-    .line 643
-    iget v0, p0, Lj$/time/Duration;->b:I
-
-    return v0
-.end method
-
-.method public getSeconds()J
-    .locals 2
-
-    .line 625
-    iget-wide v0, p0, Lj$/time/Duration;->a:J
-
-    return-wide v0
-.end method
-
 .method public final hashCode()I
     .locals 5
 
@@ -494,57 +314,7 @@
     return v1
 .end method
 
-.method public isNegative()Z
-    .locals 4
-
-    .line 606
-    iget-wide v0, p0, Lj$/time/Duration;->a:J
-
-    const-wide/16 v2, 0x0
-
-    cmp-long v0, v0, v2
-
-    if-gez v0, :cond_0
-
-    const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public isZero()Z
-    .locals 4
-
-    .line 593
-    iget v0, p0, Lj$/time/Duration;->b:I
-
-    int-to-long v0, v0
-
-    iget-wide v2, p0, Lj$/time/Duration;->a:J
-
-    or-long/2addr v0, v2
-
-    const-wide/16 v2, 0x0
-
-    cmp-long v0, v0, v2
-
-    if-nez v0, :cond_0
-
-    const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public final p(Lj$/time/temporal/Temporal;)Lj$/time/temporal/Temporal;
+.method public final p(Lj$/time/temporal/m;)Lj$/time/temporal/m;
     .locals 4
 
     .line 1101
@@ -557,9 +327,9 @@
     if-eqz v2, :cond_0
 
     .line 1102
-    sget-object v2, Lj$/time/temporal/ChronoUnit;->SECONDS:Lj$/time/temporal/ChronoUnit;
+    sget-object v2, Lj$/time/temporal/b;->SECONDS:Lj$/time/temporal/b;
 
-    invoke-interface {p1, v0, v1, v2}, Lj$/time/temporal/Temporal;->b(JLj$/time/temporal/TemporalUnit;)Lj$/time/temporal/Temporal;
+    invoke-interface {p1, v0, v1, v2}, Lj$/time/temporal/m;->d(JLj$/time/temporal/u;)Lj$/time/temporal/m;
 
     move-result-object p1
 
@@ -572,332 +342,14 @@
     int-to-long v0, v0
 
     .line 1105
-    sget-object v2, Lj$/time/temporal/ChronoUnit;->NANOS:Lj$/time/temporal/ChronoUnit;
+    sget-object v2, Lj$/time/temporal/b;->NANOS:Lj$/time/temporal/b;
 
-    invoke-interface {p1, v0, v1, v2}, Lj$/time/temporal/Temporal;->b(JLj$/time/temporal/TemporalUnit;)Lj$/time/temporal/Temporal;
+    invoke-interface {p1, v0, v1, v2}, Lj$/time/temporal/m;->d(JLj$/time/temporal/u;)Lj$/time/temporal/m;
 
     move-result-object p1
 
     :cond_1
     return-object p1
-.end method
-
-.method public plus(JLj$/time/temporal/TemporalUnit;)Lj$/time/Duration;
-    .locals 10
-
-    .line 710
-    const-string v0, "unit"
-
-    invoke-static {p3, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
-
-    .line 711
-    sget-object v0, Lj$/time/temporal/ChronoUnit;->DAYS:Lj$/time/temporal/ChronoUnit;
-
-    const-wide/16 v1, 0x0
-
-    if-ne p3, v0, :cond_0
-
-    const p3, 0x15180
-
-    int-to-long v3, p3
-
-    .line 0
-    invoke-static {p1, p2, v3, v4}, Ljava/lang/Math;->multiplyExact(JJ)J
-
-    move-result-wide p1
-
-    .line 712
-    invoke-direct {p0, p1, p2, v1, v2}, Lj$/time/Duration;->A(JJ)Lj$/time/Duration;
-
-    move-result-object p1
-
-    return-object p1
-
-    .line 714
-    :cond_0
-    invoke-interface {p3}, Lj$/time/temporal/TemporalUnit;->A()Z
-
-    move-result v0
-
-    if-nez v0, :cond_a
-
-    cmp-long v0, p1, v1
-
-    if-nez v0, :cond_1
-
-    return-object p0
-
-    .line 720
-    :cond_1
-    instance-of v3, p3, Lj$/time/temporal/ChronoUnit;
-
-    const/4 v4, 0x1
-
-    if-eqz v3, :cond_6
-
-    .line 721
-    sget-object v0, Lj$/time/e;->a:[I
-
-    move-object v3, p3
-
-    check-cast v3, Lj$/time/temporal/ChronoUnit;
-
-    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v3
-
-    aget v0, v0, v3
-
-    if-eq v0, v4, :cond_5
-
-    const/4 v3, 0x2
-
-    const-wide/16 v4, 0x3e8
-
-    if-eq v0, v3, :cond_4
-
-    const/4 v3, 0x3
-
-    if-eq v0, v3, :cond_3
-
-    const/4 v3, 0x4
-
-    if-eq v0, v3, :cond_2
-
-    .line 727
-    invoke-interface {p3}, Lj$/time/temporal/TemporalUnit;->getDuration()Lj$/time/Duration;
-
-    move-result-object p3
-
-    iget-wide v3, p3, Lj$/time/Duration;->a:J
-
-    invoke-static {v3, v4, p1, p2}, Ljava/lang/Math;->multiplyExact(JJ)J
-
-    move-result-wide p1
-
-    .line 786
-    invoke-direct {p0, p1, p2, v1, v2}, Lj$/time/Duration;->A(JJ)Lj$/time/Duration;
-
-    move-result-object p1
-
-    return-object p1
-
-    .line 786
-    :cond_2
-    invoke-direct {p0, p1, p2, v1, v2}, Lj$/time/Duration;->A(JJ)Lj$/time/Duration;
-
-    move-result-object p1
-
-    return-object p1
-
-    .line 799
-    :cond_3
-    div-long v0, p1, v4
-
-    rem-long/2addr p1, v4
-
-    const-wide/32 v2, 0xf4240
-
-    mul-long/2addr p1, v2
-
-    invoke-direct {p0, v0, v1, p1, p2}, Lj$/time/Duration;->A(JJ)Lj$/time/Duration;
-
-    move-result-object p1
-
-    return-object p1
-
-    :cond_4
-    const-wide/32 v6, 0x3b9aca00
-
-    .line 723
-    div-long v8, p1, v6
-
-    mul-long/2addr v8, v4
-
-    .line 786
-    invoke-direct {p0, v8, v9, v1, v2}, Lj$/time/Duration;->A(JJ)Lj$/time/Duration;
-
-    move-result-object p3
-
-    .line 723
-    rem-long/2addr p1, v6
-
-    mul-long/2addr p1, v4
-
-    .line 812
-    invoke-direct {p3, v1, v2, p1, p2}, Lj$/time/Duration;->A(JJ)Lj$/time/Duration;
-
-    move-result-object p1
-
-    return-object p1
-
-    .line 812
-    :cond_5
-    invoke-direct {p0, v1, v2, p1, p2}, Lj$/time/Duration;->A(JJ)Lj$/time/Duration;
-
-    move-result-object p1
-
-    return-object p1
-
-    .line 729
-    :cond_6
-    invoke-interface {p3}, Lj$/time/temporal/TemporalUnit;->getDuration()Lj$/time/Duration;
-
-    move-result-object p3
-
-    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    if-nez v0, :cond_7
-
-    .line 972
-    sget-object p3, Lj$/time/Duration;->ZERO:Lj$/time/Duration;
-
-    goto :goto_0
-
-    :cond_7
-    const-wide/16 v5, 0x1
-
-    cmp-long v0, p1, v5
-
-    if-nez v0, :cond_8
-
-    goto :goto_0
-
-    .line 1024
-    :cond_8
-    iget-wide v5, p3, Lj$/time/Duration;->a:J
-
-    invoke-static {v5, v6}, Ljava/math/BigDecimal;->valueOf(J)Ljava/math/BigDecimal;
-
-    move-result-object v0
-
-    iget p3, p3, Lj$/time/Duration;->b:I
-
-    int-to-long v5, p3
-
-    const/16 p3, 0x9
-
-    invoke-static {v5, v6, p3}, Ljava/math/BigDecimal;->valueOf(JI)Ljava/math/BigDecimal;
-
-    move-result-object v3
-
-    invoke-virtual {v0, v3}, Ljava/math/BigDecimal;->add(Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
-
-    move-result-object v0
-
-    .line 977
-    invoke-static {p1, p2}, Ljava/math/BigDecimal;->valueOf(J)Ljava/math/BigDecimal;
-
-    move-result-object p1
-
-    invoke-virtual {v0, p1}, Ljava/math/BigDecimal;->multiply(Ljava/math/BigDecimal;)Ljava/math/BigDecimal;
-
-    move-result-object p1
-
-    .line 1035
-    invoke-virtual {p1, p3}, Ljava/math/BigDecimal;->movePointRight(I)Ljava/math/BigDecimal;
-
-    move-result-object p1
-
-    invoke-virtual {p1}, Ljava/math/BigDecimal;->toBigIntegerExact()Ljava/math/BigInteger;
-
-    move-result-object p1
-
-    .line 1036
-    sget-object p2, Lj$/time/Duration;->c:Ljava/math/BigInteger;
-
-    invoke-virtual {p1, p2}, Ljava/math/BigInteger;->divideAndRemainder(Ljava/math/BigInteger;)[Ljava/math/BigInteger;
-
-    move-result-object p2
-
-    const/4 p3, 0x0
-
-    .line 1037
-    aget-object v0, p2, p3
-
-    invoke-virtual {v0}, Ljava/math/BigInteger;->bitLength()I
-
-    move-result v0
-
-    const/16 v3, 0x3f
-
-    if-gt v0, v3, :cond_9
-
-    .line 1040
-    aget-object p1, p2, p3
-
-    invoke-virtual {p1}, Ljava/math/BigInteger;->longValue()J
-
-    move-result-wide v5
-
-    aget-object p1, p2, v4
-
-    invoke-virtual {p1}, Ljava/math/BigInteger;->intValue()I
-
-    move-result p1
-
-    int-to-long p1, p1
-
-    invoke-static {v5, v6, p1, p2}, Lj$/time/Duration;->ofSeconds(JJ)Lj$/time/Duration;
-
-    move-result-object p3
-
-    .line 730
-    :goto_0
-    invoke-virtual {p3}, Lj$/time/Duration;->getSeconds()J
-
-    move-result-wide p1
-
-    .line 786
-    invoke-direct {p0, p1, p2, v1, v2}, Lj$/time/Duration;->A(JJ)Lj$/time/Duration;
-
-    move-result-object p1
-
-    .line 730
-    invoke-virtual {p3}, Lj$/time/Duration;->getNano()I
-
-    move-result p2
-
-    int-to-long p2, p2
-
-    .line 812
-    invoke-direct {p1, v1, v2, p2, p3}, Lj$/time/Duration;->A(JJ)Lj$/time/Duration;
-
-    move-result-object p1
-
-    return-object p1
-
-    .line 1038
-    :cond_9
-    new-instance p2, Ljava/lang/ArithmeticException;
-
-    new-instance p3, Ljava/lang/StringBuilder;
-
-    const-string v0, "Exceeds capacity of Duration: "
-
-    invoke-direct {p3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-direct {p2, p1}, Ljava/lang/ArithmeticException;-><init>(Ljava/lang/String;)V
-
-    throw p2
-
-    .line 715
-    :cond_a
-    new-instance p1, Lj$/time/temporal/r;
-
-    .line 88
-    const-string p2, "Unit must not have an estimated duration"
-
-    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
-
-    .line 715
-    throw p1
 .end method
 
 .method public toMillis()J
@@ -947,50 +399,11 @@
     return-wide v0
 .end method
 
-.method public toNanos()J
-    .locals 8
-
-    .line 1241
-    iget v0, p0, Lj$/time/Duration;->b:I
-
-    int-to-long v0, v0
-
-    const-wide/16 v2, 0x0
-
-    .line 1242
-    iget-wide v4, p0, Lj$/time/Duration;->a:J
-
-    cmp-long v2, v4, v2
-
-    const-wide/32 v6, 0x3b9aca00
-
-    if-gez v2, :cond_0
-
-    const-wide/16 v2, 0x1
-
-    add-long/2addr v4, v2
-
-    sub-long/2addr v0, v6
-
-    .line 1248
-    :cond_0
-    invoke-static {v4, v5, v6, v7}, Ljava/lang/Math;->multiplyExact(JJ)J
-
-    move-result-wide v2
-
-    .line 1249
-    invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;->addExact(JJ)J
-
-    move-result-wide v0
-
-    return-wide v0
-.end method
-
 .method public final toString()Ljava/lang/String;
     .locals 14
 
     .line 1473
-    sget-object v0, Lj$/time/Duration;->ZERO:Lj$/time/Duration;
+    sget-object v0, Lj$/time/Duration;->c:Lj$/time/Duration;
 
     if-ne p0, v0, :cond_0
 

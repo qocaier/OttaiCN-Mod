@@ -12,16 +12,8 @@
 
 
 # virtual methods
-.method public abstract a(ILjo/a;J)V
-    .param p2    # Ljo/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract a(ILj9/a;J)V
 .end method
 
-.method public abstract b(Ljo/a;)V
-    .param p1    # Ljo/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract b(Lj9/a;)V
 .end method

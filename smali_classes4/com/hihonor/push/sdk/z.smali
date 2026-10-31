@@ -179,7 +179,7 @@
 
     .line 70
     .line 71
-    sget-object v1, Lcom/hihonor/push/sdk/k;->j:Lcom/hihonor/push/sdk/k;
+    sget-object v1, Lcom/hihonor/push/sdk/k;->c:Lcom/hihonor/push/sdk/k;
 
     .line 72
     .line 73
@@ -201,4 +201,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

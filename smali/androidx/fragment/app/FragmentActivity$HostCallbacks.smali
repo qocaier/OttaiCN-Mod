@@ -363,6 +363,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLifecycle()Landroidx/lifecycle/Lifecycle;
@@ -395,6 +396,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
@@ -429,6 +431,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
@@ -463,6 +466,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getViewModelStore()Landroidx/lifecycle/ViewModelStore;
@@ -497,6 +501,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invalidateMenu()V
@@ -527,6 +532,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onAttachFragment(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V
@@ -849,6 +855,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onFindViewById(I)Landroid/view/View;
@@ -948,6 +960,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onGetWindowAnimations()I
@@ -993,6 +1006,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onHasView()Z
@@ -1040,6 +1054,7 @@
     return v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onHasWindowAnimations()Z
@@ -1081,6 +1096,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onShouldSaveFragmentState(Landroidx/fragment/app/Fragment;)Z
@@ -1193,6 +1209,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public removeMenuProvider(Landroidx/core/view/MenuProvider;)V

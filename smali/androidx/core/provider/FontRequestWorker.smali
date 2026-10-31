@@ -166,6 +166,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -194,6 +196,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static createCacheId(Ljava/util/List;I)Ljava/lang/String;
@@ -495,6 +498,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static getFontFamilyResultStatus(Landroidx/core/provider/FontsContractCompat$FontFamilyResult;)I
@@ -652,6 +658,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getFontSync(Ljava/lang/String;Landroid/content/Context;Ljava/util/List;I)Landroidx/core/provider/FontRequestWorker$TypefaceResult;
@@ -1033,6 +1040,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static requestFontAsync(Landroid/content/Context;Ljava/util/List;ILjava/util/concurrent/Executor;Landroidx/core/provider/CallbackWrapper;)Landroid/graphics/Typeface;
@@ -1672,7 +1685,7 @@
     .locals 2
 
     .line 1
-    invoke-static {p1}, Ly0/a;->a(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p1}, Landroidx/core/provider/b;->a(Ljava/lang/Object;)Ljava/util/List;
 
     .line 2
     .line 3
@@ -1733,7 +1746,7 @@
 
     .line 30
     .line 31
-    invoke-static {p1}, Ly0/b;->a(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p1}, Landroidx/core/provider/c;->a(Ljava/lang/Object;)Ljava/util/List;
 
     .line 32
     .line 33
@@ -2303,4 +2316,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -1,4 +1,4 @@
-.class public synthetic Lcom/huawei/secure/android/common/webview/SafeWebView$a;
+.class public abstract synthetic Lcom/huawei/secure/android/common/webview/SafeWebView$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

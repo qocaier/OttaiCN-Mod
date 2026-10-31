@@ -223,6 +223,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public c()Z
@@ -255,6 +257,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public d()Z
@@ -372,6 +376,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public e()V
@@ -410,6 +415,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -550,6 +557,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getPushType()Lcom/qiyukf/nimlib/sdk/mixpush/model/MixPushTypeEnum;
@@ -582,6 +591,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getToken()Ljava/lang/String;
@@ -610,6 +621,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTokenName()Ljava/lang/String;
@@ -638,6 +651,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public hashCode()I
@@ -765,6 +780,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -887,4 +903,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

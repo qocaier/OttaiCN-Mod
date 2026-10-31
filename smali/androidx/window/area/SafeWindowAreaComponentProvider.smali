@@ -5,30 +5,20 @@
 
 # instance fields
 .field private final loader:Ljava/lang/ClassLoader;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final windowExtensions:Landroidx/window/extensions/WindowExtensions;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/ClassLoader;)V
     .locals 1
-    .param p1    # Ljava/lang/ClassLoader;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "loader"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -135,7 +125,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -147,6 +137,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final getExtensionWindowAreaStatusClass()Ljava/lang/Class;
@@ -180,7 +171,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -192,6 +183,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final getWindowAreaComponentClass()Ljava/lang/Class;
@@ -225,7 +217,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -237,6 +229,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final isValidExtensionWindowPresentation()Z
@@ -364,6 +357,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private final isWindowAreaProviderValid(Ljava/lang/Object;)Z
@@ -383,7 +378,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Ljm/a;)Z
+    invoke-static {p1, v0}, Landroidx/window/reflection/ReflectionUtils;->validateReflection$window_release(Ljava/lang/String;Lq8/a;)Z
 
     .line 9
     .line 10
@@ -411,8 +406,6 @@
 # virtual methods
 .method public final getWindowAreaComponent()Landroidx/window/extensions/area/WindowAreaComponent;
     .locals 5
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -560,4 +553,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

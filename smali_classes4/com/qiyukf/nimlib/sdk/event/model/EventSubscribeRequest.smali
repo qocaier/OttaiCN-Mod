@@ -48,6 +48,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -78,6 +80,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExpiry()J
@@ -106,6 +110,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPublishers()Ljava/util/List;
@@ -142,6 +148,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isSyncCurrentValue()Z
@@ -170,6 +178,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setEventType(I)V
@@ -203,6 +213,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setExpiry(J)V
@@ -236,6 +248,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setPublishers(Ljava/util/List;)V
@@ -277,6 +291,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSyncCurrentValue(Z)V
@@ -310,4 +326,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

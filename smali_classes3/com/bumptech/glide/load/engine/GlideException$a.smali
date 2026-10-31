@@ -17,12 +17,6 @@
 .end annotation
 
 
-# static fields
-.field public static final c:Ljava/lang/String; = ""
-
-.field public static final d:Ljava/lang/String; = "  "
-
-
 # instance fields
 .field public final a:Ljava/lang/Appendable;
 
@@ -66,18 +60,47 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
+.method public final a(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    .locals 0
+
+    .line 1
+    if-nez p1, :cond_0
+
+    .line 2
+    .line 3
+    const-string p1, ""
+
+    .line 4
+    .line 5
+    :cond_0
+    return-object p1
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
 .method public append(C)Ljava/lang/Appendable;
     .locals 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     iget-boolean v0, p0, Lcom/bumptech/glide/load/engine/GlideException$a;->b:Z
@@ -117,18 +140,9 @@
 
 .method public append(Ljava/lang/CharSequence;)Ljava/lang/Appendable;
     .locals 2
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 6
-    invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/engine/GlideException$a;->b(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/engine/GlideException$a;->a(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -148,18 +162,9 @@
 
 .method public append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
     .locals 3
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 8
-    invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/engine/GlideException$a;->b(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    invoke-virtual {p0, p1}, Lcom/bumptech/glide/load/engine/GlideException$a;->a(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -209,46 +214,4 @@
     invoke-interface {v0, p1, p2, p3}, Ljava/lang/Appendable;->append(Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
 
     return-object p0
-.end method
-
-.method public final b(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
-    .locals 0
-    .param p1    # Ljava/lang/CharSequence;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .line 1
-    if-nez p1, :cond_0
-
-    .line 2
-    .line 3
-    const-string p1, ""
-
-    .line 4
-    .line 5
-    :cond_0
-    return-object p1
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method

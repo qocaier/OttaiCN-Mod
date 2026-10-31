@@ -247,6 +247,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static create(Landroid/content/res/AssetManager;Ljava/lang/String;)Landroidx/emoji2/text/MetadataRepo;
@@ -487,6 +488,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMetadataList()Landroidx/emoji2/text/flatbuffer/MetadataList;
@@ -523,6 +525,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMetadataVersion()I
@@ -560,6 +563,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRootNode()Landroidx/emoji2/text/MetadataRepo$Node;
@@ -596,6 +600,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTypeface()Landroid/graphics/Typeface;
@@ -632,6 +637,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public put(Landroidx/emoji2/text/EmojiMetadata;)V
@@ -764,4 +770,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

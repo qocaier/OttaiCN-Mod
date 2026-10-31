@@ -7,20 +7,10 @@
 
 
 # annotations
-.annotation build Lb9/a;
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "StringToIntConverterCreator"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;",
-        "Lcom/google/android/gms/common/server/response/FastJsonResponse$a<",
-        "Ljava/lang/String;",
-        "Ljava/lang/Integer;",
-        ">;"
+        "Lcom/google/android/gms/common/server/response/FastJsonResponse$a;"
     }
 .end annotation
 
@@ -42,10 +32,6 @@
 
 # instance fields
 .field public final a:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$h;
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:Ljava/util/HashMap;
 
@@ -56,138 +42,127 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lq9/b;
+    new-instance v0, Lz2/b;
 
-    invoke-direct {v0}, Lq9/b;-><init>()V
+    invoke-direct {v0}, Lz2/b;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
 
-.method public constructor <init>()V
-    .locals 1
-    .annotation build Lb9/a;
-    .end annotation
+.method public constructor <init>(ILjava/util/ArrayList;)V
+    .locals 3
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    const/4 v0, 0x1
-
-    iput v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->a:I
-
-    new-instance v0, Ljava/util/HashMap;
-
     .line 2
-    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
-
-    iput-object v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->b:Ljava/util/HashMap;
-
-    new-instance v0, Landroid/util/SparseArray;
-
     .line 3
-    invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
-
-    iput-object v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->c:Landroid/util/SparseArray;
-
-    return-void
-.end method
-
-.method public constructor <init>(ILjava/util/ArrayList;)V
-    .locals 3
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # Ljava/util/ArrayList;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
-
     .line 4
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
-
     iput p1, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->a:I
 
+    .line 5
+    .line 6
     new-instance p1, Ljava/util/HashMap;
 
-    .line 5
+    .line 7
+    .line 8
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
+    .line 9
+    .line 10
+    .line 11
     iput-object p1, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->b:Ljava/util/HashMap;
 
+    .line 12
+    .line 13
     new-instance p1, Landroid/util/SparseArray;
 
-    .line 6
+    .line 14
+    .line 15
     invoke-direct {p1}, Landroid/util/SparseArray;-><init>()V
 
+    .line 16
+    .line 17
+    .line 18
     iput-object p1, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->c:Landroid/util/SparseArray;
 
-    .line 7
+    .line 19
+    .line 20
     invoke-interface {p2}, Ljava/util/List;->size()I
 
+    .line 21
+    .line 22
+    .line 23
     move-result p1
 
+    .line 24
     const/4 v0, 0x0
 
+    .line 25
     :goto_0
     if-ge v0, p1, :cond_0
 
+    .line 26
+    .line 27
     invoke-interface {p2, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
+    .line 28
+    .line 29
+    .line 30
     move-result-object v1
 
-    .line 8
+    .line 31
     check-cast v1, Lcom/google/android/gms/common/server/converter/zac;
 
-    .line 9
+    .line 32
+    .line 33
     iget-object v2, v1, Lcom/google/android/gms/common/server/converter/zac;->b:Ljava/lang/String;
 
+    .line 34
+    .line 35
     iget v1, v1, Lcom/google/android/gms/common/server/converter/zac;->c:I
 
-    invoke-virtual {p0, v2, v1}, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->s(Ljava/lang/String;I)Lcom/google/android/gms/common/server/converter/StringToIntConverter;
+    .line 36
+    .line 37
+    invoke-virtual {p0, v2, v1}, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->d(Ljava/lang/String;I)Lcom/google/android/gms/common/server/converter/StringToIntConverter;
 
+    .line 38
+    .line 39
+    .line 40
     add-int/lit8 v0, v0, 0x1
 
+    .line 41
+    .line 42
     goto :goto_0
 
+    .line 43
     :cond_0
     return-void
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
 .end method
 
 
 # virtual methods
-.method public final a()I
-    .locals 1
-
-    .line 1
-    const/4 v0, 0x7
-
-    return v0
-.end method
-
-.method public final b()I
-    .locals 1
-
-    .line 1
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public final bridge synthetic j(Ljava/lang/Object;)Ljava/lang/Object;
+.method public final bridge synthetic b(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/Integer;
@@ -310,84 +285,10 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
-.method public final bridge synthetic m(Ljava/lang/Object;)Ljava/lang/Object;
-    .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->b:Ljava/util/HashMap;
-
-    .line 2
-    .line 3
-    check-cast p1, Ljava/lang/String;
-
-    .line 4
-    .line 5
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 6
-    .line 7
-    .line 8
-    move-result-object p1
-
-    .line 9
-    check-cast p1, Ljava/lang/Integer;
-
-    .line 10
-    .line 11
-    if-nez p1, :cond_0
-
-    .line 12
-    .line 13
-    iget-object p1, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->b:Ljava/util/HashMap;
-
-    .line 14
-    .line 15
-    const-string v0, "gms_unknown"
-
-    .line 16
-    .line 17
-    invoke-virtual {p1, v0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 18
-    .line 19
-    .line 20
-    move-result-object p1
-
-    .line 21
-    check-cast p1, Ljava/lang/Integer;
-
-    .line 22
-    .line 23
-    :cond_0
-    return-object p1
-    .line 24
-    .line 25
-.end method
-
-.method public s(Ljava/lang/String;I)Lcom/google/android/gms/common/server/converter/StringToIntConverter;
+.method public d(Ljava/lang/String;I)Lcom/google/android/gms/common/server/converter/StringToIntConverter;
     .locals 2
-    .param p1    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lb9/a;
-    .end annotation
-
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
@@ -462,26 +363,17 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 5
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
     iget p2, p0, Lcom/google/android/gms/common/server/converter/StringToIntConverter;->a:I
 
     .line 2
     .line 3
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 4
     .line 5
@@ -492,7 +384,7 @@
     const/4 v1, 0x1
 
     .line 8
-    invoke-static {p1, v1, p2}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v1, p2}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 9
     .line 10
@@ -599,12 +491,12 @@
     const/4 v2, 0x0
 
     .line 61
-    invoke-static {p1, v1, p2, v2}, Lj9/a;->d0(Landroid/os/Parcel;ILjava/util/List;Z)V
+    invoke-static {p1, v1, p2, v2}, Lu2/a;->u(Landroid/os/Parcel;ILjava/util/List;Z)V
 
     .line 62
     .line 63
     .line 64
-    invoke-static {p1, v0}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 65
     .line 66
@@ -874,52 +766,4 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method

@@ -1,14 +1,14 @@
-.class public final synthetic Lh/a;
+.class public abstract synthetic Lh/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # direct methods
-.method public static bridge synthetic a(Landroid/widget/TextView;)Landroid/text/TextDirectionHeuristic;
+.method public static bridge synthetic a(Landroid/view/WindowManager;)Landroid/view/WindowMetrics;
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;->getTextDirectionHeuristic()Landroid/text/TextDirectionHeuristic;
+    invoke-interface {p0}, Landroid/view/WindowManager;->getCurrentWindowMetrics()Landroid/view/WindowMetrics;
 
     move-result-object p0
 

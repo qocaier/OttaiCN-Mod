@@ -8,21 +8,12 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/zxing/multi/qrcode/QRCodeMultiReader;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "SAComparator"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
         "Ljava/io/Serializable;",
         "Ljava/util/Comparator<",
-        "Llc/k;",
+        "Lcom/google/zxing/h;",
         ">;"
     }
 .end annotation
@@ -38,7 +29,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/google/zxing/multi/qrcode/QRCodeMultiReader$a;)V
+.method public synthetic constructor <init>(Lcom/google/zxing/multi/qrcode/a;)V
     .locals 0
 
     .line 2
@@ -49,26 +40,11 @@
 
 
 # virtual methods
-.method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
-    .locals 0
-
-    .line 1
-    check-cast p1, Llc/k;
-
-    check-cast p2, Llc/k;
-
-    invoke-virtual {p0, p1, p2}, Lcom/google/zxing/multi/qrcode/QRCodeMultiReader$SAComparator;->compare(Llc/k;Llc/k;)I
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public compare(Llc/k;Llc/k;)I
+.method public compare(Lcom/google/zxing/h;Lcom/google/zxing/h;)I
     .locals 1
 
     .line 2
-    invoke-virtual {p1}, Llc/k;->e()Ljava/util/Map;
+    invoke-virtual {p1}, Lcom/google/zxing/h;->d()Ljava/util/Map;
 
     move-result-object p1
 
@@ -85,7 +61,7 @@
     move-result p1
 
     .line 3
-    invoke-virtual {p2}, Llc/k;->e()Ljava/util/Map;
+    invoke-virtual {p2}, Lcom/google/zxing/h;->d()Ljava/util/Map;
 
     move-result-object p2
 
@@ -101,6 +77,21 @@
 
     .line 4
     invoke-static {p1, p2}, Ljava/lang/Integer;->compare(II)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/google/zxing/h;
+
+    check-cast p2, Lcom/google/zxing/h;
+
+    invoke-virtual {p0, p1, p2}, Lcom/google/zxing/multi/qrcode/QRCodeMultiReader$SAComparator;->compare(Lcom/google/zxing/h;Lcom/google/zxing/h;)I
 
     move-result p1
 

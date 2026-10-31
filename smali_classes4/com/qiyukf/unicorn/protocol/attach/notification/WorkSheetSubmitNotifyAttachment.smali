@@ -90,6 +90,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -236,6 +238,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getContent()Ljava/lang/String;
@@ -264,6 +268,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExt()Ljava/lang/String;
@@ -292,6 +298,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getId()J
@@ -320,6 +328,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionid()I
@@ -348,6 +358,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getType()Ljava/lang/String;
@@ -376,6 +388,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getWorkSheetItemList()Ljava/util/List;
@@ -412,6 +426,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setContent(Ljava/lang/String;)V
@@ -445,6 +461,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setExt(Ljava/lang/String;)V
@@ -478,6 +496,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setId(J)V
@@ -511,6 +531,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionid(I)V
@@ -544,6 +566,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setType(Ljava/lang/String;)V
@@ -577,6 +601,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setWorkSheetItemList(Ljava/util/List;)V
@@ -618,4 +644,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

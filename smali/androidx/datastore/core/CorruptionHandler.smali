@@ -15,25 +15,14 @@
 
 
 # virtual methods
-.method public abstract handleCorruption(Landroidx/datastore/core/CorruptionException;Lul/c;)Ljava/lang/Object;
-    .param p1    # Landroidx/datastore/core/CorruptionException;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract handleCorruption(Landroidx/datastore/core/CorruptionException;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/datastore/core/CorruptionException;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method

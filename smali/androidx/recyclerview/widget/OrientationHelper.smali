@@ -252,6 +252,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract getMode()I
@@ -309,6 +310,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public abstract getTransformedEndWithDecoration(Landroid/view/View;)I
@@ -353,4 +355,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -143,6 +143,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -179,6 +182,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public canWrite()Z
@@ -213,6 +217,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public createDirectory(Ljava/lang/String;)Landroidx/documentfile/provider/DocumentFile;
@@ -352,6 +357,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public exists()Z
@@ -386,6 +392,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -422,6 +429,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getType()Ljava/lang/String;
@@ -458,6 +466,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUri()Landroid/net/Uri;
@@ -486,6 +495,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isDirectory()Z
@@ -520,6 +530,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isFile()Z
@@ -554,6 +565,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isVirtual()Z
@@ -588,6 +600,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public lastModified()J
@@ -622,6 +635,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public length()J
@@ -656,6 +670,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public listFiles()[Landroidx/documentfile/provider/DocumentFile;
@@ -686,6 +701,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public renameTo(Ljava/lang/String;)Z

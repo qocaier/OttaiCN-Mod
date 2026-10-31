@@ -7,21 +7,21 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/tekartik/sqflite/DatabaseWorker;
+.field public final synthetic a:Lcom/tekartik/sqflite/Database;
 
-.field public final synthetic b:Lcom/tekartik/sqflite/DatabaseTask;
+.field public final synthetic b:Lcom/tekartik/sqflite/operation/Operation;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/tekartik/sqflite/DatabaseWorker;Lcom/tekartik/sqflite/DatabaseTask;)V
+.method public synthetic constructor <init>(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/tekartik/sqflite/h;->a:Lcom/tekartik/sqflite/DatabaseWorker;
+    iput-object p1, p0, Lcom/tekartik/sqflite/h;->a:Lcom/tekartik/sqflite/Database;
 
-    iput-object p2, p0, Lcom/tekartik/sqflite/h;->b:Lcom/tekartik/sqflite/DatabaseTask;
+    iput-object p2, p0, Lcom/tekartik/sqflite/h;->b:Lcom/tekartik/sqflite/operation/Operation;
 
     return-void
 .end method
@@ -32,11 +32,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/tekartik/sqflite/h;->a:Lcom/tekartik/sqflite/DatabaseWorker;
+    iget-object v0, p0, Lcom/tekartik/sqflite/h;->a:Lcom/tekartik/sqflite/Database;
 
-    iget-object v1, p0, Lcom/tekartik/sqflite/h;->b:Lcom/tekartik/sqflite/DatabaseTask;
+    iget-object v1, p0, Lcom/tekartik/sqflite/h;->b:Lcom/tekartik/sqflite/operation/Operation;
 
-    invoke-static {v0, v1}, Lcom/tekartik/sqflite/DatabaseWorker;->a(Lcom/tekartik/sqflite/DatabaseWorker;Lcom/tekartik/sqflite/DatabaseTask;)V
+    invoke-static {v0, v1}, Lcom/tekartik/sqflite/Database;->g(Lcom/tekartik/sqflite/Database;Lcom/tekartik/sqflite/operation/Operation;)V
 
     return-void
 .end method

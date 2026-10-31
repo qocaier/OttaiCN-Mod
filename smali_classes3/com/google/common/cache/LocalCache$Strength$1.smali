@@ -17,16 +17,6 @@
 # direct methods
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal"
-        }
-    .end annotation
 
     .line 1
     const/4 v0, 0x0
@@ -93,11 +83,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -107,9 +92,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/google/common/base/Equivalence<",
-            "Ljava/lang/Object;",
-            ">;"
+            "Lcom/google/common/base/Equivalence;"
         }
     .end annotation
 
@@ -140,26 +123,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public referenceValue(Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/d;Ljava/lang/Object;I)Lcom/google/common/cache/LocalCache$s;
+.method public referenceValue(Lcom/google/common/cache/LocalCache$Segment;Lcom/google/common/cache/k;Ljava/lang/Object;I)Lcom/google/common/cache/LocalCache$s;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "segment",
-            "entry",
-            "value",
-            "weight"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -169,10 +136,9 @@
             ">(",
             "Lcom/google/common/cache/LocalCache$Segment<",
             "TK;TV;>;",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;TV;I)",
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;"
+            "Lcom/google/common/cache/k;",
+            "TV;I)",
+            "Lcom/google/common/cache/LocalCache$s;"
         }
     .end annotation
 
@@ -434,4 +400,20 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method

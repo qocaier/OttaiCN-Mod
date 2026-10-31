@@ -191,15 +191,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static synthetic a(Lcom/baidu/mapapi/map/HexagonMap$Builder;)Ljava/util/Collection;
@@ -232,7 +223,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic b(Lcom/baidu/mapapi/map/HexagonMap$Builder;)F
@@ -265,7 +255,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic c(Lcom/baidu/mapapi/map/HexagonMap$Builder;)F
@@ -298,7 +287,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic d(Lcom/baidu/mapapi/map/HexagonMap$Builder;)Lcom/baidu/mapapi/map/HexagonMap$HexagonType;
@@ -331,7 +319,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic e(Lcom/baidu/mapapi/map/HexagonMap$Builder;)Lcom/baidu/mapapi/map/Gradient;
@@ -364,7 +351,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic f(Lcom/baidu/mapapi/map/HexagonMap$Builder;)I
@@ -397,7 +383,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic g(Lcom/baidu/mapapi/map/HexagonMap$Builder;)I
@@ -430,7 +415,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic h(Lcom/baidu/mapapi/map/HexagonMap$Builder;)F
@@ -463,7 +447,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic i(Lcom/baidu/mapapi/map/HexagonMap$Builder;)F
@@ -496,7 +479,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic j(Lcom/baidu/mapapi/map/HexagonMap$Builder;)F
@@ -529,7 +511,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -579,7 +560,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public data(Ljava/util/Collection;)Lcom/baidu/mapapi/map/HexagonMap$Builder;
@@ -728,8 +708,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public gap(F)Lcom/baidu/mapapi/map/HexagonMap$Builder;
@@ -773,7 +751,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public gradient(Lcom/baidu/mapapi/map/Gradient;)Lcom/baidu/mapapi/map/HexagonMap$Builder;
@@ -817,7 +794,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public hexagonType(Lcom/baidu/mapapi/map/HexagonMap$HexagonType;)Lcom/baidu/mapapi/map/HexagonMap$Builder;
@@ -850,7 +826,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public maxIntensity(F)Lcom/baidu/mapapi/map/HexagonMap$Builder;
@@ -900,7 +875,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public maxShowLevel(I)Lcom/baidu/mapapi/map/HexagonMap$Builder;
@@ -947,7 +921,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public minIntensity(F)Lcom/baidu/mapapi/map/HexagonMap$Builder;
@@ -1000,7 +973,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public minShowLevel(I)Lcom/baidu/mapapi/map/HexagonMap$Builder;
@@ -1049,7 +1021,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public opacity(F)Lcom/baidu/mapapi/map/HexagonMap$Builder;
@@ -1104,7 +1075,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public radius(I)Lcom/baidu/mapapi/map/HexagonMap$Builder;
@@ -1144,7 +1114,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public weightedData(Ljava/util/Collection;)Lcom/baidu/mapapi/map/HexagonMap$Builder;
@@ -1287,6 +1256,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

@@ -71,6 +71,8 @@
     .end array-data
 
     .line 20
+    .line 21
+    .line 22
     :array_1
     .array-data 2
         0x30s
@@ -118,6 +120,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static a([B[C)[C
@@ -223,6 +227,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static encodeHex([B)[C
@@ -325,4 +339,14 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method

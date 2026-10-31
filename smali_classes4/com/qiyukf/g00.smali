@@ -200,11 +200,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static a(Lcom/qiyukf/o20;)Lcom/qiyukf/g00;
@@ -1069,6 +1064,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public e()I
@@ -1222,6 +1218,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public f()Lcom/qiyukf/bv;
@@ -1256,6 +1253,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public g()I
@@ -1306,6 +1305,7 @@
     .line 20
     nop
 
+    .line 21
     :pswitch_data_0
     .packed-switch 0x9
         :pswitch_0
@@ -1314,4 +1314,5 @@
         :pswitch_0
         :pswitch_0
     .end packed-switch
+    .line 22
 .end method

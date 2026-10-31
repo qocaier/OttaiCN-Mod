@@ -3,36 +3,34 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/camera/video/internal/encoder/OutputConfig;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroid/media/MediaFormat;
+.field public final synthetic a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroid/media/MediaFormat;)V
+.method public synthetic constructor <init>(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/video/internal/encoder/q;->a:Landroid/media/MediaFormat;
+    iput-object p1, p0, Landroidx/camera/video/internal/encoder/q;->a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final getMediaFormat()Landroid/media/MediaFormat;
+.method public final run()V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/internal/encoder/q;->a:Landroid/media/MediaFormat;
+    iget-object v0, p0, Landroidx/camera/video/internal/encoder/q;->a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-    invoke-static {v0}, Landroidx/camera/video/internal/encoder/EncoderImpl$MediaCodecCallback;->b(Landroid/media/MediaFormat;)Landroid/media/MediaFormat;
+    invoke-static {v0}, Landroidx/camera/video/internal/encoder/EncoderImpl;->i(Landroidx/camera/video/internal/encoder/EncoderImpl;)V
 
-    move-result-object v0
-
-    return-object v0
+    return-void
 .end method

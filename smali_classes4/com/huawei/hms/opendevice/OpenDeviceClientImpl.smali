@@ -142,6 +142,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -185,18 +186,18 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
 # virtual methods
-.method public getOdid()Lme/k;
+.method public getOdid()Lq5/f;
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lme/k<",
-            "Lcom/huawei/hms/support/api/opendevice/OdidResult;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -246,7 +247,7 @@
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lme/k;
+    invoke-virtual {p0, v1}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lq5/f;
 
     .line 25
     .line 26
@@ -311,4 +312,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

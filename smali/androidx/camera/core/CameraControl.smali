@@ -16,49 +16,43 @@
 
 
 # virtual methods
-.method public abstract cancelFocusAndMetering()Lub/u0;
+.method public abstract cancelFocusAndMetering()Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method
 
-.method public abstract enableTorch(Z)Lub/u0;
+.method public abstract enableTorch(Z)Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(Z)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method
 
-.method public abstract setExposureCompensationIndex(I)Lub/u0;
+.method public abstract setExposureCompensationIndex(I)Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)",
-            "Lub/u0<",
-            "Ljava/lang/Integer;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method
 
-.method public abstract setLinearZoom(F)Lub/u0;
+.method public abstract setLinearZoom(F)Lcom/google/common/util/concurrent/t;
     .param p1    # F
         .annotation build Landroidx/annotation/FloatRange;
             from = 0.0
@@ -71,28 +65,24 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(F)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method
 
-.method public abstract setZoomRatio(F)Lub/u0;
+.method public abstract setZoomRatio(F)Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(F)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method
 
-.method public abstract startFocusAndMetering(Landroidx/camera/core/FocusMeteringAction;)Lub/u0;
+.method public abstract startFocusAndMetering(Landroidx/camera/core/FocusMeteringAction;)Lcom/google/common/util/concurrent/t;
     .param p1    # Landroidx/camera/core/FocusMeteringAction;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
@@ -105,9 +95,7 @@
             "(",
             "Landroidx/camera/core/FocusMeteringAction;",
             ")",
-            "Lub/u0<",
-            "Landroidx/camera/core/FocusMeteringResult;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method

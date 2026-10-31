@@ -96,7 +96,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setCacheModel(Z)Lcom/baidu/platform/comapi/cache/sp/SpStorageConfig$Builder;
@@ -129,7 +128,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStorageName(Ljava/lang/String;)Lcom/baidu/platform/comapi/cache/sp/SpStorageConfig$Builder;
@@ -162,5 +160,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

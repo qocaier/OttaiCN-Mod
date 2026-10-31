@@ -3,34 +3,46 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroid/view/Choreographer$FrameCallback;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Ljava/lang/Runnable;
+.field public final synthetic a:Landroidx/profileinstaller/DeviceProfileWriter;
+
+.field public final synthetic b:I
+
+.field public final synthetic c:Ljava/lang/Object;
 
 
 # direct methods
-.method public synthetic constructor <init>(Ljava/lang/Runnable;)V
+.method public synthetic constructor <init>(Landroidx/profileinstaller/DeviceProfileWriter;ILjava/lang/Object;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/profileinstaller/a;->a:Ljava/lang/Runnable;
+    iput-object p1, p0, Landroidx/profileinstaller/a;->a:Landroidx/profileinstaller/DeviceProfileWriter;
+
+    iput p2, p0, Landroidx/profileinstaller/a;->b:I
+
+    iput-object p3, p0, Landroidx/profileinstaller/a;->c:Ljava/lang/Object;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final doFrame(J)V
-    .locals 1
+.method public final run()V
+    .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/profileinstaller/a;->a:Ljava/lang/Runnable;
+    iget-object v0, p0, Landroidx/profileinstaller/a;->a:Landroidx/profileinstaller/DeviceProfileWriter;
 
-    invoke-static {v0, p1, p2}, Landroidx/profileinstaller/ProfileInstallerInitializer$Choreographer16Impl;->a(Ljava/lang/Runnable;J)V
+    iget v1, p0, Landroidx/profileinstaller/a;->b:I
+
+    iget-object v2, p0, Landroidx/profileinstaller/a;->c:Ljava/lang/Object;
+
+    invoke-static {v0, v1, v2}, Landroidx/profileinstaller/DeviceProfileWriter;->a(Landroidx/profileinstaller/DeviceProfileWriter;ILjava/lang/Object;)V
 
     return-void
 .end method

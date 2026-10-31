@@ -18,18 +18,12 @@
 
 # virtual methods
 .method public abstract getOcclusionType()Landroidx/window/layout/FoldingFeature$OcclusionType;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract getOrientation()Landroidx/window/layout/FoldingFeature$Orientation;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract getState()Landroidx/window/layout/FoldingFeature$State;
-    .annotation build Lsq/k;
-    .end annotation
 .end method
 
 .method public abstract isSeparating()Z

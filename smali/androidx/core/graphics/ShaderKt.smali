@@ -4,25 +4,14 @@
 
 
 # direct methods
-.method public static final transform(Landroid/graphics/Shader;Ljm/l;)V
+.method public static final transform(Landroid/graphics/Shader;Lq8/l;)V
     .locals 1
-    .param p0    # Landroid/graphics/Shader;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/graphics/Shader;",
-            "Ljm/l<",
-            "-",
-            "Landroid/graphics/Matrix;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -41,7 +30,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-interface {p1, v0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11

@@ -25,14 +25,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$1;->this$0:Landroidx/datastore/preferences/protobuf/ByteString;
@@ -115,6 +107,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public nextByte()B
@@ -228,4 +221,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

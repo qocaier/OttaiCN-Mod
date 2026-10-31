@@ -125,6 +125,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getInstance()Lcom/qiyukf/unicorn/mediaselect/internal/entity/SelectionSpec;
@@ -155,6 +157,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private reset()V
@@ -303,6 +307,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -344,6 +349,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onlyShowImages()Z
@@ -393,6 +400,8 @@
 
     .line 20
     return v0
+    .line 21
+    .line 22
 .end method
 
 .method public onlyShowVideos()Z
@@ -442,6 +451,8 @@
 
     .line 20
     return v0
+    .line 21
+    .line 22
 .end method
 
 .method public singleSelectionModeEnabled()Z
@@ -492,4 +503,6 @@
 
     .line 20
     return v0
+    .line 21
+    .line 22
 .end method

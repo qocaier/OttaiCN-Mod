@@ -138,9 +138,9 @@
     invoke-virtual {p0}, Landroid/view/View;->requestFocus()Z
 
     .line 4
-    new-instance v0, Lvg/e0;
+    new-instance v0, Lcom/qiyukf/ye0;
 
-    invoke-direct {v0, p0, p1}, Lvg/e0;-><init>(Landroid/view/View;Landroid/view/View;)V
+    invoke-direct {v0, p0, p1}, Lcom/qiyukf/ye0;-><init>(Landroid/view/View;Landroid/view/View;)V
 
     invoke-virtual {p0, v0, p2, p3}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
 

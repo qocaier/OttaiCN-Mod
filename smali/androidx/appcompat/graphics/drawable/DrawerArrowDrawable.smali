@@ -84,6 +84,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -468,6 +469,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private static lerp(FFF)F
@@ -2231,6 +2237,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getArrowShaftLength()F
@@ -2259,6 +2266,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBarLength()F
@@ -2287,6 +2295,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBarThickness()F
@@ -2319,6 +2328,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getColor()I
@@ -2353,6 +2363,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDirection()I
@@ -2381,6 +2392,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getGapSize()F
@@ -2409,6 +2421,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntrinsicHeight()I
@@ -2437,6 +2450,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getIntrinsicWidth()I
@@ -2465,6 +2479,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOpacity()I
@@ -2501,6 +2516,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getProgress()F
@@ -2533,6 +2549,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSpinEnabled()Z
@@ -2561,6 +2578,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setAlpha(I)V
@@ -2854,6 +2872,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setColor(I)V

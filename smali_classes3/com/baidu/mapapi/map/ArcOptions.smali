@@ -74,7 +74,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -109,7 +108,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public extraInfo(Landroid/os/Bundle;)Lcom/baidu/mapapi/map/ArcOptions;
@@ -142,7 +140,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getColor()I
@@ -173,7 +170,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndPoint()Lcom/baidu/mapapi/model/LatLng;
@@ -204,7 +200,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExtraInfo()Landroid/os/Bundle;
@@ -235,7 +230,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMiddlePoint()Lcom/baidu/mapapi/model/LatLng;
@@ -266,7 +260,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOverlay()Lcom/baidu/mapapi/map/Overlay;
@@ -413,15 +406,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getStartPoint()Lcom/baidu/mapapi/model/LatLng;
@@ -452,7 +436,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWidth()I
@@ -483,7 +466,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getZIndex()I
@@ -514,7 +496,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isVisible()Z
@@ -545,7 +526,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public points(Lcom/baidu/mapapi/model/LatLng;Lcom/baidu/mapapi/model/LatLng;Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/map/ArcOptions;
@@ -735,11 +715,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public setClickable(Z)Lcom/baidu/mapapi/map/ArcOptions;
@@ -772,7 +747,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public visible(Z)Lcom/baidu/mapapi/map/ArcOptions;
@@ -805,7 +779,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public width(I)Lcom/baidu/mapapi/map/ArcOptions;
@@ -841,7 +814,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public zIndex(I)Lcom/baidu/mapapi/map/ArcOptions;
@@ -874,5 +846,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

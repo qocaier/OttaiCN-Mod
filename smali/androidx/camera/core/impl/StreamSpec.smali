@@ -14,9 +14,6 @@
     }
 .end annotation
 
-.annotation build Ldb/c;
-.end annotation
-
 
 # static fields
 .field public static final FRAME_RATE_RANGE_UNSPECIFIED:Landroid/util/Range;
@@ -67,6 +64,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -95,6 +93,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static builder(Landroid/util/Size;)Landroidx/camera/core/impl/StreamSpec$Builder;

@@ -254,6 +254,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static profileToDynamicRange(J)Landroidx/camera/core/DynamicRange;
@@ -364,6 +365,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -511,6 +513,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getSupportedDynamicRanges()Ljava/util/Set;
@@ -558,6 +561,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isExtraLatencyPresent(Landroidx/camera/core/DynamicRange;)Z
@@ -686,6 +690,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public unwrap()Landroid/hardware/camera2/params/DynamicRangeProfiles;
@@ -716,4 +721,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -1,11 +1,11 @@
 .class public final Landroidx/core/util/LongSparseArrayKt$keyIterator$1;
-.super Lll/d1;
+.super Lkotlin/collections/d0;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/util/LongSparseArrayKt;->keyIterator(Landroid/util/LongSparseArray;)Lll/d1;
+    value = Landroidx/core/util/LongSparseArrayKt;->keyIterator(Landroid/util/LongSparseArray;)Lkotlin/collections/d0;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -43,7 +43,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lll/d1;-><init>()V
+    invoke-direct {p0}, Lkotlin/collections/d0;-><init>()V
 
     .line 4
     .line 5
@@ -98,6 +98,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasNext()Z
@@ -141,6 +142,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public nextLong()J
@@ -179,6 +181,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final setIndex(I)V

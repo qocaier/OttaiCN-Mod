@@ -23,50 +23,26 @@
     .end annotation
 .end method
 
-.method public abstract readFrom(Ljava/io/InputStream;Lul/c;)Ljava/lang/Object;
-    .param p1    # Ljava/io/InputStream;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract readFrom(Ljava/io/InputStream;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/io/InputStream;",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end method
 
-.method public abstract writeTo(Ljava/lang/Object;Ljava/io/OutputStream;Lul/c;)Ljava/lang/Object;
-    .param p2    # Ljava/io/OutputStream;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract writeTo(Ljava/lang/Object;Ljava/io/OutputStream;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;",
             "Ljava/io/OutputStream;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 .end method

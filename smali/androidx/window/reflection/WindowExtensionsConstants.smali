@@ -5,64 +5,28 @@
 
 # static fields
 .field public static final ACTIVITY_EMBEDDING_COMPONENT_CLASS:Ljava/lang/String; = "androidx.window.extensions.embedding.ActivityEmbeddingComponent"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final EXTENSION_WINDOW_AREA_PRESENTATION_CLASS:Ljava/lang/String; = "androidx.window.extensions.area.ExtensionWindowAreaPresentation"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final EXTENSION_WINDOW_AREA_STATUS_CLASS:Ljava/lang/String; = "androidx.window.extensions.area.ExtensionWindowAreaStatus"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final FOLDING_FEATURE_CLASS:Ljava/lang/String; = "androidx.window.extensions.layout.FoldingFeature"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final INSTANCE:Landroidx/window/reflection/WindowExtensionsConstants;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final JAVA_CONSUMER:Ljava/lang/String; = "java.util.function.Consumer"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final WINDOW_AREA_COMPONENT_CLASS:Ljava/lang/String; = "androidx.window.extensions.area.WindowAreaComponent"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final WINDOW_CONSUMER:Ljava/lang/String; = "androidx.window.extensions.core.util.function.Consumer"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final WINDOW_EXTENSIONS_CLASS:Ljava/lang/String; = "androidx.window.extensions.WindowExtensions"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final WINDOW_EXTENSIONS_PACKAGE_NAME:Ljava/lang/String; = "androidx.window.extensions"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final WINDOW_EXTENSIONS_PROVIDER_CLASS:Ljava/lang/String; = "androidx.window.extensions.WindowExtensionsProvider"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final WINDOW_LAYOUT_COMPONENT_CLASS:Ljava/lang/String; = "androidx.window.extensions.layout.WindowLayoutComponent"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -104,4 +68,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

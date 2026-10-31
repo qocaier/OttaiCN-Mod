@@ -17,18 +17,12 @@
 
 # static fields
 .field public static final Companion:Lcom/fluttercandies/flutter_image_compress/ImageCompressPlugin$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static showLog:Z
 
 
 # instance fields
 .field private channel:Lio/flutter/plugin/common/MethodChannel;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private context:Landroid/content/Context;
 
@@ -41,7 +35,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/fluttercandies/flutter_image_compress/ImageCompressPlugin$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Lcom/fluttercandies/flutter_image_compress/ImageCompressPlugin$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Lcom/fluttercandies/flutter_image_compress/ImageCompressPlugin;->Companion:Lcom/fluttercandies/flutter_image_compress/ImageCompressPlugin$Companion;
 
@@ -186,15 +180,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static final synthetic access$getShowLog$cp()Z
@@ -225,7 +210,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static final synthetic access$setShowLog$cp(Z)V
@@ -258,7 +242,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private final handleLog(Lio/flutter/plugin/common/MethodCall;)I
@@ -281,7 +264,7 @@
 
     .line 8
     .line 9
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -305,24 +288,19 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public onAttachedToEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
     .locals 2
-    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "binding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -339,7 +317,7 @@
 
     .line 11
     .line 12
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -437,23 +415,17 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onDetachedFromEngine(Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;)V
     .locals 1
-    .param p1    # Lio/flutter/embedding/engine/plugins/FlutterPlugin$FlutterPluginBinding;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "binding"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -488,26 +460,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onMethodCall(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 4
-    .param p1    # Lio/flutter/plugin/common/MethodCall;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lio/flutter/plugin/common/MethodChannel$Result;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "call"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -516,7 +479,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -673,7 +636,7 @@
 
     .line 83
     .line 84
-    invoke-static {v3}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 85
     .line 86
@@ -732,7 +695,7 @@
 
     .line 110
     .line 111
-    invoke-static {v3}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 112
     .line 113
@@ -791,7 +754,7 @@
 
     .line 137
     .line 138
-    invoke-static {v3}, Lkm/g0;->S(Ljava/lang/String;)V
+    invoke-static {v3}, Lkotlin/jvm/internal/j;->w(Ljava/lang/String;)V
 
     .line 139
     .line 140
@@ -1010,52 +973,4 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method

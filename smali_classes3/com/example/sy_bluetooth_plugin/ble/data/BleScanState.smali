@@ -158,37 +158,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public constructor <init>(Ljava/lang/String;II)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000,
-            0x0
-        }
-        names = {
-            null,
-            null,
-            null
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(I)V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -342,11 +315,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static synthetic a()[Lcom/example/sy_bluetooth_plugin/ble/data/BleScanState;
@@ -383,19 +351,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/example/sy_bluetooth_plugin/ble/data/BleScanState;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8000
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     const-class v0, Lcom/example/sy_bluetooth_plugin/ble/data/BleScanState;
@@ -430,7 +389,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static values()[Lcom/example/sy_bluetooth_plugin/ble/data/BleScanState;
@@ -467,7 +425,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -500,5 +457,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

@@ -18,9 +18,6 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
@@ -61,6 +58,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/lifecycle/DispatchQueue;Ljava/lang/Runnable;)V
@@ -80,7 +78,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -89,7 +87,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -235,18 +233,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public final dispatchAndEnqueue(Lkotlin/coroutines/d;Ljava/lang/Runnable;)V
+.method public final dispatchAndEnqueue(Lkotlin/coroutines/i;Ljava/lang/Runnable;)V
     .locals 2
-    .param p1    # Lkotlin/coroutines/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Runnable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/AnyThread;
     .end annotation
 
@@ -255,7 +246,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -264,12 +255,12 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {}, Lfn/t0;->e()Lfn/d2;
+    invoke-static {}, Lkotlinx/coroutines/v0;->c()Lkotlinx/coroutines/z1;
 
     .line 12
     .line 13
@@ -277,7 +268,7 @@
     move-result-object v0
 
     .line 15
-    invoke-virtual {v0}, Lfn/d2;->l()Lfn/d2;
+    invoke-virtual {v0}, Lkotlinx/coroutines/z1;->e()Lkotlinx/coroutines/z1;
 
     .line 16
     .line 17
@@ -285,7 +276,7 @@
     move-result-object v0
 
     .line 19
-    invoke-virtual {v0, p1}, Lfn/f0;->isDispatchNeeded(Lkotlin/coroutines/d;)Z
+    invoke-virtual {v0, p1}, Lkotlinx/coroutines/h0;->isDispatchNeeded(Lkotlin/coroutines/i;)Z
 
     .line 20
     .line 21
@@ -323,16 +314,16 @@
     .line 36
     :cond_1
     :goto_0
-    new-instance v1, Lp1/c;
+    new-instance v1, Landroidx/lifecycle/c;
 
     .line 37
     .line 38
-    invoke-direct {v1, p0, p2}, Lp1/c;-><init>(Landroidx/lifecycle/DispatchQueue;Ljava/lang/Runnable;)V
+    invoke-direct {v1, p0, p2}, Landroidx/lifecycle/c;-><init>(Landroidx/lifecycle/DispatchQueue;Ljava/lang/Runnable;)V
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {v0, p1, v1}, Lfn/f0;->dispatch(Lkotlin/coroutines/d;Ljava/lang/Runnable;)V
+    invoke-virtual {v0, p1, v1}, Lkotlinx/coroutines/h0;->dispatch(Lkotlin/coroutines/i;Ljava/lang/Runnable;)V
 
     .line 42
     .line 43
@@ -497,6 +488,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final finish()V
@@ -531,6 +524,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final pause()V
@@ -563,6 +557,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final resume()V
@@ -681,4 +676,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

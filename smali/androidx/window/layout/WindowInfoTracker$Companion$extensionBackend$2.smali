@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Landroidx/window/layout/adapter/WindowBackend;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -57,8 +55,6 @@
 # virtual methods
 .method public final invoke()Landroidx/window/layout/adapter/WindowBackend;
     .locals 6
-    .annotation build Lsq/l;
-    .end annotation
 
     const/4 v0, 0x0
 
@@ -104,7 +100,7 @@
 
     const-string v5, "loader"
 
-    invoke-static {v1, v5}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     invoke-direct {v4, v1}, Landroidx/window/core/ConsumerAdapter;-><init>(Ljava/lang/ClassLoader;)V
 

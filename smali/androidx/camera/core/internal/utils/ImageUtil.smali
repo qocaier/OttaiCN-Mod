@@ -48,6 +48,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static computeCropRectFromAspectRatio(Landroid/util/Size;Landroid/util/Rational;)Landroid/graphics/Rect;
@@ -404,6 +405,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static computeCropRectFromDispatchInfo(Landroid/graphics/Rect;ILandroid/util/Size;I)Landroid/graphics/Rect;
@@ -732,6 +736,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static createBitmapFromImageProxy(Landroidx/camera/core/ImageProxy;)Landroid/graphics/Bitmap;
@@ -885,6 +895,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static createBitmapFromJpegImage(Landroidx/camera/core/ImageProxy;)Landroid/graphics/Bitmap;
@@ -1162,6 +1173,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static createBitmapFromRgbaImage(Landroidx/camera/core/ImageProxy;)Landroid/graphics/Bitmap;
@@ -1302,6 +1316,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static createDirectByteBuffer(Landroid/graphics/Bitmap;)Ljava/nio/ByteBuffer;
@@ -1428,6 +1443,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static cropJpegByteArray([BLandroid/graphics/Rect;I)[B
@@ -1667,6 +1683,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static getRotatedAspectRatio(ILandroid/util/Rational;)Landroid/util/Rational;
@@ -2414,6 +2433,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static shouldCropImage(IIII)Z
@@ -2629,6 +2654,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static yuvImageToJpegByteArray(Landroidx/camera/core/ImageProxy;Landroid/graphics/Rect;II)[B
@@ -2990,6 +3016,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static yuv_420_888toNv21(Landroidx/camera/core/ImageProxy;)[B
@@ -3444,4 +3476,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

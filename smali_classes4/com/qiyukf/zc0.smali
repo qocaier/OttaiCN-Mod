@@ -109,138 +109,138 @@
 
     .line 48
     :cond_1
-    const-string v2, "zh"
+    const-string/jumbo v2, "zh"
 
     .line 49
     .line 50
+    .line 51
     invoke-virtual {v1, v2}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
-    .line 51
     .line 52
     .line 53
+    .line 54
     move-result v2
 
-    .line 54
+    .line 55
     if-eqz v2, :cond_3
 
-    .line 55
     .line 56
+    .line 57
     const-string v1, "TW"
 
-    .line 57
     .line 58
+    .line 59
     invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    .line 59
     .line 60
     .line 61
+    .line 62
     move-result v0
 
-    .line 62
+    .line 63
     if-eqz v0, :cond_2
 
-    .line 63
     .line 64
+    .line 65
     new-instance v0, Lcom/qiyukf/yw;
 
-    .line 65
     .line 66
+    .line 67
     invoke-direct {v0}, Lcom/qiyukf/yw;-><init>()V
 
-    .line 67
     .line 68
     .line 69
+    .line 70
     sput-object v0, Lcom/qiyukf/zc0;->a:Lcom/qiyukf/yc0;
 
-    .line 70
     .line 71
+    .line 72
     goto :goto_0
 
-    .line 72
+    .line 73
     :cond_2
     new-instance v0, Lcom/qiyukf/d4;
 
-    .line 73
     .line 74
+    .line 75
     invoke-direct {v0}, Lcom/qiyukf/d4;-><init>()V
 
-    .line 75
     .line 76
     .line 77
+    .line 78
     sput-object v0, Lcom/qiyukf/zc0;->a:Lcom/qiyukf/yc0;
 
-    .line 78
     .line 79
+    .line 80
     goto :goto_0
 
-    .line 80
+    .line 81
     :cond_3
     const-string v0, "en"
 
-    .line 81
     .line 82
+    .line 83
     invoke-virtual {v1, v0}, Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
 
-    .line 83
     .line 84
     .line 85
+    .line 86
     move-result v0
 
-    .line 86
+    .line 87
     if-eqz v0, :cond_4
 
-    .line 87
     .line 88
+    .line 89
     new-instance v0, Lcom/qiyukf/t8;
 
-    .line 89
     .line 90
+    .line 91
     invoke-direct {v0}, Lcom/qiyukf/t8;-><init>()V
 
-    .line 91
     .line 92
     .line 93
+    .line 94
     return-object v0
 
-    .line 94
+    .line 95
     :cond_4
     new-instance v0, Lcom/qiyukf/g6;
 
-    .line 95
     .line 96
+    .line 97
     invoke-direct {v0}, Lcom/qiyukf/g6;-><init>()V
 
-    .line 97
     .line 98
     .line 99
+    .line 100
     sput-object v0, Lcom/qiyukf/zc0;->a:Lcom/qiyukf/yc0;
 
-    .line 100
     .line 101
+    .line 102
     goto :goto_0
 
-    .line 102
+    .line 103
     :cond_5
     new-instance v0, Lcom/qiyukf/g6;
 
-    .line 103
     .line 104
+    .line 105
     invoke-direct {v0}, Lcom/qiyukf/g6;-><init>()V
 
-    .line 105
     .line 106
     .line 107
+    .line 108
     sput-object v0, Lcom/qiyukf/zc0;->a:Lcom/qiyukf/yc0;
 
-    .line 108
     .line 109
+    .line 110
     :goto_0
     sget-object v0, Lcom/qiyukf/zc0;->a:Lcom/qiyukf/yc0;
 
-    .line 110
     .line 111
-    return-object v0
     .line 112
+    return-object v0
     .line 113
     .line 114
     .line 115
@@ -410,66 +410,4 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method

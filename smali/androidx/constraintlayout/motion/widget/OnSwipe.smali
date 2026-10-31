@@ -252,6 +252,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -282,6 +284,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDragDirection()I
@@ -310,6 +313,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDragScale()F
@@ -338,6 +342,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDragThreshold()F
@@ -366,6 +371,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLimitBoundsTo()I
@@ -394,6 +400,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxAcceleration()F
@@ -422,6 +429,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxVelocity()F
@@ -450,6 +458,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMoveWhenScrollAtTop()Z
@@ -478,6 +487,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNestedScrollFlags()I
@@ -506,6 +516,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getOnTouchUp()I
@@ -534,6 +545,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRotationCenterId()I
@@ -562,6 +574,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSpringBoundary()I
@@ -590,6 +603,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSpringDamping()F
@@ -618,6 +632,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSpringMass()F
@@ -646,6 +661,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSpringStiffness()F
@@ -674,6 +690,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSpringStopThreshold()F
@@ -702,6 +719,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTouchAnchorId()I
@@ -730,6 +748,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTouchAnchorSide()I
@@ -758,6 +777,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTouchRegionId()I
@@ -786,18 +806,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setAutoCompleteMode(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "autoCompleteMode"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mAutoCompleteMode:I
@@ -831,14 +844,6 @@
 
 .method public setDragDirection(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "dragDirection"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mDragDirection:I
@@ -872,14 +877,6 @@
 
 .method public setDragScale(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "dragScale"
-        }
-    .end annotation
 
     .line 1
     int-to-float p1, p1
@@ -915,14 +912,6 @@
 
 .method public setDragThreshold(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "dragThreshold"
-        }
-    .end annotation
 
     .line 1
     int-to-float p1, p1
@@ -958,14 +947,6 @@
 
 .method public setLimitBoundsTo(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "id"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mLimitBoundsTo:I
@@ -999,14 +980,6 @@
 
 .method public setMaxAcceleration(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "maxAcceleration"
-        }
-    .end annotation
 
     .line 1
     int-to-float p1, p1
@@ -1042,14 +1015,6 @@
 
 .method public setMaxVelocity(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "maxVelocity"
-        }
-    .end annotation
 
     .line 1
     int-to-float p1, p1
@@ -1085,14 +1050,6 @@
 
 .method public setMoveWhenScrollAtTop(Z)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "moveWhenScrollAtTop"
-        }
-    .end annotation
 
     .line 1
     iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMoveWhenScrollAtTop:Z
@@ -1126,14 +1083,6 @@
 
 .method public setNestedScrollFlags(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "flags"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mFlags:I
@@ -1167,14 +1116,6 @@
 
 .method public setOnTouchUp(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mode"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mOnTouchUp:I
@@ -1208,14 +1149,6 @@
 
 .method public setRotateCenter(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "rotationCenterId"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mRotationCenterId:I
@@ -1249,14 +1182,6 @@
 
 .method public setSpringBoundary(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "springBoundary"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringBoundary:I
@@ -1290,14 +1215,6 @@
 
 .method public setSpringDamping(F)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "springDamping"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringDamping:F
@@ -1331,14 +1248,6 @@
 
 .method public setSpringMass(F)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "springMass"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringMass:F
@@ -1372,14 +1281,6 @@
 
 .method public setSpringStiffness(F)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "springStiffness"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringStiffness:F
@@ -1413,14 +1314,6 @@
 
 .method public setSpringStopThreshold(F)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "springStopThreshold"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mSpringStopThreshold:F
@@ -1454,14 +1347,6 @@
 
 .method public setTouchAnchorId(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "side"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchAnchorId:I
@@ -1495,14 +1380,6 @@
 
 .method public setTouchAnchorSide(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "side"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchAnchorSide:I
@@ -1536,14 +1413,6 @@
 
 .method public setTouchRegionId(I)Landroidx/constraintlayout/motion/widget/OnSwipe;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "side"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchRegionId:I

@@ -8,6 +8,4 @@
 
 # virtual methods
 .method public abstract getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
-    .annotation build Lsq/k;
-    .end annotation
 .end method

@@ -3,52 +3,44 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroidx/camera/core/impl/utils/futures/AsyncFunction;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/FocusMeteringControl;
+.field public final synthetic a:Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;
 
-.field public final synthetic b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
-
-.field public final synthetic c:Landroidx/camera/core/FocusMeteringAction;
-
-.field public final synthetic d:J
+.field public final synthetic b:I
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/FocusMeteringControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/camera/core/FocusMeteringAction;J)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;I)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/s0;->a:Landroidx/camera/camera2/internal/FocusMeteringControl;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/s0;->a:Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;
 
-    iput-object p2, p0, Landroidx/camera/camera2/internal/s0;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
-
-    iput-object p3, p0, Landroidx/camera/camera2/internal/s0;->c:Landroidx/camera/core/FocusMeteringAction;
-
-    iput-wide p4, p0, Landroidx/camera/camera2/internal/s0;->d:J
+    iput p2, p0, Landroidx/camera/camera2/internal/s0;->b:I
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 5
+.method public final apply(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
+    .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/s0;->a:Landroidx/camera/camera2/internal/FocusMeteringControl;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/s0;->a:Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;
 
-    iget-object v1, p0, Landroidx/camera/camera2/internal/s0;->b:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+    iget v1, p0, Landroidx/camera/camera2/internal/s0;->b:I
 
-    iget-object v2, p0, Landroidx/camera/camera2/internal/s0;->c:Landroidx/camera/core/FocusMeteringAction;
+    check-cast p1, Landroid/hardware/camera2/TotalCaptureResult;
 
-    iget-wide v3, p0, Landroidx/camera/camera2/internal/s0;->d:J
+    invoke-static {v0, v1, p1}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;->a(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;ILandroid/hardware/camera2/TotalCaptureResult;)Lcom/google/common/util/concurrent/t;
 
-    invoke-static {v0, v1, v2, v3, v4}, Landroidx/camera/camera2/internal/FocusMeteringControl;->j(Landroidx/camera/camera2/internal/FocusMeteringControl;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;Landroidx/camera/core/FocusMeteringAction;J)V
+    move-result-object p1
 
-    return-void
+    return-object p1
 .end method

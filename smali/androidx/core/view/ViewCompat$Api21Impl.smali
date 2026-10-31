@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static callCompatInsetAnimationCallback(Landroid/view/WindowInsets;Landroid/view/View;)V
@@ -250,6 +251,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static dispatchNestedFling(Landroid/view/View;FFZ)Z
@@ -490,6 +494,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static dispatchNestedPreFling(Landroid/view/View;FF)Z
@@ -613,6 +623,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static dispatchNestedPreScroll(Landroid/view/View;II[I[I)Z

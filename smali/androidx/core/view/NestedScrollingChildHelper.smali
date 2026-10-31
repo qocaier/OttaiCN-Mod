@@ -878,6 +878,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private setNestedScrollingParentForType(ILandroid/view/ViewParent;)V
@@ -1092,6 +1093,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public dispatchNestedPreFling(FF)Z
@@ -1456,6 +1460,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onDetachedFromWindow()V
@@ -1486,6 +1491,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onStopNestedScroll(Landroid/view/View;)V

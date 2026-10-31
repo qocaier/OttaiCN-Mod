@@ -3,29 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMenu.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Menu.kt\nandroidx/core/view/MenuKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,95:1\n1#2:96\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nMenu.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Menu.kt\nandroidx/core/view/MenuKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,95:1\n1#2:96\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final contains(Landroid/view/Menu;Landroid/view/MenuItem;)Z
     .locals 4
-    .param p0    # Landroid/view/Menu;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/view/MenuItem;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-interface {p0}, Landroid/view/Menu;->size()I
@@ -55,7 +35,7 @@
     move-result-object v3
 
     .line 13
-    invoke-static {v3, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -109,25 +89,14 @@
     .line 48
 .end method
 
-.method public static final forEach(Landroid/view/Menu;Ljm/l;)V
+.method public static final forEach(Landroid/view/Menu;Lq8/l;)V
     .locals 3
-    .param p0    # Landroid/view/Menu;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/view/Menu;",
-            "Ljm/l<",
-            "-",
-            "Landroid/view/MenuItem;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -156,7 +125,7 @@
     move-result-object v2
 
     .line 12
-    invoke-interface {p1, v2}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -202,27 +171,14 @@
     .line 48
 .end method
 
-.method public static final forEachIndexed(Landroid/view/Menu;Ljm/p;)V
+.method public static final forEachIndexed(Landroid/view/Menu;Lq8/p;)V
     .locals 4
-    .param p0    # Landroid/view/Menu;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/view/Menu;",
-            "Ljm/p<",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Landroid/view/MenuItem;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/p;",
+            ")V"
         }
     .end annotation
 
@@ -259,7 +215,7 @@
     move-result-object v3
 
     .line 16
-    invoke-interface {p1, v2, v3}, Ljm/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lq8/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -303,12 +259,6 @@
 
 .method public static final get(Landroid/view/Menu;I)Landroid/view/MenuItem;
     .locals 0
-    .param p0    # Landroid/view/Menu;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-interface {p0, p1}, Landroid/view/Menu;->getItem(I)Landroid/view/MenuItem;
@@ -365,24 +315,15 @@
     .line 48
 .end method
 
-.method public static final getChildren(Landroid/view/Menu;)Lvm/m;
+.method public static final getChildren(Landroid/view/Menu;)Lkotlin/sequences/g;
     .locals 1
-    .param p0    # Landroid/view/Menu;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/view/Menu;",
             ")",
-            "Lvm/m<",
-            "Landroid/view/MenuItem;",
-            ">;"
+            "Lkotlin/sequences/g;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -419,10 +360,6 @@
 
 .method public static final getSize(Landroid/view/Menu;)I
     .locals 0
-    .param p0    # Landroid/view/Menu;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-interface {p0}, Landroid/view/Menu;->size()I
@@ -458,10 +395,6 @@
 
 .method public static final isEmpty(Landroid/view/Menu;)Z
     .locals 0
-    .param p0    # Landroid/view/Menu;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-interface {p0}, Landroid/view/Menu;->size()I
@@ -506,10 +439,6 @@
 
 .method public static final isNotEmpty(Landroid/view/Menu;)Z
     .locals 0
-    .param p0    # Landroid/view/Menu;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-interface {p0}, Landroid/view/Menu;->size()I
@@ -554,10 +483,6 @@
 
 .method public static final iterator(Landroid/view/Menu;)Ljava/util/Iterator;
     .locals 1
-    .param p0    # Landroid/view/Menu;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -567,9 +492,6 @@
             "Landroid/view/MenuItem;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -606,14 +528,6 @@
 
 .method public static final minusAssign(Landroid/view/Menu;Landroid/view/MenuItem;)V
     .locals 0
-    .param p0    # Landroid/view/Menu;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/view/MenuItem;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
@@ -674,10 +588,6 @@
 
 .method public static final removeItemAt(Landroid/view/Menu;I)V
     .locals 0
-    .param p0    # Landroid/view/Menu;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-interface {p0, p1}, Landroid/view/Menu;->getItem(I)Landroid/view/MenuItem;

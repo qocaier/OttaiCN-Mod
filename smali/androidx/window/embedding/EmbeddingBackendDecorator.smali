@@ -13,10 +13,4 @@
 
 # virtual methods
 .method public abstract decorate(Landroidx/window/embedding/EmbeddingBackend;)Landroidx/window/embedding/EmbeddingBackend;
-    .param p1    # Landroidx/window/embedding/EmbeddingBackend;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 .end method

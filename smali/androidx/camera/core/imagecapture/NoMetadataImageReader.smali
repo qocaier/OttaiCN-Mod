@@ -185,6 +185,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private createImageProxyWithEmptyMetadata(Landroidx/camera/core/ImageProxy;)Landroidx/camera/core/ImageProxy;
@@ -518,6 +521,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
@@ -611,6 +619,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public acquireNextImage()Landroidx/camera/core/ImageProxy;
@@ -649,6 +658,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearOnImageAvailableListener()V
@@ -679,6 +689,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public close()V
@@ -709,6 +720,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeight()I
@@ -741,6 +753,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImageFormat()I
@@ -773,6 +786,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxImages()I
@@ -805,6 +819,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurface()Landroid/view/Surface;
@@ -839,6 +854,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWidth()I
@@ -871,6 +887,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setOnImageAvailableListener(Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;Ljava/util/concurrent/Executor;)V
@@ -889,11 +906,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lt/a;
+    new-instance v1, Landroidx/camera/core/imagecapture/e;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0, p1}, Lt/a;-><init>(Landroidx/camera/core/imagecapture/NoMetadataImageReader;Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;)V
+    invoke-direct {v1, p0, p1}, Landroidx/camera/core/imagecapture/e;-><init>(Landroidx/camera/core/imagecapture/NoMetadataImageReader;Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;)V
 
     .line 6
     .line 7

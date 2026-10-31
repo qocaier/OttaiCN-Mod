@@ -3,34 +3,32 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroid/content/DialogInterface$OnCancelListener;
-
-
-# instance fields
-.field public final synthetic a:Lcom/qiyukf/qu$a;
+.implements Ljava/util/Comparator;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/qiyukf/qu$a;)V
+.method public synthetic constructor <init>()V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Lcom/qiyukf/ud0;->a:Lcom/qiyukf/qu$a;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onCancel(Landroid/content/DialogInterface;)V
-    .locals 1
+.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 0
 
     .line 1
-    iget-object v0, p0, Lcom/qiyukf/ud0;->a:Lcom/qiyukf/qu$a;
+    check-cast p1, Lcom/qiyukf/tv;
 
-    invoke-static {v0, p1}, Lcom/qiyukf/qu$a;->a(Lcom/qiyukf/qu$a;Landroid/content/DialogInterface;)V
+    check-cast p2, Lcom/qiyukf/tv;
 
-    return-void
+    invoke-static {p1, p2}, Lcom/qiyukf/c50;->i(Lcom/qiyukf/tv;Lcom/qiyukf/tv;)I
+
+    move-result p1
+
+    return p1
 .end method

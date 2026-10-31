@@ -14,7 +14,7 @@
 
 
 # static fields
-.field private static final synthetic $ENTRIES:Lyl/a;
+.field private static final synthetic $ENTRIES:Lkotlin/enums/a;
 
 .field private static final synthetic $VALUES:[Lcom/builttoroam/devicecalendar/models/EventStatus;
 
@@ -118,7 +118,7 @@
 
     .line 36
     .line 37
-    invoke-static {v0}, Lkotlin/enums/a;->c([Ljava/lang/Enum;)Lyl/a;
+    invoke-static {v0}, Lkotlin/enums/b;->a([Ljava/lang/Enum;)Lkotlin/enums/a;
 
     .line 38
     .line 39
@@ -126,7 +126,7 @@
     move-result-object v0
 
     .line 41
-    sput-object v0, Lcom/builttoroam/devicecalendar/models/EventStatus;->$ENTRIES:Lyl/a;
+    sput-object v0, Lcom/builttoroam/devicecalendar/models/EventStatus;->$ENTRIES:Lkotlin/enums/a;
 
     .line 42
     .line 43
@@ -188,15 +188,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -270,53 +261,20 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public static getEntries()Lyl/a;
+.method public static getEntries()Lkotlin/enums/a;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lyl/a<",
-            "Lcom/builttoroam/devicecalendar/models/EventStatus;",
-            ">;"
+            "Lkotlin/enums/a;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
+    sget-object v0, Lcom/builttoroam/devicecalendar/models/EventStatus;->$ENTRIES:Lkotlin/enums/a;
 
-    .line 1
-    sget-object v0, Lcom/builttoroam/devicecalendar/models/EventStatus;->$ENTRIES:Lyl/a;
-
-    .line 2
-    .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Lcom/builttoroam/devicecalendar/models/EventStatus;

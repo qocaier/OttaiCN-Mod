@@ -1,9 +1,9 @@
-.class public Lio/reactivex/internal/functions/Functions$l;
+.class public final Lio/reactivex/internal/functions/Functions$l;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lik/g;
+.implements Ld8/j;
 
 
 # annotations
@@ -12,26 +12,13 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
+    accessFlags = 0x19
     name = "l"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Lik/g<",
-        "Luq/e;",
-        ">;"
-    }
-.end annotation
-
-
-# instance fields
-.field public final a:I
-
 
 # direct methods
-.method public constructor <init>(I)V
+.method public constructor <init>()V
     .locals 0
 
     .line 1
@@ -40,11 +27,9 @@
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Lio/reactivex/internal/functions/Functions$l;->a:I
-
+    return-void
     .line 5
     .line 6
-    return-void
     .line 7
     .line 8
     .line 9
@@ -63,86 +48,40 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
-.method public a(Luq/e;)V
-    .locals 2
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
-
-    .line 1
-    iget v0, p0, Lio/reactivex/internal/functions/Functions$l;->a:I
-
-    .line 2
-    .line 3
-    int-to-long v0, v0
-
-    .line 4
-    invoke-interface {p1, v0, v1}, Luq/e;->request(J)V
-
-    .line 5
-    .line 6
-    .line 7
-    return-void
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-.end method
-
-.method public bridge synthetic accept(Ljava/lang/Object;)V
+.method public test(Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
 
-    .line 1
-    check-cast p1, Luq/e;
+    const/4 p1, 0x1
 
-    .line 2
-    .line 3
-    invoke-virtual {p0, p1}, Lio/reactivex/internal/functions/Functions$l;->a(Luq/e;)V
-
-    .line 4
-    .line 5
-    .line 6
-    return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
+    return p1
 .end method

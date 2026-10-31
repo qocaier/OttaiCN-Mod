@@ -35,6 +35,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -76,6 +78,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public isManifestConfig(Landroid/content/Context;)Z
@@ -218,6 +222,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isPushSDKFinder()Z
@@ -225,45 +231,45 @@
 
     .line 1
     :try_start_0
-    const-string v0, "com.vivo.push.PushClient"
+    sget-object v0, Lcom/vivo/push/PushClient;->DEFAULT_REQUEST_ID:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    const-string v0, "vivo push sdk find"
 
     .line 4
     .line 5
-    .line 6
-    const-string v0, "vivo push sdk find"
-
-    .line 7
-    .line 8
     invoke-static {v0}, Lcom/qiyukf/ar;->q(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 9
-    .line 10
-    .line 11
+    .line 6
+    .line 7
+    .line 8
     const/4 v0, 0x1
 
-    .line 12
+    .line 9
     return v0
 
-    .line 13
+    .line 10
     :catchall_0
     const-string v0, "vivo push sdk not find"
 
-    .line 14
-    .line 15
+    .line 11
+    .line 12
     invoke-static {v0}, Lcom/qiyukf/ar;->q(Ljava/lang/String;)V
 
-    .line 16
-    .line 17
-    .line 18
+    .line 13
+    .line 14
+    .line 15
     const/4 v0, 0x0
 
-    .line 19
+    .line 16
     return v0
+    .line 17
+    .line 18
+    .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

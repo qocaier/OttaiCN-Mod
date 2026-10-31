@@ -61,6 +61,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -91,6 +93,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAttachObject()Ljava/lang/Object;
@@ -119,6 +123,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getContent()Ljava/lang/String;
@@ -147,6 +153,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCustomInfo()Ljava/lang/String;
@@ -175,6 +183,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFromAccount()Ljava/lang/String;
@@ -203,6 +213,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMessageId()J
@@ -231,6 +243,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStatus()Lcom/qiyukf/nimlib/sdk/msg/constant/SystemMessageStatus;
@@ -259,6 +273,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTargetId()Ljava/lang/String;
@@ -287,6 +303,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTime()J
@@ -315,6 +333,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getType()Lcom/qiyukf/nimlib/sdk/msg/constant/SystemMessageType;
@@ -343,6 +363,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isUnread()Z
@@ -371,6 +393,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAttach(Ljava/lang/String;)V
@@ -511,6 +535,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setAttachObject(Ljava/lang/Object;)V
@@ -544,6 +570,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setContent(Ljava/lang/String;)V
@@ -577,6 +605,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromAccount(Ljava/lang/String;)V
@@ -610,6 +640,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMessageId(J)V
@@ -643,6 +675,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStatus(Lcom/qiyukf/nimlib/sdk/msg/constant/SystemMessageStatus;)V
@@ -676,6 +710,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTargetId(Ljava/lang/String;)V
@@ -709,6 +745,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTime(J)V
@@ -742,6 +780,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setType(I)V
@@ -779,6 +819,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setUnread(Z)V
@@ -812,4 +854,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

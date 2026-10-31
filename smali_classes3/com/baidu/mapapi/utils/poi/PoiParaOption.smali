@@ -42,7 +42,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -77,7 +76,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getCenter()Lcom/baidu/mapapi/model/LatLng;
@@ -108,7 +106,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getKey()Ljava/lang/String;
@@ -139,7 +136,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRadius()I
@@ -170,7 +166,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getUid()Ljava/lang/String;
@@ -201,7 +196,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public key(Ljava/lang/String;)Lcom/baidu/mapapi/utils/poi/PoiParaOption;
@@ -234,7 +228,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public radius(I)Lcom/baidu/mapapi/utils/poi/PoiParaOption;
@@ -267,7 +260,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public uid(Ljava/lang/String;)Lcom/baidu/mapapi/utils/poi/PoiParaOption;
@@ -300,5 +292,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

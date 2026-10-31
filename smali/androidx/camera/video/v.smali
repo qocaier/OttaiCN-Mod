@@ -7,17 +7,17 @@
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/video/VideoEncoderSession;
+.field public final synthetic a:I
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/video/VideoEncoderSession;)V
+.method public synthetic constructor <init>(I)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/video/v;->a:Landroidx/camera/video/VideoEncoderSession;
+    iput p1, p0, Landroidx/camera/video/v;->a:I
 
     return-void
 .end method
@@ -28,11 +28,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/v;->a:Landroidx/camera/video/VideoEncoderSession;
+    iget v0, p0, Landroidx/camera/video/v;->a:I
 
-    check-cast p1, Landroidx/camera/core/SurfaceRequest$Result;
+    check-cast p1, Landroidx/camera/video/VideoSpec$Builder;
 
-    invoke-static {v0, p1}, Landroidx/camera/video/VideoEncoderSession;->b(Landroidx/camera/video/VideoEncoderSession;Landroidx/camera/core/SurfaceRequest$Result;)V
+    invoke-static {v0, p1}, Landroidx/camera/video/Recorder$Builder;->c(ILandroidx/camera/video/VideoSpec$Builder;)V
 
     return-void
 .end method

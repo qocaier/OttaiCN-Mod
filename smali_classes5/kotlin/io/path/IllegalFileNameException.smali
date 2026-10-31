@@ -6,14 +6,10 @@
 # direct methods
 .method public constructor <init>(Ljava/nio/file/Path;)V
     .locals 1
-    .param p1    # Ljava/nio/file/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "file"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
@@ -25,22 +21,10 @@
 
 .method public constructor <init>(Ljava/nio/file/Path;Ljava/nio/file/Path;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/nio/file/Path;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/nio/file/Path;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     const-string v0, "file"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;

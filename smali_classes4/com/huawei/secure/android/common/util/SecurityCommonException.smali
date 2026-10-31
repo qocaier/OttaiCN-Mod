@@ -3,10 +3,6 @@
 .source "SourceFile"
 
 
-# static fields
-.field private static final c:J = 0x1L
-
-
 # instance fields
 .field private a:Ljava/lang/String;
 
@@ -96,6 +92,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getRetCd()Ljava/lang/String;
@@ -124,4 +122,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

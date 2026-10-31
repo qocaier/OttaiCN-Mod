@@ -48,6 +48,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>(Ljava/util/TreeMap;)V
@@ -131,6 +132,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static from(Landroidx/camera/core/impl/Config;)Landroidx/camera/core/impl/MutableOptionsBundle;
@@ -291,6 +293,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 

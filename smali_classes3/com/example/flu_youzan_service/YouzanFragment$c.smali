@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/example/flu_youzan_service/YouzanFragment;->r(Landroid/view/View;)V
+    value = Lcom/example/flu_youzan_service/YouzanFragment;->p(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -87,11 +87,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -109,7 +104,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Lcom/example/flu_youzan_service/YouzanFragment;->p()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/example/flu_youzan_service/YouzanFragment;->n()Ljava/lang/String;
 
     .line 7
     .line 8
@@ -157,7 +152,7 @@
 
     .line 31
     .line 32
-    invoke-static {p1}, Lcom/example/flu_youzan_service/YouzanFragment;->n(Lcom/example/flu_youzan_service/YouzanFragment;)Landroid/widget/TextView;
+    invoke-static {p1}, Lcom/example/flu_youzan_service/YouzanFragment;->l(Lcom/example/flu_youzan_service/YouzanFragment;)Landroid/widget/TextView;
 
     .line 33
     .line 34
@@ -195,9 +190,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

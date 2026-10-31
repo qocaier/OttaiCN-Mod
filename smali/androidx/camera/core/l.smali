@@ -3,40 +3,36 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroidx/camera/core/resolutionselector/ResolutionFilter;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/core/ImageSaver;
-
-.field public final synthetic b:Landroid/net/Uri;
+.field public final synthetic a:Landroid/util/Size;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/core/ImageSaver;Landroid/net/Uri;)V
+.method public synthetic constructor <init>(Landroid/util/Size;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/core/l;->a:Landroidx/camera/core/ImageSaver;
-
-    iput-object p2, p0, Landroidx/camera/core/l;->b:Landroid/net/Uri;
+    iput-object p1, p0, Landroidx/camera/core/l;->a:Landroid/util/Size;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 2
+.method public final filter(Ljava/util/List;I)Ljava/util/List;
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/l;->a:Landroidx/camera/core/ImageSaver;
+    iget-object v0, p0, Landroidx/camera/core/l;->a:Landroid/util/Size;
 
-    iget-object v1, p0, Landroidx/camera/core/l;->b:Landroid/net/Uri;
+    invoke-static {v0, p1, p2}, Landroidx/camera/core/ImageAnalysis;->d(Landroid/util/Size;Ljava/util/List;I)Ljava/util/List;
 
-    invoke-static {v0, v1}, Landroidx/camera/core/ImageSaver;->c(Landroidx/camera/core/ImageSaver;Landroid/net/Uri;)V
+    move-result-object p1
 
-    return-void
+    return-object p1
 .end method

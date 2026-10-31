@@ -30,16 +30,14 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
 # virtual methods
 .method public onStartJob(Landroid/app/job/JobParameters;)Z
     .locals 1
-    .param p1    # Landroid/app/job/JobParameters;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     const-string p1, "MyJobService"
@@ -79,14 +77,12 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onStopJob(Landroid/app/job/JobParameters;)Z
     .locals 1
-    .param p1    # Landroid/app/job/JobParameters;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     const-string p1, "MyJobService"
@@ -126,4 +122,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

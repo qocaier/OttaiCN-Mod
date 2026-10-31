@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -37,8 +37,6 @@
 # virtual methods
 .method public final getATTENDEE_PROJECTION()[Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Lcom/builttoroam/devicecalendar/common/Constants;->access$getATTENDEE_PROJECTION$cp()[Ljava/lang/String;
@@ -67,13 +65,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getCALENDAR_PROJECTION()[Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Lcom/builttoroam/devicecalendar/common/Constants;->access$getCALENDAR_PROJECTION$cp()[Ljava/lang/String;
@@ -102,13 +97,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getCALENDAR_PROJECTION_OLDER_API()[Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Lcom/builttoroam/devicecalendar/common/Constants;->access$getCALENDAR_PROJECTION_OLDER_API$cp()[Ljava/lang/String;
@@ -137,13 +129,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEVENT_INSTANCE_DELETION()[Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Lcom/builttoroam/devicecalendar/common/Constants;->access$getEVENT_INSTANCE_DELETION$cp()[Ljava/lang/String;
@@ -172,13 +161,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getEVENT_PROJECTION()[Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Lcom/builttoroam/devicecalendar/common/Constants;->access$getEVENT_PROJECTION$cp()[Ljava/lang/String;
@@ -207,13 +193,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getREMINDER_PROJECTION()[Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Lcom/builttoroam/devicecalendar/common/Constants;->access$getREMINDER_PROJECTION$cp()[Ljava/lang/String;
@@ -242,5 +225,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

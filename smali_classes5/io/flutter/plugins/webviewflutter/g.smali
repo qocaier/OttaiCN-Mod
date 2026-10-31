@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # direct methods
@@ -24,7 +24,7 @@
     .line 1
     check-cast p1, Lkotlin/Result;
 
-    invoke-static {p1}, Lio/flutter/plugins/webviewflutter/AndroidWebkitLibraryPigeonProxyApiBaseCodec;->l(Lkotlin/Result;)Ljl/e2;
+    invoke-static {p1}, Lio/flutter/plugins/webviewflutter/AndroidWebkitLibraryPigeonProxyApiBaseCodec;->o(Lkotlin/Result;)Lkotlin/j;
 
     move-result-object p1
 

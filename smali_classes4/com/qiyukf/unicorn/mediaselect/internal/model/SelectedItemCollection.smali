@@ -71,6 +71,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method private currentMaxSelectable()I
@@ -193,6 +195,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method private refineCollectionType()V
@@ -358,6 +361,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -529,6 +533,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public asList()Ljava/util/List;
@@ -569,6 +575,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public asListOfString()Ljava/util/List;
@@ -705,6 +713,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public asListOfUri()Ljava/util/List;
@@ -835,6 +844,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public checkedNumOf(Lcom/qiyukf/unicorn/mediaselect/internal/entity/Item;)I
@@ -887,6 +897,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public count()I
@@ -919,6 +931,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCollectionType()I
@@ -947,6 +961,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getDataWithBundle()Landroid/os/Bundle;
@@ -1057,6 +1073,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public isAcceptable(Lcom/qiyukf/unicorn/mediaselect/internal/entity/Item;)Lcom/qiyukf/unicorn/mediaselect/internal/entity/IncapableCause;
@@ -1454,27 +1471,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public isEmpty()Z
@@ -1522,6 +1518,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isSelected(Lcom/qiyukf/unicorn/mediaselect/internal/entity/Item;)Z
@@ -1559,6 +1557,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public maxSelectableReached()Z
@@ -1604,6 +1604,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -1727,6 +1729,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -1774,6 +1778,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public overwrite(Ljava/util/ArrayList;I)V
@@ -1866,6 +1872,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public remove(Lcom/qiyukf/unicorn/mediaselect/internal/entity/Item;)Z
@@ -1988,6 +2004,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setDefaultSelection(Ljava/util/List;)V
@@ -2031,6 +2049,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public typeConflict(Lcom/qiyukf/unicorn/mediaselect/internal/entity/Item;)Z
@@ -2166,4 +2186,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

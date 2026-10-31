@@ -118,6 +118,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Landroid/view/View;)V
@@ -502,6 +503,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private computeTargetVelocity(IFFF)F
@@ -794,6 +800,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static constrain(FFF)F
@@ -1243,6 +1255,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private requestStop()V
@@ -1284,6 +1302,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private startAnimating()V
@@ -1417,6 +1436,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -1539,6 +1560,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isEnabled()Z
@@ -1567,6 +1590,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isExclusive()Z
@@ -1595,6 +1619,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
@@ -1947,6 +1972,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public abstract scrollTargetBy(II)V
@@ -2624,4 +2652,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

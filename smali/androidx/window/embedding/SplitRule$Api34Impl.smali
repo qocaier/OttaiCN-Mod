@@ -20,9 +20,6 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/window/embedding/SplitRule$Api34Impl;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -64,20 +61,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final getDensity(Landroid/view/WindowMetrics;Landroid/content/Context;)F
     .locals 1
-    .param p1    # Landroid/view/WindowMetrics;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
@@ -86,7 +76,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -95,7 +85,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10

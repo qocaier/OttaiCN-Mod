@@ -15,13 +15,7 @@
 
 
 # instance fields
-.field public A:Z
-
-.field public B:Z
-
-.field public final synthetic C:Lcom/github/barteksc/pdfviewer/PDFView;
-
-.field public final a:Lv8/c;
+.field public final a:Lm2/b;
 
 .field public b:[I
 
@@ -29,67 +23,51 @@
 
 .field public d:Z
 
-.field public e:Ls8/b;
+.field public e:Lj2/c;
 
-.field public f:Ls8/b;
+.field public f:Lj2/f;
 
-.field public g:Ls8/d;
+.field public g:Lj2/i;
 
-.field public h:Ls8/c;
+.field public h:Lj2/g;
 
-.field public i:Ls8/f;
+.field public i:Li2/b;
 
-.field public j:Ls8/h;
+.field public j:I
 
-.field public k:Ls8/i;
+.field public k:Z
 
-.field public l:Ls8/j;
+.field public l:Z
 
-.field public m:Ls8/e;
+.field public m:Ljava/lang/String;
 
-.field public n:Ls8/g;
+.field public n:Ll2/a;
 
-.field public o:Lr8/b;
+.field public o:Z
 
 .field public p:I
 
 .field public q:Z
 
-.field public r:Z
+.field public r:Lcom/github/barteksc/pdfviewer/util/FitPolicy;
 
-.field public s:Ljava/lang/String;
+.field public s:Z
 
-.field public t:Lu8/a;
+.field public t:Z
 
 .field public u:Z
 
-.field public v:I
+.field public v:Z
 
-.field public w:Z
-
-.field public x:Lcom/github/barteksc/pdfviewer/util/FitPolicy;
-
-.field public y:Z
-
-.field public z:Z
+.field public final synthetic w:Lcom/github/barteksc/pdfviewer/PDFView;
 
 
 # direct methods
-.method public constructor <init>(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;)V
+.method public constructor <init>(Lcom/github/barteksc/pdfviewer/PDFView;Lm2/b;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x0
-        }
-        names = {
-            null,
-            null
-        }
-    .end annotation
 
     .line 2
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -107,139 +85,73 @@
     iput-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->d:Z
 
     .line 6
-    new-instance v2, Lr8/a;
+    new-instance v2, Li2/a;
 
-    invoke-direct {v2, p1}, Lr8/a;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;)V
+    invoke-direct {v2, p1}, Li2/a;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;)V
 
-    iput-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->o:Lr8/b;
+    iput-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->i:Li2/b;
 
     const/4 p1, 0x0
 
     .line 7
-    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->p:I
+    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->j:I
 
     .line 8
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->q:Z
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->k:Z
 
     .line 9
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->r:Z
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->l:Z
 
     .line 10
-    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->s:Ljava/lang/String;
+    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->m:Ljava/lang/String;
 
     .line 11
-    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->t:Lu8/a;
+    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->n:Ll2/a;
 
     .line 12
-    iput-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->u:Z
+    iput-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->o:Z
 
     .line 13
-    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->v:I
+    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->p:I
 
     .line 14
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Z
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->q:Z
 
     .line 15
     sget-object v0, Lcom/github/barteksc/pdfviewer/util/FitPolicy;->WIDTH:Lcom/github/barteksc/pdfviewer/util/FitPolicy;
 
-    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->x:Lcom/github/barteksc/pdfviewer/util/FitPolicy;
+    iput-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->r:Lcom/github/barteksc/pdfviewer/util/FitPolicy;
 
     .line 16
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->y:Z
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->s:Z
 
     .line 17
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->z:Z
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->t:Z
 
     .line 18
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->A:Z
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->u:Z
 
     .line 19
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->B:Z
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->v:Z
 
     .line 20
-    iput-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->a:Lv8/c;
+    iput-object p2, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->a:Lm2/b;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;Lcom/github/barteksc/pdfviewer/PDFView$a;)V
+.method public synthetic constructor <init>(Lcom/github/barteksc/pdfviewer/PDFView;Lm2/b;Lcom/github/barteksc/pdfviewer/PDFView$a;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/github/barteksc/pdfviewer/PDFView$b;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;)V
+    invoke-direct {p0, p1, p2}, Lcom/github/barteksc/pdfviewer/PDFView$b;-><init>(Lcom/github/barteksc/pdfviewer/PDFView;Lm2/b;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public A(Lu8/a;)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->t:Lu8/a;
-
-    .line 2
-    .line 3
-    return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public B(I)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 0
-
-    .line 1
-    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->v:I
-
-    .line 2
-    .line 3
-    return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public C(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public a(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
@@ -269,47 +181,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
-.end method
-
-.method public a(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 0
-
-    .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Z
-
-    .line 2
-    .line 3
-    return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
 .method public b(I)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->p:I
+    iput p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->j:I
 
     .line 2
     .line 3
@@ -335,31 +213,24 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public c()Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 1
+.method public c(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
+    .locals 0
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->l:Z
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/github/barteksc/pdfviewer/PDFView;->a(Lcom/github/barteksc/pdfviewer/PDFView;)Lq8/d;
-
+    return-object p0
     .line 4
     .line 5
     .line 6
-    move-result-object v0
-
     .line 7
-    invoke-virtual {v0}, Lq8/d;->d()V
-
     .line 8
     .line 9
     .line 10
-    return-object p0
     .line 11
     .line 12
     .line 13
@@ -373,13 +244,14 @@
     .line 21
     .line 22
     .line 23
+    .line 24
 .end method
 
 .method public d(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->r:Z
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->o:Z
 
     .line 2
     .line 3
@@ -405,43 +277,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public e(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 0
-
-    .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->u:Z
-
-    .line 2
-    .line 3
-    return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public f(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
@@ -471,10 +309,9 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public g(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public f(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
@@ -504,14 +341,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public h(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public g(Li2/b;)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->y:Z
+    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->i:Li2/b;
 
     .line 2
     .line 3
@@ -537,51 +373,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public i(Lr8/b;)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->o:Lr8/b;
-
-    .line 2
-    .line 3
-    return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public j()V
+.method public h()V
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/github/barteksc/pdfviewer/PDFView;->e(Lcom/github/barteksc/pdfviewer/PDFView;)Z
+    invoke-static {v0}, Lcom/github/barteksc/pdfviewer/PDFView;->d(Lcom/github/barteksc/pdfviewer/PDFView;)Z
 
     .line 4
     .line 5
@@ -593,11 +395,11 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
     .line 10
     .line 11
-    invoke-static {v0, p0}, Lcom/github/barteksc/pdfviewer/PDFView;->f(Lcom/github/barteksc/pdfviewer/PDFView;Lcom/github/barteksc/pdfviewer/PDFView$b;)Lcom/github/barteksc/pdfviewer/PDFView$b;
+    invoke-static {v0, p0}, Lcom/github/barteksc/pdfviewer/PDFView;->e(Lcom/github/barteksc/pdfviewer/PDFView;Lcom/github/barteksc/pdfviewer/PDFView$b;)Lcom/github/barteksc/pdfviewer/PDFView$b;
 
     .line 12
     .line 13
@@ -606,435 +408,425 @@
 
     .line 15
     :cond_0
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
     .line 16
     .line 17
-    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/PDFView;->h0()V
+    invoke-virtual {v0}, Lcom/github/barteksc/pdfviewer/PDFView;->U()V
 
     .line 18
     .line 19
     .line 20
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
     .line 21
     .line 22
-    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 23
     .line 24
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->g:Ls8/d;
+    const/4 v1, 0x0
 
     .line 25
-    .line 26
-    invoke-virtual {v0, v1}, Ls8/a;->p(Ls8/d;)V
+    invoke-virtual {v0, v1}, Lj2/a;->p(Lj2/d;)V
 
+    .line 26
     .line 27
     .line 28
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
+
     .line 29
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
-
     .line 30
+    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
+
     .line 31
-    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
-
     .line 32
+    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->e:Lj2/c;
+
     .line 33
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->h:Ls8/c;
-
     .line 34
-    .line 35
-    invoke-virtual {v0, v1}, Ls8/a;->o(Ls8/c;)V
+    invoke-virtual {v0, v2}, Lj2/a;->o(Lj2/c;)V
 
+    .line 35
     .line 36
     .line 37
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
+
     .line 38
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
-
     .line 39
+    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
+
     .line 40
-    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
-
     .line 41
-    .line 42
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->e:Ls8/b;
+    invoke-virtual {v0, v1}, Lj2/a;->m(Lj2/b;)V
 
+    .line 42
     .line 43
     .line 44
-    invoke-virtual {v0, v1}, Ls8/a;->m(Ls8/b;)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
     .line 45
     .line 46
+    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
+
     .line 47
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
-
     .line 48
-    .line 49
-    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    invoke-virtual {v0, v1}, Lj2/a;->n(Lj2/b;)V
 
+    .line 49
     .line 50
     .line 51
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->f:Ls8/b;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
     .line 52
     .line 53
-    invoke-virtual {v0, v1}, Ls8/a;->n(Ls8/b;)V
+    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 54
     .line 55
+    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->f:Lj2/f;
+
     .line 56
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
-
     .line 57
-    .line 58
-    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    invoke-virtual {v0, v2}, Lj2/a;->r(Lj2/f;)V
 
+    .line 58
     .line 59
     .line 60
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->i:Ls8/f;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
     .line 61
     .line 62
-    invoke-virtual {v0, v1}, Ls8/a;->r(Ls8/f;)V
+    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 63
     .line 64
-    .line 65
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-virtual {v0, v1}, Lj2/a;->t(Lj2/h;)V
 
+    .line 65
     .line 66
     .line 67
-    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
     .line 68
     .line 69
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->j:Ls8/h;
+    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 70
     .line 71
-    invoke-virtual {v0, v1}, Ls8/a;->t(Ls8/h;)V
+    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->g:Lj2/i;
 
     .line 72
     .line 73
-    .line 74
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-virtual {v0, v2}, Lj2/a;->u(Lj2/i;)V
 
+    .line 74
     .line 75
     .line 76
-    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
     .line 77
     .line 78
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->k:Ls8/i;
+    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 79
     .line 80
-    invoke-virtual {v0, v1}, Ls8/a;->u(Ls8/i;)V
+    invoke-virtual {v0, v1}, Lj2/a;->v(Lj2/j;)V
 
     .line 81
     .line 82
     .line 83
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
     .line 84
     .line 85
-    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 86
     .line 87
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->l:Ls8/j;
+    invoke-virtual {v0, v1}, Lj2/a;->q(Lj2/e;)V
 
     .line 88
     .line 89
-    invoke-virtual {v0, v1}, Ls8/a;->v(Ls8/j;)V
-
     .line 90
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
+
     .line 91
     .line 92
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 93
     .line 94
-    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->h:Lj2/g;
 
     .line 95
     .line 96
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->m:Ls8/e;
+    invoke-virtual {v0, v1}, Lj2/a;->s(Lj2/g;)V
 
     .line 97
     .line 98
-    invoke-virtual {v0, v1}, Ls8/a;->q(Ls8/e;)V
-
     .line 99
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
+
     .line 100
     .line 101
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Lj2/a;
 
     .line 102
     .line 103
-    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->i:Li2/b;
 
     .line 104
     .line 105
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->n:Ls8/g;
+    invoke-virtual {v0, v1}, Lj2/a;->l(Li2/b;)V
 
     .line 106
     .line 107
-    invoke-virtual {v0, v1}, Ls8/a;->s(Ls8/g;)V
-
     .line 108
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
+
     .line 109
     .line 110
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->c:Z
 
     .line 111
     .line 112
-    iget-object v0, v0, Lcom/github/barteksc/pdfviewer/PDFView;->s:Ls8/a;
+    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->setSwipeEnabled(Z)V
 
     .line 113
     .line 114
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->o:Lr8/b;
-
     .line 115
-    .line 116
-    invoke-virtual {v0, v1}, Ls8/a;->l(Lr8/b;)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 116
     .line 117
+    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->v:Z
+
     .line 118
     .line 119
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->setNightMode(Z)V
 
     .line 120
     .line 121
-    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->c:Z
-
     .line 122
-    .line 123
-    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->setSwipeEnabled(Z)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 123
     .line 124
+    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->d:Z
+
     .line 125
     .line 126
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->r(Z)V
 
     .line 127
     .line 128
-    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->B:Z
-
     .line 129
-    .line 130
-    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->setNightMode(Z)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 130
     .line 131
+    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->j:I
+
     .line 132
     .line 133
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->f(Lcom/github/barteksc/pdfviewer/PDFView;I)V
 
     .line 134
     .line 135
-    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->d:Z
-
     .line 136
-    .line 137
-    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->s(Z)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 137
     .line 138
+    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->k:Z
+
     .line 139
     .line 140
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    xor-int/lit8 v1, v1, 0x1
 
     .line 141
     .line 142
-    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->p:I
+    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->g(Lcom/github/barteksc/pdfviewer/PDFView;Z)V
 
     .line 143
     .line 144
-    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->g(Lcom/github/barteksc/pdfviewer/PDFView;I)V
-
     .line 145
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
+
     .line 146
     .line 147
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->l:Z
 
     .line 148
     .line 149
-    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->q:Z
+    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->p(Z)V
 
     .line 150
     .line 151
-    xor-int/lit8 v1, v1, 0x1
-
     .line 152
-    .line 153
-    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->h(Lcom/github/barteksc/pdfviewer/PDFView;Z)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 153
     .line 154
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->n:Ll2/a;
+
     .line 155
     .line 156
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->h(Lcom/github/barteksc/pdfviewer/PDFView;Ll2/a;)V
 
     .line 157
     .line 158
-    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->r:Z
-
     .line 159
-    .line 160
-    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->q(Z)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 160
     .line 161
+    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->o:Z
+
     .line 162
     .line 163
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->q(Z)V
 
     .line 164
     .line 165
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->t:Lu8/a;
-
     .line 166
-    .line 167
-    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->i(Lcom/github/barteksc/pdfviewer/PDFView;Lu8/a;)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 167
     .line 168
+    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->p:I
+
     .line 169
     .line 170
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->i(Lcom/github/barteksc/pdfviewer/PDFView;I)V
 
     .line 171
     .line 172
-    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->u:Z
-
     .line 173
-    .line 174
-    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->r(Z)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 174
     .line 175
+    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->q:Z
+
     .line 176
     .line 177
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->j(Lcom/github/barteksc/pdfviewer/PDFView;Z)V
 
     .line 178
     .line 179
-    iget v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->v:I
-
     .line 180
-    .line 181
-    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->j(Lcom/github/barteksc/pdfviewer/PDFView;I)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 181
     .line 182
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->r:Lcom/github/barteksc/pdfviewer/util/FitPolicy;
+
     .line 183
     .line 184
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->k(Lcom/github/barteksc/pdfviewer/PDFView;Lcom/github/barteksc/pdfviewer/util/FitPolicy;)V
 
     .line 185
     .line 186
-    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Z
-
     .line 187
-    .line 188
-    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->k(Lcom/github/barteksc/pdfviewer/PDFView;Z)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 188
     .line 189
+    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->s:Z
+
     .line 190
     .line 191
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->a(Lcom/github/barteksc/pdfviewer/PDFView;Z)V
 
     .line 192
     .line 193
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->x:Lcom/github/barteksc/pdfviewer/util/FitPolicy;
-
     .line 194
-    .line 195
-    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->l(Lcom/github/barteksc/pdfviewer/PDFView;Lcom/github/barteksc/pdfviewer/util/FitPolicy;)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 195
     .line 196
+    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->u:Z
+
     .line 197
     .line 198
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->setPageSnap(Z)V
 
     .line 199
     .line 200
-    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->y:Z
-
     .line 201
-    .line 202
-    invoke-static {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->b(Lcom/github/barteksc/pdfviewer/PDFView;Z)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 202
     .line 203
+    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->t:Z
+
     .line 204
     .line 205
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->setPageFling(Z)V
 
     .line 206
     .line 207
-    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->A:Z
-
     .line 208
-    .line 209
-    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->setPageSnap(Z)V
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->b:[I
 
+    .line 209
     .line 210
+    if-eqz v0, :cond_1
+
     .line 211
     .line 212
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
     .line 213
     .line 214
-    iget-boolean v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->z:Z
+    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->a:Lm2/b;
 
     .line 215
     .line 216
-    invoke-virtual {v0, v1}, Lcom/github/barteksc/pdfviewer/PDFView;->setPageFling(Z)V
+    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->m:Ljava/lang/String;
 
     .line 217
     .line 218
-    .line 219
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->b:[I
+    invoke-static {v1, v2, v3, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->b(Lcom/github/barteksc/pdfviewer/PDFView;Lm2/b;Ljava/lang/String;[I)V
 
+    .line 219
     .line 220
     .line 221
-    if-eqz v0, :cond_1
-
-    .line 222
-    .line 223
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
-
-    .line 224
-    .line 225
-    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->a:Lv8/c;
-
-    .line 226
-    .line 227
-    iget-object v3, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->s:Ljava/lang/String;
-
-    .line 228
-    .line 229
-    invoke-static {v1, v2, v3, v0}, Lcom/github/barteksc/pdfviewer/PDFView;->c(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;Ljava/lang/String;[I)V
-
-    .line 230
-    .line 231
-    .line 232
     return-void
 
-    .line 233
+    .line 222
     :cond_1
-    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->C:Lcom/github/barteksc/pdfviewer/PDFView;
+    iget-object v0, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->w:Lcom/github/barteksc/pdfviewer/PDFView;
 
+    .line 223
+    .line 224
+    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->a:Lm2/b;
+
+    .line 225
+    .line 226
+    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->m:Ljava/lang/String;
+
+    .line 227
+    .line 228
+    invoke-static {v0, v1, v2}, Lcom/github/barteksc/pdfviewer/PDFView;->c(Lcom/github/barteksc/pdfviewer/PDFView;Lm2/b;Ljava/lang/String;)V
+
+    .line 229
+    .line 230
+    .line 231
+    return-void
+    .line 232
+    .line 233
     .line 234
     .line 235
-    iget-object v1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->a:Lv8/c;
-
     .line 236
     .line 237
-    iget-object v2, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->s:Ljava/lang/String;
-
     .line 238
     .line 239
-    invoke-static {v0, v1, v2}, Lcom/github/barteksc/pdfviewer/PDFView;->d(Lcom/github/barteksc/pdfviewer/PDFView;Lv8/c;Ljava/lang/String;)V
-
     .line 240
     .line 241
     .line 242
-    return-void
     .line 243
     .line 244
     .line 245
@@ -1454,13 +1246,72 @@
     .line 659
     .line 660
     .line 661
+    .line 662
+    .line 663
+    .line 664
+    .line 665
+    .line 666
+    .line 667
+    .line 668
+    .line 669
+    .line 670
+    .line 671
+    .line 672
+    .line 673
+    .line 674
+    .line 675
+    .line 676
+    .line 677
+    .line 678
+    .line 679
+    .line 680
+    .line 681
+    .line 682
+    .line 683
+    .line 684
+    .line 685
+    .line 686
+    .line 687
+    .line 688
+    .line 689
+    .line 690
+    .line 691
+    .line 692
+    .line 693
+    .line 694
+    .line 695
+    .line 696
+    .line 697
+    .line 698
+    .line 699
+    .line 700
+    .line 701
+    .line 702
+    .line 703
+    .line 704
+    .line 705
+    .line 706
+    .line 707
+    .line 708
+    .line 709
+    .line 710
+    .line 711
+    .line 712
+    .line 713
+    .line 714
+    .line 715
+    .line 716
+    .line 717
+    .line 718
+    .line 719
+    .line 720
 .end method
 
-.method public k(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public i(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->B:Z
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->v:Z
 
     .line 2
     .line 3
@@ -1486,14 +1337,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public l(Ls8/b;)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public j(Lj2/c;)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->e:Ls8/b;
+    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->e:Lj2/c;
 
     .line 2
     .line 3
@@ -1519,14 +1369,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public m(Ls8/b;)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public k(Lj2/f;)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->f:Ls8/b;
+    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->f:Lj2/f;
 
     .line 2
     .line 3
@@ -1552,14 +1401,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public n(Ls8/c;)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public l(Lj2/g;)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->h:Ls8/c;
+    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->h:Lj2/g;
 
     .line 2
     .line 3
@@ -1585,14 +1433,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public o(Ls8/d;)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public m(Lj2/i;)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->g:Ls8/d;
+    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->g:Lj2/i;
 
     .line 2
     .line 3
@@ -1618,14 +1465,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public p(Ls8/e;)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public n(Lcom/github/barteksc/pdfviewer/util/FitPolicy;)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->m:Ls8/e;
+    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->r:Lcom/github/barteksc/pdfviewer/util/FitPolicy;
 
     .line 2
     .line 3
@@ -1651,14 +1497,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public q(Ls8/f;)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public o(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->i:Ls8/f;
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->t:Z
 
     .line 2
     .line 3
@@ -1684,14 +1529,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public r(Ls8/g;)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public p(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->n:Ls8/g;
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->u:Z
 
     .line 2
     .line 3
@@ -1717,14 +1561,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public s(Ls8/h;)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public q(Ljava/lang/String;)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->j:Ls8/h;
+    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->m:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -1750,14 +1593,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public t(Ls8/i;)Lcom/github/barteksc/pdfviewer/PDFView$b;
+.method public r(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->k:Ls8/i;
+    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->k:Z
 
     .line 2
     .line 3
@@ -1783,203 +1625,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
-.end method
-
-.method public u(Ls8/j;)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->l:Ls8/j;
-
-    .line 2
-    .line 3
-    return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public v(Lcom/github/barteksc/pdfviewer/util/FitPolicy;)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->x:Lcom/github/barteksc/pdfviewer/util/FitPolicy;
-
-    .line 2
-    .line 3
-    return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public w(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 0
-
-    .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->z:Z
-
-    .line 2
-    .line 3
-    return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public x(Z)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 0
-
-    .line 1
-    iput-boolean p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->A:Z
-
-    .line 2
-    .line 3
-    return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public varargs y([I)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->b:[I
-
-    .line 2
-    .line 3
-    return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public z(Ljava/lang/String;)Lcom/github/barteksc/pdfviewer/PDFView$b;
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/github/barteksc/pdfviewer/PDFView$b;->s:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method

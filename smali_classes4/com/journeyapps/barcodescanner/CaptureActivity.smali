@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public a:Lcom/journeyapps/barcodescanner/a;
+.field public a:Lcom/journeyapps/barcodescanner/i;
 
 .field public b:Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;
 
@@ -36,6 +36,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -76,6 +78,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -99,7 +103,7 @@
 
     .line 9
     .line 10
-    new-instance v0, Lcom/journeyapps/barcodescanner/a;
+    new-instance v0, Lcom/journeyapps/barcodescanner/i;
 
     .line 11
     .line 12
@@ -107,12 +111,12 @@
 
     .line 13
     .line 14
-    invoke-direct {v0, p0, v1}, Lcom/journeyapps/barcodescanner/a;-><init>(Landroid/app/Activity;Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;)V
+    invoke-direct {v0, p0, v1}, Lcom/journeyapps/barcodescanner/i;-><init>(Landroid/app/Activity;Lcom/journeyapps/barcodescanner/DecoratedBarcodeView;)V
 
     .line 15
     .line 16
     .line 17
-    iput-object v0, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/a;
+    iput-object v0, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/i;
 
     .line 18
     .line 19
@@ -124,16 +128,16 @@
     move-result-object v1
 
     .line 23
-    invoke-virtual {v0, v1, p1}, Lcom/journeyapps/barcodescanner/a;->q(Landroid/content/Intent;Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1, p1}, Lcom/journeyapps/barcodescanner/i;->p(Landroid/content/Intent;Landroid/os/Bundle;)V
 
     .line 24
     .line 25
     .line 26
-    iget-object p1, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/a;
+    iget-object p1, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/i;
 
     .line 27
     .line 28
-    invoke-virtual {p1}, Lcom/journeyapps/barcodescanner/a;->l()V
+    invoke-virtual {p1}, Lcom/journeyapps/barcodescanner/i;->l()V
 
     .line 29
     .line 30
@@ -192,6 +196,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onDestroy()V
@@ -203,11 +209,11 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/a;
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/i;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/a;->s()V
+    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/i;->r()V
 
     .line 7
     .line 8
@@ -224,6 +230,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -309,6 +317,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public onPause()V
@@ -320,11 +338,11 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/a;
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/i;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/a;->t()V
+    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/i;->s()V
 
     .line 7
     .line 8
@@ -341,25 +359,19 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onRequestPermissionsResult(I[Ljava/lang/String;[I)V
     .locals 1
-    .param p2    # [Ljava/lang/String;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p3    # [I
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/a;
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/i;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Lcom/journeyapps/barcodescanner/a;->u(I[Ljava/lang/String;[I)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/journeyapps/barcodescanner/i;->t(I[Ljava/lang/String;[I)V
 
     .line 4
     .line 5
@@ -484,11 +496,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public onResume()V
@@ -500,11 +507,11 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/a;
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/i;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/a;->v()V
+    invoke-virtual {v0}, Lcom/journeyapps/barcodescanner/i;->u()V
 
     .line 7
     .line 8
@@ -521,6 +528,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -532,11 +541,11 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/a;
+    iget-object v0, p0, Lcom/journeyapps/barcodescanner/CaptureActivity;->a:Lcom/journeyapps/barcodescanner/i;
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Lcom/journeyapps/barcodescanner/a;->w(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lcom/journeyapps/barcodescanner/i;->v(Landroid/os/Bundle;)V
 
     .line 7
     .line 8
@@ -558,4 +567,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

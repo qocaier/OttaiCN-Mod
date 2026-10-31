@@ -95,7 +95,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -138,7 +137,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static addAnimation(Lcom/baidu/platform/comapi/bmsdk/animation/BmTrackAnimation;)V
@@ -315,8 +313,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static dispatchTrackUpdateListener(JDDFF)Z
@@ -1539,8 +1535,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -1673,8 +1667,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setTrackAnimationUpdateListener(Lcom/baidu/mapapi/map/TrackAnimationUpdateListener;)V
@@ -1707,7 +1699,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackLine(Lcom/baidu/platform/comapi/bmsdk/BmDrawItem;)Z
@@ -1846,8 +1837,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setTrackPath(Lcom/baidu/platform/comapi/bmsdk/BmGeoElement;)Z
@@ -1896,7 +1885,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackPos(Lcom/baidu/platform/comapi/bmsdk/b;)Z
@@ -2069,5 +2057,4 @@
     .line 23
     return p1
     .line 24
-    .line 25
 .end method

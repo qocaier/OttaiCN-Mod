@@ -163,11 +163,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method private synthetic a(Landroid/content/DialogInterface;)V
@@ -284,11 +279,11 @@
     move-result-object v0
 
     .line 41
-    new-instance v1, Lcom/qiyukf/ud0;
+    new-instance v1, Lcom/qiyukf/qf0;
 
     .line 42
     .line 43
-    invoke-direct {v1, p0}, Lcom/qiyukf/ud0;-><init>(Lcom/qiyukf/qu$a;)V
+    invoke-direct {v1, p0}, Lcom/qiyukf/qf0;-><init>(Lcom/qiyukf/qu$a;)V
 
     .line 44
     .line 45
@@ -334,4 +329,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

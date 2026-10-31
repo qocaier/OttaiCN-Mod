@@ -198,15 +198,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -241,7 +232,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnimationDuration()I
@@ -272,7 +262,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnimationTime()I
@@ -303,7 +292,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnimationType()I
@@ -334,7 +322,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBloomSpeed()F
@@ -365,7 +352,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getColor()I
@@ -396,7 +382,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getColors()[I
@@ -427,7 +412,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIcon()Lcom/baidu/mapapi/map/BitmapDescriptor;
@@ -458,7 +442,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIcon3D()Lcom/baidu/mapapi/map/BM3DModelOptions;
@@ -489,7 +472,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLatLngBounds()Lcom/baidu/mapapi/model/LatLngBounds;
@@ -627,15 +609,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getPoints()Ljava/util/List;
@@ -674,7 +647,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWidth()I
@@ -705,7 +677,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public icon(Lcom/baidu/mapapi/map/BitmapDescriptor;)V
@@ -738,7 +709,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public icon3D(Lcom/baidu/mapapi/map/BM3DModelOptions;)V
@@ -771,7 +741,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isAnimate()Z
@@ -802,7 +771,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isDataReduction()Z
@@ -833,7 +801,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isDataSmooth()Z
@@ -864,7 +831,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isOnPause()Z
@@ -895,7 +861,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isPointMove()Z
@@ -926,7 +891,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isRotateWhenTrack()Z
@@ -957,7 +921,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isStatusChanged()Z
@@ -988,7 +951,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isTrackBloom()Z
@@ -1019,7 +981,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isTrackMove()Z
@@ -1050,7 +1011,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isUseColorArray()Z
@@ -1081,7 +1041,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public pause()V
@@ -1120,7 +1079,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public remove()V
@@ -1153,7 +1111,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public resume()V
@@ -1196,7 +1153,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAnimate(Z)V
@@ -1229,7 +1185,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAnimationDuration(I)V
@@ -1262,7 +1217,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAnimationTime(I)V
@@ -1308,7 +1262,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setBloomSpeed(F)V
@@ -1341,7 +1294,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setColor(I)V
@@ -1374,7 +1326,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDataReduction(Z)V
@@ -1407,7 +1358,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDataSmooth(Z)V
@@ -1440,7 +1390,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPointMove(Z)V
@@ -1473,7 +1422,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRotateWhenTrack(Z)V
@@ -1506,7 +1454,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTraceAnimationType(Lcom/baidu/mapapi/map/track/TraceOptions$TraceAnimateType;)V
@@ -1548,7 +1495,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTraceColors([I)V
@@ -1581,7 +1527,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTracePoints(Ljava/util/List;)V
@@ -1622,7 +1567,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackBloom(Z)V
@@ -1655,7 +1599,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTrackMove(Z)V
@@ -1688,7 +1631,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWidth(I)V
@@ -1721,7 +1663,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public update()V
@@ -1754,7 +1695,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public useColorArray(Z)V
@@ -1787,5 +1727,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

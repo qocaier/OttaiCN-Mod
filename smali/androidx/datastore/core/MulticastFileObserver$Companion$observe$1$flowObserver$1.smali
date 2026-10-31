@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
@@ -19,21 +19,16 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "Ljava/lang/String;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic $$this$channelFlow:Lkotlinx/coroutines/channels/j;
+.field final synthetic $$this$channelFlow:Lkotlinx/coroutines/channels/q;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkotlinx/coroutines/channels/j<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlinx/coroutines/channels/q;"
         }
     .end annotation
 .end field
@@ -42,22 +37,20 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/io/File;Lkotlinx/coroutines/channels/j;)V
+.method public constructor <init>(Ljava/io/File;Lkotlinx/coroutines/channels/q;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/io/File;",
-            "Lkotlinx/coroutines/channels/j<",
-            "-",
-            "Ljl/e2;",
-            ">;)V"
+            "Lkotlinx/coroutines/channels/q;",
+            ")V"
         }
     .end annotation
 
     iput-object p1, p0, Landroidx/datastore/core/MulticastFileObserver$Companion$observe$1$flowObserver$1;->$file:Ljava/io/File;
 
-    iput-object p2, p0, Landroidx/datastore/core/MulticastFileObserver$Companion$observe$1$flowObserver$1;->$$this$channelFlow:Lkotlinx/coroutines/channels/j;
+    iput-object p2, p0, Landroidx/datastore/core/MulticastFileObserver$Companion$observe$1$flowObserver$1;->$$this$channelFlow:Lkotlinx/coroutines/channels/q;
 
     const/4 p1, 0x1
 
@@ -76,17 +69,13 @@
 
     invoke-virtual {p0, p1}, Landroidx/datastore/core/MulticastFileObserver$Companion$observe$1$flowObserver$1;->invoke(Ljava/lang/String;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
 
 .method public final invoke(Ljava/lang/String;)V
     .locals 1
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 2
     iget-object v0, p0, Landroidx/datastore/core/MulticastFileObserver$Companion$observe$1$flowObserver$1;->$file:Ljava/io/File;
@@ -95,18 +84,18 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
     if-eqz p1, :cond_0
 
     .line 3
-    iget-object p1, p0, Landroidx/datastore/core/MulticastFileObserver$Companion$observe$1$flowObserver$1;->$$this$channelFlow:Lkotlinx/coroutines/channels/j;
+    iget-object p1, p0, Landroidx/datastore/core/MulticastFileObserver$Companion$observe$1$flowObserver$1;->$$this$channelFlow:Lkotlinx/coroutines/channels/q;
 
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
 
-    invoke-static {p1, v0}, Lhn/i;->m0(Lkotlinx/coroutines/channels/k;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lkotlinx/coroutines/channels/m;->w(Lkotlinx/coroutines/channels/s;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
     return-void

@@ -58,7 +58,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -224,15 +223,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getPoints()Ljava/util/List;
@@ -271,7 +261,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getText()Ljava/lang/String;
@@ -302,7 +291,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTextBorderColor()I
@@ -333,7 +321,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTextBorderWidth()I
@@ -364,7 +351,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTextColor()I
@@ -395,7 +381,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTextFontOption()Landroid/graphics/Typeface;
@@ -426,7 +411,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTextSize()I
@@ -457,7 +441,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getZIndex()I
@@ -488,7 +471,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public points(Ljava/util/List;)Lcom/baidu/mapapi/map/TextPathMarkerOptions;
@@ -530,7 +512,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public text(Ljava/lang/String;)Lcom/baidu/mapapi/map/TextPathMarkerOptions;
@@ -563,7 +544,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public textBorderColor(I)Lcom/baidu/mapapi/map/TextPathMarkerOptions;
@@ -596,7 +576,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public textBorderWidth(I)Lcom/baidu/mapapi/map/TextPathMarkerOptions;
@@ -629,7 +608,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public textColor(I)Lcom/baidu/mapapi/map/TextPathMarkerOptions;
@@ -662,7 +640,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public textFontOption(Landroid/graphics/Typeface;)Lcom/baidu/mapapi/map/TextPathMarkerOptions;
@@ -695,7 +672,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public textSize(I)Lcom/baidu/mapapi/map/TextPathMarkerOptions;
@@ -728,7 +704,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public zIndex(I)Lcom/baidu/mapapi/map/TextPathMarkerOptions;
@@ -761,5 +736,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

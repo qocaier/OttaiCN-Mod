@@ -152,11 +152,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static fromProperty(Lcom/qiyukf/tv;)Lcom/qiyukf/nimlib/sdk/passthrough/model/PassthroughNotifyData;
@@ -217,6 +212,8 @@
     .line 24
     .line 25
     return-object p0
+    .line 26
+    .line 27
 .end method
 
 
@@ -247,6 +244,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFromAccid()Ljava/lang/String;
@@ -275,6 +274,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTime()J
@@ -303,4 +304,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

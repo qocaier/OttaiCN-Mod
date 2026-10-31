@@ -1,36 +1,16 @@
-.class public final synthetic Landroidx/appcompat/widget/b;
+.class public abstract synthetic Landroidx/appcompat/widget/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/lang/Runnable;
-
-
-# instance fields
-.field public final synthetic a:Landroidx/appcompat/widget/TooltipCompatHandler;
-
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/appcompat/widget/TooltipCompatHandler;)V
+.method public static bridge synthetic a(Landroid/widget/TextView;)Z
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    invoke-virtual {p0}, Landroid/widget/TextView;->isHorizontallyScrollable()Z
 
-    iput-object p1, p0, Landroidx/appcompat/widget/b;->a:Landroidx/appcompat/widget/TooltipCompatHandler;
+    move-result p0
 
-    return-void
-.end method
-
-
-# virtual methods
-.method public final run()V
-    .locals 1
-
-    .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/b;->a:Landroidx/appcompat/widget/TooltipCompatHandler;
-
-    invoke-virtual {v0}, Landroidx/appcompat/widget/TooltipCompatHandler;->hide()V
-
-    return-void
+    return p0
 .end method

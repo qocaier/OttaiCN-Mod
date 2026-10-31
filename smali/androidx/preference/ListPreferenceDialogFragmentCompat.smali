@@ -46,6 +46,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getListPreference()Landroidx/preference/ListPreference;
@@ -78,6 +79,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static newInstance(Ljava/lang/String;)Landroidx/preference/ListPreferenceDialogFragmentCompat;
@@ -297,6 +299,7 @@
     .line 77
     .line 78
     return-void
+    .line 79
 .end method
 
 .method public onDialogClosed(Z)V
@@ -408,6 +411,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public onPrepareDialogBuilder(Landroidx/appcompat/app/AlertDialog$Builder;)V

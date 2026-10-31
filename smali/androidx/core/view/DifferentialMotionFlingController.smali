@@ -39,13 +39,13 @@
     .locals 2
 
     .line 1
-    new-instance v0, Landroidx/core/view/a;
+    new-instance v0, Landroidx/core/view/q;
 
-    invoke-direct {v0}, Landroidx/core/view/a;-><init>()V
+    invoke-direct {v0}, Landroidx/core/view/q;-><init>()V
 
-    new-instance v1, Landroidx/core/view/b;
+    new-instance v1, Landroidx/core/view/r;
 
-    invoke-direct {v1}, Landroidx/core/view/b;-><init>()V
+    invoke-direct {v1}, Landroidx/core/view/r;-><init>()V
 
     invoke-direct {p0, p1, p2, v0, v1}, Landroidx/core/view/DifferentialMotionFlingController;-><init>(Landroid/content/Context;Landroidx/core/view/DifferentialMotionFlingTarget;Landroidx/core/view/DifferentialMotionFlingController$FlingVelocityThresholdCalculator;Landroidx/core/view/DifferentialMotionFlingController$DifferentialVelocityProvider;)V
 
@@ -624,4 +624,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

@@ -185,6 +185,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public hashCode()I
@@ -233,4 +234,5 @@
 
     .line 20
     return v0
+    .line 21
 .end method

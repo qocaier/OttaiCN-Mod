@@ -15,11 +15,11 @@
 .method public static active(Landroid/content/Context;)V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->I(Landroid/content/Context;)V
+    invoke-virtual {v0, p0}, Ld5/b;->b(Landroid/content/Context;)V
 
     return-void
 .end method
@@ -27,11 +27,11 @@
 .method public static cancelNotification(Lorg/json/JSONObject;)V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->b(Lorg/json/JSONObject;)V
+    invoke-virtual {v0, p0}, Ld5/b;->g(Lorg/json/JSONObject;)V
 
     return-void
 .end method
@@ -39,11 +39,11 @@
 .method public static clearNotificationAdvanceCallback()V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lsd/b;->D()V
+    invoke-virtual {v0}, Ld5/b;->n()V
 
     return-void
 .end method
@@ -63,11 +63,11 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->p(Lorg/json/JSONObject;)V
+    invoke-virtual {v0, p0}, Ld5/b;->o(Lorg/json/JSONObject;)V
 
     return-void
 .end method
@@ -87,11 +87,11 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->a(Lorg/json/JSONObject;)V
+    invoke-virtual {v0, p0}, Ld5/b;->p(Lorg/json/JSONObject;)V
 
     return-void
 .end method
@@ -99,11 +99,11 @@
 .method public static disableAppNotificationSwitch(Lcom/heytap/msp/push/callback/ISetAppNotificationCallBackService;)V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->q(Lcom/heytap/msp/push/callback/ISetAppNotificationCallBackService;)V
+    invoke-virtual {v0, p0}, Ld5/b;->q(Lcom/heytap/msp/push/callback/ISetAppNotificationCallBackService;)V
 
     return-void
 .end method
@@ -111,11 +111,11 @@
 .method public static enableAppNotificationSwitch(Lcom/heytap/msp/push/callback/ISetAppNotificationCallBackService;)V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->y(Lcom/heytap/msp/push/callback/ISetAppNotificationCallBackService;)V
+    invoke-virtual {v0, p0}, Ld5/b;->r(Lcom/heytap/msp/push/callback/ISetAppNotificationCallBackService;)V
 
     return-void
 .end method
@@ -123,11 +123,11 @@
 .method public static getAppNotificationSwitch(Lcom/heytap/msp/push/callback/IGetAppNotificationCallBackService;)V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->e(Lcom/heytap/msp/push/callback/IGetAppNotificationCallBackService;)V
+    invoke-virtual {v0, p0}, Ld5/b;->s(Lcom/heytap/msp/push/callback/IGetAppNotificationCallBackService;)V
 
     return-void
 .end method
@@ -135,11 +135,11 @@
 .method public static getMcsPackageName(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->Y(Landroid/content/Context;)Ljava/lang/String;
+    invoke-virtual {v0, p0}, Ld5/b;->x(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -161,11 +161,11 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->d(Lorg/json/JSONObject;)V
+    invoke-virtual {v0, p0}, Ld5/b;->A(Lorg/json/JSONObject;)V
 
     return-void
 .end method
@@ -173,11 +173,11 @@
 .method public static getPushCallback()Lcom/heytap/msp/push/callback/ICallBackResultService;
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lsd/b;->d0()Lcom/heytap/msp/push/callback/ICallBackResultService;
+    invoke-virtual {v0}, Ld5/b;->D()Lcom/heytap/msp/push/callback/ICallBackResultService;
 
     move-result-object v0
 
@@ -197,11 +197,11 @@
 .method public static getPushStatus()V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lsd/b;->g0()V
+    invoke-virtual {v0}, Ld5/b;->G()V
 
     return-void
 .end method
@@ -209,11 +209,11 @@
 .method public static getPushVersionCode()I
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lsd/b;->h0()I
+    invoke-virtual {v0}, Ld5/b;->H()I
 
     move-result v0
 
@@ -223,11 +223,11 @@
 .method public static getPushVersionName()Ljava/lang/String;
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lsd/b;->i0()Ljava/lang/String;
+    invoke-virtual {v0}, Ld5/b;->I()Ljava/lang/String;
 
     move-result-object v0
 
@@ -237,11 +237,11 @@
 .method public static getReceiveSdkAction(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->j0(Landroid/content/Context;)Ljava/lang/String;
+    invoke-virtual {v0, p0}, Ld5/b;->J(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -263,11 +263,11 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->z(Lorg/json/JSONObject;)V
+    invoke-virtual {v0, p0}, Ld5/b;->K(Lorg/json/JSONObject;)V
 
     return-void
 .end method
@@ -275,11 +275,11 @@
 .method public static getRegisterID()Ljava/lang/String;
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lsd/b;->f()Ljava/lang/String;
+    invoke-virtual {v0}, Ld5/b;->L()Ljava/lang/String;
 
     move-result-object v0
 
@@ -289,7 +289,7 @@
 .method public static getSDKVersionCode()I
     .locals 1
 
-    invoke-static {}, Lsd/b;->k0()I
+    invoke-static {}, Ld5/b;->M()I
 
     move-result v0
 
@@ -299,7 +299,7 @@
 .method public static getSDKVersionName()Ljava/lang/String;
     .locals 1
 
-    invoke-static {}, Lsd/b;->l0()Ljava/lang/String;
+    invoke-static {}, Ld5/b;->N()Ljava/lang/String;
 
     move-result-object v0
 
@@ -309,11 +309,11 @@
 .method public static init(Landroid/content/Context;Z)V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0, p1}, Lsd/b;->n0(Landroid/content/Context;Z)Lsd/b;
+    invoke-virtual {v0, p0, p1}, Ld5/b;->P(Landroid/content/Context;Z)Ld5/b;
 
     return-void
 .end method
@@ -321,11 +321,11 @@
 .method public static isSupportLiquid(Landroid/content/Context;)Z
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->m(Landroid/content/Context;)Z
+    invoke-virtual {v0, p0}, Ld5/b;->R(Landroid/content/Context;)Z
 
     move-result p0
 
@@ -335,11 +335,11 @@
 .method public static isSupportPush(Landroid/content/Context;)Z
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->p0(Landroid/content/Context;)Z
+    invoke-virtual {v0, p0}, Ld5/b;->S(Landroid/content/Context;)Z
 
     move-result p0
 
@@ -361,11 +361,11 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->u(Lorg/json/JSONObject;)V
+    invoke-virtual {v0, p0}, Ld5/b;->U(Lorg/json/JSONObject;)V
 
     return-void
 .end method
@@ -385,11 +385,11 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->g(Lorg/json/JSONObject;)V
+    invoke-virtual {v0, p0}, Ld5/b;->V(Lorg/json/JSONObject;)V
 
     return-void
 .end method
@@ -397,11 +397,11 @@
 .method public static queryLiquidTask(Landroid/content/Context;Lcom/heytap/msp/push/callback/ILiquidTaskQueryCallback;)V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0, p1}, Lsd/b;->G(Landroid/content/Context;Lcom/heytap/msp/push/callback/ILiquidTaskQueryCallback;)V
+    invoke-virtual {v0, p0, p1}, Ld5/b;->W(Landroid/content/Context;Lcom/heytap/msp/push/callback/ILiquidTaskQueryCallback;)V
 
     return-void
 .end method
@@ -421,7 +421,7 @@
     .locals 6
 
     .line 2
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
@@ -435,16 +435,16 @@
 
     move-object v5, p4
 
-    invoke-virtual/range {v0 .. v5}, Lsd/b;->l(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONObject;Lcom/heytap/msp/push/callback/ICallBackResultService;)V
+    invoke-virtual/range {v0 .. v5}, Ld5/b;->X(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONObject;Lcom/heytap/msp/push/callback/ICallBackResultService;)V
 
     return-void
 .end method
 
-.method public static requestDownloadSeeding(Lae/a;)V
+.method public static requestDownloadSeeding(Lj5/a;)V
     .locals 1
 
     .line 1
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     .line 2
     .line 3
@@ -452,7 +452,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Lsd/b;->s(Lae/a;)V
+    invoke-virtual {v0, p0}, Ld5/b;->Y(Lj5/a;)V
 
     .line 6
     .line 7
@@ -475,16 +475,18 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static requestNotificationAdvance(Landroid/app/Activity;Lcom/heytap/msp/push/callback/INotificationPermissionCallback;I)V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0, p1, p2}, Lsd/b;->o(Landroid/app/Activity;Lcom/heytap/msp/push/callback/INotificationPermissionCallback;I)V
+    invoke-virtual {v0, p0, p1, p2}, Ld5/b;->Z(Landroid/app/Activity;Lcom/heytap/msp/push/callback/INotificationPermissionCallback;I)V
 
     return-void
 .end method
@@ -494,11 +496,11 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lsd/b;->h()V
+    invoke-virtual {v0}, Ld5/b;->a0()V
 
     return-void
 .end method
@@ -518,11 +520,11 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->r(Lorg/json/JSONObject;)V
+    invoke-virtual {v0, p0}, Ld5/b;->b0(Lorg/json/JSONObject;)V
 
     return-void
 .end method
@@ -530,11 +532,11 @@
 .method public static setAppKeySecret(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0, p1}, Lsd/b;->s0(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, p0, p1}, Ld5/b;->c0(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -554,11 +556,11 @@
     .locals 1
 
     .line 2
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0, p1}, Lsd/b;->n(ILorg/json/JSONObject;)V
+    invoke-virtual {v0, p0, p1}, Ld5/b;->d0(ILorg/json/JSONObject;)V
 
     return-void
 .end method
@@ -566,11 +568,11 @@
 .method public static setPushCallback(Lcom/heytap/msp/push/callback/ICallBackResultService;)V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->t0(Lcom/heytap/msp/push/callback/ICallBackResultService;)V
+    invoke-virtual {v0, p0}, Ld5/b;->e0(Lcom/heytap/msp/push/callback/ICallBackResultService;)V
 
     return-void
 .end method
@@ -618,7 +620,7 @@
     .end annotation
 
     .line 2
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
@@ -634,7 +636,7 @@
 
     move-object v6, p5
 
-    invoke-virtual/range {v0 .. v6}, Lsd/b;->F(Ljava/util/List;IIIILorg/json/JSONObject;)V
+    invoke-virtual/range {v0 .. v6}, Ld5/b;->f0(Ljava/util/List;IIIILorg/json/JSONObject;)V
 
     return-void
 .end method
@@ -642,11 +644,11 @@
 .method public static setRegisterID(Ljava/lang/String;)V
     .locals 1
 
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->x(Ljava/lang/String;)V
+    invoke-virtual {v0, p0}, Ld5/b;->g0(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -665,7 +667,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lbe/b;->b(Landroid/content/Context;Lcom/heytap/msp/push/mode/MessageStat;)V
+    invoke-static {p0, p1}, Lk5/a;->b(Landroid/content/Context;Lcom/heytap/msp/push/mode/MessageStat;)V
 
     return-void
 .end method
@@ -686,7 +688,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Lbe/b;->c(Landroid/content/Context;Ljava/util/List;)Z
+    invoke-static {p0, p1}, Lk5/a;->c(Landroid/content/Context;Ljava/util/List;)Z
 
     return-void
 .end method
@@ -706,7 +708,7 @@
     .locals 6
 
     .line 2
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
@@ -720,7 +722,7 @@
 
     move-object v5, p4
 
-    invoke-virtual/range {v0 .. v5}, Lsd/b;->w0(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONObject;Lcom/heytap/msp/push/callback/ICallBackResultService;)V
+    invoke-virtual/range {v0 .. v5}, Ld5/b;->j0(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Lorg/json/JSONObject;Lcom/heytap/msp/push/callback/ICallBackResultService;)V
 
     return-void
 .end method
@@ -729,11 +731,11 @@
     .locals 1
 
     .line 3
-    invoke-static {}, Lsd/b;->W()Lsd/b;
+    invoke-static {}, Ld5/b;->v()Ld5/b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lsd/b;->k(Lorg/json/JSONObject;)V
+    invoke-virtual {v0, p0}, Ld5/b;->k0(Lorg/json/JSONObject;)V
 
     return-void
 .end method

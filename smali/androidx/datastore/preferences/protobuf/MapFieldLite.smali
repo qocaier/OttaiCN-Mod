@@ -65,6 +65,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -83,15 +84,6 @@
 
 .method private constructor <init>(Ljava/util/Map;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mapData"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -113,15 +105,6 @@
 
 .method public static calculateHashCodeForMap(Ljava/util/Map;)I
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "a"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -259,18 +242,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static calculateHashCodeForObject(Ljava/lang/Object;)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "a"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p0, [B
@@ -379,19 +355,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static checkForNullKeysAndValues(Ljava/util/Map;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "m"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -509,18 +477,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static copy(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "object"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p0, [B
@@ -543,15 +504,6 @@
 
 .method public static copy(Ljava/util/Map;)Ljava/util/Map;
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "map"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -661,6 +613,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private ensureMutable()V
@@ -700,20 +653,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static equals(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "a",
-            "b"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p0, [B
@@ -746,17 +690,6 @@
 
 .method public static equals(Ljava/util/Map;Ljava/util/Map;)Z
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "a",
-            "b"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<K:",
@@ -885,6 +818,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public entrySet()Ljava/util/Set;
@@ -934,18 +868,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "object"
-        }
-    .end annotation
 
     .line 8
     instance-of v0, p1, Ljava/util/Map;
@@ -998,6 +925,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isMutable()Z
@@ -1026,6 +954,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public makeImmutable()V
@@ -1056,19 +985,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public mergeFrom(Landroidx/datastore/preferences/protobuf/MapFieldLite;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "other"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1164,21 +1085,11 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "key",
-            "value"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TK;TV;)TV;"
@@ -1204,15 +1115,6 @@
 
 .method public put(Ljava/util/Map$Entry;)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "entry"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1239,15 +1141,6 @@
 
 .method public putAll(Ljava/util/Map;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "m"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1292,15 +1185,6 @@
 
 .method public remove(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "key"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",

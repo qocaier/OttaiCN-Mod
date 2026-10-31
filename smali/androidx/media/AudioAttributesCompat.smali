@@ -262,6 +262,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>()V
@@ -569,6 +571,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static usageToString(I)Ljava/lang/String;
@@ -773,6 +778,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static wrap(Ljava/lang/Object;)Landroidx/media/AudioAttributesCompat;
@@ -901,6 +907,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -1020,6 +1027,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getContentType()I
@@ -1052,6 +1060,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFlags()I
@@ -1084,6 +1093,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLegacyStreamType()I
@@ -1116,6 +1126,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRawLegacyStreamType()I
@@ -1148,6 +1159,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUsage()I
@@ -1180,6 +1192,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVolumeControlStream()I
@@ -1212,6 +1225,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -1244,6 +1258,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1276,6 +1291,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public unwrap()Ljava/lang/Object;
@@ -1310,4 +1326,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

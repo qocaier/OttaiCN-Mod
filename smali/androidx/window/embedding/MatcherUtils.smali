@@ -3,30 +3,12 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMatcherUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MatcherUtils.kt\nandroidx/window/embedding/MatcherUtils\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,136:1\n1#2:137\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nMatcherUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MatcherUtils.kt\nandroidx/window/embedding/MatcherUtils\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,136:1\n1#2:137\n*E\n"
-    }
-.end annotation
-
-
 # static fields
 .field public static final INSTANCE:Landroidx/window/embedding/MatcherUtils;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final sDebugMatchers:Z = false
 
 .field public static final sMatchersTag:Ljava/lang/String; = "SplitRuleResolution"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -68,6 +50,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final wildcardMatch(Ljava/lang/String;Ljava/lang/String;)Z
@@ -87,7 +70,7 @@
     const/4 v3, 0x0
 
     .line 6
-    invoke-static {p2, v0, v1, v2, v3}, Lym/k0;->n3(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    invoke-static {p2, v0, v1, v2, v3}, Lkotlin/text/c0;->M(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     .line 7
     .line 8
@@ -103,7 +86,7 @@
 
     .line 13
     :cond_0
-    invoke-static {p2, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -141,7 +124,7 @@
     move-object v6, p2
 
     .line 28
-    invoke-static/range {v6 .. v11}, Lym/k0;->J3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
+    invoke-static/range {v6 .. v11}, Lkotlin/text/c0;->Y(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     .line 29
     .line 30
@@ -153,7 +136,7 @@
 
     .line 33
     .line 34
-    invoke-static/range {v6 .. v11}, Lym/k0;->Y3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
+    invoke-static/range {v6 .. v11}, Lkotlin/text/c0;->f0(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     .line 35
     .line 36
@@ -165,7 +148,7 @@
 
     .line 39
     .line 40
-    invoke-static {v6, v0, v1, v2, v3}, Lym/f0;->b2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {v6, v0, v1, v2, v3}, Lkotlin/text/z;->u(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     .line 41
     .line 42
@@ -200,12 +183,12 @@
 
     .line 56
     .line 57
-    invoke-static {p2, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 58
     .line 59
     .line 60
-    invoke-static {p1, p2, v1, v2, v3}, Lym/f0;->J2(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
+    invoke-static {p1, p2, v1, v2, v3}, Lkotlin/text/z;->G(Ljava/lang/String;Ljava/lang/String;ZILjava/lang/Object;)Z
 
     .line 61
     .line 62
@@ -392,27 +375,22 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
 # virtual methods
 .method public final areComponentsMatching$window_release(Landroidx/window/core/ActivityComponentInfo;Landroidx/window/core/ActivityComponentInfo;)Z
     .locals 6
-    .param p1    # Landroidx/window/core/ActivityComponentInfo;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/core/ActivityComponentInfo;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "ruleComponent"
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -439,7 +417,7 @@
     move-result-object p1
 
     .line 16
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -459,7 +437,7 @@
     move-result-object p1
 
     .line 26
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 27
     .line 28
@@ -493,7 +471,7 @@
     const/4 v5, 0x0
 
     .line 40
-    invoke-static {v3, v0, v2, v4, v5}, Lym/k0;->n3(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    invoke-static {v3, v0, v2, v4, v5}, Lkotlin/text/c0;->M(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     .line 41
     .line 42
@@ -521,7 +499,7 @@
     move-result-object v3
 
     .line 54
-    invoke-static {v0, v3}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 55
     .line 56
@@ -593,7 +571,7 @@
     move-result-object v4
 
     .line 86
-    invoke-static {v3, v4}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 87
     .line 88
@@ -789,25 +767,20 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public final isActivityMatching$window_release(Landroid/app/Activity;Landroidx/window/core/ActivityComponentInfo;)Z
     .locals 3
-    .param p1    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/core/ActivityComponentInfo;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "activity"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -816,7 +789,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -837,7 +810,7 @@
 
     .line 18
     .line 19
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -903,21 +876,13 @@
 
 .method public final isIntentMatching$window_release(Landroid/content/Intent;Landroidx/window/core/ActivityComponentInfo;)Z
     .locals 3
-    .param p1    # Landroid/content/Intent;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/core/ActivityComponentInfo;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "intent"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -926,7 +891,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1022,7 +987,7 @@
     move-result-object v0
 
     .line 51
-    invoke-static {p1, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 52
     .line 53
@@ -1067,7 +1032,7 @@
 
     .line 72
     .line 73
-    invoke-static {p1, p2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 74
     .line 75
@@ -1237,25 +1202,20 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public final validateComponentName$window_release(Ljava/lang/String;Ljava/lang/String;)V
     .locals 11
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "packageName"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1264,7 +1224,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -1306,7 +1266,7 @@
     const/4 v3, 0x0
 
     .line 28
-    invoke-static {p1, v0, v1, v2, v3}, Lym/k0;->n3(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    invoke-static {p1, v0, v1, v2, v3}, Lkotlin/text/c0;->M(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     .line 29
     .line 30
@@ -1337,7 +1297,7 @@
     move-object v5, p1
 
     .line 41
-    invoke-static/range {v5 .. v10}, Lym/k0;->J3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
+    invoke-static/range {v5 .. v10}, Lkotlin/text/c0;->Y(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     .line 42
     .line 43
@@ -1383,7 +1343,7 @@
     .line 62
     :cond_1
     :goto_0
-    invoke-static {p2, v0, v1, v2, v3}, Lym/k0;->n3(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
+    invoke-static {p2, v0, v1, v2, v3}, Lkotlin/text/c0;->M(Ljava/lang/CharSequence;Ljava/lang/CharSequence;ZILjava/lang/Object;)Z
 
     .line 63
     .line 64
@@ -1414,7 +1374,7 @@
     move-object v0, p2
 
     .line 75
-    invoke-static/range {v0 .. v5}, Lym/k0;->J3(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
+    invoke-static/range {v0 .. v5}, Lkotlin/text/c0;->Y(Ljava/lang/CharSequence;Ljava/lang/String;IZILjava/lang/Object;)I
 
     .line 76
     .line 77
@@ -1616,4 +1576,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

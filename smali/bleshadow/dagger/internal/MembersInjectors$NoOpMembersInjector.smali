@@ -2,27 +2,12 @@
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
-# interfaces
-.implements Lv2/g;
-
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lbleshadow/dagger/internal/MembersInjectors;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x4019
-    name = "NoOpMembersInjector"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Enum<",
         "Lbleshadow/dagger/internal/MembersInjectors$NoOpMembersInjector;",
-        ">;",
-        "Lv2/g<",
-        "Ljava/lang/Object;",
         ">;"
     }
 .end annotation
@@ -75,26 +60,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -151,14 +121,6 @@
 
 .method public static valueOf(Ljava/lang/String;)Lbleshadow/dagger/internal/MembersInjectors$NoOpMembersInjector;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8000
-        }
-        names = {
-            "name"
-        }
-    .end annotation
 
     .line 1
     const-class v0, Lbleshadow/dagger/internal/MembersInjectors$NoOpMembersInjector;
@@ -228,27 +190,20 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public injectMembers(Ljava/lang/Object;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "instance"
-        }
-    .end annotation
 
     .line 1
     const-string v0, "Cannot inject members into a null reference"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lw2/l;->b(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lbleshadow/dagger/internal/a;->a(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 4
     .line 5

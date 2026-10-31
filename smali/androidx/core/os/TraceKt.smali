@@ -4,35 +4,17 @@
 
 
 # direct methods
-.method public static final trace(Ljava/lang/String;Ljm/a;)Ljava/lang/Object;
+.method public static final trace(Ljava/lang/String;Lq8/a;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
             "Ljava/lang/String;",
-            "Ljm/a<",
-            "+TT;>;)TT;"
+            "Lq8/a;",
+            ")TT;"
         }
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Use androidx.tracing.Trace instead"
-        replaceWith = .subannotation Ljl/w0;
-            expression = "trace(sectionName, block)"
-            imports = {
-                "androidx.tracing.trace"
-            }
-        .end subannotation
     .end annotation
 
     .line 1
@@ -45,7 +27,7 @@
 
     .line 5
     :try_start_0
-    invoke-interface {p1}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -55,7 +37,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 9
-    invoke-static {p0}, Lkm/d0;->d(I)V
+    invoke-static {p0}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 10
     .line 11
@@ -65,7 +47,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {p0}, Lkm/d0;->c(I)V
+    invoke-static {p0}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 16
     .line 17
@@ -77,7 +59,7 @@
     move-exception p1
 
     .line 20
-    invoke-static {p0}, Lkm/d0;->d(I)V
+    invoke-static {p0}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 21
     .line 22
@@ -87,7 +69,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {p0}, Lkm/d0;->c(I)V
+    invoke-static {p0}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 27
     .line 28

@@ -67,6 +67,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static makeCustomSpline(Ljava/lang/String;Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;)Landroidx/constraintlayout/core/motion/utils/SplineSet;
@@ -314,6 +315,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSlope(F)F
@@ -925,6 +927,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1075,4 +1082,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

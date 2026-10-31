@@ -197,8 +197,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private createDefaultOpenAt()Lcom/google/android/material/datepicker/Month;
@@ -373,15 +371,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static customDatePicker(Lcom/google/android/material/datepicker/DateSelector;)Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;
@@ -440,7 +429,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static datePicker()Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;
@@ -488,7 +476,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static dateRangePicker()Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;
@@ -538,7 +525,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static monthInValidRange(Lcom/google/android/material/datepicker/Month;Lcom/google/android/material/datepicker/CalendarConstraints;)Z
@@ -632,11 +618,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -813,15 +794,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public setCalendarConstraints(Lcom/google/android/material/datepicker/CalendarConstraints;)Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;
@@ -837,9 +809,6 @@
             "Lcom/google/android/material/datepicker/MaterialDatePicker$Builder<",
             "TS;>;"
         }
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -869,7 +838,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDayViewDecorator(Lcom/google/android/material/datepicker/DayViewDecorator;)Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;
@@ -889,9 +857,6 @@
             "Lcom/google/android/material/datepicker/MaterialDatePicker$Builder<",
             "TS;>;"
         }
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -921,7 +886,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInputMode(I)Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;
@@ -935,9 +899,6 @@
             "Lcom/google/android/material/datepicker/MaterialDatePicker$Builder<",
             "TS;>;"
         }
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -967,7 +928,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setNegativeButtonText(I)Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;
@@ -985,9 +945,6 @@
             "Lcom/google/android/material/datepicker/MaterialDatePicker$Builder<",
             "TS;>;"
         }
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1020,9 +977,6 @@
         }
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
     .line 3
     iput-object p1, p0, Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;->negativeButtonText:Ljava/lang/CharSequence;
 
@@ -1049,9 +1003,6 @@
             "Lcom/google/android/material/datepicker/MaterialDatePicker$Builder<",
             "TS;>;"
         }
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1084,9 +1035,6 @@
         }
     .end annotation
 
-    .annotation build Lxb/a;
-    .end annotation
-
     .line 3
     iput-object p1, p0, Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;->positiveButtonText:Ljava/lang/CharSequence;
 
@@ -1109,9 +1057,6 @@
             "Lcom/google/android/material/datepicker/MaterialDatePicker$Builder<",
             "TS;>;"
         }
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1141,7 +1086,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTextInputFormat(Ljava/text/SimpleDateFormat;)Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;
@@ -1161,9 +1105,6 @@
             "Lcom/google/android/material/datepicker/MaterialDatePicker$Builder<",
             "TS;>;"
         }
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1195,7 +1136,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTheme(I)Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;
@@ -1213,9 +1153,6 @@
             "Lcom/google/android/material/datepicker/MaterialDatePicker$Builder<",
             "TS;>;"
         }
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1245,7 +1182,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTitleText(I)Lcom/google/android/material/datepicker/MaterialDatePicker$Builder;
@@ -1263,9 +1199,6 @@
             "Lcom/google/android/material/datepicker/MaterialDatePicker$Builder<",
             "TS;>;"
         }
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 1
@@ -1296,9 +1229,6 @@
             "Lcom/google/android/material/datepicker/MaterialDatePicker$Builder<",
             "TS;>;"
         }
-    .end annotation
-
-    .annotation build Lxb/a;
     .end annotation
 
     .line 3

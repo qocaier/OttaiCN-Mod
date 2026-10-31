@@ -17,19 +17,11 @@
 # static fields
 .field static final synthetic $$INSTANCE:Landroidx/window/layout/WindowMetricsCalculator$Companion;
 
-.field private static decorator:Ljm/l;
+.field private static decorator:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "-",
-            "Landroidx/window/layout/WindowMetricsCalculator;",
-            "+",
-            "Landroidx/window/layout/WindowMetricsCalculator;",
-            ">;"
+            "Lq8/l;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -56,7 +48,7 @@
 
     .line 9
     .line 10
-    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->decorator:Ljm/l;
+    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->decorator:Lq8/l;
 
     .line 11
     .line 12
@@ -69,6 +61,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -97,25 +90,20 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
 .method public final fromDisplayMetrics$window_release(Landroid/util/DisplayMetrics;)Landroidx/window/layout/WindowMetrics;
     .locals 4
-    .param p1    # Landroid/util/DisplayMetrics;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "displayMetrics"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -165,7 +153,7 @@
 
     .line 28
     .line 29
-    invoke-static {p1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -219,18 +207,14 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getOrCreate()Landroidx/window/layout/WindowMetricsCalculator;
     .locals 2
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->decorator:Ljm/l;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->decorator:Lq8/l;
 
     .line 2
     .line 3
@@ -238,7 +222,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -260,21 +244,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final overrideDecorator(Landroidx/window/layout/WindowMetricsCalculatorDecorator;)V
     .locals 1
-    .param p1    # Landroidx/window/layout/WindowMetricsCalculatorDecorator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
     .end annotation
 
     .line 1
@@ -282,7 +260,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -296,7 +274,7 @@
     .line 9
     .line 10
     .line 11
-    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->decorator:Ljm/l;
+    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->decorator:Lq8/l;
 
     .line 12
     .line 13
@@ -323,15 +301,12 @@
         }
     .end annotation
 
-    .annotation runtime Lim/o;
-    .end annotation
-
     .line 1
     sget-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion$reset$1;->INSTANCE:Landroidx/window/layout/WindowMetricsCalculator$Companion$reset$1;
 
     .line 2
     .line 3
-    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->decorator:Ljm/l;
+    sput-object v0, Landroidx/window/layout/WindowMetricsCalculator$Companion;->decorator:Lq8/l;
 
     .line 4
     .line 5
@@ -351,19 +326,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final translateWindowMetrics$window_release(Landroid/view/WindowMetrics;)Landroidx/window/layout/WindowMetrics;
     .locals 3
-    .param p1    # Landroid/view/WindowMetrics;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1e
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -371,7 +340,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -380,7 +349,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1}, Lb2/a;->a(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
+    invoke-static {p1}, Landroidx/window/layout/c;->a(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
 
     .line 9
     .line 10
@@ -392,12 +361,12 @@
 
     .line 13
     .line 14
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 15
     .line 16
     .line 17
-    invoke-static {p1}, Lb2/b;->a(Landroid/view/WindowMetrics;)Landroid/view/WindowInsets;
+    invoke-static {p1}, Landroidx/window/layout/d;->a(Landroid/view/WindowMetrics;)Landroid/view/WindowInsets;
 
     .line 18
     .line 19
@@ -417,7 +386,7 @@
 
     .line 26
     .line 27
-    invoke-static {p1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -473,4 +442,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

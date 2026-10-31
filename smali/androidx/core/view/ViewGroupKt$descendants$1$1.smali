@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewGroupKt;->getDescendants(Landroid/view/ViewGroup;)Lvm/m;
+    value = Landroidx/core/view/ViewGroupKt;->getDescendants(Landroid/view/ViewGroup;)Lkotlin/sequences/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,12 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Ljm/l<",
-        "Landroid/view/View;",
-        "Ljava/util/Iterator<",
-        "+",
-        "Landroid/view/View;",
-        ">;>;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -99,13 +94,13 @@
     :goto_0
     if-eqz p1, :cond_1
 
-    invoke-static {p1}, Landroidx/core/view/ViewGroupKt;->getChildren(Landroid/view/ViewGroup;)Lvm/m;
+    invoke-static {p1}, Landroidx/core/view/ViewGroupKt;->getChildren(Landroid/view/ViewGroup;)Lkotlin/sequences/g;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    invoke-interface {p1}, Lvm/m;->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Lkotlin/sequences/g;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 

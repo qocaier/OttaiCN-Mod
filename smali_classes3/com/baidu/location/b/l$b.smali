@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lyn/m;
+.implements La9/q;
 
 
 # annotations
@@ -90,9 +90,9 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Lyn/m;->d:Lyn/m;
+    sget-object v0, La9/q;->d:La9/q;
 
-    invoke-interface {v0, p1}, Lyn/m;->lookup(Ljava/lang/String;)Ljava/util/List;
+    invoke-interface {v0, p1}, La9/q;->lookup(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
@@ -185,9 +185,9 @@
     return-object p1
 
     :cond_3
-    sget-object v0, Lyn/m;->d:Lyn/m;
+    sget-object v0, La9/q;->d:La9/q;
 
-    invoke-interface {v0, p1}, Lyn/m;->lookup(Ljava/lang/String;)Ljava/util/List;
+    invoke-interface {v0, p1}, La9/q;->lookup(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 

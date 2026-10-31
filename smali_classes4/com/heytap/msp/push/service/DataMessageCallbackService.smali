@@ -32,7 +32,7 @@
 
     invoke-direct {p2, p0, p1}, Lcom/heytap/msp/push/service/DataMessageCallbackService$1;-><init>(Lcom/heytap/msp/push/service/DataMessageCallbackService;Landroid/content/Intent;)V
 
-    invoke-static {p2}, Lbe/i;->a(Ljava/lang/Runnable;)V
+    invoke-static {p2}, Lk5/h;->a(Ljava/lang/Runnable;)V
 
     const/4 p1, 0x2
 
@@ -80,7 +80,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Lbe/g;->g(Ljava/lang/String;)V
+    invoke-static {p1}, Lk5/f;->b(Ljava/lang/String;)V
 
     return-void
 .end method

@@ -168,6 +168,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentType()I
@@ -200,6 +201,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFlags()I
@@ -232,6 +234,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLegacyStreamType()I
@@ -281,6 +284,7 @@
 
     .line 20
     return v0
+    .line 21
 .end method
 
 .method public getRawLegacyStreamType()I
@@ -309,6 +313,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUsage()I
@@ -341,6 +346,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVolumeControlStream()I
@@ -381,6 +387,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -413,6 +420,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -457,4 +465,5 @@
 
     .line 20
     return-object v0
+    .line 21
 .end method

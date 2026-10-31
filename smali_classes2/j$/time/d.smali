@@ -4,7 +4,7 @@
 
 
 # direct methods
-.method public static a(Ljava/lang/String;Lj$/time/temporal/o;)Ljava/lang/String;
+.method public static a(Ljava/lang/String;Lj$/time/temporal/r;)Ljava/lang/String;
     .locals 1
 
     .line 0

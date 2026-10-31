@@ -3,40 +3,36 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroidx/core/util/Consumer;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/core/imagecapture/TakePictureManager;
-
-.field public final synthetic b:Landroidx/camera/core/imagecapture/RequestWithCallback;
+.field public final synthetic a:Landroidx/camera/core/imagecapture/SingleBundlingNode;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/core/imagecapture/TakePictureManager;Landroidx/camera/core/imagecapture/RequestWithCallback;)V
+.method public synthetic constructor <init>(Landroidx/camera/core/imagecapture/SingleBundlingNode;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/core/imagecapture/n;->a:Landroidx/camera/core/imagecapture/TakePictureManager;
-
-    iput-object p2, p0, Landroidx/camera/core/imagecapture/n;->b:Landroidx/camera/core/imagecapture/RequestWithCallback;
+    iput-object p1, p0, Landroidx/camera/core/imagecapture/n;->a:Landroidx/camera/core/imagecapture/SingleBundlingNode;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 2
+.method public final accept(Ljava/lang/Object;)V
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/core/imagecapture/n;->a:Landroidx/camera/core/imagecapture/TakePictureManager;
+    iget-object v0, p0, Landroidx/camera/core/imagecapture/n;->a:Landroidx/camera/core/imagecapture/SingleBundlingNode;
 
-    iget-object v1, p0, Landroidx/camera/core/imagecapture/n;->b:Landroidx/camera/core/imagecapture/RequestWithCallback;
+    check-cast p1, Landroidx/camera/core/imagecapture/ProcessingRequest;
 
-    invoke-static {v0, v1}, Landroidx/camera/core/imagecapture/TakePictureManager;->b(Landroidx/camera/core/imagecapture/TakePictureManager;Landroidx/camera/core/imagecapture/RequestWithCallback;)V
+    invoke-static {v0, p1}, Landroidx/camera/core/imagecapture/SingleBundlingNode;->a(Landroidx/camera/core/imagecapture/SingleBundlingNode;Landroidx/camera/core/imagecapture/ProcessingRequest;)V
 
     return-void
 .end method

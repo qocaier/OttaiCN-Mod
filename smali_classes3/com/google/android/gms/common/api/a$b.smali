@@ -4,9 +4,6 @@
 
 
 # annotations
-.annotation build Lb9/a;
-.end annotation
-
 .annotation system Ldalvik/annotation/EnclosingClass;
     value = Lcom/google/android/gms/common/api/a;
 .end annotation

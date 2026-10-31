@@ -56,6 +56,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static a()Lcom/qiyukf/i80;
@@ -1094,9 +1096,9 @@
     .line 10
     iget-object v0, p0, Lcom/qiyukf/i80;->a:Landroid/os/Handler;
 
-    new-instance v1, Lvg/w;
+    new-instance v1, Lcom/qiyukf/qe0;
 
-    invoke-direct {v1, p0, p1}, Lvg/w;-><init>(Lcom/qiyukf/i80;I)V
+    invoke-direct {v1, p0, p1}, Lcom/qiyukf/qe0;-><init>(Lcom/qiyukf/i80;I)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -1114,9 +1116,9 @@
     :cond_0
     iget-object v0, p0, Lcom/qiyukf/i80;->a:Landroid/os/Handler;
 
-    new-instance v1, Lvg/s;
+    new-instance v1, Lcom/qiyukf/me0;
 
-    invoke-direct {v1, p0, p1}, Lvg/s;-><init>(Lcom/qiyukf/i80;Lcom/qiyukf/wj;)V
+    invoke-direct {v1, p0, p1}, Lcom/qiyukf/me0;-><init>(Lcom/qiyukf/i80;Lcom/qiyukf/wj;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -1129,9 +1131,9 @@
     .line 7
     iget-object v0, p0, Lcom/qiyukf/i80;->a:Landroid/os/Handler;
 
-    new-instance v1, Lvg/u;
+    new-instance v1, Lcom/qiyukf/oe0;
 
-    invoke-direct {v1, p0, p1}, Lvg/u;-><init>(Lcom/qiyukf/i80;Ljava/lang/String;)V
+    invoke-direct {v1, p0, p1}, Lcom/qiyukf/oe0;-><init>(Lcom/qiyukf/i80;Ljava/lang/String;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -1144,9 +1146,9 @@
     .line 8
     iget-object v0, p0, Lcom/qiyukf/i80;->a:Landroid/os/Handler;
 
-    new-instance v1, Lvg/t;
+    new-instance v1, Lcom/qiyukf/ne0;
 
-    invoke-direct {v1, p0, p1, p2}, Lvg/t;-><init>(Lcom/qiyukf/i80;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, p0, p1, p2}, Lcom/qiyukf/ne0;-><init>(Lcom/qiyukf/i80;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -1159,9 +1161,9 @@
     .line 2
     iget-object v0, p0, Lcom/qiyukf/i80;->a:Landroid/os/Handler;
 
-    new-instance v1, Lvg/v;
+    new-instance v1, Lcom/qiyukf/pe0;
 
-    invoke-direct {v1, p0, p1}, Lvg/v;-><init>(Lcom/qiyukf/i80;Lcom/qiyukf/xj;)V
+    invoke-direct {v1, p0, p1}, Lcom/qiyukf/pe0;-><init>(Lcom/qiyukf/i80;Lcom/qiyukf/xj;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

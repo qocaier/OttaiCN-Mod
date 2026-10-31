@@ -3,50 +3,52 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/camera/core/impl/utils/futures/AsyncFunction;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;
+.field public final synthetic a:Landroidx/camera/camera2/internal/Camera2CameraImpl;
 
-.field public final synthetic b:Ljava/util/List;
+.field public final synthetic b:Ljava/lang/String;
 
-.field public final synthetic c:I
+.field public final synthetic c:Landroidx/camera/core/impl/SessionConfig;
+
+.field public final synthetic d:Landroidx/camera/core/impl/UseCaseConfig;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;Ljava/util/List;I)V
+.method public synthetic constructor <init>(Landroidx/camera/camera2/internal/Camera2CameraImpl;Ljava/lang/String;Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/UseCaseConfig;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/camera2/internal/g0;->a:Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;
+    iput-object p1, p0, Landroidx/camera/camera2/internal/g0;->a:Landroidx/camera/camera2/internal/Camera2CameraImpl;
 
-    iput-object p2, p0, Landroidx/camera/camera2/internal/g0;->b:Ljava/util/List;
+    iput-object p2, p0, Landroidx/camera/camera2/internal/g0;->b:Ljava/lang/String;
 
-    iput p3, p0, Landroidx/camera/camera2/internal/g0;->c:I
+    iput-object p3, p0, Landroidx/camera/camera2/internal/g0;->c:Landroidx/camera/core/impl/SessionConfig;
+
+    iput-object p4, p0, Landroidx/camera/camera2/internal/g0;->d:Landroidx/camera/core/impl/UseCaseConfig;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final apply(Ljava/lang/Object;)Lub/u0;
-    .locals 3
+.method public final run()V
+    .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/camera2/internal/g0;->a:Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;
+    iget-object v0, p0, Landroidx/camera/camera2/internal/g0;->a:Landroidx/camera/camera2/internal/Camera2CameraImpl;
 
-    iget-object v1, p0, Landroidx/camera/camera2/internal/g0;->b:Ljava/util/List;
+    iget-object v1, p0, Landroidx/camera/camera2/internal/g0;->b:Ljava/lang/String;
 
-    iget v2, p0, Landroidx/camera/camera2/internal/g0;->c:I
+    iget-object v2, p0, Landroidx/camera/camera2/internal/g0;->c:Landroidx/camera/core/impl/SessionConfig;
 
-    check-cast p1, Landroid/hardware/camera2/TotalCaptureResult;
+    iget-object v3, p0, Landroidx/camera/camera2/internal/g0;->d:Landroidx/camera/core/impl/UseCaseConfig;
 
-    invoke-static {v0, v1, v2, p1}, Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;->c(Landroidx/camera/camera2/internal/Camera2CapturePipeline$Pipeline;Ljava/util/List;ILandroid/hardware/camera2/TotalCaptureResult;)Lub/u0;
+    invoke-static {v0, v1, v2, v3}, Landroidx/camera/camera2/internal/Camera2CameraImpl;->e(Landroidx/camera/camera2/internal/Camera2CameraImpl;Ljava/lang/String;Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/UseCaseConfig;)V
 
-    move-result-object p1
-
-    return-object p1
+    return-void
 .end method

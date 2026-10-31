@@ -3,73 +3,19 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nTextView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextView.kt\nandroidx/core/widget/TextViewKt\n*L\n1#1,88:1\n55#1,12:89\n84#1,3:101\n55#1,12:104\n84#1,3:116\n55#1,12:119\n84#1,3:131\n*S KotlinDebug\n*F\n+ 1 TextView.kt\nandroidx/core/widget/TextViewKt\n*L\n30#1:89,12\n30#1:101,3\n39#1:104,12\n39#1:116,3\n48#1:119,12\n48#1:131,3\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nTextView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextView.kt\nandroidx/core/widget/TextViewKt\n*L\n1#1,88:1\n55#1,12:89\n84#1,3:101\n55#1,12:104\n84#1,3:116\n55#1,12:119\n84#1,3:131\n*S KotlinDebug\n*F\n+ 1 TextView.kt\nandroidx/core/widget/TextViewKt\n*L\n30#1:89,12\n30#1:101,3\n39#1:104,12\n39#1:116,3\n48#1:119,12\n48#1:131,3\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
-.method public static final addTextChangedListener(Landroid/widget/TextView;Ljm/r;Ljm/r;Ljm/l;)Landroid/text/TextWatcher;
+.method public static final addTextChangedListener(Landroid/widget/TextView;Lq8/r;Lq8/r;Lq8/l;)Landroid/text/TextWatcher;
     .locals 1
-    .param p0    # Landroid/widget/TextView;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/r;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/r;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/widget/TextView;",
-            "Ljm/r<",
-            "-",
-            "Ljava/lang/CharSequence;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/r<",
-            "-",
-            "Ljava/lang/CharSequence;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljl/e2;",
-            ">;",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/Editable;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/r;",
+            "Lq8/r;",
+            "Lq8/l;",
+            ")",
             "Landroid/text/TextWatcher;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -77,7 +23,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p3, p1, p2}, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;-><init>(Ljm/l;Ljm/r;Ljm/r;)V
+    invoke-direct {v0, p3, p1, p2}, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;-><init>(Lq8/l;Lq8/r;Lq8/r;)V
 
     .line 4
     .line 5
@@ -309,9 +255,15 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static synthetic addTextChangedListener$default(Landroid/widget/TextView;Ljm/r;Ljm/r;Ljm/l;ILjava/lang/Object;)Landroid/text/TextWatcher;
+.method public static synthetic addTextChangedListener$default(Landroid/widget/TextView;Lq8/r;Lq8/r;Lq8/l;ILjava/lang/Object;)Landroid/text/TextWatcher;
     .locals 0
 
     .line 1
@@ -358,7 +310,7 @@
 
     .line 20
     .line 21
-    invoke-direct {p4, p3, p1, p2}, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;-><init>(Ljm/l;Ljm/r;Ljm/r;)V
+    invoke-direct {p4, p3, p1, p2}, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;-><init>(Lq8/l;Lq8/r;Lq8/r;)V
 
     .line 22
     .line 23
@@ -1352,30 +1304,16 @@
     .line 1008
 .end method
 
-.method public static final doAfterTextChanged(Landroid/widget/TextView;Ljm/l;)Landroid/text/TextWatcher;
+.method public static final doAfterTextChanged(Landroid/widget/TextView;Lq8/l;)Landroid/text/TextWatcher;
     .locals 1
-    .param p0    # Landroid/widget/TextView;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/widget/TextView;",
-            "Ljm/l<",
-            "-",
-            "Landroid/text/Editable;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroid/text/TextWatcher;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1383,7 +1321,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/widget/TextViewKt$doAfterTextChanged$$inlined$addTextChangedListener$default$1;-><init>(Ljm/l;)V
+    invoke-direct {v0, p1}, Landroidx/core/widget/TextViewKt$doAfterTextChanged$$inlined$addTextChangedListener$default$1;-><init>(Lq8/l;)V
 
     .line 4
     .line 5
@@ -1435,36 +1373,16 @@
     .line 48
 .end method
 
-.method public static final doBeforeTextChanged(Landroid/widget/TextView;Ljm/r;)Landroid/text/TextWatcher;
+.method public static final doBeforeTextChanged(Landroid/widget/TextView;Lq8/r;)Landroid/text/TextWatcher;
     .locals 1
-    .param p0    # Landroid/widget/TextView;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/r;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/widget/TextView;",
-            "Ljm/r<",
-            "-",
-            "Ljava/lang/CharSequence;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/r;",
+            ")",
             "Landroid/text/TextWatcher;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1472,7 +1390,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/widget/TextViewKt$doBeforeTextChanged$$inlined$addTextChangedListener$default$1;-><init>(Ljm/r;)V
+    invoke-direct {v0, p1}, Landroidx/core/widget/TextViewKt$doBeforeTextChanged$$inlined$addTextChangedListener$default$1;-><init>(Lq8/r;)V
 
     .line 4
     .line 5
@@ -1524,36 +1442,16 @@
     .line 48
 .end method
 
-.method public static final doOnTextChanged(Landroid/widget/TextView;Ljm/r;)Landroid/text/TextWatcher;
+.method public static final doOnTextChanged(Landroid/widget/TextView;Lq8/r;)Landroid/text/TextWatcher;
     .locals 1
-    .param p0    # Landroid/widget/TextView;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/r;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/widget/TextView;",
-            "Ljm/r<",
-            "-",
-            "Ljava/lang/CharSequence;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "-",
-            "Ljava/lang/Integer;",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/r;",
+            ")",
             "Landroid/text/TextWatcher;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -1561,7 +1459,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/widget/TextViewKt$doOnTextChanged$$inlined$addTextChangedListener$default$1;-><init>(Ljm/r;)V
+    invoke-direct {v0, p1}, Landroidx/core/widget/TextViewKt$doOnTextChanged$$inlined$addTextChangedListener$default$1;-><init>(Lq8/r;)V
 
     .line 4
     .line 5

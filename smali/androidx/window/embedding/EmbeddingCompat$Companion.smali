@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -33,11 +33,11 @@
     return-void
 .end method
 
-.method public static synthetic a(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljl/e2;
+.method public static synthetic a(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Lkotlin/j;
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/window/embedding/EmbeddingCompat$Companion;->emptyActivityEmbeddingProxy$lambda$2(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljl/e2;
+    invoke-static {p0, p1, p2}, Landroidx/window/embedding/EmbeddingCompat$Companion;->emptyActivityEmbeddingProxy$lambda$2(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Lkotlin/j;
 
     move-result-object p0
 
@@ -72,11 +72,11 @@
     move-result-object v1
 
     .line 13
-    new-instance v2, La2/m;
+    new-instance v2, Landroidx/window/embedding/m;
 
     .line 14
     .line 15
-    invoke-direct {v2}, La2/m;-><init>()V
+    invoke-direct {v2}, Landroidx/window/embedding/m;-><init>()V
 
     .line 16
     .line 17
@@ -93,7 +93,7 @@
 
     .line 23
     .line 24
-    invoke-static {v0, v1}, Lkm/g0;->n(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -158,13 +158,15 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method private static final emptyActivityEmbeddingProxy$lambda$2(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljl/e2;
+.method private static final emptyActivityEmbeddingProxy$lambda$2(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Lkotlin/j;
     .locals 0
 
     .line 1
-    sget-object p0, Ljl/e2;->a:Ljl/e2;
+    sget-object p0, Lkotlin/j;->a:Lkotlin/j;
 
     .line 2
     .line 3
@@ -279,14 +281,15 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
 # virtual methods
 .method public final embeddingComponent()Landroidx/window/extensions/embedding/ActivityEmbeddingComponent;
     .locals 5
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/window/embedding/EmbeddingCompat$Companion;->isEmbeddingAvailable()Z
@@ -342,7 +345,7 @@
 
     .line 27
     .line 28
-    invoke-static {v3, v4}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v4}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -427,6 +430,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final isEmbeddingAvailable()Z
@@ -482,7 +487,7 @@
 
     .line 24
     .line 25
-    invoke-static {v5, v6}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v6}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -575,4 +580,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

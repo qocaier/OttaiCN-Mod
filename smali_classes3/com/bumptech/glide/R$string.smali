@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/bumptech/glide/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "string"
-.end annotation
-
-
 # static fields
 .field public static abc_action_bar_home_description:I = 0x7f110000
 
@@ -69,9 +58,9 @@
 
 .field public static abc_toolbar_collapse_description:I = 0x7f11001a
 
-.field public static search_menu_title:I = 0x7f1100de
+.field public static search_menu_title:I = 0x7f1100db
 
-.field public static status_bar_notification_info_overflow:I = 0x7f1100e5
+.field public static status_bar_notification_info_overflow:I = 0x7f1100e2
 
 
 # direct methods

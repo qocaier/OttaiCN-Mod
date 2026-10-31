@@ -99,6 +99,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getConfigByClient(I)Ljava/lang/String;
@@ -149,6 +151,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public getEventId()Ljava/lang/String;
@@ -177,6 +181,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEventType()I
@@ -205,6 +211,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEventValue()I
@@ -233,6 +241,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getExpiry()J
@@ -261,6 +271,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMultiClientConfig()Ljava/lang/String;
@@ -289,6 +301,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNimConfig()Ljava/lang/String;
@@ -317,6 +331,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPublishTime()J
@@ -345,6 +361,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPublisherAccount()Ljava/lang/String;
@@ -373,6 +391,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getPublisherClientType()I
@@ -401,6 +421,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isBroadcastOnlineOnly()Z
@@ -429,6 +451,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isSyncSelfEnable()Z
@@ -457,6 +481,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setBroadcastOnlineOnly(Z)V
@@ -490,6 +516,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setConfig(Ljava/lang/String;)V
@@ -523,6 +551,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEventType(I)V
@@ -556,6 +586,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEventValue(I)V
@@ -589,6 +621,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setExpiry(J)V
@@ -622,6 +656,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSyncSelfEnable(Z)V
@@ -655,4 +691,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

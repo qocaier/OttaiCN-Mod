@@ -50,6 +50,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -63,16 +64,6 @@
 
 .method public bridge synthetic createIntent(Landroid/content/Context;Ljava/lang/Object;)Landroid/content/Intent;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            null,
-            null
-        }
-    .end annotation
 
     .line 2
     check-cast p2, Landroid/content/Intent;
@@ -127,16 +118,6 @@
 
 .method public bridge synthetic parseResult(ILandroid/content/Intent;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            null,
-            null
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroidx/browser/auth/AuthTabIntent$AuthenticateUserResultContract;->parseResult(ILandroid/content/Intent;)Landroidx/browser/auth/AuthTabIntent$AuthResult;

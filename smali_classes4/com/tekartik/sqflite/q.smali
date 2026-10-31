@@ -7,25 +7,25 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/tekartik/sqflite/Database;
+.field public final synthetic a:Lio/flutter/plugin/common/MethodCall;
 
-.field public final synthetic b:Lio/flutter/plugin/common/MethodCall;
+.field public final synthetic b:Lio/flutter/plugin/common/MethodChannel$Result;
 
-.field public final synthetic c:Lio/flutter/plugin/common/MethodChannel$Result;
+.field public final synthetic c:Lcom/tekartik/sqflite/Database;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/tekartik/sqflite/Database;Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;)V
+.method public synthetic constructor <init>(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;Lcom/tekartik/sqflite/Database;)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/tekartik/sqflite/q;->a:Lcom/tekartik/sqflite/Database;
+    iput-object p1, p0, Lcom/tekartik/sqflite/q;->a:Lio/flutter/plugin/common/MethodCall;
 
-    iput-object p2, p0, Lcom/tekartik/sqflite/q;->b:Lio/flutter/plugin/common/MethodCall;
+    iput-object p2, p0, Lcom/tekartik/sqflite/q;->b:Lio/flutter/plugin/common/MethodChannel$Result;
 
-    iput-object p3, p0, Lcom/tekartik/sqflite/q;->c:Lio/flutter/plugin/common/MethodChannel$Result;
+    iput-object p3, p0, Lcom/tekartik/sqflite/q;->c:Lcom/tekartik/sqflite/Database;
 
     return-void
 .end method
@@ -36,13 +36,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/tekartik/sqflite/q;->a:Lcom/tekartik/sqflite/Database;
+    iget-object v0, p0, Lcom/tekartik/sqflite/q;->a:Lio/flutter/plugin/common/MethodCall;
 
-    iget-object v1, p0, Lcom/tekartik/sqflite/q;->b:Lio/flutter/plugin/common/MethodCall;
+    iget-object v1, p0, Lcom/tekartik/sqflite/q;->b:Lio/flutter/plugin/common/MethodChannel$Result;
 
-    iget-object v2, p0, Lcom/tekartik/sqflite/q;->c:Lio/flutter/plugin/common/MethodChannel$Result;
+    iget-object v2, p0, Lcom/tekartik/sqflite/q;->c:Lcom/tekartik/sqflite/Database;
 
-    invoke-static {v0, v1, v2}, Lcom/tekartik/sqflite/SqflitePlugin;->c(Lcom/tekartik/sqflite/Database;Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;)V
+    invoke-static {v0, v1, v2}, Lcom/tekartik/sqflite/SqflitePlugin;->f(Lio/flutter/plugin/common/MethodCall;Lio/flutter/plugin/common/MethodChannel$Result;Lcom/tekartik/sqflite/Database;)V
 
     return-void
 .end method

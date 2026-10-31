@@ -217,247 +217,245 @@
     .line 66
     .line 67
     :try_start_0
-    const-string p2, "com.umeng.message.PushAgent"
+    const-class p2, Lcom/umeng/message/PushAgent;
 
     .line 68
     .line 69
-    invoke-static {p2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+    sget v2, Lcom/umeng/message/PushAgent;->a:I
 
     .line 70
     .line 71
-    .line 72
-    move-result-object p2
-
-    .line 73
     const-string v2, "getInstance"
+
+    .line 72
+    .line 73
+    const-class v3, Landroid/content/Context;
 
     .line 74
     .line 75
-    const-class v3, Landroid/content/Context;
+    filled-new-array {v3}, [Ljava/lang/Class;
 
     .line 76
     .line 77
-    filled-new-array {v3}, [Ljava/lang/Class;
-
     .line 78
-    .line 79
-    .line 80
     move-result-object v3
 
-    .line 81
+    .line 79
     invoke-virtual {p2, v2, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
+    .line 80
+    .line 81
     .line 82
-    .line 83
-    .line 84
     move-result-object v2
 
-    .line 85
+    .line 83
     filled-new-array {p1}, [Ljava/lang/Object;
 
+    .line 84
+    .line 85
     .line 86
-    .line 87
-    .line 88
     move-result-object v3
 
-    .line 89
+    .line 87
     invoke-virtual {v2, v1, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
+    .line 88
+    .line 89
     .line 90
-    .line 91
-    .line 92
     move-result-object v1
 
-    .line 93
+    .line 91
     const-string v2, "getRegisterCallback"
+
+    .line 92
+    .line 93
+    new-array v3, v0, [Ljava/lang/Class;
 
     .line 94
     .line 95
-    new-array v3, v0, [Ljava/lang/Class;
+    invoke-virtual {p2, v2, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 96
     .line 97
-    invoke-virtual {p2, v2, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
-
     .line 98
-    .line 99
-    .line 100
     move-result-object v2
 
-    .line 101
+    .line 99
     new-array v3, v0, [Ljava/lang/Object;
+
+    .line 100
+    .line 101
+    invoke-virtual {v2, v1, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 102
     .line 103
-    invoke-virtual {v2, v1, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
-
     .line 104
-    .line 105
-    .line 106
     move-result-object v2
 
-    .line 107
+    .line 105
     const-class v3, Lcom/umeng/message/api/UPushRegisterCallback;
+
+    .line 106
+    .line 107
+    const-string v4, "register"
 
     .line 108
     .line 109
-    const-string v4, "register"
+    filled-new-array {v3}, [Ljava/lang/Class;
 
     .line 110
     .line 111
-    filled-new-array {v3}, [Ljava/lang/Class;
-
     .line 112
-    .line 113
-    .line 114
     move-result-object v3
 
-    .line 115
+    .line 113
     invoke-virtual {p2, v4, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
+    .line 114
+    .line 115
     .line 116
-    .line 117
-    .line 118
     move-result-object p2
 
-    .line 119
+    .line 117
     filled-new-array {v2}, [Ljava/lang/Object;
 
+    .line 118
+    .line 119
     .line 120
-    .line 121
-    .line 122
     move-result-object v2
 
-    .line 123
+    .line 121
     invoke-virtual {p2, v1, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
+    .line 122
+    .line 123
     .line 124
-    .line 125
-    .line 126
     invoke-static {p3}, Lcom/taobao/accs/AccsClientConfig;->getConfigByTag(Ljava/lang/String;)Lcom/taobao/accs/AccsClientConfig;
 
+    .line 125
+    .line 126
     .line 127
-    .line 128
-    .line 129
     move-result-object p2
 
-    .line 130
+    .line 128
     iput-object p2, p0, Lcom/taobao/accs/net/a;->i:Lcom/taobao/accs/AccsClientConfig;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 131
-    .line 132
+    .line 129
+    .line 130
     goto :goto_0
 
-    .line 133
+    .line 131
     :catchall_0
     move-exception p2
 
-    .line 134
+    .line 132
     invoke-virtual {p0}, Lcom/taobao/accs/net/a;->d()Ljava/lang/String;
 
+    .line 133
+    .line 134
     .line 135
-    .line 136
-    .line 137
     move-result-object p3
 
-    .line 138
+    .line 136
     const-string v1, "BaseConnection build config"
+
+    .line 137
+    .line 138
+    new-array v2, v0, [Ljava/lang/Object;
 
     .line 139
     .line 140
-    new-array v2, v0, [Ljava/lang/Object;
+    invoke-static {p3, v1, p2, v2}, Lcom/taobao/accs/utl/ALog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
 
     .line 141
     .line 142
-    invoke-static {p3, v1, p2, v2}, Lcom/taobao/accs/utl/ALog;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;[Ljava/lang/Object;)V
-
     .line 143
-    .line 144
-    .line 145
     :cond_0
     :goto_0
     iget-object p2, p0, Lcom/taobao/accs/net/a;->i:Lcom/taobao/accs/AccsClientConfig;
 
+    .line 144
+    .line 145
+    if-eqz p2, :cond_1
+
     .line 146
     .line 147
-    if-eqz p2, :cond_1
+    invoke-virtual {p2}, Lcom/taobao/accs/AccsClientConfig;->getTag()Ljava/lang/String;
 
     .line 148
     .line 149
-    invoke-virtual {p2}, Lcom/taobao/accs/AccsClientConfig;->getTag()Ljava/lang/String;
-
     .line 150
-    .line 151
-    .line 152
     move-result-object p2
 
-    .line 153
+    .line 151
     iput-object p2, p0, Lcom/taobao/accs/net/a;->m:Ljava/lang/String;
+
+    .line 152
+    .line 153
+    iget-object p2, p0, Lcom/taobao/accs/net/a;->i:Lcom/taobao/accs/AccsClientConfig;
 
     .line 154
     .line 155
-    iget-object p2, p0, Lcom/taobao/accs/net/a;->i:Lcom/taobao/accs/AccsClientConfig;
+    invoke-virtual {p2}, Lcom/taobao/accs/AccsClientConfig;->getAppKey()Ljava/lang/String;
 
     .line 156
     .line 157
-    invoke-virtual {p2}, Lcom/taobao/accs/AccsClientConfig;->getAppKey()Ljava/lang/String;
-
     .line 158
-    .line 159
-    .line 160
     move-result-object p2
 
-    .line 161
+    .line 159
     iput-object p2, p0, Lcom/taobao/accs/net/a;->b:Ljava/lang/String;
 
-    .line 162
-    .line 163
+    .line 160
+    .line 161
     :cond_1
     new-instance p2, Lcom/taobao/accs/data/d;
 
-    .line 164
-    .line 165
+    .line 162
+    .line 163
     invoke-direct {p2, p1, p0}, Lcom/taobao/accs/data/d;-><init>(Landroid/content/Context;Lcom/taobao/accs/net/a;)V
 
+    .line 164
+    .line 165
     .line 166
+    iput-object p2, p0, Lcom/taobao/accs/net/a;->e:Lcom/taobao/accs/data/d;
+
     .line 167
     .line 168
-    iput-object p2, p0, Lcom/taobao/accs/net/a;->e:Lcom/taobao/accs/data/d;
+    iget p1, p0, Lcom/taobao/accs/net/a;->c:I
 
     .line 169
     .line 170
-    iget p1, p0, Lcom/taobao/accs/net/a;->c:I
+    iput p1, p2, Lcom/taobao/accs/data/d;->b:I
 
     .line 171
     .line 172
-    iput p1, p2, Lcom/taobao/accs/data/d;->b:I
+    invoke-virtual {p0}, Lcom/taobao/accs/net/a;->d()Ljava/lang/String;
 
     .line 173
     .line 174
-    invoke-virtual {p0}, Lcom/taobao/accs/net/a;->d()Ljava/lang/String;
-
     .line 175
-    .line 176
-    .line 177
     move-result-object p1
 
-    .line 178
+    .line 176
     const-string p2, "new connection"
+
+    .line 177
+    .line 178
+    new-array p3, v0, [Ljava/lang/Object;
 
     .line 179
     .line 180
-    new-array p3, v0, [Ljava/lang/Object;
+    invoke-static {p1, p2, p3}, Lcom/taobao/accs/utl/ALog;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 181
     .line 182
-    invoke-static {p1, p2, p3}, Lcom/taobao/accs/utl/ALog;->d(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
-
     .line 183
+    return-void
     .line 184
     .line 185
-    return-void
     .line 186
     .line 187
     .line 188
@@ -1037,6 +1035,61 @@
     .line 762
     .line 763
     .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
 .end method
 
 
@@ -2518,6 +2571,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public g()V
@@ -2553,6 +2607,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public h()Z
@@ -2589,6 +2645,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public j()Lcom/taobao/accs/client/b;
@@ -2712,6 +2770,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public k()V
@@ -2832,6 +2891,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public l()Z
@@ -2875,6 +2935,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public m()Z
@@ -2919,4 +2981,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

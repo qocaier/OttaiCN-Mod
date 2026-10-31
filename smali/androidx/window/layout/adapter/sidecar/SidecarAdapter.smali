@@ -10,31 +10,15 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSidecarAdapter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SidecarAdapter.kt\nandroidx/window/layout/adapter/sidecar/SidecarAdapter\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,329:1\n1603#2,9:330\n1855#2:339\n1856#2:341\n1612#2:342\n1#3:340\n*S KotlinDebug\n*F\n+ 1 SidecarAdapter.kt\nandroidx/window/layout/adapter/sidecar/SidecarAdapter\n*L\n50#1:330,9\n50#1:339\n50#1:341\n50#1:342\n50#1:340\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSidecarAdapter.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SidecarAdapter.kt\nandroidx/window/layout/adapter/sidecar/SidecarAdapter\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,329:1\n1603#2,9:330\n1855#2:339\n1856#2:341\n1612#2:342\n1#3:340\n*S KotlinDebug\n*F\n+ 1 SidecarAdapter.kt\nandroidx/window/layout/adapter/sidecar/SidecarAdapter\n*L\n50#1:330,9\n50#1:339\n50#1:341\n50#1:342\n50#1:340\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field public static final Companion:Landroidx/window/layout/adapter/sidecar/SidecarAdapter$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final TAG:Ljava/lang/String;
 
 
 # instance fields
 .field private final verificationMode:Landroidx/window/core/VerificationMode;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -49,7 +33,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/window/layout/adapter/sidecar/SidecarAdapter$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/window/layout/adapter/sidecar/SidecarAdapter$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -78,6 +62,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -88,21 +73,17 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1, v0}, Landroidx/window/layout/adapter/sidecar/SidecarAdapter;-><init>(Landroidx/window/core/VerificationMode;ILkm/v;)V
+    invoke-direct {p0, v0, v1, v0}, Landroidx/window/layout/adapter/sidecar/SidecarAdapter;-><init>(Landroidx/window/core/VerificationMode;ILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
 
 .method public constructor <init>(Landroidx/window/core/VerificationMode;)V
     .locals 1
-    .param p1    # Landroidx/window/core/VerificationMode;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "verificationMode"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -112,7 +93,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Landroidx/window/core/VerificationMode;ILkm/v;)V
+.method public synthetic constructor <init>(Landroidx/window/core/VerificationMode;ILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p2, p2, 0x1
@@ -132,7 +113,7 @@
     .locals 3
 
     .line 1
-    invoke-static {p1, p2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 2
     .line 3
@@ -210,7 +191,7 @@
     move-result-object p2
 
     .line 35
-    invoke-static {p1, p2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -545,23 +526,18 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
 # virtual methods
 .method public final isEqualSidecarDeviceState(Landroidx/window/sidecar/SidecarDeviceState;Landroidx/window/sidecar/SidecarDeviceState;)Z
     .locals 3
-    .param p1    # Landroidx/window/sidecar/SidecarDeviceState;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/sidecar/SidecarDeviceState;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1, p2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 2
     .line 3
@@ -651,17 +627,9 @@
 
 .method public final isEqualSidecarWindowLayoutInfo(Landroidx/window/sidecar/SidecarWindowLayoutInfo;Landroidx/window/sidecar/SidecarWindowLayoutInfo;)Z
     .locals 1
-    .param p1    # Landroidx/window/sidecar/SidecarWindowLayoutInfo;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/sidecar/SidecarWindowLayoutInfo;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1, p2}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 2
     .line 3
@@ -750,27 +718,17 @@
 
 .method public final translate(Landroidx/window/sidecar/SidecarWindowLayoutInfo;Landroidx/window/sidecar/SidecarDeviceState;)Landroidx/window/layout/WindowLayoutInfo;
     .locals 2
-    .param p1    # Landroidx/window/sidecar/SidecarWindowLayoutInfo;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/sidecar/SidecarDeviceState;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "state"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-nez p1, :cond_0
 
     .line 7
     new-instance p1, Landroidx/window/layout/WindowLayoutInfo;
 
-    invoke-static {}, Lll/h0;->J()Ljava/util/List;
+    invoke-static {}, Lkotlin/collections/r;->l()Ljava/util/List;
 
     move-result-object p2
 
@@ -814,14 +772,6 @@
 
 .method public final translate(Ljava/util/List;Landroidx/window/sidecar/SidecarDeviceState;)Ljava/util/List;
     .locals 2
-    .param p1    # Ljava/util/List;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/sidecar/SidecarDeviceState;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -836,16 +786,13 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const-string v0, "sidecarDisplayFeatures"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "deviceState"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     check-cast p1, Ljava/lang/Iterable;
@@ -893,23 +840,13 @@
 
 .method public final translate$window_release(Landroidx/window/sidecar/SidecarDisplayFeature;Landroidx/window/sidecar/SidecarDeviceState;)Landroidx/window/layout/DisplayFeature;
     .locals 8
-    .param p1    # Landroidx/window/sidecar/SidecarDisplayFeature;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/window/sidecar/SidecarDeviceState;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const-string v0, "feature"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -918,7 +855,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -935,7 +872,7 @@
 
     .line 16
     .line 17
-    invoke-static {v3, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v3, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -972,7 +909,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {p1, v0, v1}, Landroidx/window/core/SpecificationComputer;->require(Ljava/lang/String;Ljm/l;)Landroidx/window/core/SpecificationComputer;
+    invoke-virtual {p1, v0, v1}, Landroidx/window/core/SpecificationComputer;->require(Ljava/lang/String;Lq8/l;)Landroidx/window/core/SpecificationComputer;
 
     .line 35
     .line 36
@@ -988,7 +925,7 @@
 
     .line 41
     .line 42
-    invoke-virtual {p1, v0, v1}, Landroidx/window/core/SpecificationComputer;->require(Ljava/lang/String;Ljm/l;)Landroidx/window/core/SpecificationComputer;
+    invoke-virtual {p1, v0, v1}, Landroidx/window/core/SpecificationComputer;->require(Ljava/lang/String;Lq8/l;)Landroidx/window/core/SpecificationComputer;
 
     .line 43
     .line 44
@@ -1004,7 +941,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {p1, v0, v1}, Landroidx/window/core/SpecificationComputer;->require(Ljava/lang/String;Ljm/l;)Landroidx/window/core/SpecificationComputer;
+    invoke-virtual {p1, v0, v1}, Landroidx/window/core/SpecificationComputer;->require(Ljava/lang/String;Lq8/l;)Landroidx/window/core/SpecificationComputer;
 
     .line 51
     .line 52
@@ -1020,7 +957,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {p1, v0, v1}, Landroidx/window/core/SpecificationComputer;->require(Ljava/lang/String;Ljm/l;)Landroidx/window/core/SpecificationComputer;
+    invoke-virtual {p1, v0, v1}, Landroidx/window/core/SpecificationComputer;->require(Ljava/lang/String;Lq8/l;)Landroidx/window/core/SpecificationComputer;
 
     .line 59
     .line 60
@@ -1185,7 +1122,7 @@
 
     .line 131
     .line 132
-    invoke-static {v2, v3}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 133
     .line 134
@@ -1294,4 +1231,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

@@ -42,11 +42,11 @@
     .locals 1
 
     .line 1
-    new-instance v0, Li/a;
+    new-instance v0, Landroidx/arch/core/executor/a;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Li/a;-><init>()V
+    invoke-direct {v0}, Landroidx/arch/core/executor/a;-><init>()V
 
     .line 4
     .line 5
@@ -55,11 +55,11 @@
 
     .line 7
     .line 8
-    new-instance v0, Li/b;
+    new-instance v0, Landroidx/arch/core/executor/b;
 
     .line 9
     .line 10
-    invoke-direct {v0}, Li/b;-><init>()V
+    invoke-direct {v0}, Landroidx/arch/core/executor/b;-><init>()V
 
     .line 11
     .line 12
@@ -74,6 +74,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>()V
@@ -110,6 +111,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Ljava/lang/Runnable;)V
@@ -214,6 +216,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getInstance()Landroidx/arch/core/executor/ArchTaskExecutor;
@@ -353,6 +356,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getMainThreadExecutor()Ljava/util/concurrent/Executor;
@@ -383,6 +388,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -456,6 +462,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public postToMainThread(Ljava/lang/Runnable;)V

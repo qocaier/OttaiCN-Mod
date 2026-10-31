@@ -106,7 +106,7 @@
 
     move-result-object p0
 
-    invoke-static {p0}, Lbe/g;->g(Ljava/lang/String;)V
+    invoke-static {p0}, Lk5/f;->b(Ljava/lang/String;)V
 
     const-string p0, ""
 

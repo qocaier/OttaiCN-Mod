@@ -16,9 +16,6 @@
 
 # instance fields
 .field private animation:Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;
-    .annotation build Lsq/l;
-    .end annotation
-.end field
 
 .field private isAnimLoaded:Z
 
@@ -28,17 +25,13 @@
 # direct methods
 .method public constructor <init>(Landroidx/fragment/app/SpecialEffectsController$Operation;Z)V
     .locals 1
-    .param p1    # Landroidx/fragment/app/SpecialEffectsController$Operation;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "operation"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -96,19 +89,13 @@
 # virtual methods
 .method public final getAnimation(Landroid/content/Context;)Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;
     .locals 4
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
     const-string v0, "context"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -235,4 +222,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

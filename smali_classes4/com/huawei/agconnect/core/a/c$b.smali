@@ -1,4 +1,4 @@
-.class public synthetic Lcom/huawei/agconnect/core/a/c$b;
+.class public abstract synthetic Lcom/huawei/agconnect/core/a/c$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

@@ -255,6 +255,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -466,6 +468,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic access$000(Landroidx/core/widget/NestedScrollView;)Landroid/widget/OverScroller;
@@ -550,6 +553,7 @@
     :goto_0
     return v1
     .line 20
+    .line 21
 .end method
 
 .method private canScroll()Z
@@ -693,6 +697,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static clamp(III)I
@@ -922,6 +928,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private endTouchDrag()V
@@ -1032,6 +1039,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private findFocusableViewInBounds(ZII)Landroid/view/View;
@@ -1269,6 +1278,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private getScrollFeedbackProvider()Landroidx/core/view/ScrollFeedbackProviderCompat;
@@ -1308,6 +1320,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private getSplineFlingDistance(I)F
@@ -1444,6 +1457,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private inChild(II)Z
@@ -1588,6 +1602,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private initScrollView()V
@@ -1726,6 +1741,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private initVelocityTrackerIfNotExists()V
@@ -1763,6 +1780,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private initializeTouchDrag(II)V
@@ -2112,6 +2130,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private onNestedScrollInternal(II[I)V
@@ -2272,6 +2293,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private onSecondaryPointerUp(Landroid/view/MotionEvent;)V
@@ -2399,6 +2423,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private recycleVelocityTracker()V
@@ -2436,6 +2461,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private releaseVerticalGlow(IF)I
@@ -2791,6 +2817,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private runAnimatedScroll(Z)V
@@ -3029,6 +3058,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private scrollBy(IIIZ)I
@@ -3574,6 +3606,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -4094,6 +4127,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public computeHorizontalScrollExtent()I
@@ -4129,6 +4167,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public computeHorizontalScrollOffset()I
@@ -4164,6 +4203,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public computeHorizontalScrollRange()I
@@ -4199,6 +4239,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public computeScroll()V
@@ -4801,6 +4842,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public computeScrollDeltaToGetChildRectOnScreen(Landroid/graphics/Rect;)I
@@ -5195,6 +5288,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public computeVerticalScrollExtent()I
@@ -5230,6 +5328,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public computeVerticalScrollOffset()I
@@ -5271,6 +5370,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public computeVerticalScrollRange()I
@@ -5435,6 +5535,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public consumeFlingInVerticalStretch(I)I
@@ -5785,6 +5887,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
@@ -5964,6 +6071,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public dispatchNestedPreFling(FF)Z
@@ -6608,6 +6718,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public executeKeyEvent(Landroid/view/KeyEvent;)Z
@@ -7037,6 +7152,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public fling(I)V
@@ -7178,6 +7298,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public fullScroll(I)Z
@@ -7345,6 +7466,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getBottomFadingEdgeStrength()F
@@ -7501,6 +7623,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getMaxScrollAmount()I
@@ -7539,6 +7663,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNestedScrollAxes()I
@@ -7571,6 +7696,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getScrollRange()I
@@ -7716,6 +7842,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getTopFadingEdgeStrength()F
@@ -7838,6 +7966,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getVerticalScrollFactorCompat()F
@@ -7989,6 +8119,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public hasNestedScrollingParent()Z
@@ -8043,6 +8175,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isNestedScrollingEnabled()Z
@@ -8075,6 +8208,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSmoothScrollingEnabled()Z
@@ -8103,6 +8237,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public measureChild(Landroid/view/View;II)V
@@ -8250,6 +8385,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public measureChildWithMargins(Landroid/view/View;IIII)V
@@ -8857,6 +8995,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onGenericMotionEvent(Landroid/view/MotionEvent;)Z
@@ -9222,6 +9361,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
@@ -11881,6 +12025,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onNestedFling(Landroid/view/View;FFZ)Z
@@ -12134,6 +12281,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onNestedPreFling(Landroid/view/View;FF)Z
@@ -12257,6 +12410,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onNestedPreScroll(Landroid/view/View;II[I)V
@@ -12597,6 +12753,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onRequestFocusInDescendants(ILandroid/graphics/Rect;)Z
@@ -12804,6 +12966,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onScrollChanged(IIII)V
@@ -13059,6 +13222,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onSizeChanged(IIII)V
@@ -13334,6 +13503,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onStartNestedScroll(Landroid/view/View;Landroid/view/View;I)Z
@@ -15925,6 +16100,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public requestChildFocus(Landroid/view/View;Landroid/view/View;)V
@@ -16138,6 +16318,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public requestDisallowInterceptTouchEvent(Z)V
@@ -16208,6 +16391,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public scrollBy(IILandroid/view/MotionEvent;IIZ)I
@@ -16950,6 +17134,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setFillViewport(Z)V

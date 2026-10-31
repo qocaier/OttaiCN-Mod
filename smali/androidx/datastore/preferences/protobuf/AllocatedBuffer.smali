@@ -35,18 +35,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static wrap(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "buffer"
-        }
-    .end annotation
 
     .line 6
     const-string v0, "buffer"
@@ -63,14 +56,6 @@
 
 .method public static wrap([B)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bytes"
-        }
-    .end annotation
 
     .line 1
     array-length v0, p0
@@ -86,18 +71,6 @@
 
 .method public static wrap([BII)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "bytes",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     if-ltz p1, :cond_0
 
@@ -153,18 +126,6 @@
 
 .method private static wrapNoCheck([BII)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "bytes",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;
@@ -284,6 +245,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -311,15 +275,6 @@
 
 .method public abstract position(I)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
     .annotation build Landroidx/datastore/preferences/protobuf/CanIgnoreReturnValue;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "position"
-        }
     .end annotation
 .end method
 

@@ -7,34 +7,23 @@
 
 
 # instance fields
-.field private final continuation:Lul/c;
+.field private final continuation:Lkotlin/coroutines/e;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lul/c<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlin/coroutines/e;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lul/c;)V
+.method public constructor <init>(Lkotlin/coroutines/e;)V
     .locals 1
-    .param p1    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)V"
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
@@ -47,7 +36,7 @@
     .line 3
     .line 4
     .line 5
-    iput-object p1, p0, Landroidx/core/util/ContinuationRunnable;->continuation:Lul/c;
+    iput-object p1, p0, Landroidx/core/util/ContinuationRunnable;->continuation:Lkotlin/coroutines/e;
 
     .line 6
     .line 7
@@ -96,7 +85,7 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/core/util/ContinuationRunnable;->continuation:Lul/c;
+    iget-object v0, p0, Landroidx/core/util/ContinuationRunnable;->continuation:Lkotlin/coroutines/e;
 
     .line 10
     .line 11
@@ -104,7 +93,7 @@
 
     .line 12
     .line 13
-    sget-object v1, Ljl/e2;->a:Ljl/e2;
+    sget-object v1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 14
     .line 15
@@ -116,7 +105,7 @@
     move-result-object v1
 
     .line 19
-    invoke-interface {v0, v1}, Lul/c;->resumeWith(Ljava/lang/Object;)V
+    invoke-interface {v0, v1}, Lkotlin/coroutines/e;->resumeWith(Ljava/lang/Object;)V
 
     .line 20
     .line 21
@@ -185,12 +174,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 2
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -299,4 +288,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

@@ -575,54 +575,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public static synthetic access$000(Lcom/google/android/material/textfield/EndCompoundLayout;)Landroid/widget/EditText;
@@ -655,7 +607,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$002(Lcom/google/android/material/textfield/EndCompoundLayout;Landroid/widget/EditText;)Landroid/widget/EditText;
@@ -724,11 +675,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/textfield/EndCompoundLayout;)Landroid/text/TextWatcher;
@@ -761,7 +707,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$200(Lcom/google/android/material/textfield/EndCompoundLayout;Lcom/google/android/material/textfield/EndIconDelegate;)V
@@ -830,11 +775,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$300(Lcom/google/android/material/textfield/EndCompoundLayout;)V
@@ -867,7 +807,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$400(Lcom/google/android/material/textfield/EndCompoundLayout;)V
@@ -900,7 +839,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private addTouchExplorationStateChangeListenerIfNeeded()V
@@ -950,7 +888,6 @@
     .line 22
     :cond_0
     return-void
-    .line 23
 .end method
 
 .method private createIconView(Landroid/view/ViewGroup;Landroid/view/LayoutInflater;I)Lcom/google/android/material/internal/CheckableImageButton;
@@ -1141,11 +1078,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private dispatchOnEndIconChanged(I)V
@@ -1203,6 +1135,72 @@
     .line 25
     :cond_0
     return-void
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
 .end method
 
 .method private getIconResId(Lcom/google/android/material/textfield/EndIconDelegate;)I
@@ -1248,7 +1246,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private initEndIconView(Landroidx/appcompat/widget/TintTypedArray;)V
@@ -1872,6 +1869,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private initErrorIconView(Landroidx/appcompat/widget/TintTypedArray;)V
@@ -2383,6 +2412,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method private initSuffixTextView(Landroidx/appcompat/widget/TintTypedArray;)V
@@ -2545,8 +2606,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private removeTouchExplorationStateChangeListenerIfNeeded()V
@@ -2586,7 +2645,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private setOnFocusChangeListenersIfNeeded(Lcom/google/android/material/textfield/EndIconDelegate;)V
@@ -2722,8 +2780,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private setUpDelegate(Lcom/google/android/material/textfield/EndIconDelegate;)V
@@ -2768,7 +2824,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private tearDownDelegate(Lcom/google/android/material/textfield/EndIconDelegate;)V
@@ -2811,7 +2866,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private tintEndIconOnError(Z)V
@@ -2954,8 +3008,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private updateEndLayoutVisibility()V
@@ -3128,15 +3180,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private updateErrorIconVisibility()V
@@ -3302,15 +3345,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private updateSuffixTextVisibility()V
@@ -3465,15 +3499,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -3514,7 +3539,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public checkEndIcon()V
@@ -3551,7 +3575,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public clearOnEndIconChangedListeners()V
@@ -3584,7 +3607,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCurrentEndIconView()Lcom/google/android/material/internal/CheckableImageButton;
@@ -3723,15 +3745,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getEndIconContentDescription()Ljava/lang/CharSequence;
@@ -3768,7 +3781,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndIconDelegate()Lcom/google/android/material/textfield/EndIconDelegate;
@@ -3805,7 +3817,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndIconDrawable()Landroid/graphics/drawable/Drawable;
@@ -3842,7 +3853,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndIconMinSize()I
@@ -3873,7 +3883,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndIconMode()I
@@ -3904,7 +3913,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndIconScaleType()Landroid/widget/ImageView$ScaleType;
@@ -3937,7 +3945,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEndIconView()Lcom/google/android/material/internal/CheckableImageButton;
@@ -3968,7 +3975,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getErrorIconDrawable()Landroid/graphics/drawable/Drawable;
@@ -4003,7 +4009,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPasswordVisibilityToggleContentDescription()Ljava/lang/CharSequence;
@@ -4040,7 +4045,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPasswordVisibilityToggleDrawable()Landroid/graphics/drawable/Drawable;
@@ -4077,7 +4081,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSuffixText()Ljava/lang/CharSequence;
@@ -4110,7 +4113,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSuffixTextColor()Landroid/content/res/ColorStateList;
@@ -4147,7 +4149,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSuffixTextEndOffset()I
@@ -4310,15 +4311,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getSuffixTextView()Landroid/widget/TextView;
@@ -4349,7 +4341,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hasEndIcon()Z
@@ -4389,7 +4380,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isEndIconCheckable()Z
@@ -4424,7 +4414,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isEndIconChecked()Z
@@ -4474,7 +4463,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isEndIconVisible()Z
@@ -4526,7 +4514,6 @@
     return v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isErrorIconVisible()Z
@@ -4570,7 +4557,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isPasswordVisibilityToggleEnabled()Z
@@ -4610,7 +4596,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onHintStateChanged(Z)V
@@ -4645,7 +4630,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onTextInputBoxStateUpdated()V
@@ -4777,15 +4761,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public refreshEndIconDrawableState()V
@@ -4822,7 +4797,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public refreshErrorIconDrawableState()V
@@ -4859,7 +4833,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public refreshIconState(Z)V
@@ -5036,8 +5009,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public removeOnEndIconChangedListener(Lcom/google/android/material/textfield/TextInputLayout$OnEndIconChangedListener;)V
@@ -5076,7 +5047,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndIconActivated(Z)V
@@ -5111,7 +5081,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndIconCheckable(Z)V
@@ -5146,7 +5115,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndIconContentDescription(I)V
@@ -5387,8 +5355,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setEndIconMode(I)V
@@ -5932,6 +5898,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public setEndIconOnClickListener(Landroid/view/View$OnClickListener;)V
@@ -5972,7 +5970,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndIconOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
@@ -6013,7 +6010,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndIconScaleType(Landroid/widget/ImageView$ScaleType;)V
@@ -6058,7 +6054,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndIconTintList(Landroid/content/res/ColorStateList;)V
@@ -6108,7 +6103,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndIconTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -6158,7 +6152,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEndIconVisible(Z)V
@@ -6285,8 +6278,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setErrorIconDrawable(I)V
@@ -6388,7 +6379,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setErrorIconOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
@@ -6429,7 +6419,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setErrorIconTintList(Landroid/content/res/ColorStateList;)V
@@ -6479,7 +6468,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setErrorIconTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -6529,7 +6517,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPasswordVisibilityToggleContentDescription(I)V
@@ -6670,7 +6657,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPasswordVisibilityToggleTintList(Landroid/content/res/ColorStateList;)V
@@ -6715,7 +6701,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPasswordVisibilityToggleTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -6760,7 +6745,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSuffixText(Ljava/lang/CharSequence;)V
@@ -6817,7 +6801,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSuffixTextAppearance(I)V
@@ -6856,7 +6839,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSuffixTextColor(Landroid/content/res/ColorStateList;)V
@@ -6895,7 +6877,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public togglePasswordVisibilityToggle(Z)V
@@ -6943,7 +6924,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateSuffixTextViewPadding()V
@@ -7123,13 +7103,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

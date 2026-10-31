@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/zxing/client/android/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "style"
-.end annotation
-
-
 # static fields
 .field public static TextAppearance_Compat_Notification:I = 0x7f1201ef
 
@@ -25,11 +14,11 @@
 
 .field public static TextAppearance_Compat_Notification_Title:I = 0x7f1201f7
 
-.field public static Widget_Compat_NotificationActionContainer:I = 0x7f12035e
+.field public static Widget_Compat_NotificationActionContainer:I = 0x7f12035f
 
-.field public static Widget_Compat_NotificationActionText:I = 0x7f12035f
+.field public static Widget_Compat_NotificationActionText:I = 0x7f120360
 
-.field public static zxing_CaptureTheme:I = 0x7f120499
+.field public static zxing_CaptureTheme:I = 0x7f12049a
 
 
 # direct methods

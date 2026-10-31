@@ -3,18 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nTypedArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TypedArray.kt\nandroidx/core/content/res/TypedArrayKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,238:1\n1#2:239\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nTypedArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TypedArray.kt\nandroidx/core/content/res/TypedArrayKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,238:1\n1#2:239\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method private static final checkAttribute(Landroid/content/res/TypedArray;I)V
     .locals 0
@@ -91,10 +79,6 @@
 
 .method public static final getBooleanOrThrow(Landroid/content/res/TypedArray;I)Z
     .locals 1
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
@@ -161,10 +145,6 @@
 
 .method public static final getColorOrThrow(Landroid/content/res/TypedArray;I)I
     .locals 1
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
@@ -233,16 +213,10 @@
 
 .method public static final getColorStateListOrThrow(Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
     .locals 0
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
@@ -314,10 +288,6 @@
 
 .method public static final getDimensionOrThrow(Landroid/content/res/TypedArray;I)F
     .locals 1
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
@@ -384,10 +354,6 @@
 
 .method public static final getDimensionPixelOffsetOrThrow(Landroid/content/res/TypedArray;I)I
     .locals 1
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
@@ -456,10 +422,6 @@
 
 .method public static final getDimensionPixelSizeOrThrow(Landroid/content/res/TypedArray;I)I
     .locals 1
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
@@ -528,16 +490,10 @@
 
 .method public static final getDrawableOrThrow(Landroid/content/res/TypedArray;I)Landroid/graphics/drawable/Drawable;
     .locals 0
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
@@ -553,7 +509,7 @@
     move-result-object p0
 
     .line 8
-    invoke-static {p0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 9
     .line 10
@@ -600,10 +556,6 @@
 
 .method public static final getFloatOrThrow(Landroid/content/res/TypedArray;I)F
     .locals 1
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
@@ -670,19 +622,12 @@
 
 .method public static final getFontOrThrow(Landroid/content/res/TypedArray;I)Landroid/graphics/Typeface;
     .locals 0
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
     .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -744,10 +689,6 @@
 
 .method public static final getIntOrThrow(Landroid/content/res/TypedArray;I)I
     .locals 1
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
@@ -814,10 +755,6 @@
 
 .method public static final getIntegerOrThrow(Landroid/content/res/TypedArray;I)I
     .locals 1
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
@@ -884,10 +821,6 @@
 
 .method public static final getResourceIdOrThrow(Landroid/content/res/TypedArray;I)I
     .locals 1
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
@@ -956,16 +889,10 @@
 
 .method public static final getStringOrThrow(Landroid/content/res/TypedArray;I)Ljava/lang/String;
     .locals 0
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
@@ -1037,16 +964,10 @@
 
 .method public static final getTextArrayOrThrow(Landroid/content/res/TypedArray;I)[Ljava/lang/CharSequence;
     .locals 0
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
@@ -1107,16 +1028,10 @@
 
 .method public static final getTextOrThrow(Landroid/content/res/TypedArray;I)Ljava/lang/CharSequence;
     .locals 0
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .param p1    # I
         .annotation build Landroidx/annotation/StyleableRes;
         .end annotation
     .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {p0, p1}, Landroidx/core/content/res/TypedArrayKt;->checkAttribute(Landroid/content/res/TypedArray;I)V
@@ -1186,31 +1101,21 @@
     .line 48
 .end method
 
-.method public static final use(Landroid/content/res/TypedArray;Ljm/l;)Ljava/lang/Object;
+.method public static final use(Landroid/content/res/TypedArray;Lq8/l;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Landroid/content/res/TypedArray;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<R:",
             "Ljava/lang/Object;",
             ">(",
             "Landroid/content/res/TypedArray;",
-            "Ljm/l<",
-            "-",
-            "Landroid/content/res/TypedArray;",
-            "+TR;>;)TR;"
+            "Lq8/l;",
+            ")TR;"
         }
     .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3

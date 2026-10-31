@@ -26,19 +26,12 @@
             ">;"
         }
     .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 .end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/datastore/core/DataStore;)V
     .locals 1
-    .param p1    # Landroidx/datastore/core/DataStore;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -53,7 +46,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -86,81 +79,34 @@
 
 
 # virtual methods
-.method public getData()Ljn/e;
+.method public getData()Lkotlinx/coroutines/flow/c;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Ljn/e<",
-            "Landroidx/datastore/preferences/core/Preferences;",
-            ">;"
+            "Lkotlinx/coroutines/flow/c;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/core/PreferenceDataStore;->delegate:Landroidx/datastore/core/DataStore;
 
-    .line 2
-    .line 3
-    invoke-interface {v0}, Landroidx/datastore/core/DataStore;->getData()Ljn/e;
+    invoke-interface {v0}, Landroidx/datastore/core/DataStore;->getData()Lkotlinx/coroutines/flow/c;
 
-    .line 4
-    .line 5
-    .line 6
     move-result-object v0
 
-    .line 7
     return-object v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
 .end method
 
-.method public updateData(Ljm/p;Lul/c;)Ljava/lang/Object;
+.method public updateData(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 3
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/p<",
-            "-",
-            "Landroidx/datastore/preferences/core/Preferences;",
-            "-",
-            "Lul/c<",
-            "-",
-            "Landroidx/datastore/preferences/core/Preferences;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-",
-            "Landroidx/datastore/preferences/core/Preferences;",
-            ">;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -175,12 +121,12 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v1, p1, v2}, Landroidx/datastore/preferences/core/PreferenceDataStore$updateData$2;-><init>(Ljm/p;Lul/c;)V
+    invoke-direct {v1, p1, v2}, Landroidx/datastore/preferences/core/PreferenceDataStore$updateData$2;-><init>(Lq8/p;Lkotlin/coroutines/e;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-interface {v0, v1, p2}, Landroidx/datastore/core/DataStore;->updateData(Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-interface {v0, v1, p2}, Landroidx/datastore/core/DataStore;->updateData(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 10
     .line 11

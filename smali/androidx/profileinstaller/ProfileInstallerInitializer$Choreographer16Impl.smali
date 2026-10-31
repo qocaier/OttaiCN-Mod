@@ -45,6 +45,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Ljava/lang/Runnable;J)V
@@ -117,11 +118,11 @@
     move-result-object v0
 
     .line 5
-    new-instance v1, Landroidx/profileinstaller/a;
+    new-instance v1, Landroidx/profileinstaller/h;
 
     .line 6
     .line 7
-    invoke-direct {v1, p0}, Landroidx/profileinstaller/a;-><init>(Ljava/lang/Runnable;)V
+    invoke-direct {v1, p0}, Landroidx/profileinstaller/h;-><init>(Ljava/lang/Runnable;)V
 
     .line 8
     .line 9

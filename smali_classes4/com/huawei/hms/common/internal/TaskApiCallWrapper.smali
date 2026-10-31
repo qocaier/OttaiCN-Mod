@@ -26,18 +26,17 @@
     .end annotation
 .end field
 
-.field private final b:Lme/l;
+.field private final b:Lq5/g;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lme/l<",
-            "TTResult;>;"
+            "Lq5/g;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lcom/huawei/hms/common/internal/TaskApiCall;Lme/l;)V
+.method public constructor <init>(Lcom/huawei/hms/common/internal/TaskApiCall;Lq5/g;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -46,8 +45,8 @@
             "+",
             "Lcom/huawei/hms/common/internal/AnyClient;",
             "TTResult;>;",
-            "Lme/l<",
-            "TTResult;>;)V"
+            "Lq5/g;",
+            ")V"
         }
     .end annotation
 
@@ -64,7 +63,7 @@
 
     .line 6
     .line 7
-    iput-object p2, p0, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->b:Lme/l;
+    iput-object p2, p0, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->b:Lq5/g;
 
     .line 8
     .line 9
@@ -114,6 +113,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
@@ -153,20 +162,21 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public getTaskCompletionSource()Lme/l;
+.method public getTaskCompletionSource()Lq5/g;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lme/l<",
-            "TTResult;>;"
+            "Lq5/g;"
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->b:Lme/l;
+    iget-object v0, p0, Lcom/huawei/hms/common/internal/TaskApiCallWrapper;->b:Lq5/g;
 
     .line 2
     .line 3
@@ -188,4 +198,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

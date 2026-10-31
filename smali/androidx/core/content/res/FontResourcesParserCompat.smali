@@ -63,6 +63,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static getType(Landroid/content/res/TypedArray;I)I
@@ -563,6 +564,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static readFallback(Lorg/xmlpull/v1/XmlPullParser;Landroid/content/res/Resources;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Landroidx/core/provider/FontRequest;
@@ -1792,6 +1796,9 @@
     .line 232
     return-object p0
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static readFont(Lorg/xmlpull/v1/XmlPullParser;Landroid/content/res/Resources;)Landroidx/core/content/res/FontResourcesParserCompat$FontFileResourceEntry;
@@ -2187,6 +2194,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static skip(Lorg/xmlpull/v1/XmlPullParser;)V

@@ -58,6 +58,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -88,6 +90,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getConnectResult()I
@@ -116,6 +120,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getErrorType()I
@@ -144,6 +150,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getGroupId()J
@@ -172,6 +180,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionId()J
@@ -200,6 +210,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStaffIconUrl()Ljava/lang/String;
@@ -228,6 +240,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStaffId()Ljava/lang/String;
@@ -256,6 +270,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStaffName()Ljava/lang/String;
@@ -284,6 +300,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStaffRealId()J
@@ -312,6 +330,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getStaffType()I
@@ -340,6 +360,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVIPStaffAvatarUrl()Ljava/lang/String;
@@ -368,6 +390,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVipStaffName()Ljava/lang/String;
@@ -396,6 +420,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVipStaffid()Ljava/lang/String;
@@ -424,6 +450,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setCode(I)V
@@ -457,6 +485,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setConnectResult(I)V
@@ -490,6 +520,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setErrorType(I)V
@@ -523,6 +555,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setGroupId(J)V
@@ -556,6 +590,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionId(J)V
@@ -589,6 +625,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStaffIconUrl(Ljava/lang/String;)V
@@ -622,6 +660,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStaffId(Ljava/lang/String;)V
@@ -655,6 +695,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStaffName(Ljava/lang/String;)V
@@ -688,6 +730,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStaffRealId(J)V
@@ -721,6 +765,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setStaffType(I)V
@@ -754,6 +800,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVIPStaffAvatarUrl(Ljava/lang/String;)V
@@ -787,6 +835,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVipStaffName(Ljava/lang/String;)V
@@ -820,6 +870,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVipStaffid(Ljava/lang/String;)V
@@ -853,4 +905,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

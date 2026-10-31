@@ -144,7 +144,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -605,11 +604,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic b(Landroid/view/ViewGroup$MarginLayoutParams;IILandroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
@@ -1742,11 +1736,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static synthetic d(Lcom/google/android/material/search/SearchView;)V
@@ -1794,7 +1783,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic e(Lcom/google/android/material/search/SearchView;)V
@@ -1846,7 +1834,6 @@
     .line 23
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic f(Lcom/google/android/material/search/SearchView;Landroid/view/View;)V
@@ -1917,11 +1904,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic g(Lcom/google/android/material/search/SearchView;Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;Lcom/google/android/material/internal/ViewUtils$RelativePadding;)Landroidx/core/view/WindowInsetsCompat;
@@ -2216,6 +2198,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private getActivityWindow()Landroid/view/Window;
@@ -2265,7 +2263,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getOverlayElevation()F
@@ -2315,7 +2312,6 @@
     return v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getStatusBarHeight()I
@@ -2453,15 +2449,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public static synthetic h(Lcom/google/android/material/search/SearchView;Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
@@ -2640,11 +2627,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static synthetic i(Landroid/view/View;Landroid/view/MotionEvent;)Z
@@ -2791,15 +2773,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private isNavigationIconDrawerArrowDrawable(Landroidx/appcompat/widget/Toolbar;)Z
@@ -2844,7 +2817,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic j(Lcom/google/android/material/search/SearchView;Landroid/view/View;)V
@@ -2913,11 +2885,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private setStatusBarSpacerEnabledInternal(Z)V
@@ -2962,7 +2929,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setTransitionState(Lcom/google/android/material/search/SearchView$TransitionState;Z)V
@@ -3121,11 +3087,11 @@
 
     .line 11
     .line 12
-    new-instance v0, Lya/f;
+    new-instance v0, Lcom/google/android/material/search/k;
 
     .line 13
     .line 14
-    invoke-direct {v0, p0}, Lya/f;-><init>(Lcom/google/android/material/search/SearchView;)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/search/k;-><init>(Lcom/google/android/material/search/SearchView;)V
 
     .line 15
     .line 16
@@ -3199,11 +3165,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private setUpBackgroundViewElevationOverlay()V
@@ -3260,11 +3221,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lya/h;
+    new-instance v1, Lcom/google/android/material/search/m;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Lya/h;-><init>(Lcom/google/android/material/search/SearchView;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/search/m;-><init>(Lcom/google/android/material/search/SearchView;)V
 
     .line 6
     .line 7
@@ -3294,7 +3255,6 @@
     .line 21
     return-void
     .line 22
-    .line 23
 .end method
 
 .method private setUpContentOnTouchListener()V
@@ -3310,11 +3270,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lya/p;
+    new-instance v1, Lcom/google/android/material/search/u;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Lya/p;-><init>(Lcom/google/android/material/search/SearchView;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/search/u;-><init>(Lcom/google/android/material/search/SearchView;)V
 
     .line 6
     .line 7
@@ -3336,7 +3296,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private setUpDividerInsetListener()V
@@ -3371,11 +3330,11 @@
 
     .line 14
     .line 15
-    new-instance v4, Lya/i;
+    new-instance v4, Lcom/google/android/material/search/n;
 
     .line 16
     .line 17
-    invoke-direct {v4, v0, v1, v2}, Lya/i;-><init>(Landroid/view/ViewGroup$MarginLayoutParams;II)V
+    invoke-direct {v4, v0, v1, v2}, Lcom/google/android/material/search/n;-><init>(Landroid/view/ViewGroup$MarginLayoutParams;II)V
 
     .line 18
     .line 19
@@ -3386,6 +3345,83 @@
     .line 22
     .line 23
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method private setUpEditText(ILjava/lang/String;Ljava/lang/String;)V
@@ -3560,11 +3596,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method private setUpHeaderLayout(I)V
@@ -3618,7 +3649,6 @@
     return-void
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private setUpInsetListeners()V
@@ -3653,7 +3683,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private setUpRootView()V
@@ -3669,11 +3698,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lya/o;
+    new-instance v1, Lcom/google/android/material/search/t;
 
     .line 4
     .line 5
-    invoke-direct {v1}, Lya/o;-><init>()V
+    invoke-direct {v1}, Lcom/google/android/material/search/t;-><init>()V
 
     .line 6
     .line 7
@@ -3695,7 +3724,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private setUpStatusBarSpacer(I)V
@@ -3753,7 +3781,6 @@
     .line 24
     :cond_0
     return-void
-    .line 25
 .end method
 
 .method private setUpStatusBarSpacerInsetListener()V
@@ -3777,11 +3804,11 @@
 
     .line 9
     .line 10
-    new-instance v1, Lya/l;
+    new-instance v1, Lcom/google/android/material/search/q;
 
     .line 11
     .line 12
-    invoke-direct {v1, p0}, Lya/l;-><init>(Lcom/google/android/material/search/SearchView;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/search/q;-><init>(Lcom/google/android/material/search/SearchView;)V
 
     .line 13
     .line 14
@@ -3796,7 +3823,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private setUpToolbarInsetListener()V
@@ -3807,11 +3833,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lya/k;
+    new-instance v1, Lcom/google/android/material/search/p;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Lya/k;-><init>(Lcom/google/android/material/search/SearchView;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/search/p;-><init>(Lcom/google/android/material/search/SearchView;)V
 
     .line 6
     .line 7
@@ -3833,7 +3859,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private updateChildImportantForAccessibility(Landroid/view/ViewGroup;Z)V
@@ -4265,54 +4290,6 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method private updateNavigationIconIfNeeded()V
@@ -4504,15 +4481,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private updateNavigationIconProgressIfNeeded()V
@@ -4679,15 +4647,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -4734,7 +4693,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addTransitionListener(Lcom/google/android/material/search/SearchView$TransitionListener;)V
@@ -4773,7 +4731,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
@@ -4940,11 +4897,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public cancelBackProgress()V
@@ -4999,6 +4951,83 @@
     :cond_1
     :goto_0
     return-void
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+    .line 68
+    .line 69
+    .line 70
+    .line 71
+    .line 72
+    .line 73
+    .line 74
+    .line 75
+    .line 76
+    .line 77
+    .line 78
+    .line 79
+    .line 80
+    .line 81
+    .line 82
+    .line 83
+    .line 84
+    .line 85
+    .line 86
+    .line 87
+    .line 88
+    .line 89
+    .line 90
+    .line 91
+    .line 92
+    .line 93
+    .line 94
+    .line 95
+    .line 96
+    .line 97
+    .line 98
+    .line 99
+    .line 100
 .end method
 
 .method public clearFocusAndHideKeyboard()V
@@ -5009,11 +5038,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lya/g;
+    new-instance v1, Lcom/google/android/material/search/l;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Lya/g;-><init>(Lcom/google/android/material/search/SearchView;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/search/l;-><init>(Lcom/google/android/material/search/SearchView;)V
 
     .line 6
     .line 7
@@ -5035,7 +5064,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public clearText()V
@@ -5070,7 +5098,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBackHelper()Lcom/google/android/material/motion/MaterialMainContainerBackHelper;
@@ -5107,7 +5134,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBehavior()Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;
@@ -5151,7 +5177,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCurrentTransitionState()Lcom/google/android/material/search/SearchView$TransitionState;
@@ -5184,7 +5209,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDefaultNavigationIconResource()I
@@ -5223,7 +5247,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEditText()Landroid/widget/EditText;
@@ -5256,7 +5279,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHint()Ljava/lang/CharSequence;
@@ -5293,7 +5315,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSearchPrefix()Landroid/widget/TextView;
@@ -5326,7 +5347,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSearchPrefixText()Ljava/lang/CharSequence;
@@ -5363,7 +5383,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSoftInputMode()I
@@ -5399,7 +5418,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getText()Landroid/text/Editable;
@@ -5442,7 +5460,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getToolbar()Landroidx/appcompat/widget/Toolbar;
@@ -5475,7 +5492,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public handleBackInvoked()V
@@ -5618,15 +5634,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public hide()V
@@ -5762,15 +5769,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public inflateMenu(I)V
@@ -5809,7 +5807,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public isAdjustNothingSoftInputMode()Z
@@ -5851,7 +5848,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isAnimatedNavigationIcon()Z
@@ -5882,7 +5878,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isAutoShowKeyboard()Z
@@ -5913,7 +5908,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isMenuItemsAnimated()Z
@@ -5944,7 +5938,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isSetupWithSearchBar()Z
@@ -5984,7 +5977,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isShowing()Z
@@ -6122,15 +6114,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public isUseWindowInsetsController()Z
@@ -6166,7 +6149,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAttachedToWindow()V
@@ -6199,7 +6181,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onFinishInflate()V
@@ -6232,7 +6213,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -6365,8 +6345,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -6509,15 +6487,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public removeAllHeaderViews()V
@@ -6556,7 +6525,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public removeHeaderView(Landroid/view/View;)V
@@ -6610,7 +6578,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public removeTransitionListener(Lcom/google/android/material/search/SearchView$TransitionListener;)V
@@ -6649,7 +6616,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public requestFocusAndShowKeyboard()V
@@ -6660,11 +6626,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lya/j;
+    new-instance v1, Lcom/google/android/material/search/o;
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Lya/j;-><init>(Lcom/google/android/material/search/SearchView;)V
+    invoke-direct {v1, p0}, Lcom/google/android/material/search/o;-><init>(Lcom/google/android/material/search/SearchView;)V
 
     .line 6
     .line 7
@@ -6688,7 +6654,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public requestFocusAndShowKeyboardIfNeeded()V
@@ -6724,7 +6689,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAnimatedNavigationIcon(Z)V
@@ -6757,7 +6721,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAutoShowKeyboard(Z)V
@@ -6790,7 +6753,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setElevation(F)V
@@ -6828,7 +6790,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setHint(I)V
@@ -6891,7 +6852,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setModalForAccessibility(Z)V
@@ -7017,8 +6977,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setOnMenuItemClickListener(Landroidx/appcompat/widget/Toolbar$OnMenuItemClickListener;)V
@@ -7057,7 +7015,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSearchPrefixText(Ljava/lang/CharSequence;)V
@@ -7114,7 +7071,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStatusBarSpacerEnabled(Z)V
@@ -7156,7 +7112,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setText(I)V
@@ -7226,7 +7181,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setTransitionState(Lcom/google/android/material/search/SearchView$TransitionState;)V
@@ -7279,7 +7233,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setVisible(Z)V
@@ -7433,8 +7386,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setupWithSearchBar(Lcom/google/android/material/search/SearchBar;)V
@@ -7462,11 +7413,11 @@
 
     .line 9
     .line 10
-    new-instance v0, Lya/m;
+    new-instance v0, Lcom/google/android/material/search/r;
 
     .line 11
     .line 12
-    invoke-direct {v0, p0}, Lya/m;-><init>(Lcom/google/android/material/search/SearchView;)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/search/r;-><init>(Lcom/google/android/material/search/SearchView;)V
 
     .line 13
     .line 14
@@ -7489,16 +7440,16 @@
     .line 23
     .line 24
     :try_start_0
-    new-instance v0, Lya/n;
+    new-instance v0, Lcom/google/android/material/search/s;
 
     .line 25
     .line 26
-    invoke-direct {v0, p0}, Lya/n;-><init>(Lcom/google/android/material/search/SearchView;)V
+    invoke-direct {v0, p0}, Lcom/google/android/material/search/s;-><init>(Lcom/google/android/material/search/SearchView;)V
 
     .line 27
     .line 28
     .line 29
-    invoke-static {p1, v0}, Lya/d;->a(Lcom/google/android/material/search/SearchBar;Ljava/lang/Runnable;)V
+    invoke-static {p1, v0}, Lcom/google/android/material/search/i;->a(Lcom/google/android/material/search/SearchBar;Ljava/lang/Runnable;)V
 
     .line 30
     .line 31
@@ -7510,7 +7461,7 @@
     const/4 v0, 0x1
 
     .line 35
-    invoke-static {p1, v0}, Lya/e;->a(Landroid/widget/EditText;Z)V
+    invoke-static {p1, v0}, Lcom/google/android/material/search/j;->a(Landroid/widget/EditText;Z)V
     :try_end_0
     .catch Ljava/lang/LinkageError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -7577,8 +7528,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public show()V
@@ -7714,15 +7663,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public startBackProgress(Landroidx/activity/BackEventCompat;)V
@@ -7776,7 +7716,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public updateBackProgress(Landroidx/activity/BackEventCompat;)V
@@ -7836,7 +7775,6 @@
     :goto_0
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public updateSoftInputMode()V
@@ -7880,5 +7818,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

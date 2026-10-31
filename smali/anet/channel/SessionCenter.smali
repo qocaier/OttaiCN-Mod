@@ -90,6 +90,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private constructor <init>(Lanet/channel/Config;)V
@@ -413,6 +414,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private a(Lanet/channel/util/HttpUrl;)Lanet/channel/SessionRequest;
@@ -1011,6 +1017,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static declared-synchronized getInstance()Lanet/channel/SessionCenter;
@@ -2014,6 +2022,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
@@ -2621,6 +2634,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public b(Lanet/channel/util/HttpUrl;IJLanet/channel/SessionGetCallback;)V
@@ -2884,6 +2903,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public enterForeground()V
@@ -2914,6 +2934,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public forceRecreateAccsSession()V
@@ -2946,6 +2967,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public get(Lanet/channel/util/HttpUrl;IJ)Lanet/channel/Session;

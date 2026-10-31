@@ -132,7 +132,7 @@
     invoke-interface {p1}, Landroidx/camera/video/internal/encoder/InputBuffer;->submit()Z
 
     .line 5
-    invoke-interface {p1}, Landroidx/camera/video/internal/encoder/InputBuffer;->getTerminationFuture()Lub/u0;
+    invoke-interface {p1}, Landroidx/camera/video/internal/encoder/InputBuffer;->getTerminationFuture()Lcom/google/common/util/concurrent/t;
 
     move-result-object p1
 
@@ -144,7 +144,7 @@
 
     iget-object v1, v1, Landroidx/camera/video/internal/encoder/EncoderImpl;->mEncoderExecutor:Ljava/util/concurrent/Executor;
 
-    invoke-static {p1, v0, v1}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lub/u0;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
+    invoke-static {p1, v0, v1}, Landroidx/camera/core/impl/utils/futures/Futures;->addCallback(Lcom/google/common/util/concurrent/t;Landroidx/camera/core/impl/utils/futures/FutureCallback;Ljava/util/concurrent/Executor;)V
 
     return-void
 .end method

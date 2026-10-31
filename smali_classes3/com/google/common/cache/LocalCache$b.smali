@@ -13,14 +13,6 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/util/AbstractQueue<",
-        "Ljava/lang/Object;",
-        ">;"
-    }
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -51,21 +43,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public iterator()Ljava/util/Iterator;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Iterator<",
-            "Ljava/lang/Object;",
-            ">;"
-        }
-    .end annotation
 
     .line 1
     invoke-static {}, Lcom/google/common/collect/ImmutableSet;->of()Lcom/google/common/collect/ImmutableSet;
@@ -76,7 +59,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/google/common/collect/ImmutableSet;->iterator()Ljb/y5;
+    invoke-virtual {v0}, Lcom/google/common/collect/ImmutableSet;->iterator()Lcom/google/common/collect/l4;
 
     .line 6
     .line 7
@@ -98,19 +81,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public offer(Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "o"
-        }
-    .end annotation
 
     const/4 p1, 0x1
 
@@ -119,8 +93,6 @@
 
 .method public peek()Ljava/lang/Object;
     .locals 1
-    .annotation runtime Lgl/a;
-    .end annotation
 
     const/4 v0, 0x0
 
@@ -129,8 +101,6 @@
 
 .method public poll()Ljava/lang/Object;
     .locals 1
-    .annotation runtime Lgl/a;
-    .end annotation
 
     const/4 v0, 0x0
 

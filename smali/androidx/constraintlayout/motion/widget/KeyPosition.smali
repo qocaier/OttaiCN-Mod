@@ -192,24 +192,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private calcCartesianPosition(FFFF)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "start_x",
-            "start_y",
-            "end_x",
-            "end_y"
-        }
-    .end annotation
 
     .line 1
     sub-float/2addr p3, p1
@@ -538,24 +526,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private calcPathPosition(FFFF)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "start_x",
-            "start_y",
-            "end_x",
-            "end_y"
-        }
-    .end annotation
 
     .line 1
     sub-float/2addr p3, p1
@@ -818,20 +798,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private calcScreenPosition(II)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "layoutWidth",
-            "layoutHeight"
-        }
-    .end annotation
 
     .line 1
     int-to-float p1, p1
@@ -910,15 +886,6 @@
 # virtual methods
 .method public addValues(Ljava/util/HashMap;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "splines"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -934,24 +901,6 @@
 
 .method public calcPosition(IIFFFF)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "layoutWidth",
-            "layoutHeight",
-            "start_x",
-            "start_y",
-            "end_x",
-            "end_y"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPositionType:I
@@ -2019,14 +1968,6 @@
 
 .method public copy(Landroidx/constraintlayout/motion/widget/Key;)Landroidx/constraintlayout/motion/widget/Key;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "src"
-        }
-    .end annotation
 
     .line 1
     invoke-super {p0, p1}, Landroidx/constraintlayout/motion/widget/Key;->copy(Landroidx/constraintlayout/motion/widget/Key;)Landroidx/constraintlayout/motion/widget/Key;
@@ -2155,6 +2096,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getPositionX()F
@@ -2183,6 +2125,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPositionY()F
@@ -2211,28 +2154,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public intersects(IILandroid/graphics/RectF;Landroid/graphics/RectF;FF)Z
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "layoutWidth",
-            "layoutHeight",
-            "start",
-            "end",
-            "x",
-            "y"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p3}, Landroid/graphics/RectF;->centerX()F
@@ -3304,16 +3230,6 @@
 
 .method public load(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/constraintlayout/widget/R$styleable;->KeyPosition:[I
@@ -3376,26 +3292,6 @@
 
 .method public positionAttributes(Landroid/view/View;Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "view",
-            "start",
-            "end",
-            "x",
-            "y",
-            "attribute",
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget v1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPositionType:I
@@ -4068,24 +3964,6 @@
 
 .method public positionCartAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "start",
-            "end",
-            "x",
-            "y",
-            "attribute",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Landroid/graphics/RectF;->centerX()F
@@ -5184,24 +5062,6 @@
 
 .method public positionPathAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
     .locals 7
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "start",
-            "end",
-            "x",
-            "y",
-            "attribute",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Landroid/graphics/RectF;->centerX()F
@@ -6327,26 +6187,6 @@
 
 .method public positionScreenAttributes(Landroid/view/View;Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "view",
-            "start",
-            "end",
-            "x",
-            "y",
-            "attribute",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p2}, Landroid/graphics/RectF;->centerX()F
@@ -7055,14 +6895,6 @@
 
 .method public setType(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "type"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/KeyPosition;->mPositionType:I
@@ -7096,16 +6928,6 @@
 
 .method public setValue(Ljava/lang/String;Ljava/lang/Object;)V
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "tag",
-            "value"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -7555,4 +7377,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

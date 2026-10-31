@@ -40,6 +40,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getInstance()Lcom/huawei/hms/framework/common/SecurityRandomHelper;
@@ -73,7 +75,7 @@
     const/4 v1, 0x1
 
     .line 13
-    invoke-static {v1}, Lze/b;->i(Z)V
+    invoke-static {v1}, Lv5/b;->f(Z)V
 
     .line 14
     .line 15
@@ -177,6 +179,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -185,7 +188,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, Lze/b;->d(I)[B
+    invoke-static {p1}, Lv5/b;->d(I)[B
 
     .line 2
     .line 3
@@ -214,13 +217,15 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public generateSecureRandomStr(I)Ljava/lang/String;
     .locals 0
 
     .line 1
-    invoke-static {p1}, Lze/b;->e(I)Ljava/lang/String;
+    invoke-static {p1}, Lv5/b;->e(I)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -249,4 +254,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

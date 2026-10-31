@@ -44,16 +44,6 @@
 
 .method public static newInstance(Ljava/nio/ByteBuffer;Z)Landroidx/datastore/preferences/protobuf/BinaryReader;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "buffer",
-            "bufferIsImmutable"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->hasArray()Z

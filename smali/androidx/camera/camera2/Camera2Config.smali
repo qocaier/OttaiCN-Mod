@@ -42,6 +42,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroid/content/Context;)Landroidx/camera/core/impl/UseCaseConfigFactory;
@@ -212,6 +213,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static defaultConfig()Landroidx/camera/core/CameraXConfig;
@@ -220,29 +224,29 @@
     .end annotation
 
     .line 1
-    new-instance v0, Ll/a;
+    new-instance v0, Ld/a;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ll/a;-><init>()V
+    invoke-direct {v0}, Ld/a;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    new-instance v1, Ll/b;
+    new-instance v1, Ld/b;
 
     .line 7
     .line 8
-    invoke-direct {v1}, Ll/b;-><init>()V
+    invoke-direct {v1}, Ld/b;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    new-instance v2, Ll/c;
+    new-instance v2, Ld/c;
 
     .line 12
     .line 13
-    invoke-direct {v2}, Ll/c;-><init>()V
+    invoke-direct {v2}, Ld/c;-><init>()V
 
     .line 14
     .line 15
@@ -336,4 +340,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

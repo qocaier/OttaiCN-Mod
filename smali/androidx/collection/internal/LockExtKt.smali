@@ -3,37 +3,17 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLockExt.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LockExt.kt\nandroidx/collection/internal/LockExtKt\n+ 2 Lock.jvm.kt\nandroidx/collection/internal/Lock\n*L\n1#1,27:1\n26#2:28\n*S KotlinDebug\n*F\n+ 1 LockExt.kt\nandroidx/collection/internal/LockExtKt\n*L\n25#1:28\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nLockExt.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LockExt.kt\nandroidx/collection/internal/LockExtKt\n+ 2 Lock.jvm.kt\nandroidx/collection/internal/Lock\n*L\n1#1,27:1\n26#2:28\n*S KotlinDebug\n*F\n+ 1 LockExt.kt\nandroidx/collection/internal/LockExtKt\n*L\n25#1:28\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
-.method public static final synchronized(Landroidx/collection/internal/Lock;Ljm/a;)Ljava/lang/Object;
+.method public static final synchronized(Landroidx/collection/internal/Lock;Lq8/a;)Ljava/lang/Object;
     .locals 1
-    .param p0    # Landroidx/collection/internal/Lock;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
             "Landroidx/collection/internal/Lock;",
-            "Ljm/a<",
-            "+TT;>;)TT;"
+            "Lq8/a;",
+            ")TT;"
         }
     .end annotation
 
@@ -42,7 +22,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -51,7 +31,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -63,7 +43,7 @@
 
     .line 13
     :try_start_0
-    invoke-interface {p1}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -73,7 +53,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 17
-    invoke-static {v0}, Lkm/d0;->d(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 18
     .line 19
@@ -81,7 +61,7 @@
     monitor-exit p0
 
     .line 21
-    invoke-static {v0}, Lkm/d0;->c(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 22
     .line 23
@@ -93,7 +73,7 @@
     move-exception p1
 
     .line 26
-    invoke-static {v0}, Lkm/d0;->d(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 27
     .line 28
@@ -101,7 +81,7 @@
     monitor-exit p0
 
     .line 30
-    invoke-static {v0}, Lkm/d0;->c(I)V
+    invoke-static {v0}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 31
     .line 32

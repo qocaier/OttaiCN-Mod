@@ -341,6 +341,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic b(Landroidx/camera/core/AndroidImageReaderProxy;Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;)V
@@ -593,6 +599,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public acquireNextImage()Landroidx/camera/core/ImageProxy;
@@ -744,6 +752,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public clearOnImageAvailableListener()V
@@ -796,6 +806,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public close()V
@@ -842,6 +853,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHeight()I
@@ -890,6 +902,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImageFormat()I
@@ -938,6 +951,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxImages()I
@@ -986,6 +1000,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSurface()Landroid/view/Surface;
@@ -1036,6 +1051,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWidth()I
@@ -1084,6 +1100,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setOnImageAvailableListener(Landroidx/camera/core/impl/ImageReaderProxy$OnImageAvailableListener;Ljava/util/concurrent/Executor;)V

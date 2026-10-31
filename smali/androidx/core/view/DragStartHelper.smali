@@ -37,11 +37,11 @@
     .line 2
     .line 3
     .line 4
-    new-instance v0, Lc1/s;
+    new-instance v0, Landroidx/core/view/u;
 
     .line 5
     .line 6
-    invoke-direct {v0, p0}, Lc1/s;-><init>(Landroidx/core/view/DragStartHelper;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/u;-><init>(Landroidx/core/view/DragStartHelper;)V
 
     .line 7
     .line 8
@@ -50,11 +50,11 @@
 
     .line 10
     .line 11
-    new-instance v0, Lc1/t;
+    new-instance v0, Landroidx/core/view/v;
 
     .line 12
     .line 13
-    invoke-direct {v0, p0}, Lc1/t;-><init>(Landroidx/core/view/DragStartHelper;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/v;-><init>(Landroidx/core/view/DragStartHelper;)V
 
     .line 14
     .line 15
@@ -138,6 +138,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public detach()V
@@ -174,6 +175,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTouchPosition(Landroid/graphics/Point;)V
@@ -596,4 +598,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

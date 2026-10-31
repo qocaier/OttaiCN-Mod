@@ -1,227 +1,50 @@
-.class public interface abstract Lcom/google/common/cache/d;
+.class public final synthetic Lcom/google/common/cache/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/util/concurrent/Callable;
 
-# annotations
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;"
-    }
-.end annotation
 
-.annotation build Lfb/c;
-.end annotation
+# instance fields
+.field public final synthetic a:Lcom/google/common/cache/CacheLoader;
 
-.annotation runtime Lib/e;
-.end annotation
+.field public final synthetic b:Ljava/lang/Object;
+
+.field public final synthetic c:Ljava/lang/Object;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/google/common/cache/CacheLoader;Ljava/lang/Object;Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/common/cache/d;->a:Lcom/google/common/cache/CacheLoader;
+
+    iput-object p2, p0, Lcom/google/common/cache/d;->b:Ljava/lang/Object;
+
+    iput-object p3, p0, Lcom/google/common/cache/d;->c:Ljava/lang/Object;
+
+    return-void
+.end method
 
 
 # virtual methods
-.method public abstract getAccessTime()J
-.end method
+.method public final call()Ljava/lang/Object;
+    .locals 3
 
-.method public abstract getHash()I
-.end method
+    .line 1
+    iget-object v0, p0, Lcom/google/common/cache/d;->a:Lcom/google/common/cache/CacheLoader;
 
-.method public abstract getKey()Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TK;"
-        }
-    .end annotation
+    iget-object v1, p0, Lcom/google/common/cache/d;->b:Ljava/lang/Object;
 
-    .annotation runtime Lgl/a;
-    .end annotation
-.end method
+    iget-object v2, p0, Lcom/google/common/cache/d;->c:Ljava/lang/Object;
 
-.method public abstract getNext()Lcom/google/common/cache/d;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
+    invoke-static {v0, v1, v2}, Lcom/google/common/cache/CacheLoader$a;->a(Lcom/google/common/cache/CacheLoader;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .annotation runtime Lgl/a;
-    .end annotation
-.end method
+    move-result-object v0
 
-.method public abstract getNextInAccessQueue()Lcom/google/common/cache/d;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
-.end method
-
-.method public abstract getNextInWriteQueue()Lcom/google/common/cache/d;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
-.end method
-
-.method public abstract getPreviousInAccessQueue()Lcom/google/common/cache/d;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
-.end method
-
-.method public abstract getPreviousInWriteQueue()Lcom/google/common/cache/d;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
-.end method
-
-.method public abstract getValueReference()Lcom/google/common/cache/LocalCache$s;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
-.end method
-
-.method public abstract getWriteTime()J
-.end method
-
-.method public abstract setAccessTime(J)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "time"
-        }
-    .end annotation
-.end method
-
-.method public abstract setNextInAccessQueue(Lcom/google/common/cache/d;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "next"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)V"
-        }
-    .end annotation
-.end method
-
-.method public abstract setNextInWriteQueue(Lcom/google/common/cache/d;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "next"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)V"
-        }
-    .end annotation
-.end method
-
-.method public abstract setPreviousInAccessQueue(Lcom/google/common/cache/d;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "previous"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)V"
-        }
-    .end annotation
-.end method
-
-.method public abstract setPreviousInWriteQueue(Lcom/google/common/cache/d;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "previous"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)V"
-        }
-    .end annotation
-.end method
-
-.method public abstract setValueReference(Lcom/google/common/cache/LocalCache$s;)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "valueReference"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;)V"
-        }
-    .end annotation
-.end method
-
-.method public abstract setWriteTime(J)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "time"
-        }
-    .end annotation
+    return-object v0
 .end method

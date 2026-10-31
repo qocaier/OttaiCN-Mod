@@ -54,6 +54,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static a(Ljava/lang/String;)Lcom/qiyukf/g10;
@@ -254,4 +256,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

@@ -13,34 +13,16 @@
 
 # static fields
 .field public static final CALENDAR_ID_INVALID_ARGUMENT_NOT_A_NUMBER_MESSAGE:Ljava/lang/String; = "Calendar ID is not a number"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final CREATE_EVENT_ARGUMENTS_NOT_VALID_MESSAGE:Ljava/lang/String; = "Some of the event arguments are not valid"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final Companion:Lcom/builttoroam/devicecalendar/common/ErrorMessages$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final EVENT_ID_CANNOT_BE_NULL_ON_DELETION_MESSAGE:Ljava/lang/String; = "Event ID cannot be null on deletion"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final NOT_AUTHORIZED_MESSAGE:Ljava/lang/String; = "The user has not allowed this application to modify their calendar(s)"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final RETRIEVE_EVENTS_ARGUMENTS_NOT_VALID_MESSAGE:Ljava/lang/String; = "Provided arguments (i.e. start, end and event ids) are null or empty"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -51,7 +33,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/builttoroam/devicecalendar/common/ErrorMessages$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Lcom/builttoroam/devicecalendar/common/ErrorMessages$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Lcom/builttoroam/devicecalendar/common/ErrorMessages;->Companion:Lcom/builttoroam/devicecalendar/common/ErrorMessages$Companion;
 
@@ -86,5 +68,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

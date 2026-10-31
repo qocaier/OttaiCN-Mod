@@ -13,25 +13,9 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Lcom/google/common/base/AbstractIterator<",
-        "TT;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final c:Ljava/util/Iterator;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Iterator<",
-            "+",
-            "Lcom/google/common/base/Optional<",
-            "+TT;>;>;"
-        }
-    .end annotation
-.end field
 
 .field public final synthetic d:Lcom/google/common/base/Optional$a;
 
@@ -39,14 +23,6 @@
 # direct methods
 .method public constructor <init>(Lcom/google/common/base/Optional$a;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/google/common/base/Optional$a$a;->d:Lcom/google/common/base/Optional$a;
@@ -70,7 +46,7 @@
     move-result-object p1
 
     .line 12
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -91,21 +67,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public a()Ljava/lang/Object;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TT;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
 
     .line 1
     :cond_0
@@ -242,13 +209,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

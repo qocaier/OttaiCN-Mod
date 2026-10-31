@@ -32,22 +32,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/ProtoSyntax;Z[I[Landroidx/datastore/preferences/protobuf/FieldInfo;Ljava/lang/Object;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "syntax",
-            "messageSetWireFormat",
-            "checkInitialized",
-            "fields",
-            "defaultInstance"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -608,14 +592,6 @@
 
 .method public static newBuilder(I)Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "numFields"
-        }
-    .end annotation
 
     .line 2
     new-instance v0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;
@@ -653,6 +629,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDefaultInstance()Landroidx/datastore/preferences/protobuf/MessageLite;
@@ -681,6 +658,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFields()[Landroidx/datastore/preferences/protobuf/FieldInfo;
@@ -709,6 +687,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSyntax()Landroidx/datastore/preferences/protobuf/ProtoSyntax;
@@ -737,6 +716,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isMessageSetWireFormat()Z
@@ -765,4 +745,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

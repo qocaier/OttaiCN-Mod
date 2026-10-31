@@ -42,6 +42,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private a(Ljava/lang/String;I)V
@@ -58,9 +60,9 @@
     .line 10
     iget-object v1, p0, Lcom/qiyukf/nimlib/database/encrypt/b;->b:Ljava/lang/String;
 
-    new-instance v2, Lch/a;
+    new-instance v2, Lcom/qiyukf/nimlib/database/encrypt/f;
 
-    invoke-direct {v2, p0, p1}, Lch/a;-><init>(Lcom/qiyukf/nimlib/database/encrypt/b;Ljava/lang/String;)V
+    invoke-direct {v2, p0, p1}, Lcom/qiyukf/nimlib/database/encrypt/f;-><init>(Lcom/qiyukf/nimlib/database/encrypt/b;Ljava/lang/String;)V
 
     const/4 v3, 0x0
 
@@ -313,15 +315,6 @@
     move-result-object p1
 
     invoke-static {p1}, Lcom/qiyukf/ar;->i(Ljava/lang/String;)V
-
-    return-void
-.end method
-
-.method public static synthetic j(Lcom/qiyukf/nimlib/database/encrypt/b;Ljava/lang/String;Lnet/sqlcipher/database/SQLiteDatabase;)V
-    .locals 0
-
-    .line 1
-    invoke-direct {p0, p1, p2}, Lcom/qiyukf/nimlib/database/encrypt/b;->a(Ljava/lang/String;Lnet/sqlcipher/database/SQLiteDatabase;)V
 
     return-void
 .end method
@@ -934,68 +927,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method public d()V
@@ -1514,68 +1445,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method public e()V
@@ -1609,6 +1478,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public f()Z
@@ -1652,6 +1523,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public g()Z
@@ -1689,6 +1562,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public h()V
@@ -1722,6 +1597,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public i()Z

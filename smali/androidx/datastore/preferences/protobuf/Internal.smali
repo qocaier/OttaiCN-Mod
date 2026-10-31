@@ -169,6 +169,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -197,18 +199,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static byteArrayDefaultValue(Ljava/lang/String;)[B
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bytes"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/Internal;->ISO_8859_1:Ljava/nio/charset/Charset;
@@ -246,14 +241,6 @@
 
 .method public static byteBufferDefaultValue(Ljava/lang/String;)Ljava/nio/ByteBuffer;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bytes"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Internal;->byteArrayDefaultValue(Ljava/lang/String;)[B
@@ -293,14 +280,6 @@
 
 .method public static bytesDefaultValue(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ByteString;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bytes"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/Internal;->ISO_8859_1:Ljava/nio/charset/Charset;
@@ -342,15 +321,6 @@
 
 .method public static checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "obj"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -367,17 +337,6 @@
 
 .method public static checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "obj",
-            "message"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -403,14 +362,6 @@
 
 .method public static copyByteBuffer(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "source"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
@@ -460,17 +411,6 @@
 
 .method public static equals(Ljava/util/List;Ljava/util/List;)Z
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "a",
-            "b"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -586,16 +526,6 @@
 
 .method public static equalsByteBuffer(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)Z
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "a",
-            "b"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Ljava/nio/Buffer;->capacity()I
@@ -639,17 +569,6 @@
 
 .method public static equalsByteBuffer(Ljava/util/List;Ljava/util/List;)Z
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "a",
-            "b"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -722,15 +641,6 @@
 
 .method public static getDefaultInstance(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/MessageLite;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "clazz"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T::",
@@ -864,18 +774,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static hashBoolean(Z)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "b"
-        }
-    .end annotation
 
     if-eqz p0, :cond_0
 
@@ -891,15 +794,6 @@
 
 .method public static hashCode(Ljava/util/List;)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "list"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -945,14 +839,6 @@
 
 .method public static hashCode([B)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bytes"
-        }
-    .end annotation
 
     .line 3
     array-length v0, p0
@@ -968,18 +854,6 @@
 
 .method public static hashCode([BII)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "bytes",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 4
     invoke-static {p2, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Internal;->partialHash(I[BII)I
@@ -996,14 +870,6 @@
 
 .method public static hashCodeByteBuffer(Ljava/nio/ByteBuffer;)I
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bytes"
-        }
-    .end annotation
 
     .line 3
     invoke-virtual {p0}, Ljava/nio/ByteBuffer;->hasArray()Z
@@ -1124,15 +990,6 @@
 
 .method public static hashCodeByteBuffer(Ljava/util/List;)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "list"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1179,14 +1036,6 @@
 
 .method public static hashEnum(Landroidx/datastore/preferences/protobuf/Internal$EnumLite;)I
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "e"
-        }
-    .end annotation
 
     .line 1
     invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/Internal$EnumLite;->getNumber()I
@@ -1222,15 +1071,6 @@
 
 .method public static hashEnumList(Ljava/util/List;)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "list"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -1350,18 +1190,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static hashLong(J)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "n"
-        }
-    .end annotation
 
     const/16 v0, 0x20
 
@@ -1376,14 +1209,6 @@
 
 .method public static isValidUtf8(Landroidx/datastore/preferences/protobuf/ByteString;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "byteString"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString;->isValidUtf8()Z
@@ -1395,14 +1220,6 @@
 
 .method public static isValidUtf8([B)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "byteArray"
-        }
-    .end annotation
 
     .line 2
     invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Utf8;->isValidUtf8([B)Z
@@ -1414,16 +1231,6 @@
 
 .method public static mergeMessage(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "destination",
-            "source"
-        }
-    .end annotation
 
     .line 1
     check-cast p0, Landroidx/datastore/preferences/protobuf/MessageLite;
@@ -1494,20 +1301,6 @@
 
 .method public static partialHash(I[BII)I
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "h",
-            "bytes",
-            "offset",
-            "length"
-        }
-    .end annotation
 
     .line 1
     move v0, p2
@@ -1758,18 +1551,16 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static stringDefaultValue(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bytes"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/String;
@@ -1813,14 +1604,6 @@
 
 .method public static toByteArray(Ljava/lang/String;)[B
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/Internal;->UTF_8:Ljava/nio/charset/Charset;
@@ -1858,14 +1641,6 @@
 
 .method public static toStringUtf8([B)Ljava/lang/String;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "bytes"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/String;

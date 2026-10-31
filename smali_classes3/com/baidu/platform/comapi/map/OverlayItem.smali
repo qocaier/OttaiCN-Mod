@@ -263,11 +263,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
@@ -315,7 +310,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getAnchorX()F
@@ -346,7 +340,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnchorY()F
@@ -377,7 +370,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getAnimate()Landroid/os/Bundle;
@@ -408,7 +400,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getBound()I
@@ -439,7 +430,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getClickRect()Ljava/util/ArrayList;
@@ -478,7 +468,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getCoordType()Lcom/baidu/platform/comapi/map/OverlayItem$CoordType;
@@ -509,7 +498,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDelay()Landroid/os/Bundle;
@@ -540,7 +528,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getGeoZ()F
@@ -571,7 +558,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getGifData()[B
@@ -602,7 +588,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getId()Ljava/lang/String;
@@ -633,7 +618,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIndoorPoi()I
@@ -664,7 +648,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLevel()I
@@ -695,7 +678,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final getMarker()Landroid/graphics/drawable/Drawable;
@@ -726,7 +708,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMask()I
@@ -757,7 +738,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMultiplyDpi()F
@@ -790,7 +770,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getPoint()Lcom/baidu/platform/comapi/basestruct/GeoPoint;
@@ -821,7 +800,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getResId()I
@@ -869,7 +847,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getScale()F
@@ -900,7 +877,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSnippet()Ljava/lang/String;
@@ -931,7 +907,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -962,7 +937,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAnchor(FF)V
@@ -1049,7 +1023,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAnimateDuration(I)V
@@ -1097,7 +1070,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAnimateEffect(Lcom/baidu/platform/comapi/map/OverlayItem$AnimEffect;)V
@@ -1655,6 +1627,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public setAnimateEndSize(II)V
@@ -1744,11 +1748,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setAnimateStartSize(II)V
@@ -1838,11 +1837,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setBound(I)V
@@ -1875,7 +1869,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setClickRect(Ljava/util/ArrayList;)V
@@ -1916,7 +1909,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCoordType(Lcom/baidu/platform/comapi/map/OverlayItem$CoordType;)V
@@ -1949,7 +1941,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setDelay(Landroid/os/Bundle;)V
@@ -1982,7 +1973,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGeoPoint(Lcom/baidu/platform/comapi/basestruct/GeoPoint;)V
@@ -2015,7 +2005,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGeoZ(F)V
@@ -2048,7 +2037,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGifData([B)V
@@ -2081,7 +2069,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setId(Ljava/lang/String;)V
@@ -2114,7 +2101,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setIndoorPoi(I)V
@@ -2147,7 +2133,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLevel(I)V
@@ -2180,7 +2165,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMarker(Landroid/graphics/drawable/Drawable;)V
@@ -2213,7 +2197,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMask(I)V
@@ -2246,7 +2229,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMultiplyDpi(I)V
@@ -2279,7 +2261,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setScale(F)V
@@ -2312,7 +2293,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSnippet(Ljava/lang/String;)V
@@ -2345,7 +2325,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSubAnimateEffect(Lcom/baidu/platform/comapi/map/OverlayItem$AnimationSubType;)V
@@ -2481,8 +2460,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public setTitle(Ljava/lang/String;)V
@@ -2515,5 +2492,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

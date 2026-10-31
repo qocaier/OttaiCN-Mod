@@ -62,7 +62,7 @@
     .end annotation
 
     .line 7
-    invoke-static {p1, p2}, Lcom/polidea/rxandroidble2/exceptions/BleDisconnectedException;->createMessage(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/polidea/rxandroidble2/exceptions/BleDisconnectedException;->a(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -107,7 +107,7 @@
     .end annotation
 
     .line 4
-    invoke-static {p2, p3}, Lcom/polidea/rxandroidble2/exceptions/BleDisconnectedException;->createMessage(Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {p2, p3}, Lcom/polidea/rxandroidble2/exceptions/BleDisconnectedException;->a(Ljava/lang/String;I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -122,56 +122,11 @@
     return-void
 .end method
 
-.method public static adapterDisabled(Ljava/lang/String;)Lcom/polidea/rxandroidble2/exceptions/BleDisconnectedException;
+.method public static a(Ljava/lang/String;I)Ljava/lang/String;
     .locals 3
 
     .line 1
-    new-instance v0, Lcom/polidea/rxandroidble2/exceptions/BleDisconnectedException;
-
-    .line 2
-    .line 3
-    new-instance v1, Lcom/polidea/rxandroidble2/exceptions/BleAdapterDisabledException;
-
-    .line 4
-    .line 5
-    invoke-direct {v1}, Lcom/polidea/rxandroidble2/exceptions/BleAdapterDisabledException;-><init>()V
-
-    .line 6
-    .line 7
-    .line 8
-    const/4 v2, -0x1
-
-    .line 9
-    invoke-direct {v0, v1, p0, v2}, Lcom/polidea/rxandroidble2/exceptions/BleDisconnectedException;-><init>(Ljava/lang/Throwable;Ljava/lang/String;I)V
-
-    .line 10
-    .line 11
-    .line 12
-    return-object v0
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method private static createMessage(Ljava/lang/String;I)Ljava/lang/String;
-    .locals 3
-    .param p0    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-
-    .line 1
-    invoke-static {p1}, Lug/b;->a(I)Ljava/lang/String;
+    invoke-static {p1}, Lr6/a;->a(I)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -197,7 +152,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {p0}, Log/b;->d(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lq6/b;->b(Ljava/lang/String;)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -263,4 +218,57 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+.end method
+
+.method public static adapterDisabled(Ljava/lang/String;)Lcom/polidea/rxandroidble2/exceptions/BleDisconnectedException;
+    .locals 3
+
+    .line 1
+    new-instance v0, Lcom/polidea/rxandroidble2/exceptions/BleDisconnectedException;
+
+    .line 2
+    .line 3
+    new-instance v1, Lcom/polidea/rxandroidble2/exceptions/BleAdapterDisabledException;
+
+    .line 4
+    .line 5
+    invoke-direct {v1}, Lcom/polidea/rxandroidble2/exceptions/BleAdapterDisabledException;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    const/4 v2, -0x1
+
+    .line 9
+    invoke-direct {v0, v1, p0, v2}, Lcom/polidea/rxandroidble2/exceptions/BleDisconnectedException;-><init>(Ljava/lang/Throwable;Ljava/lang/String;I)V
+
+    .line 10
+    .line 11
+    .line 12
+    return-object v0
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
 .end method

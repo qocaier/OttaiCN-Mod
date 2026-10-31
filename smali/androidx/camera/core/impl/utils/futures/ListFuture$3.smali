@@ -22,11 +22,11 @@
 
 .field final synthetic val$index:I
 
-.field final synthetic val$listenable:Lub/u0;
+.field final synthetic val$listenable:Lcom/google/common/util/concurrent/t;
 
 
 # direct methods
-.method public constructor <init>(Landroidx/camera/core/impl/utils/futures/ListFuture;ILub/u0;)V
+.method public constructor <init>(Landroidx/camera/core/impl/utils/futures/ListFuture;ILcom/google/common/util/concurrent/t;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -43,7 +43,7 @@
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/camera/core/impl/utils/futures/ListFuture$3;->val$listenable:Lub/u0;
+    iput-object p3, p0, Landroidx/camera/core/impl/utils/futures/ListFuture$3;->val$listenable:Lcom/google/common/util/concurrent/t;
 
     .line 6
     .line 7
@@ -156,6 +156,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -172,7 +175,7 @@
 
     .line 4
     .line 5
-    iget-object v2, p0, Landroidx/camera/core/impl/utils/futures/ListFuture$3;->val$listenable:Lub/u0;
+    iget-object v2, p0, Landroidx/camera/core/impl/utils/futures/ListFuture$3;->val$listenable:Lcom/google/common/util/concurrent/t;
 
     .line 6
     .line 7
@@ -192,4 +195,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

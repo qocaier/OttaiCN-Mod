@@ -36,6 +36,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getAllowContentAccess(Landroid/webkit/ServiceWorkerWebSettings;)Z
@@ -304,6 +305,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getServiceWorkerWebSettings(Landroid/webkit/ServiceWorkerController;)Landroid/webkit/ServiceWorkerWebSettings;

@@ -241,30 +241,32 @@
 .end method
 
 .method public static a(ILcom/baidu/mapauto/auth/org/spongycastle/asn1/o1;[[B)Lcom/baidu/mapauto/auth/org/spongycastle/asn1/r;
-    .locals 6
+    .locals 8
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Ljava/io/IOException;
         }
     .end annotation
 
-    const/16 v0, 0xa
+    const/16 v0, 0x8
 
-    const/16 v1, 0xc
+    const/16 v1, 0xa
 
-    const/16 v2, 0xff
+    const/16 v2, 0xc
 
-    const/4 v3, 0x1
+    const/16 v3, 0xff
 
-    const/4 v4, 0x0
+    const/4 v4, 0x1
 
-    if-eq p0, v0, :cond_16
+    const/4 v5, 0x0
 
-    if-eq p0, v1, :cond_15
+    if-eq p0, v1, :cond_16
 
-    const/16 v0, 0x1e
+    if-eq p0, v2, :cond_15
 
-    if-eq p0, v0, :cond_11
+    const/16 v1, 0x1e
+
+    if-eq p0, v1, :cond_11
 
     packed-switch p0, :pswitch_data_0
 
@@ -438,12 +440,12 @@
     array-length p0, v0
 
     :goto_0
-    if-ge v4, p0, :cond_3
+    if-ge v5, p0, :cond_3
 
-    sub-int p2, p0, v4
+    sub-int p2, p0, v5
 
     .line 22
-    invoke-virtual {p1, v0, v4, p2}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/o1;->read([BII)I
+    invoke-virtual {p1, v0, v5, p2}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/o1;->read([BII)I
 
     move-result p2
 
@@ -452,7 +454,7 @@
     goto :goto_1
 
     :cond_1
-    add-int/2addr v4, p2
+    add-int/2addr v5, p2
 
     goto :goto_0
 
@@ -508,54 +510,52 @@
     :pswitch_e
     iget p0, p1, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/o1;->d:I
 
-    if-lt p0, v3, :cond_9
+    if-lt p0, v4, :cond_9
 
     .line 28
     invoke-virtual {p1}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/o1;->read()I
 
     move-result p2
 
-    add-int/lit8 v0, p0, -0x1
+    add-int/lit8 v1, p0, -0x1
 
-    new-array v1, v0, [B
+    new-array v2, v1, [B
 
-    if-eqz v0, :cond_8
+    if-eqz v1, :cond_8
 
     :goto_2
-    if-ge v4, v0, :cond_6
+    if-ge v5, v1, :cond_6
 
-    sub-int v3, v0, v4
+    sub-int v4, v1, v5
 
     .line 29
-    invoke-virtual {p1, v1, v4, v3}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/o1;->read([BII)I
+    invoke-virtual {p1, v2, v5, v4}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/o1;->read([BII)I
 
-    move-result v3
+    move-result v4
 
-    if-gez v3, :cond_5
+    if-gez v4, :cond_5
 
     goto :goto_3
 
     :cond_5
-    add-int/2addr v4, v3
+    add-int/2addr v5, v4
 
     goto :goto_2
 
     :cond_6
     :goto_3
-    if-ne v4, v0, :cond_7
+    if-ne v5, v1, :cond_7
 
     if-lez p2, :cond_8
 
-    const/16 p1, 0x8
-
-    if-ge p2, p1, :cond_8
+    if-ge p2, v0, :cond_8
 
     add-int/lit8 p0, p0, -0x2
 
     .line 30
-    aget-byte p0, v1, p0
+    aget-byte p0, v2, p0
 
-    shl-int p1, v2, p2
+    shl-int p1, v3, p2
 
     and-int/2addr p1, p0
 
@@ -565,7 +565,7 @@
 
     new-instance p0, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/j1;
 
-    invoke-direct {p0, v1, p2}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/j1;-><init>([BI)V
+    invoke-direct {p0, v2, p2}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/j1;-><init>([BI)V
 
     return-object p0
 
@@ -581,7 +581,7 @@
     :cond_8
     new-instance p0, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/m0;
 
-    invoke-direct {p0, v1, p2}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/m0;-><init>([BI)V
+    invoke-direct {p0, v2, p2}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/m0;-><init>([BI)V
 
     return-object p0
 
@@ -627,7 +627,7 @@
     :cond_a
     array-length p0, v0
 
-    move p2, v4
+    move p2, v5
 
     :goto_4
     if-ge p2, p0, :cond_d
@@ -662,9 +662,9 @@
     .line 38
     array-length p0, v0
 
-    if-ne p0, v3, :cond_10
+    if-ne p0, v4, :cond_10
 
-    aget-byte p0, v0, v4
+    aget-byte p0, v0, v5
 
     if-nez p0, :cond_e
 
@@ -673,9 +673,9 @@
     return-object p0
 
     :cond_e
-    and-int/2addr p0, v2
+    and-int/2addr p0, v3
 
-    if-ne p0, v2, :cond_f
+    if-ne p0, v3, :cond_f
 
     sget-object p0, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/c;->e:Lcom/baidu/mapauto/auth/org/spongycastle/asn1/c;
 
@@ -707,49 +707,49 @@
     .line 41
     div-int/lit8 p2, p2, 0x2
 
-    new-array v0, p2, [C
+    new-array v1, p2, [C
 
     :goto_6
-    if-ge v4, p2, :cond_14
+    if-ge v5, p2, :cond_14
 
     invoke-virtual {p1}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/o1;->read()I
 
-    move-result v1
+    move-result v2
 
-    if-gez v1, :cond_12
+    if-gez v2, :cond_12
 
     goto :goto_7
 
     :cond_12
     invoke-virtual {p1}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/o1;->read()I
 
-    move-result v2
+    move-result v6
 
-    if-gez v2, :cond_13
+    if-gez v6, :cond_13
 
     goto :goto_7
 
     :cond_13
-    add-int/lit8 v3, v4, 0x1
+    add-int/lit8 v7, v5, 0x1
 
-    shl-int/lit8 v1, v1, 0x8
+    shl-int/2addr v2, v0
 
-    and-int/lit16 v2, v2, 0xff
+    and-int/2addr v6, v3
 
-    or-int/2addr v1, v2
+    or-int/2addr v2, v6
 
-    int-to-char v1, v1
+    int-to-char v2, v2
 
-    aput-char v1, v0, v4
+    aput-char v2, v1, v5
 
-    move v4, v3
+    move v5, v7
 
     goto :goto_6
 
     .line 42
     :cond_14
     :goto_7
-    invoke-direct {p0, v0}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/l0;-><init>([C)V
+    invoke-direct {p0, v1}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/l0;-><init>([C)V
 
     return-object p0
 
@@ -785,24 +785,24 @@
     :cond_17
     array-length p0, v0
 
-    move p2, v4
+    move p2, v5
 
     :goto_8
     if-ge p2, p0, :cond_1a
 
-    sub-int v5, p0, p2
+    sub-int v1, p0, p2
 
     .line 46
-    invoke-virtual {p1, v0, p2, v5}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/o1;->read([BII)I
+    invoke-virtual {p1, v0, p2, v1}, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/o1;->read([BII)I
 
-    move-result v5
+    move-result v1
 
-    if-gez v5, :cond_18
+    if-gez v1, :cond_18
 
     goto :goto_9
 
     :cond_18
-    add-int/2addr p2, v5
+    add-int/2addr p2, v1
 
     goto :goto_8
 
@@ -817,7 +817,7 @@
     :goto_9
     array-length p0, v0
 
-    if-le p0, v3, :cond_1b
+    if-le p0, v4, :cond_1b
 
     new-instance p0, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/f;
 
@@ -830,13 +830,13 @@
 
     if-eqz p0, :cond_1e
 
-    aget-byte p0, v0, v4
+    aget-byte p0, v0, v5
 
-    and-int/2addr p0, v2
+    and-int/2addr p0, v3
 
     sget-object p1, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/f;->b:[Lcom/baidu/mapauto/auth/org/spongycastle/asn1/f;
 
-    if-lt p0, v1, :cond_1c
+    if-lt p0, v2, :cond_1c
 
     new-instance p0, Lcom/baidu/mapauto/auth/org/spongycastle/asn1/f;
 
@@ -1447,7 +1447,7 @@
 
     aput-object v0, p3, v1
 
-    add-int/lit8 v1, v1, 0x1
+    add-int/2addr v1, v2
 
     goto :goto_1
 

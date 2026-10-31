@@ -267,6 +267,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic c(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;)V
@@ -466,6 +469,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -486,11 +492,11 @@
 
     .line 6
     :cond_0
-    new-instance v1, Landroidx/core/location/q;
+    new-instance v1, Landroidx/core/location/r;
 
     .line 7
     .line 8
-    invoke-direct {v1, p0, v0, p1}, Landroidx/core/location/q;-><init>(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;I)V
+    invoke-direct {v1, p0, v0, p1}, Landroidx/core/location/r;-><init>(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;I)V
 
     .line 9
     .line 10
@@ -530,11 +536,11 @@
 
     .line 6
     :cond_0
-    new-instance v1, Landroidx/core/location/r;
+    new-instance v1, Landroidx/core/location/s;
 
     .line 7
     .line 8
-    invoke-direct {v1, p0, v0, p1}, Landroidx/core/location/r;-><init>(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;Landroid/location/GnssStatus;)V
+    invoke-direct {v1, p0, v0, p1}, Landroidx/core/location/s;-><init>(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;Landroid/location/GnssStatus;)V
 
     .line 9
     .line 10
@@ -574,6 +580,46 @@
 
     .line 6
     :cond_0
+    new-instance v1, Landroidx/core/location/u;
+
+    .line 7
+    .line 8
+    invoke-direct {v1, p0, v0}, Landroidx/core/location/u;-><init>(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;)V
+
+    .line 9
+    .line 10
+    .line 11
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+.end method
+
+.method public onStopped()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->mExecutor:Ljava/util/concurrent/Executor;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_0
+
+    .line 4
+    .line 5
+    return-void
+
+    .line 6
+    :cond_0
     new-instance v1, Landroidx/core/location/t;
 
     .line 7
@@ -595,45 +641,7 @@
     .line 18
     .line 19
     .line 20
-.end method
-
-.method public onStopped()V
-    .locals 2
-
-    .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->mExecutor:Ljava/util/concurrent/Executor;
-
-    .line 2
-    .line 3
-    if-nez v0, :cond_0
-
-    .line 4
-    .line 5
-    return-void
-
-    .line 6
-    :cond_0
-    new-instance v1, Landroidx/core/location/s;
-
-    .line 7
-    .line 8
-    invoke-direct {v1, p0, v0}, Landroidx/core/location/s;-><init>(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;)V
-
-    .line 9
-    .line 10
-    .line 11
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
-
-    .line 12
-    .line 13
-    .line 14
-    return-void
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
+    .line 21
 .end method
 
 .method public register(Ljava/util/concurrent/Executor;)V
@@ -724,4 +732,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

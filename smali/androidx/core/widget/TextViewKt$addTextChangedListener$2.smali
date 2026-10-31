@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/r;
+.implements Lq8/r;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/widget/TextViewKt;->addTextChangedListener$default(Landroid/widget/TextView;Ljm/r;Ljm/r;Ljm/l;ILjava/lang/Object;)Landroid/text/TextWatcher;
+    value = Landroidx/core/widget/TextViewKt;->addTextChangedListener$default(Landroid/widget/TextView;Lq8/r;Lq8/r;Lq8/l;ILjava/lang/Object;)Landroid/text/TextWatcher;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,13 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Ljm/r<",
-        "Ljava/lang/CharSequence;",
-        "Ljava/lang/Integer;",
-        "Ljava/lang/Integer;",
-        "Ljava/lang/Integer;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/r;"
     }
 .end annotation
 
@@ -83,7 +77,7 @@
 
     invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/core/widget/TextViewKt$addTextChangedListener$2;->invoke(Ljava/lang/CharSequence;III)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method

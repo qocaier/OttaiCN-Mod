@@ -210,6 +210,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStrings(I)Ljava/lang/String;
@@ -322,6 +323,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStringsList()Ljava/util/List;
@@ -368,6 +370,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setStrings(ILjava/lang/String;)Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;

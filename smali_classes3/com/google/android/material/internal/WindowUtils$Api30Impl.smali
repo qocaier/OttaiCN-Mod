@@ -47,7 +47,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static getCurrentWindowBounds(Landroid/view/WindowManager;)Landroid/graphics/Rect;
@@ -60,7 +59,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Le2/a;->a(Landroid/view/WindowManager;)Landroid/view/WindowMetrics;
+    invoke-static {p0}, Lh/a;->a(Landroid/view/WindowManager;)Landroid/view/WindowMetrics;
 
     .line 2
     .line 3
@@ -68,7 +67,7 @@
     move-result-object p0
 
     .line 5
-    invoke-static {p0}, Lb2/a;->a(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
+    invoke-static {p0}, Landroidx/window/layout/c;->a(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
 
     .line 6
     .line 7
@@ -92,5 +91,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

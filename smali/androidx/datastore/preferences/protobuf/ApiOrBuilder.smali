@@ -8,14 +8,6 @@
 
 # virtual methods
 .method public abstract getMethods(I)Landroidx/datastore/preferences/protobuf/Method;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getMethodsCount()I
@@ -33,14 +25,6 @@
 .end method
 
 .method public abstract getMixins(I)Landroidx/datastore/preferences/protobuf/Mixin;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getMixinsCount()I
@@ -64,14 +48,6 @@
 .end method
 
 .method public abstract getOptions(I)Landroidx/datastore/preferences/protobuf/Option;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getOptionsCount()I

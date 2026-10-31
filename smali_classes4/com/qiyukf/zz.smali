@@ -53,6 +53,7 @@
     .line 20
     nop
 
+    .line 21
     :array_0
     .array-data 4
         -0x1
@@ -65,6 +66,7 @@
         -0x2
     .end array-data
 
+    .line 22
     :array_1
     .array-data 4
         0x1
@@ -1737,4 +1739,14 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method

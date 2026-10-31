@@ -3,34 +3,28 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/lifecycle/LifecycleEventObserver;
-
-
-# instance fields
-.field public final synthetic a:Landroidx/activity/ComponentActivity;
+.implements Landroidx/camera/core/impl/UseCaseConfigFactory$Provider;
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/activity/ComponentActivity;)V
+.method public synthetic constructor <init>()V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    iput-object p1, p0, Ld/c;->a:Landroidx/activity/ComponentActivity;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
-    .locals 1
+.method public final newInstance(Landroid/content/Context;)Landroidx/camera/core/impl/UseCaseConfigFactory;
+    .locals 0
 
     .line 1
-    iget-object v0, p0, Ld/c;->a:Landroidx/activity/ComponentActivity;
+    invoke-static {p1}, Landroidx/camera/camera2/Camera2Config;->a(Landroid/content/Context;)Landroidx/camera/core/impl/UseCaseConfigFactory;
 
-    invoke-static {v0, p1, p2}, Landroidx/activity/ComponentActivity;->f(Landroidx/activity/ComponentActivity;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    move-result-object p1
 
-    return-void
+    return-object p1
 .end method

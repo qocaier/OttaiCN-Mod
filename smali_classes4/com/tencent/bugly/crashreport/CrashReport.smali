@@ -21,29 +21,9 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    .line 3
-    .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
 .end method
 
 .method public static closeBugly()V
@@ -200,6 +180,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static closeCrashReport()V
@@ -328,6 +309,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static closeNativeReport()V
@@ -456,6 +438,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static enableBugly(Z)V
@@ -489,6 +472,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static enableObtainId(Landroid/content/Context;Z)V
@@ -551,6 +536,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static getAllUserDataKeys(Landroid/content/Context;)Ljava/util/Set;
@@ -691,6 +686,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getAppChannel()Ljava/lang/String;
@@ -823,6 +820,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static getAppID()Ljava/lang/String;
@@ -957,6 +955,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static getAppVer()Ljava/lang/String;
@@ -1089,6 +1088,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static getBuglyVersion(Landroid/content/Context;)Ljava/lang/String;
@@ -1141,6 +1141,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getContext()Landroid/content/Context;
@@ -1169,6 +1171,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getDeviceID(Landroid/content/Context;)Ljava/lang/String;
@@ -1208,6 +1212,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static getHttpProxy()Ljava/net/Proxy;
@@ -1236,6 +1242,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getSdkExtraData()Ljava/util/Map;
@@ -1468,6 +1476,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static getUserDatasSize(Landroid/content/Context;)I
@@ -1592,6 +1610,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getUserId()Ljava/lang/String;
@@ -1726,6 +1746,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static getUserSceneTagId(Landroid/content/Context;)I
@@ -1850,6 +1871,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static initCrashReport(Landroid/content/Context;)V
@@ -2352,68 +2375,6 @@
     .line 279
     .line 280
     .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
 .end method
 
 .method public static postCatchedException(Ljava/lang/Throwable;)V
@@ -2868,11 +2829,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static putUserData(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
@@ -3825,6 +3781,61 @@
     .line 762
     .line 763
     .line 764
+    .line 765
+    .line 766
+    .line 767
+    .line 768
+    .line 769
+    .line 770
+    .line 771
+    .line 772
+    .line 773
+    .line 774
+    .line 775
+    .line 776
+    .line 777
+    .line 778
+    .line 779
+    .line 780
+    .line 781
+    .line 782
+    .line 783
+    .line 784
+    .line 785
+    .line 786
+    .line 787
+    .line 788
+    .line 789
+    .line 790
+    .line 791
+    .line 792
+    .line 793
+    .line 794
+    .line 795
+    .line 796
+    .line 797
+    .line 798
+    .line 799
+    .line 800
+    .line 801
+    .line 802
+    .line 803
+    .line 804
+    .line 805
+    .line 806
+    .line 807
+    .line 808
+    .line 809
+    .line 810
+    .line 811
+    .line 812
+    .line 813
+    .line 814
+    .line 815
+    .line 816
+    .line 817
+    .line 818
+    .line 819
 .end method
 
 .method public static removeUserData(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
@@ -3938,6 +3949,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static setAllThreadStackEnable(Landroid/content/Context;ZZ)V
@@ -4077,11 +4098,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static setAppChannel(Landroid/content/Context;Ljava/lang/String;)V
@@ -4192,6 +4208,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static setAppPackage(Landroid/content/Context;Ljava/lang/String;)V
@@ -4302,6 +4328,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static setAppVersion(Landroid/content/Context;Ljava/lang/String;)V
@@ -4412,6 +4448,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static setBuglyDbName(Ljava/lang/String;)V
@@ -4531,6 +4577,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static setCollectPrivacyInfo(Landroid/content/Context;Z)V
@@ -4635,6 +4683,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static setContext(Landroid/content/Context;)V
@@ -4668,6 +4726,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static setCrashFilter(Ljava/lang/String;)V
@@ -4787,6 +4847,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static setCrashRegularFilter(Ljava/lang/String;)V
@@ -4906,6 +4968,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static setDeviceId(Landroid/content/Context;Ljava/lang/String;)V
@@ -4981,6 +5045,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static setDeviceModel(Landroid/content/Context;Ljava/lang/String;)V
@@ -5056,6 +5130,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static setDumpFilePath(Landroid/content/Context;Ljava/lang/String;)V
@@ -5163,6 +5247,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static setHandleNativeCrashInJava(Z)V
@@ -5282,6 +5376,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static setHttpProxy(Ljava/lang/String;I)V
@@ -5417,6 +5513,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static setIsDevelopmentDevice(Landroid/content/Context;Z)V
@@ -5527,6 +5633,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static setJavascriptMonitor(Landroid/webkit/WebView;Z)Z
@@ -5959,11 +6075,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public static setServerUrl(Ljava/lang/String;)V
@@ -6085,6 +6196,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static setSessionIntervalMills(J)V
@@ -6131,6 +6244,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static setUserId(Landroid/content/Context;Ljava/lang/String;)V
@@ -6716,6 +6831,36 @@
     .line 261
     .line 262
     .line 263
+    .line 264
+    .line 265
+    .line 266
+    .line 267
+    .line 268
+    .line 269
+    .line 270
+    .line 271
+    .line 272
+    .line 273
+    .line 274
+    .line 275
+    .line 276
+    .line 277
+    .line 278
+    .line 279
+    .line 280
+    .line 281
+    .line 282
+    .line 283
+    .line 284
+    .line 285
+    .line 286
+    .line 287
+    .line 288
+    .line 289
+    .line 290
+    .line 291
+    .line 292
+    .line 293
 .end method
 
 .method public static startCrashReport()V
@@ -6844,6 +6989,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static testANRCrash()V
@@ -6980,6 +7126,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static testJavaCrash()V
@@ -7141,6 +7288,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public static testNativeCrash()V
@@ -7330,4 +7478,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

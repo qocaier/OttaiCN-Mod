@@ -56,6 +56,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -86,6 +88,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNumberOfThisDiskStartOfCentralDirectory()I
@@ -114,6 +118,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getOffsetStartCentralDirectoryWRTStartDiskNumber()J
@@ -142,6 +148,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSizeOfCentralDirectory()J
@@ -170,6 +178,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSizeOfZip64EndCentralDirectoryRecord()J
@@ -198,6 +208,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTotalNumberOfEntriesInCentralDirectory()J
@@ -226,6 +238,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTotalNumberOfEntriesInCentralDirectoryOnThisDisk()J
@@ -254,6 +268,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVersionMadeBy()I
@@ -282,6 +298,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVersionNeededToExtract()I
@@ -310,6 +328,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setExtensibleDataSector([B)V
@@ -343,6 +363,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNumberOfThisDisk(I)V
@@ -376,6 +398,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNumberOfThisDiskStartOfCentralDirectory(I)V
@@ -409,6 +433,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setOffsetStartCentralDirectoryWRTStartDiskNumber(J)V
@@ -442,6 +468,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSizeOfCentralDirectory(J)V
@@ -475,6 +503,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSizeOfZip64EndCentralDirectoryRecord(J)V
@@ -508,6 +538,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTotalNumberOfEntriesInCentralDirectory(J)V
@@ -541,6 +573,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTotalNumberOfEntriesInCentralDirectoryOnThisDisk(J)V
@@ -574,6 +608,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVersionMadeBy(I)V
@@ -607,6 +643,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVersionNeededToExtract(I)V
@@ -640,4 +678,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

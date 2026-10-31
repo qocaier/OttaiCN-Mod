@@ -7,29 +7,9 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    .line 3
-    .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
 .end method
 
 .method public static checkRedirect(Lanet/channel/request/Request;I)Z
@@ -282,6 +262,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getHeaderFieldByKey(Ljava/util/Map;Ljava/lang/String;)Ljava/util/List;
@@ -598,6 +579,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static getSingleHeaderFieldByKey(Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
@@ -884,6 +868,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static parseStatusCode(Ljava/util/Map;)I
@@ -1013,6 +998,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static removeHeaderFiledByKey(Ljava/util/Map;Ljava/lang/String;)V
@@ -1310,4 +1296,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

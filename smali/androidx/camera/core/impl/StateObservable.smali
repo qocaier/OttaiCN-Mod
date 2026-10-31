@@ -387,6 +387,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private removeObserverLocked(Landroidx/camera/core/impl/Observable$Observer;)V
@@ -824,6 +827,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 
@@ -937,7 +945,7 @@
     .line 48
 .end method
 
-.method public fetchData()Lub/u0;
+.method public fetchData()Lcom/google/common/util/concurrent/t;
     .locals 2
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -945,8 +953,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "TT;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -983,7 +990,7 @@
     move-result-object v0
 
     .line 17
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFailedFuture(Ljava/lang/Throwable;)Lcom/google/common/util/concurrent/t;
 
     .line 18
     .line 19
@@ -995,7 +1002,7 @@
 
     .line 22
     :cond_0
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 23
     .line 24
@@ -1062,6 +1069,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public removeObserver(Landroidx/camera/core/impl/Observable$Observer;)V

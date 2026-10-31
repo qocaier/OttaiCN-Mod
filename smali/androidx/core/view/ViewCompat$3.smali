@@ -259,6 +259,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -281,15 +287,6 @@
     .locals 0
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1e
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000
-        }
-        names = {
-            null
-        }
     .end annotation
 
     .line 1
@@ -318,17 +315,6 @@
         value = 0x1e
     .end annotation
 
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            null,
-            null
-        }
-    .end annotation
-
     .line 1
     check-cast p2, Ljava/lang/CharSequence;
 
@@ -352,16 +338,6 @@
 
 .method public bridge synthetic shouldUpdate(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            null,
-            null
-        }
-    .end annotation
 
     .line 1
     check-cast p1, Ljava/lang/CharSequence;

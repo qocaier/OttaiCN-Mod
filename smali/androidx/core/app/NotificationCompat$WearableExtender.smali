@@ -807,6 +807,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method private setFlag(IZ)V
@@ -1075,6 +1080,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clearPages()Landroidx/core/app/NotificationCompat$WearableExtender;
@@ -1107,6 +1113,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public clone()Landroidx/core/app/NotificationCompat$WearableExtender;
@@ -1662,6 +1669,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public getActions()Ljava/util/List;
@@ -1698,6 +1710,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBackground()Landroid/graphics/Bitmap;
@@ -1728,6 +1741,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBridgeTag()Ljava/lang/String;
@@ -1756,6 +1770,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentAction()I
@@ -1784,6 +1799,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentIcon()I
@@ -1814,6 +1830,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentIconGravity()I
@@ -1844,6 +1861,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentIntentAvailableOffline()Z
@@ -1883,6 +1901,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCustomContentHeight()I
@@ -1913,6 +1932,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCustomSizePreset()I
@@ -1943,6 +1963,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDismissalId()Ljava/lang/String;
@@ -1971,6 +1992,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDisplayIntent()Landroid/app/PendingIntent;
@@ -2001,6 +2023,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getGravity()I
@@ -2031,6 +2054,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHintAmbientBigPicture()Z
@@ -2072,6 +2096,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHintAvoidBackgroundClipping()Z
@@ -2113,6 +2138,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHintContentIntentLaunchesActivity()Z
@@ -2152,6 +2178,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHintHideIcon()Z
@@ -2193,6 +2220,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHintScreenTimeout()I
@@ -2223,6 +2251,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getHintShowBackgroundOnly()Z
@@ -2264,6 +2293,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPages()Ljava/util/List;
@@ -2303,6 +2333,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStartScrollBottom()Z
@@ -2342,6 +2373,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setBackground(Landroid/graphics/Bitmap;)Landroidx/core/app/NotificationCompat$WearableExtender;

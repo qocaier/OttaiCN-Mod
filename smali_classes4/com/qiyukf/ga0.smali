@@ -69,6 +69,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -126,6 +128,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public declared-synchronized b(Lcom/qiyukf/ga0$a;)V
@@ -181,4 +185,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

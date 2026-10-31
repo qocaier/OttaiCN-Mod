@@ -286,6 +286,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getAddedCount()I
@@ -320,6 +321,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getBeforeText()Ljava/lang/CharSequence;
@@ -354,6 +356,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getClassName()Ljava/lang/CharSequence;
@@ -388,6 +391,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getContentDescription()Ljava/lang/CharSequence;
@@ -422,6 +426,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCurrentItemIndex()I
@@ -456,6 +461,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFromIndex()I
@@ -490,6 +496,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getImpl()Ljava/lang/Object;
@@ -520,6 +527,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getItemCount()I
@@ -554,6 +562,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxScrollX()I
@@ -618,6 +627,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRemovedCount()I
@@ -652,6 +662,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getScrollX()I
@@ -686,6 +697,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getScrollY()I
@@ -720,6 +732,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSource()Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
@@ -764,6 +777,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getText()Ljava/util/List;
@@ -807,6 +821,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getToIndex()I
@@ -841,6 +856,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWindowId()I
@@ -875,6 +891,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -916,6 +933,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isChecked()Z
@@ -950,6 +968,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEnabled()Z
@@ -984,6 +1003,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isFullScreen()Z
@@ -1018,6 +1038,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isPassword()Z
@@ -1052,6 +1073,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isScrollable()Z
@@ -1086,6 +1108,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public recycle()V
@@ -1118,6 +1141,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setAddedCount(I)V

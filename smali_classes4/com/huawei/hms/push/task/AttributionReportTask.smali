@@ -135,16 +135,11 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 
 # virtual methods
-.method public doExecute(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+.method public doExecute(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -152,9 +147,8 @@
             "Lcom/huawei/hms/aaid/task/PushClient;",
             "Lcom/huawei/hms/common/internal/ResponseErrorCode;",
             "Ljava/lang/String;",
-            "Lme/l<",
-            "Ljava/lang/Void;",
-            ">;)V"
+            "Lq5/g;",
+            ")V"
         }
     .end annotation
 
@@ -175,7 +169,7 @@
     const/4 p3, 0x0
 
     .line 4
-    invoke-virtual {p4, p3}, Lme/l;->d(Ljava/lang/Object;)V
+    invoke-virtual {p4, p3}, Lq5/g;->c(Ljava/lang/Object;)V
 
     goto :goto_0
 
@@ -232,7 +226,7 @@
 
     invoke-direct {p3, v0}, Lcom/huawei/hms/common/ApiException;-><init>(Lcom/huawei/hms/support/api/client/Status;)V
 
-    invoke-virtual {p4, p3}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p3}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     goto :goto_0
 
@@ -272,7 +266,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p4, p3}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p3}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     goto :goto_0
 
@@ -282,7 +276,7 @@
 
     move-result-object p3
 
-    invoke-virtual {p4, p3}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p4, p3}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 15
     :goto_0
@@ -299,13 +293,13 @@
     return-void
 .end method
 
-.method public bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+.method public bridge synthetic doExecute(Lcom/huawei/hms/common/internal/AnyClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
     .locals 0
 
     .line 1
     check-cast p1, Lcom/huawei/hms/aaid/task/PushClient;
 
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/push/task/AttributionReportTask;->doExecute(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lme/l;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/huawei/hms/push/task/AttributionReportTask;->doExecute(Lcom/huawei/hms/aaid/task/PushClient;Lcom/huawei/hms/common/internal/ResponseErrorCode;Ljava/lang/String;Lq5/g;)V
 
     return-void
 .end method

@@ -46,7 +46,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static a()V
@@ -221,7 +220,6 @@
 
     .line 22
     return v0
-    .line 23
 .end method
 
 .method public static getIP(Ljava/lang/String;)Ljava/lang/String;
@@ -256,7 +254,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static initLongLinkClient()Z
@@ -312,7 +309,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private native nativeCreate()J
@@ -418,7 +414,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static startRunningRequest()V
@@ -449,7 +444,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static stopLongLink()V
@@ -489,7 +483,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -528,7 +521,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public dispose()I
@@ -563,5 +555,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

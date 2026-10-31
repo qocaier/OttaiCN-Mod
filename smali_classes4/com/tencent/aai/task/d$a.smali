@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/tencent/aai/task/d;->b()Lokhttp3/q;
+    value = Lcom/tencent/aai/task/d;->b()La9/z;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

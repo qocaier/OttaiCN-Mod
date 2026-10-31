@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/google/common/cache/d;
+.implements Lcom/google/common/cache/k;
 
 
 # annotations
@@ -16,77 +16,18 @@
     name = "w"
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<K:",
-        "Ljava/lang/Object;",
-        "V:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/ref/WeakReference<",
-        "TK;>;",
-        "Lcom/google/common/cache/d<",
-        "TK;TV;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final a:I
 
-.field public final b:Lcom/google/common/cache/d;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
-.end field
+.field public final b:Lcom/google/common/cache/k;
 
 .field public volatile c:Lcom/google/common/cache/LocalCache$s;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;"
-        }
-    .end annotation
-.end field
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;ILcom/google/common/cache/d;)V
+.method public constructor <init>(Ljava/lang/ref/ReferenceQueue;Ljava/lang/Object;ILcom/google/common/cache/k;)V
     .locals 0
-    .param p4    # Lcom/google/common/cache/d;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "queue",
-            "key",
-            "hash",
-            "next"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/ref/ReferenceQueue<",
-            "TK;>;TK;I",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V
@@ -94,7 +35,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lcom/google/common/cache/LocalCache;->S()Lcom/google/common/cache/LocalCache$s;
+    invoke-static {}, Lcom/google/common/cache/LocalCache;->I()Lcom/google/common/cache/LocalCache$s;
 
     .line 5
     .line 6
@@ -110,7 +51,7 @@
 
     .line 11
     .line 12
-    iput-object p4, p0, Lcom/google/common/cache/LocalCache$w;->b:Lcom/google/common/cache/d;
+    iput-object p4, p0, Lcom/google/common/cache/LocalCache$w;->b:Lcom/google/common/cache/k;
 
     .line 13
     .line 14
@@ -343,6 +284,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 
@@ -377,7 +334,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getHash()I
@@ -408,16 +364,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getKey()Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TK;"
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
@@ -446,21 +396,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getNext()Lcom/google/common/cache/d;
+.method public getNext()Lcom/google/common/cache/k;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/cache/LocalCache$w;->b:Lcom/google/common/cache/d;
+    iget-object v0, p0, Lcom/google/common/cache/LocalCache$w;->b:Lcom/google/common/cache/k;
 
     .line 2
     .line 3
@@ -484,18 +426,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getNextInAccessQueue()Lcom/google/common/cache/d;
+.method public getNextInAccessQueue()Lcom/google/common/cache/k;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
@@ -524,18 +458,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getNextInWriteQueue()Lcom/google/common/cache/d;
+.method public getNextInWriteQueue()Lcom/google/common/cache/k;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
@@ -564,18 +490,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getPreviousInAccessQueue()Lcom/google/common/cache/d;
+.method public getPreviousInAccessQueue()Lcom/google/common/cache/k;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
@@ -604,18 +522,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
-.method public getPreviousInWriteQueue()Lcom/google/common/cache/d;
+.method public getPreviousInWriteQueue()Lcom/google/common/cache/k;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
@@ -644,18 +554,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getValueReference()Lcom/google/common/cache/LocalCache$s;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/common/cache/LocalCache$w;->c:Lcom/google/common/cache/LocalCache$s;
@@ -682,7 +584,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWriteTime()J
@@ -715,19 +616,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAccessTime(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "time"
-        }
-    .end annotation
 
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -758,27 +650,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setNextInAccessQueue(Lcom/google/common/cache/d;)V
+.method public setNextInAccessQueue(Lcom/google/common/cache/k;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "next"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)V"
-        }
-    .end annotation
 
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -809,27 +684,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setNextInWriteQueue(Lcom/google/common/cache/d;)V
+.method public setNextInWriteQueue(Lcom/google/common/cache/k;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "next"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)V"
-        }
-    .end annotation
 
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -860,27 +718,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setPreviousInAccessQueue(Lcom/google/common/cache/d;)V
+.method public setPreviousInAccessQueue(Lcom/google/common/cache/k;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "previous"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)V"
-        }
-    .end annotation
 
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -911,27 +752,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public setPreviousInWriteQueue(Lcom/google/common/cache/d;)V
+.method public setPreviousInWriteQueue(Lcom/google/common/cache/k;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "previous"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/d<",
-            "TK;TV;>;)V"
-        }
-    .end annotation
 
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -962,27 +786,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setValueReference(Lcom/google/common/cache/LocalCache$s;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "valueReference"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Lcom/google/common/cache/LocalCache$s<",
-            "TK;TV;>;)V"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/google/common/cache/LocalCache$w;->c:Lcom/google/common/cache/LocalCache$s;
@@ -1011,19 +818,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWriteTime(J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "time"
-        }
-    .end annotation
 
     .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
@@ -1054,5 +852,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

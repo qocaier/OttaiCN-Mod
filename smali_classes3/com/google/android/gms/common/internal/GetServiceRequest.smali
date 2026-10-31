@@ -3,21 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lb9/a;
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "GetServiceRequestCreator"
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$g;
-    value = {
-        0x9
-    }
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
@@ -39,113 +24,41 @@
 
 # instance fields
 .field public final a:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$h;
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        id = 0x2
-    .end annotation
-.end field
 
 .field public final c:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        id = 0x3
-    .end annotation
-.end field
 
 .field public d:Ljava/lang/String;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        id = 0x4
-    .end annotation
-.end field
 
 .field public e:Landroid/os/IBinder;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        id = 0x5
-    .end annotation
-.end field
 
 .field public f:[Lcom/google/android/gms/common/api/Scope;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValueUnchecked = "GetServiceRequest.EMPTY_SCOPES"
-        id = 0x6
-    .end annotation
-.end field
 
 .field public g:Landroid/os/Bundle;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValueUnchecked = "new android.os.Bundle()"
-        id = 0x7
-    .end annotation
-.end field
 
 .field public h:Landroid/accounts/Account;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        id = 0x8
-    .end annotation
-.end field
 
 .field public i:[Lcom/google/android/gms/common/Feature;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValueUnchecked = "GetServiceRequest.EMPTY_FEATURES"
-        id = 0xa
-    .end annotation
-.end field
 
 .field public j:[Lcom/google/android/gms/common/Feature;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValueUnchecked = "GetServiceRequest.EMPTY_FEATURES"
-        id = 0xb
-    .end annotation
-.end field
 
 .field public final k:Z
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        id = 0xc
-    .end annotation
-.end field
 
 .field public final l:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        defaultValue = "0"
-        id = 0xd
-    .end annotation
-.end field
 
 .field public m:Z
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "isRequestingTelemetryConfiguration"
-        id = 0xe
-    .end annotation
-.end field
 
 .field public final n:Ljava/lang/String;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getAttributionTag"
-        id = 0xf
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 2
 
-    new-instance v0, Lh9/a2;
+    new-instance v0, Lt2/x0;
 
-    invoke-direct {v0}, Lh9/a2;-><init>()V
+    invoke-direct {v0}, Lt2/x0;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/internal/GetServiceRequest;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -164,87 +77,6 @@
 
 .method public constructor <init>(IIILjava/lang/String;Landroid/os/IBinder;[Lcom/google/android/gms/common/api/Scope;Landroid/os/Bundle;Landroid/accounts/Account;[Lcom/google/android/gms/common/Feature;[Lcom/google/android/gms/common/Feature;ZIZLjava/lang/String;)V
     .locals 0
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .param p3    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x3
-        .end annotation
-    .end param
-    .param p4    # Ljava/lang/String;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x4
-        .end annotation
-    .end param
-    .param p5    # Landroid/os/IBinder;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x5
-        .end annotation
-    .end param
-    .param p6    # [Lcom/google/android/gms/common/api/Scope;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x6
-        .end annotation
-    .end param
-    .param p7    # Landroid/os/Bundle;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x7
-        .end annotation
-    .end param
-    .param p8    # Landroid/accounts/Account;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x8
-        .end annotation
-    .end param
-    .param p9    # [Lcom/google/android/gms/common/Feature;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0xa
-        .end annotation
-    .end param
-    .param p10    # [Lcom/google/android/gms/common/Feature;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0xb
-        .end annotation
-    .end param
-    .param p11    # Z
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0xc
-        .end annotation
-    .end param
-    .param p12    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0xd
-        .end annotation
-    .end param
-    .param p13    # Z
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0xe
-        .end annotation
-    .end param
-    .param p14    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0xf
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -353,7 +185,7 @@
     move-result-object p1
 
     .line 51
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/a;->q0(Lcom/google/android/gms/common/internal/b;)Landroid/accounts/Account;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/a;->M(Lcom/google/android/gms/common/internal/b;)Landroid/accounts/Account;
 
     .line 52
     .line 53
@@ -423,24 +255,8 @@
 
 
 # virtual methods
-.method public s()Landroid/os/Bundle;
+.method public final d()Ljava/lang/String;
     .locals 1
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lb9/a;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/GetServiceRequest;->g:Landroid/os/Bundle;
-
-    return-object v0
-.end method
-
-.method public final t()Ljava/lang/String;
-    .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/internal/GetServiceRequest;->n:Ljava/lang/String;
@@ -450,13 +266,9 @@
 
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p0, p1, p2}, Lh9/a2;->a(Lcom/google/android/gms/common/internal/GetServiceRequest;Landroid/os/Parcel;I)V
+    invoke-static {p0, p1, p2}, Lt2/x0;->a(Lcom/google/android/gms/common/internal/GetServiceRequest;Landroid/os/Parcel;I)V
 
     .line 2
     .line 3
@@ -518,9 +330,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

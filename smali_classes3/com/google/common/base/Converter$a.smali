@@ -16,14 +16,6 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljava/lang/Iterable<",
-        "TB;>;"
-    }
-.end annotation
-
 
 # instance fields
 .field public final synthetic a:Ljava/lang/Iterable;
@@ -34,16 +26,6 @@
 # direct methods
 .method public constructor <init>(Lcom/google/common/base/Converter;Ljava/lang/Iterable;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010
-        }
-        names = {
-            "this$0",
-            "val$fromIterable"
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Lcom/google/common/base/Converter$a;->b:Lcom/google/common/base/Converter;
@@ -112,24 +94,12 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
 # virtual methods
 .method public iterator()Ljava/util/Iterator;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Iterator<",
-            "TB;>;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Lcom/google/common/base/Converter$a$a;
@@ -158,5 +128,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

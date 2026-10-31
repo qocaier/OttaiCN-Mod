@@ -89,11 +89,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -126,7 +121,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAnimationCancel()V
@@ -161,7 +155,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAnimationEnd()V
@@ -209,7 +202,6 @@
     :cond_0
     return-void
     .line 22
-    .line 23
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
@@ -256,7 +248,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onChange(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$OnChangedCallback;)V
@@ -298,7 +289,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public performNow()V
@@ -333,7 +323,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public shouldCancel()Z
@@ -368,5 +357,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

@@ -352,6 +352,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public getCallback()Landroid/support/v4/media/session/MediaSessionCompat$Callback;
@@ -396,6 +399,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCallingPackage()Ljava/lang/String;
@@ -528,6 +532,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCurrentControllerInfo()Landroidx/media/MediaSessionManager$RemoteUserInfo;
@@ -572,6 +578,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMediaSession()Ljava/lang/Object;
@@ -600,6 +607,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPlaybackState()Landroid/support/v4/media/session/PlaybackStateCompat;
@@ -628,6 +636,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRemoteControlClient()Ljava/lang/Object;
@@ -664,6 +673,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isActive()Z
@@ -696,6 +706,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public release()V
@@ -856,6 +867,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public sendSessionEvent(Ljava/lang/String;Landroid/os/Bundle;)V
@@ -1200,6 +1213,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setCurrentControllerInfo(Landroidx/media/MediaSessionManager$RemoteUserInfo;)V
@@ -1579,6 +1593,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setPlaybackToLocal(I)V
@@ -1810,6 +1825,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setQueueTitle(Ljava/lang/CharSequence;)V
@@ -2143,6 +2159,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setSessionActivity(Landroid/app/PendingIntent;)V
@@ -2332,4 +2349,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

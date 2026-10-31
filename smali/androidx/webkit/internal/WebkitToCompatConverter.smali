@@ -79,7 +79,7 @@
 
     .line 10
     .line 11
-    invoke-static {v1, p1}, Lmq/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+    invoke-static {v1, p1}, Lx9/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -124,7 +124,7 @@
 
     move-result-object p1
 
-    invoke-static {p1}, Ly1/l0;->a(Ljava/lang/Object;)Landroid/webkit/SafeBrowsingResponse;
+    invoke-static {p1}, Landroidx/webkit/internal/l0;->a(Ljava/lang/Object;)Landroid/webkit/SafeBrowsingResponse;
 
     move-result-object p1
 
@@ -224,7 +224,7 @@
 
     .line 10
     .line 11
-    invoke-static {v1, p1}, Lmq/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+    invoke-static {v1, p1}, Lx9/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -367,7 +367,7 @@
 
     .line 10
     .line 11
-    invoke-static {v1, p1}, Lmq/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+    invoke-static {v1, p1}, Lx9/a;->a(Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
 
     .line 12
     .line 13

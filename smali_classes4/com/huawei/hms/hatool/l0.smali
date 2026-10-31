@@ -90,11 +90,11 @@
 
     move-result p1
 
-    const-string v1, "{url}"
+    const-string/jumbo v1, "{url}"
 
     if-eqz p1, :cond_1
 
-    const-string p1, "{url}/common/hmshioperqrt"
+    const-string/jumbo p1, "{url}/common/hmshioperqrt"
 
     :goto_0
     invoke-virtual {p1, v1, v0}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
@@ -112,7 +112,7 @@
 
     if-eqz p1, :cond_2
 
-    const-string p1, "{url}/common/hmshimaintqrt"
+    const-string/jumbo p1, "{url}/common/hmshimaintqrt"
 
     goto :goto_0
 
@@ -125,7 +125,7 @@
 
     if-eqz p1, :cond_3
 
-    const-string p1, "{url}/common/common2"
+    const-string/jumbo p1, "{url}/common/common2"
 
     goto :goto_0
 

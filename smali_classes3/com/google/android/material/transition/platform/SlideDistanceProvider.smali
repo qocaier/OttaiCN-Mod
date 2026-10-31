@@ -68,7 +68,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static createTranslationAppearAnimator(Landroid/view/View;Landroid/view/View;II)Landroid/animation/Animator;
@@ -465,6 +464,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private static createTranslationDisappearAnimator(Landroid/view/View;Landroid/view/View;II)Landroid/animation/Animator;
@@ -861,6 +876,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private static createTranslationXAnimator(Landroid/view/View;FFF)Landroid/animation/Animator;
@@ -1141,6 +1172,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private static createTranslationYAnimator(Landroid/view/View;FFF)Landroid/animation/Animator;
@@ -1421,6 +1468,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private getSlideDistanceOrDefault(Landroid/content/Context;)I
@@ -1470,7 +1533,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static isRtl(Landroid/view/View;)Z
@@ -1514,7 +1576,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -1607,11 +1668,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public createDisappear(Landroid/view/ViewGroup;Landroid/view/View;)Landroid/animation/Animator;
@@ -1702,11 +1758,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public getSlideDistance()I
@@ -1739,7 +1790,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getSlideEdge()I
@@ -1770,7 +1820,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setSlideDistance(I)V
@@ -1818,7 +1867,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSlideEdge(I)V
@@ -1851,5 +1899,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

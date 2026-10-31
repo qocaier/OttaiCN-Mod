@@ -51,23 +51,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;Ljava/lang/Class;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10,
-            0x10,
-            0x10,
-            0x10,
-            0x10
-        }
-        names = {
-            "containingTypeDefaultInstance",
-            "defaultValue",
-            "messageDefaultInstance",
-            "descriptor",
-            "singularType"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TContainingType;TType;",
@@ -652,14 +635,6 @@
 # virtual methods
 .method public fromFieldSetType(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
@@ -798,6 +773,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getContainingTypeDefaultInstance()Landroidx/datastore/preferences/protobuf/MessageLite;
@@ -831,6 +807,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getDefaultValue()Ljava/lang/Object;
@@ -864,6 +841,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLiteType()Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
@@ -896,6 +874,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMessageDefaultInstance()Landroidx/datastore/preferences/protobuf/MessageLite;
@@ -924,6 +903,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getNumber()I
@@ -956,6 +936,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isRepeated()Z
@@ -986,18 +967,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public singularFromFieldSetType(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
@@ -1054,14 +1028,6 @@
 
 .method public singularToFieldSetType(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
@@ -1114,14 +1080,6 @@
 
 .method public toFieldSetType(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;->descriptor:Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtensionDescriptor;
@@ -1260,4 +1218,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

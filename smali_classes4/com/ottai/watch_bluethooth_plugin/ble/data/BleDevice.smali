@@ -61,9 +61,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public constructor <init>(Landroid/bluetooth/BluetoothDevice;)V
+.method public constructor <init>(Landroid/bluetooth/BluetoothDevice;I[BLandroid/bluetooth/le/ScanRecord;J)V
     .locals 0
 
     .line 1
@@ -72,28 +74,16 @@
     .line 2
     iput-object p1, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->a:Landroid/bluetooth/BluetoothDevice;
 
-    return-void
-.end method
-
-.method public constructor <init>(Landroid/bluetooth/BluetoothDevice;I[BLandroid/bluetooth/le/ScanRecord;J)V
-    .locals 0
-
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 4
-    iput-object p1, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->a:Landroid/bluetooth/BluetoothDevice;
-
-    .line 5
     iput-object p3, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->b:[B
 
-    .line 6
+    .line 4
     iput p2, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->c:I
 
-    .line 7
+    .line 5
     iput-wide p5, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->d:J
 
-    .line 8
+    .line 6
     iput-object p4, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->e:Landroid/bluetooth/le/ScanRecord;
 
     return-void
@@ -102,10 +92,10 @@
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 2
 
-    .line 9
+    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 10
+    .line 8
     const-class v0, Landroid/bluetooth/BluetoothDevice;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
@@ -120,21 +110,21 @@
 
     iput-object v0, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->a:Landroid/bluetooth/BluetoothDevice;
 
-    .line 11
+    .line 9
     invoke-virtual {p1}, Landroid/os/Parcel;->createByteArray()[B
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->b:[B
 
-    .line 12
+    .line 10
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->c:I
 
-    .line 13
+    .line 11
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     move-result-wide v0
@@ -146,7 +136,7 @@
 
 
 # virtual methods
-.method public a()Landroid/bluetooth/BluetoothDevice;
+.method public b()Landroid/bluetooth/BluetoothDevice;
     .locals 1
 
     .line 1
@@ -172,15 +162,12 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public b()Ljava/lang/String;
+.method public d()Ljava/lang/String;
     .locals 2
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "MissingPermission"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->a:Landroid/bluetooth/BluetoothDevice;
@@ -300,9 +287,18 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
-.method public c()Ljava/lang/String;
+.method public describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public e()Ljava/lang/String;
     .locals 1
 
     .line 1
@@ -339,9 +335,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public d()Ljava/lang/String;
+.method public f()Ljava/lang/String;
     .locals 1
 
     .line 1
@@ -378,17 +376,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public describeContents()I
-    .locals 1
-
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public e()I
+.method public g()I
     .locals 1
 
     .line 1
@@ -414,9 +406,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public g()[B
+.method public h()[B
     .locals 1
 
     .line 1
@@ -442,9 +436,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
-.method public h()Landroid/bluetooth/le/ScanRecord;
+.method public i()Landroid/bluetooth/le/ScanRecord;
     .locals 1
 
     .line 1
@@ -470,166 +466,8 @@
     .line 18
     .line 19
     .line 20
-.end method
-
-.method public i()J
-    .locals 2
-
-    .line 1
-    iget-wide v0, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->d:J
-
-    .line 2
-    .line 3
-    return-wide v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
-.method public j(Landroid/bluetooth/BluetoothDevice;)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->a:Landroid/bluetooth/BluetoothDevice;
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
     .line 21
     .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public k(I)V
-    .locals 0
-
-    .line 1
-    iput p1, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->c:I
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public l([B)V
-    .locals 0
-
-    .line 1
-    iput-object p1, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->b:[B
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public m(J)V
-    .locals 0
-
-    .line 1
-    iput-wide p1, p0, Lcom/ottai/watch_bluethooth_plugin/ble/data/BleDevice;->d:J
-
-    .line 2
-    .line 3
-    return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -706,4 +544,14 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method

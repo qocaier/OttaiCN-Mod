@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -36,26 +36,10 @@
 
 # virtual methods
 .method public abstract clearNextServedView(Landroid/view/inputmethod/InputMethodManager;)Z
-    .param p1    # Landroid/view/inputmethod/InputMethodManager;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method
 
 .method public abstract getLock(Landroid/view/inputmethod/InputMethodManager;)Ljava/lang/Object;
-    .param p1    # Landroid/view/inputmethod/InputMethodManager;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 .end method
 
 .method public abstract getServedView(Landroid/view/inputmethod/InputMethodManager;)Landroid/view/View;
-    .param p1    # Landroid/view/inputmethod/InputMethodManager;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 .end method

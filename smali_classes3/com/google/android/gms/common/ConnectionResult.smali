@@ -3,22 +3,7 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "ConnectionResultCreator"
-.end annotation
-
-
 # static fields
-.field public static final A:I = 0x17
-
-.field public static final B:I = 0x18
-
-.field public static final C:I = 0x5dc
-    .annotation runtime Ljava/lang/Deprecated;
-    .end annotation
-.end field
-
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
@@ -32,98 +17,17 @@
     .end annotation
 .end field
 
-.field public static final D:Lcom/google/android/gms/common/ConnectionResult;
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation build Lb9/a;
-    .end annotation
-
-    .annotation build Lh9/x;
-    .end annotation
-.end field
-
-.field public static final e:I = -0x1
-    .annotation build Lb9/a;
-    .end annotation
-.end field
-
-.field public static final f:I = 0x0
-
-.field public static final g:I = 0x1
-
-.field public static final h:I = 0x2
-
-.field public static final i:I = 0x3
-
-.field public static final j:I = 0x4
-
-.field public static final k:I = 0x5
-
-.field public static final l:I = 0x6
-
-.field public static final m:I = 0x7
-
-.field public static final n:I = 0x8
-
-.field public static final o:I = 0x9
-
-.field public static final p:I = 0xa
-
-.field public static final q:I = 0xb
-
-.field public static final r:I = 0xd
-
-.field public static final s:I = 0xe
-
-.field public static final t:I = 0xf
-
-.field public static final u:I = 0x10
-
-.field public static final v:I = 0x11
-
-.field public static final w:I = 0x12
-
-.field public static final x:I = 0x13
-
-.field public static final y:I = 0x14
-
-.field public static final z:I = 0x16
+.field public static final e:Lcom/google/android/gms/common/ConnectionResult;
 
 
 # instance fields
 .field public final a:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$h;
-        id = 0x1
-    .end annotation
-.end field
 
 .field public final b:I
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getErrorCode"
-        id = 0x2
-    .end annotation
-.end field
 
 .field public final c:Landroid/app/PendingIntent;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getResolution"
-        id = 0x3
-    .end annotation
-.end field
 
 .field public final d:Ljava/lang/String;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getErrorMessage"
-        id = 0x4
-    .end annotation
-.end field
 
 
 # direct methods
@@ -136,11 +40,11 @@
 
     invoke-direct {v0, v1}, Lcom/google/android/gms/common/ConnectionResult;-><init>(I)V
 
-    sput-object v0, Lcom/google/android/gms/common/ConnectionResult;->D:Lcom/google/android/gms/common/ConnectionResult;
+    sput-object v0, Lcom/google/android/gms/common/ConnectionResult;->e:Lcom/google/android/gms/common/ConnectionResult;
 
-    new-instance v0, La9/x;
+    new-instance v0, Lq2/h;
 
-    invoke-direct {v0}, La9/x;-><init>()V
+    invoke-direct {v0}, Lq2/h;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/ConnectionResult;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -160,34 +64,6 @@
 
 .method public constructor <init>(IILandroid/app/PendingIntent;Ljava/lang/String;)V
     .locals 0
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .param p2    # I
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x2
-        .end annotation
-    .end param
-    .param p3    # Landroid/app/PendingIntent;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x3
-        .end annotation
-    .end param
-    .param p4    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x4
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -205,10 +81,6 @@
 
 .method public constructor <init>(ILandroid/app/PendingIntent;)V
     .locals 1
-    .param p2    # Landroid/app/PendingIntent;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     const/4 v0, 0x0
 
@@ -220,14 +92,6 @@
 
 .method public constructor <init>(ILandroid/app/PendingIntent;Ljava/lang/String;)V
     .locals 1
-    .param p2    # Landroid/app/PendingIntent;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/String;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     const/4 v0, 0x1
 
@@ -237,10 +101,8 @@
     return-void
 .end method
 
-.method public static A(I)Ljava/lang/String;
+.method public static i(I)Ljava/lang/String;
     .locals 2
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
     const/16 v0, 0x63
@@ -849,16 +711,62 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 
 # virtual methods
+.method public d()I
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/google/android/gms/common/ConnectionResult;->b:I
+
+    return v0
+.end method
+
+.method public e()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/common/ConnectionResult;->d:Ljava/lang/String;
+
+    return-object v0
+.end method
+
 .method public equals(Ljava/lang/Object;)Z
     .locals 4
-    .param p1    # Ljava/lang/Object;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-    .end param
 
     .line 1
     const/4 v0, 0x1
@@ -911,7 +819,7 @@
 
     .line 22
     .line 23
-    invoke-static {v1, v3}, Lh9/r;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lt2/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 24
     .line 25
@@ -931,7 +839,7 @@
 
     .line 32
     .line 33
-    invoke-static {v1, p1}, Lh9/r;->b(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lt2/i;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 34
     .line 35
@@ -999,8 +907,55 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
+.end method
+
+.method public f()Landroid/app/PendingIntent;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/common/ConnectionResult;->c:Landroid/app/PendingIntent;
+
+    return-object v0
+.end method
+
+.method public g()Z
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/google/android/gms/common/ConnectionResult;->b:I
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lcom/google/android/gms/common/ConnectionResult;->c:Landroid/app/PendingIntent;
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public h()Z
+    .locals 1
+
+    .line 1
+    iget v0, p0, Lcom/google/android/gms/common/ConnectionResult;->b:I
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
 .end method
 
 .method public hashCode()I
@@ -1035,7 +990,7 @@
     move-result-object v0
 
     .line 15
-    invoke-static {v0}, Lh9/r;->c([Ljava/lang/Object;)I
+    invoke-static {v0}, Lt2/i;->b([Ljava/lang/Object;)I
 
     .line 16
     .line 17
@@ -1047,36 +1002,13 @@
     .line 20
     .line 21
     .line 22
-    .line 23
-.end method
-
-.method public s()I
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/common/ConnectionResult;->b:I
-
-    return v0
-.end method
-
-.method public t()Ljava/lang/String;
-    .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/ConnectionResult;->d:Ljava/lang/String;
-
-    return-object v0
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
 
     .line 1
-    invoke-static {p0}, Lh9/r;->d(Ljava/lang/Object;)Lh9/r$a;
+    invoke-static {p0}, Lt2/i;->c(Ljava/lang/Object;)Lt2/i$a;
 
     .line 2
     .line 3
@@ -1092,7 +1024,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1}, Lcom/google/android/gms/common/ConnectionResult;->A(I)Ljava/lang/String;
+    invoke-static {v1}, Lcom/google/android/gms/common/ConnectionResult;->i(I)Ljava/lang/String;
 
     .line 10
     .line 11
@@ -1100,7 +1032,7 @@
     move-result-object v1
 
     .line 13
-    invoke-virtual {v0, v2, v1}, Lh9/r$a;->a(Ljava/lang/String;Ljava/lang/Object;)Lh9/r$a;
+    invoke-virtual {v0, v2, v1}, Lt2/i$a;->a(Ljava/lang/String;Ljava/lang/Object;)Lt2/i$a;
 
     .line 14
     .line 15
@@ -1113,7 +1045,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1, v2}, Lh9/r$a;->a(Ljava/lang/String;Ljava/lang/Object;)Lh9/r$a;
+    invoke-virtual {v0, v1, v2}, Lt2/i$a;->a(Ljava/lang/String;Ljava/lang/Object;)Lt2/i$a;
 
     .line 21
     .line 22
@@ -1126,12 +1058,12 @@
 
     .line 26
     .line 27
-    invoke-virtual {v0, v1, v2}, Lh9/r$a;->a(Ljava/lang/String;Ljava/lang/Object;)Lh9/r$a;
+    invoke-virtual {v0, v1, v2}, Lt2/i$a;->a(Ljava/lang/String;Ljava/lang/Object;)Lt2/i$a;
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v0}, Lh9/r$a;->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Lt2/i$a;->toString()Ljava/lang/String;
 
     .line 31
     .line 32
@@ -1206,81 +1138,17 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-.end method
-
-.method public u()Landroid/app/PendingIntent;
-    .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/ConnectionResult;->c:Landroid/app/PendingIntent;
-
-    return-object v0
-.end method
-
-.method public v()Z
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/common/ConnectionResult;->b:I
-
-    if-eqz v0, :cond_0
-
-    iget-object v0, p0, Lcom/google/android/gms/common/ConnectionResult;->c:Landroid/app/PendingIntent;
-
-    if-eqz v0, :cond_0
-
-    const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    return v0
-.end method
-
-.method public w()Z
-    .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/google/android/gms/common/ConnectionResult;->b:I
-
-    if-nez v0, :cond_0
-
-    const/4 v0, 0x1
-
-    return v0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    return v0
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
     iget v0, p0, Lcom/google/android/gms/common/ConnectionResult;->a:I
 
     .line 2
     .line 3
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 4
     .line 5
@@ -1291,7 +1159,7 @@
     const/4 v2, 0x1
 
     .line 8
-    invoke-static {p1, v2, v0}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v2, v0}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 9
     .line 10
@@ -1299,7 +1167,7 @@
     const/4 v0, 0x2
 
     .line 12
-    invoke-virtual {p0}, Lcom/google/android/gms/common/ConnectionResult;->s()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/ConnectionResult;->d()I
 
     .line 13
     .line 14
@@ -1307,12 +1175,12 @@
     move-result v2
 
     .line 16
-    invoke-static {p1, v0, v2}, Lj9/a;->F(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v2}, Lu2/a;->j(Landroid/os/Parcel;II)V
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p0}, Lcom/google/android/gms/common/ConnectionResult;->u()Landroid/app/PendingIntent;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/ConnectionResult;->f()Landroid/app/PendingIntent;
 
     .line 20
     .line 21
@@ -1326,7 +1194,7 @@
     const/4 v3, 0x0
 
     .line 25
-    invoke-static {p1, v2, v0, p2, v3}, Lj9/a;->S(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v2, v0, p2, v3}, Lu2/a;->o(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 26
     .line 27
@@ -1334,7 +1202,7 @@
     const/4 p2, 0x4
 
     .line 29
-    invoke-virtual {p0}, Lcom/google/android/gms/common/ConnectionResult;->t()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/ConnectionResult;->e()Ljava/lang/String;
 
     .line 30
     .line 31
@@ -1342,12 +1210,12 @@
     move-result-object v0
 
     .line 33
-    invoke-static {p1, p2, v0, v3}, Lj9/a;->Y(Landroid/os/Parcel;ILjava/lang/String;Z)V
+    invoke-static {p1, p2, v0, v3}, Lu2/a;->q(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
     .line 34
     .line 35
     .line 36
-    invoke-static {p1, v1}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, v1}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 37
     .line 38
@@ -1374,120 +1242,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-.end method
-
-.method public z(Landroid/app/Activity;I)V
-    .locals 8
-    .param p1    # Landroid/app/Activity;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Landroid/content/IntentSender$SendIntentException;
-        }
-    .end annotation
-
-    .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/ConnectionResult;->v()Z
-
-    .line 2
-    .line 3
-    .line 4
-    move-result v0
-
-    .line 5
-    if-nez v0, :cond_0
-
-    .line 6
-    .line 7
-    return-void
-
-    .line 8
-    :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/common/ConnectionResult;->c:Landroid/app/PendingIntent;
-
-    .line 9
-    .line 10
-    invoke-static {v0}, Lh9/t;->r(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 11
-    .line 12
-    .line 13
-    invoke-virtual {v0}, Landroid/app/PendingIntent;->getIntentSender()Landroid/content/IntentSender;
-
-    .line 14
-    .line 15
-    .line 16
-    move-result-object v2
-
-    .line 17
-    const/4 v6, 0x0
-
-    .line 18
-    const/4 v7, 0x0
-
-    .line 19
-    const/4 v4, 0x0
-
-    .line 20
-    const/4 v5, 0x0
-
-    .line 21
-    move-object v1, p1
-
-    .line 22
-    move v3, p2
-
-    .line 23
-    invoke-virtual/range {v1 .. v7}, Landroid/app/Activity;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;III)V
-
-    .line 24
-    .line 25
-    .line 26
-    return-void
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

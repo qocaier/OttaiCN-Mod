@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lgb/b0;
+.implements Lcom/google/common/base/s;
 .implements Ljava/io/Serializable;
 
 
@@ -23,13 +23,9 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lgb/b0<",
-        "TT;>;",
+        "Lcom/google/common/base/s;",
         "Ljava/io/Serializable;"
     }
-.end annotation
-
-.annotation build Lfb/e;
 .end annotation
 
 
@@ -38,11 +34,10 @@
 
 
 # instance fields
-.field final delegate:Lgb/b0;
+.field final delegate:Lcom/google/common/base/s;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lgb/b0<",
-            "TT;>;"
+            "Lcom/google/common/base/s;"
         }
     .end annotation
 .end field
@@ -57,31 +52,17 @@
             "TT;"
         }
     .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lgb/b0;J)V
+.method public constructor <init>(Lcom/google/common/base/s;J)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "delegate",
-            "durationNanos"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lgb/b0<",
-            "TT;>;J)V"
+            "Lcom/google/common/base/s;",
+            "J)V"
         }
     .end annotation
 
@@ -91,7 +72,7 @@
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/common/base/Suppliers$ExpiringMemoizingSupplier;->delegate:Lgb/b0;
+    iput-object p1, p0, Lcom/google/common/base/Suppliers$ExpiringMemoizingSupplier;->delegate:Lcom/google/common/base/s;
 
     .line 5
     .line 6
@@ -152,11 +133,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -167,9 +143,6 @@
         value = {
             "()TT;"
         }
-    .end annotation
-
-    .annotation runtime Lgb/u;
     .end annotation
 
     .line 1
@@ -226,11 +199,11 @@
 
     .line 25
     .line 26
-    iget-object v0, p0, Lcom/google/common/base/Suppliers$ExpiringMemoizingSupplier;->delegate:Lgb/b0;
+    iget-object v0, p0, Lcom/google/common/base/Suppliers$ExpiringMemoizingSupplier;->delegate:Lcom/google/common/base/s;
 
     .line 27
     .line 28
-    invoke-interface {v0}, Lgb/b0;->get()Ljava/lang/Object;
+    invoke-interface {v0}, Lcom/google/common/base/s;->get()Ljava/lang/Object;
 
     .line 29
     .line 30
@@ -290,7 +263,7 @@
 
     .line 51
     .line 52
-    invoke-static {v0}, Lgb/s;->a(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/google/common/base/k;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 53
     .line 54
@@ -351,15 +324,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -384,7 +348,7 @@
     .line 9
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/google/common/base/Suppliers$ExpiringMemoizingSupplier;->delegate:Lgb/b0;
+    iget-object v1, p0, Lcom/google/common/base/Suppliers$ExpiringMemoizingSupplier;->delegate:Lcom/google/common/base/s;
 
     .line 12
     .line 13
@@ -494,13 +458,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

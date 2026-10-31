@@ -25,46 +25,22 @@
 
 # static fields
 .field private static final CURRENT:Landroidx/window/core/Version;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final Companion:Landroidx/window/core/Version$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final UNKNOWN:Landroidx/window/core/Version;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final VERSION_0_1:Landroidx/window/core/Version;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final VERSION_1_0:Landroidx/window/core/Version;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private static final VERSION_PATTERN_STRING:Ljava/lang/String; = "(\\d+)(?:\\.(\\d+))(?:\\.(\\d+))(?:-(.+))?"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
-.field private final bigInteger$delegate:Ljl/c0;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field private final bigInteger$delegate:Lkotlin/c;
 
 .field private final description:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final major:I
 
@@ -85,7 +61,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/window/core/Version$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/window/core/Version$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     .line 5
     .line 6
@@ -196,6 +172,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>(IIILjava/lang/String;)V
@@ -221,16 +199,16 @@
 
     invoke-direct {p1, p0}, Landroidx/window/core/Version$bigInteger$2;-><init>(Landroidx/window/core/Version;)V
 
-    invoke-static {p1}, Lkotlin/e;->b(Ljm/a;)Ljl/c0;
+    invoke-static {p1}, Lkotlin/d;->b(Lq8/a;)Lkotlin/c;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/window/core/Version;->bigInteger$delegate:Ljl/c0;
+    iput-object p1, p0, Landroidx/window/core/Version;->bigInteger$delegate:Lkotlin/c;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(IIILjava/lang/String;Lkm/v;)V
+.method public synthetic constructor <init>(IIILjava/lang/String;Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -265,6 +243,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getUNKNOWN$cp()Landroidx/window/core/Version;
@@ -293,6 +272,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getVERSION_0_1$cp()Landroidx/window/core/Version;
@@ -321,6 +301,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final synthetic access$getVERSION_1_0$cp()Landroidx/window/core/Version;
@@ -349,17 +330,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private final getBigInteger()Ljava/math/BigInteger;
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/window/core/Version;->bigInteger$delegate:Ljl/c0;
+    iget-object v0, p0, Landroidx/window/core/Version;->bigInteger$delegate:Lkotlin/c;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljl/c0;->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lkotlin/c;->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -371,7 +353,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -387,19 +369,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final parse(Ljava/lang/String;)Landroidx/window/core/Version;
     .locals 1
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 
     sget-object v0, Landroidx/window/core/Version;->Companion:Landroidx/window/core/Version$Companion;
 
@@ -414,14 +388,10 @@
 # virtual methods
 .method public compareTo(Landroidx/window/core/Version;)I
     .locals 1
-    .param p1    # Landroidx/window/core/Version;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "other"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-direct {p0}, Landroidx/window/core/Version;->getBigInteger()Ljava/math/BigInteger;
@@ -454,10 +424,6 @@
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 3
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     instance-of v0, p1, Landroidx/window/core/Version;
@@ -572,12 +538,11 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getDescription()Ljava/lang/String;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/core/Version;->description:Ljava/lang/String;
@@ -602,6 +567,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getMajor()I
@@ -630,6 +596,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getMinor()I
@@ -658,6 +625,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getPatch()I
@@ -686,6 +654,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -730,19 +699,18 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/window/core/Version;->description:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lym/k0;->O3(Ljava/lang/CharSequence;)Z
+    invoke-static {v0}, Lkotlin/text/c0;->a0(Ljava/lang/CharSequence;)Z
 
     .line 4
     .line 5
@@ -880,4 +848,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

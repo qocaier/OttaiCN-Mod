@@ -53,6 +53,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static a()Lcom/qiyukf/nimlib/push/net/lbs/IPVersion;
@@ -232,9 +234,9 @@
 
     invoke-direct {p1, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    new-instance v1, Lfh/a;
+    new-instance v1, Lcom/qiyukf/nimlib/push/net/lbs/b;
 
-    invoke-direct {v1, p0, v0, p2}, Lfh/a;-><init>(Ljava/lang/String;[Ljava/lang/Boolean;Lcom/qiyukf/nimlib/push/net/lbs/a$a;)V
+    invoke-direct {v1, p0, v0, p2}, Lcom/qiyukf/nimlib/push/net/lbs/b;-><init>(Ljava/lang/String;[Ljava/lang/Boolean;Lcom/qiyukf/nimlib/push/net/lbs/a$a;)V
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -283,7 +285,7 @@
 
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v4, "\u63a5\u6536\u5230\u63a2\u6d4b\u7ed3\u679cresCode="
+    const-string/jumbo v4, "\u63a5\u6536\u5230\u63a2\u6d4b\u7ed3\u679cresCode="
 
     invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -455,9 +457,9 @@
     invoke-virtual {v3}, Ljava/util/concurrent/Semaphore;->acquire()V
 
     .line 6
-    new-instance v5, Lfh/b;
+    new-instance v5, Lcom/qiyukf/nimlib/push/net/lbs/c;
 
-    invoke-direct {v5, v4, v1, v3}, Lfh/b;-><init>([Ljava/lang/Boolean;Ljava/util/concurrent/CountDownLatch;Ljava/util/concurrent/Semaphore;)V
+    invoke-direct {v5, v4, v1, v3}, Lcom/qiyukf/nimlib/push/net/lbs/c;-><init>([Ljava/lang/Boolean;Ljava/util/concurrent/CountDownLatch;Ljava/util/concurrent/Semaphore;)V
 
     .line 7
     invoke-static {}, Lcom/qiyukf/k10;->h()Ljava/lang/String;
@@ -472,9 +474,9 @@
     invoke-virtual {v3}, Ljava/util/concurrent/Semaphore;->acquire()V
 
     .line 9
-    new-instance v5, Lfh/c;
+    new-instance v5, Lcom/qiyukf/nimlib/push/net/lbs/d;
 
-    invoke-direct {v5, v4, v1, v3}, Lfh/c;-><init>([Ljava/lang/Boolean;Ljava/util/concurrent/CountDownLatch;Ljava/util/concurrent/Semaphore;)V
+    invoke-direct {v5, v4, v1, v3}, Lcom/qiyukf/nimlib/push/net/lbs/d;-><init>([Ljava/lang/Boolean;Ljava/util/concurrent/CountDownLatch;Ljava/util/concurrent/Semaphore;)V
 
     .line 10
     invoke-static {}, Lcom/qiyukf/k10;->i()Ljava/lang/String;

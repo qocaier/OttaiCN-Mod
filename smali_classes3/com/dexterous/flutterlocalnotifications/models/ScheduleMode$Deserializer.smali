@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lac/i;
+.implements Lcom/google/gson/g;
 
 
 # annotations
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lac/i<",
-        "Lcom/dexterous/flutterlocalnotifications/models/ScheduleMode;",
-        ">;"
+        "Lcom/google/gson/g;"
     }
 .end annotation
 
@@ -55,12 +53,11 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
-.method public deserialize(Lac/j;Ljava/lang/reflect/Type;Lac/h;)Lcom/dexterous/flutterlocalnotifications/models/ScheduleMode;
+.method public deserialize(Lcom/google/gson/h;Ljava/lang/reflect/Type;Lcom/google/gson/f;)Lcom/dexterous/flutterlocalnotifications/models/ScheduleMode;
     .locals 0
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -70,7 +67,7 @@
 
     .line 2
     :try_start_0
-    invoke-virtual {p1}, Lac/j;->q()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/google/gson/h;->f()Ljava/lang/String;
 
     move-result-object p2
 
@@ -84,7 +81,7 @@
 
     .line 3
     :catch_0
-    invoke-virtual {p1}, Lac/j;->d()Z
+    invoke-virtual {p1}, Lcom/google/gson/h;->a()Z
 
     move-result p1
 
@@ -101,21 +98,8 @@
     return-object p1
 .end method
 
-.method public bridge synthetic deserialize(Lac/j;Ljava/lang/reflect/Type;Lac/h;)Ljava/lang/Object;
+.method public bridge synthetic deserialize(Lcom/google/gson/h;Ljava/lang/reflect/Type;Lcom/google/gson/f;)Ljava/lang/Object;
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000,
-            0x1000
-        }
-        names = {
-            null,
-            null,
-            null
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Throws;
         value = {
             Lcom/google/gson/JsonParseException;
@@ -123,7 +107,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Lcom/dexterous/flutterlocalnotifications/models/ScheduleMode$Deserializer;->deserialize(Lac/j;Ljava/lang/reflect/Type;Lac/h;)Lcom/dexterous/flutterlocalnotifications/models/ScheduleMode;
+    invoke-virtual {p0, p1, p2, p3}, Lcom/dexterous/flutterlocalnotifications/models/ScheduleMode$Deserializer;->deserialize(Lcom/google/gson/h;Ljava/lang/reflect/Type;Lcom/google/gson/f;)Lcom/dexterous/flutterlocalnotifications/models/ScheduleMode;
 
     move-result-object p1
 

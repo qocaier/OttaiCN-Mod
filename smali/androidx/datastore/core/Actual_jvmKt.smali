@@ -12,13 +12,11 @@
 
 
 # direct methods
-.method public static final ioDispatcher()Lfn/f0;
+.method public static final ioDispatcher()Lkotlinx/coroutines/h0;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    invoke-static {}, Lfn/t0;->c()Lfn/f0;
+    invoke-static {}, Lkotlinx/coroutines/v0;->b()Lkotlinx/coroutines/h0;
 
     .line 2
     .line 3
@@ -42,4 +40,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

@@ -3,26 +3,11 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nPersistableBundle.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PersistableBundle.kt\nandroidx/core/os/PersistableBundleKt\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,152:1\n13409#2,2:153\n*S KotlinDebug\n*F\n+ 1 PersistableBundle.kt\nandroidx/core/os/PersistableBundleKt\n*L\n34#1:153,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nPersistableBundle.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PersistableBundle.kt\nandroidx/core/os/PersistableBundleKt\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,152:1\n13409#2,2:153\n*S KotlinDebug\n*F\n+ 1 PersistableBundle.kt\nandroidx/core/os/PersistableBundleKt\n*L\n34#1:153,2\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final persistableBundleOf()Landroid/os/PersistableBundle;
     .locals 1
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     const/4 v0, 0x0
@@ -37,10 +22,6 @@
 
 .method public static final varargs persistableBundleOf([Lkotlin/Pair;)Landroid/os/PersistableBundle;
     .locals 5
-    .param p0    # [Lkotlin/Pair;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
     .end annotation
@@ -55,9 +36,6 @@
             ">;)",
             "Landroid/os/PersistableBundle;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -100,10 +78,6 @@
 
 .method public static final toPersistableBundle(Ljava/util/Map;)Landroid/os/PersistableBundle;
     .locals 3
-    .param p0    # Ljava/util/Map;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
     .end annotation
@@ -118,9 +92,6 @@
             ">;)",
             "Landroid/os/PersistableBundle;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -246,4 +217,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

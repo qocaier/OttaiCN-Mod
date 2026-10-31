@@ -36,6 +36,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -83,6 +85,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onMessageReceived(Lcom/hihonor/push/sdk/HonorPushDataMsg;)V
@@ -118,6 +122,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public onNewToken(Ljava/lang/String;)V
@@ -232,4 +238,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

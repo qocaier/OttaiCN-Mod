@@ -1085,6 +1085,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getResourceId()I
@@ -1113,6 +1114,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTtcIndex()I
@@ -1141,6 +1143,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getVariationSettings()Ljava/lang/String;
@@ -1169,6 +1172,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getWeight()I
@@ -1197,6 +1201,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isItalic()Z
@@ -1225,4 +1230,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

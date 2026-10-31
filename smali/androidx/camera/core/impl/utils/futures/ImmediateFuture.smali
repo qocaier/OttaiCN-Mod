@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lub/u0;
+.implements Lcom/google/common/util/concurrent/t;
 
 
 # annotations
@@ -25,8 +25,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lub/u0<",
-        "TV;>;"
+        "Lcom/google/common/util/concurrent/t;"
     }
 .end annotation
 
@@ -62,17 +61,17 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public static nullFuture()Lub/u0;
+.method public static nullFuture()Lcom/google/common/util/concurrent/t;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<V:",
             "Ljava/lang/Object;",
             ">()",
-            "Lub/u0<",
-            "TV;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -99,6 +98,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 

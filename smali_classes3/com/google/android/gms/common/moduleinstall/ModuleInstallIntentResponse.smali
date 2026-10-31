@@ -3,12 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "ModuleInstallIntentResponseCreator"
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation build Landroidx/annotation/NonNull;
@@ -26,23 +20,15 @@
 
 # instance fields
 .field public final a:Landroid/app/PendingIntent;
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getPendingIntent"
-        id = 0x1
-    .end annotation
-.end field
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lm9/g;
+    new-instance v0, Lw2/b;
 
-    invoke-direct {v0}, Lm9/g;-><init>()V
+    invoke-direct {v0}, Lw2/b;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallIntentResponse;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -51,19 +37,6 @@
 
 .method public constructor <init>(Landroid/app/PendingIntent;)V
     .locals 0
-    .param p1    # Landroid/app/PendingIntent;
-        .annotation build Landroidx/annotation/Nullable;
-        .end annotation
-
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .annotation build Lb9/a;
-    .end annotation
-
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -94,15 +67,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
-.method public s()Landroid/app/PendingIntent;
+.method public d()Landroid/app/PendingIntent;
     .locals 1
-    .annotation build Landroidx/annotation/Nullable;
-    .end annotation
 
     .line 1
     iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallIntentResponse;->a:Landroid/app/PendingIntent;
@@ -112,13 +82,9 @@
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 4
-    .param p1    # Landroid/os/Parcel;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -126,7 +92,7 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallIntentResponse;->s()Landroid/app/PendingIntent;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallIntentResponse;->d()Landroid/app/PendingIntent;
 
     .line 6
     .line 7
@@ -140,12 +106,12 @@
     const/4 v3, 0x1
 
     .line 11
-    invoke-static {p1, v3, v1, p2, v2}, Lj9/a;->S(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v3, v1, p2, v2}, Lu2/a;->o(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 12
     .line 13
     .line 14
-    invoke-static {p1, v0}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 15
     .line 16
@@ -194,9 +160,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

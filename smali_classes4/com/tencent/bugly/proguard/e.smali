@@ -80,6 +80,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -144,7 +146,7 @@
     invoke-direct {v0, p1, v1}, Lcom/tencent/bugly/proguard/k;-><init>([BB)V
 
     .line 32
-    iget-object p1, p0, Lfi/a;->c:Ljava/lang/String;
+    iget-object p1, p0, Lcom/tencent/bugly/proguard/c;->c:Ljava/lang/String;
 
     invoke-virtual {v0, p1}, Lcom/tencent/bugly/proguard/k;->a(Ljava/lang/String;)I
 
@@ -175,7 +177,7 @@
     invoke-direct {v0, p1}, Lcom/tencent/bugly/proguard/k;-><init>([B)V
 
     .line 36
-    iget-object p1, p0, Lfi/a;->c:Ljava/lang/String;
+    iget-object p1, p0, Lcom/tencent/bugly/proguard/c;->c:Ljava/lang/String;
 
     invoke-virtual {v0, p1}, Lcom/tencent/bugly/proguard/k;->a(Ljava/lang/String;)I
 
@@ -225,7 +227,7 @@
     invoke-direct {v0, p1}, Lcom/tencent/bugly/proguard/k;-><init>([B)V
 
     .line 42
-    iget-object p1, p0, Lfi/a;->c:Ljava/lang/String;
+    iget-object p1, p0, Lcom/tencent/bugly/proguard/c;->c:Ljava/lang/String;
 
     invoke-virtual {v0, p1}, Lcom/tencent/bugly/proguard/k;->a(Ljava/lang/String;)I
 
@@ -264,14 +266,14 @@
 
     move-result-object p1
 
-    iput-object p1, p0, Lfi/a;->a:Ljava/util/HashMap;
+    iput-object p1, p0, Lcom/tencent/bugly/proguard/c;->a:Ljava/util/HashMap;
 
     .line 49
     new-instance p1, Ljava/util/HashMap;
 
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
-    iput-object p1, p0, Lfi/a;->b:Ljava/util/HashMap;
+    iput-object p1, p0, Lcom/tencent/bugly/proguard/c;->b:Ljava/util/HashMap;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -380,7 +382,7 @@
     invoke-direct {v0, v1}, Lcom/tencent/bugly/proguard/l;-><init>(I)V
 
     .line 14
-    iget-object v2, p0, Lfi/a;->c:Ljava/lang/String;
+    iget-object v2, p0, Lcom/tencent/bugly/proguard/c;->c:Ljava/lang/String;
 
     invoke-virtual {v0, v2}, Lcom/tencent/bugly/proguard/l;->a(Ljava/lang/String;)I
 
@@ -392,7 +394,7 @@
     if-ne v2, v3, :cond_5
 
     .line 16
-    iget-object v2, p0, Lfi/a;->a:Ljava/util/HashMap;
+    iget-object v2, p0, Lcom/tencent/bugly/proguard/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0, v2, v1}, Lcom/tencent/bugly/proguard/l;->a(Ljava/util/Map;I)V
 
@@ -424,7 +426,7 @@
     invoke-direct {v0, v1}, Lcom/tencent/bugly/proguard/l;-><init>(I)V
 
     .line 22
-    iget-object v1, p0, Lfi/a;->c:Ljava/lang/String;
+    iget-object v1, p0, Lcom/tencent/bugly/proguard/c;->c:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/tencent/bugly/proguard/l;->a(Ljava/lang/String;)I
 

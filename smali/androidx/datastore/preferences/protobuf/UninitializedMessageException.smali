@@ -22,14 +22,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/MessageLite;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "message"
-        }
-    .end annotation
 
     .line 1
     const-string p1, "Message was missing required fields.  (Lite runtime could not determine which fields were missing)."
@@ -46,15 +38,6 @@
 
 .method public constructor <init>(Ljava/util/List;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "missingFields"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -79,15 +62,6 @@
 
 .method private static buildDescription(Ljava/util/List;)Ljava/lang/String;
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "missingFields"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -223,6 +197,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -259,6 +234,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMissingFields()Ljava/util/List;
@@ -299,4 +275,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

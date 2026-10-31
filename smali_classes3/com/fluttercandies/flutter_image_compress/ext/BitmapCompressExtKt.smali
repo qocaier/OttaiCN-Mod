@@ -6,17 +6,13 @@
 # direct methods
 .method public static final calcScale(Landroid/graphics/Bitmap;II)F
     .locals 1
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -225,31 +221,18 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static final compress(Landroid/graphics/Bitmap;IIIILjava/io/OutputStream;I)V
     .locals 4
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p5    # Ljava/io/OutputStream;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "outputStream"
 
-    invoke-static {p5, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
@@ -372,7 +355,7 @@
 
     const-string p2, "createScaledBitmap(...)"
 
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     invoke-static {p1, p4}, Lcom/fluttercandies/flutter_image_compress/ext/BitmapCompressExtKt;->rotate(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
@@ -423,16 +406,10 @@
 
 .method public static final compress(Landroid/graphics/Bitmap;IIIII)[B
     .locals 8
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v6, Ljava/io/ByteArrayOutputStream;
@@ -461,7 +438,7 @@
 
     const-string p1, "toByteArray(...)"
 
-    invoke-static {p0, p1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     return-object p0
 .end method
@@ -523,8 +500,6 @@
 
 .method public static final convertFormatIndexToFormat(I)Landroid/graphics/Bitmap$CompressFormat;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -571,7 +546,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private static final log(Ljava/lang/Object;)V
@@ -620,24 +594,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static final rotate(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
     .locals 8
-    .param p0    # Landroid/graphics/Bitmap;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "<this>"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -703,7 +670,7 @@
     move-result-object p0
 
     .line 35
-    invoke-static {p0}, Lkm/g0;->m(Ljava/lang/Object;)V
+    invoke-static {p0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 36
     .line 37
@@ -736,9 +703,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

@@ -390,7 +390,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$100(Lcom/google/android/material/navigationrail/NavigationRailView;Ljava/lang/Boolean;)Z
@@ -461,11 +460,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic access$200(Lcom/google/android/material/navigationrail/NavigationRailView;)Ljava/lang/Boolean;
@@ -498,7 +492,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic access$300(Lcom/google/android/material/navigationrail/NavigationRailView;)Ljava/lang/Boolean;
@@ -531,7 +524,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private applyWindowInsets()V
@@ -566,7 +558,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getNavigationRailMenuView()Lcom/google/android/material/navigationrail/NavigationRailMenuView;
@@ -601,7 +592,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private isHeaderViewVisible()Z
@@ -649,7 +639,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private makeMinWidthSpec(I)I
@@ -786,8 +775,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private shouldApplyWindowInsetPadding(Ljava/lang/Boolean;)Z
@@ -831,7 +818,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -977,7 +963,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getItemMinimumHeight()I
@@ -1016,7 +1001,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getMaxItemCount()I
@@ -1061,7 +1045,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onLayout(ZIIII)V
@@ -2193,11 +2176,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public removeHeaderView()V
@@ -2237,7 +2215,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setItemMinimumHeight(I)V
@@ -2280,7 +2257,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMenuGravity(I)V
@@ -2317,5 +2293,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

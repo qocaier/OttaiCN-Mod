@@ -3,25 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSpannableString.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SpannableString.kt\nandroidx/core/text/SpannableStringKt\n+ 2 SpannedString.kt\nandroidx/core/text/SpannedStringKt\n+ 3 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,66:1\n31#2,4:67\n13409#3,2:71\n*S KotlinDebug\n*F\n+ 1 SpannableString.kt\nandroidx/core/text/SpannableStringKt\n*L\n32#1:67,4\n32#1:71,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nSpannableString.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SpannableString.kt\nandroidx/core/text/SpannableStringKt\n+ 2 SpannedString.kt\nandroidx/core/text/SpannedStringKt\n+ 3 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,66:1\n31#2,4:67\n13409#3,2:71\n*S KotlinDebug\n*F\n+ 1 SpannableString.kt\nandroidx/core/text/SpannableStringKt\n*L\n32#1:67,4\n32#1:71,2\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final clearSpans(Landroid/text/Spannable;)V
     .locals 4
-    .param p0    # Landroid/text/Spannable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
@@ -79,14 +63,6 @@
 
 .method public static final set(Landroid/text/Spannable;IILjava/lang/Object;)V
     .locals 1
-    .param p0    # Landroid/text/Spannable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const/16 v0, 0x11
 
@@ -96,23 +72,11 @@
     return-void
 .end method
 
-.method public static final set(Landroid/text/Spannable;Ltm/l;Ljava/lang/Object;)V
+.method public static final set(Landroid/text/Spannable;Lu8/d;Ljava/lang/Object;)V
     .locals 2
-    .param p0    # Landroid/text/Spannable;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ltm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 2
-    invoke-virtual {p1}, Ltm/l;->n()Ljava/lang/Integer;
+    invoke-virtual {p1}, Lu8/d;->h()Ljava/lang/Integer;
 
     move-result-object v0
 
@@ -120,7 +84,7 @@
 
     move-result v0
 
-    invoke-virtual {p1}, Ltm/l;->m()Ljava/lang/Integer;
+    invoke-virtual {p1}, Lu8/d;->g()Ljava/lang/Integer;
 
     move-result-object p1
 
@@ -137,12 +101,6 @@
 
 .method public static final toSpannable(Ljava/lang/CharSequence;)Landroid/text/Spannable;
     .locals 0
-    .param p0    # Ljava/lang/CharSequence;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {p0}, Landroid/text/SpannableString;->valueOf(Ljava/lang/CharSequence;)Landroid/text/SpannableString;

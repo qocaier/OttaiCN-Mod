@@ -45,7 +45,7 @@
     .end annotation
 .end method
 
-.method public abstract openCaptureSession(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)Lub/u0;
+.method public abstract openCaptureSession(Landroid/hardware/camera2/CameraDevice;Landroidx/camera/camera2/internal/compat/params/SessionConfigurationCompat;Ljava/util/List;)Lcom/google/common/util/concurrent/t;
     .param p1    # Landroid/hardware/camera2/CameraDevice;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
@@ -69,14 +69,12 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/DeferrableSurface;",
             ">;)",
-            "Lub/u0<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method
 
-.method public abstract startWithDeferrableSurface(Ljava/util/List;J)Lub/u0;
+.method public abstract startWithDeferrableSurface(Ljava/util/List;J)Lcom/google/common/util/concurrent/t;
     .param p1    # Ljava/util/List;
         .annotation build Landroidx/annotation/NonNull;
         .end annotation
@@ -90,10 +88,7 @@
             "Ljava/util/List<",
             "Landroidx/camera/core/impl/DeferrableSurface;",
             ">;J)",
-            "Lub/u0<",
-            "Ljava/util/List<",
-            "Landroid/view/Surface;",
-            ">;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method

@@ -11,53 +11,13 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nHpack.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Hpack.kt\nokhttp3/internal/http2/Hpack\n+ 2 -UtilJvm.kt\nokhttp3/internal/_UtilJvmKt\n*L\n1#1,647:1\n250#2:648\n*S KotlinDebug\n*F\n+ 1 Hpack.kt\nokhttp3/internal/http2/Hpack\n*L\n398#1:648\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nHpack.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Hpack.kt\nokhttp3/internal/http2/Hpack\n+ 2 -UtilJvm.kt\nokhttp3/internal/_UtilJvmKt\n*L\n1#1,647:1\n250#2:648\n*S KotlinDebug\n*F\n+ 1 Hpack.kt\nokhttp3/internal/http2/Hpack\n*L\n398#1:648\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field public static final a:Lokhttp3/internal/http2/b;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
-.field public static final b:I = 0xf
+.field public static final b:[Li9/a;
 
-.field public static final c:I = 0x1f
-
-.field public static final d:I = 0x3f
-
-.field public static final e:I = 0x7f
-
-.field public static final f:I = 0x1000
-
-.field public static final g:I = 0x4000
-
-.field public static final h:[Lio/a;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final i:Ljava/util/Map;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "Ljava/util/Map<",
-            "Lokio/ByteString;",
-            "Ljava/lang/Integer;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
+.field public static final c:Ljava/util/Map;
 
 
 # direct methods
@@ -71,142 +31,142 @@
     sput-object v0, Lokhttp3/internal/http2/b;->a:Lokhttp3/internal/http2/b;
 
     .line 1
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
-    sget-object v2, Lio/a;->o:Lokio/ByteString;
+    sget-object v2, Li9/a;->j:Lokio/ByteString;
 
     const-string v3, ""
 
-    invoke-direct {v1, v2, v3}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     .line 2
-    new-instance v2, Lio/a;
+    new-instance v2, Li9/a;
 
-    sget-object v4, Lio/a;->l:Lokio/ByteString;
+    sget-object v4, Li9/a;->g:Lokio/ByteString;
 
     const-string v5, "GET"
 
-    invoke-direct {v2, v4, v5}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v2, v4, v5}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     .line 3
-    new-instance v5, Lio/a;
+    new-instance v5, Li9/a;
 
     const-string v6, "POST"
 
-    invoke-direct {v5, v4, v6}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v5, v4, v6}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     .line 4
-    new-instance v4, Lio/a;
+    new-instance v4, Li9/a;
 
-    sget-object v6, Lio/a;->m:Lokio/ByteString;
+    sget-object v6, Li9/a;->h:Lokio/ByteString;
 
     const-string v7, "/"
 
-    invoke-direct {v4, v6, v7}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v4, v6, v7}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     move-object v7, v5
 
     .line 5
-    new-instance v5, Lio/a;
+    new-instance v5, Li9/a;
 
     const-string v8, "/index.html"
 
-    invoke-direct {v5, v6, v8}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v5, v6, v8}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     .line 6
-    new-instance v6, Lio/a;
+    new-instance v6, Li9/a;
 
-    sget-object v8, Lio/a;->n:Lokio/ByteString;
+    sget-object v8, Li9/a;->i:Lokio/ByteString;
 
     const-string v9, "http"
 
-    invoke-direct {v6, v8, v9}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v6, v8, v9}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     move-object v9, v7
 
     .line 7
-    new-instance v7, Lio/a;
+    new-instance v7, Li9/a;
 
     const-string v10, "https"
 
-    invoke-direct {v7, v8, v10}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v7, v8, v10}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     .line 8
-    new-instance v8, Lio/a;
+    new-instance v8, Li9/a;
 
-    sget-object v10, Lio/a;->k:Lokio/ByteString;
+    sget-object v10, Li9/a;->f:Lokio/ByteString;
 
     const-string v11, "200"
 
-    invoke-direct {v8, v10, v11}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v8, v10, v11}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     move-object v11, v9
 
     .line 9
-    new-instance v9, Lio/a;
+    new-instance v9, Li9/a;
 
     const-string v12, "204"
 
-    invoke-direct {v9, v10, v12}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v9, v10, v12}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     .line 10
-    new-instance v12, Lio/a;
+    new-instance v12, Li9/a;
 
     const-string v13, "206"
 
-    invoke-direct {v12, v10, v13}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v12, v10, v13}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     move-object v13, v11
 
     .line 11
-    new-instance v11, Lio/a;
+    new-instance v11, Li9/a;
 
     const-string v14, "304"
 
-    invoke-direct {v11, v10, v14}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v11, v10, v14}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     move-object v14, v12
 
     .line 12
-    new-instance v12, Lio/a;
+    new-instance v12, Li9/a;
 
     const-string v15, "400"
 
-    invoke-direct {v12, v10, v15}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v12, v10, v15}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     move-object v15, v13
 
     .line 13
-    new-instance v13, Lio/a;
+    new-instance v13, Li9/a;
 
     move-object/from16 v62, v0
 
     const-string v0, "404"
 
-    invoke-direct {v13, v10, v0}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v13, v10, v0}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     move-object v0, v14
 
     .line 14
-    new-instance v14, Lio/a;
+    new-instance v14, Li9/a;
 
     move-object/from16 v16, v0
 
     const-string v0, "500"
 
-    invoke-direct {v14, v10, v0}, Lio/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
+    invoke-direct {v14, v10, v0}, Li9/a;-><init>(Lokio/ByteString;Ljava/lang/String;)V
 
     move-object v0, v15
 
     .line 15
-    new-instance v15, Lio/a;
+    new-instance v15, Li9/a;
 
     const-string v10, "accept-charset"
 
-    invoke-direct {v15, v10, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v15, v10, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 16
-    new-instance v10, Lio/a;
+    new-instance v10, Li9/a;
 
     move-object/from16 v17, v0
 
@@ -216,410 +176,410 @@
 
     const-string v1, "gzip, deflate"
 
-    invoke-direct {v10, v0, v1}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v10, v0, v1}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 17
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     const-string v1, "accept-language"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 18
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v19, v0
 
     const-string v0, "accept-ranges"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v20, v1
 
     const-string v1, "accept"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v21, v0
 
     const-string v0, "access-control-allow-origin"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 21
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v22, v1
 
     const-string v1, "age"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v23, v0
 
     const-string v0, "allow"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 23
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v24, v1
 
     const-string v1, "authorization"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v25, v0
 
     const-string v0, "cache-control"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 25
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v26, v1
 
     const-string v1, "content-disposition"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 26
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v27, v0
 
     const-string v0, "content-encoding"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 27
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v28, v1
 
     const-string v1, "content-language"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 28
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v29, v0
 
     const-string v0, "content-length"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v30, v1
 
     const-string v1, "content-location"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 30
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v31, v0
 
     const-string v0, "content-range"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 31
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v32, v1
 
     const-string v1, "content-type"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v33, v0
 
     const-string v0, "cookie"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v34, v1
 
     const-string v1, "date"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 34
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v35, v0
 
     const-string v0, "etag"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 35
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v36, v1
 
     const-string v1, "expect"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 36
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v37, v0
 
     const-string v0, "expires"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 37
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v38, v1
 
     const-string v1, "from"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 38
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v39, v0
 
     const-string v0, "host"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 39
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v40, v1
 
     const-string v1, "if-match"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 40
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v41, v0
 
     const-string v0, "if-modified-since"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 41
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v42, v1
 
     const-string v1, "if-none-match"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 42
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v43, v0
 
     const-string v0, "if-range"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 43
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v44, v1
 
     const-string v1, "if-unmodified-since"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 44
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v45, v0
 
     const-string v0, "last-modified"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 45
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v46, v1
 
     const-string v1, "link"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 46
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v47, v0
 
     const-string v0, "location"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 47
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v48, v1
 
     const-string v1, "max-forwards"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 48
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v49, v0
 
     const-string v0, "proxy-authenticate"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 49
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v50, v1
 
     const-string v1, "proxy-authorization"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 50
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v51, v0
 
     const-string v0, "range"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 51
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v52, v1
 
     const-string v1, "referer"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 52
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v53, v0
 
     const-string v0, "refresh"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 53
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v54, v1
 
     const-string v1, "retry-after"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 54
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v55, v0
 
     const-string v0, "server"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 55
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v56, v1
 
     const-string v1, "set-cookie"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 56
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v57, v0
 
     const-string v0, "strict-transport-security"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 57
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v58, v1
 
     const-string v1, "transfer-encoding"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v59, v0
 
     const-string v0, "user-agent"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v60, v1
 
     const-string v1, "vary"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 60
-    new-instance v1, Lio/a;
+    new-instance v1, Li9/a;
 
     move-object/from16 v61, v0
 
     const-string v0, "via"
 
-    invoke-direct {v1, v0, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
-    new-instance v0, Lio/a;
+    new-instance v0, Li9/a;
 
     move-object/from16 v63, v1
 
     const-string v1, "www-authenticate"
 
-    invoke-direct {v0, v1, v3}, Lio/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v3}, Li9/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     move-object/from16 v1, v16
 
@@ -721,19 +681,19 @@
 
     move-object/from16 v61, v0
 
-    filled-new-array/range {v1 .. v61}, [Lio/a;
+    filled-new-array/range {v1 .. v61}, [Li9/a;
 
     move-result-object v0
 
     .line 62
-    sput-object v0, Lokhttp3/internal/http2/b;->h:[Lio/a;
+    sput-object v0, Lokhttp3/internal/http2/b;->b:[Li9/a;
 
     .line 63
     invoke-virtual/range {v62 .. v62}, Lokhttp3/internal/http2/b;->d()Ljava/util/Map;
 
     move-result-object v0
 
-    sput-object v0, Lokhttp3/internal/http2/b;->i:Ljava/util/Map;
+    sput-object v0, Lokhttp3/internal/http2/b;->c:Ljava/util/Map;
 
     return-void
 .end method
@@ -767,31 +727,46 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
 .method public final a(Lokio/ByteString;)Lokio/ByteString;
     .locals 4
-    .param p1    # Lokio/ByteString;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "name"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -903,44 +878,13 @@
     :cond_2
     return-object p1
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
 .method public final b()Ljava/util/Map;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Map<",
-            "Lokio/ByteString;",
-            "Ljava/lang/Integer;",
-            ">;"
-        }
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    sget-object v0, Lokhttp3/internal/http2/b;->i:Ljava/util/Map;
+    sget-object v0, Lokhttp3/internal/http2/b;->c:Ljava/util/Map;
 
     .line 2
     .line 3
@@ -965,15 +909,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public final c()[Lio/a;
+.method public final c()[Li9/a;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
-    sget-object v0, Lokhttp3/internal/http2/b;->h:[Lio/a;
+    sget-object v0, Lokhttp3/internal/http2/b;->b:[Li9/a;
 
     .line 2
     .line 3
@@ -998,26 +967,44 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public final d()Ljava/util/Map;
     .locals 5
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/Map<",
-            "Lokio/ByteString;",
-            "Ljava/lang/Integer;",
-            ">;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/util/LinkedHashMap;
 
     .line 2
     .line 3
-    sget-object v1, Lokhttp3/internal/http2/b;->h:[Lio/a;
+    sget-object v1, Lokhttp3/internal/http2/b;->b:[Li9/a;
 
     .line 4
     .line 5
@@ -1044,7 +1031,7 @@
 
     .line 14
     .line 15
-    sget-object v3, Lokhttp3/internal/http2/b;->h:[Lio/a;
+    sget-object v3, Lokhttp3/internal/http2/b;->b:[Li9/a;
 
     .line 16
     .line 17
@@ -1052,7 +1039,7 @@
 
     .line 18
     .line 19
-    iget-object v4, v4, Lio/a;->a:Lokio/ByteString;
+    iget-object v4, v4, Li9/a;->a:Lokio/ByteString;
 
     .line 20
     .line 21
@@ -1072,7 +1059,7 @@
 
     .line 28
     .line 29
-    iget-object v3, v3, Lio/a;->a:Lokio/ByteString;
+    iget-object v3, v3, Li9/a;->a:Lokio/ByteString;
 
     .line 30
     .line 31
@@ -1110,60 +1097,10 @@
 
     .line 46
     .line 47
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 48
     .line 49
     .line 50
     return-object v0
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
 .end method

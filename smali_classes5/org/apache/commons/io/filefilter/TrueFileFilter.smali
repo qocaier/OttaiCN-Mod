@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lbp/n;
+.implements Lv9/o;
 .implements Ljava/io/Serializable;
 
 
 # static fields
-.field public static final INSTANCE:Lbp/n;
+.field public static final INSTANCE:Lv9/o;
 
-.field public static final TRUE:Lbp/n;
+.field public static final TRUE:Lv9/o;
 
 .field public static final a:Ljava/lang/String;
 
@@ -47,11 +47,11 @@
     .line 12
     .line 13
     .line 14
-    sput-object v0, Lorg/apache/commons/io/filefilter/TrueFileFilter;->TRUE:Lbp/n;
+    sput-object v0, Lorg/apache/commons/io/filefilter/TrueFileFilter;->TRUE:Lv9/o;
 
     .line 15
     .line 16
-    sput-object v0, Lorg/apache/commons/io/filefilter/TrueFileFilter;->INSTANCE:Lbp/n;
+    sput-object v0, Lorg/apache/commons/io/filefilter/TrueFileFilter;->INSTANCE:Lv9/o;
 
     .line 17
     .line 18
@@ -61,6 +61,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public constructor <init>()V
@@ -92,6 +119,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
@@ -100,7 +154,7 @@
     .locals 0
 
     .line 3
-    invoke-static {}, Lfm/s1;->a()Ljava/nio/file/FileVisitResult;
+    invoke-static {}, Lkotlin/io/path/d0;->a()Ljava/nio/file/FileVisitResult;
 
     move-result-object p1
 
@@ -125,7 +179,7 @@
     return p1
 .end method
 
-.method public and(Lbp/n;)Lbp/n;
+.method public and(Lv9/o;)Lv9/o;
     .locals 0
 
     .line 1
@@ -153,13 +207,57 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
-.method public negate()Lbp/n;
+.method public bridge synthetic matches(Ljava/nio/file/Path;)Z
+    .locals 0
+
+    .line 1
+    invoke-super {p0, p1}, Lv9/o;->matches(Ljava/nio/file/Path;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public negate()Lv9/o;
     .locals 1
 
     .line 1
-    sget-object v0, Lorg/apache/commons/io/filefilter/FalseFileFilter;->INSTANCE:Lbp/n;
+    sget-object v0, Lorg/apache/commons/io/filefilter/FalseFileFilter;->INSTANCE:Lv9/o;
 
     .line 2
     .line 3
@@ -184,13 +282,40 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
-.method public or(Lbp/n;)Lbp/n;
+.method public or(Lv9/o;)Lv9/o;
     .locals 0
 
     .line 1
-    sget-object p1, Lorg/apache/commons/io/filefilter/TrueFileFilter;->INSTANCE:Lbp/n;
+    sget-object p1, Lorg/apache/commons/io/filefilter/TrueFileFilter;->INSTANCE:Lv9/o;
 
     .line 2
     .line 3
@@ -216,6 +341,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -247,4 +405,31 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method

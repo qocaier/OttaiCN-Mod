@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "Ljava/lang/Float;",
-        "Ljava/lang/Boolean;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -48,8 +45,6 @@
 # virtual methods
 .method public final invoke(F)Ljava/lang/Boolean;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     iget p1, p0, Landroidx/window/embedding/SplitAttributes$SplitType$Companion$ratio$checkedRatio$1;->$ratio:F
@@ -90,7 +85,7 @@
 
     move-result-object v0
 
-    invoke-static {p1, v0}, Lll/a0;->B8([Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Lkotlin/collections/m;->A([Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

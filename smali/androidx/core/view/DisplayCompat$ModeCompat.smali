@@ -158,6 +158,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getPhysicalWidth()I
@@ -188,6 +189,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isNative()Z
@@ -218,6 +220,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toMode()Landroid/view/Display$Mode;
@@ -249,4 +252,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

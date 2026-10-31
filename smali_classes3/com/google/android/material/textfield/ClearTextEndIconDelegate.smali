@@ -210,8 +210,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic a(Lcom/google/android/material/textfield/ClearTextEndIconDelegate;Landroid/view/View;)V
@@ -296,11 +294,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private animateIcon(Z)V
@@ -458,8 +451,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public static synthetic b(Lcom/google/android/material/textfield/ClearTextEndIconDelegate;Landroid/view/View;Z)V
@@ -619,11 +610,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public static synthetic c(Lcom/google/android/material/textfield/ClearTextEndIconDelegate;Landroid/animation/ValueAnimator;)V
@@ -706,11 +692,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic d(Lcom/google/android/material/textfield/ClearTextEndIconDelegate;Landroid/animation/ValueAnimator;)V
@@ -797,11 +778,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public static synthetic e(Lcom/google/android/material/textfield/ClearTextEndIconDelegate;)V
@@ -836,7 +812,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private varargs getAlphaAnimator([F)Landroid/animation/ValueAnimator;
@@ -887,7 +862,6 @@
     .line 23
     .line 24
     return-object p1
-    .line 25
 .end method
 
 .method private getScaleAnimator()Landroid/animation/ValueAnimator;
@@ -1026,15 +1000,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private initAnimators()V
@@ -1209,15 +1174,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private shouldBeVisible()Z
@@ -1362,15 +1318,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 
@@ -1424,7 +1371,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getIconContentDescriptionResId()I
@@ -1455,7 +1401,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getIconDrawableResId()I
@@ -1486,7 +1431,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnEditTextFocusChangeListener()Landroid/view/View$OnFocusChangeListener;
@@ -1517,7 +1461,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnIconClickListener()Landroid/view/View$OnClickListener;
@@ -1548,7 +1491,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getOnIconViewFocusChangeListener()Landroid/view/View$OnFocusChangeListener;
@@ -1579,7 +1521,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onEditTextAttached(Landroid/widget/EditText;)V
@@ -1624,7 +1565,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onSuffixVisibilityChanged(Z)V
@@ -1668,7 +1608,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setUp()V
@@ -1699,7 +1638,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public tearDown()V
@@ -1739,5 +1677,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

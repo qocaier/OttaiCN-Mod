@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/zxing/client/android/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "dimen"
-.end annotation
-
-
 # static fields
 .field public static compat_button_inset_horizontal_material:I = 0x7f06005a
 

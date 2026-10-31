@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lgb/b0;
+.implements Lcom/google/common/base/s;
 .implements Ljava/io/Serializable;
 
 
@@ -23,8 +23,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lgb/b0<",
-        "TT;>;",
+        "Lcom/google/common/base/s;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -41,28 +40,12 @@
             "TT;"
         }
     .end annotation
-
-    .annotation runtime Lgb/u;
-    .end annotation
 .end field
 
 
 # direct methods
 .method public constructor <init>(Ljava/lang/Object;)V
     .locals 0
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgb/u;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "instance"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)V"
@@ -98,25 +81,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "obj"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Lcom/google/common/base/Suppliers$SupplierOfInstance;
@@ -139,7 +109,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0, p1}, Lgb/t;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcom/google/common/base/l;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -162,7 +132,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public get()Ljava/lang/Object;
@@ -171,9 +140,6 @@
         value = {
             "()TT;"
         }
-    .end annotation
-
-    .annotation runtime Lgb/u;
     .end annotation
 
     .line 1
@@ -201,7 +167,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public hashCode()I
@@ -220,7 +185,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Lgb/t;->b([Ljava/lang/Object;)I
+    invoke-static {v0}, Lcom/google/common/base/l;->b([Ljava/lang/Object;)I
 
     .line 8
     .line 9
@@ -240,7 +205,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -367,13 +331,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

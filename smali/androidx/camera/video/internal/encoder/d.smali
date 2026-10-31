@@ -3,36 +3,40 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/concurrent/futures/CallbackToFutureAdapter$Resolver;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field public final synthetic a:Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;
+.field public final synthetic a:Landroidx/camera/video/internal/encoder/EncoderImpl;
+
+.field public final synthetic b:J
 
 
 # direct methods
-.method public synthetic constructor <init>(Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;)V
+.method public synthetic constructor <init>(Landroidx/camera/video/internal/encoder/EncoderImpl;J)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/camera/video/internal/encoder/d;->a:Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;
+    iput-object p1, p0, Landroidx/camera/video/internal/encoder/d;->a:Landroidx/camera/video/internal/encoder/EncoderImpl;
+
+    iput-wide p2, p0, Landroidx/camera/video/internal/encoder/d;->b:J
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final attachCompleter(Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
-    .locals 1
+.method public final run()V
+    .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/camera/video/internal/encoder/d;->a:Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;
+    iget-object v0, p0, Landroidx/camera/video/internal/encoder/d;->a:Landroidx/camera/video/internal/encoder/EncoderImpl;
 
-    invoke-static {v0, p1}, Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;->h(Landroidx/camera/video/internal/encoder/EncoderImpl$ByteBufferInput;Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)Ljava/lang/Object;
+    iget-wide v1, p0, Landroidx/camera/video/internal/encoder/d;->b:J
 
-    move-result-object p1
+    invoke-static {v0, v1, v2}, Landroidx/camera/video/internal/encoder/EncoderImpl;->m(Landroidx/camera/video/internal/encoder/EncoderImpl;J)V
 
-    return-object p1
+    return-void
 .end method

@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/Transformations;->map(Landroidx/lifecycle/LiveData;Ljm/l;)Landroidx/lifecycle/LiveData;
+    value = Landroidx/lifecycle/Transformations;->map(Landroidx/lifecycle/LiveData;Lq8/l;)Landroidx/lifecycle/LiveData;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "TX;",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -37,26 +34,25 @@
     .end annotation
 .end field
 
-.field final synthetic $transform:Ljm/l;
+.field final synthetic $transform:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "TX;TY;>;"
+            "Lq8/l;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Landroidx/lifecycle/MediatorLiveData;Ljm/l;)V
+.method public constructor <init>(Landroidx/lifecycle/MediatorLiveData;Lq8/l;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/lifecycle/MediatorLiveData<",
             "TY;>;",
-            "Ljm/l<",
-            "TX;TY;>;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -65,7 +61,7 @@
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/lifecycle/Transformations$map$1;->$transform:Ljm/l;
+    iput-object p2, p0, Landroidx/lifecycle/Transformations$map$1;->$transform:Lq8/l;
 
     .line 4
     .line 5
@@ -127,7 +123,7 @@
     .line 1
     invoke-virtual {p0, p1}, Landroidx/lifecycle/Transformations$map$1;->invoke(Ljava/lang/Object;)V
 
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     return-object p1
 .end method
@@ -143,9 +139,9 @@
     .line 2
     iget-object v0, p0, Landroidx/lifecycle/Transformations$map$1;->$result:Landroidx/lifecycle/MediatorLiveData;
 
-    iget-object v1, p0, Landroidx/lifecycle/Transformations$map$1;->$transform:Ljm/l;
+    iget-object v1, p0, Landroidx/lifecycle/Transformations$map$1;->$transform:Lq8/l;
 
-    invoke-interface {v1, p1}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

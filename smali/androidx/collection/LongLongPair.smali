@@ -100,6 +100,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final component2()J
@@ -130,14 +131,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 6
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
     instance-of v0, p1, Landroidx/collection/LongLongPair;
@@ -250,6 +248,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getFirst()J
@@ -278,6 +277,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getSecond()J
@@ -306,6 +306,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hashCode()I
@@ -346,12 +347,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/StringBuilder;
@@ -466,4 +466,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

@@ -301,6 +301,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -344,6 +350,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCustomView()Landroid/view/View;
@@ -385,6 +392,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMenu()Landroid/view/Menu;
@@ -413,6 +421,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMenuInflater()Landroid/view/MenuInflater;
@@ -449,6 +458,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSubtitle()Ljava/lang/CharSequence;
@@ -481,6 +491,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTitle()Ljava/lang/CharSequence;
@@ -513,6 +524,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public invalidate()V
@@ -545,6 +557,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isTitleOptional()Z
@@ -577,6 +590,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isUiFocusable()Z
@@ -605,6 +619,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V

@@ -201,6 +201,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public notifyChildrenChangedForFramework(Ljava/lang/String;Landroid/os/Bundle;)V
@@ -302,6 +304,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onLoadChildren(Ljava/lang/String;Landroidx/media/MediaBrowserServiceCompat$ResultWrapper;Landroid/os/Bundle;)V
@@ -451,4 +454,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

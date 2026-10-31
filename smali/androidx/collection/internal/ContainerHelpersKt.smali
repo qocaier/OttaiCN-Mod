@@ -5,28 +5,10 @@
 
 # static fields
 .field public static final EMPTY_INTS:[I
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final EMPTY_LONGS:[J
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final EMPTY_OBJECTS:[Ljava/lang/Object;
-    .annotation build Lim/g;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -68,18 +50,15 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final binarySearch([III)I
     .locals 3
-    .param p0    # [I
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "array"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     add-int/lit8 p1, p1, -0x1
 
@@ -119,14 +98,10 @@
 
 .method public static final binarySearch([JIJ)I
     .locals 4
-    .param p0    # [J
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "array"
 
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     add-int/lit8 p1, p1, -0x1
 
@@ -168,17 +143,9 @@
 
 .method public static final equal(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
-    .param p0    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
 
     .line 1
-    invoke-static {p0, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 2
     .line 3

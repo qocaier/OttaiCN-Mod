@@ -22,7 +22,7 @@
         "Ljava/lang/Object;",
         "Ljava/io/Serializable;",
         "Ljava/util/Comparator<",
-        "Lod/d;",
+        "Lcom/google/zxing/qrcode/detector/d;",
         ">;"
     }
 .end annotation
@@ -56,30 +56,15 @@
 
 
 # virtual methods
-.method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
-    .locals 0
-
-    .line 1
-    check-cast p1, Lod/d;
-
-    check-cast p2, Lod/d;
-
-    invoke-virtual {p0, p1, p2}, Lcom/google/zxing/qrcode/detector/FinderPatternFinder$CenterComparator;->compare(Lod/d;Lod/d;)I
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public compare(Lod/d;Lod/d;)I
+.method public compare(Lcom/google/zxing/qrcode/detector/d;Lcom/google/zxing/qrcode/detector/d;)I
     .locals 2
 
     .line 2
-    invoke-virtual {p2}, Lod/d;->h()I
+    invoke-virtual {p2}, Lcom/google/zxing/qrcode/detector/d;->h()I
 
     move-result v0
 
-    invoke-virtual {p1}, Lod/d;->h()I
+    invoke-virtual {p1}, Lcom/google/zxing/qrcode/detector/d;->h()I
 
     move-result v1
 
@@ -90,7 +75,7 @@
     if-nez v0, :cond_0
 
     .line 3
-    invoke-virtual {p1}, Lod/d;->i()F
+    invoke-virtual {p1}, Lcom/google/zxing/qrcode/detector/d;->i()F
 
     move-result p1
 
@@ -103,7 +88,7 @@
     move-result p1
 
     .line 4
-    invoke-virtual {p2}, Lod/d;->i()F
+    invoke-virtual {p2}, Lcom/google/zxing/qrcode/detector/d;->i()F
 
     move-result p2
 
@@ -124,4 +109,19 @@
 
     :cond_0
     return v0
+.end method
+
+.method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/google/zxing/qrcode/detector/d;
+
+    check-cast p2, Lcom/google/zxing/qrcode/detector/d;
+
+    invoke-virtual {p0, p1, p2}, Lcom/google/zxing/qrcode/detector/FinderPatternFinder$CenterComparator;->compare(Lcom/google/zxing/qrcode/detector/d;Lcom/google/zxing/qrcode/detector/d;)I
+
+    move-result p1
+
+    return p1
 .end method

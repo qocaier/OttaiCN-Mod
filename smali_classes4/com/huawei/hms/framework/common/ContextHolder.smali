@@ -50,6 +50,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getAppContext()Landroid/content/Context;
@@ -78,6 +80,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getKitContext()Landroid/content/Context;
@@ -106,6 +110,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getResourceContext()Landroid/content/Context;
@@ -149,6 +155,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static setAppContext(Landroid/content/Context;)V
@@ -197,6 +205,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public static setKitContext(Landroid/content/Context;)V
@@ -234,4 +244,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

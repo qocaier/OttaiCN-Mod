@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/DataStoreSingletonDelegate;->getValue(Landroid/content/Context;Lum/n;)Landroidx/datastore/core/DataStore;
+    value = Landroidx/datastore/DataStoreSingletonDelegate;->getValue(Landroid/content/Context;Lkotlin/reflect/k;)Landroidx/datastore/core/DataStore;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Lokio/Path;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -77,8 +75,6 @@
 
 .method public final invoke()Lokio/Path;
     .locals 5
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     sget-object v0, Lokio/Path;->Companion:Lokio/Path$Companion;
@@ -87,7 +83,7 @@
 
     const-string v2, "applicationContext"
 
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v2, p0, Landroidx/datastore/DataStoreSingletonDelegate$getValue$1$1;->this$0:Landroidx/datastore/DataStoreSingletonDelegate;
 
@@ -105,7 +101,7 @@
 
     const-string v2, "applicationContext.dataS\u2026le(fileName).absolutePath"
 
-    invoke-static {v1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v2, 0x1
 

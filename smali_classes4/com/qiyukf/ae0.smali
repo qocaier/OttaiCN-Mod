@@ -7,21 +7,21 @@
 
 
 # instance fields
-.field public final synthetic a:Lcom/qiyukf/v10$a;
+.field public final synthetic a:Lcom/qiyukf/d60;
 
-.field public final synthetic b:Lcom/qiyukf/y10;
+.field public final synthetic b:S
 
 
 # direct methods
-.method public synthetic constructor <init>(Lcom/qiyukf/v10$a;Lcom/qiyukf/y10;)V
+.method public synthetic constructor <init>(Lcom/qiyukf/d60;S)V
     .locals 0
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/qiyukf/ae0;->a:Lcom/qiyukf/v10$a;
+    iput-object p1, p0, Lcom/qiyukf/ae0;->a:Lcom/qiyukf/d60;
 
-    iput-object p2, p0, Lcom/qiyukf/ae0;->b:Lcom/qiyukf/y10;
+    iput-short p2, p0, Lcom/qiyukf/ae0;->b:S
 
     return-void
 .end method
@@ -32,11 +32,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/qiyukf/ae0;->a:Lcom/qiyukf/v10$a;
+    iget-object v0, p0, Lcom/qiyukf/ae0;->a:Lcom/qiyukf/d60;
 
-    iget-object v1, p0, Lcom/qiyukf/ae0;->b:Lcom/qiyukf/y10;
+    iget-short v1, p0, Lcom/qiyukf/ae0;->b:S
 
-    invoke-static {v0, v1}, Lcom/qiyukf/v10$a;->b(Lcom/qiyukf/v10$a;Lcom/qiyukf/y10;)V
+    invoke-static {v0, v1}, Lcom/qiyukf/d60;->b(Lcom/qiyukf/d60;S)V
 
     return-void
 .end method

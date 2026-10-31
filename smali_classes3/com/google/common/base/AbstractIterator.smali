@@ -13,37 +13,11 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "<T:",
-        "Ljava/lang/Object;",
-        ">",
-        "Ljava/lang/Object;",
-        "Ljava/util/Iterator<",
-        "TT;>;"
-    }
-.end annotation
-
-.annotation build Lfb/b;
-.end annotation
-
-.annotation runtime Lgb/g;
-.end annotation
-
 
 # instance fields
 .field public a:Lcom/google/common/base/AbstractIterator$State;
 
 .field public b:Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "TT;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -79,35 +53,15 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public abstract a()Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TT;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
 .end method
 
 .method public final b()Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TT;"
-        }
-    .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
-
-    .annotation build Lxb/a;
-    .end annotation
 
     .line 1
     sget-object v0, Lcom/google/common/base/AbstractIterator$State;->DONE:Lcom/google/common/base/AbstractIterator$State;
@@ -138,7 +92,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public final c()Z
@@ -272,15 +225,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public final hasNext()Z
@@ -316,7 +260,7 @@
 
     .line 12
     :goto_0
-    invoke-static {v0}, Lgb/w;->g0(Z)V
+    invoke-static {v0}, Lcom/google/common/base/o;->u(Z)V
 
     .line 13
     .line 14
@@ -433,27 +377,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public final next()Ljava/lang/Object;
     .locals 2
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()TT;"
-        }
-    .end annotation
-
-    .annotation runtime Lgb/u;
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Lcom/google/common/base/AbstractIterator;->hasNext()Z
@@ -480,7 +407,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0}, Lgb/s;->a(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/google/common/base/k;->a(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -583,15 +510,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public final remove()V
@@ -624,5 +542,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

@@ -490,6 +490,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -524,6 +526,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getBody()Ljava/lang/String;
@@ -552,6 +556,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getBodyLocalizationArgs()[Ljava/lang/String;
@@ -595,6 +601,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getBodyLocalizationKey()Ljava/lang/String;
@@ -623,6 +631,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getChannelId()Ljava/lang/String;
@@ -651,6 +661,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getClickAction()Ljava/lang/String;
@@ -679,6 +691,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getColor()Ljava/lang/String;
@@ -707,6 +721,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getIcon()Ljava/lang/String;
@@ -735,6 +751,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getImageUrl()Landroid/net/Uri;
@@ -774,6 +792,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getImportance()Ljava/lang/Integer;
@@ -806,6 +826,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getIntentUri()Ljava/lang/String;
@@ -834,6 +856,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLightSettings()[I
@@ -877,6 +901,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getLink()Landroid/net/Uri;
@@ -905,6 +931,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNotifyId()I
@@ -933,6 +961,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSound()Ljava/lang/String;
@@ -961,6 +991,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTag()Ljava/lang/String;
@@ -989,6 +1021,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTicker()Ljava/lang/String;
@@ -1017,6 +1051,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTitle()Ljava/lang/String;
@@ -1045,6 +1081,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTitleLocalizationArgs()[Ljava/lang/String;
@@ -1088,6 +1126,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTitleLocalizationKey()Ljava/lang/String;
@@ -1116,6 +1156,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVibrateConfig()[J
@@ -1159,6 +1201,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVisibility()Ljava/lang/Integer;
@@ -1191,6 +1235,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getWhen()Ljava/lang/Long;
@@ -1323,6 +1369,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public isAutoCancel()Z
@@ -1360,6 +1407,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isDefaultLight()Z
@@ -1397,6 +1446,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isDefaultSound()Z
@@ -1434,6 +1485,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isDefaultVibrate()Z
@@ -1471,6 +1524,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isLocalOnly()Z
@@ -1508,4 +1563,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

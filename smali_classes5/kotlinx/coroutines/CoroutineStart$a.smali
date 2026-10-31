@@ -1,4 +1,4 @@
-.class public final synthetic Lkotlinx/coroutines/CoroutineStart$a;
+.class public abstract synthetic Lkotlinx/coroutines/CoroutineStart$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

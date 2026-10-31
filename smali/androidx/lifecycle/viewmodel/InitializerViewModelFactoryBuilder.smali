@@ -7,16 +7,6 @@
 .annotation runtime Landroidx/lifecycle/viewmodel/ViewModelFactoryDsl;
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nInitializerViewModelFactory.kt\nKotlin\n*S Kotlin\n*F\n+ 1 InitializerViewModelFactory.kt\nandroidx/lifecycle/viewmodel/InitializerViewModelFactoryBuilder\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,115:1\n37#2,2:116\n*S KotlinDebug\n*F\n+ 1 InitializerViewModelFactory.kt\nandroidx/lifecycle/viewmodel/InitializerViewModelFactoryBuilder\n*L\n54#1:116,2\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nInitializerViewModelFactory.kt\nKotlin\n*S Kotlin\n*F\n+ 1 InitializerViewModelFactory.kt\nandroidx/lifecycle/viewmodel/InitializerViewModelFactoryBuilder\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,115:1\n37#2,2:116\n*S KotlinDebug\n*F\n+ 1 InitializerViewModelFactory.kt\nandroidx/lifecycle/viewmodel/InitializerViewModelFactoryBuilder\n*L\n54#1:116,2\n*E\n"
-    }
-.end annotation
-
 
 # instance fields
 .field private final initializers:Ljava/util/List;
@@ -26,9 +16,6 @@
             "Landroidx/lifecycle/viewmodel/ViewModelInitializer<",
             "*>;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -66,31 +53,21 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
 # virtual methods
-.method public final addInitializer(Lum/d;Ljm/l;)V
+.method public final addInitializer(Lkotlin/reflect/c;Lq8/l;)V
     .locals 2
-    .param p1    # Lum/d;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Landroidx/lifecycle/ViewModel;",
             ">(",
-            "Lum/d<",
-            "TT;>;",
-            "Ljm/l<",
-            "-",
-            "Landroidx/lifecycle/viewmodel/CreationExtras;",
-            "+TT;>;)V"
+            "Lkotlin/reflect/c;",
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -99,7 +76,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -108,7 +85,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -121,7 +98,7 @@
 
     .line 14
     .line 15
-    invoke-static {p1}, Lim/b;->e(Lum/d;)Ljava/lang/Class;
+    invoke-static {p1}, Lp8/a;->a(Lkotlin/reflect/c;)Ljava/lang/Class;
 
     .line 16
     .line 17
@@ -129,7 +106,7 @@
     move-result-object p1
 
     .line 19
-    invoke-direct {v1, p1, p2}, Landroidx/lifecycle/viewmodel/ViewModelInitializer;-><init>(Ljava/lang/Class;Ljm/l;)V
+    invoke-direct {v1, p1, p2}, Landroidx/lifecycle/viewmodel/ViewModelInitializer;-><init>(Ljava/lang/Class;Lq8/l;)V
 
     .line 20
     .line 21
@@ -167,8 +144,6 @@
 
 .method public final build()Landroidx/lifecycle/ViewModelProvider$Factory;
     .locals 3
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/lifecycle/viewmodel/InitializerViewModelFactory;
@@ -281,4 +256,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

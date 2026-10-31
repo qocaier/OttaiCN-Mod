@@ -3,25 +3,14 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/example/flu_youzan_service/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "layout"
-.end annotation
-
-
 # static fields
 .field public static activity_auth_login:I = 0x7f0b001c
 
-.field public static activity_youzan:I = 0x7f0b0020
+.field public static activity_youzan:I = 0x7f0b0021
 
-.field public static fragment_auth:I = 0x7f0b003c
+.field public static fragment_auth:I = 0x7f0b003d
 
-.field public static fragment_youzan:I = 0x7f0b0040
+.field public static fragment_youzan:I = 0x7f0b0041
 
 
 # direct methods

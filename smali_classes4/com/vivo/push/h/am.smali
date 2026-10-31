@@ -35,6 +35,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -316,143 +318,143 @@
 
     .line 141
     .line 142
-    const-string v1, "\u56de\u6536client\u901a\u77e5\u6210\u529f, \u4e0a\u62a5\u57cb\u70b9 1031, messageId = "
+    const-string/jumbo v1, "\u56de\u6536client\u901a\u77e5\u6210\u529f, \u4e0a\u62a5\u57cb\u70b9 1031, messageId = "
 
     .line 143
     .line 144
+    .line 145
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 145
     .line 146
     .line 147
+    .line 148
     invoke-virtual {p1}, Lcom/vivo/push/b/w;->e()J
 
-    .line 148
     .line 149
     .line 150
+    .line 151
     move-result-wide v1
 
-    .line 151
+    .line 152
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
-    .line 152
     .line 153
     .line 154
+    .line 155
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 155
     .line 156
     .line 157
+    .line 158
     move-result-object v0
 
-    .line 158
+    .line 159
     invoke-static {v0}, Lcom/vivo/push/util/w;->b(Ljava/lang/String;)V
 
-    .line 159
     .line 160
     .line 161
+    .line 162
     invoke-virtual {p1}, Lcom/vivo/push/b/w;->e()J
 
-    .line 162
     .line 163
     .line 164
+    .line 165
     move-result-wide v0
 
-    .line 165
+    .line 166
     const-wide/16 v2, 0x407
 
-    .line 166
     .line 167
+    .line 168
     invoke-static {v0, v1, v2, v3}, Lcom/vivo/push/util/h;->a(JJ)Z
 
-    .line 168
     .line 169
     .line 170
+    .line 171
     return-void
 
-    .line 171
+    .line 172
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 172
     .line 173
+    .line 174
     const-string v2, "undo message fail\uff0cmessageId = "
 
-    .line 174
     .line 175
+    .line 176
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 176
     .line 177
     .line 178
+    .line 179
     invoke-virtual {p1}, Lcom/vivo/push/b/w;->e()J
 
-    .line 179
     .line 180
     .line 181
+    .line 182
     move-result-wide v2
 
-    .line 182
+    .line 183
     invoke-virtual {v0, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
-    .line 183
     .line 184
     .line 185
+    .line 186
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 186
     .line 187
     .line 188
+    .line 189
     move-result-object v0
 
-    .line 189
+    .line 190
     invoke-static {v1, v0}, Lcom/vivo/push/util/w;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 190
     .line 191
     .line 192
+    .line 193
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 193
     .line 194
-    const-string v1, "\u56de\u6536client\u901a\u77e5\u5931\u8d25\uff0cmessageId = "
-
     .line 195
-    .line 196
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const-string/jumbo v1, "\u56de\u6536client\u901a\u77e5\u5931\u8d25\uff0cmessageId = "
 
+    .line 196
     .line 197
     .line 198
-    .line 199
-    invoke-virtual {p1}, Lcom/vivo/push/b/w;->e()J
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
+    .line 199
     .line 200
     .line 201
+    invoke-virtual {p1}, Lcom/vivo/push/b/w;->e()J
+
     .line 202
+    .line 203
+    .line 204
     move-result-wide v1
 
-    .line 203
+    .line 205
     invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
-    .line 204
-    .line 205
     .line 206
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
     .line 207
     .line 208
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 209
+    .line 210
+    .line 211
     move-result-object p1
 
-    .line 210
+    .line 212
     invoke-static {p1}, Lcom/vivo/push/util/w;->c(Ljava/lang/String;)V
 
-    .line 211
-    .line 212
     .line 213
-    return-void
     .line 214
     .line 215
+    return-void
     .line 216
     .line 217
     .line 218
@@ -522,25 +524,4 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method

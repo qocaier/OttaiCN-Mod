@@ -22,9 +22,6 @@
 
 # static fields
 .field public static final Companion:Landroidx/window/core/SpecificationComputer$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -35,7 +32,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/window/core/SpecificationComputer$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/window/core/SpecificationComputer$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/window/core/SpecificationComputer;->Companion:Landroidx/window/core/SpecificationComputer$Companion;
 
@@ -68,6 +65,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -78,30 +76,17 @@
             "()TT;"
         }
     .end annotation
-
-    .annotation build Lsq/l;
-    .end annotation
 .end method
 
 .method public final createMessage(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     const-string v0, "value"
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -110,7 +95,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -171,28 +156,15 @@
     .line 48
 .end method
 
-.method public abstract require(Ljava/lang/String;Ljm/l;)Landroidx/window/core/SpecificationComputer;
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
+.method public abstract require(Ljava/lang/String;Lq8/l;)Landroidx/window/core/SpecificationComputer;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
-            "Ljm/l<",
-            "-TT;",
-            "Ljava/lang/Boolean;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/window/core/SpecificationComputer<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method

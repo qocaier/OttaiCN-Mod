@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
@@ -19,10 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/l<",
-        "Landroid/view/View;",
-        "Landroidx/savedstate/SavedStateRegistryOwner;",
-        ">;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -58,16 +55,10 @@
 # virtual methods
 .method public final invoke(Landroid/view/View;)Landroidx/savedstate/SavedStateRegistryOwner;
     .locals 1
-    .param p1    # Landroid/view/View;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     const-string v0, "view"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     sget v0, Landroidx/savedstate/R$id;->view_tree_saved_state_registry_owner:I

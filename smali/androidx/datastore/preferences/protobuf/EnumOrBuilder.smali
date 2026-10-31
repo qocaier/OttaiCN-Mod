@@ -14,14 +14,6 @@
 .end method
 
 .method public abstract getEnumvalue(I)Landroidx/datastore/preferences/protobuf/EnumValue;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getEnumvalueCount()I
@@ -45,14 +37,6 @@
 .end method
 
 .method public abstract getOptions(I)Landroidx/datastore/preferences/protobuf/Option;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "index"
-        }
-    .end annotation
 .end method
 
 .method public abstract getOptionsCount()I

@@ -88,6 +88,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public hasSubMenu()Z
@@ -185,6 +186,7 @@
     .line 20
     :cond_0
     return-void
+    .line 21
 .end method
 
 .method public reset()V
@@ -222,6 +224,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setSubUiVisibilityListener(Landroidx/core/view/ActionProvider$SubUiVisibilityListener;)V
@@ -383,6 +386,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public subUiVisibilityChanged(Z)V

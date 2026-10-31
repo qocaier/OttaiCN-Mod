@@ -38,7 +38,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -73,7 +72,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getCustomMapStyleId()Ljava/lang/String;
@@ -104,7 +102,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLocalCustomStyleFilePath()Ljava/lang/String;
@@ -135,7 +132,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public localCustomStylePath(Ljava/lang/String;)Lcom/baidu/mapapi/map/MapCustomStyleOptions;
@@ -168,5 +164,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

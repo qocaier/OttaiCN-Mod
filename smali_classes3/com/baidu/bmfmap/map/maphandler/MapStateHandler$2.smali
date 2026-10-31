@@ -26,17 +26,6 @@
 # direct methods
 .method public constructor <init>(Lcom/baidu/bmfmap/map/maphandler/MapStateHandler;Lio/flutter/plugin/common/MethodChannel$Result;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010,
-            0x1010
-        }
-        names = {
-            null,
-            null
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()V"
@@ -110,11 +99,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 
@@ -243,6 +227,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

@@ -31,37 +31,15 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nActivityResultContracts.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActivityResultContracts.kt\nandroidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,953:1\n12541#2,2:954\n8676#2,2:956\n9358#2,4:958\n11365#2:962\n11700#2,3:963\n*S KotlinDebug\n*F\n+ 1 ActivityResultContracts.kt\nandroidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions\n*L\n189#1:954,2\n196#1:956,2\n196#1:958,4\n209#1:962\n209#1:963,3\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nActivityResultContracts.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ActivityResultContracts.kt\nandroidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,953:1\n12541#2,2:954\n8676#2,2:956\n9358#2,4:958\n11365#2:962\n11700#2,3:963\n*S KotlinDebug\n*F\n+ 1 ActivityResultContracts.kt\nandroidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions\n*L\n189#1:954,2\n196#1:956,2\n196#1:958,4\n209#1:962\n209#1:963,3\n*E\n"
-    }
-.end annotation
-
 
 # static fields
 .field public static final ACTION_REQUEST_PERMISSIONS:Ljava/lang/String; = "androidx.activity.result.contract.action.REQUEST_PERMISSIONS"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final Companion:Landroidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final EXTRA_PERMISSIONS:Ljava/lang/String; = "androidx.activity.result.contract.extra.PERMISSIONS"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final EXTRA_PERMISSION_GRANT_RESULTS:Ljava/lang/String; = "androidx.activity.result.contract.extra.PERMISSION_GRANT_RESULTS"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -72,7 +50,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions;->Companion:Landroidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions$Companion;
 
@@ -105,6 +83,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -124,24 +103,14 @@
 
 .method public createIntent(Landroid/content/Context;[Ljava/lang/String;)Landroid/content/Intent;
     .locals 1
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # [Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "input"
 
-    invoke-static {p2, p1}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     sget-object p1, Landroidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions;->Companion:Landroidx/activity/result/contract/ActivityResultContracts$RequestMultiplePermissions$Companion;
@@ -168,14 +137,6 @@
 
 .method public getSynchronousResult(Landroid/content/Context;[Ljava/lang/String;)Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;
     .locals 4
-    .param p1    # Landroid/content/Context;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # [Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -191,16 +152,13 @@
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "input"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     array-length v0, p2
@@ -210,7 +168,7 @@
     .line 3
     new-instance p1, Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;
 
-    invoke-static {}, Lkotlin/collections/a;->z()Ljava/util/Map;
+    invoke-static {}, Lkotlin/collections/g0;->f()Ljava/util/Map;
 
     move-result-object p2
 
@@ -251,13 +209,13 @@
     :cond_2
     array-length p1, p2
 
-    invoke-static {p1}, Lll/j1;->j(I)I
+    invoke-static {p1}, Lkotlin/collections/f0;->c(I)I
 
     move-result p1
 
     const/16 v0, 0x10
 
-    invoke-static {p1, v0}, Ltm/u;->u(II)I
+    invoke-static {p1, v0}, Lu8/f;->b(II)I
 
     move-result p1
 
@@ -277,7 +235,7 @@
     .line 9
     sget-object v3, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
-    invoke-static {v2, v3}, Ljl/f1;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
+    invoke-static {v2, v3}, Lkotlin/f;->a(Ljava/lang/Object;Ljava/lang/Object;)Lkotlin/Pair;
 
     move-result-object v2
 
@@ -318,10 +276,6 @@
 
 .method public parseResult(ILandroid/content/Intent;)Ljava/util/Map;
     .locals 5
-    .param p2    # Landroid/content/Intent;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
@@ -334,15 +288,12 @@
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     const/4 v0, -0x1
 
     if-eq p1, v0, :cond_0
 
     .line 2
-    invoke-static {}, Lkotlin/collections/a;->z()Ljava/util/Map;
+    invoke-static {}, Lkotlin/collections/g0;->f()Ljava/util/Map;
 
     move-result-object p1
 
@@ -352,7 +303,7 @@
     if-nez p2, :cond_1
 
     .line 3
-    invoke-static {}, Lkotlin/collections/a;->z()Ljava/util/Map;
+    invoke-static {}, Lkotlin/collections/g0;->f()Ljava/util/Map;
 
     move-result-object p1
 
@@ -423,19 +374,19 @@
 
     .line 10
     :cond_4
-    invoke-static {p1}, Lll/a0;->lb([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p1}, Lkotlin/collections/m;->E([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/Iterable;
 
-    invoke-static {p1, v0}, Lll/r0;->o6(Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {p1, v0}, Lkotlin/collections/z;->k0(Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/List;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/Iterable;
 
-    invoke-static {p1}, Lkotlin/collections/a;->B0(Ljava/lang/Iterable;)Ljava/util/Map;
+    invoke-static {p1}, Lkotlin/collections/g0;->m(Ljava/lang/Iterable;)Ljava/util/Map;
 
     move-result-object p1
 
@@ -444,7 +395,7 @@
     .line 11
     :cond_5
     :goto_2
-    invoke-static {}, Lkotlin/collections/a;->z()Ljava/util/Map;
+    invoke-static {}, Lkotlin/collections/g0;->f()Ljava/util/Map;
 
     move-result-object p1
 

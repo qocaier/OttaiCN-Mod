@@ -88,7 +88,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>()V
@@ -201,7 +200,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLightNum()I
@@ -232,7 +230,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getToll()I
@@ -263,7 +260,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWayPoints()Ljava/util/List;
@@ -302,7 +298,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isSupportTraffic()Z
@@ -335,7 +330,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setCongestionDistance(I)V
@@ -368,7 +362,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setLightNum(I)V
@@ -401,7 +394,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSupportTraffic(Z)V
@@ -434,7 +426,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setToll(I)V
@@ -467,7 +458,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setWayPoints(Ljava/util/List;)V
@@ -508,7 +498,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
@@ -601,9 +590,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method

@@ -74,7 +74,7 @@
 
     .line 11
     .line 12
-    invoke-static {}, Lm/b;->a()Landroid/hardware/camera2/CameraCharacteristics$Key;
+    invoke-static {}, Landroidx/camera/camera2/internal/b;->a()Landroid/hardware/camera2/CameraCharacteristics$Key;
 
     .line 13
     .line 14
@@ -112,7 +112,7 @@
     .end param
 
     .line 1
-    invoke-static {}, Lm/a;->a()Landroid/hardware/camera2/CaptureRequest$Key;
+    invoke-static {}, Landroidx/camera/camera2/internal/a;->a()Landroid/hardware/camera2/CaptureRequest$Key;
 
     .line 2
     .line 3
@@ -193,6 +193,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMaxZoom()F
@@ -231,6 +232,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMinZoom()F
@@ -269,6 +271,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onCaptureResult(Landroid/hardware/camera2/TotalCaptureResult;)V
@@ -309,7 +312,7 @@
 
     .line 14
     :cond_0
-    invoke-static {}, Lm/a;->a()Landroid/hardware/camera2/CaptureRequest$Key;
+    invoke-static {}, Landroidx/camera/camera2/internal/a;->a()Landroid/hardware/camera2/CaptureRequest$Key;
 
     .line 15
     .line 16
@@ -408,6 +411,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public resetZoom()V
@@ -519,6 +523,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setZoomRatio(FLandroidx/concurrent/futures/CallbackToFutureAdapter$Completer;)V

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lgb/x;
+.implements Lcom/google/common/base/p;
 .implements Ljava/io/Serializable;
 
 
@@ -23,8 +23,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lgb/x<",
-        "TT;>;",
+        "Lcom/google/common/base/p;",
         "Ljava/io/Serializable;"
     }
 .end annotation
@@ -35,33 +34,23 @@
 
 
 # instance fields
-.field final predicate:Lgb/x;
+.field final predicate:Lcom/google/common/base/p;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lgb/x<",
-            "TT;>;"
+            "Lcom/google/common/base/p;"
         }
     .end annotation
 .end field
 
 
 # direct methods
-.method public constructor <init>(Lgb/x;)V
+.method public constructor <init>(Lcom/google/common/base/p;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "predicate"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lgb/x<",
-            "TT;>;)V"
+            "Lcom/google/common/base/p;",
+            ")V"
         }
     .end annotation
 
@@ -71,7 +60,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -79,11 +68,11 @@
     move-result-object p1
 
     .line 8
-    check-cast p1, Lgb/x;
+    check-cast p1, Lcom/google/common/base/p;
 
     .line 9
     .line 10
-    iput-object p1, p0, Lcom/google/common/base/Predicates$NotPredicate;->predicate:Lgb/x;
+    iput-object p1, p0, Lcom/google/common/base/Predicates$NotPredicate;->predicate:Lcom/google/common/base/p;
 
     .line 11
     .line 12
@@ -100,26 +89,12 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public apply(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgb/u;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "t"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)Z"
@@ -127,11 +102,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/base/Predicates$NotPredicate;->predicate:Lgb/x;
+    iget-object v0, p0, Lcom/google/common/base/Predicates$NotPredicate;->predicate:Lcom/google/common/base/p;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lgb/x;->apply(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Lcom/google/common/base/p;->apply(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -159,23 +134,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "obj"
-        }
-    .end annotation
 
     .line 1
     instance-of v0, p1, Lcom/google/common/base/Predicates$NotPredicate;
@@ -190,15 +152,15 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lcom/google/common/base/Predicates$NotPredicate;->predicate:Lgb/x;
+    iget-object v0, p0, Lcom/google/common/base/Predicates$NotPredicate;->predicate:Lcom/google/common/base/p;
 
     .line 8
     .line 9
-    iget-object p1, p1, Lcom/google/common/base/Predicates$NotPredicate;->predicate:Lgb/x;
+    iget-object p1, p1, Lcom/google/common/base/Predicates$NotPredicate;->predicate:Lcom/google/common/base/p;
 
     .line 10
     .line 11
-    invoke-interface {v0, p1}, Lgb/x;->equals(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Lcom/google/common/base/p;->equals(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -221,14 +183,13 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public hashCode()I
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/common/base/Predicates$NotPredicate;->predicate:Lgb/x;
+    iget-object v0, p0, Lcom/google/common/base/Predicates$NotPredicate;->predicate:Lcom/google/common/base/p;
 
     .line 2
     .line 3
@@ -258,7 +219,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -283,7 +243,7 @@
     .line 9
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/google/common/base/Predicates$NotPredicate;->predicate:Lgb/x;
+    iget-object v1, p0, Lcom/google/common/base/Predicates$NotPredicate;->predicate:Lcom/google/common/base/p;
 
     .line 12
     .line 13
@@ -385,13 +345,4 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method

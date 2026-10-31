@@ -34,6 +34,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static clearAll()V
@@ -78,6 +80,8 @@
     .line 19
     .line 20
     return-void
+    .line 21
+    .line 22
 .end method
 
 .method private static database()Lcom/qiyukf/kk;
@@ -112,6 +116,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static getAccountList(Ljava/lang/String;)Ljava/util/ArrayList;
@@ -276,6 +282,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static getAllUserSpecialTag()Ljava/util/ArrayList;
@@ -326,6 +334,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getBlackList()Ljava/util/ArrayList;
@@ -366,6 +376,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getMuteList()Ljava/util/ArrayList;
@@ -406,6 +418,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static getUserSpecialTag(Ljava/lang/String;)Lcom/qiyukf/la0;
@@ -539,6 +553,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static markBlackList(Ljava/lang/String;Z)V
@@ -639,6 +655,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static markMute(Ljava/lang/String;Z)V
@@ -739,6 +765,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method private static query(Ljava/lang/String;)Ljava/util/ArrayList;
@@ -1129,27 +1165,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method public static saveUserSpecialTags(Ljava/util/List;)V
@@ -1616,27 +1631,6 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
 .end method
 
 .method private static userTagColumnStr()Ljava/lang/String;
@@ -1665,4 +1659,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

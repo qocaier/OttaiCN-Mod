@@ -385,6 +385,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static from(Landroidx/camera/video/internal/encoder/VideoEncoderInfo;Landroid/util/Size;)Landroidx/camera/video/internal/encoder/VideoEncoderInfo;
@@ -698,6 +701,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -732,6 +738,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -766,6 +773,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportedBitrateRange()Landroid/util/Range;
@@ -809,6 +817,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportedHeights()Landroid/util/Range;
@@ -848,6 +857,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportedHeightsFor(I)Landroid/util/Range;
@@ -1011,6 +1021,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getSupportedWidths()Landroid/util/Range;
@@ -1050,6 +1061,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSupportedWidthsFor(I)Landroid/util/Range;
@@ -1213,6 +1225,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getWidthAlignment()I
@@ -1245,6 +1258,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isSizeSupported(II)Z
@@ -1558,4 +1572,7 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

@@ -92,7 +92,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;III)V
@@ -371,6 +370,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method public static synthetic b(Lcom/google/android/material/sidesheet/SheetDialog;Landroid/view/View;)V
@@ -456,11 +471,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private ensureContainerAndBehavior()V
@@ -620,15 +630,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getContainer()Landroid/widget/FrameLayout;
@@ -668,7 +669,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private getSheet()Landroid/widget/FrameLayout;
@@ -708,7 +708,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private static getThemeResId(Landroid/content/Context;III)I
@@ -999,6 +998,22 @@
     .line 240
     .line 241
     .line 242
+    .line 243
+    .line 244
+    .line 245
+    .line 246
+    .line 247
+    .line 248
+    .line 249
+    .line 250
+    .line 251
+    .line 252
+    .line 253
+    .line 254
+    .line 255
+    .line 256
+    .line 257
+    .line 258
 .end method
 
 .method private maybeUpdateWindowAnimationsBasedOnLayoutDirection()V
@@ -1158,15 +1173,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private shouldWindowCloseOnTouchOutside()Z
@@ -1308,15 +1314,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private updateListeningForBackCallbacks()V
@@ -1363,7 +1360,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private wrapInSheet(ILandroid/view/View;Landroid/view/ViewGroup$LayoutParams;)Landroid/view/View;
@@ -1594,11 +1590,6 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 
@@ -1744,15 +1735,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getBehavior()Lcom/google/android/material/sidesheet/Sheet;
@@ -1800,7 +1782,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public abstract getBehaviorFromSheet(Landroid/widget/FrameLayout;)Lcom/google/android/material/sidesheet/Sheet;
@@ -1863,7 +1844,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onAttachedToWindow()V
@@ -1898,7 +1878,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -1954,7 +1933,6 @@
     :cond_0
     return-void
     .line 24
-    .line 25
 .end method
 
 .method public onDetachedFromWindow()V
@@ -1992,7 +1970,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public onStart()V
@@ -2122,15 +2099,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public setCancelable(Z)V
@@ -2179,7 +2147,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCanceledOnTouchOutside(Z)V
@@ -2227,7 +2194,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setContentView(I)V
@@ -2323,7 +2289,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setSheetEdge(I)V
@@ -2470,6 +2435,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

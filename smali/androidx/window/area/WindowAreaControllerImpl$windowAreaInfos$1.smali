@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/p;
+.implements Lq8/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/window/area/WindowAreaControllerImpl;->getWindowAreaInfos()Ljn/e;
+    value = Landroidx/window/area/WindowAreaControllerImpl;->getWindowAreaInfos()Lkotlinx/coroutines/flow/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,32 +19,17 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
-        "Ljm/p<",
-        "Lkotlinx/coroutines/channels/j<",
-        "-",
-        "Ljava/util/List<",
-        "+",
-        "Landroidx/window/area/WindowAreaInfo;",
-        ">;>;",
-        "Lul/c<",
-        "-",
-        "Ljl/e2;",
-        ">;",
-        "Ljava/lang/Object;",
-        ">;"
+        "Lq8/p;"
     }
 .end annotation
 
-.annotation runtime Lxl/d;
+.annotation runtime Lk8/d;
     c = "androidx.window.area.WindowAreaControllerImpl$windowAreaInfos$1"
     f = "WindowAreaControllerImpl.kt"
-    i = {}
     l = {
         0x5e
     }
     m = "invokeSuspend"
-    n = {}
-    s = {}
 .end annotation
 
 
@@ -57,95 +42,45 @@
 
 
 # direct methods
-.method public constructor <init>(Landroidx/window/area/WindowAreaControllerImpl;Lul/c;)V
+.method public constructor <init>(Landroidx/window/area/WindowAreaControllerImpl;Lkotlin/coroutines/e;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/window/area/WindowAreaControllerImpl;",
-            "Lul/c<",
-            "-",
-            "Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;",
-            ">;)V"
+            "Lkotlin/coroutines/e;",
+            ")V"
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->this$0:Landroidx/window/area/WindowAreaControllerImpl;
 
-    .line 2
-    .line 3
     const/4 p1, 0x2
 
-    .line 4
-    invoke-direct {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILul/c;)V
+    invoke-direct {p0, p1, p2}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/e;)V
 
-    .line 5
-    .line 6
-    .line 7
     return-void
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
 .end method
 
-.method public static synthetic f(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/j;Landroidx/window/extensions/area/ExtensionWindowAreaStatus;)V
+.method public static synthetic c(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/q;Landroidx/window/extensions/area/ExtensionWindowAreaStatus;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->invokeSuspend$lambda$1(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/j;Landroidx/window/extensions/area/ExtensionWindowAreaStatus;)V
+    invoke-static {p0, p1, p2}, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->invokeSuspend$lambda$1(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/q;Landroidx/window/extensions/area/ExtensionWindowAreaStatus;)V
 
     return-void
 .end method
 
-.method public static synthetic h(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/j;Ljava/lang/Integer;)V
+.method public static synthetic f(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/q;Ljava/lang/Integer;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->invokeSuspend$lambda$0(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/j;Ljava/lang/Integer;)V
+    invoke-static {p0, p1, p2}, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->invokeSuspend$lambda$0(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/q;Ljava/lang/Integer;)V
 
     return-void
 .end method
 
-.method private static final invokeSuspend$lambda$0(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/j;Ljava/lang/Integer;)V
+.method private static final invokeSuspend$lambda$0(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/q;Ljava/lang/Integer;)V
     .locals 1
 
     .line 1
@@ -153,7 +88,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -171,7 +106,7 @@
     .line 11
     .line 12
     .line 13
-    invoke-interface {p1}, Lkotlinx/coroutines/channels/j;->e()Lkotlinx/coroutines/channels/k;
+    invoke-interface {p1}, Lkotlinx/coroutines/channels/q;->o()Lkotlinx/coroutines/channels/s;
 
     .line 14
     .line 15
@@ -199,7 +134,7 @@
 
     .line 26
     .line 27
-    invoke-static {p0, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -208,7 +143,7 @@
 
     .line 31
     .line 32
-    invoke-static {p0}, Lll/r0;->a6(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {p0}, Lkotlin/collections/z;->f0(Ljava/lang/Iterable;)Ljava/util/List;
 
     .line 33
     .line 34
@@ -216,7 +151,7 @@
     move-result-object p0
 
     .line 36
-    invoke-interface {p1, p0}, Lkotlinx/coroutines/channels/k;->H(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lkotlinx/coroutines/channels/s;->z(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -296,9 +231,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method private static final invokeSuspend$lambda$1(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/j;Landroidx/window/extensions/area/ExtensionWindowAreaStatus;)V
+.method private static final invokeSuspend$lambda$1(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/q;Landroidx/window/extensions/area/ExtensionWindowAreaStatus;)V
     .locals 1
 
     .line 1
@@ -306,7 +244,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -316,7 +254,7 @@
     .line 7
     .line 8
     .line 9
-    invoke-interface {p1}, Lkotlinx/coroutines/channels/j;->e()Lkotlinx/coroutines/channels/k;
+    invoke-interface {p1}, Lkotlinx/coroutines/channels/q;->o()Lkotlinx/coroutines/channels/s;
 
     .line 10
     .line 11
@@ -344,7 +282,7 @@
 
     .line 22
     .line 23
-    invoke-static {p0, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -353,7 +291,7 @@
 
     .line 27
     .line 28
-    invoke-static {p0}, Lll/r0;->a6(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {p0}, Lkotlin/collections/z;->f0(Ljava/lang/Iterable;)Ljava/util/List;
 
     .line 29
     .line 30
@@ -361,7 +299,7 @@
     move-result-object p0
 
     .line 32
-    invoke-interface {p1, p0}, Lkotlinx/coroutines/channels/k;->H(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lkotlinx/coroutines/channels/s;->z(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -445,146 +383,71 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
 # virtual methods
-.method public final create(Ljava/lang/Object;Lul/c;)Lul/c;
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
     .locals 2
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/Object;",
-            "Lul/c<",
-            "*>;)",
-            "Lul/c<",
-            "Ljl/e2;",
-            ">;"
+            "Lkotlin/coroutines/e;",
+            ")",
+            "Lkotlin/coroutines/e;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
     new-instance v0, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;
 
-    .line 2
-    .line 3
     iget-object v1, p0, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->this$0:Landroidx/window/area/WindowAreaControllerImpl;
 
-    .line 4
-    .line 5
-    invoke-direct {v0, v1, p2}, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;-><init>(Landroidx/window/area/WindowAreaControllerImpl;Lul/c;)V
+    invoke-direct {v0, v1, p2}, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;-><init>(Landroidx/window/area/WindowAreaControllerImpl;Lkotlin/coroutines/e;)V
 
-    .line 6
-    .line 7
-    .line 8
     iput-object p1, v0, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->L$0:Ljava/lang/Object;
 
-    .line 9
-    .line 10
     return-object v0
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    check-cast p1, Lkotlinx/coroutines/channels/j;
+    check-cast p1, Lkotlinx/coroutines/channels/q;
 
-    check-cast p2, Lul/c;
+    check-cast p2, Lkotlin/coroutines/e;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->invoke(Lkotlinx/coroutines/channels/j;Lul/c;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->invoke(Lkotlinx/coroutines/channels/q;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(Lkotlinx/coroutines/channels/j;Lul/c;)Ljava/lang/Object;
+.method public final invoke(Lkotlinx/coroutines/channels/q;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 0
-    .param p1    # Lkotlinx/coroutines/channels/j;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/l;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkotlinx/coroutines/channels/j<",
-            "-",
-            "Ljava/util/List<",
-            "Landroidx/window/area/WindowAreaInfo;",
-            ">;>;",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;)",
+            "Lkotlinx/coroutines/channels/q;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
     .end annotation
 
-    .annotation build Lsq/l;
-    .end annotation
-
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->create(Ljava/lang/Object;Lul/c;)Lul/c;
+    invoke-virtual {p0, p1, p2}, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->create(Ljava/lang/Object;Lkotlin/coroutines/e;)Lkotlin/coroutines/e;
 
     move-result-object p1
 
     check-cast p1, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;
 
-    sget-object p2, Ljl/e2;->a:Ljl/e2;
+    sget-object p2, Lkotlin/j;->a:Lkotlin/j;
 
     invoke-virtual {p1, p2}, Landroidx/window/area/WindowAreaControllerImpl$windowAreaInfos$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -595,15 +458,9 @@
 
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 6
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/l;
-    .end annotation
 
     .line 1
-    invoke-static {}, Lwl/b;->l()Ljava/lang/Object;
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->e()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -626,7 +483,7 @@
 
     .line 11
     .line 12
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 13
     .line 14
@@ -652,7 +509,7 @@
 
     .line 24
     :cond_1
-    invoke-static {p1}, Lkotlin/f;->n(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/e;->b(Ljava/lang/Object;)V
 
     .line 25
     .line 26
@@ -661,7 +518,7 @@
 
     .line 28
     .line 29
-    check-cast p1, Lkotlinx/coroutines/channels/j;
+    check-cast p1, Lkotlinx/coroutines/channels/q;
 
     .line 30
     .line 31
@@ -669,11 +526,11 @@
 
     .line 32
     .line 33
-    new-instance v3, Landroidx/window/area/a;
+    new-instance v3, Landroidx/window/area/g;
 
     .line 34
     .line 35
-    invoke-direct {v3, v1, p1}, Landroidx/window/area/a;-><init>(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/j;)V
+    invoke-direct {v3, v1, p1}, Landroidx/window/area/g;-><init>(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/q;)V
 
     .line 36
     .line 37
@@ -682,11 +539,11 @@
 
     .line 39
     .line 40
-    new-instance v4, Landroidx/window/area/b;
+    new-instance v4, Landroidx/window/area/h;
 
     .line 41
     .line 42
-    invoke-direct {v4, v1, p1}, Landroidx/window/area/b;-><init>(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/j;)V
+    invoke-direct {v4, v1, p1}, Landroidx/window/area/h;-><init>(Landroidx/window/area/WindowAreaControllerImpl;Lkotlinx/coroutines/channels/q;)V
 
     .line 43
     .line 44
@@ -762,7 +619,7 @@
 
     .line 80
     .line 81
-    invoke-static {p1, v1, p0}, Lkotlinx/coroutines/channels/ProduceKt;->b(Lkotlinx/coroutines/channels/j;Ljm/a;Lul/c;)Ljava/lang/Object;
+    invoke-static {p1, v1, p0}, Lkotlinx/coroutines/channels/ProduceKt;->a(Lkotlinx/coroutines/channels/q;Lq8/a;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 82
     .line 83
@@ -779,7 +636,7 @@
     .line 88
     :cond_3
     :goto_0
-    sget-object p1, Ljl/e2;->a:Ljl/e2;
+    sget-object p1, Lkotlin/j;->a:Lkotlin/j;
 
     .line 89
     .line 90
@@ -932,4 +789,9 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

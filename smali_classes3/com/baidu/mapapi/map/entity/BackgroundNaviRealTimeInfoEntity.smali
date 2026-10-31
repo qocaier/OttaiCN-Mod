@@ -66,7 +66,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -99,7 +98,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getNaviScene()I
@@ -130,7 +128,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getNaviType()I
@@ -161,7 +158,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRotateAngle()I
@@ -192,7 +188,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getRouteAngle()I
@@ -223,7 +218,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStCurRouteProjectPosX()D
@@ -254,7 +248,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStCurRouteProjectPosY()D
@@ -285,7 +278,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStCurStartPosX()D
@@ -316,7 +308,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStCurStartPosY()D
@@ -347,7 +338,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStPosX()D
@@ -378,7 +368,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStPosY()D
@@ -409,7 +398,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getnCurRouteShapeIdx()I
@@ -440,7 +428,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isbGuide()Z
@@ -471,7 +458,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isbIsNearOrFarawayStatus()Z
@@ -502,7 +488,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isbMatchPosLinkIsUnverified()Z
@@ -533,7 +518,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isbRedLine()Z
@@ -564,7 +548,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setMapLevel(I)V
@@ -597,7 +580,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setNaviScene(I)V
@@ -630,7 +612,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setNaviType(I)V
@@ -663,7 +644,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRotateAngle(I)V
@@ -696,7 +676,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setRouteAngle(I)V
@@ -729,7 +708,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStCurRouteProjectPosX(D)V
@@ -762,7 +740,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStCurRouteProjectPosY(D)V
@@ -795,7 +772,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStCurStartPosX(D)V
@@ -828,7 +804,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStCurStartPosY(D)V
@@ -861,7 +836,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStPosX(D)V
@@ -894,7 +868,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStPosY(D)V
@@ -927,7 +900,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setbGuide(Z)V
@@ -960,7 +932,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setbIsNearOrFarawayStatus(Z)V
@@ -993,7 +964,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setbMatchPosLinkIsUnverified(Z)V
@@ -1026,7 +996,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setbRedLine(Z)V
@@ -1059,7 +1028,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setnCurRouteShapeIdx(I)V
@@ -1092,5 +1060,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

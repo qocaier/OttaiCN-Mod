@@ -38,6 +38,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic a(Lcom/qiyukf/d80;Lcom/qiyukf/s4;)Lcom/qiyukf/s4;
@@ -275,6 +277,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public d()Z
@@ -391,4 +395,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

@@ -130,6 +130,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -160,6 +161,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getAesVersion()Lcom/qiyukf/module/zip4j/model/enums/AesVersion;
@@ -188,6 +191,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getCompressionMethod()Lcom/qiyukf/module/zip4j/model/enums/CompressionMethod;
@@ -216,6 +221,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getDataSize()I
@@ -244,6 +251,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getVendorID()Ljava/lang/String;
@@ -272,6 +281,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAesKeyStrength(Lcom/qiyukf/module/zip4j/model/enums/AesKeyStrength;)V
@@ -305,6 +316,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setAesVersion(Lcom/qiyukf/module/zip4j/model/enums/AesVersion;)V
@@ -338,6 +351,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setCompressionMethod(Lcom/qiyukf/module/zip4j/model/enums/CompressionMethod;)V
@@ -371,6 +386,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setDataSize(I)V
@@ -404,6 +421,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setVendorID(Ljava/lang/String;)V
@@ -437,4 +456,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

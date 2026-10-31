@@ -16,9 +16,6 @@
 
 # instance fields
 .field public final a:Ljava/lang/String;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public final synthetic b:Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;
 
@@ -26,24 +23,13 @@
 # direct methods
 .method public constructor <init>(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Ljava/lang/String;)V
     .locals 1
-    .param p1    # Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "(",
-            "Ljava/lang/String;",
-            ")V"
-        }
-    .end annotation
 
     .line 1
     const-string v0, "javaScriptChannelName"
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -103,18 +89,28 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic a(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity$a;->c(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity$a;->b(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public static final c(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Ljava/lang/String;)V
+.method public static final b(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Ljava/lang/String;)V
     .locals 0
 
     .line 1
@@ -174,46 +170,22 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 
 # virtual methods
-.method public final b()Ljava/lang/String;
-    .locals 1
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
-    iget-object v0, p0, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity$a;->a:Ljava/lang/String;
-
-    .line 2
-    .line 3
-    return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-.end method
-
 .method public final postMessage(Ljava/lang/String;)V
     .locals 3
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation runtime Landroid/webkit/JavascriptInterface;
     .end annotation
 
@@ -222,7 +194,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -231,7 +203,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->K()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->I()Ljava/lang/String;
 
     .line 9
     .line 10
@@ -279,11 +251,11 @@
 
     .line 33
     .line 34
-    new-instance v1, Lwf/g;
+    new-instance v1, Lcom/ottai/cn/flu_native_webview/g;
 
     .line 35
     .line 36
-    invoke-direct {v1, v0, p1}, Lwf/g;-><init>(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Ljava/lang/String;)V
+    invoke-direct {v1, v0, p1}, Lcom/ottai/cn/flu_native_webview/g;-><init>(Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -336,4 +308,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

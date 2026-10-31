@@ -13,25 +13,16 @@
 
 # static fields
 .field public static final Companion:Landroidx/activity/SystemBarStyle$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # instance fields
 .field private final darkScrim:I
 
-.field private final detectDarkMode:Ljm/l;
+.field private final detectDarkMode:Lq8/l;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Ljm/l<",
-            "Landroid/content/res/Resources;",
-            "Ljava/lang/Boolean;",
-            ">;"
+            "Lq8/l;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end field
 
@@ -48,23 +39,20 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/activity/SystemBarStyle$Companion;-><init>(Lkm/v;)V
+    invoke-direct {v0, v1}, Landroidx/activity/SystemBarStyle$Companion;-><init>(Lkotlin/jvm/internal/f;)V
 
     sput-object v0, Landroidx/activity/SystemBarStyle;->Companion:Landroidx/activity/SystemBarStyle$Companion;
 
     return-void
 .end method
 
-.method private constructor <init>(IIILjm/l;)V
+.method private constructor <init>(IIILq8/l;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(III",
-            "Ljm/l<",
-            "-",
-            "Landroid/content/res/Resources;",
-            "Ljava/lang/Boolean;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -81,16 +69,16 @@
     iput p3, p0, Landroidx/activity/SystemBarStyle;->nightMode:I
 
     .line 6
-    iput-object p4, p0, Landroidx/activity/SystemBarStyle;->detectDarkMode:Ljm/l;
+    iput-object p4, p0, Landroidx/activity/SystemBarStyle;->detectDarkMode:Lq8/l;
 
     return-void
 .end method
 
-.method public synthetic constructor <init>(IIILjm/l;Lkm/v;)V
+.method public synthetic constructor <init>(IIILq8/l;Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/activity/SystemBarStyle;-><init>(IIILjm/l;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/activity/SystemBarStyle;-><init>(IIILq8/l;)V
 
     return-void
 .end method
@@ -105,14 +93,6 @@
         .annotation build Landroidx/annotation/ColorInt;
         .end annotation
     .end param
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/activity/SystemBarStyle;->Companion:Landroidx/activity/SystemBarStyle$Companion;
@@ -124,7 +104,7 @@
     return-object p0
 .end method
 
-.method public static final auto(IILjm/l;)Landroidx/activity/SystemBarStyle;
+.method public static final auto(IILq8/l;)Landroidx/activity/SystemBarStyle;
     .locals 1
     .param p0    # I
         .annotation build Landroidx/annotation/ColorInt;
@@ -134,35 +114,19 @@
         .annotation build Landroidx/annotation/ColorInt;
         .end annotation
     .end param
-    .param p2    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(II",
-            "Ljm/l<",
-            "-",
-            "Landroid/content/res/Resources;",
-            "Ljava/lang/Boolean;",
-            ">;)",
+            "Lq8/l;",
+            ")",
             "Landroidx/activity/SystemBarStyle;"
         }
-    .end annotation
-
-    .annotation build Lim/k;
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 2
     sget-object v0, Landroidx/activity/SystemBarStyle;->Companion:Landroidx/activity/SystemBarStyle$Companion;
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/activity/SystemBarStyle$Companion;->auto(IILjm/l;)Landroidx/activity/SystemBarStyle;
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/activity/SystemBarStyle$Companion;->auto(IILq8/l;)Landroidx/activity/SystemBarStyle;
 
     move-result-object p0
 
@@ -175,11 +139,6 @@
         .annotation build Landroidx/annotation/ColorInt;
         .end annotation
     .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     sget-object v0, Landroidx/activity/SystemBarStyle;->Companion:Landroidx/activity/SystemBarStyle$Companion;
 
@@ -200,11 +159,6 @@
         .annotation build Landroidx/annotation/ColorInt;
         .end annotation
     .end param
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     sget-object v0, Landroidx/activity/SystemBarStyle;->Companion:Landroidx/activity/SystemBarStyle$Companion;
 
@@ -243,25 +197,20 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public final getDetectDarkMode$activity_release()Ljm/l;
+.method public final getDetectDarkMode$activity_release()Lq8/l;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Ljm/l<",
-            "Landroid/content/res/Resources;",
-            "Ljava/lang/Boolean;",
-            ">;"
+            "Lq8/l;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
-    iget-object v0, p0, Landroidx/activity/SystemBarStyle;->detectDarkMode:Ljm/l;
+    iget-object v0, p0, Landroidx/activity/SystemBarStyle;->detectDarkMode:Lq8/l;
 
     .line 2
     .line 3
@@ -283,6 +232,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getNightMode$activity_release()I
@@ -311,6 +261,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getScrim$activity_release(Z)I

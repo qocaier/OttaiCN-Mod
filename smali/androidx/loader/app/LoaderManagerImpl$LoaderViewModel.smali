@@ -63,6 +63,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -101,6 +102,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getInstance(Landroidx/lifecycle/ViewModelStore;)Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;
@@ -464,6 +466,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public finishCreatingLoader()V
@@ -494,6 +502,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getLoader(I)Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;
@@ -669,6 +678,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isCreatingLoader()Z
@@ -697,6 +708,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public markForRedelivery()V
@@ -813,6 +825,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public onCleared()V
@@ -937,6 +951,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public putLoader(ILandroidx/loader/app/LoaderManagerImpl$LoaderInfo;)V
@@ -1064,4 +1080,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

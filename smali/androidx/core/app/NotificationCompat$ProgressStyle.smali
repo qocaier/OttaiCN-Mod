@@ -183,6 +183,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static asIconCompat(Landroid/os/Parcelable;)Landroidx/core/graphics/drawable/IconCompat;
@@ -297,6 +299,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getProgressPointsAsBundleList(Ljava/util/List;)Ljava/util/ArrayList;
@@ -464,6 +467,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getProgressPointsFromBundleList(Ljava/util/List;)Ljava/util/List;
@@ -631,6 +635,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getProgressSegmentsAsBundleList(Ljava/util/List;)Ljava/util/ArrayList;
@@ -798,6 +803,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getProgressSegmentsFromBundleList(Ljava/util/List;)Ljava/util/List;
@@ -965,6 +971,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -1338,6 +1345,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public addProgressPoint(Landroidx/core/app/NotificationCompat$ProgressStyle$Point;)Landroidx/core/app/NotificationCompat$ProgressStyle;
@@ -1506,7 +1518,7 @@
 
     .line 24
     :goto_0
-    invoke-static {}, Lp0/o;->a()Landroid/app/Notification$ProgressStyle;
+    invoke-static {}, Landroidx/core/app/q;->a()Landroid/app/Notification$ProgressStyle;
 
     .line 25
     .line 26
@@ -1807,6 +1819,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public clearCompatExtraKeys(Landroid/os/Bundle;)V
@@ -1930,6 +1947,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public displayCustomViewInline()Z
@@ -1976,6 +1994,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getProgress()I
@@ -2007,6 +2026,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getProgressEndIcon()Landroidx/core/graphics/drawable/IconCompat;
@@ -2035,6 +2055,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getProgressMax()I
@@ -2198,6 +2219,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getProgressPoints()Ljava/util/List;
@@ -2234,6 +2257,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getProgressSegments()Ljava/util/List;
@@ -2270,6 +2294,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getProgressStartIcon()Landroidx/core/graphics/drawable/IconCompat;
@@ -2298,6 +2323,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getProgressTrackerIcon()Landroidx/core/graphics/drawable/IconCompat;
@@ -2326,6 +2352,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isProgressIndeterminate()Z
@@ -2354,6 +2381,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isStyledByProgress()Z
@@ -2382,6 +2410,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public restoreFromCompatExtras(Landroid/os/Bundle;)V
@@ -2731,6 +2760,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setProgress(I)Landroidx/core/app/NotificationCompat$ProgressStyle;
@@ -2965,6 +2999,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setProgressSegments(Ljava/util/List;)Landroidx/core/app/NotificationCompat$ProgressStyle;
@@ -3095,6 +3130,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setProgressStartIcon(Landroidx/core/graphics/drawable/IconCompat;)Landroidx/core/app/NotificationCompat$ProgressStyle;

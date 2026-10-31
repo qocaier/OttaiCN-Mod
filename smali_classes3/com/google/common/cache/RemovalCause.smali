@@ -12,12 +12,6 @@
     }
 .end annotation
 
-.annotation build Lfb/b;
-.end annotation
-
-.annotation runtime Lib/e;
-.end annotation
-
 
 # static fields
 .field public static final enum COLLECTED:Lcom/google/common/cache/RemovalCause;
@@ -204,35 +198,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public constructor <init>(Ljava/lang/String;I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x1000,
-            0x1000
-        }
-        names = {
-            "$enum$name",
-            "$enum$ordinal"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()V"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
@@ -251,14 +220,6 @@
 
 .method public static valueOf(Ljava/lang/String;)Lcom/google/common/cache/RemovalCause;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8000
-        }
-        names = {
-            "name"
-        }
-    .end annotation
 
     .line 1
     const-class v0, Lcom/google/common/cache/RemovalCause;
@@ -293,7 +254,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static values()[Lcom/google/common/cache/RemovalCause;
@@ -330,7 +290,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 

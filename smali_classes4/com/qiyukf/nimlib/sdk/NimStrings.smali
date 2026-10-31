@@ -69,6 +69,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public constructor <init>()V
@@ -176,16 +178,16 @@
 
     .line 51
     .line 52
-    const-string v0, "\u4f60\u6536\u5230\u4e00\u6761\u65b0\u6d88\u606f"
+    const-string/jumbo v0, "\u4f60\u6536\u5230\u4e00\u6761\u65b0\u6d88\u606f"
 
     .line 53
     .line 54
+    .line 55
     iput-object v0, p0, Lcom/qiyukf/nimlib/sdk/NimStrings;->status_bar_hidden_message_content:Ljava/lang/String;
 
-    .line 55
     .line 56
-    return-void
     .line 57
+    return-void
     .line 58
     .line 59
     .line 60
@@ -213,4 +215,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

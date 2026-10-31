@@ -20,9 +20,6 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/activity/OnBackPressedDispatcher$Api33Impl;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -64,18 +61,19 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
-.method public static synthetic a(Ljm/a;)V
+.method public static synthetic a(Lq8/a;)V
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;->createOnBackInvokedCallback$lambda$0(Ljm/a;)V
+    invoke-static {p0}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;->createOnBackInvokedCallback$lambda$0(Lq8/a;)V
 
     return-void
 .end method
 
-.method private static final createOnBackInvokedCallback$lambda$0(Ljm/a;)V
+.method private static final createOnBackInvokedCallback$lambda$0(Lq8/a;)V
     .locals 1
 
     .line 1
@@ -83,12 +81,12 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0}, Ljm/a;->invoke()Ljava/lang/Object;
+    invoke-interface {p0}, Lq8/a;->invoke()Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -114,26 +112,18 @@
 
 
 # virtual methods
-.method public final createOnBackInvokedCallback(Ljm/a;)Landroid/window/OnBackInvokedCallback;
+.method public final createOnBackInvokedCallback(Lq8/a;)Landroid/window/OnBackInvokedCallback;
     .locals 1
-    .param p1    # Ljm/a;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Ljm/a<",
-            "Ljl/e2;",
-            ">;)",
+            "Lq8/a;",
+            ")",
             "Landroid/window/OnBackInvokedCallback;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -141,16 +131,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    new-instance v0, Ld/o;
+    new-instance v0, Landroidx/activity/s;
 
     .line 7
     .line 8
-    invoke-direct {v0, p1}, Ld/o;-><init>(Ljm/a;)V
+    invoke-direct {v0, p1}, Landroidx/activity/s;-><init>(Lq8/a;)V
 
     .line 9
     .line 10
@@ -174,14 +164,6 @@
 
 .method public final registerOnBackInvokedCallback(Ljava/lang/Object;ILjava/lang/Object;)V
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
@@ -190,7 +172,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -199,7 +181,7 @@
 
     .line 7
     .line 8
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -313,18 +295,13 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public final unregisterOnBackInvokedCallback(Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
-    .param p1    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/lang/Object;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/DoNotInline;
     .end annotation
 
@@ -333,7 +310,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -342,7 +319,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10

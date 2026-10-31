@@ -10,12 +10,8 @@
 
 
 # direct methods
-.method public static final asOutcomeReceiver(Lul/c;)Landroid/os/OutcomeReceiver;
+.method public static final asOutcomeReceiver(Lkotlin/coroutines/e;)Landroid/os/OutcomeReceiver;
     .locals 1
-    .param p0    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1f
     .end annotation
@@ -27,13 +23,10 @@
             "E:",
             "Ljava/lang/Throwable;",
             ">(",
-            "Lul/c<",
-            "-TR;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Landroid/os/OutcomeReceiver;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -41,12 +34,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/os/ContinuationOutcomeReceiver;-><init>(Lul/c;)V
+    invoke-direct {v0, p0}, Landroidx/core/os/ContinuationOutcomeReceiver;-><init>(Lkotlin/coroutines/e;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {v0}, Lx0/b;->a(Ljava/lang/Object;)Landroid/os/OutcomeReceiver;
+    invoke-static {v0}, Landroidx/core/os/b;->a(Ljava/lang/Object;)Landroid/os/OutcomeReceiver;
 
     .line 7
     .line 8

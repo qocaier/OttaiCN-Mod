@@ -24,7 +24,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lkm/v;)V
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/f;)V
     .locals 0
 
     .line 1
@@ -44,9 +44,6 @@
             "Ljava/lang/String;",
             ">;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -74,12 +71,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final getActiveFilesLock$datastore_core_release()Ljava/lang/Object;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-static {}, Landroidx/datastore/core/FileStorage;->access$getActiveFilesLock$cp()Ljava/lang/Object;
@@ -106,4 +102,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

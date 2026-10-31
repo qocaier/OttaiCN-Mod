@@ -359,6 +359,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private getSessionConfigs(Landroidx/camera/core/impl/UseCaseAttachState$AttachStateFilter;)Ljava/util/Collection;
@@ -511,6 +514,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private getUseCaseConfigs(Landroidx/camera/core/impl/UseCaseAttachState$AttachStateFilter;)Ljava/util/Collection;
@@ -663,6 +667,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -1144,6 +1149,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public getActiveAndAttachedSessionConfigs()Ljava/util/Collection;
@@ -1161,11 +1218,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Landroidx/camera/core/impl/f;
+    new-instance v0, Landroidx/camera/core/impl/y;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/camera/core/impl/f;-><init>()V
+    invoke-direct {v0}, Landroidx/camera/core/impl/y;-><init>()V
 
     .line 4
     .line 5
@@ -1193,6 +1250,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAttachedBuilder()Landroidx/camera/core/impl/SessionConfig$ValidatingBuilder;
@@ -1666,6 +1724,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public getAttachedSessionConfigs()Ljava/util/Collection;
@@ -1683,11 +1793,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Landroidx/camera/core/impl/d;
+    new-instance v0, Landroidx/camera/core/impl/w;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/camera/core/impl/d;-><init>()V
+    invoke-direct {v0}, Landroidx/camera/core/impl/w;-><init>()V
 
     .line 4
     .line 5
@@ -1715,6 +1825,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getAttachedUseCaseConfigs()Ljava/util/Collection;
@@ -1732,11 +1843,11 @@
     .end annotation
 
     .line 1
-    new-instance v0, Landroidx/camera/core/impl/e;
+    new-instance v0, Landroidx/camera/core/impl/x;
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/camera/core/impl/e;-><init>()V
+    invoke-direct {v0}, Landroidx/camera/core/impl/x;-><init>()V
 
     .line 4
     .line 5
@@ -1764,6 +1875,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isUseCaseAttached(Ljava/lang/String;)Z
@@ -2011,6 +2123,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public setUseCaseAttached(Ljava/lang/String;Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/UseCaseConfig;)V
@@ -2159,6 +2274,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public setUseCaseDetached(Ljava/lang/String;)V
@@ -2282,6 +2400,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setUseCaseInactive(Ljava/lang/String;)V
@@ -2405,6 +2524,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public updateUseCase(Ljava/lang/String;Landroidx/camera/core/impl/SessionConfig;Landroidx/camera/core/impl/UseCaseConfig;)V
@@ -2584,4 +2704,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

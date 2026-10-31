@@ -122,6 +122,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -160,6 +162,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getEntranceSetting()Ljava/util/List;
@@ -196,6 +200,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getFromType()Ljava/lang/String;
@@ -224,6 +230,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNavButtonSettingBean()Lcom/qiyukf/unicorn/protocol/attach/notification/RunUIConfigNotifyAttachment$NavButtonSettingBean;
@@ -252,6 +260,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNotice()Ljava/lang/String;
@@ -280,6 +290,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNoticeClickHref()Ljava/lang/String;
@@ -308,6 +320,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getNoticeClickSwitch()I
@@ -336,6 +350,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getSessionid()J
@@ -364,6 +380,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getTemplateId()I
@@ -392,6 +410,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isEinsteinStaffStatus()Z
@@ -420,6 +440,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setActionSetting(Ljava/util/List;)V
@@ -461,6 +483,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEinsteinStaffStatus(Z)V
@@ -494,6 +518,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setEntranceSetting(Ljava/util/List;)V
@@ -535,6 +561,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setFromType(Ljava/lang/String;)V
@@ -568,6 +596,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNotice(Ljava/lang/String;)V
@@ -601,6 +631,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNoticeClickHref(Ljava/lang/String;)V
@@ -634,6 +666,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNoticeClickSwitch(I)V
@@ -667,6 +701,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setSessionid(J)V
@@ -700,6 +736,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setTemplateId(I)V
@@ -733,4 +771,6 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method

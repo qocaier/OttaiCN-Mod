@@ -184,7 +184,7 @@
 
     move-result-object p1
 
-    const-string v1, "yyyyMMdd"
+    const-string/jumbo v1, "yyyyMMdd"
 
     invoke-direct {p0, v1, p1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
 
@@ -283,4 +283,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

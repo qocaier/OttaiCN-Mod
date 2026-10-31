@@ -3,44 +3,22 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nParcel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Parcel.kt\nandroidx/core/os/ParcelKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,37:1\n1#2:38\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nParcel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Parcel.kt\nandroidx/core/os/ParcelKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,37:1\n1#2:38\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
-.method public static final use(Landroid/os/Parcel;Ljm/l;)Ljava/lang/Object;
+.method public static final use(Landroid/os/Parcel;Lq8/l;)Ljava/lang/Object;
     .locals 0
-    .param p0    # Landroid/os/Parcel;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
             "Landroid/os/Parcel;",
-            "Ljm/l<",
-            "-",
-            "Landroid/os/Parcel;",
-            "+TT;>;)TT;"
+            "Lq8/l;",
+            ")TT;"
         }
     .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3

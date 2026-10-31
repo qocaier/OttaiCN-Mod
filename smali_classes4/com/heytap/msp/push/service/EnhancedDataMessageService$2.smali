@@ -51,7 +51,7 @@
 
     iget-object v2, p0, Lcom/heytap/msp/push/service/EnhancedDataMessageService$2;->b:Lcom/heytap/msp/push/service/EnhancedDataMessageService;
 
-    invoke-static {v0, v1, v2}, Lsd/e;->b(Landroid/content/Context;Landroid/content/Intent;Lcom/heytap/msp/push/callback/IEnhancedDataMessageCallbackService;)V
+    invoke-static {v0, v1, v2}, Ld5/c;->b(Landroid/content/Context;Landroid/content/Intent;Lcom/heytap/msp/push/callback/IEnhancedDataMessageCallbackService;)V
 
     return-void
 .end method

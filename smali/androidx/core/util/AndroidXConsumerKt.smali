@@ -4,25 +4,18 @@
 
 
 # direct methods
-.method public static final asAndroidXConsumer(Lul/c;)Landroidx/core/util/Consumer;
+.method public static final asAndroidXConsumer(Lkotlin/coroutines/e;)Landroidx/core/util/Consumer;
     .locals 1
-    .param p0    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
             "Ljava/lang/Object;",
             ">(",
-            "Lul/c<",
-            "-TT;>;)",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Landroidx/core/util/Consumer<",
             "TT;>;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -30,7 +23,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/util/AndroidXContinuationConsumer;-><init>(Lul/c;)V
+    invoke-direct {v0, p0}, Landroidx/core/util/AndroidXContinuationConsumer;-><init>(Lkotlin/coroutines/e;)V
 
     .line 4
     .line 5

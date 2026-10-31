@@ -44,15 +44,14 @@
     .end annotation
 .end method
 
-.method public abstract fetchData()Lub/u0;
+.method public abstract fetchData()Lcom/google/common/util/concurrent/t;
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lub/u0<",
-            "TT;>;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 .end method

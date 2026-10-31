@@ -204,6 +204,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private initializeTheme()V
@@ -339,6 +341,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static isEmptyConfiguration(Landroid/content/res/Configuration;)Z
@@ -519,6 +523,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public attachBaseContext(Landroid/content/Context;)V
@@ -586,6 +591,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getResources()Landroid/content/res/Resources;
@@ -616,6 +622,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -740,6 +747,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public getTheme()Landroid/content/res/Resources$Theme;
@@ -786,6 +794,7 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
 .end method
 
 .method public getThemeResId()I
@@ -814,6 +823,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public onApplyThemeResource(Landroid/content/res/Resources$Theme;IZ)V
@@ -937,6 +947,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public setTheme(I)V

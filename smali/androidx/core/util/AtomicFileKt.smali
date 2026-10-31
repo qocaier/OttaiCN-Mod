@@ -3,27 +3,9 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nAtomicFile.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AtomicFile.kt\nandroidx/core/util/AtomicFileKt\n*L\n1#1,72:1\n30#1,13:73\n*S KotlinDebug\n*F\n+ 1 AtomicFile.kt\nandroidx/core/util/AtomicFileKt\n*L\n46#1:73,13\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nAtomicFile.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AtomicFile.kt\nandroidx/core/util/AtomicFileKt\n*L\n1#1,72:1\n30#1,13:73\n*S KotlinDebug\n*F\n+ 1 AtomicFile.kt\nandroidx/core/util/AtomicFileKt\n*L\n46#1:73,13\n*E\n"
-    }
-.end annotation
-
-
 # direct methods
 .method public static final readBytes(Landroid/util/AtomicFile;)[B
     .locals 0
-    .param p0    # Landroid/util/AtomicFile;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Landroid/util/AtomicFile;->readFully()[B
@@ -59,16 +41,6 @@
 
 .method public static final readText(Landroid/util/AtomicFile;Ljava/nio/charset/Charset;)Ljava/lang/String;
     .locals 1
-    .param p0    # Landroid/util/AtomicFile;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/nio/charset/Charset;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/lang/String;
@@ -141,7 +113,7 @@
 
     .line 4
     .line 5
-    sget-object p1, Lym/d;->b:Ljava/nio/charset/Charset;
+    sget-object p1, Lkotlin/text/d;->b:Ljava/nio/charset/Charset;
 
     .line 6
     .line 7
@@ -374,27 +346,22 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
-.method public static final tryWrite(Landroid/util/AtomicFile;Ljm/l;)V
+.method public static final tryWrite(Landroid/util/AtomicFile;Lq8/l;)V
     .locals 2
-    .param p0    # Landroid/util/AtomicFile;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/l;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/util/AtomicFile;",
-            "Ljm/l<",
-            "-",
-            "Ljava/io/FileOutputStream;",
-            "Ljl/e2;",
-            ">;)V"
+            "Lq8/l;",
+            ")V"
         }
     .end annotation
 
@@ -411,14 +378,14 @@
 
     .line 6
     :try_start_0
-    invoke-interface {p1, v0}, Ljm/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lq8/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 7
     .line 8
     .line 9
-    invoke-static {v1}, Lkm/d0;->d(I)V
+    invoke-static {v1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 10
     .line 11
@@ -428,7 +395,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {v1}, Lkm/d0;->c(I)V
+    invoke-static {v1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 16
     .line 17
@@ -440,7 +407,7 @@
     move-exception p1
 
     .line 20
-    invoke-static {v1}, Lkm/d0;->d(I)V
+    invoke-static {v1}, Lkotlin/jvm/internal/i;->b(I)V
 
     .line 21
     .line 22
@@ -450,7 +417,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {v1}, Lkm/d0;->c(I)V
+    invoke-static {v1}, Lkotlin/jvm/internal/i;->a(I)V
 
     .line 27
     .line 28
@@ -479,14 +446,6 @@
 
 .method public static final writeBytes(Landroid/util/AtomicFile;[B)V
     .locals 1
-    .param p0    # Landroid/util/AtomicFile;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # [B
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p0}, Landroid/util/AtomicFile;->startWrite()Ljava/io/FileOutputStream;
@@ -559,18 +518,6 @@
 
 .method public static final writeText(Landroid/util/AtomicFile;Ljava/lang/String;Ljava/nio/charset/Charset;)V
     .locals 0
-    .param p0    # Landroid/util/AtomicFile;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Ljava/nio/charset/Charset;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     .line 1
     invoke-virtual {p1, p2}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
@@ -585,7 +532,7 @@
 
     .line 6
     .line 7
-    invoke-static {p1, p2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -696,6 +643,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static synthetic writeText$default(Landroid/util/AtomicFile;Ljava/lang/String;Ljava/nio/charset/Charset;ILjava/lang/Object;)V
@@ -710,7 +660,7 @@
 
     .line 4
     .line 5
-    sget-object p2, Lym/d;->b:Ljava/nio/charset/Charset;
+    sget-object p2, Lkotlin/text/d;->b:Ljava/nio/charset/Charset;
 
     .line 6
     .line 7

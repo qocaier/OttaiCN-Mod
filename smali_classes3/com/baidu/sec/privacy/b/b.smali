@@ -182,7 +182,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static c()Lcom/baidu/sec/privacy/c;
@@ -213,7 +212,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static d()Z
@@ -244,5 +242,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

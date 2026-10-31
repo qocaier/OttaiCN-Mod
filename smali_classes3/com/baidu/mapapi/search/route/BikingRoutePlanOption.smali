@@ -68,7 +68,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -103,7 +102,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getWayPoints()Ljava/util/List;
@@ -142,7 +140,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public passBy(Ljava/util/List;)Lcom/baidu/mapapi/search/route/BikingRoutePlanOption;
@@ -184,7 +181,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public ridingType(I)Lcom/baidu/mapapi/search/route/BikingRoutePlanOption;
@@ -217,7 +213,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public roadPrefer(Ljava/lang/String;)Lcom/baidu/mapapi/search/route/BikingRoutePlanOption;
@@ -250,7 +245,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public to(Lcom/baidu/mapapi/search/route/PlanNode;)Lcom/baidu/mapapi/search/route/BikingRoutePlanOption;
@@ -283,5 +277,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

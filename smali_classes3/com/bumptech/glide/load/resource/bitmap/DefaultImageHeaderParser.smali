@@ -18,59 +18,9 @@
 
 
 # static fields
-.field public static final A:I = 0x61766966
+.field public static final a:[B
 
-.field public static final B:I = 0x61766973
-
-.field public static final b:Ljava/lang/String; = "DfltImageHeaderParser"
-
-.field public static final c:I = 0x474946
-
-.field public static final d:I = -0x76afb1b9
-
-.field public static final e:I = 0xffd8
-
-.field public static final f:I = 0x4d4d
-
-.field public static final g:I = 0x4949
-
-.field public static final h:Ljava/lang/String; = "Exif\u0000\u0000"
-
-.field public static final i:[B
-
-.field public static final j:I = 0xda
-
-.field public static final k:I = 0xd9
-
-.field public static final l:I = 0xff
-
-.field public static final m:I = 0xe1
-
-.field public static final n:I = 0x112
-
-.field public static final o:[I
-
-.field public static final p:I = 0x52494646
-
-.field public static final q:I = 0x57454250
-
-.field public static final r:I = 0x56503800
-
-.field public static final s:I = -0x100
-
-.field public static final t:I = 0xff
-
-.field public static final u:I = 0x58
-
-.field public static final v:I = 0x4c
-
-.field public static final w:I = 0x2
-
-.field public static final x:I = 0x10
-
-.field public static final y:I = 0x8
-
-.field public static final z:I = 0x66747970
+.field public static final b:[I
 
 
 # direct methods
@@ -102,7 +52,7 @@
     move-result-object v0
 
     .line 13
-    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->i:[B
+    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->a:[B
 
     .line 14
     .line 15
@@ -119,7 +69,7 @@
     .line 20
     .line 21
     .line 22
-    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->o:[I
+    sput-object v0, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->b:[I
 
     .line 23
     .line 24
@@ -217,15 +167,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public constructor <init>()V
@@ -256,7 +197,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static e(II)I
@@ -642,7 +582,7 @@
     .line 167
     .line 168
     :cond_6
-    sget-object v9, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->o:[I
+    sget-object v9, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->b:[I
 
     .line 169
     .line 170
@@ -1039,32 +979,51 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 
 # virtual methods
-.method public a(Ljava/io/InputStream;Le6/b;)I
+.method public a(Ljava/nio/ByteBuffer;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
     .locals 1
-    .param p1    # Ljava/io/InputStream;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Le6/b;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
-    new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$c;
+    new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$a;
 
     .line 2
     .line 3
-    invoke-static {p1}, Ly6/l;->d(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lz0/j;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1072,16 +1031,16 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Ljava/io/InputStream;
+    check-cast p1, Ljava/nio/ByteBuffer;
 
     .line 8
     .line 9
-    invoke-direct {v0, p1}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$c;-><init>(Ljava/io/InputStream;)V
+    invoke-direct {v0, p1}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$a;-><init>(Ljava/nio/ByteBuffer;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-static {p2}, Ly6/l;->d(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->g(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 13
     .line 14
@@ -1089,11 +1048,55 @@
     move-result-object p1
 
     .line 16
-    check-cast p1, Le6/b;
+    return-object p1
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+.end method
+
+.method public b(Ljava/nio/ByteBuffer;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)I
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$a;
+
+    .line 2
+    .line 3
+    invoke-static {p1}, Lz0/j;->d(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    check-cast p1, Ljava/nio/ByteBuffer;
+
+    .line 8
+    .line 9
+    invoke-direct {v0, p1}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$a;-><init>(Ljava/nio/ByteBuffer;)V
+
+    .line 10
+    .line 11
+    .line 12
+    invoke-static {p2}, Lz0/j;->d(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object p1
+
+    .line 16
+    check-cast p1, Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->f(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;Le6/b;)I
+    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->f(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)I
 
     .line 19
     .line 20
@@ -1140,91 +1143,17 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-.end method
-
-.method public b(Ljava/nio/ByteBuffer;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
-    .locals 1
-    .param p1    # Ljava/nio/ByteBuffer;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
-
-    .line 1
-    new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$a;
-
-    .line 2
-    .line 3
-    invoke-static {p1}, Ly6/l;->d(Ljava/lang/Object;)Ljava/lang/Object;
-
-    .line 4
-    .line 5
-    .line 6
-    move-result-object p1
-
-    .line 7
-    check-cast p1, Ljava/nio/ByteBuffer;
-
-    .line 8
-    .line 9
-    invoke-direct {v0, p1}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$a;-><init>(Ljava/nio/ByteBuffer;)V
-
-    .line 10
-    .line 11
-    .line 12
-    invoke-virtual {p0, v0}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->g(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
-
-    .line 13
-    .line 14
-    .line 15
-    move-result-object p1
-
-    .line 16
-    return-object p1
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
 .method public c(Ljava/io/InputStream;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
     .locals 1
-    .param p1    # Ljava/io/InputStream;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$c;
 
     .line 2
     .line 3
-    invoke-static {p1}, Ly6/l;->d(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lz0/j;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1258,31 +1187,17 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
-.method public d(Ljava/nio/ByteBuffer;Le6/b;)I
+.method public d(Ljava/io/InputStream;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)I
     .locals 1
-    .param p1    # Ljava/nio/ByteBuffer;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .param p2    # Le6/b;
-        .annotation build Landroidx/annotation/NonNull;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
-    new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$a;
+    new-instance v0, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$c;
 
     .line 2
     .line 3
-    invoke-static {p1}, Ly6/l;->d(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lz0/j;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1290,16 +1205,16 @@
     move-result-object p1
 
     .line 7
-    check-cast p1, Ljava/nio/ByteBuffer;
+    check-cast p1, Ljava/io/InputStream;
 
     .line 8
     .line 9
-    invoke-direct {v0, p1}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$a;-><init>(Ljava/nio/ByteBuffer;)V
+    invoke-direct {v0, p1}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$c;-><init>(Ljava/io/InputStream;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-static {p2}, Ly6/l;->d(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Lz0/j;->d(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -1307,11 +1222,11 @@
     move-result-object p1
 
     .line 16
-    check-cast p1, Le6/b;
+    check-cast p1, Lcom/bumptech/glide/load/engine/bitmap_recycle/b;
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->f(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;Le6/b;)I
+    invoke-virtual {p0, v0, p1}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->f(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)I
 
     .line 19
     .line 20
@@ -1358,20 +1273,10 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
-.method public final f(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;Le6/b;)I
+.method public final f(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;Lcom/bumptech/glide/load/engine/bitmap_recycle/b;)I
     .locals 5
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     const/4 v0, -0x1
@@ -1503,7 +1408,7 @@
 
     .line 61
     .line 62
-    invoke-interface {p2, v1, v2}, Le6/b;->b(ILjava/lang/Class;)Ljava/lang/Object;
+    invoke-interface {p2, v1, v2}, Lcom/bumptech/glide/load/engine/bitmap_recycle/b;->b(ILjava/lang/Class;)Ljava/lang/Object;
 
     .line 63
     .line 64
@@ -1529,7 +1434,7 @@
 
     .line 72
     :try_start_3
-    invoke-interface {p2, v2}, Le6/b;->put(Ljava/lang/Object;)V
+    invoke-interface {p2, v2}, Lcom/bumptech/glide/load/engine/bitmap_recycle/b;->d(Ljava/lang/Object;)V
 
     .line 73
     .line 74
@@ -1541,7 +1446,7 @@
     move-exception p1
 
     .line 77
-    invoke-interface {p2, v2}, Le6/b;->put(Ljava/lang/Object;)V
+    invoke-interface {p2, v2}, Lcom/bumptech/glide/load/engine/bitmap_recycle/b;->d(Ljava/lang/Object;)V
 
     .line 78
     .line 79
@@ -1803,66 +1708,10 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method
 
 .method public final g(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
     .locals 5
-    .annotation build Landroidx/annotation/NonNull;
-    .end annotation
-
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     :try_start_0
@@ -2476,6 +2325,38 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public final i([BI)Z
@@ -2489,7 +2370,7 @@
 
     .line 3
     .line 4
-    sget-object v1, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->i:[B
+    sget-object v1, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->a:[B
 
     .line 5
     .line 6
@@ -2519,7 +2400,7 @@
 
     .line 15
     :goto_1
-    sget-object v2, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->i:[B
+    sget-object v2, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser;->a:[B
 
     .line 16
     .line 17
@@ -2585,20 +2466,10 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public final j(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;)I
     .locals 9
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     :cond_0
@@ -3137,15 +3008,42 @@
     .line 406
     .line 407
     .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
+    .line 431
+    .line 432
+    .line 433
+    .line 434
+    .line 435
+    .line 436
+    .line 437
+    .line 438
+    .line 439
+    .line 440
 .end method
 
 .method public final l(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;[BI)I
     .locals 3
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     invoke-interface {p1, p2, p3}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;->read([BI)I
@@ -3367,20 +3265,10 @@
     .line 145
     .line 146
     .line 147
-    .line 148
-    .line 149
-    .line 150
-    .line 151
-    .line 152
 .end method
 
 .method public final m(Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;I)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
     .locals 7
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/io/IOException;
-        }
-    .end annotation
 
     .line 1
     invoke-interface {p1}, Lcom/bumptech/glide/load/resource/bitmap/DefaultImageHeaderParser$Reader;->a()I
@@ -3829,52 +3717,4 @@
     .line 329
     .line 330
     .line 331
-    .line 332
-    .line 333
-    .line 334
-    .line 335
-    .line 336
-    .line 337
-    .line 338
-    .line 339
-    .line 340
-    .line 341
-    .line 342
-    .line 343
-    .line 344
-    .line 345
-    .line 346
-    .line 347
-    .line 348
-    .line 349
-    .line 350
-    .line 351
-    .line 352
-    .line 353
-    .line 354
-    .line 355
-    .line 356
-    .line 357
-    .line 358
-    .line 359
-    .line 360
-    .line 361
-    .line 362
-    .line 363
-    .line 364
-    .line 365
-    .line 366
-    .line 367
-    .line 368
-    .line 369
-    .line 370
-    .line 371
-    .line 372
-    .line 373
-    .line 374
-    .line 375
-    .line 376
-    .line 377
-    .line 378
-    .line 379
 .end method

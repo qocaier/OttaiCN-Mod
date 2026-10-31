@@ -158,10 +158,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static a(Lcom/qiyukf/qq;)V
-    .locals 6
+    .locals 5
 
     .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
@@ -201,8 +203,6 @@
     invoke-static {}, Lcom/qiyukf/nimlib/b;->i()Landroid/content/Context;
 
     move-result-object v4
-
-    sget v5, Lcom/qiyukf/sq;->c:I
 
     .line 6
     :try_start_0
@@ -970,6 +970,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 

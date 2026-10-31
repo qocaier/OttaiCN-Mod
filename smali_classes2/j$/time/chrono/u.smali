@@ -11,7 +11,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    .line 485
+    .line 400
     invoke-static {}, Lj$/time/temporal/a;->values()[Lj$/time/temporal/a;
 
     move-result-object v0
@@ -23,7 +23,7 @@
     sput-object v0, Lj$/time/chrono/u;->a:[I
 
     :try_start_0
-    sget-object v1, Lj$/time/temporal/a;->DAY_OF_MONTH:Lj$/time/temporal/a;
+    sget-object v1, Lj$/time/temporal/a;->ALIGNED_DAY_OF_WEEK_IN_MONTH:Lj$/time/temporal/a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -39,7 +39,7 @@
     :try_start_1
     sget-object v0, Lj$/time/chrono/u;->a:[I
 
-    sget-object v1, Lj$/time/temporal/a;->DAY_OF_YEAR:Lj$/time/temporal/a;
+    sget-object v1, Lj$/time/temporal/a;->ALIGNED_DAY_OF_WEEK_IN_YEAR:Lj$/time/temporal/a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -55,7 +55,7 @@
     :try_start_2
     sget-object v0, Lj$/time/chrono/u;->a:[I
 
-    sget-object v1, Lj$/time/temporal/a;->YEAR_OF_ERA:Lj$/time/temporal/a;
+    sget-object v1, Lj$/time/temporal/a;->ALIGNED_WEEK_OF_MONTH:Lj$/time/temporal/a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -71,7 +71,7 @@
     :try_start_3
     sget-object v0, Lj$/time/chrono/u;->a:[I
 
-    sget-object v1, Lj$/time/temporal/a;->ALIGNED_DAY_OF_WEEK_IN_MONTH:Lj$/time/temporal/a;
+    sget-object v1, Lj$/time/temporal/a;->ALIGNED_WEEK_OF_YEAR:Lj$/time/temporal/a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -87,7 +87,7 @@
     :try_start_4
     sget-object v0, Lj$/time/chrono/u;->a:[I
 
-    sget-object v1, Lj$/time/temporal/a;->ALIGNED_DAY_OF_WEEK_IN_YEAR:Lj$/time/temporal/a;
+    sget-object v1, Lj$/time/temporal/a;->YEAR_OF_ERA:Lj$/time/temporal/a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -103,7 +103,7 @@
     :try_start_5
     sget-object v0, Lj$/time/chrono/u;->a:[I
 
-    sget-object v1, Lj$/time/temporal/a;->ALIGNED_WEEK_OF_MONTH:Lj$/time/temporal/a;
+    sget-object v1, Lj$/time/temporal/a;->DAY_OF_YEAR:Lj$/time/temporal/a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -119,7 +119,7 @@
     :try_start_6
     sget-object v0, Lj$/time/chrono/u;->a:[I
 
-    sget-object v1, Lj$/time/temporal/a;->ALIGNED_WEEK_OF_YEAR:Lj$/time/temporal/a;
+    sget-object v1, Lj$/time/temporal/a;->YEAR:Lj$/time/temporal/a;
 
     invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
@@ -148,21 +148,5 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_7 .. :try_end_7} :catch_7
 
     :catch_7
-    :try_start_8
-    sget-object v0, Lj$/time/chrono/u;->a:[I
-
-    sget-object v1, Lj$/time/temporal/a;->YEAR:Lj$/time/temporal/a;
-
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
-
-    move-result v1
-
-    const/16 v2, 0x9
-
-    aput v2, v0, v1
-    :try_end_8
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_8 .. :try_end_8} :catch_8
-
-    :catch_8
     return-void
 .end method

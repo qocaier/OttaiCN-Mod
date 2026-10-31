@@ -298,6 +298,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private generateFontRequestFrom(Landroid/content/pm/ProviderInfo;Landroid/content/pm/PackageManager;)Landroidx/core/provider/FontRequest;
@@ -433,6 +434,7 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private hasFlagSystem(Landroid/content/pm/ProviderInfo;)Z
@@ -625,6 +627,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 
@@ -812,4 +815,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

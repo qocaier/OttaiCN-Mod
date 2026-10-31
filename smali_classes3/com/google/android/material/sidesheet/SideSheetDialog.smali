@@ -54,7 +54,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -137,7 +136,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic cancel()V
@@ -168,7 +166,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic getBehavior()Lcom/google/android/material/sidesheet/Sheet;
@@ -274,7 +271,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getDialogId()I
@@ -307,7 +303,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLayoutResId()I
@@ -340,7 +335,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStateOnStart()I
@@ -381,7 +375,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic onAttachedToWindow()V
@@ -412,7 +405,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic onDetachedFromWindow()V
@@ -443,7 +435,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public bridge synthetic setCancelable(Z)V
@@ -476,7 +467,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setCanceledOnTouchOutside(Z)V
@@ -509,7 +499,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setContentView(I)V
@@ -585,7 +574,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic setSheetEdge(I)V
@@ -622,5 +610,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

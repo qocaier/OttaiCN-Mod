@@ -145,6 +145,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public computeScrollOffset()Z
@@ -179,6 +180,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public fling(IIIIIIII)V
@@ -275,6 +277,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCurrX()I
@@ -309,6 +312,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCurrY()I
@@ -343,6 +347,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFinalX()I
@@ -377,6 +382,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getFinalY()I
@@ -411,6 +417,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isFinished()Z
@@ -445,6 +452,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isOverScrolled()Z
@@ -479,6 +487,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public notifyHorizontalEdgeReached(III)V
@@ -604,6 +613,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public notifyVerticalEdgeReached(III)V
@@ -729,6 +741,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public springBack(IIIIII)Z

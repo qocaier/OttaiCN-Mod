@@ -43,7 +43,7 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
-    const-string v0, "yyyy-MM-dd_HH:mm:ss.SSS"
+    const-string/jumbo v0, "yyyy-MM-dd_HH:mm:ss.SSS"
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

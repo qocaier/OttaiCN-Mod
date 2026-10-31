@@ -3,17 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/ottai/cn/flu_native_webview/R;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "style"
-.end annotation
-
-
 # static fields
 .field public static Base_Theme_MyFluNativeWeb:I = 0x7f120079
 

@@ -8,21 +8,12 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/zxing/multi/qrcode/detector/MultiFinderPatternFinder;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "ModuleSizeComparator"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
         "Ljava/io/Serializable;",
         "Ljava/util/Comparator<",
-        "Lod/d;",
+        "Lcom/google/zxing/qrcode/detector/d;",
         ">;"
     }
 .end annotation
@@ -38,7 +29,7 @@
     return-void
 .end method
 
-.method public synthetic constructor <init>(Lcom/google/zxing/multi/qrcode/detector/MultiFinderPatternFinder$a;)V
+.method public synthetic constructor <init>(Lcom/google/zxing/multi/qrcode/detector/a;)V
     .locals 0
 
     .line 2
@@ -49,30 +40,15 @@
 
 
 # virtual methods
-.method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
-    .locals 0
-
-    .line 1
-    check-cast p1, Lod/d;
-
-    check-cast p2, Lod/d;
-
-    invoke-virtual {p0, p1, p2}, Lcom/google/zxing/multi/qrcode/detector/MultiFinderPatternFinder$ModuleSizeComparator;->compare(Lod/d;Lod/d;)I
-
-    move-result p1
-
-    return p1
-.end method
-
-.method public compare(Lod/d;Lod/d;)I
+.method public compare(Lcom/google/zxing/qrcode/detector/d;Lcom/google/zxing/qrcode/detector/d;)I
     .locals 3
 
     .line 2
-    invoke-virtual {p2}, Lod/d;->i()F
+    invoke-virtual {p2}, Lcom/google/zxing/qrcode/detector/d;->i()F
 
     move-result p2
 
-    invoke-virtual {p1}, Lod/d;->i()F
+    invoke-virtual {p1}, Lcom/google/zxing/qrcode/detector/d;->i()F
 
     move-result p1
 
@@ -101,6 +77,21 @@
 
     :cond_1
     const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/google/zxing/qrcode/detector/d;
+
+    check-cast p2, Lcom/google/zxing/qrcode/detector/d;
+
+    invoke-virtual {p0, p1, p2}, Lcom/google/zxing/multi/qrcode/detector/MultiFinderPatternFinder$ModuleSizeComparator;->compare(Lcom/google/zxing/qrcode/detector/d;Lcom/google/zxing/qrcode/detector/d;)I
+
+    move-result p1
 
     return p1
 .end method

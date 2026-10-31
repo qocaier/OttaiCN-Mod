@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Llk/l;
+.implements Lf8/d;
 
 
 # annotations
@@ -13,8 +13,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/util/concurrent/atomic/AtomicLong;",
-        "Llk/l<",
-        "TT;>;"
+        "Lf8/d;"
     }
 .end annotation
 
@@ -53,10 +52,46 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 
 # virtual methods
+.method public abstract synthetic cancel()V
+.end method
+
+.method public abstract synthetic clear()V
+.end method
+
+.method public abstract synthetic isEmpty()Z
+.end method
+
 .method public final offer(Ljava/lang/Object;)Z
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
@@ -91,4 +126,18 @@
     invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
     throw p1
+.end method
+
+.method public abstract synthetic poll()Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+.end method
+
+.method public abstract synthetic request(J)V
+.end method
+
+.method public abstract synthetic requestFusion(I)I
 .end method

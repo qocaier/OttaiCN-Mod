@@ -1,16 +1,21 @@
-.class public final synthetic Lk/d;
+.class public abstract synthetic Lk/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # direct methods
-.method public static bridge synthetic a(Landroid/app/Notification$Builder;Ljava/lang/String;)Landroid/app/Notification$Builder;
+.method public static synthetic a(Ljava/lang/Object;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setChannelId(Ljava/lang/String;)Landroid/app/Notification$Builder;
+    if-nez p0, :cond_0
 
-    move-result-object p0
+    return-void
 
-    return-object p0
+    :cond_0
+    new-instance p0, Ljava/lang/ClassCastException;
+
+    invoke-direct {p0}, Ljava/lang/ClassCastException;-><init>()V
+
+    throw p0
 .end method

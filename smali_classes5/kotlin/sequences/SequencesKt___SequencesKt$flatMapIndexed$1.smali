@@ -3,27 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/l;
+.implements Lq8/l;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlin/sequences/SequencesKt___SequencesKt;->l1(Lvm/m;Ljm/p;)Lvm/m;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x1019
-    name = null
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/l<",
-        "Ljava/lang/Iterable<",
-        "+TR;>;",
-        "Ljava/util/Iterator<",
-        "+TR;>;>;"
+        "Lq8/l;"
     }
 .end annotation
 
@@ -86,15 +73,17 @@
         value = {
             "(",
             "Ljava/lang/Iterable<",
-            "+TR;>;)",
+            "Ljava/lang/Object;",
+            ">;)",
             "Ljava/util/Iterator<",
-            "TR;>;"
+            "Ljava/lang/Object;",
+            ">;"
         }
     .end annotation
 
     const-string v0, "p0"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;

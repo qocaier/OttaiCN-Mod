@@ -509,6 +509,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static synthetic a(Landroidx/camera/core/SurfaceRequest;)V
@@ -586,11 +592,11 @@
     move-result-object v2
 
     .line 38
-    new-instance v3, Lx/a;
+    new-instance v3, Landroidx/camera/core/internal/a;
 
     .line 39
     .line 40
-    invoke-direct {v3, v1, v0}, Lx/a;-><init>(Landroid/view/Surface;Landroid/graphics/SurfaceTexture;)V
+    invoke-direct {v3, v1, v0}, Landroidx/camera/core/internal/a;-><init>(Landroid/view/Surface;Landroid/graphics/SurfaceTexture;)V
 
     .line 41
     .line 42
@@ -633,6 +639,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static synthetic b(Landroid/view/Surface;Landroid/graphics/SurfaceTexture;Landroidx/camera/core/SurfaceRequest$Result;)V
@@ -756,6 +763,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private cacheInteropConfig()V
@@ -876,6 +886,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static calculateCameraUseCases(Ljava/util/Collection;Landroidx/camera/core/UseCase;Landroidx/camera/core/streamsharing/StreamSharing;)Ljava/util/Collection;
@@ -1041,6 +1053,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private static calculateSensorToBufferTransformMatrix(Landroid/graphics/Rect;Landroid/util/Size;)Landroid/graphics/Matrix;
@@ -1346,6 +1361,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private calculateSuggestedStreamSpecs(ILandroidx/camera/core/impl/CameraInfoInternal;Ljava/util/Collection;Ljava/util/Collection;Ljava/util/Map;)Ljava/util/Map;
@@ -2262,6 +2280,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private createExtraPreview()Landroidx/camera/core/Preview;
@@ -2297,11 +2316,11 @@
     move-result-object v0
 
     .line 16
-    new-instance v1, Lx/b;
+    new-instance v1, Landroidx/camera/core/internal/b;
 
     .line 17
     .line 18
-    invoke-direct {v1}, Lx/b;-><init>()V
+    invoke-direct {v1}, Landroidx/camera/core/internal/b;-><init>()V
 
     .line 19
     .line 20
@@ -2372,6 +2391,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private createOrReuseStreamSharing(Ljava/util/Collection;Z)Landroidx/camera/core/streamsharing/StreamSharing;
@@ -2707,6 +2728,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static generateCameraId(Ljava/util/LinkedHashSet;)Landroidx/camera/core/internal/CameraUseCaseAdapter$CameraId;
@@ -2886,6 +2910,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static getCaptureTypes(Landroidx/camera/core/UseCase;)Ljava/util/List;
@@ -3042,6 +3068,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private getConfigs(Ljava/util/Collection;Landroidx/camera/core/impl/UseCaseConfigFactory;Landroidx/camera/core/impl/UseCaseConfigFactory;)Ljava/util/Map;
@@ -3218,6 +3245,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private getSharingTargets(Z)I
@@ -3386,6 +3416,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private getStreamSharingChildren(Ljava/util/Collection;Z)Ljava/util/Set;
@@ -3826,6 +3857,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private hasNoExtension()Z
@@ -3884,6 +3918,7 @@
     .line 19
     throw v1
     .line 20
+    .line 21
 .end method
 
 .method private isCoexistingPreviewImageCaptureRequired()Z
@@ -3942,6 +3977,7 @@
     .line 19
     throw v1
     .line 20
+    .line 21
 .end method
 
 .method private isExtraImageCaptureRequired(Ljava/util/Collection;)Z
@@ -4093,6 +4129,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private isExtraPreviewRequired(Ljava/util/Collection;)Z
@@ -4244,6 +4281,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static isImageCapture(Landroidx/camera/core/UseCase;)Z
@@ -4524,6 +4562,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private restoreInteropConfig()V
@@ -4651,6 +4690,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private static setEffectsOnUseCases(Ljava/util/List;Ljava/util/Collection;)Ljava/util/List;
@@ -5011,6 +5052,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static updateEffects(Ljava/util/List;Ljava/util/Collection;Ljava/util/Collection;)V
@@ -5198,6 +5242,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private updateViewPort(Ljava/util/Map;Ljava/util/Collection;)V
@@ -5623,6 +5670,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 
@@ -5776,6 +5826,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public attachUseCases()V
@@ -5926,6 +5977,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public calculatePlaceholderForExtensions(Ljava/util/Collection;)Landroidx/camera/core/UseCase;
@@ -6106,6 +6159,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public detachUseCases()V
@@ -6239,6 +6293,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCameraControl()Landroidx/camera/core/CameraControl;
@@ -6269,6 +6325,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraId()Landroidx/camera/core/internal/CameraUseCaseAdapter$CameraId;
@@ -6299,6 +6356,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraInfo()Landroidx/camera/core/CameraInfo;
@@ -6329,6 +6387,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraInternals()Ljava/util/LinkedHashSet;
@@ -6368,6 +6427,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCameraUseCases()Ljava/util/Collection;
@@ -6430,6 +6490,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getExtendedConfig()Landroidx/camera/core/impl/CameraConfig;
@@ -6476,6 +6537,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getUseCases()Ljava/util/List;
@@ -6535,6 +6597,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public isEquivalent(Landroidx/camera/core/internal/CameraUseCaseAdapter;)Z
@@ -6738,6 +6801,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public removeUseCases(Ljava/util/Collection;)V
@@ -7253,6 +7317,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setViewPort(Landroidx/camera/core/ViewPort;)V

@@ -28,17 +28,70 @@
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;)Lhe/d;
+.method public a()Ljava/util/List;
+    .locals 4
+
+    const-string v0, "getServices"
+
+    const-string v1, "AGC_Registrar"
+
+    invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    invoke-virtual {p0}, Lcom/huawei/agconnect/core/a/c;->c()Ljava/util/List;
+
+    move-result-object v0
+
+    new-instance v2, Ljava/util/ArrayList;
+
+    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
+
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v3
+
+    check-cast v3, Ljava/lang/String;
+
+    invoke-virtual {p0, v3}, Lcom/huawei/agconnect/core/a/c;->b(Ljava/lang/String;)Lp5/a;
+
+    goto :goto_0
+
+    :cond_0
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v3, "services:"
+
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-interface {v2}, Ljava/util/List;->size()I
+
+    move-result v3
+
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    return-object v2
+.end method
+
+.method public final b(Ljava/lang/String;)Lp5/a;
     .locals 5
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "<T::",
-            "Lhe/d;",
-            ">(",
-            "Ljava/lang/String;",
-            ")TT;"
-        }
-    .end annotation
 
     .line 1
     const-string v0, "instantiate service class exception "
@@ -61,7 +114,7 @@
     move-result-object v3
 
     .line 10
-    const-class v4, Lhe/d;
+    const-class v4, Lp5/a;
 
     .line 11
     .line 12
@@ -154,7 +207,7 @@
     move-result-object p1
 
     .line 53
-    check-cast p1, Lhe/d;
+    invoke-static {p1}, Lk/d;->a(Ljava/lang/Object;)V
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_1
@@ -162,114 +215,114 @@
 
     .line 54
     .line 55
-    return-object p1
-
     .line 56
+    return-object v2
+
+    .line 57
     :goto_0
     new-instance v3, Ljava/lang/StringBuilder;
 
-    .line 57
     .line 58
+    .line 59
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 59
     .line 60
     .line 61
+    .line 62
     :goto_1
     invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 62
     .line 63
     .line 64
+    .line 65
     invoke-virtual {p1}, Ljava/lang/Throwable;->getLocalizedMessage()Ljava/lang/String;
 
-    .line 65
     .line 66
     .line 67
-    move-result-object p1
-
     .line 68
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object p1
 
     .line 69
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 70
     .line 71
+    .line 72
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 72
     .line 73
     .line 74
+    .line 75
     move-result-object p1
 
-    .line 75
+    .line 76
     :goto_2
     invoke-static {v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 76
     .line 77
     .line 78
+    .line 79
     goto :goto_5
 
-    .line 79
+    .line 80
     :goto_3
     new-instance v3, Ljava/lang/StringBuilder;
 
-    .line 80
     .line 81
+    .line 82
     invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 82
     .line 83
     .line 84
+    .line 85
     goto :goto_1
 
-    .line 85
+    .line 86
     :goto_4
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 86
     .line 87
+    .line 88
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 88
     .line 89
     .line 90
+    .line 91
     const-string v3, "Can not found service class, "
 
-    .line 91
     .line 92
+    .line 93
     invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 93
     .line 94
     .line 95
+    .line 96
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
-    .line 96
     .line 97
     .line 98
-    move-result-object p1
-
     .line 99
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object p1
 
     .line 100
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 101
     .line 102
+    .line 103
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 103
     .line 104
     .line 105
+    .line 106
     move-result-object p1
 
-    .line 106
+    .line 107
     goto :goto_2
 
-    .line 107
+    .line 108
     :goto_5
     return-object v2
-    .line 108
     .line 109
     .line 110
     .line 111
@@ -446,129 +499,10 @@
     .line 282
     .line 283
     .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-.end method
-
-.method public b()Ljava/util/List;
-    .locals 5
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Lhe/c;",
-            ">;"
-        }
-    .end annotation
-
-    .line 1
-    const-string v0, "getServices"
-
-    const-string v1, "AGC_Registrar"
-
-    invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    invoke-virtual {p0}, Lcom/huawei/agconnect/core/a/c;->c()Ljava/util/List;
-
-    move-result-object v0
-
-    new-instance v2, Ljava/util/ArrayList;
-
-    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
-
-    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
-
-    move-result-object v0
-
-    :cond_0
-    :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v3
-
-    if-eqz v3, :cond_1
-
-    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
-
-    move-result-object v3
-
-    check-cast v3, Ljava/lang/String;
-
-    invoke-virtual {p0, v3}, Lcom/huawei/agconnect/core/a/c;->a(Ljava/lang/String;)Lhe/d;
-
-    move-result-object v3
-
-    if-eqz v3, :cond_0
-
-    iget-object v4, p0, Lcom/huawei/agconnect/core/a/c;->a:Landroid/content/Context;
-
-    invoke-interface {v3, v4}, Lhe/d;->initialize(Landroid/content/Context;)V
-
-    iget-object v4, p0, Lcom/huawei/agconnect/core/a/c;->a:Landroid/content/Context;
-
-    invoke-interface {v3, v4}, Lhe/d;->a(Landroid/content/Context;)Ljava/util/List;
-
-    move-result-object v3
-
-    if-eqz v3, :cond_0
-
-    invoke-interface {v2, v3}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
-
-    goto :goto_0
-
-    :cond_1
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "services:"
-
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-interface {v2}, Ljava/util/List;->size()I
-
-    move-result v3
-
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    return-object v2
 .end method
 
 .method public final c()Ljava/util/List;
     .locals 11
-    .annotation system Ldalvik/annotation/Signature;
-        value = {
-            "()",
-            "Ljava/util/List<",
-            "Ljava/lang/String;",
-            ">;"
-        }
-    .end annotation
 
     .line 1
     new-instance v0, Ljava/util/ArrayList;

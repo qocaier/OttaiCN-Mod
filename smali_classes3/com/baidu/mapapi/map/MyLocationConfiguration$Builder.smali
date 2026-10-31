@@ -141,11 +141,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private a(I)I
@@ -218,7 +213,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic c(Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;)Lcom/baidu/mapapi/map/BitmapDescriptor;
@@ -251,7 +245,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic d(Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;)Ljava/lang/String;
@@ -284,7 +277,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic e(Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;)F
@@ -317,7 +309,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic f(Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;)F
@@ -350,7 +341,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static synthetic g(Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;)Z
@@ -383,7 +373,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -420,7 +409,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setAccuracyCircleFillColor(I)Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;
@@ -457,7 +445,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAccuracyCircleStrokeColor(I)Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;
@@ -494,7 +481,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setAnimation(Z)Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;
@@ -527,7 +513,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setArrow(Lcom/baidu/mapapi/map/BitmapDescriptor;)Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;
@@ -560,7 +545,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setArrowSize(F)Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;
@@ -593,7 +577,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setCustomMarker(Lcom/baidu/mapapi/map/BitmapDescriptor;)Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;
@@ -626,7 +609,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setGifMarker(Ljava/lang/String;)Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;
@@ -659,7 +641,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMarkerRotation(Z)Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;
@@ -692,7 +673,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setMarkerSize(F)Lcom/baidu/mapapi/map/MyLocationConfiguration$Builder;
@@ -725,5 +705,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

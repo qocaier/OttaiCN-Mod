@@ -1,157 +1,483 @@
-.class abstract synthetic Lj$/time/t;
+.class final Lj$/time/t;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Ljava/io/Externalizable;
+
 
 # static fields
-.field static final synthetic a:[I
+.field private static final serialVersionUID:J = -0x6aa27b45e4ddb74eL
 
-.field static final synthetic b:[I
+
+# instance fields
+.field private a:B
+
+.field private b:Ljava/lang/Object;
 
 
 # direct methods
-.method static constructor <clinit>()V
-    .locals 6
+.method public constructor <init>()V
+    .locals 0
 
-    .line 710
-    invoke-static {}, Lj$/time/temporal/ChronoUnit;->values()[Lj$/time/temporal/ChronoUnit;
+    .line 119
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    move-result-object v0
+    return-void
+.end method
 
-    array-length v0, v0
+.method constructor <init>(BLjava/lang/Object;)V
+    .locals 0
 
-    new-array v0, v0, [I
+    .line 128
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sput-object v0, Lj$/time/t;->b:[I
+    .line 129
+    iput-byte p1, p0, Lj$/time/t;->a:B
 
-    const/4 v1, 0x1
+    .line 130
+    iput-object p2, p0, Lj$/time/t;->b:Ljava/lang/Object;
 
-    :try_start_0
-    sget-object v2, Lj$/time/temporal/ChronoUnit;->YEARS:Lj$/time/temporal/ChronoUnit;
+    return-void
+.end method
 
-    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
+.method static a(Ljava/io/ObjectInput;)Ljava/io/Serializable;
+    .locals 1
 
-    move-result v2
+    .line 250
+    invoke-interface {p0}, Ljava/io/DataInput;->readByte()B
 
-    aput v1, v0, v2
-    :try_end_0
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_0 .. :try_end_0} :catch_0
+    move-result v0
 
-    :catch_0
-    const/4 v0, 0x2
+    .line 251
+    invoke-static {v0, p0}, Lj$/time/t;->b(BLjava/io/ObjectInput;)Ljava/io/Serializable;
 
-    :try_start_1
-    sget-object v2, Lj$/time/t;->b:[I
+    move-result-object p0
 
-    sget-object v3, Lj$/time/temporal/ChronoUnit;->DECADES:Lj$/time/temporal/ChronoUnit;
+    return-object p0
+.end method
 
-    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
+.method private static b(BLjava/io/ObjectInput;)Ljava/io/Serializable;
+    .locals 2
 
-    move-result v3
+    packed-switch p0, :pswitch_data_0
 
-    aput v0, v2, v3
-    :try_end_1
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_1 .. :try_end_1} :catch_1
+    .line 271
+    new-instance p0, Ljava/io/StreamCorruptedException;
 
-    :catch_1
-    const/4 v2, 0x3
+    const-string p1, "Unknown serialized type"
 
-    :try_start_2
-    sget-object v3, Lj$/time/t;->b:[I
+    invoke-direct {p0, p1}, Ljava/io/StreamCorruptedException;-><init>(Ljava/lang/String;)V
 
-    sget-object v4, Lj$/time/temporal/ChronoUnit;->CENTURIES:Lj$/time/temporal/ChronoUnit;
+    throw p0
 
-    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
+    .line 269
+    :pswitch_0
+    invoke-static {p1}, Lj$/time/s;->c(Ljava/io/ObjectInput;)Lj$/time/s;
 
-    move-result v4
+    move-result-object p0
 
-    aput v2, v3, v4
-    :try_end_2
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_2 .. :try_end_2} :catch_2
+    return-object p0
 
-    :catch_2
-    :try_start_3
-    sget-object v3, Lj$/time/t;->b:[I
+    .line 268
+    :pswitch_1
+    invoke-static {p1}, Lj$/time/o;->r(Ljava/io/ObjectInput;)Lj$/time/o;
 
-    sget-object v4, Lj$/time/temporal/ChronoUnit;->MILLENNIA:Lj$/time/temporal/ChronoUnit;
+    move-result-object p0
 
-    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
+    return-object p0
 
-    move-result v4
+    .line 267
+    :pswitch_2
+    invoke-static {p1}, Lj$/time/x;->S(Ljava/io/ObjectInput;)Lj$/time/x;
 
-    const/4 v5, 0x4
+    move-result-object p0
 
-    aput v5, v3, v4
-    :try_end_3
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_3 .. :try_end_3} :catch_3
+    return-object p0
 
-    :catch_3
-    :try_start_4
-    sget-object v3, Lj$/time/t;->b:[I
+    .line 266
+    :pswitch_3
+    sget p0, Lj$/time/v;->b:I
 
-    sget-object v4, Lj$/time/temporal/ChronoUnit;->ERAS:Lj$/time/temporal/ChronoUnit;
+    .line 1119
+    invoke-interface {p1}, Ljava/io/DataInput;->readInt()I
 
-    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
+    move-result p0
 
-    move-result v4
+    invoke-static {p0}, Lj$/time/v;->r(I)Lj$/time/v;
 
-    const/4 v5, 0x5
+    move-result-object p0
 
-    aput v5, v3, v4
-    :try_end_4
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_4 .. :try_end_4} :catch_4
+    return-object p0
 
-    .line 498
-    :catch_4
-    invoke-static {}, Lj$/time/temporal/a;->values()[Lj$/time/temporal/a;
+    .line 265
+    :pswitch_4
+    invoke-static {p1}, Lj$/time/q;->I(Ljava/io/ObjectInput;)Lj$/time/q;
 
-    move-result-object v3
+    move-result-object p0
 
-    array-length v3, v3
+    return-object p0
 
-    new-array v3, v3, [I
+    .line 264
+    :pswitch_5
+    invoke-static {p1}, Lj$/time/r;->I(Ljava/io/ObjectInput;)Lj$/time/r;
 
-    sput-object v3, Lj$/time/t;->a:[I
+    move-result-object p0
 
-    :try_start_5
-    sget-object v4, Lj$/time/temporal/a;->YEAR_OF_ERA:Lj$/time/temporal/a;
+    return-object p0
 
-    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
+    .line 262
+    :pswitch_6
+    invoke-static {p1}, Lj$/time/y;->d0(Ljava/io/ObjectInput;)Lj$/time/y;
 
-    move-result v4
+    move-result-object p0
 
-    aput v1, v3, v4
-    :try_end_5
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_5 .. :try_end_5} :catch_5
+    return-object p0
 
-    :catch_5
-    :try_start_6
-    sget-object v1, Lj$/time/t;->a:[I
+    .line 263
+    :pswitch_7
+    sget p0, Lj$/time/z;->d:I
 
-    sget-object v3, Lj$/time/temporal/a;->YEAR:Lj$/time/temporal/a;
+    .line 217
+    invoke-interface {p1}, Ljava/io/DataInput;->readUTF()Ljava/lang/String;
 
-    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
+    move-result-object p0
 
-    move-result v3
+    const/4 p1, 0x0
 
-    aput v0, v1, v3
-    :try_end_6
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_6 .. :try_end_6} :catch_6
+    .line 218
+    invoke-static {p0, p1}, Lj$/time/ZoneId;->B(Ljava/lang/String;Z)Lj$/time/ZoneId;
 
-    :catch_6
-    :try_start_7
-    sget-object v0, Lj$/time/t;->a:[I
+    move-result-object p0
 
-    sget-object v1, Lj$/time/temporal/a;->ERA:Lj$/time/temporal/a;
+    return-object p0
 
-    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
+    .line 261
+    :pswitch_8
+    invoke-static {p1}, Lj$/time/ZonedDateTime;->S(Ljava/io/ObjectInput;)Lj$/time/ZonedDateTime;
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 259
+    :pswitch_9
+    sget-object p0, Lj$/time/LocalDateTime;->c:Lj$/time/LocalDateTime;
+
+    .line 2008
+    sget-object p0, Lj$/time/g;->d:Lj$/time/g;
+
+    .line 2224
+    invoke-interface {p1}, Ljava/io/DataInput;->readInt()I
+
+    move-result p0
+
+    .line 2225
+    invoke-interface {p1}, Ljava/io/DataInput;->readByte()B
+
+    move-result v0
+
+    .line 2226
+    invoke-interface {p1}, Ljava/io/DataInput;->readByte()B
 
     move-result v1
 
-    aput v2, v0, v1
-    :try_end_7
-    .catch Ljava/lang/NoSuchFieldError; {:try_start_7 .. :try_end_7} :catch_7
+    .line 2227
+    invoke-static {p0, v0, v1}, Lj$/time/g;->f0(III)Lj$/time/g;
 
-    :catch_7
+    move-result-object p0
+
+    .line 2009
+    invoke-static {p1}, Lj$/time/k;->j0(Ljava/io/ObjectInput;)Lj$/time/k;
+
+    move-result-object p1
+
+    .line 2010
+    invoke-static {p0, p1}, Lj$/time/LocalDateTime;->c0(Lj$/time/g;Lj$/time/k;)Lj$/time/LocalDateTime;
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 260
+    :pswitch_a
+    invoke-static {p1}, Lj$/time/k;->j0(Ljava/io/ObjectInput;)Lj$/time/k;
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 258
+    :pswitch_b
+    sget-object p0, Lj$/time/g;->d:Lj$/time/g;
+
+    .line 2224
+    invoke-interface {p1}, Ljava/io/DataInput;->readInt()I
+
+    move-result p0
+
+    .line 2225
+    invoke-interface {p1}, Ljava/io/DataInput;->readByte()B
+
+    move-result v0
+
+    .line 2226
+    invoke-interface {p1}, Ljava/io/DataInput;->readByte()B
+
+    move-result p1
+
+    .line 2227
+    invoke-static {p0, v0, p1}, Lj$/time/g;->f0(III)Lj$/time/g;
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 257
+    :pswitch_c
+    sget-object p0, Lj$/time/Instant;->EPOCH:Lj$/time/Instant;
+
+    .line 1366
+    invoke-interface {p1}, Ljava/io/DataInput;->readLong()J
+
+    move-result-wide v0
+
+    .line 1367
+    invoke-interface {p1}, Ljava/io/DataInput;->readInt()I
+
+    move-result p0
+
+    int-to-long p0, p0
+
+    .line 1368
+    invoke-static {v0, v1, p0, p1}, Lj$/time/Instant;->S(JJ)Lj$/time/Instant;
+
+    move-result-object p0
+
+    return-object p0
+
+    .line 256
+    :pswitch_d
+    sget-object p0, Lj$/time/Duration;->c:Lj$/time/Duration;
+
+    .line 1552
+    invoke-interface {p1}, Ljava/io/DataInput;->readLong()J
+
+    move-result-wide v0
+
+    .line 1553
+    invoke-interface {p1}, Ljava/io/DataInput;->readInt()I
+
+    move-result p0
+
+    int-to-long p0, p0
+
+    .line 1554
+    invoke-static {v0, v1, p0, p1}, Lj$/time/Duration;->S(JJ)Lj$/time/Duration;
+
+    move-result-object p0
+
+    return-object p0
+
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_d
+        :pswitch_c
+        :pswitch_b
+        :pswitch_a
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method private readResolve()Ljava/lang/Object;
+    .locals 1
+
+    .line 281
+    iget-object v0, p0, Lj$/time/t;->b:Ljava/lang/Object;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final readExternal(Ljava/io/ObjectInput;)V
+    .locals 1
+
+    .line 245
+    invoke-interface {p1}, Ljava/io/DataInput;->readByte()B
+
+    move-result v0
+
+    iput-byte v0, p0, Lj$/time/t;->a:B
+
+    .line 246
+    invoke-static {v0, p1}, Lj$/time/t;->b(BLjava/io/ObjectInput;)Ljava/io/Serializable;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lj$/time/t;->b:Ljava/lang/Object;
+
     return-void
+.end method
+
+.method public final writeExternal(Ljava/io/ObjectOutput;)V
+    .locals 2
+
+    .line 162
+    iget-byte v0, p0, Lj$/time/t;->a:B
+
+    iget-object v1, p0, Lj$/time/t;->b:Ljava/lang/Object;
+
+    .line 166
+    invoke-interface {p1, v0}, Ljava/io/DataOutput;->writeByte(I)V
+
+    packed-switch v0, :pswitch_data_0
+
+    .line 211
+    new-instance p1, Ljava/io/InvalidClassException;
+
+    const-string v0, "Unknown serialized type"
+
+    invoke-direct {p1, v0}, Ljava/io/InvalidClassException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+
+    .line 208
+    :pswitch_0
+    check-cast v1, Lj$/time/s;
+
+    invoke-virtual {v1, p1}, Lj$/time/s;->writeExternal(Ljava/io/ObjectOutput;)V
+
+    return-void
+
+    .line 205
+    :pswitch_1
+    check-cast v1, Lj$/time/o;
+
+    invoke-virtual {v1, p1}, Lj$/time/o;->B(Ljava/io/DataOutput;)V
+
+    return-void
+
+    .line 202
+    :pswitch_2
+    check-cast v1, Lj$/time/x;
+
+    invoke-virtual {v1, p1}, Lj$/time/x;->Z(Ljava/io/DataOutput;)V
+
+    return-void
+
+    .line 199
+    :pswitch_3
+    check-cast v1, Lj$/time/v;
+
+    invoke-virtual {v1, p1}, Lj$/time/v;->S(Ljava/io/DataOutput;)V
+
+    return-void
+
+    .line 196
+    :pswitch_4
+    check-cast v1, Lj$/time/q;
+
+    invoke-virtual {v1, p1}, Lj$/time/q;->writeExternal(Ljava/io/ObjectOutput;)V
+
+    return-void
+
+    .line 193
+    :pswitch_5
+    check-cast v1, Lj$/time/r;
+
+    invoke-virtual {v1, p1}, Lj$/time/r;->writeExternal(Ljava/io/ObjectOutput;)V
+
+    return-void
+
+    .line 187
+    :pswitch_6
+    check-cast v1, Lj$/time/y;
+
+    invoke-virtual {v1, p1}, Lj$/time/y;->e0(Ljava/io/DataOutput;)V
+
+    return-void
+
+    .line 184
+    :pswitch_7
+    check-cast v1, Lj$/time/z;
+
+    invoke-virtual {v1, p1}, Lj$/time/z;->Y(Ljava/io/DataOutput;)V
+
+    return-void
+
+    .line 190
+    :pswitch_8
+    check-cast v1, Lj$/time/ZonedDateTime;
+
+    invoke-virtual {v1, p1}, Lj$/time/ZonedDateTime;->a0(Ljava/io/DataOutput;)V
+
+    return-void
+
+    .line 178
+    :pswitch_9
+    check-cast v1, Lj$/time/LocalDateTime;
+
+    invoke-virtual {v1, p1}, Lj$/time/LocalDateTime;->l0(Ljava/io/DataOutput;)V
+
+    return-void
+
+    .line 181
+    :pswitch_a
+    check-cast v1, Lj$/time/k;
+
+    invoke-virtual {v1, p1}, Lj$/time/k;->o0(Ljava/io/DataOutput;)V
+
+    return-void
+
+    .line 175
+    :pswitch_b
+    check-cast v1, Lj$/time/g;
+
+    invoke-virtual {v1, p1}, Lj$/time/g;->t0(Ljava/io/DataOutput;)V
+
+    return-void
+
+    .line 172
+    :pswitch_c
+    check-cast v1, Lj$/time/Instant;
+
+    invoke-virtual {v1, p1}, Lj$/time/Instant;->Z(Ljava/io/DataOutput;)V
+
+    return-void
+
+    .line 169
+    :pswitch_d
+    check-cast v1, Lj$/time/Duration;
+
+    invoke-virtual {v1, p1}, Lj$/time/Duration;->writeExternal(Ljava/io/ObjectOutput;)V
+
+    return-void
+
+    :pswitch_data_0
+    .packed-switch 0x1
+        :pswitch_d
+        :pswitch_c
+        :pswitch_b
+        :pswitch_a
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
 .end method

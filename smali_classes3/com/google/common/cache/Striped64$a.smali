@@ -16,15 +16,6 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Ljava/security/PrivilegedExceptionAction<",
-        "Lsun/misc/Unsafe;",
-        ">;"
-    }
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -55,18 +46,12 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
 # virtual methods
 .method public a()Lsun/misc/Unsafe;
     .locals 6
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
 
     .line 1
     const-class v0, Lsun/misc/Unsafe;
@@ -220,24 +205,10 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public bridge synthetic run()Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/Throws;
-        value = {
-            Ljava/lang/Exception;
-        }
-    .end annotation
 
     .line 1
     invoke-virtual {p0}, Lcom/google/common/cache/Striped64$a;->a()Lsun/misc/Unsafe;
@@ -266,5 +237,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

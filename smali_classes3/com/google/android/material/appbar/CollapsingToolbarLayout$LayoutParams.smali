@@ -257,7 +257,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getParallaxMultiplier()F
@@ -288,7 +287,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setCollapseMode(I)V
@@ -321,7 +319,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setParallaxMultiplier(F)V
@@ -354,5 +351,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

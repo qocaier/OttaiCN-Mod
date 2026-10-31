@@ -158,6 +158,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 
@@ -644,7 +645,7 @@
 
     if-eqz v1, :cond_e
 
-    const-string v1, "\u65b0\u6d88\u606f"
+    const-string/jumbo v1, "\u65b0\u6d88\u606f"
 
     move-object/from16 v2, p1
 
@@ -1632,4 +1633,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

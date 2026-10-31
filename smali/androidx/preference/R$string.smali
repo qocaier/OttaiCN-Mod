@@ -19,15 +19,15 @@
 
 .field public static expand_button_title:I = 0x7f11004c
 
-.field public static not_set:I = 0x7f1100d2
+.field public static not_set:I = 0x7f1100cf
 
-.field public static preference_copied:I = 0x7f1100db
+.field public static preference_copied:I = 0x7f1100d8
 
-.field public static summary_collapsed_preference_list:I = 0x7f1100e6
+.field public static summary_collapsed_preference_list:I = 0x7f1100e3
 
-.field public static v7_preference_off:I = 0x7f1100ea
+.field public static v7_preference_off:I = 0x7f1100e7
 
-.field public static v7_preference_on:I = 0x7f1100eb
+.field public static v7_preference_on:I = 0x7f1100e8
 
 
 # direct methods

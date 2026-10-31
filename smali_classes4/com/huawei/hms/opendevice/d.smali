@@ -8,7 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lze/c;->b([B)Ljava/lang/String;
+    invoke-static {p0}, Lv5/c;->a([B)Ljava/lang/String;
 
     move-result-object p0
 
@@ -19,7 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-static {p0}, Lze/c;->c(Ljava/lang/String;)[B
+    invoke-static {p0}, Lv5/c;->b(Ljava/lang/String;)[B
 
     move-result-object p0
 

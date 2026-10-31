@@ -17,25 +17,6 @@
 # static fields
 .field public static final synthetic a:Lcom/jarvan/fluwx/handlers/FluwxShareHandler$a;
 
-.field public static final b:I = 0x8000
-
-.field public static final c:I = 0x1e000
-
-.field public static final d:Ljava/lang/String; = "title"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final e:Ljava/lang/String; = "thumbnail"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
-.field public static final f:Ljava/lang/String; = "description"
-    .annotation build Lsq/k;
-    .end annotation
-.end field
-
 
 # direct methods
 .method static constructor <clinit>()V
@@ -76,4 +57,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

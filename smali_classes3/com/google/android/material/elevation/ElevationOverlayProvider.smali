@@ -60,7 +60,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
@@ -205,7 +204,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -250,7 +248,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public calculateOverlayAlphaFraction(F)F
@@ -395,8 +392,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public compositeOverlay(IF)I
@@ -626,7 +621,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getThemeElevationOverlayColor()I
@@ -659,7 +653,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getThemeSurfaceColor()I
@@ -692,7 +685,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public isThemeElevationOverlayEnabled()Z
@@ -723,5 +715,4 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method

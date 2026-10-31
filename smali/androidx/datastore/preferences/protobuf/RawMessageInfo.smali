@@ -30,18 +30,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "defaultInstance",
-            "info",
-            "objects"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -214,6 +202,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -244,6 +235,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getObjects()[Ljava/lang/Object;
@@ -272,6 +264,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getStringInfo()Ljava/lang/String;
@@ -300,6 +293,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getSyntax()Landroidx/datastore/preferences/protobuf/ProtoSyntax;
@@ -350,6 +344,7 @@
     .line 19
     return-object v0
     .line 20
+    .line 21
 .end method
 
 .method public isMessageSetWireFormat()Z
@@ -391,4 +386,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

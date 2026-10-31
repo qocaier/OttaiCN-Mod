@@ -71,6 +71,7 @@
     .line 19
     return-void
     .line 20
+    .line 21
 .end method
 
 .method public static synthetic a(Landroidx/camera/video/QualitySelector;Landroidx/camera/video/VideoSpec$Builder;)V
@@ -353,6 +354,7 @@
     return-object v0
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setAspectRatio(I)Landroidx/camera/video/Recorder$Builder;
@@ -365,11 +367,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lc0/p;
+    new-instance v1, Landroidx/camera/video/x;
 
     .line 4
     .line 5
-    invoke-direct {v1, p1}, Lc0/p;-><init>(I)V
+    invoke-direct {v1, p1}, Landroidx/camera/video/x;-><init>(I)V
 
     .line 6
     .line 7
@@ -451,11 +453,11 @@
 
     .line 2
     .line 3
-    new-instance v1, Lc0/o;
+    new-instance v1, Landroidx/camera/video/w;
 
     .line 4
     .line 5
-    invoke-direct {v1, p1}, Lc0/o;-><init>(I)V
+    invoke-direct {v1, p1}, Landroidx/camera/video/w;-><init>(I)V
 
     .line 6
     .line 7
@@ -548,11 +550,11 @@
 
     .line 7
     .line 8
-    new-instance v1, Lc0/q;
+    new-instance v1, Landroidx/camera/video/y;
 
     .line 9
     .line 10
-    invoke-direct {v1, p1}, Lc0/q;-><init>(Landroidx/camera/video/QualitySelector;)V
+    invoke-direct {v1, p1}, Landroidx/camera/video/y;-><init>(Landroidx/camera/video/QualitySelector;)V
 
     .line 11
     .line 12
@@ -593,11 +595,11 @@
 
     .line 4
     .line 5
-    new-instance v1, Lc0/n;
+    new-instance v1, Landroidx/camera/video/v;
 
     .line 6
     .line 7
-    invoke-direct {v1, p1}, Lc0/n;-><init>(I)V
+    invoke-direct {v1, p1}, Landroidx/camera/video/v;-><init>(I)V
 
     .line 8
     .line 9
@@ -698,6 +700,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setVideoEncoderFactory(Landroidx/camera/video/internal/encoder/EncoderFactory;)Landroidx/camera/video/Recorder$Builder;

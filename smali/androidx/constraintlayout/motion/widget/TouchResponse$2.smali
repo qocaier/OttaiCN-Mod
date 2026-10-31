@@ -20,14 +20,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/constraintlayout/motion/widget/TouchResponse;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            "this$0"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -63,22 +55,6 @@
 # virtual methods
 .method public onScrollChange(Landroidx/core/widget/NestedScrollView;IIII)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "v",
-            "scrollX",
-            "scrollY",
-            "oldScrollX",
-            "oldScrollY"
-        }
-    .end annotation
 
     return-void
 .end method

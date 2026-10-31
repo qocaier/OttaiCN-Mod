@@ -3,29 +3,19 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ldk/o;
-.implements Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$b;
+.implements Lb8/g;
+.implements Lio/reactivex/internal/operators/flowable/n;
 
 
 # annotations
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x19
-    name = "TimeoutFallbackSubscriber"
-.end annotation
-
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<T:",
         "Ljava/lang/Object;",
         ">",
         "Lio/reactivex/internal/subscriptions/SubscriptionArbiter;",
-        "Ldk/o<",
-        "TT;>;",
-        "Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$b;"
+        "Lb8/g;",
+        "Lio/reactivex/internal/operators/flowable/n;"
     }
 .end annotation
 
@@ -37,20 +27,18 @@
 # instance fields
 .field consumed:J
 
-.field final downstream:Luq/d;
+.field final downstream:Laa/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Luq/d<",
-            "-TT;>;"
+            "Laa/c;"
         }
     .end annotation
 .end field
 
-.field fallback:Luq/c;
+.field fallback:Laa/b;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Luq/c<",
-            "+TT;>;"
+            "Laa/b;"
         }
     .end annotation
 .end field
@@ -67,40 +55,40 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/concurrent/atomic/AtomicReference<",
-            "Luq/e;",
+            "Laa/d;",
             ">;"
         }
     .end annotation
 .end field
 
-.field final worker:Ldk/h0$c;
+.field final worker:Lb8/p$a;
 
 
 # direct methods
-.method public constructor <init>(Luq/d;JLjava/util/concurrent/TimeUnit;Ldk/h0$c;Luq/c;)V
-    .locals 1
+.method public constructor <init>(Laa/c;JLjava/util/concurrent/TimeUnit;Lb8/p$a;Laa/b;)V
+    .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Luq/d<",
-            "-TT;>;J",
+            "Laa/c;",
+            "J",
             "Ljava/util/concurrent/TimeUnit;",
-            "Ldk/h0$c;",
-            "Luq/c<",
-            "+TT;>;)V"
+            "Lb8/p$a;",
+            "Laa/b;",
+            ")V"
         }
     .end annotation
 
     .line 1
-    const/4 v0, 0x1
+    const/4 p5, 0x1
 
     .line 2
-    invoke-direct {p0, v0}, Lio/reactivex/internal/subscriptions/SubscriptionArbiter;-><init>(Z)V
+    invoke-direct {p0, p5}, Lio/reactivex/internal/subscriptions/SubscriptionArbiter;-><init>(Z)V
 
     .line 3
     .line 4
     .line 5
-    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->downstream:Luq/d;
+    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->downstream:Laa/c;
 
     .line 6
     .line 7
@@ -112,54 +100,52 @@
 
     .line 10
     .line 11
-    iput-object p5, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->worker:Ldk/h0$c;
+    iput-object p6, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->fallback:Laa/b;
 
     .line 12
     .line 13
-    iput-object p6, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->fallback:Luq/c;
+    new-instance p1, Lio/reactivex/internal/disposables/SequentialDisposable;
 
     .line 14
     .line 15
-    new-instance p1, Lio/reactivex/internal/disposables/SequentialDisposable;
+    invoke-direct {p1}, Lio/reactivex/internal/disposables/SequentialDisposable;-><init>()V
 
     .line 16
     .line 17
-    invoke-direct {p1}, Lio/reactivex/internal/disposables/SequentialDisposable;-><init>()V
-
     .line 18
+    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->task:Lio/reactivex/internal/disposables/SequentialDisposable;
+
     .line 19
     .line 20
-    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->task:Lio/reactivex/internal/disposables/SequentialDisposable;
+    new-instance p1, Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 21
     .line 22
-    new-instance p1, Ljava/util/concurrent/atomic/AtomicReference;
+    invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
 
     .line 23
     .line 24
-    invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
-
     .line 25
+    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->upstream:Ljava/util/concurrent/atomic/AtomicReference;
+
     .line 26
     .line 27
-    iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->upstream:Ljava/util/concurrent/atomic/AtomicReference;
+    new-instance p1, Ljava/util/concurrent/atomic/AtomicLong;
 
     .line 28
     .line 29
-    new-instance p1, Ljava/util/concurrent/atomic/AtomicLong;
+    invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicLong;-><init>()V
 
     .line 30
     .line 31
-    invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicLong;-><init>()V
-
     .line 32
-    .line 33
-    .line 34
     iput-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->index:Ljava/util/concurrent/atomic/AtomicLong;
 
+    .line 33
+    .line 34
+    return-void
     .line 35
     .line 36
-    return-void
     .line 37
     .line 38
     .line 39
@@ -397,65 +383,6 @@
     .line 271
     .line 272
     .line 273
-    .line 274
-    .line 275
-    .line 276
-    .line 277
-    .line 278
-    .line 279
-    .line 280
-    .line 281
-    .line 282
-    .line 283
-    .line 284
-    .line 285
-    .line 286
-    .line 287
-    .line 288
-    .line 289
-    .line 290
-    .line 291
-    .line 292
-    .line 293
-    .line 294
-    .line 295
-    .line 296
-    .line 297
-    .line 298
-    .line 299
-    .line 300
-    .line 301
-    .line 302
-    .line 303
-    .line 304
-    .line 305
-    .line 306
-    .line 307
-    .line 308
-    .line 309
-    .line 310
-    .line 311
-    .line 312
-    .line 313
-    .line 314
-    .line 315
-    .line 316
-    .line 317
-    .line 318
-    .line 319
-    .line 320
-    .line 321
-    .line 322
-    .line 323
-    .line 324
-    .line 325
-    .line 326
-    .line 327
-    .line 328
-    .line 329
-    .line 330
-    .line 331
-    .line 332
 .end method
 
 
@@ -469,16 +396,14 @@
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->worker:Ldk/h0$c;
+    const/4 v0, 0x0
 
     .line 5
+    throw v0
     .line 6
-    invoke-interface {v0}, Lfk/b;->dispose()V
-
     .line 7
     .line 8
     .line 9
-    return-void
     .line 10
     .line 11
     .line 12
@@ -493,6 +418,33 @@
     .line 21
     .line 22
     .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
 .end method
 
 .method public onComplete()V
@@ -522,39 +474,39 @@
 
     .line 13
     .line 14
-    if-eqz v0, :cond_0
+    if-nez v0, :cond_0
 
     .line 15
     .line 16
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->task:Lio/reactivex/internal/disposables/SequentialDisposable;
+    return-void
 
     .line 17
+    :cond_0
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->task:Lio/reactivex/internal/disposables/SequentialDisposable;
+
     .line 18
+    .line 19
     invoke-virtual {v0}, Lio/reactivex/internal/disposables/SequentialDisposable;->dispose()V
 
-    .line 19
     .line 20
     .line 21
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->downstream:Luq/d;
-
     .line 22
-    .line 23
-    invoke-interface {v0}, Luq/d;->onComplete()V
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->downstream:Laa/c;
 
+    .line 23
     .line 24
+    invoke-interface {v0}, Laa/c;->onComplete()V
+
     .line 25
     .line 26
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->worker:Ldk/h0$c;
-
     .line 27
-    .line 28
-    invoke-interface {v0}, Lfk/b;->dispose()V
+    const/4 v0, 0x0
 
+    .line 28
+    throw v0
     .line 29
     .line 30
     .line 31
-    :cond_0
-    return-void
     .line 32
     .line 33
     .line 34
@@ -574,56 +526,6 @@
     .line 48
     .line 49
     .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
-    .line 87
-    .line 88
-    .line 89
-    .line 90
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
 .end method
 
 .method public onError(Ljava/lang/Throwable;)V
@@ -653,47 +555,45 @@
 
     .line 13
     .line 14
-    if-eqz v0, :cond_0
+    if-nez v0, :cond_0
 
     .line 15
     .line 16
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->task:Lio/reactivex/internal/disposables/SequentialDisposable;
+    invoke-static {p1}, Lh8/a;->e(Ljava/lang/Throwable;)V
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Lio/reactivex/internal/disposables/SequentialDisposable;->dispose()V
-
     .line 19
-    .line 20
-    .line 21
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->downstream:Luq/d;
-
-    .line 22
-    .line 23
-    invoke-interface {v0, p1}, Luq/d;->onError(Ljava/lang/Throwable;)V
-
-    .line 24
-    .line 25
-    .line 26
-    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->worker:Ldk/h0$c;
-
-    .line 27
-    .line 28
-    invoke-interface {p1}, Lfk/b;->dispose()V
-
-    .line 29
-    .line 30
-    .line 31
     return-void
 
-    .line 32
+    .line 20
     :cond_0
-    invoke-static {p1}, Lbl/a;->Y(Ljava/lang/Throwable;)V
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->task:Lio/reactivex/internal/disposables/SequentialDisposable;
 
+    .line 21
+    .line 22
+    invoke-virtual {v0}, Lio/reactivex/internal/disposables/SequentialDisposable;->dispose()V
+
+    .line 23
+    .line 24
+    .line 25
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->downstream:Laa/c;
+
+    .line 26
+    .line 27
+    invoke-interface {v0, p1}, Laa/c;->onError(Ljava/lang/Throwable;)V
+
+    .line 28
+    .line 29
+    .line 30
+    const/4 p1, 0x0
+
+    .line 31
+    throw p1
+    .line 32
     .line 33
     .line 34
     .line 35
-    return-void
     .line 36
     .line 37
     .line 38
@@ -716,25 +616,6 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
 .method public onNext(Ljava/lang/Object;)V
@@ -813,11 +694,11 @@
     move-result-object v0
 
     .line 35
-    check-cast v0, Lfk/b;
+    check-cast v0, Lio/reactivex/disposables/b;
 
     .line 36
     .line 37
-    invoke-interface {v0}, Lfk/b;->dispose()V
+    invoke-interface {v0}, Lio/reactivex/disposables/b;->dispose()V
 
     .line 38
     .line 39
@@ -833,11 +714,11 @@
 
     .line 44
     .line 45
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->downstream:Luq/d;
+    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->downstream:Laa/c;
 
     .line 46
     .line 47
-    invoke-interface {v0, p1}, Luq/d;->onNext(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Laa/c;->onNext(Ljava/lang/Object;)V
 
     .line 48
     .line 49
@@ -854,28 +735,9 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
-.method public onSubscribe(Luq/e;)V
+.method public onSubscribe(Laa/d;)V
     .locals 1
 
     .line 1
@@ -883,7 +745,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Lio/reactivex/internal/subscriptions/SubscriptionHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Luq/e;)Z
+    invoke-static {v0, p1}, Lio/reactivex/internal/subscriptions/SubscriptionHelper;->setOnce(Ljava/util/concurrent/atomic/AtomicReference;Laa/d;)Z
 
     .line 4
     .line 5
@@ -895,7 +757,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, p1}, Lio/reactivex/internal/subscriptions/SubscriptionArbiter;->setSubscription(Luq/e;)V
+    invoke-virtual {p0, p1}, Lio/reactivex/internal/subscriptions/SubscriptionArbiter;->setSubscription(Laa/d;)V
 
     .line 10
     .line 11
@@ -914,6 +776,39 @@
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method
 
 .method public onTimeout(J)V
@@ -974,46 +869,44 @@
     .line 29
     .line 30
     :cond_0
-    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->fallback:Luq/c;
+    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->fallback:Laa/b;
 
     .line 31
     .line 32
     const/4 p2, 0x0
 
     .line 33
-    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->fallback:Luq/c;
+    iput-object p2, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->fallback:Laa/b;
 
     .line 34
     .line 35
-    new-instance p2, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$a;
+    new-instance v0, Lio/reactivex/internal/operators/flowable/m;
 
     .line 36
     .line 37
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->downstream:Luq/d;
+    iget-object v1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->downstream:Laa/c;
 
     .line 38
     .line 39
-    invoke-direct {p2, v0, p0}, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$a;-><init>(Luq/d;Lio/reactivex/internal/subscriptions/SubscriptionArbiter;)V
+    invoke-direct {v0, v1, p0}, Lio/reactivex/internal/operators/flowable/m;-><init>(Laa/c;Lio/reactivex/internal/subscriptions/SubscriptionArbiter;)V
 
     .line 40
     .line 41
     .line 42
-    invoke-interface {p1, p2}, Luq/c;->subscribe(Luq/d;)V
+    invoke-interface {p1, v0}, Laa/b;->subscribe(Laa/c;)V
 
     .line 43
     .line 44
     .line 45
-    iget-object p1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->worker:Ldk/h0$c;
+    throw p2
 
     .line 46
+    :cond_1
+    return-void
     .line 47
-    invoke-interface {p1}, Lfk/b;->dispose()V
-
     .line 48
     .line 49
     .line 50
-    :cond_1
-    return-void
     .line 51
     .line 52
     .line 53
@@ -1021,71 +914,73 @@
     .line 55
     .line 56
     .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
 .method public startTimeout(J)V
-    .locals 4
+    .locals 1
 
     .line 1
-    iget-object v0, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->task:Lio/reactivex/internal/disposables/SequentialDisposable;
+    new-instance v0, Lio/reactivex/internal/operators/flowable/o;
 
     .line 2
     .line 3
-    iget-object v1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->worker:Ldk/h0$c;
+    invoke-direct {v0, p1, p2, p0}, Lio/reactivex/internal/operators/flowable/o;-><init>(JLio/reactivex/internal/operators/flowable/n;)V
 
     .line 4
     .line 5
-    new-instance v2, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$c;
-
     .line 6
-    .line 7
-    invoke-direct {v2, p1, p2, p0}, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$c;-><init>(JLio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$b;)V
+    const/4 p1, 0x0
 
+    .line 7
+    throw p1
     .line 8
     .line 9
     .line 10
-    iget-wide p1, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->timeout:J
-
     .line 11
     .line 12
-    iget-object v3, p0, Lio/reactivex/internal/operators/flowable/FlowableTimeoutTimed$TimeoutFallbackSubscriber;->unit:Ljava/util/concurrent/TimeUnit;
-
     .line 13
     .line 14
-    invoke-virtual {v1, v2, p1, p2, v3}, Ldk/h0$c;->c(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lfk/b;
-
     .line 15
     .line 16
     .line 17
-    move-result-object p1
-
     .line 18
-    invoke-virtual {v0, p1}, Lio/reactivex/internal/disposables/SequentialDisposable;->replace(Lfk/b;)Z
-
     .line 19
     .line 20
     .line 21
-    return-void
     .line 22
     .line 23
     .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
 .end method

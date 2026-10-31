@@ -54,7 +54,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -96,7 +95,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public b(Lcom/baidu/platform/comapi/bmsdk/animation/BmAnimation;)V
@@ -136,7 +134,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public c(Lcom/baidu/platform/comapi/bmsdk/animation/BmAnimation;)V
@@ -176,5 +173,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

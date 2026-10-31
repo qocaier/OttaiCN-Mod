@@ -3,23 +3,6 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation build Lb9/a;
-.end annotation
-
-.annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/google/android/gms/common/server/response/FastParser;
-.end annotation
-
-.annotation system Ldalvik/annotation/InnerClass;
-    accessFlags = 0x9
-    name = "ParseException"
-.end annotation
-
-.annotation build Lh9/x;
-.end annotation
-
-
 # direct methods
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0

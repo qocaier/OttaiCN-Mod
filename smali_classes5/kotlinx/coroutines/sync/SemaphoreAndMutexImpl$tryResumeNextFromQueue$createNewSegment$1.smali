@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/p;
+.implements Lq8/p;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkotlinx/coroutines/sync/SemaphoreAndMutexImpl;->K()Z
+    value = Lkotlinx/coroutines/sync/SemaphoreAndMutexImpl;->t()Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,11 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/FunctionReferenceImpl;",
-        "Ljm/p<",
-        "Ljava/lang/Long;",
-        "Lrn/i;",
-        "Lrn/i;",
-        ">;"
+        "Lq8/p;"
     }
 .end annotation
 
@@ -77,20 +73,20 @@
 
     move-result-wide v0
 
-    check-cast p2, Lrn/i;
+    check-cast p2, Lkotlinx/coroutines/sync/i;
 
-    invoke-virtual {p0, v0, v1, p2}, Lkotlinx/coroutines/sync/SemaphoreAndMutexImpl$tryResumeNextFromQueue$createNewSegment$1;->invoke(JLrn/i;)Lrn/i;
+    invoke-virtual {p0, v0, v1, p2}, Lkotlinx/coroutines/sync/SemaphoreAndMutexImpl$tryResumeNextFromQueue$createNewSegment$1;->invoke(JLkotlinx/coroutines/sync/i;)Lkotlinx/coroutines/sync/i;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final invoke(JLrn/i;)Lrn/i;
+.method public final invoke(JLkotlinx/coroutines/sync/i;)Lkotlinx/coroutines/sync/i;
     .locals 0
 
     .line 2
-    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/sync/SemaphoreKt;->c(JLrn/i;)Lrn/i;
+    invoke-static {p1, p2, p3}, Lkotlinx/coroutines/sync/SemaphoreKt;->a(JLkotlinx/coroutines/sync/i;)Lkotlinx/coroutines/sync/i;
 
     move-result-object p1
 

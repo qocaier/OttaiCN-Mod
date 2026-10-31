@@ -30,6 +30,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method private static a(Lcom/qiyukf/w90;Lcom/qiyukf/fy;)V
@@ -151,9 +153,9 @@
     move-result-object v1
 
     .line 4
-    new-instance v2, Lvg/w1;
+    new-instance v2, Lcom/qiyukf/gh0;
 
-    invoke-direct {v2, v0, p1}, Lvg/w1;-><init>(Lcom/qiyukf/w90;Lcom/qiyukf/fy;)V
+    invoke-direct {v2, v0, p1}, Lcom/qiyukf/gh0;-><init>(Lcom/qiyukf/w90;Lcom/qiyukf/fy;)V
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

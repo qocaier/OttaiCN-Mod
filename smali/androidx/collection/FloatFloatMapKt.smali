@@ -5,9 +5,6 @@
 
 # static fields
 .field private static final EmptyFloatFloatMap:Landroidx/collection/MutableFloatFloatMap;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -43,12 +40,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final emptyFloatFloatMap()Landroidx/collection/FloatFloatMap;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/collection/FloatFloatMapKt;->EmptyFloatFloatMap:Landroidx/collection/MutableFloatFloatMap;
@@ -73,12 +69,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final floatFloatMapOf()Landroidx/collection/FloatFloatMap;
     .locals 1
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     sget-object v0, Landroidx/collection/FloatFloatMapKt;->EmptyFloatFloatMap:Landroidx/collection/MutableFloatFloatMap;
@@ -88,8 +83,6 @@
 
 .method public static final floatFloatMapOf(FF)Landroidx/collection/FloatFloatMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroidx/collection/MutableFloatFloatMap;
@@ -100,7 +93,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 3
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
@@ -110,8 +103,6 @@
 
 .method public static final floatFloatMapOf(FFFF)Landroidx/collection/FloatFloatMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     new-instance v0, Landroidx/collection/MutableFloatFloatMap;
@@ -122,7 +113,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 5
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
@@ -135,8 +126,6 @@
 
 .method public static final floatFloatMapOf(FFFFFF)Landroidx/collection/FloatFloatMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 7
     new-instance v0, Landroidx/collection/MutableFloatFloatMap;
@@ -147,7 +136,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 8
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
@@ -163,8 +152,6 @@
 
 .method public static final floatFloatMapOf(FFFFFFFF)Landroidx/collection/FloatFloatMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 11
     new-instance v0, Landroidx/collection/MutableFloatFloatMap;
@@ -175,7 +162,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 12
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
@@ -194,8 +181,6 @@
 
 .method public static final floatFloatMapOf(FFFFFFFFFF)Landroidx/collection/FloatFloatMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 16
     new-instance v0, Landroidx/collection/MutableFloatFloatMap;
@@ -206,7 +191,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 17
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
@@ -228,8 +213,6 @@
 
 .method public static final mutableFloatFloatMapOf()Landroidx/collection/MutableFloatFloatMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 1
     new-instance v0, Landroidx/collection/MutableFloatFloatMap;
@@ -240,15 +223,13 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     return-object v0
 .end method
 
 .method public static final mutableFloatFloatMapOf(FF)Landroidx/collection/MutableFloatFloatMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 2
     new-instance v0, Landroidx/collection/MutableFloatFloatMap;
@@ -259,7 +240,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 3
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
@@ -269,8 +250,6 @@
 
 .method public static final mutableFloatFloatMapOf(FFFF)Landroidx/collection/MutableFloatFloatMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 4
     new-instance v0, Landroidx/collection/MutableFloatFloatMap;
@@ -281,7 +260,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 5
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
@@ -294,8 +273,6 @@
 
 .method public static final mutableFloatFloatMapOf(FFFFFF)Landroidx/collection/MutableFloatFloatMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 7
     new-instance v0, Landroidx/collection/MutableFloatFloatMap;
@@ -306,7 +283,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 8
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
@@ -322,8 +299,6 @@
 
 .method public static final mutableFloatFloatMapOf(FFFFFFFF)Landroidx/collection/MutableFloatFloatMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 11
     new-instance v0, Landroidx/collection/MutableFloatFloatMap;
@@ -334,7 +309,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 12
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
@@ -353,8 +328,6 @@
 
 .method public static final mutableFloatFloatMapOf(FFFFFFFFFF)Landroidx/collection/MutableFloatFloatMap;
     .locals 4
-    .annotation build Lsq/k;
-    .end annotation
 
     .line 16
     new-instance v0, Landroidx/collection/MutableFloatFloatMap;
@@ -365,7 +338,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkm/v;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/f;)V
 
     .line 17
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V

@@ -110,6 +110,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -163,6 +164,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public eldest()Ljava/util/Map$Entry;
@@ -201,6 +203,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -539,6 +542,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public get(Ljava/lang/Object;)Landroidx/arch/core/internal/SafeIterableMap$Entry;
@@ -720,6 +728,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public iterator()Ljava/util/Iterator;
@@ -771,6 +781,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public iteratorWithAdditions()Landroidx/arch/core/internal/SafeIterableMap$IteratorWithAdditions;
@@ -817,6 +828,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public newest()Ljava/util/Map$Entry;
@@ -855,6 +867,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public put(Ljava/lang/Object;Ljava/lang/Object;)Landroidx/arch/core/internal/SafeIterableMap$Entry;
@@ -1213,6 +1226,7 @@
     .line 77
     return-object p1
     .line 78
+    .line 79
 .end method
 
 .method public size()I
@@ -1241,6 +1255,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1384,4 +1399,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

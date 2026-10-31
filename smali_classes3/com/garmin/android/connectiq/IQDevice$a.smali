@@ -16,15 +16,6 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/Signature;
-    value = {
-        "Ljava/lang/Object;",
-        "Landroid/os/Parcelable$Creator<",
-        "Lcom/garmin/android/connectiq/IQDevice;",
-        ">;"
-    }
-.end annotation
-
 
 # direct methods
 .method public constructor <init>()V
@@ -55,7 +46,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -92,7 +82,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public b(I)[Lcom/garmin/android/connectiq/IQDevice;
@@ -125,7 +114,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
@@ -160,7 +148,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
@@ -195,5 +182,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

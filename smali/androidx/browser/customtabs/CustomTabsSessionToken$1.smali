@@ -21,14 +21,6 @@
 # direct methods
 .method public constructor <init>(Landroidx/browser/customtabs/CustomTabsSessionToken;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x8010
-        }
-        names = {
-            null
-        }
-    .end annotation
 
     .line 1
     iput-object p1, p0, Landroidx/browser/customtabs/CustomTabsSessionToken$1;->this$0:Landroidx/browser/customtabs/CustomTabsSessionToken;
@@ -1391,6 +1383,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public onMessageChannelReady(Landroid/os/Bundle;)V
@@ -1887,6 +1882,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public onUnminimized(Landroid/os/Bundle;)V

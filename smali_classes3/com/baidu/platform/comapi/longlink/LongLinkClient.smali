@@ -160,7 +160,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public init(Ljava/lang/String;Ljava/lang/String;)Z
@@ -251,11 +250,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public isValid()Z
@@ -299,7 +293,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public declared-synchronized register(Lcom/baidu/platform/comapi/longlink/LongLinkDataCallback;)Z
@@ -443,8 +436,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public release()I
@@ -494,7 +485,6 @@
     return v0
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public declared-synchronized sendData([B)Lcom/baidu/platform/comapi/longlink/ELongLinkStatus;
@@ -656,8 +646,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public declared-synchronized sendFileData(Ljava/lang/String;Ljava/util/ArrayList;)Lcom/baidu/platform/comapi/longlink/ELongLinkStatus;
@@ -805,11 +793,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public setModuleId(I)V
@@ -842,7 +825,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public start()Z
@@ -895,7 +877,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public stop()V
@@ -946,7 +927,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public declared-synchronized unRegister(Lcom/baidu/platform/comapi/longlink/LongLinkDataCallback;)Z
@@ -1090,6 +1070,4 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method

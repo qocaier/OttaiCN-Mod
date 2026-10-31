@@ -4,45 +4,19 @@
 
 
 # direct methods
-.method public static final edit(Landroidx/datastore/core/DataStore;Ljm/p;Lul/c;)Ljava/lang/Object;
+.method public static final edit(Landroidx/datastore/core/DataStore;Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
     .locals 2
-    .param p0    # Landroidx/datastore/core/DataStore;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljm/p;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Lul/c;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroidx/datastore/core/DataStore<",
             "Landroidx/datastore/preferences/core/Preferences;",
             ">;",
-            "Ljm/p<",
-            "-",
-            "Landroidx/datastore/preferences/core/MutablePreferences;",
-            "-",
-            "Lul/c<",
-            "-",
-            "Ljl/e2;",
-            ">;+",
-            "Ljava/lang/Object;",
-            ">;",
-            "Lul/c<",
-            "-",
-            "Landroidx/datastore/preferences/core/Preferences;",
-            ">;)",
+            "Lq8/p;",
+            "Lkotlin/coroutines/e;",
+            ")",
             "Ljava/lang/Object;"
         }
-    .end annotation
-
-    .annotation build Lsq/l;
     .end annotation
 
     .line 1
@@ -53,12 +27,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, p1, v1}, Landroidx/datastore/preferences/core/PreferencesKt$edit$2;-><init>(Ljm/p;Lul/c;)V
+    invoke-direct {v0, p1, v1}, Landroidx/datastore/preferences/core/PreferencesKt$edit$2;-><init>(Lq8/p;Lkotlin/coroutines/e;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-interface {p0, v0, p2}, Landroidx/datastore/core/DataStore;->updateData(Ljm/p;Lul/c;)Ljava/lang/Object;
+    invoke-interface {p0, v0, p2}, Landroidx/datastore/core/DataStore;->updateData(Lq8/p;Lkotlin/coroutines/e;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -169,4 +143,7 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method

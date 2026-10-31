@@ -123,14 +123,6 @@
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "context"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
@@ -271,16 +263,6 @@
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs"
-        }
-    .end annotation
 
     .line 33
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -419,18 +401,6 @@
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs",
-            "defStyleAttr"
-        }
-    .end annotation
 
     .line 65
     invoke-direct {p0, p1, p2, p3}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -631,20 +601,6 @@
 
 .method private adjustTexture(FFFF)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "l",
-            "t",
-            "r",
-            "b"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mTextShaderMatrix:Landroid/graphics/Matrix;
@@ -894,6 +850,12 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private getHorizontalOffset()F
@@ -1070,6 +1032,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private getVerticalOffset()F
@@ -1248,20 +1212,12 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private init(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/utils/widget/MotionLabel;->setUpTheme(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -3155,18 +3111,6 @@
 
 .method private setTypefaceFromAttrs(Ljava/lang/String;II)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "familyName",
-            "typefaceIndex",
-            "styleIndex"
-        }
-    .end annotation
 
     .line 1
     if-eqz p1, :cond_0
@@ -3402,6 +3346,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method private setUpTheme(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -3410,16 +3357,6 @@
         .annotation build Landroidx/annotation/Nullable;
         .end annotation
     .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "context",
-            "attrs"
-        }
-    .end annotation
 
     .line 1
     new-instance p2, Landroid/util/TypedValue;
@@ -4027,6 +3964,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method private updateShaderMatrix()V
@@ -4621,22 +4610,64 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 
 # virtual methods
 .method public blur(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
     .locals 5
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "bitmapOriginal",
-            "factor"
-        }
-    .end annotation
 
     .line 1
     invoke-static {}, Ljava/lang/System;->nanoTime()J
@@ -4739,14 +4770,6 @@
 
 .method public buildShape(F)V
     .locals 10
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "scale"
-        }
-    .end annotation
 
     .line 1
     iget-boolean v0, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mUseOutline:Z
@@ -5117,6 +5140,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public getRound()F
@@ -5145,6 +5173,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRoundPercent()F
@@ -5173,6 +5202,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getScaleFromTextSize()F
@@ -5201,6 +5231,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextBackgroundPanX()F
@@ -5229,6 +5260,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextBackgroundPanY()F
@@ -5257,6 +5289,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextBackgroundRotate()F
@@ -5285,6 +5318,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextBackgroundZoom()F
@@ -5313,6 +5347,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextOutlineColor()I
@@ -5341,6 +5376,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextPanX()F
@@ -5369,6 +5405,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextPanY()F
@@ -5397,6 +5434,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextureHeight()F
@@ -5425,6 +5463,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTextureWidth()F
@@ -5453,6 +5492,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getTypeface()Landroid/graphics/Typeface;
@@ -5485,24 +5525,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public layout(FFFF)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "l",
-            "t",
-            "r",
-            "b"
-        }
-    .end annotation
 
     const/high16 v0, 0x3f000000    # 0.5f
 
@@ -5775,20 +5802,6 @@
 
 .method public layout(IIII)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "l",
-            "t",
-            "r",
-            "b"
-        }
-    .end annotation
 
     .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->layout(IIII)V
@@ -6037,14 +6050,6 @@
 
 .method public onDraw(Landroid/graphics/Canvas;)V
     .locals 4
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "canvas"
-        }
-    .end annotation
 
     .line 1
     iget v0, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mBaseTextSize:F
@@ -7762,16 +7767,6 @@
 
 .method public onMeasure(II)V
     .locals 8
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "widthMeasureSpec",
-            "heightMeasureSpec"
-        }
-    .end annotation
 
     .line 1
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getMode(I)I
@@ -8146,6 +8141,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public setGravity(I)V
@@ -8153,15 +8151,6 @@
     .annotation build Landroid/annotation/SuppressLint;
         value = {
             "RtlHardcoded"
-        }
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "gravity"
         }
     .end annotation
 
@@ -8328,21 +8317,13 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setRound(F)V
     .locals 4
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "round"
-        }
     .end annotation
 
     .line 1
@@ -8707,21 +8688,17 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setRoundPercent(F)V
     .locals 5
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x15
-    .end annotation
-
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "round"
-        }
     .end annotation
 
     .line 1
@@ -9079,18 +9056,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setScaleFromTextSize(F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "size"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mBaseTextSize:F
@@ -9124,14 +9098,6 @@
 
 .method public setText(Ljava/lang/CharSequence;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "text"
-        }
-    .end annotation
 
     .line 1
     invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
@@ -9171,14 +9137,6 @@
 
 .method public setTextBackgroundPanX(F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "pan"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mBackgroundPanX:F
@@ -9216,14 +9174,6 @@
 
 .method public setTextBackgroundPanY(F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "pan"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mBackgroundPanY:F
@@ -9261,14 +9211,6 @@
 
 .method public setTextBackgroundRotate(F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "rotation"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mRotate:F
@@ -9306,14 +9248,6 @@
 
 .method public setTextBackgroundZoom(F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "zoom"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mZoom:F
@@ -9351,14 +9285,6 @@
 
 .method public setTextFillColor(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "color"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mTextFillColor:I
@@ -9394,14 +9320,6 @@
 
 .method public setTextOutlineColor(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "color"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mTextOutlineColor:I
@@ -9441,14 +9359,6 @@
 
 .method public setTextOutlineThickness(F)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "width"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mTextOutlineThickness:F
@@ -9503,14 +9413,6 @@
 
 .method public setTextPanX(F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "textPanX"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mTextPanX:F
@@ -9546,14 +9448,6 @@
 
 .method public setTextPanY(F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "textPanY"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mTextPanY:F
@@ -9589,14 +9483,6 @@
 
 .method public setTextSize(F)V
     .locals 3
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "size"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mTextSize:F
@@ -9915,18 +9801,15 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public setTextureHeight(F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mTextureHeight"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mTextureHeight:F
@@ -9964,14 +9847,6 @@
 
 .method public setTextureWidth(F)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "mTextureWidth"
-        }
-    .end annotation
 
     .line 1
     iput p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mTextureWidth:F
@@ -10009,14 +9884,6 @@
 
 .method public setTypeface(Landroid/graphics/Typeface;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "tf"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mPaint:Landroid/text/TextPaint;
@@ -10122,6 +9989,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public setupPath()V
@@ -10278,4 +10146,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

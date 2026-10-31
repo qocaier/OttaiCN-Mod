@@ -46,6 +46,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 
@@ -106,6 +108,8 @@
     .line 24
     return-object p1
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public i()Lcom/qiyukf/nimlib/sdk/msg/model/MessageKey;
@@ -134,6 +138,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public j()Lcom/qiyukf/lp;
@@ -162,4 +168,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

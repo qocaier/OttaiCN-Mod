@@ -23,14 +23,6 @@
 # direct methods
 .method private constructor <init>(I)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "size"
-        }
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -95,6 +87,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getCodedOutput()Landroidx/datastore/preferences/protobuf/CodedOutputStream;
@@ -123,4 +116,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

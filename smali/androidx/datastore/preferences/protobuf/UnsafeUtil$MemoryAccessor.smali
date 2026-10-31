@@ -21,14 +21,6 @@
 # direct methods
 .method public constructor <init>(Lsun/misc/Unsafe;)V
     .locals 0
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "unsafe"
-        }
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -66,15 +58,6 @@
 # virtual methods
 .method public final arrayBaseOffset(Ljava/lang/Class;)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "clazz"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -119,15 +102,6 @@
 
 .method public final arrayIndexScale(Ljava/lang/Class;)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "clazz"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -171,125 +145,31 @@
 .end method
 
 .method public abstract copyMemory(J[BJJ)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "srcOffset",
-            "target",
-            "targetIndex",
-            "length"
-        }
-    .end annotation
 .end method
 
 .method public abstract copyMemory([BJJJ)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "src",
-            "srcIndex",
-            "targetOffset",
-            "length"
-        }
-    .end annotation
 .end method
 
 .method public abstract getBoolean(Ljava/lang/Object;J)Z
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 .end method
 
 .method public abstract getByte(J)B
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "address"
-        }
-    .end annotation
 .end method
 
 .method public abstract getByte(Ljava/lang/Object;J)B
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 .end method
 
 .method public abstract getDouble(Ljava/lang/Object;J)D
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 .end method
 
 .method public abstract getFloat(Ljava/lang/Object;J)F
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 .end method
 
 .method public abstract getInt(J)I
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "address"
-        }
-    .end annotation
 .end method
 
 .method public final getInt(Ljava/lang/Object;J)I
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->unsafe:Lsun/misc/Unsafe;
@@ -302,28 +182,10 @@
 .end method
 
 .method public abstract getLong(J)J
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "address"
-        }
-    .end annotation
 .end method
 
 .method public final getLong(Ljava/lang/Object;J)J
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->unsafe:Lsun/misc/Unsafe;
@@ -337,16 +199,6 @@
 
 .method public final getObject(Ljava/lang/Object;J)Ljava/lang/Object;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->unsafe:Lsun/misc/Unsafe;
@@ -406,26 +258,10 @@
 .end method
 
 .method public abstract getStaticObject(Ljava/lang/reflect/Field;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "field"
-        }
-    .end annotation
 .end method
 
 .method public final objectFieldOffset(Ljava/lang/reflect/Field;)J
     .locals 2
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "field"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->unsafe:Lsun/misc/Unsafe;
@@ -462,105 +298,25 @@
 .end method
 
 .method public abstract putBoolean(Ljava/lang/Object;JZ)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 .end method
 
 .method public abstract putByte(JB)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "address",
-            "value"
-        }
-    .end annotation
 .end method
 
 .method public abstract putByte(Ljava/lang/Object;JB)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 .end method
 
 .method public abstract putDouble(Ljava/lang/Object;JD)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 .end method
 
 .method public abstract putFloat(Ljava/lang/Object;JF)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 .end method
 
 .method public abstract putInt(JI)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "address",
-            "value"
-        }
-    .end annotation
 .end method
 
 .method public final putInt(Ljava/lang/Object;JI)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->unsafe:Lsun/misc/Unsafe;
@@ -571,32 +327,10 @@
 .end method
 
 .method public abstract putLong(JJ)V
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0
-        }
-        names = {
-            "address",
-            "value"
-        }
-    .end annotation
 .end method
 
 .method public final putLong(Ljava/lang/Object;JJ)V
     .locals 6
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->unsafe:Lsun/misc/Unsafe;
@@ -614,18 +348,6 @@
 
 .method public final putObject(Ljava/lang/Object;JLjava/lang/Object;)V
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0,
-            0x0,
-            0x0
-        }
-        names = {
-            "target",
-            "offset",
-            "value"
-        }
-    .end annotation
 
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->unsafe:Lsun/misc/Unsafe;
@@ -745,6 +467,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public supportsUnsafeArrayOperations()Z
@@ -1236,6 +961,58 @@
     .line 376
     .line 377
     .line 378
+    .line 379
+    .line 380
+    .line 381
+    .line 382
+    .line 383
+    .line 384
+    .line 385
+    .line 386
+    .line 387
+    .line 388
+    .line 389
+    .line 390
+    .line 391
+    .line 392
+    .line 393
+    .line 394
+    .line 395
+    .line 396
+    .line 397
+    .line 398
+    .line 399
+    .line 400
+    .line 401
+    .line 402
+    .line 403
+    .line 404
+    .line 405
+    .line 406
+    .line 407
+    .line 408
+    .line 409
+    .line 410
+    .line 411
+    .line 412
+    .line 413
+    .line 414
+    .line 415
+    .line 416
+    .line 417
+    .line 418
+    .line 419
+    .line 420
+    .line 421
+    .line 422
+    .line 423
+    .line 424
+    .line 425
+    .line 426
+    .line 427
+    .line 428
+    .line 429
+    .line 430
 .end method
 
 .method public supportsUnsafeByteBufferOperations()Z
@@ -1382,4 +1159,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

@@ -16,9 +16,6 @@
 
 # static fields
 .field public static final Companion:Landroidx/window/area/WindowAreaController$Companion;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -34,15 +31,6 @@
 
 .method public static getOrCreate()Landroidx/window/area/WindowAreaController;
     .locals 1
-    .annotation build Lim/j;
-        name = "getOrCreate"
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation build Lsq/k;
-    .end annotation
 
     sget-object v0, Landroidx/window/area/WindowAreaController;->Companion:Landroidx/window/area/WindowAreaController$Companion;
 
@@ -55,17 +43,10 @@
 
 .method public static overrideDecorator(Landroidx/window/area/WindowAreaControllerDecorator;)V
     .locals 1
-    .param p0    # Landroidx/window/area/WindowAreaControllerDecorator;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
-    .end annotation
-
-    .annotation runtime Lim/o;
     .end annotation
 
     sget-object v0, Landroidx/window/area/WindowAreaController;->Companion:Landroidx/window/area/WindowAreaController$Companion;
@@ -83,9 +64,6 @@
         }
     .end annotation
 
-    .annotation runtime Lim/o;
-    .end annotation
-
     sget-object v0, Landroidx/window/area/WindowAreaController;->Companion:Landroidx/window/area/WindowAreaController$Companion;
 
     invoke-virtual {v0}, Landroidx/window/area/WindowAreaController$Companion;->reset()V
@@ -95,55 +73,17 @@
 
 
 # virtual methods
-.method public abstract getWindowAreaInfos()Ljn/e;
+.method public abstract getWindowAreaInfos()Lkotlinx/coroutines/flow/c;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Ljn/e<",
-            "Ljava/util/List<",
-            "Landroidx/window/area/WindowAreaInfo;",
-            ">;>;"
+            "Lkotlinx/coroutines/flow/c;"
         }
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 .end method
 
 .method public abstract presentContentOnWindowArea(Landroid/os/Binder;Landroid/app/Activity;Ljava/util/concurrent/Executor;Landroidx/window/area/WindowAreaPresentationSessionCallback;)V
-    .param p1    # Landroid/os/Binder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/util/concurrent/Executor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroidx/window/area/WindowAreaPresentationSessionCallback;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method
 
 .method public abstract transferActivityToWindowArea(Landroid/os/Binder;Landroid/app/Activity;Ljava/util/concurrent/Executor;Landroidx/window/area/WindowAreaSessionCallback;)V
-    .param p1    # Landroid/os/Binder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/util/concurrent/Executor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroidx/window/area/WindowAreaSessionCallback;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 .end method

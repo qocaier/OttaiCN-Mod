@@ -20,6 +20,4 @@
 .end method
 
 .method public abstract simpleQueryForString()Ljava/lang/String;
-    .annotation build Lsq/l;
-    .end annotation
 .end method

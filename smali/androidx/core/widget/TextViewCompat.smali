@@ -50,6 +50,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static getAutoSizeMaxTextSize(Landroid/widget/TextView;)I
@@ -341,6 +342,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static getAutoSizeTextType(Landroid/widget/TextView;)I
@@ -841,6 +843,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method private static getTextDirectionHeuristic(Landroid/widget/TextView;)Landroid/text/TextDirectionHeuristic;
@@ -1229,6 +1232,11 @@
     .line 236
     .line 237
     .line 238
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method
 
 .method public static getTextMetricsParams(Landroid/widget/TextView;)Landroidx/core/text/PrecomputedTextCompat$Params;
@@ -1364,6 +1372,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static setAutoSizeTextTypeUniformWithConfiguration(Landroid/widget/TextView;IIII)V
@@ -2062,6 +2071,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static setAutoSizeTextTypeWithDefaults(Landroid/widget/TextView;I)V
@@ -3206,6 +3218,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static setLastBaselineToBottomHeight(Landroid/widget/TextView;I)V

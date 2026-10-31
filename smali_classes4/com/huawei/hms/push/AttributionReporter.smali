@@ -162,6 +162,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private a(Lcom/huawei/hms/push/AttributionEvent;Lcom/huawei/hms/ui/SafeBundle;)Lcom/huawei/hms/support/api/entity/push/AttributionReportReq;
@@ -361,7 +363,7 @@
     throw p1
 .end method
 
-.method private a(Lcom/huawei/hms/push/AttributionEvent;Landroid/os/Bundle;)Lme/k;
+.method private a(Lcom/huawei/hms/push/AttributionEvent;Landroid/os/Bundle;)Lq5/f;
     .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -369,9 +371,7 @@
             "Lcom/huawei/hms/push/AttributionEvent;",
             "Landroid/os/Bundle;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
@@ -474,7 +474,7 @@
     invoke-direct {v2, v1, p1, v0}, Lcom/huawei/hms/push/task/AttributionReportTask;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 10
-    invoke-virtual {p2, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lme/k;
+    invoke-virtual {p2, v2}, Lcom/huawei/hms/common/HuaweiApi;->doWrite(Lcom/huawei/hms/common/internal/TaskApiCall;)Lq5/f;
 
     move-result-object p1
 
@@ -495,9 +495,9 @@
 
     .line 12
     :catch_1
-    new-instance p1, Lme/l;
+    new-instance p1, Lq5/g;
 
-    invoke-direct {p1}, Lme/l;-><init>()V
+    invoke-direct {p1}, Lq5/g;-><init>()V
 
     .line 13
     sget-object p2, Lcom/huawei/hms/aaid/constant/ErrorEnum;->ERROR_INTERNAL_ERROR:Lcom/huawei/hms/aaid/constant/ErrorEnum;
@@ -506,7 +506,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p1, v2}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p1, v2}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 14
     invoke-virtual {p2}, Lcom/huawei/hms/aaid/constant/ErrorEnum;->getExternalCode()I
@@ -517,12 +517,12 @@
 
     .line 15
     :goto_1
-    new-instance p2, Lme/l;
+    new-instance p2, Lq5/g;
 
-    invoke-direct {p2}, Lme/l;-><init>()V
+    invoke-direct {p2}, Lq5/g;-><init>()V
 
     .line 16
-    invoke-virtual {p2, p1}, Lme/l;->c(Ljava/lang/Exception;)V
+    invoke-virtual {p2, p1}, Lq5/g;->b(Ljava/lang/Exception;)V
 
     .line 17
     invoke-virtual {p1}, Lcom/huawei/hms/common/ApiException;->getStatusCode()I
@@ -542,7 +542,7 @@
     invoke-static {v2, v1, v0, p2}, Lcom/huawei/hms/push/utils/PushBiUtil;->reportExit(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 19
-    invoke-virtual {p1}, Lme/l;->b()Lme/k;
+    invoke-virtual {p1}, Lq5/g;->a()Lq5/f;
 
     move-result-object p1
 
@@ -604,11 +604,13 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
 # virtual methods
-.method public report(Lcom/huawei/hms/push/AttributionEvent;Landroid/os/Bundle;)Lme/k;
+.method public report(Lcom/huawei/hms/push/AttributionEvent;Landroid/os/Bundle;)Lq5/f;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -616,14 +618,12 @@
             "Lcom/huawei/hms/push/AttributionEvent;",
             "Landroid/os/Bundle;",
             ")",
-            "Lme/k<",
-            "Ljava/lang/Void;",
-            ">;"
+            "Lq5/f;"
         }
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/huawei/hms/push/AttributionReporter;->a(Lcom/huawei/hms/push/AttributionEvent;Landroid/os/Bundle;)Lme/k;
+    invoke-direct {p0, p1, p2}, Lcom/huawei/hms/push/AttributionReporter;->a(Lcom/huawei/hms/push/AttributionEvent;Landroid/os/Bundle;)Lq5/f;
 
     .line 2
     .line 3
@@ -681,4 +681,14 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method

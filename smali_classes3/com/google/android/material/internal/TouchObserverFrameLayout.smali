@@ -107,7 +107,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setOnTouchListener(Landroid/view/View$OnTouchListener;)V
@@ -144,5 +143,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

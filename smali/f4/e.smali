@@ -1,193 +1,66 @@
-.class public Lf4/e;
+.class public final Lf4/e;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
+# interfaces
+.implements Lcom/google/gson/p;
 
-# annotations
-.annotation system Ldalvik/annotation/MemberClasses;
-    value = {
-        Lf4/e$b;
-    }
-.end annotation
+
+# instance fields
+.field public final a:Lcom/google/gson/internal/b;
 
 
 # direct methods
-.method public static a(Ljava/lang/String;)Lf4/e$b;
-    .locals 9
+.method public constructor <init>(Lcom/google/gson/internal/b;)V
+    .locals 0
 
     .line 1
-    const/4 v0, 0x0
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    if-eqz p0, :cond_2
-
     .line 3
     .line 4
-    new-instance v1, Lf4/e$b;
+    iput-object p1, p0, Lf4/e;->a:Lcom/google/gson/internal/b;
 
     .line 5
     .line 6
-    invoke-direct {v1, v0}, Lf4/e$b;-><init>(Lf4/e$a;)V
-
+    return-void
     .line 7
     .line 8
     .line 9
-    const/4 v2, 0x0
-
     .line 10
-    move v3, v2
-
     .line 11
-    :goto_0
-    const/16 v4, 0x100
-
     .line 12
     .line 13
-    if-ge v3, v4, :cond_0
-
     .line 14
     .line 15
-    iget-object v4, v1, Lf4/e$b;->a:[I
-
     .line 16
     .line 17
-    aput v3, v4, v3
-
     .line 18
     .line 19
-    add-int/lit8 v3, v3, 0x1
-
     .line 20
     .line 21
-    goto :goto_0
-
     .line 22
-    :cond_0
-    iput v2, v1, Lf4/e$b;->b:I
-
     .line 23
     .line 24
-    iput v2, v1, Lf4/e$b;->c:I
-
     .line 25
-    .line 26
-    move v3, v2
-
-    .line 27
-    move v5, v3
-
-    .line 28
-    :goto_1
-    if-ge v2, v4, :cond_1
-
-    .line 29
-    .line 30
-    :try_start_0
-    invoke-virtual {p0, v3}, Ljava/lang/String;->charAt(I)C
-
-    .line 31
-    .line 32
-    .line 33
-    move-result v6
-
-    .line 34
-    iget-object v7, v1, Lf4/e$b;->a:[I
-
-    .line 35
-    .line 36
-    aget v8, v7, v2
-
-    .line 37
-    .line 38
-    add-int/2addr v6, v8
-
-    .line 39
-    add-int/2addr v6, v5
-
-    .line 40
-    rem-int/lit16 v5, v6, 0x100
-
-    .line 41
-    .line 42
-    aget v6, v7, v5
-
-    .line 43
-    .line 44
-    aput v6, v7, v2
-
-    .line 45
-    .line 46
-    aput v8, v7, v5
-
-    .line 47
-    .line 48
-    add-int/lit8 v3, v3, 0x1
-
-    .line 49
-    .line 50
-    invoke-virtual {p0}, Ljava/lang/String;->length()I
-
-    .line 51
-    .line 52
-    .line 53
-    move-result v6
-
-    .line 54
-    rem-int/2addr v3, v6
-    :try_end_0
-    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 55
-    add-int/lit8 v2, v2, 0x1
-
-    .line 56
-    .line 57
-    goto :goto_1
-
-    .line 58
-    :catch_0
-    return-object v0
-
-    .line 59
-    :cond_1
-    return-object v1
-
-    .line 60
-    :cond_2
-    return-object v0
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
 .end method
 
-.method public static b([B)[B
-    .locals 1
+
+# virtual methods
+.method public a(Lcom/google/gson/internal/b;Lcom/google/gson/c;Lj4/a;Le4/b;)Lcom/google/gson/o;
+    .locals 7
 
     .line 1
-    if-eqz p0, :cond_0
+    invoke-interface {p4}, Le4/b;->value()Ljava/lang/Class;
 
     .line 2
     .line 3
-    const-string v0, "QrMgt8GGYI6T52ZY5AnhtxkLzb8egpFn3j5JELI8H6wtACbUnZ5cc3aYTsTRbmkAkRJeYbtx92LPBWm7nBO9UIl7y5i5MQNmUZNf5QENurR5tGyo7yJ2G0MBjWvy6iAtlAbacKP0SwOUeUWx5dsBdyhxa7Id1APtybSdDgicBDuNjI0mlZFUzZSS9dmN8lBD0WTVOMz0pRZbR3cysomRXOO1ghqjJdTcyDIxzpNAEszN8RMGjrzyU7Hjbmwi6YNK"
-
     .line 4
+    move-result-object v0
+
     .line 5
-    invoke-static {v0}, Lf4/e;->a(Ljava/lang/String;)Lf4/e$b;
+    invoke-static {v0}, Lj4/a;->get(Ljava/lang/Class;)Lj4/a;
 
     .line 6
     .line 7
@@ -195,234 +68,269 @@
     move-result-object v0
 
     .line 9
-    if-eqz v0, :cond_0
+    invoke-virtual {p1, v0}, Lcom/google/gson/internal/b;->b(Lj4/a;)Lcom/google/gson/internal/f;
 
     .line 10
     .line 11
-    invoke-static {p0, v0}, Lf4/e;->c([BLf4/e$b;)[B
-
     .line 12
+    move-result-object p1
+
     .line 13
-    .line 14
-    move-result-object p0
-
-    .line 15
-    return-object p0
-
-    .line 16
-    :cond_0
-    const/4 p0, 0x0
-
-    .line 17
-    return-object p0
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-.end method
-
-.method public static c([BLf4/e$b;)[B
-    .locals 6
-
-    .line 1
-    if-eqz p0, :cond_1
-
-    .line 2
-    .line 3
-    if-eqz p1, :cond_1
-
-    .line 4
-    .line 5
-    iget v0, p1, Lf4/e$b;->b:I
-
-    .line 6
-    .line 7
-    iget v1, p1, Lf4/e$b;->c:I
-
-    .line 8
-    .line 9
-    const/4 v2, 0x0
-
-    .line 10
-    :goto_0
-    array-length v3, p0
-
-    .line 11
-    if-ge v2, v3, :cond_0
-
-    .line 12
-    .line 13
-    add-int/lit8 v0, v0, 0x1
+    invoke-interface {p1}, Lcom/google/gson/internal/f;->a()Ljava/lang/Object;
 
     .line 14
     .line 15
-    rem-int/lit16 v0, v0, 0x100
-
     .line 16
+    move-result-object p1
+
     .line 17
-    iget-object v3, p1, Lf4/e$b;->a:[I
+    invoke-interface {p4}, Le4/b;->nullSafe()Z
 
     .line 18
     .line 19
-    aget v4, v3, v0
-
     .line 20
+    move-result v6
+
     .line 21
-    add-int/2addr v1, v4
+    instance-of p4, p1, Lcom/google/gson/o;
 
     .line 22
-    rem-int/lit16 v1, v1, 0x100
-
     .line 23
-    .line 24
-    aget v5, v3, v1
+    if-eqz p4, :cond_0
 
+    .line 24
     .line 25
+    check-cast p1, Lcom/google/gson/o;
+
     .line 26
-    aput v5, v3, v0
-
     .line 27
+    goto :goto_2
+
     .line 28
-    aput v4, v3, v1
+    :cond_0
+    instance-of p4, p1, Lcom/google/gson/p;
 
     .line 29
     .line 30
-    aget v5, v3, v0
+    if-eqz p4, :cond_1
 
     .line 31
     .line 32
-    add-int/2addr v5, v4
+    check-cast p1, Lcom/google/gson/p;
 
     .line 33
-    rem-int/lit16 v5, v5, 0x100
-
     .line 34
-    .line 35
-    aget-byte v4, p0, v2
+    invoke-interface {p1, p2, p3}, Lcom/google/gson/p;->create(Lcom/google/gson/c;Lj4/a;)Lcom/google/gson/o;
 
+    .line 35
     .line 36
     .line 37
-    aget v3, v3, v5
+    move-result-object p1
 
     .line 38
+    goto :goto_2
+
     .line 39
-    xor-int/2addr v3, v4
+    :cond_1
+    instance-of p4, p1, Lcom/google/gson/m;
 
     .line 40
-    int-to-byte v3, v3
-
     .line 41
-    aput-byte v3, p0, v2
+    if-nez p4, :cond_3
 
     .line 42
     .line 43
-    add-int/lit8 v2, v2, 0x1
+    instance-of v0, p1, Lcom/google/gson/g;
 
     .line 44
     .line 45
-    goto :goto_0
+    if-eqz v0, :cond_2
 
     .line 46
-    :cond_0
-    iput v0, p1, Lf4/e$b;->b:I
-
     .line 47
+    goto :goto_0
+
     .line 48
-    iput v1, p1, Lf4/e$b;->c:I
+    :cond_2
+    new-instance p2, Ljava/lang/IllegalArgumentException;
 
     .line 49
     .line 50
-    return-object p0
+    new-instance p4, Ljava/lang/StringBuilder;
 
     .line 51
-    :cond_1
-    const/4 p0, 0x0
-
     .line 52
-    return-object p0
+    invoke-direct {p4}, Ljava/lang/StringBuilder;-><init>()V
+
     .line 53
     .line 54
     .line 55
+    const-string v0, "Invalid attempt to bind an instance of "
+
     .line 56
     .line 57
+    invoke-virtual {p4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 58
     .line 59
     .line 60
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
     .line 61
     .line 62
     .line 63
+    move-result-object p1
+
     .line 64
+    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
     .line 65
     .line 66
     .line 67
+    move-result-object p1
+
     .line 68
+    invoke-virtual {p4, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 69
     .line 70
     .line 71
+    const-string p1, " as a @JsonAdapter for "
+
     .line 72
     .line 73
+    invoke-virtual {p4, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 74
     .line 75
     .line 76
+    invoke-virtual {p3}, Lj4/a;->toString()Ljava/lang/String;
+
     .line 77
     .line 78
     .line 79
+    move-result-object p1
+
     .line 80
+    invoke-virtual {p4, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 81
     .line 82
     .line 83
+    const-string p1, ". @JsonAdapter value must be a TypeAdapter, TypeAdapterFactory, JsonSerializer or JsonDeserializer."
+
     .line 84
     .line 85
+    invoke-virtual {p4, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
     .line 86
     .line 87
     .line 88
+    invoke-virtual {p4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
     .line 89
     .line 90
     .line 91
+    move-result-object p1
+
     .line 92
+    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
     .line 93
     .line 94
     .line 95
+    throw p2
+
     .line 96
+    :cond_3
+    :goto_0
+    const/4 v0, 0x0
+
     .line 97
+    if-eqz p4, :cond_4
+
     .line 98
     .line 99
+    move-object p4, p1
+
     .line 100
+    check-cast p4, Lcom/google/gson/m;
+
     .line 101
     .line 102
+    move-object v1, p4
+
     .line 103
+    goto :goto_1
+
     .line 104
+    :cond_4
+    move-object v1, v0
+
     .line 105
+    :goto_1
+    instance-of p4, p1, Lcom/google/gson/g;
+
     .line 106
     .line 107
+    if-eqz p4, :cond_5
+
     .line 108
     .line 109
+    move-object v0, p1
+
     .line 110
+    check-cast v0, Lcom/google/gson/g;
+
     .line 111
     .line 112
+    :cond_5
+    move-object v2, v0
+
     .line 113
+    new-instance v0, Lf4/m;
+
     .line 114
     .line 115
+    const/4 v5, 0x0
+
     .line 116
+    move-object v3, p2
+
     .line 117
+    move-object v4, p3
+
     .line 118
+    invoke-direct/range {v0 .. v6}, Lf4/m;-><init>(Lcom/google/gson/m;Lcom/google/gson/g;Lcom/google/gson/c;Lj4/a;Lcom/google/gson/p;Z)V
+
     .line 119
     .line 120
     .line 121
+    const/4 v6, 0x0
+
     .line 122
+    move-object p1, v0
+
     .line 123
+    :goto_2
+    if-eqz p1, :cond_6
+
     .line 124
     .line 125
+    if-eqz v6, :cond_6
+
     .line 126
     .line 127
+    invoke-virtual {p1}, Lcom/google/gson/o;->nullSafe()Lcom/google/gson/o;
+
     .line 128
     .line 129
     .line 130
+    move-result-object p1
+
     .line 131
+    :cond_6
+    return-object p1
     .line 132
     .line 133
     .line 134
@@ -525,4 +433,86 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
+.end method
+
+.method public create(Lcom/google/gson/c;Lj4/a;)Lcom/google/gson/o;
+    .locals 2
+
+    .line 1
+    invoke-virtual {p2}, Lj4/a;->getRawType()Ljava/lang/Class;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    const-class v1, Le4/b;
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, v1}, Ljava/lang/Class;->getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+
+    .line 11
+    check-cast v0, Le4/b;
+
+    .line 12
+    .line 13
+    if-nez v0, :cond_0
+
+    .line 14
+    .line 15
+    const/4 p1, 0x0
+
+    .line 16
+    return-object p1
+
+    .line 17
+    :cond_0
+    iget-object v1, p0, Lf4/e;->a:Lcom/google/gson/internal/b;
+
+    .line 18
+    .line 19
+    invoke-virtual {p0, v1, p1, p2, v0}, Lf4/e;->a(Lcom/google/gson/internal/b;Lcom/google/gson/c;Lj4/a;Le4/b;)Lcom/google/gson/o;
+
+    .line 20
+    .line 21
+    .line 22
+    move-result-object p1
+
+    .line 23
+    return-object p1
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
 .end method

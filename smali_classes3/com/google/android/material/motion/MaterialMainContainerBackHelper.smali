@@ -101,7 +101,6 @@
     .line 23
     .line 24
     return-void
-    .line 25
 .end method
 
 .method public static synthetic a(Lcom/google/android/material/internal/ClippableRoundedCornerLayout;Landroid/animation/ValueAnimator;)V
@@ -180,11 +179,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private createCornerAnimator(Lcom/google/android/material/internal/ClippableRoundedCornerLayout;)Landroid/animation/ValueAnimator;
@@ -241,11 +235,11 @@
     move-result-object v0
 
     .line 23
-    new-instance v1, Lva/c;
+    new-instance v1, Lcom/google/android/material/motion/c;
 
     .line 24
     .line 25
-    invoke-direct {v1, p1}, Lva/c;-><init>(Lcom/google/android/material/internal/ClippableRoundedCornerLayout;)V
+    invoke-direct {v1, p1}, Lcom/google/android/material/motion/c;-><init>(Lcom/google/android/material/internal/ClippableRoundedCornerLayout;)V
 
     .line 26
     .line 27
@@ -316,8 +310,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private createResetScaleAndTranslationAnimator(Landroid/view/View;)Landroid/animation/AnimatorSet;
@@ -505,8 +497,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method private getMaxDeviceCornerRadius()I
@@ -666,15 +656,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method private getRoundedCornerRadius(Landroid/view/WindowInsets;I)I
@@ -684,7 +665,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1, p2}, Lc1/n2;->a(Landroid/view/WindowInsets;I)Landroid/view/RoundedCorner;
+    invoke-static {p1, p2}, Landroidx/core/view/r2;->a(Landroid/view/WindowInsets;I)Landroid/view/RoundedCorner;
 
     .line 2
     .line 3
@@ -696,7 +677,7 @@
 
     .line 6
     .line 7
-    invoke-static {p1}, Lc1/x;->a(Landroid/view/RoundedCorner;)I
+    invoke-static {p1}, Landroidx/core/view/z;->a(Landroid/view/RoundedCorner;)I
 
     .line 8
     .line 9
@@ -759,11 +740,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method private isAtTopOfScreen()Z
@@ -811,7 +787,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private resetInitialValues()V
@@ -850,7 +825,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -1000,8 +974,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 .method public finishBackProgress(JLandroid/view/View;)V
@@ -1082,11 +1054,6 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
 
 .method public getExpandedCornerSize()I
@@ -1226,15 +1193,6 @@
     .line 98
     .line 99
     .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
 .end method
 
 .method public getInitialHideFromClipBounds()Landroid/graphics/Rect;
@@ -1267,7 +1225,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInitialHideToClipBounds()Landroid/graphics/Rect;
@@ -1300,7 +1257,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public startBackProgress(FLandroid/view/View;)V

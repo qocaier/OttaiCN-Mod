@@ -11,7 +11,7 @@
     .end annotation
 
     .line 3
-    invoke-static {p0, p1}, Lu0/g;->a(J)F
+    invoke-static {p0, p1}, Landroidx/core/graphics/g;->a(J)F
 
     move-result p0
 
@@ -20,10 +20,6 @@
 
 .method public static final component1(Landroid/graphics/Color;)F
     .locals 1
-    .param p0    # Landroid/graphics/Color;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
@@ -31,7 +27,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {p0, v0}, Lu0/d;->a(Landroid/graphics/Color;I)F
+    invoke-static {p0, v0}, Landroidx/core/graphics/d;->a(Landroid/graphics/Color;I)F
 
     move-result p0
 
@@ -60,7 +56,7 @@
     .end annotation
 
     .line 3
-    invoke-static {p0, p1}, Lu0/o;->a(J)F
+    invoke-static {p0, p1}, Landroidx/core/graphics/o;->a(J)F
 
     move-result p0
 
@@ -69,10 +65,6 @@
 
 .method public static final component2(Landroid/graphics/Color;)F
     .locals 1
-    .param p0    # Landroid/graphics/Color;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
@@ -80,7 +72,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {p0, v0}, Lu0/d;->a(Landroid/graphics/Color;I)F
+    invoke-static {p0, v0}, Landroidx/core/graphics/d;->a(Landroid/graphics/Color;I)F
 
     move-result p0
 
@@ -109,7 +101,7 @@
     .end annotation
 
     .line 3
-    invoke-static {p0, p1}, Lu0/k;->a(J)F
+    invoke-static {p0, p1}, Landroidx/core/graphics/k;->a(J)F
 
     move-result p0
 
@@ -118,10 +110,6 @@
 
 .method public static final component3(Landroid/graphics/Color;)F
     .locals 1
-    .param p0    # Landroid/graphics/Color;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
@@ -129,7 +117,7 @@
     const/4 v0, 0x2
 
     .line 2
-    invoke-static {p0, v0}, Lu0/d;->a(Landroid/graphics/Color;I)F
+    invoke-static {p0, v0}, Landroidx/core/graphics/d;->a(Landroid/graphics/Color;I)F
 
     move-result p0
 
@@ -158,7 +146,7 @@
     .end annotation
 
     .line 3
-    invoke-static {p0, p1}, Lu0/r;->a(J)F
+    invoke-static {p0, p1}, Landroidx/core/graphics/r;->a(J)F
 
     move-result p0
 
@@ -167,10 +155,6 @@
 
 .method public static final component4(Landroid/graphics/Color;)F
     .locals 1
-    .param p0    # Landroid/graphics/Color;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
@@ -178,7 +162,7 @@
     const/4 v0, 0x3
 
     .line 2
-    invoke-static {p0, v0}, Lu0/d;->a(Landroid/graphics/Color;I)F
+    invoke-static {p0, v0}, Landroidx/core/graphics/d;->a(Landroid/graphics/Color;I)F
 
     move-result p0
 
@@ -204,20 +188,16 @@
         .annotation build Landroidx/annotation/ColorInt;
         .end annotation
     .end param
-    .param p1    # Landroid/graphics/ColorSpace$Named;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lu0/c;->a(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
+    invoke-static {p1}, Landroidx/core/graphics/c;->a(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lu0/p;->a(ILandroid/graphics/ColorSpace;)J
+    invoke-static {p0, p1}, Landroidx/core/graphics/p;->a(ILandroid/graphics/ColorSpace;)J
 
     move-result-wide p0
 
@@ -230,16 +210,12 @@
         .annotation build Landroidx/annotation/ColorInt;
         .end annotation
     .end param
-    .param p1    # Landroid/graphics/ColorSpace;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Lu0/p;->a(ILandroid/graphics/ColorSpace;)J
+    invoke-static {p0, p1}, Landroidx/core/graphics/p;->a(ILandroid/graphics/ColorSpace;)J
 
     move-result-wide p0
 
@@ -248,20 +224,16 @@
 
 .method public static final convertTo(JLandroid/graphics/ColorSpace$Named;)J
     .locals 0
-    .param p2    # Landroid/graphics/ColorSpace$Named;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
 
     .line 3
-    invoke-static {p2}, Lu0/c;->a(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
+    invoke-static {p2}, Landroidx/core/graphics/c;->a(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object p2
 
-    invoke-static {p0, p1, p2}, Lu0/e;->a(JLandroid/graphics/ColorSpace;)J
+    invoke-static {p0, p1, p2}, Landroidx/core/graphics/e;->a(JLandroid/graphics/ColorSpace;)J
 
     move-result-wide p0
 
@@ -270,16 +242,12 @@
 
 .method public static final convertTo(JLandroid/graphics/ColorSpace;)J
     .locals 0
-    .param p2    # Landroid/graphics/ColorSpace;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
 
     .line 4
-    invoke-static {p0, p1, p2}, Lu0/e;->a(JLandroid/graphics/ColorSpace;)J
+    invoke-static {p0, p1, p2}, Landroidx/core/graphics/e;->a(JLandroid/graphics/ColorSpace;)J
 
     move-result-wide p0
 
@@ -288,27 +256,16 @@
 
 .method public static final convertTo(Landroid/graphics/Color;Landroid/graphics/ColorSpace$Named;)Landroid/graphics/Color;
     .locals 0
-    .param p0    # Landroid/graphics/Color;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/ColorSpace$Named;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 5
-    invoke-static {p1}, Lu0/c;->a(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
+    invoke-static {p1}, Landroidx/core/graphics/c;->a(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Lu0/s;->a(Landroid/graphics/Color;Landroid/graphics/ColorSpace;)Landroid/graphics/Color;
+    invoke-static {p0, p1}, Landroidx/core/graphics/s;->a(Landroid/graphics/Color;Landroid/graphics/ColorSpace;)Landroid/graphics/Color;
 
     move-result-object p0
 
@@ -317,23 +274,12 @@
 
 .method public static final convertTo(Landroid/graphics/Color;Landroid/graphics/ColorSpace;)Landroid/graphics/Color;
     .locals 0
-    .param p0    # Landroid/graphics/Color;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/ColorSpace;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 6
-    invoke-static {p0, p1}, Lu0/s;->a(Landroid/graphics/Color;Landroid/graphics/ColorSpace;)Landroid/graphics/Color;
+    invoke-static {p0, p1}, Landroidx/core/graphics/s;->a(Landroid/graphics/Color;Landroid/graphics/ColorSpace;)Landroid/graphics/Color;
 
     move-result-object p0
 
@@ -347,7 +293,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Lu0/r;->a(J)F
+    invoke-static {p0, p1}, Landroidx/core/graphics/r;->a(J)F
 
     move-result p0
 
@@ -376,7 +322,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Lu0/k;->a(J)F
+    invoke-static {p0, p1}, Landroidx/core/graphics/k;->a(J)F
 
     move-result p0
 
@@ -402,11 +348,8 @@
         value = 0x1a
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
-    invoke-static {p0, p1}, Lu0/n;->a(J)Landroid/graphics/ColorSpace;
+    invoke-static {p0, p1}, Landroidx/core/graphics/n;->a(J)Landroid/graphics/ColorSpace;
 
     .line 2
     .line 3
@@ -444,7 +387,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Lu0/o;->a(J)F
+    invoke-static {p0, p1}, Landroidx/core/graphics/o;->a(J)F
 
     move-result p0
 
@@ -491,7 +434,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Lu0/l;->a(J)F
+    invoke-static {p0, p1}, Landroidx/core/graphics/l;->a(J)F
 
     move-result p0
 
@@ -505,7 +448,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Lu0/g;->a(J)F
+    invoke-static {p0, p1}, Landroidx/core/graphics/g;->a(J)F
 
     move-result p0
 
@@ -534,7 +477,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lu0/i;->a(J)Z
+    invoke-static {p0, p1}, Landroidx/core/graphics/i;->a(J)Z
 
     .line 2
     .line 3
@@ -572,7 +515,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lu0/m;->a(J)Z
+    invoke-static {p0, p1}, Landroidx/core/graphics/m;->a(J)Z
 
     .line 2
     .line 3
@@ -605,19 +548,8 @@
 
 .method public static final plus(Landroid/graphics/Color;Landroid/graphics/Color;)Landroid/graphics/Color;
     .locals 0
-    .param p0    # Landroid/graphics/Color;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Landroid/graphics/Color;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RequiresApi;
         value = 0x1a
-    .end annotation
-
-    .annotation build Lsq/k;
     .end annotation
 
     .line 1
@@ -685,11 +617,8 @@
         value = 0x1a
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 1
-    invoke-static {p0}, Lu0/q;->a(I)Landroid/graphics/Color;
+    invoke-static {p0}, Landroidx/core/graphics/q;->a(I)Landroid/graphics/Color;
 
     move-result-object p0
 
@@ -702,11 +631,8 @@
         value = 0x1a
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
     .line 2
-    invoke-static {p0, p1}, Lu0/j;->a(J)Landroid/graphics/Color;
+    invoke-static {p0, p1}, Landroidx/core/graphics/j;->a(J)Landroid/graphics/Color;
 
     move-result-object p0
 
@@ -723,7 +649,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Lu0/f;->a(J)I
+    invoke-static {p0, p1}, Landroidx/core/graphics/f;->a(J)I
 
     move-result p0
 
@@ -732,10 +658,6 @@
 
 .method public static final toColorInt(Ljava/lang/String;)I
     .locals 0
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/ColorInt;
     .end annotation
 
@@ -758,7 +680,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lu0/h;->a(I)J
+    invoke-static {p0}, Landroidx/core/graphics/h;->a(I)J
 
     .line 2
     .line 3

@@ -56,7 +56,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 
@@ -91,7 +90,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public getDataType()Lcom/baidu/mapapi/search/weather/WeatherDataType;
@@ -122,7 +120,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getDistrictID()Ljava/lang/String;
@@ -153,7 +150,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLanguageType()Lcom/baidu/mapapi/search/base/LanguageType;
@@ -184,7 +180,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getLocation()Lcom/baidu/mapapi/model/LatLng;
@@ -215,7 +210,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getServerType()Lcom/baidu/mapapi/search/weather/WeatherServerType;
@@ -246,7 +240,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public languageType(Lcom/baidu/mapapi/search/base/LanguageType;)Lcom/baidu/mapapi/search/weather/WeatherSearchOption;
@@ -279,7 +272,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public location(Lcom/baidu/mapapi/model/LatLng;)Lcom/baidu/mapapi/search/weather/WeatherSearchOption;
@@ -312,7 +304,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public serverType(Lcom/baidu/mapapi/search/weather/WeatherServerType;)Lcom/baidu/mapapi/search/weather/WeatherSearchOption;
@@ -345,7 +336,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public weatherDataType(Lcom/baidu/mapapi/search/weather/WeatherDataType;)Lcom/baidu/mapapi/search/weather/WeatherSearchOption;
@@ -378,5 +368,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

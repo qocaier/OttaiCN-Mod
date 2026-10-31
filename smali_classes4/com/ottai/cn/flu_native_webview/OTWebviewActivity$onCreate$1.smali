@@ -54,6 +54,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 
@@ -66,7 +68,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->C()Z
+    invoke-virtual {v0}, Lcom/ottai/cn/flu_native_webview/OTWebviewActivity;->B()Z
 
     .line 4
     .line 5
@@ -90,4 +92,6 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method

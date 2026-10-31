@@ -168,6 +168,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getAction()Ljava/lang/String;
@@ -196,6 +198,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getApkVersion()I
@@ -224,6 +228,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getResponseCallbackKey()Ljava/lang/String;
@@ -252,6 +258,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setAction(Ljava/lang/String;)V
@@ -285,6 +293,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setApkVersion(I)V
@@ -318,6 +328,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setResponseCallbackKey(Ljava/lang/String;)V
@@ -351,6 +363,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public toJson()Ljava/lang/String;
@@ -498,6 +512,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -620,4 +635,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

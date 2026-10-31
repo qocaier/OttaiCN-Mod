@@ -51,6 +51,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private waitForCancelFinishedLocked()V
@@ -91,6 +92,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 
@@ -292,6 +294,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public getCancellationSignalObject()Ljava/lang/Object;
@@ -421,6 +425,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public isCanceled()Z
@@ -463,6 +469,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setOnCancelListener(Landroidx/core/os/CancellationSignal$OnCancelListener;)V
@@ -597,6 +604,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public throwIfCanceled()V
@@ -636,4 +644,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

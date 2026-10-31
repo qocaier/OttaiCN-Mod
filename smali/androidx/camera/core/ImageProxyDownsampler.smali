@@ -43,6 +43,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static createPlaneProxy(II[B)Landroidx/camera/core/ImageProxy$PlaneProxy;
@@ -166,6 +167,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 .method public static downsample(Landroidx/camera/core/ImageProxy;IILandroidx/camera/core/ImageProxyDownsampler$DownsamplingMethod;)Landroidx/camera/core/ForwardingImageProxy;

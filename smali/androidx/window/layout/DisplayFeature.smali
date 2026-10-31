@@ -5,6 +5,4 @@
 
 # virtual methods
 .method public abstract getBounds()Landroid/graphics/Rect;
-    .annotation build Lsq/k;
-    .end annotation
 .end method

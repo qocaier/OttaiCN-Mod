@@ -51,7 +51,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -99,7 +98,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public onDrawerOpened(Landroid/view/View;)V
@@ -131,11 +129,11 @@
     .line 10
     .line 11
     .line 12
-    new-instance v1, Lwa/d;
+    new-instance v1, Lcom/google/android/material/navigation/d;
 
     .line 13
     .line 14
-    invoke-direct {v1, v0}, Lwa/d;-><init>(Lcom/google/android/material/motion/MaterialBackOrchestrator;)V
+    invoke-direct {v1, v0}, Lcom/google/android/material/navigation/d;-><init>(Lcom/google/android/material/motion/MaterialBackOrchestrator;)V
 
     .line 15
     .line 16
@@ -151,5 +149,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

@@ -93,6 +93,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMaxTimestamp()J
@@ -121,6 +123,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public getMinTimestamp()J
@@ -149,6 +153,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public isNeedLastMsg()Z
@@ -177,6 +183,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public setLimit(I)V
@@ -210,6 +218,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMaxTimestamp(J)V
@@ -243,6 +253,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setMinTimestamp(J)V
@@ -276,6 +288,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public setNeedLastMsg(Z)V
@@ -309,6 +323,8 @@
     .line 23
     .line 24
     .line 25
+    .line 26
+    .line 27
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -443,4 +459,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

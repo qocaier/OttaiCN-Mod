@@ -45,6 +45,8 @@
     .line 18
     .line 19
     .line 20
+    .line 21
+    .line 22
 .end method
 
 .method public static synthetic a(Lcom/qiyukf/ym;)J
@@ -345,6 +347,16 @@
     .line 52
     .line 53
     .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
 .end method
 
 .method public static synthetic c(Lcom/qiyukf/ym;ZLcom/qiyukf/u70;Ljava/lang/String;Ljava/lang/String;)V
@@ -528,11 +540,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public getSdkLogUpload(ZLjava/lang/String;Ljava/lang/String;)Lcom/qiyukf/nimlib/sdk/InvocationFuture;
@@ -578,7 +585,7 @@
     move-result-object v6
 
     .line 15
-    new-instance v0, Lvg/x1;
+    new-instance v0, Lcom/qiyukf/hh0;
 
     .line 16
     .line 17
@@ -594,7 +601,7 @@
     move-object v5, p3
 
     .line 21
-    invoke-direct/range {v0 .. v5}, Lvg/x1;-><init>(Lcom/qiyukf/ym;ZLcom/qiyukf/u70;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lcom/qiyukf/hh0;-><init>(Lcom/qiyukf/ym;ZLcom/qiyukf/u70;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -705,11 +712,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public getServerTime()Lcom/qiyukf/nimlib/sdk/InvocationFuture;
@@ -882,6 +884,7 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method
 
 .method public getSizeOfDirCache(Ljava/util/List;JJ)Lcom/qiyukf/nimlib/sdk/InvocationFuture;
@@ -1054,11 +1057,6 @@
     .line 123
     .line 124
     .line 125
-    .line 126
-    .line 127
-    .line 128
-    .line 129
-    .line 130
 .end method
 
 .method public zipLogs()Lcom/qiyukf/nimlib/sdk/InvocationFuture;
@@ -1179,4 +1177,5 @@
     .line 82
     .line 83
     .line 84
+    .line 85
 .end method

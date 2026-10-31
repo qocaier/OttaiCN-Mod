@@ -28,9 +28,6 @@
 
 # static fields
 .field public static final INSTANCE:Landroidx/lifecycle/ViewModelProvider$NewInstanceFactory$Companion$ViewModelKeyImpl;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -72,4 +69,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

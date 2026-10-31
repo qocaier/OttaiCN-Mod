@@ -17,17 +17,6 @@
     }
 .end annotation
 
-.annotation build Lfb/b;
-    serializable = true
-.end annotation
-
-.annotation runtime Lgb/g;
-.end annotation
-
-.annotation runtime Lxb/f;
-    value = "Use Optional.of(value) or Optional.absent()"
-.end annotation
-
 
 # static fields
 .field private static final serialVersionUID:J
@@ -62,7 +51,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static absent()Lcom/google/common/base/Optional;
@@ -104,24 +92,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public static fromNullable(Ljava/lang/Object;)Lcom/google/common/base/Optional;
     .locals 1
-    .param p0    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "nullableReference"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -170,20 +144,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static of(Ljava/lang/Object;)Lcom/google/common/base/Optional;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "reference"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -199,7 +163,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -227,20 +191,10 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public static presentInstances(Ljava/lang/Iterable;)Ljava/lang/Iterable;
     .locals 1
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x10
-        }
-        names = {
-            "optionals"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T:",
@@ -256,7 +210,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lgb/w;->E(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Lcom/google/common/base/o;->p(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -286,7 +240,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
@@ -302,18 +255,6 @@
 .end method
 
 .method public abstract equals(Ljava/lang/Object;)Z
-    .param p1    # Ljava/lang/Object;
-        .annotation runtime Lgl/a;
-        .end annotation
-    .end param
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "object"
-        }
-    .end annotation
 .end method
 
 .method public abstract get()Ljava/lang/Object;
@@ -331,15 +272,6 @@
 .end method
 
 .method public abstract or(Lcom/google/common/base/Optional;)Lcom/google/common/base/Optional;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "secondChoice"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -351,35 +283,17 @@
     .end annotation
 .end method
 
-.method public abstract or(Lgb/b0;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "supplier"
-        }
-    .end annotation
-
+.method public abstract or(Lcom/google/common/base/s;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lgb/b0<",
-            "+TT;>;)TT;"
+            "Lcom/google/common/base/s;",
+            ")TT;"
         }
     .end annotation
 .end method
 
 .method public abstract or(Ljava/lang/Object;)Ljava/lang/Object;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "defaultValue"
-        }
-    .end annotation
-
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(TT;)TT;"
@@ -393,31 +307,19 @@
             "()TT;"
         }
     .end annotation
-
-    .annotation runtime Lgl/a;
-    .end annotation
 .end method
 
 .method public abstract toString()Ljava/lang/String;
 .end method
 
-.method public abstract transform(Lgb/n;)Lcom/google/common/base/Optional;
-    .annotation system Ldalvik/annotation/MethodParameters;
-        accessFlags = {
-            0x0
-        }
-        names = {
-            "function"
-        }
-    .end annotation
-
+.method public abstract transform(Lcom/google/common/base/g;)Lcom/google/common/base/Optional;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<V:",
             "Ljava/lang/Object;",
             ">(",
-            "Lgb/n<",
-            "-TT;TV;>;)",
+            "Lcom/google/common/base/g;",
+            ")",
             "Lcom/google/common/base/Optional<",
             "TV;>;"
         }

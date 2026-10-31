@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lkotlin/coroutines/d$c;
+.implements Lkotlin/coroutines/i$c;
 
 
 # annotations
@@ -19,18 +19,13 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkotlin/coroutines/d$c<",
-        "Landroidx/datastore/core/UpdatingDataContextElement;",
-        ">;"
+        "Lkotlin/coroutines/i$c;"
     }
 .end annotation
 
 
 # static fields
 .field public static final INSTANCE:Landroidx/datastore/core/UpdatingDataContextElement$Companion$Key;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -72,4 +67,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

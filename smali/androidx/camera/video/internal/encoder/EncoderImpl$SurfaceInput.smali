@@ -180,11 +180,11 @@
 
     .line 1
     :try_start_0
-    new-instance v0, Landroidx/camera/video/internal/encoder/t;
+    new-instance v0, Landroidx/camera/video/internal/encoder/n0;
 
     .line 2
     .line 3
-    invoke-direct {v0, p2, p3}, Landroidx/camera/video/internal/encoder/t;-><init>(Landroidx/camera/video/internal/encoder/Encoder$SurfaceInput$OnSurfaceUpdateListener;Landroid/view/Surface;)V
+    invoke-direct {v0, p2, p3}, Landroidx/camera/video/internal/encoder/n0;-><init>(Landroidx/camera/video/internal/encoder/Encoder$SurfaceInput$OnSurfaceUpdateListener;Landroid/view/Surface;)V
 
     .line 4
     .line 5
@@ -314,6 +314,9 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
 
@@ -468,6 +471,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public resetSurface()V
@@ -655,6 +660,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public setOnSurfaceUpdateListener(Ljava/util/concurrent/Executor;Landroidx/camera/video/internal/encoder/Encoder$SurfaceInput$OnSurfaceUpdateListener;)V

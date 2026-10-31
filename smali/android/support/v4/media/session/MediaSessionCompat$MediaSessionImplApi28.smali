@@ -49,7 +49,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lc/c;->a(Landroid/media/session/MediaSession;)Landroid/media/session/MediaSessionManager$RemoteUserInfo;
+    invoke-static {v0}, Landroid/support/v4/media/session/c;->a(Landroid/media/session/MediaSession;)Landroid/media/session/MediaSessionManager$RemoteUserInfo;
 
     .line 4
     .line 5
@@ -75,6 +75,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public setCurrentControllerInfo(Landroidx/media/MediaSessionManager$RemoteUserInfo;)V

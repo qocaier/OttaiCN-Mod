@@ -13,27 +13,17 @@
 
 # instance fields
 .field private final callbackToFlowAdapter:Landroidx/window/java/core/CallbackToFlowAdapter;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private final controller:Landroidx/window/area/WindowAreaController;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
 .method public constructor <init>(Landroidx/window/area/WindowAreaController;)V
     .locals 1
-    .param p1    # Landroidx/window/area/WindowAreaController;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "controller"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     new-instance v0, Landroidx/window/java/core/CallbackToFlowAdapter;
@@ -64,14 +54,6 @@
 # virtual methods
 .method public final addWindowAreaInfoListListener(Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
     .locals 2
-    .param p1    # Ljava/util/concurrent/Executor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroidx/core/util/Consumer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -88,7 +70,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -97,7 +79,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -110,7 +92,7 @@
 
     .line 14
     .line 15
-    invoke-interface {v1}, Landroidx/window/area/WindowAreaController;->getWindowAreaInfos()Ljn/e;
+    invoke-interface {v1}, Landroidx/window/area/WindowAreaController;->getWindowAreaInfos()Lkotlinx/coroutines/flow/c;
 
     .line 16
     .line 17
@@ -118,7 +100,7 @@
     move-result-object v1
 
     .line 19
-    invoke-virtual {v0, p1, p2, v1}, Landroidx/window/java/core/CallbackToFlowAdapter;->connect(Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;Ljn/e;)V
+    invoke-virtual {v0, p1, p2, v1}, Landroidx/window/java/core/CallbackToFlowAdapter;->connect(Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;Lkotlinx/coroutines/flow/c;)V
 
     .line 20
     .line 21
@@ -152,84 +134,42 @@
     .line 48
 .end method
 
-.method public getWindowAreaInfos()Ljn/e;
+.method public getWindowAreaInfos()Lkotlinx/coroutines/flow/c;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Ljn/e<",
-            "Ljava/util/List<",
-            "Landroidx/window/area/WindowAreaInfo;",
-            ">;>;"
+            "Lkotlinx/coroutines/flow/c;"
         }
     .end annotation
 
-    .annotation build Lsq/k;
-    .end annotation
-
-    .line 1
     iget-object v0, p0, Landroidx/window/java/area/WindowAreaControllerCallbackAdapter;->controller:Landroidx/window/area/WindowAreaController;
 
-    .line 2
-    .line 3
-    invoke-interface {v0}, Landroidx/window/area/WindowAreaController;->getWindowAreaInfos()Ljn/e;
+    invoke-interface {v0}, Landroidx/window/area/WindowAreaController;->getWindowAreaInfos()Lkotlinx/coroutines/flow/c;
 
-    .line 4
-    .line 5
-    .line 6
     move-result-object v0
 
-    .line 7
     return-object v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
 .end method
 
 .method public presentContentOnWindowArea(Landroid/os/Binder;Landroid/app/Activity;Ljava/util/concurrent/Executor;Landroidx/window/area/WindowAreaPresentationSessionCallback;)V
     .locals 1
-    .param p1    # Landroid/os/Binder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/util/concurrent/Executor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroidx/window/area/WindowAreaPresentationSessionCallback;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "token"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "activity"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "executor"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "windowAreaPresentationSessionCallback"
 
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Landroidx/window/java/area/WindowAreaControllerCallbackAdapter;->controller:Landroidx/window/area/WindowAreaController;
 
@@ -240,10 +180,6 @@
 
 .method public final removeWindowAreaInfoListListener(Landroidx/core/util/Consumer;)V
     .locals 1
-    .param p1    # Landroidx/core/util/Consumer;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
@@ -259,7 +195,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -292,38 +228,22 @@
 
 .method public transferActivityToWindowArea(Landroid/os/Binder;Landroid/app/Activity;Ljava/util/concurrent/Executor;Landroidx/window/area/WindowAreaSessionCallback;)V
     .locals 1
-    .param p1    # Landroid/os/Binder;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p2    # Landroid/app/Activity;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p3    # Ljava/util/concurrent/Executor;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p4    # Landroidx/window/area/WindowAreaSessionCallback;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "token"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "activity"
 
-    invoke-static {p2, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "executor"
 
-    invoke-static {p3, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "windowAreaSessionCallback"
 
-    invoke-static {p4, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     iget-object v0, p0, Landroidx/window/java/area/WindowAreaControllerCallbackAdapter;->controller:Landroidx/window/area/WindowAreaController;
 

@@ -5,9 +5,6 @@
 
 # static fields
 .field public static final INSTANCE:Lcom/fluttercandies/flutter_image_compress/exif/Exif;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 
 # direct methods
@@ -51,7 +48,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private final getFromExifInterface([B)I
@@ -94,21 +90,16 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
 .method public final getRotationDegrees(Ljava/io/File;)I
     .locals 1
-    .param p1    # Ljava/io/File;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "file"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     :try_start_0
@@ -136,14 +127,10 @@
 
 .method public final getRotationDegrees([B)I
     .locals 1
-    .param p1    # [B
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
 
     const-string v0, "_bytes"
 
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     :try_start_0

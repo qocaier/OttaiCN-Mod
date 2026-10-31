@@ -81,7 +81,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method private a(Ljava/util/List;)Ljava/util/List;
@@ -236,8 +235,6 @@
     .line 89
     .line 90
     .line 91
-    .line 92
-    .line 93
 .end method
 
 
@@ -270,7 +267,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getEntrace()Lcom/baidu/mapapi/search/core/RouteNode;
@@ -301,7 +297,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getExit()Lcom/baidu/mapapi/search/core/RouteNode;
@@ -332,7 +327,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getFloorId()Ljava/lang/String;
@@ -363,7 +357,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getInstructions()Ljava/lang/String;
@@ -394,7 +387,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getStepNodes()Ljava/util/List;
@@ -433,7 +425,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public getWayPoints()Ljava/util/List;
@@ -485,7 +476,6 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public setBuildingId(Ljava/lang/String;)V
@@ -518,7 +508,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setEntrace(Lcom/baidu/mapapi/search/core/RouteNode;)V
@@ -551,7 +540,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setExit(Lcom/baidu/mapapi/search/core/RouteNode;)V
@@ -584,7 +572,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setFloorId(Ljava/lang/String;)V
@@ -617,7 +604,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setInstructions(Ljava/lang/String;)V
@@ -650,7 +636,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setPath(Ljava/util/List;)V
@@ -691,7 +676,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public setStepNodes(Ljava/util/List;)V
@@ -732,5 +716,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

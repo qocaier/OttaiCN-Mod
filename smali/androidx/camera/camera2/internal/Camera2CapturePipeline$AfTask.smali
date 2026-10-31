@@ -188,9 +188,11 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
-.method public preCapture(Landroid/hardware/camera2/TotalCaptureResult;)Lub/u0;
+.method public preCapture(Landroid/hardware/camera2/TotalCaptureResult;)Lcom/google/common/util/concurrent/t;
     .locals 4
     .param p1    # Landroid/hardware/camera2/TotalCaptureResult;
         .annotation build Landroidx/annotation/Nullable;
@@ -204,9 +206,7 @@
             "(",
             "Landroid/hardware/camera2/TotalCaptureResult;",
             ")",
-            "Lub/u0<",
-            "Ljava/lang/Boolean;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -215,7 +215,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lub/u0;
+    invoke-static {v0}, Landroidx/camera/core/impl/utils/futures/Futures;->immediateFuture(Ljava/lang/Object;)Lcom/google/common/util/concurrent/t;
 
     .line 4
     .line 5
@@ -370,4 +370,5 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method

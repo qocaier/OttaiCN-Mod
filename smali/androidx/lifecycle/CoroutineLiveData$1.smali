@@ -3,12 +3,12 @@
 .source "SourceFile"
 
 # interfaces
-.implements Ljm/a;
+.implements Lq8/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/CoroutineLiveData;-><init>(Lkotlin/coroutines/d;JLjm/p;)V
+    value = Landroidx/lifecycle/CoroutineLiveData;-><init>(Lkotlin/coroutines/i;JLq8/p;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,9 +19,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Lkotlin/jvm/internal/Lambda;",
-        "Ljm/a<",
-        "Ljl/e2;",
-        ">;"
+        "Lq8/a;"
     }
 .end annotation
 
@@ -65,7 +63,7 @@
     .line 1
     invoke-virtual {p0}, Landroidx/lifecycle/CoroutineLiveData$1;->invoke()V
 
-    sget-object v0, Ljl/e2;->a:Ljl/e2;
+    sget-object v0, Lkotlin/j;->a:Lkotlin/j;
 
     return-object v0
 .end method

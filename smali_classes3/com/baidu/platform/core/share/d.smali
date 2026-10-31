@@ -36,7 +36,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method private a(Lcom/baidu/mapapi/search/share/RouteShareURLOption;)V
@@ -656,7 +655,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 

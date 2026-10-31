@@ -1094,6 +1094,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getMessages()[Ljava/lang/String;
@@ -1122,6 +1123,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getParticipant()Ljava/lang/String;
@@ -1163,6 +1165,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getParticipants()[Ljava/lang/String;
@@ -1191,6 +1194,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getReadPendingIntent()Landroid/app/PendingIntent;
@@ -1219,6 +1223,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getRemoteInput()Landroidx/core/app/RemoteInput;
@@ -1247,6 +1252,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public getReplyPendingIntent()Landroid/app/PendingIntent;
@@ -1275,4 +1281,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

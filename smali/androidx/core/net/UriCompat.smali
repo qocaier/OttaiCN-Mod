@@ -30,6 +30,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static toSafeString(Landroid/net/Uri;)Ljava/lang/String;
@@ -521,4 +522,9 @@
 
     .line 238
     return-object p0
+    .line 239
+    .line 240
+    .line 241
+    .line 242
+    .line 243
 .end method

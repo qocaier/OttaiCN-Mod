@@ -3,25 +3,10 @@
 .source "SourceFile"
 
 
-# annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCircularIntArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CircularIntArray.kt\nandroidx/collection/CircularIntArray\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 CollectionPlatformUtils.jvm.kt\nandroidx/collection/CollectionPlatformUtils\n*L\n1#1,213:1\n1#2:214\n26#3:215\n26#3:216\n26#3:217\n26#3:218\n26#3:219\n26#3:220\n26#3:221\n*S KotlinDebug\n*F\n+ 1 CircularIntArray.kt\nandroidx/collection/CircularIntArray\n*L\n100#1:215\n113#1:216\n139#1:217\n156#1:218\n169#1:219\n181#1:220\n193#1:221\n*E\n"
-.end annotation
-
-.annotation build Lkm/u0;
-    value = {
-        "SMAP\nCircularIntArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CircularIntArray.kt\nandroidx/collection/CircularIntArray\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 CollectionPlatformUtils.jvm.kt\nandroidx/collection/CollectionPlatformUtils\n*L\n1#1,213:1\n1#2:214\n26#3:215\n26#3:216\n26#3:217\n26#3:218\n26#3:219\n26#3:220\n26#3:221\n*S KotlinDebug\n*F\n+ 1 CircularIntArray.kt\nandroidx/collection/CircularIntArray\n*L\n100#1:215\n113#1:216\n139#1:217\n156#1:218\n169#1:219\n181#1:220\n193#1:221\n*E\n"
-    }
-.end annotation
-
-
 # instance fields
 .field private capacityBitmask:I
 
 .field private elements:[I
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field private head:I
 
@@ -31,8 +16,6 @@
 # direct methods
 .method public constructor <init>()V
     .locals 3
-    .annotation build Lim/k;
-    .end annotation
 
     .line 1
     const/4 v0, 0x1
@@ -41,15 +24,13 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/CircularIntArray;-><init>(IILkm/v;)V
+    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/CircularIntArray;-><init>(IILkotlin/jvm/internal/f;)V
 
     return-void
 .end method
 
 .method public constructor <init>(I)V
     .locals 2
-    .annotation build Lim/k;
-    .end annotation
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -112,7 +93,7 @@
     throw p1
 .end method
 
-.method public synthetic constructor <init>(IILkm/v;)V
+.method public synthetic constructor <init>(IILkotlin/jvm/internal/f;)V
     .locals 0
 
     and-int/lit8 p2, p2, 0x1
@@ -162,7 +143,7 @@
     const/4 v6, 0x0
 
     .line 15
-    invoke-static {v0, v5, v6, v2, v1}, Lll/q;->z0([I[IIII)[I
+    invoke-static {v0, v5, v6, v2, v1}, Lkotlin/collections/l;->f([I[IIII)[I
 
     .line 16
     .line 17
@@ -175,7 +156,7 @@
 
     .line 21
     .line 22
-    invoke-static {v0, v5, v3, v6, v2}, Lll/q;->z0([I[IIII)[I
+    invoke-static {v0, v5, v3, v6, v2}, Lkotlin/collections/l;->f([I[IIII)[I
 
     .line 23
     .line 24
@@ -259,6 +240,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 
@@ -395,6 +378,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final get(I)I
@@ -508,6 +492,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final getFirst()I
@@ -553,6 +538,7 @@
     .line 19
     throw v0
     .line 20
+    .line 21
 .end method
 
 .method public final getLast()I
@@ -668,6 +654,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final isEmpty()Z
@@ -707,6 +695,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public final popFirst()I
@@ -824,6 +813,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final popLast()I
@@ -941,6 +932,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public final removeFromEnd(I)V
@@ -1055,6 +1048,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final removeFromStart(I)V
@@ -1169,6 +1163,7 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public final size()I
@@ -1205,4 +1200,5 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method

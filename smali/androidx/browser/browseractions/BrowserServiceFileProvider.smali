@@ -72,6 +72,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public constructor <init>()V
@@ -100,6 +101,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method private static generateUri(Landroid/content/Context;Ljava/lang/String;)Landroid/net/Uri;
@@ -397,6 +399,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method public static grantReadPermission(Landroid/content/Intent;Ljava/util/List;Landroid/content/Context;)V
@@ -588,9 +593,12 @@
     .line 111
     .line 112
     .line 113
+    .line 114
+    .line 115
+    .line 116
 .end method
 
-.method public static loadBitmap(Landroid/content/ContentResolver;Landroid/net/Uri;)Lub/u0;
+.method public static loadBitmap(Landroid/content/ContentResolver;Landroid/net/Uri;)Lcom/google/common/util/concurrent/t;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -598,9 +606,7 @@
             "Landroid/content/ContentResolver;",
             "Landroid/net/Uri;",
             ")",
-            "Lub/u0<",
-            "Landroid/graphics/Bitmap;",
-            ">;"
+            "Lcom/google/common/util/concurrent/t;"
         }
     .end annotation
 
@@ -960,4 +966,10 @@
     .line 228
     .line 229
     .line 230
+    .line 231
+    .line 232
+    .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method

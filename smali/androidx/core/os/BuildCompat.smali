@@ -17,22 +17,13 @@
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         extension = 0xf4240
     .end annotation
-
-    .annotation build Lim/g;
-    .end annotation
 .end field
 
 .field public static final INSTANCE:Landroidx/core/os/BuildCompat;
-    .annotation build Lsq/k;
-    .end annotation
-.end field
 
 .field public static final R_EXTENSION_INT:I
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         extension = 0x1e
-    .end annotation
-
-    .annotation build Lim/g;
     .end annotation
 .end field
 
@@ -40,17 +31,11 @@
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         extension = 0x1f
     .end annotation
-
-    .annotation build Lim/g;
-    .end annotation
 .end field
 
 .field public static final T_EXTENSION_INT:I
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         extension = 0x21
-    .end annotation
-
-    .annotation build Lim/g;
     .end annotation
 .end field
 
@@ -221,6 +206,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method private constructor <init>()V
@@ -249,6 +236,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final isAtLeastB()Z
@@ -256,9 +244,6 @@
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x24
         codename = "Baklava"
-    .end annotation
-
-    .annotation runtime Lim/o;
     .end annotation
 
     .line 1
@@ -290,7 +275,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -381,23 +366,14 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static final isAtLeastN()Z
     .locals 1
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x18
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Android N is a finalized release and this method is no longer necessary. It will be removed in a future release of this library. Instead, use `Build.VERSION.SDK_INT >= 24`."
-        replaceWith = .subannotation Ljl/w0;
-            expression = "android.os.Build.VERSION.SDK_INT >= 24"
-            imports = {}
-        .end subannotation
     .end annotation
 
     const/4 v0, 0x1
@@ -409,17 +385,6 @@
     .locals 2
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x19
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Android N MR1 is a finalized release and this method is no longer necessary. It will be removed in a future release of this library. Instead, use `Build.VERSION.SDK_INT >= 25`."
-        replaceWith = .subannotation Ljl/w0;
-            expression = "android.os.Build.VERSION.SDK_INT >= 25"
-            imports = {}
-        .end subannotation
     .end annotation
 
     .line 1
@@ -456,23 +421,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final isAtLeastO()Z
     .locals 2
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x1a
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Android O is a finalized release and this method is no longer necessary. It will be removed in a future release of this library. Instead use `Build.VERSION.SDK_INT >= 26`."
-        replaceWith = .subannotation Ljl/w0;
-            expression = "android.os.Build.VERSION.SDK_INT >= 26"
-            imports = {}
-        .end subannotation
     .end annotation
 
     .line 1
@@ -509,23 +464,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final isAtLeastOMR1()Z
     .locals 2
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x1b
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Android O MR1 is a finalized release and this method is no longer necessary. It will be removed in a future release of this library. Instead, use `Build.VERSION.SDK_INT >= 27`."
-        replaceWith = .subannotation Ljl/w0;
-            expression = "android.os.Build.VERSION.SDK_INT >= 27"
-            imports = {}
-        .end subannotation
     .end annotation
 
     .line 1
@@ -562,23 +507,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final isAtLeastP()Z
     .locals 2
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x1c
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Android P is a finalized release and this method is no longer necessary. It will be removed in a future release of this library. Instead, use `Build.VERSION.SDK_INT >= 28`."
-        replaceWith = .subannotation Ljl/w0;
-            expression = "android.os.Build.VERSION.SDK_INT >= 28"
-            imports = {}
-        .end subannotation
     .end annotation
 
     .line 1
@@ -615,18 +550,11 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final isAtLeastPreReleaseCodename(Ljava/lang/String;Ljava/lang/String;)Z
     .locals 4
-    .param p0    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
-    .param p1    # Ljava/lang/String;
-        .annotation build Lsq/k;
-        .end annotation
-    .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
             .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
@@ -636,15 +564,12 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    .annotation runtime Lim/o;
-    .end annotation
-
     .line 1
     const-string v0, "codename"
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -653,7 +578,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkm/g0;->p(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -662,7 +587,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0, p1}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -760,7 +685,7 @@
 
     .line 57
     .line 58
-    invoke-static {p1, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 59
     .line 60
@@ -773,7 +698,7 @@
     move-result-object p0
 
     .line 65
-    invoke-static {p0, v2}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 66
     .line 67
@@ -961,6 +886,9 @@
     .line 231
     .line 232
     .line 233
+    .line 234
+    .line 235
+    .line 236
 .end method
 
 .method private static final isAtLeastPreReleaseCodename$codenameToInt(Ljava/lang/String;)Ljava/lang/Integer;
@@ -983,7 +911,7 @@
 
     .line 8
     .line 9
-    invoke-static {p0, v0}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -992,7 +920,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, v0}, Lkm/g0;->g(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 15
     .line 16
@@ -1074,23 +1002,13 @@
     .line 76
     .line 77
     .line 78
+    .line 79
 .end method
 
 .method public static final isAtLeastQ()Z
     .locals 2
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x1d
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Android Q is a finalized release and this method is no longer necessary. It will be removed in a future release of this library. Instead, use `Build.VERSION.SDK_INT >= 29`."
-        replaceWith = .subannotation Ljl/w0;
-            expression = "android.os.Build.VERSION.SDK_INT >= 29"
-            imports = {}
-        .end subannotation
     .end annotation
 
     .line 1
@@ -1127,23 +1045,13 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final isAtLeastR()Z
     .locals 2
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x1e
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Android R is a finalized release and this method is no longer necessary. It will be removed in a future release of this library. Instead, use `Build.VERSION.SDK_INT >= 30`."
-        replaceWith = .subannotation Ljl/w0;
-            expression = "android.os.Build.VERSION.SDK_INT >= 30"
-            imports = {}
-        .end subannotation
     .end annotation
 
     .line 1
@@ -1180,6 +1088,7 @@
     .line 18
     .line 19
     .line 20
+    .line 21
 .end method
 
 .method public static final isAtLeastS()Z
@@ -1187,17 +1096,6 @@
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x1f
         codename = "S"
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Android S is a finalized release and this method is no longer necessary. It will be removed in a future release of this library. Instead, use `Build.VERSION.SDK_INT >= 31`."
-        replaceWith = .subannotation Ljl/w0;
-            expression = "android.os.Build.VERSION.SDK_INT >= 31"
-            imports = {}
-        .end subannotation
     .end annotation
 
     .line 1
@@ -1229,7 +1127,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -1320,6 +1218,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static final isAtLeastSv2()Z
@@ -1327,17 +1227,6 @@
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x20
         codename = "Sv2"
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Android Sv2 is a finalized release and this method is no longer necessary. It will be removed in a future release of this library. Instead, use `Build.VERSION.SDK_INT >= 32`."
-        replaceWith = .subannotation Ljl/w0;
-            expression = "android.os.Build.VERSION.SDK_INT >= 32"
-            imports = {}
-        .end subannotation
     .end annotation
 
     .line 1
@@ -1369,7 +1258,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -1460,6 +1349,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static final isAtLeastT()Z
@@ -1467,17 +1358,6 @@
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x21
         codename = "Tiramisu"
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Android Tiramisu is a finalized release and this method is no longer necessary. It will be removed in a future release of this library. Instead, use `Build.VERSION.SDK_INT >= 33`."
-        replaceWith = .subannotation Ljl/w0;
-            expression = "android.os.Build.VERSION.SDK_INT >= 33"
-            imports = {}
-        .end subannotation
     .end annotation
 
     .line 1
@@ -1509,7 +1389,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -1600,6 +1480,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static final isAtLeastU()Z
@@ -1607,17 +1489,6 @@
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x22
         codename = "UpsideDownCake"
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Android UpsideDownCase is a finalized release and this method is no longer necessary. It will be removed in a future release of this library. Instead, use `Build.VERSION.SDK_INT >= 34`."
-        replaceWith = .subannotation Ljl/w0;
-            expression = "android.os.Build.VERSION.SDK_INT >= 34"
-            imports = {}
-        .end subannotation
     .end annotation
 
     .line 1
@@ -1649,7 +1520,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -1740,6 +1611,8 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method
 
 .method public static final isAtLeastV()Z
@@ -1747,17 +1620,6 @@
     .annotation build Landroidx/annotation/ChecksSdkIntAtLeast;
         api = 0x23
         codename = "VanillaIceCream"
-    .end annotation
-
-    .annotation runtime Lim/o;
-    .end annotation
-
-    .annotation runtime Ljl/n;
-        message = "Android VanillaIceCream is a finalized release and this method is no longer necessary. It will be removed in a future release of this library. Instead, use `Build.VERSION.SDK_INT >= 35`."
-        replaceWith = .subannotation Ljl/w0;
-            expression = "android.os.Build.VERSION.SDK_INT >= 35"
-            imports = {}
-        .end subannotation
     .end annotation
 
     .line 1
@@ -1789,7 +1651,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1}, Lkm/g0;->o(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -1880,4 +1742,6 @@
     .line 82
     .line 83
     .line 84
+    .line 85
+    .line 86
 .end method

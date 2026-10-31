@@ -203,7 +203,6 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 .method public final updateMapController(Lcom/baidu/platform/comapi/map/MapController;)V
@@ -236,5 +235,4 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method

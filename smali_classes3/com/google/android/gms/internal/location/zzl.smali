@@ -3,19 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lc9/o;
-
-
-# annotations
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$a;
-    creator = "FusedLocationProviderResultCreator"
-.end annotation
-
-.annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$g;
-    value = {
-        0x3e8
-    }
-.end annotation
+.implements Lcom/google/android/gms/common/api/h;
 
 
 # static fields
@@ -34,11 +22,6 @@
 
 # instance fields
 .field public final a:Lcom/google/android/gms/common/api/Status;
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$c;
-        getter = "getStatus"
-        id = 0x1
-    .end annotation
-.end field
 
 
 # direct methods
@@ -63,11 +46,11 @@
 
     .line 9
     .line 10
-    new-instance v0, Lba/b4;
+    new-instance v0, Lcom/google/android/gms/internal/location/w0;
 
     .line 11
     .line 12
-    invoke-direct {v0}, Lba/b4;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/internal/location/w0;-><init>()V
 
     .line 13
     .line 14
@@ -82,18 +65,10 @@
     .line 20
     .line 21
     .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(Lcom/google/android/gms/common/api/Status;)V
     .locals 0
-    .param p1    # Lcom/google/android/gms/common/api/Status;
-        .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$e;
-            id = 0x1
-        .end annotation
-    .end param
-    .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$b;
-    .end annotation
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
@@ -124,14 +99,14 @@
     .line 22
     .line 23
     .line 24
-    .line 25
 .end method
 
 
 # virtual methods
-.method public final getStatus()Lcom/google/android/gms/common/api/Status;
+.method public final d()Lcom/google/android/gms/common/api/Status;
     .locals 1
 
+    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/location/zzl;->a:Lcom/google/android/gms/common/api/Status;
 
     return-object v0
@@ -141,7 +116,7 @@
     .locals 4
 
     .line 1
-    invoke-static {p1}, Lj9/a;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lu2/a;->a(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -159,12 +134,12 @@
     const/4 v3, 0x1
 
     .line 9
-    invoke-static {p1, v3, v1, p2, v2}, Lj9/a;->S(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v3, v1, p2, v2}, Lu2/a;->o(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 10
     .line 11
     .line 12
-    invoke-static {p1, v0}, Lj9/a;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Lu2/a;->b(Landroid/os/Parcel;I)V
 
     .line 13
     .line 14
@@ -215,9 +190,4 @@
     .line 58
     .line 59
     .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
 .end method
